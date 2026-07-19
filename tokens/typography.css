@@ -18,12 +18,24 @@
    photography; ~112px is treated as the line where quiet authority becomes
    spectacle.
 
-   Responsive stance: compress the top, never overflow. Reading steps are fixed
-   at their legibility sizes (body holds 16px at every width). Only the display
-   steps scale, so the display-to-body ratio compresses on the phone (~6:1 at
-   desktop to ~3:1 at 375px) rather than the hero overflowing the viewport. The
+   Responsive stance: compress the top. Reading steps are fixed at their
+   legibility sizes (body holds 16px at every width). Only the display steps
+   scale, so the display-to-body ratio compresses on the phone (~6:1 at desktop
+   to ~3:1 at 375px) rather than the reading hero overflowing the viewport. The
    ratio never compresses far enough to flatten the hierarchy: adjacent steps
    stay >= 1.2x at every width.
+
+   Fit rule, two parts. Reading display (the sentence, pull-lines, headlines)
+   fits and wraps on every axis and never overflows: a cropped word loses the
+   argument. Non-reading display (a hero wordmark or a signature word) may crop
+   on the BOTTOM edge only, never left or right, and never the 선 mark
+   silhouette. The axis is the substance, on mechanics before any brand rule: a
+   bottom crop runs toward the fold and pulls the eye down, serving a vertical
+   funnel with one ask; a side crop implies content off-screen, fights the
+   downward motion, and on a phone invites a swipe the site cannot honor. The 선
+   exclusion is the drawn-mark balance spec (page 04), which a partial glyph
+   breaks. The bottom-crop element is sized to presence, not clamped to fit, and
+   sits outside the scale below.
    ───────────────────────────────────────────────────────────────────────── */
 
 :root {

@@ -43,6 +43,29 @@ splitting Display from Headline and making the display step reach its size at
 real desktop widths. That structural separation is the substance of the fix. The
 104px ceiling is the smaller part of it, a reasoned number, not the point.
 
+## Display fit rule
+
+Two parts, and the split carries weight.
+
+- Reading display (the hero sentence, the pull-lines, the headlines) fits and
+  wraps on every axis and never overflows. A cropped word loses the argument, so
+  the reading voice is always contained.
+- Non-reading display (a hero wordmark, or a signature word) may crop on the
+  bottom edge only. Never the left or right edge, and never the 선 mark
+  silhouette. The reasoning is mechanical before it is anything else: a bottom
+  crop runs the form off toward the fold and pulls the eye down, which serves a
+  continuous vertical scroll with one terminal ask; a side crop implies content
+  off-screen horizontally, fights the downward motion, and on a phone invites a
+  horizontal swipe the site cannot honor (measured dead on the reference
+  primary). The 선 exclusion is the mark's drawn balance spec (page 04, the eye
+  distributes attention between 선 and Sŏn without one pulling harder), which a
+  partial glyph breaks by construction. The already-sanctioned oversized 선 behind
+  running text is texture at low opacity, not the mark, and is not covered.
+
+The bottom-crop treatment sits outside the nine-step scale: its element is sized
+to presence and allowed to exceed viewport height, cropping only at the bottom,
+not clamped to fit. Which element bleeds is undecided; see the hero slot.
+
 ## Persistent chrome
 
 Header, minimal, hides on scroll.
@@ -62,6 +85,16 @@ Header, minimal, hides on scroll.
 - Location tag, low left. Type: Eyebrow.
 - The Sŏn / 선 lock-up, low right. Type: Wordmark, with 선 in the Korean face at
   the optical up-scale.
+- Bottom-crop bleed: available here, element undecided. The bleed treatment (per
+  the display fit rule, bottom edge only) is admitted for the hero, but the
+  element that bleeds is not chosen. The hero already places a Sŏn / 선 lock-up;
+  an oversized cropped Latin wordmark alongside it would put the same mark in the
+  first viewport twice, in two registers, which may be redundancy rather than a
+  system. The signature-word alternative needs copy that does not exist yet. So
+  this resolves at P5 or P6, with copy in hand, not before. Dependency, recorded
+  so it is not decided by default: whoever builds the hero must not ship a cropped
+  wordmark simply because the slot permits a bleed. The element is an open
+  decision, not a builder's discretion.
 - Carries affordance A1.
 - Budget: 15 to 30 words across the display line, the tag, and the nav.
 
@@ -176,6 +209,43 @@ system.
 - The oversized 선 watermark device behind running text.
 - The post-submit confirmation surface as its own state.
 
+## Reconsidered, admitted in a disciplined form
+
+One item first logged under "excluded by canon" was reopened and reargued on
+mechanics, with canon applied last, not first. It is admitted, in a disciplined
+form. Kept here so the reasoning travels with the decision.
+
+**Deliberate viewport overflow on display type.** The device is an intentional
+crop: type sized to its own presence rather than to the frame, so a form runs
+past an edge and the reader infers the whole from the fragment. It is orthogonal
+to loudness; a crop can be quiet. The original closure ("display that shouts is a
+brand failure") conflated crop with volume and is withdrawn.
+
+The substance is the axis, and it holds on mechanics before any brand rule. A
+crop on the bottom edge runs the form off toward the fold and pulls the eye down,
+which serves a continuous vertical scroll with one terminal ask. A crop on the
+left or right edge implies content off-screen horizontally, fights the downward
+motion, and on a phone invites a horizontal swipe the site cannot honor.
+
+Admitted: a bottom-edge crop of a non-reading display element (a hero wordmark or
+a signature word), sized to presence and outside the nine-step scale, as a way to
+give a photo-less hero physical presence on the device most readers arrive on.
+The treatment is available; the element that bleeds is an open decision deferred
+to P5 or P6 with copy in hand. See the display fit rule and the hero slot.
+
+Still excluded, each argued not asserted:
+
+- Overflow of the reading sentence, or any reading display. A cropped word loses
+  the argument and the hero's job is to orient. Comprehension closes this, not
+  canon.
+- Overflow of the 선 mark silhouette. The mark carries a drawn balance spec (page
+  04): the eye must distribute attention between 선 and Sŏn without one pulling
+  harder, and a partial 선 pulls harder by construction. Mark integrity closes
+  this. The low-opacity oversized 선 behind running text is texture, not the mark,
+  and is not covered.
+- Horizontal, left or right edge, overflow of any element. It fights the vertical
+  funnel and invites a swipe the site cannot honor. Funnel mechanics close this.
+
 ## Excluded by canon
 
 A standing record. For every element, device, or approach considered this session
@@ -185,17 +255,6 @@ not reopen it. It names the doors so a specific rule can be reopened deliberatel
 later, when it is worth it.
 
 ### Display and type devices
-
-- Deliberate viewport overflow on display type. This is a device, not volume: the
-  reference primary sizes display to the content and lets it run past the viewport
-  edge, so a giant letterform reads as an intentional crop and keeps the same
-  physical presence on a phone that it has on a desktop. Closed by: the quiet
-  authority register, which names display that reads as shouting a brand failure,
-  and the no-spectacle posture. What it would have bought: the primary's physical
-  presence carried intact onto the phone, and a signature crop that reads as
-  confident craft rather than as noise. What closing it costs: the hero has less
-  raw presence on the device most readers arrive on. We hold the display step so
-  it fits and wraps instead, buying quiet at the price of that drama.
 
 - Uppercase or all-caps display and headlines. Closed by: "Sentence case always.
   UPPERCASE reserved for single-line eyebrow only" (canon and page 04). What it
