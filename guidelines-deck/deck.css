@@ -12,7 +12,7 @@
 }
 
 deck-stage:not(:defined) { visibility: hidden; }
-html, body { margin: 0; background: #0b0b0b; }
+html, body { margin: 0; background: var(--son-color-plum-ink); }
 
 /* ── Slide base ──────────────────────────────────────────────────────────── */
 .s {

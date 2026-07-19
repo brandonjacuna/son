@@ -3,7 +3,7 @@
   "rules": {
     "color-no-hex": [true, {
       "severity": "error",
-      "message": "Raw hex color — use a design-system color token via var(--son-*). The only hex lives in tokens/colors.css primitives and the gold-foil stripe in guidelines/colors-special.html."
+      "message": "Raw hex color — use a design-system color token via var(--son-*). The only hex lives in tokens/colors.css primitives, the gold-foil stripe in guidelines/colors-special.html, and the self-contained guidelines-deck/ rendered exports (tokens unavailable there)."
     }],
     "color-named": ["never", {
       "severity": "error",
@@ -23,7 +23,8 @@
   "overrides": [
     { "files": ["**/*.html"], "customSyntax": "postcss-html" },
     { "files": ["tokens/colors.css"], "rules": { "color-no-hex": null } },
-    { "files": ["guidelines/colors-special.html"], "rules": { "color-no-hex": null } }
+    { "files": ["guidelines/colors-special.html"], "rules": { "color-no-hex": null } },
+    { "files": ["guidelines-deck/*.html"], "rules": { "color-no-hex": null } }
   ],
   "ignoreFiles": [
     "uploads/**",
