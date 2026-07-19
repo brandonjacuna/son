@@ -474,6 +474,160 @@ Housekeeping:
 
 ---
 
+## 8. Mobile translation
+
+How each site renders itself on a touch device. Sections 1 through 7 describe desktop and
+do not change. This section is observation only.
+
+Raw evidence is in `refs/notes/mobile-measurements.md`. Sources are tagged as before:
+measured off the live page, computed by arithmetic, or inferred with the evidence stated.
+
+### How this was rendered
+
+A real device was emulated, not a resized viewport. The profile was the Playwright
+"iPhone 13" descriptor, which brings the touch flag, an iOS Safari user agent, and device
+pixel ratio 3, so a site that branches on touch support reads as touch, not as a narrow
+desktop. Confirmed on-page (measured): user agent iOS 15 Safari, `navigator.maxTouchPoints`
+1, `"ontouchstart" in window` true, `(pointer: coarse)` true, `(hover: none)` true, device
+pixel ratio 3, innerWidth 390. Every reading below sat behind that profile.
+
+Tooling note. The named DevTools MCP (`.mcp.json`) was not present in the working directory.
+Playwright, the project's own capture dependency behind `scripts/shoot.mjs`, was used in its
+place. It emulates the device and, through CDP touch events, drives real swipe gestures, so
+the primary question below was answered by measurement, not inference. `refs/clips/` held no
+phone capture this session, so no decomposed clip fed the question.
+
+### The primary's horizontal track on touch
+
+The horizontal scrub track does not survive as a swipe. It collapses to a vertical scroll
+column. This was measured three ways, on `/en`, `/en/night`, and `/en/podium`.
+
+- No track. An exhaustive walk of every element for a row-direction flex wider than the
+  viewport returned zero on all three routes (measured). `document.scrollWidth` was 401 on
+  `/en` and 390 on the other two (measured), so there is no horizontal overflow to travel
+  across.
+- Gestures. A driven vertical swipe moved `scrollY` from 0 to 774 on `/en`, 0 to 966 on
+  `/en/night`, 0 to 1002 on `/en/podium` (measured). A driven horizontal swipe moved
+  `scrollX` to 11px, a rubber-band bounce, and left `scrollY` unchanged (measured). Touch
+  drives vertical scroll only; a horizontal swipe advances nothing.
+- Mechanism. A `(max-width: 767px)` media rule targets the `w-max`, `flex-row`,
+  `horizontal`, and `a-parallax` selectors, alongside a `(min-width: 1024px)` rule and a
+  `(pointer: coarse)` query (measured, scanned from the stylesheets). So the collapse is a
+  width breakpoint at 767px and below, reinforced by a coarse-pointer query. The
+  `.-horizontal` parallax modifier class is still in the DOM (measured) but its computed
+  transform is `none` (measured), so the horizontal drift is switched off, not re-eased.
+
+The Lenis instance is configured exactly as on desktop (measured `window._lenis.options`):
+orientation vertical, gestureOrientation vertical, syncTouch false, lerp 0.1, duration 0.8.
+On desktop that vertical wheel is virtualised into horizontal travel by the `w-max` track; on
+mobile there is no track, so Lenis simply smooths the native vertical scroll.
+
+What is lost: the wheel-remapped horizontal traversal and the horizontal parallax drift.
+What is kept: the panels and their content, the timed reveals, the three-value ground, and
+the per-route gate. The chapter still reads. Its content lays out top to bottom as a vertical
+narrative and reveals on the same timed transitions. This finding is measured, from gesture
+driving plus DOM and CSS reads, not inferred.
+
+### The primary, everything else
+
+- Structure changes, it is not only a reflow. The defining desktop move, a horizontal
+  wheel-remapped track, is removed and the panels are re-laid as a vertical stack (measured
+  bounding-rect tops increasing down the page, widths at viewport). This is the only site in
+  the set whose structure changes on mobile.
+- Chapter count is unchanged: twelve routes, each still showing its own gate (measured
+  `lenis-stopped` before entry on every route tested). Within-chapter panel count was not
+  cleanly re-counted at mobile; the panel content is present as stacked blocks, so no count
+  change is asserted.
+- The ground system carries over intact: white, yellow `#ffe500`, and soft black `#161616`
+  still appear on stacked blocks and swap block to block down the column (measured
+  background-color), where on desktop they swapped panel to panel across the track.
+- Type ramp. The display face is unchanged, Arges-Condensed weight 400, letter-spacing
+  normal (measured). The tiers scale down together by a near-constant factor of about 0.91
+  to 0.94 (computed): chapter-takeover letters 584px against desktop 640px, section title
+  241px against 256px, body 20px against 21.6px. Line-height on the takeover letters holds
+  at 0.8 leading (computed 467.2 / 584). So the display-to-body ratio is preserved across
+  widths, about 29 on mobile against about 30 on desktop (computed). The giant display is
+  kept near full size and overflows the 390px viewport rather than being scaled to fit.
+- Motion. The timed reveals are kept identical (measured transition strings unchanged from
+  section 2: masked block reveal 500ms ease-out-cubic, line rise 260ms ease-in-quad). The
+  two scrub behaviours are dropped, because their axis is gone: the horizontal traversal has
+  no track, and the horizontal parallax computes to `none`. The timed system survives whole;
+  the scrub system is removed.
+- Navigation keeps its shape. The `(About)` and `(Chapters)` affordances stay inline
+  (measured button text); no hamburger reduction was seen. The header hides on scroll as on
+  desktop (measured header not visible after scrolling).
+
+### The secondaries, one pass each
+
+All three keep a single vertical-scroll column under one URL (measured `document.scrollWidth`
+390 on each), so on the vertical axis they reflow rather than restructure. Where each departs
+is below.
+
+hobro.digital.
+
+- Reflow only, taller as content stacks (measured scrollHeight 18308 mobile against 15835 at
+  the desktop-session viewport).
+- Motion is mostly kept: GSAP 3.12.7 with 105 ScrollTriggers against 116 on desktop
+  (measured), about nine in ten surviving.
+- Navigation collapses to a mobile menu button (measured `header__btn-mobile visible-mobile`
+  in the header band); the full link set stays in the DOM behind it.
+- Calls to action stay dense and repeat down the column: the persistent "GET CAPABILITIES
+  DECK" in the chrome and again at three points down the page, plus "Got Project?" twice and
+  "GET YOUR COPY" (measured vertical positions). None are fixed.
+- The type ramp compresses. The 300-weight italic display drops to 120px from desktop 193px,
+  while the body holds near 22px, so the display-to-body ratio falls to about 5.5 from about
+  12 (computed). Weight contrast and size-growing negative tracking are kept (measured
+  -1.2px at 120px against -1.93px at 193px).
+
+creativeglu.ai.
+
+- Reflow, and shorter than desktop (measured scrollHeight 8298 against 9902). Multi-column
+  grids collapse: `grid-cols-1 lg:grid-cols-2` computes to a single 358px track, with one
+  2-up 163px grid retained (measured grid-template-columns).
+- The fixed WebGL hero is dropped. Zero canvas elements after a six-second settle and a
+  scroll pass, and no sphere or three.js element anywhere (measured). The desktop's still,
+  time-based centre is not built on mobile.
+- The custom magnifier cursor is shipped but inert: its `cursor-magnifier` and `cursor-dot`
+  elements are in the DOM, display block, but not visible (measured offsetParent null). Touch
+  has no pointer to magnify.
+- Navigation reduces to a persistent "PARTNER WITH US" near the top (measured position); a
+  named toggle was not positively identified, so the reduction is read from the absent inline
+  link row (inferred).
+- Calls to action stay dense: "Partner With Us" at top, repeated "Start the Conversation" and
+  "Explore AI Transformation" through the body, an FAQ accordion, and "Contact Us" at the
+  foot (measured, ten hits). The timed on-enter reveal model is unchanged, no scroll library
+  either width (measured).
+- The type ramp compresses: Inter hero 40px against desktop 72px, body 16px, ratio about 2.5
+  against about 4.5 (computed). The 400 to 700 weight ramp is kept.
+
+matteprojects.com.
+
+- Reflow, similar height (measured scrollHeight 10961 against 10063). The named column grid
+  does not fully collapse: `site-grid` computes to six 52.5px tracks at mobile against a
+  twelve-column desktop grid at its 800px breakpoint (measured grid-template-columns). Matte
+  halves its grid rather than dropping to one column, so the editorial grid device survives.
+- Motion is kept: Lenis 1.1.13 still smooths the scroll and the one hero video is still
+  present (measured). The on-enter fade-plus-rise reveals are unchanged. No custom cursor.
+- Navigation collapses to a "Menu" trigger (measured "Menu" button in the header band).
+- Calls to action are low density, matching a portfolio: three inline "View Project", one
+  "Get In Touch", and a footer "Projects" and email (measured positions).
+- The type ramp roughly holds. The 300-weight serif display sits at 75px, flat against the
+  desktop 75px read, carried by an explicit mobile display class (measured
+  `display--sans--mobile`); the monospace label face is preserved for metadata and consent
+  labels (measured). Display-to-body is about 4.7 (computed). This is the one secondary that
+  does not compress its display, mirroring the primary.
+
+### Where structure changes and where it only reflows
+
+Only the primary changes structure on mobile, from a horizontal wheel-remapped track to a
+vertical stack. The three secondaries reflow their single vertical column and no more. This
+follows from the axis: a horizontal wheel remap has no touch equivalent, so it has to be
+rebuilt, while a vertical column only has to narrow. Touch also removes the pointer-dependent
+flourishes, creativeglu's WebGL hero and its custom cursor both go, one removed and one left
+inert, while matte's video, which needs no pointer, stays.
+
+---
+
 ## Scratch
 
 Patterns worth keeping in mind. These are notes, not part of the design system, and they do
@@ -507,3 +661,27 @@ From the secondaries:
   display feel set rather than default.
 - A monospace used only for metadata and bracket labels (matte) is a low-cost way to mark
   structure and signal craft without adding a display face.
+
+From the mobile pass:
+
+- A type ramp can either scale down as a whole into mobile, keeping the display-to-body ratio
+  fixed across widths (the primary and matte), or flatten the display toward the body on small
+  screens (hobro and creativeglu). These are two distinct stances on responsive type: hold the
+  ratio, or compress the top of the ramp. The choice is separate from the face and weight
+  choices, and it is measurable per breakpoint.
+- The primary keeps its display type near full size and lets it overflow a 390px viewport
+  rather than fitting the letters to the screen. Sizing display type to the content and
+  clipping, instead of sizing it to the viewport, is a way to keep the same physical presence
+  on a small screen that the large type has on a large one.
+- A horizontal wheel-remapped track has no touch equivalent, so it cannot reflow, it has to be
+  rebuilt as a vertical column. A model that leads with a horizontal scrub axis is buying a
+  second layout for touch, where a vertical column only narrows. The cost of the horizontal
+  idea is paid twice.
+- Pointer-dependent flourishes do not carry to touch. A custom cursor becomes inert and a
+  fixed WebGL centre can be dropped rather than ported. Anything that reads as the signature of
+  the desktop page may simply be absent on the device most readers arrive on, so it is worth
+  knowing which parts of a page are pointer-only before leaning on them.
+- Navigation tends to converge on mobile even when desktop navigation diverges: all three
+  secondaries collapse to a single menu trigger, while only the primary keeps its two labelled
+  affordances inline. A menu trigger is the safe default; keeping affordances inline is the
+  exception that has to be chosen.
