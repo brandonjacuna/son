@@ -1,0 +1,236 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — investor site
+   Pass 1: structure and type. Seven slots in the locked order, each element
+   on its assigned type step from tokens/typography.css. Grounds and color
+   (pass 2), the 선 system and the band (pass 3), motion (pass 4), the live
+   form (pass 5), and the accessibility pass (pass 6) land on top of this.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* ── Type steps ──
+   Class-per-step, mapped 1:1 onto the token scale. The eyebrow step is
+   .son-eyebrow from tokens/base.css; the wordmark step is the .lockup and
+   .wordmark components below. */
+.t-display {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-display);
+  line-height: var(--son-leading-display);
+  letter-spacing: var(--son-tracking-display);
+}
+.t-headline {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-headline);
+  line-height: var(--son-leading-headline);
+  letter-spacing: var(--son-tracking-headline);
+  max-width: 24ch;
+}
+.t-subhead {
+  font-family: var(--son-font-serif);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-subhead);
+  line-height: var(--son-leading-subhead);
+  letter-spacing: var(--son-tracking-normal);
+}
+.t-lead {
+  font-family: var(--son-font-body);
+  font-weight: var(--son-weight-light);
+  font-size: var(--son-text-lead);
+  line-height: var(--son-leading-lead);
+  max-width: var(--son-measure);
+}
+.t-descriptor {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-menu);
+  line-height: var(--son-leading-caption);
+}
+.t-fine {
+  font-family: var(--son-font-fine);
+  font-weight: var(--son-weight-light);
+  font-size: var(--son-text-fine);
+  line-height: var(--son-leading-fine);
+}
+
+/* ── Wordmark and lock-up ──
+   The wordmark face carries the Latin; 선 sits centered below at the Korean
+   optical up-scale, intact, never cropped. */
+.wordmark {
+  font-family: var(--son-font-wordmark);
+  font-weight: var(--son-weight-book);
+  font-size: var(--son-text-subhead);
+  line-height: 1;
+}
+.lockup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--son-font-wordmark);
+  font-weight: var(--son-weight-book);
+  line-height: 1.05;
+}
+.lockup-glyph {
+  font-family: var(--son-font-korean);
+  font-size: calc(1em * var(--son-korean-scale));
+  line-height: var(--son-leading-snug);
+}
+
+/* ── Persistent chrome ──
+   Static over the hero in this pass; hide-on-scroll behavior is pass 4. */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--son-space-3);
+  padding: var(--son-space-3) var(--son-margin-page);
+}
+.site-header-right {
+  display: flex;
+  align-items: baseline;
+  gap: var(--son-space-4);
+}
+
+/* ── Slots ──
+   10% page margin throughout (Ma). Block spacing is differential, answering
+   to content weight: the moat and the ask carry the most air. */
+.slot { padding-inline: var(--son-margin-page); }
+.slot > .son-eyebrow { margin-bottom: var(--son-space-6); }
+
+/* 1 · Hero: display block upper-left, lock-up low-right, the low-left held
+   open as active Ma. Top horizon is the chrome; the composition descends. */
+.slot-hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--son-space-16);
+  padding-bottom: var(--son-space-6);
+}
+.hero-orient { max-width: 16ch; }
+.hero-loop {
+  margin-top: var(--son-space-4);
+  max-width: 20ch;
+}
+.lockup-hero {
+  margin-top: auto;
+  align-self: flex-end;
+  font-size: var(--son-text-headline);
+}
+
+/* 2 · Moat: the one long section. Body at measure; the pull-line isolated
+   at Display; the blockquote centered one step below. */
+.slot-moat { padding-block: var(--son-space-16); }
+.moat-body p + p { margin-top: var(--son-space-4); }
+.pull-line {
+  max-width: 16ch;
+  margin-block: var(--son-space-10);
+}
+.moat-quote {
+  margin: var(--son-space-10) auto;
+  text-align: center;
+}
+.moat-quote .t-headline { margin-inline: auto; }
+
+/* 3 · Opportunity */
+.slot-opportunity { padding-block: var(--son-space-12); }
+.slot-opportunity .t-lead { margin-top: var(--son-space-6); }
+.opportunity-body { margin-top: var(--son-space-4); }
+
+/* 4 · Team: two founders, read as two people. Portrait slots reserved;
+   founder headshots are the only photography the site is allowed. */
+.slot-team { padding-block: var(--son-space-12); }
+.founders {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--son-space-8);
+}
+.founder-role { margin-top: var(--son-space-1); }
+.founder-bio { margin-top: var(--son-space-3); }
+.headshot {
+  margin: var(--son-space-4) 0 0;
+  aspect-ratio: 3 / 4;
+  max-width: 320px;
+  border: var(--son-border-hairline) solid var(--son-border-default);
+}
+
+/* 5 · Model: headline first, the band (pass 3) between it and the body. */
+.slot-model { padding-block: var(--son-space-12); }
+.slot-model .t-headline { margin-bottom: var(--son-space-8); }
+.model-body p + p { margin-top: var(--son-space-3); }
+
+/* 6 · Ask: centered headline, the form column, the disclaimer at Fine. */
+.slot-ask { padding-block: var(--son-space-16); }
+.ask-headline {
+  text-align: center;
+  margin-inline: auto;
+  margin-bottom: var(--son-space-8);
+}
+.ask-form {
+  display: grid;
+  gap: var(--son-space-4);
+  max-width: 40rem;
+  margin-inline: auto;
+}
+.field-label {
+  display: block;
+  margin-bottom: var(--son-space-1);
+}
+.field-input {
+  width: 100%;
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-body);
+  line-height: var(--son-leading-body);
+  color: inherit;
+  background: none;
+  border: var(--son-border-hairline) solid var(--son-border-default);
+  border-radius: var(--son-radius-none);
+  padding: var(--son-space-1) var(--son-space-2);
+  min-height: 44px;
+}
+textarea.field-input { resize: vertical; }
+.ask-submit {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-menu);
+  letter-spacing: var(--son-tracking-open);
+  color: inherit;
+  background: none;
+  border: var(--son-border-hairline) solid var(--son-border-strong);
+  border-radius: var(--son-radius-none);
+  min-height: 44px;
+  min-width: 44px;
+  padding: var(--son-space-1) var(--son-space-4);
+  justify-self: start;
+  cursor: pointer;
+}
+.disclaimer {
+  max-width: 40rem;
+  margin-inline: auto;
+  margin-top: var(--son-space-6);
+}
+
+/* 7 · Footer: the lock-up, the location line, the bare closing glyph. */
+.slot-footer {
+  padding-block: var(--son-space-10);
+  display: grid;
+  justify-items: center;
+  gap: var(--son-space-4);
+  text-align: center;
+}
+.lockup-footer { font-size: var(--son-text-subhead); }
+.closing-mark {
+  font-family: var(--son-font-korean);
+  font-size: var(--son-text-fine);
+  line-height: var(--son-leading-fine);
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .access-note { display: none; }
+  .founders { grid-template-columns: 1fr; }
+  .slot-moat, .slot-ask { padding-block: var(--son-space-12); }
+  .slot-opportunity, .slot-team, .slot-model { padding-block: var(--son-space-10); }
+  .slot-hero { padding-top: var(--son-space-12); }
+}

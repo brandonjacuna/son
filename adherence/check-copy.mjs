@@ -19,7 +19,7 @@ async function main() {
   // refs/ is reference material dropped in for review, not an authored surface.
   const SKIP = /^(uploads|node_modules|assets|adherence|guidelines-deck|refs)\/|(^|\/)(_ds_bundle\.js|_ds_manifest\.json|_adherence\.oxlintrc\.json|deck-stage\.js|image-slot\.js|ds-base\.js|\.thumbnail)$/;
   // Copy rules (em dash, lexicon) apply to authored brand surfaces:
-  const COPY_SCOPE = /^(components|guidelines|slides|templates|ui_kits)\//;
+  const COPY_SCOPE = /^(components|guidelines|slides|templates|ui_kits|site)\//;
   const HEX_EXEMPT = new Set(["tokens/colors.css", "guidelines/colors-special.html"]);
   // "experience" is forbidden lexicon (site canon); "guest" is banned in favor of "customer".
   const LEXICON = /\b(elevated|experiential|experiences?|innovative|disruptive|authentic|delicious|mouthwatering|vibrant|seasonal|chef-driven|hand-crafted|house-made|community-driven|curated|farm-to-table|artisanal|must-try|amazing|incredible|unforgettable|guests?)\b/gi;
