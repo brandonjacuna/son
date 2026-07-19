@@ -1,0 +1,67 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Base element defaults
+   Light touch. Sets the editorial register: warm surface, serif body,
+   sentence case, generous leading. Consumers inherit; never decorative.
+   ───────────────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--son-surface-primary);
+  color: var(--son-text-primary);
+  font-family: var(--son-font-body);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-body);
+  line-height: var(--son-leading-body);
+  font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-book);
+  line-height: var(--son-leading-tight);
+  letter-spacing: var(--son-tracking-display);
+  margin: 0;
+  text-wrap: balance;
+}
+
+p { margin: 0; text-wrap: pretty; max-width: var(--son-measure); }
+
+a { color: inherit; text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+
+/* Eyebrow — the single sanctioned uppercase context */
+.son-eyebrow {
+  font-family: var(--son-font-serif);
+  font-size: var(--son-text-eyebrow);
+  text-transform: uppercase;
+  letter-spacing: var(--son-tracking-eyebrow);
+  color: var(--son-text-secondary);
+  font-weight: var(--son-weight-regular);
+}
+
+/* Hangul — applies the Korean companion + optical up-scale */
+.son-kr {
+  font-family: var(--son-font-korean);
+  font-size: calc(1em * var(--son-korean-scale));
+  line-height: var(--son-leading-snug);
+}
+
+/* 선 glyph — the sole mandatory structural constant. Color resolves per theme. */
+.son-glyph {
+  font-family: var(--son-font-korean);
+  color: var(--son-glyph);
+  line-height: 1;
+  display: inline-block;
+}
+
+::selection { background: color-mix(in srgb, var(--son-accent) 30%, transparent); }
+
+:focus-visible {
+  outline: var(--son-border-hairline) solid var(--son-focus-ring);
+  outline-offset: 2px;
+}

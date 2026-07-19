@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/tokens/base.css">
+  <link rel="stylesheet" href="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/tokens/components.css">
+  <link rel="stylesheet" href="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/styles.css">
+  <script src="_ds/s-n-design-system-4d795d13-05e7-4f5b-aea6-31c6c73c84fb/_ds_bundle.js"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    a:hover { color: var(--son-accent); }
+    image-slot { display: block; width: 100%; height: 100%; }
+    .son-btn:disabled { opacity: 0.55; pointer-events: none; }
+    .sn-note { display: none; }
+    .sn-ask { background: var(--son-color-aubergine); }
+    .sn-ask[data-ask-surface="peacock"] { background: var(--son-color-peacock); }
+    .sn-opfield { --f-ink: var(--son-color-bone); background: var(--son-color-peacock); min-height: clamp(360px, 58vh, 560px); }
+    .sn-opfield[data-field="jade"] { --f-ink: var(--son-color-plum-ink); background: var(--son-color-jade); }
+    .sn-stag { display: flex; flex-direction: column; gap: clamp(48px, 8vh, 64px); }
+    .sn-s2 { align-self: flex-end; }
+    .sn-s3 { margin-left: 6%; }
+    .sn-s4 { margin-left: 16%; }
+    .sn-stripe { display: flex; align-items: flex-start; padding: clamp(14px, 2.2vw, 30px); }
+    .sn-dp { display: flex; flex-direction: column; gap: 10px; writing-mode: vertical-rl; }
+    .sn-foot { display: flex; flex-direction: column; align-items: flex-start; gap: 48px; }
+    @media (min-width: 640px) { .sn-note { display: inline-block; } }
+    @media (min-width: 760px) {
+      .sn-stripe { align-items: flex-end; }
+      .sn-dp { writing-mode: horizontal-tb; }
+      .sn-foot { flex-direction: row; justify-content: space-between; align-items: flex-end; gap: 32px; }
+    }
+    @media (min-width: 900px) {
+      .sn-stag { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0; }
+      .sn-s1 { grid-column: 1 / 8; }
+      .sn-s2 { grid-column: 6 / 13; justify-self: end; margin-top: clamp(64px, 9vh, 112px); }
+      .sn-s3 { grid-column: 2 / 9; margin-top: clamp(72px, 10vh, 128px); margin-left: 0; }
+      .sn-s4 { grid-column: 5 / 12; margin-top: clamp(64px, 9vh, 112px); margin-left: 0; justify-self: end; }
+      .sn-split { display: grid; grid-template-columns: minmax(0, 1.04fr) minmax(0, 0.96fr); }
+    }
+  </style>
+</helmet>
+
+<section id="top" data-theme="dinner" data-screen-label="Hero" style="background: var(--son-surface-primary); color: var(--son-text-primary); min-height: 100svh; display: flex; flex-direction: column; overflow: hidden;">
+  <nav style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: clamp(20px, 3vw, 32px) clamp(20px, 5vw, 64px);">
+    <a href="#top" aria-label="Sŏn, top of page" style="text-decoration: none; display: inline-flex;">
+      <span style="font-family: var(--son-font-wordmark); font-size: 24px; line-height: 1; letter-spacing: 0.005em; color: var(--son-text-primary);">Sŏn</span>
+    </a>
+    <div style="display: flex; align-items: center; gap: clamp(16px, 2.5vw, 32px);">
+      <span class="son-eyebrow sn-note" style="color: var(--son-text-on-dark-secondary);">By request only</span>
+      <a class="son-btn son-btn--secondary" href="#ask" style="font-family: var(--son-font-serif); font-size: 13px; font-weight: 400; letter-spacing: 0.02em; line-height: 1; padding: 10px 18px; border: 1px solid var(--son-border-strong); border-radius: var(--son-radius-sm); color: var(--son-text-primary); background: transparent; text-decoration: none; display: inline-flex; align-items: center; transition: background var(--son-motion-standard) var(--son-ease-standard);" style-hover="background: color-mix(in srgb, var(--son-text-primary) 8%, transparent); color: var(--son-text-primary);" style-active="opacity: 0.8;">Request the briefing</a>
+    </div>
+  </nav>
+  <div style="flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 48px; padding: clamp(24px, 6vh, 88px) clamp(20px, 5vw, 64px) clamp(24px, 4.5vh, 56px);">
+    <h1 style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.75rem, 1.05rem + 2.7vw, 2.875rem); line-height: var(--son-leading-tight); letter-spacing: var(--son-tracking-display); max-width: 24ch; color: var(--son-text-primary); margin: 0;">One Korean room in St. Elmo, open from first light to last call. Fine dining at dinner. A standing order by morning.</h1>
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;">
+      <span style="font-family: var(--son-font-serif); font-size: 12px; letter-spacing: 0.08em; color: var(--son-text-on-dark-secondary); padding-bottom: 10px;">St. Elmo · South Austin</span>
+      <span role="img" aria-label="Sŏn" style="display: inline-flex; flex-direction: column; align-items: center; gap: 0.24em; font-size: clamp(6.5rem, 26vw, 15.5rem); margin-right: clamp(0px, 2vw, 40px);">
+        <span style="font-family: var(--son-font-wordmark); font-size: 1em; line-height: 0.92; letter-spacing: 0.005em; color: var(--son-text-primary);">Sŏn</span>
+        <span class="son-glyph" aria-hidden="true" style="font-size: 0.42em;">선</span>
+      </span>
+    </div>
+  </div>
+</section>
+
+<section id="concept" data-screen-label="01 The concept" style="background: var(--son-color-bone); color: var(--son-text-primary); padding: clamp(88px, 14vh, 176px) clamp(20px, 5vw, 64px);">
+  <div style="max-width: 1360px; margin: 0 auto;">
+    <span class="son-eyebrow">01 · The concept</span>
+    <div class="sn-stag" style="margin-top: clamp(40px, 7vh, 88px);">
+      <h2 class="sn-s1" style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.875rem, 1.05rem + 3.4vw, 3.5rem); line-height: var(--son-leading-tight); letter-spacing: var(--son-tracking-display); max-width: 17ch; margin: 0;">One room. One kitchen. One team. Open from morning coffee to late night.</h2>
+      <p class="sn-s2" style="font-family: var(--son-font-serif); font-size: clamp(1.375rem, 1rem + 1.6vw, 2rem); line-height: var(--son-leading-snug); max-width: 26ch; margin: 0;">Most restaurants are pointed at the plate. We are pointed at the relationship. The plate is how we earn the right to have one.</p>
+      <p class="sn-s3" style="font-family: var(--son-font-body); font-weight: 300; font-size: clamp(1.125rem, 1rem + 0.55vw, 1.375rem); line-height: var(--son-leading-body); max-width: 36ch; margin: 0;">Most restaurants earn from the room for one service and carry it the whole day. We earn from it the whole day.</p>
+      <p class="sn-s4" style="font-family: var(--son-font-body); font-weight: 300; font-size: clamp(1.125rem, 1rem + 0.55vw, 1.375rem); line-height: var(--son-leading-body); color: var(--son-text-secondary); max-width: 40ch; margin: 0;">Built by an operator who came up through Austin's coffee bars and its fine dining rooms, for the customer those rooms already serve.</p>
+    </div>
+  </div>
+</section>
+
+<section id="why" data-theme="dinner" data-screen-label="02 Why this" style="background: var(--son-surface-primary); color: var(--son-text-primary); position: relative; overflow: hidden; padding: clamp(96px, 15vh, 192px) clamp(20px, 5vw, 64px); --sn-go: {{ glyphO }};">
+  <span class="son-glyph" aria-hidden="true" style="position: absolute; top: clamp(140px, 24vh, 260px); right: clamp(4px, 3vw, 64px); font-size: clamp(12rem, 34vw, 30rem); line-height: 0.9; opacity: var(--sn-go, 0.07);">선</span>
+  <div style="max-width: 1240px; margin: 0 auto; position: relative;">
+    <div style="max-width: var(--son-measure); display: flex; flex-direction: column;">
+      <span class="son-eyebrow" style="color: var(--son-text-on-dark-secondary);">02 · Why this</span>
+      <p style="margin: clamp(40px, 7vh, 72px) 0 0; font-family: var(--son-font-body); font-size: clamp(1.125rem, 1.02rem + 0.5vw, 1.3125rem); line-height: var(--son-leading-loose);">In every good restaurant there is someone like Renata. On a full Friday she is the reason the room works. She is the floor manager, and she knows the couple at table nine are celebrating a promotion, not the anniversary the reservation noted, because the husband mentioned it at the bar a month ago.</p>
+      <p style="margin: clamp(64px, 12vh, 128px) 0; font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.5rem, 1.1rem + 2vw, 2.5rem); line-height: var(--son-leading-tight); letter-spacing: var(--son-tracking-display); max-width: 22ch;">Tonight is her last night. She has a better offer across town.</p>
+      <p style="margin: 0; font-family: var(--son-font-body); font-size: clamp(1.125rem, 1.02rem + 0.5vw, 1.3125rem); line-height: var(--son-leading-loose);">The owners will be fine, they tell each other. They have a reservation book, a point of sale, a training binder. What they do not say is that the few hundred facts are leaving in her coat. Next month the couple at table nine arrives to a room that has forgotten them.</p>
+    </div>
+    <blockquote style="margin: clamp(72px, 12vh, 140px) 0 clamp(72px, 12vh, 140px) auto; max-width: min(88%, 19ch); font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.75rem, 1.2rem + 2.8vw, 3.25rem); line-height: var(--son-leading-tight); letter-spacing: var(--son-tracking-display); color: var(--son-text-on-dark-secondary); text-wrap: balance;">What looks like a people business is a memory business, and the restaurant remembered nothing.</blockquote>
+    <div style="max-width: var(--son-measure); display: flex; flex-direction: column; gap: clamp(28px, 4.5vh, 40px);">
+      <p style="margin: 0; font-family: var(--son-font-body); font-size: clamp(1.125rem, 1.02rem + 0.5vw, 1.3125rem); line-height: var(--son-leading-loose);">Only two things in a restaurant compound. The organization, when its system keeps what the team learns. And the customer, whose relationship deepens with every visit. Everything else a good competitor copies in a season.</p>
+      <p style="margin: 0; font-family: var(--son-font-body); font-size: clamp(1.125rem, 1.02rem + 0.5vw, 1.3125rem); line-height: var(--son-leading-loose);">We are building the restaurant where, the night Renata leaves, the table is still held and the promotion still remembered. The knowledge was never only in her head.</p>
+    </div>
+  </div>
+</section>
+
+<section id="opportunity" data-screen-label="03 The opportunity" class="sn-split" style="background: var(--son-color-bone); color: var(--son-text-primary);">
+  <div style="padding: clamp(88px, 14vh, 176px) clamp(20px, 5vw, 64px); display: flex; flex-direction: column; justify-content: center;">
+    <span class="son-eyebrow">03 · The opportunity</span>
+    <h2 style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.75rem, 1.1rem + 2.6vw, 3rem); line-height: var(--son-leading-tight); letter-spacing: var(--son-tracking-display); max-width: 21ch; margin: clamp(32px, 5vh, 56px) 0 0;">Korean cooking has reached the top tier of recognition in this country. In the city where dining is judged hardest, it holds the highest honors.</h2>
+    <p style="font-family: var(--son-font-body); font-weight: 300; font-size: clamp(1.125rem, 1rem + 0.55vw, 1.375rem); line-height: var(--son-leading-body); max-width: 42ch; margin: clamp(28px, 4.5vh, 48px) 0 0;">Austin's rise and Korean cuisine's rise are on the same curve. Sŏn sits at the intersection.</p>
+    <p style="font-family: var(--son-font-serif); font-size: clamp(1.125rem, 1rem + 0.55vw, 1.375rem); line-height: var(--son-leading-snug); color: var(--son-text-secondary); max-width: 38ch; margin: clamp(20px, 3vh, 32px) 0 0;">The customer this room is built for is already here, in concentration.</p>
+  </div>
+  <div class="sn-opfield" data-field="{{ opportunityField }}" style="position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+    <span aria-hidden="true" style="font-family: var(--son-font-korean); font-size: clamp(9rem, 26vmin, 17rem); line-height: 1; color: var(--f-ink);">선</span>
+    <span style="position: absolute; left: clamp(16px, 2.5vw, 30px); bottom: clamp(14px, 2vw, 26px); font-family: var(--son-font-serif); font-size: 12px; letter-spacing: 0.08em; color: var(--f-ink);">Room photography to come. Found light, no stock, no AI.</span>
+  </div>
+</section>
+
+<section id="team" data-screen-label="04 The team" style="background: var(--son-color-parchment); color: var(--son-text-primary); padding: clamp(88px, 14vh, 176px) clamp(20px, 5vw, 64px);">
+  <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: clamp(48px, 7vh, 80px);">
+    <span class="son-eyebrow">04 · The team</span>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); gap: clamp(48px, 5vw, 88px);">
+      <article style="display: flex; flex-direction: column; gap: 18px;">
+        <div style="width: 100%; aspect-ratio: 4 / 5; position: relative;"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="portrait-brandon" shape="rect" fit="cover" placeholder="Portrait to come" hint-size="100%,420px" style="width: 100%; height: 100%;"></x-import></div>
+        <span style="font-family: var(--son-font-serif); font-size: 12px; letter-spacing: 0.08em; color: var(--son-text-secondary);">Real portrait, found light, no stock, no AI.</span>
+        <h3 style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.5rem, 1.2rem + 1vw, 1.875rem); line-height: var(--son-leading-tight); margin: 10px 0 0;">Brandon Acuña-Cardona</h3>
+        <span class="son-eyebrow">Operations and strategy</span>
+        <p style="font-family: var(--son-font-body); font-weight: 300; font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem); line-height: var(--son-leading-body); margin: 4px 0 0;">Has opened and run restaurants at the level Sŏn is aiming for, most recently as opening service director at Coqodaq, Simon Kim's Korean concept from the group behind Cote. Across New York, Austin, and San Antonio he takes concepts from construction through opening into stable operation.</p>
+      </article>
+      <article style="display: flex; flex-direction: column; gap: 18px;">
+        <div style="width: 100%; aspect-ratio: 4 / 5; position: relative;"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="portrait-dominic" shape="rect" fit="cover" placeholder="Portrait to come" hint-size="100%,420px" style="width: 100%; height: 100%;"></x-import></div>
+        <span style="font-family: var(--son-font-serif); font-size: 12px; letter-spacing: 0.08em; color: var(--son-text-secondary);">Real portrait, found light, no stock, no AI.</span>
+        <h3 style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.5rem, 1.2rem + 1vw, 1.875rem); line-height: var(--son-leading-tight); margin: 10px 0 0;">Dominic Thomas</h3>
+        <span class="son-eyebrow">Capital and systems</span>
+        <p style="font-family: var(--son-font-body); font-weight: 300; font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem); line-height: var(--son-leading-body); margin: 4px 0 0;">Holds the financial credentials the business requires. On one of Texas's top-producing wealth management teams, recognized by Barron's and Forbes among the best in the state in 2024 and 2025, responsible for more than three billion dollars in assets. Before that, commercial real estate.</p>
+      </article>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="room-photo" shape="rect" fit="cover" placeholder="Room photography to come" hint-size="100%,380px" style="width: 100%; height: clamp(240px, 42vh, 460px); display: block;"></x-import>
+      <span style="font-family: var(--son-font-serif); font-size: 12px; letter-spacing: 0.08em; color: var(--son-text-secondary);">Room photography to come. Found light, no stock, no AI.</span>
+    </div>
+  </div>
+</section>
+
+<section id="model" data-screen-label="05 The model" style="background: var(--son-color-bone); color: var(--son-text-primary); padding: clamp(88px, 14vh, 176px) 0;">
+  <div style="max-width: 1240px; margin: 0 auto; padding-inline: clamp(20px, 5vw, 64px);">
+    <span class="son-eyebrow">05 · The model</span>
+    <h2 style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.625rem, 1.05rem + 2.4vw, 2.75rem); line-height: var(--son-leading-tight); letter-spacing: var(--son-tracking-display); max-width: 26ch; margin: clamp(32px, 5vh, 56px) 0 0;">One footprint. Coffee, lunch, dinner, late night, against one set of fixed costs.</h2>
+  </div>
+  <div style="margin-top: clamp(48px, 8vh, 88px);">
+    <div style="display: flex; justify-content: space-between; padding-inline: clamp(20px, 5vw, 64px); margin-bottom: 14px;">
+      <span style="font-family: var(--son-font-serif); font-size: 12px; letter-spacing: 0.08em; color: var(--son-text-secondary);">First light</span>
+      <span style="font-family: var(--son-font-serif); font-size: 12px; letter-spacing: 0.08em; color: var(--son-text-secondary);">Last call</span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); min-height: clamp(300px, 44vh, 480px);">
+      <div class="sn-stripe" style="background: var(--son-color-jade);">
+        <div class="sn-dp">
+          <span style="font-family: var(--son-font-display); font-size: clamp(1.125rem, 0.9rem + 1.2vw, 1.75rem); line-height: 1.1; color: var(--son-color-plum-ink);">Coffee</span>
+          <span style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: var(--son-tracking-eyebrow); color: var(--son-color-plum-ink);">MORNING - WINDOW SERVICE</span>
+        </div>
+      </div>
+      <div class="sn-stripe" style="background: var(--son-color-onggi);">
+        <div class="sn-dp">
+          <span style="font-family: var(--son-font-display); font-size: clamp(1.125rem, 0.9rem + 1.2vw, 1.75rem); line-height: 1.1; color: var(--son-color-bone);">Lunch</span>
+          <span style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: var(--son-tracking-eyebrow); color: var(--son-color-parchment);">MIDDAY - WINDOW SERVICE</span>
+        </div>
+      </div>
+      <div class="sn-stripe" style="background: var(--son-color-plum-ink);">
+        <div class="sn-dp">
+          <span style="font-family: var(--son-font-display); font-size: clamp(1.125rem, 0.9rem + 1.2vw, 1.75rem); line-height: 1.1; color: var(--son-color-bone);">Dinner</span>
+          <span style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: var(--son-tracking-eyebrow); color: var(--son-color-parchment);">EVENING - FULL SERVICE</span>
+        </div>
+      </div>
+      <div class="sn-stripe" style="background: var(--son-color-aubergine);">
+        <div class="sn-dp">
+          <span style="font-family: var(--son-font-display); font-size: clamp(1.125rem, 0.9rem + 1.2vw, 1.75rem); line-height: 1.1; color: var(--son-color-bone);">Late night</span>
+          <span style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: var(--son-tracking-eyebrow); color: var(--son-color-parchment);">LAST CALL - FULL SERVICE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="max-width: 1240px; margin: clamp(40px, 7vh, 72px) auto 0; padding-inline: clamp(20px, 5vw, 64px); display: flex; flex-direction: column; gap: clamp(32px, 5.5vh, 56px);">
+    <p style="font-family: var(--son-font-body); font-weight: 300; font-size: clamp(1.125rem, 1rem + 0.55vw, 1.375rem); line-height: var(--son-leading-body); max-width: 52ch; margin: 0;">One set of fixed costs, the whole band. Each daypart is another reason to come back, and another return on the same rent.</p>
+    <p style="font-family: var(--son-font-serif); font-size: 0.9375rem; color: var(--son-text-secondary); margin: 0;">The amount, the structure, and the returns are <a href="#ask">in the briefing</a>.</p>
+  </div>
+</section>
+
+<section id="ask" data-screen-label="06 The ask" class="sn-ask" data-ask-surface="{{ askSurface }}" style="color: var(--son-color-bone); padding: clamp(88px, 14vh, 176px) clamp(20px, 5vw, 64px);">
+  <div style="max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; gap: clamp(28px, 5vh, 44px);">
+    <span class="son-eyebrow" style="color: var(--son-color-parchment);">06 · The ask</span>
+    <h2 style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.625rem, 1.1rem + 2.4vw, 2.75rem); line-height: var(--son-leading-tight); letter-spacing: var(--son-tracking-display); max-width: 22ch; color: var(--son-color-bone); margin: 0;">We share the briefing with a small number of partners.</h2>
+  </div>
+  <form novalidate="" onSubmit="{{ onSubmit }}" aria-busy="{{ ariaBusy }}" style="margin: clamp(40px, 6vh, 64px) auto 0; width: 100%; max-width: 560px; background: var(--son-color-bone); color: var(--son-text-primary); border-radius: var(--son-radius-sm); padding: clamp(28px, 6vw, 56px); text-align: left;">
+    <sc-if value="{{ showForm }}" hint-placeholder-val="{{ true }}">
+      <div style="display: flex; flex-direction: column; gap: clamp(24px, 3.5vh, 32px);">
+        <div style="display: flex; flex-direction: column; gap: 8px; --sn-fb: {{ nameBorder }}; --sn-fbh: {{ nameBorderHover }};">
+          <label for="ask-name" style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--son-text-secondary);">Full name</label>
+          <input id="ask-name" name="name" type="text" autocomplete="name" class="son-field" ref="{{ nameRef }}" onInput="{{ onNameInput }}" aria-invalid="{{ nameInvalid }}" disabled="{{ isLoading }}" style="font-family: var(--son-font-body); font-size: 16px; color: var(--son-text-primary); background: transparent; border: 0; border-bottom: 1px solid var(--sn-fb, var(--son-border-default)); border-radius: 0; padding: 10px 2px; width: 100%; appearance: none; transition: border-color var(--son-motion-standard) var(--son-ease-standard);" style-hover="border-bottom-color: var(--sn-fbh, var(--son-border-strong));" style-focus="border-bottom-color: var(--son-focus-ring);">
+          <sc-if value="{{ hasNameError }}" hint-placeholder-val="{{ false }}"><span role="alert" style="font-family: var(--son-font-body); font-size: 12.5px; color: var(--son-color-onggi);">{{ nameError }}</span></sc-if>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px; --sn-fb: {{ emailBorder }}; --sn-fbh: {{ emailBorderHover }};">
+          <label for="ask-email" style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--son-text-secondary);">Email</label>
+          <input id="ask-email" name="email" type="email" autocomplete="email" inputMode="email" class="son-field" ref="{{ emailRef }}" onInput="{{ onEmailInput }}" aria-invalid="{{ emailInvalid }}" disabled="{{ isLoading }}" style="font-family: var(--son-font-body); font-size: 16px; color: var(--son-text-primary); background: transparent; border: 0; border-bottom: 1px solid var(--sn-fb, var(--son-border-default)); border-radius: 0; padding: 10px 2px; width: 100%; appearance: none; transition: border-color var(--son-motion-standard) var(--son-ease-standard);" style-hover="border-bottom-color: var(--sn-fbh, var(--son-border-strong));" style-focus="border-bottom-color: var(--son-focus-ring);">
+          <sc-if value="{{ hasEmailError }}" hint-placeholder-val="{{ false }}"><span role="alert" style="font-family: var(--son-font-body); font-size: 12.5px; color: var(--son-color-onggi);">{{ emailError }}</span></sc-if>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <label for="ask-company" style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--son-text-secondary);">Company or affiliation</label>
+          <input id="ask-company" name="company" type="text" autocomplete="organization" class="son-field" ref="{{ companyRef }}" disabled="{{ isLoading }}" style="font-family: var(--son-font-body); font-size: 16px; color: var(--son-text-primary); background: transparent; border: 0; border-bottom: 1px solid var(--son-border-default); border-radius: 0; padding: 10px 2px; width: 100%; appearance: none; transition: border-color var(--son-motion-standard) var(--son-ease-standard);" style-hover="border-bottom-color: var(--son-border-strong);" style-focus="border-bottom-color: var(--son-focus-ring);">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <label for="ask-interest" style="font-family: var(--son-font-serif); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--son-text-secondary);">What interests you about Sŏn?</label>
+          <textarea id="ask-interest" name="interest" rows="4" class="son-field" ref="{{ interestRef }}" disabled="{{ isLoading }}" style="font-family: var(--son-font-body); font-size: 16px; color: var(--son-text-primary); background: transparent; border: 0; border-bottom: 1px solid var(--son-border-default); border-radius: 0; padding: 10px 2px; width: 100%; appearance: none; resize: vertical; min-height: 92px; line-height: var(--son-leading-body); transition: border-color var(--son-motion-standard) var(--son-ease-standard);" style-hover="border-bottom-color: var(--son-border-strong);" style-focus="border-bottom-color: var(--son-focus-ring);"></textarea>
+        </div>
+        <button type="submit" class="son-btn son-btn--primary" disabled="{{ isLoading }}" style="font-family: var(--son-font-serif); font-size: 15px; font-weight: 400; letter-spacing: 0.02em; line-height: 1; padding: 16px 32px; width: 100%; border: 1px solid var(--son-surface-inverse); border-radius: var(--son-radius-sm); cursor: pointer; background: var(--son-surface-inverse); color: var(--son-surface-primary); display: inline-flex; align-items: center; justify-content: center; margin-top: 8px; appearance: none; transition: background var(--son-motion-standard) var(--son-ease-standard), border-color var(--son-motion-standard) var(--son-ease-standard), opacity var(--son-motion-fast) var(--son-ease-standard);" style-hover="background: var(--son-color-aubergine); border-color: var(--son-color-aubergine);" style-active="opacity: 0.86;">
+          <sc-if value="{{ notLoading }}" hint-placeholder-val="{{ true }}">Submit</sc-if>
+          <sc-if value="{{ isLoading }}" hint-placeholder-val="{{ false }}">Sending.</sc-if>
+        </button>
+      </div>
+    </sc-if>
+    <sc-if value="{{ isSuccess }}" hint-placeholder-val="{{ false }}">
+      <div role="status" style="min-height: 320px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 20px; padding: 24px 0;">
+        <span class="son-glyph" aria-hidden="true" style="font-size: 40px;">선</span>
+        <h3 style="font-family: var(--son-font-display); font-weight: 400; font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem); line-height: var(--son-leading-tight); margin: 0;">Your request is in.</h3>
+        <p style="font-family: var(--son-font-body); font-weight: 300; font-size: 1.125rem; line-height: var(--son-leading-body); margin: 0;">You will hear from us within a day.</p>
+      </div>
+    </sc-if>
+  </form>
+  <p style="text-align: center; margin: clamp(20px, 3vh, 28px) auto 0; max-width: 52ch; font-family: var(--son-font-body); font-size: 0.8125rem; line-height: 1.6; color: var(--son-color-parchment);">By submitting this, you are requesting access to our materials. This is not an offer to sell securities.</p>
+</section>
+
+<footer data-theme="dinner" data-screen-label="Footer" style="background: var(--son-surface-primary); color: var(--son-text-primary);">
+  <div class="sn-foot" style="max-width: 1360px; margin: 0 auto; padding: clamp(64px, 10vh, 120px) clamp(20px, 5vw, 64px);">
+    <span role="img" aria-label="Sŏn" style="display: inline-flex; flex-direction: column; align-items: center; gap: 0.24em; font-size: clamp(3.25rem, 5vw, 4.5rem);">
+      <span style="font-family: var(--son-font-wordmark); font-size: 1em; line-height: 0.95; letter-spacing: 0.005em; color: var(--son-text-primary);">Sŏn</span>
+      <span class="son-glyph" aria-hidden="true" style="font-size: 0.42em;">선</span>
+    </span>
+    <p style="font-family: var(--son-font-body); font-weight: 300; font-size: 1rem; color: var(--son-text-on-dark-secondary); margin: 0;">South Austin. By request only.</p>
+    <span style="display: inline-flex; align-items: baseline; gap: 10px;">
+      <span class="son-kr" style="font-size: 15px; color: var(--son-glyph);">선</span>
+      <span style="font-family: var(--son-font-serif); font-size: 14px; color: var(--son-text-on-dark-secondary);">· St. Elmo</span>
+    </span>
+  </div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;askSurface&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;aubergine&quot;, &quot;peacock&quot;], &quot;default&quot;: &quot;aubergine&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Surfaces&quot; },
+  &quot;opportunityField&quot;: { &quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;peacock&quot;, &quot;jade&quot;], &quot;default&quot;: &quot;peacock&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Surfaces&quot; },
+  &quot;glyphOpacity&quot;: { &quot;editor&quot;: &quot;range&quot;, &quot;min&quot;: 0.04, &quot;max&quot;: 0.16, &quot;step&quot;: 0.01, &quot;default&quot;: 0.07, &quot;tsType&quot;: &quot;number&quot;, &quot;section&quot;: &quot;02 Why this&quot; }
+}">
+class Component extends DCLogic {
+  state = { status: "idle", nameError: "", emailError: "" };
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    if (this.state.status === "loading") return;
+    const name = ((this.nameEl && this.nameEl.value) || "").trim();
+    const email = ((this.emailEl && this.emailEl.value) || "").trim();
+    const nameError = name ? "" : "Enter your full name.";
+    const emailError = /^\S+@\S+\.\S+$/.test(email) ? "" : "Enter a working email.";
+    if (nameError || emailError) {
+      this.setState({ status: "idle", nameError, emailError }, () => {
+        const first = nameError ? this.nameEl : this.emailEl;
+        if (first) first.focus();
+      });
+      return;
+    }
+    this.setState({ status: "loading", nameError: "", emailError: "" });
+    this.submitTimer = setTimeout(() => this.setState({ status: "success" }), 900);
+  };
+
+  componentWillUnmount() {
+    clearTimeout(this.submitTimer);
+  }
+
+  renderVals() {
+    const s = this.state;
+    const errBorder = "var(--son-color-onggi)";
+    return {
+      askSurface: this.props.askSurface ?? "aubergine",
+      opportunityField: this.props.opportunityField ?? "peacock",
+      glyphO: String(this.props.glyphOpacity ?? 0.07),
+      showForm: s.status !== "success",
+      isSuccess: s.status === "success",
+      isLoading: s.status === "loading",
+      notLoading: s.status !== "loading",
+      ariaBusy: s.status === "loading" ? "true" : "false",
+      hasNameError: !!s.nameError,
+      hasEmailError: !!s.emailError,
+      nameError: s.nameError,
+      emailError: s.emailError,
+      nameInvalid: s.nameError ? "true" : "false",
+      emailInvalid: s.emailError ? "true" : "false",
+      nameBorder: s.nameError ? errBorder : "var(--son-border-default)",
+      emailBorder: s.emailError ? errBorder : "var(--son-border-default)",
+      nameBorderHover: s.nameError ? errBorder : "var(--son-border-strong)",
+      emailBorderHover: s.emailError ? errBorder : "var(--son-border-strong)",
+      nameRef: (el) => { this.nameEl = el; },
+      emailRef: (el) => { this.emailEl = el; },
+      companyRef: (el) => { this.companyEl = el; },
+      interestRef: (el) => { this.interestEl = el; },
+      onNameInput: () => { if (this.state.nameError) this.setState({ nameError: "" }); },
+      onEmailInput: () => { if (this.state.emailError) this.setState({ emailError: "" }); },
+      onSubmit: this.handleSubmit,
+    };
+  }
+}
+</script>
+</body>
+</html>

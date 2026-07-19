@@ -27,6 +27,7 @@
     { "files": ["guidelines-deck/*.html"], "rules": { "color-no-hex": null } }
   ],
   "ignoreFiles": [
+    "refs/**",
     "uploads/**",
     "_ds_bundle.js",
     "**/deck-stage.js",

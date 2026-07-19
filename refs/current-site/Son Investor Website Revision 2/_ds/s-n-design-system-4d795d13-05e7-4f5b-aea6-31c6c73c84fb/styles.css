@@ -1,0 +1,14 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Sŏn — Design System · global entry point
+   Future Nostalgia Hospitality Group · 207 E St. Elmo Rd, Austin, Texas
+
+   Consumers link this one file. It imports the full token + base closure.
+   Keep this file as @import lines only.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@import url("./tokens/fonts.css");
+@import url("./tokens/colors.css");
+@import url("./tokens/typography.css");
+@import url("./tokens/spacing.css");
+@import url("./tokens/base.css");
+@import url("./tokens/components.css");

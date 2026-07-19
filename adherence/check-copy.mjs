@@ -16,7 +16,8 @@ async function main() {
   const ROOT = resolve(dirname(process.argv[1]), "..");
   // guidelines-deck/ is a rendered documentation artifact (it quotes both sides
   // of the voice rules); infra js + compiler outputs + uploads are not surfaces.
-  const SKIP = /^(uploads|node_modules|assets|adherence|guidelines-deck)\/|(^|\/)(_ds_bundle\.js|_ds_manifest\.json|_adherence\.oxlintrc\.json|deck-stage\.js|image-slot\.js|ds-base\.js|\.thumbnail)$/;
+  // refs/ is reference material dropped in for review, not an authored surface.
+  const SKIP = /^(uploads|node_modules|assets|adherence|guidelines-deck|refs)\/|(^|\/)(_ds_bundle\.js|_ds_manifest\.json|_adherence\.oxlintrc\.json|deck-stage\.js|image-slot\.js|ds-base\.js|\.thumbnail)$/;
   // Copy rules (em dash, lexicon) apply to authored brand surfaces:
   const COPY_SCOPE = /^(components|guidelines|slides|templates|ui_kits)\//;
   const HEX_EXEMPT = new Set(["tokens/colors.css", "guidelines/colors-special.html"]);

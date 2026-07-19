@@ -1,0 +1,137 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Color System
+   Eight colors. No tints. No shades. No exceptions. (+ pale-jade, a derived
+   morning token, and gold-foil as a documented physical-only specification.)
+
+   Three tiers:
+   · Primitive  — raw values, identity names         (--son-color-*)
+   · Semantic   — role names, resolve per data-theme  (--son-surface-* etc.)
+   · Component  — exception layer (see component CSS)
+
+   Dot-notation in the brand spec (son.color.parchment) maps 1:1 to the
+   kebab-case custom properties below (--son-color-parchment).
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Primitive tier — the closed palette ── */
+  --son-color-parchment: #DBC9B0;   /* primary warm surface              */
+  --son-color-bone:      #EDE7D8;   /* secondary light surface, cooler   */
+  --son-color-plum-ink:  #120916;   /* hero dark — dinner                */
+  --son-color-aubergine: #2E1F31;   /* secondary dark — late night       */
+  --son-color-jade:      #8DA982;   /* signature sage — morning / luxe   */
+  --son-color-peacock:   #3E5640;   /* deep green — structure / support  */
+  --son-color-onggi:     #804A33;   /* earthen clay — Dosi               */
+  --son-color-pale-jade: #C8D4BE;   /* DERIVED morning token — not a palette color */
+
+  /* Gold Foil: digital REPRESENTATION only. Physical spec: Pantone 871C /
+     Kurz Luxor 220. There is no surface/text token for it by design.
+     Never use as a flat digital fill. */
+  --son-color-gold-foil: #BC9A5C;
+
+  --son-color-white: #FFFFFF;
+
+  /* ── Semantic tier — base / editorial register ──
+     Default surface is warm off-white. This is the deck + digital default. */
+  --son-surface-primary:   var(--son-color-bone);
+  --son-surface-secondary: var(--son-color-parchment);
+  --son-surface-inverse:   var(--son-color-plum-ink);
+
+  --son-text-primary:      var(--son-color-plum-ink);
+  --son-text-secondary:    var(--son-color-peacock);
+  --son-text-on-dark:      var(--son-color-bone);
+  --son-text-on-dark-secondary: var(--son-color-parchment);
+
+  --son-border-default: color-mix(in srgb, var(--son-color-plum-ink) 16%, transparent);
+  --son-border-strong:  var(--son-color-plum-ink);
+  --son-icon-default:   var(--son-color-plum-ink);
+
+  --son-accent:         var(--son-color-peacock);
+  --son-glyph:          var(--son-color-plum-ink);  /* 선 on light backgrounds */
+
+  --son-focus-ring:     var(--son-color-peacock);
+}
+
+/* ── Theme: morning (Good Energy) — son.theme.morning ──
+   Pale Jade ground, Peacock structure. Body text resolves to Plum Ink ONLY —
+   the token that would expose Peacock as running-text color does not exist. */
+[data-theme="morning"] {
+  --son-surface-primary:   var(--son-color-pale-jade);
+  --son-surface-secondary: var(--son-color-bone);
+  --son-surface-inverse:   var(--son-color-peacock);
+
+  --son-text-primary:      var(--son-color-plum-ink);
+  --son-text-secondary:    var(--son-color-peacock);   /* display >18pt / non-text only */
+  --son-text-on-dark:      var(--son-color-bone);
+  --son-text-on-dark-secondary: var(--son-color-pale-jade);
+
+  --son-border-default: color-mix(in srgb, var(--son-color-peacock) 38%, transparent);
+  --son-border-strong:  var(--son-color-peacock);
+  --son-icon-default:   var(--son-color-peacock);
+
+  --son-accent:         var(--son-color-peacock);
+  --son-glyph:          var(--son-color-plum-ink);
+  --son-focus-ring:     var(--son-color-peacock);
+}
+
+/* ── Theme: dosi (lunch) — son.theme.dosi ── */
+[data-theme="dosi"] {
+  --son-surface-primary:   var(--son-color-parchment);
+  --son-surface-secondary: var(--son-color-bone);
+  --son-surface-inverse:   var(--son-color-onggi);
+
+  --son-text-primary:      var(--son-color-plum-ink);
+  --son-text-secondary:    var(--son-color-onggi);
+  --son-text-on-dark:      var(--son-color-bone);
+  --son-text-on-dark-secondary: var(--son-color-parchment);
+
+  --son-border-default: color-mix(in srgb, var(--son-color-onggi) 34%, transparent);
+  --son-border-strong:  var(--son-color-onggi);
+  --son-icon-default:   var(--son-color-onggi);
+
+  --son-accent:         var(--son-color-onggi);
+  --son-glyph:          var(--son-color-plum-ink);
+  --son-focus-ring:     var(--son-color-onggi);
+}
+
+/* ── Theme: dinner (Sŏn) — son.theme.dinner ──
+   Plum Ink ground, Aubergine layer, Bone text. NO accent. Jade is a named
+   failure mode here: it never appears as text, accent, glyph, or decoration. */
+[data-theme="dinner"] {
+  --son-surface-primary:   var(--son-color-plum-ink);
+  --son-surface-secondary: var(--son-color-aubergine);
+  --son-surface-inverse:   var(--son-color-bone);
+
+  --son-text-primary:      var(--son-color-bone);
+  --son-text-secondary:    var(--son-color-parchment);
+  --son-text-on-dark:      var(--son-color-bone);
+  --son-text-on-dark-secondary: var(--son-color-parchment);
+
+  --son-border-default: color-mix(in srgb, var(--son-color-bone) 18%, transparent);
+  --son-border-strong:  var(--son-color-bone);
+  --son-icon-default:   var(--son-color-bone);
+
+  --son-accent:         var(--son-color-parchment);  /* restraint — no chroma accent */
+  --son-glyph:          var(--son-color-bone);
+  --son-focus-ring:     var(--son-color-parchment);
+}
+
+/* ── Theme: luxe (late night) — son.theme.luxe ──
+   The only register where Jade enters, and only as the bar-back accent. */
+[data-theme="luxe"] {
+  --son-surface-primary:   var(--son-color-plum-ink);
+  --son-surface-secondary: var(--son-color-aubergine);
+  --son-surface-inverse:   var(--son-color-bone);
+
+  --son-text-primary:      var(--son-color-bone);
+  --son-text-secondary:    var(--son-color-parchment);
+  --son-text-on-dark:      var(--son-color-bone);
+  --son-text-on-dark-secondary: var(--son-color-parchment);
+
+  --son-border-default: color-mix(in srgb, var(--son-color-bone) 18%, transparent);
+  --son-border-strong:  var(--son-color-bone);
+  --son-icon-default:   var(--son-color-jade);
+
+  --son-accent:         var(--son-color-jade);       /* enters at the late-night transition */
+  --son-glyph:          var(--son-color-bone);
+  --son-focus-ring:     var(--son-color-jade);
+}
