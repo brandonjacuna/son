@@ -270,9 +270,134 @@ the first, persistent shared state and lazy mounting in the second.
 
 ---
 
-## 6. Placeholder
+## 6. Secondaries, what they do that the primary does not
 
-Reserved. To be filled next session.
+Three sites, landing surface only, one pass each: hobro.digital, creativeglu.ai,
+matteprojects.com. Raw evidence in `refs/notes/secondaries-measurements.md`. This section
+records only where a secondary is structurally distinct from the primary. It is organized
+by behavior, not by site. Sources are tagged as in section 0: measured off the live page,
+computed by arithmetic, or inferred with the evidence stated. Absolute type sizes were read
+at the in-app browser viewport and, because the sites are responsive, are read as ramp
+relationships rather than fixed values.
+
+### Axis and gate
+
+All three drop the primary's two defining structural moves. Each is a single continuous
+vertical-scroll page under one URL, with no per-section route and no per-section preloader
+gate (measured: document scrollHeight 15835px hobro, 9902px creativeglu, 10063px matte,
+one URL each, no "Start the experience" equivalent). None remaps vertical wheel into
+horizontal travel. Where the primary pays a gate at every chapter and reads as twelve
+routed horizontal tracks, the secondaries are one uninterrupted vertical column each.
+
+### Scrub is the exception, not the rule
+
+The primary is scrub-led: the whole track transforms per frame off scroll position, and
+timed CSS is held back for text reveals only. Two of the three secondaries invert that.
+
+- creativeglu.ai has no scrub at all. There is no smooth-scroll library and no scroll
+  driver (measured: no GSAP, no ScrollTrigger, no Lenis, no CSS scroll-timeline). Every
+  reveal is a timed CSS transition fired on enter, measured at 0.7s and 1s on
+  cubic-bezier(0,0,0.2,1) ease-out. Motion is entirely timed, the mirror image of the
+  primary.
+- matteprojects.com smooths the native vertical scroll with Lenis 1.1.13 (measured) but
+  scrubs nothing to scroll position (inferred: no ScrollTrigger, no scroll-timeline, only
+  on-enter reveals present). Reveals are a fade plus a short rise, measured as opacity 0 to
+  1 with transform translateY 10px to 0 on enter.
+- hobro.digital does scrub, but as a per-element eased scrub rather than one raw track.
+  Its motion is 116 GSAP ScrollTriggers (measured ScrollTrigger.getAll().length). Of those,
+  52 are scrubbed (51 at scrub 0.3, a time-lagged catch-up, measured t.vars.scrub) and 63
+  are on-enter timed toggles, with 0 pinned. So even the secondary that scrubs eases each
+  trigger on its own 0.3s constant, where the primary's scrub is raw per frame and smoothed
+  only by the global Lenis lerp.
+
+Net: the primary reserves timed motion for text and scrubs everything else; the secondaries
+lead with timed on-enter reveals and treat scrub as optional and locally eased.
+
+### A persistent hero object behind the scroll
+
+The primary's imagery is bound to the moving panels; there is no layer that stands still.
+Two secondaries add one.
+
+- creativeglu.ai fixes a full-viewport WebGL canvas at top:0 left:0 (measured: canvas
+  1280x720, position fixed) carrying an iridescent sphere that animates on its own time
+  base, behind all scrolling content. THREE is not global, so the renderer is bundled
+  (inferred from the presence of a WebGL canvas with no global three.js).
+- matteprojects.com anchors a hero video (measured: one autoplay <video>), time-based
+  rather than scrubbed.
+
+In both, a time-driven media object sits still while content scrolls over it. The primary
+has no such layer.
+
+### A custom cursor
+
+creativeglu.ai runs a custom magnifier cursor (measured elements: cursor-magnifier,
+cursor-dot, magnifier-lens, magnifier-ring). The primary has no custom cursor. Neither
+other secondary does either.
+
+### Type ramps by weight and style, and tightens as it grows
+
+The primary's type is two faces at a single weight each (400), ramped by size only, with
+letter-spacing left normal at every size. All three secondaries break at least two of those
+rules.
+
+- Weight as a ramp axis. hobro pairs Kamerik205 700 against FreigBigProLigIta 300 and adds
+  PPNeueMontreal 400 and 500 (measured font-weight). creativeglu ramps Inter 400, 500, 700
+  (measured). matte runs RM Mono 700 for labels under a light display. The primary never
+  changes weight; the secondaries carry three to four.
+- A light serif or italic for display. hobro sets its largest heading in a 300-weight
+  italic serif ("title--cursive", FreigBigProLigIta, measured "What" at 193px). matte sets
+  display in Cormorant Garamond 300 uppercase (measured "Let's Get Creative" 75px). The
+  primary's display is a condensed grotesque at 400; a light serif or italic display face
+  is a secondary-only move.
+- Negative tracking that grows with size. hobro's display tightens as it scales (measured
+  letter-spacing -1.6px at 160px, -1.93px at 193px). matte's display sits at -0.4px. The
+  primary holds letter-spacing normal at 256px and 640px; tightening large type by tracking
+  rather than only by leading is a secondary move.
+- A monospace as an editorial label face. matte uses RM Mono heavily for metadata and
+  bracket labels (measured RM Mono on roughly 250 elements, e.g. "[ WHO WE ARE ]");
+  creativeglu carries Geist Mono. The primary has no mono face.
+
+How large type enters is one place they converge with the primary rather than diverge:
+hobro also splits headings into lines and rises them in (measured ".line" split), which is
+the primary's own line-rise reveal. That is noted as shared, not distinct.
+
+### Ground
+
+The primary runs a three-value ground (yellow accent, soft black #161616, white) and swaps
+it hard at panel edges, letting the dominant value set each chapter's mood. The secondaries
+each depart from that.
+
+- Monochrome, no accent. matteprojects.com is a greyscale system with no chromatic accent
+  at all (measured grounds rgb(241,241,241) light grey dominant, rgb(129,129,129) mid grey,
+  rgb(29,29,29) near-black). It is also the only light-grounded secondary.
+- One continuous ground, variation carried elsewhere. creativeglu.ai does not swap ground.
+  It is one continuous dark field (measured oklab(0 0 0 / 0.95)) and lets the fixed WebGL
+  object, not the ground, carry the variation.
+- Pure black and modern color spaces. hobro's dominant ground is pure rgb(0,0,0), not the
+  primary's soft #161616 (measured), with a single green spot accent #00FB96 used off the
+  ground rather than as one. creativeglu declares grounds in oklab and lab (measured), where
+  the primary's tokens are hex and rgb.
+
+### Where calls to action sit
+
+The primary carries no conversion call to action. Its only button is the per-route "Start
+the experience" gate; it is an editorial narrative and sells nothing. All three secondaries
+are agency or product sites and place calls to action throughout (measured anchor and button
+text): a persistent one in the chrome (hobro "GET CAPABILITIES DECK", creativeglu "Partner
+With Us", matte "Contact") and repeated inline conversion prompts between content blocks
+(creativeglu "Start the Conversation", "Explore AI Transformation"; hobro a terminal "Got
+Project?" block). creativeglu also closes with an FAQ accordion (measured question buttons),
+a disclosure pattern the primary has no equivalent for. This is the clearest behavioral split
+and it follows from purpose: the primary tells a story, the secondaries convert.
+
+### Structure dividing
+
+Beyond the vertical-versus-horizontal split already covered, one secondary divides its page
+with a device the primary does not use: matteprojects.com lays content on a named column
+grid (measured classes "site-grid", "col-span-6" with an 800px breakpoint) and marks sections
+with monospace bracket labels ("[ WHO WE ARE ]"), an editorial index device. hobro and
+creativeglu divide by stacked feature and content blocks and are not structurally distinct
+from the primary on this axis beyond the axis itself.
 
 ---
 
@@ -310,6 +435,36 @@ Could not measure:
 - The stagger step between reveal lines, as above.
 - The chapter-takeover duration, as above.
 
+Secondaries, could not measure (section 6):
+
+- hobro.digital reveal durations. Its 63 on-enter toggles run as GSAP timelines, and the
+  GSAP core, though reachable here, exposes ScrollTrigger vars but not the tween durations
+  those toggles fire. Only the scrub values (0.3 on 51 of them) were read. Contrast the
+  primary, where reveal timing came from CSS; here it lives in JS and was not captured.
+- hobro.digital behind the preloader. The "LOADING..." gate did not clear in the in-app
+  browser during the pass, so all hobro readings are from the DOM and computed styles behind
+  the overlay, not from watching the motion run. Content was fully present and measurable,
+  but the reveals and scrub were not observed in motion. This is the client-rendered,
+  markup-invisible motion the brief flagged; it is noted, not fought.
+- matteprojects.com and creativeglu.ai smooth-scroll and scrub state. Neither exposes a
+  scroll instance on window (matte's Lenis 1.1.13 is module-scoped, creativeglu has no
+  library), so the "not scrub-led" reading for each is inferred from the absence of any
+  scroll driver and the presence of only on-enter reveals, not from a positive measurement.
+- Absolute display type sizes on all three. Read at the in-app browser viewport against
+  responsive layouts, so they stand as ramp relationships (weight contrast, tracking sign,
+  face pairing), not fixed pixel values. The relationships are robust; the exact px are not.
+- Whether the fixed hero objects (creativeglu WebGL sphere, matte video) respond to scroll
+  at all. Both were read as time-based and fixed, but a full scroll-through watching for any
+  scroll coupling was not run.
+
+Bearing on the routed-versus-continuous question. The secondaries do not resolve it. All
+three are continuous single-page vertical scroll under one URL with no routing and no
+per-section gate, which is the continuous model in the abstract, but none uses the primary's
+per-chapter Nuxt routing or its horizontal-track-per-chapter construction. They are a
+contrast to the primary, not evidence about how it chains its own routed chapters. The
+primary question, routed per chapter versus one continuous horizontal scroll, stays open and
+still needs the full uninterrupted scroll-through of `/en` named above.
+
 Housekeeping:
 
 - Screenshots were viewed live during the session but could not be written into
@@ -335,3 +490,20 @@ not carry any recommendation for our own build.
   makes the display sizes feel physical rather than decorative.
 - Soft black (#161616) instead of pure black across the ground and text is a small choice
   that reads throughout.
+
+From the secondaries:
+
+- The scrub-led primary and the timed-led secondaries are two ends of one axis, not two
+  unrelated systems. A page can lead with either. What the primary shows is that once you
+  commit to scrub for travel, you gain the freedom to reserve timed motion for text alone;
+  what creativeglu shows is that dropping the scroll library entirely and firing every reveal
+  on enter is a smaller, calmer build that still reads as considered.
+- A fixed time-based hero object with content scrolling over it (creativeglu's WebGL sphere,
+  matte's video) is a cheap way to give a still page a living center without scrubbing
+  anything to scroll.
+- Weight and a second face carry a type system when the copy is short and declarative;
+  size-only, single-weight ramps like the primary's suit long editorial runs where a single
+  voice should hold. Negative tracking that grows with size is what makes large weight-heavy
+  display feel set rather than default.
+- A monospace used only for metadata and bracket labels (matte) is a low-cost way to mark
+  structure and signal craft without adding a display face.
