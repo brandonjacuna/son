@@ -21,6 +21,23 @@ on `[data-theme="dosi"]`, and Bone on the base editorial theme. The one place
 other daypart colors appear is the model band, where they are a graphic, not a
 theme switch for running text.
 
+## Location and property constraint
+
+Standing rule, governs every external surface. Sŏn is pre-lease and unsigned.
+Until the lease is executed, no external surface names the address, the
+neighborhood, or any property identifier. The site says Austin, Texas, and
+nothing more precise. This binds the hero display line, the location tag, the
+footer location line, and the footer mark, and any surface added later.
+
+This is not a copy preference, it is a legal and factual constraint. The
+property is not secured, so naming it is a claim the venture cannot yet stand
+behind. The constraint was set at P3 and the surfaces drifted from it, which is
+how St. Elmo and South Austin sat unchecked in the copy until this sweep. When
+the lease is signed, this is the first door to reopen, and the neighborhood
+returns as orientation. Internal brand records, the guidelines deck and the
+design-system readme, may hold the true address. The constraint is external
+surfaces only.
+
 ## The type steps this architecture references
 
 Defined in `tokens/typography.css`. Sizes are px at 375 / 1280 / cap.
@@ -82,7 +99,17 @@ Header, minimal, hides on scroll.
 - The display sentence, one line that says what and where and opens the loop the
   moat will close. Type: Display. This is the single largest voice on the site,
   and the one element that earns the resolved ceiling.
-- Location tag, low left. Type: Eyebrow.
+- Location tag, low left: cut. It carried a locator at a finer gradient than the
+  display line (neighborhood beneath the line's place). The fold moved the
+  location into the display line, and the location and property constraint
+  forbids any gradient finer than Austin, Texas, so the tag had only Austin,
+  Texas left to carry, one scale below an identical string. Nothing
+  non-redundant and non-second-ask remained, so it is cut rather than filled
+  with an invented line. Structural consequence, recorded not absorbed: the
+  hero's bottom baseline loses its low-left anchor and the two-point horizon that
+  counterweighted the low-right lock-up. Rebalancing the bottom row is a layout
+  call for the structure session; the freed low-left is a candidate anchor for
+  the still-open bottom-crop bleed element below.
 - The Sŏn / 선 lock-up, low right. Type: Wordmark, with 선 in the Korean face at
   the optical up-scale.
 - Bottom-crop bleed: available here, element undecided. The bleed treatment (per
@@ -96,7 +123,7 @@ Header, minimal, hides on scroll.
   wordmark simply because the slot permits a bleed. The element is an open
   decision, not a builder's discretion.
 - Carries affordance A1.
-- Budget: 15 to 30 words across the display line, the tag, and the nav.
+- Budget: 15 to 30 words across the display line and the nav.
 
 ### 2. Why this, the moat
 
@@ -246,6 +273,20 @@ Still excluded, each argued not asserted:
 - Horizontal, left or right edge, overflow of any element. It fights the vertical
   funnel and invites a swipe the site cannot honor. Funnel mechanics close this.
 
+**The one dollar figure, Dominic's assets under management.** The site keeps
+every number off the surface: the raise amount, structure, and returns live in
+the briefing, and the page proves everything else in words. Dominic's bio
+carries the lone exception, more than three billion dollars in assets. Reopened
+against that norm and admitted, because the figure is a professional credential,
+not deal financials, and it is the irreducible proof of the capital partner's
+credibility. For a reader weighing whether the capital side is sound, the scale
+of assets his team is trusted with is the proof, and no adjective substitutes
+for it. Admitted in disciplined form: attributed to the team, not to him alone,
+since he sits on the team responsible for it; stated flat with no intensifier;
+and standing as the single deliberate numeric exception on the page, never a
+precedent for putting other numbers on the surface. The raise financials stay in
+the briefing without exception.
+
 ## Excluded by canon
 
 A standing record. For every element, device, or approach considered this session
@@ -351,6 +392,50 @@ later, when it is worth it.
   language. Closed by: canon, no internal daypart code names on any external
   surface, ever. What it would have bought: nothing external worth having; the band
   uses the descriptive names and the closure is correct.
+
+### Location and orientation
+
+- The neighborhood as hero orientation ("in St. Elmo," "South Austin," the
+  footer mark "선 · St. Elmo"). Closed by: the location and property constraint
+  above, pre-lease and unsigned, no property identifier on any external surface.
+  What it would have bought, stated so the cost is chosen and not absorbed
+  quietly: real specificity in a hero whose one job is to orient. A neighborhood
+  places the room on a mental map, sets a price band and a crowd, and tells a
+  local reader something true before a word of argument. "Austin, Texas" cannot
+  do that work. The hero now orients to a city of nearly a million people
+  instead of a block in South Austin, and the copy carries that looseness on its
+  single most orientation-dependent surface until the lease is signed. The bet
+  is that a warm, forwarded investor reads for the model and the moat, not the
+  cross streets, so the cost is real but survivable. It stops being survivable
+  the day a location-curious reader arrives cold; that is the same door the
+  no-photography cost names, and it reopens with the lease.
+
+- The opportunity field's photo-promise caption ("Room photography to come.
+  Found light, no stock, no AI"). Closed by: the location and property constraint
+  (property-agnostic, pre-lease) and the no-photography rule. It reads worse than
+  a canon brush, it is a property claim: it promises a specific room the venture
+  cannot yet show or even name, on a pre-lease site, which is the same drift the
+  neighborhood sweep just cleaned. What it would have bought: a hint of
+  forthcoming warmth and a credit asserting the photography ethic (found light,
+  no stock, no AI). Cut with nothing in its place. The field carries the 선 accent
+  glyph alone, which needs no caption. The same photo-promise recurs on the team
+  section's room slot and is closed the same way when that section is set. The
+  photography-ethic credit, if it is worth stating at all, belongs on a surface
+  that is not also making a room claim.
+
+### Voice and conviction
+
+- The photography-ethic credit as a caption ("Real portrait, found light, no
+  stock, no AI") under the founder headshots, and the identical credit on the
+  opportunity field. Closed by: no performed conviction, declarative over
+  aspirational. It announces integrity instead of demonstrating it, performed
+  conviction wearing a photo credit, and it spends words a low-word page cannot
+  afford. What it would have bought: an explicit signal of the no-stock, no-AI
+  ethic at the one place the site shows real people. Cut. The ethic is
+  demonstrated by the photograph being real, not asserted beside it. This closes
+  the thread left open when the credit was first cut from the opportunity field:
+  there is no surface on this page where announcing it reads as anything but
+  performed.
 
 ### The standing cost of no photography
 
