@@ -1,0 +1,78 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Component interaction states
+   Pseudo-class states the React primitives can't express inline.
+   Hover/press shift within the palette only — no new colors, no shadows.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* Focus, everywhere, is one spec: 2px solid ring, 2px offset — the single
+   2px exception in a 1px-hairline system, justified by focus visibility. */
+
+/* ── Button ── */
+.son-btn:focus-visible {
+  outline: 2px solid var(--son-focus-ring);
+  outline-offset: 2px;
+}
+.son-btn--primary:not(:disabled):hover {
+  background: var(--son-color-aubergine);
+  border-color: var(--son-color-aubergine);
+}
+[data-theme="dinner"] .son-btn--primary:not(:disabled):hover,
+[data-theme="luxe"] .son-btn--primary:not(:disabled):hover {
+  background: var(--son-color-parchment);
+  border-color: var(--son-color-parchment);
+}
+.son-btn--primary:not(:disabled):active { opacity: 0.86; }
+.son-btn--secondary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--son-text-primary) 7%, transparent);
+}
+.son-btn--secondary:not(:disabled):active { opacity: 0.8; }
+.son-btn--ghost:not(:disabled):hover {
+  background: color-mix(in srgb, var(--son-text-primary) 6%, transparent);
+}
+
+/* ── Input / Select ── */
+.son-field:hover { border-color: var(--son-border-strong); }
+.son-field:focus, .son-field:focus-visible {
+  outline: 2px solid var(--son-focus-ring);
+  outline-offset: 2px;
+  border-color: var(--son-focus-ring);
+}
+.son-field::placeholder { color: color-mix(in srgb, var(--son-text-primary) 42%, transparent); }
+.son-field:disabled { opacity: 0.45; cursor: not-allowed; }
+/* Error: 2px border weight + message text — never color alone; the palette has
+   no red. The 2px distinguishes error from the 1px :hover border-strong state. */
+.son-field[aria-invalid="true"] { border-width: 2px; border-color: var(--son-border-strong); }
+.son-field-error {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-fine);
+  color: var(--son-text-primary);
+}
+/* Disabled treatment shared by label-wrapped controls (Checkbox, Switch) */
+.son-control--disabled { opacity: 0.45; cursor: not-allowed; }
+.son-control--disabled * { cursor: not-allowed; }
+
+/* ── Tabs ── */
+.son-tab { transition: color var(--son-motion-standard) var(--son-ease-standard); }
+.son-tab:hover { color: var(--son-text-primary); }
+.son-tab:focus-visible { outline: 2px solid var(--son-focus-ring); outline-offset: 2px; }
+
+/* ── Checkbox / Switch control affordance ── */
+.son-control:focus-within { outline: 2px solid var(--son-focus-ring); outline-offset: 2px; }
+
+/* Checkbox: hide the tick until checked, then fill the box */
+.son-checkbox-box { color: transparent; background: transparent; }
+.son-checkbox-input:checked + .son-checkbox-box {
+  background: var(--son-surface-inverse);
+  border-color: var(--son-surface-inverse);
+  color: var(--son-surface-primary);
+}
+
+/* Switch: slide the thumb and fill the track with the accent */
+.son-switch-input:checked + .son-switch-track {
+  background: var(--son-accent);
+  border-color: var(--son-accent);
+}
+.son-switch-input:checked + .son-switch-track .son-switch-thumb {
+  transform: translateX(18px);
+  background: var(--son-surface-primary);
+}

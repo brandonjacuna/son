@@ -1,0 +1,37 @@
+<!-- @dsCard group="Colors" viewport="700x200" name="Daypart themes" subtitle="One system, four registers, set via data-theme" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .col { display: flex; flex-direction: column; gap: 8px; }
+  .pair { display: flex; height: 64px; border: 1px solid var(--son-border-default); }
+  .pair > div { flex: 1; }
+  .label { font-family: var(--son-font-serif); font-size: 14px; }
+  .sub { font-family: var(--son-font-body); font-size: 11px; color: var(--son-text-secondary); }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <div class="col">
+      <div class="pair"><div style="background:var(--son-color-pale-jade)"></div><div style="background:var(--son-color-peacock)"></div></div>
+      <div class="label">Morning</div><div class="sub">Good Energy · Pale Jade / Peacock</div>
+    </div>
+    <div class="col">
+      <div class="pair"><div style="background:var(--son-color-parchment)"></div><div style="background:var(--son-color-onggi)"></div></div>
+      <div class="label">Dosi</div><div class="sub">Lunch · Parchment / Onggi</div>
+    </div>
+    <div class="col">
+      <div class="pair"><div style="background:var(--son-color-aubergine)"></div><div style="background:var(--son-color-plum-ink)"></div></div>
+      <div class="label">Dinner</div><div class="sub">Sŏn · Aubergine / Plum Ink</div>
+    </div>
+    <div class="col">
+      <div class="pair"><div style="background:var(--son-color-plum-ink)"></div><div style="background:var(--son-color-jade)"></div></div>
+      <div class="label">Late night</div><div class="sub">Luxe · Plum Ink / Jade accent</div>
+    </div>
+  </div>
+</body>
+</html>

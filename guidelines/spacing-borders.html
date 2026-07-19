@@ -1,0 +1,21 @@
+<!-- @dsCard group="Spacing" viewport="700x180" name="Borders & corners" subtitle="1px hairline. Near-square corners. No decoration." -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 26px 32px; display: flex; gap: 22px; align-items: center; }
+  .box { width: 120px; height: 86px; border: 1px solid var(--son-border-strong);
+         display: flex; align-items: flex-end; padding: 8px; }
+  .n { font-family: var(--son-font-body); font-size: 11px; color: var(--son-text-secondary); }
+  .note { font-family: var(--son-font-body); font-size: 12px; color: var(--son-text-secondary);
+          max-width: 26ch; line-height: 1.5; }
+</style>
+</head>
+<body>
+  <div class="box" style="border-radius: var(--son-radius-none)"><span class="n">radius 0</span></div>
+  <div class="box" style="border-radius: var(--son-radius-sm)"><span class="n">radius 2px</span></div>
+  <div class="note">One hairline weight. No 2px borders, no double rules, no colored left-border accents.</div>
+</body>
+</html>

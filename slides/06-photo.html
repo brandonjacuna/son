@@ -1,0 +1,30 @@
+<!-- @dsCard group="Slides" viewport="1280x720" name="Full-bleed photograph" subtitle="One image, full bleed · recessive caption" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<script src="image-slot.js"></script>
+<style>
+  html,body { margin:0; }
+  .slide { width:1280px; height:720px; background: var(--son-color-plum-ink); color: var(--son-color-bone);
+           position: relative; overflow: hidden; font-family: var(--son-font-body); }
+  image-slot { position:absolute; inset:0; width:1280px; height:720px; }
+  .overlay { position:absolute; left:0; right:0; bottom:0; height:55%; pointer-events:none;
+             background: linear-gradient(to top, color-mix(in srgb, var(--son-color-plum-ink) 78%, transparent), transparent); }
+  .cap { position:absolute; left:64px; bottom:56px; font-family: var(--son-font-body);
+         font-weight:300; font-size:16px; letter-spacing:0.02em; color: var(--son-color-parchment); }
+  .glyph { position:absolute; right:64px; bottom:52px; font-family: var(--son-font-korean);
+           font-size:26px; color: var(--son-color-bone); }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <image-slot id="deck-fullbleed" shape="rect" fit="cover"
+      placeholder="Drop a photograph. Context A: the room, inhabited"></image-slot>
+    <div class="overlay"></div>
+    <div class="cap">The fireplace, the center of the room.</div>
+    <div class="glyph">선</div>
+  </div>
+</body>
+</html>

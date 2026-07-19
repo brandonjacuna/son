@@ -1,0 +1,273 @@
+/* ───────────────────────────────────────────────────────────────────────────
+   SŎN — Brand and Experiential Guidelines
+   Deck stylesheet. Section 14 register: editorial, Bone/Parchment ground,
+   dark surfaces reserved and controlled. Tokens come from ../styles.css.
+   Canvas: 1280 × 720.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --pad-x: 124px;
+  --pad-y: 74px;
+  --hair: var(--son-border-default);
+}
+
+deck-stage:not(:defined) { visibility: hidden; }
+html, body { margin: 0; background: #0b0b0b; }
+
+/* ── Slide base ──────────────────────────────────────────────────────────── */
+.s {
+  width: 100%; height: 100%; box-sizing: border-box;
+  padding: var(--pad-y) var(--pad-x);
+  font-family: var(--son-font-body);
+  position: relative; overflow: hidden;
+  display: flex; flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+.bone      { background: var(--son-color-bone);      color: var(--son-color-plum-ink); }
+.parchment { background: var(--son-color-parchment); color: var(--son-color-plum-ink); }
+.ink       { background: var(--son-color-plum-ink);  color: var(--son-color-bone); }
+.aubergine { background: var(--son-color-aubergine); color: var(--son-color-bone); }
+
+/* ── Type primitives ─────────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--son-font-display); font-weight: 400;
+  letter-spacing: -0.015em; line-height: 1.05; margin: 0;
+}
+.eyebrow {
+  font-family: var(--son-font-serif); font-weight: 400;
+  font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.22em;
+  color: var(--son-color-peacock);
+}
+.parchment .eyebrow { color: var(--son-color-onggi); }
+.ink .eyebrow, .aubergine .eyebrow { color: var(--son-color-parchment); }
+
+.kr { font-family: var(--son-font-korean); }
+em { font-style: italic; }
+
+p { margin: 0; }
+.body {
+  font-family: var(--son-font-body); font-size: 18px; line-height: 1.62;
+  max-width: 58ch; font-weight: 400;
+}
+.lead {
+  font-family: var(--son-font-body); font-weight: 300;
+  font-size: 21px; line-height: 1.55; max-width: 40ch;
+}
+.fine {
+  font-family: var(--son-font-body); font-weight: 300;
+  font-size: 13px; line-height: 1.5; color: var(--son-color-peacock);
+}
+.ink .fine, .aubergine .fine { color: var(--son-color-parchment); }
+.parchment .fine { color: var(--son-color-onggi); }
+
+/* ── Status markers — filled / hollow / half square ──────────────────────── */
+.status { display: flex; align-items: center; gap: 11px; }
+.status .sq { width: 11px; height: 11px; box-sizing: border-box; flex: none; position: relative; }
+.status .lbl {
+  font-family: var(--son-font-serif); font-size: 11.5px;
+  text-transform: uppercase; letter-spacing: 0.2em;
+}
+.status.lg .sq { width: 14px; height: 14px; }
+.status.lg .lbl { font-size: 13px; }
+
+.s-complete { --mk: var(--son-color-peacock); }
+.s-complete .sq { background: var(--mk); }
+.s-held     { --mk: var(--son-color-onggi); }
+.s-held .sq { border: 1.5px solid var(--mk); }
+.s-deferred { --mk: var(--son-color-peacock); }
+.s-deferred .sq { border: 1px solid var(--mk); }
+.s-deferred .sq::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 50%;
+  background: var(--mk);
+}
+.status .lbl { color: var(--mk); }
+.parchment .s-complete, .parchment .s-deferred { --mk: var(--son-color-onggi); }
+/* On dark surfaces the mark + label go parchment; shape alone carries state */
+.ink .status, .aubergine .status { --mk: var(--son-color-parchment); }
+
+/* Persistent corner status on held/deferred content slides */
+.corner {
+  position: absolute; top: var(--pad-y); right: var(--pad-x);
+}
+
+/* ── 01 · Cover ──────────────────────────────────────────────────────────── */
+.cover { justify-content: space-between; }
+.cover .mark { display: flex; flex-direction: column; gap: 12px; }
+.cover .latin { font-family: var(--son-font-wordmark); font-size: 76px; line-height: 0.9; }
+.cover .mark .kr { font-size: 33px; line-height: 1; }
+.cover h1 { font-size: 56px; line-height: 1.08; max-width: 17ch; text-wrap: balance; }
+.cover .cover-sub { font-family: var(--son-font-body); font-weight: 300; font-size: 23px; line-height: 1.45; margin-top: 20px; max-width: 30ch; color: var(--son-color-peacock); }
+.cover .foot { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; }
+.cover .foot .addr { font-size: 14px; color: var(--son-color-peacock); max-width: 26ch; line-height: 1.5; }
+
+/* ── Section divider ─────────────────────────────────────────────────────── */
+.divider { justify-content: flex-end; }
+.divider .num {
+  position: absolute; top: var(--pad-y); left: var(--pad-x);
+  font-family: var(--son-font-serif); font-size: 13px;
+  text-transform: uppercase; letter-spacing: 0.24em; color: var(--son-color-parchment);
+}
+.divider .glyph {
+  position: absolute; top: calc(var(--pad-y) - 8px); right: var(--pad-x);
+  font-family: var(--son-font-korean); font-size: 34px; color: var(--son-color-bone);
+}
+.divider h2 { font-size: 68px; max-width: 15ch; line-height: 1.02; }
+.divider .status { margin-bottom: 30px; }
+.divider .sub { margin-top: 26px; font-size: 18px; font-weight: 300; max-width: 40ch; color: var(--son-color-parchment); line-height: 1.55; }
+
+/* ── Statement ───────────────────────────────────────────────────────────── */
+.statement { justify-content: center; }
+.statement .eyebrow { margin-bottom: 38px; }
+.statement h2 { font-size: 54px; line-height: 1.1; max-width: 20ch; }
+.statement.big h2 { font-size: 66px; max-width: 16ch; }
+
+/* ── Asymmetric content grid ─────────────────────────────────────────────── */
+.grid2 { display: grid; grid-template-columns: 1.12fr 0.88fr; gap: 76px; align-items: start; padding-top: 104px; }
+.grid2 .eyebrow { margin-bottom: 24px; }
+.grid2 h3 { font-size: 40px; line-height: 1.08; max-width: 15ch; }
+.grid2 .col { padding-top: 11px; border-top: 1px solid var(--hair); }
+.grid2 .col p + p { margin-top: 16px; }
+.grid2 .col .body { font-size: 18px; max-width: 38ch; }
+
+/* Hairline list — max four, complete thoughts */
+.hl { list-style: none; padding: 0; margin: 22px 0 0; }
+.hl li {
+  font-family: var(--son-font-body); font-size: 17.5px; line-height: 1.45;
+  padding: 15px 0; border-top: 1px solid var(--hair); max-width: 46ch;
+}
+.hl li .k { font-family: var(--son-font-korean); }
+.ink .hl li, .aubergine .hl li { border-color: var(--son-border-default); }
+
+/* ── Definition (frameworks / philosophy — breathes) ─────────────────────── */
+.define { justify-content: center; }
+.define .term { display: flex; align-items: baseline; gap: 20px; flex-wrap: wrap; }
+.define .term .kr { font-size: 46px; }
+.define .term h2 { font-size: 46px; }
+.define .gloss { margin-top: 4px; font-size: 15px; letter-spacing: 0.04em; color: var(--son-color-peacock); text-transform: none; }
+.parchment .define .gloss { color: var(--son-color-onggi); }
+.ink .define .gloss, .aubergine .define .gloss { color: var(--son-color-parchment); }
+.define .principle { margin-top: 34px; font-family: var(--son-font-display); font-weight: 400; font-size: 30px; line-height: 1.28; max-width: 24ch; }
+.define .principle em { font-style: italic; }
+
+/* ── Spec / token / tier tables ──────────────────────────────────────────── */
+.tbl { width: 100%; border-collapse: collapse; }
+.tbl th, .tbl td {
+  text-align: left; padding: 13px 22px 13px 0;
+  border-top: 1px solid var(--hair); vertical-align: top;
+}
+.tbl thead th {
+  border-top: none; padding-top: 0; padding-bottom: 16px;
+  font-family: var(--son-font-serif); font-weight: 400; font-size: 11.5px;
+  text-transform: uppercase; letter-spacing: 0.18em; color: var(--son-color-peacock);
+}
+.parchment .tbl thead th { color: var(--son-color-onggi); }
+.ink .tbl thead th, .aubergine .tbl thead th { color: var(--son-color-parchment); }
+.tbl tbody tr:last-child td { border-bottom: 1px solid var(--hair); }
+.tbl .nm { font-family: var(--son-font-display); font-size: 22px; line-height: 1.1; letter-spacing: -0.01em; }
+.tbl .nm .k { font-family: var(--son-font-korean); }
+.tbl td .body, .tbl td.d { font-size: 15.5px; line-height: 1.46; max-width: 46ch; }
+.tbl .mono { font-family: var(--son-font-body); font-size: 14px; font-feature-settings: "tnum" 1; white-space: nowrap; }
+.tbl.tight th, .tbl.tight td { padding: 10px 18px 10px 0; }
+.tbl.xtight th, .tbl.xtight td { padding: 8px 16px 8px 0; }
+
+.tbl-wrap { margin-top: 40px; }
+.slide-head .eyebrow { margin-bottom: 18px; }
+.slide-head h3 { font-size: 38px; line-height: 1.06; max-width: 20ch; }
+.slide-head .sub { margin-top: 16px; font-size: 17px; font-weight: 300; max-width: 52ch; line-height: 1.5; color: var(--son-color-peacock); }
+.parchment .slide-head .sub { color: var(--son-color-onggi); }
+
+/* ── Prohibition / dense ruled columns ───────────────────────────────────── */
+.cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 72px; }
+.cols3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 56px; }
+.ruled { list-style: none; padding: 0; margin: 0; }
+.ruled li {
+  font-family: var(--son-font-body); font-size: 16px; line-height: 1.4;
+  padding: 12px 0; border-top: 1px solid var(--hair);
+}
+.ruled li .k { font-family: var(--son-font-korean); }
+.colhead {
+  font-family: var(--son-font-serif); font-size: 11.5px; text-transform: uppercase;
+  letter-spacing: 0.18em; color: var(--son-color-peacock); margin-bottom: 4px;
+}
+.parchment .colhead { color: var(--son-color-onggi); }
+
+/* ── Color palette display ───────────────────────────────────────────────── */
+.swatches { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 40px; background: var(--hair); border: 1px solid var(--hair); }
+.swatch { background: var(--son-color-bone); padding: 22px 20px 18px; min-height: 150px; display: flex; flex-direction: column; justify-content: flex-end; }
+.swatch .chip { width: 100%; height: 56px; margin-bottom: 16px; border: 1px solid var(--son-border-default); }
+.swatch .chip.spec { background: transparent; display: flex; align-items: center; justify-content: center; }
+.swatch .chip.spec span { font-family: var(--son-font-serif); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--son-color-onggi); }
+.swatch .nm { font-family: var(--son-font-display); font-size: 19px; }
+.swatch .nm .k { font-family: var(--son-font-korean); }
+.swatch .meta { font-family: var(--son-font-body); font-size: 12.5px; line-height: 1.45; color: var(--son-color-peacock); margin-top: 5px; }
+.swatch .hex { font-feature-settings: "tnum" 1; letter-spacing: 0.02em; }
+
+/* ── Callout (Aubergine — rare) ──────────────────────────────────────────── */
+.callout { justify-content: center; }
+.callout .fig { font-family: var(--son-font-display); font-size: 118px; line-height: 0.92; letter-spacing: -0.02em; font-weight: 300; }
+.callout .cap { font-family: var(--son-font-body); font-weight: 300; font-size: 23px; line-height: 1.5; max-width: 28ch; margin-top: 30px; color: var(--son-color-parchment); }
+.callout .eyebrow { margin-bottom: 30px; }
+
+/* ── Photograph ──────────────────────────────────────────────────────────── */
+.photo { padding: 0; }
+.photo image-slot { position: absolute; inset: 0; width: 100%; height: 100%; }
+.photo .scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 58%; pointer-events: none;
+  background: linear-gradient(to top, color-mix(in srgb, var(--son-color-plum-ink) 82%, transparent), transparent); }
+.photo .cap { position: absolute; left: var(--pad-x); bottom: 60px; font-family: var(--son-font-body); font-weight: 300; font-size: 16px; color: var(--son-color-parchment); max-width: 34ch; }
+.photo .eyebrow { position: absolute; left: var(--pad-x); top: var(--pad-y); color: var(--son-color-parchment); }
+.photo .glyph { position: absolute; right: var(--pad-x); bottom: 54px; font-family: var(--son-font-korean); font-size: 28px; color: var(--son-color-bone); }
+
+/* ── Menu register ───────────────────────────────────────────────────────── */
+.menu .eyebrow { margin-bottom: 38px; }
+.menu .item { padding: 20px 0; border-top: 1px solid var(--hair); max-width: 58ch; }
+.menu .item:last-child { border-bottom: 1px solid var(--hair); }
+.menu .item .nm { font-family: var(--son-font-display); font-size: 32px; line-height: 1.05; }
+.menu .item .nm .k { font-family: var(--son-font-korean); }
+.menu .item .desc { font-family: var(--son-font-body); font-size: 16.5px; line-height: 1.45; margin-top: 7px; color: color-mix(in srgb, var(--son-color-plum-ink) 76%, transparent); max-width: 44ch; }
+
+/* ── Closing ─────────────────────────────────────────────────────────────── */
+.closing { justify-content: center; }
+.closing h2 { font-size: 52px; max-width: 19ch; line-height: 1.1; }
+.closing .line { font-family: var(--son-font-body); font-size: 17px; margin-top: 30px; color: var(--son-color-peacock); }
+
+/* ── Utility ─────────────────────────────────────────────────────────────── */
+.mt-s { margin-top: 16px; } .mt-m { margin-top: 28px; } .mt-l { margin-top: 44px; }
+.spacer { flex: 1 1 auto; }
+.maxw-head { max-width: 22ch; }
+.two-up { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+.note-row { display: flex; gap: 14px; align-items: baseline; padding: 13px 0; border-top: 1px solid var(--hair); }
+.note-row .lab { font-family: var(--son-font-serif); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--son-color-peacock); flex: none; width: 150px; }
+.parchment .note-row .lab { color: var(--son-color-onggi); }
+.note-row .val { font-family: var(--son-font-body); font-size: 16px; line-height: 1.45; }
+.note-row .val .k { font-family: var(--son-font-korean); }
+
+/* ── Framework / two-column centered ─────────────────────────────────────── */
+.vc { justify-content: center; }
+.fw { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 78px; align-items: start; }
+.fw .term { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; }
+.fw .term .kr { font-family: var(--son-font-korean); font-size: 44px; line-height: 1; }
+.fw .term h2 { font-size: 44px; }
+.fw .gloss { margin-top: 12px; font-size: 14px; letter-spacing: 0.06em; color: var(--son-color-peacock); }
+.parchment .fw .gloss { color: var(--son-color-onggi); }
+.fw .principle { margin-top: 30px; font-family: var(--son-font-display); font-weight: 400; font-size: 27px; line-height: 1.3; max-width: 22ch; }
+.fw .applies { margin-top: 26px; }
+.fw .col-r { padding-top: 11px; }
+.fw .colhead + .ruled { margin-top: 2px; }
+.fw .colhead.mt { margin-top: 26px; }
+
+/* Register quote + persona */
+.quote { font-family: var(--son-font-display); font-style: italic; font-size: 23px; line-height: 1.36; max-width: 24ch; margin-top: 14px; }
+.parchment .quote, .bone .quote { color: var(--son-color-plum-ink); }
+.reg + .reg { margin-top: 0; }
+.persona .col-r .note-row:first-child { border-top: none; }
+.wordmark-lockup { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
+.wordmark-lockup .latin { font-family: var(--son-font-wordmark); font-size: 124px; line-height: 0.86; }
+.wordmark-lockup .kr { font-family: var(--son-font-korean); font-size: 54px; line-height: 1; }
+.glyph-xl { font-family: var(--son-font-korean); font-size: 188px; line-height: 0.8; color: var(--son-color-plum-ink); }
+.ink .glyph-xl, .aubergine .glyph-xl { color: var(--son-color-bone); }
+
+/* Entrance — visible end state is base; animate from hidden only when active */
+@media (prefers-reduced-motion: no-preference) {
+  [data-deck-active] .anim { animation: son-rise 620ms cubic-bezier(0, 0, 0.2, 1) both; }
+}
+@keyframes son-rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }

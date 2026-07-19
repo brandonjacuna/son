@@ -1,0 +1,29 @@
+<!-- @dsCard group="Spacing" viewport="700x160" name="Motion" subtitle="Marks state change, never importance" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 26px 32px; }
+  .row { display: flex; gap: 28px; }
+  .item { font-family: var(--son-font-body); font-size: 13px; color: var(--son-text-primary); }
+  .item .k { display:block; font-family: var(--son-font-serif); font-size: 12px;
+             text-transform: uppercase; letter-spacing: 0.16em; color: var(--son-text-secondary);
+             margin-bottom: 6px; }
+  .item .v { color: var(--son-text-secondary); font-size: 12px; }
+  hr { border: 0; border-top: 1px solid var(--son-border-default); margin: 18px 0 0; }
+  .rule { margin-top: 16px; font-family: var(--son-font-body); font-size: 12px; color: var(--son-text-secondary); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="item"><span class="k">Fast</span>100ms<br><span class="v">enter / exit</span></div>
+    <div class="item"><span class="k">Standard</span>200ms<br><span class="v">most transitions</span></div>
+    <div class="item"><span class="k">Slow</span>400ms<br><span class="v">deliberate</span></div>
+    <div class="item"><span class="k">Easing</span>cubic-bezier(0.4, 0, 0.2, 1)<br><span class="v">standard</span></div>
+  </div>
+  <hr>
+  <div class="rule">No fade-up-on-scroll. No pulsing or blinking for emphasis. One reduced-motion override.</div>
+</body>
+</html>

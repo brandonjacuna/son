@@ -1,0 +1,37 @@
+<!-- @dsCard group="Colors" viewport="700x170" name="Special values" subtitle="Pale Jade (derived) + Gold Foil (physical only)" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 24px; }
+  .row { display: flex; gap: 16px; }
+  .sw { flex: 1; border: 1px solid var(--son-border-default); }
+  .chip { height: 78px; position: relative; }
+  .foil .chip { background:
+      repeating-linear-gradient(135deg, #BC9A5C 0, #BC9A5C 2px, transparent 2px, transparent 7px),
+      var(--son-color-parchment);
+      opacity: 0.55; }
+  .meta { padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; }
+  .name { font-family: var(--son-font-serif); font-size: 15px; }
+  .hex { font-family: var(--son-font-body); font-size: 12px; color: var(--son-text-primary); letter-spacing: 0.04em; }
+  .role { font-family: var(--son-font-body); font-size: 11px; color: var(--son-text-primary); }
+  .tag { position: absolute; top: 8px; left: 8px; font-family: var(--son-font-serif);
+         font-size: 9px; text-transform: uppercase; letter-spacing: 0.18em;
+         background: var(--son-color-bone); padding: 3px 6px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw">
+      <div class="chip" style="background: var(--son-color-pale-jade)"><span class="tag">Derived</span></div>
+      <div class="meta"><span class="name">Pale Jade</span><span class="hex">#C8D4BE</span><span class="role">Morning token. Not one of the eight.</span></div>
+    </div>
+    <div class="sw foil">
+      <div class="chip"><span class="tag">Physical only, no digital fill</span></div>
+      <div class="meta"><span class="name">Gold Foil</span><span class="hex">Pantone 871C · Kurz Luxor 220</span><span class="role">Physical only, no digital fill. Not a token; specification.</span></div>
+    </div>
+  </div>
+</body>
+</html>

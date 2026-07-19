@@ -1,0 +1,30 @@
+<!-- @dsCard group="Colors" viewport="700x150" name="Light surfaces" subtitle="Parchment and Bone, the warm editorial ground" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 24px; }
+  .row { display: flex; gap: 16px; }
+  .sw { flex: 1; border: 1px solid var(--son-border-default); }
+  .chip { height: 84px; }
+  .meta { padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; }
+  .name { font-family: var(--son-font-serif); font-size: 15px; }
+  .hex { font-family: var(--son-font-body); font-size: 12px; color: var(--son-text-secondary); letter-spacing: 0.04em; }
+  .role { font-family: var(--son-font-body); font-size: 11px; color: var(--son-text-secondary); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw">
+      <div class="chip" style="background: var(--son-color-parchment)"></div>
+      <div class="meta"><span class="name">Parchment</span><span class="hex">#DBC9B0</span><span class="role">Primary surface · son.color.parchment</span></div>
+    </div>
+    <div class="sw">
+      <div class="chip" style="background: var(--son-color-bone)"></div>
+      <div class="meta"><span class="name">Bone</span><span class="hex">#EDE7D8</span><span class="role">Secondary surface · son.color.bone</span></div>
+    </div>
+  </div>
+</body>
+</html>

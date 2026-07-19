@@ -1,0 +1,34 @@
+<!-- @dsCard group="Slides" viewport="1280x720" name="Opening slide" subtitle="Brand mark + the one thing the deck is for" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  html,body { margin:0; }
+  .slide { width:1280px; height:720px; background: var(--son-color-bone); color: var(--son-color-plum-ink);
+           position: relative; overflow: hidden; font-family: var(--son-font-body);
+           display: flex; flex-direction: column; justify-content: space-between;
+           padding: 96px 128px; box-sizing: border-box; }
+  .mark { display: flex; flex-direction: column; gap: 14px; }
+  .mark .latin { font-family: var(--son-font-wordmark); font-size: 64px; line-height: 1; }
+  .mark .glyph { font-family: var(--son-font-korean); font-size: 27px; line-height: 1; }
+  .lead { max-width: 18ch; font-family: var(--son-font-display); font-weight: 400;
+          font-size: 52px; line-height: 1.1; letter-spacing: -0.015em; text-wrap: balance; }
+  .foot { display: flex; justify-content: space-between; align-items: flex-end; }
+  .eyebrow { font-family: var(--son-font-serif); font-size: 13px; text-transform: uppercase;
+             letter-spacing: 0.2em; color: var(--son-color-peacock); }
+  .addr { font-family: var(--son-font-body); font-size: 14px; color: var(--son-color-peacock); }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="mark"><span class="latin">Sŏn</span><span class="glyph">선</span></div>
+    <h1 class="lead">A room pointed at the relationship.</h1>
+    <div class="foot">
+      <span class="eyebrow">Partnership brief · 2026</span>
+      <span class="addr">207 E St. Elmo Rd, Austin</span>
+    </div>
+  </div>
+</body>
+</html>

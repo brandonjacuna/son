@@ -1,0 +1,63 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Immersive motion register (narrative surfaces ONLY)
+   Scoped to roots carrying [data-surface="immersive"]: the investor site's
+   scroll narrative, campaign surfaces, chapter takeovers. NEVER on product
+   UI, forms, or the reservation flow — those use the UI register
+   (--son-motion-fast/standard/slow, 100/200/400ms), which marks state
+   change and never carries meaning. This register carries meaning and
+   sequence, which the UI register forbids by design. Keeping the two
+   separate is the point.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* Reduced motion: the immersive register collapses to NOTHING. Scrubbed
+   chapters become static readable stacks, the takeover hard-cuts, smooth
+   scroll and ambient motion are off. Usage-level kill rule — the token
+   values below stay canonical; every JS consumer of --son-imm-lerp /
+   --son-glyph-motion / --son-imm-takeover must ALSO gate on
+   prefers-reduced-motion (the immersive components all do). */
+@media (prefers-reduced-motion: reduce) {
+  [data-surface="immersive"],
+  [data-surface="immersive"] *,
+  [data-surface="immersive"] *::before,
+  [data-surface="immersive"] *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    transition-delay: 0ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+[data-surface="immersive"] {
+  /* quick: title lands, hover reveals · settle: panel and image reveals ·
+     takeover: chapter takeover, daypart transition · stagger: per-line load
+     choreography · ease: the weighty entrance curve · lerp: smooth-scroll
+     factor (eased scroll weight) */
+  --son-imm-quick: 450ms; /* @kind other */
+  --son-imm-settle: 850ms; /* @kind other */
+  --son-imm-takeover: 1400ms; /* @kind other */
+  --son-imm-stagger: 80ms; /* @kind other */
+  --son-imm-ease: cubic-bezier(0.22, 1, 0.36, 1); /* @kind other */
+  --son-imm-lerp: 0.08; /* @kind other */
+  /* Canon override flag, immersive only: gates the 선 glyph at large scale
+     in slow motion (the readme sets the glyph at constant scale as the sole
+     mandatory structural constant — this switch is the sanctioned exception
+     and can be turned off without touching anything else). */
+  --son-glyph-motion: on;     /* @kind other */
+}
+
+/* Keyframes consumed only by the immersive components (AmbientField drift,
+   the gated glyph module, Marquee). Under reduced motion the block above
+   zeroes animation durations inside immersive roots. */
+@keyframes son-imm-drift {
+  from { transform: translate3d(-4%, -2%, 0); }
+  to   { transform: translate3d(6%, 3%, 0); }
+}
+@keyframes son-imm-glyph-drift {
+  from { transform: translate3d(-2.5%, 1.5%, 0); }
+  to   { transform: translate3d(2.5%, -1.5%, 0); }
+}
+@keyframes son-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
