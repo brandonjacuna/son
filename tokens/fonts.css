@@ -1,9 +1,20 @@
 /* ─────────────────────────────────────────────────────────────────────────
    Sŏn — Webfont declarations
-   GT Sectra (display / wordmark) + GT Alpina (body), Grilli Type.
-   Korean companion Sandoll Myeongjo is NOT licensed for web here; the
-   documented substitute is Nanum Myeongjo (a true Myeongjo serif). FLAGGED.
-   Noto Serif KR is brand-prohibited and intentionally not used.
+   GT Sectra + GT Alpina (Grilli Type), used across their full optical ranges.
+   Korean companion Sandoll Myeongjo is not licensed for web here; the
+   documented substitute is Nanum Myeongjo (a true Myeongjo serif). Noto Serif
+   KR is brand-prohibited and intentionally absent.
+
+   PENDING BINARIES (owned, Box 388972713490, not yet on disk). The full
+   families require four files the text-only Box MCP cannot deliver; download by
+   hand from Box and save under the hyphenated names below into assets/fonts:
+     · GT Sectra Fine Book        -> GT-Sectra-Fine-Book.ttf       (wordmark)
+     · GT Sectra Display Regular  -> GT-Sectra-Display-Regular.ttf (headline, upright 400)
+     · GT Alpina Fine Light       -> GT-Alpina-Fine-Light.ttf      (lead / fine)
+     · GT Alpina Fine Regular     -> GT-Alpina-Fine-Regular.ttf    (body)
+   Until they land, each @font-face fails silently and the family stack in
+   typography.css falls through to a present cut. No layout depends on their
+   arrival; their arrival only upgrades it.
    ───────────────────────────────────────────────────────────────────────── */
 
 /* Korean substitute for Sandoll Myeongjo — see readme "Font substitutions" */
@@ -11,18 +22,25 @@
 
 /* Sandoll Myeongjo (산돌명조) — the mandated Korean companion. SUBSTITUTE,
    pending: web files not yet supplied (replace this local() placeholder with
-   url() faces when licensed). Until then it resolves only where the font is
-   installed locally; everywhere else the stack falls through to Nanum
-   Myeongjo. Do not substitute a different family. */
+   url() faces when licensed). Until then it resolves only where installed
+   locally; everywhere else the stack falls through to Nanum Myeongjo. Do not
+   substitute a different family. */
 @font-face {
   font-family: "Sandoll Myeongjo";
   src: local("Sandoll Myeongjo"), local("SandollMyeongjo"), local("Sandoll GothicNeo Myeongjo");
   font-weight: 400; font-style: normal; font-display: swap;
 }
 
-/* ── GT Sectra — wordmark / serif (Book is the wordmark weight) ──
-   font-display: block — the wordmark must never flash a divergent letterform
-   while loading; the metric-matched fallback below holds its box meanwhile. */
+/* ── GT Sectra Fine — wordmark (Fine Book only, per canon 04) ──
+   PENDING binary. font-display: block so the mark never flashes a divergent
+   letterform; the metric-matched fallback below holds its box meanwhile. */
+@font-face {
+  font-family: "GT Sectra Fine";
+  src: url("../assets/fonts/GT-Sectra-Fine-Book.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+
+/* ── GT Sectra Book — the present wordmark fallback, and inline Book serif ── */
 @font-face {
   font-family: "GT Sectra Book";
   src: url("../assets/fonts/GT-Sectra-Book.ttf") format("truetype");
@@ -45,6 +63,8 @@
   descent-override: 25.89%;
   line-gap-override: 0%;
 }
+
+/* ── GT Sectra (Standard optical) — subhead, eyebrow, inline serif ── */
 @font-face {
   font-family: "GT Sectra";
   src: url("../assets/fonts/GT-Sectra-Book.ttf") format("truetype");
@@ -76,7 +96,9 @@
   font-weight: 900; font-style: normal; font-display: swap;
 }
 
-/* ── GT Sectra Display — headlines / section headers ── */
+/* ── GT Sectra Display — headline (Regular 400) and section (Medium 500) ──
+   The upright Regular is the canon headline face; its binary is PENDING, so
+   until it lands the display stack falls through to GT Sectra (Standard). */
 @font-face {
   font-family: "GT Sectra Display";
   src: url("../assets/fonts/GT-Sectra-Display-Light.ttf") format("truetype");
@@ -86,6 +108,11 @@
   font-family: "GT Sectra Display";
   src: url("../assets/fonts/GT-Sectra-Display-Light-Italic.ttf") format("truetype");
   font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face { /* PENDING binary — upright headline face */
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "GT Sectra Display";
@@ -103,7 +130,21 @@
   font-weight: 500; font-style: italic; font-display: swap;
 }
 
-/* ── GT Alpina — body ── */
+/* ── GT Alpina Fine — the reading face (lead, body) per canon 04 ──
+   PENDING binaries. Falls through to GT Alpina (Standard) below until present. */
+@font-face { /* PENDING binary */
+  font-family: "GT Alpina Fine";
+  src: url("../assets/fonts/GT-Alpina-Fine-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face { /* PENDING binary */
+  font-family: "GT Alpina Fine";
+  src: url("../assets/fonts/GT-Alpina-Fine-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+
+/* ── GT Alpina (Standard optical) — reading fallback, small-size fine detail,
+   and the italic emphasis Alpina Fine does not ship ── */
 @font-face {
   font-family: "GT Alpina";
   src: url("../assets/fonts/GT-Alpina-Light.ttf") format("truetype");

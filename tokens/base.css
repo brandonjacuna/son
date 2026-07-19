@@ -13,7 +13,7 @@ body {
   background: var(--son-surface-primary);
   color: var(--son-text-primary);
   font-family: var(--son-font-body);
-  font-weight: var(--son-weight-regular);
+  font-weight: var(--son-weight-body); /* themeable: dinner deliberate, morning lighter */
   font-size: var(--son-text-body);
   line-height: var(--son-leading-body);
   font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
@@ -21,11 +21,13 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* Generic heading default. The specific steps (Display / Headline / Section)
+   carry their own leading and tracking tokens where the build applies them. */
 h1, h2, h3, h4 {
   font-family: var(--son-font-display);
   font-weight: var(--son-weight-book);
   line-height: var(--son-leading-tight);
-  letter-spacing: var(--son-tracking-display);
+  letter-spacing: var(--son-tracking-headline);
   margin: 0;
   text-wrap: balance;
 }

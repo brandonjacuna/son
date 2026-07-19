@@ -1,0 +1,313 @@
+# Content architecture
+
+The build-ready structure for the Sŏn investor site. It expresses the seven
+locked slots from `docs/structure-decision.md` as layout: section order, what
+each section holds, which type step carries each element, which ground it sits
+on, and where the three conversion affordances land. It is structure and
+hierarchy, not copy. No sentences here are copy, and none should be read as a
+draft of copy. Word budgets from the structure decision appear only as
+constraints the layout must accommodate.
+
+Companion inputs: `docs/structure-decision.md` (the funnel and slot map, locked),
+`docs/reference-spec.md` (the extraction), and the rebuilt type system in
+`tokens/typography.css` and `tokens/fonts.css`.
+
+## Register and grounds
+
+The site runs the dinner register throughout. Grounds alternate by section on the
+closed eight-color palette, resolved through the semantic themes in
+`tokens/colors.css`: Plum Ink and Aubergine on `[data-theme="dinner"]`, Parchment
+on `[data-theme="dosi"]`, and Bone on the base editorial theme. The one place
+other daypart colors appear is the model band, where they are a graphic, not a
+theme switch for running text.
+
+## The type steps this architecture references
+
+Defined in `tokens/typography.css`. Sizes are px at 375 / 1280 / cap.
+
+| Step | Token | Face, optical, weight | 375 / 1280 / cap |
+| --- | --- | --- | --- |
+| Display | `--son-text-display` | GT Sectra Display, Regular 400 | 48 / 96 / 104 |
+| Headline | `--son-text-headline` | GT Sectra Display, Regular 400 | 40 / 57 / 60 |
+| Section | `--son-text-section` | GT Sectra Display, Medium 500 | 30 / 42 / 44 |
+| Subhead | `--son-text-subhead` | GT Sectra (Standard), Regular 400 | 21 / 25 / 26 |
+| Lead | `--son-text-lead` | GT Alpina Fine, Light 300 | 18 fixed |
+| Body | `--son-text-body` | GT Alpina Fine, Regular 400 | 16 fixed |
+| Descriptor | `--son-text-menu` | GT Alpina Fine, Regular 400 | 14 fixed |
+| Eyebrow | `--son-text-eyebrow` | GT Sectra (Standard), Regular 400, uppercase | 12 fixed |
+| Fine | `--son-text-fine` | GT Alpina (Standard), Light 300 | 12 fixed |
+| Wordmark | `--son-font-wordmark` | GT Sectra Fine Book, with 선 in the Korean face | contextual |
+
+On C8, recorded so it is not misread later: the display cap was resolved by
+splitting Display from Headline and making the display step reach its size at
+real desktop widths. That structural separation is the substance of the fix. The
+104px ceiling is the smaller part of it, a reasoned number, not the point.
+
+## Persistent chrome
+
+Header, minimal, hides on scroll.
+
+- Left: the Sŏn wordmark. Type: Wordmark, at Subhead scale.
+- Right: an access note, Eyebrow, and affordance A1 (below).
+- Ground: inherits the hero (Plum Ink), then transparent over what follows.
+
+## The seven slots
+
+### 1. Hero, orient and open
+
+- Ground: Plum Ink. Theme: dinner.
+- The display sentence, one line that says what and where and opens the loop the
+  moat will close. Type: Display. This is the single largest voice on the site,
+  and the one element that earns the resolved ceiling.
+- Location tag, low left. Type: Eyebrow.
+- The Sŏn / 선 lock-up, low right. Type: Wordmark, with 선 in the Korean face at
+  the optical up-scale.
+- Carries affordance A1.
+- Budget: 15 to 30 words across the display line, the tag, and the nav.
+
+### 2. Why this, the moat
+
+- Ground: Plum Ink. Theme: dinner. The dark emotional core, the one section
+  allowed to run long.
+- Section eyebrow. Type: Eyebrow. See the renumbering flag below.
+- The narrative body. Type: Body, set to the `--son-measure` measure.
+- The pull-line, the felt load-bearer ("memory business"). Type: Display. Held to
+  the same top voice as the hero because it carries equivalent weight in the
+  argument.
+- The centered blockquote. Type: Headline, one step below the pull-line so the
+  hero and the pull-line remain the two largest moments.
+- The oversized 선 behind the text. Type: the Korean glyph as a low-opacity
+  ground element, color resolved by theme.
+- Budget: 180 to 230 words, the longest section on the site.
+
+### 3. The opportunity, why now
+
+- Ground: Bone, base editorial theme, with the 선 accent split.
+- Section eyebrow. Type: Eyebrow.
+- The timing statement ("same curve" or "intersection"). Type: Headline.
+- The key supporting line. Type: Lead. Remaining support. Type: Body.
+- The right field carrying the 선 accent and its caption. Type: the Korean glyph,
+  caption in Descriptor.
+- Budget: 50 to 70 words.
+
+### 4. The team, who executes
+
+- Ground: Parchment. Theme: dosi.
+- Section eyebrow. Type: Eyebrow.
+- Two founder names. Type: Subhead.
+- Two role labels. Type: Eyebrow.
+- Two bios. Type: Body.
+- Founder headshots, the only photography the site is allowed. Portrait slots.
+  Captions. Type: Descriptor.
+- Position: before the model, per the structure decision.
+- Budget: about 110 words across two bios, plus captions.
+
+### 5. The model, the return
+
+- Ground: Bone, base editorial theme, carrying the daypart band.
+- Section eyebrow. Type: Eyebrow.
+- The economic statement ("one footprint, one set of fixed costs"). Type:
+  Headline.
+- The body. Type: Body. This body carries affordance A2 inline, at the
+  belief-completion point.
+- The daypart band, the site's one strong graphic rupture: four stripes on the
+  daypart colors (Coffee on jade, Lunch on onggi, Dinner on plum ink, Late night
+  on aubergine), spanning the width. Band labels, vertical. Type: Eyebrow. The
+  labels are descriptive (Coffee, Lunch, Dinner, Late night). Internal code names
+  never appear here, or on any external surface.
+- Budget: 50 to 70 words, plus band labels.
+
+### 6. The ask
+
+- Ground: Aubergine. Theme: dinner.
+- Section eyebrow. Type: Eyebrow.
+- The centered ask headline. Type: Headline.
+- Affordance A3, the terminal form, on a Bone card: full name, email, company or
+  affiliation, and the free-text qualifying field. Field labels: Eyebrow. Input
+  text: Body. Submit control: Descriptor.
+- The securities disclaimer, inline. Type: Fine, held at 12px for the
+  accessibility target, not smaller.
+- The confirmation state after submit is the one separate surface, a legitimate
+  exit because conversion has happened. Register is functional, not
+  congratulatory (page 12). Confirmation text: Body or Lead.
+- Budget: 25 to 40 words of surrounding copy; the form carries the rest.
+
+### 7. Footer, close
+
+- Ground: Plum Ink. Theme: dinner.
+- The Sŏn / 선 lock-up. Type: Wordmark.
+- The location line. Type: Descriptor.
+- The closing mark. Type: Fine.
+- Quiet close, no further ask.
+- Budget: under 15 words.
+
+## The three conversion affordances
+
+- A1, the header shortcut. A persistent wayfinding jump to the ask, for the
+  reader who arrives already convinced. Type: Descriptor. It is not a second ask.
+  Lives in the header chrome.
+- A2, the model inline soft link. A single earned inline pointer to the briefing,
+  set inside the model body at the belief-completion point. Type: Body, styled as
+  a link, anchored to the ask.
+- A3, the terminal form. The only place the site asks. In slot 6.
+
+Nothing else. No repeated inline prompts, no floating call-to-action bar, no FAQ,
+no exit-intent. The type system is the same under all three: the affordances are
+placement and behavior, not new type steps.
+
+## Eyebrow renumbering, flagged not resolved
+
+Folding the concept into the hero removes the standalone "01 · The concept"
+eyebrow, which breaks the numbered sequence. The remaining sections either
+renumber (Why this to 01, and so on) or move to semantic eyebrows with no
+numbers. This is a copy-layer decision, resolved when copy is written at P4, not
+here. The type step is Eyebrow under either outcome, so the type system is
+agnostic to the resolution and no build value turns on it.
+
+## Scratch, patterns discovered and deferred
+
+Discovered during this work, not built, because this session rebuilds type only.
+They belong to later sessions (structure, motion, components), not to the type
+system.
+
+- Header hide-on-scroll behavior.
+- Restrained reveal motion on the load-bearing beats.
+- The daypart band as a reusable graphic component.
+- The oversized 선 watermark device behind running text.
+- The post-submit confirmation surface as its own state.
+
+## Excluded by canon
+
+A standing record. For every element, device, or approach considered this session
+and not pursued because a canon rule closed it: what it was, which rule closed it,
+and what it would have bought. Canon still governs the output. This section does
+not reopen it. It names the doors so a specific rule can be reopened deliberately
+later, when it is worth it.
+
+### Display and type devices
+
+- Deliberate viewport overflow on display type. This is a device, not volume: the
+  reference primary sizes display to the content and lets it run past the viewport
+  edge, so a giant letterform reads as an intentional crop and keeps the same
+  physical presence on a phone that it has on a desktop. Closed by: the quiet
+  authority register, which names display that reads as shouting a brand failure,
+  and the no-spectacle posture. What it would have bought: the primary's physical
+  presence carried intact onto the phone, and a signature crop that reads as
+  confident craft rather than as noise. What closing it costs: the hero has less
+  raw presence on the device most readers arrive on. We hold the display step so
+  it fits and wraps instead, buying quiet at the price of that drama.
+
+- Uppercase or all-caps display and headlines. Closed by: "Sentence case always.
+  UPPERCASE reserved for single-line eyebrow only" (canon and page 04). What it
+  would have bought: the reference primary's monumental uppercase masthead voice,
+  a more overtly designed display register.
+
+- Heavy display weights (GT Sectra Bold 700, Black 900) for impact. We own them
+  and considered them for a photo-less hero. Closed by: the quiet authority
+  register and canon's deliberate weight inversion, where the largest type is the
+  lightest (Display Regular). What it would have bought: heavier presence on the
+  hero. Closed because heavy display reads as force, which is performed conviction
+  by another name.
+
+- A monumental display step above the ceiling (a chapter-takeover moment in the
+  hundreds of px, as the primary uses). Closed by: the resolved display ceiling,
+  with roughly 112px treated as the line where quiet authority becomes spectacle.
+  What it would have bought: a hero that dominates the way the reference primary's
+  takeover letters do.
+
+### Faces and language
+
+- A third Latin face, or a monospace label face for metadata and section markers
+  (as matte uses a mono for its bracket labels). Closed by: the two-Latin-plus-one-
+  Korean limit ("the ceiling is absolute", page 04). What it would have bought: a
+  low-cost craft signal and a structural marking device without adding a display
+  face, matte's editorial index effect.
+
+- Noto Serif KR as the Korean face. It is the obvious, fully hinted, freely
+  available web Korean serif with a complete weight range. Closed by: canon, which
+  prohibits Noto Serif KR in any public-facing context. What it would have bought:
+  a robust Korean webfont today. What closing it costs: our Korean runs on the
+  Nanum Myeongjo substitute with fewer optical niceties, pending the licensed
+  Sandoll Myeongjo.
+
+- Standard (non-Fine) GT Alpina for all body sizes, or a sans for form and UI
+  labels. Closed by: canon body face is GT Alpina Fine, and the two-face limit
+  bars a UI sans. What it would have bought: steadier small-size legibility from
+  the standard optical, and clearer form controls from a sans. What closing it
+  costs: the Fine optical is higher contrast, so the smallest reading sizes are a
+  legibility watch item. We answer it narrowly by setting the 12px fine step in
+  the standard optical, not Fine.
+
+### Graphic and textural devices for a page carrying itself on type alone
+
+- Gradients and tonal washes in the grounds. Closed by: the closed eight-color
+  palette, "no tints, no shades, no exceptions" (`tokens/colors.css`). What it
+  would have bought: depth and atmosphere on photo-less grounds without adding
+  imagery.
+
+- A living hero object: a WebGL field, a generative center, or a hero video, as
+  two of the reference secondaries use to give a still page a moving center.
+  Closed by: no AI or stock imagery, no photography beyond founder headshots, and
+  the rule that type, color, and restrained motion carry the site. What it would
+  have bought: a living center for a still page.
+
+- Texture, grain, noise, pattern fills, or ornament. Closed by: the hairline
+  system with no decorative dividers, colored border accents, or double rules
+  (page 12), and the closed palette. What it would have bought: warmth and a sense
+  of material on empty grounds, a digital echo of the brand's physical
+  materiality.
+
+- A chromatic spot accent used as a graphic device (as one secondary uses a bright
+  green off its ground), including bringing Jade into the dark sections. Closed by:
+  the closed eight-color palette, and the dinner theme's explicit "no chroma
+  accent", where Jade is a named failure mode (`tokens/colors.css`). What it would
+  have bought: a punch of energy and a wayfinding accent in the Plum Ink and
+  Aubergine sections.
+
+- Illustration, line art, diagram, or iconography as an imagery substitute (for
+  example a floor-plan diagram for the one-footprint model). Closed by: no stock or
+  AI imagery, no photography beyond headshots, and construction-governed
+  iconography (page 12). What it would have bought: visual relief and explanatory
+  support where the argument currently carries alone.
+
+### Motion and conversion
+
+- Motion as emphasis: scrub, parallax, or scroll-jacking, the reference primary's
+  signature. Closed by: "motion marks state change, not importance" (page 12), and
+  the structure decision's restrained-reveal posture. What it would have bought:
+  the primary's immersive, physical narrative. (Motion is out of scope for this
+  session; the canon closure is recorded because it shaped the type and layout
+  thinking, for instance the reference device of the largest type rising out of a
+  clip.)
+
+- Conversion density: persistent or repeated calls to action, a floating call-to-
+  action bar, an FAQ accordion, exit-intent, as the reference secondaries carry.
+  Closed by: the low-density conversion decision (structure decision), reinforced
+  by canon, which bars performed conviction, social proof widgets, and components
+  that route customers through prescribed sequences (page 12). What it would have
+  bought: a conversion safety net for a reader who leaves mid-argument. We take the
+  belief ladder and the header shortcut instead.
+
+- Internal daypart code names on the model band, considered as authentic internal
+  language. Closed by: canon, no internal daypart code names on any external
+  surface, ever. What it would have bought: nothing external worth having; the band
+  uses the descriptive names and the closure is correct.
+
+### The standing cost of no photography
+
+Stated plainly, not assumed. The site cannot show the room, the food, or the
+people, except two founder headshots, so it cannot use the most persuasive lever a
+restaurant raise has: desire. Every belief is installed by type, color, and
+argument alone. The consequences run through the whole architecture. The moat has
+to carry feeling in words the reader must read, not in an image absorbed at a
+glance, which is why it is the one long section. The opportunity cannot show its
+market and the model cannot show its space, only the abstract daypart band. The
+architecture compensates structurally: the protected long moat section, the
+daypart band as the single graphic rupture, the oversized 선 as texture, and the
+founder headshots as the one photographic anchor of credibility. The honest cost
+is that a photo-carried version of this page could be shorter and land faster,
+because desire is fast and argument is slow, and on a phone, where images convert,
+we are asking a warm reader to read rather than to look. The bet is that the warm,
+forwarded funnel makes that acceptable, since the reader arrived motivated. If a
+cold, paid, or search channel is ever added, this constraint becomes a conversion
+liability and is the first door to reopen.

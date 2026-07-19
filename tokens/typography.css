@@ -1,62 +1,133 @@
 /* ─────────────────────────────────────────────────────────────────────────
    Sŏn — Typography
-   Two Latin typefaces. One Korean companion. The ceiling is absolute.
-   · GT Sectra        — display / wordmark / serif headlines (felt, led)
-   · GT Alpina        — body (read, followed)
-   · Nanum Myeongjo   — SUBSTITUTE for Sandoll Myeongjo (Hangul). FLAGGED.
+   Two Latin families, one Korean companion, used across their full optical
+   ranges. Not a size-only single-weight ramp; the families carry the work.
+   · GT Sectra   — felt, and led. Fine (wordmark), Display (headline/section),
+                   Standard (subhead/eyebrow). Optical size does the shouting
+                   so the letterforms never have to.
+   · GT Alpina   — read, and followed. Fine (lead/body), Standard (fine detail).
+   · Sandoll Myeongjo (선 / Hangul) — Nanum Myeongjo is the flagged web substitute.
+
+   C8, resolved. The prior 96px ceiling was inherited, not decided: it was the
+   top of the brand HEADLINE band repurposed as a display cap, on a clamp that
+   only reached it above ~1950px (so the hero rendered ~77px at 1280 and never
+   asserted), with no display tier above the section headline. The substance of
+   the fix is structural: Display is now split from Headline and reaches its cap
+   at real desktop widths. The number is secondary. The decided ceiling is 104px
+   (6.5rem), a small reasoned lift for a hero that carries a page with no
+   photography; ~112px is treated as the line where quiet authority becomes
+   spectacle.
+
+   Responsive stance: compress the top, never overflow. Reading steps are fixed
+   at their legibility sizes (body holds 16px at every width). Only the display
+   steps scale, so the display-to-body ratio compresses on the phone (~6:1 at
+   desktop to ~3:1 at 375px) rather than the hero overflowing the viewport. The
+   ratio never compresses far enough to flatten the hierarchy: adjacent steps
+   stay >= 1.2x at every width.
    ───────────────────────────────────────────────────────────────────────── */
 
 :root {
-  /* ── Families ── */
-  --son-font-wordmark: "GT Sectra Book", "GT Sectra Book Fallback", Georgia, serif;
-  --son-font-display:  "GT Sectra Display", "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
+  /* ── Families ──
+     Fine and Fine-body cuts are owned (Box 388972713490) but their binaries
+     are not yet on disk; every stack falls through to a present cut, so the
+     system renders today and upgrades the moment the four files land. */
+  --son-font-wordmark: "GT Sectra Fine", "GT Sectra Book", "GT Sectra Book Fallback", Georgia, serif;
+  --son-font-display:  "GT Sectra Display", "GT Sectra", "Cormorant Garamond", Georgia, serif;
   --son-font-serif:    "GT Sectra", "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
-  --son-font-body:     "GT Alpina", "Source Serif 4", Georgia, serif;
-  /* Korean: Sandoll Myeongjo in production. Web substitute = Nanum Myeongjo.
-     Every fallback is a Korean serif (Myeongjo/Batang) or generic serif — never a sans, never a Latin face. */
+  --son-font-body:     "GT Alpina Fine", "GT Alpina", "Source Serif 4", Georgia, serif;
+  /* Fine detail (<= 12px): the standard optical, not Fine. High-contrast
+     hairlines fail at 12px on low-DPI, and page 12 targets WCAG AAA where
+     achievable. This is a reasoned exception, not an inherited default. */
+  --son-font-fine:     "GT Alpina", "Source Serif 4", Georgia, serif;
+  /* Korean: Sandoll Myeongjo in production, Nanum Myeongjo the web substitute.
+     Every fallback is a Korean serif (Myeongjo/Batang) or generic serif, never
+     a sans, never a Latin face. Noto Serif KR is brand-prohibited (see readme). */
   --son-font-korean:   "Sandoll Myeongjo", "Nanum Myeongjo", "Apple Myungjo", "Batang", serif;
 
-  /* ── Type scale (digital px) ──
-     Hierarchy mirrors the brand spec. Min body 18px in deck conditions.
-     Headings are fluid clamps, tuned so 1280px renders the canonical deck
-     values (≈77 / 72 / 40 / 26px). At 375px the clamps compute to
-     50.8 / 43.7 / 28.7 / 21.1px; the 40 / 32 / 24 / 19px minima are reached
-     only at 0vw. Caps 96 / 72 / 40 / 26px, and the order display > headline >
-     section > subhead holds at every width. */
-  --son-text-display:  clamp(2.5rem, 2.5rem + 2.875vw, 6rem); /* @kind other */
-  --son-text-headline: clamp(2rem, 2rem + 3.125vw, 4.5rem); /* @kind other */
-  --son-text-section:  clamp(1.5rem, 1.5rem + 1.25vw, 2.5rem); /* @kind other */
-  --son-text-subhead:  clamp(1.1875rem, 1.1875rem + 0.547vw, 1.625rem); /* @kind other */
-  --son-text-lead:     1.25rem;   /* 20px */
-  --son-text-body:     1rem;      /* 16px */
-  --son-text-menu:     0.9375rem; /* 15px menu descriptor */
-  --son-text-eyebrow:  0.75rem;   /* 12px eyebrow (uppercase only) */
-  --son-text-fine:     0.6875rem; /* 11px fine detail */
+  /* ── Type scale ──
+     Named steps mapped onto the existing token names so downstream consumers do
+     not churn. Fluid steps reach their cap by ~1440px and floor at <= 375px;
+     reading steps are fixed. Sizes at 375 / 1280 / cap:
 
-  /* ── Weights ── */
+       Display   GT Sectra Display  Regular 400   48 /  96 / 104
+       Headline  GT Sectra Display  Regular 400   40 /  57 /  60
+       Section   GT Sectra Display  Medium  500   30 /  42 /  44
+       Subhead   GT Sectra          Regular 400   21 /  25 /  26
+       Lead      GT Alpina Fine     Light   300   18  (fixed)
+       Body      GT Alpina Fine     Regular 400   16  (fixed)
+       Menu      GT Alpina Fine     Regular 400   14  (fixed)  [descriptor / caption]
+       Eyebrow   GT Sectra          Regular 400   12  (fixed)  UPPERCASE, tracked
+       Fine      GT Alpina          Light   300   12  (fixed)                                    */
+  --son-text-display:  clamp(3rem,      1.77rem + 5.26vw, 6.5rem);   /* 48 -> 96@1280 -> 104 */ /* @kind other */
+  --son-text-headline: clamp(2.5rem,    2.06rem + 1.88vw, 3.75rem);  /* 40 -> 57@1280 -> 60  */ /* @kind other */
+  --son-text-section:  clamp(1.875rem,  1.57rem + 1.32vw, 2.75rem);  /* 30 -> 42@1280 -> 44  */ /* @kind other */
+  --son-text-subhead:  clamp(1.3125rem, 1.20rem + 0.47vw, 1.625rem); /* 21 -> 25@1280 -> 26  */ /* @kind other */
+  --son-text-lead:     1.125rem;  /* 18px */
+  --son-text-body:     1rem;      /* 16px */
+  --son-text-menu:     0.875rem;  /* 14px menu descriptor / caption */
+  --son-text-eyebrow:  0.75rem;   /* 12px eyebrow (uppercase only) */
+  --son-text-fine:     0.75rem;   /* 12px fine detail (held at 12 for the AAA target, not 11) */
+
+  /* ── Weights ──
+     Canon inversion held: the biggest type is lighter (Display/Headline Regular),
+     the mid structural step heavier (Section Medium). Size dominates; big-and-light
+     reads as quiet confidence, smaller-and-medium as structure. */
   --son-weight-light:   300;
   --son-weight-book:    400;
   --son-weight-regular: 400;
   --son-weight-medium:  500;
+  --son-weight-body:    400;  /* themeable: dinner deliberate, morning lighter (below) */
 
-  /* ── Leading ── */
-  --son-leading-display: 1.06;
-  --son-leading-tight:   1.12;
-  --son-leading-snug:    1.3;
-  --son-leading-body:    1.55;
-  --son-leading-loose:   1.72;
+  /* ── Leading ──
+     Per step. Display rides tight (a set sentence, not the primary's 0.8
+     spectacle); reading opens up. Theme-aware overrides for body/lead below. */
+  --son-leading-display: 1.03;
+  --son-leading-headline: 1.08;
+  --son-leading-section:  1.12;
+  --son-leading-tight:    1.12;  /* retained: generic heading default */
+  --son-leading-subhead:  1.25;
+  --son-leading-snug:     1.3;   /* Korean setting */
+  --son-leading-lead:     1.5;
+  --son-leading-body:     1.55;
+  --son-leading-caption:  1.45;
+  --son-leading-fine:     1.4;
+  --son-leading-loose:    1.72;
 
   /* ── Tracking ──
-     Eyebrows ride wide. Display rides slightly tight. Body opens at distance. */
-  --son-tracking-eyebrow: 0.2em;
-  --son-tracking-display: -0.015em;
-  --son-tracking-normal:  0;
-  --son-tracking-open:    0.01em;
+     Negative and size-graded on the display steps (Sectra opens up at size, so
+     it is closed as it grows), wide only on the eyebrow. Serif body needs none. */
+  --son-tracking-display:  -0.02em;
+  --son-tracking-headline: -0.015em;
+  --son-tracking-section:  -0.01em;
+  --son-tracking-eyebrow:   0.2em;
+  --son-tracking-normal:    0;
+  --son-tracking-open:      0.01em;
 
-  /* ── Measure — body capped at ~65ch, never above 75ch ── */
+  /* ── Measure — body capped at ~62ch, never above 75ch ── */
   --son-measure: 62ch;
   --son-measure-narrow: 46ch;
 
-  /* Korean optical compensation: runs 10–15% larger than paired Sectra */
+  /* Korean optical compensation: runs 10 to 15% larger than paired Sectra */
   --son-korean-scale: 1.12; /* @kind other */
+}
+
+/* ── Theme-aware weight and leading (page 12) ──
+   Sizes are invariant across dayparts; only weight and leading vary. Dinner and
+   luxe run the dark editorial register (tighter, deliberate); morning opens up
+   and lightens; dosi sits near the base. Grounds resolve in colors.css. */
+[data-theme="dinner"],
+[data-theme="luxe"] {
+  --son-weight-body:    400;
+  --son-leading-body:   1.5;
+  --son-leading-lead:   1.45;
+}
+[data-theme="morning"] {
+  --son-weight-body:    300;
+  --son-leading-body:   1.62;
+  --son-leading-lead:   1.58;
+}
+[data-theme="dosi"] {
+  --son-weight-body:    400;
+  --son-leading-body:   1.55;
+  --son-leading-lead:   1.5;
 }
