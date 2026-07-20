@@ -56,6 +56,19 @@ the design system until codification at P7 (the G3 gate).
   bought: a softened anchor jump. The spec treats the instant native jump
   as correct, so the cost is nil.
 
+### Pass 5, form and confirmation
+
+- A semantic error color for invalid fields. Closed by: the closed
+  eight-color palette; no red exists and none may be derived. The system's
+  own answer stands: the 2px border exception plus a message, never color
+  alone (`tokens/components.css`). What it would have bought: the
+  conventional error register. What the closure costs: nothing; the border
+  weight change plus text is fully legible and screen-reader explicit.
+- Celebration on the confirmation (motion, iconography, or an exclamation
+  register). Closed by: no performed conviction, and the motion spec's
+  explicit "functional, not congratulatory. No confetti." What it would
+  have bought: a warmer post-submit beat. The quiet slip is the design.
+
 ## Reconsidered, admitted in a disciplined form
 
 ### Pass 1, structure and type
@@ -69,6 +82,19 @@ the design system until codification at P7 (the G3 gate).
 ### Pass 3, the 선 system and the band
 
 - None. Nothing was reopened against canon this pass.
+
+### Pass 5, form and confirmation
+
+- The header's revealed ground, reopened against the architecture's
+  "transparent over what follows" and admitted as a solid Plum Ink ground
+  on the revealed state. Brandon's reasoning, recorded: hide on scroll
+  changes what the header is. Persistent chrome should be transparent
+  because it is always present and should not compete with the section it
+  sits over. A header that hides and returns on scroll-up is not persistent
+  chrome, it is a summoned object, and a summoned object should be solid.
+  The architecture specified transparent for a header it assumed was always
+  visible; once it hides, the word describes a condition that no longer
+  exists. The departure is from the letter, not the intent.
 
 ## The footer question, settled on merits (directed, between passes 3 and 4)
 
@@ -96,6 +122,9 @@ its place, and the two instances read as one system.
   two different jobs: the lock-up signs, the bare glyph closes. The
   rationing rule is consistent under this reading: one 선 event per
   register per section.
+
+Accepted by Brandon and carried forward as the rule's working form: one 선
+event per register per section.
 
 ## Pass 2 gate: the corner on Plum Ink
 
@@ -201,6 +230,16 @@ external surface reopens font delivery.
 
 ## Open items carried to P7
 
+- The submit endpoint: `data-endpoint` on the ask form is the integration
+  point for the POST URL Dominic provisions. Until set, a valid submit
+  shows the confirmation and logs a console warning instead of sending.
+  Nothing was invented.
+- The form's functional strings are the build's only authored
+  external-surface copy outside `docs/copy.md`, written under canon and
+  standing for Brandon's approval: "Add your full name." / "Add your
+  email." / "Check the email format." / "Add your company or affiliation."
+  / "Tell us what interests you." / "Something interrupted the request.
+  Try again."
 - Founder headshots: real portraits do not exist yet; the reserved hairline
   frames stand. Brandon owns the portraits.
 - Full Nanum Myeongjo binaries on disk: OPTIONAL now the subset ships and no

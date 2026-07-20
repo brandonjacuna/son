@@ -83,10 +83,15 @@
   margin-top: 0.16em;
 }
 
-/* ── Persistent chrome ──
-   Static over the hero in this pass; hide-on-scroll behavior is pass 4. */
+/* ── Chrome ──
+   Transparent over the hero, where it is always present. Past the hero it
+   hides on scroll-down and returns on scroll-up as a summoned object, and
+   a summoned object is solid: the revealed state carries the Plum Ink
+   ground (reconsidered-and-admitted, see docs/build-scratch.md). The
+   ground swap is a hard cut, never a fade. Feedback register: state
+   change, no meaning. */
 .site-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -99,6 +104,8 @@
   gap: var(--son-space-3);
   padding: var(--son-space-3) var(--son-margin-page);
 }
+.site-header.is-away { background: var(--son-surface-primary); }
+.site-header.is-hidden { transform: translateY(-100%); }
 .site-header-right {
   display: flex;
   align-items: baseline;
@@ -288,6 +295,10 @@
   display: grid;
   gap: var(--son-space-4);
 }
+/* The hidden attribute must win over the grid display above. */
+.ask-form[hidden],
+.disclaimer[hidden] { display: none; }
+.field .son-field-error { margin-top: var(--son-space-1); }
 .field-label {
   display: block;
   margin-bottom: var(--son-space-1);
@@ -320,6 +331,20 @@ textarea.field-input { resize: vertical; }
   cursor: pointer;
 }
 .disclaimer { margin-top: var(--son-space-6); }
+
+/* The confirmation: the one separate surface, reached by a functional
+   200ms cross-fade on the feedback register. No celebration. */
+html.js .ask-form,
+html.js .disclaimer {
+  transition: opacity var(--son-motion-standard) var(--son-ease-standard);
+}
+.ask-form.is-leaving,
+.disclaimer.is-leaving { opacity: 0; }
+.ask-confirmation {
+  opacity: 0;
+  transition: opacity var(--son-motion-standard) var(--son-ease-standard);
+}
+.ask-confirmation.is-in { opacity: 1; }
 
 /* 7 · Footer: the lock-up, the location line, the bare closing glyph. */
 .slot-footer {
@@ -359,6 +384,13 @@ html.js [data-reveal="fade"] { transform: none; }
 html.js [data-reveal].is-in {
   opacity: 1;
   transform: none;
+}
+/* The chrome's hide and reveal ride the feedback register (~300ms per the
+   motion spec), independent of the load fade. */
+html.js .site-header {
+  transition:
+    opacity var(--dur, 600ms) var(--son-imm-ease),
+    transform 300ms var(--son-ease-standard);
 }
 
 /* The band wipe: the one noticeable motion. Each stripe scales in from

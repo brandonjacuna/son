@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../tokens/spacing.css">
 <link rel="stylesheet" href="../tokens/motion-immersive.css">
 <link rel="stylesheet" href="../tokens/base.css">
+<link rel="stylesheet" href="../tokens/components.css">
 <link rel="stylesheet" href="site.css">
 <script>document.documentElement.classList.add("js");</script>
 <script src="site.js" defer></script>
@@ -132,29 +133,34 @@
   <section class="slot slot-ask" id="ask" data-theme="dinner">
     <h2 class="son-eyebrow" data-beat data-reveal="sm">The ask</h2>
     <p class="t-headline ask-headline" data-beat data-reveal="md">We share the briefing with a small number of partners.</p>
-    <!-- Submit path: integration point. The handler is wired at pass 5 against
-         the endpoint Dominic provisions; no endpoint is invented here. -->
+    <!-- Submit path: INTEGRATION POINT. Set data-endpoint on the form to the
+         POST URL Dominic provisions; until it is set, a valid submit shows
+         the confirmation and logs a console warning instead of sending.
+         No endpoint is invented here. -->
     <div class="ask-card" data-beat data-reveal="md">
-    <form class="ask-form">
+    <form class="ask-form" novalidate data-endpoint="">
       <div class="field">
         <label class="son-eyebrow field-label" for="ask-name">Full name</label>
-        <input class="field-input" id="ask-name" name="name" type="text" autocomplete="name">
+        <input class="son-field field-input" id="ask-name" name="name" type="text" autocomplete="name" required>
       </div>
       <div class="field">
         <label class="son-eyebrow field-label" for="ask-email">Email</label>
-        <input class="field-input" id="ask-email" name="email" type="email" autocomplete="email">
+        <input class="son-field field-input" id="ask-email" name="email" type="email" autocomplete="email" required>
       </div>
       <div class="field">
         <label class="son-eyebrow field-label" for="ask-affiliation">Company or affiliation</label>
-        <input class="field-input" id="ask-affiliation" name="affiliation" type="text" autocomplete="organization">
+        <input class="son-field field-input" id="ask-affiliation" name="affiliation" type="text" autocomplete="organization" required>
       </div>
       <div class="field">
         <label class="son-eyebrow field-label" for="ask-interest">What interests you about Sŏn?</label>
-        <textarea class="field-input" id="ask-interest" name="interest" rows="4"></textarea>
+        <textarea class="son-field field-input" id="ask-interest" name="interest" rows="4" required></textarea>
       </div>
       <button class="ask-submit" type="submit">Request the briefing</button>
     </form>
     <p class="t-fine disclaimer">By submitting this, you are requesting access to our materials. This is not an offer to sell securities.</p>
+    <div class="ask-confirmation" tabindex="-1" hidden>
+      <p class="t-lead">Your request is in. You will hear from us within two business days.</p>
+    </div>
     </div>
   </section>
 
