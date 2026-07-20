@@ -98,7 +98,6 @@
       name: "Add your full name.",
       email: "Add your email.",
       emailFormat: "Check the email format.",
-      affiliation: "Add your company or affiliation.",
       interest: "Tell us what interests you.",
       send: "Something interrupted the request. Try again.",
     };
@@ -160,7 +159,7 @@
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
-      const inputs = [...form.querySelectorAll(".son-field")];
+      const inputs = [...form.querySelectorAll(".son-field[required]")];
       const invalid = inputs.filter((input) => !validate(input));
       if (invalid.length) {
         invalid[0].focus();

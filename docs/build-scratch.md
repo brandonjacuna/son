@@ -234,12 +234,19 @@ external surface reopens font delivery.
   point for the POST URL Dominic provisions. Until set, a valid submit
   shows the confirmation and logs a console warning instead of sending.
   Nothing was invented.
-- The form's functional strings are the build's only authored
-  external-surface copy outside `docs/copy.md`, written under canon and
-  standing for Brandon's approval: "Add your full name." / "Add your
-  email." / "Check the email format." / "Add your company or affiliation."
-  / "Tell us what interests you." / "Something interrupted the request.
-  Try again."
+- The form's functional strings, approved by Brandon 2026-07-20: "Add your
+  full name." / "Add your email." / "Check the email format." / "Tell us
+  what interests you." / "Something interrupted the request. Try again."
+  ("Add your company or affiliation." was retired with the optional
+  ruling below.)
+- Which fields block, settled on merits 2026-07-20: name, email, and the
+  free text block; company or affiliation is optional. The qualification
+  lives in the free text; affiliation is context, trivially assertable,
+  and requiring it either turns away the personal investor the warm funnel
+  delivered or teaches meaningless compliance that reads as data. The
+  optional treatment borrows the copy doc's own interpunct grammar
+  (name · role): "Company or affiliation · optional", one eyebrow voice,
+  full strength.
 - Founder headshots: real portraits do not exist yet; the reserved hairline
   frames stand. Brandon owns the portraits.
 - Full Nanum Myeongjo binaries on disk: OPTIONAL now the subset ships and no
