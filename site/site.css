@@ -81,6 +81,9 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 2;
+  background: none;
+  color: var(--son-text-primary);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -96,7 +99,11 @@
 /* ── Slots ──
    10% page margin throughout (Ma). Block spacing is differential, answering
    to content weight: the moat and the ask carry the most air. */
-.slot { padding-inline: var(--son-margin-page); }
+.slot {
+  padding-inline: var(--son-margin-page);
+  background: var(--son-surface-primary);
+  color: var(--son-text-primary);
+}
 .slot > .son-eyebrow { margin-bottom: var(--son-space-6); }
 
 /* 1 · Hero: display block upper-left, lock-up low-right, the low-left held
@@ -161,18 +168,35 @@
 .slot-model .t-headline { margin-bottom: var(--son-space-8); }
 .model-body p + p { margin-top: var(--son-space-3); }
 
-/* 6 · Ask: centered headline, the form column, the disclaimer at Fine. */
-.slot-ask { padding-block: var(--son-space-16); }
+/* 6 · Ask: Aubergine ground, the warm second dark. The form sits on a Bone
+   card, the one daylight object in the commit; the card re-resolves the
+   semantic tokens to the base editorial register because it is a light
+   ground inside a dark section. Hard edge, no shadow, no border: the
+   bone-on-aubergine cut is the separation. */
+.slot-ask {
+  padding-block: var(--son-space-16);
+  background: var(--son-surface-secondary);
+}
 .ask-headline {
   text-align: center;
   margin-inline: auto;
   margin-bottom: var(--son-space-8);
 }
+.ask-card {
+  --son-text-primary: var(--son-color-plum-ink);
+  --son-border-default: color-mix(in srgb, var(--son-color-plum-ink) 22%, transparent);
+  --son-border-strong: var(--son-color-plum-ink);
+  --son-focus-ring: var(--son-color-peacock);
+  --son-accent: var(--son-color-peacock);
+  background: var(--son-color-bone);
+  color: var(--son-text-primary);
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: var(--son-space-6);
+}
 .ask-form {
   display: grid;
   gap: var(--son-space-4);
-  max-width: 40rem;
-  margin-inline: auto;
 }
 .field-label {
   display: block;
@@ -205,11 +229,7 @@ textarea.field-input { resize: vertical; }
   justify-self: start;
   cursor: pointer;
 }
-.disclaimer {
-  max-width: 40rem;
-  margin-inline: auto;
-  margin-top: var(--son-space-6);
-}
+.disclaimer { margin-top: var(--son-space-6); }
 
 /* 7 · Footer: the lock-up, the location line, the bare closing glyph. */
 .slot-footer {
@@ -233,4 +253,5 @@ textarea.field-input { resize: vertical; }
   .slot-moat, .slot-ask { padding-block: var(--son-space-12); }
   .slot-opportunity, .slot-team, .slot-model { padding-block: var(--son-space-10); }
   .slot-hero { padding-top: var(--son-space-12); }
+  .ask-card { padding: var(--son-space-4); }
 }

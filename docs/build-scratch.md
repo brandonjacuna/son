@@ -26,11 +26,35 @@ the design system until codification at P7 (the G3 gate).
   largest voice. Held at Headline scale. What it would have bought: heavier
   low-right mass on the hero diagonal.
 
+### Pass 2, ground and color
+
+- Drop shadow on the ask's Bone card. Closed by: the no-shadow rule
+  (`tokens/spacing.css`, hairline separation only). What it would have
+  bought: conventional card elevation against the dark commit ground. The
+  bone-on-aubergine hard edge carries the separation instead, and reads
+  cleaner than a lift would.
+
 ## Reconsidered, admitted in a disciplined form
 
 ### Pass 1, structure and type
 
 - None. Nothing was reopened against canon this pass.
+
+### Pass 2, ground and color
+
+- None. Nothing was reopened against canon this pass.
+
+## Pass 2 gate: the corner on Plum Ink
+
+Run before the arc was built, per direction. Evidence:
+`refs/shots/lockup-test/gate-1440-plum.png` and `gate-390-plum.png`.
+Verdict: Headline holds on the real ground, at both widths, and holds
+better than it did on Bone. Light-on-dark inverts the mass economics: on
+Bone the lock-up was an ink spot that wanted weight; on Plum Ink it is the
+only luminous object in the hero's lower half, so isolation does the
+counterweight work scale would otherwise be asked to do. The open low-left
+reads as night atmosphere rather than blank paper, which strengthens the
+diagonal exit into the moat. No scale change made or needed.
 
 ## Between passes 1 and 2
 
@@ -101,3 +125,11 @@ visible (new glyphs fall to a local Myeongjo, never a sans).
   pass 6 polish).
 - `site/` added to the copy-adherence scope in `adherence/check-copy.mjs`
   (enforcement scope, not a design pattern; recorded so it is reviewed).
+- The `.ask-card` pattern: a light card inside a dark themed section that
+  re-resolves the semantic tokens (text, borders, focus ring, accent) to the
+  base editorial register. Candidate for a system-level surface-card
+  primitive at P7.
+- Chrome stacking: `.site-header` carries `z-index: 2` so painted section
+  grounds cannot occlude the absolutely positioned header.
+- "Seon Myeongjo" added to the two lint font allow-lists (enforcement scope,
+  recorded so it is reviewed).

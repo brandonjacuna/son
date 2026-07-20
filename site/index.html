@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<header class="site-header">
+<header class="site-header" data-theme="dinner">
   <p class="wordmark">Sŏn</p>
   <div class="site-header-right">
     <p class="son-eyebrow access-note">By request only</p>
@@ -24,7 +24,7 @@
 <main>
 
   <!-- 1 · Hero — orient and open -->
-  <section class="slot slot-hero" aria-labelledby="hero-line">
+  <section class="slot slot-hero" data-theme="dinner" aria-labelledby="hero-line">
     <div class="hero-display-block">
       <h1 id="hero-line" class="t-display hero-orient">One Korean room in Austin, Texas, open from first light to last call.</h1>
       <p class="t-headline hero-loop">We build for the second visit, not the first.</p>
@@ -36,7 +36,7 @@
   </section>
 
   <!-- 2 · Why this — the moat -->
-  <section class="slot slot-moat">
+  <section class="slot slot-moat" data-theme="dinner">
     <h2 class="son-eyebrow">Why this</h2>
     <div class="moat-body">
       <p>Every good restaurant has a Renata. She’s the floor manager, and on a full Friday she’s the reason the room works. She’s the one who knows the couple at table nine are there for a promotion, not the anniversary the reservation says, because the husband mentioned it at the bar a month ago. Which regulars never call ahead, and never need to. Which table wants to be left alone. Whose name to have ready at the door next time.</p>
@@ -63,7 +63,7 @@
   </section>
 
   <!-- 4 · The team — who executes -->
-  <section class="slot slot-team">
+  <section class="slot slot-team" data-theme="dosi">
     <h2 class="son-eyebrow">The team</h2>
     <div class="founders">
       <article class="founder">
@@ -95,11 +95,12 @@
   </section>
 
   <!-- 6 · The ask -->
-  <section class="slot slot-ask" id="ask">
+  <section class="slot slot-ask" id="ask" data-theme="dinner">
     <h2 class="son-eyebrow">The ask</h2>
     <p class="t-headline ask-headline">We share the briefing with a small number of partners.</p>
     <!-- Submit path: integration point. The handler is wired at pass 5 against
          the endpoint Dominic provisions; no endpoint is invented here. -->
+    <div class="ask-card">
     <form class="ask-form">
       <div class="field">
         <label class="son-eyebrow field-label" for="ask-name">Full name</label>
@@ -120,12 +121,13 @@
       <button class="ask-submit" type="submit">Request the briefing</button>
     </form>
     <p class="t-fine disclaimer">By submitting this, you are requesting access to our materials. This is not an offer to sell securities.</p>
+    </div>
   </section>
 
 </main>
 
 <!-- 7 · Footer — quiet close, no further ask -->
-<footer class="slot slot-footer">
+<footer class="slot slot-footer" data-theme="dinner">
   <p class="lockup lockup-footer">
     <span class="lockup-latin">Sŏn</span>
     <span class="lockup-glyph" lang="ko">선</span>
