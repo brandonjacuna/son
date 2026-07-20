@@ -5,20 +5,39 @@
    documented substitute is Nanum Myeongjo (a true Myeongjo serif). Noto Serif
    KR is brand-prohibited and intentionally absent.
 
-   PENDING BINARIES (owned, Box 388972713490, not yet on disk). The full
-   families require four files the text-only Box MCP cannot deliver; download by
-   hand from Box and save under the hyphenated names below into assets/fonts:
-     · GT Sectra Fine Book        -> GT-Sectra-Fine-Book.ttf       (wordmark)
-     · GT Sectra Display Regular  -> GT-Sectra-Display-Regular.ttf (headline, upright 400)
-     · GT Alpina Fine Light       -> GT-Alpina-Fine-Light.ttf      (lead / fine)
-     · GT Alpina Fine Regular     -> GT-Alpina-Fine-Regular.ttf    (body)
-   Until they land, each @font-face fails silently and the family stack in
-   typography.css falls through to a present cut. No layout depends on their
-   arrival; their arrival only upgrades it.
+   The four Fine cuts (Sectra Fine Book, Sectra Display Regular, Alpina Fine
+   Light, Alpina Fine Regular) are on disk and load; the Latin system renders
+   on its real faces.
+
+   PENDING BINARIES (owned, Box 388972713490, not yet on disk). The Korean
+   substitute is self-hosted like every other face; the text-only Box MCP
+   cannot deliver binaries, so download by hand from Box into assets/fonts
+   under these exact names:
+     · NanumMyeongjo-Regular.ttf    (Box 2277115631241, sha1 e1dc4bfc607b5e8460413376b492cfc124b9edd4)
+     · NanumMyeongjo-Bold.ttf       (Box 2277097679211, sha1 50d34c27f68affe1904ad5535aeb90198b213f98)
+     · NanumMyeongjo-ExtraBold.ttf  (Box 2277096779789, sha1 97209d9a47b4e4db496f9b170666eefa6872f030)
+   Until they land, each @font-face fails silently and the Korean stack falls
+   through to a local Myeongjo (Apple Myungjo / Batang), never a sans. No
+   third-party font CDN: fonts are self-hosted, ownership included.
    ───────────────────────────────────────────────────────────────────────── */
 
-/* Korean substitute for Sandoll Myeongjo — see readme "Font substitutions" */
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* ── Nanum Myeongjo — the documented web substitute for Sandoll Myeongjo,
+   self-hosted (SIL OFL). PENDING binaries, see the header note. ── */
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../assets/fonts/NanumMyeongjo-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../assets/fonts/NanumMyeongjo-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../assets/fonts/NanumMyeongjo-ExtraBold.ttf") format("truetype");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
 
 /* Sandoll Myeongjo (산돌명조) — the mandated Korean companion. SUBSTITUTE,
    pending: web files not yet supplied (replace this local() placeholder with
@@ -32,8 +51,8 @@
 }
 
 /* ── GT Sectra Fine — wordmark (Fine Book only, per canon 04) ──
-   PENDING binary. font-display: block so the mark never flashes a divergent
-   letterform; the metric-matched fallback below holds its box meanwhile. */
+   font-display: block so the mark never flashes a divergent letterform;
+   the metric-matched fallback below holds its box meanwhile. */
 @font-face {
   font-family: "GT Sectra Fine";
   src: url("../assets/fonts/GT-Sectra-Fine-Book.ttf") format("truetype");
@@ -109,7 +128,7 @@
   src: url("../assets/fonts/GT-Sectra-Display-Light-Italic.ttf") format("truetype");
   font-weight: 300; font-style: italic; font-display: swap;
 }
-@font-face { /* PENDING binary — upright headline face */
+@font-face { /* the upright headline face */
   font-family: "GT Sectra Display";
   src: url("../assets/fonts/GT-Sectra-Display-Regular.ttf") format("truetype");
   font-weight: 400; font-style: normal; font-display: swap;
@@ -130,14 +149,13 @@
   font-weight: 500; font-style: italic; font-display: swap;
 }
 
-/* ── GT Alpina Fine — the reading face (lead, body) per canon 04 ──
-   PENDING binaries. Falls through to GT Alpina (Standard) below until present. */
-@font-face { /* PENDING binary */
+/* ── GT Alpina Fine — the reading face (lead, body) per canon 04 ── */
+@font-face {
   font-family: "GT Alpina Fine";
   src: url("../assets/fonts/GT-Alpina-Fine-Light.ttf") format("truetype");
   font-weight: 300; font-style: normal; font-display: swap;
 }
-@font-face { /* PENDING binary */
+@font-face {
   font-family: "GT Alpina Fine";
   src: url("../assets/fonts/GT-Alpina-Fine-Regular.ttf") format("truetype");
   font-weight: 400; font-style: normal; font-display: swap;

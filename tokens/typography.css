@@ -40,9 +40,10 @@
 
 :root {
   /* ── Families ──
-     Fine and Fine-body cuts are owned (Box 388972713490) but their binaries
-     are not yet on disk; every stack falls through to a present cut, so the
-     system renders today and upgrades the moment the four files land. */
+     All Latin cuts, including the four Fine faces, are on disk and render.
+     The Korean web substitute is self-hosted but its binaries are pending a
+     hand-copy from Box (see tokens/fonts.css); until they land the Korean
+     stack resolves to a local Myeongjo, never a sans. */
   --son-font-wordmark: "GT Sectra Fine", "GT Sectra Book", "GT Sectra Book Fallback", Georgia, serif;
   --son-font-display:  "GT Sectra Display", "GT Sectra", "Cormorant Garamond", Georgia, serif;
   --son-font-serif:    "GT Sectra", "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
