@@ -68,10 +68,19 @@
   font-weight: var(--son-weight-book);
   line-height: 1.05;
 }
+/* The drawn 선. One path (#seon-path), sized so its ink height matches what
+   the Korean face rendered at the optical up-scale, so the approved lock-up
+   optics carry over unchanged. */
+.svg-defs { position: absolute; }
+.seon-mark {
+  display: block;
+  fill: currentColor;
+  aspect-ratio: 847 / 930.26;
+}
 .lockup-glyph {
-  font-family: var(--son-font-korean);
-  font-size: calc(1em * var(--son-korean-scale));
-  line-height: var(--son-leading-snug);
+  height: 1.02em;
+  width: auto;
+  margin-top: 0.16em;
 }
 
 /* ── Persistent chrome ──
@@ -240,10 +249,11 @@ textarea.field-input { resize: vertical; }
   text-align: center;
 }
 .lockup-footer { font-size: var(--son-text-subhead); }
-.closing-mark {
-  font-family: var(--son-font-korean);
-  font-size: var(--son-text-fine);
-  line-height: var(--son-leading-fine);
+.closing-mark { font-size: var(--son-text-fine); }
+.closing-mark .seon-mark {
+  height: 0.91em;
+  width: auto;
+  margin-inline: auto;
 }
 
 /* ── Mobile ── */

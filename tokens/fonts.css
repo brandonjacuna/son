@@ -10,13 +10,13 @@
    on its real faces.
 
    KOREAN DELIVERY. The external site renders exactly one Hangul glyph, 선
-   (U+C120), at weight 400. It ships as SeonMyeongjo-Regular.woff2 (~2KB), a
-   one-glyph subset of the OFL Nanum Myeongjo build (google/fonts v2.032),
-   renamed per the OFL Reserved Font Name terms, license at
-   assets/fonts/SeonMyeongjo-OFL.txt. Scoped by unicode-range so it claims
-   선 alone; all other Hangul (internal surfaces only) falls through to a
-   local Myeongjo, never a sans. Adding Korean copy to an external surface
-   requires regenerating the subset.
+   (U+C120), and it ships as a drawn inline SVG path in the site markup, not
+   as a font. All site uses are graphic (the lock-ups, the atmosphere layer,
+   the accent, the closing mark), and a drawn path keeps the mark invariant
+   where a webfont exposes it to a system Myeongjo during load or failure.
+   Provenance is commented at the path definition in site/index.html.
+   Korean TEXT on internal surfaces continues to use the Korean font stack;
+   Korean text on any external surface reopens font delivery.
 
    OPTIONAL FULL BINARIES (owned, Box 388972713490, not on disk). Whether the
    full weights ever land on disk is an open call recorded in
@@ -26,14 +26,6 @@
      · NanumMyeongjo-ExtraBold.ttf  (Box 2277096779789, sha1 97209d9a47b4e4db496f9b170666eefa6872f030)
    No third-party font CDN: fonts are self-hosted, ownership included.
    ───────────────────────────────────────────────────────────────────────── */
-
-/* ── Seon Myeongjo — the site's Korean delivery: 선 only, self-hosted ── */
-@font-face {
-  font-family: "Seon Myeongjo";
-  src: url("../assets/fonts/SeonMyeongjo-Regular.woff2") format("woff2");
-  font-weight: 400; font-style: normal; font-display: swap;
-  unicode-range: U+C120;
-}
 
 /* ── Nanum Myeongjo — the documented full-face substitute, self-hosted.
    OPTIONAL binaries, see the header note. ── */

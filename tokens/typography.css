@@ -44,6 +44,10 @@
      The Korean web substitute is self-hosted but its binaries are pending a
      hand-copy from Box (see tokens/fonts.css); until they land the Korean
      stack resolves to a local Myeongjo, never a sans. */
+  /* Wordmark: GT Sectra Fine Book, with 선 delivered as a drawn path. The
+     path derives from a Myeongjo letterform and is treated as artwork, not
+     type. Korean text on internal surfaces continues to use the Korean font
+     stack. */
   --son-font-wordmark: "GT Sectra Fine", "GT Sectra Book", "GT Sectra Book Fallback", Georgia, serif;
   --son-font-display:  "GT Sectra Display", "GT Sectra", "Cormorant Garamond", Georgia, serif;
   --son-font-serif:    "GT Sectra", "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
@@ -55,7 +59,7 @@
   /* Korean: Sandoll Myeongjo in production, Nanum Myeongjo the web substitute.
      Every fallback is a Korean serif (Myeongjo/Batang) or generic serif, never
      a sans, never a Latin face. Noto Serif KR is brand-prohibited (see readme). */
-  --son-font-korean:   "Sandoll Myeongjo", "Nanum Myeongjo", "Seon Myeongjo", "Apple Myungjo", "Batang", serif;
+  --son-font-korean:   "Sandoll Myeongjo", "Nanum Myeongjo", "Apple Myungjo", "Batang", serif;
 
   /* ── Type scale ──
      Named steps mapped onto the existing token names so downstream consumers do

@@ -13,6 +13,18 @@
 </head>
 <body>
 
+<!-- 선, the drawn mark. One path, reused by every instance: hero lock-up,
+     moat atmosphere, opportunity accent, footer lock-up and closing mark.
+     Derives from the OFL Nanum Myeongjo build (google/fonts v2.032),
+     extracted as artwork and treated as a drawn mark, not type. Korean text
+     on internal surfaces stays on the Korean font stack; Korean text on any
+     external surface reopens font delivery. -->
+<svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <path id="seon-path" fill="currentColor" transform="translate(0,819) scale(1,-1)" d="M365 516Q416 470 470.5 425.5Q525 381 600 336L542 284Q515 312 491.5 337.0Q468 362 444.5 386.0Q421 410 396.5 435.0Q372 460 344 488Q284 414 213.0 356.5Q142 299 67 254L49 274Q105 311 156.5 358.5Q208 406 250.5 458.0Q293 510 324.5 564.5Q356 619 371 672Q376 686 376.5 692.5Q377 699 365 709Q355 715 340.5 723.5Q326 732 303 743L319 764Q361 753 398.5 742.5Q436 732 475 717Q454 660 427.0 610.5Q400 561 365 516ZM885 -74Q822 -73 759.5 -73.0Q697 -73 637.5 -74.0Q578 -75 524.0 -77.0Q470 -79 425 -82Q397 -84 385.0 -70.5Q373 -57 373 -37V89Q373 113 370.5 127.5Q368 142 359.0 151.5Q350 161 333.0 167.0Q316 173 286 181L297 207Q312 205 331.0 203.0Q350 201 370.5 198.5Q391 196 410.5 193.5Q430 191 445 188Q443 176 441.5 154.5Q440 133 440 115V-5Q440 -27 450.0 -33.5Q460 -40 489 -41Q528 -42 580.0 -40.0Q632 -38 687.5 -34.0Q743 -30 797.5 -24.5Q852 -19 896 -12ZM757 520Q727 519 694.5 517.0Q662 515 632.0 512.5Q602 510 575.0 507.0Q548 504 529 501L503 559Q513 557 526.5 555.5Q540 554 555.5 553.0Q571 552 587.0 552.0Q603 552 618 552Q631 552 648.5 552.5Q666 553 685.0 553.0Q704 553 722.5 553.5Q741 554 757 554V731Q757 765 726.5 785.5Q696 806 632 821L643 848Q694 842 744.5 832.5Q795 823 835 815Q830 797 827.0 774.0Q824 751 824 731V316Q824 293 823.0 267.5Q822 242 819.5 216.5Q817 191 814.0 168.0Q811 145 808 128L764 121Q762 134 761.0 154.0Q760 174 759.0 196.5Q758 219 757.5 242.0Q757 265 757 283Z"/>
+  </defs>
+</svg>
+
 <header class="site-header" data-theme="dinner">
   <p class="wordmark">Sŏn</p>
   <div class="site-header-right">
@@ -29,9 +41,9 @@
       <h1 id="hero-line" class="t-display hero-orient">One Korean room in Austin, Texas, open from first light to last call.</h1>
       <p class="t-headline hero-loop">We build for the second visit, not the first.</p>
     </div>
-    <p class="lockup lockup-hero">
-      <span class="lockup-latin">Sŏn</span>
-      <span class="lockup-glyph" lang="ko">선</span>
+    <p class="lockup lockup-hero" role="img" aria-label="Sŏn 선">
+      <span class="lockup-latin" aria-hidden="true">Sŏn</span>
+      <svg class="seon-mark lockup-glyph" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
     </p>
   </section>
 
@@ -128,12 +140,14 @@
 
 <!-- 7 · Footer — quiet close, no further ask -->
 <footer class="slot slot-footer" data-theme="dinner">
-  <p class="lockup lockup-footer">
-    <span class="lockup-latin">Sŏn</span>
-    <span class="lockup-glyph" lang="ko">선</span>
+  <p class="lockup lockup-footer" role="img" aria-label="Sŏn 선">
+    <span class="lockup-latin" aria-hidden="true">Sŏn</span>
+    <svg class="seon-mark lockup-glyph" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
   </p>
   <p class="t-descriptor footer-location">Austin, Texas. By request only.</p>
-  <p class="closing-mark" lang="ko">선</p>
+  <p class="closing-mark" role="img" aria-label="선">
+    <svg class="seon-mark" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
+  </p>
 </footer>
 
 </body>

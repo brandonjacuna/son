@@ -132,6 +132,20 @@ not text, making a font the wrong delivery mechanism. Findings, evidence at
   whether to redraw the mark on Sandoll's letterform, a one-time logotype
   conversation.
 
+**Resolution: SVG, confirmed by Brandon.** The invariance argument settled
+it: a font leaves the mark exposed to a system Myeongjo during swap or on
+load failure, so the balance spec only holds when delivery cooperates. A
+drawn mark should be drawn. Disposition executed: the subset woff2, its
+@font-face, the unicode-range rule, the OFL.txt, and the "Seon Myeongjo"
+lint allow-list entries are removed; the drawn path (1,363 bytes) lives as
+`#seon-path` in `site/index.html` with provenance in the adjacent comment;
+the wordmark definition is amended in `tokens/typography.css` with Brandon's
+verbatim wording; the Korean font stack stays for internal text surfaces.
+Accessibility: each lock-up is one named object (`role="img"`,
+`aria-label="Sŏn 선"`), the closing mark is named (`aria-label="선"`), the
+atmosphere and accent are `aria-hidden`. Door recorded: Korean text on any
+external surface reopens font delivery.
+
 ## Open items carried to P7
 
 - Founder headshots: real portraits do not exist yet; the reserved hairline
@@ -141,9 +155,16 @@ not text, making a font the wrong delivery mechanism. Findings, evidence at
   hand-copy any of the three weights from Box; the pending declarations in
   `tokens/fonts.css` fail silently (one 404 per declared weight per cold
   load) until then, and can be deleted instead.
-- Sandoll Myeongjo web license: the production Korean face is still not
-  licensed for web. Subsetting reframes the ask; research reported in the
-  pass 2 preamble.
+
+## Parked, not open
+
+- Sandoll Myeongjo. With 선 delivered as a drawn path, no font software is
+  served and no webfont or file-provision license is in play. The remaining
+  question is purely aesthetic, whether Sandoll's drawing of 선 is better
+  than the current Nanum-derived form, and the current mark is legally
+  settled without them (glyph-as-artwork is unrestricted OFL use). That is a
+  brand-level question for after the raise, not a website decision. Parked
+  by Brandon, off the build's open items.
 
 ## Scratch list (new patterns, not in the system until P7)
 

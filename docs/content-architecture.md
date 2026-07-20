@@ -53,7 +53,7 @@ Defined in `tokens/typography.css`. Sizes are px at 375 / 1280 / cap.
 | Descriptor | `--son-text-menu` | GT Alpina Fine, Regular 400 | 14 fixed |
 | Eyebrow | `--son-text-eyebrow` | GT Sectra (Standard), Regular 400, uppercase | 12 fixed |
 | Fine | `--son-text-fine` | GT Alpina (Standard), Light 300 | 12 fixed |
-| Wordmark | `--son-font-wordmark` | GT Sectra Fine Book, with 선 in the Korean face | contextual |
+| Wordmark | `--son-font-wordmark` | GT Sectra Fine Book, with 선 delivered as a drawn path (amended; definition in `tokens/typography.css`) | contextual |
 
 On C8, recorded so it is not misread later: the display cap was resolved by
 splitting Display from Headline and making the display step reach its size at
