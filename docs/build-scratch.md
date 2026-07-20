@@ -100,6 +100,38 @@ job if preferred. Adding Korean copy to any external surface requires
 regenerating the subset; the unicode-range scoping makes the failure mode
 visible (new glyphs fall to a local Myeongjo, never a sans).
 
+## Between passes 2 and 3: the 선 delivery test
+
+Directed test, no path built. Question: all site uses of 선 may be graphic,
+not text, making a font the wrong delivery mechanism. Findings, evidence at
+`refs/shots/seon-svg-test/`:
+
+- Every 선 instance on the site is graphic: the two lock-ups (canon already
+  treats the lock-up as a drawn mark under the balance spec), the moat
+  atmosphere (texture), the opportunity accent (a glyph in a field, no
+  caption), and the footer closing mark (a seal). None participates in a
+  sentence. Nothing functional breaks if all become drawn; find-in-page and
+  selection of a one-glyph mark are nil costs.
+- The SVG path extracted from the shipped subset's own outline (1,363 bytes
+  of path data, upm 1024, advance 973, tight-crop file 1,484 bytes) renders
+  identically to the font at 12, 45, 67, 240, and 640px, both polarities,
+  including the 7%-opacity atmosphere treatment. Identity is by
+  construction; rasterization parity verified at 2x DPR. Caveat recorded:
+  at 12px on low-DPI displays font grid-fitting could differ marginally.
+- A drawn path makes the mark invariant. As a font, the mark can flash a
+  system Myeongjo (Batang on Windows) under font-display swap or any load
+  failure, which puts the drawn-balance spec at the mercy of delivery. SVG
+  removes that failure class.
+- If SVG ships: the wordmark step's definition ("with 선 in the Korean
+  face") needs a one-sentence canon amendment, which is Brandon's, not the
+  builder's. Accessibility pattern: lock-up container role="img"
+  aria-label="Sŏn 선"; footer mark role="img" aria-label="선"; atmosphere
+  and accent aria-hidden.
+- Sandoll reframe: with no font software served, there is no webfont or
+  file-provision license in play at all; the remaining question is purely
+  whether to redraw the mark on Sandoll's letterform, a one-time logotype
+  conversation.
+
 ## Open items carried to P7
 
 - Founder headshots: real portraits do not exist yet; the reserved hairline
