@@ -24,10 +24,13 @@
     el.classList.add("is-in");
   };
 
+  // Reduced motion is a designed path, not a kill switch: the hero and the
+  // chrome appear complete (no entrance), the band appears complete (no
+  // wipe, delays zeroed by the immersive kill rule), and the scroll beats
+  // below still arrive on enter, instantly and opacity-only, so the staged
+  // order still communicates while nothing moves.
   if (reduce) {
-    // Reduced motion is a designed path: everything arrives complete.
-    // The chrome and the form below still run; their transitions collapse.
-    document.querySelectorAll(marked).forEach((el) => el.classList.add("is-in"));
+    document.querySelectorAll("[data-load]").forEach((el) => el.classList.add("is-in"));
   } else {
     // The load beat: the hero entrance and the chrome fade. Once, on load,
     // nothing on scroll after it.
@@ -64,25 +67,24 @@
   }
 
   // The scroll beats: IntersectionObserver on enter, at roughly 85% of the
-  // viewport height, firing once and never re-firing.
-  if (!reduce) {
-    const io = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (!entry.isIntersecting) continue;
-          io.unobserve(entry.target);
-          const beat = entry.target;
-          const items = [
-            ...(beat.matches(marked) ? [beat] : []),
-            ...beat.querySelectorAll(marked),
-          ];
-          items.forEach((el, i) => arm(el, i));
-        }
-      },
-      { rootMargin: "0px 0px -15% 0px" }
-    );
-    document.querySelectorAll("[data-beat]").forEach((beat) => io.observe(beat));
-  }
+  // viewport height, firing once and never re-firing. Runs under reduced
+  // motion too; the arrivals are instant there.
+  const io = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        io.unobserve(entry.target);
+        const beat = entry.target;
+        const items = [
+          ...(beat.matches(marked) ? [beat] : []),
+          ...beat.querySelectorAll(marked),
+        ];
+        items.forEach((el, i) => arm(el, i));
+      }
+    },
+    { rootMargin: "0px 0px -15% 0px" }
+  );
+  document.querySelectorAll("[data-beat]").forEach((beat) => io.observe(beat));
 
   // The form (A3): validation as feedback, never narrative. The palette
   // has no red, so an invalid field speaks through the 2px border

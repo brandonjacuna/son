@@ -69,6 +69,12 @@ the design system until codification at P7 (the G3 gate).
   explicit "functional, not congratulatory. No confetti." What it would
   have bought: a warmer post-submit beat. The quiet slip is the design.
 
+### Pass 6, accessibility and reduced motion
+
+- None. Nothing was considered and closed by canon this pass; the token
+  system already carried the accessible answers (per-theme focus rings,
+  the 2px focus exception, the 12px fine-step floor).
+
 ## Reconsidered, admitted in a disciplined form
 
 ### Pass 1, structure and type
@@ -95,6 +101,14 @@ the design system until codification at P7 (the G3 gate).
   The architecture specified transparent for a header it assumed was always
   visible; once it hides, the word describes a condition that no longer
   exists. The departure is from the letter, not the intent.
+
+### Pass 6, accessibility and reduced motion
+
+- None. The pass corrected the build's own pass 4 shortcut instead: the
+  reduced-motion path had been implemented as everything-visible-at-load,
+  which is the kill switch the spec forbids. Now the hero, chrome, and band
+  appear complete, and the scroll beats still arrive on enter, instantly
+  and opacity-only, so the staged order communicates while nothing moves.
 
 ## The footer question, settled on merits (directed, between passes 3 and 4)
 

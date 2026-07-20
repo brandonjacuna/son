@@ -111,6 +111,14 @@
   align-items: baseline;
   gap: var(--son-space-4);
 }
+/* A1 is the one small interactive element in the chrome: pad its hit area
+   to the 44px target and pull the padding back out of the layout so the
+   optics hold. */
+.header-cta {
+  display: inline-block;
+  padding: 13px var(--son-space-1);
+  margin: -13px calc(-1 * var(--son-space-1));
+}
 
 /* ── Slots ──
    10% page margin throughout (Ma). Block spacing is differential, answering
@@ -391,6 +399,12 @@ html.js .site-header {
   transition:
     opacity var(--dur, 600ms) var(--son-imm-ease),
     transform 300ms var(--son-ease-standard);
+}
+/* Reduced motion, the designed path: hidden states are opacity-only, so
+   arrivals never translate, and the immersive kill rule makes them
+   instant. What communicates stays; what moves goes. */
+@media (prefers-reduced-motion: reduce) {
+  html.js [data-reveal] { transform: none; }
 }
 
 /* The band wipe: the one noticeable motion. Each stripe scales in from
