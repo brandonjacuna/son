@@ -58,19 +58,36 @@ the design system until codification at P7 (the G3 gate).
   open low-left Ma, more than by point size. Re-verify the corner's perceived
   weight at pass 2 when the ground inverts to Plum Ink.
 
+## Korean subset, resolved before pass 2
+
+The site's Korean glyph inventory is exactly one glyph: 선 (U+C120), weight
+400, across every surface that will ever render it (hero lock-up, moat
+atmosphere, opportunity accent, footer lock-up and closing mark). All other
+Korean in the corpus (여백의 미) is internal-doc language, never on a site
+surface. Shipped as `assets/fonts/SeonMyeongjo-Regular.woff2`, 1,924 bytes, a
+subset of the OFL Nanum Myeongjo build (google/fonts v2.032), renamed because
+"Nanum" and "NanumMyeongjo" are OFL Reserved Font Names and a subset is a
+Modified Version; copyright and license name records retained; license text
+at `assets/fonts/SeonMyeongjo-OFL.txt`; scoped by `unicode-range: U+C120`.
+Provenance disclosed: the subset derives from the google/fonts build, not the
+Box artifact (different build, sha1s differ; Box copy is likely Naver's
+original distribution). Regenerating from the Box artifact is a five-minute
+job if preferred. Adding Korean copy to any external surface requires
+regenerating the subset; the unicode-range scoping makes the failure mode
+visible (new glyphs fall to a local Myeongjo, never a sans).
+
 ## Open items carried to P7
 
 - Founder headshots: real portraits do not exist yet; the reserved hairline
   frames stand. Brandon owns the portraits.
-- Nanum Myeongjo binaries: hand-copy from Box into `assets/fonts` under the
-  exact names in `tokens/fonts.css`.
-- OFL license text should accompany the self-hosted Nanum files when they
-  land (SIL OFL redistribution requirement).
-- Korean font weight: the TTFs are 3.7 to 4.4MB each; woff2 conversion or
-  Hangul subsetting is a production optimization needing tooling and a
-  decision.
+- Full Nanum Myeongjo binaries on disk: OPTIONAL now the subset ships and no
+  external surface needs any other Hangul. Brandon decides whether to
+  hand-copy any of the three weights from Box; the pending declarations in
+  `tokens/fonts.css` fail silently (one 404 per declared weight per cold
+  load) until then, and can be deleted instead.
 - Sandoll Myeongjo web license: the production Korean face is still not
-  licensed for web.
+  licensed for web. Subsetting reframes the ask; research reported in the
+  pass 2 preamble.
 
 ## Scratch list (new patterns, not in the system until P7)
 

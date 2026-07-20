@@ -9,20 +9,34 @@
    Light, Alpina Fine Regular) are on disk and load; the Latin system renders
    on its real faces.
 
-   PENDING BINARIES (owned, Box 388972713490, not yet on disk). The Korean
-   substitute is self-hosted like every other face; the text-only Box MCP
-   cannot deliver binaries, so download by hand from Box into assets/fonts
-   under these exact names:
+   KOREAN DELIVERY. The external site renders exactly one Hangul glyph, 선
+   (U+C120), at weight 400. It ships as SeonMyeongjo-Regular.woff2 (~2KB), a
+   one-glyph subset of the OFL Nanum Myeongjo build (google/fonts v2.032),
+   renamed per the OFL Reserved Font Name terms, license at
+   assets/fonts/SeonMyeongjo-OFL.txt. Scoped by unicode-range so it claims
+   선 alone; all other Hangul (internal surfaces only) falls through to a
+   local Myeongjo, never a sans. Adding Korean copy to an external surface
+   requires regenerating the subset.
+
+   OPTIONAL FULL BINARIES (owned, Box 388972713490, not on disk). Whether the
+   full weights ever land on disk is an open call recorded in
+   docs/build-scratch.md; the declarations below fail silently until then:
      · NanumMyeongjo-Regular.ttf    (Box 2277115631241, sha1 e1dc4bfc607b5e8460413376b492cfc124b9edd4)
      · NanumMyeongjo-Bold.ttf       (Box 2277097679211, sha1 50d34c27f68affe1904ad5535aeb90198b213f98)
      · NanumMyeongjo-ExtraBold.ttf  (Box 2277096779789, sha1 97209d9a47b4e4db496f9b170666eefa6872f030)
-   Until they land, each @font-face fails silently and the Korean stack falls
-   through to a local Myeongjo (Apple Myungjo / Batang), never a sans. No
-   third-party font CDN: fonts are self-hosted, ownership included.
+   No third-party font CDN: fonts are self-hosted, ownership included.
    ───────────────────────────────────────────────────────────────────────── */
 
-/* ── Nanum Myeongjo — the documented web substitute for Sandoll Myeongjo,
-   self-hosted (SIL OFL). PENDING binaries, see the header note. ── */
+/* ── Seon Myeongjo — the site's Korean delivery: 선 only, self-hosted ── */
+@font-face {
+  font-family: "Seon Myeongjo";
+  src: url("../assets/fonts/SeonMyeongjo-Regular.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+  unicode-range: U+C120;
+}
+
+/* ── Nanum Myeongjo — the documented full-face substitute, self-hosted.
+   OPTIONAL binaries, see the header note. ── */
 @font-face {
   font-family: "Nanum Myeongjo";
   src: url("../assets/fonts/NanumMyeongjo-Regular.ttf") format("truetype");
