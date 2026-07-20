@@ -88,14 +88,28 @@ a day, so the chapters come from it.
 | — | | | Hard swap |
 | P11 | Coda | Plum Ink | Footer: the page arrives at the still 선. Lock-up, location, the bare glyph is the layer itself |
 
-Moat panelization (P2 to P6) is provisional pending Brandon's approval of the
-strophe breaks, delivered with the chapter labels as the next deliverable
-after this commit.
+Panelization locked 2026-07-20: five-panel moat as tabled, strophe breaks
+approved on the exact approved copy, words unchanged. P3, the departure, is
+two sentences alone on the emptiest panel of the site; the reader scrolls
+through the space she left. Active Ma doing narrative work: the emptiness is
+the event.
 
-Chapter waypoint: the current chapter label sits quietly in the header,
-Eyebrow step, updating at chapter edges. Labels are drafted for approval with
-the strophes; constraints: no daypart code names ever, descriptive, naming the
-argument's movement rather than the time of day.
+Chapter waypoints: cut. Decision 6 reversed on examination, 2026-07-20. The
+waypoint was carried from the reference, where the persistent marker orients
+across twelve routed chapters whose position is otherwise invisible. Under
+our conditions it fails the removal test: three chapters are announced by the
+hard ground swaps, the loudest visual events on the page; the section
+eyebrows carry fine-grain naming; A1 carries wayfinding. Remove the waypoint
+and nothing is lost. It would have been a third naming layer and a fourth
+element on the site's quietest surface. The chrome stays at three elements:
+wordmark, access note, A1. The door is named: waypoints reopen if the chapter
+count ever grows.
+
+Recorded alongside the reversal, per Brandon: this is the reframe working in
+the direction that matters. The reframe was never "adopt more from the
+reference." It was "let the reference argue, then decide." A carried feature
+examined under our own conditions and closed is as much a success as an
+admission.
 
 Routes: one URL plus the post-submit confirmation state. The reference's
 chapters are self-contained episodes, so its deep links land somewhere whole.
@@ -244,8 +258,9 @@ Carries:
 9. **Header hide on scroll.** Feedback register.
 10. **Ratio-held mobile type ramp; single-weight size-only ramp.** Already
     ours; the reference validates both stances.
-11. **A persistent chapter marker.** The reference's chapter index, as the
-    current-chapter eyebrow in our header chrome.
+11. **A persistent chapter marker.** Initially adopted as the current-chapter
+    eyebrow in the header (decision 6), then reversed on examination: on
+    three chapters it fails the removal test. See section 3.
 
 Does not carry:
 
@@ -302,8 +317,8 @@ No belief moves. No sentence-level rewrite is forced. The costs:
   (approved in principle, decision 9).
 - **The pull-line gains a panel of its own.** Promotion in isolation, not in
   type step. No word changes.
-- **New copy, under ten words total:** three chapter labels (pending
-  approval). No arrival-state line; the arrival is the wordmark.
+- **New copy: none.** Chapter labels were cut with the waypoints (decision 6
+  reversed). No arrival-state line; the arrival is the wordmark.
 - **The traversal is never named in copy.** A line explaining the day would
   be performed conviction; the grounds already say it.
 - The hero's two-step split (Display + Headline) survives as-is and becomes
@@ -368,6 +383,10 @@ Each argued against a warm, forwarded reader; none closed silently.
 - Naming the day-traversal in copy. Reason: performed conviction.
 - A second pin anywhere (including the moat pull-line). Reason: the pin's
   singularity is its value.
+- Chapter waypoints in the header (decision 6, reversed on examination).
+  Reason: on three chapters the marker fails the removal test; the ground
+  swaps, eyebrows, and A1 already carry orientation, naming, and wayfinding.
+  Door named: reopens if the chapter count grows.
 
 ### Reconsidered, admitted
 
@@ -389,9 +408,12 @@ Each argued against a warm, forwarded reader; none closed silently.
 
 ## 12. Open items
 
-1. Moat strophe breaks: delivered for approval immediately after this
-   commit. Build does not panelize the moat until approved.
-2. Chapter labels: drafted alongside, same constraints, same approval.
-3. Canon amendment: Brandon carries section 5 into the Brand Guidelines.
-4. Build sessions follow approval of 1 and 2. The v3 site at tag
-   `v3-fallback` remains the working fallback and is not extended.
+1. Canon amendment: Brandon carries section 5 into the Brand Guidelines.
+2. Type re-examination session precedes build: the prior scale was set with
+   no reference input, and the new structure creates type conditions that
+   did not exist when it was set (viewport-isolated display panels,
+   clip-rise entrances, the architectural 선).
+3. Build sessions follow. First deliverable of the first build session: the
+   still-선 not-a-watermark demonstration (section 4), shown to Brandon
+   before anything else layers on it. The v3 site at tag `v3-fallback`
+   remains the working fallback and is not extended.
