@@ -235,11 +235,27 @@
 .stripe {
   writing-mode: vertical-lr;
   padding: var(--son-space-2);
+  position: relative;
 }
-.stripe-coffee { background: var(--son-color-jade); color: var(--son-color-plum-ink); }
-.stripe-lunch { background: var(--son-color-onggi); color: var(--son-color-bone); }
-.stripe-dinner { background: var(--son-color-plum-ink); color: var(--son-color-bone); }
-.stripe-late { background: var(--son-color-aubergine); color: var(--son-color-bone); }
+/* Stripe color rides ::before so the wipe can scale the field without
+   distorting the label. Static, no-JS, and reduced-motion states all render
+   the band complete. */
+.stripe::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--stripe-color);
+  transform-origin: left center;
+}
+.stripe-label { position: relative; }
+.stripe-coffee { --stripe-color: var(--son-color-jade); color: var(--son-color-plum-ink); }
+.stripe-lunch { --stripe-color: var(--son-color-onggi); color: var(--son-color-bone); }
+.stripe-dinner { --stripe-color: var(--son-color-plum-ink); color: var(--son-color-bone); }
+.stripe-late { --stripe-color: var(--son-color-aubergine); color: var(--son-color-bone); }
+.band-stripes li:nth-child(1) { --stripe-i: 0; }
+.band-stripes li:nth-child(2) { --stripe-i: 1; }
+.band-stripes li:nth-child(3) { --stripe-i: 2; }
+.band-stripes li:nth-child(4) { --stripe-i: 3; }
 .model-body p + p { margin-top: var(--son-space-3); }
 
 /* 6 · Ask: Aubergine ground, the warm second dark. The form sits on a Bone
@@ -321,6 +337,44 @@ textarea.field-input { resize: vertical; }
   margin-inline: auto;
 }
 
+/* ── Motion: the timed reveal (pass 4) ──
+   One narrative gesture, the settle: rise and fade up to rest, ease-out,
+   once, at roughly 85% viewport height, never re-firing. Durations keyed to
+   element size. Hidden states are gated on html.js so the page is complete
+   without JavaScript, and the immersive reduced-motion kill collapses every
+   transition to nothing. The atmosphere 선, the peacock field, and the
+   grounds never move. */
+html.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(var(--rise, 16px));
+  transition:
+    opacity var(--dur, 600ms) var(--son-imm-ease),
+    transform var(--dur, 600ms) var(--son-imm-ease);
+}
+html.js [data-reveal="sm"] { --rise: 12px; --dur: 450ms; }
+html.js [data-reveal="md"] { --rise: 16px; --dur: 600ms; }
+html.js [data-reveal="lg"] { --rise: 20px; --dur: 700ms; }
+html.js [data-reveal="hero"] { --rise: 16px; --dur: 550ms; }
+html.js [data-reveal="fade"] { transform: none; }
+html.js [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* The band wipe: the one noticeable motion. Each stripe scales in from
+   first light's side, 260ms per stripe, staggered to roughly one second,
+   labels landing per stripe. Triggered once on enter, never scrubbed. */
+html.js .stripe::before {
+  transition: transform 260ms var(--son-imm-ease);
+  transition-delay: calc(var(--beat-delay, 0ms) + var(--stripe-i, 0) * 245ms);
+}
+html.js .stripe-label {
+  transition: opacity 300ms var(--son-imm-ease);
+  transition-delay: calc(var(--beat-delay, 0ms) + var(--stripe-i, 0) * 245ms + 130ms);
+}
+html.js [data-reveal-band]:not(.is-in) .stripe::before { transform: scaleX(0); }
+html.js [data-reveal-band]:not(.is-in) .stripe-label { opacity: 0; }
+
 /* ── Mobile ── */
 @media (max-width: 640px) {
   .access-note { display: none; }
@@ -340,6 +394,12 @@ textarea.field-input { resize: vertical; }
     display: flex;
     align-items: center;
   }
+  /* The band stacks, so the wipe runs top to bottom: the day passing,
+     pulling the eye down. Rises reduce per the mobile motion spec. */
+  .stripe::before { transform-origin: center top; }
+  html.js [data-reveal-band]:not(.is-in) .stripe::before { transform: scaleY(0); }
+  html.js [data-reveal="sm"], html.js [data-reveal="md"] { --rise: 8px; }
+  html.js [data-reveal="lg"], html.js [data-reveal="hero"] { --rise: 10px; }
   .slot-moat, .slot-ask { padding-block: var(--son-space-12); }
   .slot-opportunity, .slot-team, .slot-model { padding-block: var(--son-space-10); }
   .slot-hero { padding-top: var(--son-space-12); }

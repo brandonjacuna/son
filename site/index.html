@@ -8,10 +8,13 @@
 <link rel="stylesheet" href="../tokens/colors.css">
 <link rel="stylesheet" href="../tokens/typography.css">
 <link rel="stylesheet" href="../tokens/spacing.css">
+<link rel="stylesheet" href="../tokens/motion-immersive.css">
 <link rel="stylesheet" href="../tokens/base.css">
 <link rel="stylesheet" href="site.css">
+<script>document.documentElement.classList.add("js");</script>
+<script src="site.js" defer></script>
 </head>
-<body>
+<body data-surface="immersive">
 
 <!-- 선, the drawn mark. One path, reused by every instance: hero lock-up,
      moat atmosphere, opportunity accent, footer lock-up and closing mark.
@@ -25,7 +28,7 @@
   </defs>
 </svg>
 
-<header class="site-header" data-theme="dinner">
+<header class="site-header" data-theme="dinner" data-reveal="fade" data-load data-delay="0">
   <p class="wordmark">Sŏn</p>
   <div class="site-header-right">
     <p class="son-eyebrow access-note">By request only</p>
@@ -38,10 +41,10 @@
   <!-- 1 · Hero — orient and open -->
   <section class="slot slot-hero" data-theme="dinner" aria-labelledby="hero-line">
     <div class="hero-display-block">
-      <h1 id="hero-line" class="t-display hero-orient">One Korean room in Austin, Texas, open from first light to last call.</h1>
-      <p class="t-headline hero-loop">We build for the second visit, not the first.</p>
+      <h1 id="hero-line" class="t-display hero-orient" data-reveal="hero" data-load data-delay="0">One Korean room in Austin, Texas, open from first light to last call.</h1>
+      <p class="t-headline hero-loop" data-reveal="md" data-load data-delay="80">We build for the second visit, not the first.</p>
     </div>
-    <p class="lockup lockup-hero" role="img" aria-label="Sŏn 선">
+    <p class="lockup lockup-hero" role="img" aria-label="Sŏn 선" data-reveal="md" data-load data-delay="100">
       <span class="lockup-latin" aria-hidden="true">Sŏn</span>
       <svg class="seon-mark lockup-glyph" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
     </p>
@@ -51,87 +54,87 @@
   <section class="slot slot-moat" data-theme="dinner">
     <!-- Atmosphere: the oversized still 선, texture not mark, never with Sŏn. -->
     <svg class="seon-mark moat-atmo" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
-    <h2 class="son-eyebrow">Why this</h2>
-    <div class="moat-body">
-      <p>Every good restaurant has a Renata. She’s the floor manager, and on a full Friday she’s the reason the room works. She’s the one who knows the couple at table nine are there for a promotion, not the anniversary the reservation says, because the husband mentioned it at the bar a month ago. Which regulars never call ahead, and never need to. Which table wants to be left alone. Whose name to have ready at the door next time.</p>
-      <p>One day she leaves. There’s always a better offer across town.</p>
-      <p>The owners tell each other they’ll be fine. There’s a reservation book, a point of sale, a training binder. What they don’t say is that the facts are walking out in her coat. Next month that couple comes back to a room that’s forgotten them.</p>
+    <h2 class="son-eyebrow" data-beat data-reveal="sm">Why this</h2>
+    <div class="moat-body" data-beat>
+      <p data-reveal="sm">Every good restaurant has a Renata. She’s the floor manager, and on a full Friday she’s the reason the room works. She’s the one who knows the couple at table nine are there for a promotion, not the anniversary the reservation says, because the husband mentioned it at the bar a month ago. Which regulars never call ahead, and never need to. Which table wants to be left alone. Whose name to have ready at the door next time.</p>
+      <p data-reveal="sm">One day she leaves. There’s always a better offer across town.</p>
+      <p data-reveal="sm">The owners tell each other they’ll be fine. There’s a reservation book, a point of sale, a training binder. What they don’t say is that the facts are walking out in her coat. Next month that couple comes back to a room that’s forgotten them.</p>
     </div>
-    <p class="t-display pull-line">A restaurant is a memory business. Most forget.</p>
-    <blockquote class="moat-quote">
-      <p class="t-headline">The restaurant remembered nothing.</p>
+    <p class="t-display pull-line" data-beat data-reveal="lg">A restaurant is a memory business. Most forget.</p>
+    <blockquote class="moat-quote" data-beat>
+      <p class="t-headline" data-reveal="md">The restaurant remembered nothing.</p>
     </blockquote>
-    <div class="moat-body">
-      <p>Three things in a restaurant compound. The organization, whose system keeps what the team learns. The customer, whose relationship deepens with every visit. The brand, whose name travels further with every night. Everything else a good competitor copies in a season.</p>
-      <p>We’re building the restaurant where a Renata can leave and the table is still held, the promotion still remembered. The knowledge was never only in her head.</p>
+    <div class="moat-body" data-beat>
+      <p data-reveal="sm">Three things in a restaurant compound. The organization, whose system keeps what the team learns. The customer, whose relationship deepens with every visit. The brand, whose name travels further with every night. Everything else a good competitor copies in a season.</p>
+      <p data-reveal="sm">We’re building the restaurant where a Renata can leave and the table is still held, the promotion still remembered. The knowledge was never only in her head.</p>
     </div>
   </section>
 
   <!-- 3 · The opportunity — why now -->
-  <section class="slot slot-opportunity">
+  <section class="slot slot-opportunity" data-beat>
     <div class="opportunity-text">
-      <h2 class="son-eyebrow">The opportunity</h2>
-      <p class="t-headline">Korean food and the city of Austin are climbing the same curve. Sŏn opens where they meet.</p>
-      <p class="t-lead">In a city where dining is judged harder than most, Korean cooking holds the highest honors.</p>
-      <p class="opportunity-body">The customer this room is built for already lives in Austin, and already eats this way.</p>
+      <h2 class="son-eyebrow" data-reveal="sm" data-delay="0">The opportunity</h2>
+      <p class="t-headline" data-reveal="md" data-delay="80">Korean food and the city of Austin are climbing the same curve. Sŏn opens where they meet.</p>
+      <p class="t-lead" data-reveal="sm" data-delay="160">In a city where dining is judged harder than most, Korean cooking holds the highest honors.</p>
+      <p class="opportunity-body" data-reveal="sm" data-delay="240">The customer this room is built for already lives in Austin, and already eats this way.</p>
     </div>
     <!-- Punctuation: the 선 accent split, one semantic instance in a color
          field, planted at the intersection the headline names. No caption. -->
     <div class="opportunity-field" aria-hidden="true">
-      <svg class="seon-mark seon-accent" viewBox="49 -29 847 930.26" focusable="false"><use href="#seon-path"/></svg>
+      <svg class="seon-mark seon-accent" viewBox="49 -29 847 930.26" focusable="false" data-reveal="md" data-delay="200"><use href="#seon-path"/></svg>
     </div>
   </section>
 
   <!-- 4 · The team — who executes -->
   <section class="slot slot-team" data-theme="dosi">
-    <h2 class="son-eyebrow">The team</h2>
-    <div class="founders">
+    <h2 class="son-eyebrow" data-beat data-reveal="sm">The team</h2>
+    <div class="founders" data-beat>
       <article class="founder">
-        <h3 class="t-subhead founder-name">Brandon Acuña-Cardona</h3>
-        <p class="son-eyebrow founder-role">Operations and strategy</p>
-        <p class="founder-bio">He’s opened rooms like this one before. Most recently as opening service director at Coqodaq, Simon Kim’s Korean concept from the group behind Cote. Across New York, Austin, and San Antonio, he takes restaurants from construction through opening into steady operation.</p>
+        <h3 class="t-subhead founder-name" data-reveal="md" data-delay="0">Brandon Acuña-Cardona</h3>
+        <p class="son-eyebrow founder-role" data-reveal="sm" data-delay="80">Operations and strategy</p>
+        <p class="founder-bio" data-reveal="sm" data-delay="160">He’s opened rooms like this one before. Most recently as opening service director at Coqodaq, Simon Kim’s Korean concept from the group behind Cote. Across New York, Austin, and San Antonio, he takes restaurants from construction through opening into steady operation.</p>
         <!-- Founder headshot, no caption. Real portrait binaries pending; slot reserved. -->
-        <figure class="headshot" data-slot="headshot-brandon-acuna-cardona"></figure>
+        <figure class="headshot" data-slot="headshot-brandon-acuna-cardona" data-reveal="fade" data-delay="240"></figure>
       </article>
       <article class="founder">
-        <h3 class="t-subhead founder-name">Dominic Thomas</h3>
-        <p class="son-eyebrow founder-role">Capital and systems</p>
-        <p class="founder-bio">He brings the capital discipline the business requires. He sits on one of Texas’s top-producing wealth management teams, named among the state’s best by Barron’s and Forbes in 2024 and 2025 and responsible for more than three billion dollars in assets. Before that, commercial real estate.</p>
+        <h3 class="t-subhead founder-name" data-reveal="md" data-delay="80">Dominic Thomas</h3>
+        <p class="son-eyebrow founder-role" data-reveal="sm" data-delay="160">Capital and systems</p>
+        <p class="founder-bio" data-reveal="sm" data-delay="240">He brings the capital discipline the business requires. He sits on one of Texas’s top-producing wealth management teams, named among the state’s best by Barron’s and Forbes in 2024 and 2025 and responsible for more than three billion dollars in assets. Before that, commercial real estate.</p>
         <!-- Founder headshot, no caption. Real portrait binaries pending; slot reserved. -->
-        <figure class="headshot" data-slot="headshot-dominic-thomas"></figure>
+        <figure class="headshot" data-slot="headshot-dominic-thomas" data-reveal="fade" data-delay="320"></figure>
       </article>
     </div>
   </section>
 
   <!-- 5 · The model — the return -->
   <section class="slot slot-model">
-    <h2 class="son-eyebrow">The model</h2>
-    <p class="t-headline">One footprint. Four dayparts. One set of fixed costs.</p>
+    <h2 class="son-eyebrow" data-beat data-reveal="sm">The model</h2>
+    <p class="t-headline" data-beat data-reveal="md">One footprint. Four dayparts. One set of fixed costs.</p>
     <!-- The daypart band: the site's one saturated rupture, and the only
          place Jade appears. Descriptive labels only. -->
-    <div class="daypart-band">
-      <span class="son-eyebrow band-end">First light</span>
+    <div class="daypart-band" data-beat data-reveal-band data-delay="400">
+      <span class="son-eyebrow band-end" data-reveal="sm" data-delay="400">First light</span>
       <ul class="band-stripes">
-        <li class="son-eyebrow stripe stripe-coffee">Coffee</li>
-        <li class="son-eyebrow stripe stripe-lunch">Lunch</li>
-        <li class="son-eyebrow stripe stripe-dinner">Dinner</li>
-        <li class="son-eyebrow stripe stripe-late">Late night</li>
+        <li class="son-eyebrow stripe stripe-coffee"><span class="stripe-label">Coffee</span></li>
+        <li class="son-eyebrow stripe stripe-lunch"><span class="stripe-label">Lunch</span></li>
+        <li class="son-eyebrow stripe stripe-dinner"><span class="stripe-label">Dinner</span></li>
+        <li class="son-eyebrow stripe stripe-late"><span class="stripe-label">Late night</span></li>
       </ul>
-      <span class="son-eyebrow band-end">Last call</span>
+      <span class="son-eyebrow band-end" data-reveal="sm" data-delay="400">Last call</span>
     </div>
-    <div class="model-body">
-      <p>Most restaurants earn from the room once, at dinner. Sŏn earns from it four times. Each daypart is another reason to come back, and another return on the same rent.</p>
-      <p>The amount, the structure, and the returns are <a class="model-link" href="#ask">in the briefing</a>.</p>
+    <div class="model-body" data-beat>
+      <p data-reveal="sm">Most restaurants earn from the room once, at dinner. Sŏn earns from it four times. Each daypart is another reason to come back, and another return on the same rent.</p>
+      <p data-reveal="sm">The amount, the structure, and the returns are <a class="model-link" href="#ask">in the briefing</a>.</p>
     </div>
   </section>
 
   <!-- 6 · The ask -->
   <section class="slot slot-ask" id="ask" data-theme="dinner">
-    <h2 class="son-eyebrow">The ask</h2>
-    <p class="t-headline ask-headline">We share the briefing with a small number of partners.</p>
+    <h2 class="son-eyebrow" data-beat data-reveal="sm">The ask</h2>
+    <p class="t-headline ask-headline" data-beat data-reveal="md">We share the briefing with a small number of partners.</p>
     <!-- Submit path: integration point. The handler is wired at pass 5 against
          the endpoint Dominic provisions; no endpoint is invented here. -->
-    <div class="ask-card">
+    <div class="ask-card" data-beat data-reveal="md">
     <form class="ask-form">
       <div class="field">
         <label class="son-eyebrow field-label" for="ask-name">Full name</label>
@@ -158,13 +161,13 @@
 </main>
 
 <!-- 7 · Footer — quiet close, no further ask -->
-<footer class="slot slot-footer" data-theme="dinner">
-  <p class="lockup lockup-footer" role="img" aria-label="Sŏn 선">
+<footer class="slot slot-footer" data-theme="dinner" data-beat>
+  <p class="lockup lockup-footer" role="img" aria-label="Sŏn 선" data-reveal="md" data-delay="0">
     <span class="lockup-latin" aria-hidden="true">Sŏn</span>
     <svg class="seon-mark lockup-glyph" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
   </p>
-  <p class="t-descriptor footer-location">Austin, Texas. By request only.</p>
-  <p class="closing-mark" role="img" aria-label="선">
+  <p class="t-descriptor footer-location" data-reveal="sm" data-delay="80">Austin, Texas. By request only.</p>
+  <p class="closing-mark" role="img" aria-label="선" data-reveal="sm" data-delay="160">
     <svg class="seon-mark" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
   </p>
 </footer>

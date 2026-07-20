@@ -48,6 +48,14 @@ the design system until codification at P7 (the G3 gate).
   bought: a crisper edge against Bone. The peacock-on-bone cut needs no
   help.
 
+### Pass 4, motion
+
+- CSS smooth scrolling (`scroll-behavior: smooth`) for the A1 header jump
+  to the ask. Closed by: no smooth-scroll of any kind, native scroll is the
+  reader's control surface (`docs/motion-spec.md`). What it would have
+  bought: a softened anchor jump. The spec treats the instant native jump
+  as correct, so the cost is nil.
+
 ## Reconsidered, admitted in a disciplined form
 
 ### Pass 1, structure and type
@@ -60,13 +68,34 @@ the design system until codification at P7 (the G3 gate).
 
 ### Pass 3, the 선 system and the band
 
-- None. Nothing was reopened against canon this pass. One reading recorded
-  for transparency, not reopened: the footer carries both the lock-up and
-  the bare closing mark, and the rationing rule says at most one 선 event
-  per section. The approved copy and the motion spec both specify the two
-  footer instances explicitly, so the rule is read as governing designed
-  graphic events (nothing added beyond what the copy ships), not as
-  overriding the approved copy. No conflict is live.
+- None. Nothing was reopened against canon this pass.
+
+## The footer question, settled on merits (directed, between passes 3 and 4)
+
+Evidence at `refs/shots/footer-test/` (A: both instances; B: closing mark
+hidden, test override only; both widths). Verdict: the closing mark earns
+its place, and the two instances read as one system.
+
+- The removal test (B): without the bare mark the page ends on the location
+  line. The close becomes informational; the last thing read is a sentence,
+  not stillness. The design language's claim holds in A and fails in B: the
+  moat's architectural solo 선 is echoed at whisper scale, largest solo
+  instance to smallest, and the material register resolves. In B the solo
+  register never closes and the site opens and closes on signatures alone.
+- The capture read (A): the footer runs a descending cadence, signature,
+  information, seal. The two 선 forms differ 2.4x in scale, are separated by
+  the location line, and the terminal mark is isolated with air around it.
+  It reads as a full stop, not a twin. Confirmed at 390 as well, where the
+  whisper scale is even more clearly a seal.
+- Why the hero failed and the footer holds, stated as one rule: the failure
+  is register duplication, not glyph recurrence. The hero bleed would have
+  put two SIGNATURE-register instances in one viewport, two identity claims
+  doing the same job, which is redundancy. The footer pairs a signature
+  with a solo material instance, the exact distinction the depth system
+  teaches (lock-up-선 is the mark, solo-선 is the glyph as material), doing
+  two different jobs: the lock-up signs, the bare glyph closes. The
+  rationing rule is consistent under this reading: one 선 event per
+  register per section.
 
 ## Pass 2 gate: the corner on Plum Ink
 
@@ -219,3 +248,10 @@ external surface reopens font delivery.
   candidate.
 - The atmosphere placement pattern: absolutely positioned background glyph
   with sibling z-index lift (`.slot-moat > :not(.moat-atmo)`). P7 candidate.
+- The reveal grammar (pass 4): `data-beat` groups observed once at 85%
+  viewport, `data-reveal="sm|md|lg|hero|fade"` size classes carrying
+  rise and duration, `data-delay` overriding the 80ms sibling stagger,
+  `html.js` gating so no-JS renders complete. P7 candidate.
+- The band wipe pattern (pass 4): stripe color on `::before` scaling from
+  the first-light side (scaleY top-down when stacked on mobile), labels
+  landing per stripe, all delays hung off one `--beat-delay`. P7 candidate.
