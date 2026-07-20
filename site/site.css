@@ -137,8 +137,27 @@
 }
 
 /* 2 · Moat: the one long section. Body at measure; the pull-line isolated
-   at Display; the blockquote centered one step below. */
-.slot-moat { padding-block: var(--son-space-16); }
+   at Display; the blockquote centered one step below. The atmosphere 선 is
+   the section's one 선 event: background depth, low opacity, still, fully
+   contained on the horizontal axis (nothing crops left or right). */
+.slot-moat {
+  position: relative;
+  padding-block: var(--son-space-16);
+}
+.moat-atmo {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(72vh, 88vw);
+  height: auto;
+  opacity: 0.08;
+  pointer-events: none;
+}
+.slot-moat > :not(.moat-atmo) {
+  position: relative;
+  z-index: 1;
+}
 .moat-body p + p { margin-top: var(--son-space-4); }
 .pull-line {
   max-width: 16ch;
@@ -150,10 +169,28 @@
 }
 .moat-quote .t-headline { margin-inline: auto; }
 
-/* 3 · Opportunity */
-.slot-opportunity { padding-block: var(--son-space-12); }
+/* 3 · Opportunity: the accent split. Text column left; the peacock field
+   right, the section's one 선 event, a single semantic instance planted at
+   the intersection the headline names. Peacock on Bone is the sanctioned
+   daylight chroma. */
+.slot-opportunity {
+  padding-block: var(--son-space-12);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 34%);
+  gap: var(--son-space-8);
+  align-items: stretch;
+}
+.opportunity-text > .son-eyebrow { margin-bottom: var(--son-space-6); }
 .slot-opportunity .t-lead { margin-top: var(--son-space-6); }
 .opportunity-body { margin-top: var(--son-space-4); }
+.opportunity-field {
+  background: var(--son-color-peacock);
+  color: var(--son-color-bone);
+  display: grid;
+  place-items: center;
+  min-height: 420px;
+}
+.seon-accent { width: 56%; height: auto; }
 
 /* 4 · Team: two founders, read as two people. Portrait slots reserved;
    founder headshots are the only photography the site is allowed. */
@@ -172,9 +209,37 @@
   border: var(--son-border-hairline) solid var(--son-border-default);
 }
 
-/* 5 · Model: headline first, the band (pass 3) between it and the body. */
+/* 5 · Model: headline first, then the band, then the body. The band is the
+   site's one saturated rupture and the only place Jade appears: four equal
+   stripes, the day sweeping one footprint, spanning from First light to
+   Last call. Labels are the sanctioned eyebrow uppercase, vertical on
+   desktop. Type yields to the band here, once, on purpose. */
 .slot-model { padding-block: var(--son-space-12); }
 .slot-model .t-headline { margin-bottom: var(--son-space-8); }
+.daypart-band {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--son-space-2);
+  align-items: stretch;
+  height: clamp(240px, 36vh, 340px);
+  margin-block: var(--son-space-8);
+}
+.band-end { writing-mode: vertical-lr; }
+.band-stripes {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.stripe {
+  writing-mode: vertical-lr;
+  padding: var(--son-space-2);
+}
+.stripe-coffee { background: var(--son-color-jade); color: var(--son-color-plum-ink); }
+.stripe-lunch { background: var(--son-color-onggi); color: var(--son-color-bone); }
+.stripe-dinner { background: var(--son-color-plum-ink); color: var(--son-color-bone); }
+.stripe-late { background: var(--son-color-aubergine); color: var(--son-color-bone); }
 .model-body p + p { margin-top: var(--son-space-3); }
 
 /* 6 · Ask: Aubergine ground, the warm second dark. The form sits on a Bone
@@ -260,6 +325,21 @@ textarea.field-input { resize: vertical; }
 @media (max-width: 640px) {
   .access-note { display: none; }
   .founders { grid-template-columns: 1fr; }
+  .slot-opportunity { grid-template-columns: 1fr; }
+  .opportunity-field { min-height: 320px; }
+  .daypart-band {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: var(--son-space-1);
+  }
+  .band-end { writing-mode: horizontal-tb; }
+  .band-stripes { grid-template-columns: 1fr; gap: 0; }
+  .stripe {
+    writing-mode: horizontal-tb;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+  }
   .slot-moat, .slot-ask { padding-block: var(--son-space-12); }
   .slot-opportunity, .slot-team, .slot-model { padding-block: var(--son-space-10); }
   .slot-hero { padding-top: var(--son-space-12); }

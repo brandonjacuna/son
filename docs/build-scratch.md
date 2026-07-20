@@ -34,6 +34,20 @@ the design system until codification at P7 (the G3 gate).
   bone-on-aubergine hard edge carries the separation instead, and reads
   cleaner than a lift would.
 
+### Pass 3, the 선 system and the band
+
+- Full-bleed, edge-to-edge band. Closed by: the settled span (the band runs
+  from "First light" on the left to "Last call" on the right, so the labels
+  bound it) and the 10% page-margin Ma, which is specified emptiness. What
+  it would have bought: a harder, more cinematic rupture. The band stays
+  inside the reading column, and its saturation carries the rupture.
+- A hairline frame on the peacock accent field. Closed by: the hairline
+  system's refusal of decorative dividers, and the accent's own admission
+  terms: it earns through as a single semantic instance, and ornament would
+  tip it toward 선-as-decoration, which page 03 resists. What it would have
+  bought: a crisper edge against Bone. The peacock-on-bone cut needs no
+  help.
+
 ## Reconsidered, admitted in a disciplined form
 
 ### Pass 1, structure and type
@@ -43,6 +57,16 @@ the design system until codification at P7 (the G3 gate).
 ### Pass 2, ground and color
 
 - None. Nothing was reopened against canon this pass.
+
+### Pass 3, the 선 system and the band
+
+- None. Nothing was reopened against canon this pass. One reading recorded
+  for transparency, not reopened: the footer carries both the lock-up and
+  the bare closing mark, and the rationing rule says at most one 선 event
+  per section. The approved copy and the motion spec both specify the two
+  footer instances explicitly, so the rule is read as governing designed
+  graphic events (nothing added beyond what the copy ships), not as
+  overriding the approved copy. No conflict is live.
 
 ## Pass 2 gate: the corner on Plum Ink
 
@@ -185,4 +209,13 @@ external surface reopens font delivery.
 - Chrome stacking: `.site-header` carries `z-index: 2` so painted section
   grounds cannot occlude the absolutely positioned header.
 - "Seon Myeongjo" added to the two lint font allow-lists (enforcement scope,
-  recorded so it is reviewed).
+  recorded so it is reviewed). Superseded: the allow-list entries were
+  removed with the subset when 선 moved to the drawn path.
+- The drawn-mark pattern: one `#seon-path` definition, per-instance `<svg>`
+  plus `<use>`, sized in em against the type it accompanies, colored via
+  currentColor so the theme tokens resolve it. P7 candidate.
+- The daypart band component: label-bounded grid, four equal stripes,
+  vertical eyebrow labels on desktop, stacks top-to-bottom on mobile. P7
+  candidate.
+- The atmosphere placement pattern: absolutely positioned background glyph
+  with sibling z-index lift (`.slot-moat > :not(.moat-atmo)`). P7 candidate.
