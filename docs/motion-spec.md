@@ -1,3 +1,13 @@
+> **Superseded, 2026-07-20, by `docs/structure-motion-decision.md`.** Kept for
+> the record, not read as constraint. Reason: this spec was written from the
+> same exit-fear framing as the structure decision, timed-reveal-led with
+> scrub, pin, parallax, and smooth scroll excluded by rule rather than argued
+> per instance; it overruled the Motion profile's own worked example for the
+> daypart band. The new document inverts the model: scrub-led travel, timed
+> text, feedback unchanged. What survives: the feedback register, the
+> reduced-motion posture, the earn-test discipline, and the timed reveal
+> values, carried forward as starting points.
+
 # Motion spec
 
 Motion for the Sŏn investor site. It serves the downward funnel or it does not

@@ -1,3 +1,10 @@
+> **Superseded in part, 2026-07-20, by `docs/structure-motion-decision.md`.**
+> The flat section layout gives way to the chapter-and-panel structure; the
+> moat re-lineates into panel strophes. What remains standing reference: the
+> type steps and display fit rule, the location and property constraint, the
+> slot content inventory, the three affordances (A1, A2, A3), and both canon
+> registers recorded here.
+
 # Content architecture
 
 The build-ready structure for the Sŏn investor site. It expresses the seven

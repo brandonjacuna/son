@@ -1,3 +1,12 @@
+> **Superseded in part, 2026-07-20, by `docs/structure-motion-decision.md`.**
+> What stands: the ground arc, the 선 depth system (now extended by the
+> persistent still layer), the hero typography split, hard cuts between
+> grounds, and the band's singularity rule. What is reversed: the
+> motion-adjacent session-register closures (scrub, parallax, smooth scroll,
+> scrubbing the band), per the new document and the motion-registers canon
+> amendment. The hero bleed closure was re-examined under the new frame and
+> stands on mark-integrity merits, not by inheritance.
+
 # Design language
 
 What carries the Sŏn investor site when type, color, and motion are the only

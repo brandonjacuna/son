@@ -1,3 +1,13 @@
+> **Superseded, 2026-07-20, by `docs/structure-motion-decision.md`.** Kept for
+> the record, not read as constraint. Reason: this document decided structure
+> alone, split from motion, from an exit-fear framing that quarantined the
+> reference vocabulary; the split is what allowed the vocabulary to be killed
+> without touching the structure. What survives, carried into the new document
+> on new, mechanical arguments: the continuous single-URL form, the slot order
+> and belief ladder, the low-density conversion model. What does not survive:
+> the framing, and the motion note ("restrained reveal, no scroll-jacking"),
+> which the new document reverses.
+
 # Structure and funnel decision
 
 The structure and conversion decision for the Sŏn investor site. It changes nothing
