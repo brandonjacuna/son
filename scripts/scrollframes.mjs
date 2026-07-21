@@ -7,7 +7,10 @@
 //   <spec>    seam=<selector>   frames across the viewport crossing of the
 //             element's top edge, from edge-at-viewport-bottom to
 //             edge-at-viewport-top
+//             seat=<selector>   frames from the element seated (top edge at
+//             viewport top) to the end of the document travel
 //             range=<fromY>:<toY>  explicit document scrollY range
+//             (device-blind: applies verbatim to both widths)
 //   [count]   frames per device, default 12
 // Writes refs/shots/<name>/desktop/0001-y<scrollY>.png … and the same under
 // mobile/, top of the travel to the bottom, scroll position in the filename.
@@ -55,9 +58,10 @@ if (/^https?:\/\//i.test(target)) {
 }
 
 const seamMatch = spec.match(/^seam=(.+)$/);
+const seatMatch = spec.match(/^seat=(.+)$/);
 const rangeMatch = spec.match(/^range=(\d+):(\d+)$/);
-if (!seamMatch && !rangeMatch) {
-  fail(`spec must be seam=<selector> or range=<fromY>:<toY>, got "${spec}"`);
+if (!seamMatch && !seatMatch && !rangeMatch) {
+  fail(`spec must be seam=<selector>, seat=<selector>, or range=<fromY>:<toY>, got "${spec}"`);
 }
 
 let chromium;
@@ -79,17 +83,24 @@ async function captureDevice(browser, device) {
   await page.goto(url, { waitUntil: "load", timeout: 60000 });
   await page.waitForTimeout(SETTLE_MS);
 
+  const elementTop = async (sel) => {
+    const top = await page.evaluate((s) => {
+      const el = document.querySelector(s);
+      if (!el) return null;
+      return el.getBoundingClientRect().top + window.scrollY;
+    }, sel);
+    if (top === null) {
+      fail(`no element matches selector "${sel}"`);
+    }
+    return top;
+  };
+  const maxScroll = () =>
+    page.evaluate(() => document.documentElement.scrollHeight - window.innerHeight);
+
   let from;
   let to;
   if (seamMatch) {
-    const seamTop = await page.evaluate((sel) => {
-      const el = document.querySelector(sel);
-      if (!el) return null;
-      return el.getBoundingClientRect().top + window.scrollY;
-    }, seamMatch[1]);
-    if (seamTop === null) {
-      fail(`no element matches seam selector "${seamMatch[1]}"`);
-    }
+    const seamTop = await elementTop(seamMatch[1]);
     if (seamTop < height) {
       console.warn(
         `scrollframes: ${label} — seam sits ${Math.round(seamTop)}px from the top, ` +
@@ -98,6 +109,12 @@ async function captureDevice(browser, device) {
     }
     from = Math.max(0, Math.round(seamTop - height));
     to = Math.round(seamTop);
+  } else if (seatMatch) {
+    from = Math.round(await elementTop(seatMatch[1]));
+    to = Math.round(await maxScroll());
+    if (from >= to) {
+      fail(`seat "${seatMatch[1]}" sits at or past the end of the travel (y ${from}, end ${to})`);
+    }
   } else {
     from = Number(rangeMatch[1]);
     to = Number(rangeMatch[2]);

@@ -90,9 +90,15 @@ The hard swap at a moving panel edge, designed:
   glyph is re-revealed under the rising Aubergine edge in exactly the
   position it was left, three chapters later, unmoved. The thesis
   performed: everything traveled; the one thing that matters did not.
-  Implementation is a seam-tracked clip on the fixed layer (build detail);
-  this is the not-a-watermark demonstration, first deliverable of the
-  build, shown to Brandon before anything layers on it.
+  Implementation, ratified by Brandon at gate A (2026-07-21): paint-order
+  occlusion. The still layer is fixed between the dark grounds and the
+  daylight panels' stacking level, so the daylight grounds clip the layer
+  at exactly the moving seam in the compositor, zero per-frame script; a
+  scripted clip could lag on the single frame that matters most, and this
+  cannot. The load-bearing stacking invariant is recorded in
+  track/track.css and enforced by adherence/check-track.mjs. The
+  not-a-watermark demonstration passed gate A (frames:
+  refs/shots/gate-a-wipe, refs/shots/gate-a-rereveal).
 - Nothing else moves at a seam. The seam is the loudest event on the page
   and gets the frame to itself.
 
@@ -180,7 +186,7 @@ motion: band renders complete, no pin, no build.
   (`tokens/seon.css`), opacity 0.06 on the dark grounds, 1.0 at the coda.
 - Z-order: above the dark grounds, below content. Daylight panels (P7–P9)
   occlude it; the occlusion at the two dark–light seams is the wipe
-  (§2.2), implemented as a seam-tracked clip.
+  (§2.2), implemented by paint order, ratified at gate A.
 - Present P1–P6 and P10–P11; absent through chapter II by occlusion, not
   by fade.
 - It never enters, never moves, and must never sit fully inside one panel
@@ -446,7 +452,8 @@ Named, in order of demonstration:
 
 1. **Not-a-watermark**: the seam-tracked wipe at P6→P7 and the re-reveal
    at P9→P10, shown to Brandon before anything layers on the still 선
-   (carried, R1).
+   (carried, R1). PASSED 2026-07-21; paint-order occlusion ratified as
+   the mechanism (§2.2).
 2. **Coda deliberate-close**: the emptying-out sequence must read as a
    close, not the layer merely becoming visible (carried, R2 Decision 7;
    §3 P11 is the proposal it tests).
@@ -577,7 +584,8 @@ Each argued against the warm, forwarded reader; none closed silently.
 4. "Enter by travel" as the sanctioned entrance class for conversion
    surfaces (the P10 reading of R1's own row).
 5. The wipe as a seam-tracked clip on the fixed layer — mechanism
-   admission feeding gate 1.
+   admission feeding gate 1. (Outcome at gate A, 2026-07-21: the clip is
+   realized by paint order rather than script; ratified, §2.2.)
 6. The confirmation as a state of P10 with client-side persistence (one
    flag, success-gated, 30-day window) — the separate-surface framing
    retired in favor of the isolate the track already provides.

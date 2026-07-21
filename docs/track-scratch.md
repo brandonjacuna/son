@@ -22,15 +22,16 @@ open. Started at gate pass A, 2026-07-21.
    seam and clip by construction. Spec §1 item 2 already names occlusion as
    the wipe; this is that sentence made literal.
 
-## Candidate codification, Brandon's gate
+## Enforcement in use, ruled at gate A
 
-3. **The stacking-context invariant as an adherence check.** The mechanism's
-   one fragility: a stacking-context-creating property (transform, opacity,
-   will-change, filter, contain, isolation, mix-blend-mode, clip-path, mask)
-   on body, the track, or a dark panel demotes that panel's content below
-   the still layer, and at 0.06 the failure is subtle. Recorded as a
-   load-bearing comment in track/track.css; a lint rule scoped to the panel
-   selectors could enforce it mechanically.
+3. **The stacking-context invariant as an adherence check** — written at
+   Brandon's direction (2026-07-21, gate A review): enforcement of an
+   invariant the build already depends on is the same class as the copy
+   pass, not a new pattern entering the system. `adherence/check-track.mjs`
+   fails lint when body, the track, or a dark panel gains a
+   stacking-context-creating property; guarded by selector subject so
+   positioning content inside a panel stays legitimate; daylight panels
+   exempt. Static CSS only; the same invariant binds track JS by review.
 
 ## Notes for later passes
 
@@ -50,4 +51,11 @@ open. Started at gate pass A, 2026-07-21.
    offsets, hard 1px cut); on-device verification remains at gate 7.
 7. **`range=` mode is device-blind.** An explicit scroll range applies
    verbatim to both devices though document geometry differs per width; use
-   `seam=` (per-device resolution) for anything that must hold on both.
+   `seam=` or `seat=` (per-device resolution) for anything that must hold
+   on both.
+8. **`seat=` capture mode** (gate B): frames from an element seated (top
+   edge at viewport top) to the end of the document travel; built for the
+   coda close, reusable for any seated-to-end sequence.
+9. **Coda travel distance.** `CODA_TRAVEL_VH = 80` lives in track/track.js
+   for the gate; it moves into tokens/motion-track.css at pass 2 alongside
+   the pin distance, per build-spec §2.7.

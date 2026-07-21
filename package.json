@@ -5,9 +5,10 @@
   "description": "Sŏn — design system (선 · Future Nostalgia Hospitality Group). Tokens, components, specimen cards, slides, deck template, and UI kits with adherence enforcement.",
   "main": "_ds_bundle.js",
   "scripts": {
-    "lint": "npm run lint:css && npm run lint:copy",
+    "lint": "npm run lint:css && npm run lint:copy && npm run lint:track",
     "lint:css": "stylelint \"**/*.css\" \"**/*.html\"",
     "lint:copy": "node adherence/check-copy.mjs",
+    "lint:track": "node adherence/check-track.mjs",
     "lint:jsx": "echo \"JSX adherence (oxlint) requires the omelette preprocessor: stock oxlint cannot parse the x-omelette key or run no-restricted-syntax. See readme Adherence section.\" && exit 0",
     "frames": "node scripts/frames.mjs",
     "scrollframes": "node scripts/scrollframes.mjs",

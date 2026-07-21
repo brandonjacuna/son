@@ -77,3 +77,52 @@ html {
   color: var(--son-glyph);
   opacity: var(--son-seon-still-opacity);
 }
+
+/* ── The coda (gate pass B, build gate 2) ──
+   P11 runs ~180svh, the only extended panel besides the pin distance. The
+   seat frame (first 100svh) carries the lock-up and the location line; the
+   final ~80vh of travel is empty ground, so the footer text exits upward
+   at rate one past the held glyph while track.js scrubs the layer's
+   opacity from the rest token to the coda token. The scroll ends on the
+   glyph alone at full opacity. Nothing may sit over the glyph at full
+   opacity: the close empties rather than stacks. The travel distance
+   moves to tokens/motion-track.css at pass 2. */
+.panel--coda {
+  min-height: 180svh;
+}
+.coda-frame {
+  position: relative;
+  z-index: 2;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--son-space-2);
+  color: var(--son-text-primary);
+}
+
+/* The lock-up, carried from the settled component (site/site.css): Wordmark
+   face over the drawn glyph, one register; the still layer beneath it is
+   the other (field-under-mark, the amended register rule). */
+.lockup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--son-font-wordmark);
+  font-weight: var(--son-weight-book);
+  font-size: var(--son-text-subhead);
+  line-height: 1.05;
+}
+.lockup-glyph {
+  height: 1.02em;
+  width: auto;
+  margin-top: 0.16em;
+}
+
+/* The location line at Descriptor. */
+.coda-location {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-menu);
+  line-height: var(--son-leading-caption);
+}
