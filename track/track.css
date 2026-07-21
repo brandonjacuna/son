@@ -22,6 +22,14 @@ html {
 /* The path definition renders nothing and must occupy no flow space. */
 .svg-defs { position: absolute; }
 
+/* Every drawn-mark instance, carried from the settled component
+   (site/site.css). */
+.seon-mark {
+  display: block;
+  fill: currentColor;
+  aspect-ratio: 847 / 930.26;
+}
+
 /* ── Panels ──
    100svh floor, growth allowed (build-spec Decision 4). Each panel carries
    its own theme; the ground is the themed surface. Two grounds abut at a

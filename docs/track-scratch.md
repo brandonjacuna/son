@@ -58,4 +58,17 @@ open. Started at gate pass A, 2026-07-21.
    coda close, reusable for any seated-to-end sequence.
 9. **Coda travel distance.** `CODA_TRAVEL_VH = 80` lives in track/track.js
    for the gate; it moves into tokens/motion-track.css at pass 2 alongside
-   the pin distance, per build-spec §2.7.
+   the pin distance, per build-spec §2.7. The 180svh panel height in
+   track.css encodes the same 80 (180 minus the 100svh seat frame); the
+   pass-2 tokenization closes both so they cannot drift apart.
+10. **Coda scrub anchoring, the recorded cost** (gate B verification). The
+    scrub is end-anchored: the close is the last ~80vh of document travel,
+    measured in innerHeight units, while panel geometry is svh. On
+    dynamic-toolbar phones (innerHeight grows past 1svh once chrome
+    collapses) the scrub therefore begins up to ~1.8x the toolbar delta
+    BEFORE the seat point. End-anchoring is correct and necessary: a
+    seat-anchored window mathematically never reaches full opacity on a
+    collapsed-chrome phone, and the final-frame guarantee is the gate.
+    Felt effect reviews at build gate 3 (phone coda on device); the pass-2
+    tokenization decides which unit the 80 is 80 of. Exact at both capture
+    viewports (seat and scrub start coincide to the pixel).

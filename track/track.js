@@ -13,11 +13,10 @@
 const CODA_TRAVEL_VH = 80; // ~80vh of travel; token lands in tokens/motion-track.css at pass 2
 
 const glyph = document.querySelector(".still-glyph");
-const layerStyles = getComputedStyle(glyph);
-const restOpacity = parseFloat(layerStyles.getPropertyValue("--son-seon-still-opacity"));
-const codaOpacity = parseFloat(layerStyles.getPropertyValue("--son-seon-still-opacity-coda"));
 
-let scrubStart = 0;
+let restOpacity = 0;
+let codaOpacity = 1;
+let scrubStart = Infinity;
 let scrubLength = 1;
 let ticking = false;
 
@@ -28,10 +27,26 @@ function apply() {
 }
 
 function measure() {
+  // Tokens re-read per measure so a conditional (media- or theme-scoped)
+  // tune of the rest opacity is never shadowed by a stale inline value.
+  const layerStyles = getComputedStyle(glyph);
+  restOpacity = parseFloat(layerStyles.getPropertyValue("--son-seon-still-opacity"));
+  codaOpacity = parseFloat(layerStyles.getPropertyValue("--son-seon-still-opacity-coda"));
   const viewport = window.innerHeight;
   const end = document.documentElement.scrollHeight - viewport;
-  scrubLength = (CODA_TRAVEL_VH / 100) * viewport;
-  scrubStart = end - scrubLength;
+  if (end <= 0) {
+    // No travel, no close: the layer rests and content keeps the frame.
+    // Full opacity under content is the forbidden state (build-spec P11).
+    scrubStart = Infinity;
+    scrubLength = 1;
+  } else {
+    // End-anchored: the close is the LAST stretch of travel, so the final
+    // frame is guaranteed even where dynamic browser chrome makes
+    // innerHeight exceed 1svh; the cost, recorded in track-scratch, is
+    // that the scrub can begin slightly before the seat on such phones.
+    scrubLength = Math.min((CODA_TRAVEL_VH / 100) * viewport, end);
+    scrubStart = end - scrubLength;
+  }
   apply();
 }
 

@@ -65,14 +65,24 @@ async function main() {
   // body, main, .track, a [data-panel] in the dark set, or .panel without
   // the daylight modifier.
   function subjectIsGuarded(selector) {
-    const subject = selector.trim().split(/\s*[>+~]\s*|\s+/).filter(Boolean).pop() || "";
+    const rawSubject = selector.trim().split(/\s*[>+~]\s*|\s+/).filter(Boolean).pop() || "";
+    // A :not() qualifier narrows which elements match; it can never make a
+    // guarded subject safe (".panel:not(.panel--daylight)" IS the dark
+    // set), so :not() contents are stripped before every test and the
+    // daylight exemption only honors the class outside :not(). Other
+    // functional pseudos keep their contents so ":is(.panel)" stays
+    // guarded.
+    const subject = rawSubject.replace(/:not\([^)]*\)/gi, "");
     if (subject.includes("panel--daylight")) return false;
     // A pseudo-element is a child of the guarded box, not the box itself;
     // a stacking context on it cannot demote the panel.
-    if (subject.includes("::")) return false;
+    if (rawSubject.includes("::")) return false;
     const dataPanel = subject.match(/\[data-panel="?([a-z0-9]+)"?\]/);
     if (dataPanel) return DARK_PANELS.has(dataPanel[1]);
-    if (/(^|[^a-z0-9_-])\.panel(?![a-z0-9_-])/.test(subject)) return true;
+    // Any .panel* class is guarded, modifiers included: .panel--coda is a
+    // dark panel; the only sanctioned stacking contexts are the daylight
+    // modifier (exempted above) and content INSIDE panels.
+    if (/(^|[^a-z0-9_-])\.panel/.test(subject)) return true;
     if (/\.track(?![a-z0-9_-])/.test(subject)) return true;
     const tag = subject.match(/^[a-z][a-z0-9]*/i);
     return !!tag && ["html", "body", "main"].includes(tag[0].toLowerCase());
