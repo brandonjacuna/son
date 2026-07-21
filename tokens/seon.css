@@ -1,0 +1,64 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Architectural 선 tokens
+   The 선 instances that live OUTSIDE the reading ramp, sized to content,
+   not the frame. Decided 2026-07-20 (docs/type-decision.md, Decisions 1, 3,
+   7, ratified by Brandon). The glyph is the drawn path (#seon-path in
+   site/index.html), never live Korean type: page 04 Rule 3, the 선 glyph is
+   a drawn logotype element, not a typeface deployment. Its drawn quality
+   was tested at architectural scale (2400px stroke-level inspection) and
+   passes on craft; Sandoll stroke authority remains the drawn-mark
+   production routing's question and is not reopened here.
+
+   Register rule, amended 2026-07-20 (Decision 1): 선 appears with Sŏn only
+   in the lock-up — never with Sŏn IN THE SAME REGISTER. The still layer
+   sits under the P1 and P11 lock-ups as field-under-mark: lock-up is
+   signature, the layer is atmosphere. Two registers, two jobs. (This is the
+   same shape as the killed hero bleed, and it passes where the bleed failed
+   for the established reason: the failure was register duplication, not
+   glyph recurrence.)
+
+   Mobile stance (Decision 1): the architectural layers hold size and CROP,
+   never shrink — the reference's measured stance, and the sanctioned
+   exemption from the horizontal-overflow exclusion, which continues to bind
+   the reading ramp and Latin display. Cost, accepted and recorded: on a
+   phone the still layer side-crops at all times, including the coda — the
+   phone closes on a fragment where the desktop closes on the whole glyph.
+   The named door if that cost grows: a phone-only still-size override.
+
+   Build gates carried from R1 (structure-motion-decision.md §4) plus one
+   added at ratification (Decision 7):
+   1. Not-a-watermark: stillness is established by travel — content and
+      ground edges wipe across the held glyph; shown to Brandon first.
+   2. The coda reveal reads as a DELIBERATE CLOSE, not the layer merely
+      becoming visible. Those are different events and only one of them
+      ends a page.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── The still layer ──
+     One element: fixed, rate zero, present on the dark grounds (Plum Ink,
+     Aubergine), absent in daylight. It absorbs the v3 per-section moat
+     atmosphere (P2–P6 are all Plum Ink; two oversized 선s on one panel
+     would double the texture) and IS the coda's closing glyph at full
+     opacity ("the bare glyph is the layer itself", R1 P11 — superseding
+     build-scratch's 12px footer seal; the footer still runs signature then
+     close, lock-up signing and the layer closing).
+     88vh (Decision 3): the whole silhouette resolves in frame at the coda.
+     The coda is the payoff — a cropped arrival is a partial arrival, and at
+     full opacity the low-opacity texture carve-out lapses, so the layer
+     behaves as a mark at exactly that moment and the drawn-balance spec
+     applies. One value, all devices: on a 390px phone this is ~676px of
+     glyph width, a deliberate side crop (see the mobile stance above). */
+  --son-seon-still-size:    88vh;
+  --son-seon-still-opacity: 0.06;  /* dark grounds; on-device tune reserved */
+  --son-seon-still-opacity-coda: 1;
+
+  /* ── The punctuation instance ──
+     P7, the accent split: one semantic instance, full opacity, planted in
+     the peacock field at the intersection the headline names. One order
+     quieter than the still layer, one order louder than the lock-up glyph.
+     Derivation: the reference's planted mid-display tier (256px on a 720px
+     viewport ≈ 36vh), its non-takeover architectural size. */
+  --son-seon-accent-size:        min(36vh, 44vw);
+  --son-seon-accent-size-mobile: min(30vh, 60vw);
+}
