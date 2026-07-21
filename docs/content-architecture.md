@@ -4,6 +4,11 @@
 > type steps and display fit rule, the location and property constraint, the
 > slot content inventory, the three affordances (A1, A2, A3), and both canon
 > registers recorded here.
+>
+> **Further superseded in part, 2026-07-21, by `docs/build-spec.md` §4:**
+> the confirmation-state framing ("the one separate surface") is retired.
+> On the track the confirmation is a state of the ask panel — a full-viewport
+> isolate already provides what separateness was the means of achieving.
 
 # Content architecture
 

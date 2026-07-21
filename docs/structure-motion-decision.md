@@ -65,6 +65,13 @@ This is not v3 with parallax added. V3 is a document whose sections fade in on
 arrival; motion is emphasis on a static page. This is a track traveled
 through, where traversal is the medium.
 
+Addendum, 2026-07-21: the axis was reopened after the type restart with the
+full system in hand and reconfirmed vertical on merits, not carried by
+default. The fit mathematics, the strophe locks, and the scrub grammar's
+touch survival all bind to the vertical track; the band remains the page's
+only horizontal move. The build-ready panel specification is
+`docs/build-spec.md`.
+
 ## 3. Structure: three chapters and a coda
 
 The belief ladder holds in its locked order: orient and open, moat,
