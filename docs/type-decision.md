@@ -117,16 +117,17 @@ smaller is the argument working, not a concession.
 - **Mobile stance:** hold size, crop, never shrink — the sanctioned
   exemption from the horizontal-overflow exclusion (Decision 1), which
   continues to bind all reading type and Latin display.
-- **The phone-coda cost, honestly stated** (Brandon asked): at 390px the
-  88vh layer is ~676px of glyph width — the phone shows the middle ~58%,
-  both side strokes cut, at full opacity as the closing image. A reader who
-  knows the glyph from the lock-up reads a zoomed detail of 선; one who
-  does not reads abstract strokes. It is somewhat worse than the desktop
-  framing implies: the "partial arrival" the coda decision rejected on
-  desktop is what the phone gets, softened by the complete lock-up
-  signature directly above it. Accepted with the door named: a phone-only
-  still-size override exists if this cost grows at build; its price is the
-  mobile atmosphere presence through the whole travel.
+- **The phone-coda cost, honestly stated and deferred** (ruled 2026-07-20):
+  at 390px the 88vh layer is ~676px of glyph width — the phone shows the
+  middle ~58%, both side strokes cut, at full opacity as the closing image.
+  A reader who knows the glyph from the lock-up reads a zoomed detail of
+  선; one who does not reads abstract strokes. Brandon's ruling: defer, do
+  not spend the override. The complete lock-up directly above carries the
+  whole mark at the moment of close, so the reader gets silhouette and
+  detail in one viewport in two registers. Revisit at the build gate on a
+  real device; if it fails in the hand, the door is already named (the
+  phone-only still-size override, judgment register 10, whose price is the
+  mobile atmosphere presence through the whole travel).
 - **Build gates:** R1's not-a-watermark demonstration, plus Decision 7's
   requirement — the coda reveal must read as a deliberate close, not the
   layer merely becoming visible. Different events; only one ends a page.
@@ -161,9 +162,9 @@ non-reading 선 holds size and crops, the reference's stance, where the
 ratio is genuinely held. Mobile strophes are new choreography units,
 amending R1's strophe lock (Decision 4): the six-line hero strophe
 ("One Korean / room in Austin, / Texas, / open from / first light / to
-last call.") is accepted in principle and locks only after Brandon reviews
-the rendered panel — the natural break ("in Austin, Texas," whole) caps at
-41.6px and flattens the panel's own hierarchy, which is why it lost.
+last call.") was reviewed rendered against the full P1 chrome and LOCKED
+by Brandon 2026-07-20 — the natural break ("in Austin, Texas," whole) caps
+at 41.6px and flattens the panel's own hierarchy, which is why it lost.
 
 ## 7. Collisions, and who won
 
@@ -257,15 +258,17 @@ the rendered panel — the natural break ("in Austin, Texas," whole) caps at
    register-rule amendment ("never with Sŏn in the same register").
 4. Per-breakpoint strophe re-breaking as a designed choreography variable
    (same words, breaks chosen per band, each set approved by Brandon;
-   the hero's six-line set accepted in principle, locks on render review).
+   the hero's six-line set reviewed rendered and locked 2026-07-20).
 5. Viewport-relative 선 sizing with deliberate mobile crop — the
    reference's hold-by-crop stance, admitted for the non-reading layers
    only (Decision 1's scoping).
 
 ## 9. Open items
 
-1. The six-line mobile hero strophe locks only after Brandon reviews the
-   rendered panel (shown post-commit; Decision 4's condition).
+1. Resolved 2026-07-20: the six-line mobile hero strophe was reviewed
+   rendered and locked (Decision 4's condition met). The phone coda is
+   deferred, not open: it revisits only at the still-선 build gate on a
+   real device, with its door already named.
 2. Cross-engine fit verification (WebKit/Firefox) at build; only Chromium
    was testable this session. The Solo floor's 4.4% slack prices this.
 3. Still-layer opacity (0.06) tunes on a real device at build.
