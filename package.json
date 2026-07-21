@@ -10,6 +10,7 @@
     "lint:copy": "node adherence/check-copy.mjs",
     "lint:jsx": "echo \"JSX adherence (oxlint) requires the omelette preprocessor: stock oxlint cannot parse the x-omelette key or run no-restricted-syntax. See readme Adherence section.\" && exit 0",
     "frames": "node scripts/frames.mjs",
+    "scrollframes": "node scripts/scrollframes.mjs",
     "shoot": "node scripts/shoot.mjs"
   },
   "devDependencies": {

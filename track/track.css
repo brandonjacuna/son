@@ -1,0 +1,79 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — the track
+   The scrub-led build (docs/build-spec.md governing). This file begins as
+   the gate pass A scaffold: the still layer, the panel grounds, and the
+   wipe mechanism at the two dark-to-light seams. Everything else arrives
+   in its own pass.
+   ───────────────────────────────────────────────────────────────────────── */
+
+@import url("../tokens/fonts.css");
+@import url("../tokens/colors.css");
+@import url("../tokens/typography.css");
+@import url("../tokens/spacing.css");
+@import url("../tokens/seon.css");
+@import url("../tokens/base.css");
+
+html {
+  /* The reading axis is the only axis. The architectural 선 crops sideways
+     by stance and must never mint a horizontal scrollbar. */
+  overflow-x: clip;
+}
+
+/* The path definition renders nothing and must occupy no flow space. */
+.svg-defs { position: absolute; }
+
+/* ── Panels ──
+   100svh floor, growth allowed (build-spec Decision 4). Each panel carries
+   its own theme; the ground is the themed surface. Two grounds abut at a
+   1px-crisp moving line: the color cut is the line, no rule, no shadow. */
+.panel {
+  min-height: 100svh;
+  background: var(--son-surface-primary);
+}
+.panel[data-ground="secondary"] {
+  background: var(--son-surface-secondary);
+}
+
+/* ── The wipe (build gate 1) ──
+   Z-order carries the seam-tracked clip. The still layer is fixed between
+   the dark grounds and the daylight panels; daylight panels are stacked
+   above it, so their opaque grounds clip the layer at exactly the moving
+   seam, in the compositor, with zero per-frame script. The occlusion IS
+   the wipe: the layer holds still while the Bone edge crosses it at P6/P7,
+   and the rising Aubergine edge at P9/P10 hands it back in the position it
+   was left, because nothing ever moved it. Dark panels stay unpositioned
+   so their grounds paint beneath the layer; their content is lifted above
+   it per element from pass 1 on (position relative, z-index 2 or higher).
+   LOAD-BEARING INVARIANT (verification-probed): body, main.track, and the
+   dark panels must never gain a stacking-context-creating property
+   (transform, opacity below 1, filter, backdrop-filter, will-change,
+   contain paint or layout, isolation, mix-blend-mode, clip-path, mask).
+   Any of these demotes the panel below the fixed layer and locally scopes
+   its content z-order, drowning content under the glyph; at 0.06 opacity
+   the failure is visually subtle. will-change stays on the entering
+   ELEMENTS inside a panel, never on a panel. Z-bands: layer 1, content 2,
+   chrome 3 and above. */
+.panel--daylight {
+  position: relative;
+  z-index: 2;
+}
+
+/* ── The still layer ──
+   Geometry and opacity are the seon tokens verbatim. The layer never
+   enters: no transition, no animation, present from frame one. Sideways
+   overflow on a phone is the sanctioned crop stance. */
+.still-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  overflow: clip;
+  pointer-events: none;
+}
+.still-glyph {
+  height: var(--son-seon-still-size);
+  width: auto;
+  color: var(--son-glyph);
+  opacity: var(--son-seon-still-opacity);
+}
