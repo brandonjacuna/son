@@ -172,16 +172,18 @@ near-square corners. The empty margin is part of the composition.
 importance: the reservation flow, forms, product UI. No fade-up-on-scroll, no
 pulsing or blinking for emphasis, no bounce/spring. Hover shifts color *within the
 palette* (or a low-alpha wash); press reduces opacity slightly. No scale-on-press
-theatrics. The **immersive register** (`tokens/motion-immersive.css`: `--son-imm-quick`
-450ms, `--son-imm-settle` 850ms, `--son-imm-takeover` 1400ms, `--son-imm-stagger`
-80ms, `--son-imm-ease` `cubic-bezier(0.22,1,0.36,1)`, `--son-imm-lerp` 0.08,
-`--son-glyph-motion`) carries meaning and sequence — which the UI register forbids
-by design — and is allowed ONLY on roots carrying `[data-surface="immersive"]`:
-the investor site's scroll narrative, chapter takeovers, campaign surfaces. Never
-on UI or the reservation flow; keeping the two separate is the point. Under
-`prefers-reduced-motion` the UI register collapses to 0ms and the immersive
-register collapses to nothing: scrubbed chapters become static readable stacks,
-the takeover hard-cuts, smooth scroll and ambient motion are off.
+theatrics. The **track register** (`tokens/motion-track.css`, replacing the
+immersive register retired 2026-07-22: blocks `--son-track-block-duration` 500ms,
+lines `--son-track-line-duration` 260ms, `--son-track-stagger` 80ms,
+`--son-track-hold` 240ms, ease-out-cubic on transform with linear opacity, fades
+500/400ms, `--son-track-pin-distance` 150vh, `--son-track-coda-travel` 80, Lenis
+lerp 0.10) carries meaning and sequence, which the UI register forbids by design.
+It governs the track build (`track/`): travel scrubbed, text timed, feedback in
+the UI register, per-line rises only on locked strophes. Never on UI or the
+reservation flow; keeping the registers separate is the point. Under
+`prefers-reduced-motion` the UI register collapses to 0ms and the track runs its
+designed second path: entrances instant and opacity-only, no pin, the band
+complete, the still layer simply present, the coda closed by the placed close.
 
 **Imagery.** Photographs are memories, not documents — people present, found light
 only, decentered, closer than comfortable, film grain preserved. **AI-generated
@@ -289,7 +291,7 @@ tokens/
   colors.css                    primitives + 4 daypart theme scopes
   typography.css                families, scale, weights, leading, tracking, measure
   spacing.css                   8pt grid, borders, radius, shadow, motion (UI register)
-  motion-immersive.css          immersive register (--son-imm-*), [data-surface="immersive"] roots only
+  motion-track.css              track register (--son-track-*), the scrub-led build's narrative motion
   base.css                      element defaults (.son-eyebrow, .son-kr, .son-glyph)
   components.css                pseudo-class interaction states for primitives
 assets/fonts/                   the GT Sectra + GT Alpina .ttf binaries

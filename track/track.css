@@ -9,6 +9,7 @@
 @import url("../tokens/colors.css");
 @import url("../tokens/typography.css");
 @import url("../tokens/spacing.css");
+@import url("../tokens/motion-track.css");
 @import url("../tokens/seon.css");
 @import url("../tokens/base.css");
 @import url("../tokens/components.css");
@@ -472,10 +473,11 @@ textarea.field-input { resize: vertical; }
    at rate one past the held glyph while track.js scrubs the layer's
    opacity from the rest token to the coda token. The scroll ends on the
    glyph alone at full opacity. Nothing may sit over the glyph at full
-   opacity: the close empties rather than stacks. The travel distance
-   moves to tokens/motion-track.css at pass 2. */
+   opacity: the close empties rather than stacks. The travel distance is
+   the one track token, consumed here in svh and in track.js against
+   innerHeight, so the two can never drift apart. */
 .panel--coda {
-  min-height: 180svh;
+  min-height: calc(100svh + var(--son-track-coda-travel) * 1svh);
 }
 .coda-frame {
   position: relative;
@@ -506,7 +508,15 @@ textarea.field-input { resize: vertical; }
   .strophe--solo-mobile { display: flex; }
 }
 @media (max-width: 640px) {
-  .access-note { display: none; }
+  /* The chrome holds all three elements (ruled 2026-07-22; the v3 drop is
+     not carried). The right block stacks, access note over A1, so the
+     note frames the shortcut at exactly the point the reader might use
+     it; the bar's shape change is the price of the third element. */
+  .chrome-right {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--son-space-1);
+  }
   .founders { grid-template-columns: 1fr; }
   .panel--split { display: block; padding-inline-start: 0; }
   .split-copy {

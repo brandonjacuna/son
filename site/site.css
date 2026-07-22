@@ -6,6 +6,28 @@
    form (pass 5), and the accessibility pass (pass 6) land on top of this.
    ───────────────────────────────────────────────────────────────────────── */
 
+/* ── Carried from the retired immersive register ──
+   tokens/motion-immersive.css was retired 2026-07-22 (superseded by
+   tokens/motion-track.css, which carries the track's R1 model). This
+   frozen fallback consumed exactly two things from it, both carried here
+   so the v3 surface renders unchanged: the ease value, and the
+   reduced-motion DELAY kill. The global kill rule in tokens/spacing.css
+   zeroes durations only; without the delay kill the staggered reveals and
+   the band's stripe delays play out as a staged sequence under reduced
+   motion, and the designed path is the band complete, everything
+   instant. */
+[data-surface="immersive"] {
+  --son-imm-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-surface="immersive"],
+  [data-surface="immersive"] *,
+  [data-surface="immersive"] *::before,
+  [data-surface="immersive"] *::after {
+    transition-delay: 0ms !important;
+  }
+}
+
 /* ── Type steps ──
    Class-per-step, mapped 1:1 onto the token scale. The eyebrow step is
    .son-eyebrow from tokens/base.css; the wordmark step is the .lockup and

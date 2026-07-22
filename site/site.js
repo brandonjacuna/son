@@ -4,8 +4,9 @@
 // durations, rises, and the band wipe. This file only decides WHEN.
 //
 // Reduced motion is a designed path, not a kill switch: every element is
-// set to its complete state immediately (the immersive kill rule in
-// tokens/motion-immersive.css collapses the transitions themselves), so
+// set to its complete state immediately (the global kill rule in
+// tokens/spacing.css collapses the durations, and the carried
+// reduced-motion block in site.css zeroes the delays), so
 // the band appears complete and the hero appears settled, and nothing is
 // lost. Without JavaScript the page renders complete; the html.js gate
 // keeps hidden states out of the no-JS path.
@@ -26,7 +27,7 @@
 
   // Reduced motion is a designed path, not a kill switch: the hero and the
   // chrome appear complete (no entrance), the band appears complete (no
-  // wipe, delays zeroed by the immersive kill rule), and the scroll beats
+  // wipe, delays zeroed by the carried block in site.css), and the scroll beats
   // below still arrive on enter, instantly and opacity-only, so the staged
   // order still communicates while nothing moves.
   if (reduce) {

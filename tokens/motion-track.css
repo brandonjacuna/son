@@ -1,0 +1,67 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Track motion register (the narrative register's realization)
+   Replaces tokens/motion-immersive.css, retired 2026-07-22 at build pass 2
+   (it predated the R1 restart and carried corrected-away values, 450/850/
+   1400ms and lerp 0.08, and killed devices: takeover, drift, marquee).
+   This file carries the R1 model as ratified (docs/structure-motion-
+   decision.md §4, docs/build-spec.md §2.7): travel is scrubbed, text is
+   timed, feedback is untouched. The feedback register lives unchanged in
+   tokens/spacing.css (--son-motion-fast/standard/slow) and governs hover,
+   focus, validation, chrome behavior, and the confirmation cross-fade.
+
+   Values are the reference's measured starting points, tuned at build with
+   fresh eyes; the named tuning knob (line entrance ease, reference
+   measured ease-in-quad, flagged register-inverted by the Motion profile)
+   is prototyped at the pass 3 tuning, not asserted here.
+
+   CLIP-RISE GEOMETRY IS NOT HERE. The pads, negative margins, rise origin
+   (120% of the padded clip), and the mandatory flex-column strophe stack
+   are measured type geometry and live in tokens/typography.css
+   (--son-clip-pad-top, --son-clip-pad-bottom, --son-rise-from). Reference
+   them; never duplicate them.
+
+   REDUCED MOTION is a designed second path, not a kill switch (built at
+   pass 6): entrances opacity-only and instant; the pin never engages and
+   the band renders complete; the still layer is simply present; the coda
+   is the placed close (docs/track-scratch.md item 10) with opacity set by
+   hard cut at the P11 boundary, since a cut is not motion; Lenis smoothing
+   off, native scroll. Every claim fully legible static.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Text, timed ──
+     Blocks: one clip per block, ease-out-cubic on transform, linear on
+     opacity. Lines: per-line rises ONLY on locked strophes (hero Display,
+     loop-opener line, Solo strophe, blockquote line; desktop band only,
+     block rises below the lock thresholds, ruled 2026-07-22). Fires once
+     at the activation threshold, never re-fires. */
+  --son-track-block-duration: 500ms; /* @kind other */
+  --son-track-line-duration: 260ms; /* @kind other */
+  --son-track-stagger: 80ms; /* @kind other */
+  --son-track-hold: 240ms; /* @kind other */
+  --son-track-ease-block: cubic-bezier(0.33, 1, 0.68, 1); /* ease-out-cubic, transform */ /* @kind other */
+  --son-track-ease-line: cubic-bezier(0.33, 1, 0.68, 1); /* pass 3 tuning knob, see header */ /* @kind other */
+
+  /* Headshots fade only, linear; chrome elements fade. */
+  --son-track-fade-duration: 500ms; /* @kind other */
+  --son-track-chrome-fade: 400ms; /* @kind other */
+
+  /* Entrances fire when the panel is ~85% active; never re-fire. */
+  --son-track-active-threshold: 0.85; /* @kind other */
+
+  /* ── Travel, scrubbed ──
+     The band pin's bounded distance (desktop only; mobile stacks without
+     a pin) and the coda's close travel. The coda value is unitless
+     vh-class: layout multiplies by 1svh (the panel's extra height beyond
+     the seat frame), the scrub multiplies by window.innerHeight
+     (end-anchored; the dynamic-toolbar drift is the recorded cost,
+     docs/track-scratch.md). One token, both consumers, no drift. */
+  --son-track-pin-distance: 150vh; /* @kind other */
+  --son-track-coda-travel: 80; /* @kind other */
+
+  /* ── Scroll driver (JS-consumed) ──
+     Lenis, pinned 1.3.8, vendored at track/vendor/. lerp 0.10, easeOutExpo
+     wheel smoothing, syncTouch false so touch stays native and is only
+     smoothed. Off entirely under prefers-reduced-motion. */
+  --son-track-lenis-lerp: 0.10; /* @kind other */
+}

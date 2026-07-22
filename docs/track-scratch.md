@@ -61,41 +61,70 @@ open. Started at gate pass A, 2026-07-21.
    the pin distance, per build-spec §2.7. The 180svh panel height in
    track.css encodes the same 80 (180 minus the 100svh seat frame); the
    pass-2 tokenization closes both so they cannot drift apart.
-10. **The placed close** (settled at gate B review, 2026-07-21; built at
-    pass 6, which owns the path). The reduced-motion and no-JS coda cannot
-    end on the fixed layer at full opacity: with no scrub to carry the
-    footer out, a hard cut anywhere the footer is framed produces content
-    over the mark at full opacity, the balance-spec violation, and the
-    88vh centered glyph leaves no viewport frame where footer and mark
-    coexist clear of each other. Separation must therefore be sequential
-    in LAYOUT: the static coda is a two-frame flow composition. Frame one,
-    the footer (lock-up, location line). Frame two, the closing glyph at
-    full opacity, a panel-local placed instance of the drawn path,
-    centered in P11's final viewport height. In this stance P11 occludes
-    the resting layer the way daylight panels do, so the page still ends
-    on the glyph frame and content can never overlap the mark, by
-    document order. Named cost: in this path the closing mark is a placed
-    instance, not the layer itself; R1's "the bare glyph is the layer" is
-    the scrubbed path's sentence, and the spec's P11 reduced-motion line
-    amends when pass 6 builds it. Mechanically: the static stance is the
-    CSS default (zero-JS safe) under a dedicated coda class the
-    stacking-invariant check will whitelist by exact selector; track.js
-    opts into the scrubbed stance only when motion is permitted.
+10. **The placed close** — ACCEPTED by Brandon 2026-07-22 as a design
+    answer, not a fallback: the reduced-motion and no-JS coda is its own
+    composition, designed for its own conditions. A path with no scrub
+    cannot carry the footer out past the mark, and the 88vh centered glyph
+    leaves no viewport frame where footer and mark coexist clear of each
+    other, so the separation is sequential in layout: a two-frame flow
+    composition. Frame one, the footer (lock-up, location line). Frame
+    two, the closing glyph at full opacity, a panel-local placed instance
+    of the drawn path, centered in P11's final viewport height. P11 in
+    this stance occludes the resting layer by document order, the way
+    daylight panels do, so the page still ends on the glyph frame and
+    content can never overlap the mark. Named cost, recorded: the closing
+    mark here is a placed instance, not the layer itself; R1's "the bare
+    glyph is the layer" is the scrubbed path's sentence, and the spec's
+    P11 reduced-motion line amends when pass 6 builds it. Mechanically:
+    the static stance is the CSS default (zero-JS safe) under a dedicated
+    coda class the stacking-invariant check will whitelist by exact
+    selector; track.js opts into the scrubbed stance only when motion is
+    permitted.
 11. **The two unmeasured locked lines** (pass 1 verification). The type
     decision fit-measured only the hero Display and Solo strophes. The
     other two locked single lines were measured at pass 1 on the real
     faces: the hero loop-opener holds one line only at viewports 1109px
     and wider (two lines through the whole tablet range, three below
     ~440px); the P6 blockquote holds one line at 893px and wider. Both are
-    single lines at the mandated 1280 and 1440 checks. Whether the locks
-    are desktop-band-only (with block rises below) is a pass-3 mechanics
-    question sitting on Brandon's composition review of this pass.
-12. **Mobile chrome drops the access note** at 640px and below, carried
-    verbatim from the settled site component; build-spec §2.4 says three
-    elements and does not record the mobile drop. Surfaced for
-    ratification or reversal; the string stays in the DOM and "By request
-    only." recurs in the coda location line on every viewport.
-13. **Coda scrub anchoring, the recorded cost** (gate B verification). The
+    single lines at the mandated 1280 and 1440 checks. RULED by Brandon
+    2026-07-22: desktop band only, block rises below threshold — recorded
+    as the existing R3 rule applying, not a new ruling. Per-line rises
+    were admitted only on locked strophes, and below 1109px (loop-opener)
+    and 893px (blockquote) those breaks are not locked, so the block
+    register governs. Pass 3 implements the band switch.
+12. **Mobile chrome holds three elements** (Brandon, 2026-07-22: do not
+    carry the v3 drop on inheritance; the access note is what makes the
+    shortcut read as privilege rather than a sales button, and mobile is
+    the majority surface, so the reduced case is the main case). Built at
+    pass 2: below 640px the chrome's right block stacks, access note over
+    A1, right-aligned — the note frames the shortcut at exactly the point
+    the reader might use it. Shown at 390 for review; if it costs more
+    than it buys, the drop reopens on evidence.
+13. **Reduced motion does not zero delays globally** (pass 2 verification,
+    the retirement's sharpest catch). The retired immersive register's
+    kill rule zeroed transition-delay in its scope; the global kill in
+    tokens/spacing.css zeroes durations only. The v3 site's carried block
+    now restores its scoped delay kill. NAMED REQUIREMENT for the track:
+    when pass 3 lands staggered entrances, the track's reduced-motion path
+    must zero its delays explicitly (entrances instant means duration AND
+    delay); pass 6 owns the designed path, pass 3 must not ship staggers
+    that survive reduced motion even for a pass.
+14. **Generated artifacts, standing regeneration item** (pass 2). The
+    retirement leaves _ds_bundle.js and _ds_manifest.json embedding the
+    retired register (immersive components referencing dead tokens and
+    keyframes; the manifest's token table still lists --son-imm-*), and
+    _adherence.oxlintrc.json still allowlists --son-imm-*. No regeneration
+    path exists in the repo (the compiler is external, per the readme).
+    The one 404-causing edge, the manifest's globalCssPaths pointing at
+    the deleted stylesheet, was hand-patched to motion-track.css; the rest
+    waits for regeneration. The immersive components themselves degrade
+    gracefully on their own fallbacks (verified per component: drift and
+    marquee static, takeover hard-cuts, kinetic and section-header arrive
+    instant, the AmbientField glyph module unreachable without
+    --son-glyph-motion); their retirement or rework is Brandon's
+    codification call, and their prompt docs still describe pre-retirement
+    behavior.
+15. **Coda scrub anchoring, the recorded cost** (gate B verification). The
     scrub is end-anchored: the close is the last ~80vh of document travel,
     measured in innerHeight units, while panel geometry is svh. On
     dynamic-toolbar phones (innerHeight grows past 1svh once chrome
