@@ -79,10 +79,11 @@ async function main() {
     if (rawSubject.includes("::")) return false;
     const dataPanel = subject.match(/\[data-panel="?([a-z0-9]+)"?\]/);
     if (dataPanel) return DARK_PANELS.has(dataPanel[1]);
-    // Any .panel* class is guarded, modifiers included: .panel--coda is a
-    // dark panel; the only sanctioned stacking contexts are the daylight
-    // modifier (exempted above) and content INSIDE panels.
-    if (/(^|[^a-z0-9_-])\.panel/.test(subject)) return true;
+    // .panel and its --modifiers are guarded (.panel--coda is a dark
+    // panel); the daylight modifier is exempted above. Element classes
+    // that merely share the prefix (.panel-content, the sanctioned content
+    // lift) are not the panel and stay free to position.
+    if (/(^|[^a-z0-9_-])\.panel(--[a-z0-9-]+)?(?![a-z0-9_-])/.test(subject)) return true;
     if (/\.track(?![a-z0-9_-])/.test(subject)) return true;
     const tag = subject.match(/^[a-z][a-z0-9]*/i);
     return !!tag && ["html", "body", "main"].includes(tag[0].toLowerCase());

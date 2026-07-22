@@ -61,7 +61,41 @@ open. Started at gate pass A, 2026-07-21.
    the pin distance, per build-spec §2.7. The 180svh panel height in
    track.css encodes the same 80 (180 minus the 100svh seat frame); the
    pass-2 tokenization closes both so they cannot drift apart.
-10. **Coda scrub anchoring, the recorded cost** (gate B verification). The
+10. **The placed close** (settled at gate B review, 2026-07-21; built at
+    pass 6, which owns the path). The reduced-motion and no-JS coda cannot
+    end on the fixed layer at full opacity: with no scrub to carry the
+    footer out, a hard cut anywhere the footer is framed produces content
+    over the mark at full opacity, the balance-spec violation, and the
+    88vh centered glyph leaves no viewport frame where footer and mark
+    coexist clear of each other. Separation must therefore be sequential
+    in LAYOUT: the static coda is a two-frame flow composition. Frame one,
+    the footer (lock-up, location line). Frame two, the closing glyph at
+    full opacity, a panel-local placed instance of the drawn path,
+    centered in P11's final viewport height. In this stance P11 occludes
+    the resting layer the way daylight panels do, so the page still ends
+    on the glyph frame and content can never overlap the mark, by
+    document order. Named cost: in this path the closing mark is a placed
+    instance, not the layer itself; R1's "the bare glyph is the layer" is
+    the scrubbed path's sentence, and the spec's P11 reduced-motion line
+    amends when pass 6 builds it. Mechanically: the static stance is the
+    CSS default (zero-JS safe) under a dedicated coda class the
+    stacking-invariant check will whitelist by exact selector; track.js
+    opts into the scrubbed stance only when motion is permitted.
+11. **The two unmeasured locked lines** (pass 1 verification). The type
+    decision fit-measured only the hero Display and Solo strophes. The
+    other two locked single lines were measured at pass 1 on the real
+    faces: the hero loop-opener holds one line only at viewports 1109px
+    and wider (two lines through the whole tablet range, three below
+    ~440px); the P6 blockquote holds one line at 893px and wider. Both are
+    single lines at the mandated 1280 and 1440 checks. Whether the locks
+    are desktop-band-only (with block rises below) is a pass-3 mechanics
+    question sitting on Brandon's composition review of this pass.
+12. **Mobile chrome drops the access note** at 640px and below, carried
+    verbatim from the settled site component; build-spec §2.4 says three
+    elements and does not record the mobile drop. Surfaced for
+    ratification or reversal; the string stays in the DOM and "By request
+    only." recurs in the coda location line on every viewport.
+13. **Coda scrub anchoring, the recorded cost** (gate B verification). The
     scrub is end-anchored: the close is the last ~80vh of document travel,
     measured in innerHeight units, while panel geometry is svh. On
     dynamic-toolbar phones (innerHeight grows past 1svh once chrome

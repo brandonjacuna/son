@@ -26,19 +26,203 @@
   <svg class="seon-mark still-glyph" viewBox="49 -29 847 930.26" focusable="false"><use href="#seon-path"/></svg>
 </div>
 
-<!-- Gate pass A scaffold: the two dark-to-light seams and the panels between
-     them, grounds only. Copy, composition, and entrances belong to pass 1
-     onward. Panel roles carry the build-spec numbering. -->
-<main class="track">
-  <section class="panel" data-panel="p6" data-theme="dinner"></section>
-  <section class="panel panel--daylight" data-panel="p7"></section>
-  <section class="panel panel--daylight" data-panel="p8" data-theme="dosi"></section>
-  <section class="panel panel--daylight" data-panel="p9"></section>
-  <section class="panel" data-panel="p10" data-theme="dinner" data-ground="secondary"></section>
+<!-- The chrome: three elements, transparent, part of the hero frame. It
+     scrolls away with P1; hide-on-scroll and the themed reveal are motion
+     passes. A1 is an instant native jump to the ask. -->
+<header class="chrome" data-theme="dinner">
+  <p class="wordmark">Sŏn</p>
+  <div class="chrome-right">
+    <p class="son-eyebrow access-note">By request only</p>
+    <a class="t-descriptor chrome-cta" href="#ask">Request the briefing</a>
+  </div>
+</header>
 
-  <!-- P11, the coda (gate pass B): signature, information, then the final
-       ~80vh of travel empties the frame while the still layer's opacity
-       scrubs to full. Entrances are pass 3; this panel arrives static. -->
+<main class="track">
+
+  <!-- P1, hero. The diagonal: sentence upper-left, lock-up low-right, the
+       open low-left as the named void, the eye's exit into the moat. -->
+  <section class="panel panel--hero" data-panel="p1" data-theme="dinner">
+    <div class="panel-content hero-frame">
+      <div class="hero-copy">
+        <h1 class="visually-hidden">One Korean room in Austin, Texas, open from first light to last call.</h1>
+        <div class="t-display strophe strophe--hero-desktop" aria-hidden="true">
+          <span class="line">One Korean room in Austin, Texas,</span>
+          <span class="line">open from first light to last call.</span>
+        </div>
+        <div class="t-display strophe strophe--hero-mobile" aria-hidden="true">
+          <span class="line">One Korean</span>
+          <span class="line">room in Austin,</span>
+          <span class="line">Texas,</span>
+          <span class="line">open from</span>
+          <span class="line">first light</span>
+          <span class="line">to last call.</span>
+        </div>
+        <p class="t-headline hero-loop">We build for the second visit, not the first.</p>
+      </div>
+      <p class="lockup lockup--hero" role="img" aria-label="Sŏn 선">
+        <span class="lockup-latin" aria-hidden="true">Sŏn</span>
+        <svg class="seon-mark lockup-glyph" viewBox="49 -29 847 930.26" aria-hidden="true" focusable="false"><use href="#seon-path"/></svg>
+      </p>
+    </div>
+  </section>
+
+  <!-- P2, moat: the Renata world. The column; the named void is the right
+       two-thirds, where the still glyph sits. -->
+  <section class="panel panel--column" data-panel="p2" data-theme="dinner">
+    <div class="panel-content">
+      <h2 class="son-eyebrow panel-eyebrow">Why this</h2>
+      <p class="t-body">Every good restaurant has a Renata. She's the floor manager, and on a full Friday she's the reason the room works. She's the one who knows the couple at table nine are there for a promotion, not the anniversary the reservation says, because the husband mentioned it at the bar a month ago. Which regulars never call ahead, and never need to. Which table wants to be left alone. Whose name to have ready at the door next time.</p>
+    </div>
+  </section>
+
+  <!-- P3, the departure. The same column, the world removed around it.
+       Emptiest panel on the site; the emptiness is the event. -->
+  <section class="panel panel--column" data-panel="p3" data-theme="dinner">
+    <div class="panel-content">
+      <p class="t-body">One day she leaves. There's always a better offer across town.</p>
+    </div>
+  </section>
+
+  <!-- P4, moat: the owners. -->
+  <section class="panel panel--column" data-panel="p4" data-theme="dinner">
+    <div class="panel-content">
+      <p class="t-body">The owners tell each other they'll be fine. There's a reservation book, a point of sale, a training binder. What they don't say is that the facts are walking out in her coat. Next month that couple comes back to a room that's forgotten them.</p>
+    </div>
+  </section>
+
+  <!-- P5, pull-line. The isolate: the belief takes the top voice at its
+       install point. Nothing else exists on the panel. -->
+  <section class="panel panel--isolate" data-panel="p5" data-theme="dinner">
+    <div class="panel-content">
+      <p class="visually-hidden">A restaurant is a memory business. Most forget.</p>
+      <div class="t-solo strophe strophe--solo-desktop" aria-hidden="true">
+        <span class="line">A restaurant is</span>
+        <span class="line">a memory business.</span>
+        <span class="line">Most forget.</span>
+      </div>
+      <div class="t-solo strophe strophe--solo-mobile" aria-hidden="true">
+        <span class="line">A restaurant</span>
+        <span class="line">is a memory</span>
+        <span class="line">business.</span>
+        <span class="line">Most forget.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- P6, blockquote and the close. The column returns, same edge. -->
+  <section class="panel panel--column" data-panel="p6" data-theme="dinner">
+    <div class="panel-content">
+      <blockquote class="moat-quote"><p class="t-headline">The restaurant remembered nothing.</p></blockquote>
+      <p class="t-body">Three things in a restaurant compound. The organization, whose system keeps what the team learns. The customer, whose relationship deepens with every visit. The brand, whose name travels further with every night. Everything else a good competitor copies in a season.</p>
+      <p class="t-body">We're building the restaurant where a Renata can leave and the table is still held, the promotion still remembered. The knowledge was never only in her head.</p>
+    </div>
+  </section>
+
+  <!-- Hard swap: the tonal hinge. Bone wipes the glyph. -->
+
+  <!-- P7, opportunity. Column left; the peacock field right, three-edge
+       bleed; the 선 accent planted in the field, Bone on Peacock. The named
+       void is the seam gap between column and field. -->
+  <section class="panel panel--daylight panel--split" data-panel="p7">
+    <div class="panel-content split-copy">
+      <h2 class="son-eyebrow panel-eyebrow">The opportunity</h2>
+      <p class="t-headline">Korean food and the city of Austin are climbing the same curve. Sŏn opens where they meet.</p>
+      <p class="t-lead">In a city where dining is judged harder than most, Korean cooking holds the highest honors.</p>
+      <p class="t-body">The customer this room is built for already lives in Austin, and already eats this way.</p>
+    </div>
+    <div class="accent-field" aria-hidden="true">
+      <svg class="seon-mark accent-glyph" viewBox="49 -29 847 930.26" focusable="false"><use href="#seon-path"/></svg>
+    </div>
+  </section>
+
+  <!-- P8, team. Portrait-led founder columns; the slots stay reserved,
+       Brandon owns the portraits. The sanctioned growth panel on mobile. -->
+  <section class="panel panel--daylight panel--team" data-panel="p8" data-theme="dosi">
+    <div class="panel-content">
+      <h2 class="son-eyebrow panel-eyebrow">The team</h2>
+      <div class="founders">
+        <article class="founder">
+          <div class="founder-portrait" aria-hidden="true"></div>
+          <h3 class="founder-name"><span class="t-subhead">Brandon Acuña-Cardona</span> <span class="son-eyebrow founder-role">· Operations and strategy</span></h3>
+          <p class="t-body">He's opened rooms like this one before. Most recently as opening service director at Coqodaq, Simon Kim's Korean concept from the group behind Cote. Across New York, Austin, and San Antonio, he takes restaurants from construction through opening into steady operation.</p>
+        </article>
+        <article class="founder">
+          <div class="founder-portrait" aria-hidden="true"></div>
+          <h3 class="founder-name"><span class="t-subhead">Dominic Thomas</span> <span class="son-eyebrow founder-role">· Capital and systems</span></h3>
+          <p class="t-body">He brings the capital discipline the business requires. He sits on one of Texas's top-producing wealth management teams, named among the state's best by Barron's and Forbes in 2024 and 2025 and responsible for more than three billion dollars in assets. Before that, commercial real estate.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- P9, model. The headline anchors; the band sits inside the reading
+       column, bounded by its labels, never full-bleed. Static and complete
+       this pass; the pin and scrub are pass 4. -->
+  <section class="panel panel--daylight panel--model" data-panel="p9">
+    <div class="panel-content">
+      <h2 class="son-eyebrow panel-eyebrow">The model</h2>
+      <p class="t-headline">One footprint. Four dayparts. One set of fixed costs.</p>
+      <div class="daypart-band">
+        <p class="son-eyebrow band-bound">First light</p>
+        <ul class="band-stripes">
+          <li class="stripe stripe-coffee"><span class="son-eyebrow stripe-label">Coffee</span></li>
+          <li class="stripe stripe-lunch"><span class="son-eyebrow stripe-label">Lunch</span></li>
+          <li class="stripe stripe-dinner"><span class="son-eyebrow stripe-label">Dinner</span></li>
+          <li class="stripe stripe-late"><span class="son-eyebrow stripe-label">Late night</span></li>
+        </ul>
+        <p class="son-eyebrow band-bound">Last call</p>
+      </div>
+      <div class="model-body">
+        <p class="t-body">Most restaurants earn from the room once, at dinner. Sŏn earns from it four times. Each daypart is another reason to come back, and another return on the same rent.</p>
+        <p class="t-body">The amount, the structure, and the returns are <a href="#ask">in the briefing</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hard swap. Aubergine rises; the glyph is re-revealed where it was left. -->
+
+  <!-- P10, the ask. The isolate: centered stack, headline over the Bone
+       card, deliberate kinship with P5. Arrives by travel, complete; the
+       feedback register and submit behavior are pass 5.
+       Submit path: INTEGRATION POINT. Set data-endpoint on the form to the
+       POST URL Dominic provisions. No endpoint is invented here. -->
+  <section class="panel panel--ask" data-panel="p10" data-theme="dinner" data-ground="secondary" id="ask">
+    <div class="panel-content">
+      <h2 class="son-eyebrow panel-eyebrow">The ask</h2>
+      <p class="t-headline ask-headline">We share the briefing with a small number of partners.</p>
+      <div class="ask-card">
+        <form class="ask-form" novalidate data-endpoint="">
+          <div class="field">
+            <label class="son-eyebrow field-label" for="ask-name">Full name</label>
+            <input class="son-field field-input" id="ask-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label class="son-eyebrow field-label" for="ask-email">Email</label>
+            <input class="son-field field-input" id="ask-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label class="son-eyebrow field-label" for="ask-affiliation">Company or affiliation · optional</label>
+            <input class="son-field field-input" id="ask-affiliation" name="affiliation" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label class="son-eyebrow field-label" for="ask-interest">What interests you about Sŏn?</label>
+            <textarea class="son-field field-input" id="ask-interest" name="interest" rows="3" required></textarea>
+          </div>
+          <button class="ask-submit" type="submit">Request the briefing</button>
+        </form>
+        <p class="t-fine disclaimer">By submitting this, you are requesting access to our materials. This is not an offer to sell securities.</p>
+        <div class="ask-confirmation" tabindex="-1" hidden>
+          <p class="t-body">Your request is in. You will hear from us within two business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hard swap. Plum Ink; the frame closes. -->
+
+  <!-- P11, the coda: signature, information, then the final ~80vh of travel
+       empties the frame while the still layer's opacity scrubs to full.
+       Entrances are pass 3; this panel arrives static. -->
   <section class="panel panel--coda" data-panel="p11" data-theme="dinner">
     <div class="coda-frame">
       <p class="lockup" role="img" aria-label="Sŏn 선">

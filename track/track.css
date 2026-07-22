@@ -1,9 +1,8 @@
 /* ─────────────────────────────────────────────────────────────────────────
    Sŏn — the track
-   The scrub-led build (docs/build-spec.md governing). This file begins as
-   the gate pass A scaffold: the still layer, the panel grounds, and the
-   wipe mechanism at the two dark-to-light seams. Everything else arrives
-   in its own pass.
+   The scrub-led build (docs/build-spec.md governing). Pass 1: eleven
+   panels, grounds, all copy at its type steps, the three composition
+   grammars. Motion beyond the ratified gates arrives in its own passes.
    ───────────────────────────────────────────────────────────────────────── */
 
 @import url("../tokens/fonts.css");
@@ -12,11 +11,21 @@
 @import url("../tokens/spacing.css");
 @import url("../tokens/seon.css");
 @import url("../tokens/base.css");
+@import url("../tokens/components.css");
 
 html {
   /* The reading axis is the only axis. The architectural 선 crops sideways
      by stance and must never mint a horizontal scrollbar. */
   overflow-x: clip;
+}
+
+/* The document ground behind the panel stack matches the dinner opening
+   and close, so rubber-band overscroll never flashes daylight over a dark
+   frame (pass 1 fix, carried from the gate A verification note). Set as a
+   direct ground, not a body-level theme: the base editorial panels must
+   keep resolving against :root. */
+body {
+  background: var(--son-color-plum-ink);
 }
 
 /* The path definition renders nothing and must occupy no flow space. */
@@ -30,6 +39,115 @@ html {
   aspect-ratio: 847 / 930.26;
 }
 
+/* ── Type steps (tokens/typography.css, ratified R2) ──
+   The eyebrow step is .son-eyebrow from tokens/base.css. Tracking sits on
+   the element that carries the font-size; em tracking inherited from a
+   smaller ancestor computes near zero. */
+.t-solo {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-solo);
+  line-height: var(--son-leading-solo);
+  letter-spacing: var(--son-tracking-display);
+}
+.t-display {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-display);
+  line-height: var(--son-leading-display);
+  letter-spacing: var(--son-tracking-display);
+}
+.t-headline {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-headline);
+  line-height: var(--son-leading-headline);
+  letter-spacing: var(--son-tracking-headline);
+  max-width: 24ch;
+}
+.t-subhead {
+  font-family: var(--son-font-serif);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-subhead);
+  line-height: var(--son-leading-subhead);
+  /* Subhead carries no tracking; without this the base h3 rule's headline
+     tracking, computed at the heading's own size, is inherited in. */
+  letter-spacing: var(--son-tracking-normal);
+}
+.t-lead {
+  font-family: var(--son-font-body);
+  font-weight: var(--son-weight-light);
+  font-size: var(--son-text-lead);
+  line-height: var(--son-leading-lead);
+  max-width: var(--son-measure);
+}
+.t-body {
+  font-family: var(--son-font-body);
+  font-weight: var(--son-weight-body);
+  font-size: var(--son-text-body);
+  line-height: var(--son-leading-body);
+  max-width: var(--son-measure);
+}
+.t-descriptor {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-menu);
+  line-height: var(--son-leading-caption);
+}
+.t-fine {
+  font-family: var(--son-font-fine);
+  font-weight: var(--son-weight-light);
+  font-size: var(--son-text-fine);
+  line-height: var(--son-leading-fine);
+}
+
+/* ── Strophes ──
+   Locked breaks are choreography units: one element per line, and the
+   stack MUST be a flex column (tokens/typography.css, verification-caught;
+   the clip-rise pads arrive with the entrances in pass 3). Bands switch
+   where the type floors engage: hero ~800px, Solo ~580px. */
+.strophe {
+  display: flex;
+  flex-direction: column;
+}
+.strophe .line { display: block; }
+.strophe--hero-mobile { display: none; }
+.strophe--solo-mobile { display: none; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ── The chrome ──
+   Three elements, transparent, part of the hero frame; it scrolls away
+   with P1. Hide-on-scroll and the chapter-ground reveal are motion passes.
+   Z-bands: layer 1, content 2, chrome 3 and above. */
+.chrome {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 3;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: var(--son-space-4) var(--son-margin-page);
+  color: var(--son-text-primary);
+}
+.wordmark {
+  font-family: var(--son-font-wordmark);
+  font-weight: var(--son-weight-book);
+  font-size: var(--son-text-subhead);
+  line-height: 1;
+}
+.chrome-right {
+  display: flex;
+  align-items: baseline;
+  gap: var(--son-space-4);
+}
+
 /* ── Panels ──
    100svh floor, growth allowed (build-spec Decision 4). Each panel carries
    its own theme; the ground is the themed surface. Two grounds abut at a
@@ -37,12 +155,22 @@ html {
 .panel {
   min-height: 100svh;
   background: var(--son-surface-primary);
+  /* Re-applied per panel: the theme swaps the custom property at the seam,
+     but an inherited computed color would carry the body's resolution into
+     every panel regardless of its ground. */
+  color: var(--son-text-primary);
 }
 .panel[data-ground="secondary"] {
   background: var(--son-surface-secondary);
 }
 
-/* ── The wipe (build gate 1) ──
+/* Content sits above the still layer, per element, never via the panel. */
+.panel-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* ── The wipe (build gate 1, PASSED; paint-order occlusion ratified) ──
    Z-order carries the seam-tracked clip. The still layer is fixed between
    the dark grounds and the daylight panels; daylight panels are stacked
    above it, so their opaque grounds clip the layer at exactly the moving
@@ -60,7 +188,7 @@ html {
    its content z-order, drowning content under the glyph; at 0.06 opacity
    the failure is visually subtle. will-change stays on the entering
    ELEMENTS inside a panel, never on a panel. Z-bands: layer 1, content 2,
-   chrome 3 and above. */
+   chrome 3 and above. Enforced by adherence/check-track.mjs. */
 .panel--daylight {
   position: relative;
   z-index: 2;
@@ -86,6 +214,257 @@ html {
   opacity: var(--son-seon-still-opacity);
 }
 
+/* ── Grammar: the column (P2, P3, P4, P6; the reading sides of P7, P9) ──
+   One reading column, left edge on the 10% margin, measure --son-measure,
+   block optically centered: midpoint ≈ 46svh when seated. */
+.panel--column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: var(--son-margin-page);
+}
+/* The measure lives on the reading elements (.t-body, .t-lead), not the
+   wrapper: a wrapper cap in body-ch units crushes display lines that carry
+   their own fit formulas. */
+.panel--column .panel-content {
+  margin-bottom: 8svh;
+}
+.panel-eyebrow { margin-bottom: var(--son-space-4); }
+.panel--column p + p { margin-top: var(--son-space-3); }
+.moat-quote {
+  margin: 0 0 var(--son-space-4) 0;
+}
+/* The blockquote is a locked single line (one clip, one rise, pass 3); it
+   takes its width from the panel, not the 24ch headline cap, and wraps
+   only where the phone forces it. */
+.moat-quote .t-headline { max-width: none; }
+
+/* ── Grammar: the isolate (P5; P10's centered stack; the coda's frame) ──
+   Centered both axes, optical center slightly high (≈ 47svh). */
+.panel--isolate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: var(--son-margin-page);
+  text-align: center;
+}
+.panel--isolate .panel-content { margin-bottom: 6svh; }
+
+/* ── P1, the diagonal ──
+   Sentence upper-left on the margin, lock-up low-right on the margin at
+   Headline scale over the still layer (field-under-mark), the open
+   low-left as the named void. The top horizon is the chrome. */
+.panel--hero {
+  display: flex;
+  padding: var(--son-space-6) var(--son-margin-page);
+}
+.panel--hero .panel-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.hero-copy { margin-top: 14svh; }
+.hero-loop { margin-top: var(--son-space-5); max-width: none; }
+.lockup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--son-font-wordmark);
+  font-weight: var(--son-weight-book);
+  font-size: var(--son-text-subhead);
+  line-height: 1.05;
+}
+.lockup-glyph {
+  height: 1.02em;
+  width: auto;
+  margin-top: 0.16em;
+}
+.lockup--hero {
+  font-size: var(--son-text-headline);
+  margin-top: auto;
+  align-self: flex-end;
+  margin-bottom: 4svh;
+}
+
+/* ── P7, the accent split ──
+   Column left; the peacock field right, ≈38vw, bleeding to the top, right,
+   and bottom panel edges: a vertical hard seam, static. The 선 accent is
+   Bone on Peacock, no frame, no caption. */
+.panel--split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 38vw;
+  /* The Ma margin lives on the panel so the percentage resolves against
+     the viewport-wide box: the reading column's left edge must sit at
+     exactly the same 10% as every other column panel. */
+  padding-inline-start: var(--son-margin-page);
+}
+.split-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: var(--son-space-8);
+  padding-inline-end: var(--son-space-8);
+  margin-bottom: 8svh;
+}
+.split-copy .t-lead { margin-top: var(--son-space-6); }
+.split-copy .t-body { margin-top: var(--son-space-4); }
+.accent-field {
+  background: var(--son-color-peacock);
+  color: var(--son-color-bone);
+  display: grid;
+  place-items: center;
+}
+.accent-glyph {
+  height: var(--son-seon-accent-size);
+  width: auto;
+}
+
+/* ── P8, the team ──
+   Two founder columns, portrait-led: hairline-framed 3:4 reserved slot,
+   then name · role, then bio. The sanctioned growth panel on mobile. */
+.panel--team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--son-space-12) var(--son-margin-page);
+}
+.founders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--son-space-8);
+}
+.founder-portrait {
+  aspect-ratio: 3 / 4;
+  max-width: 320px; /* the carried slot width; P8 holds 100svh on desktop */
+  border: var(--son-border-hairline) solid var(--son-border-default);
+  margin-bottom: var(--son-space-3);
+}
+.founder-name { margin-bottom: var(--son-space-2); }
+.founder-role { white-space: nowrap; }
+
+/* ── P9, the model ──
+   The headline is the anchor; the band sits inside the reading column,
+   bounded by its labels, inside the margins, never full-bleed. Stripes are
+   the carried treatment: color rides ::before so the pass-4 scrub can
+   scale the field without distorting the label. Static and complete here.
+   Density flag (build-spec P9): verified at capture this pass. */
+.panel--model {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--son-space-8) var(--son-margin-page);
+}
+.panel--model .panel-content { margin-bottom: 8svh; }
+.panel--model .t-headline { margin-bottom: var(--son-space-6); }
+.daypart-band {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--son-space-2);
+  align-items: stretch;
+  height: clamp(220px, 32vh, 320px);
+  /* The band spans the reading column, bounded by its labels, never
+     full-bleed; ch here computes against the body size. */
+  max-width: var(--son-measure);
+}
+.band-bound {
+  writing-mode: vertical-lr;
+  align-self: center;
+}
+.band-stripes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.stripe {
+  flex: 1;
+  writing-mode: vertical-lr;
+  padding: var(--son-space-2);
+  position: relative;
+}
+.stripe::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--stripe-color);
+  transform-origin: left center;
+}
+.stripe-label { position: relative; }
+.stripe-coffee { --stripe-color: var(--son-color-jade); color: var(--son-color-plum-ink); }
+.stripe-lunch { --stripe-color: var(--son-color-onggi); color: var(--son-color-bone); }
+.stripe-dinner { --stripe-color: var(--son-color-plum-ink); color: var(--son-color-bone); }
+.stripe-late { --stripe-color: var(--son-color-aubergine); color: var(--son-color-bone); }
+.model-body { margin-top: var(--son-space-6); }
+.model-body p + p { margin-top: var(--son-space-3); }
+
+/* ── P10, the ask ──
+   The isolate: centered stack, headline over the Bone card, deliberate
+   kinship with P5. The card re-resolves the light tokens (carried); the
+   form is static this pass, behavior is pass 5. */
+.panel--ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Asymmetric block padding carries the isolate's slightly-high optical
+     center (≈47svh, the P5 kinship) inside the seated frame; the panel has
+     no slack for a margin lift at 900px. */
+  padding: var(--son-space-2) var(--son-margin-page) var(--son-space-8);
+}
+.panel--ask .panel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.ask-headline { margin-bottom: var(--son-space-4); }
+.ask-card {
+  --son-text-primary: var(--son-color-plum-ink);
+  --son-border-default: color-mix(in srgb, var(--son-color-plum-ink) 22%, transparent);
+  --son-border-strong: var(--son-color-plum-ink);
+  --son-focus-ring: var(--son-color-peacock);
+  --son-accent: var(--son-color-peacock);
+  background: var(--son-color-bone);
+  color: var(--son-text-primary);
+  width: 100%;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: var(--son-space-5);
+  text-align: left;
+}
+.ask-form .field + .field { margin-top: var(--son-space-2); }
+.field-label {
+  display: block;
+  margin-bottom: var(--son-space-1);
+}
+.field-input {
+  width: 100%;
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-body);
+  line-height: var(--son-leading-body);
+  color: inherit;
+  background: none;
+  border: var(--son-border-hairline) solid var(--son-border-default);
+  border-radius: var(--son-radius-none);
+  padding: var(--son-space-1) var(--son-space-2);
+}
+textarea.field-input { resize: vertical; }
+.ask-submit {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-menu);
+  letter-spacing: var(--son-tracking-open);
+  color: inherit;
+  background: none;
+  border: var(--son-border-hairline) solid var(--son-border-strong);
+  border-radius: var(--son-radius-none);
+  padding: var(--son-space-2) var(--son-space-4);
+  margin-top: var(--son-space-4);
+  cursor: pointer;
+}
+.disclaimer { margin-top: var(--son-space-2); }
+
 /* ── The coda (gate pass B, build gate 2) ──
    P11 runs ~180svh, the only extended panel besides the pin distance. The
    seat frame (first 100svh) carries the lock-up and the location line; the
@@ -109,28 +488,52 @@ html {
   gap: var(--son-space-2);
   color: var(--son-text-primary);
 }
-
-/* The lock-up, carried from the settled component (site/site.css): Wordmark
-   face over the drawn glyph, one register; the still layer beneath it is
-   the other (field-under-mark, the amended register rule). */
-.lockup {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: var(--son-font-wordmark);
-  font-weight: var(--son-weight-book);
-  font-size: var(--son-text-subhead);
-  line-height: 1.05;
-}
-.lockup-glyph {
-  height: 1.02em;
-  width: auto;
-  margin-top: 0.16em;
-}
-
-/* The location line at Descriptor. */
 .coda-location {
   font-family: var(--son-font-body);
   font-size: var(--son-text-menu);
   line-height: var(--son-leading-caption);
+}
+
+/* ── Bands and mobile ──
+   Type strophes switch where the floors engage; composition stacks at the
+   carried mobile breakpoint. */
+@media (max-width: 800px) {
+  .strophe--hero-desktop { display: none; }
+  .strophe--hero-mobile { display: flex; }
+}
+@media (max-width: 580px) {
+  .strophe--solo-desktop { display: none; }
+  .strophe--solo-mobile { display: flex; }
+}
+@media (max-width: 640px) {
+  .access-note { display: none; }
+  .founders { grid-template-columns: 1fr; }
+  .panel--split { display: block; padding-inline-start: 0; }
+  .split-copy {
+    min-height: 100svh;
+    margin-bottom: 0;
+    padding-inline: var(--son-margin-page);
+    /* The margin lift would open a gap above the field; the optical
+       midpoint (≈46svh) is carried by padding asymmetry instead. */
+    padding-block: var(--son-space-8) calc(var(--son-space-8) + 8svh);
+  }
+  .accent-field { min-height: 46svh; }
+  .accent-glyph { height: var(--son-seon-accent-size-mobile); }
+  .daypart-band {
+    grid-template-columns: none;
+    grid-template-rows: auto auto auto;
+    height: auto;
+    justify-items: start;
+  }
+  .band-bound { writing-mode: horizontal-tb; }
+  .band-stripes {
+    flex-direction: column;
+    width: 100%;
+  }
+  .stripe {
+    writing-mode: horizontal-tb;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+  }
 }
