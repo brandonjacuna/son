@@ -56,6 +56,35 @@ build step. `site/` is the v3 fallback (below), not the ship.
 3. **The motion-registers canon amendment into the Brand Guidelines**
    (standing since R1). The two-register motion system is ratified and
    built; the Brand Guidelines document has not yet absorbed it.
+4. **The codename copy pass** (scoped 2026-07-23, deliberately NOT done
+   at handoff; Brandon words it — it touches the loyalty-layer naming
+   question still open in canon). Canon: ClickUp 2ky45bmy-15773 §02,
+   Tier 4 / non-negotiable 9 — Sŏn is the only consumer-facing brand at
+   the building; Good Energy and Dosi are internal codenames, never
+   consumer-facing at this location; Luxx is retired entirely. The
+   records (this repo's readme, the guidelines deck) now state the rule
+   correctly; the site that ships (`site/`, `track/`) is clean. What
+   remains is rendered "Good Energy" strings in demo surfaces,
+   enumerated:
+   - **Customer-facing mockups** (higher urgency — they render the
+     codename on surfaces a customer would see if built as designed):
+     `ui_kits/son-website/app.jsx:51` — the reservation site's dayparts
+     grid entry `["Good Energy", "Seven to eleven", "morning"]` (note
+     its Dosi entry too; its late-night entry already uses the
+     public-safe "After hours"); `ui_kits/good-energy/app.jsx:23` — the
+     morning app's in-app eyebrow "Good Energy · seven to eleven".
+   - **Internal design-system documentation** (lower urgency — the
+     codename as an internal label, which canon permits internally):
+     `components/navigation/tabs.card.html:21` (specimen tab label),
+     `guidelines/colors-daypart.html:21` and
+     `guidelines/type-scale.html:23` (specimen rows),
+     `ui_kits/good-energy/index.html` (showcase title and @dsCard
+     labels), `tokens/colors.css:50` (token comment — sanctioned
+     namespace domain), and the corresponding `_ds_bundle.js` strings
+     (lines ~4740/4782/5768; follow the kits at regeneration).
+   Token namespaces (`morning`/`dosi`/`dinner`/`luxe`) are sanctioned
+   and stay; canon flags `luxe` for review (predates the Luxx
+   retirement) — recorded, not acted on.
 
 ## The two tags — why both exist, and why neither gets deleted
 

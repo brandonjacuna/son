@@ -48,11 +48,16 @@ Everything below this line is the design system's own record: brand
 foundations, canon, tokens, components, and adherence.
 
 A Korean fine-dining restaurant in Austin. One master brand, four dayparts under
-one roof: **Good Energy** (morning), **Dosi** (lunch), **Sŏn** (dinner), and a
-late-night register (internal: Luxx, never public-facing). Good Energy and Dosi
-are daypart *expressions* of Sŏn at this location, not separate brands. The 선
-glyph appears on every daypart surface at a constant scale ratio — it is the sole
-mandatory structural constant.
+one roof. **Sŏn is the only consumer-facing brand at the building** (canon:
+ClickUp 2ky45bmy-15773 §02, Tier 4 / non-negotiable 9, checked 2026-07-23).
+**Good Energy** (morning) and **Dosi** (lunch) are **internal daypart codenames
+only** — real brand names in the future portfolio, which is how an earlier
+version of this paragraph drifted into calling them public daypart expressions;
+they are never consumer-facing at this location. The late-night daypart is part
+of the Sŏn core; its former name **Luxx is retired entirely** (not
+internal-only), and the former membership concept is now the unnamed private
+membership layer. The 선 glyph appears on every daypart surface at a constant
+scale ratio — it is the sole mandatory structural constant.
 
 Positioning is three equal, unordered values: **Korean restraint · Texas warmth ·
 polished but playful.** Texas warmth lives in the service, space, and voice — not
@@ -179,7 +184,11 @@ purple gradient, or blue as an accent.
 **Daypart themes** switch at the semantic tier via `data-theme`, no JS required:
 `morning` (Pale Jade / Peacock), `dosi` (Parchment / Onggi), `dinner` (Plum Ink /
 Aubergine), `luxe` (Plum Ink / Aubergine + Jade accent), and the base/editorial
-default (Bone / Parchment). **Jade is a named failure mode in the dinner register**
+default (Bone / Parchment). These namespaces are **sanctioned internal design
+tokens per canon** — `data-theme="dosi"` in markup is correct and stays; the
+codename rule above governs consumer-facing *strings*, not token names. Canon
+itself flags the `luxe` namespace for review, since it predates the Luxx
+retirement — recorded here, not acted on. **Jade is a named failure mode in the dinner register**
 — it never appears there as text, accent, glyph, or decoration. Jade enters only
 in the morning and as the late-night bar-back accent. Jade paired with Aubergine
 or Plum Ink as the two dominant colors is a named failure mode anywhere.
