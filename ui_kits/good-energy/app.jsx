@@ -81,7 +81,7 @@ function Ready({ onBack }) {
         </h1>
         <p style={{ fontFamily: "var(--son-font-body)", fontWeight: 300, fontSize: 18, lineHeight: 1.55,
           marginTop: 18, maxWidth: "30ch", color: "var(--son-text-secondary)" }}>
-          The walk-up on St. Elmo. We'll have it warm.
+          The walk-up. We'll have it warm.
         </p>
       </div>
       <div style={{ padding: "16px 24px 28px" }}>

@@ -4928,7 +4928,7 @@ function Ready({
       maxWidth: "30ch",
       color: "var(--son-text-secondary)"
     }
-  }, "The walk-up on St. Elmo. We'll have it warm.")), /*#__PURE__*/React.createElement("div", {
+  }, "The walk-up. We'll have it warm.")), /*#__PURE__*/React.createElement("div", {
     style: {
       padding: "16px 24px 28px"
     }
