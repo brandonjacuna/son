@@ -125,9 +125,18 @@ extension. Finding 2 rests entirely on the tail and the moat's density
 arc — the glyph registered on device at 0.06, so witness presence was
 never the problem; the frames were too alike.
 
-The next device pass judges, in the hand (serve as before; the strips
-are owed first — a scratch-harness render against the real binaries,
-no track changes):
+The next device pass judges, in the hand. Serve as before. THE STRIP
+MECHANISM, ratified at pass 8 (2026-07-23, superseding this section's
+earlier scratch-harness language): the strips are the live track at
+both candidates — the page renders the 20 pair by default and
+`?story=18` appended to the URL selects the 18 pair pre-paint, so the
+comparison is switchable on the phone with no rebuild and no devtools
+var override (that trap does not apply; track.js never consumes these
+tokens). REMOVAL CONDITION, attached: the candidate block in
+tokens/typography.css and the head-script selector in
+track/index.html come out when the device pass rules 18 or 20; until
+removal, a shipped ?story=18 URL renders the unchosen candidate to
+any reader who is handed it. The pass judges:
 
 1. **The size strips, 18 vs 20**: story panels only (P2, P3, P4 — P4
    is RULED story; do not strip it at 16), both widths, with the P3
@@ -188,8 +197,9 @@ a per-panel entrance term.
 **Brandon**
 1. The next device pass (the register strips, the tail judgment, the
    re-queued seam eyeball) — the package, with the tail's failure
-   criteria, is in its own section above. The strips are owed before
-   it; the build session that realizes the amendments produces them.
+   criteria, is in its own section above. The strips landed at pass 8
+   as the in-track ?story switch (mechanism and removal condition in
+   that section).
 2. **SE-class hero ruling**: at 375x667 the hero grows 77px past the
    viewport and the lock-up completes below the fold at arrival; the
    strophe and loop carry, the diagonal's third point does not complete
@@ -224,6 +234,19 @@ a per-panel entrance term.
    shows the confirmation and logs a warning instead of sending, and the
    persistence flag is success-gated so it is never written).
 2. Server-side deduplication by email on that endpoint (build-spec §6).
+3. The Firefox stale-ch race — PRE-EXISTING, site-wide, surfaced by the
+   pass 8 probe (evidence: refs/notes/pass-8-register-fit.txt, engine
+   finding 1): on roughly two in ten desktop Firefox loads, ch-based
+   max-width resolves against the fallback face at first layout and is
+   never re-resolved when GT Alpina Fine arrives, so the reading column
+   renders ~43px wide of ruled until any style invalidation — a broken
+   page for those readers. Not patched at the register pass (predates
+   it; scope is every ch measure on the site, not the moat). CANDIDATE
+   FIX, named: a one-time style invalidation of ch-measured elements
+   after document.fonts.ready (track.js already re-measures there;
+   reading geometry alone does not re-resolve the unit). WebKit and
+   Chromium are unaffected; phone widths are container-capped. Brandon
+   rules at handoff.
 
 **Nobody yet / next session**
 1. Chrome behavior nuance: scrolling down with focus inside the revealed
