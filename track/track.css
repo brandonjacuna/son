@@ -254,6 +254,21 @@ body {
 }
 .panel-eyebrow { margin-bottom: var(--son-space-4); --enter-mb: var(--son-space-4); }
 .panel--column p + p { margin-top: var(--son-space-3); --enter-mt: var(--son-space-3); }
+/* ── The register axis (build-spec §7, amendments 2 and 4) ──
+   The moat is a story followed by a verdict: story register P2, P3, P4;
+   case register P6 at Body 16, matching chapter II. A panel attribute,
+   never a theme override (typography.css holds sizes invariant across
+   dayparts; the register axis is orthogonal to theme). The story size and
+   its compensated measure arrive as one token pair, so the column's
+   rendered width holds constant across the register seam under
+   co-visibility; the left edge is the shared 10% margin, untouched. The
+   case attribute records the ruling in the markup and consumes Body
+   unchanged: no rule keys on it by design. Leading and weight are Body's
+   own (never Lead's face); the unitless leading scales with the size. */
+.panel--column[data-register="story"] .t-body {
+  font-size: var(--son-text-body-story);
+  max-width: var(--son-measure-body-story);
+}
 /* The blockquote's rhythm margin rides the quote line itself, not the
    wrapper: at this seam three margins would otherwise collapse together
    and swallow the body clip's negative pad margin (verification-caught,

@@ -24,7 +24,10 @@
    degradation, reading intact.
 
    Responsive stance: compress by strophe, hold by crop. Reading steps keep
-   their legibility sizes (body holds 16px at every width); display steps
+   their legibility sizes (the Body step holds 16px at every width; amended
+   2026-07-23, build-spec §7 amendment 7: that sentence survives per step,
+   and the scale gains the admission-termed story-register reading size,
+   the body-story block below); display steps
    scale on their fit slopes and re-break their strophes per band (each
    strophe set is an approved choreography unit). The display-to-body ratio
    compresses on the phone (9:1 at cap to 3.6:1 at 375) because the no-crop
@@ -80,6 +83,7 @@
        Subhead   GT Sectra          Regular 400   21 /  25 /  26
        Lead      GT Alpina Fine     Light   300   18  (fixed)
        Body      GT Alpina Fine     Regular 400   16  (fixed)
+       Body, story register         Regular 400   20 or 18 (strips pending) — admission-termed, moat story panels only (see the story-register block below)
        Menu      GT Alpina Fine     Regular 400   14  (fixed)  [descriptor / caption]
        Eyebrow   GT Sectra          Regular 400   12  (fixed)  UPPERCASE, tracked
        Fine      GT Alpina          Light   300   12  (fixed)
@@ -168,8 +172,51 @@
   --son-measure: 62ch;
   --son-measure-narrow: 46ch;
 
+  /* ── The story register (build-spec §7, amendments 2, 4, 7) ──
+     Admission-termed, the same shape as Solo's admission: story paragraphs
+     as the sole reading content of full dark viewports (today exactly the
+     moat story panels P2, P3, P4; ratified per instance as an editorial
+     reading, never a mechanical rule). Body's face and weight at Lead's
+     size territory, taken on dark-ground rendering grounds; no new band is
+     minted (the size sits inside canon's Lead band, 16 to 20). The Body
+     step itself is untouched: P6, chapters II and III, and the ask consume
+     16 unchanged. The register is a PANEL attribute, never a theme
+     override: sizes stay invariant across dayparts (below), and the
+     register axis is orthogonal to theme.
+     The size and its compensated measure are ONE PAIR and move together
+     (amendment 4: constancy narrows to {left edge, rendered width}, scoped
+     to the moat column, where co-visibility makes it a guarantee).
+     Measured on the real face, three engines: 62ch at 16 renders
+     565.44px; 49.6ch at 20 matches it exactly by arithmetic (62x16 =
+     49.6x20 = 992 font-units) and 55.1ch at 18 sits 0.13px inside
+     (991.8, the ratified number's own rounding); every engine renders
+     every pair within 0.5px of the constant and of its column siblings
+     (Chromium/WebKit spread 0.00 to 0.13px; Firefox up to 0.47px from
+     its own per-size ch quantization) — sub-pixel, invisible at paint.
+     On the phone the 10% margins cap every candidate, so the registers
+     render at identical width there by container.
+     Candidate state, device strips pending (amendment 2): the story size
+     is 18 or 20, judged in the hand; the recommendation enters at 20 (18
+     duplicates Lead's size and distinguishes two named steps by weight
+     alone). The 18 pair below is selected pre-paint by the track's head
+     script from ?story=18 and is removed when the device pass rules. */
+  --son-text-body-story:    1.25rem;  /* 20px, the entering recommendation */
+  --son-measure-body-story: 49.6ch;   /* pairs with 20; renders 565.44px */
+
   /* Korean optical compensation: runs 10 to 15% larger than paired Sectra */
   --son-korean-scale: 1.12; /* @kind other */
+}
+
+/* The unchosen story-size candidate (build-spec §7 amendment 2; device
+   strips pending). An attribute swap resolved by every consuming rule,
+   not a devtools var override: the documented trap (build-state, gate 4)
+   is a var cached by track.js and rewritten inline, and track.js never
+   consumes these tokens. Size and measure swap as one pair or not at
+   all. Removed, with its head-script selector, when the device pass
+   rules 18 or 20. */
+:root[data-story-size="18"] {
+  --son-text-body-story:    1.125rem;  /* 18px */
+  --son-measure-body-story: 55.1ch;    /* pairs with 18; renders within 0.5px of the 565.44 constant on all engines (0.13px on Chromium/WebKit) */
 }
 
 /* ── Theme-aware weight and leading (page 12) ──
