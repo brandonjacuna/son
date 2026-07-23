@@ -8,9 +8,21 @@
    :root values below stay the canonical, reported values of the motion
    tokens. */
 @media (prefers-reduced-motion: reduce) {
+  /* Instant means duration AND delay (docs/codified-patterns.md §3):
+     zeroing durations while preserving delays ships staggered
+     invisibility — content that appears instantly, later. Delays added
+     2026-07-23 (G3 companion change) after a full-tree sweep: no
+     shorthand anywhere carries a literal delay; the explicit delays
+     (site stripe beats, the track's --enter-delay) already sit under
+     their own scoped reduced-motion kills, which stay; the deck
+     capture/print fast-forward (animation-delay -99s) is an injected
+     later-order !important sheet and wins by cascade order. No consumer
+     depends on a preserved delay. */
   *, *::before, *::after {
     transition-duration: 0.001ms !important;
+    transition-delay: 0ms !important;
     animation-duration: 0.001ms !important;
+    animation-delay: 0ms !important;
     animation-iteration-count: 1 !important;
   }
 }
