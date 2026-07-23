@@ -451,16 +451,48 @@ if (askForm) {
     // natural height: no reader is mid-scroll at load.
     if (!instant) {
       card.style.minHeight = `${card.offsetHeight}px`;
-      // The answer belongs where the act happened (ruled 2026-07-23): the
-      // line renders where the submit control stood, so the reader who
-      // just acted sees the response without the page moving or a scroll.
-      // The empty card around it is the isolate, taught three panels
-      // earlier; nothing fills it.
+      // Placement scoped to its reason (3h amended 2026-07-23, not
+      // replaced): the act-position is the remedy for the answer landing
+      // outside the reader's standing view, and it applies exactly when
+      // centering would put the line out of that view — measured here, at
+      // the moment of the swap, against the visual viewport (the keyboard
+      // is what actually shrinks a phone's standing view; no width proxies
+      // a boundary that layout never produces). Where the centered line
+      // lands in view, the card is the isolate the site taught at the
+      // pull-line and the coda, seated at its optical center, slightly
+      // high. If the visual viewport is unavailable or unusable, the swap
+      // degrades to the act's position — the state where the answer is in
+      // the standing view regardless — never toward the elegant case.
+      const cardRect = card.getBoundingClientRect();
+      const cardStyles = getComputedStyle(card);
+      const padTop = parseFloat(cardStyles.paddingTop) || 0;
+      const padBottom = parseFloat(cardStyles.paddingBottom) || 0;
       const submitTop =
         askForm.querySelector(".ask-submit").getBoundingClientRect().top -
-        card.getBoundingClientRect().top;
-      const cardPad = parseFloat(getComputedStyle(card).paddingTop) || 0;
-      confirmation.style.marginTop = `${Math.max(0, submitTop - cardPad)}px`;
+        cardRect.top;
+      let seat = Math.max(0, submitTop - padTop);
+      const wasHidden = confirmation.hidden;
+      confirmation.hidden = false;
+      confirmation.style.visibility = "hidden";
+      const confHeight = confirmation.getBoundingClientRect().height;
+      confirmation.style.visibility = "";
+      confirmation.hidden = wasHidden;
+      const vv = window.visualViewport;
+      if (vv && Number.isFinite(vv.height) && vv.height > 0) {
+        const inner = card.clientHeight - padTop - padBottom;
+        const centered = Math.max(0, inner * 0.47 - confHeight / 2);
+        const landTop = cardRect.top + padTop + centered;
+        const viewTop = vv.offsetTop;
+        const viewBottom = vv.offsetTop + vv.height;
+        const breathing = 24;
+        if (
+          landTop >= viewTop + breathing &&
+          landTop + confHeight <= viewBottom - breathing
+        ) {
+          seat = centered;
+        }
+      }
+      confirmation.style.marginTop = `${seat}px`;
     }
     askForm.classList.add("is-leaving");
     disclaimer.classList.add("is-leaving");

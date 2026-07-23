@@ -1,0 +1,32 @@
+g4 — confirmation placement scoped to its reason (build-spec §7
+amendment 10; scratch 3h amended, not replaced). 2026-07-23.
+
+The condition, measured per live swap at the moment of the swap: if the
+card-centered line would land inside the visual viewport (24px
+breathing), the confirmation centers in the held card at the isolate's
+optical seat (center slightly high, 47%); otherwise it renders at the
+act's position. If visualViewport is unavailable or unusable, the swap
+renders at the act — degrade toward the safe case (the answer is in the
+standing view regardless), never the elegant one. Load path untouched.
+
+Measured on the built code (headless chromium, dpr 2):
+
+- 1440x900, ask seated, live submit: centered; conf center at 0.474 of
+  card height (optical seat), marginTop 227.7px, card 590px.
+  Frame: desktop/0001-centered-isolate.png
+- 1440x900, visualViewport overridden to undefined (fallback probe):
+  act position; marginTop 410.17px == submit-top minus card padding
+  (expected ~410). Frame: desktop/0002-fallback-act.png
+- 390x844, standing at the submit control, live submit: centered at
+  0.474 — emulation has no keyboard, the whole 644px card is in view,
+  so the centered line lands in the standing view and the condition
+  centers. This is the condition working, not leaking (ruled). On a
+  real phone the keyboard shrinks the visual viewport at the submit
+  moment and the act position fires; that path is exercised by the
+  fallback probe's branch and should be eyeballed at the next device
+  session. Frame: mobile/0001-standing-at-submit.png
+
+Width boundary finding that killed the breakpoint: the card never
+exceeds the layout viewport at any tested width (590px at 1440x900,
+644px at 390x844) — a width breakpoint would encode a boundary that
+does not exist in layout. The boundary lives in the visual viewport.
