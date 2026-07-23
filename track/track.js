@@ -133,7 +133,8 @@ function onScroll() {
    inserts the hero's hold after the strophe completes. Hidden strophe
    variants are armed without advancing the clock so a band switch after
    arrival shows the completed state. Entrances fire once per panel at
-   ~85% active and never re-fire. */
+   ~85% active and never re-fire — with one ruled exemption: P3 arms at
+   full seat (build-spec §7 amendment 6; the dedicated observer below). */
 
 const STAGGER = parseFloat(rootStyles.getPropertyValue("--son-track-stagger")) || 0;
 const HOLD = parseFloat(rootStyles.getPropertyValue("--son-track-hold")) || 0;
@@ -174,8 +175,9 @@ function armGroup(items, startT) {
 }
 
 const heroPanel = document.querySelector('[data-panel="p1"]');
+const departurePanel = document.querySelector('[data-panel="p3"]');
 const enteringPanels = [...document.querySelectorAll(".panel")].filter(
-  (p) => p !== heroPanel && p.querySelector("[data-enter]")
+  (p) => p !== heroPanel && p !== departurePanel && p.querySelector("[data-enter]")
 );
 
 // ~85% active (the registry token): the panel's top has crossed into the
@@ -201,6 +203,27 @@ const io = new IntersectionObserver(
   { rootMargin: `0px 0px -${activeThreshold * 100}% 0px` }
 );
 enteringPanels.forEach((p) => io.observe(p));
+
+// P3, the departure, arms at FULL SEAT rather than the 85% threshold
+// (build-spec §7 amendment 6, the registry exemption): a beat of
+// genuinely empty panel precedes the two sentences. The observer's root
+// box is collapsed onto the viewport's top edge (bottom margin -100%),
+// so the panel first intersects exactly when its top edge reaches the
+// top — seat-keyed by geometry, no scroll math, and shared by both
+// motion paths (arming is activation geometry, not motion; under
+// reduced motion the entrance renders instant as always). Fire-once;
+// the font-hang path disconnects this observer with the main one.
+const seatIo = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      armGroup(entry.target.querySelectorAll("[data-enter]"), 0);
+      seatIo.unobserve(entry.target);
+    });
+  },
+  { rootMargin: "0px 0px -100% 0px" }
+);
+seatIo.observe(departurePanel);
 
 /* ── The arrival (build-spec §2.3) ──
    The arrival is the first frame of the hero: Plum Ink, the wordmark at
@@ -234,6 +257,7 @@ function arriveComplete() {
   // so the stripes return to their built default.
   stripes.forEach((s) => s.style.removeProperty("--stripe-build"));
   io.disconnect();
+  seatIo.disconnect();
 }
 
 const waitMs = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

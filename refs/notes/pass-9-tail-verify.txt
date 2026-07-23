@@ -1,0 +1,25 @@
+chromium 1440x900 story=20 reduced: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 31.1svh of travel
+chromium 1440x900 story=20 motion: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 31.1svh of travel; glyph rest opacity holds through it
+chromium 390x844 story=20 reduced: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 23.4svh of travel
+chromium 390x844 story=20 motion: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 23.4svh of travel; glyph rest opacity holds through it
+chromium 375x667 story=20 reduced: seat+tail 934px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 16.7svh of travel
+chromium 375x667 story=20 motion: seat+tail 934px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 16.7svh of travel; glyph rest opacity holds through it
+chromium 1440x900 story=18 reduced: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 32.0svh of travel
+chromium 1440x900 story=18 motion: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 32.0svh of travel; glyph rest opacity holds through it
+chromium 390x844 story=18 reduced: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 25.0svh of travel
+chromium 390x844 story=18 motion: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 25.0svh of travel; glyph rest opacity holds through it
+chromium 375x667 story=18 reduced: seat+tail 934px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 21.1svh of travel
+chromium 375x667 story=18 motion: seat+tail 934px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 21.1svh of travel; glyph rest opacity holds through it
+webkit 1440x900 story=20 reduced: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 31.1svh of travel
+webkit 390x844 story=20 reduced: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 23.4svh of travel
+webkit 1440x900 story=18 reduced: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 32.0svh of travel
+webkit 390x844 story=18 reduced: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 25.0svh of travel
+firefox 1440x900 story=20 reduced: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 31.1svh of travel
+firefox 390x844 story=20 reduced: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.2svh; glyph-alone window 23.4svh of travel
+firefox 1440x900 story=18 reduced: seat+tail 1260px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 32.0svh of travel
+firefox 390x844 story=18 reduced: seat+tail 1182px OK; arms at seat only; couplet midpoint 46.1svh; glyph-alone window 25.0svh of travel
+chromium deep-link: scroll-back arms the couplet
+no-JS: P3 renders complete at seat + tail, couplet visible, no clips
+font-hang: complete render includes P3; the seat observer stands down
+
+All checks passed.

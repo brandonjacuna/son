@@ -51,18 +51,36 @@
      register, standard ease; carried from the settled header). */
   --son-track-chrome-hide: 300ms; /* @kind other */
 
-  /* Entrances fire when the panel is ~85% active; never re-fire. */
+  /* Entrances fire when the panel is ~85% active; never re-fire.
+     EXEMPTION (build-spec §7 amendment 6): P3 arms at FULL SEAT — the
+     second seat-keyed panel after the coda, whose close travel is
+     seat-anchored — so a beat of genuinely empty panel precedes the
+     departure's two sentences. Realized in track.js as a zero-band
+     observer at the viewport top edge; both motion paths share the
+     arming geometry (reduced renders the entrance instant as always). */
   --son-track-active-threshold: 0.85; /* @kind other */
 
-  /* ── Travel, scrubbed ──
+  /* ── Travel ──
      The band pin's bounded distance (desktop only; mobile stacks without
-     a pin) and the coda's close travel. The coda value is unitless
+     a pin) and the coda's close travel, both scrubbed; then the
+     departure's tail, pure and unscrubbed. The coda value is unitless
      vh-class: layout multiplies by 1svh (the panel's extra height beyond
      the seat frame), the scrub multiplies by window.innerHeight
      (end-anchored; the dynamic-toolbar drift is the recorded cost,
      docs/track-scratch.md). One token, both consumers, no drift. */
   --son-track-pin-distance: 150vh; /* @kind other */
   --son-track-coda-travel: 80; /* @kind other */
+  /* The departure's tail (build-spec §7, amendments 5 and 6): P3's
+     designed extension — the 100svh seat frame, then this much empty
+     travel before P4's edge. PURE TRAVEL: no scrub, no pin, no keyed
+     motion, no full-opacity event, so the coda's close remains the
+     page's only ending. Static CSS with one consumer (track/track.css,
+     .panel--departure); tokenized here beside the pin distance so the
+     height encoding and the extension ration cannot drift (scratch
+     item 9's pattern). The ration by proportion: pin 150 > coda travel
+     80 > departure tail 40. Magnitude is judged in the hand at the
+     device pass; the failure criteria live in docs/build-state.md. */
+  --son-track-departure-tail: 40svh; /* @kind other */
 
   /* ── Scroll driver (JS-consumed) ──
      Lenis, pinned 1.3.8, vendored at track/vendor/. lerp 0.10, easeOutExpo

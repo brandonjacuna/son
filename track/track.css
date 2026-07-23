@@ -269,6 +269,32 @@ body {
   font-size: var(--son-text-body-story);
   max-width: var(--son-measure-body-story);
 }
+/* ── The departure's tail (build-spec §7, amendments 5 and 6) ──
+   P3 is the page's second designed extension and the third height
+   class, emptiness-driven: the 100svh seat frame carries the two
+   sentences exactly as the column grammar composes them (border-box:
+   the tail padding leaves a 100svh content box, so the centering and
+   the 8svh optical shift are untouched), then the tail of empty ground
+   before P4's edge — the first moment the rate-zero relationship reads
+   rather than merely being present: the text exits and the glyph holds
+   the frame alone. Pure travel: no scrub, no pin, no keyed motion, no
+   full-opacity event; height is static CSS, so the motion, reduced,
+   and no-JS paths carry identical geometry. The glyph-alone frames the
+   amendment names are real and bounded (measured at pass 9): P3 and P4
+   share a ground, so the visible window between the couplet's exit and
+   P4's text entering runs 17 to 25svh of travel on the phones and
+   ~31svh on desktop — well inside one frame's worth of contentless
+   travel, where the ratified boundary sits. What keeps those frames out of the
+   coda's ending grammar is the grammar itself: the glyph holds its
+   rest opacity through the whole tail (asserted; the scrub is
+   end-anchored at the document, untouched here), and the ending was
+   taught as the scrub to full — only the coda performs it. The felt
+   judgment is the device pass's. The entrance arms at full seat
+   (amendment 6, track.js). */
+.panel--departure {
+  min-height: calc(100svh + var(--son-track-departure-tail));
+  padding-bottom: var(--son-track-departure-tail);
+}
 /* The blockquote's rhythm margin rides the quote line itself, not the
    wrapper: at this seam three margins would otherwise collapse together
    and swallow the body clip's negative pad margin (verification-caught,
@@ -582,7 +608,9 @@ textarea.field-input { resize: vertical; }
 .ask-confirmation.is-instant { transition: none; }
 
 /* ── The coda (gate pass B, build gate 2) ──
-   P11 runs ~180svh, the only extended panel besides the pin distance. The
+   P11 runs ~180svh — since the departure's tail (amendment 5) one of the
+   page's two designed extensions beside the pin distance, and the only
+   one that ends the page. The
    seat frame (first 100svh) carries the lock-up and the location line; the
    final ~80vh of travel is empty ground, so the footer text exits upward
    at rate one past the held glyph while track.js scrubs the layer's
