@@ -1,0 +1,188 @@
+chromium 1440x900 story=20 p2 [story]: 20px/30px, para 565.44px @x144.00, 7 line(s), block 255px = 28.4% of frame, seat holds
+chromium 1440x900 story=20 p3 [story]: 20px/30px, para 565.44px @x144.00, 1 line(s), block 30px = 3.3% of frame, seat holds
+chromium 1440x900 story=20 p4 [story]: 20px/30px, para 565.44px @x144.00, 4 line(s), block 120px = 13.3% of frame, seat holds
+chromium 1440x900 story=20 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+chromium 1440x900 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 144px (ratio 7.20), blockquote 60px (3.00), subhead 25.968px (1.30)
+chromium 1440x900 story=20 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+chromium 390x844 story=20 p2 [story]: 20px/30px, para 312.00px @x39.00, 13 line(s), block 435px = 51.6% of frame, seat holds
+chromium 390x844 story=20 p3 [story]: 20px/30px, para 312.00px @x39.00, 2 line(s), block 60px = 7.1% of frame, seat holds
+chromium 390x844 story=20 p4 [story]: 20px/30px, para 312.00px @x39.00, 7 line(s), block 210px = 24.9% of frame, seat holds
+chromium 390x844 story=20 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+chromium 390x844 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.90), blockquote 38.318px (1.92), subhead 21.033px (1.05)
+chromium 390x844 story=20 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (311px, 212px; shortest 68% of measure)
+chromium 375x667 story=20 p2 [story]: 20px/30px, para 300.00px @x37.50, 14 line(s), block 465px = 69.8% of frame, seat holds
+chromium 375x667 story=20 p3 [story]: 20px/30px, para 300.00px @x37.50, 2 line(s), block 60px = 9.0% of frame, seat holds
+chromium 375x667 story=20 p4 [story]: 20px/30px, para 300.00px @x37.50, 8 line(s), block 240px = 36.0% of frame, seat holds
+chromium 375x667 story=20 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+chromium 375x667 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.90), blockquote 38.003px (1.90), subhead 21px (1.05)
+chromium 375x667 story=20 P3 couplet: "One day she leaves. There's always" / "a better offer across town." (297px, 226px; shortest 75% of measure)
+chromium 1440x900 story=18 p2 [story]: 18px/27px, para 565.31px @x144.00, 6 line(s), block 207px = 23.0% of frame, seat holds
+chromium 1440x900 story=18 p3 [story]: 18px/27px, para 565.31px @x144.00, 1 line(s), block 27px = 3.0% of frame, seat holds
+chromium 1440x900 story=18 p4 [story]: 18px/27px, para 565.31px @x144.00, 4 line(s), block 108px = 12.0% of frame, seat holds
+chromium 1440x900 story=18 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+chromium 1440x900 story=18 constancy: width spread 0.13px, left-edge spread 0.00px (ch basis 9.120); voices: solo 144px (ratio 8.00), blockquote 60px (3.33), subhead 25.968px (1.44)
+chromium 1440x900 story=18 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+chromium 390x844 story=18 p2 [story]: 18px/27px, para 312.00px @x39.00, 12 line(s), block 369px = 43.8% of frame, seat holds
+chromium 390x844 story=18 p3 [story]: 18px/27px, para 312.00px @x39.00, 2 line(s), block 54px = 6.4% of frame, seat holds
+chromium 390x844 story=18 p4 [story]: 18px/27px, para 312.00px @x39.00, 7 line(s), block 189px = 22.4% of frame, seat holds
+chromium 390x844 story=18 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+chromium 390x844 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 3.22), blockquote 38.318px (2.13), subhead 21.033px (1.17)
+chromium 390x844 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 61% of measure)
+chromium 375x667 story=18 p2 [story]: 18px/27px, para 300.00px @x37.50, 12 line(s), block 369px = 55.4% of frame, seat holds
+chromium 375x667 story=18 p3 [story]: 18px/27px, para 300.00px @x37.50, 2 line(s), block 54px = 8.1% of frame, seat holds
+chromium 375x667 story=18 p4 [story]: 18px/27px, para 300.00px @x37.50, 7 line(s), block 189px = 28.3% of frame, seat holds
+chromium 375x667 story=18 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+chromium 375x667 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 3.22), blockquote 38.003px (2.11), subhead 21px (1.17)
+chromium 375x667 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 64% of measure)
+chromium 1440x900 story=22 p2 [story]: 22px/33px, para 565.55px @x144.00, 8 line(s), block 309px = 34.4% of frame, seat holds
+chromium 1440x900 story=22 p3 [story]: 22px/33px, para 565.55px @x144.00, 2 line(s), block 66px = 7.3% of frame, seat holds
+chromium 1440x900 story=22 p4 [story]: 22px/33px, para 565.55px @x144.00, 5 line(s), block 165px = 18.3% of frame, seat holds
+chromium 1440x900 story=22 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+chromium 1440x900 story=22 constancy: width spread 0.11px, left-edge spread 0.00px (ch basis 9.120); voices: solo 144px (ratio 6.55), blockquote 60px (2.73), subhead 25.968px (1.18)
+chromium 1440x900 story=22 P3 desktop: 2 line(s): "One day she leaves. There's always a better offer" / "across town."
+chromium 390x844 story=22 p2 [story]: 22px/33px, para 312.00px @x39.00, 14 line(s), block 507px = 60.1% of frame, seat holds
+chromium 390x844 story=22 p3 [story]: 22px/33px, para 312.00px @x39.00, 3 line(s), block 99px = 11.7% of frame, seat holds
+chromium 390x844 story=22 p4 [story]: 22px/33px, para 312.00px @x39.00, 8 line(s), block 264px = 31.3% of frame, seat holds
+chromium 390x844 story=22 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+chromium 390x844 story=22 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.64), blockquote 38.318px (1.74), subhead 21.033px (0.96 — INVERTED, story above Subhead)
+FAIL  chromium 390x844 story=22 P3: couplet is 3 lines, ruled two
+chromium 375x667 story=22 p2 [story]: 22px/33px, para 300.00px @x37.50, 16 line(s), block 573px = 86.0% of frame, seat holds
+chromium 375x667 story=22 p3 [story]: 22px/33px, para 300.00px @x37.50, 3 line(s), block 99px = 14.8% of frame, seat holds
+chromium 375x667 story=22 p4 [story]: 22px/33px, para 300.00px @x37.50, 9 line(s), block 297px = 44.5% of frame, seat holds
+chromium 375x667 story=22 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+chromium 375x667 story=22 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.64), blockquote 38.003px (1.73), subhead 21px (0.95 — INVERTED, story above Subhead)
+FAIL  chromium 375x667 story=22 P3: couplet is 3 lines, ruled two
+webkit 1440x900 story=20 p2 [story]: 20px/30px, para 565.44px @x144.00, 7 line(s), block 255px = 28.4% of frame, seat holds
+webkit 1440x900 story=20 p3 [story]: 20px/30px, para 565.44px @x144.00, 1 line(s), block 30px = 3.3% of frame, seat holds
+webkit 1440x900 story=20 p4 [story]: 20px/30px, para 565.44px @x144.00, 4 line(s), block 120px = 13.3% of frame, seat holds
+webkit 1440x900 story=20 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+webkit 1440x900 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 144px (ratio 7.20), blockquote 60px (3.00), subhead 25.968px (1.30)
+webkit 1440x900 story=20 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+webkit 390x844 story=20 p2 [story]: 20px/30px, para 312.00px @x39.00, 14 line(s), block 465px = 55.1% of frame, seat holds
+webkit 390x844 story=20 p3 [story]: 20px/30px, para 312.00px @x39.00, 2 line(s), block 60px = 7.1% of frame, seat holds
+webkit 390x844 story=20 p4 [story]: 20px/30px, para 312.00px @x39.00, 7 line(s), block 210px = 24.9% of frame, seat holds
+webkit 390x844 story=20 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+webkit 390x844 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.90), blockquote 38.318001px (1.92), subhead 21.033001px (1.05)
+webkit 390x844 story=20 P3 couplet: "One day she leaves. There's" / "always a better offer across town." (234px, 288px; shortest 75% of measure)
+webkit 375x667 story=20 p2 [story]: 20px/30px, para 300.00px @x37.50, 14 line(s), block 465px = 69.8% of frame, seat holds
+webkit 375x667 story=20 p3 [story]: 20px/30px, para 300.00px @x37.50, 2 line(s), block 60px = 9.0% of frame, seat holds
+webkit 375x667 story=20 p4 [story]: 20px/30px, para 300.00px @x37.50, 8 line(s), block 240px = 36.0% of frame, seat holds
+webkit 375x667 story=20 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+webkit 375x667 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.90), blockquote 38.002998px (1.90), subhead 21px (1.05)
+webkit 375x667 story=20 P3 couplet: "One day she leaves. There's" / "always a better offer across town." (234px, 288px; shortest 78% of measure)
+webkit 1440x900 story=18 p2 [story]: 18px/27px, para 565.31px @x144.00, 6 line(s), block 207px = 23.0% of frame, seat holds
+webkit 1440x900 story=18 p3 [story]: 18px/27px, para 565.31px @x144.00, 1 line(s), block 27px = 3.0% of frame, seat holds
+webkit 1440x900 story=18 p4 [story]: 18px/27px, para 565.31px @x144.00, 4 line(s), block 108px = 12.0% of frame, seat holds
+webkit 1440x900 story=18 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+webkit 1440x900 story=18 constancy: width spread 0.13px, left-edge spread 0.00px (ch basis 9.120); voices: solo 144px (ratio 8.00), blockquote 60px (3.33), subhead 25.968px (1.44)
+webkit 1440x900 story=18 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+webkit 390x844 story=18 p2 [story]: 18px/27px, para 312.00px @x39.00, 12 line(s), block 369px = 43.8% of frame, seat holds
+webkit 390x844 story=18 p3 [story]: 18px/27px, para 312.00px @x39.00, 2 line(s), block 54px = 6.4% of frame, seat holds
+webkit 390x844 story=18 p4 [story]: 18px/27px, para 312.00px @x39.00, 7 line(s), block 189px = 22.4% of frame, seat holds
+webkit 390x844 story=18 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+webkit 390x844 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 3.22), blockquote 38.318001px (2.13), subhead 21.033001px (1.17)
+webkit 390x844 story=18 P3 couplet: "One day she leaves. There's always" / "a better offer across town." (267px, 203px; shortest 65% of measure)
+webkit 375x667 story=18 p2 [story]: 18px/27px, para 300.00px @x37.50, 13 line(s), block 396px = 59.4% of frame, seat holds
+webkit 375x667 story=18 p3 [story]: 18px/27px, para 300.00px @x37.50, 2 line(s), block 54px = 8.1% of frame, seat holds
+webkit 375x667 story=18 p4 [story]: 18px/27px, para 300.00px @x37.50, 7 line(s), block 189px = 28.3% of frame, seat holds
+webkit 375x667 story=18 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+webkit 375x667 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 3.22), blockquote 38.002998px (2.11), subhead 21px (1.17)
+webkit 375x667 story=18 P3 couplet: "One day she leaves. There's" / "always a better offer across town." (211px, 259px; shortest 70% of measure)
+webkit 1440x900 story=22 p2 [story]: 22px/33px, para 565.55px @x144.00, 8 line(s), block 309px = 34.4% of frame, seat holds
+webkit 1440x900 story=22 p3 [story]: 22px/33px, para 565.55px @x144.00, 2 line(s), block 66px = 7.3% of frame, seat holds
+webkit 1440x900 story=22 p4 [story]: 22px/33px, para 565.55px @x144.00, 5 line(s), block 165px = 18.3% of frame, seat holds
+webkit 1440x900 story=22 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+webkit 1440x900 story=22 constancy: width spread 0.11px, left-edge spread 0.00px (ch basis 9.120); voices: solo 144px (ratio 6.55), blockquote 60px (2.73), subhead 25.968px (1.18)
+webkit 1440x900 story=22 P3 desktop: 2 line(s): "One day she leaves. There's always a better offer" / "across town."
+webkit 390x844 story=22 p2 [story]: 22px/33px, para 312.00px @x39.00, 15 line(s), block 540px = 64.0% of frame, seat holds
+webkit 390x844 story=22 p3 [story]: 22px/33px, para 312.00px @x39.00, 3 line(s), block 99px = 11.7% of frame, seat holds
+webkit 390x844 story=22 p4 [story]: 22px/33px, para 312.00px @x39.00, 8 line(s), block 264px = 31.3% of frame, seat holds
+webkit 390x844 story=22 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+webkit 390x844 story=22 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.64), blockquote 38.318001px (1.74), subhead 21.033001px (0.96 — INVERTED, story above Subhead)
+FAIL  webkit 390x844 story=22 P3: couplet is 3 lines, ruled two
+webkit 375x667 story=22 p2 [story]: 22px/33px, para 300.00px @x37.50, 16 line(s), block 573px = 86.0% of frame, seat holds
+webkit 375x667 story=22 p3 [story]: 22px/33px, para 300.00px @x37.50, 3 line(s), block 99px = 14.8% of frame, seat holds
+webkit 375x667 story=22 p4 [story]: 22px/33px, para 300.00px @x37.50, 9 line(s), block 297px = 44.5% of frame, seat holds
+webkit 375x667 story=22 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+webkit 375x667 story=22 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120); voices: solo 58px (ratio 2.64), blockquote 38.002998px (1.73), subhead 21px (0.95 — INVERTED, story above Subhead)
+FAIL  webkit 375x667 story=22 P3: couplet is 3 lines, ruled two
+firefox 1440x900 story=20 p2 [story]: 20px/30px, para 565.43px @x144.00, 7 line(s), block 255px = 28.4% of frame, seat holds
+firefox 1440x900 story=20 p3 [story]: 20px/30px, para 565.43px @x144.00, 1 line(s), block 30px = 3.3% of frame, seat holds
+firefox 1440x900 story=20 p4 [story]: 20px/30px, para 565.43px @x144.00, 4 line(s), block 120px = 13.3% of frame, seat holds
+firefox 1440x900 story=20 p6 [case]: 16px/24px, para 565.23px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+firefox 1440x900 story=20 constancy: width spread 0.20px, left-edge spread 0.00px (ch basis 9.117); voices: solo 144px (ratio 7.20), blockquote 60px (3.00), subhead 25.9667px (1.30)
+firefox 1440x900 story=20 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+firefox 390x844 story=20 p2 [story]: 20px/30px, para 312.00px @x39.00, 13 line(s), block 435px = 51.6% of frame, seat holds
+firefox 390x844 story=20 p3 [story]: 20px/30px, para 312.00px @x39.00, 2 line(s), block 60px = 7.1% of frame, seat holds
+firefox 390x844 story=20 p4 [story]: 20px/30px, para 312.00px @x39.00, 7 line(s), block 210px = 24.9% of frame, seat holds
+firefox 390x844 story=20 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+firefox 390x844 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117); voices: solo 58px (ratio 2.90), blockquote 38.3113px (1.92), subhead 21.0167px (1.05)
+firefox 390x844 story=20 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (311px, 212px; shortest 68% of measure)
+firefox 375x667 story=20 p2 [story]: 20px/30px, para 300.00px @x37.50, 14 line(s), block 465px = 69.8% of frame, seat holds
+firefox 375x667 story=20 p3 [story]: 20px/30px, para 300.00px @x37.50, 2 line(s), block 60px = 9.0% of frame, seat holds
+firefox 375x667 story=20 p4 [story]: 20px/30px, para 300.00px @x37.50, 8 line(s), block 240px = 36.0% of frame, seat holds
+firefox 375x667 story=20 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+firefox 375x667 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117); voices: solo 58px (ratio 2.90), blockquote 38px (1.90), subhead 21px (1.05)
+firefox 375x667 story=20 P3 couplet: "One day she leaves. There's always" / "a better offer across town." (297px, 226px; shortest 75% of measure)
+firefox 1440x900 story=18 p2 [story]: 18px/27px, para 565.70px @x144.00, 6 line(s), block 207px = 23.0% of frame, seat holds
+firefox 1440x900 story=18 p3 [story]: 18px/27px, para 565.70px @x144.00, 1 line(s), block 27px = 3.0% of frame, seat holds
+firefox 1440x900 story=18 p4 [story]: 18px/27px, para 565.70px @x144.00, 4 line(s), block 108px = 12.0% of frame, seat holds
+firefox 1440x900 story=18 p6 [case]: 16px/24px, para 565.23px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+firefox 1440x900 story=18 constancy: width spread 0.47px, left-edge spread 0.00px (ch basis 9.117); voices: solo 144px (ratio 8.00), blockquote 60px (3.33), subhead 25.9667px (1.44)
+firefox 1440x900 story=18 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+firefox 390x844 story=18 p2 [story]: 18px/27px, para 312.00px @x39.00, 12 line(s), block 369px = 43.8% of frame, seat holds
+firefox 390x844 story=18 p3 [story]: 18px/27px, para 312.00px @x39.00, 2 line(s), block 54px = 6.4% of frame, seat holds
+firefox 390x844 story=18 p4 [story]: 18px/27px, para 312.00px @x39.00, 7 line(s), block 189px = 22.4% of frame, seat holds
+firefox 390x844 story=18 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+firefox 390x844 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117); voices: solo 58px (ratio 3.22), blockquote 38.3113px (2.13), subhead 21.0167px (1.17)
+firefox 390x844 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 61% of measure)
+firefox 375x667 story=18 p2 [story]: 18px/27px, para 300.00px @x37.50, 12 line(s), block 369px = 55.4% of frame, seat holds
+firefox 375x667 story=18 p3 [story]: 18px/27px, para 300.00px @x37.50, 2 line(s), block 54px = 8.1% of frame, seat holds
+firefox 375x667 story=18 p4 [story]: 18px/27px, para 300.00px @x37.50, 7 line(s), block 189px = 28.3% of frame, seat holds
+firefox 375x667 story=18 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+firefox 375x667 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117); voices: solo 58px (ratio 3.22), blockquote 38px (2.11), subhead 21px (1.17)
+firefox 375x667 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 64% of measure)
+firefox 1440x900 story=22 p2 [story]: 22px/33px, para 565.25px @x144.00, 8 line(s), block 309px = 34.4% of frame, seat holds
+firefox 1440x900 story=22 p3 [story]: 22px/33px, para 565.25px @x144.00, 2 line(s), block 66px = 7.3% of frame, seat holds
+firefox 1440x900 story=22 p4 [story]: 22px/33px, para 565.25px @x144.00, 5 line(s), block 165px = 18.3% of frame, seat holds
+firefox 1440x900 story=22 p6 [case]: 16px/24px, para 565.23px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+firefox 1440x900 story=22 constancy: width spread 0.02px, left-edge spread 0.00px (ch basis 9.117); voices: solo 144px (ratio 6.55), blockquote 60px (2.73), subhead 25.9667px (1.18)
+firefox 1440x900 story=22 P3 desktop: 2 line(s): "One day she leaves. There's always a better offer across" / "town."
+firefox 390x844 story=22 p2 [story]: 22px/33px, para 312.00px @x39.00, 14 line(s), block 507px = 60.1% of frame, seat holds
+firefox 390x844 story=22 p3 [story]: 22px/33px, para 312.00px @x39.00, 3 line(s), block 99px = 11.7% of frame, seat holds
+firefox 390x844 story=22 p4 [story]: 22px/33px, para 312.00px @x39.00, 8 line(s), block 264px = 31.3% of frame, seat holds
+firefox 390x844 story=22 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+firefox 390x844 story=22 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117); voices: solo 58px (ratio 2.64), blockquote 38.3113px (1.74), subhead 21.0167px (0.96 — INVERTED, story above Subhead)
+FAIL  firefox 390x844 story=22 P3: couplet is 3 lines, ruled two
+firefox 375x667 story=22 p2 [story]: 22px/33px, para 300.00px @x37.50, 16 line(s), block 573px = 86.0% of frame, seat holds
+firefox 375x667 story=22 p3 [story]: 22px/33px, para 300.00px @x37.50, 3 line(s), block 99px = 14.8% of frame, seat holds
+firefox 375x667 story=22 p4 [story]: 22px/33px, para 300.00px @x37.50, 9 line(s), block 297px = 44.5% of frame, seat holds
+firefox 375x667 story=22 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+firefox 375x667 story=22 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117); voices: solo 58px (ratio 2.64), blockquote 38px (1.73), subhead 21px (0.95 — INVERTED, story above Subhead)
+FAIL  firefox 375x667 story=22 P3: couplet is 3 lines, ruled two
+
+chromium 1440x900 story=20 MOTION-PATH: rest geometry identical to the reduced path (width, left edge, size, every line break) across P2/P3/P4/P6
+chromium 1440x900 story=18 MOTION-PATH: rest geometry identical to the reduced path (width, left edge, size, every line break) across P2/P3/P4/P6
+chromium 1440x900 story=22 MOTION-PATH: rest geometry identical to the reduced path (width, left edge, size, every line break) across P2/P3/P4/P6
+
+6 FAILURE(S)
+
+VERDICT (pass 10, 2026-07-23): 22 REFUSED on the couplet gate, per
+Brandon's pre-stated rule ("if 22 fails on any of those, I take 20").
+The couplet breaks to THREE lines at 22 on every engine at both phone
+widths (chromium/webkit/firefox x 390/375) — the exact break-shape
+defect the story size exists to repair — and on desktop it wraps to
+two lines with a dangling fragment ("across town." at ~21% of measure
+on chromium/webkit; "town." alone at ~10% on firefox), the accidental-
+wrap shape of the original device defect, now at 1440. Frames:
+refs/shots/pass-10-couplet-22. Costs measured before refusal, for the
+record: measure pair 45.1ch (992.2 font-units, +0.11px, constancy
+0.00-0.11px, compensation sound); P2 at 375x667 = 16 lines, 573px,
+86% of frame (seat holds, but the dark room's void thins to 14%);
+phone Solo ratio 2.64 (from 3.63 at 16, 2.90 at 20), desktop 6.55
+(from 9.0); namespace INVERSION measured, story 22 above Subhead's
+rendered 21.0 below ~595px — outside canon's Lead band and outside
+amendment 2's ratified letter. The 22 mechanism was reverted unbuilt;
+20 stands as the story size per the rule; the switch and the 18 pair
+remain until the device pass closes, when the removal condition and
+the §7 ledger entry land together.
