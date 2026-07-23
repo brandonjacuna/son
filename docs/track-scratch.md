@@ -139,6 +139,36 @@ open. Started at gate pass A, 2026-07-21.
 3j. **The skip-link door** (pass 6 register, written down 2026-07-23): a
     skip link was excluded by judgment at seven keyboard stops with
     scroll keys free; the door reopens if the stop count ever grows.
+3k. **Probe traps, continued** (pass 8, the register probe; the 3g
+    class): a FontFaceSet check is load-level, not render-level — a
+    stale ch basis can hold fallback geometry in layout after the face
+    reports loaded, so gate the RENDERED basis with a ch ruler (the
+    real face measures 9.12px/ch at 16 on GT Alpina Fine; the fallback
+    ~9.82). Firefox may never re-resolve ch-based max-width after font
+    load: flush styles before measuring, and DETECT the stale state as
+    a logged note rather than archiving its geometry (the build's own
+    first evidence file carried fallback rows under a passing verdict).
+    getComputedStyle fontFamily reports the cascade, never the rendered
+    face. A reported metric with no assertion attached is not evidence.
+3l. **The zero-band seat observer** (pass 9, the amendment 6
+    realization): an IntersectionObserver with rootMargin
+    "0px 0px -100% 0px" collapses the root box onto the viewport's top
+    edge, so a panel first intersects exactly when its top edge seats —
+    seat-firing by geometry, no scroll math, engine-verified on all
+    three (unarmed 6px before seat, armed at seat). Same
+    remove-the-failure-class family as paint-order occlusion and
+    sticky-in-wrapper: the firing point cannot desynchronize from the
+    scroll it tracks. Fire-once; disconnected with the main observer on
+    the font-hang path.
+3m. **The invisible-edge lesson** (pass 9, caught at frame review):
+    between same-ground panels the panel edge does not render, so
+    anti-page-end analysis must run on VISIBLE content — the window
+    from one text's exit to the next text's entry — never on box
+    geometry. The pass's first probe asserted "P4's edge enters before
+    the couplet exits," true of boxes and vacuous of frames; corrected
+    to the glyph-alone window (17-25svh phone, ~31svh desktop at the
+    40svh tail), with the rest-opacity hold as the ending-grammar
+    assertion.
 
 ## Notes for later passes
 
