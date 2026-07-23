@@ -140,3 +140,7 @@ and neither introduced by the register split:
    not expressible in ch units on that engine. Sub-half-pixel,
    invisible at paint; the gate is the 0.5px visibility bound and every
    engine passes it.
+
+Addendum, G3 (2026-07-23): engine finding 1 was RULED fix-before-ship
+and fixed — the batched invalidation after document.fonts.ready lives
+in track.js; verification is refs/notes/g3-stale-ch-fix.txt.

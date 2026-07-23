@@ -233,19 +233,16 @@ a per-panel entrance term.
    shows the confirmation and logs a warning instead of sending, and the
    persistence flag is success-gated so it is never written).
 2. Server-side deduplication by email on that endpoint (build-spec §6).
-3. The Firefox stale-ch race — PRE-EXISTING, site-wide, surfaced by the
-   pass 8 probe (evidence: refs/notes/pass-8-register-fit.txt, engine
-   finding 1): on roughly two in ten desktop Firefox loads, ch-based
-   max-width resolves against the fallback face at first layout and is
-   never re-resolved when GT Alpina Fine arrives, so the reading column
-   renders ~43px wide of ruled until any style invalidation — a broken
-   page for those readers. Not patched at the register pass (predates
-   it; scope is every ch measure on the site, not the moat). CANDIDATE
-   FIX, named: a one-time style invalidation of ch-measured elements
-   after document.fonts.ready (track.js already re-measures there;
-   reading geometry alone does not re-resolve the unit). WebKit and
-   Chromium are unaffected; phone widths are container-capped. Brandon
-   rules at handoff.
+3. The Firefox stale-ch race: RULED AT G3 (2026-07-23, fix before
+   ship) and FIXED — the one-time batched style invalidation of the
+   ch-measured elements after document.fonts.ready lives in track.js;
+   verified 12 of 12 Firefox desktop loads correct with no harness
+   intervention, no Chromium/WebKit regression, couplet undisturbed
+   (refs/notes/g3-stale-ch-fix.txt). Nothing left for Dominic here on
+   the track. Residual awareness only: the v3 fallback in site/ (frozen
+   at tag v3-fallback) carries the same ch-measure class unfixed, and
+   the underlying engine behavior is documented as method knowledge in
+   docs/codified-patterns.md §7.
 
 **Nobody yet / next session**
 1. Chrome behavior nuance: scrolling down with focus inside the revealed

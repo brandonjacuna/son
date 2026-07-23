@@ -588,5 +588,20 @@ addEventListener("resize", measure);
 measure();
 // Panel heights can move when the web fonts settle; the scrub and pin
 // anchors follow them (inert today, every panel holds its svh floor, but
-// the door is closed rather than watched).
-document.fonts.ready.then(measure);
+// the door is closed rather than watched). And Firefox can resolve
+// ch-based max-width against the FALLBACK face at first layout and never
+// re-resolve it when the real face arrives — fonts.ready reflows glyphs,
+// not the stale unit — leaving the reading column ~43px wide of ruled on
+// roughly two in ten desktop loads (refs/notes/pass-8-register-fit.txt,
+// engine finding 1; ruled at G3: fix before ship). One scoped style
+// invalidation of the ch-measured elements forces the re-resolution;
+// reading geometry alone does not. Batched: one restyle, one reflow,
+// once per load. max-width is not a stacking-context property, so the
+// invariant is untouched.
+document.fonts.ready.then(() => {
+  const chMeasured = document.querySelectorAll(".t-body, .t-lead, .t-headline, .daypart-band");
+  chMeasured.forEach((el) => { el.style.maxWidth = "none"; });
+  void document.body.offsetWidth;
+  chMeasured.forEach((el) => { el.style.maxWidth = ""; });
+  measure();
+});
