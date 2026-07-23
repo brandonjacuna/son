@@ -200,7 +200,10 @@ a per-panel entrance term.
    seen frame at short heights (entry-air compression, phone widths ×
    ≤720px height), growth below the mark. Evidence:
    refs/shots/se-hero-fix (built), se-hero-fix-proposal (the ruled
-   prototype frames).
+   prototype frames). The residual SE gap — the ~28px rendered air
+   under the completed lock-up at the 375×667 fold — approved
+   2026-07-23, final session; the rebalance option closes unspent
+   (build-spec §7 amendment 9, closing sentence).
 2. **Frozen-card desktop composition: CLOSED 2026-07-23, ruled AGAINST
    at desktop; 3h amended with its reason, not replaced** (build-spec
    §7 amendment 10). The placement measures its reason per swap:
@@ -224,9 +227,9 @@ a per-panel entrance term.
 4. Carry the motion-registers canon amendment into the Brand Guidelines
    (standing open item from R1).
 5. Founder portraits for the reserved P8 frames.
-6. Verify-pending facts before ship (copy.md): the accolade source,
-   Dominic's credentials and years, counsel on the disclaimer, the
-   two-business-day promise.
+6. Verify-pending facts before ship (copy.md): the accolade source and
+   the two-business-day promise. Dominic's bio facts moved to his own
+   list (ruled 2026-07-23, below).
 
 **Dominic**
 1. The POST endpoint: set `data-endpoint` on the form in
@@ -244,6 +247,9 @@ a per-panel entrance term.
    at tag v3-fallback) carries the same ch-measure class unfixed, and
    the underlying engine behavior is documented as method knowledge in
    docs/codified-patterns.md §7.
+4. Confirm your own bio line (copy.md §4, ruled 2026-07-23): the
+   Barron's and Forbes years and the assets figure, against source,
+   before ship.
 
 **Nobody yet / next session**
 1. Chrome behavior nuance: scrolling down with focus inside the revealed

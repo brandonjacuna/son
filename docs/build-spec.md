@@ -328,8 +328,10 @@ where the floors engage: hero ~800px, Solo ~580px.
 - **Copy:** eyebrow "The team"; names at **Subhead**; roles at **Eyebrow**
   (interpunct grammar: "Brandon Acuña-Cardona · Operations and strategy",
   "Dominic Thomas · Capital and systems"); bios at **Body**.
-  Verify-pending flags carried (credentials and years against source; the
-  dollar figure is the page's one deliberate numeric exception).
+  Verify-pending flags carried (Dominic confirms his own bio line — the
+  Barron's and Forbes years and the assets figure — against source, owner
+  moved 2026-07-23; the dollar figure is the page's one deliberate
+  numeric exception).
 - **Composition:** two founder columns, portrait-led: hairline-framed 3:4
   slot, then name · role, then bio. Slots stay reserved; Brandon owns the
   portraits.
@@ -363,8 +365,8 @@ where the floors engage: hero ~800px, Solo ~580px.
   `tokens/components.css`: 2px border plus message, never color alone);
   disclaimer verbatim at **Fine** (12px held); confirmation "Your request
   is in. You will hear from us within two business days." at **Body**.
-  Verify-pending carried: counsel confirms the disclaimer; the
-  two-business-day promise stands only if it can be kept.
+  Verify-pending carried: the two-business-day promise stands only if it
+  can be kept.
 - **Composition:** the isolate — centered stack, headline over the Bone
   card (`.ask-card` token re-resolution carried; hairline edges; no
   shadow). Deliberate kinship with P5.
@@ -694,7 +696,13 @@ that supersedes a ratified decision from here on.
    re-set), exiling the loop-opener below the fold (breaks the reading
    order and the arrival gesture's second voice), absolute positioning
    (fights the stacking invariant). Evidence:
-   refs/shots/se-hero-fix.
+   refs/shots/se-hero-fix. CLOSED 2026-07-23, final session: the SE gap
+   is approved as built — at the SE frame (375×667) the completed
+   lock-up rests ~28px above the fold as rendered (the 4svh floor with
+   its headroom; the declared values, 32px strophe→loop and the 4svh
+   floor, are unchanged). The rebalance option — redistributing the
+   compression between entry air, gap, and floor — closes unspent. No
+   change to the build.
 10. **The confirmation placement ruling (scratch 3h)**: amended
    2026-07-23 with its reason, not replaced. The prior ruling — the
    line renders where the submit control stood, the empty card as the

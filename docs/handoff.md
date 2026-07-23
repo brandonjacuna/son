@@ -26,7 +26,11 @@ build step. `site/` is the v3 fallback (below), not the ship.
 2. **Deduplicate by email, server-side, on that endpoint** (build-spec
    §6). The client deliberately does not attempt it: a browser cannot
    promise uniqueness, so the guarantee lives with you.
-3. **Run the external regeneration, dropping the retired immersive
+3. **Confirm your own bio line** (docs/copy.md §4, ruled 2026-07-23):
+   the Barron's and Forbes years and the assets figure, against source,
+   before ship. Your bio is yours to verify; the "highest honors"
+   accolade claim stays with Brandon (below).
+4. **Run the external regeneration, dropping the retired immersive
    components.** The compiler is not in this repo. Its artifacts
    (`_ds_bundle.js`, `_ds_manifest.json`, `_adherence.oxlintrc.json`,
    the `.d.ts` files) are snapshots, established non-authoritative
@@ -38,7 +42,7 @@ build step. `site/` is the v3 fallback (below), not the ship.
    `.d.ts` under-declare); and rebuild the bundle, which is stale (one
    manifest path was hand-patched to fix a 404, and one bundle string
    will diverge if the address sweep executes before regeneration).
-4. **Deploy.** Vercel, static. Before ship, run the first checks in
+5. **Deploy.** Vercel, static. Before ship, run the first checks in
    `docs/browser-support.md` — desktop Safari was never tested and is
    the highest-risk untested surface; the wipe (P6→P7), the re-reveal
    (P9→P10), the pin under real trackpad momentum, and the coda scrub
@@ -51,8 +55,9 @@ build step. `site/` is the v3 fallback (below), not the ship.
    ship empty until real Section-10 photography exists (the system
    ships no images by doctrine).
 2. **Verify-pending facts in the copy** (docs/copy.md): the accolade
-   source, Dominic's credentials and years, counsel's word on the
-   disclaimer, and the two-business-day promise. None ship unverified.
+   source (the "highest honors" claim) and the two-business-day
+   promise. None ship unverified. Dominic's bio facts are his own task
+   (his list, above; moved 2026-07-23).
 3. **The motion-registers canon amendment into the Brand Guidelines**
    (standing since R1). The two-register motion system is ratified and
    built; the Brand Guidelines document has not yet absorbed it.

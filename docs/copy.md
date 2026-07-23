@@ -123,10 +123,11 @@ site is allowed. No captions.
 
 **Room slot:** cut. A promised room on a pre-lease site is a property claim.
 
-**Approved.** Verify-pending (facts, not wording): Dominic's credentials and the
-Barron's and Forbes years, confirmed against source before ship. The dollar
-figure is the page's one deliberate numeric exception, recorded in the
-architecture's reconsidered-admitted register.
+**Approved.** Verify-pending (facts, not wording): Dominic confirms his own bio
+line — the Barron's and Forbes years and the assets figure — against source
+before ship (owner moved to Dominic, 2026-07-23). The dollar figure is the
+page's one deliberate numeric exception, recorded in the architecture's
+reconsidered-admitted register.
 
 ---
 
@@ -183,9 +184,8 @@ Ground: Aubergine. Theme: dinner.
 
 > By submitting this, you are requesting access to our materials. This is not an offer to sell securities.
 
-**Approved.** Verify-pending (not wording): counsel confirms the disclaimer;
-"within two business days" is a promise on the most valuable inbound and stands
-only if it can be kept.
+**Approved.** Verify-pending (not wording): "within two business days" is a
+promise on the most valuable inbound and stands only if it can be kept.
 
 ---
 
