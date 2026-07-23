@@ -253,15 +253,34 @@ conversion-surface document-stability rules, paired-encodings token governance,
 delivery-name font governance, and the verification appendix. Read it before
 building or reviewing any motion-carrying surface.
 
-Two passes hold the canon; a violation blocks, it does not warn. In short:
-oxlint (`_adherence.oxlintrc.json`) enforces the **JSX** surface; stylelint
-(`.stylelintrc.json`) enforces the **CSS and HTML** surfaces; and
+Four checks hold the canon, all wired into `npm run lint`; a violation blocks,
+it does not warn. ESLint (`eslint.config.mjs`) enforces the **JSX** surface;
+stylelint (`.stylelintrc.json`) enforces the **CSS and HTML** surfaces;
 `adherence/check-copy.mjs` covers **copy** across the specimen cards, the seven
-slides, the deck template, and the ui kits.
+slides, the deck template, and the ui kits; `adherence/check-track.mjs` enforces
+the **track's stacking invariant** (the load-bearing constraint of the still
+layer — see `docs/codified-patterns.md`).
 
-- **JSX** — `_adherence.oxlintrc.json` (compiler-maintained): raw hex, raw px, and
-  non-design-system font families are canon-critical violations; component props
-  are contract-checked against the `.d.ts` files.
+A correction of record (2026-07-23): this readme previously claimed oxlint
+enforced the JSX surface. It never did — stock oxlint cannot parse
+`_adherence.oxlintrc.json`'s x-omelette key or run its no-restricted-syntax
+rules, so `lint:jsx` was a no-op and the JSX rules never blocked. The first
+real run of those rules (as ESLint) found ~130 violations in the system's own
+surfaces; see the JSX bullet for how they were resolved.
+
+- **JSX** — `eslint.config.mjs` (authoritative, hand-owned; migrated from the
+  compiler's oxlint artifact, which is retained for regeneration compatibility
+  but consumed by nothing): raw hex, raw px, and non-design-system font
+  families are canon-critical violations; component props are contract-checked
+  against the props the components actually implement (the generated `.d.ts`
+  files under-declare — they omit the DOM/event passthrough every component
+  spreads; flagged for the next regeneration). Two honest scopes: the raw-px
+  rule runs as a ratchet (a debt register in the config names the 13 files
+  carrying ~91 pre-migration raw-px sites; those files keep every other rule,
+  new files get the full set), and `ui_kits/good-energy/ios-frame.jsx` is
+  exempt as device-bezel chrome, not a brand surface. Known rule limitation:
+  only string literals containing "px" match — numeric style values
+  (`fontSize: 14`) pass unflagged.
 - **CSS / HTML / copy** — `.stylelintrc.json` (CSS color + font discipline) and
   `adherence/check-copy.mjs` (run `node adherence/check-copy.mjs`): design-system
   tokens only for color, approved font families only, no em dashes in specimen or
@@ -281,6 +300,19 @@ slides, the deck template, and the ui kits.
 
 **Global entry** — consumers link one file: **`styles.css`** (imports the token +
 base closure). Namespace for components in card HTML: `window.SNDesignSystem_4d795d`.
+
+**This repo is source; compiler artifacts are snapshots (established
+2026-07-23).** The authoritative surfaces are the ones you edit here:
+`components/**/*.jsx`, the `tokens/*.css` layer, `track/`, `site/`,
+`eslint.config.mjs`, and the docs. The compiler-generated files —
+`_ds_bundle.js`, `_ds_manifest.json`, `_adherence.oxlintrc.json`, and the
+`.d.ts` props files — are point-in-time outputs of an external compiler that
+is not in this repo. They still serve the showcase pages, but they are no
+longer authoritative: where a generated file disagrees with a source file,
+the source file wins, and hand-edits to source do NOT flow into the bundle
+until the external regeneration runs (which also drops the retired immersive
+components). One manifest path was already hand-patched to fix a 404; treat
+the generated set as stale-by-default.
 
 **Runtime dependency — GSAP 3.12.5 (+ ScrollTrigger).** The one runtime
 dependency beyond this system's own bundle, and required only by the immersive
