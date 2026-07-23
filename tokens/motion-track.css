@@ -47,6 +47,9 @@
   /* Headshots fade only, linear; chrome elements fade. */
   --son-track-fade-duration: 500ms; /* @kind other */
   --son-track-chrome-fade: 400ms; /* @kind other */
+  /* The revealed header's hide/return slide (§2.4, ~300ms, feedback
+     register, standard ease; carried from the settled header). */
+  --son-track-chrome-hide: 300ms; /* @kind other */
 
   /* Entrances fire when the panel is ~85% active; never re-fire. */
   --son-track-active-threshold: 0.85; /* @kind other */

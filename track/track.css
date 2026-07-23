@@ -123,11 +123,21 @@ body {
   white-space: nowrap;
 }
 
-/* ── The chrome ──
-   Three elements, transparent, part of the hero frame; it scrolls away
-   with P1. Hide-on-scroll and the chapter-ground reveal are motion passes.
-   Z-bands: layer 1, content 2, chrome 3 and above. */
+/* ── The chrome: the revealed header (§2.4, Decision 7) ──
+   Three elements, fixed. At the top, over P1: transparent, part of the
+   hero frame. Hides on scroll down (the chrome-hide token, feedback
+   register, carried from the settled header); returns on scroll up as a
+   solid bar in the ACTIVE panel's ground and theme, set by track.js: the
+   summoned object is solid in the world it is summoned into. Never
+   suppressed during the pin. Focus into the chrome always reveals it, so
+   A1 stays keyboard-reachable. Z-bands: layer 1, content 2, chrome 3. */
 .chrome {
+  /* The revealed header is the ENHANCEMENT (the inversion, scratch 3f):
+     without JS the chrome is absolute and scrolls away with P1, the
+     designed no-JS default; the fixed hide/return machinery exists only
+     under html.js. Verification-caught: an ungated fixed stance floated
+     Bone strings invisibly over the daylight chapter for the no-JS
+     reader. */
   position: absolute;
   inset: 0 0 auto 0;
   z-index: 3;
@@ -136,7 +146,12 @@ body {
   justify-content: space-between;
   padding: var(--son-space-4) var(--son-margin-page);
   color: var(--son-text-primary);
+  transition: transform var(--son-track-chrome-hide) var(--son-ease-standard);
 }
+.js .chrome { position: fixed; }
+.js .chrome.is-away { background: var(--son-surface-primary); }
+.js .chrome.is-away[data-ground="secondary"] { background: var(--son-surface-secondary); }
+.chrome.is-hidden { transform: translateY(-110%); }
 /* The mark never waits on the network: the arrival subset carries S, ŏ, n,
    the only glyphs the mark sets, and the metric fallback covers a
    woff2-less engine. The loading full faces are deliberately absent from

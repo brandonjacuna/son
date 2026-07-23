@@ -51,6 +51,15 @@ if (typeof Lenis === "function" && !reducedMotion.matches && Number.isFinite(len
     requestAnimationFrame(raf);
   };
   requestAnimationFrame(raf);
+  // A native hash jump (A1, A2) must not be swallowed by an in-flight
+  // wheel glide: after the jump lands, retarget the driver to where the
+  // reader now is (verification-caught: a mid-glide click yanked the
+  // page back toward the old glide target).
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", () => {
+      setTimeout(() => lenis.scrollTo(window.scrollY, { immediate: true }), 0);
+    });
+  });
 }
 
 /* ── The coda scrub ── */
@@ -70,6 +79,7 @@ function apply() {
     glyph.style.opacity = String(restOpacity + progress * (codaOpacity - restOpacity));
   }
   bandApply();
+  chromeApply();
 }
 
 function measure() {
@@ -492,6 +502,51 @@ if (askForm) {
     }
   }
 }
+
+/* ── The revealed header (§2.4, Decision 7; built at pass 7) ──
+   Carried from the settled header: 2px hysteresis on direction, hidden by
+   transform, focus always reveals. The track's amendment: past the hero
+   the bar is solid in the ACTIVE panel's ground and theme (Bone or
+   Parchment over chapter II, Aubergine over the ask, Plum Ink either side
+   of them), swapped as a hard cut when the active panel changes, exactly
+   like the seams. Never suppressed during the pin. */
+
+const chromeEl = document.querySelector(".chrome");
+const panels = [...document.querySelectorAll(".panel")];
+let lastChromeY = window.scrollY;
+
+function activePanelAt(y) {
+  const probe = y + chromeEl.offsetHeight;
+  return panels.find((p) => probe >= p.offsetTop && probe < p.offsetTop + p.offsetHeight) || null;
+}
+
+function chromeApply() {
+  const y = window.scrollY;
+  const past = y > heroPanel.offsetHeight - chromeEl.offsetHeight;
+  chromeEl.classList.toggle("is-away", past);
+  if (y <= 8) {
+    chromeEl.classList.remove("is-hidden");
+  } else if (y > lastChromeY + 2) {
+    chromeEl.classList.add("is-hidden");
+  } else if (y < lastChromeY - 2) {
+    chromeEl.classList.remove("is-hidden");
+  }
+  if (past) {
+    const active = activePanelAt(y);
+    if (active) {
+      if (active.dataset.theme) chromeEl.dataset.theme = active.dataset.theme;
+      else chromeEl.removeAttribute("data-theme");
+      if (active.dataset.ground === "secondary") chromeEl.dataset.ground = "secondary";
+      else chromeEl.removeAttribute("data-ground");
+    }
+  } else {
+    chromeEl.dataset.theme = "dinner";
+    chromeEl.removeAttribute("data-ground");
+  }
+  lastChromeY = y;
+}
+
+chromeEl.addEventListener("focusin", () => chromeEl.classList.remove("is-hidden"));
 
 /* ── Keyboard reach (pass 6) ──
    A keyboard reader can focus into content whose entrance has not fired

@@ -22,6 +22,13 @@ open. Started at gate pass A, 2026-07-21.
    seam and clip by construction. Spec §1 item 2 already names occlusion as
    the wipe; this is that sentence made literal.
 
+2b. **Sticky-in-wrapper as the pin realization** — RATIFIED by Brandon
+    2026-07-23 (pass 4 review), on the same grounds as paint-order
+    occlusion: position sticky inside a wrapper one pin-distance taller
+    than the panel engages and releases by construction rather than by
+    script, so the pin cannot desynchronize from the scroll it tracks.
+    Second of the build's remove-the-failure-class mechanisms.
+
 ## Enforcement in use, ruled at gate A
 
 3. **The stacking-context invariant as an adherence check** — written at
@@ -67,7 +74,7 @@ open. Started at gate pass A, 2026-07-21.
     gate. Revisit the value itself only if a face or leading retune ever
     eats the clearance.
 
-3d. **The card holds its height on the live swap** (pass 5 verification).
+3d. **The card holds its height on the live swap** (pass 5 verification; ruled 2026-07-23).
     On viewports where the form pushes P10 past its svh floor, the in-card
     swap shrank the document under the reader: scroll shifted and the
     coda's end anchor staled, stalling the converted close at 0.55. Ruled
@@ -78,7 +85,7 @@ open. Started at gate pass A, 2026-07-21.
     swap. Probe: document byte-stable, swap-caused scroll shift zero,
     converted coda exactly 1.
 
-3e. **The focusin armer** (pass 6): focus arriving inside an un-entered
+3e. **The focusin armer** (pass 6, 2026-07-23): focus arriving inside an un-entered
     [data-enter] element arms it immediately, so a keyboard reader can
     never focus invisible content (A2 inside the unreleased model body is
     the live case; probe-verified at both widths). Accessibility outranks
@@ -93,7 +100,7 @@ open. Started at gate pass A, 2026-07-21.
     rather than managing it (paint-order occlusion, sticky-in-wrapper,
     the label floor, this).
 3g. **Method notes: the false-reading probe traps** (recorded at
-    Brandon's direction; the class that produced the previous build's
+    Brandon's direction, 2026-07-23; the class that produced the previous build's
     phantom failures). One: unfocused outline-color computes to
     currentColor, so ring contrast must be measured WHILE focused. Two: a
     ground probe that walks ancestor backgrounds reads through a
@@ -102,6 +109,36 @@ open. Started at gate pass A, 2026-07-21.
     probing by hiding a layer false-positives on compositing-collapse
     re-anti-aliasing; measure by paint-boost (force the layer loud),
     never by removing it.
+
+3h. **The confirmation renders where the act happened** — RULED by
+    Brandon 2026-07-23: on the live swap the line lands where the submit
+    control stood, so the reader who just acted sees the response in
+    their standing view; the empty card around it is the isolate, taught
+    three panels earlier, and nothing fills it. The load-rendered state
+    keeps natural placement: a returning reader arrives at a state, not a
+    change. Evidence: refs/shots/pass-6-confirmation-placed, both widths.
+3i. **The revealed header, built at final review** (2026-07-23). Ratified
+    Decision 7 was deferred at pass 1 as "a motion pass" and never
+    assigned to one; the final review caught it unimplemented. Built
+    carrying the settled header (fixed, 2px direction hysteresis, hidden
+    by transform at the ~300ms chrome-hide token, focus always reveals)
+    with the track's ratified amendment: past the hero the bar is solid
+    in the ACTIVE panel's ground and theme, swapped as a hard cut like
+    the seams; never suppressed during the pin. Process lesson, recorded:
+    a settled behavior with no pass assignment is a silent omission
+    class; the final review is the net, but the pass plan should name an
+    owner for every settled behavior up front. The build's own first cut
+    then violated the inversion (an ungated fixed stance broke the no-JS
+    header); caught by the header verification and re-gated under
+    html.js, no-JS default restored to the hero-frame absolute chrome.
+    Two carried semantics recorded: scrolling down with focus inside the
+    bar re-hides it with focus still inside (verbatim v3 behavior; Enter
+    still fires; focusin re-reveals), and a hash jump clicked mid-glide
+    is retargeted so the driver cannot yank the page back (the settled
+    instant-jump ruling held against the driver).
+3j. **The skip-link door** (pass 6 register, written down 2026-07-23): a
+    skip link was excluded by judgment at seven keyboard stops with
+    scroll keys free; the door reopens if the stop count ever grows.
 
 ## Notes for later passes
 
@@ -118,7 +155,9 @@ open. Started at gate pass A, 2026-07-21.
    adaptive settle. Deferred now: the scaffold ships zero JS.
 6. **Capture dpr.** shoot and scrollframes capture at deviceScaleFactor 2.
    Seam crispness at dpr 1 was probe-verified this pass (integer seam
-   offsets, hard 1px cut); on-device verification remains at gate 7.
+   offsets, hard 1px cut); on-device verification belongs to the same
+   device session as gates 3 and 4 (repointed 2026-07-23; the earlier
+   "gate 7" reference was dangling).
 6a. **P9's entrances resolved at pass 4**: eyebrow and headline enter with
     the panel; the stripes are scrub-keyed to the pin (or the viewport
     passage on mobile); labels and body are data-enter-manual, fired by
@@ -169,9 +208,11 @@ open. Started at gate pass A, 2026-07-21.
     glyph is the layer" is the scrubbed path's sentence, and the spec's
     P11 reduced-motion line amends when pass 6 builds it. Mechanically:
     the static stance is the CSS default (zero-JS safe) under the
-    dedicated coda class, exempted in the stacking-invariant check by
-    class subject, the same latitude as the daylight exemption (letter
-    amended 2026-07-23 to match the probe-verified realization); track.js
+    dedicated class .panel--placed-close (applied as
+    .panel--coda.panel--placed-close), exempted in the stacking-invariant
+    check by class subject, the same latitude as the daylight exemption
+    (letter amended 2026-07-23 to match the probe-verified realization;
+    bare .panel--coda stays guarded per the gate B hole-closure); track.js
     opts into the scrubbed stance only when motion is permitted. BUILT at
     pass 6.
 11. **The two unmeasured locked lines** (pass 1 verification). The type
