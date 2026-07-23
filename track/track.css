@@ -366,6 +366,20 @@ body {
 }
 /* The flex push must survive the entrance clip's margin composition. */
 .js .lockup--hero[data-enter] { margin-top: auto; }
+/* Short frames (ruled 2026-07-23, build-spec §7 amendment 9): the diagonal
+   completes in the SEEN frame. "Low-right" is the low of the arrival frame,
+   not of the overgrown panel's foot — the foot-anchor handed the mark to
+   the fold, and the no-partial-mark rule outranks it. Entry air compresses
+   14svh → 9svh and the strophe→loop gap 40px → 32px; type untouched; the
+   panel's sanctioned growth (Decision 4) moves below the completed lock-up
+   as ground. Measured on the built page at 375px: the natural stack
+   completes with its 4svh floor at frame heights ≥ ~716px, the compressed
+   one down to ~665px; no portrait device ≥ 360px wide (the wrap-free
+   floor) sits below that. */
+@media (max-width: 800px) and (max-height: 720px) {
+  .hero-copy { margin-top: 9svh; }
+  .hero-loop { margin-top: 32px; --enter-mt: 32px; }
+}
 
 /* ── P7, the accent split ──
    Column left; the peacock field right, ≈38vw, bleeding to the top, right,
