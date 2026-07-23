@@ -246,6 +246,13 @@ wordmark legibility). It is not a UI icon set.
 
 ## Adherence
 
+Codified pattern rules live in **`docs/codified-patterns.md`** (G3, ruled
+2026-07-23): the enhancement inversion and its required delete-the-gate review
+test, construction over synchronization, the motion register rules, the
+conversion-surface document-stability rules, paired-encodings token governance,
+delivery-name font governance, and the verification appendix. Read it before
+building or reviewing any motion-carrying surface.
+
 Two passes hold the canon; a violation blocks, it does not warn. In short:
 oxlint (`_adherence.oxlintrc.json`) enforces the **JSX** surface; stylelint
 (`.stylelintrc.json`) enforces the **CSS and HTML** surfaces; and
@@ -283,6 +290,13 @@ brand, navigation, the slides, and the deck template need nothing but
 `styles.css` and `_ds_bundle.js`. Without GSAP — or under
 `prefers-reduced-motion` — the immersive components collapse to static readable
 stacks, so GSAP is a progressive enhancement, not a hard requirement for content.
+
+**Immersive components FORMALLY RETIRED, 2026-07-23 (G3, ruled).** The register
+they embed was retired at the track build (`tokens/motion-immersive.css` →
+`tokens/motion-track.css`); the token layer no longer supports them. Their
+prompt docs are marked superseded; the components drop from the bundle at the
+next external regeneration (the compiler is not in this repo). With them gone,
+the GSAP dependency goes too. Do not build new surfaces on them.
 
 ```
 styles.css                      @import list only → the full closure

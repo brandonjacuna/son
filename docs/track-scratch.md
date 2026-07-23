@@ -72,7 +72,8 @@ open. Started at gate pass A, 2026-07-21.
     inherited from the reference measurement. RULED 2026-07-22: leave the
     behavior; record the comment rewrite as a doc fix for the codification
     gate. Revisit the value itself only if a face or leading retune ever
-    eats the clearance.
+    eats the clearance. EXECUTED at G3 (2026-07-23): the typography.css
+    comment now states the line-box resolution; closed.
 
 3d. **The card holds its height on the live swap** (pass 5 verification; ruled 2026-07-23).
     On viewports where the form pushes P10 past its svh floor, the in-card
@@ -288,7 +289,11 @@ open. Started at gate pass A, 2026-07-21.
     instant, the AmbientField glyph module unreachable without
     --son-glyph-motion); their retirement or rework is Brandon's
     codification call, and their prompt docs still describe pre-retirement
-    behavior.
+    behavior. RULED at G3 (2026-07-23): formal retirement. The nine
+    prompt docs carry superseded banners, the components drop from the
+    bundle at the next external regeneration, and the readme records it.
+    G3's graduated rules live in docs/codified-patterns.md; this file
+    stays the archaeological record.
 15. **Coda scrub anchoring, the recorded cost** (gate B verification). The
     scrub is end-anchored: the close is the last ~80vh of document travel,
     measured in innerHeight units, while panel geometry is svh. On

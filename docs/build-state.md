@@ -206,18 +206,20 @@ a per-panel entrance term.
    whether desktop still reads as an isolate rather than bottom-heavy;
    the captures exist (refs/shots/pass-6-confirmation-placed, both
    widths) but the desktop composition ruling was not yet given.
-3. The codification gate: the candidate package was delivered as a
-   report at the ruling session (2026-07-23) for Brandon's review;
-   nothing has entered the design system. The underlying list stays
-   extractable from track-scratch (the enhancement inversion 3f, the
-   remove-the-failure-class mechanisms including the zero-band seat
-   observer 3l, the invariant check and its exemption model, the
-   delivery name and its watched door, the rise-origin comment rewrite
-   3c, the immersive components retirement and generated-artifact
-   regeneration, the spacing.css delay-kill question, the method notes
-   3g/3k/3m, the evidence tools, the standing doors: phone still-size
-   override, waypoints at chapter growth, skip link at stop growth,
-   Body floor 16 → 17, the couplet door).
+3. The codification gate: CLOSED at G3 (2026-07-23, ruled). The
+   graduated rules live in docs/codified-patterns.md (the enhancement
+   inversion with the required delete-the-gate review test,
+   construction over synchronization with the pin corollary folded in
+   as ruled, the motion register rules, the conversion-surface
+   document-stability rules, paired-encodings token governance, the
+   delivery-name sentence, the verification appendix); the immersive
+   components are formally retired (banners on all nine prompt docs;
+   drop at next external regeneration); the 3c comment rewrite is
+   executed. The sticky-in-wrapper ban did not graduate as its own
+   sentence, by reversal: the principle carries it as a corollary. The
+   standing doors stay recorded where they live. Companion changes,
+   own commits: the delay-kill sweep (spacing.css global kill) and the
+   Firefox stale-ch fix.
 4. Carry the motion-registers canon amendment into the Brand Guidelines
    (standing open item from R1).
 5. Founder portraits for the reserved P8 frames.

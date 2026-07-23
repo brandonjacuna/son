@@ -159,9 +159,14 @@
      whole. LOAD-BEARING: the strophe stack MUST be a flex column (or grid);
      in normal block flow the negative margins collapse and inflate the
      visual leading by the top pad per line. Pads live on the clip; the
-     rising inner element is unpadded; the rise origin is measured against
-     the padded clip box (120% fully hides the glyph, descenders included,
-     pre-rise — the reference's measured origin, kept). Reduced motion:
+     rising inner element is unpadded; the rise origin (120%) is a
+     translateY percentage and resolves against the MOVER'S OWN LINE BOX,
+     not the padded clip box (doc fix executed at G3 per track-scratch
+     3c, ruled 2026-07-22): pixel probes confirm zero ink above the clip
+     pre-rise at every step, with a few pixels of clearance at display
+     scale rather than the padded-box margin the earlier letter implied.
+     Revisit the value only if a face or leading retune ever eats the
+     clearance. Reduced motion:
      clip-rises become opacity-only; the pads are static CSS and the rest
      state is identical on both paths. */
   --son-clip-pad-top:    0.12em;
