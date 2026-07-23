@@ -78,6 +78,17 @@ open. Started at gate pass A, 2026-07-21.
     swap. Probe: document byte-stable, swap-caused scroll shift zero,
     converted coda exactly 1.
 
+3e. **The focusin armer** (pass 6): focus arriving inside an un-entered
+    [data-enter] element arms it immediately, so a keyboard reader can
+    never focus invisible content (A2 inside the unreleased model body is
+    the live case; probe-verified at both widths). Accessibility outranks
+    choreography; fire-once semantics hold.
+3f. **track-motion as the opt-in** (pass 6): the designed second path is
+    the CSS default and the scrubbed track is the enhancement, entered
+    only when JS runs and motion is permitted. The inversion is the
+    pattern: the reduced path can never be broken by a failure to
+    enhance.
+
 ## Notes for later passes
 
 4. **Pass 1, body ground.** With no theme on body, the document ground
