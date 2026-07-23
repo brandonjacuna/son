@@ -90,6 +90,13 @@ function measure() {
   // distance; zero on mobile and under reduced motion (no pin).
   pinStart = pinTrack.offsetTop;
   pinDistance = pinTrack.offsetHeight - modelPanel.offsetHeight;
+  stripes.forEach((stripe, i) => {
+    const label = stripeLabels[i];
+    labelFloor[i] = Math.min(
+      1,
+      (label.offsetLeft * 2 + label.offsetWidth) / Math.max(1, stripe.clientWidth)
+    );
+  });
   apply();
 }
 
@@ -249,6 +256,12 @@ const stripes = [...document.querySelectorAll(".stripe")];
 const stripeLabels = stripes.map((s) => s.querySelector(".stripe-label"));
 const modelBodyItems = document.querySelectorAll(".model-body [data-enter]");
 const labelFired = stripes.map(() => false);
+// Once a label has entered, its stripe's build floors at the label's own
+// extent: the field never withdraws beneath entered text, so no scrub
+// position can leave approved copy invisible (ruled 2026-07-23; "text
+// never un-enters" extends to the field the text stands on). Computed
+// from the rendered label geometry per device in measure().
+const labelFloor = stripes.map(() => 0);
 let bandReleased = false;
 let arrived = false;
 let pinStart = 0;
@@ -270,7 +283,8 @@ function bandApply() {
   if (reducedMotion.matches || arrived) return;
   const p = Math.min(1, Math.max(0, bandProgress()));
   stripes.forEach((stripe, i) => {
-    const built = Math.min(1, Math.max(0, p * stripes.length - i));
+    const scrubbed = Math.min(1, Math.max(0, p * stripes.length - i));
+    const built = Math.max(scrubbed, labelFired[i] ? labelFloor[i] : 0);
     stripe.style.setProperty("--stripe-build", String(built));
     if (built >= 1 && !labelFired[i]) {
       labelFired[i] = true;

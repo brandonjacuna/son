@@ -96,6 +96,15 @@ open. Started at gate pass A, 2026-07-21.
     default is the complete band in normal travel, mirroring the reduced
     path. The pin wrapper is guarded by the invariant check (a stacking
     context on it would capture P9 below the still layer).
+6c. **The label floor** (ruled 2026-07-23): the deep scrub-back state
+    where Bone labels sat invisible over emptied stripes was a contrast
+    failure produced by scrubbing, not the spec's "text never un-enters"
+    cost. Fix: once a label has entered, its stripe's build floors at the
+    label's own rendered extent, so the field never withdraws beneath
+    entered text. No mixed-contrast crossing state exists at any scrub
+    position; the empty footprint before first fire is untouched; the
+    entered day keeps its name on its field. Evidence:
+    refs/shots/pass-4-scrubback at both widths.
 7. **`range=` mode is device-blind.** An explicit scroll range applies
    verbatim to both devices though document geometry differs per width; use
    `seam=` or `seat=` (per-device resolution) for anything that must hold
