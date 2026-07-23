@@ -61,6 +61,7 @@ function apply() {
   ticking = false;
   const progress = Math.min(1, Math.max(0, (window.scrollY - scrubStart) / scrubLength));
   glyph.style.opacity = String(restOpacity + progress * (codaOpacity - restOpacity));
+  bandApply();
 }
 
 function measure() {
@@ -85,6 +86,10 @@ function measure() {
     scrubLength = Math.min((codaTravel / 100) * viewport, end);
     scrubStart = end - scrubLength;
   }
+  // The pin geometry: extra wrapper height beyond the panel is the pin
+  // distance; zero on mobile and under reduced motion (no pin).
+  pinStart = pinTrack.offsetTop;
+  pinDistance = pinTrack.offsetHeight - modelPanel.offsetHeight;
   apply();
 }
 
@@ -94,10 +99,6 @@ function onScroll() {
     requestAnimationFrame(apply);
   }
 }
-
-addEventListener("scroll", onScroll, { passive: true });
-addEventListener("resize", measure);
-measure();
 
 /* ── Entrances (pass 3) ──
    Registry values are the track tokens, read once (they are static per
@@ -162,7 +163,13 @@ const io = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      armGroup(entry.target.querySelectorAll("[data-enter]"), 0);
+      // Manual items (band labels, the release body) are fired by the band
+      // controller; under reduced motion there is no build to wait on and
+      // they arm with the panel.
+      const selector = reducedMotion.matches
+        ? "[data-enter]"
+        : "[data-enter]:not([data-enter-manual])";
+      armGroup(entry.target.querySelectorAll(selector), 0);
       io.unobserve(entry.target);
     });
   },
@@ -195,8 +202,12 @@ function armArrival() {
 }
 
 function arriveComplete() {
+  arrived = true;
   document.documentElement.classList.add("arrive-complete");
   document.querySelectorAll("[data-enter]").forEach((el) => el.classList.add("is-in"));
+  // The reduced path renders the band complete: clear any scrubbed state
+  // so the stripes return to their built default.
+  stripes.forEach((s) => s.style.removeProperty("--stripe-build"));
   io.disconnect();
 }
 
@@ -217,3 +228,66 @@ if (reducedMotion.matches) {
     else armArrival();
   });
 }
+
+/* ── The band (pass 4, build-spec §2.5) ──
+   The site's one bounded pin-and-scrub. Desktop: progress is the pin
+   travel (sticky engage to release); the four stripes build left to
+   right, scrub-keyed and reversible, each over its quarter of the
+   distance. Mobile: no pin; the stacked band builds top to bottom as it
+   passes through the viewport. Each label lands TIMED as its stripe
+   completes, and the release is announced by the body's entrance: travel
+   scrubbed, text timed, the two-system split inside the set piece.
+   Labels and body fire once and never un-enter; scrubbing back re-runs
+   only the stripes. Under reduced motion (and the font-hang complete
+   render) the controller stands down and the band's default state is
+   built. */
+
+const pinTrack = document.querySelector(".pin-track");
+const modelPanel = document.querySelector('[data-panel="p9"]');
+const band = document.querySelector(".daypart-band");
+const stripes = [...document.querySelectorAll(".stripe")];
+const stripeLabels = stripes.map((s) => s.querySelector(".stripe-label"));
+const modelBodyItems = document.querySelectorAll(".model-body [data-enter]");
+const labelFired = stripes.map(() => false);
+let bandReleased = false;
+let arrived = false;
+let pinStart = 0;
+let pinDistance = 0;
+
+function bandProgress() {
+  if (pinDistance > 1) {
+    return (window.scrollY - pinStart) / pinDistance;
+  }
+  // No pin: build keyed to the band's own passage through the viewport,
+  // completing while the band's bottom is still inside the same 15% margin
+  // the entrance system activates in (1 - the activation threshold token).
+  const rect = band.getBoundingClientRect();
+  const tail = window.innerHeight * (1 - activeThreshold);
+  return (window.innerHeight - rect.top) / (rect.height + tail);
+}
+
+function bandApply() {
+  if (reducedMotion.matches || arrived) return;
+  const p = Math.min(1, Math.max(0, bandProgress()));
+  stripes.forEach((stripe, i) => {
+    const built = Math.min(1, Math.max(0, p * stripes.length - i));
+    stripe.style.setProperty("--stripe-build", String(built));
+    if (built >= 1 && !labelFired[i]) {
+      labelFired[i] = true;
+      armGroup([stripeLabels[i]], 0);
+    }
+  });
+  if (p >= 1 && !bandReleased) {
+    bandReleased = true;
+    armGroup(modelBodyItems, 0);
+  }
+}
+
+/* ── Bootstrap ── */
+addEventListener("scroll", onScroll, { passive: true });
+addEventListener("resize", measure);
+measure();
+// Panel heights can move when the web fonts settle; the scrub and pin
+// anchors follow them (inert today, every panel holds its svh floor, but
+// the door is closed rather than watched).
+document.fonts.ready.then(measure);

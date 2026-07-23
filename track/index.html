@@ -176,30 +176,37 @@
     </div>
   </section>
 
-  <!-- P9, model. Eyebrow and headline rise while the panel travels in.
-       The band and body carry provisional block entrances this pass; the
-       pin, the scrub-keyed stripes, and the release-announcing body are
-       pass 4 and replace them. -->
-  <section class="panel panel--daylight panel--model" data-panel="p9">
-    <div class="panel-content">
-      <h2 class="son-eyebrow panel-eyebrow" data-enter="block"><span class="enter-mover">The model</span></h2>
-      <p class="t-headline" data-enter="block"><span class="enter-mover">One footprint. Four dayparts. One set of fixed costs.</span></p>
-      <div class="daypart-band" data-enter="fade">
-        <p class="son-eyebrow band-bound">First light</p>
-        <ul class="band-stripes">
-          <li class="stripe stripe-coffee"><span class="son-eyebrow stripe-label">Coffee</span></li>
-          <li class="stripe stripe-lunch"><span class="son-eyebrow stripe-label">Lunch</span></li>
-          <li class="stripe stripe-dinner"><span class="son-eyebrow stripe-label">Dinner</span></li>
-          <li class="stripe stripe-late"><span class="son-eyebrow stripe-label">Late night</span></li>
-        </ul>
-        <p class="son-eyebrow band-bound">Last call</p>
+  <!-- P9, model, the rupture (pass 4). The pin engages only when the panel
+       is fully seated: the held frame is the headline anchored over the
+       empty footprint, bounds already bounding the span. Over the pin
+       distance the stripes build left to right, scrub-keyed and
+       reversible; each label lands timed as its stripe completes; at full
+       build the pin releases and the body and A2 rise, announcing the
+       release. Labels and body are data-enter-manual: the band controller
+       fires them, not the panel observer. Mobile: no pin, the stacked
+       band builds top to bottom through the viewport. -->
+  <div class="pin-track">
+    <section class="panel panel--daylight panel--model" data-panel="p9">
+      <div class="panel-content">
+        <h2 class="son-eyebrow panel-eyebrow" data-enter="block"><span class="enter-mover">The model</span></h2>
+        <p class="t-headline" data-enter="block"><span class="enter-mover">One footprint. Four dayparts. One set of fixed costs.</span></p>
+        <div class="daypart-band">
+          <p class="son-eyebrow band-bound">First light</p>
+          <ul class="band-stripes">
+            <li class="stripe stripe-coffee"><span class="son-eyebrow stripe-label" data-enter="fade" data-enter-manual>Coffee</span></li>
+            <li class="stripe stripe-lunch"><span class="son-eyebrow stripe-label" data-enter="fade" data-enter-manual>Lunch</span></li>
+            <li class="stripe stripe-dinner"><span class="son-eyebrow stripe-label" data-enter="fade" data-enter-manual>Dinner</span></li>
+            <li class="stripe stripe-late"><span class="son-eyebrow stripe-label" data-enter="fade" data-enter-manual>Late night</span></li>
+          </ul>
+          <p class="son-eyebrow band-bound">Last call</p>
+        </div>
+        <div class="model-body">
+          <p class="t-body" data-enter="block" data-enter-manual><span class="enter-mover">Most restaurants earn from the room once, at dinner. Sŏn earns from it four times. Each daypart is another reason to come back, and another return on the same rent.</span></p>
+          <p class="t-body" data-enter="block" data-enter-manual><span class="enter-mover">The amount, the structure, and the returns are <a href="#ask">in the briefing</a>.</span></p>
+        </div>
       </div>
-      <div class="model-body">
-        <p class="t-body" data-enter="block"><span class="enter-mover">Most restaurants earn from the room once, at dinner. Sŏn earns from it four times. Each daypart is another reason to come back, and another return on the same rent.</span></p>
-        <p class="t-body" data-enter="block"><span class="enter-mover">The amount, the structure, and the returns are <a href="#ask">in the briefing</a>.</span></p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <!-- Hard swap. Aubergine rises; the glyph is re-revealed where it was left. -->
 

@@ -1,5 +1,5 @@
 {
-  "$comment": "Sŏn adherence — CSS/HTML pass. Canon-critical rules run at error severity: a violation blocks. Pairs with adherence/check-copy.mjs (copy rules: em dashes, forbidden lexicon, removed tokens) and _adherence.oxlintrc.json (JSX). Requires postcss-html for the .html overrides.",
+  "$comment": "Sŏn adherence — CSS/HTML pass. GT Sectra Fine Arrival is the inlined S/o-breve/n wordmark subset, a delivery name, not a third Latin face (ruled 2026-07-22); the watched door: the violation is not the name, it is the name ever gaining a glyph beyond S, o-breve, and n, or being used on any element that is not a mark. Canon-critical rules run at error severity: a violation blocks. Pairs with adherence/check-copy.mjs (copy rules: em dashes, forbidden lexicon, removed tokens) and _adherence.oxlintrc.json (JSX). Requires postcss-html for the .html overrides.",
   "rules": {
     "color-no-hex": [true, {
       "severity": "error",

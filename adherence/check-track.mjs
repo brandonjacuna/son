@@ -85,6 +85,10 @@ async function main() {
     // lift) are not the panel and stay free to position.
     if (/(^|[^a-z0-9_-])\.panel(--[a-z0-9-]+)?(?![a-z0-9_-])/.test(subject)) return true;
     if (/\.track(?![a-z0-9_-])/.test(subject)) return true;
+    // The pin wrapper sits between the dark panels and the still layer in
+    // the tree; a stacking context on it would capture P9 and break the
+    // pin occlusion the same way (verification-caught gap, pass 4).
+    if (/\.pin-track(?![a-z0-9_-])/.test(subject)) return true;
     const tag = subject.match(/^[a-z][a-z0-9]*/i);
     return !!tag && ["html", "body", "main"].includes(tag[0].toLowerCase());
   }

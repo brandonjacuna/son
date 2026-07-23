@@ -380,6 +380,37 @@ body {
   padding: var(--son-space-8) var(--son-margin-page);
 }
 .panel--model .panel-content { margin-bottom: 8svh; }
+
+/* ── The pin (pass 4) ──
+   The site's one bounded pin-and-scrub, realized as position: sticky
+   inside a wrapper one pin-distance taller than the panel: the pin
+   engages exactly when the panel is fully seated, holds for
+   --son-track-pin-distance of travel while the stripes build, and
+   releases into normal travel. No scroll is hijacked: the reader's
+   scroll keeps moving the document; only the panel's position holds,
+   and scrubbing back reverses everything by construction. The daylight
+   compound keeps the stacking exemption (daylight panels are the
+   sanctioned positioned panels). Mobile and reduced motion never pin. */
+.js .pin-track {
+  height: calc(100svh + var(--son-track-pin-distance));
+}
+.js .panel--daylight.panel--model {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  min-height: 0;
+}
+/* Without JavaScript there is no build to hold for: the band is complete
+   by default, so the no-JS reader gets normal travel, not a frozen pin
+   (verification-caught; mirrors the reduced path). */
+@media (prefers-reduced-motion: reduce) {
+  .js .pin-track { height: auto; }
+  .js .panel--daylight.panel--model {
+    position: static;
+    height: auto;
+    min-height: 100svh;
+  }
+}
 .panel--model .t-headline { margin-bottom: var(--son-space-6); --enter-mb: var(--son-space-6); }
 .daypart-band {
   display: grid;
@@ -413,12 +444,25 @@ body {
   inset: 0;
   background: var(--stripe-color);
   transform-origin: left center;
+  /* Scrub-keyed by the band controller; defaults to complete, so the
+     no-JS, reduced-motion, and font-hang paths all render the band
+     built. Color rides the pseudo so scaling never distorts the label. */
+  transform: scaleX(var(--stripe-build, 1));
 }
+.arrive-complete .stripe::before { transform: none !important; }
 .stripe-label { position: relative; }
-.stripe-coffee { --stripe-color: var(--son-color-jade); color: var(--son-color-plum-ink); }
-.stripe-lunch { --stripe-color: var(--son-color-onggi); color: var(--son-color-bone); }
-.stripe-dinner { --stripe-color: var(--son-color-plum-ink); color: var(--son-color-bone); }
-.stripe-late { --stripe-color: var(--son-color-aubergine); color: var(--son-color-bone); }
+.stripe-coffee { --stripe-color: var(--son-color-jade); }
+.stripe-lunch { --stripe-color: var(--son-color-onggi); }
+.stripe-dinner { --stripe-color: var(--son-color-plum-ink); }
+.stripe-late { --stripe-color: var(--son-color-aubergine); }
+/* Label ink is declared on the label itself: .son-eyebrow carries a direct
+   color declaration, so a color inherited from the stripe never reaches
+   the span (verification-caught: the dinner label vanished plum-on-plum
+   on its own stripe). Bone on the three dark stripes, plum ink on jade. */
+.stripe-coffee .stripe-label { color: var(--son-color-plum-ink); }
+.stripe-lunch .stripe-label,
+.stripe-dinner .stripe-label,
+.stripe-late .stripe-label { color: var(--son-color-bone); }
 .model-body { margin-top: var(--son-space-6); }
 .model-body p + p { margin-top: var(--son-space-3); --enter-mt: var(--son-space-3); }
 
@@ -651,6 +695,14 @@ textarea.field-input { resize: vertical; }
     gap: var(--son-space-1);
   }
   .founders { grid-template-columns: 1fr; }
+  /* No pin on the phone: the stacked band builds top to bottom through
+     the viewport; the column form does the pin's work. */
+  .js .pin-track { height: auto; }
+  .js .panel--daylight.panel--model {
+    position: static;
+    height: auto;
+    min-height: 100svh;
+  }
   .panel--split { display: block; padding-inline-start: 0; }
   .split-copy {
     min-height: 100svh;

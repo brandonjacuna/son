@@ -49,15 +49,23 @@ open. Started at gate pass A, 2026-07-21.
     --son-font-wordmark) was tried, proven insufficient by the second
     fact, and reverted: the token's letter is unchanged, the mechanism is
     scoped to track.css, and the delivery name is allow-listed in both
-    adherence font lists (same face, same cut, not a third Latin face).
+    adherence font lists. RULED 2026-07-22: the face limit holds; a
+    three-glyph subset of a face already on the page adds no typographic
+    voice, the same class as the drawn 선 path. THE WATCHED DOOR, stated
+    so it cannot be missed: the violation is not the name "GT Sectra Fine
+    Arrival" existing. The violation is that name ever gaining a glyph
+    beyond S, o-breve, and n, or being used on any element that is not a
+    mark.
 3c. **Rise-origin letter vs realization** (pass 3 verification note):
     typography.css describes the origin as "120% of the padded clip";
     CSS translateY percentages resolve against the mover's own line box,
     which is what ships. Pixel probes confirm zero ink above the clip
     pre-rise at every step, but the clearance at display scale is a few
     pixels, not the margin the comment implies. Doc-letter looseness
-    inherited from the reference measurement; revisit only if a face or
-    leading retune ever eats the clearance.
+    inherited from the reference measurement. RULED 2026-07-22: leave the
+    behavior; record the comment rewrite as a doc fix for the codification
+    gate. Revisit the value itself only if a face or leading retune ever
+    eats the clearance.
 
 ## Notes for later passes
 
@@ -75,10 +83,19 @@ open. Started at gate pass A, 2026-07-21.
 6. **Capture dpr.** shoot and scrollframes capture at deviceScaleFactor 2.
    Seam crispness at dpr 1 was probe-verified this pass (integer seam
    offsets, hard 1px cut); on-device verification remains at gate 7.
-6a. **P9 carries provisional entrances** (pass 3): eyebrow and headline
-    per the spec; the band (a plain fade) and the two body blocks are
-    placeholders that pass 4 replaces with the pin, the scrub-keyed
-    stripes, the timed labels, and the release-announcing body.
+6a. **P9's entrances resolved at pass 4**: eyebrow and headline enter with
+    the panel; the stripes are scrub-keyed to the pin (or the viewport
+    passage on mobile); labels and body are data-enter-manual, fired by
+    the band controller. Capture caveat, same class as the fixed-layer
+    note in item 6: shoot's full-page render evaluates scrub state at
+    scroll 0, so its P9 slice shows entered labels over an unbuilt band, a
+    composite no reader sees. The scrollframes sequences (pass-4-pin,
+    pass-4-band, pass-4-release) are authoritative for the band.
+6b. **No pin without JavaScript** (pass 4 verification): the pin exists
+    only under html.js. A no-JS reader has no build to hold for; the
+    default is the complete band in normal travel, mirroring the reduced
+    path. The pin wrapper is guarded by the invariant check (a stacking
+    context on it would capture P9 below the still layer).
 7. **`range=` mode is device-blind.** An explicit scroll range applies
    verbatim to both devices though document geometry differs per width; use
    `seam=` or `seat=` (per-device resolution) for anything that must hold

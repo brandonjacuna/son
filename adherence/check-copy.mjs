@@ -23,6 +23,11 @@ async function main() {
   const HEX_EXEMPT = new Set(["tokens/colors.css", "guidelines/colors-special.html"]);
   // "experience" is forbidden lexicon (site canon); "guest" is banned in favor of "customer".
   const LEXICON = /\b(elevated|experiential|experiences?|innovative|disruptive|authentic|delicious|mouthwatering|vibrant|seasonal|chef-driven|hand-crafted|house-made|community-driven|curated|farm-to-table|artisanal|must-try|amazing|incredible|unforgettable|guests?)\b/gi;
+  // "GT Sectra Fine Arrival" is the inlined S/o-breve/n wordmark subset, a
+  // delivery name, not a third Latin face (ruled 2026-07-22). The watched
+  // door: the violation is not the name, it is the name ever gaining a
+  // glyph beyond S, o-breve, and n, or being used on any element that is
+  // not a mark.
   const FONT_OK = /^(var\(--son-font-[a-z-]+\)|"?(GT Sectra Book Fallback|GT Sectra Fine Arrival|GT Sectra Fine|GT Sectra Book|GT Sectra Display|GT Sectra|GT Alpina|Sandoll Myeongjo|Nanum Myeongjo|Apple Myungjo|Batang|Georgia)"?|inherit|serif)/;
 
   const files = [];
