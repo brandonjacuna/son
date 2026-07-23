@@ -467,7 +467,11 @@ Named, in order of demonstration:
    §3 P11 is the proposal it tests).
 3. **Phone coda on device**: the side-cropped full-opacity glyph in the
    hand (carried; door named: the phone-only still-size override).
-4. Still-layer opacity 0.06 on-device tune (carried).
+   PASSED 2026-07-23 on device: the coda glyph reads as an ending,
+   cropped and all. The phone-only still-size override door stays
+   closed, unspent.
+4. Still-layer opacity 0.06 on-device tune (carried). PASSED 2026-07-23
+   on device at 0.06; no tune needed.
 5. Cross-engine fit (WebKit/Firefox) on the strophe maxima (carried; the
    Solo floor's 4.4% slack prices it).
 6. SE-class hero height (carried) and **P9 desktop density** (§3 P9).
@@ -547,6 +551,110 @@ that supersedes a ratified decision from here on.
    opacity, the balance-spec violation. The close became a two-frame flow
    composition whose closing mark is a placed instance of the drawn path,
    the panel occluding the resting layer by document order.
+2. **The moat body register** (amends Decision 3's one-voice implication
+   and §3's P2/P4 step labels): ratified 2026-07-23, from the device
+   session findings. The moat column is not one voice; it is a story
+   followed by a verdict. Story register: P2, P3, P4. Case register:
+   P6, at Body 16, matching chapter II's argumentation — P6's letter
+   needs no amendment ("the column returns, same edge as P2–P4"; the
+   ratified word is edge). P4 ruled story on content grounds: it opens
+   and closes in scene, and the room that forgot is the payoff the
+   pull-line then abstracts; ruling it case would put the verdict voice
+   before the verdict and give chapter one two hinges where the reading
+   names one. The silent device evidence (P4 at 16 did not bother) cuts
+   less than it looks: five panels were read at one size, against no
+   register boundary. The story-body size is 18 or 20 (GT Alpina Fine
+   Regular 400 at the body leading — never Lead's face), decided on
+   device strips at both values; the recommendation enters at 20
+   (namespace: 18 duplicates Lead's size and distinguishes two named
+   steps by weight alone, a system smell independent of appearance; 20
+   is a clean namespace at the top of canon's Lead band). The register
+   is an editorial reading ratified per instance, not a mechanical
+   rule: copy.md's own label for the post-blockquote slot is "Body,
+   continued", so the document asserts slot continuity and the split is
+   a judgment. copy.md is not edited; this entry is the supersession
+   note over §2's first Body slot (the words are unchanged; the type
+   size is not — R2's precedent class). Realization at build: a
+   panel-register attribute, never a theme override (typography.css:
+   sizes are invariant across dayparts; the register axis is orthogonal
+   to theme). Token names and the typography.css admission terms land
+   at build with the chosen value.
+3. **Decision 1's letter ("P3 at Body") and §8 judgment register 1**:
+   amended 2026-07-23. P3 takes the story size, level with its column
+   siblings; "promotion" is read as above the column, which the ruling
+   preserves. The rationale is confirmed by measurement rather than
+   assertion: the seat frame is >=88% void at every candidate size from
+   16 through Subhead 21, so no size holds that frame by mass — the
+   void argues, exactly as ratified. The device defect at P3 was break
+   shape, not size: at 16 the sentence pair breaks 43/18 characters
+   with the second line dangling at ~39% of measure, an accidental
+   wrap; at the story size the pair re-breaks composed (measured: two
+   lines at both 18 and 20, both widths, real binaries). Treatment
+   changes were argued against Decision 1 and refused: Subhead changes
+   face and makes the sentence a heading; Lead Light is an elegy plus
+   300-weight hairlines on Plum Ink OLED; a designed gap performs the
+   departure the copy refuses to perform. THE COUPLET DOOR, named and
+   unspent: if the composed couplet still under-holds in the hand and
+   the reaction is occupancy, the staged argument is the two sentences
+   locked as a one-panel couplet strophe (a dated amendment to Decision
+   13's line-splitting rule) — never Subhead, never Lead Light.
+4. **Decision 3's constancy sentence** ("the column's left edge and
+   measure are constant"): amended 2026-07-23. Constancy narrows from
+   {left edge, --son-measure} to {left edge, rendered width}, scoped to
+   the moat column, where co-visibility makes it a guarantee.
+   Per-register measures render equal width, measured on the real face:
+   62ch@16 = 565.44px; 55.1ch@18 and 49.6ch@20 render the same width
+   exactly (ch scales linearly on this face). On the phone the 10%
+   margins cap every candidate, so the registers render at identical
+   width there by container. Recorded finding: .t-lead and .t-body
+   already consume the same 62ch token at different sizes in P7/P9, so
+   rendered-width constancy was never global; it was only ever
+   meaningful under co-visibility, which is why the scope is the moat.
+5. **Decision 12's uniqueness clause** ("P11 runs ≈180vh, the only
+   extended panel besides the pin distance"; also §3 P11, §8
+   Reconsidered 2; the track.css comment moves at build): superseded
+   2026-07-23. P3 becomes the page's second designed extension: the
+   100svh seat frame, then a ~40svh empty tail before P4's edge —
+   ratified as the fix for the device finding that chapter one has no
+   felt movement (the glyph registered on device, so the parallax was
+   firing and the five frames were too alike). The tail is the first
+   moment the rate-zero relationship becomes legible rather than merely
+   present: the text exits and the glyph holds the frame alone.
+   Extension stays rationed by proportion (pin 150 > coda travel 80 >
+   departure tail 40), and the tail carries no scrub, no pin, and no
+   full-opacity event, so the coda's close remains the page's only
+   ending. Magnitude judged in the hand at the device pass; the failure
+   criteria are recorded in build-state so the judgment is recognizable
+   rather than talked into.
+6. **Decision 4's growth clause**: extended 2026-07-23 with a third
+   height class, the designed extension — emptiness-driven, all
+   viewports, distinct from content growth (P8 mobile) and from travel
+   distance (pin, coda). Sanctioned today for exactly P3. With it: P3's
+   entrance arms at full seat rather than 85% (the second seat-fired
+   panel after P11; the registry letter gains the exemption at build),
+   and the anti-page-end verification (gate 7's class) attaches to the
+   tail. The tail distance is tokenized at build in motion-track.css
+   beside the pin distance so the two encodings cannot drift (scratch
+   item 9's pattern).
+7. **R2's letter ("the seven untouched steps") and the typography.css
+   header sentence ("body holds 16px at every width")**: amended
+   2026-07-23 by the story register. Body's own sentence survives per
+   step — the Body step still holds 16 at every width, and P6, chapters
+   II–III, and the ask all consume it unchanged — but the scale gains
+   an admission-termed story-register reading size, the same shape as
+   Solo's admission: the panel structure created a condition the scale
+   never priced (story paragraphs as the sole reading content of full
+   dark viewports; 16px in a large empty field reads small in a way it
+   would not in a document). Canon's page 04 Body band (14–16) argues
+   and loses per instance: the story size sits inside canon's own Lead
+   band (16–20), so no new band is minted; the delta is Lead's size
+   territory at Body's face and weight, taken on dark-ground rendering
+   grounds. Ratio guarantees are untouched (the >=1.2 adjacency
+   guarantee is display-ramp-scoped). Fit evidence, measured this
+   session on the real binaries: P2 at 20/390 is 13 lines, 390px, 46%
+   of frame; SE-class worst case 14 lines, 420px, fits with headroom;
+   the copy-refit fit sentence re-verifies at the chosen size at build
+   (P2/P3/P4, both widths, three engines).
 
 ## 8. Session registers
 

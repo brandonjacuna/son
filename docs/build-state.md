@@ -75,7 +75,13 @@ subset) passed with evidence on disk. Gate 7 assessed: no pin frame
 reads as a page end; the release is announced by the body with P10
 rising in frame. Gate 6: P9 desktop density passed (pass 1); the
 SE-class hero cost MATERIALIZED and awaits Brandon (below). Gates 3 and
-4 are PREPARED and pending the device session (below).
+4 PASSED at the device session (2026-07-23, real phone, Safari): the
+phone coda reads as an ending, cropped and all (the still-size override
+door stays closed, unspent); 0.06 held with no tune. The same session
+produced two chapter-one findings, examined and ruled the same day:
+the moat body register and the departure's tail (build-spec §7,
+amendments 2–7). The story size (18 vs 20) and the tail magnitude are
+judged at the next device pass, packaged below.
 
 ## The device session (gates 3 and 4, plus seam crispness) — Brandon
 
@@ -106,10 +112,84 @@ Serve the repo from its root and open the track on the phone:
 - **Seam crispness at dpr 1** was probe-verified headlessly; eyeball a
   seam on the device in the same session (scratch item 6).
 
+## The register session (2026-07-23) and the next device pass — Brandon
+
+The device session's two chapter-one findings were examined and ruled
+the same day (the register session; every ruling is recorded as
+build-spec §7 amendments 2–7). The moat is a story followed by a
+verdict: story register P2/P3/P4 at the story-body size (18 or 20,
+strips pending), case register P6 at Body 16 matching chapter II; P3
+level with its siblings, the couplet door named and unspent; the
+departure gains a ~40svh empty tail as the page's second designed
+extension. Finding 2 rests entirely on the tail and the moat's density
+arc — the glyph registered on device at 0.06, so witness presence was
+never the problem; the frames were too alike.
+
+The next device pass judges, in the hand (serve as before; the strips
+are owed first — a scratch-harness render against the real binaries,
+no track changes):
+
+1. **The size strips, 18 vs 20**: story panels only (P2, P3, P4 — P4
+   is RULED story; do not strip it at 16), both widths, with the P3
+   tail in place; P3 judged seated-plus-tail, as a door, not a room.
+   Recommendation enters at 20 (18 duplicates Lead's size,
+   distinguishing two named steps by weight alone). Break-shape rider:
+   no line under ~40% of measure; both candidates measured holding two
+   composed lines at P3.
+2. **The tail, judged for felt travel.** The failure criteria, so the
+   judgment is recognizable rather than talked into:
+   - TOO SHORT: the silence ends before it begins. P4's edge arrives
+     while the eye is still releasing P3's lines, and the gap reads as
+     paragraph spacing — layout air, not a place. The after-test:
+     asked where the departure happened, you point at the two
+     sentences. The space never became the event.
+   - RIGHT: the emptiness reads as aftermath — the room after she
+     left, crossed at your own pace, the glyph the only thing not
+     moving. Asked where the departure happened, you point at the
+     space. And chapter one afterwards has geography you could sketch:
+     the dense room, the departure and its space, the hollow room, the
+     monument, the verdict. If the sketch is "five screens of text,"
+     travel did not read.
+   - TOO LONG: you doubt the page — a scrollbar check, a flick to see
+     if it is still alive, or the void with the glyph starting to read
+     as an ending, the coda's grammar arriving early. The boundary is
+     one full frame of nothing but ground: the tail fails when it
+     stops being P3's aftermath and becomes the site's absence.
+   - THE FURNITURE TELL, at any magnitude: if the emptiness reads as
+     anticipation — a drumroll for P4, a transition any site might
+     insert — it is decorating scroll. It must read as consequence,
+     belonging to the two sentences above it, not to the panel below.
+3. **Seam crispness at dpr 1**, re-queued from the gate session
+   (scratch item 6): eyeball one dark–light seam on the device.
+4. **Watch item, named door**: if the case panels (P6, chapters
+   II–III) still read small against the ratified story size, the
+   global Body floor question (16 → 17) reopens on that evidence. Not
+   prejudged.
+
+Session registers (the register session, 2026-07-23). Excluded by
+canon: ground events inside chapter one (no tints, no shades; the day
+arc reserves Aubergine for the ask) — cost: the reference's per-slide
+ground vocabulary, carried instead by the tail, the density arc, and
+the register split. Excluded by judgment: the graded per-panel body
+ramp (sub-perceptual; type acting at the departure), the mechanical
+copy.md register rule (smuggled the judgment it claimed to remove),
+the register seam as a felt progression event (withdrawn; zero
+finding-2 credit claimed), measure narrowing, column vertical descent,
+stepped still-layer opacity, entrance/leading/weight walks, site-wide
+16 → 17 (the watch-item door above), and the P3 treatments — Subhead,
+Lead Light, the designed gap (the couplet door named, unspent).
+Reconsidered, admitted: two body registers inside one chapter as an
+editorial reading; rendered-width constancy scoped to co-visibility;
+the departure as the page's second designed extension; seat-firing as
+a per-panel entrance term.
+
 ## Outstanding, by owner
 
 **Brandon**
-1. Device session above (gates 3 and 4, seam eyeball).
+1. The next device pass (the register strips, the tail judgment, the
+   re-queued seam eyeball) — the package, with the tail's failure
+   criteria, is in its own section above. The strips are owed before
+   it; the build session that realizes the amendments produces them.
 2. **SE-class hero ruling**: at 375x667 the hero grows 77px past the
    viewport and the lock-up completes below the fold at arrival; the
    strophe and loop carry, the diagonal's third point does not complete
