@@ -2,6 +2,51 @@
 
 선 · Future Nostalgia Hospitality Group · 207 E St. Elmo Rd, Austin, Texas 78745
 
+---
+
+## Start here (handoff, 2026-07-23)
+
+You are a developer with no context. This is enough to work:
+
+- **What deploys:** `track/` — a static scroll-driven single page. No
+  build step: serve the repo root (`python3 -m http.server 8080`) and
+  open `/track/index.html`. `site/` is the frozen v3 fallback (tag
+  `v3-fallback`); `track/` is what ships (tag `v4-track`). Why both
+  tags exist and why neither gets deleted: `docs/handoff.md`.
+- **Your tasks and everything owed by name:** `docs/handoff.md` — the
+  ownership record (endpoint, dedup, regeneration, deployment; what is
+  still Brandon's).
+- **Checks:** `npm install && npm run lint`. Four checks, every one
+  blocks: stylelint (CSS/HTML color+font discipline), copy
+  (`adherence/check-copy.mjs`), the track stacking invariant
+  (`adherence/check-track.mjs` — the one constraint that, broken,
+  silently kills the site's central mechanism), and the JSX canon
+  (`eslint.config.mjs`). What they do NOT cover: rendered geometry,
+  scroll behavior, and visual judgment — those live in the evidence
+  workflow (`npm run shoot / scrollframes / timeframes`, output under
+  `refs/shots/`) and in rulings. See Adherence below for exact scope
+  and the recorded debt register.
+- **The rules of the build:** `docs/codified-patterns.md` — the
+  graduated pattern rules (why motion is built as an opt-in over a
+  complete static page, why states are constructed rather than
+  synchronized, the two motion registers, form-surface stability,
+  token governance). Read before touching any motion-carrying surface.
+- **The decision record:** `docs/build-spec.md` §7 (ratified decisions
+  verbatim; supersessions ONLY in its Amendments section) with
+  `docs/track-scratch.md` (mechanisms and method notes) and
+  `docs/build-state.md` (the build-session record and evidence map).
+  The pattern: the record stays verbatim; changes are dated amendments
+  with reasons.
+- **The tested boundary:** `docs/browser-support.md` — what was tested
+  (three engines × four widths, rendered geometry; one real iPhone
+  end-to-end), what was not (desktop Safari at all; continuous
+  scrolling on any desktop), and what to check first before ship.
+- **The standing doors** — named, unspent design decisions that reopen
+  only on evidence — are listed at the end of `docs/handoff.md`.
+
+Everything below this line is the design system's own record: brand
+foundations, canon, tokens, components, and adherence.
+
 A Korean fine-dining restaurant in Austin. One master brand, four dayparts under
 one roof: **Good Energy** (morning), **Dosi** (lunch), **Sŏn** (dinner), and a
 late-night register (internal: Luxx, never public-facing). Good Energy and Dosi
