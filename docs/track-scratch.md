@@ -118,6 +118,17 @@ open. Started at gate pass A, 2026-07-21.
     three panels earlier, and nothing fills it. The load-rendered state
     keeps natural placement: a returning reader arrives at a state, not a
     change. Evidence: refs/shots/pass-6-confirmation-placed, both widths.
+    AMENDED 2026-07-23 (build-spec §7 amendment 10), with the reason, not
+    replaced: the ruling was right for the case it was made from — the
+    mobile reader's standing view — and wrong in scope, because a line in
+    the card's lower third with empty field above is a composition the
+    site never established (the isolate is content CENTERED in a field),
+    and at desktop the whole card is already in view, so the reason for
+    low placement is absent and only the odd composition remains. The
+    placement now measures its reason per swap: centered at the isolate's
+    optical seat when the centered line lands in the visual viewport, the
+    act's position otherwise, degrading to the act when the visual
+    viewport is unavailable — the safe case, not the elegant one.
 3i. **The revealed header, built at final review** (2026-07-23). Ratified
     Decision 7 was deferred at pass 1 as "a motion pass" and never
     assigned to one; the final review caught it unimplemented. Built

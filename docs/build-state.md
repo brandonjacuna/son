@@ -194,18 +194,19 @@ a per-panel entrance term.
 ## Outstanding, by owner
 
 **Brandon**
-1. **SE-class hero ruling**: at 375x667 the hero grows 77px past the
-   viewport and the lock-up completes below the fold at arrival; the
-   strophe and loop carry, the diagonal's third point does not complete
-   in the first frame. Frame: refs/shots/pass-7-se-hero. This is the
-   sanctioned-growth flag from Decision 4, shown as built.
-2. **Frozen-card desktop composition check, still owed**: the
-   confirmation now renders where the submit control stood (ruled
-   2026-07-23, BUILT on the live path, load path keeps natural
-   placement; scratch 3h). Brandon asked to see both widths and rule
-   whether desktop still reads as an isolate rather than bottom-heavy;
-   the captures exist (refs/shots/pass-6-confirmation-placed, both
-   widths) but the desktop composition ruling was not yet given.
+1. **SE-class hero ruling: CLOSED 2026-07-23, ruled AGAINST the built
+   state and fixed** (build-spec §7 amendment 9). The fold-severed 선
+   violated the no-partial-mark rule; the diagonal now completes in the
+   seen frame at short heights (entry-air compression, phone widths ×
+   ≤720px height), growth below the mark. Evidence:
+   refs/shots/se-hero-fix (built), se-hero-fix-proposal (the ruled
+   prototype frames).
+2. **Frozen-card desktop composition: CLOSED 2026-07-23, ruled AGAINST
+   at desktop; 3h amended with its reason, not replaced** (build-spec
+   §7 amendment 10). The placement measures its reason per swap:
+   centered isolate (optical seat, 47%) when the centered line lands in
+   the visual viewport, act position otherwise, act on visual-viewport
+   fallback. Evidence: refs/shots/g4-confirmation-covisibility.
 3. The codification gate: CLOSED at G3 (2026-07-23, ruled). The
    graduated rules live in docs/codified-patterns.md (the enhancement
    inversion with the required delete-the-gate review test,

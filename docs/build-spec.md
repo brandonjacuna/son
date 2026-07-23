@@ -672,6 +672,52 @@ that supersedes a ratified decision from here on.
    pair, the ?story query switch, the pre-paint head-script selector)
    is removed with this ruling; the track ships at 20 with no
    candidate mechanism, and a stray ?story parameter is inert.
+9. **Decision 3's diagonal seat ("lock-up low-right on the margin") and
+   Decision 4's SE-class flag**: amended 2026-07-23, ruled against the
+   built state. "Low-right" is the low of the SEEN frame, not of the
+   overgrown panel's foot: the foot-anchor was never the grammar's
+   point, and it is what handed the mark to the fold — an SE reader's
+   first frame was a severed 선, and the site cannot forbid a design
+   that crops the mark (the hero-bleed kill, the drawn-path-over-font
+   decision) and then open with a fold-cropped mark; the reader cannot
+   tell the fold from a designer. The no-partial-mark rule outranks
+   the foot-anchor. Realization: at short frames (phone widths,
+   height ≤ 720px) the entry air compresses 14svh → 9svh and the
+   strophe→loop gap 40px → 32px; type untouched, reading order
+   untouched, both voices stay in the arrival frame; the sanctioned
+   growth remains and moves below the completed lock-up as ground —
+   breathing room, not displacement. Boundary measured on the built
+   page at 375px: the natural stack completes with its 4svh floor at
+   ≥ ~716px, the compressed one down to ~665px; no portrait device
+   ≥ 360px wide (the wrap-free floor) sits below that. Rejected: type
+   shrink (forbidden; the mark is drawn precisely so it cannot be
+   re-set), exiling the loop-opener below the fold (breaks the reading
+   order and the arrival gesture's second voice), absolute positioning
+   (fights the stacking invariant). Evidence:
+   refs/shots/se-hero-fix.
+10. **The confirmation placement ruling (scratch 3h)**: amended
+   2026-07-23 with its reason, not replaced. The prior ruling — the
+   line renders where the submit control stood, the empty card as the
+   isolate — was right for the case it was made from and wrong in
+   scope. Two corrections. One: the empty card with a line in its
+   lower third is NOT the isolate; the isolate the site taught (P5,
+   the ask's stack, the coda) is content centered in a field. Two: the
+   act-position's reason is the standing view — the reader who just
+   acted must see the answer — and no width proxies that boundary,
+   because the card never exceeds the layout viewport at any tested
+   width (590px at 1440×900, 644px at 390×844); what shrinks a phone's
+   standing view is the keyboard, i.e. the visual viewport. Scoped
+   realization, measured per swap at the moment the reason applies: if
+   the card-centered line would land inside the visual viewport (24px
+   breathing), the confirmation centers in the held card at the
+   isolate's optical seat (center slightly high, 47%); otherwise it
+   renders at the act. A phone with the keyboard dismissed and the
+   whole card in view centers too — the condition working, not
+   leaking. Degradation rule, ruled: if the visual viewport is
+   unavailable or reports nothing usable, the swap renders at the
+   act's position — toward the safe case, never the elegant one. The
+   load path is untouched: a returning reader arrives at a state, not
+   a change. Evidence: refs/shots/g4-confirmation-covisibility.
 
 ## 8. Session registers
 
