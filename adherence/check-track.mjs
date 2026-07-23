@@ -74,6 +74,10 @@ async function main() {
     // guarded.
     const subject = rawSubject.replace(/:not\([^)]*\)/gi, "");
     if (subject.includes("panel--daylight")) return false;
+    // The placed close (ratified 2026-07-22): the coda's default stance
+    // occludes the resting layer by document order, the sanctioned second
+    // positioned panel; its dedicated class is the whitelist.
+    if (subject.includes("panel--placed-close")) return false;
     // A pseudo-element is a child of the guarded box, not the box itself;
     // a stacking context on it cannot demote the panel.
     if (rawSubject.includes("::")) return false;

@@ -14,8 +14,8 @@
 // of document travel maps linearly from the rest token to the coda token,
 // so scrubbing back reverses the close and the close is the reader's own
 // act. All values are tokens read from computed style; no value lives
-// here. Entrances are pass 3; the reduced-motion hard cut at the P11
-// boundary is pass 6.
+// here. Under reduced motion the scrub never runs: the coda is the
+// placed close (pass 6), and the still layer holds its rest.
 //
 // Invariant note: this file may never set a stacking-context-creating
 // property on body, the track, or a dark panel (adherence/check-track.mjs
@@ -23,6 +23,12 @@
 
 const rootStyles = getComputedStyle(document.documentElement);
 const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+
+// The scrubbed coda is an opt-in: without this class the page runs the
+// placed close (the designed second path and the no-JS default). Load-time
+// gating, the recorded limitation.
+const trackMotion = !reducedMotion.matches;
+if (trackMotion) document.documentElement.classList.add("track-motion");
 
 /* ── The scroll driver ── */
 
@@ -59,8 +65,10 @@ let ticking = false;
 
 function apply() {
   ticking = false;
-  const progress = Math.min(1, Math.max(0, (window.scrollY - scrubStart) / scrubLength));
-  glyph.style.opacity = String(restOpacity + progress * (codaOpacity - restOpacity));
+  if (trackMotion) {
+    const progress = Math.min(1, Math.max(0, (window.scrollY - scrubStart) / scrubLength));
+    glyph.style.opacity = String(restOpacity + progress * (codaOpacity - restOpacity));
+  }
   bandApply();
 }
 
@@ -472,6 +480,16 @@ if (askForm) {
     }
   }
 }
+
+/* ── Keyboard reach (pass 6) ──
+   A keyboard reader can focus into content whose entrance has not fired
+   (A2 inside the unreleased model body is the live case): focus arriving
+   inside an un-entered element arms it immediately, so nothing focusable
+   is ever invisible. Fire-once semantics hold; is-in guards re-arming. */
+document.addEventListener("focusin", (event) => {
+  const item = event.target.closest("[data-enter]:not(.is-in)");
+  if (item) armGroup([item], 0);
+});
 
 /* ── Bootstrap ── */
 addEventListener("scroll", onScroll, { passive: true });

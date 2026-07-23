@@ -216,9 +216,12 @@ motion: band renders complete, no pin, no build.
   version at build (R1).
 - Reduced motion, the designed second path: entrances opacity-only and
   instant; the pin never engages and the band renders complete; the still
-  layer is simply present; the coda opacity is set by hard cut at the P11
-  boundary (a cut is not motion); Lenis smoothing off, native scroll.
-  Every claim fully legible static.
+  layer is simply present; the coda is the placed close (amended
+  2026-07-23 at pass 6, per the design answer accepted 2026-07-22: a
+  two-frame flow composition whose closing mark is a panel-local placed
+  instance of the drawn path, P11 occluding the resting layer by document
+  order; the hard-cut phrasing is superseded); Lenis smoothing off,
+  native scroll. Every claim fully legible static.
 - `tokens/motion-immersive.css` is retired at build (it predates R1 and
   carries corrected-away values and killed devices). A new
   `tokens/motion-track.css` carries the track values above plus the pin
@@ -390,8 +393,13 @@ where the floors engage: hero ~800px, Solo ~580px.
   Decision 3) and content over it would break the balance spec, so the
   close empties rather than stacks. Scrubbing back reverses it; the close
   is the reader's own act.
-- **Reduced motion:** footer above, glyph at full opacity by hard cut,
-  static; the page still ends on the glyph frame.
+- **Reduced motion:** the placed close (amended 2026-07-23, design answer
+  accepted 2026-07-22): footer frame, then a placed closing-glyph frame at
+  full opacity in flow, the panel occluding the resting layer by document
+  order; content can never overlap the mark, and the page still ends on
+  the glyph frame. In this path the closing mark is a placed instance of
+  the drawn path, not the layer itself; that sentence remains the
+  scrubbed path's.
 - **Phone:** the ruled side-crop stands (middle ~58% of the silhouette at
   full opacity, the complete lock-up above); revisited only at the build
   gate on a real device. The named door remains the phone-only still-size

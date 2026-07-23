@@ -251,7 +251,7 @@
   <!-- P11, the coda: the lock-up and location line rise as the panel
        seats, signature then information; then the final travel empties the
        frame while the still layer's opacity scrubs to full. -->
-  <section class="panel panel--coda" data-panel="p11" data-theme="dinner">
+  <section class="panel panel--coda panel--placed-close" data-panel="p11" data-theme="dinner">
     <div class="coda-frame">
       <p class="lockup" role="img" aria-label="Sŏn 선" data-enter="block">
         <span class="lockup-stack enter-mover">
@@ -260,6 +260,14 @@
         </span>
       </p>
       <p class="coda-location" data-enter="block"><span class="enter-mover">Austin, Texas. By request only.</span></p>
+    </div>
+    <!-- The placed close (ratified 2026-07-22): the reduced-motion and
+         no-JS coda is a two-frame flow composition; this second frame is
+         the closing glyph at full opacity, a panel-local placed instance
+         of the drawn path. Hidden under the scrubbed stance, where the
+         closing glyph is the still layer itself. -->
+    <div class="coda-close" aria-hidden="true">
+      <svg class="seon-mark coda-close-glyph" viewBox="49 -29 847 930.26" focusable="false"><use href="#seon-path"/></svg>
     </div>
   </section>
 </main>

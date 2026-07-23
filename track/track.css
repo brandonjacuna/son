@@ -581,6 +581,35 @@ textarea.field-input { resize: vertical; }
   line-height: var(--son-leading-caption);
 }
 
+/* ── The placed close (pass 6; ratified 2026-07-22, track-scratch 10) ──
+   The DEFAULT stance, serving no-JS and reduced motion: P11 occludes the
+   resting layer by document order (the sanctioned second positioned
+   panel, whitelisted in the invariant check by its dedicated class) and
+   closes with a placed glyph frame in flow. Content can never overlap
+   the mark: the separation is sequential in layout. track.js opts into
+   the scrubbed stance only when motion is permitted, where the closing
+   glyph is the still layer itself and this frame stands down. */
+.panel--coda.panel--placed-close {
+  position: relative;
+  z-index: 2;
+}
+.coda-close {
+  height: 100svh;
+  display: grid;
+  place-items: center;
+  overflow: clip;
+}
+.coda-close-glyph {
+  height: var(--son-seon-still-size);
+  width: auto;
+  color: var(--son-glyph);
+}
+.track-motion .panel--coda.panel--placed-close {
+  position: static;
+  z-index: auto;
+}
+.track-motion .coda-close { display: none; }
+
 /* ── Entrances (pass 3) ──
    Registry per tokens/motion-track.css; clip geometry per
    tokens/typography.css: pads on the clip with equal negative margins so

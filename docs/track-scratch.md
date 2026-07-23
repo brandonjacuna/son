@@ -143,10 +143,12 @@ open. Started at gate pass A, 2026-07-21.
     mark here is a placed instance, not the layer itself; R1's "the bare
     glyph is the layer" is the scrubbed path's sentence, and the spec's
     P11 reduced-motion line amends when pass 6 builds it. Mechanically:
-    the static stance is the CSS default (zero-JS safe) under a dedicated
-    coda class the stacking-invariant check will whitelist by exact
-    selector; track.js opts into the scrubbed stance only when motion is
-    permitted.
+    the static stance is the CSS default (zero-JS safe) under the
+    dedicated coda class, exempted in the stacking-invariant check by
+    class subject, the same latitude as the daylight exemption (letter
+    amended 2026-07-23 to match the probe-verified realization); track.js
+    opts into the scrubbed stance only when motion is permitted. BUILT at
+    pass 6.
 11. **The two unmeasured locked lines** (pass 1 verification). The type
     decision fit-measured only the hero Display and Solo strophes. The
     other two locked single lines were measured at pass 1 on the real
