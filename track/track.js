@@ -98,3 +98,122 @@ function onScroll() {
 addEventListener("scroll", onScroll, { passive: true });
 addEventListener("resize", measure);
 measure();
+
+/* ── Entrances (pass 3) ──
+   Registry values are the track tokens, read once (they are static per
+   load). Sequencing: sibling stagger in DOM order; per-line stagger
+   inside strophes; data-enter-slot pins an element to an absolute slot
+   (the P7 glyph with the lead, the P8 right column at +2); data-enter-hold
+   inserts the hero's hold after the strophe completes. Hidden strophe
+   variants are armed without advancing the clock so a band switch after
+   arrival shows the completed state. Entrances fire once per panel at
+   ~85% active and never re-fire. */
+
+const STAGGER = parseFloat(rootStyles.getPropertyValue("--son-track-stagger")) || 0;
+const HOLD = parseFloat(rootStyles.getPropertyValue("--son-track-hold")) || 0;
+const LINE_DURATION = parseFloat(rootStyles.getPropertyValue("--son-track-line-duration")) || 0;
+
+const isShown = (el) => getComputedStyle(el).display !== "none";
+
+function armGroup(items, startT) {
+  let t = startT;
+  const movers = [];
+  items.forEach((item) => {
+    const pinned = item.dataset.enterSlot !== undefined;
+    const start = pinned ? Number(item.dataset.enterSlot) * STAGGER : t;
+    if (item.dataset.enter === "lines") {
+      const lines = item.querySelectorAll(".line");
+      lines.forEach((line, i) => {
+        line.style.setProperty("--enter-delay", `${start + i * STAGGER}ms`);
+        const mover = line.querySelector(".line-mover");
+        if (mover) movers.push(mover);
+      });
+      if (isShown(item) && !pinned) {
+        const lastStart = start + (lines.length - 1) * STAGGER;
+        t = item.hasAttribute("data-enter-hold")
+          ? lastStart + LINE_DURATION + HOLD
+          : lastStart + STAGGER;
+      }
+    } else {
+      item.style.setProperty("--enter-delay", `${start}ms`);
+      movers.push(item.querySelector(".line-mover, .enter-mover") || item);
+      if (isShown(item) && !pinned) t = start + STAGGER;
+    }
+    item.classList.add("is-in");
+  });
+  // Performance floor: will-change scoped to the animation window, cleared.
+  movers.forEach((m) => { m.style.willChange = "transform, opacity"; });
+  setTimeout(() => movers.forEach((m) => { m.style.willChange = ""; }), t + 1400);
+  return t;
+}
+
+const heroPanel = document.querySelector('[data-panel="p1"]');
+const enteringPanels = [...document.querySelectorAll(".panel")].filter(
+  (p) => p !== heroPanel && p.querySelector("[data-enter]")
+);
+
+// ~85% active (the registry token): the panel's top has crossed into the
+// top 15% band, so the seam is across the viewport before the text rises.
+// Ground leads, content follows.
+const activeThreshold =
+  parseFloat(rootStyles.getPropertyValue("--son-track-active-threshold")) || 0.85;
+
+const io = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      armGroup(entry.target.querySelectorAll("[data-enter]"), 0);
+      io.unobserve(entry.target);
+    });
+  },
+  { rootMargin: `0px 0px -${activeThreshold * 100}% 0px` }
+);
+enteringPanels.forEach((p) => io.observe(p));
+
+/* ── The arrival (build-spec §2.3) ──
+   The arrival is the first frame of the hero: Plum Ink, the wordmark at
+   its chrome position (instant via the inlined subset), the still layer
+   at rest. Choreography begins when the display faces are loaded and the
+   floor has passed, from this exact frame; the wordmark never moves. Past
+   the ceiling the page renders complete instead: display never fires on
+   unloaded fonts. Under reduced motion the arrival arms immediately and
+   the reduced-motion rules make it instant and opacity-only. */
+
+const ARRIVAL_FLOOR_MS = 800;
+const FONT_CEILING_MS = 5000;
+const ARRIVAL_FACES = [
+  '400 1em "GT Sectra Display"',
+  '400 1em "GT Sectra Fine"',
+  '400 1em "GT Sectra"',
+  '400 1em "GT Alpina Fine"',
+  '300 1em "GT Alpina Fine"',
+];
+
+function armArrival() {
+  const tEnd = armGroup(heroPanel.querySelectorAll("[data-enter]"), 0);
+  armGroup(document.querySelectorAll(".chrome [data-enter]"), tEnd);
+}
+
+function arriveComplete() {
+  document.documentElement.classList.add("arrive-complete");
+  document.querySelectorAll("[data-enter]").forEach((el) => el.classList.add("is-in"));
+  io.disconnect();
+}
+
+const waitMs = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+if (reducedMotion.matches) {
+  armArrival();
+} else {
+  const fontsSettled = Promise.all(ARRIVAL_FACES.map((f) => document.fonts.load(f))).then(
+    () => "loaded",
+    () => "hang"
+  );
+  Promise.all([
+    Promise.race([fontsSettled, waitMs(FONT_CEILING_MS).then(() => "hang")]),
+    waitMs(ARRIVAL_FLOOR_MS),
+  ]).then(([fonts]) => {
+    if (fonts === "hang") arriveComplete();
+    else armArrival();
+  });
+}

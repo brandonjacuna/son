@@ -137,8 +137,15 @@ body {
   padding: var(--son-space-4) var(--son-margin-page);
   color: var(--son-text-primary);
 }
+/* The mark never waits on the network: the arrival subset carries S, ŏ, n,
+   the only glyphs the mark sets, and the metric fallback covers a
+   woff2-less engine. The loading full faces are deliberately absent from
+   this stack: a pending face ANYWHERE in a stack blocks the whole run's
+   paint (probe-verified under stalled fonts), so the wordmark token's
+   stack cannot deliver the instant mark and this scoped stack is the
+   ratified §2.3 mechanism. Same face, same cut, delivery name only. */
 .wordmark {
-  font-family: var(--son-font-wordmark);
+  font-family: "GT Sectra Fine Arrival", "GT Sectra Book Fallback", Georgia, serif;
   font-weight: var(--son-weight-book);
   font-size: var(--son-text-subhead);
   line-height: 1;
@@ -230,15 +237,25 @@ body {
 .panel--column .panel-content {
   margin-bottom: 8svh;
 }
-.panel-eyebrow { margin-bottom: var(--son-space-4); }
-.panel--column p + p { margin-top: var(--son-space-3); }
+.panel-eyebrow { margin-bottom: var(--son-space-4); --enter-mb: var(--son-space-4); }
+.panel--column p + p { margin-top: var(--son-space-3); --enter-mt: var(--son-space-3); }
+/* The blockquote's rhythm margin rides the quote line itself, not the
+   wrapper: at this seam three margins would otherwise collapse together
+   and swallow the body clip's negative pad margin (verification-caught,
+   pass 3: the gap grew by exactly one top pad). With the margin on the
+   entering element, --enter-mb composes it the same way as every other
+   entering element, and the no-JS path keeps the plain margin. */
 .moat-quote {
-  margin: 0 0 var(--son-space-4) 0;
+  margin: 0;
 }
 /* The blockquote is a locked single line (one clip, one rise, pass 3); it
    takes its width from the panel, not the 24ch headline cap, and wraps
    only where the phone forces it. */
-.moat-quote .t-headline { max-width: none; }
+.moat-quote .t-headline {
+  max-width: none;
+  margin-bottom: var(--son-space-4);
+  --enter-mb: var(--son-space-4);
+}
 
 /* ── Grammar: the isolate (P5; P10's centered stack; the coda's frame) ──
    Centered both axes, optical center slightly high (≈ 47svh). */
@@ -266,15 +283,18 @@ body {
   flex-direction: column;
 }
 .hero-copy { margin-top: 14svh; }
-.hero-loop { margin-top: var(--son-space-5); max-width: none; }
+.hero-loop { margin-top: var(--son-space-5); --enter-mt: var(--son-space-5); max-width: none; }
 .lockup {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: var(--son-font-wordmark);
+  display: inline-block;
+  font-family: "GT Sectra Fine Arrival", "GT Sectra Book Fallback", Georgia, serif;
   font-weight: var(--son-weight-book);
   font-size: var(--son-text-subhead);
   line-height: 1.05;
+}
+.lockup-stack {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
 .lockup-glyph {
   height: 1.02em;
@@ -286,7 +306,10 @@ body {
   margin-top: auto;
   align-self: flex-end;
   margin-bottom: 4svh;
+  --enter-mb: 4svh;
 }
+/* The flex push must survive the entrance clip's margin composition. */
+.js .lockup--hero[data-enter] { margin-top: auto; }
 
 /* ── P7, the accent split ──
    Column left; the peacock field right, ≈38vw, bleeding to the top, right,
@@ -308,8 +331,8 @@ body {
   padding-inline-end: var(--son-space-8);
   margin-bottom: 8svh;
 }
-.split-copy .t-lead { margin-top: var(--son-space-6); }
-.split-copy .t-body { margin-top: var(--son-space-4); }
+.split-copy .t-lead { margin-top: var(--son-space-6); --enter-mt: var(--son-space-6); }
+.split-copy .t-body { margin-top: var(--son-space-4); --enter-mt: var(--son-space-4); }
 .accent-field {
   background: var(--son-color-peacock);
   color: var(--son-color-bone);
@@ -341,7 +364,7 @@ body {
   border: var(--son-border-hairline) solid var(--son-border-default);
   margin-bottom: var(--son-space-3);
 }
-.founder-name { margin-bottom: var(--son-space-2); }
+.founder-name { margin-bottom: var(--son-space-2); --enter-mb: var(--son-space-2); }
 .founder-role { white-space: nowrap; }
 
 /* ── P9, the model ──
@@ -357,7 +380,7 @@ body {
   padding: var(--son-space-8) var(--son-margin-page);
 }
 .panel--model .panel-content { margin-bottom: 8svh; }
-.panel--model .t-headline { margin-bottom: var(--son-space-6); }
+.panel--model .t-headline { margin-bottom: var(--son-space-6); --enter-mb: var(--son-space-6); }
 .daypart-band {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
@@ -397,7 +420,7 @@ body {
 .stripe-dinner { --stripe-color: var(--son-color-plum-ink); color: var(--son-color-bone); }
 .stripe-late { --stripe-color: var(--son-color-aubergine); color: var(--son-color-bone); }
 .model-body { margin-top: var(--son-space-6); }
-.model-body p + p { margin-top: var(--son-space-3); }
+.model-body p + p { margin-top: var(--son-space-3); --enter-mt: var(--son-space-3); }
 
 /* ── P10, the ask ──
    The isolate: centered stack, headline over the Bone card, deliberate
@@ -494,6 +517,116 @@ textarea.field-input { resize: vertical; }
   font-family: var(--son-font-body);
   font-size: var(--son-text-menu);
   line-height: var(--son-leading-caption);
+}
+
+/* ── Entrances (pass 3) ──
+   Registry per tokens/motion-track.css; clip geometry per
+   tokens/typography.css: pads on the clip with equal negative margins so
+   visual leading is unchanged, the mover unpadded, the rise origin 120%
+   of the padded clip. Everything here is gated under html.js: without
+   JavaScript no clip exists and the page renders complete. Layout margins
+   on entering elements travel through --enter-mt/--enter-mb so the clip's
+   negative pad margins compose with them instead of fighting them.
+   track.js sets --enter-delay per element (per line inside strophes) and
+   scopes will-change to the animation window. Movers ride transform and
+   opacity only. */
+.js [data-enter="lines"] .line,
+.js [data-enter="line"],
+.js [data-enter="block"] {
+  overflow: clip;
+  padding-top: var(--son-clip-pad-top);
+  padding-bottom: var(--son-clip-pad-bottom);
+  margin-top: calc(var(--enter-mt, 0px) - var(--son-clip-pad-top));
+  margin-bottom: calc(var(--enter-mb, 0px) - var(--son-clip-pad-bottom));
+}
+.line-mover,
+.enter-mover {
+  display: block;
+}
+.lockup .enter-mover {
+  display: inline-flex;
+}
+
+/* Lines: transform only; the clip does the hiding. */
+.js [data-enter="lines"]:not(.is-in) .line-mover,
+.js [data-enter="line"]:not(.is-in) .line-mover {
+  transform: translateY(var(--son-rise-from));
+  opacity: var(--enter-pre-opacity, 1);
+}
+.js [data-enter="lines"] .line-mover,
+.js [data-enter="line"] .line-mover {
+  transition:
+    transform var(--enter-line-duration, var(--son-track-line-duration)) var(--enter-line-ease, var(--son-track-ease-line)) var(--enter-delay, 0ms),
+    opacity var(--enter-line-duration, var(--son-track-line-duration)) linear var(--enter-delay, 0ms);
+}
+.js [data-enter].is-in .line-mover {
+  transform: none;
+  opacity: 1;
+}
+
+/* Blocks: one clip per block, rise and fade. */
+.js [data-enter="block"]:not(.is-in) .enter-mover {
+  transform: translateY(var(--son-rise-from));
+  opacity: 0;
+}
+.js [data-enter="block"] .enter-mover {
+  transition:
+    transform var(--son-track-block-duration) var(--son-track-ease-block) var(--enter-delay, 0ms),
+    opacity var(--son-track-block-duration) linear var(--enter-delay, 0ms);
+}
+.js [data-enter="block"].is-in .enter-mover {
+  transform: none;
+  opacity: 1;
+}
+
+/* Fades: headshots and chrome; never a rise. */
+.js [data-enter="fade"] {
+  transition: opacity var(--enter-fade-duration, var(--son-track-fade-duration)) linear var(--enter-delay, 0ms);
+}
+.js [data-enter="fade"]:not(.is-in) { opacity: 0; }
+.chrome [data-enter="fade"] { --enter-fade-duration: var(--son-track-chrome-fade); }
+
+/* The two locked single lines are desktop-band only (ruled 2026-07-22,
+   the R3 rule applying): below their measured single-line thresholds the
+   breaks are not locked and the block register governs. */
+@media (max-width: 1108px) {
+  .hero-loop {
+    --enter-line-duration: var(--son-track-block-duration);
+    --enter-line-ease: var(--son-track-ease-block);
+    --enter-pre-opacity: 0;
+  }
+}
+@media (max-width: 892px) {
+  .moat-quote .t-headline {
+    --enter-line-duration: var(--son-track-block-duration);
+    --enter-line-ease: var(--son-track-ease-block);
+    --enter-pre-opacity: 0;
+  }
+}
+
+/* The font-hang path (build-spec §2.3, gate 8): past the ceiling the page
+   renders the reduced path complete; choreography never fires on fallback
+   faces. track.js sets the class and marks everything entered. */
+.arrive-complete [data-enter] .line-mover,
+.arrive-complete [data-enter] .enter-mover,
+.arrive-complete [data-enter="fade"] {
+  transition: none !important;
+  transform: none !important;
+}
+
+/* Reduced motion (required at this pass, ruled 2026-07-22): the stagger's
+   delays die here and the transforms are removed, so entrances are
+   opacity-only and instant; durations die in the global kill
+   (tokens/spacing.css), which zeroes durations but NOT delays, the exact
+   gap that regressed the v3 fallback at pass 2. The full designed second
+   path is pass 6. */
+@media (prefers-reduced-motion: reduce) {
+  .js [data-enter] .line-mover,
+  .js [data-enter] .enter-mover,
+  .js [data-enter="fade"] {
+    transition-delay: 0ms !important;
+    transform: none !important;
+  }
 }
 
 /* ── Bands and mobile ──

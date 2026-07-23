@@ -14,10 +14,10 @@
       "message": "Raw color function — the palette is closed; use var(--son-*) (color-mix over tokens is the sanctioned alpha mechanism)."
     }],
     "declaration-property-value-allowed-list": [{
-      "/^font-family$/": ["/^(var\\(--son-font-[a-z-]+\\)|\"?(GT Sectra Book Fallback|GT Sectra Fine|GT Sectra Book|GT Sectra Display|GT Sectra|GT Alpina Fine|GT Alpina|Sandoll Myeongjo|Nanum Myeongjo|Apple Myungjo|Batang|Georgia)\"?|inherit|serif)([,].*)?$/"]
+      "/^font-family$/": ["/^(var\\(--son-font-[a-z-]+\\)|\"?(GT Sectra Book Fallback|GT Sectra Fine Arrival|GT Sectra Fine|GT Sectra Book|GT Sectra Display|GT Sectra|GT Alpina Fine|GT Alpina|Sandoll Myeongjo|Nanum Myeongjo|Apple Myungjo|Batang|Georgia)\"?|inherit|serif)([,].*)?$/"]
     }, {
       "severity": "error",
-      "message": "Font not provided by the design system. Use var(--son-font-*) or: GT Sectra Book, GT Sectra, GT Sectra Display, GT Alpina, Sandoll/Nanum Myeongjo (+ sanctioned serif fallbacks)."
+      "message": "Font not provided by the design system. Use var(--son-font-*) or: GT Sectra Fine Arrival, GT Sectra Book, GT Sectra, GT Sectra Display, GT Alpina, Sandoll/Nanum Myeongjo (+ sanctioned serif fallbacks)."
     }]
   },
   "overrides": [

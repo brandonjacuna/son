@@ -33,6 +33,32 @@ open. Started at gate pass A, 2026-07-21.
    positioning content inside a panel stays legitimate; daylight panels
    exempt. Static CSS only; the same invariant binds track JS by review.
 
+3a. **`scripts/timeframes.mjs`** (pass 3): timed-sequence evidence tool.
+    Scroll frames show scrub-keyed travel; this captures TIMED choreography
+    (the arrival, panel entrances) as viewport frames on an interval from
+    load, actual elapsed ms in each filename. Same conventions as
+    scrollframes: fresh output per run, both devices.
+3b. **The wordmark subset realized** (pass 3, build-spec §2.3 detail):
+    GT Sectra Fine subset to S, n, ŏ with fonttools, 880-byte woff2,
+    inlined as a data URI under its own delivery name, "GT Sectra Fine
+    Arrival", first in a track-scoped mark stack that contains NO loading
+    face. Two probe-verified engine facts forced the shape: same-family
+    unicode-range shadowing loses to a loading full face regardless of
+    declaration order, and a pending face ANYWHERE in a stack blocks the
+    whole run's paint. A token amendment (subset-first in
+    --son-font-wordmark) was tried, proven insufficient by the second
+    fact, and reverted: the token's letter is unchanged, the mechanism is
+    scoped to track.css, and the delivery name is allow-listed in both
+    adherence font lists (same face, same cut, not a third Latin face).
+3c. **Rise-origin letter vs realization** (pass 3 verification note):
+    typography.css describes the origin as "120% of the padded clip";
+    CSS translateY percentages resolve against the mover's own line box,
+    which is what ships. Pixel probes confirm zero ink above the clip
+    pre-rise at every step, but the clearance at display scale is a few
+    pixels, not the margin the comment implies. Doc-letter looseness
+    inherited from the reference measurement; revisit only if a face or
+    leading retune ever eats the clearance.
+
 ## Notes for later passes
 
 4. **Pass 1, body ground.** With no theme on body, the document ground
@@ -49,6 +75,10 @@ open. Started at gate pass A, 2026-07-21.
 6. **Capture dpr.** shoot and scrollframes capture at deviceScaleFactor 2.
    Seam crispness at dpr 1 was probe-verified this pass (integer seam
    offsets, hard 1px cut); on-device verification remains at gate 7.
+6a. **P9 carries provisional entrances** (pass 3): eyebrow and headline
+    per the spec; the band (a plain fade) and the two body blocks are
+    placeholders that pass 4 replaces with the pin, the scrub-keyed
+    stripes, the timed labels, and the release-announcing body.
 7. **`range=` mode is device-blind.** An explicit scroll range applies
    verbatim to both devices though document geometry differs per width; use
    `seam=` or `seat=` (per-device resolution) for anything that must hold
