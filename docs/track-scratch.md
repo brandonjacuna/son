@@ -67,6 +67,17 @@ open. Started at gate pass A, 2026-07-21.
     gate. Revisit the value itself only if a face or leading retune ever
     eats the clearance.
 
+3d. **The card holds its height on the live swap** (pass 5 verification).
+    On viewports where the form pushes P10 past its svh floor, the in-card
+    swap shrank the document under the reader: scroll shifted and the
+    coda's end anchor staled, stalling the converted close at 0.55. Ruled
+    consistent with Decisions 16 and 18: the interior swaps, the geometry
+    does not; the card freezes its block size when the swap is an event,
+    takes natural height when it is a load condition, the announcement
+    focus never nudges scroll, and the scrub anchors re-measure after any
+    swap. Probe: document byte-stable, swap-caused scroll shift zero,
+    converted coda exactly 1.
+
 ## Notes for later passes
 
 4. **Pass 1, body ground.** With no theme on body, the document ground

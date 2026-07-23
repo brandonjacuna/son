@@ -297,6 +297,182 @@ function bandApply() {
   }
 }
 
+/* ── The ask (pass 5, build-spec §4) ──
+   Feedback register only; the track never animates toward or after the
+   ask. Validation speaks through the 2px border exception plus a message,
+   never color alone (the palette has no red); the five functional strings
+   are the approved set carried from the settled form. The endpoint is an
+   INTEGRATION POINT: data-endpoint on the form, provisioned by Dominic;
+   none configured means a valid submit shows the confirmation and logs a
+   warning instead of sending. Persistence: one localStorage key,
+   son-ask-confirmed = the submit timestamp, written ONLY after the
+   endpoint returns success (a failed or unsent submit can never fake a
+   confirmation), honored for 30 days on load, after which the form
+   returns; blocked storage degrades to in-memory, the client flag is a
+   courtesy, not the guarantee. Post-submit the track does nothing. */
+
+const ASK_FLAG = "son-ask-confirmed";
+const ASK_WINDOW_MS = 30 * 24 * 60 * 60 * 1000;
+const swapMs = parseFloat(rootStyles.getPropertyValue("--son-motion-standard")) || 0;
+
+const askForm = document.querySelector(".ask-form");
+if (askForm) {
+  const card = askForm.closest(".ask-card");
+  const confirmation = card.querySelector(".ask-confirmation");
+  const disclaimer = card.querySelector(".disclaimer");
+  const messages = {
+    name: "Add your full name.",
+    email: "Add your email.",
+    emailFormat: "Check the email format.",
+    interest: "Tell us what interests you.",
+    send: "Something interrupted the request. Try again.",
+  };
+
+  const readFlag = () => {
+    try {
+      const raw = localStorage.getItem(ASK_FLAG);
+      const stamp = Number(raw) || 0;
+      // A garbage or future-dated stamp is corrupt, not a confirmation.
+      if (raw !== null && (!stamp || stamp > Date.now())) {
+        localStorage.removeItem(ASK_FLAG);
+        return 0;
+      }
+      return stamp;
+    } catch {
+      return 0;
+    }
+  };
+  const writeFlag = () => {
+    try {
+      localStorage.setItem(ASK_FLAG, String(Date.now()));
+    } catch {
+      /* Private mode or blocked storage: in-memory only, accepted. */
+    }
+  };
+  const clearFlag = () => {
+    try {
+      localStorage.removeItem(ASK_FLAG);
+    } catch {
+      /* Nothing to clear where nothing persists. */
+    }
+  };
+
+  const errorFor = (input) => {
+    const id = `${input.id}-error`;
+    let el = document.getElementById(id);
+    if (!el) {
+      el = document.createElement("p");
+      el.className = "son-field-error";
+      el.id = id;
+      input.insertAdjacentElement("afterend", el);
+    }
+    return el;
+  };
+  const setError = (input, message) => {
+    const el = errorFor(input);
+    el.textContent = message;
+    input.setAttribute("aria-invalid", "true");
+    input.setAttribute("aria-describedby", el.id);
+  };
+  const clearError = (input) => {
+    const el = document.getElementById(`${input.id}-error`);
+    if (el) el.remove();
+    input.removeAttribute("aria-invalid");
+    input.removeAttribute("aria-describedby");
+  };
+  const validate = (input) => {
+    const value = input.value.trim();
+    if (!value) {
+      setError(input, messages[input.name] || messages.name);
+      return false;
+    }
+    if (input.type === "email" && !/^\S+@\S+\.\S+$/.test(value)) {
+      setError(input, messages.emailFormat);
+      return false;
+    }
+    clearError(input);
+    return true;
+  };
+
+  askForm.addEventListener("input", (event) => {
+    if (event.target.hasAttribute("aria-invalid")) validate(event.target);
+  });
+
+  const showConfirmation = (instant) => {
+    const skip = instant || reducedMotion.matches;
+    if (skip) confirmation.classList.add("is-instant");
+    // On the live path the card holds its height: the interior swaps but
+    // the geometry does not, so the document never shrinks under the
+    // reader and the track truly does nothing (Decision 16; on small
+    // viewports the collapsing card shifted scroll and staled the coda
+    // anchors, verification-caught). The load-rendered state takes its
+    // natural height: no reader is mid-scroll at load.
+    if (!instant) card.style.minHeight = `${card.offsetHeight}px`;
+    askForm.classList.add("is-leaving");
+    disclaimer.classList.add("is-leaving");
+    setTimeout(() => {
+      askForm.hidden = true;
+      disclaimer.hidden = true;
+      confirmation.hidden = false;
+      requestAnimationFrame(() => {
+        confirmation.classList.add("is-in");
+        // A load-rendered state never steals focus; the submitted one
+        // moves the reader to the announcement, without nudging a scroll
+        // position the reader owns.
+        if (!instant) confirmation.focus({ preventScroll: true });
+        // Any interior swap can move panel heights; the scrub and pin
+        // anchors follow the document they measure.
+        measure();
+      });
+    }, skip ? 0 : swapMs);
+  };
+
+  askForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const inputs = [...askForm.querySelectorAll(".son-field[required]")];
+    const invalid = inputs.filter((input) => !validate(input));
+    if (invalid.length) {
+      invalid[0].focus();
+      return;
+    }
+    const endpoint = askForm.dataset.endpoint;
+    if (!endpoint) {
+      console.warn("Sŏn ask form: no endpoint configured (data-endpoint); request not sent.");
+      showConfirmation(false);
+      return;
+    }
+    const submit = askForm.querySelector(".ask-submit");
+    submit.disabled = true;
+    try {
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(Object.fromEntries(new FormData(askForm))),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      writeFlag();
+      showConfirmation(false);
+    } catch {
+      submit.disabled = false;
+      const email = askForm.querySelector("#ask-email");
+      setError(email, messages.send);
+      email.focus();
+    }
+  });
+
+  const stamp = readFlag();
+  if (stamp) {
+    if (Date.now() - stamp < ASK_WINDOW_MS) {
+      showConfirmation(true);
+    } else {
+      // The two-business-day promise cannot be honestly displayed months
+      // later; a reader returning past the window plausibly makes a new
+      // request.
+      clearFlag();
+    }
+  }
+}
+
 /* ── Bootstrap ── */
 addEventListener("scroll", onScroll, { passive: true });
 addEventListener("resize", measure);

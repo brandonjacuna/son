@@ -533,6 +533,24 @@ textarea.field-input { resize: vertical; }
 }
 .disclaimer { margin-top: var(--son-space-2); }
 
+/* The in-card state swap (Decision 18): fields, submit, and disclaimer
+   give way to the confirmation line, a 200ms functional cross-fade in the
+   feedback register; the eyebrow and headline remain. Carried from the
+   settled form. When the state is rendered from storage on load it is a
+   condition, not an event: no fade plays. */
+.ask-form,
+.disclaimer {
+  transition: opacity var(--son-motion-standard) var(--son-ease-standard);
+}
+.ask-form.is-leaving,
+.disclaimer.is-leaving { opacity: 0; }
+.ask-confirmation {
+  opacity: 0;
+  transition: opacity var(--son-motion-standard) var(--son-ease-standard);
+}
+.ask-confirmation.is-in { opacity: 1; }
+.ask-confirmation.is-instant { transition: none; }
+
 /* ── The coda (gate pass B, build gate 2) ──
    P11 runs ~180svh, the only extended panel besides the pin distance. The
    seat frame (first 100svh) carries the lock-up and the location line; the
