@@ -6,17 +6,7 @@
 <title>Sŏn</title>
 <!-- The js gate: entrance-hidden states exist only under html.js, so the
      no-JS path renders the page complete. Set before first paint. -->
-<!-- The story-size candidate switch (build-spec section 7 amendment 2;
-     device strips pending): ?story=18 selects the 18 pair pre-paint; any
-     other state renders the entering recommendation, 20. An attribute
-     swap, not a devtools var override (the documented repaint trap does
-     not apply: track.js never consumes these tokens). Removed, with the
-     candidate block in tokens/typography.css, when the device pass rules. -->
-<script>
-document.documentElement.classList.add("js");
-if (new URLSearchParams(location.search).get("story") === "18")
-  document.documentElement.dataset.storySize = "18";
-</script>
+<script>document.documentElement.classList.add("js");</script>
 <link rel="stylesheet" href="track.css">
 <style>
 /* The arrival wordmark: GT Sectra Fine subset to exactly S, ŏ, n (880

@@ -655,6 +655,23 @@ that supersedes a ratified decision from here on.
    of frame; SE-class worst case 14 lines, 420px, fits with headroom;
    the copy-refit fit sentence re-verifies at the chosen size at build
    (P2/P3/P4, both widths, three engines).
+8. **Amendment 2's size clause ("18 or 20")**: closed 2026-07-23 at the
+   device pass. The story size is 20, ruled in the hand: 18 lost
+   clearly, and 22 — directed as a third candidate from the pass,
+   extending the clause's letter — was measured on the real binaries
+   before being built and REFUSED unbuilt on the couplet gate: at 22
+   the P3 couplet breaks to three lines on all three engines at both
+   phone widths, reintroducing the exact break-shape defect the story
+   size exists to repair, and it fails on desktop too, where 18 and 20
+   never did (a dangling fragment at 10 to 21% of measure). Secondary
+   finding, recorded: below ~595px a body paragraph at 22 renders
+   larger than the Subhead step itself — a worse system smell than
+   18's size duplication, and outside canon's Lead band where 20 sits
+   inside it. Evidence: refs/notes/pass-10-story-22.txt,
+   refs/shots/pass-10-couplet-22. The strip apparatus (the 18 token
+   pair, the ?story query switch, the pre-paint head-script selector)
+   is removed with this ruling; the track ships at 20 with no
+   candidate mechanism, and a stray ?story parameter is inert.
 
 ## 8. Session registers
 

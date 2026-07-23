@@ -80,8 +80,9 @@ phone coda reads as an ending, cropped and all (the still-size override
 door stays closed, unspent); 0.06 held with no tune. The same session
 produced two chapter-one findings, examined and ruled the same day:
 the moat body register and the departure's tail (build-spec §7,
-amendments 2–7). The story size (18 vs 20) and the tail magnitude are
-judged at the next device pass, packaged below.
+amendments 2–7). Both were built (passes 8 and 9) and ruled at the
+device pass the same day: story size 20, tail approved at 40svh
+(the closed section below).
 
 ## The device session (gates 3 and 4, plus seam crispness) — Brandon
 
@@ -112,41 +113,39 @@ Serve the repo from its root and open the track on the phone:
 - **Seam crispness at dpr 1** was probe-verified headlessly; eyeball a
   seam on the device in the same session (scratch item 6).
 
-## The register session (2026-07-23) and the next device pass — Brandon
+## The register session, the amendment build, and the device pass (2026-07-23) — CLOSED
 
 The device session's two chapter-one findings were examined and ruled
 the same day (the register session; every ruling is recorded as
 build-spec §7 amendments 2–7). The moat is a story followed by a
-verdict: story register P2/P3/P4 at the story-body size (18 or 20,
-strips pending), case register P6 at Body 16 matching chapter II; P3
-level with its siblings, the couplet door named and unspent; the
-departure gains a ~40svh empty tail as the page's second designed
-extension. Finding 2 rests entirely on the tail and the moat's density
-arc — the glyph registered on device at 0.06, so witness presence was
-never the problem; the frames were too alike.
+verdict: story register P2/P3/P4, case register P6 at Body 16 matching
+chapter II; P3 level with its siblings, the couplet door named and
+unspent; the departure gains a ~40svh empty tail as the page's second
+designed extension. Finding 2 rests entirely on the tail and the moat's
+density arc — the glyph registered on device at 0.06, so witness
+presence was never the problem; the frames were too alike.
 
-The next device pass judges, in the hand. Serve as before. THE STRIP
-MECHANISM, ratified at pass 8 (2026-07-23, superseding this section's
-earlier scratch-harness language): the strips are the live track at
-both candidates — the page renders the 20 pair by default and
-`?story=18` appended to the URL selects the 18 pair pre-paint, so the
-comparison is switchable on the phone with no rebuild and no devtools
-var override (that trap does not apply; track.js never consumes these
-tokens). REMOVAL CONDITION, attached: the candidate block in
-tokens/typography.css and the head-script selector in
-track/index.html come out when the device pass rules 18 or 20; until
-removal, a shipped ?story=18 URL renders the unchosen candidate to
-any reader who is handed it. The pass judges:
+The amendments were built the same day (passes 8 and 9; pass 10
+measured and refused a third size candidate), and the DEVICE PASS
+CLOSED 2026-07-23 with every item ruled:
 
-1. **The size strips, 18 vs 20**: story panels only (P2, P3, P4 — P4
-   is RULED story; do not strip it at 16), both widths, with the P3
-   tail in place; P3 judged seated-plus-tail, as a door, not a room.
-   Recommendation enters at 20 (18 duplicates Lead's size,
-   distinguishing two named steps by weight alone). Break-shape rider:
-   no line under ~40% of measure; both candidates measured holding two
-   composed lines at P3.
-2. **The tail, judged for felt travel.** The failure criteria, so the
-   judgment is recognizable rather than talked into:
+1. **The story size is 20** (build-spec §7 amendment 8). 18 lost in
+   the hand. 22, directed from the pass, was measured before building
+   and refused unbuilt: the couplet breaks to three lines on all three
+   engines at both phone widths — the break-shape defect the story
+   size exists to repair — and dangles on desktop where 18 and 20
+   never did. Secondary finding, recorded: a body paragraph at 22
+   renders larger than the Subhead step below ~595px, a worse system
+   smell than 18's duplication. Evidence:
+   refs/notes/pass-10-story-22.txt, refs/shots/pass-10-couplet-22.
+   THE STRIP APPARATUS IS REMOVED (the removal condition met): the 18
+   token pair, the ?story query switch, and the pre-paint head-script
+   selector are gone; the track ships at 20 and a stray ?story
+   parameter is inert, verified post-removal on the rendered page.
+2. **The tail is approved at 40svh: it reads as aftermath.** The
+   criteria under which the judgment was made are preserved below
+   (amendment 5's letter points here; they govern again only if the
+   magnitude ever reopens):
    - TOO SHORT: the silence ends before it begins. P4's edge arrives
      while the eye is still releasing P3's lines, and the gap reads as
      paragraph spacing — layout air, not a place. The after-test:
@@ -168,12 +167,12 @@ any reader who is handed it. The pass judges:
      anticipation — a drumroll for P4, a transition any site might
      insert — it is decorating scroll. It must read as consequence,
      belonging to the two sentences above it, not to the panel below.
-3. **Seam crispness at dpr 1**, re-queued from the gate session
-   (scratch item 6): eyeball one dark–light seam on the device.
-4. **Watch item, named door**: if the case panels (P6, chapters
-   II–III) still read small against the ratified story size, the
-   global Body floor question (16 → 17) reopens on that evidence. Not
-   prejudged.
+3. **The seam is clean** (the dpr-1 eyeball, re-queued from the gate
+   session, scratch item 6: done on device).
+4. **The Body-floor watch item did not fire**: the pass raised no
+   finding that the case panels read small against story 20. The door
+   (global Body 16 → 17) stays named and unopened; it reopens only on
+   evidence, not by default.
 
 Session registers (the register session, 2026-07-23). Excluded by
 canon: ground events inside chapter one (no tints, no shades; the day
@@ -195,36 +194,34 @@ a per-panel entrance term.
 ## Outstanding, by owner
 
 **Brandon**
-1. The next device pass (the register strips, the tail judgment, the
-   re-queued seam eyeball) — the package, with the tail's failure
-   criteria, is in its own section above. The strips landed at pass 8
-   as the in-track ?story switch (mechanism and removal condition in
-   that section).
-2. **SE-class hero ruling**: at 375x667 the hero grows 77px past the
+1. **SE-class hero ruling**: at 375x667 the hero grows 77px past the
    viewport and the lock-up completes below the fold at arrival; the
    strophe and loop carry, the diagonal's third point does not complete
    in the first frame. Frame: refs/shots/pass-7-se-hero. This is the
    sanctioned-growth flag from Decision 4, shown as built.
-3. **Frozen-card desktop composition check, still owed**: the
+2. **Frozen-card desktop composition check, still owed**: the
    confirmation now renders where the submit control stood (ruled
    2026-07-23, BUILT on the live path, load path keeps natural
    placement; scratch 3h). Brandon asked to see both widths and rule
    whether desktop still reads as an isolate rather than bottom-heavy;
    the captures exist (refs/shots/pass-6-confirmation-placed, both
    widths) but the desktop composition ruling was not yet given.
-4. The codification gate: the complete candidate list is extractable
-   from track-scratch (the enhancement inversion 3f, the four
-   remove-the-failure-class mechanisms, the invariant check and its
-   exemption model, the delivery name and its watched door, the
-   rise-origin comment rewrite 3c, the immersive components retirement
-   and generated-artifact regeneration, the spacing.css delay-kill
-   question, the method notes 3g, the evidence tools, the standing
-   doors: phone still-size override, waypoints at chapter growth, skip
-   link at stop growth).
-5. Carry the motion-registers canon amendment into the Brand Guidelines
+3. The codification gate: the candidate package was delivered as a
+   report at the ruling session (2026-07-23) for Brandon's review;
+   nothing has entered the design system. The underlying list stays
+   extractable from track-scratch (the enhancement inversion 3f, the
+   remove-the-failure-class mechanisms including the zero-band seat
+   observer 3l, the invariant check and its exemption model, the
+   delivery name and its watched door, the rise-origin comment rewrite
+   3c, the immersive components retirement and generated-artifact
+   regeneration, the spacing.css delay-kill question, the method notes
+   3g/3k/3m, the evidence tools, the standing doors: phone still-size
+   override, waypoints at chapter growth, skip link at stop growth,
+   Body floor 16 → 17, the couplet door).
+4. Carry the motion-registers canon amendment into the Brand Guidelines
    (standing open item from R1).
-6. Founder portraits for the reserved P8 frames.
-7. Verify-pending facts before ship (copy.md): the accolade source,
+5. Founder portraits for the reserved P8 frames.
+6. Verify-pending facts before ship (copy.md): the accolade source,
    Dominic's credentials and years, counsel on the disclaimer, the
    two-business-day promise.
 
