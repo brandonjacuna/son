@@ -76,17 +76,18 @@ document-form reference go with it. Delete `v4-track` and the ship goes.
 Neither is redundant with the other; they are different answers to
 different failure modes. The merge to production is Brandon's call.
 
-## The address sweep (decided, awaiting Brandon's ruling to execute)
+## The address sweep (EXECUTED 2026-07-23, ruled)
 
-The real street address appears in external-capable surfaces and in
-internal records. The site (`site/`, `track/`) is clean. Classification
-delivered 2026-07-23; no file changed yet. Externally-capable carriers
-proposed to sweep to the city-only form: the guidelines deck (both
-variants), slide 01, the deck template, the two immersive card docs,
-the good-energy confirmation line, the `styles.css` header comment, and
-the corresponding `_ds_bundle.js` string (hand-patch precedent).
-Internal records that keep it: `readme.md`, `docs/content-architecture.md`,
-`refs/`, `uploads/`.
+The site (`site/`, `track/`) was already clean. External-capable
+carriers now hold the city-only form: the guidelines deck (both
+variants, seven sites each including the zip note-row), slide 01, the
+deck template, the two immersive card docs, and the `styles.css` header
+comment. The good-energy confirmation line dropped the location
+outright (demo copy, not voice copy — "The walk-up. We'll have it
+warm."), and the matching `_ds_bundle.js` string was hand-patched per
+precedent. Internal records KEEP the real address by ruling:
+`readme.md`, `docs/content-architecture.md` (the historical record of
+this exact problem), `refs/`, `uploads/`. Do not "fix" those.
 
 ## The standing doors (named, unspent)
 
