@@ -415,7 +415,19 @@ if (askForm) {
     // viewports the collapsing card shifted scroll and staled the coda
     // anchors, verification-caught). The load-rendered state takes its
     // natural height: no reader is mid-scroll at load.
-    if (!instant) card.style.minHeight = `${card.offsetHeight}px`;
+    if (!instant) {
+      card.style.minHeight = `${card.offsetHeight}px`;
+      // The answer belongs where the act happened (ruled 2026-07-23): the
+      // line renders where the submit control stood, so the reader who
+      // just acted sees the response without the page moving or a scroll.
+      // The empty card around it is the isolate, taught three panels
+      // earlier; nothing fills it.
+      const submitTop =
+        askForm.querySelector(".ask-submit").getBoundingClientRect().top -
+        card.getBoundingClientRect().top;
+      const cardPad = parseFloat(getComputedStyle(card).paddingTop) || 0;
+      confirmation.style.marginTop = `${Math.max(0, submitTop - cardPad)}px`;
+    }
     askForm.classList.add("is-leaving");
     disclaimer.classList.add("is-leaving");
     setTimeout(() => {

@@ -83,11 +83,25 @@ open. Started at gate pass A, 2026-07-21.
     never focus invisible content (A2 inside the unreleased model body is
     the live case; probe-verified at both widths). Accessibility outranks
     choreography; fire-once semantics hold.
-3f. **track-motion as the opt-in** (pass 6): the designed second path is
-    the CSS default and the scrubbed track is the enhancement, entered
-    only when JS runs and motion is permitted. The inversion is the
-    pattern: the reduced path can never be broken by a failure to
-    enhance.
+3f. **THE ENHANCEMENT INVERSION** — a pattern, not an implementation
+    detail (named at Brandon's direction, 2026-07-23; CODIFICATION
+    CANDIDATE). The designed second path is the default and the full
+    experience is the opt-in: the scrubbed track exists only under
+    html.track-motion, set when JS runs and motion is permitted, so the
+    reduced path can never be broken by a failure to enhance. Fourth
+    mechanism in this build that removes a failure class by construction
+    rather than managing it (paint-order occlusion, sticky-in-wrapper,
+    the label floor, this).
+3g. **Method notes: the false-reading probe traps** (recorded at
+    Brandon's direction; the class that produced the previous build's
+    phantom failures). One: unfocused outline-color computes to
+    currentColor, so ring contrast must be measured WHILE focused. Two: a
+    ground probe that walks ancestor backgrounds reads through a
+    transparent list item to the panel behind it; measure the pseudo fill
+    that actually paints. Three, same family: differential occlusion
+    probing by hiding a layer false-positives on compositing-collapse
+    re-anti-aliasing; measure by paint-boost (force the layer loud),
+    never by removing it.
 
 ## Notes for later passes
 

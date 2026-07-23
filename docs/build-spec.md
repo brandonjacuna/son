@@ -533,6 +533,21 @@ Ratified by Brandon 2026-07-21, verbatim from the session batch:
     cross-fade; eyebrow and headline remain; state persists per §4;
     aria-live announced; the content-architecture framing is superseded.
 
+### Amendments to ratified decisions
+
+The record above stays verbatim; what supersedes a ratified decision is
+recorded here, dated, with the reason. This is the pattern for anything
+that supersedes a ratified decision from here on.
+
+1. Decision 12, the reduced-path clause ("reduced path by hard cut"):
+   superseded 2026-07-23 by the placed close (§2.7, §3 P11; the design
+   answer accepted 2026-07-22, built at pass 6). Reason: a path with no
+   scrub cannot carry the footer out past an 88vh centered mark, so a
+   hard cut with the footer framed puts content over the mark at full
+   opacity, the balance-spec violation. The close became a two-frame flow
+   composition whose closing mark is a placed instance of the drawn path,
+   the panel occluding the resting layer by document order.
+
 ## 8. Session registers
 
 ### Excluded by canon
