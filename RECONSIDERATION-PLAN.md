@@ -73,33 +73,54 @@ Be clear-eyed about these before approving:
 
 ## 5. The chunks
 
-The sixteen sessions already map one to one onto the book's sections, so each chunk has a clean source:
+Chunks follow the book's own sections, numbered so they sort in book order in ClickUp. (An earlier draft used A to P, one per extraction session. The sessions were page-budget splits, not the book's structure, so that was dropped on 2026-09-26.)
 
-| Chunk | Book section | From session |
+| # | Chunk | Book pages |
 |---|---|---|
-| A. Founder operating principles and working styles | Intro, Ch1 | S1 |
-| B. Founding documents | Ch2 | S2 |
-| C. The operating system: goals, planning, metrics | Ch2 | S3 |
-| D. Operating cadence | Ch2 | S4 |
-| E. Recruiting | Ch3 | S5 |
-| F. Hiring and interviewing | Ch3 | S6 |
-| G. Onboarding | Ch3 | S7 |
-| H. Team structures and roles | Ch4 | S8 |
-| I. Diagnosing and changing teams | Ch4 | S9 |
-| J. Team environment and culture | Ch4 | S10 |
-| K. Communication and inclusion | Ch4 | S11 |
-| L. Coaching and feedback | Ch5 | S12 |
-| M. Performance reviews and compensation | Ch5 | S13 |
-| N. High, middle, and low performers | Ch5 | S14 |
-| O. Managing managers and managing out | Ch5 | S15 |
-| P. Founder sustainability | Conclusion | S16 |
+| 0 | Management basics checklist | 30 |
+| 1.1 | Build self-awareness to build mutual awareness | 35 |
+| 1.2 | Say the thing you think you cannot say | 52 |
+| 1.3 | Distinguish between management and leadership | 56 |
+| 1.4 | Come back to your operating system | 60 |
+| 2.1 | Founding documents | 71 |
+| 2.2 | The operating system | 84 |
+| 2.3 | Operating cadence | 135 |
+| 3.1 | Recruiting | 171 |
+| 3.2 | Hiring | 193 |
+| 3.3 | Onboarding | 216 |
+| 3.4 | Hiring mistakes | 224 |
+| 4.1 | Team structures | 262 |
+| 4.2 | Diagnosing team state | 282 |
+| 4.3 | Team changes and restructuring | 286 |
+| 4.4 | (Re)building the team | 294 |
+| 4.5 | Creating the team environment | 304 |
+| 4.6 | Team-building complexities | 331 |
+| 4.7 | Diversity and inclusion | 354 |
+| 4.8 | Team communication | 360 |
+| 5.1 | Hypothesis-based coaching | 382 |
+| 5.2 | Giving hard feedback | 391 |
+| 5.3 | Creating a culture of informal feedback | 395 |
+| 5.4 | The formal review process | 399 |
+| 5.5 | Compensation | 413 |
+| 5.6 | Managing high performers | 419 |
+| 5.7 | The steady middle | 431 |
+| 5.8 | Managing low performers | 432 |
+| 5.9 | Managing managers | 449 |
+| 5.10 | Managing out, firing, and layoffs | 454 |
+| 6.1 | Manage your time and energy | 485 |
+| 6.2 | Foster relationships | 491 |
+| 6.3 | Consider your career | 498 |
 
-Each chunk in ClickUp: a subtask named "A. Founder operating principles and working styles", holding tertiary tasks named `A1. Decide ...`, `A2. Write ...`, and so on, each typed decision, action, or deliverable.
+Each chapter's exercises and templates become deliverables inside the section they serve. Every section boundary coincides with an old session boundary, so each old session page splits cleanly across the new chunks.
 
-Each chunk in the repo:
+**Build order is carried by a phase tag, not by the chunk order.** The extraction organized the build around opening: the hiring calendar (S6), the readiness test (213 pre-opening checks), and the gates on every page. Every task gets one phase: *before the first hire*, *hiring and training*, *before opening*, or *after opening*. ClickUp can group by phase to show what's next, while the names keep the book's order for lookup. Hard dependencies (e.g. 5.5 compensation before 3.1 recruiting) become ClickUp dependencies.
+
+In ClickUp: a chunk subtask named "2.1 Founding documents", holding tertiary tasks named "2.1.1 Decide ...", "2.1.2 Write ...", each typed decision, action, or deliverable and tagged with its phase.
+
+In the repo:
 
 ```
-manual/A-founder-operating-principles/
+manual/2.1-founding-documents/
   book.md            what the book says, and the workbook exercises
   considerations.md  research, options, white-paper assumptions, counsel questions
   tasks.md           the chunk's decisions, actions, deliverables (mirrors ClickUp)
@@ -109,10 +130,10 @@ manual/A-founder-operating-principles/
 ## 6. Sequence, with your checkpoints
 
 1. **Export snapshot.** Done.
-2. **GitHub.** Create a private repo and push the current folder as the baseline, minus the brand files, so history starts before any rewrite. You need to do one step here: the GitHub CLI isn't installed on this Mac, so either install it and sign in, or create an empty private repo and send me its URL.
-3. **Pilot chunk A.** Fable reads the chunk-A book text, the S1 page, the subtasks and carryovers that touch it, and the white paper, then produces the four files. **You review it.** That review sets the pattern for the other fifteen.
-4. **Chunks B to P.** Run in batches, each reviewed.
+2. **GitHub.** Done: private repo `brandonjacuna/son-operational-buildout`, baseline pushed without the brand files.
+3. **Pilot chunk 2.1 (founding documents).** Fable reads the section's book text, the S2 page, the subtasks and carryovers that touch it, and the white paper, then produces the four files. **You review it.** That review sets the pattern for the other fifteen.
+4. **The remaining chunks.** Run in batches, each reviewed.
 5. **ClickUp rebuild.** Create the lettered chunks and their tasks, then delete old subtasks per the approved mapping.
 6. **Retire.** Archive the Carryover Register, the Operating System doc, and the tracker doc. Rewrite CLAUDE.md.
 
-Cost note: step 3 onward is the heavy Fable work, about 3 million characters of synthesis re-read across sixteen chunks. The pilot shows the real cost per chunk before committing to the rest.
+Cost note: step 3 onward is the heavy Fable work, about 3 million characters of synthesis re-read across about thirty chunks. The pilot shows the real cost per chunk before committing to the rest.
