@@ -18,6 +18,7 @@ from shapely.strtree import STRtree
 
 CONFIG = Path(__file__).resolve().parent.parent / "config"
 EARTH_MI = 3958.7613
+NEAR_DEG = 0.0005  # about 50 m
 
 
 def miles_between(lon1, lat1, lon2, lat2) -> float:
@@ -48,6 +49,10 @@ class Areas:
             hits = [i for i in self.tree.query(pt) if self.geoms[i].covers(pt)]
             # Hubs and sub-sections win over off-hub clusters if edges overlap.
             hits.sort(key=lambda i: self.props[i]["tier"] == "offhub_cluster")
+            if not hits:
+                # A point geocoded onto a boundary street can fall in a sliver between polygons.
+                near = self.tree.query_nearest(pt, max_distance=NEAR_DEG)
+                hits = [int(i) for i in near]
             if hits:
                 p = self.props[hits[0]]
                 out.update(area_id=p["area_id"], hub=p["hub"], subsection=p["subsection"], method="polygon",

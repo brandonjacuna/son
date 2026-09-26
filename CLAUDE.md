@@ -39,9 +39,15 @@ Weekly digest on the state of Austin's hospitality and F&B industry, by concept 
 
 ## Repo layout
 
-- `scripts/`: ingest and probe scripts. `scripts/test_pull.py` probes every Phase 1 source and writes `data/test_pulls/run_health.json`.
+- `scripts/`: ingest and probe scripts.
+  - `test_pull.py` probes every Phase 1 source and writes `data/test_pulls/run_health.json`.
+  - `build_areas.py` rebuilds `config/areas.geojson` from City of Austin GIS. Change the rules in the script, never hand-edit the GeoJSON.
+  - `areas.py` (`Areas().assign(lon, lat, city, zip)`) and `geocode.py` (offline, street centerlines) assign venues to hub, sub-section, off-hub cluster, and home-zone distance.
+  - `korean_sweep.py` writes `data/korean_sweep/candidates.csv` for Brandon to confirm.
+  - `assign_areas.py <csv>` adds area columns to any venue CSV (e.g. `config/peers_draft.csv`).
 - `config/`: taxonomy, `areas.geojson`, peers, `events.csv` (drafted in later steps, each approved by Brandon).
-- `data/`: DuckDB / Parquet store. `data/test_pulls/` is scratch and gitignored.
+- `data/`: DuckDB / Parquet store. `data/test_pulls/` and `data/geo_cache/` are scratch and gitignored.
+- Geocoding: nominatim, Overpass, and the Census geocoder are blocked by the network policy; use `geocode.py`.
 - `tests/`: offline unit tests (`pytest`), no network.
 
 ## Commands
@@ -50,6 +56,8 @@ Weekly digest on the state of Austin's hospitality and F&B industry, by concept 
 pip install -r requirements.txt
 cp .env.example .env        # then fill in keys locally
 python scripts/test_pull.py # probe every Phase 1 source
+python scripts/build_areas.py [--refresh]   # rebuild areas.geojson
+python scripts/korean_sweep.py
 pytest -q
 ```
 
