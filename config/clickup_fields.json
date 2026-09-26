@@ -1,0 +1,59 @@
+{
+  "list_id": "1400400000001380",
+  "signals_list_id": "1400400000001381",
+  "fields": {
+    "Hub tier": {
+      "id": "184f99b7-ace9-4314-b165-bf6f93043f8e",
+      "type": "drop_down",
+      "options": {
+        "Hub": "d7c08de5-92e5-4a03-94de-e56cba43090f",
+        "Off-hub": "80c2f971-ae5c-47bf-9d72-b8febaf30c11"
+      }
+    },
+    "Area": {
+      "id": "2a7a2734-edbe-416d-95f2-61e2af0774ce",
+      "type": "short_text"
+    },
+    "Venue status": {
+      "id": "36bfaca9-80bf-4b61-abd0-3cff199b5454",
+      "type": "drop_down",
+      "options": {
+        "Pipeline": "a31a38f5-f821-480c-b9c8-76126408b7a8",
+        "Open": "fe29e276-3bc8-4b5e-90f3-73a18fd25b7f",
+        "At-risk": "ed38117c-f61c-4602-81a8-2f22745f745d",
+        "Closed": "8ba1f70a-4cf0-417c-ad32-21acb164a865"
+      }
+    },
+    "Distance (mi)": {
+      "id": "4fade637-23b4-40b7-a9fc-aca59e9724b9",
+      "type": "number"
+    },
+    "Entity ID": {
+      "id": "5034b445-f3e9-41a7-a66f-ce6541642661",
+      "type": "short_text"
+    },
+    "Last signal": {
+      "id": "7e82388a-859a-4b89-8db5-21e570d729a4",
+      "type": "date"
+    },
+    "Watch reason": {
+      "id": "921cc46e-b08d-4c7d-8fd4-3eecd63db924",
+      "type": "drop_down",
+      "options": {
+        "Peer": "7dad45f4-1b5f-4bd2-b1b4-0778f3f1c098",
+        "Direct comp": "e52ca565-031b-4da4-b02e-452ebcaea72f",
+        "Korean awareness": "81022e7c-d89c-49ea-a90b-0945fd14f94f",
+        "Home zone": "11ef1e50-48d5-48cb-b9a3-0a17d5079134",
+        "Pipeline": "c46f4f0f-1020-488c-90dd-059ce3b3a06b"
+      }
+    },
+    "Concept type": {
+      "id": "cc226638-575d-43d9-a9ba-4321daffb2a6",
+      "type": "short_text"
+    },
+    "Signal count": {
+      "id": "db1014b1-1222-4746-b6d5-b512ff8aa5e2",
+      "type": "number"
+    }
+  }
+}

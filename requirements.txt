@@ -6,3 +6,4 @@ pandas>=2.2
 pytest>=8
 shapely>=2.0
 matplotlib>=3.8
+openpyxl>=3.1
