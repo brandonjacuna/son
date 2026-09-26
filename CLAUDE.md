@@ -40,6 +40,8 @@ manual/<section>-<slug>/
   session.md         the working-session guide: agenda and one brief per decision
   decisions.md       what Brandon decided, in his words, with his reasoning
   notes/             brain dumps and raw session notes, dated
+
+kits/<name>/         intake form, facilitation guide, template, example for repeatable deliverables
 ```
 
 ## Working sessions
@@ -67,11 +69,24 @@ Each working session covers **one chunk**. It should feel like Brandon has a tea
 - Save a brain dump to `notes/YYYY-MM-DD-<topic>.md` in his words, lightly cleaned, before funneling it. Nothing he says is lost.
 - If a tangent belongs to another chunk, name that chunk, add a line to that chunk's `notes/inbox.md`, and ask whether to follow it now or come back to it.
 
+### The first build makes the kit
+
+Some deliverables get produced again by other people: personal documents such as a working-with-me doc or a seat description (every lead, every hire), and team-level templates such as a team charter (every department). When one of these is built with Brandon for the first time, the process of building it together becomes the process others follow.
+
+- In `tasks.md`, mark such a deliverable **Repeatable: yes**, name who produces their own later, and pair it with a kit task (e.g. `1.1.4 Write Brandon's working-with-me document` and `1.1.5 Build the working-with-me kit`).
+- During the session, note what the kit will need: the questions that drew out good answers, the order that worked, where he got stuck, and the inputs he needed. Keep these in the chunk's `notes/`.
+- After the session, build the kit under `kits/<name>/`:
+  - `intake.md`: the questions a person answers before the conversation
+  - `guide.md`: how a founder or lead runs the conversation with someone
+  - `template.md`: the finished document's structure
+  - `example.md`: only if Brandon agrees his version can serve as one
+- The kit holds the process and the structure, never a person's answers. Personal documents stay the person's own.
+
 ### Closing a session
 
 1. Update `decisions.md`: each decision made, in his words, with his reasoning, the date, and who still has to agree.
 2. Update `tasks.md` status. In ClickUp, add the decision as a comment on its task and mark it done; mark it "pending agreement" rather than done if others must agree.
-3. List the deliverables the decisions now unlock. Offer to draft them from what he said; drafts are marked draft for his review.
+3. List the deliverables the decisions now unlock. Offer to draft them from what he said; drafts are marked draft for his review. For repeatable deliverables, build or update the kit (see "The first build makes the kit").
 4. Commit and push.
 5. State what the next session should pick up.
 
