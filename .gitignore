@@ -9,3 +9,6 @@ extraction/s05/brand-deck.txt
 __pycache__/
 *.pyc
 .clickup_token
+
+# Personalized white paper copy (same content as the Sept 2026 generic version)
+archive/robert-lerma-white-paper.pdf

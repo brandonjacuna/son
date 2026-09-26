@@ -1,5 +1,7 @@
 # White paper
 
+> **Source note (2026-09-26).** Extracted from the July copy prepared for Robert Jacob Lerma. The canonical source is now `sources/son-investor-white-paper-sept-2026.pdf`. The text is identical on all 39 pages apart from the cover line, so every page citation holds.
+
 Source: `sources/robert-lerma-white-paper.pdf`. Extracted in full, 39 pages. Page boundaries marked inline as [p.NN].
 
 ## Opening and framing
