@@ -1,0 +1,24 @@
+{
+  "_status": "DRAFT pending Brandon's approval. Used only when a point falls outside every polygon in areas.geojson, or has no coordinates.",
+  "_order": "1) polygon by lat/lon, 2) city name -> suburban group, 3) ZIP -> cluster, 4) 'Unassigned'",
+  "suburban_groups_by_city": {
+    "Round Rock / Georgetown": ["ROUND ROCK", "GEORGETOWN", "HUTTO"],
+    "Cedar Park / Leander": ["CEDAR PARK", "LEANDER", "LIBERTY HILL"],
+    "Pflugerville / Manor": ["PFLUGERVILLE", "MANOR"],
+    "Westlake / Lakeway": ["WEST LAKE HILLS", "WESTLAKE HILLS", "ROLLINGWOOD", "LAKEWAY", "BEE CAVE", "BEE CAVES", "THE HILLS"],
+    "Hays County": ["SAN MARCOS", "KYLE", "BUDA", "DRIPPING SPRINGS", "WIMBERLEY"]
+  },
+  "clusters_by_zip": {
+    "Round Rock / Georgetown": ["78664", "78665", "78681", "78626", "78628", "78633", "78634"],
+    "Cedar Park / Leander": ["78613", "78641", "78645", "78642"],
+    "Pflugerville / Manor": ["78660", "78653"],
+    "Westlake / Lakeway": ["78746", "78733", "78734", "78738"],
+    "Hays County": ["78610", "78640", "78666", "78620", "78676"],
+    "Austin: North": ["78727", "78728", "78729", "78753", "78758"],
+    "Austin: Northwest": ["78726", "78730", "78731", "78732", "78750", "78759"],
+    "Austin: Southwest": ["78735", "78736", "78737", "78739", "78749"],
+    "Austin: Far South": ["78745", "78748"],
+    "Austin: Southeast / Del Valle": ["78617", "78719", "78744", "78747"],
+    "Austin: Far East": ["78724", "78725"]
+  }
+}

@@ -14,3 +14,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+
+# Cached city GIS layers (rebuilt by scripts/build_areas.py --refresh)
+data/geo_cache/

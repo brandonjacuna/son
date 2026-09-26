@@ -4,3 +4,5 @@ duckdb>=1.0
 pyarrow>=15
 pandas>=2.2
 pytest>=8
+shapely>=2.0
+matplotlib>=3.8
