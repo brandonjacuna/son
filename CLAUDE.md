@@ -44,6 +44,7 @@ Weekly digest on the state of Austin's hospitality and F&B industry, by concept 
   - `build_areas.py` rebuilds `config/areas.geojson` from City of Austin GIS. Change the rules in the script, never hand-edit the GeoJSON.
   - `areas.py` (`Areas().assign(lon, lat, city, zip)`) and `geocode.py` (offline, street centerlines) assign venues to hub, sub-section, off-hub cluster, and home-zone distance.
   - `korean_sweep.py` writes `data/korean_sweep/candidates.csv` for Brandon to confirm.
+  - `venue_evidence.py <csv>` adds the latest alcohol receipts and inspection per venue (address and name match).
   - `assign_areas.py <csv>` adds area columns to any venue CSV (e.g. `config/peers_draft.csv`).
 - `config/`: taxonomy, `areas.geojson`, peers, `events.csv` (drafted in later steps, each approved by Brandon).
 - `data/`: DuckDB / Parquet store. `data/test_pulls/` and `data/geo_cache/` are scratch and gitignored.
@@ -64,3 +65,9 @@ pytest -q
 ## Network
 
 Cloud routines need a network allowlist: data.texas.gov, data.austintexas.gov, api.bls.gov, api.stlouisfed.org, www.dallasfed.org, comptroller.texas.gov, www.flyaustin.com, api.census.gov, api.eia.gov, twc.texas.gov, plus RSS hosts. Keep the list short. Connectors per routine: R1 and R2 get none; R3 gets ClickUp and Box only.
+
+## Decisions (Brandon, 2026-09-26)
+
+- Hubs: Downtown, Rainey Street, 2nd Street / Warehouse, South Congress, South Lamar (Lamar Blvd plus S 1st St), East Austin (Holly / East Cesar Chavez, East 6th / 7th, East 12th and north, Manor Road). Off-hub clusters and fallbacks are still drafts.
+- Peers (`config/peers_draft.csv`): open concepts only, and every Emmer & Rye Hospitality Group concept. Closed venues go to `config/closure_cases.csv` for backtesting.
+- Korean: Oseyo is the only direct comp (`config/korean_watch.json`). Every other Korean concept is awareness only.
