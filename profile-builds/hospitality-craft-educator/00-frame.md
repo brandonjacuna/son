@@ -51,8 +51,8 @@ Meyer, *Setting the Table*; Guidara, *Unreasonable Hospitality*; Schulze, *Excel
 
 ## Brandon's answers (fill before Stage 1)
 
-- Beverage in this seat, or a separate seat later:
-- Lineage practices to supply directly as project grounding (or "none"):
+- Beverage in this seat, or a separate seat later: In this seat. Research target 6 stays fully in scope.
+- Lineage practices to supply directly as project grounding (or "none"): None. The seat flags lineage questions for Brandon and never reconstructs them.
 
 ## Stage 7 behavioral test candidates
 
