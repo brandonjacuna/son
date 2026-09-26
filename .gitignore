@@ -1,0 +1,6 @@
+profiles/cache/
+exports/
+.claude/settings.local.json
+__pycache__/
+*.pyc
+.DS_Store
