@@ -49,8 +49,8 @@ Moore, *Map It* (action mapping and scenarios); Clark, *Scenario-Based e-Learnin
 
 ## Brandon's answers (fill before Stage 1)
 
-- Any practice form ruled out for Sŏn (for example, AI presenters, recorded role-plays):
-- Who can run live practice today (leads only, any trained member, the founders):
+- Any practice form ruled out for Sŏn (for example, AI presenters, recorded role-plays): None ruled out. AI presenter policy stays founder-gated (`founder.ai_presenter_policy`); the seat holds a position, Brandon decides.
+- Who can run live practice today (leads only, any trained member, the founders): Any trained member.
 
 ## Stage 7 behavioral test candidates
 
