@@ -2,13 +2,23 @@
 
 Written 2026-09-26 by the session that ran the pilot. Read `CLAUDE.md` and `RECONSIDERATION-PLAN.md` first.
 
-## State
+## State (all agents stopped, 2026-09-26)
 
-- **Done:** 2.1 (pilot, all files). 0 (built by the old full-Fable pipeline).
-- **May still be running, or finished, from the prior session** (old pipeline; Fable wrote every file): run `s01` (1.1 to 1.4), `s03` (2.2), `s04` (2.3). Check each folder in `manual/` for all six files plus `notes/`. If a folder is incomplete, finish it with the lean pipeline below: skip steps already done, and run step 3 only for the missing thinking files.
-- **Stopped mid-write to save budget:** `s05` (3.1) and `s06` (3.2). Each has at most a Fable-written `book.md`. Run the lean pipeline from step 1; step 2 overwrites `book.md`.
-- **Not started:** `s07` to `s16` (3.3 to 6.3).
-- **Leftover old items:** 29 old items belong to no single session. They're listed at the end of `extraction/item-sessions.json` processing, and `RECONSIDERATION-PLAN.md` covers them. The cross-chunk pass places them.
+Every agent from the prior session is stopped; none is running. On disk:
+
+| Chunk | Files present | What's left |
+|---|---|---|
+| 2.1 | all | Done and verified (pilot) |
+| 0, 1.2, 1.3, 1.4 | all six | Written by the old full-Fable pipeline; **not yet verified** (step 6) |
+| 2.2 | book, considerations, tasks, mapping, decisions | `session.md` (step 3, session only). Verify `tasks.md` is complete: the agent was stopped around when it was writing a 41-task list |
+| 2.3 | book, considerations, tasks, mapping, decisions | `session.md` (step 3, session only) |
+| 1.1 | none | Full lean pipeline for 1.1 only (run `s01`; steps 1 and 2 cover the run, and the other chunks' files are already written) |
+| 3.1, 3.2 | a Fable-written `book.md` | Full lean pipeline from step 1 (runs `s05`, `s06`); step 2 overwrites `book.md` |
+| 3.3 to 6.3 | none | Full lean pipeline (runs `s07` to `s16`) |
+
+For a step-3 job covering only part of a run, tell the Fable agent which chunks and which files to write, and to leave existing files alone.
+
+Leftover old items: 29 belong to no single session (S2 items outside the 2.1 pilot, and carryovers meant for the old assembly session). The cross-chunk pass places them.
 
 ## The lean pipeline, per run (`extraction/build/<run>/`)
 
