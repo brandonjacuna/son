@@ -1,0 +1,1023 @@
+# Book pages for session 11
+
+Verbatim text from `sources/scaling-people-book.pdf` via PyMuPDF. Page markers `[p.N]` are PDF page numbers (zero offset).
+
+[p.331]
+This is more of a creator meeting; it’s open-ended and allows for
+some more personal and social time. It doesn’t have a formal agenda
+but rather gives the group an opportunity to check in on topics that
+have surfaced during the week and workshop issues that one or
+more members are grappling with. Right before the meeting, we
+generate a list of topics in the team Slack channel. The meeting often
+starts with personal check-ins and ends early if there are no topics
+that can’t wait until Monday.
+Offsites: two full days every quarter
+This is usually a trip away together, often from Thursday afternoon
+through midday or early afternoon on Saturday. These meetings
+involve some pre-work and can include a bigger-picture review of
+company financials and performance. When possible, we schedule
+the offsite soon after a board meeting, when the board and senior
+leadership have reviewed the business, which makes the meeting
+more efficient. These offsites are particularly important for taking a
+step back and doing more free-form brainstorming together. It’s
+uninterrupted, big-picture strategic time. I’ll be honest, though—in
+the early days, the team was tactically solving quite a lot, too. We
+also often share feedback for one another at these offsites.
+The members of the Stripe leadership team are no longer all
+based in the same location, and as a result, the quarterly offsites
+have taken on even more importance. In fact, once a company gets
+to a certain stage, teams are rarely co-located. This makes offsites
+even more critical. But offsites alone won’t enable distributed teams
+to develop successfully.
+Team-building complexities
+
+[p.332]
+As with most skills, managing teams becomes more difficult as new
+variables are introduced. Managing a small team of co-located
+individuals is one thing, but managing distributed teams across
+multiple geographies requires additional skills and greater intention.
+Managing distributed and remote teams
+Being distributed is in the nature of a modern company. Many high-
+growth companies have ambitions to go global, and if you already
+are global, you’ll have offices and employees around the world.
+Larger companies have also become increasingly open to a new type
+of distributed work, allowing employees to work remotely from
+home. This was very much accelerated by the Covid-19 pandemic.
+Stripe has had remote employees since its early years, so we
+often get asked how to support distributed teams and remote work.
+We haven’t cracked it yet, but we’ve accumulated many lessons that
+are worth sharing about how to support distributed and remote
+workers.
+In my experience, managing distributed teams poses three main
+challenges: coordination, cohesion, and participation.
+Coordination
+This is the most obvious challenge for distributed and remote teams.
+People and teams have to be more diligent about what information is
+documented, how decisions are made, and where discussions are
+held because they’re operating in different physical locations and
+often in different time zones. Because of these coordination
+challenges, it’s tempting to try to assign work that remote employees
+can accomplish independently, such as a small project for just one
+person, but that only isolates your team more and makes them
+worse at coordination.
+
+[p.333]
+Audit your tools and practices, as well as the projects and work
+assigned across your locations and remote workers, in order to:
+Put in place company norms and structures that foster
+asynchronous work, such as strong documentation that enables
+work across time zones.
+Balance the workload of distributed team members so that they
+have independent, “local” work but are also connected to the rest
+of the company or division. This will ensure that they don’t feel
+overlooked or isolated.
+Map your processes, such as code and quality or risk reviews, to
+avoid team members waiting several hours for a colleague to
+wake up to answer a question that helps them finish their work.
+(See Table 9 on page 314 for more on the types of challenges
+remote teams face and how to address them.)
+SIDEBAR
+—
+The challenges of collaborating across time
+zones
+It’s all too easy to ignore the cost of collaboration across time zones. To
+make it more concrete, here’s an excerpt of an example from Stripe
+engineer David Doran, who is based in Dublin and is building a product
+with dependencies on teams in US time zones. The problem starts when
+he realizes he needs access to a lightweight directory access protocol
+(LDAP) group to commit a code change in order to address an issue he’s
+found.
+Unfortunately, the admin-plans-readers LDAP group is owner-
+approved and the owners are in the US, so I’ll wait for approval
+overnight and come back to it tomorrow.
+
+[p.334]
+The next day: My request for access to join admin-plans-
+readers was approved overnight! Now I can view the merchant’s
+manual fee plan so we can reproduce it in code.
+It turns out that the fee plans weren’t what I needed. What I
+actually need is the rate cards page, which has different owners, so I
+need to start the process again. That’s more than three days of delay
+on a simple change.
+This has presented two learnings on changes we need to make:
+1. We have to provide a self-service interface for accessing the vast
+majority of systems not directly owned by the relevant team.
+2. We need to develop a mechanism that preserves security and
+reliability properties but also allows folks in different time zones
+to get unblocked in the vast majority of cases where they need
+explicit permission or approval from another team.
+—
+Cohesion
+Give remote work equal footing within your organization. In May
+2019, Stripe launched its fifth engineering hub: remote. As David
+Singleton, Stripe’s CTO, noted in a blog post, launching the remote
+hub allowed us to “situate product development closer to our
+customers and improve our ability to tap the 99.74 percent of
+talented engineers living outside the metro areas of our first four
+hubs” located in San Francisco, Seattle, Dublin, and Singapore.54
+This statement was a valuable acknowledgment that remote
+employees are important team members. But out of sight is often,
+unfortunately, out of mind. When not everyone is working in the
+same place, it’s easy for teams to default to siloed, independent
+pockets of work—or, worse, for the team members who happen to
+
+[p.335]
+be co-located to dominate work decisions and capture the best
+assignments.
+When your team is remote or distributed, you’ll have to work
+harder to get people to care about one another’s work and truly
+work together so that you’re forming an actual team. The best way
+to achieve this is with clear, consistent communication and team
+operating practices that place everyone on a level playing field. (See
+Table 9 on the next page.) It’s also about instilling strong cultural
+practices, meaning you need to ingrain into everyone on the team
+that the minute an informal in-person conversation turns into a
+work discussion or a team decision, it needs to move to a format
+that allows all relevant parties to participate, such as a Slack
+channel.
+Participation
+There are countless ways that working from another office or
+working remotely makes it hard for a person to fully participate in
+company or team practices. There are the obvious challenges, like
+having a harder time chiming in on a conference call or not being
+able to join a meeting because it’s happening at midnight in your
+time zone. The silver lining is that because these issues are fairly
+obvious, teams can do a better job of accounting for them. For
+instance, you can designate an active moderator for the conference
+call or rotate meeting times for different time zones.
+The less obvious ways people can’t participate can be more
+damaging: not picking up on the dynamic in a meeting room
+because you’re not there in person, for instance, or missing out on
+casual meals with colleagues. These things really matter. Beyond the
+obvious intentional steps to build relationships across your team,
+make sure you set team and meeting norms that avoid exclusionary
+practices. This includes creating a culture of documentation that
+
+[p.336]
+encourages team members to record what happens in each meeting
+so that no one has to consult a teammate in another time zone to
+understand how to accomplish a task or complete a work
+assignment, for example.
+One thing that has really helped at Stripe is that most “hallway”
+chats occur in Slack channels instead of in person. Some of our
+channels are more social—we have #cats, #dogs, and #cats-and-
+dogs—but most are devoted to team communication. Watch out for
+Slack retention rules, though—if it needs to be permanently
+documented, put it elsewhere.
+Which of the three challenges you’ll need to prioritize will
+depend on what kind of remote team you’re managing:
+TYPE OF REMOTE
+TEAM
+PRIMARY CHALLENGE
+A few remote
+employees on a
+largely
+centralized team
+Participation. When the majority of the team is not
+remote, the hardest thing will be to make sure remote
+employees feel like equal members of the team.
+A whole team
+that works
+remotely
+Cohesion. This is the quintessential remote team that
+isn’t actually a team but a group of individuals with
+the same manager. Invest in team building by seeing each
+other in person, especially early on, if possible. Spend
+time over Zoom on relationship building and work style
+understanding, not just tactical items, and be very
+clear about roles and accountability for every team
+member.
+A team split
+across two or
+three different
+offices and some
+remote
+locations, or
+Coordination. You see this scenario often with global
+offices that need to work together. Focus on making sure
+that teams are aware of decisions that impact them and
+that they feel involved in those decisions.
+
+[p.337]
+two teams that
+need to work
+across locations
+The whole
+company works
+remotely
+The participation challenges are less pronounced in this
+scenario because you’re all in the same boat. You’re
+still going to have coordination and cohesion
+challenges, but in general everyone will be mutually
+attuned to following best practices.
+Table 9. Types of remote teams and challenges.
+The mitigations for all these challenges are the same, although
+some will need to be employed more firmly than others, depending
+on your challenge:
+Set structures and norms for inclusive meeting practices.
+Provide video links for meetings and pay attention to acoustics
+and sound quality. Perform active meeting facilitation and take
+meeting notes.
+Level the playing field. Create shared Slack channels for team
+conversations to avoid the “hallway effect” and invest in
+comprehensive internal documentation.
+Make room for in-person time. Budget for in-person gatherings
+at the right frequency, depending on team needs.
+Set structures and norms for inclusive meeting practices
+In-person interactions can, at least for a while, paper over a lot of a
+team’s structural weaknesses. It’s not the end of the world if a
+decision isn’t well-documented, as long as everyone who needed to
+know the decision was in the room when it happened. But if one of
+your team members is in a different time zone and the decision isn’t
+recorded, you’ll create an information asymmetry and trust will
+
+[p.338]
+erode. Make sure you’re especially crisp on ownership, the operating
+cadence, and accountability mechanisms for remote teams, and
+document communication norms in more detail than you think you
+need to.
+Level the playing field
+If you’re worried about participation, the most important thing you
+can do is to minimize practices that make a remote employee feel
+different. Think about a team meeting for someone who is remote
+versus someone who is based in the office: Someone on your team
+sends a meeting invite. Multiple people in the office are joining, so
+they include a room number on the invite but forget to include a
+videoconferencing link. The remote employee has to reach out to the
+organizer to include a link or dial-in number. Before the meeting, the
+office-based team members happen to sit together at lunch, and they
+start talking about an agenda item from the upcoming meeting. The
+remote employee has no idea, and now they’re lacking important
+context before the meeting has even started. Once it begins, the
+remote employee has to go on mute because there’s construction
+happening outside their home office. The office-based participants
+start having a discussion. It’s hard for the remote employee to hear,
+so they sit in silence while their colleagues are debating.
+There are so many ways a remote employee has a different
+experience from a centralized team. How much you try to level the
+playing field will depend on your company philosophy. Automattic, a
+completely distributed company, requires that everyone join
+conference calls from a different physical location, even if some
+participants happen to be in the same space. This way, no one has
+the experience of being the person dialing in to the conference call
+while others are co-located. They also get everyone together in
+person at least once a year, and some teams gather once per quarter.
+
+[p.339]
+At Stripe, we ensure that every remote worker has the right
+hardware setup so that they can properly participate in conference
+calls. We also have a strong norm that any work discussion, no
+matter how minor or procedural, needs to happen via Slack or email
+so that those not physically present can follow along. Making
+improvements for distributed employees starts with an awareness
+that differences exist, and that these can turn into detrimental
+chasms between in-person and remote experiences.
+Make room for in-person time
+I’ve long thought it possible to build a distributed group into a
+strong team without a lot of in-person time. After all, look at all the
+global teams that operate effectively! But I haven’t yet found a viable
+substitute for quality in-person time on a regular cadence. This is
+valuable for:
+Generating spontaneous social interactions and connections.
+Humans are herd animals. We have a need to connect on a level
+beyond the professional. You can connect on non-work topics
+remotely, of course, but having unplanned social interactions and
+developing deeper relationships is also important. You need to be
+able to have a laugh together, talk about personal interests, and
+share experiences that aren’t just video meetings.
+Getting people into a different mindset, beyond day-to-day
+operations. People get comfortable with day-to-day operating
+rhythms pretty quickly, which is also why, if they get comfortable
+for too long, operating cadences become stale. Sometimes we all
+need to get out of our day-to-day setting to achieve a level of
+alignment and understanding that’s hard to do in a 45- or 60-
+minute meeting.
+
+[p.340]
+For several years, I managed a group responsible for leading
+revenue in all of the countries Stripe operated in. The group
+consisted of the country and regional leads in North America,
+Europe, and Asia. When we first formed the group, we met in person
+every quarter. Usually, the leads would come to San Francisco,
+where we’d have two days of working offsites and at least one team
+social event. Those traveling to San Francisco would typically visit
+for a full week to meet with other people and teams as well. This
+time together was critical to forming both our team relationships
+and our strategy for growing Stripe’s revenue.
+In our first meeting together, we ended up listing everything we
+had to answer, solve, or build in order to be successful, which took
+up three huge whiteboards. There was a funny moment when the
+group got fired up about the need to build the marketing function,
+which was still in its infancy. I pointed out that we were struggling
+to answer even the current inbound sales leads, and we all ended up
+laughing about our poor prioritization and proverbial “good
+problems to have.” Needless to say, it took a lot of time to work
+through everything on those whiteboards, but we’d laid the
+foundation for doing so effectively during our in-person time
+together.
+How often should remote teams meet in person? When you’re
+first forming a remote team, plan to meet at least once a quarter, if
+not more often. But once you’ve had a couple of solid in-person
+interactions, you can space them out a bit more. If you plan in
+person together, you can run faster and longer when you’re apart.
+Later, you can move to meeting biannually, although if you’re in
+growth mode and adding new members to the team, you’ll want to
+continue to have quarterly in-person meetings for some time.
+Situations will arise that prevent you from gathering in person—like
+
+[p.341]
+a global pandemic—but I still think it’s a best practice to aim for,
+even if you have to experiment with half-day offsites held on Zoom,
+as we did at Stripe.
+Going global
+It wasn’t until I led my first global team at Google that I fully
+internalized that being a global company isn’t about doing the same
+work in different countries. I managed over 2,000 people in 16
+offices around the world, and for the first year I traveled at least
+once a month. It was only then that I truly absorbed the cultural
+differences and strategic local needs for each business. A lot of the
+challenges of operating in a different time zone and handling a work
+schedule with major jet lag also felt much more real.
+It’s hard to replicate the insight you get from actually traveling for
+work and doing business in different countries, but I do recommend
+reading Geert Hofstede’s work on the dimensions of national
+cultures.55 It’s a useful guide to understanding cultural differences
+and mapping your own company against the countries in which it
+operates. Interestingly, I’ve never found major differences in user
+needs—a marketer buying Google Ads in Indonesia wants the same
+thing as a marketer in Canada—but there are important differences
+in how you conduct aspects of your business, as Hofstede explains.
+There are also ecosystem variants, like whether there’s a large
+developer community, and there are landscape factors, such as local
+competitors or different consumer expectations.
+Make sure your team understands your company’s cultural
+expectations and how they differ from local norms. This often
+comes up for sales teams with respect to the kinds of relationship-
+building activities clients expect. Aside from developing your own
+understanding, I think it’s a useful team exercise to review the
+cultural dimensions of your business and discuss the implications
+
+[p.342]
+for your day-to-day work, plus any guidance local teams might need
+to help balance their local cultural reality with the company’s. My
+first trips to Japan and China for Google were full of lessons,
+predominantly in how much information was shared and business
+conducted late at night over drinks. Think about how you will help
+your teams understand prevailing behaviors without feeling like they
+must follow all of them when conducting business. (I don’t think
+drinking alcohol is a sales skill requirement, for instance.)
+Interestingly, when I did a cultural comparison exercise with a
+group of Stripe’s country leads, we all realized that Stripe is not a
+simple mirror of American culture. That makes sense: Its founders
+are from Ireland. In fact, Stripe is an interesting hybrid of a few
+cultural dimensions. Once we realized this, we understood that it
+was an opportunity to build a shared global identity. It was also a
+chance to translate that identity into local expectations, even if
+they’re not the norm in every culture. For example, in some cultures
+it’s more common for outside-of-work socializing to double as a
+forum for doing business. At Stripe, we make sure that people are
+aware of this, but we also emphasize that the choice about how
+much to participate is theirs.
+Adding remote workers
+If you work at a company with global ambitions, or one that’s still
+accommodating the shifts brought about by the pandemic, educate
+yourself about remote work best practices with resources from all-
+remote companies like Automattic56 or GitLab.57 Here are a few key
+elements to keep in mind as you add remote workers to your team:
+Maturity of operating system
+Remember Operating Principle 4: Come back to your operating
+system. If you feel fairly confident that you have a strong operating
+
+[p.343]
+system and cadence, as well as established norms and good sources
+of asynchronous information (video recordings of meetings,
+excellent note-taking practices, etc.), or if you’re willing to invest in
+strengthening them, you’re better positioned to add remote team
+members.
+Role
+Is this a job that requires a lot of coordination? Engineering,
+product, and design roles typically require more collaboration to get
+work done, while some roles, like legal and finance, can be done
+more independently. Carefully structure remote or hybrid team units
+so that the team can effectively manage the level of coordination
+needed. For example, three remote product, design, and engineering
+employees on a team may actually find it easier to coordinate than a
+team where two of those three people are co-located.
+Manager support
+Remote management is its own skill set. Between 2014 and 2016,
+Stripe had a requirement that remote employees be managed by
+remote managers. We felt that a remote manager would have more
+empathy for the remote experience and would find it easier to build
+the right coordination, participation, and cohesion mechanisms. We
+now provide more manager support and training, so non-remote
+managers do manage remote employees and teams, but the intention
+is still valuable. It takes time to build the skills to connect with a
+team you don’t see in person, and it takes a good amount of empathy
+for the remote experience to design and operate the most conducive
+team system for those people.
+Aside from empathy for the experiences of people not in the
+same room, managers of remote teams must develop management
+practices and mitigation strategies for the issues that tend to crop up
+
+[p.344]
+with remote work. For example, managers can create and facilitate a
+team Slack channel and insist that meaningful side conversations be
+documented and sent to a team email list. Managers should also
+make themselves available to answer quick questions via non-in-
+person channels. In addition, they should be structured and
+consistent in how they connect with the team through 1:1s and other
+information-sharing tactics, like the snippets docs I mentioned in
+my discussion of Stripe’s leadership meetings.
+Experience level
+At Stripe, we’ve found that it’s easier to support remote employees
+who have already had experience working remotely. As we’ve all
+learned, it takes some adjustment to work well remotely, and it can
+be particularly hard on new graduates who are just developing their
+work skills and learning their jobs. Consider the kinds of
+programming you can offer to bolster the remote work learning
+curve, especially for those with less overall experience.
+A consistent theme of this book is to be very intentional with
+your foundations. This is especially true when you’re managing a
+distributed company and adding remote team members. What
+works when everyone is together in one office will not scale when
+distance and time zones divide you. Consider the documentation,
+norms, and practices you’ll need to enable folks to get their work
+done and to stay connected to their team and to the company, and
+build those in from day one. As a manager, seek to understand the
+different national cultures represented on your team and the
+particularities of the distributed and remote work experiences.
+Travel, try being remote yourself for a week, and adjust your team
+management practices accordingly. Above all, seek out feedback,
+including through your company engagement survey, on how
+
+[p.345]
+productive, effective, and connected remote employees feel, and be
+ready to improve in response to their feedback.
+Underperforming teams
+Sometimes you’ve done everything you can to build a strong team—
+remote or in-person—but it’s still faltering. If your teams are
+reviewing their goals and metrics at the right cadence, you should be
+able to catch that something is off track before the issue becomes
+too unwieldy, and you’ll hopefully be able to solve the root problem.
+But sometimes teams don’t hit their metrics or milestones for weeks
+running. It feels like there’s always a reasonable explanation, yet you
+have a nagging sense that those explanations are masking a deeper
+issue.
+How do you course-correct? Start by taking the following steps:
+Investigate the root cause by asking some probing questions
+You probably have a theory about what’s causing the poor execution.
+Test your hypothesis in 1:1s with the relevant team members and see
+what comes to light. For example, you might observe, “There seems
+to be a lot of dependencies on data architecture work.” If your team
+members confirm that that’s the case, dig into why there seem to be
+so many dependencies, or whether the team is missing capabilities
+or resources that would prevent the bottleneck. You’re not asking
+about a specific person but rather a set of work that seems
+perpetually behind schedule or off track.
+Have an open conversation about the issue in your team meeting
+Approach it from a place of curiosity, and avoid accusations. Ask the
+team the following questions:
+
+[p.346]
+Why do you think we’re behind on our goal? Be open to the
+possibility that it’s the wrong goal, but don’t be lenient.
+Do these reasons feel in or out of our control? Usually, the
+reasons are more in the team’s control than they think, so push
+on this.
+What can we do now to get back on track? Document ideas
+and make sure it’s clear who is accountable for the work to follow
+up and change course.
+When it comes to the reasons that really are out of our
+control, how much impact will they have on our ability to
+make progress? What could we do to control those external
+factors? Your team may not have considered all the angles, for
+example stepping in to help another team get critical work done.
+If the issue is that you have the wrong goal, the next steps are
+fairly straightforward:
+Agree with the team that you need to adjust your goals as a result
+of new information.
+Make sure to clearly document the original goal, how the goal
+changed, and why, both with your team and with stakeholders.
+This is critical to maintaining credibility.
+Be transparent internally about the fact that you’re resetting your
+goals and why you’re doing it. Be particularly clear about what
+you learned and what you’ll do differently in the future.
+If the issue is your team’s skill set or a collaboration issue across
+team members, continue to develop your hypothesis on the root
+cause, and seek data to build confidence that you’ve identified the
+true source of the problem. If it’s an issue with an individual on the
+team, consult the sections on feedback in Chapter 5 for guidance. If
+it’s a collaboration issue between two or more people, take time to
+
+[p.347]
+meet with the individuals involved, first separately and then
+together. Facilitate a conversation in which each person can share
+nonjudgmental feedback on work style and process, and make it
+clear that you all need to work together to find an effective path
+forward. Take pains to be neutral and emphasize that the individuals
+need to change the dynamic for the good of the team. If you don’t
+see a positive change, consider shifting one or both people to
+another team. In addition, consider whether one of the individuals
+involved may in fact have a performance issue in the form of poor
+collaboration skills—in which case, see Chapter 5 for more on
+feedback and performance management.
+On occasion, you might think that the issue is limited to a few
+individuals but discover that there are actually many group
+dynamics contributing to what has become a fractious team
+environment. Don’t ignore this trend. Confront it—urgently.
+Conduct or ask a neutral party like HR to conduct a series of
+interviews with team members—like a 360° review process but for a
+team—and have them write up a summary. Then have a critical
+session to discuss the team dynamics and what you will all do to
+address the negative trends and tendencies. Seek explicit
+commitments on what people will improve. Most points of friction
+come from a lack of mutual self-awareness—see Operating Principle
+1—so return to your personality and work style assessments and
+spend time getting to know one another and your value systems.
+Give the team a vocabulary to use when working together, and make
+it clear that the team’s dynamics matter to you and to the company’s
+success.
+In my experience, missing a goal is often due to a dependency, or
+many dependencies, on other teams. This is especially true as your
+team scope and your company grow. Perhaps your team controls
+
+[p.348]
+one aspect of a project, but you need another team to deliver their
+half. Work would be much easier if everything were in your control,
+but that’s not the reality—of work or of life. Instead, your role as a
+manager is to anticipate dependencies, negotiate with other teams,
+and work through issues when they occur, escalating to your
+respective leaders if needed. I often think of my work as a manager
+as clearing the path my team will need to travel. Anything that slows
+them down is on me.58
+Working with other teams
+Because some of the hardest accountability problems for a manager
+to navigate crop up when your team can’t get their work done
+because they’re dependent on the work of one or more other teams,
+it’s important to de-risk those dependencies. Here’s a quick guide to
+doing that:
+Identify dependencies during your planning process. For
+every goal, determine what work you need done by when from
+other teams. Discuss this work with the other teams before they
+finalize their own plans. Ninety percent of the time, teams are on
+the same page about what needs to be done. For the 10 percent of
+cases where teams disagree about the work, escalate to the
+common decision-maker for both teams. The outcome will either
+be that the team you’re dependent on will complete the work, or
+that your goal will be judged not to be a company priority and
+you will adjust your own plans accordingly.
+Set up a semi-regular check-in to keep your team and
+partner teams up to date on progress. Check-ins can be in the
+form of an email, followed by a meeting if the project is getting
+off track.
+
+[p.349]
+Embed someone on the team. Sometimes it’s useful to have a
+representative from the team you’re dependent on join your team
+meetings, and for you to send a representative to their meetings.
+Form a working group. In some cases, it may make sense to
+form a temporary working group that comprises members from
+the different teams. (See Table 6 on page 265 for more on the
+differences between working groups and teams.) You’re
+essentially forming a mini-team that has its own shared goals and
+metrics for the duration of the project. Make sure the working
+group has a DRI who is tracking progress and holding the group
+accountable.
+If, despite all your de-risking efforts, you still find yourself at an
+impasse with another team, I suggest you constructively escalate. A
+few retrospectives I’ve conducted on my biggest errors as a manager
+and leader uncovered my own weak spots in this area. Because I
+tend to be independent in how I accomplish work, relying more on
+my own teams than on peers, and because I’m innately collaborative
+and empathetic, I have more than once neglected to expose a critical
+dependency that was failing until it was too late.
+Asking for help is not a failure. In fact, escalation paths are one of
+the reasons management structures exist. You don’t want to be the
+person who has a hair-trigger escalation tendency, which will make
+you seem ineffective, not to mention wildly unpopular with
+colleagues. But you also don’t want to be the one who gets your
+team stuck because you didn’t escalate to unblock their progress.
+(For more on resolving dependencies, I’ve included a description of
+Stripe’s unblocking process in the chapter appendix on page 343.)
+Finally, in a nod to Operating Principle 3—distinguish between
+management and leadership—it’s useful to take a look back and
+assess whether you had the right strategy. Often, adopting a more
+
+[p.350]
+proactive vision will allow you to not only identify dependencies but
+also architect a future state that doesn’t require such dependencies
+in the first place. This might involve a different technical
+architecture, a new strategy that includes a new organizational
+structure, or even a fresh set of priorities that negate the current
+path.
+Managing through uncertainty
+When something isn’t working, everyone feels it. In these situations,
+I lean on a quote from author Rebecca Solnit: “Authentic hope
+requires clarity… and imagination.”59 Getting back on track is going
+to take a combination of management (clarity) and leadership
+(inspiration and imagination) to help the team make it through times
+of uncertainty or challenge.
+Here’s how I think about supporting teams through uncertain
+times:
+Be transparent, to a point
+When a team is experiencing uncertainty, it’s rare that a manager
+isn’t feeling it too. Some managers make the mistake of exposing too
+much of their own worry, which can be destabilizing for their teams.
+But the more common mistake I see managers making is not
+acknowledging the challenges head-on with their teams or
+pretending they’ve got a plan all figured out. This only serves to
+erode trust just when the team needs their manager most.
+I try to be open and honest with my teams during times of
+uncertainty. This doesn’t mean you must index toward negativity
+and pessimism—in fact, I would advise the opposite. But it’s critical
+that you demonstrate that you have a good pulse on the team’s state
+and that you’re aware that a change is necessary, even if you don’t
+know exactly what that change will look like yet. Try to be as
+
+[p.351]
+objective as possible. This can be as simple as saying “I don’t think
+we have the right people at the table to accomplish what we need to
+get done,” or “I’m aware that the deadlines are unrealistic.” You can
+also be transparent and say, “We don’t have the details of a plan in
+place, and it may take us a while to get there, but I’m working on it.”
+What’s most important is that you acknowledge the situation and
+show empathy and a drive to improve what’s not working.
+Reiterate the vision
+Don’t forget to engage the imagination. You’ve placed your team on a
+path, and it includes a narrative about the brighter future that your
+work is enabling. Just because times are uncertain doesn’t mean the
+vision is wrong or that you’ve lost your way. Retell the story of why
+you’re doing the work you do and how the future will be better for it.
+Move forward
+Despite all of your instincts to the contrary, I recommend biasing
+toward action during times of uncertainty. There is a great
+temptation, especially when things aren’t going well, to try to come
+up with a perfect plan or to overanalyze the situation. But trust me,
+you don’t want to make a bigger mess! Oftentimes, the best thing
+you and your team can do is start moving. This may mean making
+small decisions and taking small- to medium-sized actions, but any
+action at all can be very meaningful. Communicate openly about
+these steps and what you’re learning along the way.
+Stripe’s handling of the Covid-19 pandemic is a good example. As
+Covid infections moved beyond China, we began to discuss the
+implications for Stripe. Our CEO was tracking the virus closely and
+was most concerned about an outbreak that might impact critical
+teams, including our leadership team and the engineering teams
+responsible for Stripe’s security and reliability. Although we didn’t
+
+[p.352]
+have a lot of data and had no detailed plan on how we’d proceed, we
+decided to start taking action to mitigate risk.
+In February 2020, we shared that half of the leadership team and
+a few critical teams would immediately start working remotely. The
+danger of sharing this step was that we might imply a hierarchy of
+who or what was most valued at the company. But the danger in not
+sharing this information was that we might put the company at risk:
+We were still small enough that having many people get sick at once
+would be untenable for the business. It would also imply
+uncertainty, and would potentially lead employees to assume that
+we were not analyzing the situation—or worse, that we were not
+acting 
+on 
+what 
+we 
+knew. 
+From 
+there, 
+we 
+methodically
+communicated each decision and kept the entire company informed
+with emails and a resource page updated daily. Our guiding
+principles were to be there for our users and to prioritize the health
+and safety of our employees. Everyone understood our decisions
+and actions in the context of those objectives.
+SIDEBAR
+—
+Reid Hoffman on managing through crisis
+Although it’s relevant to talk about the crisis of the pandemic, it’s also
+useful to consider more “expected” crises (strange as it is to say). In an
+interview, Reid Hoffman, the cofounder and former chairman of
+LinkedIn, offered a great case study on how he steered the company
+through a major competitive threat. You can find a transcript of our
+conversation 
+about 
+leadership 
+and 
+management 
+at
+press.stripe.com/scaling-people/interviews.
+In May 2007, Facebook launched the Facebook Platform. The
+Facebook Platform gave third-party developers the ability to build
+
+[p.353]
+applications using Facebook data. Until then, Facebook’s focus was
+social and LinkedIn’s was professional, but a platform that gave
+developers access to Facebook data had the potential to creep into
+LinkedIn territory. A number of people came to me and declared
+LinkedIn dead.
+I wasn’t so sure, but I acknowledged the possibility. “Okay,” I
+said, “what if we were to build something on top of the Facebook
+Platform to test how existential the threat is to our business?” We
+assembled a team that would take eight weeks to build a minimum
+viable product, the lowest-effort product to see if there really was a
+competitive threat from the Facebook Platform. The team’s
+objectives were to:
+Determine whether we could build something that was disruptive
+to LinkedIn on the Facebook Platform. If we found that we could,
+we’d accelerate development of the product so we could get there
+before others did.
+Understand how the Facebook Platform actually works, and
+whether we could learn anything useful for when LinkedIn built
+its own developer platform.
+We assigned three different teams to sprint toward the finish line,
+meeting every day to discuss progress. By the end of eight weeks,
+we’d launched three different apps. None of them attracted more
+than 50 daily active users. We could have picked up a phone book
+and called people to get more usage than that!
+Of course, the next question from the team was whether we were
+just incompetent. Perhaps we had become so inured to LinkedIn
+that we didn’t understand how to build a successful app on the
+Facebook Platform. To test our own skills with the Facebook
+Platform, we pared the three teams down to one, which I ran. Our
+
+[p.354]
+team launched an app called Bumper Stickers. Bumper Stickers
+allowed you to upload a sticker to your profile and slap it on other
+Facebook friends’ profiles as well. We were the third most active app
+on the platform for six months straight. Bumper Stickers was not
+related to LinkedIn at all, and that was the point. We were pretty
+confident that we knew how to use the Facebook Platform, LinkedIn
+aside, and that there wasn’t a credible threat to LinkedIn’s business.
+In hindsight, the launch of the Facebook Platform wasn’t much of
+a crisis at all. But to get to that confidence, we needed to
+acknowledge that we didn’t have all the answers, and we needed to
+have a plan to start getting them.
+—
+Diversity and inclusion
+Managers play an important role in facilitating diversity, equity,
+inclusion, and belonging on their teams. There are many resources
+available on this topic, and I’m not an expert, so I’ll add just a few
+thoughts from the perspective of a manager and a person who seeks
+to constantly improve as an ally, and as a woman in leadership
+whom others view as an example.
+First, a great team and company are not only built by hiring well
+but also by building an environment that fosters and retains talent. I
+believe the work you do on diversity and inclusion is, fundamentally,
+work that creates a better environment for everyone. There’s a good
+deal of compelling research on how diversity positively impacts
+team performance.60 As a manager, you’re responsible for the output
+of your team, and building a strong and diverse team that is also
+high-functioning is one of the most effective ways to accomplish
+your goals. Homogeneous teams may execute more quickly, but they
+don’t generally push the thinking. Diverse teams get the most
+
+[p.355]
+outsize results, although it takes time and investment to build what
+Harvard Business School professor and researcher Amy Edmondson
+calls the psychological safety to outperform.61 Intuitively, this makes
+sense: The problem space that many companies are tackling is too
+big to hold in one set of experiences and perspectives. If you can add
+people with different backgrounds and opinions, and if you can
+draw out those perspectives on your teams, you’re going to be able
+to take on problems more multidimensionally—but only if every
+person feels valued and comfortable fully participating.
+I’m chiefly talking about racial and gender diversity here, but a
+diverse 
+team 
+also 
+has 
+less 
+visually 
+noticeable 
+qualities.
+Socioeconomic background, education, sexual orientation, gender
+identity, political and religious beliefs, and where and in what
+circumstances a person was raised are all elements of a diverse
+team. When a company is growing, it’s amazing how quickly team
+members can start cloning themselves—everyone thinks in a similar
+way, went to similar high schools and universities, likes the same
+types of extracurriculars. Why? Because they referred one another
+to the company. To a certain extent, this is great, since you do want
+great referrals. But you must watch this cycle and break it early if
+that’s the only way you’re hiring and scaling.
+One of the ways I come to understand whether my team contains
+less visible elements of diversity is in the work we do to get to know
+each other, our backgrounds, and our work styles. Whether it’s the
+career conversion I outlined earlier in this chapter or a facilitated
+team-building session at an offsite, I seek to create an environment
+where people feel comfortable sharing more about themselves. It’s
+not something you should ever force, but it’s important to ask
+yourself how well you know your team. As a manager, you should
+constantly seek to bring different perspectives and thinking into
+
+[p.356]
+your division, facilitate open communication, and celebrate the
+perspectives and insights every team member offers to benefit your
+users—who, I’m betting, are diverse themselves—and, by proxy,
+your business.
+Managers can exercise influence on diversity and inclusion in
+three areas in particular—paying attention in each to ensuring that
+opportunities are broadcast widely both internally and externally:
+Hiring
+Performance assessment, reward, and recognition
+Running teams
+Here I’ll share some brief thoughts on the role managers can play
+to increase diversity in each of these areas. Before you begin, I
+recommend educating yourself about the experiences of people who
+would be considered members of historically underrepresented
+groups in your country and your company. As someone operating in
+the US, for example, I’ve found it useful to read the Coqual
+publication “Being Black in Corporate America.”62
+Hiring
+Assess your team portfolio. What are the backgrounds and
+viewpoints you’re lacking? If you don’t know what you don’t know,
+ask other managers if you can join their team meetings to observe.
+Notice how the team dynamics might differ and what your team
+might be missing.
+Build a hiring pipeline that exposes you to a lot of different
+candidates, and don’t start interviewing until you have a strong,
+diverse pipeline. Add someone to your interviewing team who has a
+very different background from yours and different strengths. They
+may be able to recognize strengths and assess candidates that you
+may not find as easy to understand. Find the interviewer who
+
+[p.357]
+complements your intuition about a candidate’s strengths and
+challenges your assumptions.
+All too often, companies rely on hiring as a panacea for fostering
+diversity at all levels of the organization. But many neglect the
+critical work of developing and retaining a diverse leadership team.
+The consulting group BCG analyzed its own industry’s lack of
+success in this area, and its learnings are applicable beyond
+management consulting. The group found that among early-career
+consultants, all with similar GMAT scores and GPAs, those from
+underrepresented groups within the company failed to advance at a
+similar rate for two primary reasons: a weak sense of belonging and
+difficulty navigating professional environments.63 With that in mind,
+the manager’s role becomes even more important once they’ve built
+a more diverse team. The key is to run the team equitably and
+inclusively. After all, you can invest all you want in composing a
+more diverse team, but without equitable processes and an inclusive
+environment, the team will not be successful. It’s also unlikely you
+will attract more diverse candidates to your company in the future.
+Performance assessment, reward, and recognition
+Some of the biggest mistakes I’ve seen with regard to having a fair
+system are tactical mistakes made by managers: picking someone
+for a project via a short process without explicit selection criteria,
+deciding on promotions without objective data, or adding someone
+to the team just because they used to work together. All of these
+actions have ramifications. Check yourself and run a lightweight,
+thoughtful process in which you clearly lay out the opportunities
+and incorporate performance measures into the decision-making.
+In fast-moving environments, many people fill open roles or
+assign projects by tapping someone on the shoulder. The tendency is
+to fill the role with someone you know who has a skill set similar to
+
+[p.358]
+yours. This is certainly an efficient way to hire, but it might not be
+the smartest—it leaves out a broad swath of people who might have
+raised their hands, or even those who might not have spoken up but
+who could have been great if you’d just looked at their performance
+on similar work. Create a system that makes new opportunities
+clear, and give people an opportunity to volunteer for a project or
+role on your team. If people you think should volunteer don’t, talk to
+them to find out why, encourage them to seek out new
+opportunities, and help them do so.
+The main goal here is to make sure all your processes feel
+equitable. Establish a common, agreed-upon way of evaluating the
+best person to promote, give a project to, or nominate for a
+leadership development opportunity. Have clear criteria for
+assessing potential candidates—see Chapter 3—and build equity
+checks into your people processes, like calibration for performance
+management and pay parity analysis for compensation. These don’t
+need to be exhaustive audits or heavy processes: Look for
+straightforward but effective methods, like the medical checklists
+that the best hospitals use to make sure there are no errors in
+treatment.
+Running teams
+Like your company processes, the way you run your team should
+give people equal chances to prove themselves. Start with your team
+onboarding process and solicit feedback to make sure that all new
+team members, no matter their background, feel prepared to
+contribute after their first month in the role. Beyond the initial few
+weeks, almost any team interaction is an opportunity to be inclusive:
+how you collect agenda items, plan an offsite, run a meeting, or
+make a decision on a controversial subject. Pay attention to airtime.
+If someone hasn’t said anything in a team meeting, give them an
+
+[p.359]
+opportunity to share their opinion. Assume that how you manage
+can probably be more inclusive than it is. Ask someone you trust to
+observe you and suggest how you might make your day-to-day
+management practices more inclusive. Better yet, read the book
+Unleashed by Frances Frei and Anne Morriss.64 It’s one of the few
+books I’ve read that provides tangible frameworks and practices to
+build inclusion into your teams and your company.
+Author David Foster Wallace’s 2005 commencement speech at
+Kenyon College is one of the most impactful things I’ve read about
+empathy and compassion.65 In it, he says, “The really important kind
+of freedom involves attention and awareness and discipline, and
+being able truly to care about other people and to sacrifice for them
+over and over in myriad petty, unsexy ways every day.” It’s an
+exhortation to resist our default beliefs and assumptions, to fight for
+awareness of the realities that are often hidden to us, and to be
+present and conscious. That is what inclusion requires.
+Finally, although I am a believer in building diverse teams,
+understanding one another’s differences, and being sensitive to the
+fact that we can never truly know someone else’s experiences—
+particularly those of a person from a historically underrepresented
+group if you’re not a member of that group—I am also a believer in
+teams uniting around their shared qualities and dreams. Leaders
+should bring in diverse team members and celebrate and understand
+their perspectives while also uniting the group around a common
+vision, with common appreciation for what is true about all of us:
+our shared human experience and our desire for love and respect. At
+the risk of sounding too optimistic, I think there’s real value in
+creating a collective vision in a world that encourages polarization
+and difference. Focus on cultivating that vision.
+
+[p.360]
+These same principles are evident in the work of Chloé Valdary,
+an American writer and entrepreneur who provides social,
+emotional, and diversity and inclusion education.66 Valdary
+developed what she calls the theory of enchantment, which has the
+following core tenets:
+Treat people like human beings, not political abstractions.
+Criticize to uplift and empower, never to tear down, never to
+destroy.
+Root everything you do in love and compassion.
+These are meaningful tenets for managers as well. Adopt these
+principles and create a shared vision to which all of your team
+members belong. Set goals, measure progress, and hold yourself and
+other leaders accountable not just for the diverse composition of
+teams but also for the team environment each manager creates. This
+is not for the sake of some checklist—it will make for a tighter-knit
+company fabric, a stronger team, and better results.
+Team communication
+When I think about leadership and management, I hear the voice of
+Sigal Barsade, the business school professor I mentioned earlier in
+this chapter. When she lectured on change management, she
+emphasized, “Communicate, communicate, and by the way,
+communicate.”
+Much of my advice for teams ultimately boils down to
+communication: Set expectations well, share the same information
+with everyone, and create an environment that facilitates an open
+exchange of ideas. So much of the work of a manager comes back to
+communication, whether 1:1 or with the team, division, or company.
+
+[p.361]
+It’s worth understanding your company’s approach to internal
+communication so that you can layer it into your own.
+As discussed in Chapter 2, internal communication is a
+mechanism for building trust. You reinforce this trust by sharing
+team meeting notes and decisions and by continuing to
+communicate even amid uncertainty. As you think about your team,
+especially if it’s growing, consider mapping the formal and informal
+means by which team members acquire information. The more you
+scale, the more you need to formalize information-sharing. This is
+true for companies and for teams. Otherwise, there’s a risk that
+people will acquire knowledge at different times, which can lead to a
+perception of politics and relationships being the only way to get
+anything done.
+As a leader or manager, you’re privy to much more information
+than the average employee at the company. If you neglect to key
+your reports into relevant information, your employees are going to
+be missing important context that they need to do their jobs well. I
+recommend including a “pass-downs” agenda item in your team
+meeting to share information from company leadership that’s
+relevant for your team members to know, either for context or
+because it directly impacts their work. (Usually, you’ll receive this
+from your own manager.) These pass-downs might include new
+information, or you might provide additional framing to company
+messages that have been delivered by leaders via email or at the
+company all-hands meeting.
+Of course, you’ll need to continually exercise judgment about
+what to share and deeply consider how to frame the information.
+When I sat in staff meetings with Sheryl Sandberg at Google, she
+would often share a piece of information and then say, “I think the
+right way to think about this is. . .” and help contextualize the
+
+[p.362]
+decision or action that company leaders had taken. Your team will
+be grateful for your perspective, especially on items that might affect
+them, and for the chance to discuss and ask questions about
+important company decisions or news.
+Another practice to consider is having a team snippets document
+that every team member completes each week. This way, you don’t
+have to take up meeting time with updates, but everyone has
+information about what the rest of the team is up to and the status
+of important work. If you lead a larger team or division, consider a
+weekly or monthly cadence of updates that you share with everyone
+on the team. Use this time to reinforce goals and priorities, celebrate
+wins, discuss challenges, and ask for ideas. Above all, use it to keep
+the team connected to you as their leader. Don’t be afraid to share
+personal anecdotes or photos.
+Lastly, try to end every day thinking about what you need to tell
+other people. For my first six years at Stripe, I lived in Menlo Park
+and worked in the San Francisco office. The commute home,
+anywhere from 45–60 minutes, was a perfect time to reflect on
+everything I’d learned that day, consider what information the
+people in my division needed to have, and, when I wasn’t driving, to
+share it out, usually via chat or email, to individuals or teams. Find
+the communication methods that work best for you and apply them
+consistently.

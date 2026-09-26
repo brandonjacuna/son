@@ -1,0 +1,961 @@
+# Book pages for session 5
+
+Verbatim text from `sources/scaling-people-book.pdf` via PyMuPDF. Page markers `[p.N]` are PDF page numbers (zero offset).
+
+[p.167]
+OceanofPDF.com
+
+[p.168]
+If you believe talent is everything, then your hiring process should also be everything. Your
+goal is to find the people who will thrive and who will have the most positive impact at your
+company at every level. Once you’ve hired them, you’ll need to acclimate them to the
+company in ways that ensure they’re set up for success and can carry forth the organization’s
+mission and culture.
+One of my final interviews before joining Google was with a director who tested whether I
+could handle the work environment and fit with the culture. He was very open and friendly,
+and he got me talking comfortably. Near the end of the interview, he challenged me: “So,
+what’s your real career ambition?” I quickly replied, “To undermine the superstructure from
+within.” I couldn’t believe I’d said that out loud! (I guess I said the thing I thought I could not
+say?) I think I got the job in part because I was open and honest, but also because my answer
+fit well with a disruptive company’s mission. I was attracted to Google because I believe
+technology can have a positive societal impact and democratize access to opportunity. On
+their side, Google was looking for people who thought differently about how to build and
+operate products—people who could imagine a world where Google had become what it is
+today, almost 20 years before the fact, and then figure out how to get there.
+I was interviewing for a manager role (yes, the dreaded middle management), but I soon
+learned that the interview process at Google was extensive and rigorous no matter the role. I
+think that’s appropriate. A company’s talent is its destiny, and when you’re growing quickly,
+early talent will become future leaders. Among my first direct reports at Stripe was a
+recruiter who had previously recruited and managed operations programs for Memorial
+Sloan Kettering Cancer Center. She was a dynamo recruiter and, equally as exciting, a skilled
+communicator with great acumen for building operational processes. She’s also a prime
+example of growing talent from within. Today, she is the head of Stripe’s recruiting and
+people partners teams, a global organization hundreds of people strong.
+Some companies mechanize hiring for most roles and conduct leadership hiring quite
+differently, which I think can be destructive to quality and, potentially, to trust. If you want to
+send a signal that bringing in talented people is critical to get right for the future of the
+enterprise, you need rigorous processes that reinforce that message for all levels of hiring.
+Although leadership hiring may be more customized in ways appropriate to the level of the
+hire, the fundamentals and cultural import of leader and employee hiring should be similar. If
+leaders seemingly waltz in, there will be suspicion of their credibility, even if they have
+impressive résumés.
+Seek a hiring approach that balances the need to hire quickly with the need to hire the
+most successful person for the role rather than the most expedient one. The scariest thing
+you can say to an operations leader is “I want quality and speed.”30 They know just how hard
+this is to do, whereas other leaders might not realize what fulfilling this well-intended request
+actually involves. But when you’re growing quickly, your hiring approach needs to achieve
+that operational nirvana. To do so, practically everyone at the company must be involved in
+hiring, and they must consistently prioritize the work and adhere to the operational and
+cultural standards you’ve set. The good news is that they’ll be motivated to do so—these are
+
+[p.169]
+their future colleagues, after all. Once you’ve set the expectations, ensure that the
+surrounding work and processes reinforce the goals of quality and speed while measuring
+and monitoring for outlying behaviors, good or bad, that affect the process.
+What the industry calls “talent acquisition” is really just marketing and sales—specifically,
+what we call growth or performance marketing. At the highest level, you need to invest in
+your talent brand, lead identification, and outreach in order to direct traffic—job page views
+and applicants—into your “funnel.” Then you need to have the means to assess lead quality
+and optimize conversion through the various stages of the process for the leads most likely to
+succeed. Many companies have built successful and repeatable sales and marketing
+acquisition arms, and you can do the same with the talent funnel, although admittedly with a
+more variable human element.
+As with any strong operation, hiring starts with clarifying the organization’s overarching
+objectives and cultural principles, followed by an outline of the process you intend to build
+and an overview of how you’ll measure success. This process doesn’t end with a candidate
+accepting the job but rather with a successful onboarding experience and by forging strong
+connections between the new hire and their manager and with the company overall. (Figure 9
+on the next page offers a view of the steps involved in the hiring process, or the hiring
+conversion funnel.)
+Throughout this chapter, you’ll find information on how to navigate each step in this
+funnel, followed by sections on how to alter the approach when recruiting for leadership
+roles.
+Figure 9. The hiring conversion process.
+Like the adjustments you make when acquiring and converting sales leads based on the
+customer segment—smaller prospects might be self-serve or lower-touch, for example, while
+higher-volume and larger prospects might need more bespoke treatment—you’ll need to
+make adjustments to your hiring and onboarding approaches at various stages of your
+company’s growth and for different types of roles. It’s useful to think of the unique hiring
+needs for different levels as a pyramid:
+
+[p.170]
+Figure 10. Unique hiring needs at different levels.
+At the base, where you’re hiring at volume to fill lots of open roles, much of the work and
+interviewing will be done by people who have already proven themselves in the role, followed
+by a final manager interview. Hiring at this level is generally a set process with many available
+interviewers. The number of people you need to do this work closely mirrors the number of
+people you need to hire. Instead of separate hiring committees or hiring meetings, you might
+even have a more uniform candidate review and approval process.
+As the pyramid narrows, the process and the approach become more focused and
+customized to the role. For hiring at the middle of the pyramid and above, there should be a
+separate and set hiring team or committee that includes the same interviewers for every
+candidate, including key cross-functional partners. The committee will develop insights on
+the match between the candidate and the role. This pattern recognition should ultimately
+result in a committee that helps make the hiring decision with more conviction, and thus a
+stronger hire.
+When you’re hiring at the very highest level, you’ll still have a hiring team, but it will take
+an even more bespoke approach. This team will mainly include your current executives, plus
+a set of individuals that you select specifically for this hiring process. (More on this in the
+section on leadership hiring on page 190.)
+Just as you need to strike a balance when designing a planning process appropriate to
+your company stage, you’ll need to adjust your process for hiring candidates who are not in
+early-career roles but are also not leadership hires: the middle of the pyramid. If this is the
+first person you’re hiring into a new role—your first in-house lawyer, say—the process will be
+more tailored. But if you’re hiring more support managers to add to an existing team, for
+example, your process can be more prescriptive, because you know what you’re looking for
+and you generally know how to find qualified people. Over time, you’ll want to gain
+efficiencies and build more scale into the process, but only once you’ve established that you
+can repeat it at high quality. For those top roles, you’re not likely to standardize all aspects of
+the approach at any point.
+
+[p.171]
+SIDEBAR
+—
+The founder’s role in hiring
+I recently received two texts from founders asking if they should interview every candidate
+who is a finalist for a role at their company. If you’re early in your scale—say, 100 employees
+or less per founder or trusted senior leader—the answer is yes. Your early hires are critical to
+the company’s trajectory, and founders are the people best equipped to model the hiring
+behavior they want to see, namely a rigorous interview and a high bar for quality.
+I’ve seen founders have the most impact in situations where the hire is just fine—those
+candidates who meet every qualification and pass the assessment rubric but for whom some
+hard-to-name concern emerges that leaves you wondering whether they have the attitude and
+the potential to excel. Many interviewers will hesitate to call out amorphous concerns
+because they result from instinct rather than from an established question in your interview
+approach. Because of this, making a no-hire decision on someone who is just fine needs to be
+modeled. You can eventually work to build that filter into your process, but the best way to
+start is by demonstrating it through leadership behaviors. Be transparent about those
+moments when you say no to a candidate and explain why. Use them to teach others how to
+conduct the assessment and how to look for that indefinable thing that usually amounts to
+“I’m excited to work with this person, no matter the role.”
+If you do this well, you can teach other leaders to model the same behavior as you scale.
+This is what we did at Stripe. The founders set the example and taught each new leader our
+hiring principles and expectations. As Stripe grew, senior leaders began to take on the finalist
+interviewer role, and either a founder or executive team member met every finalist. This
+continued until Stripe had hundreds of employees. Only when the leadership team was
+confident that hiring managers and division leaders would proxy not just a rigorous hiring
+process but also the right hiring behaviors did we start to step back and concentrate our time
+more on the middle and top of the hiring pyramid.
+—
+The rest of this chapter outlines the broad steps in the hiring process:
+Recruiting: attracting candidates into your hiring pipeline
+Hiring: decision-making, from onsite to offer
+Onboarding: setting your new hire up to succeed
+Each section will cover both employee and leadership hiring. The chapter will conclude
+with advice on how to close your hiring loop to improve it over time.
+Hiring starts with recruiting, so we’ll start there too.
+Recruiting
+Building market awareness for a new product can be hard. Building awareness of your
+company among potential talent can be equally challenging. Your company needs to actively
+
+[p.172]
+educate candidates about its existence and seek out potential hires. Small businesses might
+do this via job listing sites or even Craigslist, but small yet growing technical companies will
+have a tough time with that approach—it’s a very competitive talent market for those with
+technical skills, and you need to make your case to folks who have multitudes of lucrative job
+options. Early on, the easiest thing to do is to mine the personal networks of the founders and
+early employees. This approach can work initially, but it doesn’t scale. It can also create a lack
+of diversity, because our friends tend to be just like us in terms of experience, background,
+and often race and gender identity.
+In the early days, Stripe got creative about building its hiring pipeline. Because we built for
+developers, we were able to hire a few early users of the product, namely the ones who gave
+the most and best feedback. But soon enough, we added new tactics to our efforts to educate
+and differentiate. These ranged from the founders posting on Quora or Hacker News and
+answering questions on Internet Relay Chat to writing blog posts on the Stripe site and using
+Twitter to share them.
+One way the early team drove traffic to Stripe and to our job postings was a competition
+called Capture the Flag: a series of coding challenges that created a buzz and, best of all,
+presented the company with participants who might be great job candidates. The initial
+Capture the Flag event had about 12,000 unique visitors, and 250 participants captured the
+flag. Three of those 250 joined Stripe directly. The event, coupled with activity in other
+online forums, helped Stripe start to create a strong talent brand and drive leads to the hiring
+process.
+SIDEBAR
+—
+Stripe’s Capture the Flag
+In keeping with Stripe’s strong writing culture, an early Stripe engineer and key Capture the Flag
+contributor, Christian Anderson, wrote about the origins of the competition for all Stripes to read
+and learn from. This is a lightly edited excerpt from his write-up.
+Stripe’s most famous community event is Capture the Flag (CTF), a programming contest
+that ran three times starting in 2012. We threw together the first CTF in 12 days and
+announced it in a blog post. We expected it to sit online in perpetuity, delighting
+programmers and providing our job applicants with an optional challenge. Instead, the
+contest was popular beyond our wildest expectations, drawing roughly 12,000 participants in
+the week we kept it online. Starting that week, the CTFs became an integral part of Stripe’s
+growing reputation with our core audience (developers and those who build innovative
+products online). They publicly showcase our love of building, our fascination with
+technology, and our drive for excellence. Unsurprisingly, they have drawn many engineers to
+Stripe. And, in turn, these engineers have helped write the next CTF.
+Stripe was an 18-person company in February 2012. Inspired by SmashTheStack’s IO, a
+contest about identifying and exploiting security vulnerabilities, a Stripe engineer named
+
+[p.173]
+Siddarth Chandrasekaran proposed that Stripe write our own such challenge. He began
+coding on February 9. Two more engineers joined soon thereafter, and the three of them
+shaped the first CTF. As a participant, you needed to complete a series of six increasingly
+difficult levels. You moved to the next level by exploiting a vulnerability to reveal the
+password of the next user. The exploits included a buffer overflow for the fourth level and a
+timing-based side-channel attack for the fiendish sixth level.
+As of the closing day, 250 people had solved every level. A couple of the winners of CTF
+joined us in the wake of the contest. These included one of the architects of Capture the Flag
+2 (CTF2). He proposed a web security CTF as part of the ramp-up to college recruiting
+season. We spent three extremely intense weeks building CTF2 and launched it on August 22,
+2012.31 During those three weeks, Stripe grew from 28 to 31 people. While the core team
+remained small, many additional Stripes (including our first summer interns) were involved
+in polishing and play-testing the new CTF.
+CTF2 was more deliberate than CTF1 in every regard. For instance, we ran it on proper
+infrastructure with the expectation that we’d need to scale it. We announced CTF2 one week
+in advance and did some deliberate marketing ahead of the launch. And, most visibly, our
+designer, Ludwig Pettersson, created a beautiful CTF2 website with a Tron theme.
+The CTF site included a leaderboard that tracked the progress of its 16,000 participants
+across eight levels. As with CTF1, the first few levels were deliberately accessible and the last
+several fiendish. It’s still not uncommon, in a discussion of a new web exploit, to hear
+someone say, “This reminds me of the Stripe CTF!” They mean CTF2. Level 7, for instance,
+taught hash length extension. The authors of the famous MD5 length extension paper, Thai
+Duong and Juliano Rizzo, gave us a shout-out for this. They later wrote to us when they
+published the CRIME attack on the TLS protocol and included us in their announcement
+video.
+After the beautiful but consuming production that was CTF2, months passed before
+anyone had the appetite to consider CTF3. By summer 2013, though, our collective urge to do
+a third CTF was building momentum. We decided that if we were going to do CTF3, it needed
+to address our major qualm with CTF1 and CTF2: They both optimized for breakers rather
+than builders. With this in mind, we decided on an ambitious new theme for CTF3: systems
+engineering, including distributed systems, performance, and scaling. The ambition of the
+theme is not surprising, given how aspirational Stripe is, but it introduced new uncertainties:
+We had substantial prior art for a security CTF, but none for a distributed systems CTF. If not
+impossible, CTF3 would be impractical. It would require us to build, run, and test arbitrary
+distributed systems code submitted by the participants.
+One of Stripe’s founding engineers and its first CTO, Greg Brockman, worked in late July
+and early August to validate the distributed systems idea and prototype the architecture. But
+the late summer and early fall of 2013 was one of Stripe’s most intense times to date, and we
+decided to postpone the launch until January 2014 so that we could prioritize core work for
+the 2013 holiday season. At this point, there was a fear in everyone’s minds that we’d
+mothball CTF3 indefinitely. However, we had come far enough to see what a great idea it was
+
+[p.174]
+to do a distributed systems CTF, and that idea had a strength of its own. In December, Greg
+released two example levels internally. The company (74 people at that time) loved them.
+Following the holidays, a group of Stripes got together and went all in on shipping CTF3.
+On the engineering side, the core team decamped to Greg’s family home in North Dakota
+to spend a week heads-down on CTF. Mostly undeterred by the polar vortex that swept
+North America in January, plunging North Dakota to -10°C and grounding flights across the
+country, the week was prolific: We drafted five levels and preannounced CTF3 on January 15.
+In the week leading up to launch, fistfuls of Stripes stepped in to help. The week was a blur of
+all-nighters and near all-nighters, but CTF3 shipped on January 22 to enormous fanfare. We
+had 7,500 participants push code to us over 640,000 times. The realistic nature of the levels
+meant that almost every one of them had workarounds that we hadn’t anticipated, but that
+didn’t dampen the enjoyment of individual solvers. CTF3 is the one that folks have in mind
+when they say, “The Stripe CTF is the most fun I’ve had programming.”
+The three CTFs are a study in how to reach the developer audience, an audience that is
+core to the company and core to our user base (past, present, and future). When a developer
+tries one of our CTFs, their reaction is “Here is a company that values what I value.” That’s
+something we have to continually live up to, in our products and in our future side projects.
+Beyond that, the CTFs are a study in our values: For each CTF, a self-organized group of
+volunteers came together to build something great for the company.
+—
+Once you’re creating traffic, you need to make sure that there’s a page on your site that
+explains what it’s like to work at the company and offers a way for candidates to browse open
+job descriptions. This is a big milestone, and reaching it takes work. Both company and job
+descriptions can be surprisingly hard to get right, especially when you’re still building your
+product and defining various roles—that time when everyone is essentially doing every job.
+The key is to be as clear as you can about the work environment and the expectations at the
+company and in the role, but not to be overly verbose or prescriptive. You want to open the
+aperture wide enough to attract applicants who have the potential to succeed but not so wide
+that you disappoint someone who starts a role that doesn’t resemble the overly high-level job
+posting onto which they probably projected their own aspirations. If you’re not quite sure
+what the role will be yet, saying so will also help filter out candidates: If the ambiguity makes
+them uncomfortable, it’s likely not the role for them. It’s also critical to watch out for
+language about the role or expected qualifications that transmits bias about who should or
+should not apply. This language can be subtle and hard to identify. Luckily, there are now
+companies and products devoted to helping you neutralize such signals (like Textio or
+Grammarly) or mine data to find potentially undiscovered talent (like AdeptID).
+Keep in mind that what you say early on about your company and about these first roles is
+the beginning of both your talent and company brand. Take as much care with these
+foundations as you do with your first product releases. Your first candidates and their
+experiences should receive the same attention and scrutiny as the first users who adopt your
+product.
+
+[p.175]
+For some time, the Stripe hiring process was managed by engineers rather than recruiters.
+The great part of that precedent was that it created a sense of ownership in every employee
+for every part of the process, and it embedded into every Stripe a desire for every new hire to
+succeed. The downside was that it became so celebrated that an early engineering leader
+posted on Quora that Stripe didn’t need recruiters. When it came time to build the recruiting
+team, especially its leadership, that public declaration worked against my recruiting of
+recruiters!
+I do think that inculcating that sense of ownership into every person at the company is
+vital, but there will also come a time when you need to hire specialists to help screen
+candidates and manage the candidate relationship and the hiring process. You will likely need
+at least one recruiter and possibly a recruiting coordinator to help with scheduling and
+logistics once you’re past your initial team—say, 10–20 people—and you know that you will
+be consistently hiring. Once you’re hiring multiple people a week, you should think about
+building a recruiting team with an experienced leader. Still, a recruiter should never be a
+substitute for a hiring manager, meaning the individual hiring for the role. There needs to be a
+tight partnership between the person responsible for the recruiting experience and the
+recruiting process and the person who will ultimately be accountable for the new hire’s work.
+As you scale, it may not be clear who the manager will be for each hire, since they may not
+yet be assigned to a specific engineering team, for example. In that case, you need people and
+a process that can proxy the commitment of the hiring manager to finding the best candidate
+for the role. (For more on this, see the sidebar on candidate review on page 185.)
+New employee recruiting
+Hiring is everyone’s job. At Stripe, we have extensive internal guides that outline each
+person’s role in the recruiting and hiring process for hires below the leader level. I’m often
+surprised when I encounter companies where this function is a separate appendage, tacked
+on like a human factory that you can call up to order a new financial analyst and have one
+show up a month later. For scaled hiring, meaning most of your roles other than leadership, I
+understand why this happens: It’s natural, as a company gets larger and larger, to keep
+specializing and sub-specializing until recruiting becomes a silo, letting individuals on a team
+focus on their jobs and not on interviewing. But I would caution against this tendency,
+because eventually people become divorced from learning how to represent the company—
+the culture!—and from feeling responsibilities for their colleagues’ selection and success.
+In order to involve a greater number of people in the hiring process and keep them
+engaged as you grow, particularly when it comes to high-volume hiring, you need to have
+both a strong process and clear commitments between the recruiting function and those who
+participate. It’s also critical to publicly celebrate those who contribute the most, in order to
+send the message—repeatedly—that hiring is not a side job but a core responsibility for
+everyone in the company.
+SIDEBAR
+—
+
+[p.176]
+Recruiting commitments
+Here’s an example of some of our internal content on recruiting. This document outlines the
+mutual commitments between the recruiting team and the rest of Stripe so that we all meet the
+expectations of ourselves and of the process. All of these items link out to more detail on our
+intranet, Stripe Home.
+Stripes’ commitments to recruiting
+Keep your calendar accurate.
+Know the role and the interview.
+Review job descriptions, capabilities, and frameworks:
+Participate in interview trainings and keep abreast of updates to interviews you frequently
+conduct.
+Read any prep material before the interview (particularly for roleplays or scenario-based
+interviews).
+Familiarize yourself with the capabilities you’ve been assigned to evaluate in the
+interview, along with any guidelines for evaluating them.
+Know the routine:
+Try not to leave the candidate alone. Contact the recruiting coordinator if you’re going to
+be late or need to leave the candidate.
+Always know who is after you and what time your interview ends. This way, we can prep
+the candidate for the next interview and leave time for questions.
+Know the candidate:
+Review their résumé, their LinkedIn profile, and any other application materials prior to
+conducting the interview.
+For managers: Review written projects and feedback from earlier interview stages to
+understand areas that may still need to be probed.
+Submit feedback on time.
+Be an active participant in tropes (hiring meetings):32
+Read other interviewers’ feedback prior to the decision (after you’ve submitted feedback)
+and come prepared to discuss points of concern or disagreement.
+Be specific and clear about FUD (fear, uncertainty, or doubt), and be sure that your FUD
+ties directly into one of the capabilities you were asked to assess. For example, “Candidate
+was dismissive toward person X and downplayed the contributions of her team when
+discussing past roles” is more helpful than “I have some culture FUD.”
+
+[p.177]
+Speak up! Hiring decisions are a chance for people to air any opinions or concerns before
+we decline or extend an offer. If there’s ever something you don’t want to share in public,
+feel free to contact your recruiter directly. This is much better than keeping quiet about a
+potential issue.
+Follow up with candidates:
+Send out “excite-a-mails” upon offer extension or acceptance. This is particularly
+important if you’ve spent significant time with a candidate in an onsite interview.
+Respond to follow-up questions from candidates promptly. If you don’t have the
+bandwidth to get back to a candidate quickly, forward the query along to recruiting or to
+the hiring manager.
+If a recruiter introduces you to a candidate at any stage in the process, reply to them
+within 48 hours.
+ABR (always be recruiting)!
+Recruiting’s commitments to Stripes
+Be respectful of Stripes’ calendars.
+Value referrals and referrers.
+Set candidates up for success:
+Have clear job descriptions and interview frameworks scoped before beginning to
+interview candidates.
+Be transparent with candidates about what to expect during their interview process.
+Act as an advocate and sounding board for candidates from point of contact through
+rejection or offer.
+Be direct and clear about our intentions at all times, and leave candidates feeling that they
+were treated well, regardless of the outcome.
+Give candidates the benefit of the doubt and treat them with empathy at all stages of the
+process. Interviewing is hard!
+Communicate clearly and often with candidates.
+Shepherd candidates through their onsites.
+Set hiring meetings up for success:
+Actively facilitate (in conjunction with the hiring manager) to ensure we stay on topic,
+move efficiently, and end on time.
+Moderate hiring discussions to ensure they are respectful and fair to the candidate.
+Discussions should be tied to particular capabilities and should primarily focus on
+whether or not we believe the candidate can do the job we’re interviewing them for.
+
+[p.178]
+Communicate effectively with hiring managers and interviewers throughout the recruiting
+process.
+Handle sensitive information carefully and privately:
+In the course of working with candidates, recruiters often learn private or sensitive
+information. We commit to keeping this information contained to the people who need to
+know it.
+Interviewers should feel comfortable coming to recruiters with private concerns about
+candidates, and they should know that recruiters will be discreet with this information.
+Do what’s right for Stripe:
+Above all, it’s important to maintain our hiring bar and optimize for Stripe’s long-term
+success. Recruiting will continue to advocate for what’s best for Stripe at this moment and
+in the future.
+—
+Build insights on talent needs and candidate success
+Before you open a role and start the process to fill it, be sure to study what success looks like
+at your company. Start by asking yourself:
+What kinds of people have we hired previously?
+Who’s doing really well?
+Who’s scaling at the same pace as the company? Why? What qualities and capabilities do
+they exhibit?
+What perspectives and experiences are we missing at the company? Where are we less
+diverse? What are our weak points and capability gaps?
+I’ve attended a few events where Condoleezza Rice, the former US Secretary of State
+under George W. Bush, was interviewed. At one of them, she was asked how she ended up
+back at Stanford when she had a multitude of opportunities she could have pursued following
+her time in government. She answered that what she wanted most was work that allowed her
+to excel, to make an impact, and to pursue her passion. For her, that was in education.
+I find it helpful to think about her advice as a Venn diagram with three circles: people who
+are good at their work, people who have a great impact on the company’s progress, and
+people who love what they do. The ideal employee fits into all three. Make a list of all of the
+people at your company who fall into this bucket. What other qualities do they have in
+common? What questions can you ask during recruiting to suss out whether a candidate
+shares those qualities? Use these internal questions to hire more people who not only have
+the right skills but also regularly bring passion and energy to their work. Who are the people
+who are working hard but also clearly having a good time? They’re intrinsically motivated,
+and it shows. In his book Drive, Daniel Pink argues that motivation is achieved via autonomy,
+mastery, and purpose.33 I think motivation and, ultimately, a feeling of fulfillment are critical
+
+[p.179]
+to high performance. These are the people who have the energy and space to get curious and
+learn.
+Figure 11. The ideal employee.
+When I first joined Stripe, our international presence was new. We had individual country
+managers working as generalists to build traction wherever they were located and in
+whatever form was required. But as the company grew, these people needed to transition into
+serious team builders and managers accountable for revenue. A few of them would eventually
+run large divisions of their own. Some of these country managers scaled into these new roles.
+Others didn’t, because they were great hires for the early stages of a market but didn’t have
+the desire or the abilities to scale into the evolved version of the role.
+As we brought on new country managers for further expansion, we hired candidates
+based on an understanding of the types of people who had already been successful in this
+role, but we also adapted our understanding as the role evolved. We sought people who
+relished the challenge of expansion to such a degree that they were willing to put in the time
+to learn what the company needed, constantly ask for feedback, and educate themselves
+about the product and their local markets. The people who will scale with your company are
+the ones who can anticipate what they need to learn now in order to excel at what their role
+will become in six months. For certain roles, that adaptation is absolutely critical.
+The country leadership role at Stripe continues to shift. For more mature markets, it’s less
+about building and more about optimizing and expanding our sales capabilities. For others,
+it’s still about evangelism, groundwork, and early-stage sales to acquire users we can
+highlight to attract others. Be prepared to constantly evolve what the role requires and, as a
+result, to evolve your thinking about which candidates are best equipped to thrive. These
+candidates should demonstrate the potential to adapt with the role and, ideally, should be
+
+[p.180]
+able to step back and ask themselves what they’re missing. As you contemplate your hiring
+strategy, keep asking yourself: Are there experiences and skill sets that the next phase of the
+company will require? (There’s more about this in the section on new leader recruiting on
+page 157.)
+Open a role and help applicants self-select
+Once you’ve decided to take the plunge and start hiring for a role, it can be tempting to make
+job descriptions into rosy advertisements for your company and team. Resist that urge, and
+instead design your job descriptions and hiring process to entice prospects who might be a
+good fit and discourage prospects who might not be. Set clear expectations about the role,
+and provide other information—like the company mission, a culture guide, and practical facts
+on benefits and work practices—to help the candidate better understand what it’s like to
+work on your team and at your company. Most importantly, be transparent about the work
+environment. If it’s fast-paced and people are expected to act independently, make that clear.
+Being self-aware as a company—that is, being a company made up of self-aware individuals
+who understand how they work best—is crucial as you grow. (Remember Operating Principle
+1: Build self-awareness to build mutual awareness.) Knowing who you are allows you to hire
+well.
+“A Quick Guide to Stripe’s Culture,” which I excerpted on page 66, also contains a series
+of questions to help candidates assess whether Stripe is a place they want to work. Each
+Stripe principle has a corresponding question:
+We haven’t won yet
+The value of Stripe (and of your equity) is not a foregone conclusion. While you’ll have a
+hand in the outcome, are you okay with a substantial amount of risk and ambiguity?
+Move with urgency and focus
+Do you want to work hard at a place that could never be described as a cushy job?
+Are you comfortable with owning your own career outcomes rather than having a clear
+progression of goals and milestones described to you by a single decision-maker?
+Think rigorously
+When was the last time you changed your mind on a fundamental opinion you had? Do
+you do that frequently?
+Stripes deal with high-variance situations on a day-to-day basis but are thoughtful and
+measured in response. Is that what you’re looking for?
+Referrals
+Once you’re clear on what success looks like for a given role, and once you’ve written the job
+description and posted it, you’ll hopefully be able to start screening candidates to enter the
+interview process. In addition to talent brand development, it’s critical to create a strong
+
+[p.181]
+referral process, since your existing employees likely know potential candidates. And if
+you’ve hired well, your employees’ networks should be just as strong as they are.34
+Referrals shouldn’t be your only source of candidates, however. Referral processes are
+difficult to scale—and, as I mentioned earlier, they can undermine attempts to diversify your
+team. But don’t underestimate how effective referrals can be. Treat those referrals well.
+Referrals are also a great way to gauge employee happiness and engagement, for what should
+be obvious reasons.
+My interview at Google came about because a friend from business school introduced me
+to a friend of hers from college who was a manager at Google. I distinctly remember sitting
+next to my fiancé as we drove along one of California’s winding roads, thinking that I was
+going to have a friendly introductory phone call. Instead, this woman grilled me for 45
+minutes! By the end of the call, I realized that for my friend to refer me to this manager, she
+had to have strong confidence that I had both the skills and the attitude to succeed at Google.
+The time the manager took with me displayed a strong commitment to Google’s hiring
+process. I often think back to the ownership she demonstrated and what it said about the
+company and about the importance of all employees participating in the recruiting process.
+Screening processes
+Your screening processes will differ based on the volume of applicants, with different people
+(or machine learning algorithms) conducting the initial résumé reviews. (Referrals might skip
+this step.) At the highest level, you’re scanning résumés to check whether candidates’
+qualifications fit with the role qualifications you’ve outlined, for example a rapid trajectory or
+success in a similar role. Some more sought-after companies add a step to their screening
+process to test the applicant’s commitment and to collect more data to make a hiring
+decision, like a coding assessment or a short written project. (I include an example of a
+written exercise in the chapter appendix on page 241.) But beware of creating too many
+hurdles while you’re still building a talent brand and your pipeline.
+Once a candidate looks viable, a recruiter or a hiring manager will conduct an initial
+phone screen to determine whether they think the person might be right for the job. If the
+candidate hits the mark in the phone screen, the recruiter or hiring manager will pass the
+candidate on to onsite interviews. Some companies have a recruiter meet the candidate and
+then, before the onsite stage, have a team member or manager conduct a second screen.
+Either way, the end of this portion of the process is an invitation for a set of formal
+interviews. We’ll get to that stage after we look at the adjustments you’ll want to make to this
+process when recruiting leaders, or you can flip straight to the section on the formal
+interviewing process on page 176.
+New leader recruiting
+Sometimes leadership hiring follows a core tenet of product development attributed to Henry
+Ford: “If I had asked people what they wanted, they would have said faster horses.” When I
+was interviewing at Stripe, the company had just over 100 people. Patrick Collison called me
+with some of the feedback from the team. (We’ll talk more about the importance of involving
+
+[p.182]
+others in the hiring process later in this chapter.) A key piece of feedback was “Maybe we
+need her when we’re 400 people, but right now, it’s too early.” I recall Patrick then saying
+“But we’re going to be 400 people basically tomorrow.” We both laughed, somewhat ruefully.
+It was a classic example of the truism that people in your company won’t tell you they
+need a leader. It’s up to you to determine when the time is right—and if you don’t, you might
+regret it. Growth from 100 to 400 people happens quickly if you have real traction. I
+sometimes call hyperscaling “riding the dragon”: You need your dragon riders—your fearless
+leaders—before the beast takes off to still greater heights.
+It can be hard to recognize exactly when you’ve hit one of these “I need a leader”
+moments, especially for founders and builders. They’re usually so close to the work that they
+aren’t aware of how many different jobs they’re doing that could be done by others. I recently
+had a phone call with a founding CEO of a fast-growing company of 300 people. He asked me
+how he would know whether and when he would need more leaders, or new leaders for
+certain roles. I asked him to write down all of the different jobs he’d performed over the past
+three weeks, then think about which of those jobs only he could do as the founder and CEO,
+like leadership hiring, perhaps some investor conversations, establishing the culture, forming
+the strategic vision, and major investment decisions, either in the future product or in
+shoring up against potential threats. For the jobs that others could do, we talked through
+whether he already had someone in the role but ended up getting too involved—a sign that
+his current person wasn’t scaling—or whether he was missing someone and was, instead,
+instinctively doing the work to cover the need.
+It can take real effort to look at the full picture this way, and to understand when the work
+has grown so much in volume and complexity that it’s time to bring on someone else or
+create a new role. It can be harder still to predict that the work is about to grow that much
+and that you need to hire someone immediately to do the work 6–12 months in the future.
+You need to pull yourself out of the day-to-day and survey what has changed in the last three
+to six months. Then you need to look forward in order to create a theory about what will
+continue to change and grow in importance such that it will need leadership.
+If your company is scaling, it helps to remember that your primary goal is to work yourself
+out of a job. I used to have a test at Google: When my team and I got an email from a leader
+with a question, I would refrain from writing back immediately and wait for someone else on
+my team to respond. I viewed it as a failure if I was the only one who could answer the
+question or take action.
+One particularly popular story of this kind among scaling companies is Molly Graham’s
+description of her time working through hypergrowth at Google, Facebook, and the startup
+Quip, where she was COO. She draws an apt analogy to a child building a Lego creation: Even
+if you give the child more Legos, they’ll be reluctant to share the ones they have.35
+In a hyperscale environment, it’s hard to give up the things you’ve built and the multiple
+jobs you hold. But the only way for you and the company to grow is to get over that emotional
+response and realize that there are going to be a lot more Legos—and probably better Legos
+
+[p.183]
+—the more you let go. Graham says, “You have to give away your job every six months.”
+That’s especially true for leaders, particularly founders and CEOs.
+You also want to be constantly vigilant about gaps in capabilities—both your own and
+those of the company’s leadership team—that are becoming critical to the future success of
+your company. (See the section on analyzing your skills and capabilities on page 34.) In other
+words, in the spirit of being self-aware, you have to know what you don’t know and what
+you’re not good at.
+Being able to set ego aside and be ruthlessly critical of yourself and your division is hard.
+It’s not just about where you have gaps today but also about what you’ll need in the next
+three to five years. It’s a fine line to walk. On the one hand, you’re still fighting for survival, so
+it’s hard to imagine that you’ll need more experienced people in bigger roles. On the other
+hand, if you have traction, you’re already starting to add complexity to your operation. Even
+things that work for you today, like how you fundraise as a small private company, might not
+be the same tomorrow, when it might require a CFO who has presided over public company
+financing and financial reporting processes. It’s about having confidence in that potential
+future, but not hubris. And although it might be painful to admit you can’t do it all, it’s better
+to give the Legos away too soon rather than too late. If you don’t, you risk sending your
+company into a death spiral.
+“As CEO, I would say the number one success factor for being a good leader is
+being able to pick talent. That, and create followership.
+But the hardest lesson I’ve had to learn [is that] you get to that point where it’s
+impossible for you to be successful without trusting others to do things better.
+And that breakthrough is when you go beyond being a manager.
+A leader has to spend their time on things no one else can do. If you’re doing
+something that others on your team could do just as well, you’re just wasting
+your time.”
+—Lisa Wardell, former CEO and current executive chair, Adtalem Global Education
+Determine what kind of leader you need
+One of my favorite stories from Google’s early days is about how the founders hired Omid
+Kordestani. Omid was Google’s 11th employee, and he built its business operations from the
+first employees and the first dollar in revenue to over 12,000 employees and over $20 billion
+in revenue. Omid showed up to meet Google’s founders, Larry Page and Sergey Brin, and
+found himself seated at a ping-pong table. He quickly realized that they were unsure what to
+ask him. “You know,” Omid said, “if I were interviewing someone for this role, here are the
+questions I might ask.” And he proceeded, very gracefully, to interview himself.
+Unfortunately, not all candidates are like Omid, so you’ll need to do the legwork to figure out
+the capabilities you’re seeking and how to assess them.
+
+[p.184]
+Recruiting for a new role is tricky. If you’re hiring for a new position, you probably don’t
+know exactly what you’re looking for. (That’s what the experienced hire is for!) Or, even
+trickier, you’ve had someone with less experience doing part of the role, but you’re not sure
+what the more experienced person could bring to the work and the organization. For
+example, what’s the difference between accounting and strategic finance?
+When you’re in a high-growth mode, it’s often the case that you don’t have the capabilities
+you need fully in house, but you may not realize this until you’ve completely assessed the
+company’s current state. Your best starting point is to build an understanding of the role and
+outline the experience, characteristics, and skills of a successful leadership candidate.
+Whether you promote from within or hire externally, you’ll want to be clear on three things:
+What is the work to be done?
+What does “great” look like?
+How will we assess people against that benchmark?
+Once you have the broader sketch, you’ll need to think about the company’s needs and
+trajectory to fill in the must-haves versus the nice-to-haves in your internal or external
+candidate’s experience and abilities.
+“First, I need to understand the core of what my business is. Then, from that, I
+peel the layers off everything and understand where I need to be better, or
+where I need to hire someone who can help me fulfill those tasks. I don’t know
+everything.”
+—Dominique Crenn, owner and chef, Atelier Crenn, Michelin three-star restaurant
+Even if you’re not thinking of hiring externally—we’ll cover how to determine that on page
+168—talk to advisers and folks at other companies who’ve had success in the role, as well as
+to people in similar roles, to get guidance on what you should be looking for and how to
+assess candidates’ abilities once you’ve built the interview pipeline. Tactically, this means
+connecting with companies that have reached—or, better still, reached beyond—your stage
+and successfully filled these positions, as well as with investors, advisers, and board
+members, if you have them, for examples of success. Ideally, you’ll talk both to people who
+have figured out what type of candidate they need and applied those learnings to hire a
+successful candidate, and to those who have successfully done the job themselves.
+Importantly, do not use your interview process to calibrate your understanding and
+expectations of a role. You will churn through potentially good candidates, and you may even
+damage your company’s reputation in the process.
+I’ve fielded many such requests from founders considering whether they needed a COO.
+They typically ask about my background, what the role meant for Stripe, and how it has
+evolved. They also usually want to know about the hiring process and how I made the
+decision to join Stripe. In the grand tradition of Silicon Valley, I make time for these
+conversations and seek to help others as much as I can. I hope to truly support and
+contribute to their efforts to research the best approach for their company.
+
+[p.185]
+SIDEBAR
+—
+My COO story
+The story of how I came to be Stripe’s chief operating officer is, like most of the stories we
+tell, likely rife with assumptions and personal interpretations. Still, I feel it’s worth including
+here. I hope it will be instructive as you consider your own approach to hiring a COO.
+As is the case with most startups, Stripe took some time to get to product-market fit and
+find traction with its first users. It hovered around 30–40 employees for about three years.
+Patrick and John were also committed to growing carefully: Stripe charged for its product
+from the beginning and monitored the P & L closely to avoid costs far outstripping revenue
+growth. Because of this caution, when users and revenue started to accelerate, Stripe was
+slow to invest in scaling the company. I think this happens in many companies: They’ve been
+fighting for traction for so long that they almost don’t believe they’ve hit escape velocity. My
+sense is that it was at this point that Stripe’s investors and advisers started pushing the
+founders on two fronts. First, it was time to build out the sales team. Second, the company
+needed to start hiring more people in all functions, and add a few new ones.
+The founders began taking a series of meetings with potential heads of sales, as well as
+some COO types. By that I mean generalist business leaders who had depth (or, at least,
+enough depth) of experience in multiple functions that would be required for Stripe’s next
+stage, including go-to-market, operations, and running company processes at scale. My first
+meeting with Patrick was in February 2014, when Stripe was around 70 people and starting
+to hire quickly. Our conversation ranged from extremely tactical management scenarios to
+big-picture musings on the future of economic progress. I also made it clear that I wouldn’t
+leave Google for a head of sales role, and that I wasn’t sure whether Stripe needed my
+experience scaling teams yet, given its size.
+I didn’t hear from Patrick for a few months, but he reemerged that spring to learn more
+about me and my experience. I think I was interesting to Stripe because I had deep customer
+experience, both in scaling support operations and in building and leading sales teams, but I
+was also extremely compelled by company building and investing in recruiting and human
+resources. My interest in the latter was less in the actual HR function and more in the
+systems and cultural markers that would need to be in place for Stripe to grow sustainably
+and healthily. Patrick and John saw that the combination of my experiences and interests was
+complementary to theirs and to Billy Alvarado’s, the other executive (in addition to the
+general counsel) who was helping to lead the company at the time. I filled in some blank
+spots, but I also loved to collaborate and share responsibility, which fit with Stripe’s model of
+decision-making. One thing I particularly appreciated about this discovery process, unlike
+some others I’d participated in, was that there were no default assumptions about what I
+would be responsible for. Instead, it was more of a mutual exploration of strengths and
+interests.
+By that August, Stripe had over 100 employees, and Patrick and John had decided that the
+company needed a leader who could build and lead across multiple functions, not just sales.
+
+[p.186]
+The role would free up bandwidth for them and for Billy and would provide experienced
+leadership to help the company scale. They seemed to think that I might be that person—so
+it was time for me to decide whether I wanted to work at Stripe. I did.
+One wrinkle we faced was that Billy already had the title of COO, but he was focused on
+the critical financial, product, and distribution partnerships that were fueling Stripe’s growth.
+He was also acting as CFO. During my recruiting process, Billy and I met over frozen yogurt
+in Palo Alto, and he was very clear that he needed to focus on partnerships (and finance,
+thankfully) and wanted someone to join the company who enjoyed the hiring and process-
+building required for scale. It says a lot about Patrick and John’s hiring of Billy, and about
+Billy as a person, that he so willingly handed over his title and helped recruit a new COO in
+recognition of a new company stage and a new set of needs.
+In October 2014, I officially joined Stripe as its chief of business operations—a title
+intended to allay suspicions that I was showing up and taking Billy’s job, which might not
+have sat well with employees. Then, about six months into my tenure, Patrick sent a short
+note to the company explaining that Billy would take on the title of chief business officer and
+I would become the COO. To this day, Stripe leaders are not afraid to shift our portfolios in
+the interest of what—and who—is best for the business at any given time. That instinct
+started early.
+Stripe had about 160 employees when I joined, and that still seemed a bit small to require
+some of my skills. But I was drawn, above all, to the founders—to their ideas, ambition, and
+combination of EQ and IQ. I was also compelled by the rate of new users and revenue, the
+size of the market, the potential impact I could have given my experience, and the
+professional lessons I would gain as a person finally at the “head table.”
+In retrospect, it was a big deal for Stripe to hire an unknown quantity to take on the title
+of COO. The title often connotes a responsibility as the CEO’s proxy and right hand, whether
+or not that’s true in reality. Stripe mitigated that cultural risk through Patrick in particular
+spending countless hours getting to know my abilities, delving into how I think, and
+understanding whether our values aligned. I’ve told many folks that I’m quite complementary
+to both Patrick and John, yet despite our different abilities we share overlapping values and
+attitudes about leadership and a similar fundamental definition of what it means to be a good
+human. When they hired me, they placed a great deal of trust in my ability to make positive
+progress, and I’ve always been grateful for the opportunity to help lead Stripe.
+—
+Do you need a COO?
+When I advise founders about hiring a COO, I share a lot of the advice included in this chapter. I also push them to
+consider whether they really need a COO—and if so, whether it’s the right time to hire one. It’s not a position that
+many large companies have, but it’s very much in vogue for growth-stage companies, and even for some in earlier
+stages.
+The desire for a COO makes sense given the demands on the CEO, which range from customer, product, and
+business decisions to implementing company infrastructure and tending to company culture. But ultimately, a COO is
+an extra layer of management, and once companies achieve more scale and a more fully developed leadership team,
+
+[p.187]
+that layer might not be necessary. Also, you may not yet be in a position as a company to attract the type of candidate
+who would be able to scale in the role for more than a year or so.
+My initial role at Stripe demanded a lot of range. In addition to responsibilities across sales and operations, I was
+also the head of recruiting, the recruiting team manager, and a recruiter myself. Then, in time, I was the COO, with a
+head of people who had a head of recruiting reporting to her. Whomever you hire will have to have that ability to move
+up and down the “stack,” or you’ll need to wait until you’ve reached a certain scale to land the right person and
+position them well for impact.
+One excellent concept I inherited when I joined Stripe was the idea of a business operations team: a team staffed
+with folks who have a mix of consulting and entrepreneurial backgrounds, who thrive on new situations and on
+solving problems as Stripe scales. The members of the initial “biz ops” team, as we call it, were our first salespeople,
+and many of them were also our first product managers. Really, they were whatever Stripe needed them to be at the
+time—which is a lot like the COO job. Before you hire a COO, consider building a biz ops team and hiring a head of
+business operations who can proxy some of the COO’s responsibilities. Doing so can help you scale and figure out
+what you really need in a potential COO. Your business operations leader may even become your COO—I did join
+Stripe as chief of business operations, after all!
+Ideally, your outreach will validate whether you need the new leadership role. Your
+discussions with others should also help you create a rubric—a framework—with which you
+can assess potential candidates.
+Here are some questions you might ask others to start to develop that rubric:
+How is the role defined at your company? What is the person accountable for? See if
+the answer matches the definition of the role you’re envisioning. If it doesn’t, seek to
+understand why not. Is it because of the business model, or is it more about the skill sets
+of the company’s other leaders?
+What are the most important skills or capabilities needed for success in the role?
+Create a list of abilities and consider how you might test for them in your interview.
+What was it in the person’s background/your background that made them/you
+qualified? You’re looking for the must-haves in their experience that earned them the
+position and seeing if these match your own conception of the role.
+Can you share the biggest challenges they/you faced in their/your first year? Note
+how you might help your new leader, consider whether they will face similar challenges,
+and figure out how you might test for the ability to overcome them at your company.
+How do you/how does the person work with the CEO or another close
+collaborator/leader in the company? Use this to clarify responsibilities and to
+understand how decision-making and ownership might work for those who will work
+most closely with the new leader.
+Do you have any advice on finding strong candidates for this role? Are there
+particular companies that do this well? Do you know anyone I should talk to?
+Hopefully you’ll emerge with companies to research, or even names of people you might
+want to meet and recruit as candidates.
+Another strategy is to ask one of the folks you’ve learned is successful in the role if they’d
+be willing to let you interview them as if they were a candidate. This can help you gut-check
+whether your vision of the role is similar to what they were assessed for. You’ll start to get a
+
+[p.188]
+feel for the answers that seem right for your own process, which will help you flesh out your
+rubric.
+Of course, it’s also a tried-and-true recruiting trick to seek outside advice and test-
+interview someone because you’re secretly hoping to recruit them. If this is what you’re
+doing, it’s better to be honest about it. In my experience, people are happy to help, and they’ll
+tell you whether you’ve got a shot at actually recruiting them. Either way, at the end of your
+research process you should have a spreadsheet of LinkedIn profiles of people who could be
+candidates for the role. All good executive recruiters start their process by amassing a set of
+profiles to which you can react. You’ll use it to think about why these individuals may or may
+not be great for the role, and patterns will start to emerge that will help you create your
+candidate assessment rubric and refine your job description. Over time, you can add to and
+mark the candidates on the list and continue to hone your search.
+Aside from these outside conversations, I would encourage you to build confidence in
+your own gut instincts about what the role requires based on first principles. Résumés and
+LinkedIn profiles are filled with industry and functional jargon, but if you strip it all away,
+you can always find an answer to the fundamental questions: What is the job to be done, and
+what skills and capabilities are required to do that job well?
+Say the role in question will require the candidate to build a growth marketing function.
+That means they will need to know how to organize events, develop content, and place
+advertisements that drive leads for your sign-up or sales process. They will also need to test
+and measure what works to convert leads into customers. So you know that the role calls for
+someone who can design compelling programming, content, and ads, and who knows how
+and where to use each medium, what tools and measurement practices are required to judge
+effectiveness, how to work with product or engineering to refine your sign-up or onboarding
+process, and, ultimately, how to calculate ROI and optimize the marketing spend. Depending
+on your business model, some of that work might be more important than the rest. For
+example, if you have more of an enterprise market, finding someone familiar with events and
+white papers may be more important than it would be for a business that relies more on self-
+service channels. Remember, in this scenario the candidate also needs to know how to build a
+team of people who can do all that work. Knowing all this, you can add these skills and
+capabilities to the candidate assessment rubric. Capabilities like team building, persuasion,
+and analytical skill will be critical, and skills like the ability to envision and execute an
+effective marketing campaign will be valuable, too. Be clear in the framework about what’s a
+must-have and what’s a nice-to-have. For example: Has the person built a similar team
+before, and did that team produce great results? Which parts of the work have they
+personally done? They’re going to start as a team of one, so they’ll need to be able to do the
+most critical work either by themselves or with an agency. They may need to design and test
+your first set of online ads. Have they done that?
+Don’t forget that you know your own company better than anyone and can assess what it
+takes to be successful in that environment. You can add those elements into your rubric for
+candidate assessment. Ultimately, the rubric will become a guide for interviewers; it should
+
+[p.189]
+point to what they’re probing for and what questions they might ask, and it should tell them
+how to assess the candidate’s answers. (See the chapter appendix on page 213 for an example
+rubric, and see the section on hiring on page 170 for more on interviewing.)
+As the manager of a potential new leader, there’s one more element to consider for your
+rubric: complementarity with your existing leadership team. Some companies have all
+leadership candidates complete work style or personality assessments. Although we haven’t
+gone that far, Stripe did have our first CFO candidate take the Insights Discovery assessment
+I described in Chapter 1, which presents findings in a color wheel made up of blue, red,
+yellow, and green segments. I had an inkling that this hire would round out our team’s color
+wheel, adding someone in the blue quadrant, which tends to represent more introverted,
+analytical, and task-oriented people. I turned out to be right, and the resulting discussion, in
+which we shared his results and those of the rest of the leadership team, helped build a
+mutual understanding of each person’s preferences and showed the candidate how he could
+round out the group. He started the role knowing each member of the team better, and we all
+had a common language we could use when we needed to ensure we were bringing different
+perspectives to a discussion or decision.
+In the end, you should emerge from this research-intensive phase with a better
+understanding of the role and its job description, an assessment rubric to use for candidate
+screening and interviews, and a list of individuals who best represent the qualities you believe
+you’re seeking for your pipeline.
+One final caution: As you develop that list of example candidates, beware of what I call the
+experience trap. First, know that the more experienced someone is, the better they probably
+are at being interviewed. (I’ll cover this more in the section on interviewing leaders on page
+196.) Second, look out for those who have become complacent or hit a ceiling once they’ve
+attained a certain level of experience. One reason their trajectory may have stalled is that
+they’ve become what I call a playbook thinker: They’ve done something once or twice and
+become stuck on one way to do it, unable to bring ambition and creativity into their process
+or adapt to a new environment. Really examine the quality of the companies they’ve worked
+for. Have they consistently sought out great companies and strong teams? That’s a signal of
+both their judgment and their ambition. For any hire, but absolutely for leadership hires,
+you’re seeking trajectory and momentum—but above all, you’re seeking raw curiosity and
+signs of pure learning aptitude. Is the person ambitious and seeking new challenges, and have
+they demonstrated that they can overcome a challenge and deliver results? That’s about
+desire, grit, and intelligence. Don’t just test for credible experience—test for that too.
+Promoting from within or hiring from outside
+Once you’ve identified the kind of person you want for your senior or leadership role, the
+next question you should ask is whether you should promote from within or hire from
+outside.
+Hiring talent from outside for senior roles is a risky business. The more senior the role, the
+longer and more expensive the recruiting process: Expect to be searching for at least six
+
+[p.190]
+months for senior leaders. After all that work, only about 25–50 percent of outside hires,
+especially senior ones, are successful.36 Whenever possible, start with the talent you know,
+develop them, and promote from within.
+Unfortunately, this is not always possible. Mature organizations have the time and
+numbers to develop a large talent pool. It is a failure if these organizations haven’t done the
+work to cultivate an internal successor for a critical role. (Google is now able to develop
+thousands of future leaders for their core divisions at any time.) But if you’re not mature or
+not very big, you have a real dilemma: Do you promote someone internally who is not quite
+ready but has a lot of potential? Do you then throw them into the deep end and hope they can
+swim, and risk damaging their rate of success if they can’t? Or do you go out into the market
+and risk hiring an unknown entity who may not work out?
+It’s also important to be honest about your company stage and whether you can attract
+the talent you need for the next five-plus years. If your company is quite small and early-
+stage, it may feel risky to candidates who are in well-compensated top positions at more
+stable, established companies, and you may not be able to convince them to join. The result is
+that you may end up hiring someone who will be a fit for a few years but not for longer. It’s a
+difficult needle to thread: You need the person now who can help grow your company to the
+scale where you can attract the person you actually need. Your options boil down to betting
+on someone internally, hiring the next-few-years person and hoping they’ll scale longer-term,
+or taking a ton of time seeking the five-plus-years person and hoping you can convince them
+to take the risk. Depending on your context, you’re likely to make different calls for different
+roles. The key is to zoom out and be intentional about making that call, and then to track
+your talent as they develop to determine whether you need to revisit the hiring decision as
+the company evolves.
+For early-stage companies growing quickly, my experience has been that at least one-third
+of promotions should come from within. Fewer than this and you’re not investing enough in
+developing existing talent. One-third should also come from outside: At an early stage, your
+company is unlikely to have the talent pool it needs to hire internally only. The final third is a
+toss-up: It depends on the company’s growth rate, the organization’s needs, and your ability
+to support and develop internal talent and recruit and onboard external leaders.
+As I’ve mentioned, as your company gains traction, it will inevitably need to build a
+recruiting function. Most likely, your recruiters will be focused on the higher-volume hiring
+rather than on acquiring new leaders. The recruiters themselves are likely to be early in their
+careers and less experienced with leadership hiring. For senior roles, most earlier-stage
+companies rely on search firms. I’ve had mixed results with that path. On the one hand, good
+search firms can quickly produce a list of people who fit your needs, and they can even help
+you land the initial meetings with candidates. But they require more investment than you
+might imagine in order to be successful: They need to understand your company, its
+trajectory, what the role is, and how to position it to candidates. They also need to intimately
+understand your company stage, or else they won’t be able to set candidate expectations
+effectively, whether on compensation or on the day-to-day context of what it’s like to lead in
+
+[p.191]
+that environment. Often, it’s better to reach out to your own network, your board, and other
+advisers to collect a list of potential candidates instead of relying on a search firm whose
+outreach might be more likely to be ignored than your personal touch.
+However, if you’ve already exhausted your personal networks, maybe you should turn to a
+search firm. In my experience, the larger, more blue-chip executive search firms are better
+equipped to help with classic roles, like CFOs. Roles that might be more tailored to your
+company’s unique definition and needs might be better served by boutique firms that
+specialize in sales and marketing or engineering roles, for example. With or without a search
+firm, top leadership roles require a ton of work to recruit for. Never forget that you are
+ultimately the recruiter: Leadership candidates are savvy, and they know that the CEO and
+the rest of the leadership team are the people who will matter to their success or failure.
+How to determine whether to hire from within or from outside
+Once you’ve established the requirements and qualifications for the leadership role and have
+a few profiles of potential hires, go through the decision tree on the next page in order to scan
+your current talent pool and determine where you should hire from.
+It’s difficult to get the balance right between bringing in new hires and developing internal
+talent. Organizations can romanticize external hires and become convinced that they’ll solve
+all their problems. The great ones do have a huge positive impact, but when those senior-
+level external hires don’t work out, it can be very organizationally and culturally expensive.
+Organizations also sometimes hold on to existing talent out of a sense of loyalty and
+gratitude. Don’t ditch the loyalty and gratitude—show people your appreciation and help
+them be successful in their careers—but be aware that a person’s ability to take the company
+up to this point isn’t a sure sign that they’ll be able to take it even further.
+I once had lunch with a very experienced recruiting leader who was at Facebook and then
+Pinterest as they scaled. What he said, wistfully, stuck with me: “Don’t assume the folks who
+got you here will get you there.” Be constantly vigilant in answering this question: Do I have
+the talent I need now and for the next two to four years for my team or company to be a
+success?
+As you think about the continuum from scaled talent acquisition to bespoke leadership
+recruiting, it’s also worth considering what you’re seeking in a leader or senior hire, from
+hard skills to true capabilities, such as the ability to build and lead a team. Capabilities,
+especially those that are less innate, take more time to emerge and develop. Roles that will
+rely most on these types of abilities—often abilities that come from experience—are likely to
+require more custom recruiting processes. Early in a company’s growth, they’re also more
+likely to come from outside. The benefit of internal hires, however, is that you have deep
+knowledge of the person and their contributions. They, in turn, have deep knowledge of your
+product and company. Over time, some of your most valuable leaders—be they executives,
+managers, or individual contributors—will be long-tenured early employees. Nurture their
+careers and help them move across the company so they can grow and develop, as well as to
+embed the culture they embody into every team they work with. For external hires, you’ll
+
+[p.192]
+need a much more robust interviewing process to assess talent and make one of the most
+important decisions a company makes: extending a job offer.
+Figure 12. How to determine whether to hire from within or outside the company.

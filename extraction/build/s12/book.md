@@ -1,0 +1,540 @@
+# Book pages for session 12
+
+Verbatim text from `sources/scaling-people-book.pdf` via PyMuPDF. Page markers `[p.N]` are PDF page numbers (zero offset).
+
+[p.381]
+OceanofPDF.com
+
+[p.382]
+Management is an iterative process. We learn as we go, and we
+hopefully learn from one another’s examples, but it’s generally hard
+to get it right without a lot of practice.
+I find managers often fall somewhere on a continuum between
+the “extreme coach” and the “forgot-to coach.” The extreme coach
+spends too much time involved in the day-to-day, providing endless
+feedback. The forgot-to coach is often very clear about what results
+they want to see but is unclear on how to help their direct reports
+achieve them. Most managers fall somewhere in between. In my
+experience, many managers wait too long to offer coaching—often
+until a formal performance conversation—unless the direct report
+specifically asks for feedback or help on work. This may be because
+coaching involves a certain amount of risk—you’re offering
+judgment on someone else’s work and skills.
+Some executive coach coined the phrase “Feedback is a gift,” and
+though it feels cloying to say, I do think the manager’s attitude needs
+to be one of service. You may not be an expert in everything a
+person is doing, but your role is to help them be better. To do that,
+you need to offer service in the form of observations about what
+they do well and how they can improve.
+One of the best manager coaches I ever had was Paul Bascobert,
+a partner at the consulting firm I joined out of business school. He
+wasn’t my direct manager, but he was very involved in most of the
+projects I was a team member on, and he was the key partner on an
+engagement where I ultimately helped sell the project and led the
+team. Paul’s original training was as an engineer, and he had a
+certain matter-of-fact directness that I’ve come to appreciate and
+that many engineers share. Sometimes the coaching was not so
+helpful: We once handed him a draft presentation we’d prepared for
+our client and he rifled through it, took out a pen, flipped back to the
+
+[p.383]
+front page, and wrote, “Think harder,” then handed it back to us.
+Not very detailed feedback—but he did set the bar high.
+Paul’s best coaching moment happened in the early days of the
+project I was leading. As you can imagine, I was more than eager to
+prove myself and my new team. In a practice run before we met with
+the client’s executive sponsor, we sat with Paul and presented our
+proposed project scope and work streams. Well, really, I presented
+the scope and work streams. The practice session went fine, but
+afterward Paul asked to speak with me in his office. I was hoping for
+some praise on our good start or a few constructive comments
+about our work streams, but instead Paul asked me, “How did you
+think that went?”
+I was puzzled. I said, “I think we’re ready, right?” In response, he
+said, “What do you think Teresa was thinking?” Teresa (not her real
+name; all team members’ names have been changed) was the most
+junior member of the project team. I was stumped. He said, “Okay,
+what about Mike?” Mike was the technical member of our team and
+was responsible for a key element of the project. Again, I was
+baffled. This went on for some time, with Paul asking me about each
+project member in turn and how I thought they had experienced the
+meeting. Eventually, Paul weighed in: “Teresa wanted you to
+acknowledge her work. And Mike would have liked to present his
+work stream, not you.”
+I’ll never forget that. Paul’s coaching was not about the substance
+of the presentation but about my failure to be the leader my team
+needed, to offer them recognition and a chance to share their work.
+How would I get this new team behind me, and how would they buy
+into me as their leader, if I didn’t acknowledge their contributions
+and if I took all the best opportunities for myself?
+
+[p.384]
+During my entire early career in multiple organizations, I never
+had a formal performance review. But I learned a lot in moments like
+that one. I remember once, as deputy campaign manager for a
+gubernatorial campaign in 1998, I walked into the campaign
+manager’s office to tell him about a big problem I’d discovered. He
+listened and said, sarcastically, “Wow. Has no one ever faced this
+problem before?” I’d come in with a problem but not done one bit of
+work to propose some solutions!
+Some years later, my first formal performance review at Google
+was a revelation. I knew what my areas for development were—
+thanks to feedback along the way, I’d become quite attuned to what I
+needed to work on. But what was new to me was the attention paid
+to my strengths and how they were perceived. Yes, I had been given
+more responsibilities, even promotions, in my work in politics and
+consulting. But no one had ever said, “You really have talent.” And
+sometimes, especially when the work is unending and hard, you
+need to have someone tell you that as part of a formal process. So
+here I am, advocating for both regular coaching and formal
+performance reviews.
+Before we get to performance reviews, let’s talk about informal
+feedback and coaching.
+To some, business is already too rife with sports analogies. I get
+it. But I’m the daughter of a baseball coach—okay, he was a teacher
+who happened to coach baseball, but he identified as a coach—and I
+grew up watching sports. I don’t necessarily love every minute and
+every aspect of the sports I watch, but I love watching the coach and
+seeing how the performance of individuals add up, sometimes, to a
+true team. It’s one of the few places where you can be in the
+audience and observe what happens to people under intense
+pressure. I recommend paying attention in those moments.
+
+[p.385]
+In the Michael Lewis article about Bill Parcells I mentioned in
+Chapter 4, Lewis writes, “It’s an elemental thing—that mysterious
+something in a player under pressure that either snaps or holds—
+and elemental things are what interest this old coach.”67 As a coach,
+I’m certainly getting older, and I’ll never tire of trying to figure out a
+person’s elemental thing.
+Hypothesis-based coaching
+One of my favorite coaching techniques is what I call intuitive
+coaching. Intuition gets a bad rap, I think. To some, it feels fluffy and
+lacking in data. The source of an intuition may be hard to pin down,
+but think of it this way: An intuition is just a hypothesis. You
+observe a few examples of a phenomenon, and you think, “I wonder
+if there’s a pattern here.” Then, like a scientist, you figure out a way
+to test your theory and collect more data.
+Managers are often afraid to share their hypotheses with their
+reports because they think it means they’re judging their people,
+which they perceive to be bad management. But good judgment is a
+manager’s job! It’s akin to making a business decision: Leaders
+create a strategy based on their assessment of a particular business
+need, then confirm whether that strategy was successful by
+reviewing user interviews, data, and product tests or by going to
+market. The same can apply to people: You observe a particular
+need, form a hypothesis about what might be the root cause of that
+need or a possible solution to it, and then you test the hypothesis,
+sometimes directly with the person in question.
+When it comes to coaching, I think a lot of managers need to get
+to a point where they can feel comfortable implementing Operating
+Principle 2: Say the thing you think you cannot say. If you can get
+stronger at standing next to the person, seeing from their point of
+
+[p.386]
+view, and offering observations and hypotheses to help them grow,
+that person will view you as someone invested in their success,
+ideally a partner. Hypothesis-based coaching is about saying the
+thing—making the observation—before you may feel completely
+ready, but doing so in such a way that the person experiences you as
+an ally in their journey to improve.
+Sharing your hypotheses with your reports can initially feel
+strange, but as you start integrating this approach into your
+management style, you’ll be able to have much more targeted
+performance conversations. You can then jointly explore whether
+the hunch you have about the root cause of a performance challenge
+is true. Sometimes you’ll be wrong, which is in itself a data point.
+Oftentimes, you’ll discover an insight that wasn’t initially obvious to
+either of you but that ultimately helps your employee.
+Hypothesis-based coaching also helps you act quickly rather
+than relying on a long process of observation and gathering data on
+a person’s performance before coming to a conclusion. It’s like
+deductive instead of inductive reasoning. Posit something, then start
+talking about it. The sooner you and your report can identify areas
+for improvement, the sooner you can start making changes.
+The career conversation outlined in Chapter 4 is a great place to
+start forming hypotheses about your reports. In fact, they may
+volunteer some during the conversation. Once, as I probed a report’s
+motivations for a certain career choice, they told me, “I’m always
+drawn to the thorniest and riskiest problems, although sometimes I
+get a bit too involved in solving them.” That’s not just a data point,
+it’s the person’s own hypothesis about a development area. File that
+away and bring it back up when the moment is right to coach them
+on how they might mitigate a tendency they want to avoid—in this
+case, not the part about taking on risky problems but about getting
+
+[p.387]
+lost in trying to solve something to the detriment of bigger-picture
+objectives.
+Intuitive coaching consists of three steps, which you may repeat
+a few times before getting to an insight you want to share or a firmer
+conclusion about a strength or development area your direct report
+might have:
+Gather data: You have more than you realize and need less than
+you think.
+Form a hypothesis: Based on your observations of your report,
+develop a sense of their strengths and weaknesses.
+Test your hypothesis: Be rigorous and vulnerable as you do this.
+In the previous example, one data point is the person’s opinion
+about their tendency to get too involved in problem-solving. The
+next might be your own observation that they’re going too deep into
+the details of a particular problem space on a project. Your
+hypothesis might be that they lose the forest for the trees and they
+need to be more aware of the bigger-picture objective and willing to
+use the 80-20 rule: Perhaps understanding 20 percent of the root of
+the problem is enough to know 80 percent of what’s needed to move
+forward. Your test might be to delegate another, similar project to
+the person, or, if you feel more confident—and in this case you
+probably should, since the person has raised the concern themselves
+—to have a conversation with your report about what you’ve
+observed and how you might work on mitigating their tendency to
+dive too deep.
+Let’s go into more detail about each step:
+Gather data
+A senior leader—let’s call her Anika—recently asked me to help her
+with a situation she faced with one of her reports, whom we’ll call
+
+[p.388]
+Sonya. Sonya had just been promoted to managing a division, and
+multiple managers in her division appeared to be struggling. Anika
+had gathered feedback on Sonya from three of Sonya’s direct
+reports, but she felt uncomfortable assessing whether the situation
+required her intervention with just three data points.
+As we discussed the situation, I pointed out that Anika had a lot
+more data than she thought. She knew each of those three reports’
+roles, and she had worked with them personally. She had context on
+their work style, preferences, strengths, and weaknesses. She also
+knew the context Sonya was operating in: She was now managing
+managers of managers of managers! Plus, we were in the middle of a
+global pandemic, and as a result, Sonya’s core responsibilities were
+ambiguous and continually changing as we revamped our plans for
+the year. When you’re a manager who has only led companies in one
+mode, suddenly switching to a different mode can mean you need to
+take a different approach as a leader. Sonya’s division wanted more
+clarity and direct leadership from her during a time of crisis instead
+of her more facilitative style, which was better suited to periods of
+growth and expansion.
+The bigger point is this: Once Anika studied the situation—she
+knew the players, the division, and the broader context—she
+realized that she had more like 10 or 15 data points rather than
+three. That information was more than enough for her to form a
+hypothesis and start coaching.
+Form a hypothesis
+Based on your observations of your report, you can start to develop
+a sense of their strengths and weaknesses and consider any
+challenges you’ve observed that may be worth discussing.
+Sometimes you’ll form an early assessment of your report and
+how they’re performing. Don’t be afraid to use that as your starting
+
+[p.389]
+hypothesis. For example, in order to help Anika, I read the peer
+feedback she had collected about Sonya. With our hypothesis in
+mind—that Sonya had been operating more as what business books
+might call a “peacetime” leader—a bunch of the data points started
+to match up. She was very good at consulting with her teams and
+bringing people along in decision-making processes, but her
+transition into a manager-of-managers role during a pandemic called
+for her to be more of a “wartime” leader.68 In other words, she
+needed to be more precise and provide more direction. The peer
+feedback indicated that her teams wanted this additional clarity and
+increased assurance.
+It can take a while to trust your intuition when you start
+practicing this kind of coaching. Sometimes you might have trouble
+forming a hypothesis, or you might find that the data you’re
+collecting suggests conflicting conclusions. If that’s the case, spend
+more time collecting data before you form a hypothesis. Over time,
+you’ll start to get a sense of whether you need to continue collecting
+more data in a given situation or whether it’s time to start testing
+your hypothesis. If most of your hypotheses are correct after three
+to six months of practicing this form of coaching, you can start to
+assume that your manager’s intuition is developing nicely. If your
+assessments end up being wrong more often than not, you may need
+to spend more time in the data-gathering phase, relying more on
+peer feedback and results, and likely spending more time with your
+report.
+Test your hypothesis
+The best way to test your hypothesis is to share it directly with your
+report. When you do this, acknowledge that you’re not stating a fact
+but presenting a theory about the way they work. You can say, “I’m
+testing a hypothesis. Let me know whether it feels right to you.”
+
+[p.390]
+Present the hypothesis as an observation about their behavior and
+the impact it has on their work, not a judgment about who they are
+as a person. For example, instead of telling someone, “My guess is
+that you’re a bad communicator,” which suggests some absolute
+truth about who they are and what they’re good or bad at, it’s much
+more effective to say, “I have a theory that you’re not effectively
+getting important information across to the right stakeholders. For
+example, when we came out of that recent business review, I sensed
+that the CMO was unsure about your plans. Did you sense that?”
+And, of course, follow up with: “What might you do differently?
+How can I help?” Presenting your hunch as an observation or a
+theory explains how a report’s behavior impacts the outcome of
+their work without passing judgment on them as a person.
+It’s easier to test your hypotheses when your reports have strong
+self-awareness—our old friend. When they hear your observation,
+some folks will easily be able to consider whether it aligns with what
+they know about themselves. Others will have more trouble making
+that assessment. Take note of how your reports respond to
+feedback, and compare their self-descriptions to your and your
+team’s observations. If the person’s self-perception is consistently
+misaligned with what you and others observe, you’ll need to gather
+more data to test your hypothesis. They may have what I call a self-
+awareness gap, in which case you’ll need to demonstrate that gap to
+them with a lot more detail and data. For example, if you’re worried
+that your report isn’t effectively communicating to their teams, you
+may want to join some of their team meetings or town halls to get
+more insight.
+I remember the case of a very talented person who had helped
+build a team for the company but was ultimately not promoted to
+lead that team due to a self-awareness gap. This person was very
+
+[p.391]
+strong at certain elements of their role but had a few large weak
+spots. They had trouble seeing and articulating the macro strategic
+picture and building collaborative relationships, which were big
+parts of the role. They received feedback about these development
+areas multiple times, but they didn’t seem to hear the message, or
+didn’t believe it. Because they were talented, their manager gave
+them a leadership opportunity to see if they could overcome their
+development areas and use their strengths to shine. Instead, the
+project was not successful. When the person received that feedback,
+they left the company rather than acknowledge how their refusal to
+work on growing their skills had contributed to the project’s
+problems.
+Remember, your job as a manager is to make the observations
+and provide opportunities. The report’s job is to listen and decide to
+act. You can’t force these things. In this example, the manager used a
+tactic I consider a best practice: Before you promote someone, have
+them perform some of the duties they’d have to take on in the role in
+order to see how they’ll fare, and see if they’re aware of any gaps in
+their abilities. Although it didn’t work out in this example, it’s often
+a strong strategy.
+Giving hard feedback
+Often, your intuition will tell you that you need to give your reports
+constructive feedback and highlight areas for improvement.
+Constructive feedback can feel hard to deliver because there’s a risk
+that you’ll hurt the person’s feelings. To state the obvious, these
+types of conversations can elicit very strong emotions: shame,
+sadness, disappointment, fear. Framing this conversation properly
+will make it much easier to avoid defensive reactions and present
+yourself as a collaborator who is dedicated to the person’s success.
+
+[p.392]
+Be an explorer, not a lecturer
+Instead of thinking of your meeting as a hard conversation in which
+you’re delivering bad news to a report that they must then react to,
+set the conversation up as a partnership: You’re exploring a situation
+together. Now you’re an explorer, not a lecturer.
+This can be hard to do. After all, you’re initiating this
+conversation because you have a hypothesis and you’ve gathered
+evidence that there’s a problem to address. You also probably have
+some great ideas about how to solve that problem. But if you offer
+solutions before you both agree on the problem, there’s a good
+chance that you’ll alienate your report. Start by making sure that
+you’re both on the same page about the issue at hand. Then, use that
+alignment to mutually lay the groundwork for improvement. Just as
+people often need to learn from their own mistakes rather than
+reading about other people’s errors, a person is much more likely to
+successfully evolve their behaviors if the recognition that they need
+to change and the idea for how to improve come from themselves,
+not from an outside observer.
+Your goal is to get your report to think with you about the
+problem and start to generate solutions. There are two methods for
+getting to this state: asking an open-ended question or sharing an
+empathetic observation. This will make it much easier to get into a
+curious and collaborative mindset, and it makes it much less likely
+that the conversation will get derailed. Framing the discussion this
+way also gets you to solutions faster, because both you and your
+report are starting from a place of trust and shared understanding
+instead of suspicion and differing perspectives.
+Let’s look at how these two methods can begin a constructive
+feedback conversation if, for example, you think your report did a
+
+[p.393]
+bad job presenting at the weekly meeting or is underperforming this
+quarter:
+Option 1: Ask an open-ended question
+You might start by asking “How do you think that presentation went
+yesterday?” or “How do you think this quarter is going?” These are
+good examples of neutral, open-ended questions. Contrast these
+with bad examples like “Do you think that meeting could have been
+better yesterday?” or “Would you agree that this quarter has not
+been going as well as expected?”
+The worst questions you can ask are completely closed questions
+—ones that can be answered with a yes or no response. These can
+get you started on the wrong foot because they signal that you’ve
+already made up your mind about how things are going—as in, “Do
+you think you’re bad at presenting?” An open-ended question, on
+the other hand, begins a dialogue and invites self-reflection. It
+doesn’t assume a particular answer but rather indicates that you’re
+curious and hoping to explore potential answers, ideally together.
+Your report may respond with acknowledgment, such as “I wish I
+had been more prepared” or “This wasn’t my strongest quarter to
+date.” If that’s the case, you’re starting from a place of shared
+understanding and can probe for root causes together and work
+through ideas for improvement. But if they respond with denial,
+such as “The presentation was pretty good!” or “All’s well,” you may
+want to try Option 2.
+Option 2: Share an empathetic observation
+Sharing an empathetic observation can start the conversation on a
+supportive, fact-based footing and will allow you to work on
+solutions together. Again, be sure to frame it as a neutral
+observation, not a judgment. For example, try telling your report, “I
+
+[p.394]
+was thinking about that presentation you gave. It was so strong at
+the start, but I thought it could have been even more impactful at
+the end. What did you think?” If they ask for more information, you
+might say, “I noticed your talking points became less concise toward
+the end, for example.” Or, if it’s a work delivery issue, you might say,
+“I noticed that the last two projects you owned each missed their
+deadlines by two weeks. Is there something I can help with?
+Something I should know?”
+Make the observation supportive, objective, and specific instead
+of emotional and generic. More emotional and generic versions
+might be “I feel like you’ve gotten a lot worse at making
+presentations lately,” or “Things have been slipping for a while,
+huh?” Generalities and judgments put people back on their heels,
+whereas specific, empathetic observations open a dialogue.
+When you share the observation, own it. Make sure the person
+knows that you’re not trying to assume their reality; rather, you’re
+trying to share your reality with them. Someone once said to me,
+“Feedback is just holding up a mirror and describing the image you
+see.” You’re not describing what the person actually looks like, just
+your perception of them—which may or may not be reality. Own it
+as such and involve your report in the conversation. Even if your
+report’s reaction isn’t “I totally agree,” stating something as an
+observation is a neutral way to start the discussion. You’re simply
+reflecting your experience of them, not asking them to confirm your
+criticism.
+If going directly to an empathetic observation isn’t working, try a
+few cycles of reverting to Option 1 and asking an open-ended
+question. If the person’s answer is still “I think the presentation was
+great!” it may be time to give your own answer: “Huh. My
+impression was that it was not that great. For example …” It may
+
+[p.395]
+take a few rounds before you arrive at a common understanding of
+the development area, but it’s nearly always possible. People are
+more self-aware than you might expect.
+That said, if the person is not self-aware and presenting
+additional data doesn’t help close that self-awareness gap, you may
+need to make a change. (I cover this in more detail in the section on
+managing low performers on page 386.) Someone who is not self-
+aware is not necessarily a low performer, but it can be challenging or
+even impossible to coach such a person to improve and scale with
+their role, so they often become low performers.
+Creating a culture of informal feedback
+Companies often invest in their formal review processes but forget
+to examine their culture of informal feedback: the one-off pieces of
+advice or observations that people offer to help their colleagues and
+reports in their day-to-day work.
+When I joined Stripe, there was a strong—almost too strong—
+culture of commenting on one another’s work, and a lot of
+transparency on every piece of work product to enable this. When I
+say “too strong,” I mean that a lot of the feedback was quite direct
+and lived in written comments and Slack messages, which could feel
+abrupt and intimidating for new people. With scale, both the amount
+of work product a person can absorb and the amount of time others
+have to comment on it has waned. But one practice that has
+persisted, which is also a form of expressing our “Users first”
+principle, is that before anything is sent out to a large group, the
+whole company, or anyone externally, we test the content with a
+small group for feedback. The people who do this the most are the
+CEO and the president: the cofounders. This sets the example for
+everyone, from leaders onward. It transmits the value of humility,
+
+[p.396]
+collaboration, and respect for the time that the reader or viewer
+might take to absorb the content once you send it out into the world.
+What Stripe does less well is bidirectional, informal feedback. We
+haven’t cultivated a fully open culture where people frequently
+speak up and say something constructive without necessarily being
+asked. I can attribute that to fewer examples set by leaders, to our
+rapid growth, and to the fact that new folks lack the confidence to
+share feedback, or perhaps to our emphasis on generosity and
+kindness to one another. (Again, I think feedback is a kindness, but
+not everyone does.) No matter the cause, it’s something for us to
+work on.
+Companies are well served by taking the time to examine their
+culture of feedback. If it’s found wanting, leaders are ultimately the
+ones who will steer any changes. That investment is worthwhile
+because if your company hasn’t built a strong muscle for informal
+feedback, the formal review process can feel very destabilizing.
+People go into it not knowing where they stand.
+“I really like it when people can disagree with each other,
+but you have to create the environment for it. In a
+business environment, you need to be brutally honest,
+and to be brutally honest you can’t have a culture that’s
+brutal.”
+—Don Hall, executive chairman and former CEO, Hallmark
+To build a healthy feedback culture, model the behavior in both
+team meetings and 1:1s. As I mentioned earlier, “Praise publicly and
+criticize privately” is a good rule of thumb. This largely holds true,
+especially for individuals, but I do make a distinction between team
+and individual feedback. Often, team feedback—that is, feedback
+about the performance of the team—should be data-driven and can
+
+[p.397]
+be presented as an honest assessment of how things are going. Your
+team should come to expect that you’ll tell them honestly whether
+you think they performed well last quarter or whether a project was
+executed well. Talking about that publicly, focusing on what you all
+learned and what the team can do differently to improve, helps build
+an environment of learning and open feedback.
+You should also personally solicit and welcome feedback,
+especially when you’re still setting the tone of a working relationship
+—when new teams are forming norms or when you’re just starting
+to manage a new employee. For example, if you’ve just tried out a
+new meeting format, set the expectation up front that you want
+feedback on how the meeting went. If your team already feels
+comfortable sharing ideas, you could do this publicly by going
+around the room and asking for feedback. The team may not have
+fully built that norm yet, so you can also follow up privately with
+individuals.
+Asking for feedback
+Since the best way to create a culture of feedback is to ask for
+feedback yourself, here are some pointers on how to do that openly
+and often:
+Ask on different occasions and through different forums.
+Explicitly ask for feedback in 1:1s, during or after meetings, over
+email, and in work sessions. Phrasing the ask as a request for
+something you can improve makes it clear to the person that you
+actively want the feedback. For example, instead of asking “How
+do you think that meeting went?,” you could ask, “What could I
+have done differently in that meeting?” Or, in a 1:1, instead of
+asking “Is there anything else on your mind?” you could ask,
+“What do you think I can do to make this project more
+
+[p.398]
+successful?” Thank the person for their feedback. Don’t try to
+explain the choices you made, or you risk appearing defensive or
+sending a signal that the feedback is not welcome or respected.
+Normalize the practice of giving feedback. If you were given
+feedback in private, consider mentioning this in your next team
+meeting. This sets a norm that giving and receiving feedback is
+welcome and normal.
+Let the feedback sit. When presented with feedback, it’s
+tempting to problem-solve or try to explain what happened. I’m
+not always the best at refraining from doing this, but I’ve come to
+understand that it can sound defensive, even if you don’t mean it
+that way. Instead, repeat the feedback to ensure you’ve heard the
+other person accurately, then thank them for sharing it. If you do
+want help problem-solving, return to the topic at a later time to
+ask for their partnership in addressing the issue.
+Follow up on the feedback. At a future point, tell the person
+who’s given you the feedback whether and how you plan to act
+on it. Sometimes you’ll determine that the feedback is valid but
+you’ll decide not to prioritize it. Other times you might decide
+that you want to dig in more. But even if you don’t act on it, it’s
+important that the person knows they were heard.
+“I encourage [the team] to give me feedback, good or bad,
+in front of others. When they see others doing it to me,
+they see the example. I also give them mandatory reading:
+The Speed of Trust by Stephen Covey.69
+Nothing is personal. We want to make everything open
+and transparent.
+Initially, some people don’t feel comfortable with this
+model. But if you really want to improve and become

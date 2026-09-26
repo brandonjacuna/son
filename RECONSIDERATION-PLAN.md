@@ -137,3 +137,19 @@ manual/2.1-founding-documents/
 6. **Retire.** Archive the Carryover Register, the Operating System doc, and the tracker doc. Rewrite CLAUDE.md.
 
 Cost note: step 3 onward is the heavy Fable work, about 3 million characters of synthesis re-read across about thirty chunks. The pilot shows the real cost per chunk before committing to the rest.
+
+## 7. Build status
+
+Updated 2026-09-26. Working sessions start only after the whole build below is complete. Chunk 2.1 was the example that set the pattern.
+
+| Step | Status |
+|---|---|
+| 2.1 pilot (example) | Done |
+| Chunks from S1, S3, S4, S5, S6 (0, 1.1 to 1.4, 2.2, 2.3, 3.1, 3.2) | Building |
+| Chunks from S7 to S16 (3.3 to 6.3) | Queued |
+| Cross-chunk pass (dependencies, duplicates, phases, the 29 unowned old items) | Queued |
+| ClickUp rebuild (chunks, tasks, phase tags, dependencies; old items per mapping) | Queued |
+| Archive Carryover Register and old docs; repo README | Queued |
+| Box profile copies (blocked in this session; run in a fresh one) | Queued |
+
+Build inputs live in `extraction/build/<run>/`; the shared brief is `extraction/build/BUILD-BRIEF.md`. Old-item ownership by session is in `extraction/item-sessions.json`.
