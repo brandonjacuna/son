@@ -1,8 +1,8 @@
 {
   "job": "ingest_releases",
-  "run_at": "2026-09-26T17:14:53+00:00",
-  "sources_ok": 2,
-  "sources_total": 3,
+  "run_at": "2026-09-26T17:22:45+00:00",
+  "sources_ok": 5,
+  "sources_total": 7,
   "success": false,
   "results": [
     {
@@ -25,6 +25,71 @@
       "freshness": {},
       "notes": [
         "0 new or revised values"
+      ]
+    },
+    {
+      "key": "tssos",
+      "name": "tssos",
+      "status": "ok",
+      "row_count": 0,
+      "fields": [],
+      "freshness": {},
+      "notes": [
+        "0 new or revised values"
+      ]
+    },
+    {
+      "key": "allocations",
+      "name": "allocations",
+      "status": "ok",
+      "row_count": 0,
+      "fields": [],
+      "freshness": {},
+      "notes": [
+        "0 new or revised values"
+      ]
+    },
+    {
+      "key": "mixed_bev",
+      "name": "mixed_bev",
+      "status": "ok",
+      "row_count": 92736,
+      "fields": [],
+      "freshness": {
+        "since": "2026-03-01",
+        "latest_period": "2026-08",
+        "reporters_by_period": {
+          "2025-07": 2148,
+          "2025-08": 2153,
+          "2025-09": 2187,
+          "2025-10": 2200,
+          "2025-11": 2209,
+          "2025-12": 2195,
+          "2026-01": 2195,
+          "2026-02": 2208,
+          "2026-03": 2212,
+          "2026-04": 2228,
+          "2026-05": 2233,
+          "2026-06": 2242,
+          "2026-07": 2252,
+          "2026-08": 2119
+        }
+      },
+      "notes": []
+    },
+    {
+      "key": "warn",
+      "name": "warn",
+      "status": "stale",
+      "row_count": 224,
+      "fields": [],
+      "freshness": {
+        "latest_notice": "2026-04-23",
+        "portal_updated": "2026-07-07",
+        "days_since_update": 80
+      },
+      "notes": [
+        "portal not updated for 80 days"
       ]
     },
     {

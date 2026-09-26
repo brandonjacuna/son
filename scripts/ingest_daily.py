@@ -50,12 +50,12 @@ SOURCES = {
                 "date": "submission_date", "kind": "license_type", "status": "applicationstatus"}},
     "tabc_licenses": {
         "domain": "data.texas.gov", "id": "7hf9-qc9f", "where": f"county in {COUNTIES}",
-        "key": ["license_id"], "watch": ["primary_status", "license_status"],
+        "key": ["license_id"], "watch": ["primary_status", "license_status"], "extra": ["status_change_date"],
         "map": {"name": "trade_name", "owner": "owner", "address": "address", "city": "city", "zip": "zip",
                 "date": "original_issue_date", "kind": "license_type", "status": "primary_status"}},
     "sales_tax_permits": {
         "domain": "data.texas.gov", "id": "jrea-zgmq", "where": f"outlet_county_code in {COUNTY_CODES} AND {FOOD_NAICS}",
-        "key": ["taxpayer_number", "outlet_number"], "watch": [],
+        "key": ["taxpayer_number", "outlet_number"], "watch": [], "extra": ["outlet_permit_issue_date"],
         "map": {"name": "outlet_name", "owner": "taxpayer_name", "address": "outlet_address", "city": "outlet_city",
                 "zip": "outlet_zip_code", "date": "outlet_first_sales_date", "kind": "outlet_naics_code"}},
     "atx_inspections": {
@@ -99,6 +99,7 @@ def fetch(s, cfg: dict) -> pd.DataFrame:
 
 def slim(df: pd.DataFrame, cfg: dict) -> pd.DataFrame:
     cols = list(dict.fromkeys([*cfg["key"], *cfg["watch"], *([cfg["new_entity"]] if cfg.get("new_entity") else []),
+                               *cfg.get("extra", []),
                                *cfg["map"].values()]))
     return df[[c for c in cols if c in df.columns]].copy()
 

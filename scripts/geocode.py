@@ -73,6 +73,8 @@ class Geocoder:
             names = [spelled]
         else:
             names = self.bare.get(re.sub(r"^[NSEW] ", "", street), [])
+        if not names:  # divided roads and frontage roads: N IH 35 -> N IH 35 SVRD NB, S LAMAR BLVD -> S LAMAR BLVD SB
+            names = [n for n in self.by_name if n.startswith(street + " ")]
         best = None
         for name in names:
             for lo, hi, g in self.by_name[name]:
