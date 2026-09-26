@@ -37,7 +37,43 @@ manual/<section>-<slug>/
   considerations.md  white-paper context, research, options, counsel questions, divergences
   tasks.md           the chunk's decisions, actions, deliverables (mirrors ClickUp)
   mapping.md         fate of every old ClickUp item and old page section for this chunk
+  session.md         the working-session guide: agenda and one brief per decision
+  decisions.md       what Brandon decided, in his words, with his reasoning
+  notes/             brain dumps and raw session notes, dated
 ```
+
+## Working sessions
+
+Each working session covers **one chunk**. It should feel like Brandon has a team, or one sharp person, across the table: someone who has read everything, prompts him with each decision and what to weigh, and helps him think out loud. He may ramble, rant, or brain-dump. The job is to funnel that down to decisions he makes.
+
+### Opening a session
+
+1. Read the chunk's `session.md`, `decisions.md`, and `tasks.md`, plus the `decisions.md` of any chunk it depends on. Read `considerations.md` and `book.md` as needed; don't recite them.
+2. Open with a short orientation: what this chunk covers, what's already decided upstream, who else has to agree to anything here (Dominic, the chef partner), and the agenda. Ask where he wants to start. The agenda is a default order, not a script.
+
+### Running a decision
+
+- **Open wide.** Use the openers in `session.md`, or better ones prompted by what he's said. Let him talk. Don't interrupt a brain dump to correct it.
+- **Reflect.** Play back what you heard: the themes, the tensions, the things he said twice. Use his words.
+- **Bring what he'd want at the table, briefly:** what the book says, the white-paper default, how others have handled it, and a consequence he may not have weighed. One or two points at a time, not a lecture.
+- **Narrow.** Turn what he's said into two or three candidate answers in his language, and test them against the finished-answer test.
+- **Ask him to choose.** Never choose for him. If he asks what you'd do, give a view with reasoning, labelled as a view, and still ask him to decide.
+- **Read it back** in one or two sentences, and confirm before recording.
+- If a decision needs Dominic or the chef partner, record Brandon's position and mark the decision "pending agreement from ...".
+- If he isn't ready, park it with what's still unresolved. Parking is fine.
+
+### Brain dumps and tangents
+
+- Save a brain dump to `notes/YYYY-MM-DD-<topic>.md` in his words, lightly cleaned, before funneling it. Nothing he says is lost.
+- If a tangent belongs to another chunk, name that chunk, add a line to that chunk's `notes/inbox.md`, and ask whether to follow it now or come back to it.
+
+### Closing a session
+
+1. Update `decisions.md`: each decision made, in his words, with his reasoning, the date, and who still has to agree.
+2. Update `tasks.md` status. In ClickUp, add the decision as a comment on its task and mark it done; mark it "pending agreement" rather than done if others must agree.
+3. List the deliverables the decisions now unlock. Offer to draft them from what he said; drafts are marked draft for his review.
+4. Commit and push.
+5. State what the next session should pick up.
 
 ## Sources
 
@@ -95,15 +131,15 @@ After they're copied, work from the repo copies. Once in the repo, the Founder D
 - The session model coordinates: reads files, prepares briefs, runs ClickUp and git, verifies output.
 - **Fable 5.1** writes synthesis and manual prose. Give it a curated brief file listing exactly what to read. It stays the synthesis model even under usage pressure. If budget is thin, ask Brandon before spawning it.
 - Sonnet 5 or Haiku 4.5 handle mechanical work: copying, counting, formatting, verification.
+- **Working sessions** are the conversation itself, and the reasoning quality there matters most. Running them with Fable 5.1 as the session model is a good fit: the chunk prep keeps the read small, so its turns go to thinking with Brandon rather than reading files.
 
 ### Per chunk
 
 1. Gather the chunk's inputs into `extraction/chunk-<section>/`: book pages, workbook pages, the old session page section(s), and the old ClickUp items that touch it, from the archive export.
-2. Write a brief and run Fable. It writes the four `manual/` files.
+2. Write a brief and run Fable. It writes `book.md`, `considerations.md`, `tasks.md`, `mapping.md`, and `session.md`, and seeds an empty `decisions.md`.
 3. Verify: every old item appears in `mapping.md`, and no brand material or retired marks remain.
-4. Brandon reviews. Adjust.
-5. Commit and push.
-6. After review: create the chunk and its tasks in ClickUp, then handle old items per the approved mapping.
+4. Commit and push. The chunk is now ready for its working session (see "Working sessions").
+5. Create the chunk and its tasks in ClickUp, and handle old items per the mapping, once Brandon has seen the task list.
 
 The pilot is `2.1 Founding documents`. Its reviewed output sets the pattern for the rest.
 
