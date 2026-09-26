@@ -143,10 +143,21 @@ After they're copied, work from the repo copies. Once in the repo, the Founder D
 
 ### Model routing
 
-- The session model coordinates: reads files, prepares briefs, runs ClickUp and git, verifies output.
-- **Fable 5.1** writes synthesis and manual prose. Give it a curated brief file listing exactly what to read. It stays the synthesis model even under usage pressure. If budget is thin, ask Brandon before spawning it.
-- Sonnet 5 or Haiku 4.5 handle mechanical work: copying, counting, formatting, verification.
-- **Working sessions** are the conversation itself, and the reasoning quality there matters most. Running them with Fable 5.1 as the session model is a good fit: the chunk prep keeps the read small, so its turns go to thinking with Brandon rather than reading files.
+Fable is for synthesis and thinking only. Everything else goes to Opus, Sonnet, or a script. Fable stays the synthesis model even under usage pressure; the economy comes from never giving it reading or mechanical work.
+
+| Work | Model |
+|---|---|
+| Coordinating a session, ClickUp, git, verification | Opus (the session model) |
+| Condensing old pages and old items into a digest; `book.md` summaries | Sonnet |
+| `decisions.md` and `notes/` seeded from `tasks.md`; ClickUp bulk operations | Script |
+| `mapping.md` (matching old items to new tasks) | Opus |
+| `tasks.md`, `considerations.md`, `session.md` (one pass, together) | Fable |
+| Cross-chunk synthesis | Fable, working from the task lists only |
+| Working sessions with Brandon | Fable is a good fit as the session model: the prep keeps the read small |
+
+- Give Fable a condensed digest, not raw archives. It may open an original for a specific section when the digest isn't enough.
+- Run at most two Fable jobs at once, and check the 5-hour window between batches.
+- Keep the controlling session's context small. Start a fresh session rather than carry a long one: every turn re-sends the whole context.
 
 ### Per chunk
 
