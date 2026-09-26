@@ -60,7 +60,11 @@ Spawn each agent with a one-line prompt: "Read `<brief path>` and follow it exac
 1. **Cross-chunk pass (Fable, from the task lists only):** dependencies between chunks, duplicates, phase consistency, placing the 29 leftover old items, and confirming all 547 old items have exactly one fate.
 2. **ClickUp rebuild (script via REST, `extraction/s13/cu.py`):** create the chunks as numbered subtasks of `86akh1hdg`, then their tasks with type, phase tag, and dependencies. Show Brandon the full list **before** deleting any old item. Then handle old items per the mappings.
 3. **Retire:** archive the Carryover Register (`901327884538`) and the two old docs, each with Brandon's go-ahead. Write the repo README.
-4. **Profiles:** copy the three approved Box folders (see CLAUDE.md), verified by byte size, and report sensitive-content findings before committing. Two partial, unverified copies are on disk and gitignored; replace them.
+4. **Profiles:** copy the approved Box files still missing (see CLAUDE.md), verify by byte size, and report sensitive-content findings before committing. Current state:
+   - Learning & Development: 5 of 7 in the repo, verified byte-exact, with no sensitive findings. Still missing: `assessment-and-competency-designer.md` (Box `2349454588688`, 39743 bytes) and `curriculum-and-program-architect.md` (Box `2349344483137`, 23725 bytes). The permission check blocked both fetches.
+   - People & Culture: 1 of 8 on disk, unverified and gitignored (`emerging-leader-advocate.md`; it may carry a stray trailing `</output>` tag). Re-fetch all 8.
+   - Founder Development Plan: none copied (6 files).
+   - Copying tip: the Box connector's result wrapper can leak a trailing `</output>` into the written file, and the Write tool can add a trailing newline. Check byte size and trim.
 
 ## Opening prompt for the fresh session
 
