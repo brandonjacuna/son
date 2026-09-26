@@ -71,7 +71,7 @@ Leadership hires are the most bespoke part of hiring at any stage, driven by rol
 
 **Decision-making.** She believes a leadership hire should be decided by the CEO or top executive, not a group committee, because a group often doesn't know what leadership it needs (the "faster horses" problem), may fear the change a new leader brings, and because the impact is large enough that the person hiring must be accountable for it. Even so, run a consultative process; being the final decision-maker doesn't mean deciding alone (pp. 210 to 211).
 
-**Managing the process as change management.** She frames leadership hiring as change management and acceptance-building, effectively onboarding before the hire is even made, since a new leader is like introducing a foreign substance into an organization's body, at risk of "organ rejection" (p. 211). Recommended steps (pp. 211 to 213):
+**Managing the process as change management.** She frames leadership hiring as change management and acceptance-building, effectively onboarding before the hire is even made, since a new leader is like introducing a foreign substance into an organization's body, at risk of "organ rejection" (p. 211). Her steps (pp. 211 to 213):
 
 1. Screen the candidate so at least two important people are excited about them before investing wider organizational time.
 2. Identify the main stakeholders affected: direct reports, teams gaining or losing scope, key partner teams. Don't exclude people likely to react negatively; their buy-in matters even more, though their feedback isn't the only feedback.
