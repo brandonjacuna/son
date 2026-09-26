@@ -28,7 +28,7 @@ Weekly digest on the state of Austin's hospitality and F&B industry, by concept 
 |---|---|---|
 | Folder: Industry Digest | `1400400000000888` | Any new list or table goes here. Nothing goes in Founding Sŏn. |
 | Doc: Weekly Industry Digest | `2ky45bmy-20073` | Each digest is a NEW page named `YYYY-MM-DD \| Week of Mon D to Mon D` (date = delivery Monday). |
-| Page: Index and Page Template | `2ky45bmy-33313` | Standing page with the 10-section template. **Never overwrite it.** |
+| Page: Index and Page Template | `2ky45bmy-33313` | Standing page with the 10-section template. **Never overwrite it.** Every digest is a sub-page of this page (Brandon, 2026-09-26); `scripts/publish_digest.py` handles it. |
 | List: Watchlist: Entities | `1400400000001380` | One task per tracked venue or pipeline item. Custom fields (to be created to match what scripts write): entity ID, concept type, area, hub tier, status (Pipeline / Open / At-risk / Closed), distance in miles, last signal, signal count. |
 | List: Signals | `1400400000001381` | Act and Alert items. Anything new within 2 miles of 207 E St. Elmo Rd lands here the same day. |
 
@@ -46,6 +46,7 @@ Weekly digest on the state of Austin's hospitality and F&B industry, by concept 
   - `areas.py` (`Areas().assign(lon, lat, city, zip)`) and `geocode.py` (offline, street centerlines) assign venues to hub, sub-section, off-hub cluster, and home-zone distance.
   - `korean_sweep.py` writes `data/korean_sweep/candidates.csv` for Brandon to confirm.
   - `venue_evidence.py <csv>` adds the latest alcohol receipts and inspection per venue (address and name match).
+  - `ingest_daily.py` (R1), `ingest_releases.py` (R2), `build_digest.py` and `publish_digest.py` (R3).
   - `assign_areas.py <csv>` adds area columns to any venue CSV (e.g. `config/peers_draft.csv`).
 - `config/`: taxonomy, `areas.geojson`, peers, `events.csv` (drafted in later steps, each approved by Brandon).
 - `data/`: DuckDB / Parquet store. `data/test_pulls/` and `data/geo_cache/` are scratch and gitignored.
