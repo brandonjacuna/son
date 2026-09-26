@@ -12,3 +12,9 @@ __pycache__/
 
 # Personalized white paper copy (same content as the Sept 2026 generic version)
 archive/robert-lerma-white-paper.pdf
+
+# Brand canon appendix split out of the white paper extraction (excluded)
+extraction/s01/record-brand-appendix.md
+
+# Local Claude Code settings
+.claude/settings.local.json
