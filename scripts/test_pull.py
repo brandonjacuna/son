@@ -34,13 +34,16 @@ SOCRATA = [
     {"key": "tabc_licenses", "name": "TABC license information", "domain": "data.texas.gov",
      "id": "7hf9-qc9f", "expect": ["license", "status", "trade", "address"], "order": "issue"},
     {"key": "sales_tax_permits", "name": "Comptroller active sales tax permit holders", "domain": "data.texas.gov",
-     "id": "jrea-zgmq", "expect": ["naics", "first", "outlet", "city"], "order": "first"},
+     "id": "jrea-zgmq", "expect": ["naics", "first", "outlet", "city"], "order": "permit_issue"},
     {"key": "mixed_bev", "name": "Mixed Beverage Gross Receipts", "domain": "data.texas.gov",
      "id": "naix-2893", "expect": ["taxpayer", "location", "obligation", "total"], "order": "obligation"},
     {"key": "atx_inspections", "name": "Austin food establishment inspections", "domain": "data.austintexas.gov",
      "id": "ecmv-9xxi", "expect": ["facility", "score", "inspection", "address"], "order": "inspection"},
     {"key": "atx_permits", "name": "Austin issued construction permits", "domain": "data.austintexas.gov",
      "id": "3syk-w9eu", "expect": ["permit", "work_class", "issue", "description"], "order": "issue"},
+    {"key": "sales_tax_alloc_city", "name": "Comptroller sales tax allocation, city", "domain": "data.texas.gov",
+     "id": "vfba-b57j", "expect": ["city", "payment", "report_month"], "order": "date",
+     "period": ("report_year", "report_month")},
 ]
 
 DATE_TYPES = {"calendar_date", "floating_timestamp", "fixed_timestamp", "date"}
@@ -164,9 +167,23 @@ def probe_socrata(s, src: dict, sample: int) -> dict:
         if order:
             latest = parse_ts(maxes.get(order))
             res["freshness"]["latest_record_field"] = order
-            res["freshness"]["latest_record"] = latest.date().isoformat() if latest else None
             if latest and latest > now_utc():
-                res["notes"].append(f"{order} has future dates; pick a different freshness field")
+                # Some fields carry scheduled or period-end dates; report the latest one already past.
+                res["notes"].append(f"{order} has future dates (max {latest.date()}); freshness uses the latest past date")
+                today = now_utc().date().isoformat()
+                r = s.get(f"{base}/resource/{src['id']}.json",
+                          params={"$select": f"max({order}) AS m", "$where": f"{order} <= '{today}'"}, timeout=TIMEOUT)
+                r.raise_for_status()
+                latest = parse_ts((r.json() or [{}])[0].get("m"))
+            res["freshness"]["latest_record"] = latest.date().isoformat() if latest else None
+        elif src.get("period"):
+            y, m = src["period"]
+            r = s.get(f"{base}/resource/{src['id']}.json",
+                      params={"$select": f"{y},{m}", "$order": f"{y} DESC, {m} DESC", "$limit": 1}, timeout=TIMEOUT)
+            r.raise_for_status()
+            row = (r.json() or [{}])[0]
+            if row.get(y) and row.get(m):
+                res["freshness"]["latest_record"] = f"{int(float(row[y]))}-{int(float(row[m])):02d}"
         else:
             res["notes"].append("no typed date field; freshness from portal update time only")
 
