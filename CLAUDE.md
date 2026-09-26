@@ -35,7 +35,8 @@ Weekly digest on the state of Austin's hospitality and F&B industry, by concept 
 ### Box
 
 - Parent: Sŏn → 10. AI Projects, folder ID `393201935562`.
-- Planned subfolder "Industry Digest" with `/raw/`, `/digests/`, `/reference/`, `/data-health/`. **Confirm with Brandon before creating.**
+- Industry Digest `421598750339` (created 2026-09-26): `01. Digests` `421603412611`, `02. Raw` `421598977707`, `03. Reference` `421597286002`, `04. Data Health` `421598632583`.
+- Follow `Sŏn/00. Start Here/Start Here.md`: two-digit prefixes, ISO dates in file names, v1/v2 versions, "DRAFT " prefix for working files, "FINAL" only for frozen items. Box holds frozen digests and review artifacts; living docs stay in ClickUp.
 
 ## Repo layout
 
@@ -64,10 +65,12 @@ pytest -q
 
 ## Network
 
-Cloud routines need a network allowlist: data.texas.gov, data.austintexas.gov, api.bls.gov, api.stlouisfed.org, www.dallasfed.org, comptroller.texas.gov, www.flyaustin.com, api.census.gov, api.eia.gov, twc.texas.gov, plus RSS hosts. Keep the list short. Connectors per routine: R1 and R2 get none; R3 gets ClickUp and Box only.
+This environment has full network access (Brandon, 2026-09-26). If routines move to a restricted environment, allowlist: data.texas.gov, data.austintexas.gov, api.bls.gov, api.stlouisfed.org, www.dallasfed.org, comptroller.texas.gov, www.flyaustin.com, austin.widen.net, api.census.gov, api.eia.gov, twc.texas.gov, plus RSS hosts. Keep the list short. Connectors per routine: R1 and R2 get none; R3 gets ClickUp and Box only.
 
 ## Decisions (Brandon, 2026-09-26)
 
+- Schedule: R1 daily 6:07 a.m. Central; the Monday digest lands in ClickUp by 8:00 a.m. Central.
+- Scope: Travis, Williamson, Hays (per the ClickUp Index and Page Template). Bastrop / Elgin is grouped but excluded from metro totals. Suburb and ZIP fallbacks approved.
 - Hubs: Downtown, Rainey Street, 2nd Street / Warehouse, South Congress, South Lamar (Lamar Blvd plus S 1st St), East Austin (Holly / East Cesar Chavez, East 6th / 7th, East 12th and north, Manor Road). Off-hub clusters and fallbacks are still drafts.
 - Peers (`config/peers_draft.csv`): open concepts only, and every Emmer & Rye Hospitality Group concept. Closed venues go to `config/closure_cases.csv` for backtesting.
 - Korean: Oseyo is the only direct comp (`config/korean_watch.json`). Every other Korean concept is awareness only.

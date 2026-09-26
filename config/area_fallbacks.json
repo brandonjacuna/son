@@ -1,5 +1,5 @@
 {
-  "_status": "DRAFT pending Brandon's approval. Used only when a point falls outside every polygon in areas.geojson, or has no coordinates.",
+  "_status": "Approved by Brandon 2026-09-26, with Bastrop / Elgin added at Claude's recommendation.",
   "_order": "1) polygon by lat/lon, 2) city name -> suburban group, 3) ZIP -> cluster, 4) 'Unassigned'",
   "suburban_groups_by_city": {
     "Round Rock / Georgetown": [
@@ -33,6 +33,13 @@
       "BUDA",
       "DRIPPING SPRINGS",
       "WIMBERLEY"
+    ],
+    "Bastrop / Elgin (outside digest scope)": [
+      "BASTROP",
+      "ELGIN",
+      "SMITHVILLE",
+      "CEDAR CREEK",
+      "PAIGE"
     ]
   },
   "clusters_by_zip": {
@@ -108,6 +115,13 @@
     ],
     "Austin: Northeast": [
       "78754"
+    ],
+    "Bastrop / Elgin (outside digest scope)": [
+      "78602",
+      "78621",
+      "78957",
+      "78612"
     ]
-  }
+  },
+  "_scope": "The digest template scopes the metro to Travis, Williamson, and Hays. Bastrop / Elgin is tracked as a group but excluded from metro totals."
 }
