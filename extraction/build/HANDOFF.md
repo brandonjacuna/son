@@ -15,21 +15,13 @@ The build is done when Brandon can open a session on `brandonjacuna/son-operatio
 
 Bulk ClickUp work (step 3) runs from the Mac, where the REST token is. Everything after that can run anywhere.
 
-## State (all agents stopped, 2026-09-26)
+## State (updated 2026-09-26, second build session)
 
-Every agent from the prior session is stopped; none is running. On disk:
-
-| Chunk | Files present | What's left |
-|---|---|---|
-| 2.1 | all | Done and verified (pilot) |
-| 0, 1.2, 1.3, 1.4 | all six | Written by the old full-Fable pipeline; **not yet verified** (step 6) |
-| 2.2 | book, considerations, tasks, mapping, decisions | `session.md` (step 3, session only). Verify `tasks.md` is complete: the agent was stopped around when it was writing a 41-task list |
-| 2.3 | book, considerations, tasks, mapping, decisions | `session.md` (step 3, session only) |
-| 1.1 | none | Full lean pipeline for 1.1 only (run `s01`; steps 1 and 2 cover the run, and the other chunks' files are already written) |
-| 3.1, 3.2 | a Fable-written `book.md` | Full lean pipeline from step 1 (runs `s05`, `s06`); step 2 overwrites `book.md` |
-| 3.3 to 6.3 | none | Full lean pipeline (runs `s07` to `s16`) |
-
-For a step-3 job covering only part of a run, tell the Fable agent which chunks and which files to write, and to leave existing files alone.
+- Steps 1 and 2 (digest, book.md) are done for every run.
+- Verified and complete: 0, 1.2, 1.3, 1.4, 2.1, 2.2, 2.3.
+- Everything else needs step 3 (Fable), then step 4 (Opus mapping), step 5 (seed.py), step 6 (verify). For s01, step 3 and 4 cover 1.1 only; its seven unmapped items are 86akh2qua, 86akh2qvr, 86akh2r18, 86akh2r2x, 86akh7rp2, 86akhb2t7, 86akht17t.
+- Fable order: s08 and s01 started first, then book order: s05, s06, s07, s09, s10, s11, s12, s13, s14, s15, s16. Check `git log` and each chunk folder for which files exist.
+- Notes for the cross-chunk pass: Chapter 4 exercises (career conversations, offsite planning, snippets, unblocking) are summarized in more than one of 4.4, 4.5, 4.6; the working-with-me document appears in 1.1, 3.3, and 5.9's book summaries (1.1 owns it); 2.3.24 and 2.2.41 overlap (weekly note and quarterly memo).
 
 Leftover old items: 29 belong to no single session (S2 items outside the 2.1 pilot, and carryovers meant for the old assembly session). The cross-chunk pass places them.
 
