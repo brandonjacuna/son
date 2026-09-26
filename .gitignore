@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Scratch output from probes; the analytical store under data/ is tracked
+data/test_pulls/
+data/**/*.duckdb.wal
+run_health.json
+!data/**/run_health.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
