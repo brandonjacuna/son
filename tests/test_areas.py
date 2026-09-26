@@ -23,9 +23,18 @@ def areas():
     (-97.7212, 30.2560, "east_holly_ecc"),      # E Cesar Chavez corridor
     (-97.7265, 30.2635, "east_6th_7th"),        # E 6th St east of I-35
     (-97.7240, 30.2720, "east_12th"),           # E 12th St
+    (-97.755174, 30.24939, "slamar"),           # 1600 S 1st St (Le Calamar): S 1st joins South Lamar
+    (-97.702661, 30.286923, "east_manor"),      # 3220 Manor Rd (Parish Barbecue): Manor runs past Tillery
 ])
+
 def test_landmarks(areas, lon, lat, area_id):
     assert areas.assign(lon, lat)["area_id"] == area_id
+
+
+def test_rainey_and_warehouse_are_hubs(areas):
+    assert areas.assign(-97.7384, 30.2587)["hub"] == "Rainey Street"
+    assert areas.assign(-97.7470, 30.2650)["hub"] == "2nd Street / Warehouse"
+    assert areas.assign(-97.7431, 30.2747)["hub"] == "Downtown"
 
 
 def test_home_rings(areas):

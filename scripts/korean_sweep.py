@@ -8,11 +8,12 @@ groups hits across sources by address, assigns areas, and writes:
   data/korean_sweep/candidates.csv   one row per candidate venue, for Brandon to confirm
   data/korean_sweep/hits.csv         every matching source record
   data/korean_sweep/run_health.json
-Nothing here is confirmed. `confirmed` stays blank until Brandon reviews it.
+`tier` comes from config/korean_watch.json: direct_comp (Oseyo) or awareness.
 """
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from datetime import timedelta
@@ -26,6 +27,7 @@ from common import DATA_DIR, TIMEOUT, classify_error, now_utc, redact, session, 
 from geocode import Geocoder  # noqa: E402
 
 OUT = DATA_DIR / "korean_sweep"
+WATCH = Path(__file__).resolve().parent.parent / "config" / "korean_watch.json"
 
 # Strong: unambiguous Korean food words, places, and Korean-origin chains.
 STRONG = ["KOREA", "SEOUL", "HANSIK", "KBBQ", "K-BBQ", "K BBQ", "BIBIMBAP", "BIBIMBOP", "GALBI", "KALBI", "SOJU",
@@ -113,7 +115,7 @@ def sales_tax_permits(s):
 
 
 def mixed_bev(s):
-    since = (now_utc() - timedelta(days=400)).date().isoformat()
+    since = (now_utc() - timedelta(days=365)).date().isoformat()  # trailing 12 obligation months
     base = f"{like_clause(['location_name', 'taxpayer_name'])} AND location_county in ({','.join(repr(c) for c in METRO_COUNTY_CODES)})"
     group = "tabc_permit_number,location_name,taxpayer_name,location_address,location_city,location_zip"
     rows = soql(s, "data.texas.gov", "naix-2893", {
@@ -232,6 +234,13 @@ def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     df.sort_values(["addr_key", "source"]).to_csv(OUT / "hits.csv", index=False)
 
+    watch = json.loads(WATCH.read_text())
+    def tier(names) -> str:
+        text = " | ".join(str(n).upper() for n in names)
+        if any(x.upper() in text for x in watch.get("exclude", [])):
+            return "excluded"
+        return "direct_comp" if any(x.upper() in text for x in watch["direct_comp"]) else watch["default_tier"]
+
     cands = []
     for key, g in df.groupby("addr_key", sort=False):
         pick = g.sort_values("source", key=lambda c: c.map({"atx_inspections": 0, "tabc_licenses": 1, "tabc_pending": 2,
@@ -247,7 +256,7 @@ def main() -> int:
         a = areas.assign(lon, lat, city=pick["city"], zip_code=pick["zip"])
         mb = g[g["source"] == "mixed_bev"]
         cands.append({
-            "confirmed": "", "strength": "strong" if (g["strength"] == "strong").any() else "weak",
+            "tier": tier(list(g["name"].dropna()) + list(g.get("owner", pd.Series()).dropna())), "strength": "strong" if (g["strength"] == "strong").any() else "weak",
             "name": pick["name"], "other_names": "; ".join(sorted(set(g["name"].dropna()) - {pick["name"]}))[:200],
             "owner": "; ".join(sorted(set(g.get("owner", pd.Series()).dropna())))[:120],
             "address": pick["address"], "city": str(pick["city"]).title(), "zip": str(pick["zip"] or "")[:5],
@@ -263,7 +272,9 @@ def main() -> int:
             "hub": a["hub"], "subsection": a["subsection"], "cluster": a["cluster"], "area_method": a["method"],
             "located_by": how, "distance_mi": a["distance_mi"], "home_2mi": a["home_2mi"], "lat": lat, "lon": lon,
             "addr_key": key})
-    out = pd.DataFrame(cands).sort_values(["strength", "n_sources", "name"], ascending=[True, False, True])
+    out = pd.DataFrame(cands)
+    out["_t"] = out["tier"].map({"direct_comp": 0}).fillna(1)
+    out = out.sort_values(["_t", "strength", "n_sources", "name"], ascending=[True, True, False, True]).drop(columns="_t")
     out.to_csv(OUT / "candidates.csv", index=False)
     results.append({"key": "korean_sweep", "name": "Korean sweep candidates", "status": "ok", "row_count": len(out),
                     "fields": list(out.columns), "freshness": {"run_at": now_utc().isoformat(timespec="seconds")},

@@ -178,7 +178,9 @@ def build(npa_fc: dict, streets_fc: dict) -> dict:
     mlk_e = st.spine(r"E MARTIN LUTHER KING JR BLVD", (-97.735, 30.275, -97.70, 30.29))
     pleasant_valley = st.spine(r"N PLEASANT VALLEY RD", (-97.72, 30.245, -97.70, 30.265))
     airport = st.spine(r"AIRPORT BLVD", (-97.72, 30.26, -97.69, 30.30))
-    manor = st.spine(r"MANOR RD", (-97.73, 30.278, -97.70, 30.295))
+    manor = st.spine(r"MANOR RD", (-97.73, 30.278, -97.69, 30.295))
+    berkman = st.spine(r"BERKMAN DR", (-97.705, 30.28, -97.69, 30.30))
+    first_s = st.spine(r"S 1ST ST", (-97.77, 30.22, -97.745, 30.262))
 
     downtown = npa("DOWNTOWN")
     rainey = downtown & side(cesar, (-97.738, 30.255)) & side(red_river, (-97.735, 30.259))
@@ -186,7 +188,7 @@ def build(npa_fc: dict, streets_fc: dict) -> dict:
     downtown_core = downtown - rainey - warehouse
 
     soco = corridor(congress_s, cesar, oltorf, 250) - downtown
-    slamar = corridor(lamar_s, barton, ben_white, 250) - downtown
+    slamar = (corridor(lamar_s, barton, ben_white, 250) | corridor(first_s, riverside, oltorf, 250)) - downtown - soco
 
     east_base = (npa("EAST CESAR CHAVEZ", "HOLLY", "CENTRAL EAST AUSTIN", "GOVALLE", "CHESTNUT",
                      "UPPER BOGGY CREEK", "MLK", "ROSEWOOD", "JOHNSTON TERRACE")
@@ -197,7 +199,7 @@ def build(npa_fc: dict, streets_fc: dict) -> dict:
                                     | extend(seventh_e).buffer(150))) - holly
     e12 = ((east_base & side(airport, (-97.725, 30.275)) & side(mlk_e, (-97.72, 30.27))
             & (side(eleventh_e, (-97.72, 30.285)) | extend(eleventh_e).buffer(150))) - e67 - holly)
-    manor_rd = (corridor(manor, i35, airport, 200) & side(i35, (-97.72, 30.285))) - e12
+    manor_rd = (corridor(manor, i35, berkman, 200) & side(i35, (-97.72, 30.285))) - e12
 
     features = []
 
@@ -209,27 +211,28 @@ def build(npa_fc: dict, streets_fc: dict) -> dict:
             "area_id": area_id, "name": name, "tier": tier, "hub": hub, "subsection": subsection,
             "status": status, "rule": rule, "area_sq_mi": round(geom.area / MILE_M**2, 3)}})
 
-    add(downtown_core, "dt_core", "Downtown core", "subsection", "Downtown", "Downtown core",
-        "Downtown NPA (Lady Bird Lake to MLK, Lamar to I-35) minus Rainey and 2nd St / Warehouse")
-    add(rainey, "dt_rainey", "Rainey Street", "subsection", "Downtown", "Rainey Street",
-        "Downtown NPA south of Cesar Chavez and east of Red River St. OPEN QUESTION: Downtown or its own hub",
-        status="draft_open_question")
-    add(warehouse, "dt_2nd_warehouse", "2nd Street / Warehouse", "subsection", "Downtown", "2nd Street / Warehouse",
-        "Downtown NPA south of W 6th St and west of Congress Ave. OPEN QUESTION: Downtown or its own hub",
-        status="draft_open_question")
+    # Hub boundaries approved by Brandon 2026-09-26: Rainey and 2nd St / Warehouse are their own hubs,
+    # S 1st St joins South Lamar, Manor Rd is an East sub-section through the Tillery St block.
+    ok = "approved"
+    add(downtown_core, "dt_core", "Downtown", "hub", "Downtown", None,
+        "Downtown NPA (Lady Bird Lake to MLK, Lamar to I-35) minus Rainey Street and 2nd Street / Warehouse", ok)
+    add(rainey, "dt_rainey", "Rainey Street", "hub", "Rainey Street", None,
+        "Downtown NPA south of Cesar Chavez and east of Red River St", ok)
+    add(warehouse, "dt_2nd_warehouse", "2nd Street / Warehouse", "hub", "2nd Street / Warehouse", None,
+        "Downtown NPA south of W 6th St and west of Congress Ave", ok)
     add(soco, "soco", "South Congress", "hub", "South Congress", None,
-        "S Congress Ave from the river to Oltorf St, 250 m (about 2 to 3 blocks) either side")
+        "S Congress Ave from the river to Oltorf St, 250 m (about 2 to 3 blocks) either side", ok)
     add(slamar, "slamar", "South Lamar", "hub", "South Lamar", None,
-        "S Lamar Blvd from Barton Springs Rd to Ben White Blvd, 250 m either side")
+        "S Lamar Blvd from Barton Springs Rd to Ben White Blvd, plus S 1st St from Riverside Dr to Oltorf St, "
+        "250 m either side", ok)
     add(holly, "east_holly_ecc", "Holly / East Cesar Chavez", "subsection", "East Austin", "Holly / East Cesar Chavez",
-        "East of I-35, west of Pleasant Valley Rd, south of E 5th St to the lake")
+        "East of I-35, west of Pleasant Valley Rd, south of E 5th St to the lake", ok)
     add(e67, "east_6th_7th", "East 6th / 7th", "subsection", "East Austin", "East 6th / 7th",
-        "East of I-35, west of Pleasant Valley Rd, E 5th St to E 7th St plus 150 m north of 7th")
+        "East of I-35, west of Pleasant Valley Rd, E 5th St to E 7th St plus 150 m north of 7th", ok)
     add(e12, "east_12th", "East 12th and north", "subsection", "East Austin", "East 12th and north",
-        "East of I-35, west of Airport Blvd, 150 m south of E 11th St north to MLK Jr Blvd")
+        "East of I-35, west of Airport Blvd, 150 m south of E 11th St north to MLK Jr Blvd", ok)
     add(manor_rd, "east_manor", "Manor Road", "subsection", "East Austin", "Manor Road",
-        "Manor Rd from I-35 to Airport Blvd, 200 m either side. OPEN QUESTION: part of 12th+, own sub-section, or off-hub",
-        status="draft_open_question")
+        "Manor Rd from I-35 to Berkman Dr (past the Tillery St block), 200 m either side", ok)
 
     hubs = unary_union([to_m(shape(f["geometry"])) for f in features])
     clusters: dict[str, list] = {}
@@ -258,7 +261,7 @@ def build(npa_fc: dict, streets_fc: dict) -> dict:
 
     hx, hy = to_ll(home).coords[0]
     return {"type": "FeatureCollection", "name": "son_nerve_areas",
-            "metadata": {"status": "DRAFT pending Brandon's approval", "home": {"address": HOME_ADDRESS,
+            "metadata": {"status": "Hubs approved by Brandon 2026-09-26; off-hub clusters and fallbacks still draft", "home": {"address": HOME_ADDRESS,
                          "lon": round(hx, 6), "lat": round(hy, 6)},
                          "sources": ["data.austintexas.gov inrm-c3ee", "data.austintexas.gov 8hf2-pdmb"],
                          "fallback": "config/area_fallbacks.json"},
