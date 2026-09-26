@@ -76,6 +76,140 @@ def month_name(p: str) -> str:
     return pd.Timestamp(p + "-01").strftime("%b %Y")
 
 
+# ---------------------------------------------------------------- readable formatting
+
+SMALL = {"y", "de", "del", "la", "las", "los", "el", "of", "and", "the", "at", "on", "in", "a", "an", "for"}
+KEEP_UPPER = {"LLC", "ATX", "BBQ", "IHOP", "MOD", "II", "III", "IV", "USA", "TX", "UT", "ACL", "DJS", "MRC", "HQ", "KBBQ", "N", "S", "E", "W"}
+SHORT = {
+    "bls:SMU48124207000000001": "Austin hospitality jobs", "bls:SMU48124200000000001": "Austin total jobs",
+    "bls:LAUMT481242000000003": "Austin unemployment", "alloc:austin": "Austin sales tax",
+    "tssos:rev": "Texas service sector revenue", "tssos:bact": "Texas service sector activity",
+    "tssos:sell": "Texas service selling prices", "tssos:wgs": "Texas service wages",
+    "bls:CUUR0300SEFV": "Restaurant prices (CPI, South)", "bls:CUUR0000SEFV": "Restaurant prices (CPI, US)",
+    "fred:UMCSENT": "Consumer sentiment", "fred:GASREGW": "Gas, US regular",
+}
+MACRO_GROUPS = [
+    ("Jobs", ["bls:SMU48124207000000001", "bls:SMU48124200000000001", "bls:LAUMT481242000000003"]),
+    ("Spending", ["alloc:austin", "tssos:rev", "tssos:bact"]),
+    ("Prices and costs", ["bls:CUUR0300SEFV", "bls:CUUR0000SEFV", "tssos:sell", "tssos:wgs", "fred:GASREGW"]),
+    ("Sentiment", ["fred:UMCSENT"]),
+]
+HEALTH_NAME = {"warn": "WARN layoff notices", "aus_passengers": "Airport passengers", "mixed_bev": "Alcohol sales",
+               "tabc_pending": "TABC applications", "tabc_licenses": "TABC licenses", "sales_tax_permits": "Sales tax permits",
+               "atx_inspections": "Austin inspections", "atx_permits": "Austin building permits"}
+LICENSE = {"MB": "full bar", "BG": "beer and wine", "BE": "beer", "N": "private club", "NB": "private club",
+           "NE": "private club", "FB": "food and beverage certificate", "BP": "brewpub"}
+
+
+def nice_name(s) -> str:
+    s = re.sub(r"\s+", " ", str(s or "")).strip()
+    s = re.sub(r",?\s+(LLC|INC|L\.L\.C\.|LTD|CORP)\.?$", "", s, flags=re.I)
+    if s.upper() != s:
+        return s
+    words = []
+    for wd in s.split(" "):
+        core = re.sub(r"[^A-Z0-9]", "", wd)
+        if words and core.lower() in SMALL:
+            words.append(wd.lower())
+        else:
+            words.append(wd if core in KEEP_UPPER or any(ch.isdigit() for ch in wd) and len(core) <= 3 else wd.capitalize())
+    return " ".join(words).replace("'S ", "'s ").replace("'S", "'s") if s else s
+
+
+def nice_addr(s) -> str:
+    s = re.sub(r"\s+", " ", str(s or "")).strip().rstrip(".")
+    s = re.split(r"\s+(?:Austin|Bee Cave|Sunset Valley|Round Rock|Cedar Park),? TX", s, flags=re.I)[0]
+    return nice_name(s) if s.upper() == s else s
+
+
+def pct_s(x) -> str:
+    if x is None or pd.isna(x):
+        return "n/a"
+    return f"{x:+.0f}%" if abs(x) >= 10 else f"{x:+.1f}%"
+
+
+def pct_s_str(change: str | None) -> str:
+    return (change or "n/a").replace(" YoY", " vs last year")
+
+
+def money_s(x) -> str:
+    x = float(x)
+    if abs(x) >= 1e6:
+        return f"${x / 1e6:,.1f}M"
+    if abs(x) >= 1e4:
+        return f"${x / 1e3:,.0f}K"
+    return f"${x:,.0f}"
+
+
+def pretty_date(d) -> str:
+    ts = pd.Timestamp(str(d)[:10])
+    return f"{ts:%b} {ts.day}"
+
+
+def reading(m: dict) -> str:
+    sid, v = m["series"], m["value"]
+    val = {"alloc": money_s(v)}.get(sid.split(":")[0])
+    if val is None:
+        if "GASREGW" in sid:
+            val = f"${v:.2f}"
+        elif sid.endswith("003"):
+            val = f"{v:.1f}%"
+        elif sid.startswith("bls:SMU"):
+            val = f"{v * 1000:,.0f} jobs"
+        elif sid.startswith("bls:CUUR"):
+            return pct_s_str(m["change"]) if m["change"] else f"index {v:.1f}"
+        elif sid.startswith("tssos:"):
+            val = f"index {v:.1f}"
+        else:
+            val = f"{v:,.1f}"
+    return f"{val}, {pct_s_str(m['change'])}" if m["change"] else val
+
+
+def flag(r) -> str:
+    return " †" if pd.notna(r.yoy) and abs(r.yoy) >= 50 else ""
+
+
+def short_area(r) -> str:
+    if r.subsection:
+        return r.subsection
+    return r.hub or (r.cluster or "")
+
+
+def what(r) -> str:
+    s = _what(r)
+    return s[:1].upper() + s[1:]
+
+
+def _what(r) -> str:
+    lt = re.search(r"license type (\w+)", str(r.detail))
+    lic = LICENSE.get(lt.group(1), lt.group(1)) if lt else ""
+    if r.source == "New sales tax outlet":
+        fmt = re.sub(r"\s*\(NAICS \d+\)", "", str(r.detail)).lower()
+        return f"registered to sell ({fmt})"
+    if r.source == "TABC license issued":
+        return f"liquor license issued ({lic})"
+    if r.source == "TABC pending application":
+        return f"applied for a liquor license ({lic})"
+    if r.source == "TABC status change":
+        status = re.search(r"status now ([^,;]+)", str(r.detail))
+        base = f"{lic} license {status.group(1).lower() if status else 'changed'}"
+        return base + (", replaced by a new license" if getattr(r, "kind", "") == "license_change" else "")
+    if r.source == "Austin building permit":
+        return "food-use building permit"
+    if r.source == "First Austin inspection":
+        return "first health inspection"
+    return r.source.lower()
+
+
+def peer_change(note: str) -> str:
+    for part in re.split(r"(?<=\.)\s+", note):
+        if re.search(r"RELOCATED|Relocated|lease|check for a new permit|moved", part):
+            s = part.replace("RELOCATED: ", "").replace("RELOCATED ", "Moved ").replace("Open per 2026 coverage, but s", "Open per 2026 coverage, but s").strip()
+            s = s[:1].upper() + s[1:]
+            return s if s.endswith(".") else s + "."
+    return note
+
+
 # ---------------------------------------------------------------- venues and receipts
 
 def build_venues(mb: pd.DataFrame, areas: Areas, geo: Geocoder) -> pd.DataFrame:
@@ -324,221 +458,288 @@ def render(delivery: date, draft: bool) -> tuple[str, dict]:
 
     wlabel = f"Week of {start:%b} {start.day} to {delivery:%b} {delivery.day}"
     title = f"{'DRAFT ' if draft else ''}{delivery.isoformat()} | {wlabel}"
-    W = []
-    w = W.append
-    w(f"# {title}")
-    w("")
-    w(f"Austin metro (Travis, Williamson, Hays), with a named focus on 1 and 2 miles around 207 E St. Elmo Rd. "
-      f"Daily records cover {start:%b %d} to {data_end:%b %d, %Y}. Built {now_utc():%Y-%m-%d %H:%M} UTC.")
-    if draft:
-        w("")
-        w("> DRAFT: first full run, for founder review. The daily change history starts 2026-09-26, so this week's "
-          "openings and closings come from record dates in each source rather than from day-over-day diffs.")
-
-    # 1. What changed (rule-based ranking; the R3 routine rewrites this from the facts file)
-    w("")
-    w("## 1. What changed this week")
-    ranked = []
-    for r in home.itertuples() if len(home) else []:
-        tier = "Act" if r.home_1mi or r.kind == "closing_signal" else "Alert"
-        ranked.append((0 if tier == "Act" else 1, f"**{tier}:** {r.source} within {r.distance_mi} mi of 207 E St. Elmo Rd: {r.name}, {r.address} ({r.date}). {r.detail}."))
-    peers_df = pd.read_csv(CONFIG_DIR / "peers_draft.csv", dtype=str, keep_default_na=False)
-    comp_r = peer_receipts(mb, peers_df[peers_df["inclusion"] == "direct_comp"], cur, prev)
-    for r in comp_r.itertuples():
-        if r.prev and r.cur and abs(r.cur / r.prev - 1) >= 0.25:
-            ranked.append((1, f"**Alert:** Direct comp {r.name} alcohol receipts {pct((r.cur / r.prev - 1) * 100)} YoY for "
-                              f"{month_name(cur[0])} to {month_name(cur[-1])} ({money(r.cur)} vs {money(r.prev)})."))
-    ranked.append((2, f"**Watch:** Metro alcohol receipts {pct(metro.yoy)} YoY for {month_name(cur[0])} to {month_name(cur[-1])} "
-                      f"({money(metro.cur)} vs {money(metro.prev)}), with {metro.breadth:.0f}% of {int(metro.same_venues):,} same venues up."))
-    alloc = next((m for m in macro if m["series"] == "alloc:austin"), None)
-    if alloc:
-        ranked.append((2, f"**Watch:** City of Austin sales tax allocation {alloc['change']} ({alloc['period']} payment, Comptroller)."))
-    tss = next((m for m in macro if m["series"] == "tssos:rev"), None)
-    if tss:
-        ranked.append((2, f"**Watch:** Texas service sector revenue index {tss['value']:.1f} in {tss['period']} ({tss['change']}), Dallas Fed."))
-    for _, line in sorted(ranked)[:5]:
-        w(f"- {line}")
-
-    # 2. New this week
-    w("")
-    w("## 2. New this week: data releases")
-    w("")
-    w("| Release | Latest period | Value | Change | Source released |")
-    w("|---|---|---|---|---|")
-    for m in macro:
-        rel = fmt_released(m)
-        w(f"| {m['label']} | {m['period']} | {fmt_value(m)} | {m['change'] or 'n/a'} | {rel} |")
-    w(f"| Mixed Beverage Gross Receipts (venue level) | {month_name(latest)} complete; "
-      f"{', '.join(month_name(p) for p in unfinished) or 'none'} still filing | | | data.texas.gov naix-2893 |")
-
-    # 3. Openings, closings, pipeline
-    w("")
-    w("## 3. Openings, closings, pipeline")
-    if len(wk):
-        c = wk.groupby("source").size().to_dict()
-        w("")
-        w("Counts for the week, Travis / Williamson / Hays: " + ", ".join(f"{k}: {v}" for k, v in sorted(c.items())) + ".")
-        w("Each item below is a single-source signal. An opening or closing is called only when a second source confirms it.")
-        w("")
-        w("**Inside 2 miles of 207 E St. Elmo Rd**")
-        if len(home):
-            for r in home.sort_values("distance_mi").itertuples():
-                w(f"- {r.distance_mi} mi, {r.name}, {r.address}: {r.source} {r.date}. {r.detail}.")
-        else:
-            w("- Nothing new inside 2 miles this week.")
-        hubs = wk[wk["hub"].notna() & ~wk["home_2mi"]]
-        w("")
-        w("**In the hubs**")
-        if len(hubs):
-            for r in hubs.sort_values(["area", "date"]).itertuples():
-                w(f"- {r.area}: {r.name}, {r.address}. {r.source} {r.date}. {r.detail}.")
-        else:
-            w("- Nothing new in the hubs this week.")
-        rest = wk[wk["hub"].isna() & ~wk["home_2mi"]]
-        if len(rest):
-            w("")
-            w("**Elsewhere in the metro, by area**")
-            for area, g in rest.groupby("area"):
-                names = "; ".join(sorted(set(str(n)[:60] for n in g["name"].dropna())))[:400]
-                w(f"- {area} ({len(g)}): {names}")
-    else:
-        w("- No records dated this week in any daily source.")
-
-    # 4. Area heatmap
-    w("")
-    w(f"## 4. Area heatmap: alcohol receipts, {month_name(cur[0])} to {month_name(cur[-1])} vs a year earlier")
-    w("")
-    w(f"Mixed Beverage Gross Receipts (alcohol sales only). {month_name(cur[-1])} is {lateness.get('share', 0) * 100:.0f}% filed "
-      f"against the same month last year. Breadth is the share of venues filing in both periods whose receipts rose. "
-      f"Cells under {MIN_CELL} same venues are rolled up.")
-    w("")
-    w("| Area | Receipts (3 mo) | YoY, all filers | YoY, same venues | Breadth | Venues filing |")
-    w("|---|---|---|---|---|---|")
-    for name, r in by_area.iterrows():
-        br = "" if pd.isna(r.breadth) else f"{r.breadth:.0f}%"
-        w(f"| {name} | {money(r.cur)} | {pct(r.yoy)} | {pct(r.same_yoy)} | {br} | {int(r.venues):,} |")
-    w(f"| **Metro** | **{money(metro.cur)}** | **{pct(metro.yoy)}** | **{pct(metro.same_yoy)}** | **{metro.breadth:.0f}%** | **{int(metro.venues):,}** |")
+    rng = f"{month_name(cur[0])[:3]} to {month_name(cur[-1])}"  # e.g. "Jun to Aug 2026"
+    mm = {m["series"]: m for m in macro}
+    pm = peers.merge(pr, on="name", how="left")
+    comp = next((r for r in pm.itertuples() if r.inclusion == "direct_comp"), None)
+    comp_yoy = ((comp.cur / comp.prev - 1) * 100) if comp is not None and pd.notna(comp.cur) and comp.prev else None
     hub_rows = by_area[~by_area.index.str.startswith(("Off-hub", "Rolled", "Unassigned"))]
     off_rows = by_area[by_area.index.str.startswith("Off-hub")]
-    if len(hub_rows) and len(off_rows):
-        hy = (hub_rows.cur.sum() / hub_rows.prev.sum() - 1) * 100
-        oy = (off_rows.cur.sum() / off_rows.prev.sum() - 1) * 100
-        w("")
-        w(f"Hubs combined {pct(hy)} vs off-hub clusters combined {pct(oy)}.")
+    hub_yoy = (hub_rows.cur.sum() / hub_rows.prev.sum() - 1) * 100 if len(hub_rows) else None
+    off_yoy = (off_rows.cur.sum() / off_rows.prev.sum() - 1) * 100 if len(off_rows) else None
+    others = wk[wk["hub"].isna() & ~wk["home_2mi"]] if len(wk) else wk
+    in_hubs = wk[wk["hub"].notna() & ~wk["home_2mi"]] if len(wk) else wk
 
-    # 5. Concept-type scorecard
+    W = []
+    w = W.append
+
+    def rule():
+        w("")
+        w("---")
+        w("")
+
+    # Header and bottom line
+    w(f"# {title}")
     w("")
+    w(f"*Austin metro weekly industry digest for Sŏn. Travis, Williamson, and Hays counties, with 207 E St. Elmo Rd as home base. "
+      f"Records through {data_end:%b} {data_end.day}, {data_end.year}.*")
+    if draft:
+        w("")
+        w("> **Draft for founder review.** Daily change tracking started Sep 26, so this week's openings and closings are read "
+          "from the dates on each record.")
+    bl = OUT / f"{delivery.isoformat()}.bottomline.md"
+    w("")
+    if bl.exists():
+        w(f"> **Bottom line.** {bl.read_text().strip()}")
+    else:
+        line = (f"Alcohol sales across the metro are {pct_s(metro.yoy)} vs last year ({rng}), but venues open both years are "
+                f"{pct_s(metro.same_yoy)}, so growth is coming from new openings.")
+        if comp_yoy is not None:
+            line += f" Oseyo, the direct comp, is {pct_s(comp_yoy)}."
+        w(f"> **Bottom line.** {line}")
+
+    # 1. What changed
+    rule()
+    w("## 1. What changed this week")
+    w("")
+    items = []
+    if comp_yoy is not None and abs(comp_yoy) >= 25:
+        items.append((1, "Alert", f"Oseyo alcohol sales {pct_s(comp_yoy)} vs last year",
+                      f"{money_s(comp.cur)} for {rng}, against {money_s(comp.prev)} a year earlier."))
+    if len(home):
+        names = ", ".join(f"{nice_name(r.name)} ({r.distance_mi:.1f} mi)" for r in home.sort_values("distance_mi").itertuples())
+        tier = "Act" if home["home_1mi"].any() else "Alert"
+        items.append((0 if tier == "Act" else 1, tier, f"{len(home)} new {'record' if len(home) == 1 else 'records'} within 2 miles of the site", names + "."))
+    items.append((2, "Watch", f"Existing venues are flat ({pct_s(metro.same_yoy)})",
+                  f"Metro alcohol sales are {pct_s(metro.yoy)} for {rng}, but only {metro.breadth:.0f}% of venues open both years grew."))
+    if "alloc:austin" in mm:
+        a = mm["alloc:austin"]
+        items.append((2, "Watch", f"Austin sales tax {pct_s_str(a['change'])}", f"{money_s(a['value'])} paid in {a['period']} (Comptroller)."))
+    if "tssos:wgs" in mm and "tssos:sell" in mm:
+        items.append((2, "Watch", "Wages rising faster than prices",
+                      f"Texas service firms: wages index {mm['tssos:wgs']['value']:.1f}, selling prices {mm['tssos:sell']['value']:.1f} ({mm['tssos:wgs']['period']}, Dallas Fed)."))
+    for i, (_, tier, head, body) in enumerate(sorted(items, key=lambda x: x[0])[:5], 1):
+        w(f"{i}. **{tier}: {head}.** {body}")
+
+    # 2. New this week
+    rule()
+    w("## 2. New this week")
+    w("")
+    w("| Release | Period | Reading |")
+    w("|---|---|---|")
+    for sid in ["bls:SMU48124207000000001", "bls:SMU48124200000000001", "bls:LAUMT481242000000003", "alloc:austin",
+                "tssos:rev", "bls:CUUR0300SEFV", "fred:UMCSENT", "fred:GASREGW"]:
+        if sid in mm:
+            m = mm[sid]
+            w(f"| {SHORT[sid]} | {m['period']} | {reading(m)} |")
+    w(f"| Alcohol sales, venue level | {month_name(cur[-1])} | {lateness.get('share', 0) * 100:.0f}% of venues have filed |")
+
+    # 3. Openings, closings, pipeline
+    rule()
+    w("## 3. Openings, closings, pipeline")
+    w("")
+    if len(wk):
+        c = wk.groupby("source").size()
+        parts = [f"{c.get(k, 0)} {label}" for k, label in [
+            ("New sales tax outlet", "new food businesses registered"), ("TABC license issued", "liquor licenses issued"),
+            ("TABC pending application", "liquor license applications"), ("TABC status change", "licenses surrendered or expired"),
+            ("Austin building permit", "food-use building permits"), ("First Austin inspection", "first health inspections")] if c.get(k, 0)]
+        w("This week: " + ", ".join(parts) + ". Each is a single-source signal until a second source confirms it.")
+        w("")
+        w("### Within 2 miles of the site")
+        w("")
+        if len(home):
+            for r in home.sort_values("distance_mi").itertuples():
+                w(f"- **{nice_name(r.name)}**, {nice_addr(r.address)} ({r.distance_mi:.1f} mi). {what(r)}, {pretty_date(r.date)}.")
+        else:
+            w("- Nothing new within 2 miles.")
+        w("")
+        w("### In the hubs")
+        w("")
+        if len(in_hubs):
+            w("| Hub | Business | What happened |")
+            w("|---|---|---|")
+            for r in in_hubs.sort_values(["area", "date"]).itertuples():
+                w(f"| {r.area} | {nice_name(r.name)[:60]} | {what(r)}, {pretty_date(r.date)} |")
+        else:
+            w("- Nothing new in the hubs.")
+        if len(others):
+            busiest = others.groupby("area").size().sort_values(ascending=False)
+            w("")
+            w("### Rest of the metro")
+            w("")
+            w(f"{len(others)} more records across {len(busiest)} areas. Busiest: "
+              + ", ".join(f"{a.replace('Off-hub: ', '')} ({n})" for a, n in busiest.head(4).items()) + ". Full list in the appendix.")
+    else:
+        w("No records dated this week in any daily source.")
+
+    # 4. Area heatmap
+    rule()
+    w(f"## 4. Area heatmap")
+    w("")
+    w(f"Alcohol sales, {rng}, compared with the same months last year. *Same venues* counts only places open in both years. "
+      f"*Growing* is the share of those venues whose sales rose.")
+    w("")
+    w("| Hub | Alcohol sales | vs last year | Same venues | Growing | Venues |")
+    w("|---|---|---|---|---|---|")
+    for name, r in hub_rows.sort_values("cur", ascending=False).iterrows():
+        w(f"| {name} | {money_s(r.cur)} | {pct_s(r.yoy)}{flag(r)} | {pct_s(r.same_yoy)} | {r.breadth:.0f}% | {int(r.venues)} |")
+    w(f"| **Metro** | **{money_s(metro.cur)}** | **{pct_s(metro.yoy)}** | **{pct_s(metro.same_yoy)}** | **{metro.breadth:.0f}%** | **{int(metro.venues):,}** |")
+    w("")
+    if hub_yoy is not None and off_yoy is not None:
+        w(f"Hubs combined **{pct_s(hub_yoy)}**, off-hub areas combined **{pct_s(off_yoy)}**.")
+        w("")
+    ranked_off = off_rows[off_rows.same_venues >= MIN_CELL].copy()
+    ranked_off.index = ranked_off.index.str.replace("Off-hub: ", "", regex=False)
+    up, down = ranked_off.sort_values("same_yoy", ascending=False).head(4), ranked_off.sort_values("same_yoy").head(4)
+    w("**Off-hub, strongest (same venues):** " + "; ".join(f"{n} {pct_s(r.same_yoy)}{' †' if abs(r.same_yoy) >= 50 else ''}" for n, r in up.iterrows()) + ".")
+    w("")
+    w("**Off-hub, weakest (same venues):** " + "; ".join(f"{n} {pct_s(r.same_yoy)}" for n, r in down.iterrows()) + ".")
+    if any(flag(r) for _, r in hub_rows.iterrows()) or (up.same_yoy.abs() >= 50).any():
+        w("")
+        w("*† Swing of 50% or more, usually a handful of venues opening, reopening, or changing how they file. Check the venues before acting on it.*")
+
+    # 5. Concept types
+    rule()
     w("## 5. Concept-type scorecard")
     w("")
-    w("Same receipts window. Format comes from the Comptroller NAICS code on the matching sales tax outlet, "
-      "or the manual list for fine dining and upscale casual; unmatched venues stay unclassified.")
+    w(f"Alcohol sales by format, {rng}.")
     w("")
-    w("| Format | Receipts (3 mo) | YoY, all filers | YoY, same venues | Breadth | Venues filing |")
+    w("| Format | Alcohol sales | vs last year | Same venues | Growing | Venues |")
     w("|---|---|---|---|---|---|")
-    for name, r in by_fmt.iterrows():
+    order = by_fmt.index.str.startswith(("Unclassified", "Rolled"))
+    for name, r in pd.concat([by_fmt[~order], by_fmt[order]]).iterrows():
         br = "" if pd.isna(r.breadth) else f"{r.breadth:.0f}%"
-        w(f"| {name} | {money(r.cur)} | {pct(r.yoy)} | {pct(r.same_yoy)} | {br} | {int(r.venues):,} |")
-
-    # 6. Macro panel
+        w(f"| {name} | {money_s(r.cur)} | {pct_s(r.yoy)} | {pct_s(r.same_yoy)} | {br} | {int(r.venues):,} |")
     w("")
+    w("*Fine dining and upscale casual need a manual list (public data does not show price point), so they are not split out yet.*")
+
+    # 6. Macro
+    rule()
     w("## 6. Macro panel")
+    for group, sids in MACRO_GROUPS:
+        rows = [mm[s] for s in sids if s in mm]
+        if not rows:
+            continue
+        w("")
+        w(f"**{group}**")
+        for m in rows:
+            w(f"- {SHORT[m['series']]}: {reading(m)} ({m['period']}){' · ' + str(m['days_old']) + ' days old' if m['days_old'] > 45 else ''}")
     w("")
-    w("| Indicator | Period | Value | Change | Days since period end |")
-    w("|---|---|---|---|---|")
-    for m in macro:
-        w(f"| {m['label']} | {m['period']} | {fmt_value(m)} | {m['change'] or 'n/a'} | {m['days_old']} |")
-    w("| AUS passengers | not available | | | source stale, see Data Health |")
-    wr = pd.read_csv(STORE / "warn.csv", dtype=str)
-    recent = wr[wr["notice_date"] >= (pd.Timestamp(delivery) - pd.DateOffset(days=90)).isoformat()]
-    w(f"| WARN notices, three counties, last 90 days | through {wr['notice_date'].max()[:10]} | {len(recent)} notices, "
-      f"{pd.to_numeric(recent['total_layoff_number'], errors='coerce').sum():,.0f} jobs | | source stale, see Data Health |")
+    w("**Not available this week:** airport passengers and WARN layoff notices (both sources stale, see Data health).")
 
-    # 7. Peer watchlist and Korean micro-watch
-    w("")
+    # 7. Peers
+    rule()
     w("## 7. Peer watchlist")
     w("")
-    w(f"Alcohol receipts {month_name(cur[0])} to {month_name(cur[-1])} vs a year earlier, matched by address and name. "
-      "Reservation availability and live ratings start with the Phase 2 peer-pulse check.")
+    if comp is not None:
+        w("### Direct comp: Oseyo")
+        w("")
+        k = korean[korean["tier"] == "direct_comp"]
+        w(f"Alcohol sales **{money_s(comp.cur)}** for {rng}, **{pct_s(comp_yoy)}** vs last year"
+          + (f"; {money_s(float(k.iloc[0].receipts_recent))} over the last 12 months." if len(k) and k.iloc[0].receipts_recent else "."))
+        w("")
+    have = pm[pm["cur"].fillna(0) > 0]
+    have = have[(have["inclusion"] != "direct_comp") & (have["name"] != "Hestia Bar")].copy()
+    have["yoy"] = (have["cur"] / have["prev"] - 1) * 100
+    w(f"### Peers with alcohol sales on file ({rng})")
     w("")
-    w("| Peer | Area | Receipts (3 mo) | YoY | Status and notes |")
-    w("|---|---|---|---|---|")
-    pm = peers.merge(pr, on="name", how="left")
-    for r in pm.itertuples():
-        area = r.hub if r.hub else (f"Off-hub: {r.cluster}" if r.cluster else "")
-        if r.subsection:
-            area = f"{r.hub}: {r.subsection}"
-        if r.name == "Hestia Bar":
-            rec, yoy = "filed under Hestia", ""
-        elif pd.isna(r.cur):
-            rec, yoy = "no receipts on file", ""
-        elif not r.cur and not r.prev:
-            rec, yoy = "no receipts in either period", ""
-        elif not r.cur and r.prev:
-            rec, yoy = f"none filed; last period {month_name(r.last_period)}", ""
-        else:
-            rec = money(r.cur)
-            yoy = pct((r.cur / r.prev - 1) * 100) if r.prev else "new since last year"
-        tag = {"direct_comp": "Direct comp. ", "emmer_and_rye_group": "Emmer & Rye group. "}.get(r.inclusion, "")
-        note = re.sub(r"\s+", " ", f"{tag}{r.notes}")
-        note = note if len(note) <= 240 else note[:240].rsplit(" ", 1)[0] + "..."
-        w(f"| {r.name} | {area} | {rec} | {yoy} | {note} |")
+    w("| Peer | Area | Alcohol sales | vs last year |")
+    w("|---|---|---|---|")
+    for r in have.sort_values("yoy", ascending=False, na_position="first").itertuples():
+        yoy = "new this year" if not r.prev else pct_s(r.yoy)
+        tag = " (Emmer & Rye group)" if r.inclusion == "emmer_and_rye_group" or r.name in ("Hestia", "Kalimotxo") else ""
+        w(f"| {r.name}{tag} | {short_area(r)} | {money_s(r.cur)} | {yoy} |")
     w("")
+    w("*Hestia Bar files under Hestia.*")
+    w("")
+    none = pm[(pm["cur"].fillna(0) == 0) & (pm["name"] != "Hestia Bar")]
+    w("**No alcohol sales on file** (trucks, BYOB, beer-and-wine permits under another name, or recent moves): "
+      + ", ".join(none["name"]) + ".")
+    w("")
+    notes = pm[pm["notes"].str.contains("RELOCATED|Relocated|lease|check for a new permit", regex=True)]
+    if len(notes):
+        w("**Changes to know**")
+        for r in notes.itertuples():
+            w(f"- **{r.name}:** {peer_change(r.notes)}")
+        w("")
     w("### Korean micro-watch")
+    w("")
     op = korean[korean["activity"].str.startswith("operating")]
-    w(f"- {len(korean)} Korean concepts tracked in the metro, {len(op)} with receipts or inspections in the last year. "
-      "Oseyo is the direct comp; the rest are tracked for awareness.")
-    for r in korean[korean["tier"] == "direct_comp"].itertuples():
-        w(f"- Oseyo, {r.address}: {r.activity}. Alcohol receipts {money(float(r.receipts_recent))} for {r.receipts_window}.")
+    w(f"- {len(korean)} Korean concepts tracked across the metro; {len(op)} show sales or inspections in the last year. "
+      "Oseyo is the only direct comp; the rest are tracked for awareness.")
     kn = wk[wk["name"].fillna("").str.upper().str.contains("KOREA|SEOUL|KBBQ|BIBIMBAP|GALBI|SOJU|POCHA|KIMCHI|BULGOGI|OSEYO")] if len(wk) else wk
-    kn = kn.groupby(["name", "address"], as_index=False).agg({"source": lambda s: " and ".join(sorted(set(s))), "detail": "; ".join}) if len(kn) else kn
-    w(f"- New Korean records this week: {len(kn)}." + "".join(f" {r.name}, {r.address}: {r.source} ({r.detail})." for r in kn.itertuples()))
+    if len(kn):
+        for (n, a), g in kn.groupby(["name", "address"]):
+            w(f"- **{nice_name(n)}**, {nice_addr(a)}: " + "; ".join(what(r) for r in g.itertuples()) + ".")
+    else:
+        w("- No new Korean records this week.")
 
     # 8. News
-    w("")
+    rule()
     w("## 8. News and chatter")
-    w("- News feeds are not connected yet (Phase 2). No headlines are reported until they are.")
-
-    # 9. So what: the R3 routine writes data/digests/<delivery>.section9.md; rule-based fallback otherwise
     w("")
+    w("News feeds connect in Phase 2. Until then this section stays empty rather than guessing.")
+
+    # 9. So what
+    rule()
     s9 = OUT / f"{delivery.isoformat()}.section9.md"
     if s9.exists():
         w(s9.read_text().rstrip())
     else:
         w("## 9. So what for Sŏn")
-        w(f"- Demand: metro alcohol receipts are {pct(metro.yoy)} YoY across all filers and {pct(metro.same_yoy)} for venues "
-          f"open in both periods ({month_name(cur[0])} to {month_name(cur[-1])}).")
-        comp = next((r for r in pm.itertuples() if r.inclusion == "direct_comp"), None)
-        if comp is not None and pd.notna(comp.cur) and comp.prev:
-            w(f"- Competition: Oseyo receipts {pct((comp.cur / comp.prev - 1) * 100)} YoY for the same window.")
-        mm = {m["series"]: m for m in macro}
-        if "bls:CUUR0300SEFV" in mm and "tssos:wgs" in mm:
-            w(f"- Cost and pricing: CPI food away from home in the South is {mm['bls:CUUR0300SEFV']['change']} "
-              f"({mm['bls:CUUR0300SEFV']['period']}). Texas service firms report wage pressure at {mm['tssos:wgs']['value']:.1f} "
-              f"and selling prices at {mm['tssos:sell']['value']:.1f} on the Dallas Fed index ({mm['tssos:wgs']['period']}).")
-        if "bls:SMU48124207000000001" in mm:
-            w(f"- Labor: Austin leisure and hospitality employment is {mm['bls:SMU48124207000000001']['value']:.1f}k, "
-              f"{mm['bls:SMU48124207000000001']['change']} ({mm['bls:SMU48124207000000001']['period']}, preliminary); "
-              f"metro unemployment {mm['bls:LAUMT481242000000003']['value']:.1f}% ({mm['bls:LAUMT481242000000003']['period']}).")
-        w(f"- Home zone: {len(home)} new records inside 2 miles of 207 E St. Elmo Rd this week.")
+        w("")
+        w(f"- **Demand:** metro alcohol sales {pct_s(metro.yoy)}, same venues {pct_s(metro.same_yoy)} ({rng}).")
+        if comp_yoy is not None:
+            w(f"- **Direct comp:** Oseyo {pct_s(comp_yoy)}.")
+        w(f"- **Home zone:** {len(home)} new records within 2 miles.")
         if len(ev_next):
-            w("- Coming up: " + "; ".join(f"{r.name} ({r.start_date} to {r.end_date})" for r in ev_next.itertuples()) + ".")
+            w("- **Coming up:** " + "; ".join(f"{r.name} ({pretty_date(r.start_date)})" for r in ev_next.itertuples()) + ".")
 
     # 10. Data health
-    w("")
+    rule()
     w("## 10. Data health")
     w("")
-    w("| Source | Status | Notes |")
-    w("|---|---|---|")
-    for f, h in health.items():
-        for r in h.get("results", []):
-            note = "; ".join(r.get("notes", []))[:160]
-            w(f"| {r['name']} | {r['status']} | {note} |")
-    held = ", ".join(f"{month_name(p)} {rstatus[p]['share'] * 100:.0f}%" for p in unfinished if rstatus[p]["share"]) or "none"
-    w(f"| Receipts completeness | {month_name(cur[-1])} {lateness.get('share', 0) * 100:.0f}% filed | "
-      f"{held} held out of YoY |")
-    ev_note = "; ".join(f"{r.name}" for r in pd.concat([ev_win, ev_prev]).itertuples())
-    if ev_note:
-        w(f"| Calendar in the comparison window | note | {ev_note[:300]} |")
+    rs = [r for h in health.values() for r in h.get("results", []) if r["key"] not in ("home_zone",)]
+    bad = [r for r in rs if r["status"] not in ("ok",)]
+    w(f"**{len(rs) - len(bad)} of {len(rs)} sources ran clean.** "
+      f"Alcohol sales for {month_name(cur[-1])} are {lateness.get('share', 0) * 100:.0f}% filed, enough to include; "
+      "months under 90% filed are held out of comparisons.")
+    for r in bad:
+        note = "; ".join(r.get("notes", []))
+        note = (note[:1].upper() + note[1:]).rstrip(".") + "." if note else ""
+        w(f"- **{HEALTH_NAME.get(r['key'], r['name'])}: {r['status']}.** {note}")
+    def ev_names(df):
+        names = sorted(set(re.sub(r"(:.*| \d{4}.*)$", "", n) for n in df["name"]))
+        return ", ".join(names)
+    if len(ev_prev) or len(ev_win):
+        w(f"- **Calendar check:** {' '.join(prev[0].split('-')[:1])} comparison months had {ev_names(ev_prev) or 'no major events'}; "
+          f"this year's had {ev_names(ev_win) or 'no major events'}. Differences can move the year-over-year numbers.")
+
+    # Appendix
+    rule()
+    w("## Appendix")
+    w("")
+    w("### All areas")
+    w("")
+    w("| Area | Alcohol sales | vs last year | Same venues | Growing | Venues |")
+    w("|---|---|---|---|---|---|")
+    for name, r in by_area.iterrows():
+        br = "" if pd.isna(r.breadth) else f"{r.breadth:.0f}%"
+        w(f"| {name.replace('Off-hub: ', '')} | {money_s(r.cur)} | {pct_s(r.yoy)} | {pct_s(r.same_yoy)} | {br} | {int(r.venues)} |")
+    if len(others):
+        w("")
+        w("### Other new records this week")
+        w("")
+        for area, g in others.groupby("area"):
+            w(f"- **{area.replace('Off-hub: ', '')}:** " + "; ".join(sorted(set(nice_name(n) for n in g["name"].dropna())))[:400])
+    w("")
+    w("### How to read this")
+    w("")
+    w("- **Alcohol sales** are Texas Mixed Beverage Gross Receipts: what each licensed venue reports monthly to the Comptroller. "
+      "They cover alcohol only, so food-led and BYOB places are under-counted.")
+    w("- **Same venues** compares only places that filed in both years, which strips out openings and closings.")
+    w(f"- Areas with fewer than {MIN_CELL} same venues are combined. Openings and closings are called only with two sources.")
 
     facts = {"delivery": delivery.isoformat(), "title": title, "window": {"daily": [start.isoformat(), data_end.isoformat()],
              "receipts_cur": cur, "receipts_prev": prev},
