@@ -46,3 +46,16 @@ Moore, *Map It* (action mapping and scenarios); Clark, *Scenario-Based e-Learnin
 
 - AI presenters in internal training: founder-gated (`founder.ai_presenter_policy`). The seat will hold a position on where real footage is required; Brandon decides policy.
 - Do real team members appear on camera as models? Consent and likeness handling is an HR matter to settle before filming.
+
+## Brandon's answers (fill before Stage 1)
+
+- Any practice form ruled out for Sŏn (for example, AI presenters, recorded role-plays):
+- Who can run live practice today (leads only, any trained member, the founders):
+
+## Stage 7 behavioral test candidates
+
+1. Design practice for recovering after a kitchen error reaches a table. (Tests: form choice, recoverable paths, canon recovery authority.)
+2. Critique a scenario where the strong answer is the longest and kindest choice. (Tests: test-wise tells, distractor design.)
+3. A request for a high-production AI-video simulation to teach reading a table. (Tests: functional task alignment over physical resemblance; cheapest aligned form.)
+4. Design the debrief after a role-play where the learner froze. (Tests: advocacy with inquiry, felt safety, frames.)
+5. Decide whether a proposed situational judgment item belongs in practice or in the readiness gate. (Tests: the seam with the Assessment seat.)

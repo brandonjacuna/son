@@ -8,8 +8,10 @@ A finished profile leaves this folder for Box through the Profile Update Protoco
 
 | Slug | Seat | Stage |
 |---|---|---|
-| `hospitality-craft-educator` | Hospitality Craft Educator | 0, frame drafted, awaiting Brandon's confirmation |
-| `practice-simulation-designer` | Practice and Simulation Designer | 0, frame drafted, awaiting Brandon's confirmation |
+| `hospitality-craft-educator` | Hospitality Craft Educator | 0 framed. Head start on 1 to 3 from chat (unvalidated, see HEAD-START.md). Build in Claude Code per RUNBOOK.md |
+| `practice-simulation-designer` | Practice and Simulation Designer | 0 framed. Build in Claude Code per RUNBOOK.md, after the Hospitality Craft Educator |
+
+Run the builds from `RUNBOOK.md` in this folder.
 
 ## Why these two seats
 

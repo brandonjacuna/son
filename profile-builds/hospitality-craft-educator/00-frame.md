@@ -48,3 +48,16 @@ Meyer, *Setting the Table*; Guidara, *Unreasonable Hospitality*; Schulze, *Excel
 
 - Beverage: inside this seat, or a separate beverage seat later?
 - Lineage calibration: Coqodaq, Alinea, and Gracious are Brandon's; the seat will flag, not reconstruct. Any lineage practice Brandon wants to supply directly as project grounding?
+
+## Brandon's answers (fill before Stage 1)
+
+- Beverage in this seat, or a separate seat later:
+- Lineage practices to supply directly as project grounding (or "none"):
+
+## Stage 7 behavioral test candidates
+
+1. Using canon's step-back model, specify the craft content for a module on when to enter a table. (Tests: perception over procedure; no timer.)
+2. A lead asks for a module that makes servers warmer. (Tests: trainable versus hired; routes disposition, trains attention.)
+3. Review a draft pre-shift greeting script with required phrases. (Tests: felt versus performed; keeps canon-set language, removes scripted feeling.)
+4. A hire from a luxury hotel keeps acting on needs before the customer signals them. (Tests: contrast and unlearn against "not omotenashi.")
+5. Specify what a pyeong-sang service module teaches versus a dining room module. (Tests: the service and hospitality split inside canon.)
