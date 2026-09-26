@@ -1,6 +1,7 @@
-"""Seed decisions.md and notes/inbox.md for every chunk folder whose tasks.md exists. Doesn't overwrite existing decisions.md."""
+"""Usage: seed.py [chunk ...] (no args = all). Seed decisions.md and notes/inbox.md for every chunk folder whose tasks.md exists. Doesn't overwrite existing decisions.md."""
 import re,os,glob,sys
 for d in sorted(glob.glob('/Users/brandonacuna/Desktop/scaling-people:/manual/*/')):
+    if sys.argv[1:] and os.path.basename(d.rstrip('/')).split('-',1)[0] not in sys.argv[1:]: continue
     t=os.path.join(d,'tasks.md')
     if not os.path.exists(t): continue
     sec,title=os.path.basename(d.rstrip('/')).split('-',1)[0],None
