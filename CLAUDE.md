@@ -75,3 +75,15 @@ This environment has full network access (Brandon, 2026-09-26). If routines move
 - Hubs: Downtown, Rainey Street, 2nd Street / Warehouse, South Congress, South Lamar (Lamar Blvd plus S 1st St), East Austin (Holly / East Cesar Chavez, East 6th / 7th, East 12th and north, Manor Road). Off-hub clusters and fallbacks are still drafts.
 - Peers (`config/peers_draft.csv`): open concepts only, and every Emmer & Rye Hospitality Group concept. Closed venues go to `config/closure_cases.csv` for backtesting.
 - Korean: Oseyo is the only direct comp (`config/korean_watch.json`). Every other Korean concept is awareness only.
+
+## Routines (live from 2026-09-26)
+
+All three run on `main` in this environment. Each commits its data changes back to `main` with a message starting `R1:`, `R2:`, or `R3:`. They never edit code or config. A failed source goes in run health and the digest's Data health section; the routine does not substitute numbers.
+
+| Routine | When (Central) | Connectors | Steps |
+|---|---|---|---|
+| R1 ingest-daily | daily 6:07 a.m. | none | `python scripts/ingest_daily.py`, then `python scripts/clickup_sync.py signals` (posts home-zone Signals when `CLICKUP_API_TOKEN` is set, otherwise leaves `data/signals/pending_signals.json` for R3) |
+| R2 ingest-releases | Sundays 8:07 p.m. | none | `python scripts/ingest_releases.py`, then `python scripts/korean_sweep.py` |
+| R3 digest-build | Mondays 7:07 a.m., page in ClickUp by 8:00 | ClickUp, Box | `python scripts/build_digest.py`, write `data/digests/<date>.bottomline.md` and `<date>.section9.md` from the facts file, rebuild, `python scripts/publish_digest.py data/digests/<date>.md`, `python scripts/clickup_sync.py watchlist` and `signals`, upload the digest to Box `01. Digests` and the run-health files to `04. Data Health` |
+
+Section 9 and the bottom line are the only prose the routine writes. Every number in them must already appear in that week's `.md` or `.facts.json`. Follow the writing rules above.
