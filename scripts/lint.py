@@ -23,6 +23,8 @@ STATUSES = ["identified", "concept", "designed", "drafted", "reviewed", "parked"
 MOVES = ["Activate", "Demonstrate", "Practice", "Retrieve", "Integrate"]
 REQUIRED_META = ["id", "title", "domain", "status", "learners", "program", "transfer_goal", "components"]
 BIND_RE = re.compile(r"\{\{bind:([a-z0-9_.\-]+)\}\}")
+# A line carrying this marker cites a published title verbatim; the 'guest' rule is skipped on that line only.
+VERBATIM_TITLE = "<!-- lint:verbatim-title -->"
 
 ERRORS = [
     (re.compile("\u2014"), "em dash; use a comma, a colon, or restructure"),
@@ -71,7 +73,10 @@ def lint_text(path, rep):
         if in_code:
             continue
         clean = strip_bindings(line)
+        verbatim = VERBATIM_TITLE in line
         for rx, msg in ERRORS:
+            if verbatim and msg.startswith("'guest'"):
+                continue
             if rx.search(clean):
                 rep.err(rel(path), i, msg)
         for rx, msg in WARNINGS:
