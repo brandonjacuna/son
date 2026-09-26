@@ -1,0 +1,44 @@
+{
+  "job": "ingest_releases",
+  "run_at": "2026-09-26T17:14:53+00:00",
+  "sources_ok": 2,
+  "sources_total": 3,
+  "success": false,
+  "results": [
+    {
+      "key": "fred",
+      "name": "fred",
+      "status": "ok",
+      "row_count": 0,
+      "fields": [],
+      "freshness": {},
+      "notes": [
+        "0 new or revised values"
+      ]
+    },
+    {
+      "key": "bls",
+      "name": "bls",
+      "status": "ok",
+      "row_count": 0,
+      "fields": [],
+      "freshness": {},
+      "notes": [
+        "0 new or revised values"
+      ]
+    },
+    {
+      "key": "aus_passengers",
+      "name": "AUS passenger traffic",
+      "status": "stale",
+      "row_count": null,
+      "fields": [],
+      "freshness": {
+        "latest_report_listed": "2025-11"
+      },
+      "notes": [
+        "flyaustin.com lists monthly PDFs only through November 2025 and serves them through a viewer, not as files; no figure is reported until a machine-readable source is found"
+      ]
+    }
+  ]
+}

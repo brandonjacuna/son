@@ -1,0 +1,232 @@
+{
+  "alloc:austin": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Austin ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:bee_cave": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Bee Cave ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:buda": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Buda ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:cedar_park": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Cedar Park ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:dripping_springs": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Dripping Springs ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:georgetown": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Georgetown ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:hutto": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Hutto ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:kyle": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Kyle ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:lakeway": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Lakeway ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:leander": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Leander ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:manor": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Manor ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:pflugerville": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Pflugerville ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:round_rock": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Round Rock ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:san_marcos": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, San Marcos ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:sunset_valley": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, Sunset Valley ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "alloc:west_lake_hills": {
+    "frequency": "Monthly",
+    "label": "Sales tax allocation, West Lake Hills ($, month paid)",
+    "released": null,
+    "source": "Comptroller vfba-b57j"
+  },
+  "bls:CUUR0000SEFV": {
+    "frequency": "Monthly",
+    "label": "CPI food away from home, US city average (NSA)",
+    "preliminary_latest": false,
+    "released": null,
+    "source": "BLS CUUR0000SEFV",
+    "title": "Food away from home in U.S. city average, all urban consumers, not seasonally adjusted"
+  },
+  "bls:CUUR0300SEFV": {
+    "frequency": "Monthly",
+    "label": "CPI food away from home, South urban (NSA)",
+    "preliminary_latest": false,
+    "released": null,
+    "source": "BLS CUUR0300SEFV",
+    "title": "Food away from home in South urban, all urban consumers, not seasonally adjusted"
+  },
+  "bls:LAUMT481242000000003": {
+    "frequency": "Monthly",
+    "label": "Austin MSA unemployment rate (NSA, %)",
+    "preliminary_latest": true,
+    "released": null,
+    "source": "BLS LAUMT481242000000003",
+    "title": "Unemployment Rate: Austin-Round Rock-San Marcos, TX Metropolitan Statistical Area (U)"
+  },
+  "bls:SMU48124200000000001": {
+    "frequency": "Monthly",
+    "label": "Austin MSA total nonfarm jobs (NSA, thousands)",
+    "preliminary_latest": true,
+    "released": null,
+    "source": "BLS SMU48124200000000001",
+    "title": "Employed and Office of Employment and Unemployment Statistics : Total Nonfarm - Total Nonfarm"
+  },
+  "bls:SMU48124207000000001": {
+    "frequency": "Monthly",
+    "label": "Austin MSA leisure and hospitality jobs (NSA, thousands)",
+    "preliminary_latest": true,
+    "released": null,
+    "source": "BLS SMU48124207000000001",
+    "title": "Employed and Office of Employment and Unemployment Statistics : Leisure and Hospitality - Leisure and Hospitality"
+  },
+  "fred:AUSLEIHA175MFRBDAL": {
+    "frequency": "Monthly",
+    "label": "Austin MSA leisure and hospitality jobs (SA, Dallas Fed, thousands)",
+    "released": "2026-09-18 15:10:54-05",
+    "source": "FRED AUSLEIHA175MFRBDAL",
+    "title": "Leisure and Hospitality Payroll Employment for Austin-Round Rock-San Marcos, TX (MSA)",
+    "units": "Thousands of Persons"
+  },
+  "fred:AUST448LEIHN": {
+    "frequency": "Monthly",
+    "label": "Austin MSA leisure and hospitality jobs (NSA, thousands)",
+    "released": "2026-09-18 12:07:32-05",
+    "source": "FRED AUST448LEIHN",
+    "title": "All Employees: Leisure and Hospitality in Austin-Round Rock-San Marcos, TX (MSA)",
+    "units": "Thousands of Persons"
+  },
+  "fred:GASREGW": {
+    "frequency": "Weekly, Ending Monday",
+    "label": "US regular gasoline price (weekly, $/gal)",
+    "released": "2026-09-22 14:57:10-05",
+    "source": "FRED GASREGW",
+    "title": "US Regular All Formulations Gas Price",
+    "units": "Dollars per Gallon"
+  },
+  "fred:TXUR": {
+    "frequency": "Monthly",
+    "label": "Texas unemployment rate (SA, %)",
+    "released": "2026-09-18 12:19:29-05",
+    "source": "FRED TXUR",
+    "title": "Unemployment Rate in Texas",
+    "units": "Percent"
+  },
+  "fred:UMCSENT": {
+    "frequency": "Monthly",
+    "label": "University of Michigan consumer sentiment",
+    "released": "2026-09-25 10:02:24-05",
+    "source": "FRED UMCSENT",
+    "title": "University of Michigan: Consumer Sentiment",
+    "units": "Index 1966:Q1=100"
+  },
+  "tssos:bact": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: general business activity (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:emp": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: employment (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:fbact": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: general business activity, six months ahead (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:frev": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: revenue, six months ahead (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:inp": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: input prices (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:rev": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: revenue (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:sell": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: selling prices (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:uncr": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: outlook uncertainty (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  },
+  "tssos:wgs": {
+    "frequency": "Monthly",
+    "label": "Texas service sector: wages and benefits (SA diffusion index)",
+    "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+    "source": "Dallas Fed TSSOS"
+  }
+}
