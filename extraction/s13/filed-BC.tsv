@@ -1,0 +1,69 @@
+# Part B: carryovers
+k	id	target
+B1	17tn048qep8	86ajgmjk1
+B2	17tn048qepa	86ajgmjpw
+B3	17tn048qepd	86ajgmjz6
+B4	17tn048qepg	86ajgmk27
+
+# Part C: comments
+task_id	status
+86ajgmmkd	ok
+86ajgnhd1	ok
+86ajgnj4e	ok
+86akh3vrq	ok
+86akh3wjw	posted-unconfirmed
+86akh3wxv	posted-unconfirmed
+86akh5uwq	posted-unconfirmed
+86akh5ux8	posted-unconfirmed
+86akh67yb	pending
+86akh7qxy	pending
+86akh7r95	pending
+86akh9t9m	pending
+86akh9ta1	pending
+86akh9ta6	pending
+86akh9ta9	pending
+86akh9tb5	pending
+86akhb2vy	pending
+86akhcz76	pending
+86akhpvnf	pending
+86akht376	pending
+17tn048qc2c	pending
+17tn048qcjg	pending
+86akh9tbw	pending
+86akh9tbz	pending
+86akh9tb0	pending
+86akh7qry	pending
+86akh3t9p	pending
+86akh5uby	pending
+86akhb2jg	pending
+86akhcz22	pending
+86akh5u8m	pending
+86akh5u77	pending
+86akh9tbd	pending
+86akh677f	pending
+86akh7t02	pending
+86akh7t37	pending
+86akht1m9	pending
+86akh5ueg	pending
+86akh5u6e	pending
+86akh3rx4	pending
+86akh3tjb	pending
+86akhcz6k	pending
+86akhpuz8	pending
+86akhptub	pending
+86akh6738	pending
+86akhptqa	pending
+86akh7rw7	pending
+86akhcz5y	pending
+86akhcz3n	pending
+86akhb2kk	pending
+86akhb2q3	pending
+17tn048qc2f	pending
+17tn048qc2v	pending
+17tn048qckp	pending
+17tn048qckm	pending
+86akh7qwd	pending
+
+# NOTE: run halted by ClickUp daily MCP limit (1,000/1,000) after 8 comments posted.
+# posted-unconfirmed = create returned success, re-read not yet done. pending = not posted (duplicate check not yet run).
+# Re-run Part C after the limit resets; the duplicate check will skip the 8 already posted.

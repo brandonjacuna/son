@@ -1,0 +1,319 @@
+{
+ "id": "86akh3rx4",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Founder decision: Rule on the six-tier authority hierarchy and the placement of the company non-negotiables",
+ "text_content": "The two brand canon artifacts state different six-tier hierarchies. sources/brand-guidelines.md (Version 1.0) ranks: 1 cultural frameworks, 2 positioning and playground philosophy, 3 Jeong and Nunchi, 4 brand architecture, 5 voice and tone, 6 personas. The brand deck (Version 3.0, pp. 32 and 93) ranks: 1 cultural frameworks, 2 company non-negotiables, 3 positioning and philosophy, 4 architecture and identity, 5 executional systems, 6 personas.\n\nThe deck gives the company non-negotiables (no exploitation, no toxicity, no disposable people; employee-first) override authority over positioning, architecture, and every executional system. The text canon does not rank them at all. Both artifacts declare themselves closed and governing, and the deck's own rule is that a living document \"changes by versioned decision, never by drift.\"\n\nThree rulings are available: adopt the deck; adopt the text canon and move the non-negotiables into the operating charter; or make the non-negotiables the charter's top tier with canon operating beneath them. The ruling decides whether \"no disposable people\" outranks a brand or service decision or merely sits beside it.\n\nBrandon rules. Dominic should see it. Filed by Session 2. Reasoning is in section 4 of the S2 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "The two brand canon artifacts state different six-tier hierarchies. sources/brand-guidelines.md (Version 1.0) ranks: 1 cultural frameworks, 2 positioning and playground philosophy, 3 Jeong and Nunchi, 4 brand architecture, 5 voice and tone, 6 personas. The brand deck (Version 3.0, pp. 32 and 93) ranks: 1 cultural frameworks, 2 company non-negotiables, 3 positioning and philosophy, 4 architecture and identity, 5 executional systems, 6 personas.\n\nThe deck gives the company non-negotiables (no exploitation, no toxicity, no disposable people; employee-first) override authority over positioning, architecture, and every executional system. The text canon does not rank them at all. Both artifacts declare themselves closed and governing, and the deck's own rule is that a living document \"changes by versioned decision, never by drift.\"\n\nThree rulings are available: adopt the deck; adopt the text canon and move the non-negotiables into the operating charter; or make the non-negotiables the charter's top tier with canon operating beneath them. The ruling decides whether \"no disposable people\" outranks a brand or service decision or merely sits beside it.\n\nBrandon rules. Dominic should see it. Filed by Session 2. Reasoning is in section 4 of the S2 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "The two brand canon artifacts state different six-tier hierarchies. `sources/brand-guidelines.md` (Version 1.0) ranks: 1 cultural frameworks, 2 positioning and playground philosophy, 3 Jeong and Nunchi, 4 brand architecture, 5 voice and tone, 6 personas. The brand deck (Version 3.0, pp. 32 and 93) ranks: 1 cultural frameworks, 2 **company non-negotiables**, 3 positioning and philosophy, 4 architecture and identity, 5 executional systems, 6 personas.\n\nThe deck gives the company non-negotiables (no exploitation, no toxicity, no disposable people; employee-first) override authority over positioning, architecture, and every executional system. The text canon does not rank them at all. Both artifacts declare themselves closed and governing, and the deck's own rule is that a living document \"changes by versioned decision, never by drift.\"\n\nThree rulings are available: adopt the deck; adopt the text canon and move the non-negotiables into the operating charter; or make the non-negotiables the charter's top tier with canon operating beneath them. The ruling decides whether \"no disposable people\" outranks a brand or service decision or merely sits beside it.\n\nBrandon rules. Dominic should see it. Filed by Session 2. Reasoning is in section 4 of the S2 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789155675.66266700000000000000000000000000",
+ "date_created": "1789155675659",
+ "date_updated": "1790368827994",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f50000",
+  "id": "1",
+  "orderindex": "1",
+  "priority": "urgent"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akh3rx4",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000024524",
+   "comment": [
+    {
+     "text": "Extended by Session 16. Canon 1.0's verbal identity bars the founder hero narrative from longer-form digital copy while the record's brand engine is a documented build with the founders on camera and a founding story; which governs turns on the hierarchy ruling, and the team's reading, that a documented build is not a hero narrative when it documents decisions and setbacks rather than a person, is held (S16 finding 15.8). Whether the non-negotiables reach a founder as they reach anyone, which the flag path with a founder as subject assumes from canon's 'no exceptions,' also turns on the ruling (S16 P35). Canon 1.0 names Dominic in the semantic token sign-off and Deck 3.0 names no one there, while both keep 'Brandon only' for the sonic tier; the reconciliation keeps or moves both founder-by-name loads (S16 finding 15.9).\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 16. Canon 1.0's verbal identity bars the founder hero narrative from longer-form digital copy while the record's brand engine is a documented build with the founders on camera and a founding story; which governs turns on the hierarchy ruling, and the team's reading, that a documented build is not a hero narrative when it documents decisions and setbacks rather than a person, is held (S16 finding 15.8). Whether the non-negotiables reach a founder as they reach anyone, which the flag path with a founder as subject assumes from canon's 'no exceptions,' also turns on the ruling (S16 P35). Canon 1.0 names Dominic in the semantic token sign-off and Deck 3.0 names no one there, while both keep 'Brandon only' for the sonic tier; the reconciliation keeps or moves both founder-by-name loads (S16 finding 15.9).\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790368827994",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020498",
+   "comment": [
+    {
+     "text": "Extended by Session 15. A decision that a person leaves forecloses that person's agency, which Canon 1.0's Playground allows only with a documented reason, and the partners' closed record is the team's reading of that reason; whether it satisfies canon turns on the hierarchy ruling and is held (S15 finding 13.5). Canon's 'floor manager' and the record's two uses of 'manager' for a S\u014fn seat are routed for the vocabulary line 'lead,' never 'manager' (S15 P4, finding 13.1).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 15. A decision that a person leaves forecloses that person's agency, which Canon 1.0's Playground allows only with a documented reason, and the partners' closed record is the team's reading of that reason; whether it satisfies canon turns on the hierarchy ruling and is held (S15 finding 13.5). Canon's 'floor manager' and the record's two uses of 'manager' for a S\u014fn seat are routed for the vocabulary line 'lead,' never 'manager' (S15 P4, finding 13.1).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790289895818",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020356",
+   "comment": [
+    {
+     "text": "Session 14 holds one position on this ruling. Whether a non-negotiable line may foreclose a person's agency, by removing eligibility or ending their place, is a Playground question under Canon 1.0, which does not rank the non-negotiables, and is settled in favor of the non-negotiables under Deck 3.0, which places them at tier 2 above the Playground at tier 3; the team's argument to the ceiling, that an act of exploitation or toxicity toward another person kept in the house makes the others disposable, rests on the deck's placement and is held until this ruling lands (S14 finding 19.10). The definitions of toxicity and exploitation are needed beside it before the first flag read. S14 page, sections 6.4 and 15; P27."
+    }
+   ],
+   "comment_text": "Session 14 holds one position on this ruling. Whether a non-negotiable line may foreclose a person's agency, by removing eligibility or ending their place, is a Playground question under Canon 1.0, which does not rank the non-negotiables, and is settled in favor of the non-negotiables under Deck 3.0, which places them at tier 2 above the Playground at tier 3; the team's argument to the ceiling, that an act of exploitation or toxicity toward another person kept in the house makes the others disposable, rests on the deck's placement and is held until this ruling lands (S14 finding 19.10). The definitions of toxicity and exploitation are needed beside it before the first flag read. S14 page, sections 6.4 and 15; P27.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790286406347",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020221",
+   "comment": [
+    {
+     "text": "Session 13 found that \"No exploitation ever\" is defined in neither canon artifact, as Session 12 found \"toxicity\" undefined, and that the compensation architecture is the instrument by which the non-negotiable is honored or breached: the line between a training weight, a closed-day pay rule, or a payment rhythm that is lean and one that is exploitation is undrawn. The team recommends the definition be ruled beside the hierarchy ruling and the toxicity definition, before the first parameter that could be read as lean is set. S13 page, finding 19.12."
+    }
+   ],
+   "comment_text": "Session 13 found that \"No exploitation ever\" is defined in neither canon artifact, as Session 12 found \"toxicity\" undefined, and that the compensation architecture is the instrument by which the non-negotiable is honored or breached: the line between a training weight, a closed-day pay rule, or a payment rhythm that is lean and one that is exploitation is undrawn. The team recommends the definition be ruled beside the hierarchy ruling and the toxicity definition, before the first parameter that could be read as lean is set. S13 page, finding 19.12.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283828151",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019706",
+   "comment": [
+    {
+     "text": "Session 12 adds two items to the reconciliation and one to the hierarchy ruling. Deck 3.0 states both edges of the Playground (\"Rules so tight the result is foreclosed\" and \"Openness so loose the space stops feeling safe,\" p.14) while Canon 1.0 states only the foreclosure test; whether a house can fail by not correcting at all, the forgot-to coach as a canon violation, is stated in one version only, and Session 12 reads both edges as binding (finding 18.12). Canon's Nunchi, \"not diagnostic inquiry,\" sits against the record's \"diagnostic\" and against coaching by hypothesis as an act, not only as a word (finding 18.4). And for the hierarchy ruling: \"No toxicity ever\" is at Tier 2 in the deck and unranked in the text, and neither artifact defines toxicity, so the line between hard feedback and the thing the non-negotiable forbids is undrawn (finding 18.9); the founders with canon's owner should draw it beside the tier ruling. S12 page, section 18; findings 18.4, 18.9, 18.12.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 12 adds two items to the reconciliation and one to the hierarchy ruling. Deck 3.0 states both edges of the Playground (\"Rules so tight the result is foreclosed\" and \"Openness so loose the space stops feeling safe,\" p.14) while Canon 1.0 states only the foreclosure test; whether a house can fail by not correcting at all, the forgot-to coach as a canon violation, is stated in one version only, and Session 12 reads both edges as binding (finding 18.12). Canon's Nunchi, \"not diagnostic inquiry,\" sits against the record's \"diagnostic\" and against coaching by hypothesis as an act, not only as a word (finding 18.4). And for the hierarchy ruling: \"No toxicity ever\" is at Tier 2 in the deck and unranked in the text, and neither artifact defines toxicity, so the line between hard feedback and the thing the non-negotiable forbids is undrawn (finding 18.9); the founders with canon's owner should draw it beside the tier ruling. S12 page, section 18; findings 18.4, 18.9, 18.12.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790278853578",
+   "reply_count": 0
+  }
+ ]
+}

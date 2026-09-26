@@ -1,0 +1,459 @@
+{
+ "id": "86akh3tjb",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Document: Reconcile the two canon artifacts into one version of record",
+ "text_content": "sources/brand-guidelines.md (Version 1.0) and sources/brand-guidelines-deck.pdf (Version 3.0) have drifted from each other on the six-tier authority hierarchy, on the presence of \"the order is the decision,\" and on the chef seat's terminology. Canon's own rule is that a living document \"changes by versioned decision, never by drift,\" so the drift is a violation of canon by canon.\n\nThe work: name one artifact the canon of record and the other a rendering of it; apply the tier ruling from 86akh3rx4; scope the authority claim \"the source of truth for every decision made under this name\" to what canon actually governs; and state canon's relationship to the operating charter in the same words the charter uses.\n\nFollows the hierarchy ruling. Filed by Session 2. Reasoning is in sections 3 and 4 of the S2 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "sources/brand-guidelines.md (Version 1.0) and sources/brand-guidelines-deck.pdf (Version 3.0) have drifted from each other on the six-tier authority hierarchy, on the presence of \"the order is the decision,\" and on the chef seat's terminology. Canon's own rule is that a living document \"changes by versioned decision, never by drift,\" so the drift is a violation of canon by canon.\n\nThe work: name one artifact the canon of record and the other a rendering of it; apply the tier ruling from 86akh3rx4; scope the authority claim \"the source of truth for every decision made under this name\" to what canon actually governs; and state canon's relationship to the operating charter in the same words the charter uses.\n\nFollows the hierarchy ruling. Filed by Session 2. Reasoning is in sections 3 and 4 of the S2 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "`sources/brand-guidelines.md` (Version 1.0) and `sources/brand-guidelines-deck.pdf` (Version 3.0) have drifted from each other on the six-tier authority hierarchy, on the presence of \"the order is the decision,\" and on the chef seat's terminology. Canon's own rule is that a living document \"changes by versioned decision, never by drift,\" so the drift is a violation of canon by canon.\n\nThe work: name one artifact the canon of record and the other a rendering of it; apply the tier ruling from `86akh3rx4`; scope the authority claim \"the source of truth for every decision made under this name\" to what canon actually governs; and state canon's relationship to the operating charter in the same words the charter uses.\n\nFollows the hierarchy ruling. Filed by Session 2. Reasoning is in sections 3 and 4 of the S2 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789155741.48530900000000000000000000000000",
+ "date_created": "1789155741483",
+ "date_updated": "1790368828335",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f50000",
+  "id": "1",
+  "orderindex": "1",
+  "priority": "urgent"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akh3tjb",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000024525",
+   "comment": [
+    {
+     "text": "Extended by Session 16. Canon 1.0's verbal identity bars the founder hero narrative from longer-form digital copy while the record's brand engine is a documented build with the founders on camera and a founding story; which governs turns on the hierarchy ruling, and the team's reading, that a documented build is not a hero narrative when it documents decisions and setbacks rather than a person, is held (S16 finding 15.8). Whether the non-negotiables reach a founder as they reach anyone, which the flag path with a founder as subject assumes from canon's 'no exceptions,' also turns on the ruling (S16 P35). Canon 1.0 names Dominic in the semantic token sign-off and Deck 3.0 names no one there, while both keep 'Brandon only' for the sonic tier; the reconciliation keeps or moves both founder-by-name loads (S16 finding 15.9).\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 16. Canon 1.0's verbal identity bars the founder hero narrative from longer-form digital copy while the record's brand engine is a documented build with the founders on camera and a founding story; which governs turns on the hierarchy ruling, and the team's reading, that a documented build is not a hero narrative when it documents decisions and setbacks rather than a person, is held (S16 finding 15.8). Whether the non-negotiables reach a founder as they reach anyone, which the flag path with a founder as subject assumes from canon's 'no exceptions,' also turns on the ruling (S16 P35). Canon 1.0 names Dominic in the semantic token sign-off and Deck 3.0 names no one there, while both keep 'Brandon only' for the sonic tier; the reconciliation keeps or moves both founder-by-name loads (S16 finding 15.9).\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790368828335",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020499",
+   "comment": [
+    {
+     "text": "Extended by Session 15. A decision that a person leaves forecloses that person's agency, which Canon 1.0's Playground allows only with a documented reason, and the partners' closed record is the team's reading of that reason; whether it satisfies canon turns on the hierarchy ruling and is held (S15 finding 13.5). Canon's 'floor manager' and the record's two uses of 'manager' for a S\u014fn seat are routed for the vocabulary line 'lead,' never 'manager' (S15 P4, finding 13.1).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 15. A decision that a person leaves forecloses that person's agency, which Canon 1.0's Playground allows only with a documented reason, and the partners' closed record is the team's reading of that reason; whether it satisfies canon turns on the hierarchy ruling and is held (S15 finding 13.5). Canon's 'floor manager' and the record's two uses of 'manager' for a S\u014fn seat are routed for the vocabulary line 'lead,' never 'manager' (S15 P4, finding 13.1).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790289896165",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020223",
+   "comment": [
+    {
+     "text": "Session 13 found that \"No exploitation ever\" is defined in neither canon artifact, as Session 12 found \"toxicity\" undefined, and that the compensation architecture is the instrument by which the non-negotiable is honored or breached: the line between a training weight, a closed-day pay rule, or a payment rhythm that is lean and one that is exploitation is undrawn. The team recommends the definition be ruled beside the hierarchy ruling and the toxicity definition, before the first parameter that could be read as lean is set. S13 page, finding 19.12."
+    }
+   ],
+   "comment_text": "Session 13 found that \"No exploitation ever\" is defined in neither canon artifact, as Session 12 found \"toxicity\" undefined, and that the compensation architecture is the instrument by which the non-negotiable is honored or breached: the line between a training weight, a closed-day pay rule, or a payment rhythm that is lean and one that is exploitation is undrawn. The team recommends the definition be ruled beside the hierarchy ruling and the toxicity definition, before the first parameter that could be read as lean is set. S13 page, finding 19.12.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283829204",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019705",
+   "comment": [
+    {
+     "text": "Session 12 adds two items to the reconciliation and one to the hierarchy ruling. Deck 3.0 states both edges of the Playground (\"Rules so tight the result is foreclosed\" and \"Openness so loose the space stops feeling safe,\" p.14) while Canon 1.0 states only the foreclosure test; whether a house can fail by not correcting at all, the forgot-to coach as a canon violation, is stated in one version only, and Session 12 reads both edges as binding (finding 18.12). Canon's Nunchi, \"not diagnostic inquiry,\" sits against the record's \"diagnostic\" and against coaching by hypothesis as an act, not only as a word (finding 18.4). And for the hierarchy ruling: \"No toxicity ever\" is at Tier 2 in the deck and unranked in the text, and neither artifact defines toxicity, so the line between hard feedback and the thing the non-negotiable forbids is undrawn (finding 18.9); the founders with canon's owner should draw it beside the tier ruling. S12 page, section 18; findings 18.4, 18.9, 18.12.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 12 adds two items to the reconciliation and one to the hierarchy ruling. Deck 3.0 states both edges of the Playground (\"Rules so tight the result is foreclosed\" and \"Openness so loose the space stops feeling safe,\" p.14) while Canon 1.0 states only the foreclosure test; whether a house can fail by not correcting at all, the forgot-to coach as a canon violation, is stated in one version only, and Session 12 reads both edges as binding (finding 18.12). Canon's Nunchi, \"not diagnostic inquiry,\" sits against the record's \"diagnostic\" and against coaching by hypothesis as an act, not only as a word (finding 18.4). And for the hierarchy ruling: \"No toxicity ever\" is at Tier 2 in the deck and unranked in the text, and neither artifact defines toxicity, so the line between hard feedback and the thing the non-negotiable forbids is undrawn (finding 18.9); the founders with canon's owner should draw it beside the tier ruling. S12 page, section 18; findings 18.4, 18.9, 18.12.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790278850765",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019302",
+   "comment": [
+    {
+     "text": "Session 11 adds to the reconciliation list that Canon 1.0's preferred Korean terms (section 09) and Deck 3.0's (p.56) differ, fifteen against seven, which decides which words stand untranslated on every internal page in every language; the internal pages use the longer list until reconciled. S11 page, section 8.4; finding 20.12.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 11 adds to the reconciliation list that Canon 1.0's preferred Korean terms (section 09) and Deck 3.0's (p.56) differ, fifteen against seven, which decides which words stand untranslated on every internal page in every language; the internal pages use the longer list until reconciled. S11 page, section 8.4; finding 20.12.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790275843664",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320553977",
+   "comment": [
+    {
+     "text": "Extended. Session 10 adds two questions for canon's owner. The Maitre d owns \"the emotional standard of the room\" (WP p.10) and no versioned document holds it beyond canon's service model, which is the tight edge's least-defended drift (finding 20.11). Canon's forbidden lexicon is \"in all contexts, no exceptions\" and the record's peer recognition is written by the team in the moment and read aloud at the brief; whether a person's own words on the platform are a brand surface is unstated (finding 20.10, with Session 11). Session 10 also reads the Playground's tier difference (Canon 1.0 tier 2; Deck 3.0 tier 3 beneath the non-negotiables) as deciding that the non-negotiables outrank the philosophy on every verdict, marked held under ",
+     "attributes": {}
+    },
+    {
+     "text": "86akh3rx4",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". S10 page, sections 2.1, 4.1, and 20. Filed by Session 10 of the Scaling People translation program. Session task ",
+     "attributes": {}
+    },
+    {
+     "text": "86ajgmj2u",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Reasoning lives on the S10 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Extended. Session 10 adds two questions for canon's owner. The Maitre d owns \"the emotional standard of the room\" (WP p.10) and no versioned document holds it beyond canon's service model, which is the tight edge's least-defended drift (finding 20.11). Canon's forbidden lexicon is \"in all contexts, no exceptions\" and the record's peer recognition is written by the team in the moment and read aloud at the brief; whether a person's own words on the platform are a brand surface is unstated (finding 20.10, with Session 11). Session 10 also reads the Playground's tier difference (Canon 1.0 tier 2; Deck 3.0 tier 3 beneath the non-negotiables) as deciding that the non-negotiables outrank the philosophy on every verdict, marked held under 86akh3rx4. S10 page, sections 2.1, 4.1, and 20. Filed by Session 10 of the Scaling People translation program. Session task 86ajgmj2u. Reasoning lives on the S10 page of the S\u014fn Operating System doc 2ky45bmy-17253.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789408623707",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320493898",
+   "comment": [
+    {
+     "text": "Extended by findings 19.7 and 19.11: canon's judgment requirement for training (Canon 1.0, section 01) is a test on the record's skill-invisibility fix that the reference does not carry; and canon's \"Not diagnostic inquiry\" for Nunchi uses the word the record uses for its reference, so the reconciliation should reserve \"diagnostic\" for the instrument and keep it off the floor.\n\nFiled by Session 9 of the Scaling People translation program. Session task ",
+     "attributes": {}
+    },
+    {
+     "text": "86ajgmj07",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Reasoning lives on the S9 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Extended by findings 19.7 and 19.11: canon's judgment requirement for training (Canon 1.0, section 01) is a test on the record's skill-invisibility fix that the reference does not carry; and canon's \"Not diagnostic inquiry\" for Nunchi uses the word the record uses for its reference, so the reconciliation should reserve \"diagnostic\" for the instrument and keep it off the floor.\n\nFiled by Session 9 of the Scaling People translation program. Session task 86ajgmj07. Reasoning lives on the S9 page of the S\u014fn Operating System doc 2ky45bmy-17253.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789403644989",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320179800",
+   "comment": [
+    {
+     "text": "Session 8 (Team structures), 2026-09-13. Extended.\n\nSession 8 adds to the reconciliation: under Brandon's ruling on ",
+     "attributes": {}
+    },
+    {
+     "text": "86akh5u9g",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ", canon's \"floor manager\" (Canon 1.0 section 08; Deck 3.0 pp. 79 and 81) and \"Ma\u00eetre d'\" (Canon 1.0 section 06; Deck 3.0 pp. 68 and 81) are one seat, and the floor manager role leaves both uniform tables and the service model's floor-authority paragraph. Two consequences: the sonic tiers \"management sign-off\" and \"floor management\" (Canon 1.0 section 07; Deck 3.0 p.75) assume two management strata on the floor and now face one seat (S8 finding 21.2); and canon's Ma\u00eetre d' at the top of the porch steps and seating every table (Canon 1.0 sections 06 and 08) is read by the team as a register set by whoever holds the door that service, not a fixed post, because a room owner walking every table is a room no one is reading (S8 finding 21.1, P5, founder-gated with canon's owner). Canon's form \"Ma\u00eetre d'\" governs any surface a customer or candidate reads.\n\nReasoning lives on the S8 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Positions marked Recommended or Founder-gated await founder ratification; nothing here is landed.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 8 (Team structures), 2026-09-13. Extended.\n\nSession 8 adds to the reconciliation: under Brandon's ruling on 86akh5u9g, canon's \"floor manager\" (Canon 1.0 section 08; Deck 3.0 pp. 79 and 81) and \"Ma\u00eetre d'\" (Canon 1.0 section 06; Deck 3.0 pp. 68 and 81) are one seat, and the floor manager role leaves both uniform tables and the service model's floor-authority paragraph. Two consequences: the sonic tiers \"management sign-off\" and \"floor management\" (Canon 1.0 section 07; Deck 3.0 p.75) assume two management strata on the floor and now face one seat (S8 finding 21.2); and canon's Ma\u00eetre d' at the top of the porch steps and seating every table (Canon 1.0 sections 06 and 08) is read by the team as a register set by whoever holds the door that service, not a fixed post, because a room owner walking every table is a room no one is reading (S8 finding 21.1, P5, founder-gated with canon's owner). Canon's form \"Ma\u00eetre d'\" governs any surface a customer or candidate reads.\n\nReasoning lives on the S8 page of the S\u014fn Operating System doc 2ky45bmy-17253. Positions marked Recommended or Founder-gated await founder ratification; nothing here is landed.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789320129303",
+   "reply_count": 0
+  }
+ ]
+}

@@ -1,0 +1,428 @@
+{
+ "id": "86akhb2jg",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Founder decision: Rule who holds a lead's check-in",
+ "text_content": "P21 and finding 19.7. The record has feedback running both directions and every new person on a ninety-day plan with regular check-ins, and the two leads are parallel with no one above them; no one is named to hold a lead's six check-ins. The team recommends a partner under Session 3's Class C rule: the Maitre d's with Brandon's seat, the Operations Lead's with the partner whose domain holds the outcome, and both partners once at the sixth where the plan crosses both. The interval is the ledger's, every two weeks. Blocks the first lead's second check-in and readiness row 88. High.\n\nFiled by Session 7 of the Scaling People translation program. Session task 86ajgmhrz. Reasoning lives on the S7 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "P21 and finding 19.7. The record has feedback running both directions and every new person on a ninety-day plan with regular check-ins, and the two leads are parallel with no one above them; no one is named to hold a lead's six check-ins. The team recommends a partner under Session 3's Class C rule: the Maitre d's with Brandon's seat, the Operations Lead's with the partner whose domain holds the outcome, and both partners once at the sixth where the plan crosses both. The interval is the ledger's, every two weeks. Blocks the first lead's second check-in and readiness row 88. High.\n\nFiled by Session 7 of the Scaling People translation program. Session task 86ajgmhrz. Reasoning lives on the S7 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "P21 and finding 19.7. The record has feedback running both directions and every new person on a ninety-day plan with regular check-ins, and the two leads are parallel with no one above them; no one is named to hold a lead's six check-ins. The team recommends a partner under Session 3's Class C rule: the Maitre d's with Brandon's seat, the Operations Lead's with the partner whose domain holds the outcome, and both partners once at the sixth where the plan crosses both. The interval is the ledger's, every two weeks. Blocks the first lead's second check-in and readiness row 88. High.\n\nFiled by Session 7 of the Scaling People translation program. Session task `86ajgmhrz`. Reasoning lives on the S7 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789257513.76890300000000000000000000000000",
+ "date_created": "1789257513766",
+ "date_updated": "1790368820039",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f8ae00",
+  "id": "2",
+  "orderindex": "2",
+  "priority": "high"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akhb2jg",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000024502",
+   "comment": [
+    {
+     "text": "Extended by Session 16. Every default load that hands to the lead's check-in holder is on the founder load ledger with this ruling as its hand-over, and until it closes the founders hold the first leads' check-ins in the check-in's form or not at all: placed by the stack, on the clock, on the lead's page, with the check-in's questions, reading a lead against the lead's own sheet and writing nothing in a founder's voice (S16 P40). Under the team's reading the default becomes the design, and the pairing is a by-design row on the ledger read at every reset. Counsel's question 26 asks whether a founder holding a check-in or working a service under a designation is working as an employee, beside question 24.\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 16. Every default load that hands to the lead's check-in holder is on the founder load ledger with this ruling as its hand-over, and until it closes the founders hold the first leads' check-ins in the check-in's form or not at all: placed by the stack, on the clock, on the lead's page, with the check-in's questions, reading a lead against the lead's own sheet and writing nothing in a founder's voice (S16 P40). Under the team's reading the default becomes the design, and the pairing is a by-design row on the ledger read at every reset. Counsel's question 26 asks whether a founder holding a check-in or working a service under a designation is working as an employee, beside question 24.\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790368820039",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020481",
+   "comment": [
+    {
+     "text": "Extended by Session 15. The team's reading is now stated in full and built on: the monthly lead-and-partner conversation Session 4 built is the lead's check-in, on the check-in's spine with its refusals, placed by the stack, with the lead's line in the lead's words and the partner's questions on the lead's page, held by the paired partner (the Maitre d's by Brandon; the Operations Lead's founder-gated with Dominic recommended); the co-lead, no one, both partners standing, and a rotating partner are argued and refused (S15 P6). Session 9's sentence that the conversation 'is not a check-in' is surfaced as changed by this reading and not overwritten, and the alternative of a separate lead's check-in beside the conversation is stated and not recommended. Everything downstream is built on the reading and marked held: a lead's review and upward half (P7), career conversation (P8), window (P17), flag read as subject (P18), and every range breach's destination (P13). Rows 184, 185, and 188 fail until this closes. The team recommends closing it before the leads are in the building six weeks ahead of dinner's gate, with the Operations Lead's pairing (86akh6742).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 15. The team's reading is now stated in full and built on: the monthly lead-and-partner conversation Session 4 built is the lead's check-in, on the check-in's spine with its refusals, placed by the stack, with the lead's line in the lead's words and the partner's questions on the lead's page, held by the paired partner (the Maitre d's by Brandon; the Operations Lead's founder-gated with Dominic recommended); the co-lead, no one, both partners standing, and a rotating partner are argued and refused (S15 P6). Session 9's sentence that the conversation 'is not a check-in' is surfaced as changed by this reading and not overwritten, and the alternative of a separate lead's check-in beside the conversation is stated and not recommended. Everything downstream is built on the reading and marked held: a lead's review and upward half (P7), career conversation (P8), window (P17), flag read as subject (P18), and every range breach's destination (P13). Rows 184, 185, and 188 fail until this closes. The team recommends closing it before the leads are in the building six weeks ahead of dinner's gate, with the Operations Lead's pairing (86akh6742).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790289889890",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020355",
+   "comment": [
+    {
+     "text": "Session 14 adds three dependencies to this ruling. A lead's own horizon window has no holder and no trigger until it closes; the team's reading, held for Session 15, is that it opens by the stack on the leads' review record's counts (node overload on the seat across the thresholds, \"something new\" reviews per period, the domain's upward halves read by mechanism) and never on a person's line about the lead, and is held by whoever holds the lead's check-in against the lead seat's own sheet. A non-negotiable flag whose subject is a lead has its flag read held by the other lead with a founder, and the decision is the founders'. And the performance page's line on a lead's window reads \"held\" until this ruling lands. The team repeats the recommendation to close it before the leads are in the building. S14 page, sections 6.6 and 10.3; P28, P36."
+    }
+   ],
+   "comment_text": "Session 14 adds three dependencies to this ruling. A lead's own horizon window has no holder and no trigger until it closes; the team's reading, held for Session 15, is that it opens by the stack on the leads' review record's counts (node overload on the seat across the thresholds, \"something new\" reviews per period, the domain's upward halves read by mechanism) and never on a person's line about the lead, and is held by whoever holds the lead's check-in against the lead seat's own sheet. A non-negotiable flag whose subject is a lead has its flag read held by the other lead with a founder, and the decision is the founders'. And the performance page's line on a lead's window reads \"held\" until this ruling lands. The team repeats the recommendation to close it before the leads are in the building. S14 page, sections 6.6 and 10.3; P28, P36.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790286405414",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020210",
+   "comment": [
+    {
+     "text": "Session 13 adds the review's dependency: a lead's review has no holder until this closes, and the team's reading is that the holder is whoever holds the lead's check-in, on the same form, against the lead's own sheet, with dimension one as holding a domain without an apex, dimension two from the lead's own advocate record, dimension three as the lead's range on the leads' review record, and dimension four as what the building supplied to the lead's seat including its languages. The review's upward half makes the undestined concern sharper, because a review is the one formal moment the record promises for feedback about management and a person's read of their lead goes, at present, only to their lead; the team's reading that a lead's review holder reads the domain's upward halves aggregated by mechanism is held for Session 15. Until the ruling the founders hold the first leads' reviews by default as they hold their check-ins. S13 page, sections 6.5 and 8.5; P16, P20."
+    }
+   ],
+   "comment_text": "Session 13 adds the review's dependency: a lead's review has no holder until this closes, and the team's reading is that the holder is whoever holds the lead's check-in, on the same form, against the lead's own sheet, with dimension one as holding a domain without an apex, dimension two from the lead's own advocate record, dimension three as the lead's range on the leads' review record, and dimension four as what the building supplied to the lead's seat including its languages. The review's upward half makes the undestined concern sharper, because a review is the one formal moment the record promises for feedback about management and a person's read of their lead goes, at present, only to their lead; the team's reading that a lead's review holder reads the domain's upward halves aggregated by mechanism is held for Session 15. Until the ruling the founders hold the first leads' reviews by default as they hold their check-ins. S13 page, sections 6.5 and 8.5; P16, P20.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283816145",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019700",
+   "comment": [
+    {
+     "text": "Session 12 adds the coaching model's reasons for urgency. Every coaching act on the floor is the Maitre d's, and every trigger in the S12 decision-rights entries that reads \"for the Maitre d's own\" has no destination until this closes: a hypothesis or summary the Maitre d writes anywhere, a trait word or \"disengaged\" the Maitre d says at a check-in, a correction delivered between check-ins outside a placed one, a placed check-in with a reason found anywhere, a recognition decline said at the brief, and a re-training trigger on the Maitre d's own scorecard, which is today a load line at the partners' review that no one reads with the Maitre d. Blame absorption stops one seat short: management absorbs blame from staff and the customer, and nothing absorbs it from a lead (S12 finding 18.5). Until this closes, the only people who could hold a lead's check-in are the founders, which is why the coaching module is completed by the founders pre-opening. S12 page, sections 7.3, 12, 15.9, and 18.5; P43.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 12 adds the coaching model's reasons for urgency. Every coaching act on the floor is the Maitre d's, and every trigger in the S12 decision-rights entries that reads \"for the Maitre d's own\" has no destination until this closes: a hypothesis or summary the Maitre d writes anywhere, a trait word or \"disengaged\" the Maitre d says at a check-in, a correction delivered between check-ins outside a placed one, a placed check-in with a reason found anywhere, a recognition decline said at the brief, and a re-training trigger on the Maitre d's own scorecard, which is today a load line at the partners' review that no one reads with the Maitre d. Blame absorption stops one seat short: management absorbs blame from staff and the customer, and nothing absorbs it from a lead (S12 finding 18.5). Until this closes, the only people who could hold a lead's check-in are the founders, which is why the coaching module is completed by the founders pre-opening. S12 page, sections 7.3, 12, 15.9, and 18.5; P43.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790278836147",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019297",
+   "comment": [
+    {
+     "text": "Session 11 adds the communication architecture's reasons for urgency. A concern about a lead is a person-subject item the feedback channel routes and does not carry, and the destinations page reads \"held\" for it until this closes, so the one topic with no destination is now visible on a page every team member reads. Every range breach on a room's owner or a publisher in S11 section 17 (a frame added to the one thing, a word about a departed person, a recognition read that fails the rules, a person item published, a unilateral case heard, a lead's repeated part in a change-reach failure) has this ruling as its destination and until then goes to the partners' review as a load reading on the lead. Readiness row 118 fails and the destinations page carries a held entry until it closes. S11 page, sections 6.8, 12.2, 17; P30, P41.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 11 adds the communication architecture's reasons for urgency. A concern about a lead is a person-subject item the feedback channel routes and does not carry, and the destinations page reads \"held\" for it until this closes, so the one topic with no destination is now visible on a page every team member reads. Every range breach on a room's owner or a publisher in S11 section 17 (a frame added to the one thing, a word about a departed person, a recognition read that fails the rules, a person item published, a unilateral case heard, a lead's repeated part in a change-reach failure) has this ruling as its destination and until then goes to the partners' review as a load reading on the lead. Readiness row 118 fails and the destinations page carries a held entry until it closes. S11 page, sections 6.8, 12.2, 17; P30, P41.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790275831781",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320553191",
+   "comment": [
+    {
+     "text": "Extended. Session 10 adds the environment's reason to the urgency. Every range breach on a lead's entry in section 17 (an item about a person at the brief, a designation named as a reward, the grid used about a person) has this holder as its destination and, until it closes, goes to the partners' review as a load reading on the lead. The fourth speech act, a concern about a lead, has no reader the lead does not hold except the anonymous pulse, so \"safety to speak\" is partial and \"no topics are undiscussable\" has one undiscussable topic left until this closes. The destinations page (A9) carries the entry as \"held\" until then. S10 page, sections 3.5, 6.4, and 17, P15, P40. Filed by Session 10 of the Scaling People translation program. Session task ",
+     "attributes": {}
+    },
+    {
+     "text": "86ajgmj2u",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Reasoning lives on the S10 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Extended. Session 10 adds the environment's reason to the urgency. Every range breach on a lead's entry in section 17 (an item about a person at the brief, a designation named as a reward, the grid used about a person) has this holder as its destination and, until it closes, goes to the partners' review as a load reading on the lead. The fourth speech act, a concern about a lead, has no reader the lead does not hold except the anonymous pulse, so \"safety to speak\" is partial and \"no topics are undiscussable\" has one undiscussable topic left until this closes. The destinations page (A9) carries the entry as \"held\" until then. S10 page, sections 3.5, 6.4, and 17, P15, P40. Filed by Session 10 of the Scaling People translation program. Session task 86ajgmj2u. Reasoning lives on the S10 page of the S\u014fn Operating System doc 2ky45bmy-17253.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789408564424",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320493418",
+   "comment": [
+    {
+     "text": "Extended, and now urgent on the diagnostic's account. Until this closes, the diagnosis of a lead's own node is half-blind by construction: the stack's records read the outside (moved check-ins, the stretch, founder-deferred calls, memory-held items) and the lead's own \"what is in the way\" reads the inside, and a founder's impression is never a source (S9 P35, row 118). The lead's career conversation and the seat holder's own line in the reset's first read also wait on it. The team recommends closing it before the leads are in the building six weeks ahead of dinner's gate.\n\nFiled by Session 9 of the Scaling People translation program. Session task ",
+     "attributes": {}
+    },
+    {
+     "text": "86ajgmj07",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Reasoning lives on the S9 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Extended, and now urgent on the diagnostic's account. Until this closes, the diagnosis of a lead's own node is half-blind by construction: the stack's records read the outside (moved check-ins, the stretch, founder-deferred calls, memory-held items) and the lead's own \"what is in the way\" reads the inside, and a founder's impression is never a source (S9 P35, row 118). The lead's career conversation and the seat holder's own line in the reset's first read also wait on it. The team recommends closing it before the leads are in the building six weeks ahead of dinner's gate.\n\nFiled by Session 9 of the Scaling People translation program. Session task 86ajgmj07. Reasoning lives on the S9 page of the S\u014fn Operating System doc 2ky45bmy-17253.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789403600323",
+   "reply_count": 0
+  }
+ ]
+}

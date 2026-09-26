@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p sources profiles reference extraction output)",
+      "Bash(mv \"Scaling People_ Tactics for Man - Claire Hughes Johnson.pdf\" sources/scaling-people-book.pdf)",
+      "Bash(mv \"Scaling-People-Workbooks_PDF_23_03_05.pdf\" sources/scaling-people-workbook.pdf)",
+      "Bash(mv \"Robert Lerma White Paper.pdf\" sources/robert-lerma-white-paper.pdf)",
+      "Bash(mv \"Son Brand Guidelines v1 \\(1\\).md\" sources/brand-guidelines.md)",
+      "Bash(python3 -c ' *)",
+      "Bash(grep -v -E '^\\(CLAUDE.md|sources|profiles|reference|extraction|output\\)$')",
+      "Bash(python3 -)",
+      "mcp__daa70cda-fb71-479a-9e27-a042277a02d7__clickup_create_task",
+      "mcp__daa70cda-fb71-479a-9e27-a042277a02d7__clickup_update_document_page",
+      "mcp__daa70cda-fb71-479a-9e27-a042277a02d7__clickup_merge_document_page",
+      "mcp__daa70cda-fb71-479a-9e27-a042277a02d7__clickup_list_document_pages",
+      "mcp__daa70cda-fb71-479a-9e27-a042277a02d7__clickup_get_task",
+      "mcp__daa70cda-fb71-479a-9e27-a042277a02d7__clickup_get_document_pages",
+      "Bash(cd \"/Users/brandonacuna/Desktop/scaling-people:\" && ls -la && ls -la sources/ 2>/dev/null && mkdir -p extraction/s01 && echo \"---dir ready---\")",
+      "Bash(python3 -c \"import fitz; print\\('pymupdf ok', fitz.__doc__\\)\")",
+      "Bash(python3 -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(mkdir -p extraction/s01)",
+      "Bash(python3 -c \"import pypdf; print\\(pypdf.__version__\\)\")"
+    ]
+  }
+}

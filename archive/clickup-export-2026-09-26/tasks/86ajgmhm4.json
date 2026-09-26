@@ -1,0 +1,372 @@
+{
+ "id": "86ajgmhm4",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "S5: Ch3, Recruiting",
+ "text_content": "Pages 167 to 192. Chapter 3, Recruiting.\n\nS\u014fn output (draft): sourcing and pipeline architecture.\n\nConstraint: Greenhouse is already selected as the ATS, retained over Rippling native. Rippling is the SSO and HR layer. Design into the tools that are bought, not around them.\n\nWatch for: if role definition turns out to live in this section rather than in Hiring, flag it. Logically the scorecard precedes sourcing, and she may have ordered it the other way.",
+ "description": "Pages 167 to 192. Chapter 3, Recruiting.\n\nS\u014fn output (draft): sourcing and pipeline architecture.\n\nConstraint: Greenhouse is already selected as the ATS, retained over Rippling native. Rippling is the SSO and HR layer. Design into the tools that are bought, not around them.\n\nWatch for: if role definition turns out to live in this section rather than in Hiring, flag it. Logically the scorecard precedes sourcing, and she may have ordered it the other way.",
+ "markdown_description": "**Pages 167 to 192.** Chapter 3, Recruiting.\n\n**S\u014fn output (draft):** sourcing and pipeline architecture.\n\n**Constraint:** Greenhouse is already selected as the ATS, retained over Rippling native. Rippling is the SSO and HR layer. Design into the tools that are bought, not around them.\n\n**Watch for:** if role definition turns out to live in this section rather than in Hiring, flag it. Logically the scorecard precedes sourcing, and she may have ordered it the other way.",
+ "status": {
+  "id": "sc901323485125_KHLQM1mG",
+  "status": "done",
+  "color": "#008844",
+  "orderindex": 6,
+  "type": "closed"
+ },
+ "orderindex": "237802441.00000000000000000000000000000000",
+ "date_created": "1783960429088",
+ "date_updated": "1789182477209",
+ "date_closed": "1789182464393",
+ "date_done": "1789182464393",
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [
+  {
+   "id": 144179365,
+   "username": "Brandon John Acu\u00f1a-Cardona",
+   "color": "#a18072",
+   "initials": "BA",
+   "email": "brandon@son.restaurant",
+   "profilePicture": null
+  }
+ ],
+ "checklists": [],
+ "tags": [],
+ "parent": "86ajgmh9a",
+ "top_level_parent": "86ajgmh9a",
+ "priority": null,
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [
+  {
+   "task_id": "86ajgmhm4",
+   "depends_on": "86ajgmhjr",
+   "chain_id": "e4cbdc25-b910-4e8d-840e-f8b2eae07771",
+   "date_created": "1783960548789",
+   "userid": "144179365",
+   "workspace_id": "90131574430",
+   "type": 1,
+   "lag_ms": null
+  },
+  {
+   "task_id": "86ajgmhnt",
+   "depends_on": "86ajgmhm4",
+   "chain_id": "09e12bee-3df7-4308-a497-b185f16cf70a",
+   "date_created": "1783960552025",
+   "userid": "144179365",
+   "workspace_id": "90131574430",
+   "type": 1,
+   "lag_ms": null
+  }
+ ],
+ "linked_tasks": [
+  {
+   "task_id": "86ajgmhm4",
+   "link_id": "86ajgmm86",
+   "date_created": "1783960628468",
+   "userid": "144179365",
+   "workspace_id": "90131574430"
+  },
+  {
+   "task_id": "86ajgmhm4",
+   "link_id": "86ajgnhh3",
+   "date_created": "1783963117974",
+   "userid": "144179365",
+   "workspace_id": "90131574430"
+  },
+  {
+   "task_id": "86ajgmhm4",
+   "link_id": "86akh3vbd",
+   "date_created": "1789155920714",
+   "userid": "144179365",
+   "workspace_id": "90131574430"
+  },
+  {
+   "task_id": "86ajgmhm4",
+   "link_id": "86akh3vrq",
+   "date_created": "1789155939146",
+   "userid": "144179365",
+   "workspace_id": "90131574430"
+  },
+  {
+   "task_id": "86ajgmhm4",
+   "link_id": "86akh5ut1",
+   "date_created": "1789163374291",
+   "userid": "144179365",
+   "workspace_id": "90131574430"
+  }
+ ],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86ajgmhm4",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "90130320019435",
+   "comment": [
+    {
+     "text": "Session 5 complete, 2026-09-11.\n\nDeliverable: \"S5: Recruiting, the seat sheet, and the candidate-facing system,\" page ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-31733",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": " in the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Sixteen sections. Sixty-nine positions: 57 recommended, 11 founder-gated, 1 chef-gated, 0 team-filled. Readiness rows 36 to 59 added, so the test stands at 59. Thirty instrument specifications, 25 used and 5 refused with what does their work instead. Thirteen findings inside the record.\n\nOn the task's watch-for: role definition does live in the recruiting section, not in hiring. She builds the candidate assessment rubric at Book pp. 184 to 189 and her hiring section consumes it, and she states directly that the interview process is not where a role is calibrated. The scorecard does precede sourcing. Session 6 inherits the rubric's structure as fixed and fills it.\n\nOn the task's constraint: the system is specified on Greenhouse as the applicant tracking system with Rippling as the single sign-on and human-resources layer, with each requirement marked as configuration, a build, or to confirm. No operating-system document names a data hub tool, which remains open at ",
+     "attributes": {}
+    },
+    {
+     "text": "86akh5u6e",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n\nHeld rather than closed: the chef seat. Both branches of third-seat recruitment are argued to the ceiling and neither is picked, per carryover ",
+     "attributes": {}
+    },
+    {
+     "text": "86akh3vbd",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": " and founder decision ",
+     "attributes": {}
+    },
+    {
+     "text": "86akh2qrp",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n\nFiled: 24 typed work items under ",
+     "attributes": {}
+    },
+    {
+     "text": "86akh1hdg",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ", and 18 carryovers in list ",
+     "attributes": {}
+    },
+    {
+     "text": "901327884538",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ", each linked to its target session. Context ledger updated in tracker ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17233",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 5 complete, 2026-09-11.\n\nDeliverable: \"S5: Recruiting, the seat sheet, and the candidate-facing system,\" page 2ky45bmy-31733 in the S\u014fn Operating System doc 2ky45bmy-17253. Sixteen sections. Sixty-nine positions: 57 recommended, 11 founder-gated, 1 chef-gated, 0 team-filled. Readiness rows 36 to 59 added, so the test stands at 59. Thirty instrument specifications, 25 used and 5 refused with what does their work instead. Thirteen findings inside the record.\n\nOn the task's watch-for: role definition does live in the recruiting section, not in hiring. She builds the candidate assessment rubric at Book pp. 184 to 189 and her hiring section consumes it, and she states directly that the interview process is not where a role is calibrated. The scorecard does precede sourcing. Session 6 inherits the rubric's structure as fixed and fills it.\n\nOn the task's constraint: the system is specified on Greenhouse as the applicant tracking system with Rippling as the single sign-on and human-resources layer, with each requirement marked as configuration, a build, or to confirm. No operating-system document names a data hub tool, which remains open at 86akh5u6e.\n\nHeld rather than closed: the chef seat. Both branches of third-seat recruitment are argued to the ceiling and neither is picked, per carryover 86akh3vbd and founder decision 86akh2qrp.\n\nFiled: 24 typed work items under 86akh1hdg, and 18 carryovers in list 901327884538, each linked to its target session. Context ledger updated in tracker 2ky45bmy-17233.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789182477209",
+   "reply_count": 0
+  }
+ ]
+}

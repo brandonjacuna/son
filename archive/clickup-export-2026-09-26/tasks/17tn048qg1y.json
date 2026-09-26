@@ -1,0 +1,230 @@
+{
+ "id": "17tn048qg1y",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Document: Write the counsel questions register on the partners' page",
+ "text_content": "I10. A standing register in the parameters register's form carrying every question in the page's section 14 with its number, its owner (counsel, with the founders or the Operations Lead named where the answer changes a mechanism), the step of the protocol that waits on it, its state (open, answered with the date and where the answer lives, declined with the reason), and its urgency as the gate needs it; read at every partners' review while any urgent question is open; refusing a marked step's first run before its answer, an answer written by anyone but counsel, a legal statement in the house's voice anywhere on the team home, and a figure. Owned by the founders, with counsel answering and the Operations Lead keeping the record. Blocks row 200. Urgent.\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "I10. A standing register in the parameters register's form carrying every question in the page's section 14 with its number, its owner (counsel, with the founders or the Operations Lead named where the answer changes a mechanism), the step of the protocol that waits on it, its state (open, answered with the date and where the answer lives, declined with the reason), and its urgency as the gate needs it; read at every partners' review while any urgent question is open; refusing a marked step's first run before its answer, an answer written by anyone but counsel, a legal statement in the house's voice anywhere on the team home, and a figure. Owned by the founders, with counsel answering and the Operations Lead keeping the record. Blocks row 200. Urgent.\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "I10. A standing register in the parameters register's form carrying every question in the page's section 14 with its number, its owner (counsel, with the founders or the Operations Lead named where the answer changes a mechanism), the step of the protocol that waits on it, its state (open, answered with the date and where the answer lives, declined with the reason), and its urgency as the gate needs it; read at every partners' review while any urgent question is open; refusing a marked step's first run before its answer, an answer written by anyone but counsel, a legal statement in the house's voice anywhere on the team home, and a figure. Owned by the founders, with counsel answering and the Operations Lead keeping the record. Blocks row 200. Urgent.\n\nFiled by Session 15 of the Scaling People translation program. Session task `86ajgmjpw`. Reasoning lives on the S15 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001790289836.13632000000000000000000000000000",
+ "date_created": "1790289836131",
+ "date_updated": "1790368827199",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f50000",
+  "id": "1",
+  "orderindex": "1",
+  "priority": "urgent"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/17tn048qg1y",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000024522",
+   "comment": [
+    {
+     "text": "Extended by Session 16. Six questions join the register continuing Session 15's numbering, each stated so counsel can answer it without the page: 26, whether the founders are employees for any purpose and whether a founder working a service under a designation is working as one; 27, whether the house's flag path may run with a founder as subject and what the record and the line may hold about a founder; 28, whether the partners' exclusion from the pool has any consequence for the pool's character as a wage, extending question 4 and the parked carryover; 29, what the house must do at a founder's departure, incapacity, or death regarding records, authorities, accounts, and the interim's lawful holders; 30, whether the founders' documents, the ledger, and the load line are records with retention, discovery, disclosure, or fiduciary consequence; 31, whether commitments outside the house held by any founder raise any duty under the agreement or the law, stated generically. Urgency: 26 and 30 before the first founder-held check-in, 27 before the first flag read, 28 before the first pay page, 29 and 31 before dinner's gate (S16 section 16, P55). No question asks for a figure.\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 16. Six questions join the register continuing Session 15's numbering, each stated so counsel can answer it without the page: 26, whether the founders are employees for any purpose and whether a founder working a service under a designation is working as one; 27, whether the house's flag path may run with a founder as subject and what the record and the line may hold about a founder; 28, whether the partners' exclusion from the pool has any consequence for the pool's character as a wage, extending question 4 and the parked carryover; 29, what the house must do at a founder's departure, incapacity, or death regarding records, authorities, accounts, and the interim's lawful holders; 30, whether the founders' documents, the ledger, and the load line are records with retention, discovery, disclosure, or fiduciary consequence; 31, whether commitments outside the house held by any founder raise any duty under the agreement or the law, stated generically. Urgency: 26 and 30 before the first founder-held check-in, 27 before the first flag read, 28 before the first pay page, 29 and 31 before dinner's gate (S16 section 16, P55). No question asks for a figure.\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790368827199",
+   "reply_count": 0
+  }
+ ]
+}

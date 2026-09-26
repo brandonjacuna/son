@@ -1,0 +1,253 @@
+{
+ "id": "86akh9tbd",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Founder decision: Rule on bias measurement's data",
+ "text_content": "P47, founder-gated. Her bias control is measurement (Book p.205), and the record holds inclusion mechanics with no position on the composition of the team. Until Session 11 rules, S6 specified a pattern read rather than a measured one. Routes with 86akh7r8z.\n\nFiled by Session 6 of the Scaling People translation program. Session task 86ajgmhnt. Reasoning lives on the S6 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "P47, founder-gated. Her bias control is measurement (Book p.205), and the record holds inclusion mechanics with no position on the composition of the team. Until Session 11 rules, S6 specified a pattern read rather than a measured one. Routes with 86akh7r8z.\n\nFiled by Session 6 of the Scaling People translation program. Session task 86ajgmhnt. Reasoning lives on the S6 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "P47, founder-gated. Her bias control is measurement (Book p.205), and the record holds inclusion mechanics with no position on the composition of the team. Until Session 11 rules, S6 specified a pattern read rather than a measured one. Routes with `86akh7r8z`.\n\nFiled by Session 6 of the Scaling People translation program. Session task `86ajgmhnt`. Reasoning lives on the S6 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789227148.25902000000000000000000000000000",
+ "date_created": "1789227148256",
+ "date_updated": "1790283820476",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#6fddff",
+  "id": "3",
+  "orderindex": "3",
+  "priority": "normal"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akh9tbd",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000020214",
+   "comment": [
+    {
+     "text": "Session 13 adds the pay parity read as a consumer of the same tags: because pay is a function of the seat's horizon, the markers, and the days, parity in pay reduces to the unlock rate, the marker rate, and the days scheduled per seat class, read by the reach read's tags at the reset with no name, figure, target, inference, or act on a person, and never a performance input. Whether the tags include self-identification is this decision's, with counsel, and the parity read reads \"cannot read yet\" until the tags and a year exist. S13 page, section 13.4; P39, P40; work item A8."
+    }
+   ],
+   "comment_text": "Session 13 adds the pay parity read as a consumer of the same tags: because pay is a function of the seat's horizon, the markers, and the days, parity in pay reduces to the unlock rate, the marker rate, and the days scheduled per seat class, read by the reach read's tags at the reset with no name, figure, target, inference, or act on a person, and never a performance input. Whether the tags include self-identification is this decision's, with counsel, and the parity read reads \"cannot read yet\" until the tags and a year exist. S13 page, section 13.4; P39, P40; work item A8.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283820476",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019293",
+   "comment": [
+    {
+     "text": "Session 11 answered what the data is (the source tag, pool tag, chosen language and format, stage outcomes, on-sheet decline reasons, interviewer, dates, per seat and stage, from Session 5's records), who reads it and when (the leads' review weekly, the calibration read monthly, the ninety-day read, the reset), and its refusals (no target, figure, significance claim, name, inference, or act on a candidate). What remains for the founders is self-identification: if asked, voluntary, after the packet, invisible to every assessor, decider, lead, and mentor, aggregate only for the reach question, never joined to a person page, its form and retention counsel's; the team recommends declining for now. S11 page, sections 15.5 and 16; P37, P39.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 11 answered what the data is (the source tag, pool tag, chosen language and format, stage outcomes, on-sheet decline reasons, interviewer, dates, per seat and stage, from Session 5's records), who reads it and when (the leads' review weekly, the calibration read monthly, the ninety-day read, the reset), and its refusals (no target, figure, significance claim, name, inference, or act on a candidate). What remains for the founders is self-identification: if asked, voluntary, after the packet, invisible to every assessor, decider, lead, and mentor, aggregate only for the reach question, never joined to a person page, its form and retention counsel's; the team recommends declining for now. S11 page, sections 15.5 and 16; P37, P39.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790275824332",
+   "reply_count": 0
+  }
+ ]
+}

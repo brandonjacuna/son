@@ -1,0 +1,327 @@
+{
+ "items": [
+  {
+   "k": "A1",
+   "name": "Founder decision: Ratify the playground test as six questions, the ten employee conditions, and their verdicts",
+   "priority": "high",
+   "desc": "P3, P4, P6, and P45. Canon's one-line test (\"does this build or foreclose conditions for agency?\", Canon 1.0, section 01) is run on a mechanism as six questions: the condition, the legible rule, the open-ended result, the tight edge, the loose edge, and the documented reason with the diagnostic read that would notice the condition's absence; the two edges are Deck 3.0's own (\"Rules so tight the result is foreclosed\"; \"Openness so loose the space stops feeling safe\", p.14). \"Conditions for agency\" for an employee decomposes into ten: legible rules, a stated range, judgment built not procedure only, safety to err, safety to speak, being known, a path, time that is not taken, a say in the rules, and a place of their own. Each is tested against a mechanism and given one of three verdicts: four are mechanisms (legible rules, a stated range, safety to err, a path), five partial (judgment, safety to speak, being known, time not taken, a say in the rules), and one slogan today (a place of their own); belonging among the team is read as the outcome the conditions produce, not a condition. The non-negotiables outrank the philosophy on every verdict, which is Deck 3.0's order and is marked held under `86akh3rx4`. Blocks I5, row 129, and every environment item below. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht0wq"
+  },
+  {
+   "k": "A2",
+   "name": "Founder decision: Decide whether the pre-service window carries a staff meal, with its kitchen cost",
+   "priority": "normal",
+   "desc": "P12 and P13. Her Table 8 names a meal together as the plainest team-focused activity (Book p.308); it is the one team mechanism the industry runs daily, at no meeting cost, in the paid pre-service window, and neither the white paper nor either canon artifact mentions it (finding 20.9). The team does not invent Sŏn's intent and recommends nothing from scratch; it records the silence as the one item on her list that passes the four-part entry test on its face (no meeting; ten minutes the window already funds; the kitchen as runner; no record) and states the Realist's constraint: a meal inside the mise window on a Friday is a station's cost the chef confirms, and a meal that displaces the brief is refused. Decide before the training services fix the window's shape, because a meal added after is a displacement. Chef-gated on the kitchen's half. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht0y6"
+  },
+  {
+   "k": "A3",
+   "name": "Founder decision: Ratify the brief's team slot list and its refusals, and the whole-house gathering's team-making half",
+   "priority": "high",
+   "desc": "P20 and P21, answering carryover `86akh67xe`. The slot Session 4 bounded after the readiness block carries one item per brief from a fixed list in priority: the designations' one line each (the room, the door, the sequence, the pass, each holder saying what they need from the roster), what the system learned from the last close as process and never as person, a principle against a moment once a week at most, and a thread added (a form passed or a fluency connection) as a fact. It refuses anything about a person beyond a page fact, a script, a survey, an opener, a personal share, a sales instruction, a lagging figure, an announced structure change, a build item, and anything past the scene trigger; its ceiling is five minutes on a full window and zero on a compressed one, a duration flagged as a reset parameter; it is held by the owner of the room or the room designation; at the early morning's window brief it is item 1 alone; it produces no record but which item ran. If the gathering is approved, its team-making half carries, after Session 4's content, the quarter's threads, what the house learned, the principles read back, coverage, and one open question put to the house with the feedback channel as its destination, which is what makes \"a say in the rules\" a mechanism; it refuses an opener, an icebreaker, the grid, a survey, a culture speech, and any announcement. Extends `86akh5uc7`, `86akh673u`, and `86akh6779` by reference. Blocks I1, I2, rows 119 and 126. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht10z"
+  },
+  {
+   "k": "A4",
+   "name": "Founder decision: Ratify psychological safety's environment half and the rule that every topic has a destination",
+   "priority": "high",
+   "desc": "P14 and P15. Safety's environment half is made of blame the process (WP p.17), the capture at the close, private process-focused post-mortems off the floor, the check-in's refusals, a person page with no verdict, the non-negotiables above the philosophy, and the range as a pre-authorized act. Her four interpersonal risks are placed: a question to the mentor, the check-in, or the channel; a dissent to the hold's joint half-page or the upward question; a failure to the capture; vulnerability refused as a mechanism, because the house does not ask. \"No topics are undiscussable\" is inverted into the rule that every topic has a named destination and the undiscussable topic is the one with none, which is the trigger with no destination the ledger forbids; the one undiscussable topic left is a concern about a lead that the lead holds, until `86akhb2jg` closes. Bad behavior in a meeting-shaped mechanism is corrected by the spine and the chair's clock and never by naming a person in a room; the private correction is the check-in's and Session 12's; her work style call-out is refused. The response by failure type is Session 12's; a non-negotiable breach by a person is Sessions 14 and 15's. Blocks I3 and row 123. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht12m"
+  },
+  {
+   "k": "A5",
+   "name": "Founder decision: Ratify that Sŏn holds no offsite for the house or the leads, and the partners' annual block",
+   "priority": "normal",
+   "desc": "P17 and P18, answering carryover `86akhpvhj`'s offsite half. A whole-house offsite costs a closed service, which is the gathering's cost and is already founder-gated, and team state is read by the diagnostic and never by an offsite; the leads are two people and the kitchen's seat who meet weekly with a hard stop and sit at the reset with the center. Her offsite's decision content (\"step back, evaluate the business, and jointly make decisions\", Book p.304) is the mechanism reset and the principles revision, and the team recommends they be held as one closed-hour block per year, away from the building if the partners choose, at no cost to service and with no diagnostic role. Her opener, icebreakers, a notetaker role, her closer as a spoken round, the feedback form, and DRIs per section are refused; PAL is every review's fixed agenda, the shared document is the domain read and the house memo, and her closer's function is the reflection paragraph. The cohort's orientation block per wave is the one existing gathering that does her forming work. Extends `86akh676t` and `86akh3trj` by reference. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht14m"
+  },
+  {
+   "k": "A6",
+   "name": "Founder decision: Ratify the work style grid's team use as none but one upward use",
+   "priority": "normal",
+   "desc": "P30, answering carryovers `86akh7qq7`, `86akhb2wj`, and `86akhcz6v`. The grid stays inside a lead's working-with-me document and Session 1's instrument on the team home, and has no team use beyond them, because a language a team uses about itself on a roster that dissolves nightly is a language people use about each other (her own example is a leader calling a colleague \"red\" in a meeting, Book p.328), the record's vocabulary for difference is the strands as two kinds of work, a typology on a floor becomes a placement within a week, an hourly person is never asked to write the document, and the person page refuses a rating. The one narrow use is upward and one-directional: a lead's domain may use the lead's own self-placement about the lead at the check-in's fourth question and on the channel, because the lead wrote it for that reason. Its four names on any person page, scorecard, schedule note, designation block, brief record, close, sheet, or leads' review line fail row 120; a check-in line saying a lead placed a person on it is a range breach on the lead's entry. Blocks row 120. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht17t"
+  },
+  {
+   "k": "A7",
+   "name": "Founder decision: Ratify the designation's rotation floor, and a designation as never a status",
+   "priority": "normal",
+   "desc": "P33, answering carryover `86akhcz6v`'s designation half. Each designation's rule on the register carries a rotation floor: among the seats eligible on a service (a complete readiness form and range card, no non-negotiable line), no eligible person holds the designation on every service they work in a quarter while another eligible person held it on none. The floor is a rule about the roster's shape, read by the stack's count per quarter at the reset in Session 9's three branches, and never a read of the holder's performance. A designation carries no pay line, no page mark beyond the brief's record, no title, and no sheet field, and is never named as a reward or withheld as a sanction; a lead who names the same person every night has, by the third quarter, made a permanent room holder under another name, which is a refused carrier. Extends `86akhcz2y`, `86akhpun3`, and `86akhpuv6` by reference. Blocks I4 and row 125. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht19g"
+  },
+  {
+   "k": "A8",
+   "name": "Founder decision: Fill the incomplete environment decision-rights entries",
+   "priority": "normal",
+   "desc": "P40, founder-gated. Named and not filled by analogy: the kitchen's entries throughout (chef-gated on `86akh2qrp`); the holder of a lead's check-in, which every range breach on a lead's entry in section 17 needs as a destination (`86akhb2jg`); whether the house has a closed day (`86akh6739`); whether the whole-house gathering exists (`86akh5uc7`, `86akh673u`); the employee area and the lockers as a zone (`86akhb2kb`); the staff meal (A2); canon's owner for the \"emotional standard of the room\" no versioned document holds beyond the service model (`86akh3t3y`, finding 20.11); the interim two-partner rule under every partners' review entry (`86akh5u77`); and the cultural labor score's line (`86akh5u9x`). Extends the S7, S8, and S9 filings on incomplete entries (`86akhb2k0`, `86akhcz2e`, `86akhptwy`) by reference. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht1hf"
+  },
+  {
+   "k": "A9",
+   "name": "Document: Write the destinations page for the team home",
+   "priority": "high",
+   "desc": "I3 and row 123. One page stating where each speech act goes: a question (the mentor, the check-in, the channel); a friction (the check-in, the channel); a dissent (the hold's joint half-page; the upward question); a failure (the capture); a non-negotiable (both leads, that day); a concern about a lead (the holder ruled under `86akhb2jg`, and until then the entry reads \"held\"); the loop-closure windows; and the rule that a topic with no destination is reported as one. Delivered in the why block's sequence, readable in the team's languages between services subject to the transparency line (`86akh5uby`), revised by versioned entry when a destination changes, and written under canon's voice rules. It refuses \"escalate\" as a destination, a person's name beyond a seat, and any prompt asking how a person feels. Extends `86akh5umr` by reference. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht1m9"
+  },
+  {
+   "k": "A10",
+   "name": "Process: Run the six-question playground test on every mechanism at the first reset and on any proposed mechanism at entry",
+   "priority": "normal",
+   "desc": "P3 and I5, with row 129. At the first reset and every reset after, every mechanism on the map is run through the six questions with its answers on the reset's record, and any mechanism that forecloses a condition carries its documented reason on the mechanism map, because \"If it forecloses agency without a documented reason, it violates the philosophy\" (Canon 1.0, section 01). At entry, the leads' review runs the six questions beside Session 4's four-part test on any mechanism proposed after the S10 page; a mechanism passed with a question unanswered is incomplete, not passed. Extends `86akh676t` and `86akh672x` by reference. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht1pt"
+  },
+  {
+   "k": "A11",
+   "name": "Process: Run the brief's team slot per period, and record which item ran",
+   "priority": "high",
+   "desc": "P20 and row 119. Every brief carries the slot after the readiness block: one item from the list in its priority, spoken by the owner of the room or the room designation, ending at the scene trigger, dropped whole on a compressed window (one on which the readiness block ran in its thirty-second form), item 1 alone at the early morning's window brief, no second slot where periods run back to back. The reviewing lead chooses the capture read as process; the room's owner speaks it. The brief's record on the OS surface marks which item ran or that the slot was dropped, and the reset counts briefs with a slot against briefs without; a slot dropped on most briefs of a quarter is read as sequence corruption on the window, never as a lead's. The pass owner's line and the kitchen's brief are chef-gated. Extends `86akh6779`, `86akhcz2y`, and `86akhcz4g` by reference. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht1t0"
+  },
+  {
+   "k": "A12",
+   "name": "Process: Hold the mechanism reset and the principles revision as one annual closed-hour block",
+   "priority": "normal",
+   "desc": "P17 and I7. The two annual mechanisms sit as one block on the mechanism map's calendar, after dinner's first quarter, after the first full year, and annually, at a closed hour outside service hours and in a room that is not the floor, away from the building if the partners choose, with the leads attending for the reset and the working-with-me documents on the table as the gate review already has them. It closes no service, falls inside no freeze, reads no team state, carries no opener, icebreaker, closer round, or feedback form, and produces versioned decisions. This is her offsite reduced to its decision content and it adds nothing to the map. Extends `86akh676t` and `86akh3trj` by reference. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht1ud"
+  },
+  {
+   "k": "A13",
+   "name": "Process: Read the environment at the reset, and add two sources to cooling failure's line",
+   "priority": "high",
+   "desc": "P34 and I6, with row 128 and carryover `86akh5uw3`. Bandwidth is the environment's primary read, expressed through cooling failure's evidence line (S9 P13) and the bandwidth ledger (S4 10.3) and through no new read; two environment-side sources are added to the line as counts of services: briefs on which the team slot was dropped, and closes on which the capture or the note displaced the other. At every reset, after the Maitre d's seat, the environment section reads the slot count, the close displacement count, the range-use count per section (a range unused for a quarter read as the tight edge on the seat), the capture and process-update rates, the channel's closure rate and items past the window, the designation counts, the pulse composite, and the six-question answers per mechanism, each as a count and none as a figure in money, handing any person-side signal to the diagnostic's one path and nowhere else. A culture mechanism met at a bandwidth cost is read as cooling failure on the mechanism. The first quarter's safety baseline (the capture rate, the process-update rate, the pulse composite, the slot count) is written at the first house review. Extends `86akhpu3q`, `86akh676t`, and `86akhpuz8` by reference. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht1wu"
+  },
+  {
+   "k": "A14",
+   "name": "Process: Design what the house does with the mentor relationship after the plan",
+   "priority": "normal",
+   "desc": "P32, answering carryovers `86akhb2wj` and `86akhpvhj`'s mentor half. After the plan the house records only the shape the person stated in the career conversation block (S9 I7) and takes no further act, because a recorded standing relationship is a line about two people. Where the person states \"continue,\" the stack may treat overlap with the former mentor as a scheduling preference of the person's, honored where the schedule allows, never required, and written on no one's page. The mentor never becomes a sponsor or an advocate (\"The system is the advocate\", WP p.11), a coach, a channel for the lead, or a person the lead asks about the former mentee; the relationship reproduces through the pool, where the former mentee becomes eligible once their own plan has closed with its goal held. Recognition of mentoring beyond shift stays Session 13's. Extends `86akhb2q3` and `86akhb2r8` by reference. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht1zh"
+  },
+  {
+   "k": "A15",
+   "name": "Instrument: Build the brief's team slot list and its record mark (gated on `86ajgn2z5`)",
+   "priority": "high",
+   "desc": "I1, extending Session 4's brief spine (`86akh6779`, `86akh5uk4`) and Session 8's designation block and room designation's card (`86akhcz4d`, `86akhcz4g`). The four items in priority with one sentence each on what the item is and who speaks it; the refused list; the ceiling as a reset parameter and the compressed-window rule; the record mark (which item ran, or dropped). Sits after the readiness block, ends at the scene trigger, survives a thirty-second brief by dropping whole, is the same list on the room designation's card, is spoken in the team's languages, and feeds row 119 and the slot count. Refuses an item about a person beyond a page fact, a script, a survey, an opener, a personal share, a lagging figure, an announced change, a build item, and a fifth item. Lives on the brief's block on the OS surface and the room designation's card, a build; owned by the owner of the room, every brief, with the reviewing lead choosing the capture. High. Gated on `86ajgn2z5`, `86akh3tg0` for the principle item, and the chef ruling for the pass owner's line.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht26a"
+  },
+  {
+   "k": "A16",
+   "name": "Instrument: Build the whole-house gathering's team-making half (gated on `86ajgn2z5`)",
+   "priority": "normal",
+   "desc": "I2, the second half of Session 4's conditional gathering (S4 P38). The five items in order (the quarter's threads as facts; what the house learned as process; the principles read back by the center; coverage only; one open question with its destination on the channel and a window); the refused list (an opener or closer, an icebreaker, the grid, a survey, a culture speech, an announced structure change, a lagging figure); the schedule entry as a paid shift on the house review's closed day. Carries nothing about a person beyond a page fact and feeds row 126. Lives on the team home's gathering record, a build; owned by the center, quarterly. Normal. Gated on `86ajgn2z5`, `86akh5uc7` and `86akh673u`, `86akh6739`, and principles version one for the read-back.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht27e"
+  },
+  {
+   "k": "A17",
+   "name": "Instrument: Build the playground test card (gated on `86ajgn2z5`)",
+   "priority": "normal",
+   "desc": "I5, beside Session 4's four-part entry test. The six questions; the ten conditions as the answer set to question one; the three verdicts (mechanism, partial, slogan); the two edges in Deck 3.0's words; the rule that a foreclosure's reason is written on the mechanism map. Runs on every mechanism at the reset and on any proposed mechanism at entry, writes its answers on the reset's record, and feeds row 129. Refuses a verdict on a person, a mechanism passed with a question unanswered, and a reason for foreclosure written after the mechanism ran. Lives on the mechanism map's page on the team home and the reset's record, a document under the methodology; owned by the reset, and by the leads' review at entry. Normal. Gated on `86ajgn2z5` and S4's mechanism map (`86akh6755`).\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht299"
+  },
+  {
+   "k": "A18",
+   "name": "Instrument: Build the designation's rotation floor clause and its surfacing (gated on `86ajgn2z5`)",
+   "priority": "normal",
+   "desc": "I4, extending Session 8's designation entries and Session 9's recurrence surfacing rules (`86akhpuv6`). Per designation (the room, the door, the sequence, the pass): the eligibility rule; the floor in section 14.3's words; the stack's count per quarter as the read; the three branches at the reset (S9 P32); the refusals (no pay line, page mark, title, sheet field, reward, or sanction). Surfaces the count to the reset without anyone asking and feeds row 125. Refuses a read of the holder's performance, a permanent holder, a second seat, and a rotation that names an ineligible person to meet the floor. Lives on the register on the team home and the stack's surfacing rule, configuration if the bought surface carries it; owned by the reset on the Maitre d's proposal, the Operations Lead for the surfacing. Normal. Gated on `86ajgn2z5`, S9 I3, and the chef ruling for the pass.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht2bv"
+  },
+  {
+   "k": "A19",
+   "name": "Instrument: Build the environment's reads at the reset (gated on `86ajgn2z5`)",
+   "priority": "high",
+   "desc": "I6, extending Session 4's reset and Session 9's cooling-failure line and seat load reading (`86akhpuz8`). The reset's environment section: the slot count, the close displacement count, range use per section, the capture and process-update rates, the channel's closure rate and items past the window, the designation counts, the pulse composite, and the six-question answers per mechanism, each as a count of services or reviews. Read at every reset after the Maitre d's seat; hands any person-side signal to the diagnostic's one path. Refuses a figure in money, a person's name, a survey result, and a read of a holder from a count. Lives on the reset's record on the partners' page, a build; owned by the partners with the leads, annually. High. Gated on `86ajgn2z5`, S9 I5, and `86akh5u9x` for the score's line.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht2ev"
+  },
+  {
+   "k": "A20",
+   "name": "Structure: Record the ten conditions as a layer on the mechanism map",
+   "priority": "normal",
+   "desc": "P4 and P6. Each mechanism on Session 4's map gains a field naming which of the ten conditions for agency it builds, or none, so that the reset's six-question test opens on a stated condition and a proposed mechanism cannot claim to be a culture mechanism without naming one. The layer is the map's and adds no mechanism; a mechanism that names no condition is tested by the entry test alone. Extends `86akh6755` and `86akh681a` by reference. Normal.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht2gt"
+  },
+  {
+   "k": "A21",
+   "name": "Structure: Fix the rule that the environment names no person in a room",
+   "priority": "high",
+   "desc": "P14, P15, P20, and P30, the one thing on the S10 page a later session cannot revise at ordinary cost. No opener asks how anyone is; no brief, close, gathering, or review carries a read or a correction of a person; the grid appears on no record about a person; every speech act's destination is a record and not a room; the private correction is the check-in's. A later session may add an item to the slot's list, change the rotation floor, define the score, and design what Session 12 does with a correction; no later session may put a person's state, work style, or failure into any room the roster or the house is in. Written as a structural rule on the mechanism map beside Session 6's four dimensions and Session 9's order of every read. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`.",
+   "task_id": "86akht2k9"
+  },
+  {
+   "k": "B1",
+   "name": "The slot and the gathering as communication surfaces, the Thursday hour's paragraph, and canon's lexicon against a peer's recognition",
+   "priority": "high",
+   "target": "86ajgmj7c",
+   "desc": "**Routed to:** S11 (`86ajgmj7c`)\n\nSession 10 designed the brief's team slot and the gathering's team-making half as the only two spoken surfaces the roster and the house hear beyond the operational spines, and both refuse any announcement of a structure change, because a change reaches the team by four channels and never by announcement (S8 P49). Session 11 inherits three things. The internal communication depth of both surfaces, including whether the slot's \"what the system learned\" item and the gathering's \"what the house learned\" item are governed by the transparency line (`86akh5uby`), and the destinations page (A9) as a page in the team's languages. The paragraph under \"Thursday afternoon: one hour\" (Book p.331) and the rest of Stripe's leadership cadence, which Session 10 answered only from the heading: the leads have no second weekly meeting and the partners' review has no creator hour. And finding 20.10: canon's forbidden lexicon is \"in all contexts, no exceptions\" (Canon 1.0, section 09) and the record's peer recognition is written by the team \"in the moment\" (WP p.19) and read aloud at the brief; whether a person's own words on the platform are a brand surface is unstated, and Session 10 reads the language constant as applying and the lexicon as not, marked held. This extends `86akhcz6y` and `86akh67xk` and does not repeat them. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "k": "B2",
+   "name": "Safety's environment half handed to coaching, the private correction as the check-in's, and judgment after the form",
+   "priority": "high",
+   "target": "86ajgmjba",
+   "desc": "**Routed to:** S12 (`86ajgmjba`)\n\nSession 10 placed psychological safety's environment half (blame the process, the capture, private post-mortems, the check-in's refusals, no verdict on a page, the non-negotiables above the philosophy, the range as a pre-authorized act) and placed her four interpersonal risks by destination. Session 12 inherits the system that produces candor with three constraints. The response by type of failure (basic, complex, intelligent), which decides whether a capture is met with a process fix or something else, is Session 12's and was not designed here. Her \"correct bad meeting behavior\" outside the room (\"provide feedback outside of the room... quickly\", Book p.328) is the check-in's own placement and its content is Session 12's; no correction of a person happens in any room the roster or the house is in, and her work style call-out is refused whole. And judgment after the readiness form is read only by range use as a count (section 3.3); what a check-in does with a range used inside its limit and wrong is Session 12's. Feedback to a designation's holder stays on `86akhcz71`, which this extends. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "k": "B3",
+   "name": "A designation carries no pay line, the range's values as the loose edge, and no environment behavior as a fifth dimension",
+   "priority": "normal",
+   "target": "86ajgmjey",
+   "desc": "**Routed to:** S13 (`86ajgmjey`)\n\nSession 10 holds that a designation is never a status: no pay line, no page mark, no title, no sheet field, never a reward or a sanction (P33); Session 13 prices nothing by a designation held. The range's money values (the financial recovery threshold and the \"known limits\", S3 4.2) are, until set with Dominic's domain, the one place the loose edge is open by the record's own gap: a server told to use their judgment with no number is unprotected, not free, and Session 10 reads the card's sentence as the limit until Session 13 sets the value. And no team-environment behavior (a slot item spoken, participation in any mechanism, a designation's count, a recognition given or received) is a fifth scorecard dimension or an input to the review, on Session 6's rule that nothing is added at review that was not read at hiring. Mentoring recognition beyond shift stays on `86akhb2vy`, which this extends. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "k": "B4",
+   "name": "A non-negotiable breach by a person has no path, a culture mechanism met at a bandwidth cost is cooling failure, and a designation's count is never a performance read",
+   "priority": "high",
+   "target": "86ajgmjk1",
+   "desc": "**Routed to:** S14 (`86ajgmjk1`)\n\nSession 10's finding 20.5: \"Management absorbs blame from staff\" (WP p.17) runs one way, and \"No Toxicity Ever\" (Canon 1.0, section 01) is the one act the record and canon treat as a person's with no stated path, reader, or process share; the environment's only rule is that the flag goes to both leads that day and is said in no room. Session 14 inherits where that path ends, with Session 15. Session 10 also reconciled `86akh5uw3` with S9 P13: bandwidth is the environment's primary read through cooling failure's line, a goal met at a bandwidth cost is the goal page's fourth state, and a culture mechanism met at a bandwidth cost (a slot that compressed the readiness block to run; a gathering on a day the house could not close) is read the same way; Session 14 must not build a tier that rewards either. The designation count surfaced to the reset is never a read of the holder (S9 P32; `86akhcz7b`, which this extends). Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "k": "B5",
+   "name": "A lead's personal standard as the tight-edge drift, a range breach on a lead with no destination, and the permanent room holder as a refused carrier",
+   "priority": "normal",
+   "target": "86ajgmjpw",
+   "desc": "**Routed to:** S15 (`86ajgmjpw`)\n\nSession 10 found that the tight edge's least-defended drift is a lead's personal standard becoming the rule, because the Maitre d owns \"the emotional standard of the room\" (WP p.10) and no versioned document holds it beyond canon's service model (finding 20.11); the guard is that a rule with no version is not a rule, and a check-in line naming \"the lead's way\" as what is in the way is aggregated as a friction. Session 15 inherits two things. Every range breach on a lead's entry in section 17 (an item about a person at the brief, a designation named as a reward, the grid used about a person) has as its destination whoever holds a lead's check-in, and until `86akhb2jg` closes it goes to the partners' review as a load reading on the lead; what managing managers does with a lead's repeated range breach is Session 15's. And a lead who names the same person to a designation every night has, by the third quarter, made a permanent room holder under another name, a refused carrier (S9 P36); this extends `86akhcz7f` and does not repeat it. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "k": "B6",
+   "name": "The founder side of the ten conditions to the ceiling, the founders' bandwidth and path as the missing conditions, and the founder speaks last",
+   "priority": "normal",
+   "target": "86ajgmjz6",
+   "desc": "**Routed to:** S16 (`86ajgmjz6`)\n\nSession 10 read the ten conditions for agency for the founders as far as the record carries them: rules, range, and say are mechanisms because the founders own them; safety to err and to speak are Principle 4 and the domain read in writing; being known is the working-with-me exchange; a path and time that is not taken have no read in the record, because the founders' own learning tempo and bandwidth are read nowhere (`86akh2qzy`, which this extends). Session 16 inherits that the founder side is stronger than the employee side on rules and weaker on time, that \"the senior person speaks last\" survives whole for a founder attending the leads' review by invitation and is the domain read's own form, that the record's \"Sŏn has done it too\" (WP p.17) means every environment mechanism was founder-built before a user existed (finding 20.12) and the first reset is where the users' read lands, and that nothing about the founders' values, interiority, or working style was recorded as a position. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "k": "B7",
+   "name": "Rows 119 to 129, the conditions layer on the map, seven instrument extensions, two reset parameters, and twelve findings routed",
+   "priority": "high",
+   "target": "86ajgmk27",
+   "desc": "**Routed to:** S17 (`86ajgmk27`)\n\nThe readiness test stands at one hundred and twenty-nine rows; rows 128 and 129 are read at the first-reset review, row 125's kitchen half holds on the chef ruling, row 126 on the gathering, and row 127 on the employee area. Session 17's assembly inherits the ten conditions as a layer on the mechanism map's wiki page (A20); the destinations page (A9) as a wiki page under the vocabulary rule; seven instrument specifications that extend earlier sessions' (I1 extends S4's brief spine and S8's designation block; I2 extends S4 P38; I4 extends S8's designation entries and S9 I3; I5 extends S4 P2; I6 extends S4's reset and S9 P13; I7 places mechanisms that exist) and must be assembled as one instrument each; the slot's ceiling and the rotation floor as reset parameters beside Sessions 5, 6, and 9's (extending `86akh9tay`); the rule that the environment names no person in a room (A21) beside Session 6's four dimensions and Session 9's order of every read; and twelve findings, four of which surface from canon's Playground page or the white paper's people sections and eight of which need canon against the record or the record against itself, for the assembly's conflicts list (extending `86akhpvvq` and `86akhcz7t`, not repeating them). Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  }
+ ],
+ "comments": [
+  {
+   "id": "86ajgmmfq",
+   "title": "Playground philosophy: mechanisms or slogan; carryover to S10",
+   "comment": "Answered. Session 10 turned the philosophy's employee half into ten conditions for agency, tested each against a mechanism with canon's test run as six questions, and gave each a verdict. Four are mechanisms (legible rules, a stated range, safety to err, a path), five partial (judgment beyond procedure, safety to speak, being known, time not taken, a say in the rules), and one slogan today (a place of their own, promised as \"a precondition for presence\" and placed on no drawing). Belonging among the team is not a condition the philosophy names and is read as the outcome the conditions produce; its one direct carrier is the gathering, founder-gated. Canon states the obligation for three parties and specifies it for one, and specifies nothing for founders (finding 20.1). The decisions that convert each slogan and complete each partial are ordered on the page's marks register. S10 page, sections 2, 3, and 21. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh5uw3",
+   "title": "A goal met at a bandwidth cost is a system failure; carryover to S10 and S14",
+   "comment": "Extended. Session 10 reconciled the carryover's \"Session 10 uses bandwidth as the team environment's primary read\" with Session 9's placement of every team-state read in the diagnostic: bandwidth is the environment's primary read, expressed through cooling failure's evidence line (S9 P13) and the bandwidth ledger (S4 10.3), and through no new read. Two environment-side sources are added to the line as counts of services: briefs on which the team slot was dropped, and closes on which the capture or the note displaced the other. A culture mechanism met at a bandwidth cost is read as cooling failure on the mechanism. The allocation consequence stays on `86akh3t00`; the S14 half of this item stands and B4 extends it. S10 page, section 15, P34. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh67xe",
+   "title": "The brief's team-making content and the whole-house gathering's content; carryover to S10",
+   "comment": "Answered. Session 10 designed the slot: one item per brief from a fixed list in priority (the designations' one line each; what the system learned from the last close as process; a principle against a moment once a week at most; a thread added as a fact), refusing anything about a person beyond a page fact, a script, a survey, an opener, a personal share, a lagging figure, an announced change, and a build item; ending at the scene trigger; ceiling five minutes on a full window and zero on a compressed one as a reset parameter; held by the owner of the room or the room designation; item 1 alone at the early morning's window brief; recording only which item ran. If the gathering is approved, its team-making half carries the quarter's threads, what the house learned, the principles read back, coverage, and one open question put to the house with the channel as its destination. S10 page, section 9, P20, P21, I1, I2; work items A3, A11, A15, A16. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh7qq7",
+   "title": "The work style grid is out of recruiting and may return only as a self-awareness tool; carryover to S7 and S10",
+   "comment": "Answered. Session 10 decided the grid has no team use beyond its placement inside a lead's working-with-me document and Session 1's instrument on the team home. Its one team-facing use is upward and one-directional: a lead's domain may use the lead's own self-placement about the lead. It never appears on any record about a person, never names a designation's need, and never enters a room as a read of anyone; its four names on any such record fail readiness row 120, and a check-in line saying a lead placed a person on it is a range breach on the lead's entry. S10 page, section 13, P30; work item A6. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhb2wj",
+   "title": "The work style grid as team language, the cohort as community, and the mentor relationship after the plan; carryover to S10",
+   "comment": "Answered. The work style grid has no team use beyond a lead's working-with-me document and one upward use (section 13, P30). Community in the steady state needs no new mechanism: the mentor from the pool, the paired services, the brief naming the new holder and the first solo, and the recognition platform do the work for a person arriving alone, and belonging among the team is read as an outcome by the pulse and tension-loss departures; the partial is named, that the record builds belonging in full for the customer and for the team as a break space (finding 20.4). The mentor after the plan: the house records only the shape the person stated and takes no further act; a stated \"continue\" is a scheduling preference of the person's, honored where the schedule allows and written on no one's page; the mentor never becomes a sponsor, a coach, or a channel for the lead, and the relationship reproduces through the pool. S10 page, sections 13 and 14, P30, P31, P32; work items A6, A14. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhcz6v",
+   "title": "The house as the one team, designations as rotation, and the grid as team language only; carryover to S10",
+   "comment": "Answered. The environment is built for one team across hours, and her development stages were tested against the three objects: the service roster is formed by the brief in the time it takes to name the designations and performs or does not on its first service; the house forms once through the cohort, holds its rules still through dinner's first quarter, and re-sets them at the first reset; the cohort forms through the training sequence. Designations rotate under a rotation floor written into each designation's rule (no eligible person holds it on every service they work in a quarter while another eligible person held it on none), read by the stack's count at the reset in Session 9's three branches and never as the holder's performance; a designation carries no pay line, page mark, title, or sheet field and is never a reward or a sanction. The grid is as above. S10 page, sections 5, 13, and 14, P10, P30, P33, I4; work items A6, A7, A18. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhpvhj",
+   "title": "Team state is read by the diagnostic and never by a survey; the offsite has no diagnostic role; carryover to S10",
+   "comment": "Answered. Sŏn holds no offsite for the house and none for the leads; the partners' mechanism reset and principles revision are held as one closed-hour block per year, away from the building if the partners choose, at no cost to service and with no diagnostic role, which is her offsite reduced to its decision content. Her opener, icebreakers, a notetaker role, her closer as a spoken round, the feedback form, and DRIs per section are refused; PAL, the shared document, and her closer's function are placed where they already run. Psychological safety's environment half is placed (section 6) with the capture rate, the error-reporting rate, and the pulse as its read and a baseline team-filled from the first quarter; the record's own measure, \"engagement results across psychological safety\" (WP p.23), is a survey and has no instrument the program accepts (finding 20.6). The mentor's shape after the plan is designed as above. S10 page, sections 6, 7, and 14, P14, P16, P17, P18, P32; work items A4, A5, A12, A14. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh5uc7",
+   "title": "Approve or decline a quarterly whole-house gathering; Decide the whole-house gathering",
+   "comment": "Extended. Session 10 designed the gathering's team-making half inside Session 4's bounds, in order after Session 4's content: the quarter's threads as facts, what the house learned as process, the principles read back by the center, coverage only, and one open question put to the house with the feedback channel as its destination and a window, which is the item that makes \"a say in the rules\" a mechanism. It refuses an opener, an icebreaker, the grid, a survey, a culture speech, and any announced structure change. If declined, the floor's say in the rules stays indirect and belonging among the team has no direct carrier; the team's recommendation to approve stands. Readiness row 126 fails until the decision is taken either way. The order the gates need it: before the first house review, with the closed day (`86akh6739`). S10 page, section 9.2, P21, P22, I2. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh673u",
+   "title": "Approve or decline a quarterly whole-house gathering; Decide the whole-house gathering",
+   "comment": "Extended. Session 10 designed the gathering's team-making half inside Session 4's bounds, in order after Session 4's content: the quarter's threads as facts, what the house learned as process, the principles read back by the center, coverage only, and one open question put to the house with the feedback channel as its destination and a window, which is the item that makes \"a say in the rules\" a mechanism. It refuses an opener, an icebreaker, the grid, a survey, a culture speech, and any announced structure change. If declined, the floor's say in the rules stays indirect and belonging among the team has no direct carrier; the team's recommendation to approve stands. Readiness row 126 fails until the decision is taken either way. The order the gates need it: before the first house review, with the closed day (`86akh6739`). S10 page, section 9.2, P21, P22, I2. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh6739",
+   "title": "Decide whether the house has a closed day and where the reviews sit",
+   "comment": "Extended. Session 10 adds the gathering's team-making half and the partners' annual block (the reset and the revision as one closed-hour block) to what depends on this. Both sit at a closed hour by the seam rule; if a closed day exists both sit on it. S10 page, sections 7 and 9, P17, P21. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhb2jg",
+   "title": "Rule who holds a lead's check-in",
+   "comment": "Extended. Session 10 adds the environment's reason to the urgency. Every range breach on a lead's entry in section 17 (an item about a person at the brief, a designation named as a reward, the grid used about a person) has this holder as its destination and, until it closes, goes to the partners' review as a load reading on the lead. The fourth speech act, a concern about a lead, has no reader the lead does not hold except the anonymous pulse, so \"safety to speak\" is partial and \"no topics are undiscussable\" has one undiscussable topic left until this closes. The destinations page (A9) carries the entry as \"held\" until then. S10 page, sections 3.5, 6.4, and 17, P15, P40. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhb2kb",
+   "title": "Decide where the employee area and the lockers are",
+   "comment": "Extended. Session 10 gives this decision its environment verdict: \"a place of their own\" is the one slogan among the ten conditions for agency. The record calls the employee area \"basic dignity, and dignity is a precondition for presence\" (WP p.20); canon's nine-beat sequence does not place it, canon's pre-CD open items do not list it, and the baseline document that would hold it is unreachable. What makes it a mechanism: a zone in the surface-and-zone baseline with an aging intention like every other surface, a locker assigned before arrival, and readiness row 127, which fails until this closes. Before the first cohort's first shift. S10 page, section 3.10, P6, row 127. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh5u9x",
+   "title": "Define the cultural labor score",
+   "comment": "Extended. Session 10 reads the environment's primary read as bandwidth through cooling failure's line, and until the score is defined that line has one defined source of how the team is doing (the pulse's one question) and one \"cannot read yet.\" \"Time that is not taken\" is partial for this reason among others. Before the first house review. S10 page, sections 3.8 and 15, P34. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh3t00",
+   "title": "Adopt or decline \"the order is the decision\"",
+   "comment": "Extended. Session 10 extends the dependency to culture mechanisms: a mechanism met at a bandwidth cost (a slot that compressed the readiness block to run; a gathering on a day the house could not afford to close) is read as cooling failure on the mechanism, and its consequence is the founders'. Session 10 also reads canon's \"open enough to stay\" against the record's order, retention third as an output (finding 20.2), and reads staying as the output; that reading turns on this decision. S10 page, sections 15 and 20, P34, P35. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhb2kk",
+   "title": "Write the module standard",
+   "comment": "Extended. Session 10 asks the standard to carry canon's judgment requirement as a row a module fails, \"training architecture that progresses from procedure mastery to autonomous judgment\" (Canon 1.0, section 01), so that the tight edge (procedure-only training) is guarded in the modules themselves; \"judgment built, not procedure only\" is partial until it does. Before the first module set is built. S10 page, sections 3.3 and 4.1, P8. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh676t",
+   "title": "Design the mechanism reset",
+   "comment": "Extended. Session 10 adds to the reset: the six-question playground test on every mechanism with answers on the record (A10, I5); the environment section read after the Maitre d's seat (A13, I6); the reset and the principles revision held as one annual closed-hour block (A12, I7); the designation rotation floor's read in Session 9's three branches (A18); and two reset parameters, the slot's ceiling and the rotation floor. S10 page, sections 7, 14, 15, and 19. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh3trj",
+   "title": "Schedule the principles revision after dinner's first quarter and after the first full year",
+   "comment": "Extended. Session 10 places the revision with the reset as one annual closed-hour block (A12, I7), and gives the principles two spoken surfaces: the slot's third item (a principle against a moment, once a week at most, waiting on `86akh3tg0`) and the gathering's read-back, which at the first two gatherings is the revision itself as Session 3 tied it. S10 page, sections 7 and 9. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh6779",
+   "title": "Build the shift brief spine and shift close record",
+   "comment": "Extended. Session 10 fills the spine's fifth slot with I1's list (A15) and adds the record mark, which item ran or dropped, to the brief's record on the OS surface, so the reset can count briefs with a slot against briefs without. The close gains no field; its displacement count (the capture or the note displacing the other) is read from the record it already has. S10 page, sections 9.1 and 15. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhcz2y",
+   "title": "Name the designations at the brief; Build the room designation's card",
+   "comment": "Extended. The designations' one line each is the slot's first item and the only place a roster hears its own shape in its holders' voices; the room designation runs the brief and holds the slot with the same list and refusals on services the Maitre d does not work, so the card gains the slot's list. Each designation's rule gains a rotation floor (A7, A18). S10 page, sections 9.1 and 14.3. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhcz4g",
+   "title": "Name the designations at the brief; Build the room designation's card",
+   "comment": "Extended. The designations' one line each is the slot's first item and the only place a roster hears its own shape in its holders' voices; the room designation runs the brief and holds the slot with the same list and refusals on services the Maitre d does not work, so the card gains the slot's list. Each designation's rule gains a rotation floor (A7, A18). S10 page, sections 9.1 and 14.3. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akhb2q3",
+   "title": "Design the mentor pool and how a mentor is named",
+   "comment": "Extended. Session 10 designs the relationship's afterlife: the house records only the shape the person stated and takes no further act; \"continue\" is a scheduling preference of the person's; the mentor never becomes a sponsor, a coach, or a channel for the lead; the former mentee's eligibility for the pool once their plan closes is how the relationship reproduces (A14). S10 page, section 14.2, P32. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh2qzy",
+   "title": "The nervous system does not read the center; carryover to S16",
+   "comment": "Extended. Session 10 reads the founder side of the ten conditions and finds the founders' own bandwidth and path as the two conditions the founder half lacks entirely; B6 carries it to Session 16. S10 page, section 16, P37. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh5u77",
+   "title": "Ratify the interim two-partner decision rule",
+   "comment": "Extended. Session 10 reads the rule as the founders' own meeting decision process against her five methods: Class A is neither consensus nor democratic but both or neither with the status quo as default; the partners' review runs on whatever is ratified. S10 page, section 11, P26, P28. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh3t3y",
+   "title": "Name the versioning authority for canon and the charter; Reconcile the two canon artifacts",
+   "comment": "Extended. Session 10 adds two questions for canon's owner. The Maitre d owns \"the emotional standard of the room\" (WP p.10) and no versioned document holds it beyond canon's service model, which is the tight edge's least-defended drift (finding 20.11). Canon's forbidden lexicon is \"in all contexts, no exceptions\" and the record's peer recognition is written by the team in the moment and read aloud at the brief; whether a person's own words on the platform are a brand surface is unstated (finding 20.10, with Session 11). Session 10 also reads the Playground's tier difference (Canon 1.0 tier 2; Deck 3.0 tier 3 beneath the non-negotiables) as deciding that the non-negotiables outrank the philosophy on every verdict, marked held under `86akh3rx4`. S10 page, sections 2.1, 4.1, and 20. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  },
+  {
+   "id": "86akh3tjb",
+   "title": "Name the versioning authority for canon and the charter; Reconcile the two canon artifacts",
+   "comment": "Extended. Session 10 adds two questions for canon's owner. The Maitre d owns \"the emotional standard of the room\" (WP p.10) and no versioned document holds it beyond canon's service model, which is the tight edge's least-defended drift (finding 20.11). Canon's forbidden lexicon is \"in all contexts, no exceptions\" and the record's peer recognition is written by the team in the moment and read aloud at the brief; whether a person's own words on the platform are a brand surface is unstated (finding 20.10, with Session 11). Session 10 also reads the Playground's tier difference (Canon 1.0 tier 2; Deck 3.0 tier 3 beneath the non-negotiables) as deciding that the non-negotiables outrank the philosophy on every verdict, marked held under `86akh3rx4`. S10 page, sections 2.1, 4.1, and 20. Filed by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the Sŏn Operating System doc `2ky45bmy-17253`."
+  }
+ ]
+}

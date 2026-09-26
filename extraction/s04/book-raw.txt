@@ -1,0 +1,885 @@
+
+[p.135]
+15.0	percent of Stripes in the last month, Home is the source of truth for
+15.0	who we are, what we’re doing, and why—and a platform for enabling
+15.0	individuals and helping them get to know one another.
+15.0	In the spirit of the original People, new Stripes are front and
+15.0	center on Home, along with their quick video introductions, a
+15.0	flipbook of existing Stripes, and a list of activities happening around
+15.0	the company, which range from classes we host to events for our
+15.0	users.
+15.0	Individual Stripes collaborate—a lot. Our search system lets
+15.0	Stripes look across documents, people, teams, and even API models,
+15.0	with live filters to help narrow the corpus quickly. The search
+15.0	interface is completely API-driven with modular content indexers
+15.0	underneath, so it’s easy to add new types of content to the same
+15.0	interface we use to find everything else.
+15.0	Under the hood, Home is built on the same technology as our
+15.0	user-facing products (such as the dashboard) because we wanted to
+15.0	make it easy to move between developing user-facing and internal-
+15.0	facing products. This has made Home a favorite for new Stripes’
+15.0	spin-up projects and a popular go-to for hackathon projects.
+15.0	We’re still figuring out how to balance transparency with
+15.0	information overload, serendipity with curated content, and crisp
+15.0	interfaces and team boundaries with the actual human part that
+15.0	makes the company what it is.
+15.0	—
+21.2	Operating cadence
+15.0	We’ve covered the constituent parts of a successful operating
+15.0	system. The operating cadence is how you, well, operationalize it. I
+15.0	once worked on a consulting project for DirecTV called
+15.0	“Operationalizing CRM,” and I remember that, as I wrote those
+
+[p.136]
+15.0	words at the top of every presentation, I found the word
+15.0	“operationalizing” awkward and uninspiring. Yet here I am, extolling
+15.0	the virtues of operationalizing your operating system!
+15.0	Because humans are fundamentally creatures of habit, you’ll
+15.0	want to create an operating cadence—the schedule or rhythm with
+15.0	which your company, divisions, or teams provide progress reports
+15.0	and make decisions—that they can follow naturally. People should
+15.0	be able to break with the framework if there’s an emergency or
+15.0	another good reason to do so, but most of the time you’ll want
+15.0	stability and predictability. If different teams set goals at different
+15.0	times and measure the results with different definitions of the data,
+15.0	chaos will reign over execution and morale will suffer.
+15.0	Cadences will vary by manager, team, and individual, but they
+15.0	should be agreed upon up front by all of the relevant parties. They
+15.0	will very likely mirror the company cadence, which is often driven
+15.0	by milestones in the calendar year. There’s no secret to designing
+15.0	your operating cadence—it depends on the type of team you’re
+15.0	running and, often, on the type of business and company you’re
+15.0	operating within. The key is to have a cadence but not get stuck in it.
+15.0	Often, these rhythms will require iteration, and they should be
+15.0	regularly revisited to keep them relevant and fresh.
+15.0	Examples of operating cadences include:
+15.0	Annual planning processes
+15.0	Quarterly business reviews
+15.0	Monthly all-hands meetings
+15.0	Biweekly 1:1s
+15.0	Weekly snippets and team meetings (with metrics reviews)
+15.0	Daily standups
+
+[p.137]
+15.0	If you don’t have a set operating cadence, observe what types of
+15.0	interactions and reviews are happening organically. For instance,
+15.0	maybe a few teams are already using a given process or
+15.0	communication mechanism. Figure out why they’re happening and
+15.0	what’s useful and not useful about these approaches. Once you’ve
+15.0	learned more, try testing the approach with a broader swath of the
+15.0	company or with the whole company for a month or a quarter, then
+15.0	solicit feedback. Be ready to iterate.
+15.0	Within each cadence, teams and individuals will produce various
+15.0	kinds of reports, including written updates, automated reports, and
+15.0	other measures of progress. A support team, for example, might
+15.0	start each week by reviewing customer satisfaction, feedback, and
+15.0	response rates, then create a game plan to improve the numbers in
+15.0	the coming week. A product leadership team might review the
+15.0	launch calendar and share status updates on each upcoming launch.
+15.0	The key is to provide predictable, common, and consistent
+15.0	structures that serve as touchstones for every person in the division
+15.0	or team. Like the smaller unit of a weekly team meeting, your
+15.0	collective operating cadence should help people develop a shared
+15.0	understanding of the importance of their work, how they’re going to
+15.0	accomplish it, what success looks like, and how to measure it. (See
+15.0	Figure 8 on the next page for an example of a company-wide
+15.0	operating cadence.)
+
+[p.138]
+11.2	Figure 8. Example operating cadence, with board and company meetings and events.
+15.0	Be sure to solicit frequent feedback on the operating system and
+15.0	cadence. You’ll want to know:
+15.0	Does everyone know what the mission and the objectives are for
+15.0	the company, the division, and the team, as well as the work
+15.0	they’re individually expected to do?
+15.0	Is there a clear timeline for planning and execution, and are there
+15.0	established measures of progress against targets?
+15.0	Are projects with dependencies aligned and agreed on across the
+15.0	relevant teams and leaders so ownership and priorities are clear?
+15.0	Does everyone know how you’ll measure success and who is
+15.0	accountable for the constituent parts of the work? Do they know
+15.0	when plans or results should be delivered?
+15.0	Are there mechanisms in place to monitor progress, make
+15.0	decisions, and unblock teams?
+
+[p.139]
+15.0	Are there communication structures in place to provide updates
+15.0	on goals and notify relevant teams of any changes?
+15.0	Do you recognize and celebrate success? Do you share and learn
+15.0	from mistakes? Do your internal communications reinforce the
+15.0	company values and operating approach?
+15.0	I recommend designing and delegating your operating cadence to
+15.0	suit the preferences and competencies of the leadership team. Only
+15.0	spin up these processes once you’re certain that leaders will make a
+15.0	dedicated effort to implement them. Ideally, there will be one owner
+15.0	for each key structure in the operating cadence, and all of the other
+15.0	leaders will agree to honor the structure.
+15.0	A colleague once observed that I managed to be “switched on”
+15.0	for every review meeting, no matter how many times we’d
+15.0	conducted it. I think it’s generally true that strong operators are
+15.0	dedicated and consistent in how they honor run-the-company
+15.0	structures, and that great operations are often a matter of repetition
+15.0	and consistent improvement over time. Young companies tend to be
+15.0	filled with people who love inventing and building new things, and
+15.0	therefore need to balance these tendencies by hiring or elevating
+15.0	leaders who can recognize and invest in repeatable and repeated
+15.0	processes. You want a mix of leaders and processes that marry
+15.0	creativity and invention with operational rigor. Be clear on which
+15.0	leader owns which company structures, and take care to match
+15.0	those structures with each leader’s strengths and abilities. The
+15.0	example they set will imbue the structure with cultural and
+15.0	executional importance. Conversely, lack of ownership—or, worse,
+15.0	leadership not adhering to company operating approaches—will
+15.0	undermine your ability to build a stable architecture that grounds
+15.0	the day-to-day, week-to-week, month-to-month, and year-to-year
+15.0	accomplishment of your mission and long-term goals.
+
+[p.140]
+15.0	A brief note on process
+15.0	Process has become something of a pariah in modern business
+15.0	environments. It’s known as the thing that slows people down and
+15.0	sucks their souls. In fact, I called this chapter “Foundations and
+15.0	Planning” because calling it “Your Process” might have sent readers
+15.0	screaming for the hills.
+15.0	I often hear from founders who worry about their companies
+15.0	becoming “bloated” with process, meetings, check-ins, and updates.
+15.0	Understandably, many managers are wary of introducing too much
+15.0	process, and excessive meetings can become a giant drag on
+15.0	productivity. But having a process that guides how you run things
+15.0	isn’t inherently bad. Bad processes cause bloat, but good processes
+15.0	help provide clarity, which leads to faster execution.
+15.0	A few thoughts on process:
+15.0	Watch out for defensive processes
+15.0	In environments without clear owners and decision-makers,
+15.0	something starts to happen that I call defensive—or, more bluntly,
+15.0	cover-your-ass—process. These types of processes tend to crop up
+15.0	when something has gone wrong and, instead of coming up with a
+15.0	clear owner to avoid the mistake in the future, someone creates a
+15.0	process.
+15.0	I remember a time at Google when the “bit flip”—the approval
+15.0	mechanism—to launch a new feature or product swelled from
+15.0	something like 3 people to over 20. It started with legal’s insistence
+15.0	on a review, and took on more and more bloat as multiple functions
+15.0	wanted official notice of an impending launch. Eventually, the
+15.0	product managers rightly complained, and the powers that be
+15.0	reduced the bit flips back to a handful of people by making
+15.0	ownership and accountability clear. For example, the product
+
+[p.141]
+15.0	manager was tasked with consulting legal and other impacted
+15.0	functions, and then it was their job to make a decision on readiness
+15.0	to launch based on the advice they’d received. It was no longer
+15.0	legal’s job to defensively block launches that should have been more
+15.0	thoroughly vetted.
+15.0	Good processes should create lightweight checks that solidify
+15.0	alignment and achieve a combination of speed and adherence to
+15.0	best practices, so that participants no longer have to divine the best
+15.0	way to do something. Defensive processes, on the other hand, exist
+15.0	because people are not aligned on who owns a particular decision,
+15.0	and they inevitably slow things down.
+15.0	Beware of stale processes
+15.0	We’ve all seen it happen. People ignore deadlines for requested
+15.0	materials. Participants start opening their laptops in meetings and
+15.0	don’t submit updates on their work. Folks get disruptive and fall into
+15.0	roles: the “What about the bigger picture?” person, or the “Do we
+15.0	have an action item owner?” person. Just like meetings, processes
+15.0	can get stale and become rote. It doesn’t mean the process was bad,
+15.0	but it may mean that the process has outgrown its purpose and it’s
+15.0	time to revisit it. Or maybe it was a defensive process, and now that
+15.0	you’ve rooted out the source of confusion that made everyone play
+15.0	defense, the process can conclude.
+15.0	You also don’t want to change processes too quickly. You’re
+15.0	trying to achieve the tricky balance of having a process in place for
+15.0	long enough to give it a real shot but not so long that bad processes
+15.0	will stick around and damage team productivity. Revisit your
+15.0	processes every six months or so. More often than that can be
+15.0	destabilizing, but less often will cause people to switch to autopilot
+15.0	and stop engaging.
+
+[p.142]
+15.0	Allow for experimentation
+15.0	People tend to be afraid to experiment with processes because they
+15.0	worry that it makes them look unprofessional or indecisive. But you
+15.0	may not know what works best for your team until you’ve tried it.
+15.0	I’m a big fan of experimenting with systems and processes. If you do
+15.0	experiment with your processes, make sure to:
+15.0	State how long you’re going to try the process for.
+15.0	Determine when you’ll check back in to see how things are going.
+15.0	Set your evaluation criteria for whether to continue or revisit the
+15.0	process.
+15.0	Process is not synonymous with meetings
+15.0	Meetings are useful tools for doing a lot of the things you need to do
+15.0	to run your teams well: sharing information, having discussions,
+15.0	making decisions, bonding as a team. But there are many ways to get
+15.0	things done without meetings, depending on your team’s
+15.0	preferences and what you’re trying to achieve. One way to do this is
+15.0	to ask yourself: Could this meeting’s objective have been achieved
+15.0	through a written update or by having everyone contribute to a
+15.0	project tracker? A good process should subtract from the number of
+15.0	meetings, not add more.
+15.0	How to tell if something is wrong with your operating system
+15.0	or cadence
+15.0	Pay attention to the following warning signs—they could indicate
+15.0	that you need to revisit your operating system or cadence:
+15.0	Goals, timelines, or accountable owners for work are unclear. In
+15.0	other words, you don’t know which team is doing what, when.
+15.0	You feel like everything is moving too slowly.
+15.0	People are flagging problems but aren’t able to suggest solutions.
+
+[p.143]
+15.0	You can’t find simple information on the status of the work.
+15.0	No one can tell you who the decision-maker is for a project or
+15.0	what the priorities are for the company or their team.
+15.0	People stop participating or showing up when asked to
+15.0	contribute key information or to participate in meetings.
+15.0	It’s not clear which updates or meetings matter, and you hate
+15.0	updating the tracker or attending your own meetings.
+15.0	A sound operating system running on an efficient cadence is
+15.0	essential to execution and lays the groundwork for great
+15.0	management. It’s the foundation for accomplishing your work as a
+15.0	company builder and manager. Once it’s in place, it guides and
+15.0	shapes all the other aspects of your company, including:
+15.0	Hiring: Bringing people into the organization who will carry the
+15.0	highest-priority work forward and set a positive company
+15.0	culture.
+15.0	Team development: Maximizing impact and efficiency through
+15.0	processes that help people communicate, make decisions, and
+15.0	collaborate, as well as measuring the impact of the team’s work.
+15.0	Feedback and improvement: Developing and coaching
+15.0	employees as you collectively identify the skills necessary for
+15.0	organizational success, while also helping employees clarify their
+15.0	own development goals and career aspirations.
+15.0	We’ll take these elements one by one in the following chapters,
+15.0	starting with how to get the right people on board as your company
+15.0	grows.
+
+[p.144]
+11.2	EXERCISES AND TEMPLATES
+15.0	—
+30.0	Chapter 2
+11.2	Stripe’s Operating Principles
+11.2	Team Charter
+11.2	Organizational Foundations
+11.2	Objectives and Metrics Checklist
+11.2	Writing Good OKRs
+11.2	Iterating and Scoring
+11.2	Quarterly Business Reviews (QBRs)
+11.2	To access printer-friendly versions of these worksheets, go to
+11.2	http://press.stripe.com/scaling-people/workbooks.
+
+[p.145]
+30.0	Stripe’s Operating Principles
+11.2	These were Stripe’s operating principles as of December 2021:
+16.9	How we work
+15.0	Users first
+11.2	We have a weighty obligation to the businesses built on Stripe and the everyday
+11.2	people they serve. Because we’re so critical to our users’ success, we must
+11.2	keep their needs front and center in all we do.
+15.0	Move with urgency and focus
+11.2	A bias for action speeds our learning and delights our users. Focus on what
+11.2	matters most, make fast initial progress, and iterate toward the best outcome.
+15.0	Be meticulous in your craft
+11.2	Doing things well is in Stripe’s DNA. We value craftsmanship for its own sake
+11.2	and are fervently committed to producing surprisingly great work.
+15.0	Seek feedback
+11.2	We value intellectual honesty and look for other Stripes with the expertise to
+11.2	refine our ideas, challenge us, and deepen our understanding across the
+11.2	business.
+15.0	Deliver outstanding results
+11.2	Stripes are high achievers with a drive to succeed. We take end-to-end
+11.2	accountability for seeing our work through and delivering on our commitments.
+16.9	Who we are
+15.0	Curious
+11.2	We lead with a genuine interest in people, ideas, and the unknown. We work
+11.2	hard to understand other points of view and prefer investigating to being right.
+15.0	Resilient
+
+[p.146]
+11.2	Startups are tumultuous places, and the audacity of our goals will mean
+11.2	occasional failure. We view setbacks as opportunities to sharpen our skills.
+15.0	Humble
+11.2	Stripes are humble, not arrogant or complacent, and create an inclusive
+11.2	environment for all. We aren’t wedded to how we currently do things—lots about
+11.2	our current practices will turn out to be wrong.
+15.0	Macro-optimistic
+11.2	Stripes reject cynicism, knowing that all problems can be solved with the right
+11.2	understanding and that progress is only inevitable through focused effort. We
+11.2	are believers in the long term.
+15.0	Exothermic
+11.2	Stripes generate an energy and warmth that is infectious across teams and
+11.2	throughout the company. We are genuinely excited about our work and about
+11.2	creating an exceptionally welcoming environment for all Stripes.
+16.9	And leaders
+15.0	Obsess over talent
+11.2	The quality of the Stripes you attract and retain defines your team, so
+11.2	developing a keen talent radar can be your biggest competitive advantage. Be
+11.2	the person who reads and investigates every candidate packet. Push back
+11.2	when you sense that managers are making hires who are merely fine. Hold an
+11.2	equally high bar for performance! Create a culture of quickly addressing
+11.2	mishires, developing critical talent, and finding challenging work for your
+11.2	strongest performers.
+15.0	Elevate ambitions
+11.2	Know where your team is headed next year, in 4 years, and in 10 years, and
+11.2	develop a compelling vision for that future. Guide your team to redefine what’s
+11.2	possible by expanding what’s reasonable.
+15.0	Set the pace and energy
+11.2	Stripe is intense—we have broad ambitions and serious obligations to our
+11.2	users. Sign your team up for bold goals, articulate a plan to achieve them faster
+
+[p.147]
+11.2	than expected, and focus on making this energizing, rewarding, and fulfilling for
+11.2	your teams.
+15.0	Make decisions; be accountable
+11.2	It’s not always clear who should make a decision. Effective leaders embrace
+11.2	decision-making in cases of murky ownership, either making the call themselves
+11.2	or collaborating across the necessary teams to drive an outcome. They clearly
+11.2	communicate decisions and hold themselves and their teams accountable for
+11.2	results.
+15.0	Lead with clarity and context
+11.2	Translate chaos into a clear, compelling plan. Be deeply informed about what’s
+11.2	happening across Stripe and create your team’s plans in reference to the
+11.2	broader work.
+15.0	Solve problems
+11.2	Be a persistent force for progress. Our leaders must work with their teams and
+11.2	across Stripe to quickly and effectively solve problems—especially when they’re
+11.2	hard.
+11.2	Finally, while we continue to evolve, some of the guideposts we used to get here
+11.2	remain helpful. Though these aren’t the focus of our core operating principles,
+11.2	we encourage you to also consider your work in reference to some of these
+11.2	“classic” Stripe slogans:
+11.2	We haven’t won yet.
+11.2	Efficiency is leverage.
+11.2	Be meticulous about the foundations.
+11.2	Disagree and commit.
+11.2	Really, really, really care.
+11.2	Operate from first principles.
+11.2	Be politely relentless.
+
+[p.148]
+30.0	Team Charter
+16.9	Mission
+11.2	Example:
+11.2	Provide best-in-class security to all of our users and their accounts on the
+11.2	dashboard. This encompasses both authentication and authorization,
+11.2	including dashboard roles and permissioning.
+16.9	Vision
+11.2	Example:
+11.2	We aim to build strong trust internally and externally in our ability to provide
+11.2	best-in-class security for all of our users, from enterprises to small users,
+11.2	while avoiding overhead for our users and support team. Account takeovers
+11.2	will no longer be an active problem (neither as a terrible user experience
+11.2	nor as a financial loss). While we won’t ever be able to get them to zero, we
+11.2	and our customers should have full faith that when they occur (e.g., through
+11.2	an internal bad actor on the customer side), we did everything within
+11.2	creative reasonability to prevent them. We will also deliver “table-stakes”
+11.2	security features such that we fly through user security–related discussions
+11.2	with new enterprise customers.
+16.9	Customers
+11.2	Example:
+11.2	We’re responsible for the account security of every user and account,
+11.2	ensuring that their accounts and the sensitive data therein remain theirs
+11.2	alone.
+11.2	We protect the interests of all merchant accounts by enabling them to
+11.2	control who in their business can access what, and by protecting them from
+11.2	rogue actions.
+16.9	Metrics
+
+[p.149]
+11.2	Example:
+11.2	Number of accounts that have experienced a takeover in a given month
+11.2	Measuring: User experience, risk of unhappy customer leak, support
+11.2	burden
+11.2	Target value: [X]
+11.2	Account takeover losses
+11.2	Measuring: Direct financial loss and loss of margin due to account
+11.2	security issues
+11.2	Target value: [X]
+11.2	Percentage of all dashboard users who have adopted two-factor
+11.2	authentication
+11.2	Measuring: Protection of entire user base from account takeovers
+11.2	Target value: [X]
+16.9	Strategic importance
+11.2	Example:
+11.2	Aside from the financial benefits of reducing losses, having better account
+11.2	security will improve the user experience and build user trust. Strong
+11.2	foundations here will help prevent attacks, bad user experiences, and
+11.2	losses, since we will become a target if we are not world-class. A strong
+11.2	track record will also increase the appeal of our products to enterprise
+11.2	users, open up new sales conversations, and accelerate existing ones.
+16.9	Major risks
+11.2	Example:
+11.2	Team gets pulled into lower-priority work by audit or compliance
+11.2	activities
+11.2	Major security breach
+11.2	Major new attack vectors
+
+[p.150]
+11.2	Death by a thousand cuts of one-off enterprise requests
+11.2	Tech debt
+16.9	Provided interfaces
+11.2	Example:
+11.2	Login code
+11.2	2FA infrastructure
+11.2	Session infrastructure
+11.2	Login/email challenge
+11.2	Dashboard auditing models
+11.2	Account recovery/password reset flow
+16.9	Dependent interfaces
+11.2	Example:
+11.2	User registration UI
+11.2	Verificator (interface for SMS 2FA)
+11.2	User email system and team
+30.0	Organizational Foundations
+11.2	To test whether you have a clear operating system, fill out the table below. How
+11.2	easily can you complete it for an individual report on your team, for one of your
+11.2	teams, and for your division? Is this information documented anywhere in your
+11.2	division, and is it easy to find? If you’re having trouble filling out this template,
+11.2	imagine how your teams and reports must feel!
+11.2	This information should be documented and easily accessible on your team’s
+11.2	and division’s internal homepages. On those same pages or at the top of your
+
+[p.151]
+11.2	□
+11.2	□
+11.2	□
+11.2	internal dashboard, if separate, be sure to include similar detail about your top
+11.2	objectives and metrics with targets for the year. (See the next template.)
+11.2	Individual
+11.2	Team
+11.2	Division
+11.2	Mission
+11.2	Objectives with owner (DRI)
+11.2	Key metrics
+11.2	Accountability mechanisms
+11.2	Operating cadence
+30.0	Objectives and Metrics
+30.0	Checklist
+11.2	It’s worthwhile to scrutinize any documented objective for clarity and alignment
+11.2	with the team’s or division’s mission and plan to contribute to company success.
+11.2	You can use the following template to do so.
+11.2	Objective
+11.2	Metric
+11.2	Baseline
+11.2	Target
+15.0	Are your objectives:
+11.2	Inspirational?
+11.2	Actionable by your team?
+11.2	Related to your team’s mission and vision?
+
+[p.152]
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	□
+11.2	Related to the company’s priorities and goals?
+15.0	Are the objectives SMART?
+11.2	Specific
+11.2	Measurable
+11.2	Achievable
+11.2	Results-oriented
+11.2	Targeted
+15.0	Also check:
+11.2	Is the metric a leading indicator?
+11.2	Does it have counterweight metrics? (For example, you could increase the
+11.2	number of users by giving away the product for free, but you don’t want to
+11.2	do that! So if you have a user metric, what is your counterweight revenue
+11.2	metric?)
+11.2	Is there a framework to evaluate the metric (e.g., a calculation or a query)?
+11.2	Does the metric have an owner?
+11.2	Is the metric relative, not absolute? (For example, instead of “Increase the
+11.2	number of users by 1,000,” explain the relative growth: “Increase the
+11.2	number of users by 20 percent, from 5,000 to 6,000.”)
+11.2	Does it take into account your existing user growth? (For example, you
+11.2	might be able to hit your revenue target just through growth from existing
+11.2	users, but then you haven’t done anything to earn that growth.)
+30.0	Writing Good OKRs
+
+[p.153]
+11.2	This guide was written by Stripes on our finance and tech enablement teams in
+11.2	collaboration with our CTO, David Singleton.
+16.9	The basics
+11.2	Write: Note the top-level 3–5 objectives, with 1–5 key results per objective, that
+11.2	you’re committed to accomplishing in the quarter. Identify which are must-hit
+11.2	goals. (See the next section for guidance.)
+11.2	Collaborate: If you partner closely with other functions or teams, get feedback
+11.2	and make sure you agree on the OKRs you’ve set.
+11.2	Publish: When you’re done, change “Draft” to “On track” in the document title to
+11.2	signal that your OKRs are published (on the company intranet or other
+11.2	document-sharing method) and in progress.
+16.9	Guidance on ambition
+11.2	Most goals should be ambitious yet attainable. This means we expect to
+11.2	achieve the vast majority of them over time, while also recognizing that some
+11.2	will be a stretch. Overall, we should expect to score in the 70–80 percent range
+11.2	over the quarter.
+11.2	A small number of our goals (20–30 percent for any given team in a quarter)
+11.2	might be hard commitments. These should be marked as “must-hit,” and we
+11.2	expect to reach 95 percent attainment or more. If these goals are trending
+11.2	behind, we expect to sacrifice other goals in service of hitting them.
+16.9	Good OKRs start with good objectives
+15.0	Best practices for good objectives
+11.2	Objectives are clearly defined goals that answer the question “Where do I
+11.2	want to go?”
+11.2	Objectives should be an outcome—a description of the state of the world at
+11.2	the end of the quarter. They should focus on the user problem you’re
+11.2	solving.
+11.2	Objectives should be focused on the most important work. There should be
+11.2	no more than 3–5 of them.
+
+[p.154]
+11.2	Objectives chart intent and direction—they chart outcomes.
+11.2	Objectives are long-term and often span several quarters, even years.
+11.2	Objectives nest up and down to some degree in an organization.
+11.2	Objectives should be ambitious and can be open to (some) interpretation
+11.2	and debate.
+11.2	Objectives can be aspirational (70 percent) or committed (100 percent).
+11.2	Identify which are which!
+11.2	All objectives should matter. The best objectives are inspirational.
+11.2	Objectives can be shared across teams.
+16.9	Define key results
+15.0	Best practices for good key results
+11.2	Key results are concrete definitions of success. Each one determines
+11.2	whether the objective has been achieved or not and answers the question
+11.2	“How will I pace myself to see if I’m on track?”
+11.2	Key results should list outcomes, not activities. There should be 1–5 key
+11.2	results per objective.
+11.2	Key results are measurable and binary: Either they did or didn’t happen.
+11.2	They’re not open to interpretation.
+11.2	Key results flow from a theory of a plausible causal mechanism that
+11.2	connects the key result with the objective and with your own work.
+11.2	Key results build a shared model of reality across teams and organizations.
+11.2	Key results should compound over time, if possible.
+16.9	Common pitfalls when formulating OKRs
+11.2	Using an activity or action as an outcome.
+11.2	Having a key result that can’t be measured in some way.
+
+[p.155]
+11.2	Turning a roadmap directly into objectives and key results.
+11.2	Writing more than 3–5 objectives, or 1–5 key results per objective.
+30.0	Iterating and Scoring
+16.9	Mid-quarter scoring
+11.2	At some point in the quarter, the team should get together to discuss progress
+11.2	to date and give it an approximate score. The easiest way to do this is a simple
+11.2	green, yellow, and red rubric accompanied by an assessment of on track, off
+11.2	track, or at risk. (If your team prefers to use percentage-based scoring, do
+11.2	what works best.) Items that are off track or at risk should be discussed further
+11.2	so that the team can find ways to redirect their energy and build in time to
+11.2	recover.
+16.9	How to handle changes in information and
+16.9	priorities
+11.2	If new information arises that changes an objective or key result, there should
+11.2	be some common practices to track and handle the changes. This could mean
+11.2	scoring an OKR lower or swapping it out. Do whatever makes sense for the
+11.2	team, but be consistent and clear. Most importantly, communicate changes to
+11.2	any impacted teams, and clearly document what’s changed and why.
+11.2	Here’s some general guidance:
+11.2	If you add or drop a key result, document the decision and notify impacted
+11.2	teams.
+11.2	If you add an objective (e.g., due to an urgent shift in the world), document
+11.2	whether it resulted in deprioritizing existing work and, if so, what work was
+11.2	deprioritized.
+11.2	Dropping an objective should be rare. This may happen due to a change in
+11.2	constraints or because it truly isn’t providing value to users. In these cases,
+
+[p.156]
+11.2	it’s best to stop working on it and keep it in the OKRs for scoring and
+11.2	discussion.
+30.0	Quarterly Business Reviews
+30.0	(QBRs)
+11.2	These QBR documents were written by Kailey Stockenbojer on the Stripe
+11.2	finance team in consultation with various Stripe leaders, including me.
+16.9	QBR guidelines
+15.0	What statements should be true after your QBR meeting
+11.2	The QBR provided clear charter (long-term) and operating (short-term)
+11.2	metrics, with quarterly targets looking out through the end of the year. Ask
+11.2	yourself: Where do we want to be in two years, and are we on track? What
+11.2	has to go right for us to get there? Use the metrics to comment on your
+11.2	trajectory.
+11.2	The QBR explained which goals we executed upon, which ones we did not,
+11.2	why, and how we can work together to close any gaps and get to where we
+11.2	planned to be (or, if plans are changing, why they’re changing).
+11.2	The QBR explained how much we’re investing relative to what the area is
+11.2	producing. Based on the results we’re seeing, participants can make
+11.2	decisions on how much should be invested.
+11.2	Participants left with clear mutual expectations of what will be
+11.2	accomplished in the coming periods.
+11.2	We know what potential obstacles may come up through the end of the
+11.2	year.
+
+[p.157]
+11.2	Leadership understands what you need to accelerate and produce
+11.2	outstanding results.
+15.0	Delivering a stellar QBR
+11.2	Focus on results: We already had a plan, we took a specific action, and we
+11.2	can see specifically (with metrics) how execution is progressing, rather than
+11.2	having a winding discussion about potential plans.
+11.2	Be candid: The core audience is leadership. They want a candid
+11.2	assessment of what your team has accomplished, what it needs to do
+11.2	better at, and what it plans to do.
+11.2	Be concise: This is a six-page narrative, plus an appendix with tables and/or
+11.2	charts.
+11.2	Prepare in advance: Share the memo at least 24 hours in advance. We will
+11.2	also allow reading time in the meeting—the meeting will be a discussion
+11.2	informed by your memo.
+11.2	Be present: Those who join should be present in the discussion and
+11.2	minimize work distractions. (We recommend snoozing Slack notifications
+11.2	and minimizing other windows.) Even though we will consume materials
+11.2	digitally, we advise against linking out to supplementary materials.
+15.0	Prepare for the QBR meeting
+11.2	Provide a link to your QBR document in the calendar and leadership
+11.2	guidebook at least 24 hours in advance of the meeting.
+11.2	If you have confidential topics to cover, add them in a separate document,
+11.2	set sharing settings to restricted, and add the link to the guidebook. Provide
+11.2	document access to your QBR attendees.
+11.2	Email the discussion materials directly to your attendees.
+11.2	Prepare an agenda of key topics you want to cover with leadership.
+
+[p.158]
+15.0	During the QBR meeting
+11.2	Allow time for pre-reads and announce the conclusion of pre-read time.
+11.2	Gather top-of-mind questions and topics from attendees and add them to
+11.2	the agenda you prepared prior to the meeting.
+11.2	If necessary, prioritize the topics to make sure you cover the most
+11.2	important ones first in the allotted time.
+11.2	Include metrics as a standard discussion topic.
+11.2	The QBR leader should drive the discussion based on the key topics on the
+11.2	agenda.
+11.2	Take comprehensive notes or arrange for someone attending the meeting
+11.2	to take notes. This should include action items and owners.
+15.0	After the QBR meeting
+11.2	Share the notes with all QBR participants.
+11.2	Add your action items to our QBR action item tracker.
+11.2	Reflect on the quality of the QBR, including the quality of the metrics.
+11.2	Gather feedback from partners and leadership if it was not readily provided.
+11.2	What do you need to work on to have a more effective QBR? What will you
+11.2	change for next time?
+16.9	QBR outline
+11.2	Note: The suggested word count and page limits are directional, to help you
+11.2	stay within the six-page limit. If your content exceeds the six-page limit, the
+11.2	QBR leader should determine which section(s) to shorten at their discretion.
+15.0	Executive summary (250 words or less)
+11.2	What do you want leadership to know about your performance and strategic
+11.2	direction? This should be a candid assessment, not a summary of your
+11.2	successes.
+
+[p.159]
+11.2	1.1
+11.2	1.1.1
+11.2	1.1.2
+11.2	1.2
+11.2	1.3
+11.2	1.3.1
+11.2	1.3.2
+15.0	Narrative (two pages maximum)
+11.2	Write up to two pages on your team’s quarterly performance and strategic
+11.2	direction. The narrative should speak for itself, and the “voiceover” should
+11.2	simply be used to focus the discussion. Your narrative should be grounded in
+11.2	your charter and operating metrics, including your discussion of performance
+11.2	against goals.
+11.2	Your discussion of results should be candid. Appropriately balance your
+11.2	discussion based on your relative performance against your goals. If you missed
+11.2	your goals, the discussion should be skewed toward lowlights. (Why didn’t you
+11.2	deliver?) If you met your goals, you should still discuss any areas that did not go
+11.2	well.
+11.2	The narrative should discuss your quarterly results, your outlook for the
+11.2	remainder of the year, and longer-term strategic considerations. It’s up to the
+11.2	leader to determine how to balance the discussion, but generally most teams
+11.2	should spend at least 50 percent of their discussion on strategy and outlook.
+11.2	We recommend that you embed relevant visualizations of metrics in your
+11.2	narrative where helpful to the reader. All metrics not included in your narrative
+11.2	should be included in the metrics performance section of your QBR.
+15.0	Example outline
+11.2	We recognize that it can be useful to have examples of outlines that have
+11.2	helped other teams have effective discussions. You own the QBR—we
+11.2	encourage you to structure the narrative to best describe your team’s
+11.2	performance and trajectory, and to only use the outline if useful.
+11.2	1. Current quarter reflection: Explain your performance against your goals.
+11.2	Support your performance against goals with operating and charter
+11.2	metrics.
+11.2	How were metrics impacted, and how did they change over time?
+11.2	What did you do (or not do) to influence them?
+11.2	Discuss key ships. If you missed key ships, why?
+11.2	Discuss user feedback.
+11.2	Document top user asks and how well you are addressing them.
+11.2	Document user compliments in areas where you are performing
+11.2	well.
+
+[p.160]
+11.2	1.4
+11.2	2.1
+11.2	2.1.1
+11.2	2.1.2
+11.2	2.1.3
+11.2	2.2
+11.2	3.1
+11.2	3.2
+11.2	3.3
+11.2	Discuss overall velocity.
+11.2	2. Outlook: Look forward to the next quarter and the next year.
+11.2	What are your top three goals in order of priority?
+11.2	Which metrics will your goals impact?
+11.2	How will user stories and pain points be impacted?
+11.2	Are you on track to meet these goals? If not, why?
+11.2	What keeps you up at night? (Read: What should leadership be
+11.2	worried about?)
+11.2	3. Other sections: Use at your discretion, based on what is relevant for your
+11.2	team.
+11.2	Cross-functional asks.
+11.2	Hiring progress.
+11.2	Team morale.
+15.0	Metrics performance (two pages maximum—if you have
+15.0	additional metrics, please put them in the appendix)
+11.2	For the most part, your metrics discussion should happen in your narrative. Use
+11.2	this section to briefly describe changes to the metrics you use to measure your
+11.2	performance (changes since last QBR or anticipated changes). Include graphs.
+11.2	Your metrics should cover a roughly two-year time horizon (where available), not
+11.2	just the current period.
+11.2	If you revised your metrics during planning, your charts (and/or commentary)
+11.2	should include both the original and revised target, where applicable.
+15.0	Examples of key metrics
+
+[p.161]
+15.0	Product P & L
+11.2	Product teams: In addition to your metrics, please work with finance to include
+11.2	your product P & L as a table in this section.
+15.0	Cross-functional focus areas
+
+[p.162]
+11.2	In addition to your core performance and metrics, we’ve defined a set of focus
+11.2	areas that are important to the company and require engagement from
+11.2	business leaders to make progress on our company objectives. Please add
+11.2	comments on your assessment scores (e.g., what you’re doing to improve the
+11.2	score) and include a screenshot of the output below. Reach out to the focus
+11.2	area DRI with questions on the assessments.
+11.2	Focus area
+11.2	DRI
+11.2	QX score
+11.2	QY score
+11.2	Comments
+11.2	Reliability
+11.2	Security
+11.2	Efficiency
+11.2	Operations
+11.2	Product quality
+15.0	Progress on goals (one page maximum—if you wish to
+15.0	share additional goals, please put them in the appendix)
+11.2	Select your top 5–10 goals and summarize them in the table on the next page.
+11.2	There is a strict one-page limit.
+11.2	Team objective
+11.2	Shipped
+11.2	On Track
+11.2	OFF TRACK
+11.2	At Risk
+11.2	Total
+11.2	Objective 1
+11.2	Objective 2
+11.2	Objective 3
+11.2	Objective 4
+11.2	Objective 5
+11.2	Total
+
+[p.163]
+11.2	% of Total
+11.2	100%
+11.2	Team
+11.2	objective
+11.2	Goal
+11.2	Due
+11.2	date
+11.2	Goal
+11.2	state
+11.2	QX
+11.2	score
+11.2	Comments
+11.2	(Optional)
+11.2	(Ship and/or
+11.2	metric to move)
+16.9	Appendix A: Required tables
+15.0	Prior QBR action items
+11.2	Address the action items from your prior QBR and provide a status update on
+11.2	any action items you have not yet addressed.
+11.2	Action item
+11.2	Follow-up status/narrative
+11.2	Owner
+15.0	Operating expenses (for non-product teams)
+11.2	If you have not included a product P & L, your finance partner can share your
+11.2	operating expenses budget versus actuals to include here. Product teams can
+11.2	optionally include this as additional detail.
+15.0	Headcount
+
+[p.164]
+11.2	Provide your headcount by sub-team based on how your team is organized.
+11.2	Sub-team
+11.2	Description
+11.2	Current
+11.2	headcount
+11.2	Current
+11.2	ANS
+11.2	YTD net
+11.2	change
+11.2	Year
+11.2	envelope
+11.2	ROY net hire
+11.2	capacity
+11.2	Total
+11.2	headcount
+15.0	Top asks from users
+11.2	We co-create our products with our users, internal and external. What are their
+11.2	highest priorities? The status should be committed, partially committed, or
+11.2	not committed.
+11.2	User ask
+11.2	User segment
+11.2	Status
+11.2	Comments
+
+[p.165]
+16.9	Appendix B: Additional supporting materials
+11.2	Use this section at your discretion to include additional supporting materials
+11.2	and links. Examples might include top recent ships, top upcoming ships,
+11.2	additional goals, etc.
+
+[p.166]
+11.2	19.
+11.2	20.
+11.2	21.
+11.2	22.
+11.2	23.
+11.2	24.
+11.2	25.
+11.2	26.
+11.2	27.
+11.2	28.
+11.2	29.
+25.0	Notes
+11.2	Nick Statt, “Microsoft at 40: Read Bill Gates’ Anniversary Email to Employees,” CNET,
+11.2	April 3, 2015, https://www.cnet.com/tech/tech-industry/microsoft-at-40-read-bill-
+11.2	gates-anniversary-email-to-employees/.
+11.2	Edgar H. Schein and Peter Schein, Organizational Culture and Leadership (Hoboken:
+11.2	Wiley, 2017), 17–27.
+11.2	Andrew S. Grove, High Output Management (New York: Knopf Doubleday, 2015), 110–
+11.2	114.
+11.2	Brad Garlinghouse, “Yahoo Memo: The ‘Peanut Butter Manifesto,’” Wall Street Journal,
+11.2	November 18, 2006, https://www.wsj.com/articles/SB116379821933826657.
+11.2	“Enduring Ideas: The Three Horizons of Growth,” McKinsey Quarterly, December 1,
+11.2	2009, https://www.mckinsey.com/business-functions/strategy-and-corporate-
+11.2	finance/our-insights/enduring-ideas-the-three-horizons-of-growth.
+11.2	Bryar and Carr, Working Backwards, 17–21, 61–65.
+11.2	For more on how scale slows companies down and how to combat the phenomenon
+11.2	with good strategy and loosely coupled, tightly aligned execution, I recommend reading
+11.2	a post by Stripe’s corporate strategy leader, Alex Komoroske, called “Coordination
+11.2	Headwind: How Organizations Are Like Slime Molds,” https://komoroske.com/slime-
+11.2	mold.
+11.2	Andrew S. Grove, Only the Paranoid Survive (New York: Currency Doubleday, 1996).
+11.2	Grove, High Output Management, 110–114.
+11.2	Robin I. M. Dunbar, How Many Friends Does One Person Need?: Dunbar’s Number and
+11.2	Other Evolutionary Quirks (London: Faber and Faber, 2011), 4.
+11.2	Michael Schade, “Stripe Home,” Stripe Blog, April 19, 2018,
+11.2	https://stripe.com/blog/stripe-home.
+15.0	OceanofPDF.com

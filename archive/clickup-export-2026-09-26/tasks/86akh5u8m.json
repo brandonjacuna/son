@@ -1,0 +1,274 @@
+{
+ "id": "86akh5u8m",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Ratify the reserved-class list, extended by three",
+ "text_content": "Type: founder decision\n\nSource: Session 3 of the Scaling People translation program, page section 4.3 of the S3 page in the S\u014fn Operating System doc 2ky45bmy-17253. Session task 86ajgmhgx.\n\nSession 2's candidate list of decisions reserved to all partners (building or removing a service period; changing a non-negotiable; versioning the charter; versioning canon at tier 1 or 2; admitting a new principal) is extended by three from this session: setting or changing a charter metric's definition; setting the two leads' ranges; and naming, for roles, the loyalty layer, and future concepts. Brandon and Dominic ratify the list.",
+ "description": "Type: founder decision\n\nSource: Session 3 of the Scaling People translation program, page section 4.3 of the S3 page in the S\u014fn Operating System doc 2ky45bmy-17253. Session task 86ajgmhgx.\n\nSession 2's candidate list of decisions reserved to all partners (building or removing a service period; changing a non-negotiable; versioning the charter; versioning canon at tier 1 or 2; admitting a new principal) is extended by three from this session: setting or changing a charter metric's definition; setting the two leads' ranges; and naming, for roles, the loyalty layer, and future concepts. Brandon and Dominic ratify the list.",
+ "markdown_description": "**Type:** founder decision\n\n**Source:** Session 3 of the Scaling People translation program, page section 4.3 of the S3 page in the S\u014fn Operating System doc `2ky45bmy-17253`. Session task `86ajgmhgx`.\n\nSession 2's candidate list of decisions reserved to all partners (building or removing a service period; changing a non-negotiable; versioning the charter; versioning canon at tier 1 or 2; admitting a new principal) is extended by three from this session: setting or changing a charter metric's definition; setting the two leads' ranges; and naming, for roles, the loyalty layer, and future concepts. Brandon and Dominic ratify the list.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789163152.96015500000000000000000000000000",
+ "date_created": "1789163152958",
+ "date_updated": "1790289890540",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f8ae00",
+  "id": "2",
+  "orderindex": "2",
+  "priority": "high"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akh5u8m",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000020483",
+   "comment": [
+    {
+     "text": "Extended by Session 15. The decision about a person's staying, which Session 14 recommended adding to the reserved classes, is now designed in full as a class: inputs only the hand-off package or the non-negotiable line with the flag's record and the person's words; both partners and counsel present; the mode line on the center's mechanisms first; both or neither with the status quo as staying; stays, stays with a move offered, or leaves on a date; the next review's agenda with a hold of at most one review; a closed record in no one's voice (S15 P22, 10.4). A departure of the third kind, a seat retired with its holder in it and no open move chosen, is decided as the Class A structure change it already is, with counsel (S15 P24). Row 189 fails until both are ratified.\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 15. The decision about a person's staying, which Session 14 recommended adding to the reserved classes, is now designed in full as a class: inputs only the hand-off package or the non-negotiable line with the flag's record and the person's words; both partners and counsel present; the mode line on the center's mechanisms first; both or neither with the status quo as staying; stays, stays with a move offered, or leaves on a date; the next review's agenda with a hold of at most one review; a closed record in no one's voice (S15 P22, 10.4). A departure of the third kind, a seat retired with its holder in it and no open move chosen, is decided as the Class A structure change it already is, with counsel (S15 P24). Row 189 fails until both are ratified.\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790289890540",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020353",
+   "comment": [
+    {
+     "text": "Session 14 recommends a further addition to the reserved-class list beside Session 13's pay-parameter class: a decision about a person's staying after a non-negotiable line, or after a horizon window's not-held close with no move open or chosen, is both partners or neither with the status quo as default, taken at the partners' review on the line or the hand-off package and the person's own words with counsel, on no other record, and never by a lead, at a flag read, or at a window's block; the decision's form, conversation, and consequence are Session 15's to design. The operating agreement is read first. S14 page, sections 6.4 and 12.3; P26; work item A7."
+    }
+   ],
+   "comment_text": "Session 14 recommends a further addition to the reserved-class list beside Session 13's pay-parameter class: a decision about a person's staying after a non-negotiable line, or after a horizon window's not-held close with no move open or chosen, is both partners or neither with the status quo as default, taken at the partners' review on the line or the hand-off package and the person's own words with counsel, on no other record, and never by a lead, at a flag read, or at a window's block; the decision's form, conversation, and consequence are Session 15's to design. The operating agreement is read first. S14 page, sections 6.4 and 12.3; P26; work item A7.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790286403364",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020212",
+   "comment": [
+    {
+     "text": "Session 13 recommends a further reserved class: setting or changing any row of the compensation architecture's parameters register (the percentage, the base, the seat weights, the marker values, the salaries and wages, the payment rhythm, the range's value and the recovery threshold, the benefits gate, the closed-day rule) is both partners or neither, with the status quo as default, because a pay decision made by one partner in the other's absence is a decision made by a person standing above the whole roster, and because Dominic's domain supplies every value while the architecture is the operating system. Session 3's list did not include it; the operating agreement is read first. S13 page, section 16.4; P45; work item A10."
+    }
+   ],
+   "comment_text": "Session 13 recommends a further reserved class: setting or changing any row of the compensation architecture's parameters register (the percentage, the base, the seat weights, the marker values, the salaries and wages, the payment rhythm, the range's value and the recovery threshold, the benefits gate, the closed-day rule) is both partners or neither, with the status quo as default, because a pay decision made by one partner in the other's absence is a decision made by a person standing above the whole roster, and because Dominic's domain supplies every value while the architecture is the operating system. Session 3's list did not include it; the operating agreement is read first. S13 page, section 16.4; P45; work item A10.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283818335",
+   "reply_count": 0
+  }
+ ]
+}

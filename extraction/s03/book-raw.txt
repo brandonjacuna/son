@@ -1,0 +1,1571 @@
+
+===== PDF PAGE 84 =====
+[15.0|Unnamed-T3] start, they can figure out whom to contact, and how, if their work
+[15.0|Unnamed-T3] requires cross-team support. See the chapter appendix on page 114
+[15.0|Unnamed-T3] for a team charter template with some example text.
+[21.2|Unnamed-T3] The operating system
+[15.0|Unnamed-T3] If the founding documents are like a house’s support structure, then
+[15.0|Unnamed-T3] the operating system is like a house’s mechanical system. Like a
+[15.0|Unnamed-T3] mechanical system, the operating system contains various
+[15.0|Unnamed-T3] substructures that work together to make up the whole: the wiring
+[15.0|Unnamed-T3] and plumbing of your house.
+[15.0|Unnamed-T3] An operating system is a set of norms and actions that are shared
+[15.0|Unnamed-T3] with everyone in the company. These shared systems and
+[15.0|Unnamed-T3] parameters are essential to growth and success. Keystones like an
+[15.0|Unnamed-T3] annual plan, quarterly goals, and regular communications allow
+[15.0|Unnamed-T3] everyone at the company to track progress and common priorities at
+[15.0|Unnamed-T3] the highest level. These systems can then replicate down through
+[15.0|Unnamed-T3] divisions and teams to help clarify priorities and resolve
+[15.0|Unnamed-T3] dependencies. At every level, a good operating system makes clear
+[15.0|Unnamed-T3] the desired results, how and when to communicate progress, and
+[15.0|Unnamed-T3] how to measure achievement.
+[15.0|Unnamed-T3] Above all, a well-articulated operating system establishes a clear
+[15.0|Unnamed-T3] foundation of trust. People grow uncomfortable when they’re
+[15.0|Unnamed-T3] unsure what is expected of them. This is especially true in the
+[15.0|Unnamed-T3] workplace. Folks need to know how they’re expected to work
+[15.0|Unnamed-T3] together, what they’re working on, and why, or they may feel like the
+[15.0|Unnamed-T3] ground is too shaky to take a single step. I remember an all-company
+[15.0|Unnamed-T3] meeting at Google where the CEO articulated this point: “Every day,
+[15.0|Unnamed-T3] you all choose where to put your time. My goal is to give you the
+[15.0|Unnamed-T3] information to make the best decision.”
+
+===== PDF PAGE 85 =====
+[15.0|Unnamed-T3] The operating system also represents a stable, consistent frame
+[15.0|Unnamed-T3] of reference. It serves as a touchstone when external forces
+[15.0|Unnamed-T3] inevitably affect your priorities, and it helps gird the company amid
+[15.0|Unnamed-T3] the chaos of rapid growth. Replicating the structures of the
+[15.0|Unnamed-T3] operating system at the company, division, and team levels creates a
+[15.0|Unnamed-T3] conceptual throughline, allowing people from across the company
+[15.0|Unnamed-T3] to speak the same language and removing friction from execution.
+[15.0|Unnamed-T3] Google’s use of objectives and key results (OKRs) is a famous
+[15.0|Unnamed-T3] example of a replicable structure.21 Because they were taken
+[15.0|Unnamed-T3] seriously at the leadership level and flowed down to teams and
+[15.0|Unnamed-T3] individuals, they formed an extremely effective operating system,
+[15.0|Unnamed-T3] providing transparency around what was most important to the
+[15.0|Unnamed-T3] company and forcing the resolution of dependencies across teams.
+[15.0|Unnamed-T3] In some quarters, OKRs were delayed because Google’s executive
+[15.0|Unnamed-T3] team was locked in a room hashing out the priorities. It felt a little
+[15.0|Unnamed-T3] like the papal convention, with all of us outside the room waiting for
+[15.0|Unnamed-T3] the white smoke. But I liked the delay. It meant that the company
+[15.0|Unnamed-T3] OKRs were serious and real, and that those decisions were hard. I
+[15.0|Unnamed-T3] took my team’s OKRs just as seriously.
+[15.0|Unnamed-T3] You might have encountered a company or team with a bad
+[15.0|Unnamed-T3] operating system. In these environments, there’s often a lot of
+[15.0|Unnamed-T3] confusion about who is doing what, and about which goals a team is
+[15.0|Unnamed-T3] accountable for and which stakeholders they’re accountable to. This
+[15.0|Unnamed-T3] anxiety is assuaged only when leaders make ownership and
+[15.0|Unnamed-T3] accountability clear and teams understand their purpose within the
+[15.0|Unnamed-T3] company. (This is also why having a team charter is so important. It
+[15.0|Unnamed-T3] can’t override a bad operating system, but it does provide the basis
+[15.0|Unnamed-T3] for a good one.) Every organization, division, and team will have
+[15.0|Unnamed-T3] periods dedicated to forming their identity—I’ll talk more about this
+[15.0|Unnamed-T3] in Chapter 4—but it’s best to get a simple, company-wide operating
+
+===== PDF PAGE 86 =====
+[15.0|Unnamed-T3] system in place quickly, then continue iterating on it to refine its
+[15.0|Unnamed-T3] internal structures. Remember my sports analogy from the
+[15.0|Unnamed-T3] introduction? Don’t send players onto the field with lots of
+[15.0|Unnamed-T3] equipment and no rules. People will get hurt!
+[15.0|Unnamed-T3] The manager’s role in all of this is to understand and participate
+[15.0|Unnamed-T3] in these structures at the right level. Start with the company’s
+[15.0|Unnamed-T3] mission, long-term goals, and principles. Think about how you can
+[15.0|Unnamed-T3] reflect those in your own structures—your team’s wiring and
+[15.0|Unnamed-T3] plumbing—especially in your team mission and how you align your
+[15.0|Unnamed-T3] team operations with the relevant operating structures. (See Table 1
+[15.0|Unnamed-T3] on the next page for an overview.) Your job is to reinforce these
+[15.0|Unnamed-T3] elements of the company—and, if you disagree with some element,
+[15.0|Unnamed-T3] to help improve it in partnership with your own manager.
+[15.0|Unnamed-T3] When to articulate your operating structures
+[15.0|Unnamed-T3] Once a company can no longer fit into a single meeting room, it’s
+[15.0|Unnamed-T3] time to start writing down your operating system and its component
+[15.0|Unnamed-T3] structures. Before this point—when you’re still trying to find
+[15.0|Unnamed-T3] product-market fit, for example—it’s too early. There’s no point
+[15.0|Unnamed-T3] articulating why you exist if you’re still trying to figure out whether
+[15.0|Unnamed-T3] you should exist at all! But once your organization gets to that
+[15.0|Unnamed-T3] inflection point, you should nail down your mission and founding
+[15.0|Unnamed-T3] documents, followed by your operating system. This is the time to
+[15.0|Unnamed-T3] start thinking not just about why you exist but also about who and
+[15.0|Unnamed-T3] what you need to realize that vision. How do we make decisions and
+[15.0|Unnamed-T3] prioritize? How will we know when we’re successful? Considering
+[15.0|Unnamed-T3] these questions will help you build a solid foundation for both the
+[15.0|Unnamed-T3] company and teams to operate from.
+[15.0|Unnamed-T3] We’ve discussed the founding documents and team charters.
+[15.0|Unnamed-T3] Now let’s look at the remaining components of an operating system
+[15.0|Unnamed-T3] one by one, then cover each in more detail.
+
+===== PDF PAGE 87 =====
+[15.0|Unnamed-T3] Strategic and financial planning
+[15.0|Unnamed-T3] In 2006, I had been at Google for two years. At the time, the
+[15.0|Unnamed-T3] company was still obsessed with its search index—every site Google
+[15.0|Unnamed-T3] indexed to produce its search results—and was watching Yahoo’s
+[15.0|Unnamed-T3] competing search index with concern. That same year, a Yahoo SVP
+[15.0|Unnamed-T3] named Brad Garlinghouse published the internal memo that came to
+[15.0|Unnamed-T3] be known as “The Peanut Butter Manifesto,” exhorting the company
+[15.0|Unnamed-T3] to focus.22 It was leaked externally and became required reading for
+[15.0|Unnamed-T3] just about everyone I knew in tech. The upshot is best captured in
+[15.0|Unnamed-T3] this quote: “I’ve heard our strategy described as spreading peanut
+[15.0|Unnamed-T3] butter across the myriad opportunities that continue to evolve in the
+[15.0|Unnamed-T3] online world. The result: a thin layer of investment spread across
+[15.0|Unnamed-T3] everything we do, and thus we focus on nothing in particular.”
+[11.2|Unnamed-T3] OPERATING
+[11.2|Unnamed-T3] STRUCTURES
+[11.2|Unnamed-T3] LEADER AND MANAGER ROLES
+[11.2|Unnamed-T3] Mission
+[11.2|Unnamed-T3] Long-term
+[11.2|Unnamed-T3] goals
+[11.2|Unnamed-T3] Principles or
+[11.2|Unnamed-T3] values
+[11.2|Unnamed-T3] Articulate the vision (the why), the long-term
+[11.2|Unnamed-T3] objectives (the what), and the underlying
+[11.2|Unnamed-T3] principles for action and behavior (the how).
+[11.2|Unnamed-T3] Strategic and
+[11.2|Unnamed-T3] financial
+[11.2|Unnamed-T3] planning
+[11.2|Unnamed-T3] Team charters
+[11.2|Unnamed-T3] Goals
+[11.2|Unnamed-T3] Metrics that
+[11.2|Unnamed-T3] matter
+[11.2|Unnamed-T3] Decide on the company strategy and, from that, the
+[11.2|Unnamed-T3] top priorities.
+[11.2|Unnamed-T3] Set the financial plan and P & L targets for a
+[11.2|Unnamed-T3] given time period.
+[11.2|Unnamed-T3] Determine the org structure that will best support
+[11.2|Unnamed-T3] the strategy.
+[11.2|Unnamed-T3] Assign teams to the work that needs to be done.
+[11.2|Unnamed-T3] Set objectives for each team.
+[11.2|Unnamed-T3] Be clear about what you will measure and how you
+[11.2|Unnamed-T3] will report on progress.
+[11.2|Unnamed-T3] Ownership
+[11.2|Unnamed-T3] Establish work and role assignments.
+
+===== PDF PAGE 88 =====
+[11.2|Unnamed-T3] Make a plan to hire or fill roles for unassigned
+[11.2|Unnamed-T3] work.
+[11.2|Unnamed-T3] Be clear on who is accountable for what objectives
+[11.2|Unnamed-T3] and metrics.
+[11.2|Unnamed-T3] Develop employee skills and capabilities to
+[11.2|Unnamed-T3] accomplish the work.
+[11.2|Unnamed-T3] Accountability
+[11.2|Unnamed-T3] mechanisms
+[11.2|Unnamed-T3] Establish measurement and reporting approaches.
+[11.2|Unnamed-T3] Review progress and course-correct when goals are
+[11.2|Unnamed-T3] not being met.
+[11.2|Unnamed-T3] Give feedback on the work and track employee
+[11.2|Unnamed-T3] development goals.
+[11.2|Unnamed-T3] Offer rewards and recognition to reinforce positive
+[11.2|Unnamed-T3] outcomes.
+[11.2|Unnamed-T3] Internal
+[11.2|Unnamed-T3] communications
+[11.2|Unnamed-T3] Establish a consistent set of communication
+[11.2|Unnamed-T3] practices and regularly share the information that
+[11.2|Unnamed-T3] all employees and teams need to know.
+[11.2|Unnamed-T3] Provide context for company processes and
+[11.2|Unnamed-T3] structures, and set an example by following all
+[11.2|Unnamed-T3] processes yourself.
+[11.2|Unnamed-T3] Operating
+[11.2|Unnamed-T3] cadence
+[11.2|Unnamed-T3] Align the planning cadence by which strategic
+[11.2|Unnamed-T3] priorities and financial targets are set, goals and
+[11.2|Unnamed-T3] metrics are established, and work assignments and
+[11.2|Unnamed-T3] progress are articulated, reviewed, and
+[11.2|Unnamed-T3] communicated with the company.
+[11.2|Unnamed-T3] Table 1. Operating structures and leader and manager roles.
+[15.0|Unnamed-T3] What Garlinghouse was looking for was a strategy. Even in a
+[15.0|Unnamed-T3] moment of dramatic growth, a company must make choices, either
+[15.0|Unnamed-T3] about what new features to add to the core product and in what
+[15.0|Unnamed-T3] order, or about what to build to augment and extend beyond the
+[15.0|Unnamed-T3] existing growth engine. I’m fond of saying “A strategy should hurt.”
+[15.0|Unnamed-T3] The trade-offs—where you invest time and resources, and where
+[15.0|Unnamed-T3] you don’t—should be painful and disappointing, either internally or
+
+===== PDF PAGE 89 =====
+[15.0|Unnamed-T3] to your customers. There’s no such thing as a strong strategy that
+[15.0|Unnamed-T3] prioritizes everything at once.
+[15.0|Unnamed-T3] Alongside your strategy, you should conduct long-term planning,
+[15.0|Unnamed-T3] which is essentially your company strategy realized as a multiyear
+[15.0|Unnamed-T3] set of financials. At its core, this annual planning exercise entails
+[15.0|Unnamed-T3] establishing the desired outcome for company financials at the end
+[15.0|Unnamed-T3] of the year, then allocating money and people toward initiatives and
+[15.0|Unnamed-T3] teams that will focus on hitting those goals. You must also allocate
+[15.0|Unnamed-T3] energy to the actions intended to achieve the longer-term strategic
+[15.0|Unnamed-T3] and financial outcomes, keeping the mission and long-term goals top
+[15.0|Unnamed-T3] of mind.
+
+===== PDF PAGE 90 =====
+[0|IMG] [IMAGE BLOCK]
+[11.2|Unnamed-T3] Figure 4. McKinsey’s three growth horizons.
+[15.0|Unnamed-T3] A lot of young companies get obsessed, rightly, with product-
+[15.0|Unnamed-T3] market fit. So at first, the strategy is simple: Keep pouring gas on the
+[15.0|Unnamed-T3] fire. Then it gets less simple, and you might find yourself in a
+[15.0|Unnamed-T3] “peanut-butter” situation. McKinsey has a famous framework of
+[15.0|Unnamed-T3] three growth horizons:23
+[15.0|Unnamed-T3] Horizon 1: Current source of growth
+[15.0|Unnamed-T3] Horizon 2: Next source of growth (one that’s still nascent but
+[15.0|Unnamed-T3] looks promising)
+[15.0|Unnamed-T3] Horizon 3: Investment in a yet-to-be-determined third source of
+[15.0|Unnamed-T3] growth
+
+===== PDF PAGE 91 =====
+[15.0|Unnamed-T3] In tech, you often need to start working on Horizons 2 and 3 very
+[15.0|Unnamed-T3] early on.
+[15.0|Unnamed-T3] Young companies tend to resist concepts like strategy and
+[15.0|Unnamed-T3] planning, and they come by that resistance honestly—there’s so
+[15.0|Unnamed-T3] much work to do, who has time for such ivory tower–like activities?
+[15.0|Unnamed-T3] If you’re pre-product or pre-market fit, you need a process that
+[15.0|Unnamed-T3] allows you to adapt quickly as you’re figuring out what works. Your
+[15.0|Unnamed-T3] plans might focus more on the short term: “Here are some
+[15.0|Unnamed-T3] milestones we need to achieve in order to start testing and proving
+[15.0|Unnamed-T3] that people want to buy our product.” But once you have product-
+[15.0|Unnamed-T3] market fit, it’s time to start thinking longer-term.
+[15.0|Unnamed-T3] A mature company is likely to have a clear picture of its intended
+[15.0|Unnamed-T3] strategy and financials over a multi-year span, as well as a good
+[15.0|Unnamed-T3] sense of which activities will allow them to reach those numbers.
+[15.0|Unnamed-T3] They can thus outline goals and plans that enable various
+[15.0|Unnamed-T3] component teams to achieve those goals.
+[15.0|Unnamed-T3] A mid-stage company is, appropriately, somewhere in between.
+[15.0|Unnamed-T3] The trick is to find the right balance: enough structure to speed
+[15.0|Unnamed-T3] progress, but not so much that you end up overburdening teams and
+[15.0|Unnamed-T3] products that are just being established. One of my favorite
+[15.0|Unnamed-T3] learnings from Colin Bryar and Bill Carr’s book Working Backwards
+[15.0|Unnamed-T3] was that it took Amazon quite a lot of iteration and painful company
+[15.0|Unnamed-T3] processes—the new product introduction, or NPI, seemed to be the
+[15.0|Unnamed-T3] least popular—to get to its OP1 and OP2 approaches.24 (“OP” stands
+[15.0|Unnamed-T3] for “operating plan.”) The same has been true for Stripe. Start as
+[15.0|Unnamed-T3] simply as you can, then adapt.
+[15.0|Unnamed-T3] To strike that balance between short-term and long-term focus, I
+[15.0|Unnamed-T3] recommend developing two artifacts:
+[15.0|Unnamed-T3] A financial model of the next three or so years, plus a list of
+[15.0|Unnamed-T3] what needs to be true to achieve those numbers. Producing that
+
+===== PDF PAGE 92 =====
+[15.0|Unnamed-T3] list will require a set of strategic conversations and decisions.
+[15.0|Unnamed-T3] This longer-term projection may not end up being accurate, but
+[15.0|Unnamed-T3] you can revisit and revise it each year. Depending on how
+[15.0|Unnamed-T3] accurate your initial projection is, it may only require minimal
+[15.0|Unnamed-T3] revisions, or it may need a more comprehensive course
+[15.0|Unnamed-T3] correction. More mature companies do this work on a five-to-
+[15.0|Unnamed-T3] ten-year time horizon and tend to spend more time working to
+[15.0|Unnamed-T3] determine new areas for growth—McKinsey’s Horizon 3—and
+[15.0|Unnamed-T3] less time iterating on the near-term plan.
+[15.0|Unnamed-T3] A shorter-term plan that answers the questions “What are we
+[15.0|Unnamed-T3] trying to get done in the next 6 months, and in the next 12?” and
+[15.0|Unnamed-T3] “What does the P & L look like by December of this year?” Teams
+[15.0|Unnamed-T3] and companies will use different systems for doing this, but the
+[15.0|Unnamed-T3] plan should be a way for a team to say, “This is where we’re going
+[15.0|Unnamed-T3] long-term”—linking out to the long-term strategic themes and
+[15.0|Unnamed-T3] rough financial objectives—“and, on a quarterly basis, this is
+[15.0|Unnamed-T3] where we’re focusing to move our most important metrics.” Keep
+[15.0|Unnamed-T3] in mind that the financial outcomes are not the plan itself, nor are
+[15.0|Unnamed-T3] they the reason you exist as a company. But they are a critical
+[15.0|Unnamed-T3] means to create discipline and a measurement system for the
+[15.0|Unnamed-T3] company’s actual work.
+[15.0|Unnamed-T3] In order to achieve their mission, and if they’re following the
+[15.0|Unnamed-T3] three-horizon structure, most companies will have a mix of more
+[15.0|Unnamed-T3] mature parts of the business—which should have clear metrics
+[15.0|Unnamed-T3] they’re trying to move and short-term goals they’re trying to hit—
+[15.0|Unnamed-T3] and emerging businesses or products, for which the goal may be as
+[15.0|Unnamed-T3] simple as “Launch the product and test product-market fit.” Be sure
+[15.0|Unnamed-T3] to distinguish between these varying maturity levels and to plan
+[15.0|Unnamed-T3] differently for the different business stages within the company.
+
+===== PDF PAGE 93 =====
+[15.0|Unnamed-T3] Resource allocation
+[15.0|Unnamed-T3] The other part of planning is resource allocation. In simple terms,
+[15.0|Unnamed-T3] your primary resources are people and money. The art of planning is
+[15.0|Unnamed-T3] to allocate enough funds and employees to earlier-stage efforts to
+[15.0|Unnamed-T3] give them a chance to demonstrate success, while simultaneously
+[15.0|Unnamed-T3] streamlining the more mature parts of the business so that they
+[15.0|Unnamed-T3] realize 
+[15.0|Unnamed-T3] operational 
+[15.0|Unnamed-T3] efficiencies 
+[15.0|Unnamed-T3] and 
+[15.0|Unnamed-T3] demonstrate 
+[15.0|Unnamed-T3] increasing
+[15.0|Unnamed-T3] profitability as early as possible, without undermining their growth.
+[15.0|Unnamed-T3] It’s somewhat easier, mathematically speaking, to track resource
+[15.0|Unnamed-T3] needs for sales and operational teams that have measurable
+[15.0|Unnamed-T3] outcomes, like new customer leads and support cases closed. I’m
+[15.0|Unnamed-T3] not going to pretend I know of a standard and trusted way to
+[15.0|Unnamed-T3] measure the ROI of engineering resources. One tactic to allocate
+[15.0|Unnamed-T3] headcount is to look at the ratio of functions—for example, 10
+[15.0|Unnamed-T3] engineers to 1 product manager, or 1 human resource business
+[15.0|Unnamed-T3] partner to 250 employees. The downside of a ratio-based approach,
+[15.0|Unnamed-T3] however, is that other companies’ benchmarks don’t reflect your
+[15.0|Unnamed-T3] own company and business model. They also don’t account for
+[15.0|Unnamed-T3] potential efficiency gains in ratios over time, nor for the fact that you
+[15.0|Unnamed-T3] generally want to award more resources based on impact, not on
+[15.0|Unnamed-T3] how many people are on the team. Still, you should keep ratios in
+[15.0|Unnamed-T3] mind as a gut check on where you land.
+[15.0|Unnamed-T3] Once you allocate headcount, your gut check should also include
+[15.0|Unnamed-T3] making sure you’re not starving the current cash cow, as it were. As
+[15.0|Unnamed-T3] tempting as Horizons 2 and 3 can be to pursue, your current
+[15.0|Unnamed-T3] business’s most critical area—Horizon 1—invariably requires more
+[15.0|Unnamed-T3] people and money to maintain growth.
+[15.0|Unnamed-T3] Headcount allocation comes up frequently in the conversations I
+[15.0|Unnamed-T3] have with founders. The sentiment is essentially this: “We’re adding
+[15.0|Unnamed-T3] more people, but I feel like the velocity of product development and
+
+===== PDF PAGE 94 =====
+[15.0|Unnamed-T3] progress is slowing down. Am I being unreasonable?” With an eye
+[15.0|Unnamed-T3] toward cash burn rate, founders want to be careful about adding
+[15.0|Unnamed-T3] more people. And when they do, they want to hold those people
+[15.0|Unnamed-T3] accountable for an output commensurate with the additional people
+[15.0|Unnamed-T3] power. The slowdowns founders often observe reflect the harsh side
+[15.0|Unnamed-T3] of scale: increasing coordination and interface complexity.
+[0|IMG] [IMAGE BLOCK]
+[11.2|Unnamed-T3] Figure 5. Interface complexity. The more people there are on a team, the more possible
+[11.2|Unnamed-T3] interfaces there are, increasing communication and coordination challenges.
+[15.0|Unnamed-T3] In my advice to these founders, I describe the phases of scale I’ve
+[15.0|Unnamed-T3] observed that relate specifically to engineering productivity, but that
+[15.0|Unnamed-T3] ultimately represent company scale, too:
+[15.0|Unnamed-T3] Phase I: Small, scrappy developer teams work in a shared
+[15.0|Unnamed-T3] codebase, moving quickly but often taking on technical debt to
+[15.0|Unnamed-T3] ship new features or products.
+[15.0|Unnamed-T3] Phase II: Teams attempt to decouple elements of the shared
+[15.0|Unnamed-T3] codebase and build better tooling for developer productivity. This
+
+===== PDF PAGE 95 =====
+[15.0|Unnamed-T3] includes hiring more experienced engineers, engineering
+[15.0|Unnamed-T3] managers, and leaders.
+[15.0|Unnamed-T3] Phase III: Teams undergo a painful, complete redo of the
+[15.0|Unnamed-T3] underlying infrastructure, building a true platform or shared
+[15.0|Unnamed-T3] services architecture—and realize that the entire company, not
+[15.0|Unnamed-T3] just engineering, needs to be composed of separate units led by
+[15.0|Unnamed-T3] very experienced people. These units are more loosely coupled
+[15.0|Unnamed-T3] with respect to dependencies but tightly aligned via planning and
+[15.0|Unnamed-T3] goal setting.
+[15.0|Unnamed-T3] It’s validating for founders to hear that these phenomena are
+[15.0|Unnamed-T3] common—and even a potential sign of success. But addressing these
+[15.0|Unnamed-T3] challenges is no easy feat. You must constantly evaluate whether
+[15.0|Unnamed-T3] you’ve made the right investments in infrastructure, developed an
+[15.0|Unnamed-T3] optimal organizational structure, and hired the appropriate leaders,
+[15.0|Unnamed-T3] and you need to attack the root causes of slowing productivity on
+[15.0|Unnamed-T3] multiple fronts.25
+[11.2|Unnamed-T3] SIDEBAR
+[15.0|Unnamed-T3] —
+[21.2|Unnamed-T3] Investing in developer productivity
+[15.0|Unnamed-T3] On developer productivity, Stripe’s CTO, David Singleton, wrote a
+[15.0|Unnamed-T3] compelling internal post in which he explained:
+[15.0|Unnamed-T3] There is certainly no singular metric that works to track output
+[15.0|Unnamed-T3] comparably across engineers, environments, or projects. The way
+[15.0|Unnamed-T3] we compose our changes is relatively arbitrary. Exactly the same
+[15.0|Unnamed-T3] value for our users could be achieved in one big pull request or 20
+[15.0|Unnamed-T3] small ones. The number of commits that someone chooses to make
+[15.0|Unnamed-T3] on the way to creating a finished PR is a matter of personal taste.
+[15.0|Unnamed-T3] Some measures that have been used historically in the industry
+
+===== PDF PAGE 96 =====
+[15.0|Unnamed-T3] actively encourage bad practices. For instance, trying to measure
+[15.0|Unnamed-T3] per-engineer output in terms of lines of code per day encourages
+[15.0|Unnamed-T3] complicated and verbose solutions when we all would strongly
+[15.0|Unnamed-T3] prefer simpler, more concise solutions that are easier to understand,
+[15.0|Unnamed-T3] easier to maintain, and much less likely to present reliability
+[15.0|Unnamed-T3] problems.
+[15.0|Unnamed-T3] Still, to achieve great developer productivity, it’s important that
+[15.0|Unnamed-T3] we measure our productivity to know whether we are getting better
+[15.0|Unnamed-T3] or worse over time and to target improvements in the right places.
+[15.0|Unnamed-T3] We measure both objectively, by instrumenting as much of our
+[15.0|Unnamed-T3] developer tooling as we possibly can and paying attention to the
+[15.0|Unnamed-T3] metrics generated, and subjectively, by asking engineers periodically
+[15.0|Unnamed-T3] how they feel about the productivity of our tools and our codebase.
+[15.0|Unnamed-T3] It’s also important that we invest in developer productivity—
+[15.0|Unnamed-T3] being willing to:
+[15.0|Unnamed-T3] Spend significant sums of money on infrastructure that makes
+[15.0|Unnamed-T3] engineering more productive
+[15.0|Unnamed-T3] Have a large, dedicated group of people working every day to
+[15.0|Unnamed-T3] make other engineers’ lives easier
+[15.0|Unnamed-T3] When I arrived at Stripe in 2018, I was quite struck by how
+[15.0|Unnamed-T3] coupled all of our development was. We had derived huge
+[15.0|Unnamed-T3] productivity benefits through working (largely) in a shared
+[15.0|Unnamed-T3] codebase, but many of our most critical pieces of product
+[15.0|Unnamed-T3] infrastructure were entangled in a ball of mud, which was hard to
+[15.0|Unnamed-T3] change. We mixed up reusable infrastructure with product
+[15.0|Unnamed-T3] intricacies in many places. Very few people understood enough of
+[15.0|Unnamed-T3] the codebase to make simplifying changes, and we mostly evolved
+[15.0|Unnamed-T3] these absolutely critical flows by hanging more and more logical
+[15.0|Unnamed-T3] branches and gates off of what was already there.
+
+===== PDF PAGE 97 =====
+[15.0|Unnamed-T3] We’ve invested, since then, in various efforts that have reduced
+[15.0|Unnamed-T3] coupling in some of our core models, but we are mid­stream in
+[15.0|Unnamed-T3] pulling off a paradigm shift in how we build our product
+[15.0|Unnamed-T3] infrastructure and how we need to operate in building our products
+[15.0|Unnamed-T3] on top of that product infrastructure in the future. Note that this
+[15.0|Unnamed-T3] does not mean we aren’t continuing to prioritize developer
+[15.0|Unnamed-T3] productivity in existing environments as we make the transition, but
+[15.0|Unnamed-T3] it makes prioritization even more important. Each service has a
+[15.0|Unnamed-T3] well-defined Stripe-facing API, which fully abstracts its internal
+[15.0|Unnamed-T3] implementation (meaning we can change it radically over time!) and
+[15.0|Unnamed-T3] underlying data. These are loosely coupled but present strong
+[15.0|Unnamed-T3] contracts in terms of the availability, latency, and throughput that
+[15.0|Unnamed-T3] other services can depend on them for.
+[0|IMG] [IMAGE BLOCK]
+[11.2|Unnamed-T3] Figure 6. A product infrastructure framework that prioritizes developer productivity.
+[15.0|Unnamed-T3] How does this relate to developer productivity?
+[15.0|Unnamed-T3] This is how we maintain developer productivity as we scale. The
+[15.0|Unnamed-T3] vast majority of engineering teams have full agency over the
+[15.0|Unnamed-T3] internals of the services they build and operate without needing
+[15.0|Unnamed-T3] to consult with any others, so long as they maintain the interface
+[15.0|Unnamed-T3] they’ve already committed to.
+
+===== PDF PAGE 98 =====
+[15.0|Unnamed-T3] Once we have services in place for core abstractions, engineers
+[15.0|Unnamed-T3] can start to reason about how they can compose the interface
+[15.0|Unnamed-T3] that, for example, the customer service exposes to get their
+[15.0|Unnamed-T3] features working, rather than all the internal details of the
+[15.0|Unnamed-T3] implementation of the customer service that they might have to
+[15.0|Unnamed-T3] change.
+[15.0|Unnamed-T3] This is just an excerpt from David’s post. The post also discusses how to
+[15.0|Unnamed-T3] maintain a focus on security and reliability, describes our code-owner
+[15.0|Unnamed-T3] and set-piece review processes, and reflects on how to invest in efforts to
+[15.0|Unnamed-T3] improve developer workflows. David also describes Stripe’s principles
+[15.0|Unnamed-T3] and behaviors for stronger development practices, and touches on
+[15.0|Unnamed-T3] benchmarks for the target percentage of engineers to devote exclusively
+[15.0|Unnamed-T3] to developer productivity (5–8 percent of all engineers), and on our own
+[15.0|Unnamed-T3] decision to exceed the benchmark in the interest of velocity.
+[15.0|Unnamed-T3] —
+[15.0|Unnamed-T3] Early on, it felt like Google had its own peanut-butter problem.
+[15.0|Unnamed-T3] We would submit goals and plans for team headcount, then our
+[15.0|Unnamed-T3] financial planning team would seemingly ignore those plans and add
+[15.0|Unnamed-T3] a number of people to each organization based on how many
+[15.0|Unnamed-T3] employees the organization already had. What was basically a ratio-
+[15.0|Unnamed-T3] based approach felt a little absurd, but I now understand the
+[15.0|Unnamed-T3] rationale better: The business was still unpredictable and it was hard
+[15.0|Unnamed-T3] to measure the ROI of an incremental resource, so the team simply
+[15.0|Unnamed-T3] worked off of the previous year’s plan. The bigger reason to submit
+[15.0|Unnamed-T3] plans was that it made teams take a step back and think about
+[15.0|Unnamed-T3] longer-term goals and the resources needed to achieve them in the
+[15.0|Unnamed-T3] coming year. It was about building the planning-ahead muscle,
+[15.0|Unnamed-T3] reorienting around delivering on the company objectives, and
+[15.0|Unnamed-T3] measuring performance against a plan.
+
+===== PDF PAGE 99 =====
+[15.0|Unnamed-T3] It’s vital for companies to start building that planning muscle,
+[15.0|Unnamed-T3] and for leaders to start using objective assessment measures, so that
+[15.0|Unnamed-T3] they don’t get trapped in a situation where the person most adept at
+[15.0|Unnamed-T3] arguing their case gets the most resources. Headcount planning is
+[15.0|Unnamed-T3] fraught, and leaders will tend to read into the allocations and lobby
+[15.0|Unnamed-T3] for more. Objective measures—such as revenue per head or year-
+[15.0|Unnamed-T3] over-year revenue growth for a given product or sales effort—are
+[15.0|Unnamed-T3] one tactic to lessen pressure. Another is to allocate resources on six-
+[15.0|Unnamed-T3] month cycles or to hold some headcount in a company reserve. Both
+[15.0|Unnamed-T3] tactics provide some optionality for shifting hiring toward emerging
+[15.0|Unnamed-T3] priorities and make the entire enterprise feel less like a win-lose
+[15.0|Unnamed-T3] situation once a year. They can cause challenges for recruiting,
+[15.0|Unnamed-T3] however, because the team will have a less accurate forecast against
+[15.0|Unnamed-T3] which to build a talent pipeline. Use whichever tactic will best help
+[15.0|Unnamed-T3] your company avoid being reactive only to short-term needs or
+[15.0|Unnamed-T3] internal lobbying. The overall goal is to develop a more disciplined
+[15.0|Unnamed-T3] approach to planning and resource allocation, however you achieve
+[15.0|Unnamed-T3] that.
+[15.0|Unnamed-T3] It’s also worth noting that getting more resources will be
+[15.0|Unnamed-T3] perceived as recognition or a reward. Leadership should publicly
+[15.0|Unnamed-T3] celebrate managers who are actively improving their operational
+[15.0|Unnamed-T3] efficiency, for example by coming in under budget at the end of the
+[15.0|Unnamed-T3] fiscal year or “giving back” headcount allocation.
+[11.2|Unnamed-T3] SIDEBAR
+[15.0|Unnamed-T3] —
+[21.2|Unnamed-T3] Setting expectations around resource
+[21.2|Unnamed-T3] allocation
+[15.0|Unnamed-T3] I recently met with a founder who lamented his leadership team’s
+[15.0|Unnamed-T3] internal dynamics when it came time for resource allocation. A
+
+===== PDF PAGE 100 =====
+[15.0|Unnamed-T3] normally collaborative group would break down, and individuals
+[15.0|Unnamed-T3] would only look out for their own teams. The founder was left
+[15.0|Unnamed-T3] feeling like the sole decision-maker, and often like the “bad guy.” We
+[15.0|Unnamed-T3] talked about setting more objective metrics for resource allocation,
+[15.0|Unnamed-T3] but for a company growing as quickly as his was, it was hard to set
+[15.0|Unnamed-T3] forecasts and track against benchmarks.
+[15.0|Unnamed-T3] I suggested that he ground the conversation with his team in
+[15.0|Unnamed-T3] leadership expectations. Just as it’s effective to remind people about
+[15.0|Unnamed-T3] inherent biases before making a hiring or promotion decision, it’s
+[15.0|Unnamed-T3] helpful to remind people of what you expect from them as you face
+[15.0|Unnamed-T3] big decisions. In this case, I advised the founder to tell the
+[15.0|Unnamed-T3] leadership team that he expected them all to keep the big picture in
+[15.0|Unnamed-T3] mind—what was best for the company, not for their individual
+[15.0|Unnamed-T3] teams—and to collaborate to reach a final decision, work
+[15.0|Unnamed-T3] constructively across teams to find opportunities for efficiency, and,
+[15.0|Unnamed-T3] more generally, to show up as a team in order to lead the company. I
+[15.0|Unnamed-T3] emphasized that it wouldn’t hurt to make those level-setting
+[15.0|Unnamed-T3] remarks every time the group faced contentious decisions.
+[15.0|Unnamed-T3] —
+[15.0|Unnamed-T3] After Gmail launched and Google acquired Keyhole, which
+[15.0|Unnamed-T3] became Google Earth, there was a moment of internal tension
+[15.0|Unnamed-T3] around company priorities. There was a lot of investment to be
+[15.0|Unnamed-T3] made in existing products and in international expansion for the
+[15.0|Unnamed-T3] core search and advertising business. Various teams felt like the
+[15.0|Unnamed-T3] company was becoming distracted by new projects before the main
+[15.0|Unnamed-T3] source of revenue and growth was mature enough. Then-CEO Eric
+[15.0|Unnamed-T3] Schmidt shared a simple but extremely effective framework to
+[15.0|Unnamed-T3] resolve these tensions: 70-20-10. Google would devote 70 percent of
+[15.0|Unnamed-T3] its resources to the core business, 20 percent to emerging products,
+[15.0|Unnamed-T3] and 10 percent to research and development for future products.
+
+===== PDF PAGE 101 =====
+[15.0|Unnamed-T3] Once he presented this framework to the company, these
+[15.0|Unnamed-T3] discussions quieted down. It was his own version of McKinsey’s
+[15.0|Unnamed-T3] growth horizons, strengthened by detailed percentages and his own
+[15.0|Unnamed-T3] complement of communication tools, including straightforward
+[15.0|Unnamed-T3] emails and remarks at our all-company meeting, TGIF. It set the
+[15.0|Unnamed-T3] context for continuing to invest in new areas despite the early stage
+[15.0|Unnamed-T3] of Google’s core business.
+[15.0|Unnamed-T3] At Stripe, similar tensions emerged as we started to build new
+[15.0|Unnamed-T3] products. After many, many long meetings, we eventually landed on
+[15.0|Unnamed-T3] a tight one-page prioritization framework that amounted to:
+[15.0|Unnamed-T3] existential risks > core product (including which countries to invest
+[15.0|Unnamed-T3] in further) > new products. This was followed by a section about
+[15.0|Unnamed-T3] reserving resources for foundational company work (internal
+[15.0|Unnamed-T3] tooling, people development). It wasn’t perfect, but it helped
+[15.0|Unnamed-T3] everyone calibrate their planning.
+[15.0|Unnamed-T3] A side note related to existential risks: A key role of your
+[15.0|Unnamed-T3] leadership team should be to invest in critical work that no one else
+[15.0|Unnamed-T3] will naturally step up to prioritize. It’s rare that a company’s plans,
+[15.0|Unnamed-T3] incentives, and metrics structures are built to mitigate risk or stop
+[15.0|Unnamed-T3] and redo work. If you need to invest in security, pay down technical
+[15.0|Unnamed-T3] debt, or make a hard call on halting a project, you’ll need a
+[15.0|Unnamed-T3] leadership voice to provide top-down instruction to do so. As a
+[15.0|Unnamed-T3] manager, be aware that there will be top-down asks from leadership
+[15.0|Unnamed-T3] and from other teams with high-priority work that you’ll have to
+[15.0|Unnamed-T3] integrate into your workflow. Keep the strategy and big picture in
+[15.0|Unnamed-T3] mind, and make sure to reserve space within your own team goals
+[15.0|Unnamed-T3] for top-down company priorities and work that other teams might
+[15.0|Unnamed-T3] require to act on those priorities—even when your own resourcing
+[15.0|Unnamed-T3] plan is, sadly, getting whipsawed.
+
+===== PDF PAGE 102 =====
+[16.9|Unnamed-T3] “One of my favorite books is by former Intel CEO Andy
+[16.9|Unnamed-T3] Grove, Only the Paranoid Survive.26 We are very paranoid.
+[16.9|Unnamed-T3] We always think about ‘What if you have 10 times more
+[16.9|Unnamed-T3] capacity or 10 times [more] usage? Can you survive? Do
+[16.9|Unnamed-T3] you have any security or reliability or performance holes?’
+[16.9|Unnamed-T3] My number one priority as a CEO is to think about what
+[16.9|Unnamed-T3] kinds of risk factors we need to focus on. When I realized
+[16.9|Unnamed-T3] that, I told our team transparently that I had made a
+[16.9|Unnamed-T3] mistake: ‘I used to only be focused on the culture, value,
+[16.9|Unnamed-T3] product. But now I think that’s not right. My number one
+[16.9|Unnamed-T3] priority is to think about the risk factors.’”
+[11.2|Unnamed-T3] —Eric Yuan, founder and CEO, Zoom
+[15.0|Unnamed-T3] Annual and quarterly goals
+[15.0|Unnamed-T3] Unlike the long-term goals I covered earlier in this chapter, annual
+[15.0|Unnamed-T3] and quarterly goals are more tactical and measurable, representing a
+[15.0|Unnamed-T3] company’s output on a discrete time horizon. They serve as a
+[15.0|Unnamed-T3] contract between the accountable team and the rest of the division
+[15.0|Unnamed-T3] about the work that will be completed. For example, the Microsoft
+[15.0|Unnamed-T3] team that developed the first GUI for Microsoft Windows probably
+[15.0|Unnamed-T3] had to do so in time for a public demo in November 1983. Being
+[15.0|Unnamed-T3] ready for that demo was the goal. Progress toward goals is measured
+[15.0|Unnamed-T3] using specific metrics, which show an achieved result and the data
+[15.0|Unnamed-T3] to prove it.
+[15.0|Unnamed-T3] Just as it’s hard to set goals without clearly defined company and
+[15.0|Unnamed-T3] team missions, it’s going to be hard to set good metrics (coming up
+[15.0|Unnamed-T3] next!) to measure progress if you don’t have clear goals.
+[15.0|Unnamed-T3] There are two kinds of goals: binary tasks (for example, “pilot a
+[15.0|Unnamed-T3] low-code local payment method for our checkout product”) and
+[15.0|Unnamed-T3] ongoing metrics (“grow share of non-card pay-in volume by 20
+
+===== PDF PAGE 103 =====
+[15.0|Unnamed-T3] percent”). And, as with your mission, it’s ideal for company goals to
+[15.0|Unnamed-T3] replicate down from the division to the team to the individual. Here
+[15.0|Unnamed-T3] are some examples from Stripe, which represent both binary and
+[15.0|Unnamed-T3] ongoing goals:
+[15.0|Unnamed-T3] Company goal: Security work. Every team should remain at up
+[15.0|Unnamed-T3] to 80 percent on the security posture dashboard, which will often
+[15.0|Unnamed-T3] require adopting new tooling and infrastructure. More broadly,
+[15.0|Unnamed-T3] we’ll remain secure only if every team continues to apply
+[15.0|Unnamed-T3] rigorous paranoia to their own domain.
+[15.0|Unnamed-T3] Division goal (engineering): Maintain our security baseline and
+[15.0|Unnamed-T3] make progress on the migrations to support the top three
+[15.0|Unnamed-T3] technology priority programs so that the security projects deliver
+[15.0|Unnamed-T3] the planned new invariants that we—and, by extension, our users
+[15.0|Unnamed-T3] —can rely on.
+[15.0|Unnamed-T3] Binary goal: No S0 security incidents.
+[15.0|Unnamed-T3] Ongoing improvement: Every team achieves up to 80
+[15.0|Unnamed-T3] percent on the security posture dashboard by the end of the
+[15.0|Unnamed-T3] quarter, which requires adopting the new infrastructure.
+[15.0|Unnamed-T3] Team goal (admin platform):
+[15.0|Unnamed-T3] Binary goal: 100 percent of access to Level 2 data requires an
+[15.0|Unnamed-T3] automated business justification or a two-person confirmed
+[15.0|Unnamed-T3] justification.
+[15.0|Unnamed-T3] There are now many schools of thought on how to write goals.
+[15.0|Unnamed-T3] OKRs and SMART (specific, measurable, achievable, results-
+[15.0|Unnamed-T3] oriented, targeted) goals are two popular examples, and they’re not
+[15.0|Unnamed-T3] mutually exclusive. Both strategies help you accomplish the same
+
+===== PDF PAGE 104 =====
+[15.0|Unnamed-T3] desired outcome: a clear, measurable objective to which you can
+[15.0|Unnamed-T3] hold people accountable.
+[11.2|Unnamed-T3] SIDEBAR
+[15.0|Unnamed-T3] —
+[21.2|Unnamed-T3] Good goals
+[15.0|Unnamed-T3] This write-up on setting good goals, which we continue to consult
+[15.0|Unnamed-T3] internally, is adapted from a public post by Michael Siliski, a former
+[15.0|Unnamed-T3] product leader at Stripe.
+[15.0|Unnamed-T3] Having led goal-setting processes with teams of 1–500 people at all
+[15.0|Unnamed-T3] stages of product maturity, I find I get more or less the same
+[15.0|Unnamed-T3] questions and the same pushback every time. This is my answer to
+[15.0|Unnamed-T3] those questions. While you can easily find lots of tactical advice
+[15.0|Unnamed-T3] online about goal-setting processes, here I want to focus on the
+[15.0|Unnamed-T3] spirit of what we’re actually trying to achieve and how to know if
+[15.0|Unnamed-T3] we’ve done it well. To that end, this post covers:
+[15.0|Unnamed-T3] Why we set goals
+[15.0|Unnamed-T3] What good goals look like
+[15.0|Unnamed-T3] Heuristics for testing your goals
+[15.0|Unnamed-T3] Frequently asked questions
+[15.0|Unnamed-T3] Why we set goals
+[15.0|Unnamed-T3] These are the goals of the goals, if you will.
+[15.0|Unnamed-T3] Define success: Goals are statements about successful end
+[15.0|Unnamed-T3] states. What are you trying to do, and how would you know if
+[15.0|Unnamed-T3] you did it? Plans are sets of activities. Executing on a plan may
+[15.0|Unnamed-T3] help you achieve a goal, but it’s not the goal itself. To maximize
+[15.0|Unnamed-T3] your odds of achieving a successful outcome, start with the end
+
+===== PDF PAGE 105 =====
+[15.0|Unnamed-T3] in mind and work backward to the activities most likely to get
+[15.0|Unnamed-T3] you there.
+[15.0|Unnamed-T3] Focus: There are always far more things we could be doing than
+[15.0|Unnamed-T3] we have capacity for. Productive teams clearly distinguish the
+[15.0|Unnamed-T3] most important things from all of the other good ideas, and they
+[15.0|Unnamed-T3] relentlessly focus on those top priorities. This also helps ensure
+[15.0|Unnamed-T3] that all of the different parts of the team are operating in concert
+[15.0|Unnamed-T3] rather than independently working on related things.
+[15.0|Unnamed-T3] Allow for autonomy: Aligning around and committing to a
+[15.0|Unnamed-T3] shared definition of success creates accountability. Doing so
+[15.0|Unnamed-T3] without mandating specific activities allows accountability to
+[15.0|Unnamed-T3] coexist with autonomy and creativity.
+[15.0|Unnamed-T3] What good goals look like
+[15.0|Unnamed-T3] Remember: FOCUS(S)! Good goals are focused, concise, and
+[15.0|Unnamed-T3] comprehensible. Everyone on the team should be able to easily
+[15.0|Unnamed-T3] memorize the team’s goals. This is important because the progress
+[15.0|Unnamed-T3] you make in a quarter or year is the result of thousands of
+[15.0|Unnamed-T3] independent decisions. Too many goals or too many details interfere
+[15.0|Unnamed-T3] with this. People can remember about three to five things.
+[15.0|Unnamed-T3] Focus on the most important things: Your goals should help
+[15.0|Unnamed-T3] you identify and avoid the distractions. Use plain English that is
+[15.0|Unnamed-T3] easily understandable to anyone with a passing familiarity with
+[15.0|Unnamed-T3] your team’s strategy. This helps with strategic clarity,
+[15.0|Unnamed-T3] memorability, and communicability. Jargon often masks strategic
+[15.0|Unnamed-T3] gaps.
+[15.0|Unnamed-T3] Objectively assessable: Everyone on the team should have the
+[15.0|Unnamed-T3] same understanding of what success looks like and what it
+[15.0|Unnamed-T3] doesn’t. Goals don’t need to be quantitative, but they cannot be
+[15.0|Unnamed-T3] subjective.
+
+===== PDF PAGE 106 =====
+[15.0|Unnamed-T3] Challenging but possible: Your goals need to be credible. If
+[15.0|Unnamed-T3] people consider the outcome unimaginable, they’ll simply ignore
+[15.0|Unnamed-T3] it and give up. Your goals should also stretch the team, inspiring
+[15.0|Unnamed-T3] and challenging people. If you ask your team to stretch, you’ll
+[15.0|Unnamed-T3] often discover that they find ways to deliver more than you
+[15.0|Unnamed-T3] expect. A good rule of thumb is to shoot for about a 70 percent
+[15.0|Unnamed-T3] success rate.
+[15.0|Unnamed-T3] User-oriented: Never organize team goals by function
+[15.0|Unnamed-T3] (engineering, design, etc.). Success depends on all team functions
+[15.0|Unnamed-T3] coming together to deliver a great product, and a single set of
+[15.0|Unnamed-T3] goals helps force an alignment of efforts. Even if some goals
+[15.0|Unnamed-T3] depend more on one function than another, allow the team to
+[15.0|Unnamed-T3] flexibly organize their capabilities and creatively solve problems.
+[15.0|Unnamed-T3] Don’t organize goals around the features you’re delivering—
+[15.0|Unnamed-T3] thinking about your expected activities and working forward is
+[15.0|Unnamed-T3] likely to leave a large gap. Instead, focus on the customer problem
+[15.0|Unnamed-T3] you’re solving and set your goals as close to the customer as
+[15.0|Unnamed-T3] possible.
+[15.0|Unnamed-T3] States, not activities: If you detail specific activities to pursue,
+[15.0|Unnamed-T3] you’re removing the opportunity for teams to solve problems
+[15.0|Unnamed-T3] autonomously, creatively, and iteratively. Instead, focus on the
+[15.0|Unnamed-T3] outcome you want. How would you describe the state of the
+[15.0|Unnamed-T3] world in a success case? Define these outcomes as precisely as
+[15.0|Unnamed-T3] possible.
+[15.0|Unnamed-T3] Sensitivity and specificity: Your goals should allow for the
+[15.0|Unnamed-T3] outcomes that you would consider successful, and should rule
+[15.0|Unnamed-T3] out unsuccessful outcomes.
+[11.2|Unnamed-T3] ORIGINAL GOAL
+[11.2|Unnamed-T3] NEW GOAL
+[11.2|Unnamed-T3] Refactor backend
+[11.2|Unnamed-T3] Backend supports 5+ teams that are concurrently
+
+===== PDF PAGE 107 =====
+[11.2|Unnamed-T3] adding features
+[11.2|Unnamed-T3] Launch v2 product
+[11.2|Unnamed-T3] Double conversion rate via new payment
+[11.2|Unnamed-T3] integrations
+[11.2|Unnamed-T3] Add infinite scrolling
+[11.2|Unnamed-T3] to search
+[11.2|Unnamed-T3] X percent of search queries receive result
+[11.2|Unnamed-T3] clicks
+[11.2|Unnamed-T3] Table 2. Refocusing your goals.
+[15.0|Unnamed-T3] Heuristics for testing your goals
+[15.0|Unnamed-T3] Assess your goals using these guidelines:
+[15.0|Unnamed-T3] Does your goal start with a verb (“launch,” “build,” “refactor,”
+[15.0|Unnamed-T3] etc.)? Then you probably have an action, so reframe it to describe
+[15.0|Unnamed-T3] the outcome you want. Often, this takes the form of translating
+[15.0|Unnamed-T3] “X so that Y” into “Y via X” (and consider if you need X in there
+[15.0|Unnamed-T3] at all). A helpful trick to figure out the proper framing is to read
+[15.0|Unnamed-T3] the goal out, ask yourself why, answer that question, then do that
+[15.0|Unnamed-T3] a couple of times until the true goal comes into focus. (See Table
+[15.0|Unnamed-T3] 2 for an example.)
+[15.0|Unnamed-T3] Do you have “engineering goals” and “business goals,” or
+[15.0|Unnamed-T3] something similar? Stop it.
+[15.0|Unnamed-T3] Are your goals more than one page, more than three to five
+[15.0|Unnamed-T3] objectives, or more than three to five KRs per objective? No one
+[15.0|Unnamed-T3] will read them—let alone remember them.
+[15.0|Unnamed-T3] When you (or your team) look at your goals, do you wince and
+[15.0|Unnamed-T3] think, “What about X? I was really hoping to get to that this
+[15.0|Unnamed-T3] quarter”? If not, you probably haven’t focused enough, and your
+[15.0|Unnamed-T3] goals are not adding value.
+[15.0|Unnamed-T3] Could one team member think a goal is achieved and another one
+[15.0|Unnamed-T3] completely disagree? Then your goal isn’t specific enough. (By
+
+===== PDF PAGE 108 =====
+[15.0|Unnamed-T3] contrast, if everyone feels it’s mostly successful but the
+[15.0|Unnamed-T3] assessments range from 60–80 percent done, who cares?)
+[15.0|Unnamed-T3] Can you imagine a scenario where the goal is achieved but you’re
+[15.0|Unnamed-T3] still dissatisfied with where you ended up? Then your goal isn’t
+[15.0|Unnamed-T3] specific enough, or an aspect is missing.
+[15.0|Unnamed-T3] Could you be successful without achieving the goal? Then your
+[15.0|Unnamed-T3] goal is overly specific, and you should rethink how to define
+[15.0|Unnamed-T3] success.
+[15.0|Unnamed-T3] FAQs
+[15.0|Unnamed-T3] How do you manage against the goals?
+[15.0|Unnamed-T3] If you set good goals and have real buy-in, then the whole team
+[15.0|Unnamed-T3] should have a set of shared goals you can use as a foundation. As
+[15.0|Unnamed-T3] you talk about team performance, meetings, sprint planning, and
+[15.0|Unnamed-T3] progress, frame those conversations against the goals you set.
+[15.0|Unnamed-T3] Organize your activities around the goals, talk about them
+[15.0|Unnamed-T3] constantly, and frame the day-to-day in terms of how they will help
+[15.0|Unnamed-T3] achieve your goals. Keep them top of mind for everyone, all the time.
+[15.0|Unnamed-T3] How do you score goals?
+[15.0|Unnamed-T3] I usually do a lightweight mid-quarter and end-quarter review that
+[15.0|Unnamed-T3] uses green, yellow, and red color-coded scoring (representing
+[15.0|Unnamed-T3] success, mixed results, or failure). The mid-quarter review is a
+[15.0|Unnamed-T3] helpful checkpoint to refocus everyone on goals we may have gotten
+[15.0|Unnamed-T3] distracted from. The end-quarter review is mostly to help us
+[15.0|Unnamed-T3] recalibrate how aggressive we were and highlight areas where we are
+[15.0|Unnamed-T3] regularly failing to make progress. If the reviews require a lot of
+[15.0|Unnamed-T3] effort or feel like they need to be done more often, then your team
+[15.0|Unnamed-T3] probably hasn’t fully internalized the goals and isn’t using them to
+[15.0|Unnamed-T3] guide day-to-day activities.
+
+===== PDF PAGE 109 =====
+[15.0|Unnamed-T3] What do you do if the goal changes before the time period ends?
+[15.0|Unnamed-T3] Sometimes strategies change or we learn things that change our
+[15.0|Unnamed-T3] priorities. That’s fine. Start working on the new goal immediately.
+[15.0|Unnamed-T3] Add a zero with an asterisk or something when you go to score the
+[15.0|Unnamed-T3] old one. Who cares? But if this happens to you all the time, you may
+[15.0|Unnamed-T3] be setting goals that are too specific or incorporating activity
+[15.0|Unnamed-T3] planning into the goal-setting process.
+[15.0|Unnamed-T3] What about quantifiable measurability?
+[15.0|Unnamed-T3] Goals generally benefit from clearly defined, measurable metrics. For
+[15.0|Unnamed-T3] example, “Median latency is under 200 milliseconds” is obviously a
+[15.0|Unnamed-T3] much better definition of success than “Latency is reduced.”
+[15.0|Unnamed-T3] However, sometimes people get hung up on enforcing
+[15.0|Unnamed-T3] quantifiability and can lose track of what really matters. It’s fine for
+[15.0|Unnamed-T3] some goals to have no numbers, as long as it’s clear what success
+[15.0|Unnamed-T3] looks like and it’s not a subjective question. A goal like “MVP is up
+[15.0|Unnamed-T3] and running on production hardware, and multiple external
+[15.0|Unnamed-T3] companies have tested it and provided early feedback” has no
+[15.0|Unnamed-T3] numbers, but it’s very concrete. The important thing is that the
+[15.0|Unnamed-T3] whole team assesses success and failure the same way. As Andy
+[15.0|Unnamed-T3] Grove said about goal assessment, the important thing is that “at the
+[15.0|Unnamed-T3] end, you can look without any argument and say, ‘Did I do that, or
+[15.0|Unnamed-T3] did I not do that?’ Yes. No. Simple.”
+[15.0|Unnamed-T3] What if I can’t measure the thing I want to optimize?
+[15.0|Unnamed-T3] Generally, I say use the metric in your goal anyway and try to assess
+[15.0|Unnamed-T3] it by proxy. Better than setting the wrong goal entirely. As John
+[15.0|Unnamed-T3] Tukey said, “Far better an approximate answer to the right question,
+[15.0|Unnamed-T3] which is often vague, than an exact answer to the wrong question,
+[15.0|Unnamed-T3] which can always be made precise.” Plus, nothing motivates
+
+===== PDF PAGE 110 =====
+[15.0|Unnamed-T3] development of the right metric like using them to actually measure
+[15.0|Unnamed-T3] success across the team!
+[15.0|Unnamed-T3] What if I have a metric but I don’t know what the right target is?
+[15.0|Unnamed-T3] Quite often, you’ll agree on a good way to measure success, but you
+[15.0|Unnamed-T3] won’t know exactly what a reasonable target is since you don’t yet
+[15.0|Unnamed-T3] have a baseline. Generally, I say who cares? Take a guess at a
+[15.0|Unnamed-T3] reasonable number, be honest that it’s a stab in the dark, work
+[15.0|Unnamed-T3] toward it, and update your target along the way as you learn more.
+[15.0|Unnamed-T3] Better to set the goal in the right direction and not be sure exactly
+[15.0|Unnamed-T3] how far you should get than to risk going in the wrong direction.
+[15.0|Unnamed-T3] What if you can’t agree on what the goals should be?
+[15.0|Unnamed-T3] There are any number of reasons this could be the case. Let’s
+[15.0|Unnamed-T3] assume you’re dealing with a reasonable set of people working
+[15.0|Unnamed-T3] together in good faith and trying to do what’s best for the team. (If
+[15.0|Unnamed-T3] you aren’t, it’s not a goal-setting problem.) The first step is to stop
+[15.0|Unnamed-T3] arguing and try to diagnose why you’re stuck. If you can figure that
+[15.0|Unnamed-T3] out, you can almost always find a good resolution.
+[15.0|Unnamed-T3] Here are some common issues people get hung up on—work
+[15.0|Unnamed-T3] from the top down to determine where you’re falling out of
+[15.0|Unnamed-T3] alignment, then work through that question while holding
+[15.0|Unnamed-T3] everything else to the side before continuing down the list:
+[15.0|Unnamed-T3] Different assumptions about vision or strategy: If we aren’t
+[15.0|Unnamed-T3] aligned on what we’re trying to do as a team, there’s no effective
+[15.0|Unnamed-T3] way to figure out the milestones along the way.
+[15.0|Unnamed-T3] Different assumptions about priorities: If you think that we
+[15.0|Unnamed-T3] should do A first, then B, and I think we should do B first, then A,
+[15.0|Unnamed-T3] we can’t align on goals.
+
+===== PDF PAGE 111 =====
+[15.0|Unnamed-T3] Different interpretations: Tease this out by talking through
+[15.0|Unnamed-T3] concrete scenarios and seeing if you agree on what success is and
+[15.0|Unnamed-T3] what it isn’t.
+[15.0|Unnamed-T3] Incomplete success statements: If your goals don’t capture
+[15.0|Unnamed-T3] something important for success, you may see people trying to
+[15.0|Unnamed-T3] pull things up a level into very broad statements. Try adding
+[15.0|Unnamed-T3] additional, very specific statements to narrow down the range of
+[15.0|Unnamed-T3] good outcomes until you’re on the same page, then simplify as
+[15.0|Unnamed-T3] appropriate.
+[15.0|Unnamed-T3] Different assumptions about feasibility: If someone feels the
+[15.0|Unnamed-T3] goal is fundamentally not possible or cost-prohibitive, it’s good to
+[15.0|Unnamed-T3] name this explicitly and dig into it.
+[15.0|Unnamed-T3] Different assumptions about capacity: Try expanding the time
+[15.0|Unnamed-T3] frame a bit and see if you all agree on the overall plan and are
+[15.0|Unnamed-T3] simply disagreeing about how far you should get in a specific
+[15.0|Unnamed-T3] time period.
+[15.0|Unnamed-T3] Why “goals” and not “OKRs”?
+[15.0|Unnamed-T3] OKRs are just goals with a particular structure. They separate the
+[15.0|Unnamed-T3] thing we’re trying to do (the objective) from the concrete definition
+[15.0|Unnamed-T3] of success (the key results). I like that structural distinction—I find
+[15.0|Unnamed-T3] it helps enforce a clear definition of success—so I tend to use the
+[15.0|Unnamed-T3] OKR framework myself. As Andy Grove, the forefather of “managing
+[15.0|Unnamed-T3] by objective,” framed it in High Output Management, OKRs separate
+[15.0|Unnamed-T3] out two key questions:27
+[15.0|Unnamed-T3] Where do I want to go? This answer provides the objective.
+[15.0|Unnamed-T3] How will I pace myself to see if I’m getting there? This answer
+[15.0|Unnamed-T3] provides the milestones, or key results.
+[15.0|Unnamed-T3] —
+
+===== PDF PAGE 112 =====
+[15.0|Unnamed-T3] Here are a few other thoughts on how to effectively set and use
+[15.0|Unnamed-T3] goals:
+[15.0|Unnamed-T3] Say what percentage of goals you expect people to hit up front
+[15.0|Unnamed-T3] Some companies and leaders like their goals to be as realistic as
+[15.0|Unnamed-T3] possible, so it’s expected that 100 percent of the goals will be
+[15.0|Unnamed-T3] achieved. Other companies prefer their goals to be more
+[15.0|Unnamed-T3] aspirational, so it’s expected that some of the goals—around 20–30
+[15.0|Unnamed-T3] percent—will not be met. You can do both, but take care to specify
+[15.0|Unnamed-T3] which goals are aspirational (hit 70 percent) versus committed (hit
+[15.0|Unnamed-T3] 100 percent). Either way, always consider the dependencies required
+[15.0|Unnamed-T3] to achieve those goals.
+[15.0|Unnamed-T3] Committed goals are a good idea if:
+[15.0|Unnamed-T3] There’s an existential company threat, for example if a
+[15.0|Unnamed-T3] competitor has developed a better version of one of your top
+[15.0|Unnamed-T3] product features.
+[15.0|Unnamed-T3] Another team working on a top-priority project is blocked.
+[15.0|Unnamed-T3] A customer has been told a product or project will be delivered
+[15.0|Unnamed-T3] on a particular timeline.
+[15.0|Unnamed-T3] The argument for biasing toward more aspirational goals is a
+[15.0|Unnamed-T3] simple one: Human and team behavior often lead us to anchor on
+[15.0|Unnamed-T3] and solve for a defined outcome. A more challenging goal might lead
+[15.0|Unnamed-T3] us to think differently about how to accomplish it, and thus generate
+[15.0|Unnamed-T3] fresh ideas and energy. A team might also unconsciously take the
+[15.0|Unnamed-T3] pressure off of their efforts once they hit an “achievable” goal,
+[15.0|Unnamed-T3] forestalling the possibility of carrying the work further and
+[15.0|Unnamed-T3] exceeding expectations, which might motivate the team to have
+[15.0|Unnamed-T3] more confidence in their abilities in the coming quarters. The key
+[15.0|Unnamed-T3] with more aspirational goals is to set expectations: Teams should
+[15.0|Unnamed-T3] know that hitting 70–80 percent of the goal counts as success, but
+
+===== PDF PAGE 113 =====
+[15.0|Unnamed-T3] that there will be great recognition and reward for exceeding those
+[15.0|Unnamed-T3] expectations. (See the chapter appendix on page 125 for guidance on
+[15.0|Unnamed-T3] helping the team write good OKRs.)
+[15.0|Unnamed-T3] An individual’s goals should include one or two personal goals
+[15.0|Unnamed-T3] As a manager, remember that the work of the individual is both
+[15.0|Unnamed-T3] company-focused (what they’ll do to contribute to the division) and
+[15.0|Unnamed-T3] individual-focused (how their work will contribute to their broader
+[15.0|Unnamed-T3] career narrative and development). Goals should reflect this. Every
+[15.0|Unnamed-T3] quarter, an individual should have at least one or two personal
+[15.0|Unnamed-T3] development goals in addition to the work output they expect to
+[15.0|Unnamed-T3] complete. That way, the team member is doing the work that’s
+[15.0|Unnamed-T3] needed today but also developing abilities that allow them to grow
+[15.0|Unnamed-T3] their impact, contribute to the work the team might need to deliver
+[15.0|Unnamed-T3] tomorrow, and advance their career.
+[15.0|Unnamed-T3] Say someone on your team can only do basic analysis, but your
+[15.0|Unnamed-T3] data is growing increasingly complex. It’ll be important for that
+[15.0|Unnamed-T3] person to develop more advanced analytics skills, including how to
+[15.0|Unnamed-T3] write SQL queries to access the data from your internal systems.
+[15.0|Unnamed-T3] They might have a goal to conduct up to 30 basic analyses that
+[15.0|Unnamed-T3] quarter, as well as a goal to take a SQL class and demonstrate that
+[15.0|Unnamed-T3] they can conduct a complex analytical project by the end of the
+[15.0|Unnamed-T3] quarter. As people become more experienced, their goals might
+[15.0|Unnamed-T3] become less skill-focused and more about capabilities. Instead of
+[15.0|Unnamed-T3] “Write a detailed project plan,” for example, their goal might be
+[15.0|Unnamed-T3] “Lead a complex project from plan to completion with measurable
+[15.0|Unnamed-T3] positive results.”
+[15.0|Unnamed-T3] As a manager, it’s tempting to have your team focus only on what
+[15.0|Unnamed-T3] they need to get done in the quarter rather than working on more
+[15.0|Unnamed-T3] developmental goals. But just as a company can’t rely on one
+[15.0|Unnamed-T3] product for revenue growth indefinitely and must invest in more
+
+===== PDF PAGE 114 =====
+[15.0|Unnamed-T3] speculative work on future products or revenue streams, so must
+[15.0|Unnamed-T3] teams and individuals invest in their future development. This is
+[15.0|Unnamed-T3] especially true in high-growth environments. The skills and efforts
+[15.0|Unnamed-T3] that got your work done in Q1 are not going to be the same ones
+[15.0|Unnamed-T3] required 6 or 12 months later. You must build for future scale and
+[15.0|Unnamed-T3] challenges, both in your team practices and among the individuals
+[15.0|Unnamed-T3] on your team. What’s more, if part of your role is to coach and
+[15.0|Unnamed-T3] develop your people, how will you demonstrate your commitment to
+[15.0|Unnamed-T3] that aspect of your job if you don’t keep people focused on their
+[15.0|Unnamed-T3] developmental goals? It’s easy for a manager to say, “I’m here to
+[15.0|Unnamed-T3] coach you,” but it’s your actions that matter, not your words.
+[15.0|Unnamed-T3] (There’s more on coaching in Chapter 5.)
+[15.0|Unnamed-T3] The “how” is just as important as the “what”
+[15.0|Unnamed-T3] When looking back at a particular project, quarter, or year, don’t
+[15.0|Unnamed-T3] limit your review to the goals someone accomplished. Pay attention
+[15.0|Unnamed-T3] to how the person or team approached the work. Even if the team is
+[15.0|Unnamed-T3] hitting their goals, they might have gotten there in a more painful or
+[15.0|Unnamed-T3] less efficient way than they could have. Maybe someone needs to
+[15.0|Unnamed-T3] focus on communication and collaboration with fellow team
+[15.0|Unnamed-T3] members instead of on the quality of their output, or on how to
+[15.0|Unnamed-T3] scope a problem instead of on the technical work of solving it. Make
+[15.0|Unnamed-T3] sure you ascertain the “how” alongside the “what” and provide
+[15.0|Unnamed-T3] feedback to individuals accordingly.
+[15.0|Unnamed-T3] You may be familiar with the concept of a Pyrrhic victory: a
+[15.0|Unnamed-T3] victory won at such a great cost that it was not worth the battle. All
+[15.0|Unnamed-T3] too often, I see the work equivalent of Pyrrhic victories. Yes, the
+[15.0|Unnamed-T3] product launched on time, but the team and the relationships
+[15.0|Unnamed-T3] therein barely survived, and people are unable to contribute quality
+[15.0|Unnamed-T3] work in the month afterward because they’re exhausted and
+[15.0|Unnamed-T3] communication is brittle. One early reader of this book told me,
+
+===== PDF PAGE 115 =====
+[15.0|Unnamed-T3] “Performance = results × behaviors. It’s multiplicative. Hitting
+[15.0|Unnamed-T3] targets while fomenting unrest and backstabbing should get you a 0,
+[15.0|Unnamed-T3] not a 95 percent [on your targets].” Your role as a manager is to
+[15.0|Unnamed-T3] make sure your team is defining goals and accomplishing them, but
+[15.0|Unnamed-T3] not at the expense of their future ability to do so. When a company
+[15.0|Unnamed-T3] is growing, it needs to have a consistent ability to get work done—
+[15.0|Unnamed-T3] sustainably—or else growth will stall.
+[15.0|Unnamed-T3] This is very much a moment that calls for balancing management
+[15.0|Unnamed-T3] with leadership. Soliciting feedback about how the work was
+[15.0|Unnamed-T3] accomplished, recognizing folks who helped the process, and
+[15.0|Unnamed-T3] sharing feedback with individuals who hindered it will help the team
+[15.0|Unnamed-T3] fix interpersonal or procedural issues, or might prevent them from
+[15.0|Unnamed-T3] occurring or worsening. Remember to say the thing you think you
+[15.0|Unnamed-T3] cannot say: Provide direct feedback to individuals or to the team and
+[15.0|Unnamed-T3] acknowledge that a certain project was accomplished at too high a
+[15.0|Unnamed-T3] cost. That includes acknowledging your own role in that reality.
+[15.0|Unnamed-T3] Being honest and demonstrating an ability to reflect and improve
+[15.0|Unnamed-T3] will encourage mutual self-awareness, and it will help you
+[15.0|Unnamed-T3] demonstrate that leadership is not perfect, nor is it comfortable. If
+[15.0|Unnamed-T3] your team is able to stop and learn in these situations, they will be
+[15.0|Unnamed-T3] better prepared when you turn up the heat and set aspirational
+[15.0|Unnamed-T3] objectives instead of regressing to the mean or becoming
+[15.0|Unnamed-T3] dysfunctional.
+[15.0|Unnamed-T3] Metrics that matter
+[15.0|Unnamed-T3] Your core company metrics are another structure that can—and
+[15.0|Unnamed-T3] should—replicate down from the company level to divisions, teams,
+[15.0|Unnamed-T3] and sometimes even to individuals. Like goals, metrics can be set on
+[15.0|Unnamed-T3] both long-term and short-term horizons.
+[15.0|Unnamed-T3] In my experience, long-term metrics tend to be lagging
+[15.0|Unnamed-T3] indicators. They represent the output of a ton of operational, short-
+
+===== PDF PAGE 116 =====
+[15.0|Unnamed-T3] term “input” metrics. At Stripe, we start each year with what we call
+[15.0|Unnamed-T3] company targets. These are the metrics for the year that best reflect
+[15.0|Unnamed-T3] our company priorities. Some are financial outcome metrics that
+[15.0|Unnamed-T3] reflect the work we’ll do in the coming year, while others are
+[15.0|Unnamed-T3] strategic input metrics, like the number of monthly active businesses
+[15.0|Unnamed-T3] using our products. For example, we might track daily or weekly
+[15.0|Unnamed-T3] user adoption for a set of newly launched products. These are inputs
+[15.0|Unnamed-T3] to metrics that ultimately measure revenue and margin in our P & L.
+[15.0|Unnamed-T3] We also have “zero targets,” meaning a measure for which the
+[15.0|Unnamed-T3] desired outcome is no incidence of the issue occurring, such as
+[15.0|Unnamed-T3] outages.
+[15.0|Unnamed-T3] For a public company, what you report to investors is likely a
+[15.0|Unnamed-T3] version of your top metrics that matter. It should be clear which
+[15.0|Unnamed-T3] leaders, divisions, and teams are accountable for the inputs that
+[15.0|Unnamed-T3] drive those outcomes each quarter.
+[15.0|Unnamed-T3] Some teams have less measurable outcomes, but they should still
+[15.0|Unnamed-T3] have metrics
+[15.0|Unnamed-T3] For some teams, like benefits, human resources, or finance, it can be
+[15.0|Unnamed-T3] difficult to come up with metrics that capture the team’s full added
+[15.0|Unnamed-T3] value to the division. It’s obvious that you need an HR team, but it’s
+[15.0|Unnamed-T3] not as obvious how to concretely measure their work. Still, it makes
+[15.0|Unnamed-T3] sense to set goals and metrics for the team. Although these might be
+[15.0|Unnamed-T3] less frequent measures of impact, using data to monitor their
+[15.0|Unnamed-T3] general progress is a good practice for team health.
+[15.0|Unnamed-T3] For internal teams, the employee engagement survey is often the
+[15.0|Unnamed-T3] best way to measure progress, even if it’s only done once or twice a
+[15.0|Unnamed-T3] year. For example, you can ask about satisfaction with the work
+[15.0|Unnamed-T3] environment and whether the benefits feel fair. For teams like legal
+[15.0|Unnamed-T3] and finance, you can work to measure inputs (usually units of time)
+[15.0|Unnamed-T3] and outputs (units of work) to calculate a return on those
+
+===== PDF PAGE 117 =====
+[15.0|Unnamed-T3] investments. Sometimes these teams resist measuring the time
+[15.0|Unnamed-T3] they’re spending on specific tasks. But it’s instructive to know, for
+[15.0|Unnamed-T3] example, that your litigation team spent 800 hours handling
+[15.0|Unnamed-T3] potential legal issues in Q3 and that the result was no negative
+[15.0|Unnamed-T3] action or settlement against the company when it might have been,
+[15.0|Unnamed-T3] say, findings that cost the company $10 million. That’s about
+[15.0|Unnamed-T3] $12,500 in costs avoided per hour—which seems like a healthy ROI.
+[15.0|Unnamed-T3] This is just to illustrate that it’s worth pushing your teams to
+[15.0|Unnamed-T3] quantify their work and impact. At the company level, this will help
+[15.0|Unnamed-T3] with resourcing decisions. At the team level, knowing the
+[15.0|Unnamed-T3] quantifiable contribution of their work also helps with team morale.
+[11.2|Unnamed-T3] SIDEBAR
+[15.0|Unnamed-T3] —
+[21.2|Unnamed-T3] Metrics write-up
+[15.0|Unnamed-T3] This resource is adapted from a piece about metrics and goals written
+[15.0|Unnamed-T3] by Stripe’s data science team.
+[15.0|Unnamed-T3] Introduction
+[15.0|Unnamed-T3] It isn’t always clear how to develop and use metrics, so we’ve created
+[15.0|Unnamed-T3] this playbook to help you and your team(s) develop great metrics.
+
+===== PDF PAGE 118 =====
+[0|IMG] [IMAGE BLOCK]
+[11.2|Unnamed-T3] Figure 7. How to use objectives and metrics.
+[15.0|Unnamed-T3] Metrics framework
+[15.0|Unnamed-T3] Using the following metrics framework—see Figure 7 above—can
+[15.0|Unnamed-T3] help you manage your team effectively:
+[15.0|Unnamed-T3] Objectives
+[15.0|Unnamed-T3] Objectives are broad statements of prioritization, strategy, and
+[15.0|Unnamed-T3] intent. An objective should answer the question “Where do I want to
+[15.0|Unnamed-T3] go?”
+[15.0|Unnamed-T3] Creating metrics
+[15.0|Unnamed-T3] Metrics allow you to measure whether you’re achieving your
+[15.0|Unnamed-T3] objectives. They answer the question “How will I know I’m getting
+[15.0|Unnamed-T3] there?” One objective can have one or many metrics.
+[15.0|Unnamed-T3] Long-term metrics: mission and vision
+[15.0|Unnamed-T3] Long-term metrics help define success against your team’s
+[15.0|Unnamed-T3] mission and three-year vision. Mission metrics tend to be
+[15.0|Unnamed-T3] lagging, so they’re not necessarily the metrics you monitor
+[15.0|Unnamed-T3] regularly to know if you’re on track. While mission metrics move
+
+===== PDF PAGE 119 =====
+[15.0|Unnamed-T3] slowly over longer time horizons, you should always set
+[15.0|Unnamed-T3] milestones for long-term metrics in your annual plans.
+[15.0|Unnamed-T3] Ideally, a team uses the same metrics for a long period of time,
+[15.0|Unnamed-T3] e.g., two to five years. Examples include payment volume,
+[15.0|Unnamed-T3] revenue, total losses, and API reliability. A team should aim for
+[15.0|Unnamed-T3] three to five charter metrics.
+[15.0|Unnamed-T3] Short-term metrics: operating or input metrics
+[15.0|Unnamed-T3] Short-term metrics are real-time or leading indicators that
+[15.0|Unnamed-T3] measure activities or intermediate outcomes. While they might
+[15.0|Unnamed-T3] not determine the success of your mission or three-year vision,
+[15.0|Unnamed-T3] they do inform whether you are on track for your desired
+[15.0|Unnamed-T3] outcomes. Operating metrics are often linked directly to team
+[15.0|Unnamed-T3] goals. A team should aim for three to five operating metrics.
+[15.0|Unnamed-T3] Other metrics
+[15.0|Unnamed-T3] Measure other results the team wants to achieve in the half.
+[15.0|Unnamed-T3] Ideally, these are continuous metrics. If you have a binary metric
+[15.0|Unnamed-T3] (e.g., ship product X), that can be a useful starting point to think
+[15.0|Unnamed-T3] of a continuous measure for that product (e.g., ship product X to
+[15.0|Unnamed-T3] 50 new users).
+[15.0|Unnamed-T3] Once you’ve set your metrics, make sure you have a
+[15.0|Unnamed-T3] dashboard to review your metrics regularly.
+[15.0|Unnamed-T3] Using metrics
+[15.0|Unnamed-T3] Metrics can’t help you if you don’t use and review them regularly.
+[15.0|Unnamed-T3] Only then can they help you answer the question “Am I making
+[15.0|Unnamed-T3] progress? Why or why not?”
+[15.0|Unnamed-T3] Metrics are imperfect, and only by reviewing them regularly do
+[15.0|Unnamed-T3] you learn how they can be improved or changed to be even more
+[15.0|Unnamed-T3] useful. Some ideas for when to review metrics:
+
+===== PDF PAGE 120 =====
+[15.0|Unnamed-T3] Have a weekly or biweekly metrics meeting.
+[15.0|Unnamed-T3] Discuss your metrics in a Monday morning standup or biweekly
+[15.0|Unnamed-T3] sprint planning.
+[15.0|Unnamed-T3] Share your metrics in biweekly email updates as a forcing
+[15.0|Unnamed-T3] function to review them.
+[15.0|Unnamed-T3] Hold monthly business review meetings.
+[15.0|Unnamed-T3] —
+[15.0|Unnamed-T3] Whatever your approach to setting metrics that matter, track
+[15.0|Unnamed-T3] your goals and define the accompanying metrics consistently across
+[15.0|Unnamed-T3] your division so that you’re using the same underlying data and
+[15.0|Unnamed-T3] language to articulate what you’re trying to achieve. Having shared
+[15.0|Unnamed-T3] definitions of core concepts is more critical than you might think.
+[15.0|Unnamed-T3] For example, what is a customer? Is it someone who has used your
+[15.0|Unnamed-T3] product once, or is it someone who is actively using your product?
+[15.0|Unnamed-T3] What if your product has seasonality—maybe people use it more in
+[15.0|Unnamed-T3] Q4, for example, because of the demand for holiday gifts—and about
+[15.0|Unnamed-T3] 20 percent of your customers only show up in Q4? On many
+[15.0|Unnamed-T3] consulting projects, and at both Google and Stripe, I struggled to
+[15.0|Unnamed-T3] define churn (loss of users) because some of our users churned
+[15.0|Unnamed-T3] intermittently. Ultimately, you need to agree on a company-wide
+[15.0|Unnamed-T3] definition of a term like “churn” and settle for the fact that it will
+[15.0|Unnamed-T3] never be perfect.
+[15.0|Unnamed-T3] Hearkening back to the concept of a team’s goals laddering up to
+[15.0|Unnamed-T3] the division’s goals and mission—which, in turn, ladder up to the
+[15.0|Unnamed-T3] company’s goals and mission—think about a company where every
+[15.0|Unnamed-T3] rung in that ladder has a different definition of a metric. There
+[15.0|Unnamed-T3] would be a lack of accountability, and potentially a great deal of
+[15.0|Unnamed-T3] friction between teams—an org leader’s and a manager’s worst
+[15.0|Unnamed-T3] nightmare. 
+[15.0|Unnamed-T3] As 
+[15.0|Unnamed-T3] you 
+[15.0|Unnamed-T3] establish 
+[15.0|Unnamed-T3] your 
+[15.0|Unnamed-T3] operating 
+[15.0|Unnamed-T3] systems, 
+[15.0|Unnamed-T3] the
+[15.0|Unnamed-T3] measurement piece is often the most difficult and critical part.
+
+===== PDF PAGE 121 =====
+[15.0|Unnamed-T3] Getting it right may require you to work both across divisions and
+[15.0|Unnamed-T3] up and down the division to agree on core metrics and definitions.
+[15.0|Unnamed-T3] The effort is worth it—the result is that you and your team can
+[15.0|Unnamed-T3] measure success knowing that you’re using the exact same measure
+[15.0|Unnamed-T3] as the rest of the company. This will build collective trust and,
+[15.0|Unnamed-T3] ideally, collective accomplishment.
+[15.0|Unnamed-T3] Ownership
+[15.0|Unnamed-T3] Goals and metrics should have owners who are ultimately
+[15.0|Unnamed-T3] responsible for completing the work. Assigning ownership is an
+[15.0|Unnamed-T3] important aspect of management because it requires determining
+[15.0|Unnamed-T3] whose remit, experience, capabilities, and preferences are best
+[15.0|Unnamed-T3] suited to a particular task or project. Ownership ranges from the
+[15.0|Unnamed-T3] small tasks—who’s going to complete the action items from our
+[15.0|Unnamed-T3] meeting?—to who is ultimately responsible for the outcomes of a
+[15.0|Unnamed-T3] team, group, or division. In fact, each company target should have
+[15.0|Unnamed-T3] an owner or owners, who will most likely be members of the
+[15.0|Unnamed-T3] executive 
+[15.0|Unnamed-T3] team. 
+[15.0|Unnamed-T3] Even 
+[15.0|Unnamed-T3] though 
+[15.0|Unnamed-T3] a 
+[15.0|Unnamed-T3] given 
+[15.0|Unnamed-T3] target 
+[15.0|Unnamed-T3] might 
+[15.0|Unnamed-T3] have
+[15.0|Unnamed-T3] dependencies, it’s important to make someone responsible for
+[15.0|Unnamed-T3] tracking progress and escalating or unblocking if progress stalls.
+[15.0|Unnamed-T3] I remember a meeting at Stripe where we were stuck on
+[15.0|Unnamed-T3] assigning ownership for the revenue in our financial plan. The issue
+[15.0|Unnamed-T3] was that the revenue projections were dependent on new products
+[15.0|Unnamed-T3] launching, and the sales team understandably didn’t want to sign up
+[15.0|Unnamed-T3] for owning a target that was so dependent on the product and
+[15.0|Unnamed-T3] engineering teams. In the end, we decided that the head of sales
+[15.0|Unnamed-T3] would be responsible for “what’s on the truck” revenue—meaning
+[15.0|Unnamed-T3] revenue from currently launched products—and that we would
+[15.0|Unnamed-T3] break out a new product revenue line in our plan and hold the
+[15.0|Unnamed-T3] product team responsible for that number. It’s worth surfacing and
+[15.0|Unnamed-T3] teasing these things apart, especially at the top levels of the
+
+===== PDF PAGE 122 =====
+[15.0|Unnamed-T3] company. That focus on clear ownership will set a model that filters
+[15.0|Unnamed-T3] down into improved execution at all levels of your division.
+[15.0|Unnamed-T3] If you don’t define ownership early in a project, division and
+[15.0|Unnamed-T3] team culture will suffer. It’s easy to spot teams that don’t clearly
+[15.0|Unnamed-T3] assign ownership. They’re the ones that point fingers and protest
+[15.0|Unnamed-T3] with statements like “I thought the sales dev reps were delivering
+[15.0|Unnamed-T3] the leads—that’s why the account execs are behind on the revenue
+[15.0|Unnamed-T3] pipeline.” Or “Security is blocking us—they didn’t build a ring-
+[15.0|Unnamed-T3] fenced data store for the HR data, and we can’t develop people data
+[15.0|Unnamed-T3] dashboards without it.” Worse still, teams that lack clear
+[15.0|Unnamed-T3] accountability risk becoming political, with folks constantly
+[15.0|Unnamed-T3] jockeying to demonstrate that they own the most important work
+[15.0|Unnamed-T3] and pointing fingers at others when work doesn’t get accomplished.
+[15.0|Unnamed-T3] It’s easier to define ownership on teams that have measurable
+[15.0|Unnamed-T3] outcomes. For example, I can say that the head of North America
+[15.0|Unnamed-T3] sales is responsible for hitting the North America revenue target. For
+[15.0|Unnamed-T3] teams that must collaborate to achieve an outcome, like product and
+[15.0|Unnamed-T3] engineering, you might find yourself assigning ownership to a pair of
+[15.0|Unnamed-T3] people—risky, but possible—or being more granular about the tasks.
+[15.0|Unnamed-T3] For example: “Eve is going to write the product requirements
+[15.0|Unnamed-T3] document by the end of this week, and Tim is going to build the
+[15.0|Unnamed-T3] prototype by the end of the month.”
+[15.0|Unnamed-T3] One of the worst management mistakes you can make is to put a
+[15.0|Unnamed-T3] task out to your team—say, “We’ve got to build a demo for the user
+[15.0|Unnamed-T3] event by next week”—and, using what I call the “wing and a prayer”
+[15.0|Unnamed-T3] method, hope someone will step up and volunteer. Even worse is to
+[15.0|Unnamed-T3] just leave it out there, hoping someone does the work without
+[15.0|Unnamed-T3] explicitly saying so. (I go into more detail on assigning ownership in
+[15.0|Unnamed-T3] Chapter 4.)
+[15.0|Unnamed-T3] Accountability mechanisms
+
+===== PDF PAGE 123 =====
+[15.0|Unnamed-T3] Accountability mechanisms are tools that both leaders and
+[15.0|Unnamed-T3] managers should use to review progress toward their goals and
+[15.0|Unnamed-T3] missions. They apply at every level—company, team, and individual.
+[15.0|Unnamed-T3] (We’ll look at all three in this section.) These mechanisms include
+[15.0|Unnamed-T3] elements like meetings to review plans and action items, metrics
+[15.0|Unnamed-T3] dashboards, and written project snippets.
+[15.0|Unnamed-T3] The first step in implementing accountability mechanisms is to
+[15.0|Unnamed-T3] identify who is going to participate in the mechanism and the
+[15.0|Unnamed-T3] cadence. If the mechanism in question is a dashboard, who should
+[15.0|Unnamed-T3] be reviewing it? If it’s snippets, how often are they submitted, and
+[15.0|Unnamed-T3] who reads them? If it’s a meeting, who will attend? Decide what
+[15.0|Unnamed-T3] your mechanisms are and how often you will use them to check in
+[15.0|Unnamed-T3] on a division’s or team’s progress. As an example, each Sunday night
+[15.0|Unnamed-T3] ahead of our standing Monday meeting, the Stripe leadership team
+[15.0|Unnamed-T3] shares snippets of key information from the past week, priorities for
+[15.0|Unnamed-T3] the upcoming week, and progress on action items. Much of the
+[15.0|Unnamed-T3] Monday meeting agenda is derived from those snippets.
+[15.0|Unnamed-T3] When I meet COOs from other early-stage companies, we often
+[15.0|Unnamed-T3] end up talking about quarterly business reviews (QBRs) and annual
+[15.0|Unnamed-T3] planning. Neither mechanism is easy to get right, and both need to
+[15.0|Unnamed-T3] evolve with your company. It’s always a relief to commiserate with
+[15.0|Unnamed-T3] other leaders about the ongoing work of iterating on core
+[15.0|Unnamed-T3] operational foundations—but we do so while also recognizing that
+[15.0|Unnamed-T3] although these mechanisms are never perfect, the effort involved in
+[15.0|Unnamed-T3] setting them up and keeping them current is worthwhile.
+[15.0|Unnamed-T3] QBRs 
+[15.0|Unnamed-T3] are 
+[15.0|Unnamed-T3] a 
+[15.0|Unnamed-T3] common accountability 
+[15.0|Unnamed-T3] mechanism 
+[15.0|Unnamed-T3] among
+[15.0|Unnamed-T3] companies that have reached a certain level of complexity, for
+[15.0|Unnamed-T3] example more than 200 employees and many products and teams.
+[15.0|Unnamed-T3] They are both backward-looking assessments of how the team or
+[15.0|Unnamed-T3] business unit performed that quarter, including a review of key
+
+===== PDF PAGE 124 =====
+[15.0|Unnamed-T3] metrics, and forward-looking discussions of what the unit aims to
+[15.0|Unnamed-T3] accomplish over the next few quarters. These reviews are usually an
+[15.0|Unnamed-T3] hour to an hour and a half long. At Stripe, the division being
+[15.0|Unnamed-T3] reviewed typically shares a (roughly) five-page document or
+[15.0|Unnamed-T3] presentation for participants to review before the meeting or during
+[15.0|Unnamed-T3] a reading period at the start of the meeting.
+[15.0|Unnamed-T3] The benefits of a quarterly review, which is more of a step back
+[15.0|Unnamed-T3] from the day-to-day, are that it:
+[15.0|Unnamed-T3] Keeps key stakeholders and leaders on the same page about the
+[15.0|Unnamed-T3] division’s or team’s focus areas and progress
+[15.0|Unnamed-T3] Provides an opportunity to problem-solve any persistent issues
+[15.0|Unnamed-T3] in the metrics or in accomplishing key goals
+[15.0|Unnamed-T3] Aligns leadership on upcoming priorities and how progress will
+[15.0|Unnamed-T3] be measured—and, if alignment is lacking, surfaces work to reset
+[15.0|Unnamed-T3] the strategy and vision
+[15.0|Unnamed-T3] Serves as an accountability mechanism for the unit’s leader and
+[15.0|Unnamed-T3] management team
+[15.0|Unnamed-T3] In my experience, not every division participates in QBRs or gets
+[15.0|Unnamed-T3] mentioned at a company all-hands meeting. For example, your
+[15.0|Unnamed-T3] finance team might be a key partner that supports the work that
+[15.0|Unnamed-T3] goes into the QBRs or reporting on company metrics, but it’s rare
+[15.0|Unnamed-T3] that finance itself is reviewed or mentioned every quarter. That’s not
+[15.0|Unnamed-T3] to say that their work isn’t important! In order to keep track of
+[15.0|Unnamed-T3] progress on these types of teams, the division could create a version
+[15.0|Unnamed-T3] of the QBR mechanism at the organizational level, such as a meeting
+[15.0|Unnamed-T3] in which the finance leadership team reviews the quarterly progress
+[15.0|Unnamed-T3] of teams within the finance organization. (For more on QBRs, see
+[15.0|Unnamed-T3] the QBR guidelines and template in the chapter appendix on page
+[15.0|Unnamed-T3] 129.)
+
+===== PDF PAGE 125 =====
+[15.0|Unnamed-T3] Another common company-level mechanism is a simple one:
+[15.0|Unnamed-T3] Showcase metrics and goals and report on progress at the company
+[15.0|Unnamed-T3] all-hands, whether weekly, monthly, or quarterly. Beyond a few
+[15.0|Unnamed-T3] summary emails and the all-hands meeting where you review
+[15.0|Unnamed-T3] progress toward company targets, I would argue that it’s not useful
+[15.0|Unnamed-T3] to have too many company-wide review mechanisms. Maintain just
+[15.0|Unnamed-T3] a few consistently, and let divisions and teams determine the best
+[15.0|Unnamed-T3] approach for their function or area of the business.
+[15.0|Unnamed-T3] Constantly tweaking your company mechanisms can be
+[15.0|Unnamed-T3] counterproductive, but taking stock at least once a year can help you
+[15.0|Unnamed-T3] evolve as you scale. At Stripe, we usually reset some of our meetings
+[15.0|Unnamed-T3] and accountability mechanisms in January. As we return to work,
+[15.0|Unnamed-T3] we think about what went well and what didn’t in terms of how we
+[15.0|Unnamed-T3] ran and organized the company in the year prior. Then we seek
+[15.0|Unnamed-T3] feedback from others around the company so that by the end of
+[15.0|Unnamed-T3] January we can evolve our approaches for the coming year.
+[15.0|Unnamed-T3] Team-level accountability mechanisms are likely set on annual,
+[15.0|Unnamed-T3] quarterly, monthly, and weekly cycles that reflect the company-wide
+[15.0|Unnamed-T3] cadence. Teams might not participate in or use every mechanism,
+[15.0|Unnamed-T3] and some might devise their own, but it’s powerful for a company to
+[15.0|Unnamed-T3] have a few core mechanisms that are widely adopted at all levels.
+[15.0|Unnamed-T3] Having a standard set of mechanisms that are replicated throughout
+[15.0|Unnamed-T3] the company means a lower cognitive load and more aligned
+[15.0|Unnamed-T3] execution across teams.
+[15.0|Unnamed-T3] I recommend at least these two forms of accountability
+[15.0|Unnamed-T3] mechanisms for every team:
+[15.0|Unnamed-T3] Weekly team meeting: This might be more of an update
+[15.0|Unnamed-T3] meeting, or you might use it as a forum for discussion and
+[15.0|Unnamed-T3] decision-making. Having at least one standing team meeting is
+[15.0|Unnamed-T3] critical to maintain team norms and keep everyone on the same
+
+===== PDF PAGE 126 =====
+[15.0|Unnamed-T3] page about priorities, progress, and action items, as well as who
+[15.0|Unnamed-T3] owns those action items. (We’ll talk more about meetings in
+[15.0|Unnamed-T3] Chapter 4.)
+[15.0|Unnamed-T3] Weekly team metrics review: Use the first 15 minutes of your
+[15.0|Unnamed-T3] team meeting to review your metrics. Some managers prefer to
+[15.0|Unnamed-T3] review metrics in a report rather than in a meeting, but I think
+[15.0|Unnamed-T3] there’s a great benefit to setting aside time to discuss metrics as a
+[15.0|Unnamed-T3] team. Doing so ensures that everyone is focused on the same
+[15.0|Unnamed-T3] numbers at the same time, allows you to discuss insights and
+[15.0|Unnamed-T3] trends, and signals that everyone has a stake and should be
+[15.0|Unnamed-T3] invested in measurement and hitting the numbers.
+[15.0|Unnamed-T3] For managers, the frequency of the accountability mechanisms
+[15.0|Unnamed-T3] should correlate with how quickly your team can impact the metrics
+[15.0|Unnamed-T3] in question. That way, you can focus on actions you may need to
+[15.0|Unnamed-T3] take to make progress. For example, it makes sense to discuss
+[15.0|Unnamed-T3] support response times at a weekly team meeting: If you find that
+[15.0|Unnamed-T3] the team is missing the target, you can realistically implement
+[15.0|Unnamed-T3] changes like adding more staff, making a quick product update, or
+[15.0|Unnamed-T3] changing how much time is dedicated to responding to customers,
+[15.0|Unnamed-T3] which could affect the numbers over a seven-day period. Reviewing
+[15.0|Unnamed-T3] the metrics more often could feel demoralizing, as your decisions
+[15.0|Unnamed-T3] will take a few days to make an impact, but reviewing them less
+[15.0|Unnamed-T3] often might prevent you from identifying important trends or issues
+[15.0|Unnamed-T3] that need to be addressed.
+[15.0|Unnamed-T3] Accountability mechanisms are not the same thing as
+[15.0|Unnamed-T3] monitoring. You’ll also want to have an automated dashboard that
+[15.0|Unnamed-T3] tracks whether something out of the ordinary has happened, such as
+[15.0|Unnamed-T3] a sudden increase in support response times. Ideally, that dashboard
+[15.0|Unnamed-T3] will take measurements in real time; it might even have built-in
+[15.0|Unnamed-T3] alerts that trigger when the numbers cross certain thresholds. Many
+
+===== PDF PAGE 127 =====
+[15.0|Unnamed-T3] engineering teams work hard to have observability in the form of
+[15.0|Unnamed-T3] real-time dashboards and alerting to issues in the system. There, the
+[15.0|Unnamed-T3] accountability mechanism you need to put in place is to determine
+[15.0|Unnamed-T3] ahead of time who is responsible for acting on a sudden change in
+[15.0|Unnamed-T3] the dashboard and how that person should communicate the root
+[15.0|Unnamed-T3] cause and the solution to the relevant stakeholders.
+[15.0|Unnamed-T3] Internal communications
+[15.0|Unnamed-T3] Imagine your organization doubles in size every 12 months. That
+[15.0|Unnamed-T3] means that roughly half of today’s employees were not at your
+[15.0|Unnamed-T3] company one year ago. In another year, at least three out of every
+[15.0|Unnamed-T3] four employees will not have been privy to discussions and
+[15.0|Unnamed-T3] decisions made just 24 months earlier. You need to decide how
+[15.0|Unnamed-T3] you’re going to commit important information to company memory
+[15.0|Unnamed-T3] so that new members can get up to speed on important context
+[15.0|Unnamed-T3] quickly. But you also need to have a clear communications policy so
+[15.0|Unnamed-T3] that you don’t create a culture divided between those who have
+[15.0|Unnamed-T3] company context and those who don’t. Internal communications
+[15.0|Unnamed-T3] can become either an equalizing or a discriminating force,
+[15.0|Unnamed-T3] depending on how you approach it.
+[15.0|Unnamed-T3] At its best, internal communication is another mechanism for
+[15.0|Unnamed-T3] building trust. It’s a function that scales with your company to keep
+[15.0|Unnamed-T3] critical information accessible and useful. But at its worst, it
+[15.0|Unnamed-T3] generates internal propaganda. It should go without saying that if
+[15.0|Unnamed-T3] you need a team dedicated to convincing your employees that you
+[15.0|Unnamed-T3] have a great plan and everything is sunshine, you have a big
+[15.0|Unnamed-T3] problem. Trust is inversely proportional to hypocrisy. Good
+[15.0|Unnamed-T3] communication is about providing timely and honest information,
+[15.0|Unnamed-T3] including being willing to acknowledge mistakes. People forgive
+[15.0|Unnamed-T3] mistakes, but they lose trust when information is hidden, false, or
+
+===== PDF PAGE 128 =====
+[15.0|Unnamed-T3] misleading, or when leadership says something but doesn’t follow
+[15.0|Unnamed-T3] through.
+[15.0|Unnamed-T3] Part of your role as a leader and a manager is to focus on good
+[15.0|Unnamed-T3] internal communications. Your division needs to know what
+[15.0|Unnamed-T3] information will be communicated, when, and where. If team
+[15.0|Unnamed-T3] members know that every meeting will include recorded notes with
+[15.0|Unnamed-T3] decisions and next steps, they’ll have much more confidence in the
+[15.0|Unnamed-T3] commitments made during the meeting. And if at a later point
+[15.0|Unnamed-T3] there’s a discrepancy between how different parties remembered a
+[15.0|Unnamed-T3] discussion, you can always reference the meeting notes. Similarly,
+[15.0|Unnamed-T3] employees must feel able to access the information they need to do
+[15.0|Unnamed-T3] their jobs well, and must feel confident that accessing this
+[15.0|Unnamed-T3] knowledge doesn’t depend on who you happen to know in the
+[15.0|Unnamed-T3] organization or how long you’ve been at the company.
+[15.0|Unnamed-T3] When should you start investing in internal communications?
+[15.0|Unnamed-T3] Dunbar’s number—the suggested cognitive limit to the number of
+[15.0|Unnamed-T3] people someone can maintain a social relationship with—is a
+[15.0|Unnamed-T3] helpful framework for developing an internal communications
+[15.0|Unnamed-T3] strategy.28 At around 150 people, it becomes harder to remember
+[15.0|Unnamed-T3] everyone’s name, what team they’re on, and what they’re responsible
+[15.0|Unnamed-T3] for. 
+[15.0|Unnamed-T3] Hopefully 
+[15.0|Unnamed-T3] you’ve 
+[15.0|Unnamed-T3] been 
+[15.0|Unnamed-T3] documenting 
+[15.0|Unnamed-T3] your 
+[15.0|Unnamed-T3] internal
+[15.0|Unnamed-T3] communications practices already, but by the time your company
+[15.0|Unnamed-T3] hits 150 people, you should have an internal company website, clear
+[15.0|Unnamed-T3] communication guidelines, and policies for what information gets
+[15.0|Unnamed-T3] stored, through what channels it’s communicated, and what
+[15.0|Unnamed-T3] information teams are responsible for maintaining. You should also
+[15.0|Unnamed-T3] formalize a means to deprecate out-of-date content.
+[15.0|Unnamed-T3] Company-wide communications are one of the best ways to
+[15.0|Unnamed-T3] weave your operating principles into the company fabric. If every
+[15.0|Unnamed-T3] team is following their own playbook for certain types of
+
+===== PDF PAGE 129 =====
+[15.0|Unnamed-T3] communications—for example, if some organizations communicate
+[15.0|Unnamed-T3] divisional changes widely, while others do not—you’re going to end
+[15.0|Unnamed-T3] up with subcultures that don’t resonate with the broader company
+[15.0|Unnamed-T3] operating principles. One invaluable bulwark at Stripe is our culture
+[15.0|Unnamed-T3] of longform writing. Although many would argue that there’s a bit
+[15.0|Unnamed-T3] too much longform content circulating within Stripe, that mode of
+[15.0|Unnamed-T3] clear documentation has, on balance, been critical to our ability to
+[15.0|Unnamed-T3] scale ideas, work, and culture quickly.
+[11.2|Unnamed-T3] SIDEBAR
+[15.0|Unnamed-T3] —
+[21.2|Unnamed-T3] Stripe’s writing culture
+[15.0|Unnamed-T3] There 
+[15.0|Unnamed-T3] are 
+[15.0|Unnamed-T3] many 
+[15.0|Unnamed-T3] internal 
+[15.0|Unnamed-T3] Stripe 
+[15.0|Unnamed-T3] documents 
+[15.0|Unnamed-T3] describing 
+[15.0|Unnamed-T3] our
+[15.0|Unnamed-T3] communication principles. This summary of why we invest in a writing
+[15.0|Unnamed-T3] culture was written by Eeke de Milliano, an early Stripe employee who
+[15.0|Unnamed-T3] led the business operations team, and later a number of product teams.
+[15.0|Unnamed-T3] At Stripe, writing is a key part of our internal communications
+[15.0|Unnamed-T3] strategy. Discussions are written down and sent out as notes.
+[15.0|Unnamed-T3] Important company reviews require a pre-read. And “presentations”
+[15.0|Unnamed-T3] are often delivered as written memos. These documents are then
+[15.0|Unnamed-T3] stored on the company wiki so that anyone can discover them.
+[15.0|Unnamed-T3] We’ve invested heavily in writing for three reasons:
+[15.0|Unnamed-T3] First, writing is an equalizer. Great documentation provides
+[15.0|Unnamed-T3] context for the people who were not in the room: another team, a
+[15.0|Unnamed-T3] colleague in a different office, or someone who has yet to join the
+[15.0|Unnamed-T3] company. The latter is particularly important for high-growth
+[15.0|Unnamed-T3] businesses. If a company doubles in headcount every year, by
+[15.0|Unnamed-T3] year three 90 percent of your team members will not have been
+[15.0|Unnamed-T3] privy to discussions from year zero. A strong writing culture
+
+===== PDF PAGE 130 =====
+[15.0|Unnamed-T3] levels the playing field between employees independent of
+[15.0|Unnamed-T3] location, seniority, or tenure because everyone has access to the
+[15.0|Unnamed-T3] same stories, thinking, and decisions.
+[15.0|Unnamed-T3] Second, at Stripe we believe longform writing leads to
+[15.0|Unnamed-T3] higher-quality thought. For the writer, it’s much easier to spot
+[15.0|Unnamed-T3] gaps in logic when you need to string sentences together into a
+[15.0|Unnamed-T3] coherent narrative. For the reader, it’s harder to skim a write-up
+[15.0|Unnamed-T3] than, say, a visual presentation. In most cases we think that’s a
+[15.0|Unnamed-T3] feature, not a bug. Longform writing forces attention to detail.
+[15.0|Unnamed-T3] Finally, writing is efficient. People who are great written
+[15.0|Unnamed-T3] communicators are, perhaps, also somewhat lazy
+[15.0|Unnamed-T3] communicators: They don’t want to have to repeat themselves.
+[15.0|Unnamed-T3] When the context already exists in a document, you can spend
+[15.0|Unnamed-T3] less time getting on the same page about what happened and
+[15.0|Unnamed-T3] more time on how to move forward.
+[15.0|Unnamed-T3] The cost of a strong writing culture is that you end up with a lot
+[15.0|Unnamed-T3] of documents. It means you have to be diligent about content
+[15.0|Unnamed-T3] management across the company. You need to differentiate between
+[15.0|Unnamed-T3] evergreen documents, work-in-progress documents, and one-time
+[15.0|Unnamed-T3] documents. You need to have a strong information discovery tool
+[15.0|Unnamed-T3] and a clear information hierarchy so that information access doesn’t
+[15.0|Unnamed-T3] become information overload.
+[15.0|Unnamed-T3] You also have to be strict about writing guidelines. Set
+[15.0|Unnamed-T3] expectations with teams regarding when they need to send out notes
+[15.0|Unnamed-T3] from a meeting and what information the notes should include.
+[15.0|Unnamed-T3] Don’t just invest in writing down the big, important decisions.
+[15.0|Unnamed-T3] Document your quirks (a lexicon of company terms that explains
+[15.0|Unnamed-T3] why your company-wide meeting is called ATH, or “all the hands”)
+[15.0|Unnamed-T3] and your stories (why is the llama the unofficial company mascot?).
+
+===== PDF PAGE 131 =====
+[15.0|Unnamed-T3] Be clear about what “good writing” means for your company.
+[15.0|Unnamed-T3] Provide team members with a style guide and examples of great
+[15.0|Unnamed-T3] writing. Help employees become better writers by giving them
+[15.0|Unnamed-T3] feedback on their writing and by hosting writing classes.
+[15.0|Unnamed-T3] This all takes work from leadership, teams, and individuals. And
+[15.0|Unnamed-T3] if you care about having a great writing culture, perhaps the first
+[15.0|Unnamed-T3] step is to write that down.
+[15.0|Unnamed-T3] —
+[15.0|Unnamed-T3] Building and assessing an internal communications program
+[15.0|Unnamed-T3] When you’re building and assessing your internal communications
+[15.0|Unnamed-T3] policy—whether for your team, the division, or the whole company
+[15.0|Unnamed-T3] —check if it meets these criteria:
+[15.0|Unnamed-T3] Is it complete? Is the information you’re making accessible the
+[15.0|Unnamed-T3] information people need to do their jobs?
+[15.0|Unnamed-T3] Is it accessible? Can everyone who needs the information get
+[15.0|Unnamed-T3] access? Think about all of the different segments of your division
+[15.0|Unnamed-T3] and company, such as tenure, geography, and language.
+[15.0|Unnamed-T3] Is it reliable? Is the content accurate? Do your company-wide
+[15.0|Unnamed-T3] meetings start on time, and can people expect the same level of
+[15.0|Unnamed-T3] quality each time? Do you send weekly updates to the team
+[15.0|Unnamed-T3] consistently and at a predictable cadence?
+[15.0|Unnamed-T3] Is it transparent? Transparency doesn’t mean sharing
+[15.0|Unnamed-T3] everything. It means that everyone has clarity about what will be
+[15.0|Unnamed-T3] shared, when, and with whom. For example, everyone
+[15.0|Unnamed-T3] understands that HR matters will not be shared broadly with the
+[15.0|Unnamed-T3] company. Still, it’s important that employees know exactly what
+[15.0|Unnamed-T3] HR information—like salary and seniority levels, for example—is
+[15.0|Unnamed-T3] shared with which teams and individuals.
+
+===== PDF PAGE 132 =====
+[15.0|Unnamed-T3] Plan to communicate important information at least three times
+[15.0|Unnamed-T3] using different mediums or channels. People tend to get desensitized
+[15.0|Unnamed-T3] to communication forums. Employees are like consumers in this
+[15.0|Unnamed-T3] way: They have different preferences around how they process
+[15.0|Unnamed-T3] information. If you want to make sure that your team is aware of the
+[15.0|Unnamed-T3] most important company metrics, for instance, you might share
+[15.0|Unnamed-T3] them at a company-wide biweekly meeting, on a company
+[15.0|Unnamed-T3] dashboard that they can access at any time, and in a company
+[15.0|Unnamed-T3] newsletter with commentary on trends.
+[15.0|Unnamed-T3] Here are some other things to keep in mind with regard to
+[15.0|Unnamed-T3] internal communications:
+[15.0|Unnamed-T3] Communicate more in crisis and times of change
+[15.0|Unnamed-T3] In a crisis, the rate of company communication tends to taper off.
+[15.0|Unnamed-T3] Don’t make the mistake of thinking you need all the answers before
+[15.0|Unnamed-T3] you communicate with your employees, because that will result in
+[15.0|Unnamed-T3] less communication at precisely the moment when people need to
+[15.0|Unnamed-T3] hear from you more. As I’ll discuss in the section on managing
+[15.0|Unnamed-T3] through uncertainty in Chapter 4, aim to interface more with your
+[15.0|Unnamed-T3] employees during a crisis than you think you reasonably should,
+[15.0|Unnamed-T3] even if what you’re sharing isn’t a decision or an update. Something
+[15.0|Unnamed-T3] like a personal message or an email that shares your overall
+[15.0|Unnamed-T3] reflections can go a long way toward providing assurance that the
+[15.0|Unnamed-T3] company is taking the threat or issue seriously.
+[15.0|Unnamed-T3] Any moment of uncertainty or change also requires more
+[15.0|Unnamed-T3] communication than you might expect, even (or especially) when
+[15.0|Unnamed-T3] you don’t have all the answers. When Google bought YouTube, I was
+[15.0|Unnamed-T3] the operations leader for Google Video. You can imagine the
+[15.0|Unnamed-T3] questions and confusion that arose on my team when news of the
+[15.0|Unnamed-T3] acquisition broke. Although I didn’t have a lot of insight into the
+[15.0|Unnamed-T3] future strategy, I wrote a short note to my team explaining that I
+
+===== PDF PAGE 133 =====
+[15.0|Unnamed-T3] thought it was a smart acquisition and one that would ultimately
+[15.0|Unnamed-T3] make us stronger. It also helped that I could say I was part of the
+[15.0|Unnamed-T3] YouTube integration team and would be able to keep everyone
+[15.0|Unnamed-T3] informed as plans for the two properties became clearer. My email
+[15.0|Unnamed-T3] showed empathy and transparency, which bought me time and trust
+[15.0|Unnamed-T3] with the team as we solidified our plans for the acquisition.
+[15.0|Unnamed-T3] If the precipitating event or crisis is not widely known but is
+[15.0|Unnamed-T3] affecting the company—for example, the loss of a large customer—
+[15.0|Unnamed-T3] think carefully about when and how you will share the situation. In
+[15.0|Unnamed-T3] these cases, you’ll usually find yourself in a Goldilocks scenario:
+[15.0|Unnamed-T3] Communicating too soon creates uncertainty and anxiety, but
+[15.0|Unnamed-T3] communicating too late stokes anger and resentment. Take the time
+[15.0|Unnamed-T3] to consult your peers and company leaders to strike an effective
+[15.0|Unnamed-T3] balance, and keep the golden rule in mind: If you were an employee
+[15.0|Unnamed-T3] who didn’t have context about the event, what would you want to
+[15.0|Unnamed-T3] know and when? As a manager, take your cues from leadership and
+[15.0|Unnamed-T3] work hard to support the message.
+[15.0|Unnamed-T3] Make company-wide meetings count
+[15.0|Unnamed-T3] Company-wide meetings should be scheduled sparingly. When your
+[15.0|Unnamed-T3] organization is small, these meetings can be more frequent and can
+[15.0|Unnamed-T3] serve as your primary information-sharing mechanism. But as you
+[15.0|Unnamed-T3] scale, they become much less effective and probably need to happen
+[15.0|Unnamed-T3] less often. Instead, use other communication channels, like your
+[15.0|Unnamed-T3] intranet site or email. Reserve company meetings for a chance to
+[15.0|Unnamed-T3] hear from and emotionally connect with leaders and highlight
+[15.0|Unnamed-T3] critical business results and achievements. (Make sure you model
+[15.0|Unnamed-T3] what should be celebrated!) If these meetings are of poor quality,
+[15.0|Unnamed-T3] attendance and efficacy will suffer. Either invest in making these
+[15.0|Unnamed-T3] company-wide meetings great, or only hold them when you can
+[15.0|Unnamed-T3] invest the time to make them better.
+
+===== PDF PAGE 134 =====
+[15.0|Unnamed-T3] Speaking of intranet sites, we call Stripe’s internal site Stripe
+[15.0|Unnamed-T3] Home. It’s designed to connect individuals across the company. The
+[15.0|Unnamed-T3] internal tools team, which is responsible for the tools that enable
+[15.0|Unnamed-T3] employee productivity, invested heavily in building it (among other
+[15.0|Unnamed-T3] mechanisms) to help employees better discover information. These
+[15.0|Unnamed-T3] internal mechanisms are small but critical investments in your
+[15.0|Unnamed-T3] future scale—they should not be seen as luxury items to prioritize
+[15.0|Unnamed-T3] only once you’ve finished working on product features.
+[11.2|Unnamed-T3] SIDEBAR
+[15.0|Unnamed-T3] —
+[21.2|Unnamed-T3] Stripe Home
+[15.0|Unnamed-T3] This description of Stripe Home is excerpted from a blog post written by
+[15.0|Unnamed-T3] Michael Schade, the head of Stripe’s internal tools team at the time.29
+[15.0|Unnamed-T3] Not only is Home a central place that makes it easier for employees to
+[15.0|Unnamed-T3] collaborate and find information, it’s also beautifully designed and
+[15.0|Unnamed-T3] engineered. Brian Krausz, a longtime Stripe engineer, and Bill Labus,
+[15.0|Unnamed-T3] one of Stripe’s top designers, worked on it personally, and their
+[15.0|Unnamed-T3] commitment signaled the importance of internal collaboration and
+[15.0|Unnamed-T3] communication.
+[15.0|Unnamed-T3] At Stripe, we’ve always been intentional about how we
+[15.0|Unnamed-T3] communicate, share information, and stay connected. Back when
+[15.0|Unnamed-T3] Stripe was smaller, it was easy for this to happen automatically. But
+[15.0|Unnamed-T3] by the time we hit around 150 people, it became hard to know
+[15.0|Unnamed-T3] everyone’s name. So at a company hackathon, a few Stripes created
+[15.0|Unnamed-T3] People, a directory to help Stripes meet and get to really know each
+[15.0|Unnamed-T3] other.
+[15.0|Unnamed-T3] We’ve since turned People into a full-fledged product called
+[15.0|Unnamed-T3] Home, weaving both how we know one another and how we share
+[15.0|Unnamed-T3] information beyond email into the same product. Used by 99
