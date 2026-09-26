@@ -2,6 +2,19 @@
 
 Written 2026-09-26 by the session that ran the pilot. Read `CLAUDE.md` and `RECONSIDERATION-PLAN.md` first.
 
+## The goal: Brandon ready to work from the cloud repo
+
+The build is done when Brandon can open a session on `brandonjacuna/son-operational-buildout` from any device (claude.ai/code included), pick a chunk, and start the conversational working session, with every task in place. Concretely:
+
+1. **All 30 chunks built and verified**: seven entries each, rules clean, every old item mapped once.
+2. **Cross-chunk pass done**: dependencies, duplicates, phases, and the 29 leftover old items placed.
+3. **ClickUp rebuilt**: `86akh1hdg` holds the 30 numbered chunks, each holding its typed tasks with phase tags and dependencies. Old subtasks handled per the mappings, the Carryover Register and old docs archived, all with Brandon's go-ahead.
+4. **Repo README**: what this is, how a working session runs, the chunk index with status and phase, a suggested starting order, and the opening prompt for a working session.
+5. **Cloud-ready**: everything a session needs is in the repo. Local-only things don't reach the cloud: the REST token (`~/.clickup_token`), Box, and Claude's memory files on the Mac. So working sessions use the ClickUp connector (a handful of calls each), and every rule lives in CLAUDE.md.
+6. **Profiles copied** from Box and verified (optional for starting; useful from chapter 3 on).
+
+Bulk ClickUp work (step 3) runs from the Mac, where the REST token is. Everything after that can run anywhere.
+
 ## State (all agents stopped, 2026-09-26)
 
 Every agent from the prior session is stopped; none is running. On disk:

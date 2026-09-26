@@ -176,6 +176,14 @@ The pilot is `2.1 Founding documents`. Its reviewed output sets the pattern for 
 - Never retype long content into ClickUp. Pass files and verify.
 - Old ClickUp items are deleted or archived only after their fate is mapped and Brandon approves.
 
+### Working from anywhere
+
+The repo is the whole context. Claude's memory files live only on Brandon's Mac, so any rule a session needs is in this file. In a cloud session:
+- ClickUp goes through the ClickUp connector, not the REST token (which exists only on the Mac). Working sessions need only a few calls: a comment and a status change per decision.
+- The ClickUp status for finished work is `done`. A "clickup needs auth" notice may refer to an unused server; the ClickUp connector itself works.
+- Box isn't needed. Profiles and the white paper are in the repo.
+- Commit and push at the close of every session, so the next device picks up where this one left off.
+
 ### Retiring the extraction machinery
 
 Kept verbatim in `archive/clickup-export-2026-09-26/` and retired from ClickUp after migration, with Brandon's approval each time:
