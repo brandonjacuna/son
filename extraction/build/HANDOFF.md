@@ -20,7 +20,9 @@ Bulk ClickUp work (step 3) runs from the Mac, where the REST token is. Everythin
 - **All 33 chunks built and verified.** The book yields 33 chunks, not 30.
 - **Cross-chunk pass done** (`extraction/build/cross/changes.md`, applied): 764 tasks. All 547 old items have exactly one fate and a landing task. Session briefs updated for keepers and new tasks.
 - **ClickUp rebuilt** (`extraction/clickup-build/`): 33 chunks and 764 tasks under 86akh1hdg, type and phase as tags, 2,611 dependencies. Task IDs in `ids.json`. The 400 old subtasks were moved (not deleted) under "Old build-out items (archive, 2026-09-26)" (17tn048qvw8), because ClickUp caps a task tree at 1,000 subtasks.
-- **Next, each with Brandon's go-ahead:** delete or keep the holding task's 400 items; archive the Carryover Register (901327884538) and the two old docs; write the repo README. Brandon should regenerate the ClickUp token (it was pasted in chat) and save the new one to ~/.clickup_token.
+- **Retired (2026-09-27, by Brandon):** the holding task's 400 old items, the Carryover Register, and the two old docs were archived or deleted in ClickUp. The verbatim export stays in `archive/`.
+- **README written.** The build is done: the next step is a working session on any chunk (see README).
+- Brandon should regenerate the ClickUp token (it was pasted in chat) and save the new one to ~/.clickup_token.
 
 ## The lean pipeline, per run (`extraction/build/<run>/`)
 

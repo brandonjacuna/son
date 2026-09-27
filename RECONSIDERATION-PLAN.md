@@ -148,8 +148,8 @@ Updated 2026-09-26. Working sessions start only after the whole build below is c
 | Chunks from S1, S3, S4, S5, S6 (0, 1.1 to 1.4, 2.2, 2.3, 3.1, 3.2) | Building |
 | Chunks from S7 to S16 (3.3 to 6.3) | Queued |
 | Cross-chunk pass (dependencies, duplicates, phases, the 29 unowned old items) | Done 2026-09-27 (764 tasks) |
-| ClickUp rebuild (chunks, tasks, phase tags, dependencies; old items per mapping) | Built 2026-09-27; old items moved to a holding task, deletion pending approval |
-| Archive Carryover Register and old docs; repo README | Queued |
+| ClickUp rebuild (chunks, tasks, phase tags, dependencies; old items per mapping) | Done 2026-09-27; old items, Carryover Register, and old docs retired by Brandon |
+| Archive Carryover Register and old docs; repo README | Done 2026-09-27 |
 | Box profile copies (blocked in this session; run in a fresh one) | Queued |
 
 Build inputs live in `extraction/build/<run>/`; the shared brief is `extraction/build/BUILD-BRIEF.md`. Old-item ownership by session is in `extraction/item-sessions.json`.
