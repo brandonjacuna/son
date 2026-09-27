@@ -27,14 +27,14 @@ for d in glob.glob(B + '/manual/*/'):
 cprefix = {x.rsplit('.', 1)[0] for x in current}
 stale = {}
 for f in files:
-    for r in set(re.findall(r'(?<![\d.])(\d\.\d{1,2}\.(?:X\d+|\d{1,2}))(?![\d])', open(f).read())):
+    for r in set(re.findall(r'(?<![\d.])(\d\.\d{1,2}\.(?:X\d+|\d{1,2})|\d(?:\.\d{1,2})?\.X\d+)(?![\d])', open(f).read())):
         if r not in current and r.rsplit('.', 1)[0] in cprefix:
             stale.setdefault(r, []).append(os.path.relpath(f, B))
 if stale and '--force' not in sys.argv:
     for r, fs in sorted(stale.items()):
         print('stale reference', r, fs[:4])
     sys.exit('Stale references found: repoint them before renumbering (or --force).')
-tok = re.compile(r'(?<![\d.])(\d\.\d{1,2}\.(?:X\d+|\d{1,2}))(?![\d])')
+tok = re.compile(r'(?<![\d.])(\d\.\d{1,2}\.(?:X\d+|\d{1,2})|0\.(?:X\d+|\d{1,2}))(?![\d])')
 changed = 0
 for f in files:
     s = open(f).read()
