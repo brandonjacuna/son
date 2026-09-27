@@ -4,7 +4,7 @@
 
 This chunk covers the people who hold a seat well and do not move: what the house calls them, what it owes them, how it recognizes them without rating them, and how it keeps its own advancement machinery from pushing them. The book gives it one page (p. 431), between high performers (5.6) and low performers (5.8). Prior work argued a restaurant should give it the most attention of the three, because a full service is carried by people holding their stations. Whether Brandon agrees is the first thing to find out.
 
-Upstream, already decided or in progress: whether Sŏn has ladders (4.1.7), the rotation floor on designations (4.1.20), how development goals are set (2.2.14), the check-in cadence (2.3.10), peer recognition (4.8.9), the mentor rule (3.3.13), the pools on the seat inventory (4.1.14), the metric register (2.2.25), compensation (5.5, which 5.7.4 waits on), and the departure boundary for an hours reduction (5.10, which 5.7.7 and 5.7.13 wait on). 5.8.10 decides whether any record sorts a person into a performance situation; 5.7.2 should be read with it.
+Upstream, already decided or in progress: whether Sŏn has ladders (4.1.7), the rotation floor on designations (4.1.19), how development goals are set (2.2.14), the check-in cadence (2.3.10), peer recognition (4.8.10), the mentor rule (3.3.13), the pools on the seat inventory (4.1.14), the metric register (2.2.25), compensation (5.5, which 5.7.4 waits on), and the departure boundary for an hours reduction (5.10, which 5.7.7 and 5.7.13 wait on). 5.8.10 decides whether any record sorts a person into a performance situation; 5.7.2 should be read with it.
 
 Who else must agree: both seated founders on every decision; the chef partner on the kitchen's seat rows (5.7.6) and pools (5.7.5).
 

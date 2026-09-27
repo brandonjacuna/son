@@ -7,8 +7,8 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Before the first hire
 - Book: pp. 399 to 400 (a review system needs a talent strategy, rubrics, a way to assess against them, a program to capture feedback, calibration, and a link to compensation)
 - Default assumption: None
-- Depends on: 2.2.5, 2.2.6, 2.2.14, 2.3.9, 2.3.10, 2.3.11, 2.3.12, 3.1.5, 3.2.2, 3.3.10, 4.1.7, 4.1.11, 4.4.3, 4.6.17, 5.1.6, 5.2.8, 5.3.4
-- Done when: a short note lists what is fixed: who holds each lead's check-in and review (2.2.5), the transparency line (2.2.6), how development goals are set (2.2.14), the check-in and its intervals (2.3.9, 2.3.10), what the person page holds and that it carries no rating (2.3.11), the closed day and where reviews sit (2.3.12), what every hire is read on (3.1.5, 3.2.2), the ninety-day plan (3.3.10), no levels and ladders (4.1.7), who schedules, scores, and records an advancement assessment (4.1.11), the career conversation (4.4.3, 4.6.17), whether a hypothesis is written (5.1.6), whether a hard conversation leaves a record (5.2.8), and the upward destination for a concern about one's lead (5.3.4); and names the gaps this chunk fills: purpose, dimensions, a rating or not, what the review feeds, interval and clock, holder, sources, the person's half, peer input, the holder's part, no surprises as a mechanism, the upward half, calibration, potential, the block, the conversation, the record, first-review timing, holder load, the kitchen
+- Depends on: 2.2.5, 2.2.6, 2.2.14, 2.3.9, 2.3.10, 2.3.11, 2.3.12, 3.1.5, 3.2.2, 3.3.10, 4.1.7, 4.1.11, 5.2.8, 5.3.4
+- Done when: a short note lists what is fixed: who holds each lead's check-in and review (2.2.5), the transparency line (2.2.6), how development goals are set (2.2.14), the check-in and its intervals (2.3.9, 2.3.10), what the person page holds and that it carries no rating (2.3.11), the closed day and where reviews sit (2.3.12), what every hire is read on (3.1.5, 3.2.2), the ninety-day plan (3.3.10), no levels and ladders (4.1.7), who schedules, scores, and records an advancement assessment (4.1.11), the career conversation (4.4.3, 4.4.3), whether a hypothesis is written (5.1.6), whether a hard conversation leaves a record (5.2.8), and the upward destination for a concern about one's lead (5.3.4); and names the gaps this chunk fills: purpose, dimensions, a rating or not, what the review feeds, interval and clock, holder, sources, the person's half, peer input, the holder's part, no surprises as a mechanism, the upward half, calibration, potential, the block, the conversation, the record, first-review timing, holder load, the kitchen
 - Replaces old items: None
 
 ### 5.4.2 Decide what the review is for at Sŏn, in one sentence
@@ -44,7 +44,7 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Book: p. 399 (a mechanism to assign a designation and submit people for promotion, transparent rather than informal); p. 400 (a way for performance and promotion to feed compensation outcomes); p. 401 (never promise a specific reward before the process concludes); p. 418 (a compensation conversation can make a managing-out situation concrete)
 - Default assumption (WP pp. 11, 19): advancement runs on its own mechanism ("no one's advancement waits on a manager's attention or judgment"; a competency conversation with the appropriate lead when ready); pay runs on a point system weighted by days worked (WP p. 20). The white paper never connects the review to either. The old work's option: the review feeds nothing outside itself: no advancement input (4.1.11 has its own three seats), no pay input by any route, no file used to justify a separation (5.2.4 and 5.10 build their own record), because a review that decides pay is heard as the number first and cannot also contain no news
 - Depends on: 5.4.2, 5.4.4, 4.1.11, 5.2.4
-- Done when: for each of advancement, pay, and separation it is written whether the review is an input, and by what route if so; if pay is an input, 5.5.8 is told what the input is and 5.5.2 states it in the philosophy; if nothing, the mechanics page (5.5.32) and the review page (5.4.22) both say so in the same words; a counsel question is logged on whether a review record that is never a separation input changes what 5.2.4 must hold; agreed by both seated founders
+- Done when: for each of advancement, pay, and separation it is written whether the review is an input, and by what route if so; if pay is an input, 5.5.8 is told what the input is and 5.5.2 states it in the philosophy; if nothing, the mechanics page (5.5.33) and the review page (5.4.22) both say so in the same words; a counsel question is logged on whether a review record that is never a separation input changes what 5.2.4 must hold; agreed by both seated founders
 - Replaces old items: 17tn048qep9 (the refusal-list half), 17tn048qcjg (the feedback-never-pay half)
 
 ### 5.4.6 Decide the review's interval and whose clock it runs on
@@ -70,8 +70,8 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Hiring and training
 - Book: pp. 402 to 405 (peer input, a self-assessment, the manager's own assessment, and direct reports' feedback for a manager); p. 401 (the review documents conversations already had)
 - Default assumption (WP p. 19): "a formal review never contains new information"; (WP p. 11) every competency requirement is visible to anyone. The old work's option: the review opens on the person's own readable page since the last review and nothing else: every check-in line, the plan's close state at the first review, the career conversation's path and track, the progression state, the fluency record, the discretionary-range count and any escalation, the person's own captures, whether a non-negotiable entry exists, the state of any infrastructure item they raised, and the status of channel items they generated. Never a source: the readiness form's rows, any coaching record, check-in load counts, a recognition given or received, a diagnostic evidence line, a hiring scorecard or reference note, a calibration record, a peer's or mentor's account, a work-style label, a lead's note written anywhere, the anonymous pulse, any pay figure
-- Depends on: 5.4.3, 5.4.4, 2.3.11, 3.3.42, 4.2.7, 4.4.5, 4.8.9, 5.1.6, 5.2.8
-- Done when: two closed lists exist, sources and never-sources, each item naming the record it points to; it is stated that the lists are closed by design (the assembling system pulls from named records and has no free-text field) or that a holder may add a source and under what rule; the hand-written training record 3.3 keeps before the system can write one is placed on one list; the reference note from a lead's hiring packet (3.2.29) is confirmed off it; agreed by both seated founders
+- Depends on: 5.4.3, 5.4.4, 2.3.11, 3.3.42, 4.2.7, 4.4.5, 4.8.10, 5.1.6, 5.2.8
+- Done when: two closed lists exist, sources and never-sources, each item naming the record it points to; it is stated that the lists are closed by design (the assembling system pulls from named records and has no free-text field) or that a holder may add a source and under what rule; the hand-written training record 3.3 keeps before the system can write one is placed on one list; the reference note from a lead's hiring packet (3.2.28) is confirmed off it; agreed by both seated founders
 - Replaces old items: 17tn048qep7 (the sources half), 17tn048qcjg (the readable-lines half), 86akhb2vy (the readiness-form-never-input half), 86akh9tb5 (the two items touching review), 17tn048qc2c (the recognition-and-pulse-never-input half), 86akhpvnf (the diagnostic-never-input half)
 
 ### 5.4.9 Decide the person's own half: what they write, when, and on whose time
@@ -87,8 +87,8 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Type: Decision
 - Phase: Hiring and training
 - Book: pp. 403 to 404 (the person picks three to five peers, the manager agrees; prompts cover closeness of work, a strength tied to the ladder, one thing to improve, which principle they most embody)
-- Default assumption (WP p. 19): peer recognition runs in the moment through a platform and "lands differently than management praise"; the white paper gives peers no place in a review. The old work's option: no peer input to the review; positive peer feedback already has its full mechanism in recognition (4.8.9, 5.3.7), which is itself never a review input; a peer's written observation reaches the review only if the person chose to put it in their own captures
-- Depends on: 5.4.8, 4.8.9, 5.3.6, 5.3.7
+- Default assumption (WP p. 19): peer recognition runs in the moment through a platform and "lands differently than management praise"; the white paper gives peers no place in a review. The old work's option: no peer input to the review; positive peer feedback already has its full mechanism in recognition (4.8.10, 5.3.7), which is itself never a review input; a peer's written observation reaches the review only if the person chose to put it in their own captures
+- Depends on: 5.4.8, 4.8.10, 5.3.6, 5.3.7
 - Done when: the answer is written (the book's peer review, a lighter form such as one named peer's example per dimension, or none); if any, who chooses the peers, what is asked, whether the person sees it, and how 5.3.6's bounds on peer-to-peer feedback apply; agreed by both seated founders
 - Replaces old items: 17tn048qepb (the peer-review half)
 
@@ -114,9 +114,9 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Type: Decision
 - Phase: Hiring and training
 - Book: pp. 402 to 403 (if the person manages others, feedback from their reports joins the review); p. 406 (the conversation is "a great chance for me to receive open feedback")
-- Default assumption (WP p. 19): "Team members weigh in on management effectiveness, operational improvements, and culture, because the best ideas and the earliest warnings both come from the people doing the work." The old work's option: the upward half is the check-in's "what's in the way" question extended to three targets (the holder's own performance, the workplace's mechanisms as improvement items, and what the building supplies), asked as "what would you change," repeated back without being explained away, written only if the person wants it; an improvement item goes to the channel (4.8.10), a building item to the infrastructure line (3.3.28)
-- Depends on: 5.4.9, 5.3.4, 5.3.5, 4.8.10, 3.3.28
-- Done when: the questions are written; where each kind of answer goes is named by destination (the channel, the infrastructure line, the leads' review, nowhere unless the person asks); whether anything about the holder is written and who reads it; what a person does with a concern about the holder that cannot be said in the room (5.3.4's destination or one named here); and how the upward halves of a lead's own team reach the lead's review (rolled up by mechanism, never by name); agreed by both seated founders
+- Default assumption (WP p. 19): "Team members weigh in on management effectiveness, operational improvements, and culture, because the best ideas and the earliest warnings both come from the people doing the work." The old work's option: the upward half is the check-in's "what's in the way" question extended to three targets (the holder's own performance, the workplace's mechanisms as improvement items, and what the building supplies), asked as "what would you change," repeated back without being explained away, written only if the person wants it; an improvement item goes to the channel (4.8.11), a building item to the infrastructure line (3.3.28)
+- Depends on: 5.4.9, 5.3.4, 5.3.5, 4.8.11
+- Done when: the questions are written; where each kind of answer goes is named by destination (the channel, the infrastructure line, the leads' review, nowhere unless the person asks); whether anything about the holder is written and who reads it; what a person does with a concern about the holder that cannot be said in the room (5.3.4's destination or one named here); and how the upward halves of a lead's own team reach the lead's review (rolled up by mechanism, never by name); agreed by both seated founders; reads: the training-infrastructure line (3.3.28) receives the upward half's process items
 - Replaces old items: 17tn048qepb (the upward half)
 
 ### 5.4.14 Decide whether Sŏn runs calibration, and what carries its functions if not
@@ -124,8 +124,8 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Hiring and training
 - Book: pp. 407 to 413 (managers compare assessments across reports so the same level is rated the same; a roll-up by level, facilitated by a division leader, checking outliers, bias, and distribution; the leader holds the bar and does not let the room adjudicate their call)
 - Default assumption (WP pp. 11, 20): no levels ("the web never acquires altitude, only reach"); "no hierarchy of importance." The white paper never mentions calibration. The old work's option: no calibration as a committee, roll-up, outlier check, expected distribution, or budget check, since with no designations, no levels, one assembled form, and no pay link there is nothing to calibrate; its functions (fairness across people in the same seat, catching a lenient or harsh holder, a bias check) are carried by the single assembled form, the independent assessor pool (4.1.11), a periodic read of review records for consistency, the candor count per holder, and the pay parity read (5.5.25)
-- Depends on: 5.4.4, 5.4.7, 5.4.12, 3.2.41, 4.7.9
-- Done when: the answer is written (the book's roll-up; a lighter cross-holder read of a sample of review records at the reset; none, with each function's carrier named); if any read runs, who runs it (a founder, never someone outside the work, per p. 412), what it reads, what it may produce (a process act, never an act on a person), and how 4.7.9's equity checks attach to it; agreed by both seated founders
+- Depends on: 5.4.4, 5.4.7, 5.4.12, 3.2.39
+- Done when: the answer is written (the book's roll-up; a lighter cross-holder read of a sample of review records at the reset; none, with each function's carrier named); if any read runs, who runs it (a founder, never someone outside the work, per p. 412), what it reads, what it may produce (a process act, never an act on a person), and how 4.7.9's equity checks attach to it; agreed by both seated founders; reads: 4.7.9's equity checks read the calibration record if one exists
 - Replaces old items: 17tn048qepb (the calibration half)
 
 ### 5.4.15 Decide whether potential is assessed separately from performance, and by what
@@ -133,8 +133,8 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Hiring and training
 - Book: p. 405 (a separate, more comprehensive talent review for potential, since backward-looking performance is only one input); p. 402 (reviews help identify top talent once leaders cannot track everyone)
 - Default assumption (WP pp. 11, 14, 19): the ready-now pool "surfaces who is furthest along on the required track"; internal succession is the goal; advancement favors "the people who want it most." The white paper never assesses potential as a judgment; it reads it as documented, visible progress
-- Depends on: 5.4.4, 5.4.5, 4.1.11, 3.1.40
-- Done when: it is written whether Sŏn holds any read of potential apart from the progression record and the ready-now pool (none; a founders' read of the pool before a leadership seat opens, per 3.1.40; the book's talent review), who holds it, what it may read, and that it is never written to a person's page; agreed by both seated founders
+- Depends on: 5.4.4, 5.4.5, 4.1.11, 3.1.38
+- Done when: it is written whether Sŏn holds any read of potential apart from the progression record and the ready-now pool (none; a founders' read of the pool before a leadership seat opens, per 3.1.38; the book's talent review), who holds it, what it may read, and that it is never written to a person's page; agreed by both seated founders
 - Replaces old items: None
 
 ### 5.4.16 Decide the review block: where it sits, how long, in what language, and who is in the room
@@ -142,8 +142,8 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Hiring and training
 - Book: pp. 405 to 407 (about ten minutes on the feedback, about forty looking forward); p. 411 (a two-week delivery window)
 - Default assumption (WP p. 19): costs are not shifted to employees; (WP p. 17) interviews run in the candidate's language, which 4.8.2 extends to house documents. The old work's option: a paid, scheduled block of about half an hour to start, adjustable by the same holder discretion as a check-in, in a pre-service window with slack or on the closed hour, never mid-service, at close, or off the clock; movable for a short-staffed window, never cancelled; in the person's chosen language; no third person present, an interpreter excepted
-- Depends on: 5.4.7, 5.4.9, 2.3.10, 2.3.12, 4.8.4
-- Done when: placement, length (as a parameter), pay, language, and presence are stated; the rule for a review that cannot fit the holder's windows is stated (moved and reported as load, never dropped); the interpreter designation's rule (4.8.4) is confirmed to cover reviews; agreed by both seated founders
+- Depends on: 5.4.7, 5.4.9, 2.3.10, 2.3.12, 4.8.5
+- Done when: placement, length (as a parameter), pay, language, and presence are stated; the rule for a review that cannot fit the holder's windows is stated (moved and reported as load, never dropped); the interpreter designation's rule (4.8.5) is confirmed to cover reviews; agreed by both seated founders
 - Replaces old items: 17tn048qep7 (the block half)
 
 ### 5.4.17 Decide the conversation's form: what is shared ahead, the order, and the balance of past and forward
@@ -169,7 +169,7 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Hiring and training
 - Book: p. 403 (the formal cycle should only formalize feedback already exchanged; it is also the moment to revisit long-term development); pp. 294 to 296, cited in 4.4.3 (the career conversation comes after a few months and before any formal review)
 - Default assumption (WP pp. 18, 19): a ninety-day plan "with regular check-ins," then reviews every three to six months. The old work's option: the first review falls on the person's clock about six months after the first paid hour, roughly three months after the plan closes and about two months after the career conversation; it reads the plan's close state and the baseline captured then, the career conversation's path and track, and everything logged since; the readiness form itself is never reopened
-- Depends on: 5.4.6, 5.4.8, 3.3.10, 3.3.12, 4.4.3, 4.6.17
+- Depends on: 5.4.6, 5.4.8, 3.3.10, 3.3.12, 4.4.3
 - Done when: the sequence is drawn on one line (plan close, career conversation, first review) with each gap as a parameter; what the first review reads that later ones do not is listed; what happens when a plan was extended (3.3.12) is stated; a person adding a service period or changing domain (3.3.29) is placed on the line; agreed by both seated founders
 - Replaces old items: 86akhpvnf (the career-conversation-path half)
 
@@ -178,8 +178,8 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Hiring and training
 - Book: pp. 411 to 412 (the manager's job is to prepare and participate; the leader's is to hold the bar)
 - Default assumption (WP pp. 12, 13): bandwidth is measured, and "cooling failure" is a system problem, not a morale one. 2.3.10 already treats a check-in roster that outruns a lead's windows as a load reading, not something absorbed. The old work's option: reviews held, moved, and extended per period are counted alongside check-in counts on the leads' review, and addressed by staffing or scheduling, never by shortening, delegating, or skipping reviews
-- Depends on: 5.4.6, 5.4.16, 2.3.10, 4.1.36
-- Done when: the counts are named and their destination (the leads' review record, 2.3.19; the seat load reading, 4.1.37); the response to an overrun is stated (a scheduling change, a leadership line, per 4.1.36) and what is never the response; agreed by both seated founders
+- Depends on: 5.4.6, 5.4.16, 2.3.10
+- Done when: the counts are named and their destination (the leads' review record, 2.3.19; the seat load reading, 4.1.36); the response to an overrun is stated (a scheduling change, a leadership line, per 4.1.35) and what is never the response; agreed by both seated founders; reads: a holder's overload is a 4.1.35 case
 - Replaces old items: 17tn048qepw (the load-count half)
 
 ### 5.4.21 Chef partner sets the kitchen's review holder and placement
@@ -187,7 +187,7 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Phase: Before opening
 - Book: p. 402 (reviews are check-ins against the role's responsibilities); p. 412 (the leader who knows the people and the work runs the process)
 - Default assumption (WP pp. 10, 11): the chef partner owns culinary execution and the kitchen's domain owners are Station Leads; the white paper gives every seat, kitchen included, the same progression structure. The old work's expectation: every kitchen seat is reviewed on the same interval, in a paid block, on the same dimensions read the same way, with whatever 5.4.4 and 5.4.5 decided; who holds it and where it sits against the prep window are the chef partner's
-- Depends on: 5.4.7, 5.4.16, 2.1.10, 4.1.25
+- Depends on: 5.4.7, 5.4.16, 2.1.10, 4.1.24
 - Done when: the chef partner has named the kitchen's review holder by role, placed the block against the kitchen's own rhythm, and confirmed the interval, dimensions, and record are the house's; any divergence is written with its reason; owner: the chef partner, once seated
 - Replaces old items: None
 
@@ -197,46 +197,37 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Book: pp. 399 to 400 (people need to know how they will be measured, that it will be applied fairly, and how results connect to recognition)
 - Default assumption (WP pp. 11, 18, 19): the path and the criteria are visible before anyone starts; the candidate sheet withholds nothing
 - Depends on: 5.4.2 to 5.4.19, 4.8.2
-- Done when: one page on the team home states, in plain words and in every house language: what a review is for, when a person is reviewed and by whom, what it reads and what it never reads, what is written and who can see it, how the conversation runs, what the person may say about their lead and the building, what the review feeds and what it never becomes, and where to take a dispute about a record; it uses no rating word unless 5.4.4 kept one and describes no holder's personal style; 3.1.31 and 2.1.19 are told the page exists so the candidate-facing documents point to it
-- Replaces old items: 17tn048qepv, 17tn048qfnv (the page half)
+- Done when: one page on the team home states, in plain words and in every house language: what a review is for, when a person is reviewed and by whom, what it reads and what it never reads, what is written and who can see it, how the conversation runs, what the person may say about their lead and the building, what the review feeds and what it never becomes, and where to take a dispute about a record; it uses no rating word unless 5.4.4 kept one and describes no holder's personal style; 3.1.29 and 2.1.19 are told the page exists so the candidate-facing documents point to it
+- Replaces old items: 17tn048qepv, 17tn048qfnv (the page half), 17tn048qepg
 
-### 5.4.23 Build the review record and its assembly on the person page
+### 5.4.23 Build the review record on the person page and the review's placement trigger on the scheduling surface
 - Type: Deliverable
 - Phase: Hiring and training
 - Book: p. 411 (the output is recorded in the HR tool, then made visible to the employee)
 - Default assumption (WP p. 21): "heavily deterministic software over a thin layer of AI," with AI never load-bearing; (WP p. 21) Airtable is the hub for everything that is not CRM
-- Depends on: 5.4.8, 5.4.18, 2.3.11, 3.3.32
-- Done when: the record sits on the person page beside the check-in and plan records; the assembly pulls only from 5.4.8's source list and has no free-text field for the holder unless 5.4.11 allowed one; every entry carries the citation to the dated line it draws from; the record refuses a rating field and a pay field unless 5.4.4 or 5.4.5 kept one; visibility matches 5.4.18; a manual fallback (a printed assembly) exists for a review held with the stack off (4.1.26)
-- Replaces old items: 17tn048qeq2 (the build half), 17tn048qeu9 (the configuration half)
+- Depends on: 5.4.6, 5.4.8, 5.4.16, 5.4.18, 5.4.19, 2.3.11, 3.3.32
+- Done when: the record sits on the person page beside the check-in and plan records; the assembly pulls only from 5.4.8's source list and has no free-text field for the holder unless 5.4.11 allowed one; every entry carries the citation to the dated line it draws from; the record refuses a rating field and a pay field unless 5.4.4 or 5.4.5 kept one; visibility matches 5.4.18; a manual fallback (a printed assembly) exists for a review held with the stack off (4.1.25); the scheduling surface places each person's review on their clock (or on the season, if 5.4.6 chose one) in a window that meets 5.4.16, offers the holder a move but not a cancel, records held, moved, and extended, and reports the counts to the leads' review (5.4.20); the first cohort's reviews and the leads' reviews are on it before the first is due
+- Replaces old items: 17tn048qeq2 (the build half), 17tn048qeu9 (the configuration half), 17tn048qeq3, 17tn048qepw (the placement half)
 
-### 5.4.24 Build the review's placement trigger on the scheduling surface
-- Type: Deliverable
-- Phase: Hiring and training
-- Book: p. 411 (a delivery window after calibration)
-- Default assumption (WP p. 11): the advancement assessment "auto-schedules"; the same surface can place a review
-- Depends on: 5.4.6, 5.4.16, 5.4.19, 3.3.32
-- Done when: the surface places each person's review on their clock (or on the season, if 5.4.6 chose one) in a window that meets 5.4.16, offers the holder a move but not a cancel, records held, moved, and extended, and reports the counts to the leads' review (5.4.20); the first cohort's reviews and the leads' reviews are on it before the first is due
-- Replaces old items: 17tn048qeq3, 17tn048qepw (the placement half)
-
-### 5.4.25 Write the holder's guide to running a review, version one
+### 5.4.24 Write the holder's guide to running a review, version one
 - Type: Deliverable
 - Phase: Hiring and training
 - Book: pp. 405 to 407 (a manager's advice for delivering reviews); pp. 411 to 412 (the manager's role in the process)
 - Default assumption: None; the white paper describes the review's temperament, not its run
 - Depends on: 5.4.12, 5.4.17, 5.4.13, 5.4.11
-- Done when: the guide states the order from 5.4.17 as steps, the words for the closing question, what to do with an observation not on the record, how to respond to a dispute, how the upward half is asked and repeated back, what a holder may never say (a pay figure, a promise of a seat or a date, a verdict word), and how to close; it is written for a first-time holder and marked draft until the first reviews (5.4.28) have tested it
+- Done when: the guide states the order from 5.4.17 as steps, the words for the closing question, what to do with an observation not on the record, how to respond to a dispute, how the upward half is asked and repeated back, what a holder may never say (a pay figure, a promise of a seat or a date, a verdict word), and how to close; it is written for a first-time holder and marked draft until the first reviews (5.4.27) have tested it
 - Replaces old items: 17tn048qepw (the run half)
 
-### 5.4.26 Write the review module for everyone and for holders
+### 5.4.25 Write the review module for everyone and for holders
 - Type: Deliverable
 - Phase: Hiring and training
 - Book: p. 400 (trust in the system depends on people knowing how they are measured)
 - Default assumption (WP p. 19): training modules are authored and paid inside the learning platform; the general module is paid onboarding time. The old work's option: a short general version for every person before their first review and a fuller version for every holder before their first review held, and again before their first review as a lead of leads
-- Depends on: 5.4.22, 5.4.25, 3.3.18, 3.3.33
+- Depends on: 5.4.22, 5.4.24, 3.3.18, 3.3.33
 - Done when: two modules exist to the 3.3.33 standard, in every house language: what a review is, reads, writes, and never becomes (for everyone); and how to hold one (for holders), with the guide as its text; both refuse any example that describes a real person; completion is recorded on the platform; 5.5.35's pay module points to it rather than repeating it
 - Replaces old items: 17tn048qfnv (the module half), 17tn048qeq0 (the review half)
 
-### 5.4.27 Add the review entries to the decision-rights register
+### 5.4.26 Add the review entries to the decision-rights register
 - Type: Deliverable
 - Phase: Hiring and training
 - Book: p. 411 (who finalizes, who delivers, and when it becomes visible)
@@ -245,34 +236,34 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Done when: the register carries an entry (owner, range, triggers) for moving a review, extending it, adding a source, correcting a record entry, reading a review record other than one's own, and running any consistency read from 5.4.14; the kitchen entries wait on 5.4.21 and are marked incomplete rather than filled by analogy
 - Replaces old items: None
 
-### 5.4.28 Hold the first reviews: each partner with their lead
+### 5.4.27 Hold the first reviews: each partner with their lead
 - Type: Action
 - Phase: After opening
 - Book: pp. 405 to 407 (the conversation's shape); p. 401 (no surprises if the manager has managed well)
 - Default assumption (WP p. 19): the first reviews fall within three to six months of a person's start; for the two leads that may be before dinner opens, depending on their hire dates and 5.4.6
-- Depends on: 5.4.23, 5.4.24, 5.4.25, 5.4.26, 2.3.17, 4.4.14
+- Depends on: 5.4.23, 5.4.24, 5.4.25, 2.3.17, 4.4.14
 - Done when: each partner has held their lead's first review on the guide, the record is written and read back, the closing question was asked and its answer recorded, and a short note in `notes/` records what worked, where the guide failed, and what the person's half needed; the guide is revised from it before any lead holds a review
-- Repeatable: yes. Every lead, with each person on their team, on the interval; each partner with their lead. Kit: 5.4.29
+- Repeatable: yes. Every lead, with each person on their team, on the interval; each partner with their lead. Kit: 5.4.28
 - Replaces old items: None
 
-### 5.4.29 Build the formal review kit
+### 5.4.28 Build the formal review kit
 - Type: Deliverable
 - Phase: After opening
 - Book: pp. 468 to 471 (the review template); pp. 405 to 407 (the delivery advice)
 - Default assumption: None
-- Depends on: 5.4.28
-- Done when: `kits/formal-review/` holds an intake (the prompts for the person's own half, to be answered in the block or ahead if 5.4.9 allowed it), a guide (how a holder prepares from the person page, runs the order, asks the closing question, and routes anything not on a record), a template (the record's fields in the person's words and the assembled states), and, only if Brandon agrees, a redacted example; the kit holds process and structure, never anyone's answers; it is distinct from the house review kit (2.3.24) and the operating review kit (2.2.41)
+- Depends on: 5.4.27
+- Done when: `kits/formal-review/` holds an intake (the prompts for the person's own half, to be answered in the block or ahead if 5.4.9 allowed it), a guide (how a holder prepares from the person page, runs the order, asks the closing question, and routes anything not on a record), a template (the record's fields in the person's words and the assembled states), and, only if Brandon agrees, a redacted example; the kit holds process and structure, never anyone's answers; it is distinct from the house review kit (2.3.24) and the operating review kit (2.3.24)
 - Replaces old items: None
 
-### 5.4.30 Run the first read of reviews at the mechanism reset
+### 5.4.29 Run the first read of reviews at the mechanism reset
 - Type: Action
 - Phase: After opening
 - Book: pp. 408 to 409 (over time, calibration shifts from every person to gut-checking what a designation means)
 - Default assumption (WP p. 22): the loop gets closed; the leading indicators are read before the financials
-- Depends on: 5.4.14, 5.4.20, 5.4.28, 2.3.30, 2.3.34, 5.3.21
+- Depends on: 5.4.14, 5.4.20, 5.4.27, 2.3.30, 2.3.34, 5.3.21
 - Done when: at the first reset the founders have read the counts (reviews held, moved, extended; "something new" answers per holder), any consistency read 5.4.14 kept, whether the upward half produced channel items and whether they closed, and whether the interval held; 5.4.4 to 5.4.17 have been kept or changed, and any change is dated on the review page
 - Replaces old items: None
 
-Cross-chunk dependencies named: 1.1.4 (the style vocabulary never in a review); 2.1.5, 2.1.10, 2.1.19; 2.2.4, 2.2.5, 2.2.6, 2.2.14, 2.2.41; 2.3.9, 2.3.10, 2.3.11, 2.3.12, 2.3.14, 2.3.17, 2.3.19, 2.3.24, 2.3.30, 2.3.31, 2.3.34; 3.1.5, 3.1.31, 3.1.40; 3.2.2, 3.2.29, 3.2.41; 3.3.10, 3.3.12, 3.3.18, 3.3.28, 3.3.29, 3.3.32, 3.3.33, 3.3.42; 4.1.7, 4.1.11, 4.1.25, 4.1.26, 4.1.36, 4.1.37; 4.2.7; 4.4.2, 4.4.3, 4.4.5, 4.4.14; 4.6.17; 4.7.9; 4.8.2, 4.8.4, 4.8.9, 4.8.10; 5.1.6; 5.2.4, 5.2.7, 5.2.8; 5.3.4, 5.3.5, 5.3.6, 5.3.7, 5.3.21; 5.5 (5.5.2, 5.5.8, 5.5.25, 5.5.32, 5.5.35); 5.8 (an at-risk window is never a review state); 5.10 (a separation record is its own).
+Cross-chunk dependencies named: 1.1.4 (the style vocabulary never in a review); 2.1.5, 2.1.10, 2.1.19; 2.2.4, 2.2.5, 2.2.6, 2.2.14, 2.3.24; 2.3.9, 2.3.10, 2.3.11, 2.3.12, 2.3.14, 2.3.17, 2.3.19, 2.3.24, 2.3.30, 2.3.31, 2.3.34; 3.1.5, 3.1.29, 3.1.38; 3.2.2, 3.2.28, 3.2.39; 3.3.10, 3.3.12, 3.3.18, 3.3.28, 3.3.29, 3.3.32, 3.3.33, 3.3.42; 4.1.7, 4.1.11, 4.1.24, 4.1.25, 4.1.35, 4.1.36; 4.2.7; 4.4.2, 4.4.3, 4.4.5, 4.4.14; 4.4.3; 4.7.9; 4.8.2, 4.8.5, 4.8.10, 4.8.11; 5.1.6; 5.2.4, 5.2.7, 5.2.8; 5.3.4, 5.3.5, 5.3.6, 5.3.7, 5.3.21; 5.5 (5.5.2, 5.5.8, 5.5.25, 5.5.33, 5.5.35); 5.8 (an at-risk window is never a review state); 5.10 (a separation record is its own).
 
 Old items in this run's digest that belong to other chunks: 17tn048qg1q (a reduction in hours distinguished from a departure) to 5.10, as 5.1 already noted.

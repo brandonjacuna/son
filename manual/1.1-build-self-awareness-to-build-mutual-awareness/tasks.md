@@ -36,7 +36,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption: (WP pp. 10 to 11, 18) the house's own vocabulary for difference on the floor is the two strands, "different jobs requiring different types of intelligence," and hiring reads documented competencies, not instinct. The white paper is silent on personality vocabulary. The old work argued that the grid stays inside the founders' and leads' own documents, with one narrow use: a lead may refer to their own placement upward in a check-in; that is option (a) in `considerations.md` section 3
 - Depends on: 1.1.3
 - Done when: the founders have chosen from the options in `considerations.md` section 3 (founders and leads only, with the one upward use; founders and leads only, no exceptions; shared vocabulary for the whole team, taught at orientation; no typology at all); the rule states where the four names may and may not appear (a person's file, a schedule note, a review line, a floor conversation); 3.1 and 3.2 are told it is never used in hiring, 4.1 that it is never used in role or strand assignment, and 5.4 and 5.5 that it is never used in review or pay; agreed by both seated founders
-- Replaces old items: 86akht17t
+- Replaces old items: 86akht17t, 86akh7qq7
 
 ### 1.1.5 Decide who reads each founder's document, and what the leads receive
 - Type: Decision
@@ -114,19 +114,19 @@ Every decision, action, and deliverable this section of the book calls for, in t
 
 ### 1.1.13 The chef partner writes their working-with-me document
 - Type: Deliverable
-- Phase: Before the first hire (moves to hiring and training if 1.1.9 chooses the onboarding timing)
+- Phase: Before the first hire
 - Book: p. 51; pp. 39 to 40
 - Default assumption: (WP pp. 03, 10 to 11, 36) the chef partner owns the culinary vision as an equal founding partner and culinary execution during service is a designation distinct from culinary direction overall; the kitchen is strands, not levels. Facts about the seat the document can answer to; the white paper supplies no answer to any prompt
 - Depends on: 1.1.9, 1.1.11
-- Done when: the chef partner, once identified, has done the exercises and written their document on the same structure, in their words, written by no one else, at the time 1.1.9 sets; both founders have read it and the chef partner has read theirs; 1.1.10 is repeated three ways and its note updated; the chef partner's items join 1.1.12. Until a chef partner exists, the only thing prepared is the seat-specific preamble in the kit, written as questions to an unfilled seat; how the chef seat's authority is described is 2.1's question and is not settled here
+- Done when: the chef partner, once identified, has done the exercises and written their document on the same structure, in their words, written by no one else, at the time 1.1.9 sets; both founders have read it and the chef partner has read theirs; 1.1.10 is repeated three ways and its note updated; the chef partner's items join 1.1.12. Until a chef partner exists, the only thing prepared is the seat-specific preamble in the kit, written as questions to an unfilled seat; how the chef seat's authority is described is 2.1's question and is not settled here; if 1.1.9 chooses the onboarding timing, retag to hiring and training
 - Repeatable: yes. As 1.1.7. Kit: 1.1.11
-- Replaces old items: None (the S1 page's section 7.4 preamble, now a prompt in the kit)
+- Replaces old items: 86akh2qz7; also the S1 page's section 7.4 preamble, now a prompt in the kit
 
 ## Counts
 
 By type: Decision 6 (1.1.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.9); Action 2 (1.1.6, 1.1.10); Deliverable 5 (1.1.7, 1.1.8, 1.1.11, 1.1.12, 1.1.13). Total 13.
 
-By phase: Before the first hire 13 (1.1.13 conditional on 1.1.9); Hiring and training 0; Before opening 0; After opening 0.
+By phase: Before the first hire 13 (1.1.1 to 1.1.13); Hiring and training 0; Before opening 0; After opening 0.
 
 Repeatable deliverables and their kits: 1.1.7, 1.1.8, 1.1.13 (the working-with-me document; every founder, every lead, and any later hire the founders choose) paired with 1.1.11, the working-with-me kit.
 

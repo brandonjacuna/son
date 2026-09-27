@@ -148,3 +148,10 @@ Recorded in Brandon's words, with his reasoning. Status is open, decided, pendin
 - Reasoning (his words):
 - Date:
 - Still needs:
+
+## 4.5.14 Decide the "not currently available" state: what a person may declare, what it protects, and what never reads it
+- Status: open
+- Decision:
+- Reasoning (his words):
+- Date:
+- Still needs:

@@ -60,9 +60,9 @@ What the white paper holds, what the old work argued that is worth keeping, the 
 
 **Failed readiness row** (86akhb2x5). The hardest onboarding conversation. The earlier work's form: read the assessor's own words together, row by row; the lead adds nothing to the row; ask what happened before saying anything; the plan's next step follows on its own. The lead never says a sentence whose subject is the person and whose claim the plan record does not already hold.
 
-**Interviewer retraining** (86akh7r6z, 3.2.14). Delivered at the interviewer's own check-in as a fact from the record, framed first as a possible gap in the form, not the interviewer's judgment.
+**Interviewer retraining** (86akh7r6z, 3.2.13). Delivered at the interviewer's own check-in as a fact from the record, framed first as a possible gap in the form, not the interviewer's judgment.
 
-**A hiring decision that contradicts every earlier stage** (86akh7r6z). Never delivered to any person; a calibration matter between leads (3.2.10, 3.2.41).
+**A hiring decision that contradicts every earlier stage** (86akh7r6z). Never delivered to any person; a calibration matter between leads (3.2.9, 3.2.39).
 
 **A disagreement between two people** (17tn048qck1, 17tn048qc2b). Its work content is a joint item; its person content is each person's own check-in. 4.5.10 holds the unblocking path; there is no three-way conversation in this chunk.
 

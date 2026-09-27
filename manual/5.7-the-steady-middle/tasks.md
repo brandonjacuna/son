@@ -7,7 +7,7 @@ The book gives one page (p. 431) to the people who hold a seat well and do not m
 - Phase: Before the first hire
 - Book: p. 431 (medium performers are a real category, easy to neglect, often the culture carriers)
 - Default assumption (WP pp. 9, 11, 20): growth is outward; a longer-tenured person does not move toward the center; pay reads a point system weighted by days worked
-- Depends on: 4.1.7, 4.1.20, 2.2.14, 2.3.10, 4.8.9, 5.5
+- Depends on: 4.1.7, 4.1.19, 2.2.14, 2.3.10, 5.5
 - Done when: a short note lists what is already decided about ladders, the rotation floor, development goals, the check-in cadence, peer recognition, and pay, and names the gaps this chunk must fill (candidates: the word, the unlock that is never taken, tenure, recognition without a rating, seat rhythm, protections, the promotion-rate reading)
 - Replaces old items: None
 
@@ -25,8 +25,8 @@ The book gives one page (p. 431) to the people who hold a seat well and do not m
 - Phase: Before the first hire
 - Book: p. 431 (it should be acceptable to reach a terminal level; allow the stasis, provided the person contributes well)
 - Default assumption (WP p. 11): after a set period the next skill set unlocks automatically; it is self-paced. The white paper does not say whether an unlock expires or whether anyone asks about it
-- Depends on: 5.7.2, 2.2.14, 4.1.11, 4.4.3
-- Done when: it is written that the unlock stays open indefinitely or closes after a stated period; whether the house has a formal terminal designation (candidates: none, the person's stated choice recorded in their words at the career conversation, a marker on the seat row); who, if anyone, asks why a person has not taken the unlock, how often, and where the answer goes; and that a development goal (2.2.14) may be depth in the current level rather than the next one; agreed by both seated founders
+- Depends on: 5.7.2, 2.2.14, 4.1.11
+- Done when: it is written that the unlock stays open indefinitely or closes after a stated period; whether the house has a formal terminal designation (candidates: none, the person's stated choice recorded in their words at the career conversation, a marker on the seat row); who, if anyone, asks why a person has not taken the unlock, how often, and where the answer goes; and that a development goal (2.2.14) may be depth in the current level rather than the next one; agreed by both seated founders; reads: the career conversation (4.4.3), if held, is where the question would be asked
 - Replaces old items: 17tn048qfmw (the no-terminal-level half)
 
 ### 5.7.4 Decide whether tenure in a seat counts for anything beyond pay's days worked
@@ -34,8 +34,8 @@ The book gives one page (p. 431) to the people who hold a seat well and do not m
 - Phase: Hiring and training
 - Book: p. 431 (celebrate consistent performance; recognition looks less like compensation and more like verbal recognition and special assignments)
 - Default assumption (WP pp. 11, 20, 25): tenure adds threads, not altitude; pay is weighted by days worked; the customer's fifth visit depends on the same server having been there for the earlier ones, and a server's book of regulars is theirs. The white paper does not reconcile "tenure does not move you toward the center" with "the regular has their server"
-- Depends on: 5.7.2, 5.5, 2.2.19, 2.2.20
-- Done when: it is written whether tenure in a seat appears anywhere but the pay arithmetic (candidates: nowhere; on the seat row as a fact; in the customer recognition rate as the house's measure, never a person's); whether a server's book of regulars is named as what tenure earns; and that tenure never orders the pool, the schedule, or a designation; agreed by both seated founders, with 5.5 complete
+- Depends on: 5.7.2, 5.5
+- Done when: it is written whether tenure in a seat appears anywhere but the pay arithmetic (candidates: nowhere; on the seat row as a fact; in the customer recognition rate as the house's measure, never a person's); whether a server's book of regulars is named as what tenure earns; and that tenure never orders the pool, the schedule, or a designation; agreed by both seated founders, with 5.5 complete; reads: the charter metrics and the cultural labor score once defined
 - Replaces old items: 17tn048qfmw (the full-pay-weight half)
 
 ### 5.7.5 Decide how a person holding steady is recognized, and whether the mentor and assessor pools draw from them
@@ -43,7 +43,7 @@ The book gives one page (p. 431) to the people who hold a seat well and do not m
 - Phase: Hiring and training
 - Book: p. 431 (recognize contributions; verbal recognition and special assignments; seek their feedback on how to improve the team)
 - Default assumption (WP pp. 18, 19): a mentor is "a proven cultural steward rather than simply the strongest performer"; peer recognition "lands differently" because it comes from the people who understand the work; any qualified team member can author modules and is paid for it
-- Depends on: 5.7.2, 4.8.9, 3.3.13, 4.1.14, 4.1.20
+- Depends on: 5.7.2, 4.8.10, 3.3.13, 4.1.14, 4.1.19
 - Done when: it is written what a lead may do to recognize a person holding steady (candidates: say it at the check-in, say it in the brief under 4.5.13's slot, nothing a peer could not do); that peer recognition, the person's own record read back at the review, and the pay arithmetic carry the rest; whether a "special assignment" exists outside the rotation floor and, if so, how it is allocated; and whether the mentor and assessor pools name steadiness in a seat as a qualification; agreed by both seated founders
 - Replaces old items: 17tn048qfmw (the recognition half)
 
@@ -58,11 +58,11 @@ The book gives one page (p. 431) to the people who hold a seat well and do not m
 
 ### 5.7.7 Decide the protections a person holding steady has: schedule, load, and whose hours are reduced
 - Type: Decision
-- Phase: Before opening
+- Phase: Before the first hire
 - Book: p. 431 (medium performers are easy to neglect)
 - Default assumption (WP pp. 13, 17, 20): cooling failure; burnout is a system failure; pay is weighted by days worked, so hours are pay. The white paper is silent on how hours are allocated when there are not enough
-- Depends on: 5.7.2, 4.1.20, 2.2.23, 5.6.6, 5.10
-- Done when: it is written that a person holding steady gets the same check-in cadence, the same rotation access, and no worse a schedule than a person moving; the rule for whose hours are reduced when the schedule shrinks (candidates: stated preference first, then rotation by eligibility, with skill level as a scheduling fact only), published in advance, never a lead's read of a person and never a performance signal; and that a reduction is a scheduling change, not a departure, with the boundary 5.10 sets; agreed by both seated founders
+- Depends on: 5.7.2
+- Done when: it is written that a person holding steady gets the same check-in cadence, the same rotation access, and no worse a schedule than a person moving; the rule for whose hours are reduced when the schedule shrinks (candidates: stated preference first, then rotation by eligibility, with skill level as a scheduling fact only), published in advance, never a lead's read of a person and never a performance signal; and that a reduction is a scheduling change, not a departure, with the boundary 5.10 sets; agreed by both seated founders; reads: the load rule (5.6.6) and the reduction boundary (5.10.14) read this rule
 - Replaces old items: 17tn048qfmw (the protections half), 17tn048qg1q (the whose-hours rule; the departure boundary is 5.10's)
 
 ### 5.7.8 Decide how the internal promotion rate is read so it never becomes pressure to advance

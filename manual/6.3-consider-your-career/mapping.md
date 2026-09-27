@@ -12,10 +12,10 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 
 | Old ID | Old name (short) | Fate | Goes to | Reason |
 |---|---|---|---|---|
-| 17tn048qepq | Fill incomplete review and compensation decision-rights entries | Merged | 6.3.10, 2.2.5, 2.1.13, 5.5.7, 5.5.21, 5.5.25, 5.5.29 | The founders' own rows, including their place in or out of the pool, are written in 6.3.10 once 5.5.7 decides. The other rows already sit with the decisions that govern them: a lead's review holder (2.2.5), reserved classes (2.1.13), the parity read's tags (5.5.25), the benefits gate (5.5.21), and closed-day pay with counsel (5.5.29). Kitchen review entries wait on the chef seat (2.1.10) |
-| 17tn048qg1w | Fill incomplete leading-the-leads and separation decision-rights entries | Merged | 6.3.7, 6.3.10, 2.2.5, 2.3.14, 5.2.2, 5.10.6, 5.10.9, 5.10.14, 5.10.30 | A founder as a concern's subject and a founder's departure are written in 6.3.10; the counsel rows are 6.3.7. The rest sits with its decision: the check-in holder (2.2.5), the operations partner pairing (2.3.14), the serious-breach definition (5.2.2), a conduct record's lifetime (5.10.6), the paid hold (5.10.9), the reduction boundary (5.10.14), and the separation entries (5.10.30). The reserved-class interim rule is 2.1.13 |
+| 17tn048qepq | Fill incomplete review and compensation decision-rights entries | Merged | 6.3.10, 2.2.5, 2.1.13, 5.5.7, 5.5.21, 5.5.25, 5.5.30 | The founders' own rows, including their place in or out of the pool, are written in 6.3.10 once 5.5.7 decides. The other rows already sit with the decisions that govern them: a lead's review holder (2.2.5), reserved classes (2.1.13), the parity read's tags (5.5.25), the benefits gate (5.5.21), and closed-day pay with counsel (5.5.30). Kitchen review entries wait on the chef seat (2.1.10) |
+| 17tn048qg1w | Fill incomplete leading-the-leads and separation decision-rights entries | Merged | 6.3.7, 6.3.10, 2.2.5, 2.3.14, 5.2.2, 5.10.6, 5.10.9, 5.10.14, 5.10.28 | A founder as a concern's subject and a founder's departure are written in 6.3.10; the counsel rows are 6.3.7. The rest sits with its decision: the check-in holder (2.2.5), the operations partner pairing (2.3.14), the serious-breach definition (5.2.2), a conduct record's lifetime (5.10.6), the paid hold (5.10.9), the reduction boundary (5.10.14), and the separation entries (5.10.28). The reserved-class interim rule is 2.1.13 |
 | 17tn048qr3u | The structural definition of a founder's path and the career document's place | Rewritten | 6.3.2, 6.3.3, 6.3.4, 6.3.9 | One ratification held four decisions: whether a founder's path is defined structurally, as a sequence of hand-overs (6.3.2); whether each founder keeps the book's career document, and whether the house ever references it (6.3.3); whether the book's 6, 12, and 18-month questions run (6.3.4, where the old refusal is one option); and what the founders owe the team's path (6.3.9). Where each founder's path leads stays with each founder |
-| 17tn048qr3x | Rule the partners' place in the incentive pool, with counsel | Routes to 5.5 | 5.5.7, 5.5.29 | Whether the founders and the chef partner hold points in the pool is already 5.5.7, with the counsel question on the pool's character in 5.5.29. Nothing further needed in 5.5; the founders' row is written in 6.3.10 |
+| 17tn048qr3x | Rule the partners' place in the incentive pool, with counsel | Routes to 5.5 | 5.5.7, 5.5.30 | Whether the founders and the chef partner hold points in the pool is already 5.5.7, with the counsel question on the pool's character in 5.5.30. Nothing further needed in 5.5; the founders' row is written in 6.3.10 |
 | 17tn048qr3z | The closing read of the six founder principles, the metronome, and the working-with-me additions | Merged | 6.3.14, 6.1.12 | The closing read against the book's close is 6.3.14. The working-with-me additions are 6.1.12. The principles' marks are dropped as machinery; the vocabulary ruling (dropping "manager") is 1.3.2; the metronome is 1.4.3 |
 | 17tn048qr41 | Fill incomplete founder decision-rights entries | Merged | 6.3.7, 6.3.10 | The counsel questions (the old numbers 26 to 31) are 6.3.7; the register rows are 6.3.10. The digest flags it as extending 17tn048qepq and 17tn048qg1w by reference; it is kept as its own row here because it holds the founder-specific rows those two do not. The three seat assignments are placed in 6.1's mapping under 17tn048qr3k; the internal voice is 2.1.20; the chef seat's entries wait on 2.1.10; commitments outside the house carry no entry, by design, per 6.1.9 |
 
@@ -24,8 +24,8 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 | Old ID | Old name (short) | Fate | Goes to | Reason |
 |---|---|---|---|---|
 | 17tn048qg2h | Founders' own performance and departure, a founder as flag subject, the absorber, check-in defaults | Merged | 6.3.5, 6.3.6, 6.3.8, 6.2.9 | The founders' own review is 6.3.5; what absorbs a founder's failure is 6.3.6; a founder's departure is 6.3.8; a concern about a founder is 6.2.9. The check-in defaults are 2.2.5 and 2.3.14. The recorded answers are now options |
-| 17tn048qfp3 | Founders' own performance; second reader in a lead's flag read; impression never a trigger | Merged | 6.3.5, 6.2.8, 6.1.16, 5.1.3, 3.2.9 | "No founder review in any form" is one option in 6.3.5. A founder's impression never being a source, and a lead's impression of a founder likewise, is decided in 5.1.3 and 3.2.9, carried into 6.2.8 and collected in 6.1.16. The second reader is 5.8.3 |
-| 17tn048qepd | Founders' own pay and review, the pool's place, first explainers of pay, first leads' review holders | Merged | 6.3.5, 5.5.7, 5.5.35, 5.4.28 | The review half is 6.3.5. The pool is 5.5.7; the first explainer of pay mechanics is 5.5.35; the first leads' review holders are 5.4.28. A founder's own pay is the operating agreement's and is not recorded here |
+| 17tn048qfp3 | Founders' own performance; second reader in a lead's flag read; impression never a trigger | Merged | 6.3.5, 6.2.8, 6.1.16, 5.1.3, 3.2.8 | "No founder review in any form" is one option in 6.3.5. A founder's impression never being a source, and a lead's impression of a founder likewise, is decided in 5.1.3 and 3.2.8, carried into 6.2.8 and collected in 6.1.16. The second reader is 5.8.3 |
+| 17tn048qepd | Founders' own pay and review, the pool's place, first explainers of pay, first leads' review holders | Merged | 6.3.5, 5.5.7, 5.5.35, 5.4.27 | The review half is 6.3.5. The pool is 5.5.7; the first explainer of pay mechanics is 5.5.35; the first leads' review holders are 5.4.27. A founder's own pay is the operating agreement's and is not recorded here |
 
 ### Received from 2.1
 
@@ -48,7 +48,7 @@ The S16 page covers 6.1, 6.2, and 6.3 together. The other sections are listed in
 
 | S16 section | Where it went |
 |---|---|
-| 7.1. The team's path, held | Already held upstream: internal succession (3.1.40), the handover dates (4.4.18), and what the house offers a person with no seat open (5.6.8); 6.3.9 reads them for what the founders owe |
+| 7.1. The team's path, held | Already held upstream: internal succession (3.1.38), the handover dates (4.4.18), and what the house offers a person with no seat open (5.6.8); 6.3.9 reads them for what the founders owe |
 | 7.2. A founder's path in a house built to run without them | 6.3.2; considerations section 2 |
 | 7.3. Her career document against the working-with-me document | 6.3.3 (the decision), 6.3.11 (each founder's own, if kept), and the kit 6.3.12; considerations section 3 |
 | 7.4. What the founders owe the team's path | 6.3.9; considerations section 8 |
@@ -63,7 +63,7 @@ The S16 page covers 6.1, 6.2, and 6.3 together. The other sections are listed in
 | 11. What her chapter proposes that Sŏn refuses or absorbs (career rows) | Considerations section 11. The refusals (no review of the founders, no stepping-back rhythm) are now options in 6.3.5 and 6.3.4 |
 | 12.6 to 12.8. Decision rights: a founder's departure, the pool, incomplete entries | 6.3.8, 5.5.7, and the register rows in 6.3.10 |
 | 15.1. The house runs without its founders, and the company cannot | Considerations section 7; 6.3.8 and 6.3.6 |
-| 16. Counsel's questions added by this session (26 to 31) | 6.3.7; the pool question (28) is also on 5.5.29 |
+| 16. Counsel's questions added by this session (26 to 31) | 6.3.7; the pool question (28) is also on 5.5.30 |
 
 ## 3. What was dropped and why
 

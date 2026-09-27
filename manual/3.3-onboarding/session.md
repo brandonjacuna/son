@@ -6,7 +6,7 @@ One chunk, one session (this one may take two sittings; the agenda marks a natur
 
 **What this chunk covers.** Everything between a signed offer and a person holding their seat alone: the first content they receive, what arrives before their first shift, the training sequence, the readiness read, the ninety-day plan and its check-ins, the mentor, how a person comes to hold their decision-rights range, the training modules and the platform, tasted knowledge of the menu, a lead's first months, and how a change of lead or a move between domains is handled. It also decides how onboarding is measured.
 
-**What is already decided upstream.** 2.3.9 to 2.3.11 fix the check-in, its intervals, and the person page; this chunk fills the plan into them. 3.1.31 gives every candidate a sheet with the training plan and pay dates at the first interview, so the training sequence and the plan's shape have to exist before the first hire. 3.2.24 fixed the interviewer training sequence (module, live session, observed, paired, solo) that the operational sequence reuses. 3.2.34 holds the hiring calendar as gates; the two leads arrive weeks before the dinner gate. 3.2.37 separated the practical's assessor from its teacher and its decider; the readiness read inherits that separation. 4.1.11 and 4.1.14 decide who runs an assessment and put assessor and mentor pools on the seat inventory. 1.1 owns the working-with-me document and its kit (1.1.7, 1.1.11); this chunk only decides when a later lead writes one and whether hourly staff read theirs. 2.1.17 is the founding document the why session is told from. The white paper commits Sŏn to a mentor for every hire, a ninety-day plan, onboarding that begins before the first shift, why before how, uniforms and lockers ready, and "no one touches a table until they are actually ready" (WP pp. 18 to 20).
+**What is already decided upstream.** 2.3.9 to 2.3.11 fix the check-in, its intervals, and the person page; this chunk fills the plan into them. 3.1.29 gives every candidate a sheet with the training plan and pay dates at the first interview, so the training sequence and the plan's shape have to exist before the first hire. 3.2.23 fixed the interviewer training sequence (module, live session, observed, paired, solo) that the operational sequence reuses. 3.2.32 holds the hiring calendar as gates; the two leads arrive weeks before the dinner gate. 3.2.35 separated the practical's assessor from its teacher and its decider; the readiness read inherits that separation. 4.1.11 and 4.1.14 decide who runs an assessment and put assessor and mentor pools on the seat inventory. 1.1 owns the working-with-me document and its kit (1.1.7, 1.1.11); this chunk only decides when a later lead writes one and whether hourly staff read theirs. 2.1.17 is the founding document the why session is told from. The white paper commits Sŏn to a mentor for every hire, a ninety-day plan, onboarding that begins before the first shift, why before how, uniforms and lockers ready, and "no one touches a table until they are actually ready" (WP pp. 18 to 20).
 
 **Who else must agree.** Dominic on anything that sets headcount or calendar (the cohort's waves, 3.3.15; a coach, 3.3.23) and on tool capabilities (3.3.32). The chef partner on tasted knowledge and the kitchen's training content (3.3.21, 3.3.48), and on the kitchen half of the cohort's mentoring. Each lead, once hired, confirms the paired count and readiness rows for their seats.
 
@@ -133,11 +133,11 @@ Second sitting: the parts.
 
 **The question:** if 2.1.17 is not finished when the cohort's start dates arrive, do the dates move or does the cohort hear an unfinished why?
 
-**Why it matters now:** this is a calendar rule, and 3.2.34 needs it now. It is also the first test of whether "why before how" is a rule or a preference.
+**Why it matters now:** this is a calendar rule, and 3.2.32 needs it now. It is also the first test of whether "why before how" is a rule or a preference.
 
 **Openers:**
 - It is six weeks before the dinner gate. The principles are at version 0.8 and the mission has two candidate sentences. The first cohort starts Monday. What happens?
-- Sideways: the earlier work made the same trade for compensation (3.2.18: the architecture before the leads' interviews). Did that deadline hold? What did holding it cost?
+- Sideways: the earlier work made the same trade for compensation (3.2.17: the architecture before the leads' interviews). Did that deadline hold? What did holding it cost?
 - The two leads arrive early partly to help finish the founding work. Are they onboarded on a draft, and is that fine because they are writing it?
 
 **Narrowing questions:**
@@ -231,7 +231,7 @@ Second sitting: the parts.
 - A runner and a server. Same number of paired services? A line cook?
 
 **Narrowing questions:**
-- The five steps (modules, walkthrough, observed, paired, solo) as 3.2.24 has them; the book's looser weeks-one-and-two; or the five steps with one fixed count (cons. 5)?
+- The five steps (modules, walkthrough, observed, paired, solo) as 3.2.23 has them; the book's looser weeks-one-and-two; or the five steps with one fixed count (cons. 5)?
 - Who sets the count per seat: the domain lead, with a written reason on the seat's plan (3.3.36)? Who may change it?
 - How does the schedule carry two bodies in one seat for paired services, and who pays attention when it cannot?
 
@@ -257,7 +257,7 @@ Second sitting: the parts.
 
 **Openers:**
 - A server's readiness read. Who is standing there with the form, and did that person teach them? Say why it matters or does not.
-- Sideways: 3.2.37 already decided the practical's assessor neither teaches it nor decides the hire. Is the readiness read the same principle, or is a new hire different from a candidate?
+- Sideways: 3.2.35 already decided the practical's assessor neither teaches it nor decides the hire. Is the readiness read the same principle, or is a new hire different from a candidate?
 - Someone gets "not yet" twice on the same rows. What is the first question, about them or about the module?
 
 **Narrowing questions:**
@@ -435,7 +435,7 @@ Second sitting: the parts.
 
 **The question:** the white paper promises every new person a proven mentor. On the day the first cohort starts, no one at Sŏn has proven anything in this building. How is the promise met the first time?
 
-**Why it matters now:** it sets the number of start-date clusters, the number of training services, and the leads' load in the weeks before opening. 3.2.34 cannot close without it.
+**Why it matters now:** it sets the number of start-date clusters, the number of training services, and the leads' load in the weeks before opening. 3.2.32 cannot close without it.
 
 **Openers:**
 - Draw the six weeks before the dinner gate as a calendar. Put the two leads on it, then the cohort. Now put a mentor beside every new person. Who is left?
@@ -458,7 +458,7 @@ Second sitting: the parts.
 
 **Watch for:** a wave plan whose second wave starts too close to the gate for paired services; leads mentoring six people each while writing their domain's modules.
 
-**A finished answer:** a mechanism, its headcount and calendar consequences written into 3.2.34, and the definition of "proven" for the first mentors.
+**A finished answer:** a mechanism, its headcount and calendar consequences written into 3.2.32, and the definition of "proven" for the first mentors.
 
 **Needs agreement from:** Dominic (headcount and calendar); the chef partner (kitchen).
 
@@ -497,7 +497,7 @@ Second sitting: the parts.
 
 **The question:** how does a person come to hold their range in speech and in use, not just on a page?
 
-**Why it matters now:** 3.1.38 already treats an unprompted statement of the range as a readiness requirement; the first checkpoint is the offer conversation, which 3.2.32 writes.
+**Why it matters now:** 3.1.36 already treats an unprompted statement of the range as a readiness requirement; the first checkpoint is the offer conversation, which 3.2.30 writes.
 
 **Openers:**
 - A server, week seven, a table's fish came out wrong. Say what they do without looking for a manager. Now say how they learned they were allowed to.
@@ -860,7 +860,7 @@ Second sitting: the parts.
 
 **The question:** when a dinner server adds the early morning, or a cook moves to the floor, what do they go through?
 
-**Why it matters now:** the second service period opens after dinner is steady (2.2.38), and the first period plans are needed before it.
+**Why it matters now:** the second service period opens after dinner is steady (2.2.36), and the first period plans are needed before it.
 
 **Openers:**
 - A dinner server, eight months in, wants mornings. Modules, a walkthrough, an observed morning, paired mornings, a read, then solo? Or less?

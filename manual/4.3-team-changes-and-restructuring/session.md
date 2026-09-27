@@ -4,7 +4,7 @@
 
 **What this chunk covers.** What happens after a diagnosis: what is allowed to trigger a change to the structure, in what order fixes are made, how fast a change moves and who hears it when, what is held still during dinner's first quarter, whether the structure ever bends for one person, and how a departure is read and refilled. The book's section (pp. 286 to 294) is about reorganizations: two legitimate triggers, a misused third, three cautions, and a three-phase process. Sŏn has no org chart in the book's sense (WP p. 09), so most of this chunk is about translating "reorg" into the events Sŏn actually has: a period chartered, a line added, a person leaving.
 
-**Already decided upstream.** How a structure change is made and reaches people, and the change entry (4.1.12, 4.1.34); when the structure is reexamined (4.1.33); how a lead's load is relieved and when a line is added (4.1.36); designations and the rotation floor (4.1.20); the internal-succession rule (3.1.40); the internal loop (3.2.44); the shorter plan for a domain change and a change of lead (3.3.29, 3.3.30); what the team is told when a hire is reversed (3.4.3); the channels (2.2.11); what the team hears before and after a decision (1.2.2); the reset (2.3.30). From 4.2 if decided: the read order and the coupling to change (4.2.2, 4.2.11).
+**Already decided upstream.** How a structure change is made and reaches people, and the change entry (4.1.12, 4.1.33); when the structure is reexamined (4.1.32); how a lead's load is relieved and when a line is added (4.1.35); designations and the rotation floor (4.1.19); the internal-succession rule (3.1.38); the internal loop (3.2.42); the shorter plan for a domain change and a change of lead (3.3.29, 3.3.30); what the team is told when a hire is reversed (3.4.3); the channels (2.2.11); what the team hears before and after a decision (1.2.2); the reset (2.3.30). From 4.2 if decided: the read order and the coupling to change (4.2.2, 4.2.11).
 
 **Who else must agree.** Dominic on every founder-level rule. The chef partner on the kitchen's part of the departure read and change plan. Counsel on what is said about a departure and what is recorded (4.3.14).
 
@@ -28,7 +28,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **The question:** what events are allowed to change the shape of the house, and which events that feel like they should are not?
 
-**Why it matters now:** candidates will be told the structure will change and when (4.1.33); leads need to know what they may propose. The book's warning is that a struggling team invites a reorg that hides the real problem; the white paper's whole argument is that the two leads stay separate.
+**Why it matters now:** candidates will be told the structure will change and when (4.1.32); leads need to know what they may propose. The book's warning is that a struggling team invites a reorg that hides the real problem; the white paper's whole argument is that the two leads stay separate.
 
 **Openers:**
 - Month five. The floor is fine, the kitchen is a mess, and the chef partner is stretched. Someone says: put the Operations Lead over the kitchen's ordering for a while. Is that a structure change? Is it allowed?
@@ -36,10 +36,10 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 - Name an event you can imagine that would make you want to merge the two leads into one. Now say why the white paper says never.
 
 **Narrowing questions:**
-- Triggers in Sŏn's terms: a period chartered or closed, a line under 4.1.36, a lead's departure, a repeat finding that resolves to structure. Which stay?
+- Triggers in Sŏn's terms: a period chartered or closed, a line under 4.1.35, a lead's departure, a repeat finding that resolves to structure. Which stay?
 - Non-triggers: a domain's underperformance before its mode is read; one person's departure short of a lead; a retention threat. Which stay?
 - Merge two domains under one lead: never, or under a stated emergency?
-- Split a domain outside 4.1.36: ever?
+- Split a domain outside 4.1.35: ever?
 
 **What the book says:** two legitimate triggers, structure no longer matching strategy and a talent change; a misused third, underperformance; reorgs are not a catchall; restructuring can signal growth (pp. 288 to 290).
 
@@ -47,7 +47,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **How others have handled it:** General practice, not Sŏn-specific. Restaurants adding a period usually stretch dinner's leads across it; the white paper's own case says that is the error, so the trigger here is the charter, not the opening.
 
-**Options:** (a) Sŏn's triggers only, no merges, no splits outside 4.1.36; (b) the book's triggers, read by the founders at each reset; (c) (a) plus a stated emergency trigger with a named caller. Depth: cons. 2.
+**Options:** (a) Sŏn's triggers only, no merges, no splits outside 4.1.35; (b) the book's triggers, read by the founders at each reset; (c) (a) plus a stated emergency trigger with a named caller. Depth: cons. 2.
 
 **Watch for:** an "emergency" trigger wide enough to be the third trigger in disguise; a trigger list that forgets the kitchen; treating a lead's departure as a rethink of the domain rather than a refill.
 
@@ -184,7 +184,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **The question:** when a change moves a person, is that a placement or a hire?
 
-**Why it matters now:** 3.2.44 built the internal loop and 3.3.29 the shorter plan; a change that simply reassigns people bypasses both, and a change that runs a loop for every move may take a month.
+**Why it matters now:** 3.2.42 built the internal loop and 3.3.29 the shorter plan; a change that simply reassigns people bypasses both, and a change that runs a loop for every move may take a month.
 
 **Openers:**
 - Beverage becomes its own line and two floor servers who have been pouring go with it. Do they interview for it?
@@ -279,7 +279,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **The question:** when one of the two leads leaves, what happens beyond the ordinary departure read?
 
-**Why it matters now:** with two leads, one leaving is half the management layer; 3.1.40 says the pool is read first and an outside hire needs a note; the interim has to be named before it happens.
+**Why it matters now:** with two leads, one leaving is half the management layer; 3.1.38 says the pool is read first and an outside hire needs a note; the interim has to be named before it happens.
 
 **Openers:**
 - The Maitre d gives a month's notice in month seven. Who holds the floor's check-ins next month? Who holds them in month nine if no one internal is ready?
@@ -295,7 +295,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **What the book says:** a leader leaving ripples into strategy and cross-team relationships; run the phases in full (pp. 288 to 294).
 
-**White-paper default:** internal succession is the goal (WP p. 19); the pool-first check and the outside-hire note (3.1.40); a principal's departure is the operating agreement's (2.1.1).
+**White-paper default:** internal succession is the goal (WP p. 19); the pool-first check and the outside-hire note (3.1.38); a principal's departure is the operating agreement's (2.1.1).
 
 **How others have handled it:** General practice, not Sŏn-specific. A paid notice period with a written handoff is standard for managers; the interim holder is usually named the same day the departure is known.
 
@@ -350,7 +350,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **Narrowing questions:**
 - For a domain: seat count (a charter problem); the row; the lead's own load; then hiring quality?
-- For a period: charter and interface test first (4.1.2, 2.2.36)?
+- For a period: charter and interface test first (4.1.2, 2.2.34)?
 - Repeated departures read as cooling failure first, never as the lead's character?
 
 **What the book says:** underperformance is often misalignment with strategy, or a talent problem a reorg masks; address the real cause (pp. 289 to 290).
@@ -371,7 +371,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **The question:** when the same person holds the room, the door, or the sequence every night for a quarter, what does that mean, and what does it never mean?
 
-**Why it matters now:** 4.1.20 set the rotation floor; this is the read that catches the floor being quietly ignored, and the temptation to make the pattern a seat.
+**Why it matters now:** 4.1.19 set the rotation floor; this is the read that catches the floor being quietly ignored, and the temptation to make the pattern a seat.
 
 **Openers:**
 - The same server has held the sequence every Friday and Saturday since opening. Why, in three possible answers?
@@ -387,7 +387,7 @@ Items 1, 2, and 4 are the core; if the session is short, do those and draft the 
 
 **White-paper default:** designations mark accountability in the moment and are not permanent elevations (WP p. 10, stated outright).
 
-**How others have handled it:** General practice, not Sŏn-specific. Nothing useful beyond the rotation practices already in 4.1.20.
+**How others have handled it:** General practice, not Sŏn-specific. Nothing useful beyond the rotation practices already in 4.1.19.
 
 **Options:** (a) the three branches at the reset; (b) weekly surfacing, answered at the leads' review; (c) no read. Depth: cons. 9.
 

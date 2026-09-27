@@ -14,18 +14,18 @@
 
 ## 2. Agenda
 
-1. The founders in the process: 3.1.2 (jobs list), 3.1.3 (founders' stage), 3.1.4 (hiring manager), 3.1.15 (founders as trained interviewers), 3.1.16 (the language promise).
+1. The founders in the process: 3.1.2 (jobs list), 3.1.3 (founders' stage), 3.1.4 (hiring manager). Founders' interviewer training and the language promise moved to 3.2 (3.2.12, 3.2.14) in the cross-chunk pass.
 2. What every hire is read on: 3.1.5 (the reads), 3.1.6 (the profile), 3.1.7 (the conduct statement).
-3. The two leads and the chef partner: 3.1.20 (which lines, what order), 3.1.21 (chef partner search), 3.1.22 (search firm), 3.1.26 (final-round meal), 3.1.24 (leader profile).
-4. What a candidate is handed: 3.1.27 (careers page), 3.1.28 (posting standard), 3.1.29 (org chart and direct lead), 3.1.30 (compensation before 5.5), 3.1.31 (the seat opening set).
+3. The two leads and the chef partner: 3.1.18 (which lines, what order), 3.1.19 (chef partner search), 3.1.20 (search firm), 3.1.24 (final-round meal), 3.1.22 (leader profile).
+4. What a candidate is handed: 3.1.25 (careers page), 3.1.26 (posting standard), 3.1.27 (org chart and direct lead), 3.1.28 (compensation before 5.5), 3.1.29 (the seat opening set).
 
 Break.
 
-5. Classes and screening: 3.1.8 (seat classes), 3.1.9 (between application and first interview), 3.1.10 (format rule), 3.1.36 and 3.1.38 (the practical's interim form and the supervision rule).
+5. Classes and screening: 3.1.8 (seat classes), 3.1.9 (between application and first interview), 3.1.10 (format rule), 3.1.34 and 3.1.36 (the practical's interim form and the supervision rule).
 6. Answering candidates: 3.1.11 (response commitments), 3.1.12 (the pool), 3.1.13 (referrals), 3.1.14 (recruiting seat).
-7. The build and the search: 3.1.17 (where Sŏn looks), 3.1.18 (what the build may show).
-8. Later: 3.1.40 (succession rule), and a first look at 3.1.41 (what replaces the founders' read), which is decided after opening.
-9. Close: 3.1.33 (mutual commitments) and the deliverables now unlocked.
+7. The build and the search: 3.1.15 (where Sŏn looks), 3.1.16 (what the build may show).
+8. Later: 3.1.38 (succession rule). What replaces the founders' read is 3.2.40's since the cross-chunk pass.
+9. Close: 3.1.31 (mutual commitments) and the deliverables now unlocked.
 
 ## 3. Briefs
 
@@ -33,7 +33,7 @@ Break.
 
 **The question:** what have you actually been doing, and which of it only you can do?
 
-**Why it matters now:** the book's point is that founders cannot see how many jobs they hold (p. 182). The sorted list is the honest input to which leadership lines open first (3.1.20) and what each lead inherits on day one.
+**Why it matters now:** the book's point is that founders cannot see how many jobs they hold (p. 182). The sorted list is the honest input to which leadership lines open first (3.1.18) and what each lead inherits on day one.
 
 **Openers:**
 - Walk back through the last three weeks, day by day. Name the jobs, not the tasks: "vendor negotiation," "content edit," "site walk," "the hiring conversation you had at the bar."
@@ -50,7 +50,7 @@ Break.
 
 **The question:** in every hire made before opening, what does a founder do, can it overturn the hiring manager, and what event ends it?
 
-**Why it matters now:** the leads are the first hires and the founders are their hiring managers regardless. The question bites on the first frontline cohort: whether every line cook and server meets a founder, and what that meeting decides. It shapes the decision-rights entries (3.1.34), the mutual commitments (3.1.33), and the after-opening question of what replaces it (3.1.41).
+**Why it matters now:** the leads are the first hires and the founders are their hiring managers regardless. The question bites on the first frontline cohort: whether every line cook and server meets a founder, and what that meeting decides. It shapes the decision-rights entries (3.1.32), the mutual commitments (3.1.31), and the after-opening question of what replaces it (3.2.40).
 
 **Openers:**
 - A lead you hired brings you a server candidate they want. You meet her for twenty minutes and something is off you cannot name. What happens next, and who decides?
@@ -77,6 +77,8 @@ Break.
 
 **Needs agreement from:** Dominic.
 
+Also covers what "Decide the founders' place in every hiring loop before opening, and when it ends" asked (from 3.2).
+
 ### 3.1.4 Decide who is the hiring manager for each seat, before and after the leads exist
 
 **The question:** who owns the hire decision for each seat, who owns it for the two leads themselves, and who owns frontline hires if any open before their lead is seated?
@@ -99,7 +101,7 @@ Break.
 
 **How others have handled it:** General practice, not Sŏn-specific. Most restaurant groups make the department head the hiring manager and the general manager the approver; Sŏn has no general manager to approve, which is the point of this decision.
 
-**Options:** (a) domain lead per domain, founders for the leads, no frontline seat opens before its lead. Commits Sŏn to the hiring order in 3.1.20. (b) The Maitre d for all floor seats, the Chef Partner for the kitchen, the Operations Lead for none. Commits the Maitre d to reading inward-facing work. (c) Both founders for the first cohort with a handover date. Commits the leads to inheriting a team they did not choose. Depth: cons. 1.
+**Options:** (a) domain lead per domain, founders for the leads, no frontline seat opens before its lead. Commits Sŏn to the hiring order in 3.1.18. (b) The Maitre d for all floor seats, the Chef Partner for the kitchen, the Operations Lead for none. Commits the Maitre d to reading inward-facing work. (c) Both founders for the first cohort with a handover date. Commits the leads to inheriting a team they did not choose. Depth: cons. 1.
 
 **Watch for:** "we decide together" with no name on it; a lead who is hiring manager on paper and overruled in practice.
 
@@ -111,7 +113,7 @@ Break.
 
 **The question:** what are the few things every interview at Sŏn scores, defined so two interviewers score them the same, and what is off the table?
 
-**Why it matters now:** this list is the parent of the profile (3.1.6), the conduct statement (3.1.7), every posting (3.1.28), every rubric 3.2 builds, and the founders' own training (3.1.15). "Culture fit" here becomes bias downstream.
+**Why it matters now:** this list is the parent of the profile (3.1.6), the conduct statement (3.1.7), every posting (3.1.26), every rubric 3.2 builds, and the founders' own training (3.2.12). "Culture fit" here becomes bias downstream.
 
 **Openers:**
 - Think of the best person you ever worked a floor with and the best you ever worked a line with. Name what they had in common in one word each. Now name what only one of them had.
@@ -143,7 +145,7 @@ Break.
 
 **The question:** with no employees yet, what is the best hypothesis of who thrives here, strand by strand?
 
-**Why it matters now:** the book says study who fits and mine what they share (p. 178); Sŏn has to start from a guess and revise it at 3.1.42. Writing the guess down is what makes it revisable.
+**Why it matters now:** the book says study who fits and mine what they share (p. 178); Sŏn has to start from a guess and revise it at 3.1.39. Writing the guess down is what makes it revisable.
 
 **Openers:**
 - Describe the person who would be excellent on the inward-facing strand and mediocre on the outward one. Now the reverse. Both get hired here (WP p. 11).
@@ -151,13 +153,13 @@ Break.
 
 **What to produce:** one page per strand, labelled hypothesis. Nothing about any named person.
 
-**Needs agreement from:** none to write; 3.1.42 revises it.
+**Needs agreement from:** none to write; 3.1.39 revises it.
 
 ### 3.1.7 Decide the hiring conduct statement: what a hire is never selected on, and what pipeline data may change
 
 **The question:** what does Sŏn say, in writing, about what it will not select on, what it records about a candidate, and what a pattern in the pipeline is allowed to change?
 
-**Why it matters now:** it is needed before the first seat is posted publicly; it shapes the applicant system's fields (3.1.35), the report (3.1.39), and what the careers page says (3.1.27). 4.7 holds the larger inclusion question; this is the hiring conduct only.
+**Why it matters now:** it is needed before the first seat is posted publicly; it shapes the applicant system's fields (3.1.33), the report (3.1.37), and what the careers page says (3.1.25). 4.7 holds the larger inclusion question; this is the hiring conduct only.
 
 **Openers:**
 - Six months in, the report shows one source supplies most of the floor's applicants and the phone screen declines one language group at twice the rate. What do you do, and what do you refuse to do?
@@ -184,7 +186,7 @@ Break.
 
 **Needs agreement from:** Dominic.
 
-### 3.1.8 Decide how seats are classed for hiring, and which stages each class includes
+### 3.1.8 Decide how seats are classed for hiring
 
 **The question:** which few classes of seat determine a candidate's path, and what stages does each path contain?
 
@@ -196,7 +198,7 @@ Break.
 - Which seat sits in two classes at once?
 
 **Narrowing questions:**
-- Are the classes high-volume, physical-skill, and leadership or salaried, with the chef partner handled separately in 3.1.21?
+- Are the classes high-volume, physical-skill, and leadership or salaried, with the chef partner handled separately in 3.1.19?
 - Which stages does each carry, in order? Does every class have at least two independent scorecards before a decision?
 - Do kitchen seats get a class now, marked "pipeline waits for the chef partner and a menu," or wait entirely?
 - Is the class stored on the seat inventory row (4.1.15)?
@@ -207,7 +209,7 @@ Break.
 
 **How others have handled it:** General practice, not Sŏn-specific. Restaurant groups commonly run a phone screen, an interview, and a trail for hourly seats, and add a meal or a tasting for management and chef seats; the difference at Sŏn is that the trail is paid and scored.
 
-**Options:** (a) three classes plus the chef partner, a seat may hold more than one, stages listed per class, no class decides on one scorecard. Commits Sŏn to the practical's form (3.1.36) before any physical-skill seat is hired. (b) Two classes, hourly and salaried. Commits Sŏn to a practical for every hourly seat including the phone-screen ones, or none. (c) A path per seat. Commits Sŏn to more design than it can maintain. Depth: cons. 1, 7.
+**Options:** (a) three classes plus the chef partner, a seat may hold more than one, stages listed per class, no class decides on one scorecard. Commits Sŏn to the practical's form (3.1.34) before any physical-skill seat is hired. (b) Two classes, hourly and salaried. Commits Sŏn to a practical for every hourly seat including the phone-screen ones, or none. (c) A path per seat. Commits Sŏn to more design than it can maintain. Depth: cons. 1, 7.
 
 **Watch for:** a class that is really a rank; the salaried test from 4.1.9 being redone here; the one-scorecard rule dropped for speed.
 
@@ -277,7 +279,7 @@ Break.
 
 **The question:** how fast is an application acknowledged, a stage followed by the next, and a decision delivered, who owns each window, and what happens when one is missed?
 
-**Why it matters now:** "speed is respect" and "no one is ghosted" (WP p. 18) are promises to people who need work. Without windows and an owner they are sentiments. 3.1.35 turns the windows into timers.
+**Why it matters now:** "speed is respect" and "no one is ghosted" (WP p. 18) are promises to people who need work. Without windows and an owner they are sentiments. 3.1.33 turns the windows into timers.
 
 **Openers:**
 - You applied somewhere once and heard nothing. How long before you stopped checking? That is the outer edge of the window.
@@ -287,7 +289,7 @@ Break.
 **Narrowing questions:**
 - Windows in days for: acknowledgement, stage to stage, decision after the last stage, the no.
 - Published on the what-to-expect page, or internal?
-- Who is alerted on a miss, and does a miss appear on the leads' review (2.2.33)?
+- Who is alerted on a miss, and does a miss appear on the leads' review (2.3.19)?
 - Is the no always a person, or may it be a system message for early stages?
 
 **What the book says:** recruiting commits to prompt follow-up and a transparent process (pp. 175 to 178).
@@ -308,7 +310,7 @@ Break.
 
 **The question:** which no's are a "not now," what is the candidate told, how long does the record live, and does a pool candidate for a critical seat repeat the scored stages?
 
-**Why it matters now:** WP p. 18 says a candidate treated well at the no returns to the pool next year. A pool that exists only as a sentiment is a list nobody opens. The applicant system needs the state (3.1.35), and the succession rule (3.1.40) reads the internal ready-now pool before any outside search; this is the external one.
+**Why it matters now:** WP p. 18 says a candidate treated well at the no returns to the pool next year. A pool that exists only as a sentiment is a list nobody opens. The applicant system needs the state (3.1.33), and the succession rule (3.1.38) reads the internal ready-now pool before any outside search; this is the external one.
 
 **Openers:**
 - A strong server you declined because the seat filled first applies again in eight months. What does she skip, and what does she repeat?
@@ -392,66 +394,7 @@ Break.
 
 **Needs agreement from:** Dominic.
 
-### 3.1.15 Decide how the founders become trained interviewers before the learning platform exists
-
-**The question:** what does a founder complete before running any interview stage, where is that recorded, and who checks it?
-
-**Why it matters now:** WP p. 18 promises trained interviewers; the first interviews are the founders' and the platform that would train them is built by the team they have not hired. The first leads inherit the same gap.
-
-**Openers:**
-- Name the last interview you ran that you would be embarrassed to have recorded. What would training have changed?
-- Sideways: the book's Stripe recruiters were themselves interviewed on a rubric for structured thinking (pp. 229 to 245). Would you pass your own first stage?
-- Who scores your practice interview: Dominic, an adviser, someone who has hired for these seats?
-
-**Narrowing questions:**
-- Minimum content: the reads (3.1.5), the stage's questions, the rubric, a practice interview scored by the other founder?
-- Where the interim record lives (the team home, 2.2.15?) and whether the first leads complete the same before they interview.
-- Does the same record carry the other founder-load modules the earlier work named (the check-in role until the Operations Lead is seated)?
-
-**What the book says:** know the role and the interview, follow the routine (pp. 175 to 178); founders model a rigorous interview (p. 171).
-
-**White-paper default:** interviewers are trained because reading an answer is a learned skill (WP p. 18); the platform is the team's (WP p. 19).
-
-**How others have handled it:** General practice, not Sŏn-specific. Interviewer certification with shadowed and reverse-shadowed interviews before solo interviewing is standard at companies that run structured hiring.
-
-**Options:** (a) a short written module and a scored practice interview, recorded on an interim page, checked by the other founder, required of the first leads too. Commits both founders to doing it before the first candidate. (b) An outside adviser trains and signs off both founders. Commits Sŏn to finding one in time. (c) Founders interview untrained and the leads are trained on the platform later. Commits Sŏn to breaking WP p. 18 on its first hires. Depth: cons. 1.
-
-**Watch for:** training that is a document read once; a record nobody can find later.
-
-**A finished answer:** the module list, the record's home, the checker, and the rule that the leads complete it before interviewing.
-
-**Needs agreement from:** Dominic.
-
-### 3.1.16 Decide how the interview-language promise is kept before anyone at Sŏn speaks the candidate's language
-
-**The question:** which languages does Sŏn offer at launch, and how does a stage run in a language no trained interviewer speaks?
-
-**Why it matters now:** WP p. 17 promises the candidate's language with someone who speaks it. Kitchens in this city run in more than one language. The posting has to say what is offered, and onboarding (3.3) has to deliver in the same languages.
-
-**Openers:**
-- A strong Chef on prep candidate wants the interview in Spanish. Neither founder is fluent. What happens tomorrow?
-- Sideways: which is worse, offering a language you cannot deliver a check-in in, or not offering it and losing the candidate?
-
-**Narrowing questions:**
-- Languages at launch: which, and matched to what onboarding can deliver?
-- A trained interpreter, a bilingual interviewer hired early, or the posting saying the language is not yet offered?
-- Do the founders' and first leads' own languages decide the list?
-
-**What the book says:** open the aperture without disappointing candidates (p. 174).
-
-**White-paper default:** stated outright (WP p. 17).
-
-**How others have handled it:** General practice, not Sŏn-specific. Bilingual kitchen leads commonly interview in the candidate's language; interpreters are used for the rest, and both need the rubric in that language.
-
-**Options:** (a) offer what a trained bilingual interviewer can run; hire that interviewer early for the kitchen. Commits Sŏn to sequencing that hire. (b) A paid interpreter for any language, rubric translated. Commits Sŏn to interpreters who understand the reads. (c) English only at launch, stated in the posting. Commits Sŏn to a smaller kitchen pool and a promise deferred. Depth: cons. 1.
-
-**Watch for:** a language offered in hiring and absent in onboarding; an interpreter who scores.
-
-**A finished answer:** the language list, the mechanism for each, and the match to 3.3.
-
-**Needs agreement from:** the chef partner for kitchen languages, once seated.
-
-### 3.1.17 Decide where Sŏn looks for its first hires
+### 3.1.15 Decide where Sŏn looks for its first hires
 
 **The question:** which channels carry the first cohort, what is each expected to bring, and which is watched for dominating a pool?
 
@@ -465,7 +408,7 @@ Break.
 **Narrowing questions:**
 - Channels: the build's audience, each founder's network, referrals, postings, industry peers, events, a training day for creators (WP p. 31)?
 - Which channel for the leads, which for the cohort?
-- Which channel goes on the report (3.1.39) as the one to watch?
+- Which channel goes on the report (3.1.37) as the one to watch?
 
 **What the book says:** networks first, then a talent brand built from values-expressive work; post where the audience lives; host events (pp. 171 to 174).
 
@@ -473,7 +416,7 @@ Break.
 
 **How others have handled it:** General practice, not Sŏn-specific. Stripe's contest is the book's case; restaurants that document their openings publicly commonly report that applicants arrive already knowing the concept, which is a benefit and a filter.
 
-**Options:** (a) the build first. Commits Sŏn to 3.1.18 before any search is shown. (b) Postings and peers first, the build kept to the seat and reasoning. Commits Sŏn to slower reach. (c) Networks for the leads, build and postings for the cohort. Commits founders to watching source share. Depth: cons. 2.
+**Options:** (a) the build first. Commits Sŏn to 3.1.16 before any search is shown. (b) Postings and peers first, the build kept to the seat and reasoning. Commits Sŏn to slower reach. (c) Networks for the leads, build and postings for the cohort. Commits founders to watching source share. Depth: cons. 2.
 
 **Watch for:** the build's audience treated as a pool when it is a community; a channel list with no owner.
 
@@ -481,7 +424,7 @@ Break.
 
 **Needs agreement from:** Dominic.
 
-### 3.1.18 Decide what the documented build may show of a hiring search, and when a candidate may consent
+### 3.1.16 Decide what the documented build may show of a hiring search, and when a candidate may consent
 
 **The question:** what of a search is content, what is never shown without consent, when may consent be asked, and what is never done?
 
@@ -508,11 +451,11 @@ Break.
 
 **Watch for:** "they were fine with it"; a candidate's silhouette or voice that is identifiable; the chef search treated as an exception because it is the story.
 
-**A finished answer:** the four lists written, the timing of consent stated, and the rule handed to 3.1.19.
+**A finished answer:** the four lists written, the timing of consent stated, and the rule handed to 3.1.17.
 
 **Needs agreement from:** Dominic; whoever owns the content framework.
 
-### 3.1.20 Decide which leadership seats are hired from outside before opening, and in what order
+### 3.1.18 Decide which leadership seats are hired from outside before opening, and in what order
 
 **The question:** which leadership lines open from outside before dinner opens, in what order, with which hiring manager, and which wait?
 
@@ -542,7 +485,7 @@ Break.
 
 **Needs agreement from:** Dominic; the chef partner for kitchen lines.
 
-### 3.1.21 Decide how the chef partner is found: a partnership search or a hiring pipeline
+### 3.1.19 Decide how the chef partner is found: a partnership search or a hiring pipeline
 
 **The question:** is the chef partner search a partnership negotiation run by the founders, or a leadership hire run through the pipeline, and who runs it?
 
@@ -556,7 +499,7 @@ Break.
 **Narrowing questions:**
 - Partnership search (due diligence, 2.1.11 as questions, the operating agreement as the instrument) or hire (the pipeline, 2.1.11 as a rubric, the cooking as a practical), or a hire with a path to partnership?
 - Who runs it: both founders together?
-- What of it does the build show, under 3.1.18?
+- What of it does the build show, under 3.1.16?
 - Written down: kitchen seat design waits for the seat and a menu.
 
 **What the book says:** settle what kind of leader you need before meeting candidates; build the rubric from people who have done the role (pp. 183 to 189); leadership hiring can be customized but must match the rigor (p. 168).
@@ -567,13 +510,13 @@ Break.
 
 **Options:** (a) partnership search. Commits Sŏn to a search outside the applicant system, the founders' side only on camera, and the operating agreement carrying the result. (b) Leadership hire. Commits Sŏn to rewriting WP p. 03's framing and parts of 2.1. (c) Hire with a path to partnership. Commits Sŏn to a two-step instrument and a chef without the lunch vote (WP p. 36) at first. Depth: cons. 8.
 
-**Watch for:** a "partnership" run like an interview loop, or a "hire" whose criteria nobody is willing to score; the search announced before 3.1.18 is set.
+**Watch for:** a "partnership" run like an interview loop, or a "hire" whose criteria nobody is willing to score; the search announced before 3.1.16 is set.
 
 **A finished answer:** the path named, its runner, its instrument, what the build shows, and the kitchen-waits rule written.
 
 **Needs agreement from:** Dominic. Pending agreement from the chef partner is not applicable; they are the outcome.
 
-### 3.1.22 Decide whether a search firm is used for the two leads
+### 3.1.20 Decide whether a search firm is used for the two leads
 
 **The question:** does a firm carry either lead search, or do the founders and their channels?
 
@@ -585,7 +528,7 @@ Break.
 
 **Narrowing questions:**
 - No firm; a firm for the Operations Lead only; a firm for both?
-- If none, which channels from 3.1.17 and who works them?
+- If none, which channels from 3.1.15 and who works them?
 - Cost is not weighed here; financials are not a source.
 
 **What the book says:** firms help for classic senior functions, need heavy investment to represent you, networks and advisers often outperform them (pp. 190 to 191).
@@ -602,11 +545,11 @@ Break.
 
 **Needs agreement from:** Dominic.
 
-### 3.1.24 Write the leader profile for each outside leadership seat
+### 3.1.22 Write the leader profile for each outside leadership seat
 
 **The question:** for each lead, what is the work in year one, what does great look like against the reads, how is each read assessed, and what backgrounds are likely to fit?
 
-**Why it matters now:** the book's rule is never to calibrate on live candidates (p. 184). The profile is written from 3.1.23's conversations before the first candidate is met, and 3.2 scores against it.
+**Why it matters now:** the book's rule is never to calibrate on live candidates (p. 184). The profile is written from 3.1.21's conversations before the first candidate is met, and 3.2 scores against it.
 
 **Openers:**
 - Describe the Maitre d's worst week in month four. What did they have to be good at?
@@ -619,7 +562,7 @@ Break.
 
 **Needs agreement from:** Dominic on each profile.
 
-### 3.1.26 Decide the final-round meal for leadership hires made before the room exists
+### 3.1.24 Decide the final-round meal for leadership hires made before the room exists
 
 **The question:** where does a lead's final round happen before dinner opens, what does it read, who attends, who pays, and is it filmed (no)?
 
@@ -648,7 +591,7 @@ Break.
 
 **Needs agreement from:** Dominic.
 
-### 3.1.27 Decide what the careers page holds and where it lives
+### 3.1.25 Decide what the careers page holds and where it lives
 
 **The question:** does Sŏn have a careers page at launch, where, holding what, kept by whom?
 
@@ -678,7 +621,7 @@ Break.
 
 **Needs agreement from:** whoever owns the site.
 
-### 3.1.28 Decide the posting standard every seat opening follows
+### 3.1.26 Decide the posting standard every seat opening follows
 
 **The question:** what does every posting carry, what does it never carry, and who checks it before it goes out?
 
@@ -707,7 +650,7 @@ Break.
 
 **Needs agreement from:** the hiring managers; the chef partner for kitchen postings.
 
-### 3.1.29 Decide what the candidate sheet shows for the org chart and the direct lead
+### 3.1.27 Decide what the candidate sheet shows for the org chart and the direct lead
 
 **The question:** on the sheet WP p. 18 promises, is "the org chart" a conventional chart or the candidate's node and its neighbours in the web, and who is "the direct lead"?
 
@@ -718,7 +661,7 @@ Break.
 - Sideways: what did the org chart at the last room you worked tell a new server that was untrue?
 
 **Narrowing questions:**
-- A hand-drawn web rendering until 4.1.19 exists, or a chart?
+- A hand-drawn web rendering until 4.1.18 exists, or a chart?
 - "Direct lead" means the domain lead who signs off competencies and holds the check-in (2.3.9), one per seat (4.1.3): agreed?
 - Does the sheet also name the peer mentor (3.3), or is that after the offer?
 
@@ -736,7 +679,7 @@ Break.
 
 **Needs agreement from:** Dominic; 4.1's owner of the rendering.
 
-### 3.1.30 Decide what the candidate sheet says about compensation before 5.5 is complete
+### 3.1.28 Decide what the candidate sheet says about compensation before 5.5 is complete
 
 **The question:** what is a lead candidate handed at the first interview about compensation while the percentage built into menu price is still being finalized, and after what date does no first interview run without the full sheet?
 
@@ -765,7 +708,7 @@ Break.
 
 **Needs agreement from:** Dominic, who owns the model.
 
-### 3.1.31 Write the seat opening set, version one
+### 3.1.29 Write the seat opening set, version one
 
 **The question:** for the first seat opened, what exactly does the candidate receive: the posting, the what-to-expect page, and the sheet?
 
@@ -780,7 +723,7 @@ Break.
 
 **Needs agreement from:** the hiring manager for the seat; Dominic on the compensation section.
 
-### 3.1.33 Write the mutual commitments document
+### 3.1.31 Write the mutual commitments document
 
 **The question:** what does the house guarantee anyone who takes part in a hire, and what do they owe back?
 
@@ -794,7 +737,7 @@ Break.
 
 **Needs agreement from:** each lead confirms it, the way 2.3.32 has them confirm the structures they own.
 
-### 3.1.36 Decide the interim form of the paid practical
+### 3.1.34 Decide the interim form of the paid practical
 
 **The question:** before counsel answers, how is a candidate on a practical paid, on what rate basis, on or off the roster, with what paperwork first?
 
@@ -819,11 +762,11 @@ Break.
 
 **Watch for:** a practical that becomes free labor by running long; a "paid" practical paid late.
 
-**A finished answer:** the form, the rate basis in words, roster status, paperwork, the never-shifts, and the rule that 3.1.37 confirms or replaces it.
+**A finished answer:** the form, the rate basis in words, roster status, paperwork, the never-shifts, and the rule that 3.1.35 confirms or replaces it.
 
 **Needs agreement from:** Dominic; the chef partner for kitchen practicals.
 
-### 3.1.38 Decide the supervision rule for anyone not yet signed off
+### 3.1.36 Decide the supervision rule for anyone not yet signed off
 
 **The question:** one rule for both a candidate on a practical and a new hire before readiness: what may they hold alone?
 
@@ -836,7 +779,7 @@ Break.
 **Narrowing questions:**
 - A practical candidate is never alone on a table, section, or station and never the shift's coverage: yes?
 - A new hire has someone nearby until the readiness check in 3.3: same rule, same words?
-- Who is the "someone," and is that time scheduled as work (3.1.33)?
+- Who is the "someone," and is that time scheduled as work (3.1.31)?
 
 **What the book says:** the funnel ends at onboarding, not acceptance (p. 169).
 
@@ -852,7 +795,7 @@ Break.
 
 **Needs agreement from:** the hiring managers; the chef partner for stations.
 
-### 3.1.40 Decide the internal-succession rule
+### 3.1.38 Decide the internal-succession rule
 
 **The question:** from what event does the promise to fill leadership from within apply, is the ready-now pool read before any outside search, is any ratio adopted, and what must accompany an outside leadership hire?
 
@@ -882,61 +825,32 @@ Break.
 
 **Needs agreement from:** Dominic; the chef partner for kitchen leadership.
 
-### 3.1.41 Decide what replaces the founders' read on frontline hires once it retires
-
-**The question:** when the founders' stage ends for frontline seats, does an outside-domain read with a defined vote replace it, does nothing, or does the stage stay?
-
-**Why it matters now:** decided after opening, at the first mechanism reset (2.3.34), against the report from 3.1.39. Today's job is to know it is coming and to set what data it will need.
-
-**Openers (for the first look now):**
-- If you learned in month four that the floor's hires were all the same shape, what would you want to have been recording since month one?
-- Sideways: Amazon's bar raiser exists because a hiring manager under pressure to fill a seat lowers the bar without meaning to. Who at Sŏn feels that pressure most?
-
-**Narrowing questions (for the reset):**
-- Add an outside-domain read (a trained interviewer from another domain, defined vote); end the stage with nothing; keep it?
-- What did the report show about declines by stage and source?
-- Update the decision-rights entry in 3.1.34.
-
-**What the book says:** build the no into process over time (p. 171); disagreement specific and tied to a capability (pp. 176 to 177).
-
-**White-paper default:** none beyond the stage's end set in 3.1.3.
-
-**How others have handled it:** General practice, not Sŏn-specific. The bar raiser model is the well-known form; smaller companies often use a second hiring manager from another team.
-
-**Options:** as the narrowing questions. Depth: cons. 1.
-
-**Watch for:** deciding this now without data; keeping the founders' stage by default because nobody raised it.
-
-**A finished answer (now):** the data 3.1.39 must hold for this, and the reset date it is on. **(At the reset):** the choice and the updated entry.
-
-**Needs agreement from:** Dominic.
-
 ## 4. Deliverables that follow
 
-- 3.1.6 The profile of who does well at Sŏn, version one. Not repeatable; revised at 3.1.42.
-- 3.1.19 The candidate rule in the content approval framework. Not repeatable.
-- 3.1.24 The leader profile per outside leadership seat. Repeatable: whoever opens a future leadership line. Kit 3.1.25.
-- 3.1.31 The seat opening set (posting, what-to-expect page, candidate sheet) for the first seat. Repeatable: every domain lead, for every seat they open. Kit 3.1.32.
-- 3.1.33 The mutual commitments document. Not repeatable; each lead confirms it.
-- 3.1.34 The recruiting decision-rights entries, in the 2.2.8 form. Repeatable through 2.2.8's kit, not a new one.
-- 3.1.39 The pipeline source and stage report. Not repeatable.
+- 3.1.6 The profile of who does well at Sŏn, version one. Not repeatable; revised at 3.1.39.
+- 3.1.17 The candidate rule in the content approval framework. Not repeatable.
+- 3.1.22 The leader profile per outside leadership seat. Repeatable: whoever opens a future leadership line. Kit 3.1.23.
+- 3.1.29 The seat opening set (posting, what-to-expect page, candidate sheet) for the first seat. Repeatable: every domain lead, for every seat they open. Kit 3.1.30.
+- 3.1.31 The mutual commitments document. Not repeatable; each lead confirms it.
+- 3.1.32 The recruiting decision-rights entries, in the 2.2.8 form. Repeatable through 2.2.8's kit, not a new one.
+- 3.1.37 The pipeline source and stage report. Not repeatable.
 
 Drafts of any of these can be started from what Brandon says in the session, marked draft for his review.
 
 ## 5. Kits this session seeds
 
-- `kits/leadership-search/` (3.1.25): intake (the three questions from p. 184 and the jobs list from 3.1.2), guide (the comparable-role conversations and building the profile), template (the leader profile). Capture during 3.1.2, 3.1.23, and 3.1.24: which prompts produced a real jobs list, which conversations sharpened "great looks like," which questions the role-holders said they would ask.
-- `kits/seat-opening/` (3.1.32): intake (what a lead gathers from the seat inventory, the decision-rights register, and 3.3), guide (the posting check, the response windows, the pool rule, the language list), templates (posting, what-to-expect page, candidate sheet). Capture during 3.1.28 and 3.1.31: which fields filled themselves from the inventory and which needed a conversation, and the order that made the sheet readable.
+- `kits/leadership-search/` (3.1.23): intake (the three questions from p. 184 and the jobs list from 3.1.2), guide (the comparable-role conversations and building the profile), template (the leader profile). Capture during 3.1.2, 3.1.21, and 3.1.22: which prompts produced a real jobs list, which conversations sharpened "great looks like," which questions the role-holders said they would ask.
+- `kits/seat-opening/` (3.1.30): intake (what a lead gathers from the seat inventory, the decision-rights register, and 3.3), guide (the posting check, the response windows, the pool rule, the language list), templates (posting, what-to-expect page, candidate sheet). Capture during 3.1.26 and 3.1.29: which fields filled themselves from the inventory and which needed a conversation, and the order that made the sheet readable.
 
 Kits hold process and structure only. No seat's answers, no candidate, no person.
 
 ## 6. Parking lot
 
 - 3.2: the content of each stage per class; the per-stage rubric from the reads; scorecards and the decision packet; the one-scorecard safeguard's runner (old item 86akh9teh); interviewer training once the platform exists; the interview anchors; the practical's design and the shifts it may not run on; the offer conversation.
-- 3.3: the training plan and pay dates the sheet carries; the peer mentor's timing; the readiness check that 3.1.38's rule ends at; onboarding languages matched to 3.1.16.
-- 4.1: the seat inventory's structure fields (old item 86akhcz45 lives at 4.1.14); the web rendering for the sheet (4.1.19); cross-period fluency on the record (4.1.10).
+- 3.3: the training plan and pay dates the sheet carries; the peer mentor's timing; the readiness check that 3.1.36's rule ends at; onboarding languages matched to 3.2.14.
+- 4.1: the seat inventory's structure fields (old item 86akhcz45 lives at 4.1.14); the web rendering for the sheet (4.1.18); cross-period fluency on the record (4.1.10).
 - 4.3 or 5.10: a departing lead's hand-back block and a founder's structured handoff (old item 17tn048qg2d). Not recruiting; a departure.
 - 4.7: whether Sŏn states any aspiration on its team's composition beyond the conduct statement in 3.1.7.
 - 5.5: the compensation mechanics the sheet carries; whether a referral bonus, if any, has a place in the design.
 - 1.1: the temperament typology, if it lives anywhere, lives in a lead's own working-with-me document as a self-awareness tool, never in hiring.
-- 2.1: if 3.1.21 lands on "partnership," the operating agreement carries the instrument; if "hire," parts of the founding documents are reopened.
+- 2.1: if 3.1.19 lands on "partnership," the operating agreement carries the instrument; if "hire," parts of the founding documents are reopened.

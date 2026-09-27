@@ -29,7 +29,7 @@ Options:
 - (a) The sheet and the team home say the number of leadership lines, that readiness and a seat are different things, and what growth is available that is not a seat. Commits Sŏn to saying it aloud to every candidate and to meaning the non-seat growth.
 - (b) The sheet shows the path and stays quiet on the odds. Commits Sŏn to the conversation happening later, at a check-in, with a person who may feel misled.
 
-Divergence from the book: the book's "other ways to recognize" (p. 431) means things a manager gives. At Sŏn most of them are things the system opens (the adjacent strand, teaching, assessing) and one the rotation floor governs (designations, 4.1.20).
+Divergence from the book: the book's "other ways to recognize" (p. 431) means things a manager gives. At Sŏn most of them are things the system opens (the adjacent strand, teaching, assessing) and one the rotation floor governs (designations, 4.1.19).
 
 ## 4. Retention levers (5.6.4)
 
@@ -65,15 +65,15 @@ Options:
 - (b) Spread evenly by rule. Commits Sŏn to a lead who cannot lean in.
 - (c) The lead's read of potential governs, said aloud to the person. Commits Sŏn to a manager's judgment about who is worth more time, and to 4.4.2 limiting what is written about it.
 
-Outside investment (a course, a stage in another room): the white paper's platform is internal (WP p. 19). Whether the house ever pays for one person's outside learning, and who decides, is undecided. The unusual angle: 5.3.10's test-first step and 4.1.30's working group already exist as places to try an idea; the decision is whether a lead must route an idea there rather than judge it.
+Outside investment (a course, a stage in another room): the white paper's platform is internal (WP p. 19). Whether the house ever pays for one person's outside learning, and who decides, is undecided. The unusual angle: 5.3.10's test-first step and 4.1.29's working group already exist as places to try an idea; the decision is whether a lead must route an idea there rather than judge it.
 
 ## 7. The pool wait (5.6.8)
 
 This is the chunk's center for Sŏn. The book's stalled high performer is someone whose manager has no project for them; the fix is the manager finding or inventing one, reshaping the team, or letting go (pp. 423 to 426). Sŏn's stalled high performer is a person the system has certified ready and placed in a pool with nothing open (WP p. 11). The system that was supposed to be the advocate has nothing to say next. Prior work named nine existing mechanisms that already carry people forward without a manager (self-paced unlocks, cross-training markers, paid teaching, career conversations, rotation designations, the internal pool, among them) and argued they are enough if named (17tn048qfmx).
 
 Considerations:
-- The book's "more opportunity than you think" (pp. 424 to 425) maps onto things that exist at Sŏn: module authorship, the assessor pool (4.1.14), the mentor pool (3.3.13), a working group (4.1.30), leading a fix the person surfaced through the channel, the adjacent strand (4.1.10), another service period (3.3.29).
-- The book's "reshape the structure" is decided at 4.3.6 (whether the structure is ever changed for one person) and 4.1.36 (when a leadership line is added). This chunk does not reopen those.
+- The book's "more opportunity than you think" (pp. 424 to 425) maps onto things that exist at Sŏn: module authorship, the assessor pool (4.1.14), the mentor pool (3.3.13), a working group (4.1.29), leading a fix the person surfaced through the channel, the adjacent strand (4.1.10), another service period (3.3.29).
+- The book's "reshape the structure" is decided at 4.3.6 (whether the structure is ever changed for one person) and 4.1.35 (when a leadership line is added). This chunk does not reopen those.
 - The book's six-month warning ("I'm worried we won't have enough interesting projects for you") becomes a parameter here: how long in the pool before the wait is named aloud.
 - The what-next note (5.6.13) is the book's "brainstorm together" written down in the person's words. Prior work would have refused any document about a person in a lead's voice; a note in the person's own words, kept where they agree, is a different thing, and whether it exists at all is Brandon's call.
 
@@ -84,14 +84,14 @@ Divergence: the book's manager creates opportunity. Sŏn's lead can only open wh
 The book: gut-check readiness, own the decision, name what is missing, and own your own praise gap if you have one (pp. 429 to 431). At Sŏn the readiness call is an assessment against rows (4.1.11), signed off by the domain lead, so "not yet" has an objective source the book's manager lacks. The remaining questions are human: what the assessor says, whether the coaching lead is present, and what a lead does when their own praise painted a different picture than the rows.
 
 Options:
-- (a) The assessor reads the rows and the retake window and says nothing else; the lead takes the praise gap to the next check-in. Commits Sŏn to two conversations and a clean separation of assessor and coach (3.2.37's pattern).
+- (a) The assessor reads the rows and the retake window and says nothing else; the lead takes the praise gap to the next check-in. Commits Sŏn to two conversations and a clean separation of assessor and coach (3.2.35's pattern).
 - (b) The lead delivers both together. Commits Sŏn to the coach also being the judge in the room, which the assessor design avoids.
 
 No prediction: prior work argued the house never answers "will I pass next time" (digest). The book agrees for the low-performer case (p. 439); here the question is the same.
 
 ## 9. The stay question (5.6.10)
 
-The book: interview the top group once a year on what would make them leave; three to five conversations surface pain points (pp. 427 to 428). Prior work argued against a top-talent list and against interviewing a departing person's colleagues, on the grounds of unequal treatment and secondhand accounts (digest). The white paper already runs a regular pulse (WP p. 22) and reads exit interviews (WP p. 23). 4.3.8 and 4.8.13 own the departure read and the exit conversation.
+The book: interview the top group once a year on what would make them leave; three to five conversations surface pain points (pp. 427 to 428). Prior work argued against a top-talent list and against interviewing a departing person's colleagues, on the grounds of unequal treatment and secondhand accounts (digest). The white paper already runs a regular pulse (WP p. 22) and reads exit interviews (WP p. 23). 4.3.8 and 4.8.14 own the departure read and the exit conversation.
 
 Options:
 - (a) The question goes to everyone, in the pulse or at the career conversation, and the answers become channel items with owners. Commits Sŏn to hearing it from people the book would not have asked, and to acting on it.
@@ -108,7 +108,7 @@ Options:
 - (a) The departure read (4.3.17) carries a "left to grow" reading in the person's words and the retention definition counts it separately. Commits Sŏn to a category someone could game and to reading two numbers.
 - (b) No distinction; retention is retention. Commits Sŏn to a metric that punishes the outcome the white paper calls its longest measure.
 
-What the house does for the person: a founder's introduction, a reference, a standing invitation back, first read on a seat in a later property (4.8.13 decides contact with former employees). The founders' own seats: the book's "moving yourself out of your own job" (p. 425) is a founder's question; whether a founding seat's succession is planned is 2.1.8's and 2.1.9's, and this chunk only asks whether a lead who has outgrown the building is told so, and by whom.
+What the house does for the person: a founder's introduction, a reference, a standing invitation back, first read on a seat in a later property (4.8.14 decides contact with former employees). The founders' own seats: the book's "moving yourself out of your own job" (p. 425) is a founder's question; whether a founding seat's succession is planned is 2.1.8's and 2.1.9's, and this chunk only asks whether a lead who has outgrown the building is told so, and by whom.
 
 ## 11. Counsel
 

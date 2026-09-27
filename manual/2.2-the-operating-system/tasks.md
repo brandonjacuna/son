@@ -47,8 +47,8 @@ In this chunk "the operating system" is the human system the book describes; the
 - Book: pp. 113 to 115, 121 (every individual has development goals; every outcome has an owner responsible for tracking it)
 - Default assumption: (WP pp. 10, 18, 19) none stated; the white paper gives every new person a ninety-day plan with check-ins and a review every three to six months, and puts no one above the two leads. The old work's option: the Maitre d's check-in and review are held by Brandon's seat; the Operations Lead's by the partner whose domain holds the outcome, with Dominic argued; both partners once at the point where a lead's plan crosses both domains. Alternatives argued and set aside: the co-lead, no one, both partners standing, a rotating partner
 - Depends on: 2.2.3
-- Done when: each lead's holder is named, with the interval left to 3.3 and the review form to 5.4; the candidate sheet for each lead can state whom they answer to; a counsel question is logged on whether a founder holding a lead's check-in or working a service under a designation is acting as an employee for any purpose; agreed by both seated founders
-- Replaces old items: 86akhb2jg
+- Done when: each lead's holder is named, with the interval left to 3.3 and the review form to 5.4; the candidate sheet for each lead can state whom they answer to; a counsel question is logged on whether a founder holding a lead's check-in or working a service under a designation is acting as an employee for any purpose; agreed by both seated founders; the conversation is held in the check-in's form, on the lead's own page, at a closed hour (2.3.14 places it); the rule for who reads the other lead when a partner is the subject is 5.9.10's
+- Replaces old items: 86akhb2jg, 86akh6742 (the pairing half, from 2.3)
 
 ### 2.2.6 Draw the transparency line
 - Type: Decision
@@ -61,7 +61,7 @@ In this chunk "the operating system" is the human system the book describes; the
 
 ### 2.2.7 Decide who holds emergency authority during a service and who may close a period or the building
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: pp. 126 to 127 (decide ahead of time who acts on a sudden change and how they report it)
 - Default assumption: (WP pp. 10, 21) none stated. Brandon's ruling that the floor manager and the Maitre d are one seat (2026-09-13) makes the Maitre d the room's owner. The old work's option built on it: the Maitre d holds emergency authority for the room during service and the Chef Partner for the kitchen, either able to close their side without asking; closing the building for a service period is the Operations Lead's call with the Maitre d consulted; closing for longer than one period is a founder decision; on a service the Maitre d does not work, the room designation in the brief holds the room's authority
 - Depends on: 2.2.2
@@ -124,7 +124,7 @@ In this chunk "the operating system" is the human system the book describes; the
 
 ### 2.2.14 Decide how each person's development goals are set
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: pp. 113 to 114 (one or two personal development goals per quarter beside the work output; a manager who does not keep people on them is not coaching)
 - Default assumption: (WP pp. 11, 14, 19) system-surfaced, not manager-set: the person's development goals are the skill sets the system has unlocked and the person has chosen, deeper in the domain or across into the adjacent strand; cross-strand fluency is a named class; the domain lead signs off at the competency conversation and does not assign
 - Depends on: 2.2.1
@@ -138,7 +138,7 @@ In this chunk "the operating system" is the human system the book describes; the
 - Default assumption: (WP pp. 11, 15, 18) for every unit, the workbook's table: reason to exist, objectives with owner, key metrics, accountability mechanisms, cadence; beside it the decision-rights register, the competency paths, the strategy's two lists, the definitions register and standing vocabulary, the document list with versions and owners, and the web as a designed artifact; it is what the candidate sheet points to and what onboarding delivers
 - Depends on: 2.2.4, 2.2.6, 2.2.9, 2.2.10, 2.2.12, 2.2.13, 2.1.17
 - Done when: the home exists with the founding document (2.1.17), the register, the policy, and the strategy's lists on it before the first cohort's orientation; every page carries a version and an owner; the goal pages, the definitions register, and the competency paths join it as they exist; it carries no lagging figure unless 2.2.6 allows one, no horizon content unless 2.2.10 allows it, and no service-period code name; three people across strands and hours can find their domain's page from a personal device
-- Replaces old items: 86akh5umr (the contents half)
+- Replaces old items: 86akh5umr (the contents half), 86akh5uym
 
 ### 2.2.16 Decide what the operating system allocates and the ordering that settles a conflict
 - Type: Decision
@@ -156,7 +156,7 @@ In this chunk "the operating system" is the human system the book describes; the
 - Default assumption: (WP pp. 19, 29 to 30, 35, 36) the book's structure with the unit translated: an objective as a state, key results binary or metric, three to five per unit, one page, one set per service period across both strands and the kitchen, set by the Maitre d, the Operations Lead, and the kitchen's owner of execution together. A goal is committed if it gates an opening, protects a food-safety condition, or has been stated to customers through the documented build; the rest are aspirational
 - Depends on: 2.2.1
 - Done when: the form is chosen (her structure, a plain list, or the acronyms by name), the number per unit is set, the committed class is defined for Sŏn with the documented build's announcements in or out of it, the expected hit rate for aspirational goals is stated as a share without attaching it to any metric, and a period's goals are ruled one set or split by domain; agreed by both seated founders
-- Replaces old items: 86akh5uhq (the form half)
+- Replaces old items: 86akh5uhq (the form half), 86akh674m
 
 ### 2.2.18 Decide whether a target is ever set before a baseline exists
 - Type: Decision
@@ -214,7 +214,7 @@ In this chunk "the operating system" is the human system the book describes; the
 
 ### 2.2.24 Confirm the data hub of record for the stack
 - Type: Action
-- Phase: Before opening
+- Phase: Before the first hire
 - Book: pp. 119 to 120 (once metrics are set, have a dashboard; use the same underlying data everywhere)
 - Default assumption: (WP pp. 03, 21 to 22) the white paper names a specific tool as the hub for everything that is not customer data; this project's instructions exclude that tool as no longer in use. The stack is Dominic's domain outright. Until confirmed, no operating document names a hub tool
 - Depends on: None
@@ -256,15 +256,15 @@ In this chunk "the operating system" is the human system the book describes; the
 - Default assumption: None; the kit captures the process and the structure used in 2.2.27, with dinner's page as the example only if the founders agree
 - Depends on: 2.2.27
 - Done when: an intake form (the questions that turn an activity into a state, the wince test, the parent question), a facilitation guide (how three domain owners write one period page together; how to hold a section for someone else; how to keep targets out before a baseline), and a template exist; each period's lead and each domain owner uses it every quarter
-- Replaces old items: None
+- Replaces old items: 86akh677v
 
 ### 2.2.29 Decide the set of accountability mechanisms, and each one's unit and participants
 - Type: Decision
-- Phase: Before opening
+- Phase: Before the first hire
 - Book: pp. 122 to 126 (decide who participates and on what cadence; a weekly team meeting and a weekly metrics review for every team; a QBR per division; an all-hands showcase; a yearly reset)
 - Default assumption: (WP pp. 11, 13, 14, 17 to 19, 22, 23, 26, 31) the white paper's own mechanisms placed at their units (the brief and the close per period; the feedback channel at the company; the review, the competency conversation, and the ninety-day plan per person; peer recognition; the post-mortem and exit interview as learning), plus three the old work added and nothing else at the company level: a leads' review, cross-period, opening on the leading indicators, with the two leads, the kitchen's owner of execution, and the founders as their domains require; a house review for the whole company in place of a QBR per division, with the five failure modes as its standing scorecard and a tension map in place of a headcount table; a phase-gate review per opening. The shift close is the edge's snippet; the lead's weekly note is the center's
-- Depends on: 2.2.1, 2.2.22
-- Done when: each mechanism is named with its unit, its participants, and what it reads first; the three added ones are accepted, amended, or declined; the founders have stated which mechanisms they attend by default and which only as their domains require; the rhythms, the loop window, and the reset's placement are handed to 2.3; agreed by both seated founders
+- Depends on: 2.2.1
+- Done when: each mechanism is named with its unit, its participants, and what it reads first; the three added ones are accepted, amended, or declined; the founders have stated which mechanisms they attend by default and which only as their domains require; the rhythms, the loop window, and the reset's placement are handed to 2.3; agreed by both seated founders; reads: 2.2.22 confirms each mechanism's metric owners once assigned
 - Replaces old items: None (the old page's positions 10.1 to 10.4, 10.6, 10.7)
 
 ### 2.2.30 Decide the alert-actor rule
@@ -278,43 +278,23 @@ In this chunk "the operating system" is the human system the book describes; the
 
 ### 2.2.31 Decide how per-service ownership is named in the shift brief
 - Type: Decision
-- Phase: Before opening
+- Phase: Hiring and training
 - Book: pp. 121 to 122 (no task on a wing and a prayer; someone is responsible before the work begins)
 - Default assumption: (WP pp. 10, 14, 26) per-service ownership is the functional designation, named at the brief: the door, the pass and culinary execution, the beverage program, and, once a second period opens, the room's transition. The brief also names emergency authority for the service (2.2.7) and the flagged records for known customers on the book. Who reads the book and sets the flags before service is unstated in the white paper; the Maitre d, who owns customer relationship systems (WP p. 10), is the old work's option. A service does not begin without these named
 - Depends on: 2.2.7, 2.2.29
 - Done when: the list of what the brief must name before a service begins is fixed; the owner of the pre-service read of the book is named; the transition's owner is stated for the day a second period opens; the rule that a service does not begin without the list is accepted or declined; agreed by both seated founders; the kitchen's designations are the chef partner's
 - Replaces old items: None (the old page's position 9.2)
 
-### 2.2.32 Specify the shift brief's and shift close's operating-system contents
+### 2.2.32 Specify the metrics and alerts the shift brief and shift close carry
 - Type: Deliverable
 - Phase: Before opening
 - Book: pp. 123, 125 to 126 (snippets; the weekly meeting's job: priorities, progress, action items, and who owns them)
 - Default assumption: (WP pp. 13, 14, 17, 22, 23, 26) the brief's load: tonight's designations, emergency authority, the flagged records and surfaced preferences, any change to a range, trigger, goal, or mechanism since the last brief spoken aloud, the period's goal headline. The close's load: every incident with its range status, every generosity use, every recovery, every escalation and its destination, the thank-you note record, the period's operating metrics as captured, and an owner for each process change an incident implies; a capture that names a person as cause is rewritten as process before it is typed and the capture's words are never edited. Neither is long-form; both are system-resident; the close is written at the edge by the people who felt the room, never by a lead on their behalf
 - Depends on: 2.2.31, 2.2.25
-- Done when: both structures exist as field lists with what each refuses; the brief can be run in the minutes a pre-service allows and the close takes minutes at the end of service; a server never explains the same incident twice; the kitchen's contents of both are held for the chef partner; the realist's test has been run against a full night and any field that fails it has been cut or moved
+- Done when: the operating-system fields of both structures exist as a list (which metrics the brief opens on, which alerts the close records, and what each refuses to carry); the kitchen's fields are held for the chef partner; the realist's test has been run against a full night and any field that cannot be read at tempo has been cut or moved; 2.3.20 builds the running checklists around these fields
 - Replaces old items: 86akh5uk4
 
-### 2.2.33 Specify the leads' review agenda and the lead's weekly note
-- Type: Deliverable
-- Phase: Before opening
-- Repeatable: yes. Each lead files the note before every leads' review; the chef partner files the kitchen's. Kit: 2.2.41
-- Book: pp. 123, 125 to 126 (snippets derive the meeting's agenda; the metrics review opens the meeting)
-- Default assumption: (WP pp. 12, 22) the review opens on the leading indicators at service tempo; then the week's closes across every open period, open feedback items by age, goal-page status, incidents awaiting a process owner, cross-domain items under 2.2.3; lagging figures last, if at all. The note: priorities for the coming week, open items with owners, anything needing another domain's consultation, the lead's read of their domain's health; one page; filed before the review
-- Depends on: 2.2.29, 2.2.25
-- Done when: the agenda exists in order with what it refuses (to open on a lagging figure, to run without a written record, to become the integration layer the stack should be); the note's structure exists with its page limit; the rhythm is left to 2.3
-- Replaces old items: 86akh5ume
-
-### 2.2.34 Specify the house review and the phase-gate review
-- Type: Deliverable
-- Phase: Before opening
-- Repeatable: yes. Each period's lead and each domain owner writes their section every quarter; the chef partner writes the kitchen's. Kit: 2.2.41
-- Book: pp. 123 to 125 and workbook pp. 30 to 41 (the QBR: candid summary, narrative skewed to lowlights, reflection, outlook, cross-functional areas, goals table, P&L, headcount, prior actions, top asks; the statements that should be true afterward)
-- Default assumption: (WP pp. 14, 17, 22, 23) her outline translated (`considerations.md` section 8): the leading indicators as the spine; the feedback channel's top asks as "user feedback"; the five failure modes as the standing scorecard; a tension map in place of headcount; the risk register behind "what keeps you up at night"; lagging figures as an appendix owned by Dominic's domain. The phase-gate review applies the same form to the readiness test (2.2.39) and the "steady" condition (2.2.38)
-- Depends on: 2.2.29, 2.2.26, 2.2.27
-- Done when: the house review's sections exist in order with the six statements that must be true afterward in Sŏn's terms and what it refuses (to review a period without a charter; to score a goal met at a bandwidth cost as a win; to exceed what the leads can prepare between services); the phase-gate review's form exists; the first instance's length is left to calibrate after it runs
-- Replaces old items: 86akh5ukw
-
-### 2.2.35 Write the alert register, version one
+### 2.2.33 Write the alert register, version one
 - Type: Deliverable
 - Phase: Before opening
 - Book: pp. 126 to 127
@@ -323,69 +303,69 @@ In this chunk "the operating system" is the human system the book describes; the
 - Done when: every alert the stack raises has an entry, no entry has a founder as default actor unless 2.2.30 allowed the class, no threshold on the page is a financial figure, and each named actor has been told; owner the Operations Lead, with Dominic's domain for the stack's side; reviewed at the reset (2.3)
 - Replaces old items: 86akh5ufd (the register half), 86akh5ujv
 
-### 2.2.36 Run the requisite-variety test on the leadership structure
+### 2.2.34 Run the requisite-variety test on the leadership structure
 - Type: Action
 - Phase: Before opening
 - Book: pp. 93 to 95 (ratios from other companies do not reflect your model; interface complexity rises with scale)
 - Default assumption: (WP pp. 14, 21, 22) the leadership delta ("roughly eight leadership lines running the full span of the day against fourteen running one dinner service") is a claim, and the book's own critique of benchmarks applies. The eight disturbance classes in `considerations.md` section 4 are mapped to the regulator that absorbs each (the stack, a pre-stated range, a lead, a founder), against the actual leadership-line list from 4.1. Any class resolving to a founder by default or to nothing is a structural finding. Re-run at every period's gate and after dinner's first quarter against the shift-close log; a leadership line is added only when the test shows a class unowned, never by assumption
-- Depends on: 4.1, 2.2.4, 2.2.35
+- Depends on: 4.1, 2.2.4, 2.2.33
 - Done when: the first pass exists as a written record: each class, its regulator, the classes resolving to a founder or to nothing, the designations beneath each lead per class, the date and the gate; no count is stated from memory and no verdict of lean or bloated is given before the classes are mapped; the re-run rule is stated; owner Brandon's seat, run with both leads and the chef partner; the realist's worst-night simulation is run alongside it
 - Replaces old items: 86akh5unz, 86akhcz3x, 86akhcz49
 
-### 2.2.37 Decide that a service period opens on a test, not a date, and that the readiness test is the operating-system half of the gate
+### 2.2.35 Decide that a service period opens on a test, not a date, and that the readiness test is the operating-system half of the gate
 - Type: Decision
-- Phase: Before opening
+- Phase: Before the first hire
 - Book: pp. 91 to 92 (a shorter-term plan on six- and twelve-month horizons with a year-end P&L)
 - Default assumption: (WP pp. 33 to 36) the near-term plan is a sequence of proof gates (pre-opening; dinner alone; dinner steady and the early morning added; late night added; the first full year; the lunch ruling), each opened by a test and reviewed on the quarterly rhythm 2.3 sets. Dinner is planned as execution with baselines to establish; the layer as an experiment with a stated test (WP p. 35). Dates are not gates
 - Depends on: 2.2.29
 - Done when: the founders have chosen gates, dates, or a mix (`considerations.md` section 3 options), stated that the readiness test plus the phase-gate review is the form the gate decision takes, and stated what happens when a lease, a stream announcement, or cash argues for a date the test has not met; agreed by both seated founders; the chef partner joins for any gate after seating
 - Replaces old items: None (the old page's position 5.5)
 
-### 2.2.38 Decide what "dinner is steady" means, as the gate that opens the next service period
+### 2.2.36 Decide what "dinner is steady" means, as the gate that opens the next service period
 - Type: Decision
 - Phase: Before opening
 - Book: pp. 92, 109 to 110 (plan differently for mature and emerging parts; a concrete goal with no numbers is fine if everyone assesses it the same way)
 - Default assumption: (WP p. 36) undefined; "so the heart is solid before anything is added to it." Candidates from the old work: every readiness row holds; the close's capture and the loop's closure hold for a stated run of weeks; employee NPS and recognition delivered have baselines and are not falling; the founders have been absent a full period with nothing deferred; the incident log's clusters do not resolve to a founder. Not a revenue level, a cover count, or a date. No target on a rate before a baseline exists
-- Depends on: 2.2.19, 2.2.21, 2.2.37
+- Depends on: 2.2.19, 2.2.21, 2.2.35
 - Done when: the founders have named which readiness rows and which leading indicators constitute the gate, and in what state; the kitchen's half is marked for the chef partner; the definition is written on the company's goal page; agreed by both seated founders
-- Replaces old items: 86akh5uaw
+- Replaces old items: 86akh5uaw, 86akh6748
 
-### 2.2.39 Write the readiness test: "the operating system is running"
+### 2.2.37 Decide whether the readiness test reads the company's shape as well as the building
+- Type: Decision
+- Phase: Before opening
+- Book: pp. 104 to 106 (the operating system must show when the company, not only the day's work, is stuck)
+- Default assumption: (WP p. 06) "a company built to run without them" is stated of the operating system; the white paper says nothing about the reserved-class decisions that only the partners can take
+- Depends on: 2.2.35, 2.2.36, 2.3.4, 2.1.13
+- Done when: the founders have chosen one of: a row in the readiness test that reads whether any reserved-class decision (a service period built or removed, a principle changed, a version, a principal admitted or removed, a pay parameter set) has stood open past a stated count of partners' reviews, read from the partners' page with no person named and the count as a reset parameter; or a statement beside the test that it reads the building only and the partners' page reads the company; agreed by both seated founders
+- Replaces old items: 17tn048qr4n
+
+### 2.2.38 Write the readiness test: "the operating system is running"
 - Type: Deliverable
 - Phase: Before opening
 - Book: pp. 85 to 86, 150 to 151 (get a simple operating system running quickly; the organizational foundations table as a test of whether you have one)
 - Default assumption: (WP pp. 06, 11, 13, 14, 18, 22) the rows in `considerations.md` section 10, each stating the condition, how it is checked, and who checks it; none met by a document's existence alone; failures mapped to the white paper's failure modes. 2.3 adds the cadence rows in the same form
-- Depends on: 2.2.4, 2.2.15, 2.2.25, 2.2.27, 2.2.31, 2.2.32, 2.2.35, 2.2.38
+- Depends on: 2.2.4, 2.2.15, 2.2.25, 2.2.27, 2.2.31, 2.2.32, 2.2.33, 2.2.36
 - Done when: every row is answerable yes or no by a named checker who is not a founder except the absence row; the realist has flagged any row whose check cannot be run at tempo and it has been rewritten or cut; the rows are the pre-opening goal set in its entirety under 2.2.18; the test is published on the team home
 - Replaces old items: 86akh5un6
 
-### 2.2.40 Run the readiness test and the phase-gate review before dinner opens
+### 2.2.39 Run the readiness test and the phase-gate review before dinner opens
 - Type: Action
 - Phase: Before opening
 - Book: pp. 85 to 86 (do not send players onto the field with lots of equipment and no rules)
 - Default assumption: (WP p. 36) dinner's gate is the first one the operating system passes through; every later gate re-runs the test because a new period can break the brief, the stack, the period count, and the team home rows without breaking anything else
-- Depends on: 2.2.39, 2.2.34, 2.2.36
+- Depends on: 2.2.38, 2.3.23, 2.2.34
 - Done when: the test has been run once with every row's result recorded, the failed rows are mapped to their failure modes with an owner for each fix, the phase-gate review has been written and read by both founders, and the founders have taken the gate decision on it; the result feeds the first house review
-- Replaces old items: None
-
-### 2.2.41 Build the review kit
-- Type: Deliverable
-- Phase: After opening
-- Book: pp. 123 to 125 and workbook pp. 30 to 41
-- Default assumption: None; the kit captures the process and the structure used in 2.2.33 and the first instance of 2.2.34, never a lead's answers unless the founders and that lead agree a section can serve as the example
-- Depends on: 2.2.33, 2.2.34, and the first house review having run
-- Done when: an intake form (the questions a lead answers before writing the weekly note and before writing their quarterly section), a facilitation guide (how to write a section skewed to lowlights without writing about a person; how to fill the failure-mode scorecard and the tension map from the closes; how to keep the lagging figures in the appendix), and templates for the note and the section exist; every lead and the chef partner uses it
 - Replaces old items: None
 
 ## Counts
 
-By type: Decision 24 (2.2.1, 2.2.2, 2.2.3, 2.2.5, 2.2.6, 2.2.7, 2.2.10, 2.2.11, 2.2.13, 2.2.14, 2.2.16, 2.2.17, 2.2.18, 2.2.19, 2.2.20, 2.2.21, 2.2.22, 2.2.23, 2.2.26, 2.2.29, 2.2.30, 2.2.31, 2.2.37, 2.2.38); Deliverable 14 (2.2.4, 2.2.8, 2.2.9, 2.2.12, 2.2.15, 2.2.25, 2.2.27, 2.2.28, 2.2.32, 2.2.33, 2.2.34, 2.2.35, 2.2.39, 2.2.41); Action 3 (2.2.24, 2.2.36, 2.2.40). Total 41.
+By type: Decision 25 (2.2.1, 2.2.2, 2.2.3, 2.2.5, 2.2.6, 2.2.7, 2.2.10, 2.2.11, 2.2.13, 2.2.14, 2.2.16, 2.2.17, 2.2.18, 2.2.19, 2.2.20, 2.2.21, 2.2.22, 2.2.23, 2.2.26, 2.2.29, 2.2.30, 2.2.31, 2.2.35, 2.2.36, 2.2.37); Action 3 (2.2.24, 2.2.34, 2.2.39); Deliverable 11 (2.2.4, 2.2.8, 2.2.9, 2.2.12, 2.2.15, 2.2.25, 2.2.27, 2.2.28, 2.2.32, 2.2.33, 2.2.38). Total 39.
 
-By phase: Before the first hire 6 (2.2.1 to 2.2.6); Hiring and training 9 (2.2.7 to 2.2.15); Before opening 25 (2.2.16 to 2.2.40); After opening 1 (2.2.41).
+By phase: Before the first hire 11 (2.2.1 to 2.2.7, 2.2.14, 2.2.24, 2.2.29, 2.2.35); Hiring and training 8 (2.2.8 to 2.2.13, 2.2.15, 2.2.31); Before opening 20 (2.2.16 to 2.2.23, 2.2.25 to 2.2.28, 2.2.30, 2.2.32 to 2.2.34, 2.2.36 to 2.2.39); After opening 0.
 
-Repeatable deliverables and their kits: 2.2.4 (kit 2.2.8); 2.2.27 (kit 2.2.28); 2.2.33 and 2.2.34 (kit 2.2.41).
+Repeatable deliverables and their kits: 2.2.4 (kit 2.2.8); 2.2.27 (kit 2.2.28). The leads' review agenda with the lead's weekly note, and the house review, moved to 2.3 in the cross-chunk pass (2.3.19, 2.3.23; kit 2.3.24).
 
-Cross-chunk dependencies: 2.1 (2.1.3, 2.1.4, 2.1.5, 2.1.7, 2.1.8, 2.1.9, 2.1.11, 2.1.13, 2.1.14, 2.1.15, 2.1.17, 2.1.20); 2.3 (every rhythm, the loop window, the reset's placement, the whole-house gathering, the employee NPS rhythm); 3.3 (the ninety-day plan's check-in interval and first development goals; a range written and not delivered is an onboarding failure); 4.1 (the leadership-line list for 2.2.22 and 2.2.36; the structure that follows the one-seat ruling); 5.4 (the review form that reads development goals; a lead's review); 5.5 (the pool's visibility against the transparency line; the compensation vocabulary in the definitions register); the learning and development work (the competency paths and the platform that feeds 2.2.14).
+Cross-chunk dependencies: 2.1 (2.1.3, 2.1.4, 2.1.5, 2.1.7, 2.1.8, 2.1.9, 2.1.11, 2.1.13, 2.1.14, 2.1.15, 2.1.17, 2.1.20); 2.3 (every rhythm, the loop window, the reset's placement, the whole-house gathering, the employee NPS rhythm); 3.3 (the ninety-day plan's check-in interval and first development goals; a range written and not delivered is an onboarding failure); 4.1 (the leadership-line list for 2.2.22 and 2.2.34; the structure that follows the one-seat ruling); 5.4 (the review form that reads development goals; a lead's review); 5.5 (the pool's visibility against the transparency line; the compensation vocabulary in the definitions register); the learning and development work (the competency paths and the platform that feeds 2.2.14).
 
 ## Decisions already made
 

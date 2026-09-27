@@ -13,16 +13,16 @@ This chunk holds 19 of the run's 29 items; 4.3 holds 7 and 4.4 holds 3. Each ite
 | Old ID | Old name (short) | Fate | Goes to | Reason |
 |---|---|---|---|---|
 | 86akhptkm | Ratify the diagnostic's frame, read order, and evidence-line form | Rewritten | 4.2.2, 4.2.3, 4.2.7 | One "ratify" split into three decisions: what a read names and in what order (4.2.2), the frame, modes or dysfunctions or both (4.2.3), and the line's fields and person rule (4.2.7). The white paper's mode-before-person order is the default assumption (WP p. 14), not a verdict |
-| 86akhptub | Carriers for an overload finding on the floor-management seat, and refused carriers | Merged | 4.2.6 | The nine inputs become candidate sources for that seat's load in 4.2.6. The ruled-out fix (no second manager-type seat or assistant under any title) is 4.1.36's and is carried over there; the reset read itself is 4.1.37. Later comments adding review and coaching counts are candidate sources in the same list |
+| 86akhptub | Carriers for an overload finding on the floor-management seat, and refused carriers | Merged | 4.2.6 | The nine inputs become candidate sources for that seat's load in 4.2.6. The ruled-out fix (no second manager-type seat or assistant under any title) is 4.1.35's and is carried over there; the reset read itself is 4.1.36. Later comments adding review and coaching counts are candidate sources in the same list |
 | 86akhpu06 | Write the diagnostic's page for the team home | Kept | 4.2.14 | Same deliverable: one page any lead can be tested on |
 | 86akhpu3q | Run the diagnostic on the four existing rhythms, adding no meeting | Rewritten | 4.2.9 | The "no new meeting" position becomes a decision tested against 2.3.3's rule for what enters the calendar |
 | 86akhpu8z | Run a pre-opening first pass before the opening gate | Kept | 4.2.19 | Same action; the check against reality moves to the first reset (4.2.21) |
 | 86akhpuqr | Build the failure-mode evidence line | Rewritten | 4.2.7, 4.2.15 | Design half is the decision 4.2.7; build half is 4.2.15. The document-methodology gate is program machinery and dropped. The later comment adding a basic, complex, or intelligent failure-type field to a process-update record is noted here only; it is not a field of the evidence line and no task carries it |
 | 86akhpurp | Build the scorecard section of the quarterly companywide review | Kept | 4.2.15 | Same deliverable: a line per mode, rolled up from domains, with a read-back column, placed in the house review memo template (2.3.23) |
 | 86akhpuv6 | Build the recurrence-surfacing configuration | Kept | 4.2.10, 4.2.18 | The thresholds are set in 4.2.10; the configuration is 4.2.18 |
-| 86akhpuxk | Build the diagnosis-to-change coupling | Rewritten | 4.2.11 | The refusal of a change whose reason is a person becomes one of three options (accepted, refused, or routed to Chapter 5); the change entry itself is 4.1.34 |
+| 86akhpuxk | Build the diagnosis-to-change coupling | Rewritten | 4.2.11 | The refusal of a change whose reason is a person becomes one of three options (accepted, refused, or routed to Chapter 5); the change entry itself is 4.1.33 |
 | 86akhpv17 | Build the pre-opening first-run record | Merged | 4.2.19 | The two-part record is the output of the first pass and is written in the same task |
-| 86akhpv70 | Record "no regulator" as its own outcome, distinct from the five modes | Merged | 4.2.2 | Whether a problem that fits no mode is its own outcome routed to 4.1.34, or forced into the nearest mode, is part of 4.2.2's "done when." The private term is dropped |
+| 86akhpv70 | Record "no regulator" as its own outcome, distinct from the five modes | Merged | 4.2.2 | Whether a problem that fits no mode is its own outcome routed to 4.1.33, or forced into the nearest mode, is part of 4.2.2's "done when." The private term is dropped |
 | 86akhpv85 | Assign who writes which diagnostic lines, by role | Rewritten | 4.2.8 | The assignment becomes a decision with the earlier split as a candidate; the kitchen's writer is pending the chef partner |
 | 86akht1wu | Read bandwidth at the reset, and add two sources to cooling failure's evidence | Merged | 4.2.6, 4.2.20 | The two counted sources (dropped brief items, displaced closing notes) are candidates in 4.2.6; the first-quarter baseline is 4.2.20, under 2.2.18's rule on targets before baselines |
 | 17tn048qfn3 | Set staffing-window timing parameters as counts, at the first reset | Merged | 4.2.10 | The counts-never-money rule and setting starting values at the first reset are in 4.2.10's "done when." Windows that belong to other chunks (a change's decision window, 4.3.4) are set there under the same rule |
@@ -42,6 +42,14 @@ This chunk holds 19 of the run's 29 items; 4.3 holds 7 and 4.4 holds 3. Each ite
 - `86akhptmp` (recurrence thresholds for a repeating domain, seat, or period), mapped in `manual/3.2-hiring/mapping.md` as "Routes to 4.2": lands in 4.2.10 (the counts and where each repeat surfaces) and 4.2.18 (the configuration). Its rule that a domain with repeated departures is read as a retention question first lands in 4.3.12.
 
 **Counts by fate:** Kept 4; Rewritten 6; Merged 9; Routes to another chunk 0; Dropped 0. Total 19.
+
+### Placed in the cross-chunk pass (2026-09-27)
+
+| Old ID | Old name (short) | Fate | Goes to | Reason |
+|---|---|---|---|---|
+| 86akhpvvq | Rows 107 to 118, the diagnostic's page for the wiki, nine instrument extensions, and thirteen findings routed | Served | 4.2.14 | The diagnostic's page for the team home; the recurrence thresholds as reset parameters are 4.2.10's; the rows, extensions, and findings are machinery |
+
+Received: 86akhptmp (recurrence thresholds for a repeating domain, seat, or period), routed from 3.2, lands in 4.2.10 (the thresholds) and 4.2.18 (the configuration).
 
 ## 2. Where the S9 page's sections went
 
@@ -64,12 +72,12 @@ The S9 page covers 4.2, 4.3, and 4.4 together. This table places the framing, th
 | 6.1 The four rhythms | Section 7 and 4.2.9 |
 | 6.2 The first-quarter freeze | 4.3.5 and 4.3.20 |
 | 6.3 The first run before opening | 4.2.19 |
-| 7. From diagnosis to change | Section 8 and 4.2.11; the four change paths are the change entry's (4.1.34) and the change guide's (4.3.15) |
+| 7. From diagnosis to change | Section 8 and 4.2.11; the four change paths are the change entry's (4.1.33) and the change guide's (4.3.15) |
 | 11.2 A lead's own node | 4.2.12 (where a lead's "what's in my way" lands) and 5.9 |
-| 12. The floor-management seat's load read at the reset | 4.2.6 for its sources; 4.1.36 and 4.1.37 hold the relief rule and the reading |
+| 12. The floor-management seat's load read at the reset | 4.2.6 for its sources; 4.1.35 and 4.1.36 hold the relief rule and the reading |
 | 14. Where a read reaches a person | Section 6 and the person rule in 4.2.7 |
 | 16.1 to 16.3 Decision rights for writing a line, naming a mode, proposing a change | 4.2.8 and 4.2.11 |
-| 16.4 Versioning a change | 4.1.34 (the structure change entry) |
+| 16.4 Versioning a change | 4.1.33 (the structure change entry) |
 | 16.7 Incomplete entries | Superseded by the "pending the chef partner" notes in 4.2.8 and the open dependencies in 4.2.12 |
 | 17. Readiness rows 107 to 118 | Their substance is in the "done when" of 4.2.14 to 4.2.21, 4.3.19 to 4.3.21, and 4.4.14. The row numbering and running count are machinery, dropped |
 | 18. Instrument specifications | Folded into the deliverables 4.2.14 to 4.2.18 |
@@ -78,4 +86,4 @@ The S9 page covers 4.2, 4.3, and 4.4 together. This table places the framing, th
 
 ## 3. What was dropped and why
 
-Nothing in this chunk was dropped whole; every item's substance survives as a decision, an action, or a deliverable. What left: the verdict framing ("ratify," "refused," "absorbed") turned into options; program machinery (position, instrument, and finding numbers; readiness row numbers and the running row count; session cross-references; carryover routings; the document-methodology gate; the retired marks register); and the brand-dependent tests (company non-negotiables and a training-philosophy standard used to test fixes, the vocabulary conflict over the word "diagnostic," and the versioned-decision citation from the brand deck). The routine-fix versus versioned-change distinction survives without the brand citation, in 4.2.11 and 4.1.34. The private terms "no regulator," "the record," and "freeze" are replaced with plain words.
+Nothing in this chunk was dropped whole; every item's substance survives as a decision, an action, or a deliverable. What left: the verdict framing ("ratify," "refused," "absorbed") turned into options; program machinery (position, instrument, and finding numbers; readiness row numbers and the running row count; session cross-references; carryover routings; the document-methodology gate; the retired marks register); and the brand-dependent tests (company non-negotiables and a training-philosophy standard used to test fixes, the vocabulary conflict over the word "diagnostic," and the versioned-decision citation from the brand deck). The routine-fix versus versioned-change distinction survives without the brand citation, in 4.2.11 and 4.1.33. The private terms "no regulator," "the record," and "freeze" are replaced with plain words.

@@ -18,6 +18,10 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 
 **Counts by fate:** Kept 2; Rewritten 3; Merged 1; Routes to another chunk 1; Dropped 0. Total 7.
 
+Received: 86akh7qq7 (the work-style grid excluded from hiring), routed from 3.3, lands in 1.1.4.
+
+Received: 86akh2qz7 (the chef partner's own working-with-me document), routed from 3.3, lands in 1.1.13.
+
 ## 2. Where the S1 page's sections went
 
 Only the sections that belong to 1.1 are listed. Principles 3 and 4 are 1.2's; section 2 (the metronome) and section 4 are 1.4's; section 3 is 1.3's; section 5 and 8.4 are chunk 0's; see their `mapping.md` files.

@@ -43,7 +43,7 @@ Vocabulary, in plain words: a **career conversation** is the book's one-off conv
 
 **White paper.** Authority lives in the domain; the domain owner is accountable to its outcomes (WP p. 07). Designations mark accountability in the moment (WP p. 10). Silent on ownership of one-off work.
 
-**From the earlier work.** A DRI was declined as redundant: a decision-owner with a stated range carries more accountability than a DRI, and a DRI without decision authority is the "responsible but not empowered" pattern the white paper forbids. Against that: 4.1.30 may have created project and working-group forms, and a project needs someone to be accountable for it finishing; the register names who decides, not who carries a piece of work to its end.
+**From the earlier work.** A DRI was declined as redundant: a decision-owner with a stated range carries more accountability than a DRI, and a DRI without decision authority is the "responsible but not empowered" pattern the white paper forbids. Against that: 4.1.29 may have created project and working-group forms, and a project needs someone to be accountable for it finishing; the register names who decides, not who carries a piece of work to its end.
 
 **Options.**
 - (a) Every assignment and project has one named owner, in plain words ("owner"), recorded on the project form or the brief; the owner has the decision range the register gives the work, or an escalation path if not. Commits Sŏn to teaching the term in onboarding and to never naming an owner without a range or a path.
@@ -56,7 +56,7 @@ Vocabulary, in plain words: a **career conversation** is the book's one-off conv
 
 **White paper.** The server resolves at the table within "their authorized judgment and generosity range" (WP p. 13). Every server carries a bottle to gift as they see fit (WP p. 26). Systems are designed for the people who use them (WP p. 17). Silent on reversibility as a test.
 
-**From the earlier work.** Manager-held delegation was declined as a concept: authority is pre-placed with the closest competent seat through the decision-rights register (2.2.2, 2.2.4), which states what a seat decides alone, what triggers escalation, and to whom, set one level broader than the seat strictly needs. Only the underlying test of the book's matrix was kept: a high-impact, hard-to-reverse outcome is built into the seat's escalation triggers so it is never inside an ordinary range by default. The three "do it yourself" cases were translated: modeling into paired services and shadowing (3.3.8); urgency into the incident-and-fix record; a resource constraint into a node-overload finding (4.1.36), never personal overwork.
+**From the earlier work.** Manager-held delegation was declined as a concept: authority is pre-placed with the closest competent seat through the decision-rights register (2.2.2, 2.2.4), which states what a seat decides alone, what triggers escalation, and to whom, set one level broader than the seat strictly needs. Only the underlying test of the book's matrix was kept: a high-impact, hard-to-reverse outcome is built into the seat's escalation triggers so it is never inside an ordinary range by default. The three "do it yourself" cases were translated: modeling into paired services and shadowing (3.3.8); urgency into the incident-and-fix record; a resource constraint into a node-overload finding (4.1.35), never personal overwork.
 
 **Options.**
 - (a) The register carries it: the trapdoor test is an escalation trigger on every entry; a founder keeps only the partner-level decisions (2.1.13); no case-by-case delegation. Commits Sŏn to the register being complete enough to cover real work before the leads arrive, and to leads not being able to hand down a decision the register keeps.
@@ -93,7 +93,7 @@ This section is about the seats and the schedule, not about either founder's tem
 - (b) Signs as a self-check in the lead's monthly conversation (2.3.14), and as modes at the reset. Commits Sŏn to the lead's own reading and the record's reading sitting side by side, and to the founders reading the same signs on themselves (4.2.12).
 - (c) The book's: a lead reads themselves and adjusts. Commits Sŏn to the self-read alone.
 
-For the three cases, the live question is what a lead working a seat for a service is recorded as: a designation (4.1.20), an overload line (4.2.7), or nothing. Each commits the seat load reading (4.1.37) to seeing it or not.
+For the three cases, the live question is what a lead working a seat for a service is recorded as: a designation (4.1.19), an overload line (4.2.7), or nothing. Each commits the seat load reading (4.1.36) to seeing it or not.
 
 ## 7. The assignment conversation
 
@@ -106,7 +106,7 @@ For the three cases, the live question is what a lead working a seat for a servi
 **Options.**
 - (a) A short separate conversation with a half-page note carrying all seven steps in Sŏn's words; the career conversation's outputs may inform "why this person." Commits Sŏn to assignments being development moves, and to a note per assignment.
 - (b) The note carries five steps; "why this person" and "buy-in" are declined; assignments go to seats. Commits Sŏn to development happening only through the tracks (WP p. 11), never through assignments.
-- (c) The brief carries service-length assignments as designations; anything longer uses the project form (4.1.30) with an owner. Commits Sŏn to two forms by duration.
+- (c) The brief carries service-length assignments as designations; anything longer uses the project form (4.1.29) with an owner. Commits Sŏn to two forms by duration.
 
 ## 8. Where Sŏn may diverge from the book, in one place
 

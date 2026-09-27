@@ -7,7 +7,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Before the first hire
 - Book: pp. 304 to 305 (rituals and common practices weave the fabric of a team; offsites and meetings are the two she relies on)
 - Default assumption: None; this is a read of Sŏn's own decisions
-- Depends on: 2.2.29, 2.3.7, 2.3.8, 2.3.9, 2.3.13, 2.3.22, 2.3.25, 2.3.30, 3.3.14, 4.1.2, 4.1.20
+- Depends on: 2.2.29, 2.3.7, 2.3.8, 2.3.9, 2.3.13, 4.1.2, 4.1.19
 - Done when: a one-page note lists every standing structure already decided upstream (name, unit, participants, chair, record), and names which of this chunk's questions each one already answers, so no decision here reopens one made there
 - Replaces old items: None
 
@@ -34,8 +34,8 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Hiring and training
 - Book: pp. 305 to 306 and 308 to 311 (offsites turn a work group into a team, set near-term priorities, and build long-term thinking; senior teams warrant two or three a year; a forming team benefits from clarity work and work-style exercises)
 - Default assumption: None; the white paper is silent on offsites. 2.3.30 decides the founders' annual block; this task asks the separate question of whether the leads are in a block of their own
-- Depends on: 4.5.2, 4.5.3, 2.3.30, 2.3.12
-- Done when: a written line states whether the leadership team holds a block beyond the weekly leads' review; if yes, how often, roughly how long, whether off the premises, what mix of task work and team work it carries, and whether one is held before opening once both leads are hired; if no, what carries the forming work instead
+- Depends on: 4.5.2, 4.5.3, 2.3.12
+- Done when: a written line states whether the leadership team holds a block beyond the weekly leads' review; if yes, how often, roughly how long, whether off the premises, what mix of task work and team work it carries, and whether one is held before opening once both leads are hired; if no, what carries the forming work instead; reads: the block's date is placed by 2.3.30 once the reset is set
 - Replaces old items: 86akht14m
 
 ### 4.5.5 Decide the roles in a standing meeting: owner, chair, and record
@@ -88,17 +88,17 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Hiring and training
 - Book: pp. 372 to 377 (first ask whether the decision is worth escalating; if it is, the two parties jointly write the problem, the options, and the open trade-offs; then their leads decide, escalating up only if needed)
 - Default assumption: None; the white paper is silent below the founder level
-- Depends on: 2.2.3, 4.1.35, 2.1.13
-- Done when: a written path states what two people do when they disagree and neither owns the decision, when a disagreement is simply decided and moved on from, whether the leads' joint half-page (4.1.35) extends to anyone, who decides when the two people share a lead and when they do not, and what happens if one party will not take part
+- Depends on: 2.2.3, 4.1.34, 2.1.13
+- Done when: a written path states what two people do when they disagree and neither owns the decision, when a disagreement is simply decided and moved on from, whether the leads' joint half-page (4.1.34) extends to anyone, who decides when the two people share a lead and when they do not, and what happens if one party will not take part
 - Replaces old items: None
 
 ### 4.5.11 Decide the destination for each kind of thing a person needs to say
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: pp. 317 to 318 (no topics are undiscussable; put uncomfortable issues on the table before they fester)
 - Default assumption (WP p. 19 and 22): feedback runs both directions; a dedicated channel syncs to the execution system and the loop is closed; the white paper does not say where a concern about one's own lead goes
-- Depends on: 2.2.5, 2.2.11, 2.3.9, 2.3.15, 2.3.16, 4.5.10, 1.2.2
-- Done when: each of these has a named destination and a response window: a question, a friction with a tool or process, a dissent from a decision, a failure report, a concern about one's own lead, a concern about a founder, a report of a serious violation, and a pay question (by reference to 5.5); the rule that a topic with no destination is itself something to report is adopted or declined; anything still without a destination is named and parked with a date
+- Depends on: 2.2.5, 2.3.9, 1.2.2
+- Done when: each of these has a named destination and a response window: a question, a friction with a tool or process, a dissent from a decision, a failure report, a concern about one's own lead, a concern about a founder, a report of a serious violation, and a pay question (by reference to 5.5); the rule that a topic with no destination is itself something to report is adopted or declined; anything still without a destination is named and parked with a date; reads: 2.2.11's channels, 2.3.15's pulse, 2.3.16's loop window, and 4.5.10's unblocking path fill in their destinations once decided
 - Replaces old items: 86akht1m9, 86akht12m
 
 ### 4.5.12 Decide whether the pre-service window includes a staff meal
@@ -106,7 +106,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Hiring and training
 - Book: pp. 308 to 309 (team-focused activities balance task focus; a shared meal is among her offsite suggestions)
 - Default assumption (WP p. 26): the beginning of a shift is time to prepare for the customer; the white paper never mentions a staff meal and never states the window's length
-- Depends on: 2.3.7, 2.3.29, 4.1.25
+- Depends on: 2.3.7, 4.1.24
 - Done when: it is stated whether a meal is served before dinner service, when in the window, who cooks it and from what, whether it is eaten together or in shifts, and whether it is the same for the morning and late-night periods when they open; the chef partner has agreed the kitchen's cost and time; counsel has confirmed the paid-time treatment (paid time inside the window needs no separate treatment; an unpaid meal period has conditions)
 - Replaces old items: 86akht0y6
 
@@ -115,26 +115,26 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Hiring and training
 - Book: pp. 309 to 311 and 315 to 316 (a meeting serves one or two purposes; agenda items carry a purpose and a limit; the day's emotional rhythm is set at the start)
 - Default assumption (WP p. 14 and 19): the shift brief is part of the nervous system and recognition is peer-to-peer in the moment; the white paper is silent on the brief's team content
-- Depends on: 2.3.7, 2.3.20, 2.2.31, 4.1.20, 4.5.12
+- Depends on: 2.3.7, 2.2.31, 4.1.19, 4.5.12
 - Done when: the slot's length on a full window and on a compressed window is set, a short priority list of what it may carry is written (for example a line from each designation holder, a lesson told as process, a principle checked against a real event, a milestone told as fact), what it never carries is written (anything about a person's performance, a script, a survey, a policy change, anything past the cutoff before service), and the brief's record logs only which item ran or that the slot was skipped
-- Replaces old items: 86akht1t0, 86akh67xe
+- Replaces old items: 86akht1t0, 86akh67xe, 86akht26a, 86akht10z (the brief half)
 
-### 4.5.14 Write the meeting norms page
+### 4.5.14 Decide the "not currently available" state: what a person may declare, what it protects, and what never reads it
+- Type: Decision
+- Phase: Hiring and training
+- Book: pp. 296 to 298 (the environment a person can count on includes being able to say no without explaining)
+- Default assumption: (WP pp. 16, 19) the white paper commits to bandwidth before results and to a team that is not disposable; it does not describe an availability state
+- Depends on: 2.3.11, 4.1.19, 5.8.6, 3.3.32
+- Done when: the founders have decided whether a person may declare themselves not currently available for a shift, a designation, or a stretch of the schedule with no reason required; who may see the state (the person, the scheduler, the lead) and who may not; that it is distinct from the paid hold (5.10.9), from a departure state (5.10.12), and from the attendance states (5.8.6); what it protects (rotation standing, the pool, the review, pay's days-worked count) and for how long; how it ends; and that performance, attendance, or rating data never sets or reads it; the build is 5.8.22's
+- Replaces old items: 17tn048qg2a (the availability state; the rotation floor is 4.1.19's)
+
+### 4.5.15 Write the meeting norms page and the meeting page for each standing meeting, the leads' review first
 - Type: Deliverable
 - Phase: Hiring and training
-- Book: pp. 315 to 319 (norms agreed up front make course-correction easy: name the norm being broken)
+- Book: pp. 315 to 321 (norms agreed up front make course-correction easy: name the norm being broken; share the purpose, agenda, limit, and decisions in writing before the meeting)
 - Default assumption: None
-- Depends on: 4.5.9
-- Done when: one page holds the house's meeting norms, the three meeting roles, the rule for naming a decision method, the rule on correcting people, and the reconfigure date rule; it reads in under five minutes and lives in the team home (2.2.15)
-- Replaces old items: None
-
-### 4.5.15 Write the meeting page for each standing meeting, the leads' review first
-- Type: Deliverable
-- Phase: Hiring and training
-- Book: pp. 315 to 316 and 320 to 321 (share the purpose, agenda, limit, and decisions in writing before the meeting)
-- Default assumption: None
-- Depends on: 4.5.14, 4.5.5, 2.2.29, 2.3.19, 2.3.23
-- Done when: the leads' review has a one-page meeting page (purpose, standing agenda with limits, membership, who chairs, where the record lives, what pre-read is expected, the decision methods it uses, its next reconfigure date), and each other standing meeting gets one before its first run
+- Depends on: 4.5.9, 4.5.5, 2.2.29, 2.3.19
+- Done when: one page holds the house's meeting norms, the three meeting roles, the rule for naming a decision method, the rule on correcting people, and the reconfigure date rule, reads in under five minutes, and lives in the team home (2.2.15); the leads' review has a one-page meeting page (purpose, standing agenda with limits, membership, who chairs, where the record lives, what pre-read is expected, the decision methods it uses, its next reconfigure date), and each other standing meeting gets one before its first run
 - Repeatable: yes. Every owner of a standing meeting writes their own, and any new rhythm writes one before it passes the test in 2.3.3. Kit: 4.5.16
 - Replaces old items: None
 
@@ -152,7 +152,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Hiring and training
 - Book: pp. 317 to 318 (stinky fish belong on the table; tied to "say the thing you think you cannot say")
 - Default assumption (WP p. 18): communication expectations are on the sheet a candidate receives at the first interview, so the internal page should not contradict what candidates were told
-- Depends on: 4.5.11, 2.2.12, 3.1.31, 3.3.35
+- Depends on: 4.5.11, 2.2.12, 3.1.29, 3.3.35
 - Done when: one page lists each kind of message, its destination by role (never by name), and its response window; it excludes "escalate" as a destination on its own and any prompt asking how someone feels; it exists in every language spoken by staff before the first cohort's why session; the pay entries point to 5.5's pages
 - Replaces old items: 86akht1m9
 
@@ -161,7 +161,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Hiring and training
 - Book: pp. 372 to 377 (the joint document, then the managers, with a worked example)
 - Default assumption: None
-- Depends on: 4.5.10, 4.1.35
+- Depends on: 4.5.10, 4.1.34
 - Done when: a half-page tells any two people at Sŏn what to do when they disagree and direct conversation has failed: the test for whether it is worth raising, the joint write-up's three parts, who reads it, and how fast; it links from the destinations page under "a dissent"
 - Replaces old items: None
 
@@ -170,13 +170,13 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Hiring and training
 - Book: p. 314 (the best notes are not a transcript; they hold topics, decisions, follow-ups with owners and dates, and open questions)
 - Default assumption (WP p. 25, stated outright): the house says "customer" and rejects the industry's usual word for the same person, because language shapes culture
-- Depends on: 2.2.12, 2.3.11
-- Done when: one card states how an internal page, a brief line, a meeting record, and a person's own words on the person page are each written: sentence case, no invented code names, a person's words kept as said and never rewritten, the house's few fixed terms; it says what it is not (a style guide, a rule for speech, a licence to edit what someone said)
-- Replaces old items: 17tn048qc3k
+- Depends on: 2.2.12, 2.3.11, 4.8.3, 4.8.4, 1.3.2, 1.4.1
+- Done when: one card states how an internal page, a brief line, a meeting record, and a person's own words on the person page are each written: sentence case, no invented code names, a person's words kept as said and never rewritten, the house's few fixed terms; it says what it is not (a style guide, a rule for speech, a licence to edit what someone said); the card carries the house's fixed-terms list, version one: each term the chunks decide ("operating system" and "the stack" from 1.4.1; "lead" from 1.3.2; the departure words from 5.10.20; "the center", "a load", and "a founder's external load" from 6.1; "team", "the floor team", "the culinary team" from 4.1; "the review" and "points" from 5.4 and 5.5; "feedback" from 5.3), with the words each replaces, and the rule that every page on the team home is checked against the list before it is published and at each reset
+- Replaces old items: 17tn048qc3k, 17tn048qg2f, 17tn048qr4k
 
 ### 4.5.20 Add the team-content slot to the brief checklist and the skip line to its record
 - Type: Action
-- Phase: Hiring and training
+- Phase: Before opening
 - Book: pp. 315 to 316 (each agenda item carries a limit)
 - Default assumption: None
 - Depends on: 4.5.13, 2.3.20
@@ -197,17 +197,17 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Before opening
 - Book: pp. 307 to 308 (during storming, work to clean up goals, roles, and processes; celebrate getting through it; during norming, keep honing)
 - Default assumption (WP p. 13 and 36): a captured incident updates the process so the next server inherits a system that has learned; dinner runs alone for at least a quarter so the heart is solid. These pull in opposite directions on a freeze
-- Depends on: 2.3.30, 2.3.34, 2.2.18, 4.1.33
+- Depends on: 2.3.30, 2.2.18, 4.1.32
 - Done when: a written rule states which classes of change may happen inside the first quarter (a safety fix, a process fix from a capture, a tool fix) and which wait for the first reset (norms, structure, roles, the register), and who may grant an exception
 - Replaces old items: None
 
 ### 4.5.23 Decide which moments the house marks, and how
 - Type: Decision
-- Phase: Before opening
+- Phase: Hiring and training
 - Book: p. 311 (an offsite becomes a shared memory people use to locate a moment in time)
 - Default assumption (WP p. 19): peer recognition runs through a platform in the moment; the white paper is silent on milestones and anniversaries
-- Depends on: 2.3.12, 2.3.25, 4.5.13
-- Done when: a short list names the moments the house marks (for example a first solo service, a skill signed off, a period opening, the house's anniversary), where each is marked (the brief slot, the gathering, the team home), and what is never marked publicly (anything about pay, a departure's reason, a rating)
+- Depends on: 2.3.12, 4.5.13
+- Done when: a short list names the moments the house marks (for example a first solo service, a skill signed off, a period opening, the house's anniversary), where each is marked (the brief slot, the gathering, the team home), and what is never marked publicly (anything about pay, a departure's reason, a rating); reads: if 2.3.25 holds a quarterly gathering, which moments it carries
 - Replaces old items: None
 
 ### 4.5.24 Decide what team-focused content the whole-house gathering carries, if it is held
@@ -215,9 +215,9 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Before opening
 - Book: pp. 308 to 309 (task-focused and team-focused activities; tilt toward task as a team matures)
 - Default assumption (WP p. 19 and 23): feedback runs both directions and stories of how the culture shows up are gathered; the white paper does not describe a whole-staff gathering
-- Depends on: 2.3.25, 4.5.23, 4.5.6, 2.2.34
+- Depends on: 2.3.25, 4.5.23, 4.5.6, 2.3.23
 - Done when: if 2.3.25 holds the gathering, its team-focused half is a fixed list (milestones told as facts, one lesson the house learned told as process, the principles read against real events, coverage news without names, one open question from leadership with a stated channel for answers); if 2.3.25 declines it, the same list is placed elsewhere or dropped by name
-- Replaces old items: 86akh67xe
+- Replaces old items: 86akh67xe, 86akht27e, 86akht10z (the gathering half)
 
 ### 4.5.25 Decide how psychological safety is read at Sŏn, and when the baseline is set
 - Type: Decision
@@ -242,7 +242,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Before opening
 - Book: pp. 305 to 306 (an offsite evolves a set of people into a team; assess the team's state first)
 - Default assumption (WP p. 18): every new person is paired with a mentor and progression is documented from the start; the white paper describes the cohort only for opening
-- Depends on: 3.2.34, 3.3.15, 3.3.16, 4.5.23
+- Depends on: 3.2.32, 3.3.15, 3.3.16, 4.5.23
 - Done when: a written rule states whether later hires are batched to a shared start date (and how long a seat may stay open to wait for one), what a solo hire gets that a cohort gave (a named cohort of one, a mentor, a milestone marked), and whether the house accepts that staff belonging is built thinner than customer belonging or adds a mechanism by name
 - Replaces old items: 86akhb2wj
 
@@ -260,7 +260,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Before opening
 - Book: p. 319 (every three to six months audit whether meetings are useful, involve the right people, and achieve their purpose; refresh, evolve, or start over)
 - Default assumption: None; the white paper is silent
-- Depends on: 2.3.30, 2.3.34, 4.5.15
+- Depends on: 2.3.30, 4.5.15
 - Done when: it is stated whether the meeting audit is a line in the quarterly reset or its own event, the three or four questions it asks of each meeting page, whether participants are polled, and what the three outcomes are (refresh, change membership and topics, end it)
 - Replaces old items: None
 
@@ -271,7 +271,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Default assumption (WP p. 11, 13, 17, 19 to 20, 26): the path is explicit before they start; the process learns from a capture; management absorbs blame; a real employee area is basic dignity; generosity is pre-authorized
 - Depends on: 4.5.11, 4.5.17, 4.5.22, 3.3.40, 3.3.44, 2.2.4, 2.3.11
 - Done when: one page lists roughly ten things a person can rely on (rules they can read, a stated range, judgment built and read, safety to err, a destination for what they need to say, being known in their own words, a visible path, time that is not taken, a say in the rules, a place of their own), and for each names the mechanism that delivers it, whether it is built, partly built, or not yet, and the task or chunk that closes the gap
-- Replaces old items: 86akht0wq, 86ajgmmfq
+- Replaces old items: 86akht0wq, 86ajgmmfq, 86akht3fx
 
 ### 4.5.31 Add the psychological-safety read and the two environment signals to the metric register
 - Type: Action
@@ -296,7 +296,7 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: Before opening
 - Book: pp. 312 to 313 (invest in common understanding and norms before the recurring meeting starts)
 - Default assumption: None
-- Depends on: 2.2.39, 4.5.14, 4.5.17, 4.5.20, 4.5.30
+- Depends on: 2.2.38, 4.5.15, 4.5.17, 4.5.20, 4.5.30
 - Done when: the readiness test has rows for: the norms page exists and the leads have read it, every standing meeting has a page, the destinations page exists in every staff language, the brief slot is on the checklist, and the environment checklist shows nothing marked "not yet" that opening night needs
 - Replaces old items: None
 
@@ -314,8 +314,8 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: After opening
 - Book: p. 319 and pp. 308 to 309 (audit meetings; as the team matures, tilt toward task)
 - Default assumption (WP p. 23): cultural measurement is tracked with the same seriousness as cost
-- Depends on: 2.3.34, 4.5.29, 4.5.30, 4.5.31, 4.1.20, 1.1.4
-- Done when: the reset record holds: the environment checklist re-marked, the two signals and the psychological-safety read against their first-quarter baseline, each meeting page's audit outcome, the designation rotation count from 4.1.20, and a check that the work-style vocabulary appears nowhere outside the uses 1.1.4 allows; each gap has an owner
+- Depends on: 2.3.34, 4.5.29, 4.5.30, 4.5.31, 4.1.19, 1.1.4
+- Done when: the reset record holds: the environment checklist re-marked, the two signals and the psychological-safety read against their first-quarter baseline, each meeting page's audit outcome, the designation rotation count from 4.1.19, and a check that the work-style vocabulary appears nowhere outside the uses 1.1.4 allows; each gap has an owner
 - Replaces old items: 86akhcz6v, 86akh5uw3
 
 ### 4.5.36 Decide whether anyone beyond the leadership team joins a leadership forum, and when a wider one is created
@@ -323,6 +323,6 @@ The book builds a team's fabric through two rituals, offsites and meetings (pp. 
 - Phase: After opening
 - Book: p. 330 (an expanded leadership team and later an operating group gave newer senior people a forum without diluting the top team; both were retired as needs changed)
 - Default assumption (WP p. 10 and 22): designations mark accountability in the moment and are not permanent elevations; roughly eight leadership lines run the full day
-- Depends on: 4.1.36, 4.5.2, 4.5.35
+- Depends on: 4.1.35, 4.5.2, 4.5.35
 - Done when: a written rule states whether designation holders or station leads ever sit in a leadership forum, whether a wider forum exists at all or a line is added only when a staffing plan requires it, and at which review the question is next asked
 - Replaces old items: None

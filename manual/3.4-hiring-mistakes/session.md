@@ -6,7 +6,7 @@ One chunk, one short session. Brandon decides; this guide prompts. "Cons. N" poi
 
 **What this chunk covers.** Two things. First, what Sŏn does when a hire is wrong early: the grounds, who acts, how fast, what the team is told, and how a minor recurring issue in the first weeks is handled. Second, how Sŏn learns from hiring over time: the retrospective when a hire does not hold, the read on interviewers, the questions asked of the team and of declined candidates, and the join between hiring records and what happens in the first ninety days. A hire that goes wrong months in is a performance question and belongs to 5.8 and 5.10.
 
-**What is already decided upstream.** 3.2.8 names who may end a candidacy outright and on what grounds; the early-reversal rule extends that past the offer. 3.2.32 writes the offer with counsel; whatever this chunk decides about withdrawal goes into it. 3.2.41 and 3.2.43 decide the calibration read and its record; the interviewer read and the join build on them. 3.1.39 builds the pipeline report; time in process and the funnel live there. 3.3.10 to 3.3.12 fix the plan, its check-ins, and the extension rule; 3.3.27 computes the onboarding read; 3.3.28 puts a training-infrastructure line on the leads' review. 2.3.15 sets the employee pulse's rhythm. 0.1 gets counsel's list of employer duties in Texas. 2.1.5 writes the behavioral standard, which stands in for a handbook until one exists.
+**What is already decided upstream.** 3.2.7 names who may end a candidacy outright and on what grounds; the early-reversal rule extends that past the offer. 3.2.30 writes the offer with counsel; whatever this chunk decides about withdrawal goes into it. 3.2.39 and 3.2.41 decide the calibration read and its record; the interviewer read and the join build on them. 3.1.37 builds the pipeline report; time in process and the funnel live there. 3.3.10 to 3.3.12 fix the plan, its check-ins, and the extension rule; 3.3.27 computes the onboarding read; 3.3.28 puts a training-infrastructure line on the leads' review. 2.3.15 sets the employee pulse's rhythm. 0.1 gets counsel's list of employer duties in Texas. 2.1.5 writes the behavioral standard, which stands in for a handbook until one exists.
 
 **Who else must agree.** Counsel on the withdrawal and separation steps (3.4.4). Dominic on anything that touches the applicant system's configuration or a payroll step. The leads, once hired, on the retrospective they will run.
 
@@ -151,11 +151,11 @@ Ask where he wants to start. The agenda is a default order.
 
 **The question:** does Sŏn learn whose hire and no-hire calls hold up, and what happens with that knowledge?
 
-**Why it matters now:** 3.2.43's calibration record has to store the interviewer's recommendation in a form that can be joined later, or the read is impossible from the first hire.
+**Why it matters now:** 3.2.41's calibration record has to store the interviewer's recommendation in a form that can be joined later, or the read is impossible from the first hire.
 
 **Openers:**
 - Two years in. Sŏn knows that one lead's "strong hire" calls held up and the other's did not. What should happen? What should not?
-- Sideways: 3.2.14 already sends an interviewer back to paired interviews. Is that the whole use of this read, or is there another?
+- Sideways: 3.2.13 already sends an interviewer back to paired interviews. Is that the whole use of this read, or is there another?
 - WP p. 18 says reading an answer is a learned skill. What tells the learner whether they have learned?
 
 **Narrowing questions:**
@@ -172,17 +172,17 @@ Ask where he wants to start. The agenda is a default order.
 
 **Options:** (a) the full read, seen by the runner and the interviewer, changes training only; (b) volume and decisiveness only; (c) none.
 
-**Watch for:** a read that quietly decides who interviews for lead seats, which 3.2.14's class rule should decide in the open.
+**Watch for:** a read that quietly decides who interviews for lead seats, which 3.2.13's class rule should decide in the open.
 
 **A finished answer:** what is read, from where, who sees it, what it may and may never change.
 
-**Needs agreement from:** no one; 3.2.43 must carry the field.
+**Needs agreement from:** no one; 3.2.41 must carry the field.
 
-### 3.4.8 Decide whether declined candidates are surveyed, from which stage, and what is asked
+### 3.4.8 Decide whether candidates are surveyed on the hiring process, declined and hired, from which stage, and what is asked
 
 **The question:** does Sŏn ask the people it said no to how it went, and from which stage?
 
-**Why it matters now:** the first declines happen in the leads' search, before the applicant system has volume; the survey step is configured once (3.1.35).
+**Why it matters now:** the first declines happen in the leads' search, before the applicant system has volume; the survey step is configured once (3.1.33).
 
 **Openers:**
 - A candidate did the paid practical and was declined. A week later, three questions arrive. What do you want to know from them that no one inside can tell you?
@@ -192,7 +192,7 @@ Ask where he wants to start. The agenda is a default order.
 **Narrowing questions:**
 - From the first interview onward; from the practical onward; none yet (cons. 7)?
 - Questions: a recommend question and two open ones at most?
-- Sender and timing: automatic, after the decline message (3.2.22), in the candidate's language?
+- Sender and timing: automatic, after the decline message (3.2.21), in the candidate's language?
 - Reader and rhythm; and the rule that a response never changes pool standing (3.1.12).
 
 **What the book says:** survey anyone from the first interview onward; Stripe asks whether they would recommend applying and about the process; the results improve the process for everyone after (p. 226).
@@ -242,7 +242,7 @@ Ask where he wants to start. The agenda is a default order.
 
 **The question:** how does Sŏn learn whether its interviews predict anything, from facts it already records, without surveying managers or mining interview notes?
 
-**Why it matters now:** the join only works if 3.2.43 and 3.3.41 store things in a joinable form from the first hire.
+**Why it matters now:** the join only works if 3.2.41 and 3.3.41 store things in a joinable form from the first hire.
 
 **Openers:**
 - The first cohort's plans have closed. Lay the calibration records beside the plan milestones. What question do you ask first?
@@ -294,4 +294,4 @@ Once the decisions above are made, these can be drafted from what he said. Draft
 - The employee handbook itself: no chunk owns it yet; 0.1's counsel list and 2.1.5's standard are its nearest inputs. Note it for the plan of record.
 - An attendance read on the schedule (old item 17tn048qfnx): the process-cause checklist in 3.4.5 is the piece this chunk keeps; the tracking states belong with scheduling policy, nearest 4.5 or 5.8.
 - Negotiated departures and any payment on separation: 5.10 with counsel; financials are not a source for this work.
-- The revision of the success profile and the interview anchors after the first cohort: 3.1.42 and 3.2.48 receive 3.4.18's findings.
+- The revision of the success profile and the interview anchors after the first cohort: 3.1.39 and 3.2.46 receive 3.4.18's findings.

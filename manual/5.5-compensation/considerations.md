@@ -51,7 +51,7 @@ What the white paper holds, what the earlier work argued, the options, and where
 
 **One pool per day.** The earlier work's reasoning: separate pools per period make periods compete for the same people, pay a slower period's team only from its own revenue, and cut against "one restaurant ... met at different times of day" (WP p. 33); one pool also makes a cross-period marker meaningful. A per-period pool is the alternative. A practical question for the first quarter: with dinner alone open (WP p. 36), one pool and one period are the same thing; the decision matters when the early morning opens.
 
-**Who is in.** Every working seat with a shift that day, across every domain and strand; a person in training from the first paid hour; a candidate on an unpaid trial not (3.1.37); contracted labor such as the overnight cleaning crew (WP p. 26; 4.1.29) outside by not being employed team. Whether the founders and the chef partner hold points is a separate question gated on counsel (section 11) and the operating agreement (2.1.1). Nothing about any founder's own pay is recorded in this repo.
+**Who is in.** Every working seat with a shift that day, across every domain and strand; a person in training from the first paid hour; a candidate on an unpaid trial not (3.1.35); contracted labor such as the overnight cleaning crew (WP p. 26; 4.1.28) outside by not being employed team. Whether the founders and the chef partner hold points is a separate question gated on counsel (section 11) and the operating agreement (2.1.1). Nothing about any founder's own pay is recorded in this repo.
 
 ## 6. What sets points, what never does, and what a day is
 
@@ -65,7 +65,7 @@ What the white paper holds, what the earlier work argued, the options, and where
 
 ## 7. The daily calculation, the pay page, the rhythm, and what is published
 
-**Calculation.** At close the pool is computed from the base and the percentage, every working person's points are summed, each share is proportional to their points over the total, and each page is written by the next morning in the person's language. No lead computes anyone's pay or sees anyone else's page. Until software support exists, this is a back-office process, and 5.5.39 has it run through the training services before the first pay date.
+**Calculation.** At close the pool is computed from the base and the percentage, every working person's points are summed, each share is proportional to their points over the total, and each page is written by the next morning in the person's language. No lead computes anyone's pay or sees anyone else's page. Until software support exists, this is a back-office process, and 5.5.40 has it run through the training services before the first pay date.
 
 **The page.** The day, seat and horizon, weight, active markers, points, share, accrued share to the next pay date, base hours, the day's total points, and the weight-move history. Visible to the person and their holder only (2.2.6 left the pool's visibility to this chunk).
 
@@ -77,11 +77,11 @@ What the white paper holds, what the earlier work argued, the options, and where
 
 ## 8. The routed pay lines: training, teaching, translation, the discretionary range
 
-**Training.** Base pay for every scheduled training hour from the first paid hour, plus the seat's entry-horizon weight in the pool from that same hour, with no reduced training weight, because a lower weight functions as an unstated probation label. Alternative: a reduced weight during training. The unpaid trial shift stays a counsel-defined question (3.1.37).
+**Training.** Base pay for every scheduled training hour from the first paid hour, plus the seat's entry-horizon weight in the pool from that same hour, with no reduced training weight, because a lower weight functions as an unstated probation label. Alternative: a reduced weight during training. The unpaid trial shift stays a counsel-defined question (3.1.35).
 
 **Teaching.** 3.3.18 recorded three constraints: authorship paid on approval, not on writing; completion paid on the platform's own record; mentoring paid as ordinary shift pay. The earlier work's forms: authorship as a flat payment per approved module and per approved revision, as base pay, with nothing per completion by others (which would reward pushing modules and rank authors by reach); completion carried by paid module time and the unlock it leads to, with no separate payment (which would reward finishing over readiness), the alternative per-completion payment stated for the founders to weigh against WP p. 19's "the more modules completed, the more earned"; mentoring as shift pay plus a teaching marker for every day a mentored plan is open, never tied to the mentee's outcome (which would make the mentor a judge) and never stacked.
 
-**Translation and interpreting.** Translation like authorship: a flat payment per approved version, requiring the document's owner and a second fluent reviewer, as base pay; a software-assisted draft paid for the human review, with a disclosure note (4.8.3). Live interpreting is an on-clock designation carrying ordinary shift pay (4.8.4).
+**Translation and interpreting.** Translation like authorship: a flat payment per approved version, requiring the document's owner and a second fluent reviewer, as base pay; a software-assisted draft paid for the human review, with a disclosure note (4.8.3). Live interpreting is an on-clock designation carrying ordinary shift pay (4.8.5).
 
 **The discretionary range.** Two values (what may be comped on judgment; the escalation threshold) set in Dominic's domain against the financial model, written as actual numbers on the range card (3.3.40) rather than "use your judgment," versioned, and reviewed at the reset against how often the range was used or exceeded. Until set, a person told to use judgment is "unprotected, not free." The comped-item rule in section 5 is what keeps the range from taxing the pool.
 
@@ -105,7 +105,7 @@ None of these is settled by designing around it. Whether embedding compensation 
 
 ## 12. Sequencing against the leads' offers
 
-The candidate sheet promises the compensation mechanics at the first interview (WP p. 18), and the two leads are hired months before this chunk can run in full. 3.2.18 and 3.1.30 already decided the order in principle. The earlier work's resolution: a first interview may run on the mechanism shown with values marked unset; no offer goes out before the rows an offer needs are set: the percentage, the revenue classes, the two lead seats' salaries and weights, and the payment rhythm. Everything else can be settled as a mechanism first. Which seats are salaried also decides who gets the final-round dinner (WP p. 18).
+The candidate sheet promises the compensation mechanics at the first interview (WP p. 18), and the two leads are hired months before this chunk can run in full. 3.2.17 and 3.1.28 already decided the order in principle. The earlier work's resolution: a first interview may run on the mechanism shown with values marked unset; no offer goes out before the rows an offer needs are set: the percentage, the revenue classes, the two lead seats' salaries and weights, and the payment rhythm. Everything else can be settled as a mechanism first. Which seats are salaried also decides who gets the final-round dinner (WP p. 18).
 
 ## 13. Benefits
 
@@ -129,7 +129,7 @@ General practice, not Sŏn-specific.
 - 5.4: the same sentence on the review page and the mechanics page about what the review feeds.
 - 5.10: separation pay, pay during a hold, the reduction rules, the counsel one-sentence card.
 - 4.7: which tags the parity read may use.
-- 4.1: whether events staff (4.1.28) form a seat class in the pool; the cleaning crew's contract (4.1.29).
+- 4.1: whether events staff (4.1.27) form a seat class in the pool; the cleaning crew's contract (4.1.28).
 - 3.1 and 3.2: the candidate sheet's compensation and benefits items; whether any offer term is negotiable now that entry pay is one rule per seat.
 - 2.2.6: the pool's visibility, once 5.5.19 and 5.5.20 are decided.
 - 2.3.31: the pay date and the market refresh as rhythms on the cadence calendar.

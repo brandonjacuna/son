@@ -50,7 +50,7 @@ The book: verbal recognition and special assignments (p. 431). Prior work argued
 Considerations:
 - The mentor pool is the white paper's own answer: the mentor is "a proven cultural steward rather than simply the strongest performer" (WP p. 18). That is the steady middle described as a qualification. Whether 3.3.13's mentor rule says so is a question for this decision.
 - The assessor pool (4.1.14) is another: the person who has held a seat well is a credible reader of whether someone else is ready.
-- "Special assignment" at Sŏn is the per-service designation, which 4.1.20 gives a rotation floor. Whether anything exists outside the rotation, and who allocates it, is the book's practice against the white paper's design.
+- "Special assignment" at Sŏn is the per-service designation, which 4.1.19 gives a rotation floor. Whether anything exists outside the rotation, and who allocates it, is the book's practice against the white paper's design.
 - A lead saying "well done" at a check-in is not a rating. A lead saying it in the brief is public praise, which 5.3.7 governs.
 
 ## 6. Seat rhythm (5.7.6)
@@ -68,7 +68,7 @@ The book says only that medium performers are easy to neglect (p. 431). Prior wo
 
 Considerations:
 - Hours are pay at Sŏn (WP p. 20), so an unpublished hours rule is an unpublished pay lever in a lead's hands.
-- The person moving (in the pool, authoring modules, holding designations) is the one a lead is most tempted to schedule on the best shifts. The rotation floor (4.1.20) covers designations; the schedule itself needs its own rule.
+- The person moving (in the pool, authoring modules, holding designations) is the one a lead is most tempted to schedule on the best shifts. The rotation floor (4.1.19) covers designations; the schedule itself needs its own rule.
 - Seasonal reductions announced in advance are what the industry rarely does and what the white paper's "respect for time" (WP p. 17) implies.
 
 Options for the reduction order: (a) stated preference first, then rotation by eligibility. (b) seniority in the seat (the union pattern). (c) the lead decides, with a written reason. Each commits to something: (a) to a published mechanism a person can read; (b) to tenure meaning something 5.7.4 may have refused; (c) to the discretion the white paper designs out.

@@ -139,3 +139,5 @@ None.
 | How a lead is reviewed against the basics | 5.9 |
 | The founders' own pace, learning tempo, and reflection practice | 1.4 (the house's tempos), 6.1 (the founder's own) |
 | Any financial figure | Financials are not a source for this work; say so and move on |
+
+- New in the cross-chunk pass: 0.4 Open the counsel questions register; brief to be written.

@@ -6,9 +6,9 @@
 
 **Already decided upstream.** The floor manager and the Maitre d are one seat (2026-09-13, recorded in 2.2's `decisions.md`). That is not reopened; 4.1.1 notes what it settles and what it leaves open. From 2.2, if decided by the time this session runs: the decision-rights form (2.2.2), the cross-domain rule (2.2.3), who holds each lead's check-in (2.2.5), emergency authority (2.2.7), the channels a change travels (2.2.11), and the accountability mechanisms (2.2.29). Where they are not yet decided, this session records positions and marks the dependency.
 
-**Who else must agree.** Dominic on everything at the founder level. The chef partner on the kitchen's spine, the mid-service call (4.1.22), the pass card, and everything below the spine (4.1.25), which is theirs outright. Counsel on the salaried test and designation-borne authority (cons. 11).
+**Who else must agree.** Dominic on everything at the founder level. The chef partner on the kitchen's spine, the mid-service call (4.1.21), the pass card, and everything below the spine (4.1.24), which is theirs outright. Counsel on the salaried test and designation-borne authority (cons. 11).
 
-**Why it sits here.** 2.2 built the operating system on units it did not fully define; 2.2.36 (the variety test) waits on this chunk's line list. 3.1 and 3.2 cannot write a candidate sheet without a direct lead per seat (WP p. 18). 4.2 to 4.8 build the team's environment and need to know what "the team" is. 5.5 prices what this chunk defines (fluency, salaried seats).
+**Why it sits here.** 2.2 built the operating system on units it did not fully define; 2.2.34 (the variety test) waits on this chunk's line list. 3.1 and 3.2 cannot write a candidate sheet without a direct lead per seat (WP p. 18). 4.2 to 4.8 build the team's environment and need to know what "the team" is. 5.5 prices what this chunk defines (fluency, salaried seats).
 
 ## 2. Agenda
 
@@ -20,8 +20,8 @@ A default order; start where he wants.
 4. Altitude: 4.1.7, 4.1.8, 4.1.9.
 5. Markers and advancement: 4.1.10, 4.1.11.
 6. The inventory: 4.1.12, 4.1.13, 4.1.14, then 4.1.15 as a working draft, and the kitchen's spine (4.1.17).
-7. The narrative (4.1.18) and the web's content (4.1.19), if time; otherwise drafted after from what he said.
-8. Second session, or later in this one: designations (4.1.20, 4.1.21, 4.1.22), the two unowned functions (4.1.28, 4.1.29), temporary structures and live risk (4.1.30, 4.1.31), the change cadence (4.1.33), relief and adding a line (4.1.36).
+7. The narrative and the web's content (4.1.18), if time; otherwise drafted after from what he said.
+8. Second session, or later in this one: designations (4.1.19, 4.1.20, 4.1.21), the two unowned functions (4.1.27, 4.1.28), temporary structures and live risk (4.1.29, 4.1.30), the change cadence (4.1.32), relief and adding a line (4.1.35).
 
 Items 1 to 6 are the before-the-first-hire work; if the session is short, stop after 6.
 
@@ -112,7 +112,7 @@ Items 1 to 6 are the before-the-first-hire work; if the session is short, stop a
 
 **Options:** (a) the Maitre d. Commits that seat to the largest load in the house and makes the room, door, and sequence designations load-bearing. (b) the Operations Lead. Commits a seat without people outcomes to check-ins and splits the floor. (c) a separate strand lead. Commits Sŏn to a line the count has no room for. Depth: cons. 5.
 
-**Watch for:** choosing (a) without accepting what it does to the Maitre d's load (4.1.36 and the load reading); choosing (b) because the language matches, without asking who develops the person.
+**Watch for:** choosing (a) without accepting what it does to the Maitre d's load (4.1.35 and the load reading); choosing (b) because the language matches, without asking who develops the person.
 
 **A finished answer:** one seat named for runners and hosts, the reason, the consequence for that seat's load, and what the Operations Lead reads as a record.
 
@@ -150,7 +150,7 @@ Items 1 to 6 are the before-the-first-hire work; if the session is short, stop a
 
 ### 4.1.6 Write the leadership-line list (input needed)
 
-**What Brandon supplies:** confirmation of each line from 4.1.2 to 4.1.5, what each owns, and which periods each covers by presence. **Capture:** how he describes each line to a candidate in one sentence; those sentences seed the narrative (4.1.18). **Watch for:** counting to eight to match WP p. 22; the list is what it is and 2.2.36 tests it.
+**What Brandon supplies:** confirmation of each line from 4.1.2 to 4.1.5, what each owns, and which periods each covers by presence. **Capture:** how he describes each line to a candidate in one sentence; those sentences seed the narrative (4.1.18). **Watch for:** counting to eight to match WP p. 22; the list is what it is and 2.2.34 tests it.
 
 ### 4.1.7 Decide whether Sŏn has levels and ladders, and what carries a ladder's functions if not
 
@@ -357,19 +357,17 @@ Items 1 to 6 are the before-the-first-hire work; if the session is short, stop a
 
 **What Brandon supplies:** which items are the spine (hold regardless of who the chef partner is) and which are the chef partner's. **Watch for:** anything on the spine that is really a preference about food or a kitchen's shape; anything on the open list the floor cannot open a seat without (the pass seam).
 
-### 4.1.18 Write the structure narrative (input needed)
+### 4.1.18 Write the structure narrative and the structural content the web rendering carries (input needed)
 
 **What Brandon supplies:** how he would tell a line cook why there is no general manager, what a designation is, and how she advances. **Capture:** his exact sentences; they are the draft. **Watch for:** the investor's vocabulary (tensegrity, code-bearing) reaching the team page undefined.
 
-### 4.1.19 Write the structural content the web rendering must carry (input needed)
+Also covers what "Write the structural content the web rendering must carry" asked (from 4.1).
 
-**What Brandon supplies:** what must be on the page and what must not (boxes, arrows, a top). **Watch for:** designing the visual in the session; the design and its owner are outside this manual.
-
-### 4.1.20 Decide what a per-service designation is, what it may hold, and the rotation floor
+### 4.1.19 Decide what a per-service designation is, what it may hold, and the rotation floor
 
 **The question:** what is a designation allowed to carry, what may it never carry, who is eligible, and how do you keep it from becoming one person's job?
 
-**Why it matters now:** the brief names designations every service (2.2.31, 2.3.7); the room designation (4.1.21) is built on this; a designation is the only elevation if 4.1.7 refuses levels.
+**Why it matters now:** the brief names designations every service (2.2.31, 2.3.7); the room designation (4.1.20) is built on this; a designation is the only elevation if 4.1.7 refuses levels.
 
 **Openers:**
 - The same host has held the door for three weeks straight because she is the best at it. Is that a problem?
@@ -395,7 +393,7 @@ Items 1 to 6 are the before-the-first-hire work; if the session is short, stop a
 
 **Needs agreement from:** both seated founders.
 
-### 4.1.21 Decide the room designation, and how the threshold is held when the Maitre d is not working
+### 4.1.20 Decide the room designation, and how the threshold is held when the Maitre d is not working
 
 **The question:** on the services the Maitre d does not work, who holds the room, and is the threshold a post the Maitre d stands at or a function someone holds per service?
 
@@ -426,7 +424,7 @@ Items 1 to 6 are the before-the-first-hire work; if the session is short, stop a
 
 **Needs agreement from:** both seated founders.
 
-### 4.1.22 Decide who calls a mid-service failure that spans the floor and the kitchen
+### 4.1.21 Decide who calls a mid-service failure that spans the floor and the kitchen
 
 **The question:** when one call has to cover both the room and the kitchen in the same minute, who makes it?
 
@@ -455,11 +453,11 @@ Items 1 to 6 are the before-the-first-hire work; if the session is short, stop a
 
 **Needs agreement from:** the chef partner; both seated founders.
 
-### 4.1.25 Chef partner shapes the kitchen below the spine
+### 4.1.24 Chef partner shapes the kitchen below the spine
 
 Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) and the open list are what the chef partner receives, and that the founders read the results only for conflicts with the spine. **Needs agreement from:** the chef partner decides; the founders read.
 
-### 4.1.28 Decide who holds an event in the room
+### 4.1.27 Decide who holds an event in the room
 
 **The question:** an event in the room: whose is it?
 
@@ -469,7 +467,7 @@ Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) 
 
 **What the book says:** a project drawn from the team ends when done; if it never ends, it is a team (pp. 266 to 267). **White-paper default:** the events team is collapsed with no named heir (WP p. 22); events build cultural equity and customer relationships (WP pp. 28, 31). **How others have handled it:** General practice, not Sŏn-specific. Rooms without an events seat run events as services with a brief; an events seat appears when volume makes the brief a job. **Options:** the room-holder; a standing designation; a seat added later through 4.1.12. **Watch for:** an event that quietly needs a seat no one created. **A finished answer:** the owner named, the founder threshold stated, the brand-side boundary drawn. **Needs agreement from:** both seated founders.
 
-### 4.1.29 Decide where the overnight cleaning crew sits in the structure
+### 4.1.28 Decide where the overnight cleaning crew sits in the structure
 
 **The question:** a contracted crew touches the kitchen and the facility overnight; who owns it, and what may it touch?
 
@@ -479,7 +477,7 @@ Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) 
 
 **What the book says:** a horizontal function needs an owner (pp. 271 to 272). **White-paper default:** an overnight crew "at the same cost" so servers do relationship work at close (WP p. 26); facility and vendors are the Operations Lead's, the kitchen's continuity the Steward's (WP pp. 10, 11). **How others have handled it:** General practice, not Sŏn-specific. Contracted overnight cleaning usually runs on a written scope and a morning check by someone in the kitchen; when the scope is verbal, the kitchen absorbs the gaps. **Options:** as the narrowing questions. **Watch for:** a cost argument; the crew sits outside the compensation pool, which is 5.5's to weigh. **A finished answer:** owner, range, refusals, and the Steward seam stated; the inventory row filled or removed. **Needs agreement from:** both seated founders; the chef partner on the kitchen side.
 
-### 4.1.30 Decide the temporary structures Sŏn allows
+### 4.1.29 Decide the temporary structures Sŏn allows
 
 **The question:** what are Sŏn's forms of the book's project and working group, and how does each end?
 
@@ -489,7 +487,7 @@ Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) 
 
 **What the book says:** three constructs; ask objective, skills, duration; never let a temporary structure persist (pp. 265 to 267). **White-paper default:** process change and period openings are the temporary work (WP pp. 13, 35 to 36). **How others have handled it:** General practice, not Sŏn-specific. The end date, written at the start, is what distinguishes a project from a department in waiting. **Options:** two forms; two plus ad hoc working groups for the build. **Watch for:** a working group that is really the leads' review under another name. **A finished answer:** each form with owner, life, and end, and the overrun rule. **Needs agreement from:** both seated founders.
 
-### 4.1.31 Decide how a live existential risk is run
+### 4.1.30 Decide how a live existential risk is run
 
 **The question:** when a risk on the register goes live, what changes, and what deliberately does not?
 
@@ -499,7 +497,7 @@ Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) 
 
 **What the book says:** the Code Yellow, pp. 268 to 270. **White-paper default:** bandwidth is health, burnout is a system failure, the stack is deterministic, no special powers (WP pp. 12, 16 to 17, 21). **How others have handled it:** General practice, not Sŏn-specific. Owner, exit condition, time cap are the three that survive everywhere; the powers vary. **Options:** discipline without powers; the Code Yellow adapted; no mode. Commitments: cons. 3. **Watch for:** "longer hours" arriving as dedication. **A finished answer:** trigger, owner class, record, reader, closing rule, and each power's fate. **Needs agreement from:** both seated founders.
 
-### 4.1.33 Decide when the structure is reexamined
+### 4.1.32 Decide when the structure is reexamined
 
 **The question:** on what occasions is the whole structure read again, and what is read?
 
@@ -509,7 +507,7 @@ Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) 
 
 **What the book says:** yearly; too often destabilizes, too rarely drifts (p. 265). **White-paper default:** the structure changes most at period openings, which are gated (WP pp. 35 to 36). **How others have handled it:** nothing useful beyond the book's own caution. **Options:** gates and resets; yearly with gates as exceptions; entries only. Commitments: cons. 2. **Watch for:** a reexamination that is a reorganization by another name. **A finished answer:** the occasions, the reading list, and the candidate's sentence. **Needs agreement from:** both seated founders.
 
-### 4.1.36 Decide how a lead's load is relieved, and when a leadership line is added
+### 4.1.35 Decide how a lead's load is relieved, and when a leadership line is added
 
 **The question:** when a lead's check-in load or live load exceeds what the seat can hold, what gives first, and what would ever justify a new line?
 
@@ -521,7 +519,7 @@ Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) 
 
 **Narrowing questions:**
 - The order: stack, designations, longer check-in interval after training, then a line beside. Right order? Anything missing?
-- A new line only when 2.2.36 shows a class resolving to nothing or to a founder. Would you ever add one on load alone?
+- A new line only when 2.2.34 shows a class resolving to nothing or to a founder. Would you ever add one on load alone?
 - Beside, never above: is that absolute?
 - If a line is added, do you run the book's method (sketch, narrative, people, one-to-one, monitoring)?
 
@@ -541,34 +539,33 @@ Not Brandon's decision. **What this session does:** confirms the spine (4.1.17) 
 
 ## 4. Deliverables that follow
 
-- 4.1.6 the leadership-line list: drafted from 4.1.2 to 4.1.5, the input to 2.2.36.
+- 4.1.6 the leadership-line list: drafted from 4.1.2 to 4.1.5, the input to 2.2.34.
 - 4.1.15 the seat inventory, version one. Repeatable: each domain lead proposes their rows; the chef partner writes the kitchen's.
 - 4.1.17 the kitchen's spine and the chef partner's open list.
-- 4.1.18 the structure narrative, drafted from his sentences in the session.
-- 4.1.19 the web rendering's structural content.
-- 4.1.23 the designation cards (room, door, sequence, interpreter). Repeatable: the chef partner writes the pass card; a future period adds its own.
-- 4.1.26 the degraded-mode printed set, owned by the Operations Lead once seated.
-- 4.1.32 the live-risk line's form.
-- 4.1.34 the structure change entry, with the version-one inventory and line list as its first entries.
-- 4.1.35 the cross-domain hold's joint half-page.
-- 4.1.37 the seat load reading; 4.1.38 the interface read line.
+- 4.1.18 the structure narrative, drafted from his sentences in the session, with the web rendering's structural content beside it.
+- 4.1.22 the designation cards (room, door, sequence, interpreter). Repeatable: the chef partner writes the pass card; a future period adds its own.
+- 4.1.25 the degraded-mode printed set, owned by the Operations Lead once seated.
+- 4.1.31 the live-risk line's form.
+- 4.1.33 the structure change entry, with the version-one inventory and line list as its first entries.
+- 4.1.34 the cross-domain hold's joint half-page.
+- 4.1.36 the seat load reading; 4.1.37 the interface read line.
 
 All drafts are marked draft for his review.
 
 ## 5. Kits this session seeds
 
 - `kits/seat-row/` (4.1.16): intake, guide, template; example only if Brandon agrees a floor row can serve. Capture during 4.1.15: which questions produced a clean row, the order that worked, where he stalled, and what he needed in front of him.
-- `kits/designation-card/` (4.1.24): intake, guide, template; example only if the room card can serve. Capture during 4.1.20 and 4.1.21: how he separated what a designation holds from what it refuses, and what a first holder needs read to them.
+- `kits/designation-card/` (4.1.23): intake, guide, template; example only if the room card can serve. Capture during 4.1.19 and 4.1.20: how he separated what a designation holds from what it refuses, and what a first holder needs read to them.
 
 ## 6. Parking lot
 
 - 2.2.5: who holds the Head of Beverage's check-in, if not settled in 4.1.5.
 - 2.2.7 and 2.2.31: emergency authority and the transition trigger, which the room designation carries but does not define.
-- 2.2.36: the variety test, run on 4.1.6's list.
-- 2.3.7 and 2.3.20: the brief's designation block, specified by 4.1.23.
+- 2.2.34: the variety test, run on 4.1.6's list.
+- 2.3.7 and 2.3.20: the brief's designation block, specified by 4.1.22.
 - 2.3.10 and 2.3.11: check-in intervals and the person page, where connections and fluency markers live.
 - 3.1 and 3.2: the candidate sheet's org rendering, direct lead, and advancement path; the sentence that the structure will change.
-- 3.3: the training window before an assessment schedules, the assessment's content, the "outward, not upward" onboarding answer, the training services that 4.1.27 uses.
+- 3.3: the training window before an assessment schedules, the assessment's content, the "outward, not upward" onboarding answer, the training services that 4.1.26 uses.
 - 5.5: pricing of fluency, the salaried pay form, entry pay for a lead, pay moves on recorded unlocks, the overnight crew outside the pool.
 - 5.10: the departure and reduction process a held seat's closure follows.
 - The naming session (WP p. 15): the customer-facing wording of the Maitre d and the threshold, and the sonic-governance responsibility split that assumed two floor tiers.

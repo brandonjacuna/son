@@ -4,7 +4,7 @@
 
 **What this chunk covers.** The book builds a team's fabric with offsites and meetings (pp. 304 to 330). Sŏn's standing rooms already exist on paper: the brief, the close, the check-in, the leads' review, the house review, the reset. This session decides how people are treated inside those rooms, what the house does that no review does (a meal, a marked moment, a gathering's team half), where every kind of thing a person needs to say goes, whether the leadership team is a team or a coordination room, and how the whole environment is read. It ends with a one-page checklist of what any person at Sŏn can count on.
 
-**Already decided upstream, do not reopen.** What counts as a team and whether the service periods are one team (4.1.2). The brief's fixed content and the close's (2.3.7, 2.3.8). The check-in as Sŏn's 1:1 (2.3.9). The leads' review's chair and attendance (2.3.13). Whether a whole-house gathering is held (2.3.25). The mechanism reset and the founders' annual block (2.3.30). Who holds each lead's check-in (2.2.5; several destinations here wait on it). The decision-rights rule and register (2.2.2, 2.2.4). The designation rotation floor (4.1.20). The work-style vocabulary's use beyond the founders (1.1.4). How a mentor pairing ends (3.3.14).
+**Already decided upstream, do not reopen.** What counts as a team and whether the service periods are one team (4.1.2). The brief's fixed content and the close's (2.3.7, 2.3.8). The check-in as Sŏn's 1:1 (2.3.9). The leads' review's chair and attendance (2.3.13). Whether a whole-house gathering is held (2.3.25). The mechanism reset and the founders' annual block (2.3.30). Who holds each lead's check-in (2.2.5; several destinations here wait on it). The decision-rights rule and register (2.2.2, 2.2.4). The designation rotation floor (4.1.19). The work-style vocabulary's use beyond the founders (1.1.4). How a mentor pairing ends (3.3.14).
 
 **Who else must agree.** Dominic: the leadership team question (4.5.2), the leadership block (4.5.4), the freeze (4.5.22), the decision log (4.5.26). The chef partner: the staff meal (4.5.12), the kitchen's brief slot (4.5.13, 4.5.20), and whether the chef partner sits in the leadership team (4.5.2). Counsel: the meal's paid-time treatment only.
 
@@ -31,7 +31,7 @@ A default order. Start wherever he wants.
 
 **The question:** when the Maitre d and the Operations Lead sit down each week, are they a team whose success each puts ahead of their own domain, or two domain owners coordinating?
 
-**Why it matters now:** the lead seats are hired before anyone else, and a candidate deserves to know at interview which of these they are joining (2.1.19, 3.1.29). The answer also sets what the leads' review can ask of them, and whether the chef partner sits in the room as a peer.
+**Why it matters now:** the lead seats are hired before anyone else, and a candidate deserves to know at interview which of these they are joining (2.1.19, 3.1.27). The answer also sets what the leads' review can ask of them, and whether the chef partner sits in the room as a peer.
 
 **Openers:**
 - The Maitre d has a floor problem that will make the Operations Lead's labor numbers look bad next week. In your house, does that reach the Tuesday review, or does it get fixed quietly first?
@@ -115,7 +115,7 @@ A default order. Start wherever he wants.
 
 **Options:** (a) no block; (b) one pre-opening block, then none; (c) a recurring block one to three times a year. Under (b) or (c), the scaffolding choices above. Depth: cons. 2.
 
-**Watch for:** a block that is the readiness test under another name (that is 2.2.40); a block that exists to read morale (the earlier work was clear it should not); an agenda with no team half at all, which is the failure the book names.
+**Watch for:** a block that is the readiness test under another name (that is 2.2.39); a block that exists to read morale (the earlier work was clear it should not); an agenda with no team half at all, which is the failure the book names.
 
 **A finished answer:** none, once, or recurring, with cadence and length if recurring; the task and team mix in one line; whether the first one is held before opening; and what carries the forming work if the answer is none.
 
@@ -249,7 +249,7 @@ A default order. Start wherever he wants.
 
 **The question:** the short list of one-sentence rules anyone can quote when a meeting breaks one.
 
-**Why it matters now:** it collects 4.5.5 to 4.5.8 into a page (4.5.14) the leads read before their first review.
+**Why it matters now:** it collects 4.5.5 to 4.5.8 into a page (4.5.15) the leads read before their first review.
 
 **Openers:**
 - Pre-reads: read the night before, or read together in silence for the first five minutes? You have sat in both. Which one did people actually do?
@@ -270,7 +270,7 @@ A default order. Start wherever he wants.
 
 **Watch for:** more than eight; a norm no one could quote at the moment it is broken.
 
-**A finished answer:** the list, each a sentence, ready for 4.5.14.
+**A finished answer:** the list, each a sentence, ready for 4.5.15.
 
 **Needs agreement from:** Dominic.
 
@@ -278,7 +278,7 @@ A default order. Start wherever he wants.
 
 **The question:** two people disagree, neither owns the decision, and talking has not fixed it. What do they do next?
 
-**Why it matters now:** 2.2.3 and 4.1.35 answer this for the two leads. Nothing answers it for a server and a cook, or two designation holders, and the first such disagreement will happen in training services.
+**Why it matters now:** 2.2.3 and 4.1.34 answer this for the two leads. Nothing answers it for a server and a cook, or two designation holders, and the first such disagreement will happen in training services.
 
 **Openers:**
 - A server and the pass disagree about firing a course. Tonight it is decided in three seconds by whoever is closer to the domain. Next week it is still a disagreement. Where does it go?
@@ -286,7 +286,7 @@ A default order. Start wherever he wants.
 - Sideways: the last time you and Dominic disagreed and had to write it down. Did writing it change the disagreement?
 
 **Narrowing questions:**
-- Does the leads' joint half-page (4.1.35) extend to anyone, or only to people who each own something?
+- Does the leads' joint half-page (4.1.34) extend to anyone, or only to people who each own something?
 - Who decides when both people share a lead, and when they do not?
 - What if one party will not write?
 - Where does this link from on the destinations page: under "a dissent"?
@@ -416,7 +416,7 @@ A default order. Start wherever he wants.
 
 **Narrowing questions:**
 - Classes: a safety fix, a process fix from a capture, a tool fix, a norm, a role, a register entry, the structure. Which move now and which wait?
-- Who grants an exception, and is it recorded on the structure-change entry (4.1.34)?
+- Who grants an exception, and is it recorded on the structure-change entry (4.1.33)?
 - Does the freeze end at the reset, or at a date?
 
 **What the book says:** while storming, work to clean up goals, roles, and processes; frame conflict as normal (pp. 307 to 308).
@@ -425,7 +425,7 @@ A default order. Start wherever he wants.
 
 **How others have handled it:** General practice, not Sŏn-specific. New operations commonly hold structure fixed and let procedure move in the first months; the book's caution is that a team told nothing can change stops reporting what should.
 
-**Options:** (a) full freeze except safety; (b) process moves, norms and structure wait; (c) no freeze, all changes through 4.1.34. Depth: cons. 3.
+**Options:** (a) full freeze except safety; (b) process moves, norms and structure wait; (c) no freeze, all changes through 4.1.33. Depth: cons. 3.
 
 **Watch for:** "process" and "norm" with no line between them; a freeze that stops captures being acted on, which is the white paper's core loop.
 
@@ -558,7 +558,7 @@ A default order. Start wherever he wants.
 
 **The question:** the cohort gives the opening team each other. What does a person hired in month five get?
 
-**Why it matters now:** 3.3.16 sets start-date conditions and 3.2.34 the hiring calendar; batching later hires changes both. And the earlier work said plainly that staff belonging is built thinner than customer belonging. That deserves a decision, not a footnote.
+**Why it matters now:** 3.3.16 sets start-date conditions and 3.2.32 the hiring calendar; batching later hires changes both. And the earlier work said plainly that staff belonging is built thinner than customer belonging. That deserves a decision, not a footnote.
 
 **Openers:**
 - Month five, one server hired. First shift. Who do they eat with, if there is a meal? Who knows their name by the end of the week besides their mentor?
@@ -582,7 +582,7 @@ A default order. Start wherever he wants.
 
 **A finished answer:** batch or not, the wait rule, what a solo hire gets by name, and the house's position on the thinness.
 
-**Needs agreement from:** none; 3.2.34 and 3.3.16 need updating if batching.
+**Needs agreement from:** none; 3.2.32 and 3.3.16 need updating if batching.
 
 ### 4.5.28 Decide what the house does with a mentor relationship that continues after the pairing ends
 
@@ -652,7 +652,7 @@ A default order. Start wherever he wants.
 - Sideways: the "expanded leadership team" Stripe built and then retired (p. 330). What was it for, and does Sŏn ever need the thing it was for?
 
 **Narrowing questions:**
-- Never; for one fixed item; or a forum created at a gate (4.1.36) with a retire date?
+- Never; for one fixed item; or a forum created at a gate (4.1.35) with a retire date?
 
 **What the book says:** an expanded leadership team and an operating group gave newer leaders a forum; both were retired as needs changed (p. 330).
 
@@ -682,8 +682,7 @@ A default order. Start wherever he wants.
 
 ## 4. Deliverables that follow
 
-- The meeting norms page (4.5.14). Not repeatable.
-- The meeting page for the leads' review, then each standing meeting (4.5.15). **Repeatable:** every owner of a standing meeting writes their own; any new rhythm writes one before 2.3.3's test.
+- The meeting norms page and the meeting page for the leads' review, then each standing meeting (4.5.15; the norms page merged in during the cross-chunk pass). **Repeatable:** every owner of a standing meeting writes their own; any new rhythm writes one before 2.3.3's test.
 - The destinations page (4.5.17), in every staff language. Not repeatable.
 - The unblocking note (4.5.18). Not repeatable.
 - The internal writing card (4.5.19). Not repeatable.
@@ -709,3 +708,4 @@ A default order. Start wherever he wants.
 - Whether a lead's "the way I want it tonight" line in a check-in is aggregated as a friction signal: 4.2.
 - The learning platform's first modules, which the visible path waits on: 3.3.38.
 - Team communication beyond meetings (channels, written updates, the team home's voice): 4.8.
+- New in the cross-chunk pass: 4.5.14 Decide the "not currently available" state: what a person may declare, what it protects, and what never reads it; brief to be written.

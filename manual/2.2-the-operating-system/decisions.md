@@ -156,14 +156,21 @@ Recorded in Brandon's words, with his reasoning. Status is open, decided, pendin
 - Date:
 - Still needs:
 
-## 2.2.37 Decide that a service period opens on a test, not a date, and that the readiness test is the operating-system half of the gate
+## 2.2.35 Decide that a service period opens on a test, not a date, and that the readiness test is the operating-system half of the gate
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 2.2.38 Decide what "dinner is steady" means, as the gate that opens the next service period
+## 2.2.36 Decide what "dinner is steady" means, as the gate that opens the next service period
+- Status: open
+- Decision:
+- Reasoning (his words):
+- Date:
+- Still needs:
+
+## 2.2.37 Decide whether the readiness test reads the company's shape as well as the building
 - Status: open
 - Decision:
 - Reasoning (his words):
@@ -188,14 +195,14 @@ Not typed as decisions in `tasks.md`, but each needs a choice from Brandon befor
 - Date:
 - Still needs:
 
-## 2.2.32 What the brief and the close must carry, and what they refuse
+## 2.2.32 Which metrics the brief opens on and which alerts the close records, and what each refuses
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 2.2.39 Which rows are on the readiness test
+## 2.2.38 Which rows are on the readiness test
 - Status: open
 - Decision:
 - Reasoning (his words):

@@ -25,8 +25,8 @@ The book's coaching method (pp. 382 to 391): gather the data you already have, f
 - Phase: Hiring and training
 - Book: pp. 387 to 388 (you have more data than you think and need less than you think; count what you already know of the person and their situation); p. 390 (observe more directly when self-perception and observation diverge)
 - Default assumption (WP pp. 13, 18, 19): the shift close captures each incident and the lead reviews it (WP p. 13); progression is documented from the first day with milestones, assessments, and feedback (WP p. 18); the review opens on what the person already knows (WP p. 19). The white paper does not list what a lead may draw on, and it does not rule anything out
-- Depends on: 5.1.1, 2.3.8, 2.3.11, 3.3.41, 4.2.7, 4.4.2, 4.5.28
-- Done when: a written list names each source a lead may read (candidates: the person's own check-in lines, the ninety-day plan's states, readiness rows, the incident captures the person wrote, the record of how they used their decision-rights range, schedule facts, demonstrated skills) and each source that is never one (candidates: a peer's account of a peer, a mentor's account, a hiring scorecard, a work-style placement, a peer recognition, a diagnostic finding, a customer rating); states the weight of the lead's own unwritten observation from working a service alongside the person; states how a domain-level diagnostic finding (4.2) may reach a person, if at all, and in what words; and states whether a lead may deliberately work a service alongside someone to observe them, and whether the person is told; agreed by both seated founders, with the kitchen's list pending agreement from the chef partner
+- Depends on: 5.1.1, 2.3.8, 2.3.11, 3.3.41, 4.2.7, 4.4.2
+- Done when: a written list names each source a lead may read (candidates: the person's own check-in lines, the ninety-day plan's states, readiness rows, the incident captures the person wrote, the record of how they used their decision-rights range, schedule facts, demonstrated skills) and each source that is never one (candidates: a peer's account of a peer, a mentor's account, a hiring scorecard, a work-style placement, a peer recognition, a diagnostic finding, a customer rating); states the weight of the lead's own unwritten observation from working a service alongside the person; states how a domain-level diagnostic finding (4.2) may reach a person, if at all, and in what words; and states whether a lead may deliberately work a service alongside someone to observe them, and whether the person is told; agreed by both seated founders, with the kitchen's list pending agreement from the chef partner; reads: a mentor relationship continuing after the pairing (4.5.28) is not a source
 - Replaces old items: 17tn048qcjb (the sources half), 86akh5uwq (the coaching half), 86akhptpd, 86akhpvkk (the sources half)
 
 ### 5.1.4 Decide whether the principles are the standard a hypothesis references, and the test a principle must pass to be one
@@ -76,11 +76,11 @@ The book's coaching method (pp. 382 to 391): gather the data you already have, f
 
 ### 5.1.9 Decide what a repeated, unacknowledged hypothesis becomes, and when it leaves coaching
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: p. 390 (a self-awareness gap: self-perception consistently misaligned with what the manager and others observe, closed with more data and detail); pp. 390 to 391 (the manager's job is to observe and offer opportunity; the report's job is to listen and decide to act)
 - Default assumption (WP pp. 14, 17): before intervening at the people level, identify which failure mode is present (WP p. 14); the first question is what allowed this, not who failed (WP p. 17). The white paper does not say what happens when a person does not act on what they have heard
-- Depends on: 5.1.7, 3.3.12
-- Done when: it is stated how many times the same hypothesis may be raised, with the underlying records unchanged after any process fix, before it is no longer a coaching matter; what the lead checks first before counting a repeat against the person (candidate: whether the process fix was made and whether the environment changed); what is handed to 5.8 when the count is reached (candidate: the dated records and the person's own lines, and nothing written in the lead's voice); and that the label "self-awareness gap" is or is not a word the house uses; agreed by both seated founders
+- Depends on: 3.3.12
+- Done when: it is stated how many times the same hypothesis may be raised, with the underlying records unchanged after any process fix, before it is no longer a coaching matter; what the lead checks first before counting a repeat against the person (candidate: whether the process fix was made and whether the environment changed); what is handed to 5.8 when the count is reached (candidate: the dated records and the person's own lines, and nothing written in the lead's voice); and that the label "self-awareness gap" is or is not a word the house uses; agreed by both seated founders; reads: 5.1.7 sets how a hypothesis is tested
 - Replaces old items: 86akhpvkk (the escalation half), 17tn048qfnk (the first trigger's policy; the window itself is 5.8's)
 
 ### 5.1.10 Decide whether a designation or a stretch assignment is used to test a hypothesis, and what a duty may never be used for
@@ -88,8 +88,8 @@ The book's coaching method (pp. 382 to 391): gather the data you already have, f
 - Phase: Hiring and training
 - Book: pp. 390 to 391 (before promoting someone, have them perform some of the role's duties first; a stretch project as a test of a gap)
 - Default assumption (WP pp. 10 to 11): designations mark accountability in the moment and are not permanent elevations (WP p. 10); advancement runs on documented competencies, a practical assessment, and a ready-now pool, so no one's advancement waits on a manager's judgment (WP p. 11)
-- Depends on: 4.1.20, 4.4.10, 5.1.5
-- Done when: the founders have said whether a lead may give a per-service designation or a one-off assignment in order to test a hypothesis, and if so whether the person is told that is the reason; that feedback about how someone held a duty is about that duty on that service, delivered at their own check-in citing the record; and that holding or not holding a duty again is never a reward, a sanction, or a fact cited about the person; the rule on the rotation floor from 4.1.20 stands
+- Depends on: 4.1.19, 4.4.10, 5.1.5
+- Done when: the founders have said whether a lead may give a per-service designation or a one-off assignment in order to test a hypothesis, and if so whether the person is told that is the reason; that feedback about how someone held a duty is about that duty on that service, delivered at their own check-in citing the record; and that holding or not holding a duty again is never a reward, a sanction, or a fact cited about the person; the rule on the rotation floor from 4.1.19 stands
 - Replaces old items: 86akhcz71 (the feedback half), 17tn048qck1 (the duty-holder scenario)
 
 ### 5.1.11 Decide how a person's own self-observations and the career conversation feed coaching
@@ -103,7 +103,7 @@ The book's coaching method (pp. 382 to 391): gather the data you already have, f
 
 ### 5.1.12 Decide who coaches each founder by hypothesis, and where
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: pp. 384 to 385 (she went years without a review; the one that named her strengths was formative)
 - Default assumption: None; the white paper describes the founders' domains (WP pp. 3 to 5) and says nothing about who coaches them
 - Depends on: 1.1.10, 1.2.1, 2.2.5, 4.2.12
@@ -113,6 +113,7 @@ The book's coaching method (pp. 382 to 391): gather the data you already have, f
 ### 5.1.13 Write the coaching insert for the check-in kit
 - Type: Deliverable
 - Phase: Hiring and training
+- Repeatable: no kit of its own. Kit: 2.3.18 (an insert to the check-in kit; no kit of its own)
 - Book: pp. 387 to 390 (the three steps and the framing words)
 - Default assumption: None; the insert holds the process, never a person's answers
 - Depends on: 5.1.2 to 5.1.11, 2.3.18

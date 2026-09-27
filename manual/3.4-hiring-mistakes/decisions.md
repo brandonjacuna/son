@@ -37,7 +37,7 @@ Recorded in Brandon's words, with his reasoning. Status is open, decided, pendin
 - Date:
 - Still needs:
 
-## 3.4.8 Decide whether declined candidates are surveyed, from which stage, and what is asked
+## 3.4.8 Decide whether candidates are surveyed on the hiring process, declined and hired, from which stage, and what is asked
 - Status: open
 - Decision:
 - Reasoning (his words):

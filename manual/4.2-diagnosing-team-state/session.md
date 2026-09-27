@@ -4,7 +4,7 @@
 
 **What this chunk covers.** How Sŏn reads its own state: what a diagnosis looks at, in what order, from what evidence, who writes it, on what rhythm, and how a finding becomes a change. The book's section is short (pp. 282 to 286): assess whether the team has the structures, plan, and people to deliver; survey it against Lencioni's five dysfunctions; place the team and then each person on the skill-will matrix. The white paper has its own diagnostic, five failure modes with a rule that the mode is identified before anyone intervenes at the person (WP p. 14). The chunk's central question is how those two instruments relate.
 
-**Already decided upstream.** What counts as a team (4.1.2); when the structure is reexamined (4.1.33); how a lead's load is relieved and the seat load reading (4.1.36, 4.1.37); the accountability mechanisms (2.2.29); the leads' review, house review, gate review, and mechanism reset (2.3.13, 2.3.22, 2.3.26, 2.3.30); the check-in and what the person page holds (2.3.9, 2.3.11); the pulse and the feedback channel's window (2.3.15, 2.3.16). Where any of these is still open, this session records positions and marks the dependency.
+**Already decided upstream.** What counts as a team (4.1.2); when the structure is reexamined (4.1.32); how a lead's load is relieved and the seat load reading (4.1.35, 4.1.36); the accountability mechanisms (2.2.29); the leads' review, house review, gate review, and mechanism reset (2.3.13, 2.3.22, 2.3.26, 2.3.30); the check-in and what the person page holds (2.3.9, 2.3.11); the pulse and the feedback channel's window (2.3.15, 2.3.16). Where any of these is still open, this session records positions and marks the dependency.
 
 **Who else must agree.** Dominic on everything at the founder level, and especially on 4.2.12 (whether the founders' own seats are read). The chef partner on who writes the kitchen's lines (4.2.8). Counsel on whether counted records carry weight in a dispute (cons. 12).
 
@@ -182,7 +182,7 @@ Items 1 to 3 are the core; if the session is short, stop after 3 and draft the r
 
 **Watch for:** a source list that assumes a record the stack does not yet keep; money creeping in as a count; the Maitre d's load read from the Maitre d's own report alone.
 
-**A finished answer:** a source list per mode, the floor-management seat's inputs fixed with 4.1.36's ruled-out fixes carried over, the never-evidence list stated, the retention question answered for the reset, and the exit-interview reader named or handed to 5.10.
+**A finished answer:** a source list per mode, the floor-management seat's inputs fixed with 4.1.35's ruled-out fixes carried over, the never-evidence list stated, the retention question answered for the reset, and the exit-interview reader named or handed to 5.10.
 
 **Needs agreement from:** both seated founders.
 
@@ -256,7 +256,7 @@ Items 1 to 3 are the core; if the session is short, stop after 3 and draft the r
 **Why it matters now:** 2.3 built the calendar and set a test a rhythm must pass to enter it (2.3.3). This chunk either rides the existing four or asks for a fifth.
 
 **Openers:**
-- The leads' review is weekly and already carries a training line (3.3.28) and an interface line (4.1.38). How much more can it carry before it stops being a review?
+- The leads' review is weekly and already carries a training line (3.3.28) and an interface line (4.1.37). How much more can it carry before it stops being a review?
 - Sideways: the book's manager diagnoses at an offsite, once, with a facilitator. Is there anything about a closed room away from the building that a weekly line cannot give you?
 - What is read at a gate that is not read weekly?
 
@@ -314,7 +314,7 @@ Items 1 to 3 are the core; if the session is short, stop after 3 and draft the r
 
 **The question:** what has to be true before a finding turns into a change, and how does the house know the change worked?
 
-**Why it matters now:** 4.1.34 built the change entry with a "reason first" rule; this decides whether the reason must be a line, and what the lead does between the change and its read-back. It is the book's "ninety percent execution."
+**Why it matters now:** 4.1.33 built the change entry with a "reason first" rule; this decides whether the reason must be a line, and what the lead does between the change and its read-back. It is the book's "ninety percent execution."
 
 **Openers:**
 - A lead wants to move a station because "it isn't working." Under this rule, what do they have to bring?

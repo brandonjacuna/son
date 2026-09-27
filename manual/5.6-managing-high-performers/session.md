@@ -4,7 +4,7 @@
 
 This chunk covers what a lead does for the people who pull more than their weight: reading them, coaching the two patterns the book names, protecting them from their own yes, telling them the truth about the path, and letting them go well. It sits after coaching (5.1), hard feedback (5.2), informal feedback (5.3), the formal review (5.4), and compensation (5.5), because the book's high-performer moves are mostly uses of those tools. At Sŏn the white paper has already taken the manager out of the advancement chain (WP p. 11), so the chunk is smaller than the book's and mostly about the gaps the system leaves: the pool wait, the load pile, the ceiling, and the goodbye.
 
-Upstream, already decided or in progress: whether Sŏn has ladders (4.1.7), cross-strand fluency (4.1.10), who runs the advancement assessment (4.1.11), what a lead may write about a person (4.4.2), the career conversation (4.4.3, 4.6.17), whether stretch assignments test hypotheses (5.1.10), internal succession (3.1.40), whether the structure is ever changed for one person (4.3.6), the held-designation read (4.3.13), the departure read (4.3.8), the exit conversation (4.8.13), and the compensation architecture (5.5, which 5.6.4 waits on).
+Upstream, already decided or in progress: whether Sŏn has ladders (4.1.7), cross-strand fluency (4.1.10), who runs the advancement assessment (4.1.11), what a lead may write about a person (4.4.2), the career conversation (4.4.3, 4.4.3), whether stretch assignments test hypotheses (5.1.10), internal succession (3.1.38), whether the structure is ever changed for one person (4.3.6), the held-designation read (4.3.13), the departure read (4.3.8), the exit conversation (4.8.14), and the compensation architecture (5.5, which 5.6.4 waits on).
 
 Who else must agree: both seated founders on every decision here. The chef partner on anything that reaches the kitchen's pools and designations once the seat is filled. The two leads should read the guide (5.6.12) before it is final.
 
@@ -101,7 +101,7 @@ Start wherever he wants. The pool wait (6) is the one most specific to Sŏn and 
 **Narrowing questions:**
 - Is a counter-offer ever made? For which seats? Decided by whom?
 - Does any pay exist outside 5.5's architecture to keep someone?
-- May a title or a designation be used to keep someone, outside the rotation floor (4.1.20)?
+- May a title or a designation be used to keep someone, outside the rotation floor (4.1.19)?
 - If none of those, what is the house's answer to an outside offer?
 
 **What the book says:** reward high standards with promotion and raises (pp. 421 to 422); if you cannot find real opportunity, do not hold on too long (p. 426).
@@ -266,7 +266,7 @@ Start wherever he wants. The pool wait (6) is the one most specific to Sŏn and 
 
 **White-paper default:** the assessment is scheduled by the system and signed off by the domain lead (WP p. 11); no surprises (WP p. 19).
 
-**How others have handled it:** General practice, not Sŏn-specific. Trades with practical certification (culinary and sommelier examinations among them) separate examiner from teacher and report by criterion; the teacher debriefs afterwards. It is the pattern 3.2.37 already uses for the hiring practical.
+**How others have handled it:** General practice, not Sŏn-specific. Trades with practical certification (culinary and sommelier examinations among them) separate examiner from teacher and report by criterion; the teacher debriefs afterwards. It is the pattern 3.2.35 already uses for the hiring practical.
 
 **Options:** (a) assessor reads rows and window, lead takes the praise gap to the check-in. (b) lead delivers both. Depth: cons. 8.
 
@@ -291,7 +291,7 @@ Start wherever he wants. The pool wait (6) is the one most specific to Sŏn and 
 - Asked at all?
 - Of whom: everyone in the pulse, everyone at the career conversation, each lead by a partner, or the book's top group (which needs 5.6.2 option c)?
 - Where do answers go: channel items with owners, the leads' review in aggregate?
-- The departure retro is 4.3.8 and 4.8.13. Anything to add there, such as asking colleagues, which prior work argued against?
+- The departure retro is 4.3.8 and 4.8.14. Anything to add there, such as asking colleagues, which prior work argued against?
 
 **What the book says:** interview the top group once a year; three to five conversations surface pain points; retro every departure with the person and close colleagues (pp. 427 to 428).
 
@@ -352,8 +352,8 @@ Start wherever he wants. The pool wait (6) is the one most specific to Sŏn and 
 ## 6. Parking lot
 
 - Whether a founding seat's succession is planned: 2.1.8, 2.1.9.
-- Whether the structure is reshaped for one person: 4.3.6; when a leadership line is added: 4.1.36.
+- Whether the structure is reshaped for one person: 4.3.6; when a leadership line is added: 4.1.35.
 - How cross-strand fluency is paid, and whether any pay exists outside the architecture: 5.5.
 - What a formal review says to a person who is ready with no seat: 5.4.
 - A lead who manages other leads and their growth: 5.9.
-- Contact with former employees and references: 4.8.13, 4.3.14.
+- Contact with former employees and references: 4.8.14, 4.3.14.

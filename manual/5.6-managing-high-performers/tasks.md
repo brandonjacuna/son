@@ -7,7 +7,7 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Before the first hire
 - Book: p. 419 (start by understanding what drives the person and how they operate)
 - Default assumption (WP p. 11): the path is explicit before a person starts; the next skill set unlocks after a set period; the practical assessment auto-schedules; with no seat open the person enters a ready-now pool
-- Depends on: 4.1.7, 4.1.10, 4.1.11, 4.4.3, 4.6.17, 5.1.10, 3.1.40, 3.2.44, 4.3.13
+- Depends on: 4.1.7, 4.1.10, 4.1.11, 3.1.38
 - Done when: a short note lists what is already decided about ladders, cross-strand fluency, the advancement assessment, the career conversation, stretch assignments, internal succession, and the held-designation read, and names the gaps this chunk must fill (candidates: the pool wait, the load rule, the not-yet conversation, the stay question, leaving to grow)
 - Replaces old items: None
 
@@ -25,7 +25,7 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Before the first hire
 - Book: pp. 428 to 431 (on small, specialized teams where opportunities cap out, be explicit about the trade-off rather than let people find out the hard way; promotions get rarer as people get more senior, so set expectations and find other ways to recognize)
 - Default assumption (WP pp. 9, 11, 18, 22): growth is outward, not upward; the candidate receives a single sheet with the advancement path at the first interview; the building runs roughly eight leadership lines across the whole day; the goal is that "the building rarely hires a manager from outside at all"
-- Depends on: 5.6.1, 3.1.29, 4.1.6, 3.1.40
+- Depends on: 5.6.1, 3.1.27, 4.1.6, 3.1.38
 - Done when: the sheet and the team home state, in plain words, how many leadership lines exist, that a person may be ready with no seat open, what the pool is and how it is ordered, what growth is available that is not a seat (candidates: the adjacent strand, another service period, teaching, assessing, mentoring), and that growth beyond the building is a normal outcome; the wording is one the founders will say aloud to a candidate; agreed by both seated founders
 - Replaces old items: 17tn048qfmx (the "tell them plainly what exists" half)
 
@@ -34,7 +34,7 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Before the first hire
 - Book: pp. 421 to 422 (reward and praise high standards; promote and give raises); p. 426 (if you cannot find real opportunity, do not hold on too long)
 - Default assumption (WP pp. 15, 20): compensation is built into menu price and distributed on a point system weighted by days worked; how cross-strand fluency is paid is a named open item. The white paper is silent on counter-offers, retention pay, and titles as rewards
-- Depends on: 5.5, 3.2.20, 4.1.9
+- Depends on: 5.5, 3.2.19, 4.1.9
 - Done when: it is written whether a counter-offer is ever made, and if so for which seats and decided by whom; whether any pay exists outside the compensation architecture to keep a person; whether a title or a per-service designation may be used to recognize a person outside the rotation floor; and what the house does instead when a person has an outside offer (candidates: the what-next conversation, the network, a clean goodbye); agreed by both seated founders, with 5.5 complete
 - Replaces old items: 17tn048qfmx (the no-counter-offer half), 17tn048qep8 (the no-pay-tier half; the review half is 5.4's)
 
@@ -52,8 +52,8 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Hiring and training
 - Book: p. 423 (before a puller takes on work, three questions: are they the most qualified, is it the most important thing they could do, what would they give up; coach them to turn projects down)
 - Default assumption (WP pp. 13, 19): "the more modules completed, the more earned"; cooling failure is the organization running people at full capacity "until they stop, and calls it dedication until it becomes turnover." The white paper does not say who notices when one person is doing too much
-- Depends on: 5.6.5, 4.1.20, 3.3.18, 2.2.23, 4.3.13
-- Done when: it is written what the house reads to see one person carrying too much (candidates: designations held, modules authored in a period, mentor and assessor pairings, shifts worked, the person's own check-in line); the ceiling, if any, on how many of these one person may hold at once, as a reset parameter; whether a lead may decline work on a person's behalf or only ask the three questions with them; and that a goal met by one person's overload is read as 2.2.23 scores it; agreed by both seated founders
+- Depends on: 5.6.5, 4.1.19, 3.3.18
+- Done when: it is written what the house reads to see one person carrying too much (candidates: designations held, modules authored in a period, mentor and assessor pairings, shifts worked, the person's own check-in line); the ceiling, if any, on how many of these one person may hold at once, as a reset parameter; whether a lead may decline work on a person's behalf or only ask the three questions with them; and that a goal met by one person's overload is read as 2.2.23 scores it; agreed by both seated founders; reads: a goal met at a bandwidth cost (2.2.23) and a designation held every service (4.3.13) are the reset's reads of the same load
 - Replaces old items: 17tn048qfmx (the workload-cost half), 86akht39y (the overwork half; the conduct half is 5.10's)
 
 ### 5.6.7 Decide how a lead's time is spent: evenly, by ask, or by potential
@@ -62,7 +62,7 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Book: pp. 426 to 427 (spend the most time on the people with the highest long-term return; "interesting" talent with an unusual skill mix may need new projects, courses, or apprenticeship; the person whose ideas come from an unusual angle sometimes delivers the breakthrough)
 - Default assumption (WP pp. 11, 19, 22): advancement favors "the people who want it most"; the check-in cadence is the same for everyone (2.3.10); the feedback channel exists so an idea from the floor leads to action
 - Depends on: 5.6.2, 2.3.10, 5.1.2
-- Done when: it is written whether a lead's discretionary time (beyond the fixed check-in cadence) goes to whoever asks, is spread evenly, or follows the lead's read of potential; whether the house pays for anything outside its own platform for one person (a course, an outside stage, a visit to another room) and who decides; and how an idea that arrives from an unusual angle is tested rather than dismissed (candidates: 5.3.10's test-first step, a working group under 4.1.30); agreed by both seated founders
+- Done when: it is written whether a lead's discretionary time (beyond the fixed check-in cadence) goes to whoever asks, is spread evenly, or follows the lead's read of potential; whether the house pays for anything outside its own platform for one person (a course, an outside stage, a visit to another room) and who decides; and how an idea that arrives from an unusual angle is tested rather than dismissed (candidates: 5.3.10's test-first step, a working group under 4.1.29); agreed by both seated founders
 - Replaces old items: None
 
 ### 5.6.8 Decide what the house offers a person the pool holds with no seat open, and when the wait is named
@@ -70,8 +70,8 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Hiring and training
 - Book: pp. 423 to 425 (anticipate when the work will get boring; say "I'm worried we won't have enough interesting projects for you in six months" and brainstorm what is next together; there is more opportunity than you think: strategic projects, team-building work like hiring, infrastructural work; reshape the structure to create room; consider succession)
 - Default assumption (WP pp. 11, 14): with no position open the person enters a ready-now pool; when a key person leaves, "the ready-now pool surfaces who is furthest along on the required track." The white paper does not say what the pool is like to wait in
-- Depends on: 5.6.3, 4.1.11, 4.1.30, 4.1.36, 4.3.6, 3.1.40, 4.4.3
-- Done when: it is written how long a person may sit in the pool before the wait is named aloud at a check-in, as a parameter; what the house offers meanwhile (candidates: the adjacent strand, another service period, module authorship, the assessor or mentor pool, a working group, leading a fix the person surfaced); whether the two write a what-next note together and where it lives (5.6.13); that the structure is not reshaped for one person unless 4.3.6 allows it; and what is said when the honest answer is that the next seat is outside the building; agreed by both seated founders
+- Depends on: 5.6.3, 4.1.11, 4.1.29, 3.1.38, 4.4.3
+- Done when: it is written how long a person may sit in the pool before the wait is named aloud at a check-in, as a parameter; what the house offers meanwhile (candidates: the adjacent strand, another service period, module authorship, the assessor or mentor pool, a working group, leading a fix the person surfaced); whether the two write a what-next note together and where it lives (5.6.13); that the structure is not reshaped for one person unless 4.3.6 allows it; and what is said when the honest answer is that the next seat is outside the building; agreed by both seated founders; reads: 4.3.6 says whether the structure is ever changed for one person
 - Replaces old items: 17tn048qfmx (the nine-mechanisms half)
 
 ### 5.6.9 Decide how "not yet" is told: a failed advancement assessment, and a lead who has been generous with praise
@@ -88,8 +88,8 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Hiring and training
 - Book: pp. 427 to 428 (interview the top 10 to 20 percent once a year on what would make them leave; three to five conversations surface pain points fast; if someone does leave, ask them and their close colleagues why)
 - Default assumption (WP pp. 19, 22, 23): feedback runs both directions; employee NPS is tracked regularly; exit interviews are "read for what could have been better." The white paper does not single out a group for extra listening
-- Depends on: 5.6.2, 2.3.15, 4.4.3, 4.3.8, 4.8.13
-- Done when: it is written whether the question is asked at all; of whom (candidates: everyone in the pulse, everyone at the career conversation, each lead by a partner, the book's top group, which requires a list 5.6.2 may have refused); by whom and where; and where the answers go (candidates: the feedback channel as items with owners, the leads' review in aggregate); the departure half is confirmed as 4.3.8 and 4.8.13's, with any addition named; agreed by both seated founders
+- Depends on: 5.6.2, 2.3.15, 4.4.3, 4.3.8, 4.8.14
+- Done when: it is written whether the question is asked at all; of whom (candidates: everyone in the pulse, everyone at the career conversation, each lead by a partner, the book's top group, which requires a list 5.6.2 may have refused); by whom and where; and where the answers go (candidates: the feedback channel as items with owners, the leads' review in aggregate); the departure half is confirmed as 4.3.8 and 4.8.14's, with any addition named; agreed by both seated founders
 - Replaces old items: None
 
 ### 5.6.11 Decide the leaving-to-grow rule: whether it counts against retention, and what the house does for the person
@@ -97,7 +97,7 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Before opening
 - Book: p. 426 (do not hold a high performer too long; land them elsewhere in the company or open your network; either way you earn their loyalty); pp. 424 to 425 (put the person's path first, even outside the company)
 - Default assumption (WP pp. 23, 25): "how people grow beyond the building" is "the longest measure of whether the environment did its job"; retention and internal promotion rate are "direct evidence the development commitments are real"; a server who moves to another property in the group may bring their regulars
-- Depends on: 5.6.8, 2.2.25, 4.3.8, 4.8.13, 3.1.40
+- Depends on: 5.6.8, 2.2.25, 4.3.8, 4.8.14, 3.1.38
 - Done when: it is written whether a departure the house helped with is read differently from any other in the retention definition (candidates: a "left to grow" reading on the departure read, counted separately; no distinction); what the house does for the person (candidates: a founder's introduction, a reference, a standing invitation back, first read on a seat in a later property); how a lead who has outgrown the building is told the truth and by whom; and whether a founding seat's own succession is on the same footing (2.1.8, 2.1.9); agreed by both seated founders
 - Replaces old items: None
 
@@ -152,7 +152,7 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Before opening
 - Book: pp. 428 to 429 (watch whether the team has enough exciting projects for the next six months and the next year)
 - Default assumption (WP p. 14): the ready-now pool is a record the system holds
-- Depends on: 5.6.6, 5.6.8, 2.2.33, 2.3.30
+- Depends on: 5.6.6, 5.6.8, 2.3.19, 2.3.30
 - Done when: the leads' review record carries how many people are in the pool and the longest wait, by seat class and never by name, and how many people are at 5.6.6's ceiling; the reset revises both parameters
 - Replaces old items: None
 
@@ -161,7 +161,7 @@ The book's guidance on the people who pull more than their weight (pp. 419 to 43
 - Phase: Before opening
 - Book: pp. 424 to 426 (play the person; the leadership role without a title; succession)
 - Default assumption (WP p. 10): the two leads are co-leads who report to no one but the founders; there is no seat above them inside the building
-- Depends on: 5.6.8, 5.6.11, 2.3.14
+- Depends on: 5.6.8, 5.6.11, 2.3.14, 2.2.5
 - Done when: each partner has held the conversation with the lead whose monthly conversation they hold, using the guide, and the lead has said what they want in a year and in five; nothing is written but what the lead chooses
 - Replaces old items: None
 

@@ -4,7 +4,7 @@
 
 **What this chunk covers.** The book's short section on diversity, equity, inclusion, and belonging as a manager's job (pp. 354 to 359): hiring, performance and reward, and running teams. At Sŏn the mechanics already exist in pieces (the interview language, the paid practical, competencies visible to anyone, the system as the advocate), and no one has said whether the house states a position on who its team should be, or whether it will ever know. This session asks that, decides whether identity data is ever collected, and then works through the smaller taps the book warns about: who gets the designation tonight, who writes the module, who mentors, who is heard.
 
-**Already decided upstream, so not reopened here.** The hiring conduct statement (3.1.7): what a hire is never selected on, whether identity is recorded beyond language, and that a pattern may change outreach and never the bar. The languages offered (3.1.16, 3.2.15). The pipeline report's fields and refusals (3.1.39). The calibration read (3.2.41) and the outside-domain check (3.2.42). The onboarding read (3.3.27). The rotation floor for designations (4.1.20). Read those `decisions.md` entries first.
+**Already decided upstream, so not reopened here.** The hiring conduct statement (3.1.7): what a hire is never selected on, whether identity is recorded beyond language, and that a pattern may change outreach and never the bar. The languages offered (3.2.14, 3.2.14). The pipeline report's fields and refusals (3.1.37). The calibration read (3.2.39) and the outside-domain check (3.2.40). The onboarding read (3.3.27). The rotation floor for designations (4.1.19). Read those `decisions.md` entries first.
 
 **Who else must agree.** Dominic on 4.7.3, 4.7.4, 4.7.6, 4.7.9, 4.7.13, and on any build (4.7.15, 4.7.16). Counsel on 4.7.5 before 4.7.14 or 4.7.15 ship. The chef partner on the kitchen's opportunities (4.7.8).
 
@@ -38,7 +38,7 @@ If Brandon wants to start with the taps rather than the position, start there; 4
 
 **Narrowing questions:**
 - Conduct only (3.1.7), reach, or composition?
-- If reach: can the sentence be checked against 3.1.39? If composition: are you prepared to collect the data (4.7.4)?
+- If reach: can the sentence be checked against 3.1.37? If composition: are you prepared to collect the data (4.7.4)?
 - Where does it appear, and who may change it?
 - Could the sentence be held by any restaurant in the city? If yes, is it worth stating?
 
@@ -60,7 +60,7 @@ If Brandon wants to start with the taps rather than the position, start there; 4
 
 **The question:** will a candidate or an employee ever be asked, voluntarily, to state protected characteristics, and if so, under what wall?
 
-**Why it matters now:** the applicant system is being configured (3.1.35). A field added later means a rebuild; a field added now without counsel is a liability. And 4.7.3 (c) cannot be measured without it.
+**Why it matters now:** the applicant system is being configured (3.1.33). A field added later means a rebuild; a field added now without counsel is a liability. And 4.7.3 (c) cannot be measured without it.
 
 **Openers:**
 - A cook fills in the application in Spanish, gets the job, and three weeks later gets an optional form asking about race and gender. What do they think it is for? Who do they think sees it?
@@ -125,14 +125,14 @@ Brandon frames the questions in his words before they go to counsel: identity da
 
 **The question:** must a loop include someone who differs from the hiring manager, and in what?
 
-**Why it matters now:** the first loops are the two founders, who share a great deal. The book's fix is a reader who pushes back on your assumptions. Sŏn already has the outside-domain check (3.2.42); this decides whether that is the whole rule.
+**Why it matters now:** the first loops are the two founders, who share a great deal. The book's fix is a reader who pushes back on your assumptions. Sŏn already has the outside-domain check (3.2.40); this decides whether that is the whole rule.
 
 **Openers:**
 - You and Dominic interview the same candidate and agree in ten minutes. What did you both miss, and who in the building would have caught it?
 - Sideways: the book means "background" as life experience. You can only choose an interviewer on job-relevant difference. What job-relevant difference gets you most of what she wants?
 
 **Narrowing questions:**
-- Is 3.2.42 plus the trained-interviewer class (3.2.14) the whole rule?
+- Is 3.2.40 plus the trained-interviewer class (3.2.13) the whole rule?
 - If more: another strand or domain; another training background; a native speaker of the candidate's chosen language?
 - The rule that no interviewer is chosen for a personal characteristic: written.
 
@@ -142,7 +142,7 @@ Brandon frames the questions in his words before they go to counsel: identity da
 
 **How others have handled it:** General practice, not Sŏn-specific. Structured-interview programs commonly require at least one interviewer from outside the hiring team; that is a difference of vantage, not identity.
 
-**Options:** (a) 3.2.42 and 3.2.14 are the rule. (b) one reader from another strand or domain, always. (c) one native speaker of the chosen language, where one exists. Depth: cons. 3.
+**Options:** (a) 3.2.40 and 3.2.13 are the rule. (b) one reader from another strand or domain, always. (c) one native speaker of the chosen language, where one exists. Depth: cons. 3.
 
 **Watch for:** a rule that quietly selects interviewers by identity; a rule the founders cannot meet before the first lead exists.
 
@@ -154,7 +154,7 @@ Brandon frames the questions in his words before they go to counsel: identity da
 
 **The question:** for everything the house offers that is not an advancement (the room designation tonight, writing a module, mentoring, a working group, an event, a cross-training slot), is it posted and volunteered for, or does the lead tap someone?
 
-**Why it matters now:** the white paper removed the advancement tap; the system schedules the assessment. Every other tap is still in the lead's hand, and the book's failure mode lives precisely there. The rotation floor (4.1.20) is the only rule so far.
+**Why it matters now:** the white paper removed the advancement tap; the system schedules the assessment. Every other tap is still in the lead's hand, and the book's failure mode lives precisely there. The rotation floor (4.1.19) is the only rule so far.
 
 **Openers:**
 - It is the third month. Who has held the room designation most? Who has never been asked? How would you know?
@@ -193,7 +193,7 @@ Brandon frames the questions in his words before they go to counsel: identity da
 - The prep strand has three people. A read of its retention is a read of three names. What is the rule?
 
 **Narrowing questions:**
-- The list: assessments scheduled and passed; designations and opportunities for repeat holders; internal-promotion rate against outside hires (3.1.40); calibration in the review (5.4); a pay read across the point system (5.5). Which of these, now?
+- The list: assessments scheduled and passed; designations and opportunities for repeat holders; internal-promotion rate against outside hires (3.1.38); calibration in the review (5.4); a pay read across the point system (5.5). Which of these, now?
 - Read by: domain, period, strand, source, chosen language. Never by an inferred attribute.
 - Rhythm: the house review, the reset.
 - A check produces a process act, never an act on a person: written.
@@ -225,9 +225,9 @@ Brandon frames the questions in his words before they go to counsel: identity da
 - A dishwasher who speaks only Spanish has an idea about the close. Walk it from his head to the leads' review.
 
 **Narrowing questions:**
-- The two non-room paths: the check-in's upward question and the feedback channel. A third: a weekly written line (4.8.7)?
+- The two non-room paths: the check-in's upward question and the feedback channel. A third: a weekly written line (4.8.8)?
 - The room duty: the chair draws out anyone who has not spoken, in the leads' review and the brief's round (4.5.6)?
-- The person outside the room's language: the interpreter designation (4.8.4) or the written channel in their language, or both?
+- The person outside the room's language: the interpreter designation (4.8.5) or the written channel in their language, or both?
 - What a lead does when the same three people always speak.
 
 **What the book says:** watch airtime, draw out anyone who has not spoken; agenda collection, offsite planning, how a meeting runs, how a decision is made, each is a chance (pp. 358 to 359).
@@ -323,10 +323,10 @@ None. Nothing here is a document a person or a team later produces for themselve
 
 ## 6. Parking lot
 
-- The language list and the interpreter designation: 4.8.2, 4.8.4.
-- The feedback channel's rules, including anonymity: 4.8.10.
-- The weekly written line from everyone: 4.8.7.
-- The career conversation's questions against counsel's answer: 4.6.17.
+- The language list and the interpreter designation: 4.8.2, 4.8.5.
+- The feedback channel's rules, including anonymity: 4.8.11.
+- The weekly written line from everyone: 4.8.8.
+- The career conversation's questions against counsel's answer: 4.4.3.
 - Calibration in the formal review: 5.4. The pay read's mechanics: 5.5.
 - The neutral party: 4.6.15. The founders' seats under the diagnostic: 4.2.12.
 - A line from the closing frames in the principles: 2.1.5, if the founders want one.

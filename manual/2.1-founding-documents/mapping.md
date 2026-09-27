@@ -72,6 +72,28 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 
 **Counts by fate:** Kept 2; Rewritten 8; Merged 15; Routes to another chunk 16; Dropped 3. Total 44.
 
+### Placed in the cross-chunk pass (2026-09-27)
+
+| Old ID | Old name (short) | Fate | Goes to | Reason |
+|---|---|---|---|---|
+| 86akh2qht | Founder decision: Set the founder decision-rights rule | Served | 2.1.13 | How the partners make joint decisions and break deadlocks is 2.1.13; the rule beneath the partner level and the cross-domain case are 2.2.2 and 2.2.3 |
+| 86akh2qrp | Founder decision: Reconcile the two accounts of the chef seat | Served | 2.1.10 | Who holds culinary direction overall and the chef seat's standing is 2.1.10. The second account rests on the brand canon, which is not a source here; only the white paper's account is carried |
+| 86akh2r4k | Structure: Reconcile the three profiles to the current source allowlist | Dropped (machinery) | none | Profiles are reasoning lenses, never authorities (CLAUDE.md); the overrides the item asked for are now CLAUDE.md's rules, and the marks it names are retired |
+| 86akh3rx4 | Founder decision: Rule on the six-tier authority hierarchy and the placement of the company non-negotiables | Dropped (brand-dependent) | none | Both hierarchies are brand canon, excluded. The one non-brand question inside it, what standing the principles have among the founding documents and who may change them, is 2.1.18's |
+| 86akh3t00 | Founder decision: Adopt or decline "the order is the decision" as an operating tiebreaker | Served | 2.1.4 | The same decision, framed from the white paper (WP p. 17) rather than the deck |
+| 86akh3t27 | Founder decision: Settle ownership of the OS surface between the two seated founders | Served | 2.1.7 | The same decision; the two options (specification and build split, or one seat outright) are in 2.1's considerations |
+| 86akh3tg0 | Founder decision: Select and word the long-term commitments and the principles | Served | 2.1.5 (with 2.1.3) | The sorting of candidates into long-term goals, principles, and operating rules is 2.1.3 and 2.1.5; the canon voice tests it named are brand material and are not carried |
+| 86akh3tjb | Document: Reconcile the two canon artifacts into one version of record | Dropped (brand-dependent) | none | Both artifacts are excluded brand guidelines |
+| 86akh3tp5 | Document: Relocate or re-point the Surface-and-Zone Baseline Document and the canon's record-of-truth reference | Dropped (brand-dependent) | none | The baseline document and the canon footer are brand material. Its one operating point, that no founding document names a tool as the data hub before the hub is confirmed, is 2.2.24's |
+
+Received: 17tn048qepp (an architecture parameter in the reserved classes), routed from 2.2, lands in 2.1.13.
+
+Received: 86akh5u77 (the interim two-partner decision rule), routed from 2.2, lands in 2.1.13.
+
+Received: 86akh674t (principles version one), routed from 2.3, lands in 2.1.5.
+
+Received: 86akh5ucu (transparency of positions to the third seat), routed from 2.2, lands in 2.1.10.
+
 ## 2. Where the S2 page's sections went
 
 | S2 section | Where it went |

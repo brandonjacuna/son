@@ -281,7 +281,7 @@ Start wherever the energy is; the sources conversation (2) tends to decide most 
 
 **The question:** may a lead hand someone the room or the door for a service to see how they carry it, and what may never follow from how it went?
 
-**Why it matters now:** 4.1.20 set designations and a rotation floor; the white paper removed the manager's judgment from advancement (WP p. 11). This decides whether the book's "have them perform the duties first" has any place left.
+**Why it matters now:** 4.1.19 set designations and a rotation floor; the white paper removed the manager's judgment from advancement (WP p. 11). This decides whether the book's "have them perform the duties first" has any place left.
 
 **Openers:**
 - The book's story: a talented person given a stretch project to prove a gap was closed; it failed; they left rather than see it (pp. 390 to 391). What did the manager owe that person before the project?
@@ -392,6 +392,6 @@ No new kit. This session adds the coaching insert to the check-in kit (2.3.18) a
 - Whether a lead's private note is a discoverable record: counsel, with 5.2.4.
 - What a lead may ask about a factor outside work: 4.4.6.
 - Whether the evidence line names a person: 4.2.7.
-- The career conversation guide appears in both 4.4 (4.4.13, 4.4.15) and 4.6 (4.6.22, 4.6.23); the controller should reconcile.
+- The career conversation guide and kit are 4.4.13 and 4.4.15 (the 4.6 duplicates were removed in the cross-chunk pass).
 - The formal review card, the at-risk window and card, the departure card, and the hours-reduction rule: 5.4, 5.8, 5.10 (see tasks.md, "Not served in this chunk").
 - What a lead says about pay if a person raises it in a check-in: 5.5.

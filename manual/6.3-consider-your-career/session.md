@@ -122,7 +122,7 @@ If time is short: 6.3.5 and 6.3.6 shape what the leads see of the founders from 
 
 **The question:** 5.4.7 named the review holder "for each founder, if any." Is there any? And if not, what reads a founder, and what may none of it become?
 
-**Why it matters now:** the leads' reviews start in the first quarter, held by the partners (5.4.28). The leads will know whether the partners are read by anything. The book's "nobody taps you on the shoulder" (p. 498) is either a fact the house accepts by design or a gap it fills.
+**Why it matters now:** the leads' reviews start in the first quarter, held by the partners (5.4.27). The leads will know whether the partners are read by anything. The book's "nobody taps you on the shoulder" (p. 498) is either a fact the house accepts by design or a gap it fills.
 
 **Openers:**
 - The white paper's review never contains new information because the person already knows (WP p. 19). Who tells you?
@@ -228,7 +228,7 @@ If time is short: 6.3.5 and 6.3.6 shape what the leads see of the founders from 
 
 **What the book says:** the privilege of choice, and using some of it for others (p. 500).
 
-**White-paper default:** the path explicit before it starts; preparation not permission; internal succession as the goal (WP pp. 11, 14, 19). 3.1.40, 4.4.18, 5.6.8, and 4.7.17 already hold the mechanisms.
+**White-paper default:** the path explicit before it starts; preparation not permission; internal succession as the goal (WP pp. 11, 14, 19). 3.1.38, 4.4.18, 5.6.8, and 4.7.17 already hold the mechanisms.
 
 **How others have handled it:** General practice, not Sŏn-specific. Founders who publicly date their own hand-overs are rare; where it happens, it is usually a successor's start date rather than a function-by-function list, and the function-by-function form is the white paper's own logic applied upward.
 
@@ -242,7 +242,7 @@ If time is short: 6.3.5 and 6.3.6 shape what the leads see of the founders from 
 
 ### 6.3.7 Get counsel's answers on the founders' standing
 
-Not a decision; an action to agree in the room. The questions are collected in cons. 10 from this chunk, 6.1.9, 6.2.4, 6.2.9, 2.2.5, and 5.5.7. In the session: read the list, add anything missing, agree who sends it (with 0.1's list and the counsel questions register, 5.5.31), and agree that the answers are filed with counsel's other answers and not recorded in this repo beyond the fact that they exist. 6.3.8, 6.3.10's open rows, and 6.2.12 wait on it.
+Not a decision; an action to agree in the room. The questions are collected in cons. 10 from this chunk, 6.1.9, 6.2.4, 6.2.9, 2.2.5, and 5.5.7. In the session: read the list, add anything missing, agree who sends it (with 0.1's list and the counsel questions register, 5.5.32), and agree that the answers are filed with counsel's other answers and not recorded in this repo beyond the fact that they exist. 6.3.8, 6.3.10's open rows, and 6.2.12 wait on it.
 
 ### 6.3.11 Each founder writes their own career document, if 6.3.3 keeps it
 
@@ -287,6 +287,6 @@ Offer to draft 6.3.10, 6.3.13, and 6.3.14 from the session; each marked draft fo
 | A founder as the subject of a concern | 6.2.9; after a finding, the operating agreement |
 | The learning tempo | 6.1.10 |
 | A coach or peer circle for a founder | 6.2.10 |
-| The chef partner's version of every decision here | Rerun once 2.1.10 and the search (3.1.21) settle |
-| The team's path (ladders, unlocks, the pool, the career conversation) | 4.1.7, 4.1.11, 3.1.40, 4.4.3, 5.6; not rebuilt here |
+| The chef partner's version of every decision here | Rerun once 2.1.10 and the search (3.1.19) settle |
+| The team's path (ladders, unlocks, the pool, the career conversation) | 4.1.7, 4.1.11, 3.1.38, 4.4.3, 5.6; not rebuilt here |
 | The operating agreement's provisions | 2.1.1; counsel |

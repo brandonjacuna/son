@@ -107,9 +107,3 @@ Recorded in Brandon's words, with his reasoning. Status is open, decided, pendin
 - Date:
 - Still needs:
 
-## 4.6.17 Decide whether the career conversation runs at Sŏn, who holds it, and when
-- Status: open
-- Decision:
-- Reasoning (his words):
-- Date:
-- Still needs:

@@ -6,9 +6,9 @@ This chunk builds the mechanism around a pay form the white paper has already se
 
 Two rules hold for the whole session. No figure is spoken into the record: no percentage, no wage, no salary, no comp value. Where a value is needed, it goes on the parameters register as a row Dominic sets against the financial model, with counsel where wage law applies. And nothing about any founder's own pay is recorded anywhere in this repo.
 
-Upstream, a lot is fixed. The compensation commitments are in the principles and Dominic has reviewed them (2.1.5, 2.1.6). The transparency line (2.2.6) left the pool's visibility to this chunk. 3.1.30 and 3.2.18 decided what the leads' candidate sheet says before this chunk is done and the order against their interviews; 3.2.20 who holds the lead seats' pay conversation. 3.3.18 recorded three constraints on module pay. 4.1.8 decided what a lead enters at, 4.1.9 the salaried test, 4.1.10 the fluency definitions, 4.1.11 who records an unlock, 4.1.20 the designation rule, 4.1.29 the cleaning crew's place. 4.8.3 and 4.8.4 decided how translation and interpreting are done. 5.4.5 decided whether the review feeds pay; this chunk builds against that answer.
+Upstream, a lot is fixed. The compensation commitments are in the principles and Dominic has reviewed them (2.1.5, 2.1.6). The transparency line (2.2.6) left the pool's visibility to this chunk. 3.1.28 and 3.2.17 decided what the leads' candidate sheet says before this chunk is done and the order against their interviews; 3.2.19 who holds the lead seats' pay conversation. 3.3.18 recorded three constraints on module pay. 4.1.8 decided what a lead enters at, 4.1.9 the salaried test, 4.1.10 the fluency definitions, 4.1.11 who records an unlock, 4.1.19 the designation rule, 4.1.28 the cleaning crew's place. 4.8.3 and 4.8.5 decided how translation and interpreting are done. 5.4.5 decided whether the review feeds pay; this chunk builds against that answer.
 
-Who else must agree: Dominic on nearly everything, as owner of the financial model and the payroll platform; both founders on every policy; the chef partner on the kitchen's weights and salaried seats (5.5.30), once seated; counsel on the legal character of the whole structure (5.5.29), before any offer. Several decisions will be recorded as Brandon's position, pending Dominic's agreement.
+Who else must agree: Dominic on nearly everything, as owner of the financial model and the payroll platform; both founders on every policy; the chef partner on the kitchen's weights and salaried seats (5.5.31), once seated; counsel on the legal character of the whole structure (5.5.30), before any offer. Several decisions will be recorded as Brandon's position, pending Dominic's agreement.
 
 Why it sits here: the book puts compensation last in the review sequence because pay follows performance. At Sŏn the order is the same for a different reason: whether pay follows the review at all was decided in 5.4.5, and this chunk builds whichever answer was given.
 
@@ -23,7 +23,7 @@ A default order. Start wherever he wants.
 5. The routed lines (5.5.15, 5.5.16, 5.5.17): training; teaching; translation.
 6. Rhythm, page, publication, benefits, market (5.5.18 to 5.5.22).
 7. Questions and corrections (5.5.23, 5.5.24); parity (5.5.25); the range (5.5.26).
-8. The offer order (5.5.27), the register and counsel (5.5.28, 5.5.29, 5.5.31), the kitchen (5.5.30).
+8. The offer order (5.5.27), the register and counsel (5.5.28, 5.5.30, 5.5.32; the counsel register itself is 0.4), the kitchen (5.5.31).
 9. Deliverables and the kit (sections 4 and 5).
 
 ## 3. Briefs
@@ -163,16 +163,16 @@ A default order. Start wherever he wants.
 - A person on their first training day, before they have touched a table. In?
 
 **Narrowing questions:**
-- By seat class: floor, kitchen, beverage, host, steward, events (4.1.28), the crew (4.1.29).
+- By seat class: floor, kitchen, beverage, host, steward, events (4.1.27), the crew (4.1.28).
 - Training from the first paid hour: in?
-- The paid practical: in or out (3.1.36)?
+- The paid practical: in or out (3.1.34)?
 - Founders and chef partner: to 5.5.7.
 
 **What the book says:** the framework needs to know who is priced (p. 414).
 
 **White-paper default:** "distributed to the whole team, the culinary team included" (WP p. 20).
 
-**How others have handled it:** General practice, not Sŏn-specific. Tip pools exclude managers by law in most cases and exclude back of house in many; the white paper's kitchen inclusion is the departure and is why counsel is needed (5.5.29).
+**How others have handled it:** General practice, not Sŏn-specific. Tip pools exclude managers by law in most cases and exclude back of house in many; the white paper's kitchen inclusion is the departure and is why counsel is needed (5.5.30).
 
 **Options:** as drafted in cons. 5, or with a named exception.
 
@@ -291,7 +291,7 @@ A default order. Start wherever he wants.
 - In the pool by a day rule (every open day in the period), or outside?
 - If in: does a closed day count? Which days?
 - If out: any share in a full night at all?
-- Kitchen's salaried seats: to 5.5.30. Salaries: register rows.
+- Kitchen's salaried seats: to 5.5.31. Salaries: register rows.
 
 **What the book says:** salary is the fixed element; variable elements are decided separately (pp. 413 to 414).
 
@@ -311,7 +311,7 @@ A default order. Start wherever he wants.
 
 **The question:** does a lead's offer state the seat's published entry, or is there room above it?
 
-**Why it matters now:** 4.1.8 decided a lead enters at the outside edge of their own map; 3.2.20 decided whether any offer term is negotiable. This is where those meet the pay page. The leads' offers come months before opening.
+**Why it matters now:** 4.1.8 decided a lead enters at the outside edge of their own map; 3.2.19 decided whether any offer term is negotiable. This is where those meet the pay page. The leads' offers come months before opening.
 
 **Openers:**
 - A strong candidate for the Maitre d seat asks for more than the seat's published entry. What do you say, and what does the next hire learn from it?
@@ -319,7 +319,7 @@ A default order. Start wherever he wants.
 
 **Narrowing questions:**
 - The seat's published entry, nothing above it; or a stated exception with its reason?
-- Consistent with 3.2.20?
+- Consistent with 3.2.19?
 
 **What the book says:** levels are the basis for pricing new-hire offers (p. 414).
 
@@ -331,7 +331,7 @@ A default order. Start wherever he wants.
 
 **Watch for:** an exception written for the first hire that becomes the rule.
 
-**A finished answer:** what the offer states, and the 3.2.20 check.
+**A finished answer:** what the offer states, and the 3.2.19 check.
 
 **Needs agreement from:** both seated founders; pending Dominic.
 
@@ -399,7 +399,7 @@ A default order. Start wherever he wants.
 
 **The question:** does holding the room, the door, or a sequence for a night pay?
 
-**Why it matters now:** 4.1.20 decided what a designation is and its rotation floor. If it pays, it becomes a reward; the earlier work argued that recreates a title. 4.3.13 already reads a designation held every service as a staffing question.
+**Why it matters now:** 4.1.19 decided what a designation is and its rotation floor. If it pays, it becomes a reward; the earlier work argued that recreates a title. 4.3.13 already reads a designation held every service as a staffing question.
 
 **Openers:**
 - The same person holds the room four nights a week for a quarter, unpaid for it. What does that person become in the room's eyes? What should they become on the schedule?
@@ -428,7 +428,7 @@ A default order. Start wherever he wants.
 
 **The question:** what is a person paid on day one, before they are ready?
 
-**Why it matters now:** the candidate sheet carries "the training plan with pay dates" (WP p. 18). A reduced training weight is an unstated probation label; full weight is a cost the model has to carry. The unpaid trial is counsel's (3.1.37).
+**Why it matters now:** the candidate sheet carries "the training plan with pay dates" (WP p. 18). A reduced training weight is an unstated probation label; full weight is a cost the model has to carry. The unpaid trial is counsel's (3.1.35).
 
 **Openers:**
 - A trainee's first Friday: base pay, obviously. Pool points too? At the seat's entry weight, or less?
@@ -437,7 +437,7 @@ A default order. Start wherever he wants.
 **Narrowing questions:**
 - Base for every training hour from the first paid hour: yes?
 - Entry-horizon weight from the same hour, or a reduced weight?
-- The practical's pay form against 3.1.37.
+- The practical's pay form against 3.1.35.
 
 **What the book says:** p. 414.
 
@@ -488,7 +488,7 @@ A default order. Start wherever he wants.
 
 **The question:** what is the bilingual cook paid for translating the range card, and for interpreting at a review?
 
-**Why it matters now:** 4.8.3 decided translation is paid work on the clock, checked by a second speaker; 4.8.4 the interpreter designation. The pay form decides whether translation is a task or a favor.
+**Why it matters now:** 4.8.3 decided translation is paid work on the clock, checked by a second speaker; 4.8.5 the interpreter designation. The pay form decides whether translation is a task or a favor.
 
 **Openers:**
 - The house needs the mechanics page in a third language before a cohort starts. Who does it, and what do they see on their pay page for it?
@@ -579,7 +579,7 @@ A default order. Start wherever he wants.
 
 **The question:** does everyone in the building see every seat's pay rule?
 
-**Why it matters now:** it answers the comparison case (cons. 9) with a rule instead of a redirect, and it sets what 3.1.31's candidate sheet states. It is more than most restaurants publish.
+**Why it matters now:** it answers the comparison case (cons. 9) with a rule instead of a redirect, and it sets what 3.1.29's candidate sheet states. It is more than most restaurants publish.
 
 **Openers:**
 - A host reads the Maitre d seat's published wage and weight. Good, or a problem? Say why.
@@ -600,7 +600,7 @@ A default order. Start wherever he wants.
 
 **Watch for:** publishing a rule and then negotiating around it (5.5.11).
 
-**A finished answer:** a visibility per item, and the sheet's sentence handed to 3.1.31.
+**A finished answer:** a visibility per item, and the sheet's sentence handed to 3.1.29.
 
 **Needs agreement from:** both seated founders; pending Dominic.
 
@@ -667,7 +667,7 @@ A default order. Start wherever he wants.
 
 **The question:** when a person has something to say about pay, where does it go, and what can their lead say back?
 
-**Why it matters now:** 4.5.11 pointed a pay question "by reference to 5.5"; 4.8.10 kept it out of the channel. The book's whole chapter is a conversation; the earlier work replaced it with destinations and a page. Whether any pay conversation survives, and at what moment, is decided here.
+**Why it matters now:** 4.5.11 pointed a pay question "by reference to 5.5"; 4.8.11 kept it out of the channel. The book's whole chapter is a conversation; the earlier work replaced it with destinations and a page. Whether any pay conversation survives, and at what moment, is decided here.
 
 **Openers:**
 - "She makes more than me for the same job." Answer as the Maitre d, with what is on the sheet and nothing that is not.
@@ -784,11 +784,11 @@ A default order. Start wherever he wants.
 
 **Needs agreement from:** both seated founders; pending Dominic.
 
-### 5.5.27 Decide which rows must be set before a lead's offer, and the order against the leads' interviews
+### 5.5.27 List the parameter rows a lead's offer needs, and date them on the hiring calendar
 
 **The question:** what must exist before the first offer goes out?
 
-**Why it matters now:** the leads are hired months before this chunk runs in full, and the candidate sheet promises the mechanics at the first interview (WP p. 18). 3.2.18 and 3.1.30 decided the order in principle; this names the rows and puts the date on the hiring calendar.
+**Why it matters now:** the leads are hired months before this chunk runs in full, and the candidate sheet promises the mechanics at the first interview (WP p. 18). 3.2.17 and 3.1.28 decided the order in principle; this names the rows and puts the date on the hiring calendar.
 
 **Openers:**
 - Walk the Maitre d candidate's first interview. They read the sheet. Which lines say "unset"? Are you comfortable handing that?
@@ -796,8 +796,8 @@ A default order. Start wherever he wants.
 
 **Narrowing questions:**
 - The offer rows by name.
-- The date on the hiring calendar (3.2.34).
-- 3.2.18 confirmed or amended.
+- The date on the hiring calendar (3.2.32).
+- 3.2.17 confirmed or amended.
 
 **What the book says:** early on, enough data to price offers correctly (p. 414).
 
@@ -813,29 +813,30 @@ A default order. Start wherever he wants.
 
 **Needs agreement from:** both seated founders; pending Dominic.
 
-### 5.5.30 Chef partner sets the kitchen's seat weights and salaried seats within the mechanism
+Narrowed in the cross-chunk pass to an action: the order of the compensation architecture against the leads' interviews is 3.2.17's decision; this task lists the rows an offer needs and dates them on the hiring calendar.
+
+### 5.5.31 Chef partner sets the kitchen's seat weights and salaried seats within the mechanism
 
 Not Brandon's decision. What to hand the chef partner: the mechanism (the four sources, the day, the markers, the salaried rule) is the house's; each kitchen seat's weight at each horizon and which kitchen seats are salaried are theirs, inside it, with the values as rows Dominic sets. Until the chef seat is settled (2.1.10), the kitchen's rows are marked incomplete, and the leads' offers do not wait on them.
 
-### 5.5.32 Write the compensation mechanics page, in every house language
+### 5.5.33 Write the compensation mechanics page, in every house language
 
 Brandon's input needed on: the page's voice (it is the one document a candidate takes home about pay), whether it opens with the philosophy or the mechanism, and whether it names the destinations for questions on the page itself or points to the destinations page (4.5.17). Draft from the decisions, values shown as "unset" where the register is unset; marked draft for his review and Dominic's.
 
-### 5.5.36 Hold the first pay conversations: each partner with their lead, at the offer and at the first pay move
+### 5.5.36 Hold the first pay conversations at the offer: each partner with their lead
 
 **Capture for the kit:** at the offer, note which parts of the mechanics page the lead asked about, where the explanation ran long, and what they asked that no page answered. At the first pay move, if 5.5.23 kept a moment, note whether the page carried it or the partner had to say something the page did not, and whether the may-and-may-not list held. These notes, in `notes/`, become the kit's guide. Never record a figure or the lead's actual pay.
 
 ## 4. Deliverables that follow
 
-- 5.5.31 the parameters register and the counsel questions register (outside this repo; row names only here). Repeatable: no.
-- 5.5.32 the compensation mechanics page in every house language. Repeatable: no.
-- 5.5.33 the pay page and the daily calculation. Repeatable: no.
-- 5.5.34 the pay correction path. Repeatable: no.
+- 5.5.32 the parameters register (outside this repo; row names only here; the counsel questions register is 0.4's since the cross-chunk pass). Repeatable: no.
+- 5.5.33 the compensation mechanics page in every house language. Repeatable: no.
+- 5.5.34 the pay page, the daily calculation, and the pay correction path (merged in the cross-chunk pass). Repeatable: no.
 - 5.5.35 the pay module, general and lead versions. Repeatable: no.
-- 5.5.36 the first pay conversations. Repeatable: yes; every lead with each person at the offer and at any moment 5.5.23 keeps.
-- 5.5.37 the pay conversation kit. Repeatable: no; it is the kit.
-- 5.5.38 the decision-rights entries. Repeatable: no.
-- 5.5.39 the calculation run through training services before the first pay date. Repeatable: no.
+- 5.5.36 the first pay conversations at the offer, and 5.5.37 at the first pay move (split in the cross-chunk pass). Repeatable: yes; every lead with each person at the offer and at any moment 5.5.23 keeps.
+- 5.5.38 the pay conversation kit. Repeatable: no; it is the kit.
+- 5.5.39 the decision-rights entries. Repeatable: no.
+- 5.5.40 the calculation run through training services before the first pay date. Repeatable: no.
 
 ## 5. Kits this session seeds
 
@@ -846,9 +847,11 @@ Brandon's input needed on: the page's voice (it is the one document a candidate 
 - 5.4: the same sentence on both pages about what the review feeds; the review module and pay module point at each other.
 - 5.10: separation pay and pay during a hold as register rows; the reduction rules (17tn048qg1q); the counsel one-sentence card.
 - 4.7: which tags the parity read may use (4.7.4, 4.7.5).
-- 4.1: events staff as a seat class in the pool (4.1.28); the cleaning crew's contract (4.1.29).
-- 3.1, 3.2: the candidate sheet's compensation and benefits items (3.1.31); whether any offer term is negotiable once entry pay is one rule per seat (3.2.20).
+- 4.1: events staff as a seat class in the pool (4.1.27); the cleaning crew's contract (4.1.28).
+- 3.1, 3.2: the candidate sheet's compensation and benefits items (3.1.29); whether any offer term is negotiable once entry pay is one rule per seat (3.2.19).
 - 2.2.6: the pool's visibility, once 5.5.19 and 5.5.20 are decided.
 - 2.3.31: the pay date and the market refresh as rhythms.
-- 0.1 and counsel: the whole of 5.5.29, before any offer.
+- 0.1 and counsel: the whole of 5.5.30, before any offer.
 - The learning and development work: module approval and completion records as payment triggers.
+- New in the cross-chunk pass: 5.5.29 Dominic sets every remaining value on the parameters register; brief to be written.
+- New in the cross-chunk pass: 5.5.37 Hold the first pay conversations at the first pay move: each partner with their lead; brief to be written.

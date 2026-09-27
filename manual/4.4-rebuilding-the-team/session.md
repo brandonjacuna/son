@@ -4,7 +4,7 @@
 
 **What this chunk covers.** What a lead does inside a domain once its shape is settled: how they come to know each person, the career conversation, who owns one-off work, what gets delegated and what a founder or lead keeps, how the founders hand their pre-opening load to the leads, and the signs of delegating too little or too much. The book's section (pp. 294 to 303) says the bedrock is the people, describes the career conversation, the DRI, and a framework for delegating by impact and reversibility. Sŏn's decision-rights register (2.2) already pre-places much of what the book's manager delegates by hand, so the chunk is partly about what is left for a lead to hand down, and partly about the biggest handover of all: the founders' own load.
 
-**Already decided upstream.** The decision-rights rule and register (2.2.2, 2.2.4, 2.2.8); how development goals are set (2.2.14); the check-in and what it refuses, and the person page (2.3.9, 2.3.11); which partner holds each lead's monthly conversation (2.3.14); who is hiring manager before and after the leads exist (3.1.4); the pool-first rule (3.1.40); the ninety-day plan and mentoring (3.3.10 to 3.3.14); the lead onboarding plan (3.3.45); the project and working-group forms (4.1.30); the founders' knowledge-transfer list (1.1.12). From 4.2 if decided: whether the skill-will matrix is used (4.2.5) and whether the founders' seats are read (4.2.12).
+**Already decided upstream.** The decision-rights rule and register (2.2.2, 2.2.4, 2.2.8); how development goals are set (2.2.14); the check-in and what it refuses, and the person page (2.3.9, 2.3.11); which partner holds each lead's monthly conversation (2.3.14); who is hiring manager before and after the leads exist (3.1.4); the pool-first rule (3.1.38); the ninety-day plan and mentoring (3.3.10 to 3.3.14); the lead onboarding plan (3.3.45); the project and working-group forms (4.1.29); the founders' knowledge-transfer list (1.1.12). From 4.2 if decided: whether the skill-will matrix is used (4.2.5) and whether the founders' seats are read (4.2.12).
 
 **Who else must agree.** Dominic on every founder-level rule, and especially on the handover (4.4.9). The chef partner on the kitchen's career conversations and their own handover list. Counsel on what a lead may ask about a person's background (4.4.6).
 
@@ -85,6 +85,8 @@ A default order; start where he wants.
 
 **Needs agreement from:** both seated founders.
 
+Also covers what "Decide whether the career conversation runs at Sŏn, who holds it, and when" asked (from 4.6).
+
 ### 4.4.4 Decide what the career conversation asks, and what it never asks
 
 **The question:** which of the book's questions does a lead at Sŏn ask, and which are off the table?
@@ -153,7 +155,7 @@ A default order; start where he wants.
 
 **The question:** when work exists that no seat owns, does one person own it by name, and what are they called?
 
-**Why it matters now:** 4.1.30 may have created project and working-group forms; a project with no owner is the book's example of a decision nobody gets made. The term, if any, has to be taught in onboarding (3.3).
+**Why it matters now:** 4.1.29 may have created project and working-group forms; a project with no owner is the book's example of a decision nobody gets made. The term, if any, has to be taught in onboarding (3.3).
 
 **Openers:**
 - The patio build-out, the first wine list, the thank-you note template: three pieces of work before opening that no seat owns yet. Who owns each, and would you want a word for that?
@@ -237,7 +239,7 @@ A default order; start where he wants.
 
 **Options:** (a) a dated list per lead with a record per function; (b) an undated list, passed when ready; (c) everything on arrival. Depth: cons. 5.
 
-**Watch for:** anything in the record about either founder's temperament rather than the seat's functions; a date list that ignores the lead onboarding plan (3.3.45); the documented build's camera (3.1.18) as a reason a founder keeps a function.
+**Watch for:** anything in the record about either founder's temperament rather than the seat's functions; a date list that ignores the lead onboarding plan (3.3.45); the documented build's camera (3.1.16) as a reason a founder keeps a function.
 
 **A finished answer:** the list per lead with weeks, the keep list with reasons, the overload rule, and the chef partner marked pending.
 
@@ -307,17 +309,17 @@ A default order; start where he wants.
 
 **The question:** when a lead steps onto a station or takes a task back, which of the book's three reasons is it, what is Sŏn's form of each, and what is written?
 
-**Why it matters now:** a lead working a seat is the most common sight in a restaurant and the white paper's clearest example of the structure blurring (WP p. 14); the seat load reading (4.1.37) can only see it if something records it.
+**Why it matters now:** a lead working a seat is the most common sight in a restaurant and the white paper's clearest example of the structure blurring (WP p. 14); the seat load reading (4.1.36) can only see it if something records it.
 
 **Openers:**
 - Saturday, a server calls out, the Maitre d takes a section. Modeling, urgency, or short staffing? What gets written, if anything?
 - Sideways: "see one, do one, teach one" comes from surgical training. Sŏn already has paired services (3.3.8). Is there anything left for a lead to model in person?
-- The book says a resource constraint is itself a signal the team is not scaled. In Sŏn's terms, that is a line for 4.1.36. Do you want that line written every time?
+- The book says a resource constraint is itself a signal the team is not scaled. In Sŏn's terms, that is a line for 4.1.35. Do you want that line written every time?
 
 **Narrowing questions:**
 - Modeling: paired services and the mentor roster, or the lead on the station?
 - Urgency: the incident-and-fix record with the gap logged?
-- Short staffing: a node-overload line under 4.1.36, never the lead's overtime?
+- Short staffing: a node-overload line under 4.1.35, never the lead's overtime?
 - A lead working a seat for a service is recorded as: a designation, an overload line, nothing?
 
 **What the book says:** model it, then let them practice; urgency, then fix the gap; a constraint, which is a signal (pp. 301 to 302).
@@ -336,8 +338,8 @@ A default order; start where he wants.
 
 ## 4. Deliverables that follow
 
-- 4.4.13 the career conversation guide, version one. Repeatable: every lead with each person in their domain; each partner with their lead; the chef partner in the kitchen.
-- 4.4.14 the first career conversations, each partner with their lead, then the guide revised.
+- 4.4.13 the career conversation guide, version one. Repeatable: every lead with each person in their domain; each partner with their lead; the chef partner in the kitchen. Also covers what "Write the career conversation guide" asked (from 4.6).
+- 4.4.14 the first career conversations, each partner with their lead, then the guide revised. Also covers what "Hold the first career conversations: each founder with a lead" asked (from 4.6).
 - 4.4.16 the assignment note. Repeatable: every lead per assignment; the founders per handed-over function.
 - 4.4.18 the founders' handover list per lead, with weeks; the chef partner's marked pending.
 - 4.4.19 the ownership and trapdoor entries in the register.
@@ -349,7 +351,7 @@ All drafts are marked draft for his review.
 
 ## 5. Kits this session seeds
 
-- `kits/career-conversation/` (4.4.15): intake, guide, template; example only if Brandon agrees an invented case can serve; the kit holds the process, never a person's answers. Capture during 4.4.3 to 4.4.5: the question he would open with, which of the book's questions he cut and why, the order that felt like a conversation rather than a form, and what the person needs in front of them (their own notes, the tracks).
+- `kits/career-conversation/` (4.4.15, the only career conversation kit; also covers what "Build the career conversation kit" asked, from 4.6): intake, guide, template; example only if Brandon agrees an invented case can serve; the kit holds the process, never a person's answers. Capture during 4.4.3 to 4.4.5: the question he would open with, which of the book's questions he cut and why, the order that felt like a conversation rather than a form, and what the person needs in front of them (their own notes, the tracks).
 - `kits/assignment-note/` (4.4.17): intake, guide, template; example only if Brandon agrees a handover note from 4.4.18 can serve. Capture during 4.4.8 to 4.4.10: how he decided what was a trapdoor, the sentence he used to hand a function to a lead, and what he wanted to hear back and how often.
 
 ## 6. Parking lot

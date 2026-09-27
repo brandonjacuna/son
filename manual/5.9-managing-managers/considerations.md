@@ -84,7 +84,7 @@ One vocabulary note. The white paper uses "manager" for the roles it replaces (W
 
 **White paper.** Brandon "worked the floor" and ran opening service (WP pp. 3 to 4). A designation "marks accountability in the moment, in the domain" and is "not a permanent elevation" (WP p. 10). CPU failure is a founder-level person doing work beneath their capability (WP p. 13). Post-mortems are process-focused (WP p. 17).
 
-**Upstream.** 4.1.20 and 4.1.21 set what a designation is and who holds the room; 4.4.12 names the three cases a lead does the work themselves; 2.2.5 logged the counsel question on whether a founder working a service under a designation is acting as an employee for any purpose; 2.3.8 fixes the shift close.
+**Upstream.** 4.1.19 and 4.1.20 set what a designation is and who holds the room; 4.4.12 names the three cases a lead does the work themselves; 2.2.5 logged the counsel question on whether a founder working a service under a designation is acting as an employee for any purpose; 2.3.8 fixes the shift close.
 
 **The earlier work** landed this as ordinary floor presence with two rules: a founder in a seat is bound by the seat's rules like anyone, and what a founder observes is a capture at the close, never a judgment about a lead. The book adds a third thing the earlier work dropped: telling the lead what you saw afterwards, which she calls bonus points. Those can coexist if what is told is the process and the question, not a person.
 
@@ -99,9 +99,9 @@ The book's section is short because its structure carries the rest: HR, a ladder
 
 **A concern about a lead (5.9.8).** The white paper says where nothing goes. Upstream has built pieces: the destination for a concern about one's own lead (5.3.4, 4.5.11); the candor count on a review holder (5.4.12), which 5.4 flagged as a supervisory instrument on leads that 5.9 should know exists; the read of a designation held by one person (4.3.13); a domain that repeatedly opens the performance process (4.3.12). The earlier work's position: no partner keeps a file about a lead; a repeated pattern (a one-sided hearing, a personal standard where no written one exists, a range breach) is tallied as a count and raised once, directly, at the lead's conversation, and read first as a missing mechanism. The reasoning was that a case file implies a rank and a paper trail toward termination. The counter-consideration is counsel's: 5.2.4 and 5.8.2 ask whether a record in the person's own words defends a later separation. Whatever 5.8.9 decided for everyone applies to a lead unless 5.9.9 says otherwise.
 
-**A lead's own performance process (5.9.9).** The book's senior path (pp. 458 to 459) skips the formal plan and runs over months, framed on the gap between the role and what is delivered. 5.8 built a process for everyone, opened only by records. The choice is whether a lead gets the same process, the senior path, or a hybrid. The second reader when a lead is the subject was left by 2.2.5 and 2.3.14; the pauses that read the house's failure first have lead-specific forms (the seat load reading, the range 4.4.8 set, 4.1.36's relief order). The earlier work refused any comparison between the two leads' reviews, on the ground that there is nothing alike to compare.
+**A lead's own performance process (5.9.9).** The book's senior path (pp. 458 to 459) skips the formal plan and runs over months, framed on the gap between the role and what is delivered. 5.8 built a process for everyone, opened only by records. The choice is whether a lead gets the same process, the senior path, or a hybrid. The second reader when a lead is the subject was left by 2.2.5 and 2.3.14; the pauses that read the house's failure first have lead-specific forms (the seat load reading, the range 4.4.8 set, 4.1.35's relief order). The earlier work refused any comparison between the two leads' reviews, on the ground that there is nothing alike to compare.
 
-**Keeping the two leads parallel (5.9.10).** The earlier work's six rules, minus the ones upstream now owns: each partner reads the lead they do not hold only through records (the leads' review record, the goal page, the seat load reading); a lead's shortfall is attributed first to what the house left unbuilt; a person informally holding the same responsibility every service becomes a rotation rule (4.3.13, 4.1.20); the chair of the leads' review rotates (2.3.13's). Two leads reaching visibly different conclusions on like situations was read as a calibration item fixed at the mechanism, never one lead correcting the other. The book's alternative is ordinary manager-to-manager alignment run by the manager above; at Sŏn that is the leads' review with the partners reading the record.
+**Keeping the two leads parallel (5.9.10).** The earlier work's six rules, minus the ones upstream now owns: each partner reads the lead they do not hold only through records (the leads' review record, the goal page, the seat load reading); a lead's shortfall is attributed first to what the house left unbuilt; a person informally holding the same responsibility every service becomes a rotation rule (4.3.13, 4.1.19); the chair of the leads' review rotates (2.3.13's). Two leads reaching visibly different conclusions on like situations was read as a calibration item fixed at the mechanism, never one lead correcting the other. The book's alternative is ordinary manager-to-manager alignment run by the manager above; at Sŏn that is the leads' review with the partners reading the record.
 
 **A lead's development (5.9.11).** The book: teach them to steer the boat; find them the help you cannot give. The white paper: cross-training is career development, "a lead who understands both sides of the house leads better," and the aim is internal succession (WP p. 19). The earlier work argued no separate leadership track, no 360, no founder-led mentoring of a lead's character, because a bespoke track is a hierarchy in substance. The counter-consideration is the white paper's own line: a lead who understands both sides. Cross-training a lead into the other lead's domain is either the development path the white paper describes or the blurring 4.1.3 forbids.
 
@@ -119,7 +119,7 @@ The book's section is short because its structure carries the rest: HR, a ladder
 ## 9. Counsel
 
 - Whether a founder holding a lead's check-in or working a service under a designation changes the founders' employment classification or the house's obligations (logged at 2.2.5; needed before the first founder-in-a-seat service).
-- What a lead must know and be trained on before managing anyone (0.1's list; placed by 5.9.17 and 3.3.45).
+- What a lead must know and be trained on before managing anyone (0.1's list; placed by 5.9.16 and 3.3.45).
 - Whether a count on a lead, raised once and unwritten, or written in the lead's words, is the record counsel needs if a lead's process ever reaches 5.10 (asked in 5.2.4 and 5.8.2; applied here by 5.9.8 and 5.9.9).
 
 ## 10. Cross-chunk
@@ -128,9 +128,9 @@ The book's section is short because its structure carries the rest: HR, a ladder
 - 1.1.5, 1.1.11, 1.3.2: the founders' documents to the leads; the kit; the word.
 - 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7: ranges, cross-domain decisions, the register, the holders, the transparency line, emergency authority.
 - 2.3.4, 2.3.8, 2.3.9, 2.3.11, 2.3.13, 2.3.14, 2.3.17, 2.3.18, 2.3.19, 2.3.30: the partners' domain read, the close, the check-in and its kit, the person page, the leads' review, the pairing, the first check-ins, the reset.
-- 3.1.26: the pre-opening leadership meal (86akh7qun is served there).
+- 3.1.24: the pre-opening leadership meal (86akh7qun is served there).
 - 3.3.18, 3.3.22, 3.3.23, 3.3.24, 3.3.40, 3.3.41, 3.3.45: modules, a lead's onboarding, the coach, the later lead's document, the range card, the person page blocks, the lead onboarding plan.
-- 4.1.3, 4.1.20, 4.1.21, 4.1.23, 4.1.25, 4.1.36, 4.1.37: one lead per seat, designations, the room, the cards, the kitchen, load relief, the load reading.
+- 4.1.3, 4.1.19, 4.1.20, 4.1.22, 4.1.24, 4.1.35, 4.1.36: one lead per seat, designations, the room, the cards, the kitchen, load relief, the load reading.
 - 4.2.6, 4.2.8, 4.2.10, 4.2.12: evidence, who writes lines, counts, the founders' read.
 - 4.3.10, 4.3.12, 4.3.13: a lead's departure, the domain repeat, the held designation.
 - 4.4.3, 4.4.5, 4.4.8, 4.4.9, 4.4.11, 4.4.12, 4.4.13: the career conversation, delegation, the handover, the signs, the three cases.
@@ -138,8 +138,8 @@ The book's section is short because its structure carries the rest: HR, a ladder
 - 5.1.3, 5.1.7, 5.1.8, 5.1.12: sources, the coaching words, the early check-in, who coaches the founders.
 - 5.2.2, 5.2.4: the breach boundary; counsel on records.
 - 5.3.4: feedback to one's own lead.
-- 5.4.7, 5.4.12, 5.4.13, 5.4.18, 5.4.21, 5.4.28: a lead's review, the candor count, the upward half, the record, the kitchen, the first reviews.
+- 5.4.7, 5.4.12, 5.4.13, 5.4.18, 5.4.21, 5.4.27: a lead's review, the candor count, the upward half, the record, the kitchen, the first reviews.
 - 5.6.7: how a lead's time is spent.
-- 5.8.3, 5.8.5, 5.8.7, 5.8.10, 5.8.11, 5.8.13, 5.8.14, 5.8.23: the process a lead's may follow.
+- 5.8.3, 5.8.5, 5.8.7, 5.8.10, 5.8.11, 5.8.13, 5.8.14, 5.8.22: the process a lead's may follow.
 - 5.10: what follows a lead's unheld window or breach; the two per-period metrics.
 - 6.3: the founders' own development.

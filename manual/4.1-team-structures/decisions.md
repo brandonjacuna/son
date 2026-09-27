@@ -86,70 +86,70 @@ Recorded in Brandon's words, with his reasoning. Status is open, decided, pendin
 - Date:
 - Still needs:
 
-## 4.1.20 Decide what a per-service designation is, what it may hold, and the rotation floor
+## 4.1.19 Decide what a per-service designation is, what it may hold, and the rotation floor
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.21 Decide the room designation, and how the threshold is held when the Maitre d is not working
+## 4.1.20 Decide the room designation, and how the threshold is held when the Maitre d is not working
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.22 Decide who calls a mid-service failure that spans the floor and the kitchen
+## 4.1.21 Decide who calls a mid-service failure that spans the floor and the kitchen
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.25 Chef partner shapes the kitchen below the spine
+## 4.1.24 Chef partner shapes the kitchen below the spine
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.28 Decide who holds an event in the room
+## 4.1.27 Decide who holds an event in the room
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.29 Decide where the overnight cleaning crew sits in the structure
+## 4.1.28 Decide where the overnight cleaning crew sits in the structure
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.30 Decide the temporary structures Sŏn allows: its forms of the project and the working group
+## 4.1.29 Decide the temporary structures Sŏn allows: its forms of the project and the working group
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.31 Decide how a live existential risk is run
+## 4.1.30 Decide how a live existential risk is run
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.33 Decide when the structure is reexamined
+## 4.1.32 Decide when the structure is reexamined
 - Status: open
 - Decision:
 - Reasoning (his words):
 - Date:
 - Still needs:
 
-## 4.1.36 Decide how a lead's load is relieved, and when a leadership line is added
+## 4.1.35 Decide how a lead's load is relieved, and when a leadership line is added
 - Status: open
 - Decision:
 - Reasoning (his words):

@@ -17,7 +17,7 @@ This chunk holds 7 of the run's 29 items; 4.2 holds 19 and 4.4 holds 3. Each ite
 | 86akhpun3 | Run the repeat reads for a domain, a seat, a period, and a held designation | Rewritten | 4.3.11, 4.3.12, 4.3.13, 4.3.19 | Split by object: the seat read (4.3.11), the domain and period reads (4.3.12), the held-designation read (4.3.13), each a decision; putting them on the leads' review and reset agendas is 4.3.19 |
 | 86akhpv3p | Build the departure line and pool-check record | Kept | 4.3.17, 4.3.10 | Same deliverable (4.3.17). The later comments, a lead's paid handoff and pool priority and a founder's departure run on the same records, are the decision 4.3.10; the founder case is referred to 2.1.1 |
 | 86akhpv5n | Build the domain-repeat read at the leadership review | Merged | 4.3.19, 4.2.12 | The build is 4.3.19 with the other repeat reads. The later extension giving founders a load line and rotating who reads whom is the decision 4.2.12 |
-| 86akht19g | Ratify a minimum-rotation floor for designations, and that a designation is never a status | Merged | 4.1.20, 4.3.13 | Whether a rotation floor exists, and that a designation carries no pay, title, or standing record, is decided in 4.1.20 (the designation and its rotation floor). The read of a designation held by one person for a quarter, and that it is never grounds for a seat or a performance read, is 4.3.13 |
+| 86akht19g | Ratify a minimum-rotation floor for designations, and that a designation is never a status | Merged | 4.1.19, 4.3.13 | Whether a rotation floor exists, and that a designation carries no pay, title, or standing record, is decided in 4.1.19 (the designation and its rotation floor). The read of a designation held by one person for a quarter, and that it is never grounds for a seat or a performance read, is 4.3.13 |
 
 ### Carryovers
 
@@ -51,10 +51,10 @@ The S9 page covers 4.2, 4.3, and 4.4 together. This table places the change, dep
 | 9.1 A departure is tension re-establishment | Section 6, 4.3.8, 4.3.17, 4.3.18, and 4.3.21 |
 | 9.1 What the floor hears | Section 7 and 4.3.9; counsel's part is 4.3.14 |
 | 9.2 An open seat is a load reading on the domain | Section 8 and 4.3.11 |
-| 9.3 A designation held every service for a quarter | Section 9 and 4.3.13; the rotation floor itself is 4.1.20 |
+| 9.3 A designation held every service for a quarter | Section 9 and 4.3.13; the rotation floor itself is 4.1.19 |
 | 10.3 Rebuilding a domain after its lead leaves | 4.3.10 for the departure; 4.2.13 for the arriving lead's first read |
 | 16.5 Reading a seat question out of a designation | 4.3.13 |
 
 ## 3. What was dropped and why
 
-Nothing in this chunk was dropped whole. What left: the refusals of the book's methods (the three phases with a clock, breaking the structure for one person, merging domains) as settled positions, now options in 4.3.2, 4.3.4, and 4.3.6; the "freeze" as a coined term, replaced by "the first-quarter hold"; and program machinery (position numbers, readiness rows, session cross-references, and carryover routings). The earlier claim that a new leadership line may be added only through the structural-gap process at a gate is kept as a question in 4.3.2, which points to 4.1.36 rather than restating it.
+Nothing in this chunk was dropped whole. What left: the refusals of the book's methods (the three phases with a clock, breaking the structure for one person, merging domains) as settled positions, now options in 4.3.2, 4.3.4, and 4.3.6; the "freeze" as a coined term, replaced by "the first-quarter hold"; and program machinery (position numbers, readiness rows, session cross-references, and carryover routings). The earlier claim that a new leadership line may be added only through the structural-gap process at a gate is kept as a question in 4.3.2, which points to 4.1.35 rather than restating it.

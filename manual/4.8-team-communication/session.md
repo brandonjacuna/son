@@ -4,21 +4,21 @@
 
 **What this chunk covers.** The book's closing note on the chapter (pp. 360 to 362): share the same information with everyone, pass information down with framing, keep a snippets document, decide each day what to tell people. The book's team sits at desks. Sŏn's is reached on a phone before and after shifts, in more than one language, by people who may never share a service. The channels, the transparency line, the destinations page, and the writing card already exist upstream; this session decides the language list and how translation is paid, the interpreter's reach, the record rule, the pass-down, whether there is a house note or a chat tool, the rules for recognition and the feedback channel, the phone, the exit conversation, and how the house checks that anything reached anyone.
 
-**Already decided upstream, so not reopened here.** The transparency line (2.2.6); the three channels and "reached" (2.2.11); the communications policy (2.2.12); the team home (2.2.13, 2.2.15); the brief and close (2.3.7, 2.3.8); the check-in (2.3.9); the pulse and the channel's windows and closing states (2.3.15, 2.3.16); the destinations page (4.5.11, 4.5.17); the writing card (4.5.19); how a structure change reaches people (4.1.12); the interpreter card (4.1.23); the live-risk line (4.1.31, 4.1.32); what the team hears when someone leaves (4.3.9); the languages hiring offers (3.1.16, 3.2.15); training media's voice rule (3.3.19). Read those `decisions.md` entries first.
+**Already decided upstream, so not reopened here.** The transparency line (2.2.6); the three channels and "reached" (2.2.11); the communications policy (2.2.12); the team home (2.2.13, 2.2.15); the brief and close (2.3.7, 2.3.8); the check-in (2.3.9); the pulse and the channel's windows and closing states (2.3.15, 2.3.16); the destinations page (4.5.11, 4.5.17); the writing card (4.5.19); how a structure change reaches people (4.1.12); the interpreter card (4.1.22); the live-risk line (4.1.30, 4.1.31); what the team hears when someone leaves (4.3.9); the languages hiring offers (3.2.14, 3.2.14); training media's voice rule (3.3.19). Read those `decisions.md` entries first.
 
-**Who else must agree.** Dominic on the language list and translation (4.8.2, 4.8.3), the record rule (4.8.5), the house note (4.8.7), the chat tool (4.8.8), recognition and the channel (4.8.9, 4.8.10), the phone (4.8.11), the exit conversation (4.8.13), the reach review (4.8.14), and every build (4.8.18 to 4.8.22). Counsel on the off-shift rule (4.8.8), the phone's disclosure (4.8.11), and the outreach consent (4.8.13, 4.8.24). The chef partner on the kitchen's interpreter case (4.8.4).
+**Who else must agree.** Dominic on the language list and translation (4.8.2, 4.8.3), the record rule (4.8.6), the house note (4.8.8), the chat tool (4.8.9), recognition and the channel (4.8.10, 4.8.11), the phone (4.8.12), the exit conversation (4.8.14), the reach review (4.8.15), and every build (4.8.19 to 4.8.19). Counsel on the off-shift rule (4.8.9), the phone's disclosure (4.8.12), and the outreach consent (4.8.14, 4.8.22). The chef partner on the kitchen's interpreter case (4.8.5).
 
 **Why it sits here.** Last in Chapter 4 because it is where the chapter's remedies become concrete for a house that is never all in one room; it depends on 4.6's threshold for the whole-team statement and on 4.7's counsel questions for the language and background matters.
 
 ## 2. Agenda
 
-1. The language list and translation (4.8.2, 4.8.3), then the interpreter's reach (4.8.4).
-2. The record rule and the pass-down (4.8.5, 4.8.6).
-3. The house note, the weekly line, and a chat tool (4.8.7, 4.8.8).
-4. Recognition and the feedback channel (4.8.9, 4.8.10).
-5. The phone (4.8.11, 4.8.12).
-6. The exit conversation (4.8.13).
-7. The reach review (4.8.14).
+1. The language list and translation (4.8.2, 4.8.3), then the interpreter's reach (4.8.5).
+2. The record rule and the pass-down (4.8.6, 4.8.7).
+3. The house note, the weekly line, and a chat tool (4.8.8, 4.8.9).
+4. Recognition and the feedback channel (4.8.10, 4.8.11).
+5. The phone (4.8.12, 4.8.13).
+6. The exit conversation (4.8.14).
+7. The reach review (4.8.15).
 8. Close: deliverables, the first house note, parking lot.
 
 A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; they touch what the first candidates see.
@@ -88,11 +88,11 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders.
 
-### 4.8.4 Decide the interpreter designation's rule and its reach
+### 4.8.5 Decide the interpreter designation's rule and its reach
 
 **The question:** when a shift's crew includes a language the shift lead does not speak, who interprets, on what terms, and does that reach into the check-in, orientation, and a review?
 
-**Why it matters now:** the card exists (4.1.23); 2.3.9 handed the check-in's case here. A private, upward conversation through a peer is not private; the answer has to exist before the first check-in with someone the lead cannot talk to.
+**Why it matters now:** the card exists (4.1.22); 2.3.9 handed the check-in's case here. A private, upward conversation through a peer is not private; the answer has to exist before the first check-in with someone the lead cannot talk to.
 
 **Openers:**
 - Friday's brief, a new dishwasher who speaks only Spanish, a lead who does not. Who says the 86 list to him, and does anyone write down that it happened?
@@ -120,7 +120,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** no one beyond Brandon for the floor; the chef partner for the kitchen.
 
-### 4.8.5 Decide the record rule: one home per kind of message, written before spoken for a change, and a chat message is never the record
+### 4.8.6 Decide the record rule: one home per kind of message, written before spoken for a change, and a chat message is never the record
 
 **The question:** where does each kind of message live, may a change ever be spoken before it is written, and what is never the record?
 
@@ -151,7 +151,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders.
 
-### 4.8.6 Decide the pass-down: how what leadership knows reaches each shift, and how it is framed
+### 4.8.7 Decide the pass-down: how what leadership knows reaches each shift, and how it is framed
 
 **The question:** what does the brief's pass-down line carry, who frames it, and what may framing never do?
 
@@ -183,7 +183,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** no one beyond Brandon.
 
-### 4.8.7 Decide whether every person writes a weekly line, and whether leadership writes a note to the house
+### 4.8.8 Decide whether every person writes a weekly line, and whether leadership writes a note to the house
 
 **The question:** does everyone write a weekly snippet, and does leadership write a note to the whole house on a rhythm?
 
@@ -201,7 +201,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **What the book says:** team snippets weekly; a leader's shared update for a larger group, personal notes welcome; a personal habit of deciding what to tell people each day (p. 362).
 
-**White-paper default:** feedback runs both directions (WP p. 19); the lead's weekly note (2.2.33) and the close's line (2.3.8) exist. No snippet, no house note.
+**White-paper default:** feedback runs both directions (WP p. 19); the lead's weekly note (2.3.19) and the close's line (2.3.8) exist. No snippet, no house note.
 
 **How others have handled it:** General practice, not Sŏn-specific. Founder notes to the whole company are common in small companies; restaurants use a printed sheet by the time clock for the same purpose.
 
@@ -213,7 +213,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders.
 
-### 4.8.8 Decide whether the house has a chat tool, what it may carry, and the off-shift rule
+### 4.8.9 Decide whether the house has a chat tool, what it may carry, and the off-shift rule
 
 **The question:** does the house provide a chat tool, what may it carry, and what does a message off the clock oblige?
 
@@ -245,11 +245,11 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders; counsel on the off-shift rule.
 
-### 4.8.9 Decide the peer recognition rule
+### 4.8.10 Decide the peer recognition rule
 
 **The question:** what is a recognition at Sŏn, what is it never, where is it read, and what happens when one is declined?
 
-**Why it matters now:** the white paper promises a platform; platforms sell points and leaderboards, which are rankings of people, which the brief refuses. The rule has to exist before the tool is configured (4.8.18).
+**Why it matters now:** the white paper promises a platform; platforms sell points and leaderboards, which are rankings of people, which the brief refuses. The rule has to exist before the tool is configured (4.8.19).
 
 **Openers:**
 - A server writes: "Marco caught table twelve's allergy before the ticket went in." A second writes: "Marco is the best runner we have." Which one goes up, and why?
@@ -277,7 +277,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders.
 
-### 4.8.10 Decide the feedback channel's rules
+### 4.8.11 Decide the feedback channel's rules
 
 **The question:** what is the channel for, what does it refuse, may an item be anonymous, and who sees what?
 
@@ -309,7 +309,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders.
 
-### 4.8.11 Decide whether software may answer the phone by voice, and what it must disclose
+### 4.8.12 Decide whether software may answer the phone by voice, and what it must disclose
 
 **The question:** may a customer be answered by a synthesized voice, and if so, does it say so?
 
@@ -341,7 +341,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders; counsel.
 
-### 4.8.12 Decide where a phone message lives
+### 4.8.13 Decide where a phone message lives
 
 **The question:** when someone or something answers the phone, where does what they heard go?
 
@@ -371,7 +371,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** no one beyond Brandon; the build is Dominic's.
 
-### 4.8.13 Decide the exit conversation and contact with former employees
+### 4.8.14 Decide the exit conversation and contact with former employees
 
 **The question:** is a leaving person offered a conversation about what could have been better, who holds it, what happens to what they say, what does the house confirm outside, and does it stay in touch?
 
@@ -404,7 +404,7 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders; counsel.
 
-### 4.8.14 Decide the reach review: how the house checks that a change reached every shift, language, and person, and reads a miss as a process gap
+### 4.8.15 Decide the reach review: how the house checks that a change reached every shift, language, and person, and reads a miss as a process gap
 
 **The question:** who reads the change-reach record, how often, and what may they change when it shows a miss?
 
@@ -434,23 +434,20 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 
 **Needs agreement from:** both seated founders.
 
-### 4.8.23 The first house note (input needed, only if 4.8.7 adopts one)
+### 4.8.21 The first house note (input needed, only if 4.8.8 adopts one)
 
 Brandon drafts the first issue's sections out loud: what changed and why since the cohort was hired, what leadership is working on (4.6.16's line if adopted), one win told as a fact, one open question with its channel. No figure, nothing about a person, no code name. It goes to the opening cohort before the first training service, in every listed language.
 
 ## 4. Deliverables that follow
 
-- 4.8.15 The language list and translation rule page (from 4.8.2, 4.8.3). Not repeatable.
-- 4.8.16 The founding and candidate-facing set translated before the first cohort (from 4.8.2, 4.8.3).
-- 4.8.17 The communication page for the team home (from 4.8.5 to 4.8.10).
-- 4.8.18 The recognition specification and fallback (from 4.8.9). Dominic's build.
-- 4.8.19 The feedback channel specification (from 4.8.10). Dominic's build.
-- 4.8.20 The phone handling specification (from 4.8.11, 4.8.12). Dominic's build.
-- 4.8.21 The whole-team statement form (from 4.6.16).
-- 4.8.22 The change-reach record (from 2.2.11, 4.8.14). Dominic's build.
-- 4.8.23 The house note template and first issue (from 4.8.7), if adopted.
-- 4.8.24 The exit conversation guide and outreach note (from 4.8.13), with counsel.
-- 4.8.25 The tool walk-through before the first training service.
+- 4.8.16 The language list and translation rule page (from 4.8.2, 4.8.3). Not repeatable.
+- 4.8.17 The founding and candidate-facing set translated before the first cohort (from 4.8.2, 4.8.3).
+- 4.8.18 The communication page for the team home (from 4.8.6 to 4.8.11).
+- 4.8.19 The communication tools specification: recognition, the feedback channel, phone handling, and the change-reach record, each with its manual fallback (from 4.8.10, 4.8.11, 4.8.12, 4.8.13, 4.8.15, 2.2.11). Dominic's build. Also covers what the separate feedback channel, phone handling, and change-reach specifications asked (from 4.8).
+- 4.8.20 The whole-team statement form (from 4.6.16).
+- 4.8.21 The house note template and first issue (from 4.8.8), if adopted.
+- 4.8.22 The exit conversation guide and outreach note (from 4.8.14), with counsel.
+- 4.8.23 The tool walk-through before the first training service.
 
 ## 5. Kits this session seeds
 
@@ -465,4 +462,5 @@ None. The exit conversation guide is a house guide with one owner, not a documen
 - The pay question's page and the point system's visibility: 5.5.
 - The stack's data hub and the tools' bindings: 2.2.24; every build here is Dominic's domain.
 - Training modules in every language: 3.3.38 under 4.8.2's rule.
-- The interview-language promise before a speaker exists: 3.1.16, 3.2.15.
+- The interview-language promise before a speaker exists: 3.2.14, 3.2.14.
+- New in the cross-chunk pass: 4.8.4 Decide the own-words rule: whether the house ever rewrites, summarizes, or translates what a person wrote in their own words; brief to be written.

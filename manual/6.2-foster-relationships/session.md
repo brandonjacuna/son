@@ -123,7 +123,7 @@ If time is short: 6.2.5 and 6.2.9 have consequences for what a lead candidate re
 
 **The question:** each lead holds a partner as their direct lead (WP p. 18). What is that relationship called, what does the lead get from it, and what does the partner get back?
 
-**Why it matters now:** a lead candidate reads it on the sheet at the first interview (3.1.29). 1.3 parked the name. The book's five things a good manager gives (unblocking, advocacy, context, priorities, development, pp. 491 to 492) each have a candidate mechanism; whether every one has a real home is what a lead will test in their first month.
+**Why it matters now:** a lead candidate reads it on the sheet at the first interview (3.1.27). 1.3 parked the name. The book's five things a good manager gives (unblocking, advocacy, context, priorities, development, pp. 491 to 492) each have a candidate mechanism; whether every one has a real home is what a lead will test in their first month.
 
 **Openers:**
 - A candidate for Operations Lead asks at the first interview, "who do I report to?" What is the answer in one sentence?
@@ -135,7 +135,7 @@ If time is short: 6.2.5 and 6.2.9 have consequences for what a lead candidate re
 - The name: none, a plain word, or the book's word if 1.3.2 allowed it?
 - The five promises, each with a mechanism and a home; any without one is sent back to its chunk.
 - What runs up: the upward half (5.4.13), the "what's in my way" (4.2.12), and whether a lead's own read on how the house is running is asked for, in what form, how often.
-- 5.9 told; the sheet (3.1.29) can state it.
+- 5.9 told; the sheet (3.1.27) can state it.
 
 **What the book says:** a good manager unblocks, advocates, provides context, helps set priorities, and develops you; leverage runs both ways; managing up is getting the best results, not being political (pp. 491 to 492).
 
@@ -322,7 +322,7 @@ If time is short: 6.2.5 and 6.2.9 have consequences for what a lead candidate re
 
 **Narrowing questions:**
 - Inward-first for every public statement about the house; the framework's tiers as the whole rule; or inward-first for a named class?
-- The whole-team statement form (4.8.21) as the vehicle?
+- The whole-team statement form (4.8.20) as the vehicle?
 - The content review roles named or placed on 6.1.17?
 - Which of these relationships are dependencies on 1.1.12?
 
@@ -374,6 +374,6 @@ Offer to draft 6.2.13 and the policy section for 6.2.12 from the session; both m
 | A founder's review, absorber, path, and departure | 6.3 |
 | A founder as the subject of a concern: what happens after a finding | The operating agreement (2.1.1) and counsel (6.3.7) |
 | Founder pay and the pool | 5.5.7; nothing recorded here |
-| Languages the founders hold, as a scheduling fact | 3.1.16, 3.2.15, 4.8.2 |
-| The founders as first interviewers | 3.2.6 |
-| The chef partner's version of every decision here | Rerun once 2.1.10 and the search (3.1.21) settle |
+| Languages the founders hold, as a scheduling fact | 3.2.14, 3.2.14, 4.8.2 |
+| The founders as first interviewers | 3.1.3 |
+| The chef partner's version of every decision here | Rerun once 2.1.10 and the search (3.1.19) settle |

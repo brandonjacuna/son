@@ -31,11 +31,11 @@ The book's point (pp. 395 to 398): companies build the formal review and neglect
 
 ### 5.3.4 Decide how a person gives feedback to their own lead, and where it goes when the check-in is not safe
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: p. 396 (bidirectional, informal feedback upward and sideways is what companies do least well); pp. 397 to 398 (ask on different occasions and forums)
 - Default assumption (WP p. 19, stated outright): team members weigh in on management effectiveness. The white paper does not say where a concern about one's own lead goes; 4.5.11 named this as a possible gap
-- Depends on: 4.5.11, 2.3.9, 2.3.16, 5.3.2
-- Done when: the standing upward question at every check-in is confirmed as the first surface, in the person's words, written only if they choose; a second destination exists for a concern about one's own lead that the person cannot say to that lead (candidates: the other lead; the partner who holds that lead's monthly conversation, 2.3.14; a named founder; the pulse's free field), with who reads it, what they do, and how the person learns it was heard; the same is stated for a concern about a founder; and the interpreter rule for a check-in in a language the lead does not share is confirmed by reference to 4.1.23 and 4.8; agreed by both seated founders
+- Depends on: 4.5.11, 2.3.9
+- Done when: the standing upward question at every check-in is confirmed as the first surface, in the person's words, written only if they choose; a second destination exists for a concern about one's own lead that the person cannot say to that lead (candidates: the other lead; the partner who holds that lead's monthly conversation, 2.3.14; a named founder; the pulse's free field), with who reads it, what they do, and how the person learns it was heard; the same is stated for a concern about a founder; and the interpreter rule for a check-in in a language the lead does not share is confirmed by reference to 4.1.22 and 4.8; agreed by both seated founders; reads: 5.3.2 names the kinds; 2.3.16 sets the loop window
 - Replaces old items: 17tn048qcjq (the person-to-lead half), 17tn048qc2b (the upward surfaces and interpreter halves)
 
 ### 5.3.5 Decide how leads and founders ask for feedback, and what they do with it
@@ -79,8 +79,8 @@ The book's point (pp. 395 to 398): companies build the formal review and neglect
 - Phase: Hiring and training
 - Book: pp. 396 to 397 (feedback about the team as a whole can be data-driven, honest, and public: how the quarter or project went, what was learned, what to change)
 - Default assumption (WP pp. 13, 17, 22): the shift close captures and the process is updated (WP p. 13); post-mortems are process-focused (WP p. 17); leading indicators are read regularly (WP p. 22)
-- Depends on: 2.3.7, 2.3.8, 2.3.19, 2.3.22, 4.5.13, 5.2.9, 5.2.10
-- Done when: the team read's form is set (candidate: one sentence on whether the unit's stated goal was met, with the reasoning, from a record), where it is given (the brief's team-content slot for a service; the leads' review for a period; the house review for a quarter), that it never names or reads a person and never carries a lead's narrative of the team's character, and that anything reaching the wider team was a record first (2.2.11); agreed by both seated founders
+- Depends on: 2.3.7, 2.3.8, 2.3.19, 4.5.13, 5.2.9, 5.2.10
+- Done when: the team read's form is set (candidate: one sentence on whether the unit's stated goal was met, with the reasoning, from a record), where it is given (the brief's team-content slot for a service; the leads' review for a period; the house review for a quarter), that it never names or reads a person and never carries a lead's narrative of the team's character, and that anything reaching the wider team was a record first (2.2.11); agreed by both seated founders; reads: the period's read is placed in the house review once 2.3.22 shapes it
 - Replaces old items: 17tn048qc3y (the record-first half, with 2.2.11), 86akht2k9 (the group-reads-a-record-not-a-person half)
 
 ### 5.3.10 Decide whether a change is tested with the people who use it before it reaches the whole team
@@ -94,7 +94,7 @@ The book's point (pp. 395 to 398): companies build the formal review and neglect
 
 ### 5.3.11 Decide how the feedback culture is read, and when its baseline is set
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before opening
 - Book: p. 396 (companies are well served by examining their feedback culture; without it the review feels destabilizing)
 - Default assumption (WP pp. 22, 23): employee NPS tracked regularly (WP p. 22); engagement results across psychological safety and values alignment (WP p. 23)
 - Depends on: 2.3.15, 2.2.20, 4.5.25, 5.3.2

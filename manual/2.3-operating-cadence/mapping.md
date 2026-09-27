@@ -13,9 +13,9 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 | 86akh672x | Ratify the two-rhythm cadence and the seam protection | Rewritten | 2.3.1, 2.3.2, 2.3.3 | Three decisions were inside one ratification: the shape (one cadence or two rhythms), the seam rules, and the entry test any rhythm must pass. Each is now a decision with options. The "founders' floor presence" part of the seam is 6.1's and is noted, not decided, in considerations section 2 |
 | 86akh6738 | Ratify the check-in as the shift-native form of the 1:1 | Rewritten | 2.3.9, 2.3.10 | The form and the intervals are two decisions. S12's placed-ahead extension survives as an option on the range; S13's placement of the review beside it is 5.4's |
 | 86akh6739 | Decide whether the house has a closed day and where the reviews sit | Rewritten | 2.3.12 | Same decision, with options; S15's note that the closed day and the seasonal shape are one family of facts is carried as a dependency on 2.1.15; S10's annual block is 2.3.30 |
-| 86akh6742 | Assign the Operations Lead's partner pairing and the construction and hiring workstreams | Rewritten | 2.3.5, 2.3.14 | Two decisions: the workstream owners and the lead pairing. The S15 and S16 extensions (who holds the lead's check-in and review; the second reader) are noted in 2.3.14 and handed to 5.9 |
-| 86akh6748 | Define "dinner is steady" as readiness rows | Routes to 2.2 | 2.2 | It extends 86akh5uaw, which 2.2 owns; the definition is a readiness-test matter. 2.3.26 places the review that applies it and depends on 2.2 for the definition |
-| 86akh674m | Ratify the goal-cycle rules: no "OKR," the counts, and no percentage attainment | Routes to 2.2 | 2.2 | The goal pages, their counts, their states, and the attainment question belong to the operating system's goals section and its exercises (pp. 151 to 156, which 2.2 received). 2.3.28 places the cycle on the calendar |
+| 86akh6742 | Assign the Operations Lead's partner pairing and the construction and hiring workstreams | Rewritten | 2.3.5, 2.2.5 (the pairing), 2.3.14 (the placement) | Two decisions: the workstream owners and the lead pairing. The S15 and S16 extensions (who holds the lead's check-in and review; the second reader) are noted in 2.3.14 and handed to 5.9. In the cross-chunk pass the pairing moved to 2.2.5, which decides who holds each lead's check-in; 2.3.14 keeps the placement |
+| 86akh6748 | Define "dinner is steady" as readiness rows | Routes to 2.2 | 2.2.36 | It extends 86akh5uaw, which 2.2 owns; the definition is a readiness-test matter. 2.3.26 places the review that applies it and depends on 2.2 for the definition |
+| 86akh674m | Ratify the goal-cycle rules: no "OKR," the counts, and no percentage attainment | Routes to 2.2 | 2.2.17 | The goal pages, their counts, their states, and the attainment question belong to the operating system's goals section and its exercises (pp. 151 to 156, which 2.2 received). 2.3.28 places the cycle on the calendar |
 | 86akh674t | Write principles version one from the record's decisions | Routes to 2.1 | 2.1 (2.1.5) | A founding-document deliverable already built as 2.1.5; the two-tier shape and the canon restrictions in the old item are brand-dependent and do not travel. The revision's placement is 2.3.30 |
 | 86akh6755 | Write the cadence page for the team home | Rewritten | 2.3.33 | Same deliverable in plain words; S11's language rule becomes a dependency on 4.8 |
 | 86akh675d | Write the founder cadence's page and decision log form | Rewritten | 2.3.4, 2.3.6 | The rhythm is a decision (2.3.4) and the page a deliverable (2.3.6); the interim and three-partner rules it waited on are 2.1.13's |
@@ -26,21 +26,21 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 | 86akh6775 | Set the feedback loop-closure window and the employee NPS pulse as running processes | Rewritten | 2.3.15, 2.3.16 | Two parameters, two decisions. S11's carrier configuration routes with 17tn048qc3q to 4.8 |
 | 86akh6779 | Build the shift brief spine and shift close record | Rewritten | 2.3.7, 2.3.8, 2.3.20 | The brief's spine and the close's content are decisions; the running checklists are a repeatable deliverable with a kit. S10's team slot list is 4.5's (86akht10z); S12's failure-type field is 5.3's (17tn048qckq); S11's record marks and language rule are dependencies on 4.8. The document-methodology gate is dropped |
 | 86akh677f | Build the person page and check-in record | Rewritten | 2.3.11, 2.3.17 | The fields are a decision; the first check-ins are the repeatable deliverable that seeds the kit. The records later sessions put beside the page (review, pay, coaching, window, career) are their own chunks' |
-| 86akh677v | Build the goal page, scoring record, and metric gate checklist | Routes to 2.2 | 2.2 | Goal-page and metric-gate instruments are the operating system's; the gate on long-term commitments is 2.1.3's, already built |
+| 86akh677v | Build the goal page, scoring record, and metric gate checklist | Routes to 2.2 | 2.2.28 | Goal-page and metric-gate instruments are the operating system's; the gate on long-term commitments is 2.1.3's, already built |
 | 86akh6785 | Build the leads' review agenda, house review memo template, and readiness test run record | Rewritten | 2.3.19, 2.3.23 | The agenda and the memo template are this chunk's deliverables. The readiness test run record is 2.2's and is handed there through 2.3.31. The methodology gate is dropped |
 
 ### Build-out subtasks from other sessions
 
 | Old ID | Old name (short) | Fate | Goes to | Reason |
 |---|---|---|---|---|
-| 86akh7qnb | Confirm the hiring partner and rule how the pre-opening hiring burst is run | Routes to 3.1 | 3.1 | How the burst is run, and whether recruiting help is engaged, is recruiting's. The partner assignment half is decided here in 2.3.5, and 3.1 depends on it |
-| 86akh7rkt | Place recruiting's reads on the leads' review and the partners' domain read | Routes to 3.1 | 3.1 | Recruiting's standing reads (pipeline, response window, candidate pulse, source mix) are 3.1's to define; 2.3.19 holds a standing line for them on the agenda |
-| 86akh7rrb | Add recruiting's parameters and the founder stage to the mechanism reset | Routes to 3.1 | 3.1 | Recruiting's parameters are 3.1's; 2.3.30 holds a line for them on the reset's agenda |
-| 86akhb2n2 | Design the ninety-day plan carried by its six check-ins | Routes to 3.3 | 3.3 | The plan's content per check-in is onboarding's; the check-in's interval inside the plan is 2.3.10's |
-| 86akht10z | Ratify the brief's team slot list and its refusals, and the gathering's team-making half | Routes to 4.5 | 4.5 | Both halves are team-environment content: what the brief's team slot and the gathering's second half carry. 2.3.7 bounds the slot's place in the spine and 2.3.25 decides whether the gathering exists |
+| 86akh7qnb | Confirm the hiring partner and rule how the pre-opening hiring burst is run | Routes to 3.1 | 3.1.14 | How the burst is run, and whether recruiting help is engaged, is recruiting's. The partner assignment half is decided here in 2.3.5, and 3.1 depends on it |
+| 86akh7rkt | Place recruiting's reads on the leads' review and the partners' domain read | Routes to 3.1 | 3.1.37 | Recruiting's standing reads (pipeline, response window, candidate pulse, source mix) are 3.1's to define; 2.3.19 holds a standing line for them on the agenda |
+| 86akh7rrb | Add recruiting's parameters and the founder stage to the mechanism reset | Routes to 3.1 | 3.1.3 | Recruiting's parameters are 3.1's; 2.3.30 holds a line for them on the reset's agenda |
+| 86akhb2n2 | Design the ninety-day plan carried by its six check-ins | Routes to 3.3 | 3.3.11 | The plan's content per check-in is onboarding's; the check-in's interval inside the plan is 2.3.10's |
+| 86akht10z | Ratify the brief's team slot list and its refusals, and the gathering's team-making half | Routes to 4.5 | 4.5.13, 4.5.24 | Both halves are team-environment content: what the brief's team slot and the gathering's second half carry. 2.3.7 bounds the slot's place in the spine and 2.3.25 decides whether the gathering exists |
 | 86akht1pt | Run the six-question playground test on every mechanism at the reset and at entry | Dropped | | Brand-dependent: the six questions and the conditions for agency come from the brand canon's playground philosophy. The entry test survives on white-paper and book grounds as 2.3.3 |
-| 86akht26a | Build the brief's team slot list and its record mark | Routes to 4.5 | 4.5 | The team slot's content is 4.5's; the brief's spine (2.3.7) leaves it a bounded place |
-| 86akht27e | Build the whole-house gathering's team-making half | Routes to 4.5 | 4.5 | The gathering's team-making content is 4.5's; whether the gathering exists is 2.3.25 |
+| 86akht26a | Build the brief's team slot list and its record mark | Routes to 4.5 | 4.5.13 | The team slot's content is 4.5's; the brief's spine (2.3.7) leaves it a bounded place |
+| 86akht27e | Build the whole-house gathering's team-making half | Routes to 4.5 | 4.5.24 | The gathering's team-making content is 4.5's; whether the gathering exists is 2.3.25 |
 | 86akht299 | Build the playground test card | Dropped | | Brand-dependent, as 86akht1pt; also gated on the document methodology, which is program machinery |
 | 86akht2ev | Build the environment's reads at the reset | Merged | 2.3.30 | The counts it lists (briefs with and without the slot, close displacement, capture and process-update rates, channel closure, the pulse composite) survive as what the reset reads; the six-question answers and the designation counts are dropped with the brand test and 4.1's designation block |
 | 86akht2gt | Record the ten conditions as a layer on the mechanism map | Dropped | | Brand-dependent: the ten conditions for agency are the brand canon's |
@@ -79,6 +79,14 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 **Counts by fate:** Rewritten 16; Merged 3; Routes to another chunk 25; Dropped 3; Received from 2.1 3. Total 50 (47 owned plus 3 received).
 
 Routes by target: 2.1 (1), 2.2 (3), 3.1 (3), 3.3 (1), 4.5 (3), 4.8 (4), 5.1 (2), 5.3 (1), 5.4 (2), 5.5 (2), 5.8 (1), 5.9 (2), 5.10 (1).
+
+### Placed in the cross-chunk pass (2026-09-27)
+
+| Old ID | Old name (short) | Fate | Goes to | Reason |
+|---|---|---|---|---|
+| 86akh681a | The mechanism map is the wiki's cadence page, and the marks travel with it | Served | 2.3.33 | The one-page cadence for the team's internal home is the mechanism map; the marks are retired and the cultural labor score's line is 2.2.20's |
+
+Received: 86akh673u (the whole-house gathering), routed from 2.2, lands in 2.3.25.
 
 ## 2. Where the S4 page's sections went
 

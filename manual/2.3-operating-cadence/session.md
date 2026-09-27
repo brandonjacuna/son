@@ -8,7 +8,7 @@ The guide for the session (or sessions) that decides this chunk. Task numbers ar
 
 **Where it sits.** After 2.2, which decided that each mechanism exists, who is in it, and what it reads first. This chunk decides when, where, how long, and in what order, and adds the rhythms 2.2 could not: the partners' own, the check-in, the closed day, the reset. Where 2.2 is still open on a mechanism, this chunk can still place its slot; note the dependency and go on. It hands back to 2.2 the cadence rows for the readiness test.
 
-**What is already decided upstream.** Check `manual/2.1-founding-documents/decisions.md` and `manual/2.2-the-operating-system/decisions.md` before opening. This chunk leans on: how the partners decide and the reserved classes (2.1.13); the seat descriptions (2.1.8, 2.1.9) and who holds culinary direction before the chef seat is filled (2.1.10); dinner's charter and its seasonal shape (2.1.15); who may change the founding documents and when (2.1.18); and from 2.2: the units (2.2.1), who holds each lead's check-in and review (2.2.5), the mechanism set (2.2.29), the goal form and the baseline rule (2.2.17, 2.2.18), the metrics and their owners (2.2.19 to 2.2.22), per-service ownership in the brief (2.2.31) and the brief's and close's operating-system fields (2.2.32), "dinner is steady" (2.2.38), and the readiness test (2.2.39). Brandon's one-seat ruling (the floor manager and the Maitre d are one seat, 2026-09-13) means the owner of the room, and so the runner of the brief, is the Maitre d on every service they work.
+**What is already decided upstream.** Check `manual/2.1-founding-documents/decisions.md` and `manual/2.2-the-operating-system/decisions.md` before opening. This chunk leans on: how the partners decide and the reserved classes (2.1.13); the seat descriptions (2.1.8, 2.1.9) and who holds culinary direction before the chef seat is filled (2.1.10); dinner's charter and its seasonal shape (2.1.15); who may change the founding documents and when (2.1.18); and from 2.2: the units (2.2.1), who holds each lead's check-in and review (2.2.5), the mechanism set (2.2.29), the goal form and the baseline rule (2.2.17, 2.2.18), the metrics and their owners (2.2.19 to 2.2.22), per-service ownership in the brief (2.2.31) and the brief's and close's operating-system fields (2.2.32), "dinner is steady" (2.2.36), and the readiness test (2.2.38). Brandon's one-seat ruling (the floor manager and the Maitre d are one seat, 2026-09-13) means the owner of the room, and so the runner of the brief, is the Maitre d on every service they work.
 
 **Who else must agree.** Most decisions are "agreed by both seated founders": the partners' review, the closed day, the leads' review, the house review, the gate review, and the reset are the founders' shared machinery. The chef partner owns 2.3.29 outright (the menu turn and its training window) and writes the kitchen's readiness block, close checklist, house-review memo, and check-in holder once seated; until then those are marked as theirs. Each lead confirms the structures they own in 2.3.32. Where Brandon has a position and Dominic has not weighed in, record it and mark it "pending agreement from Dominic."
 
@@ -23,7 +23,7 @@ The guide for the session (or sessions) that decides this chunk. Task numbers ar
 
 **Sitting two: the person and the week (before the first hire, continued).**
 - D. The check-in (2.3.9), its intervals (2.3.10), the person page (2.3.11)
-- E. The closed day (2.3.12), the leads' review's placement and chair (2.3.13), which partner holds each lead's monthly conversation (2.3.14)
+- E. The closed day (2.3.12), the leads' review's placement and chair (2.3.13), placing each lead's monthly conversation (2.3.14; who holds it is 2.2.5)
 
 **Sitting three: the month, the quarter, the year (hiring and training; before opening).**
 - F. The pulse's rhythm (2.3.15), the loop-closure window (2.3.16), the leads' review agenda (2.3.19, choices)
@@ -438,7 +438,7 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 
 **Needs agreement from:** both seated founders.
 
-### 2.3.14 Decide which partner holds each lead's monthly conversation
+### 2.3.14 Place each lead's monthly conversation on the calendar
 
 **The question:** which partner holds the monthly conversation with each lead, in the check-in's form, on the lead's own page, and who reads the other lead when a partner is the subject?
 
@@ -469,6 +469,8 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 **A finished answer:** each lead with one named partner, the form confirmed, the second-reader rule stated, 5.9 told.
 
 **Needs agreement from:** both seated founders.
+
+Narrowed in the cross-chunk pass to an action: who holds each lead's conversation, and the second-reader rule, are decided in 2.2.5 (and 5.9.10); this task places the conversation on the calendar. Bring the pairing questions above to the 2.2.5 conversation.
 
 ### 2.3.15 Set the employee NPS pulse's rhythm
 
@@ -548,11 +550,11 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 
 **Needs agreement from:** both seated founders on the run; the kit follows.
 
-### 2.3.19 Write the leads' review agenda and record form (choices only)
+### 2.3.19 Write the leads' review agenda, record form, and the lead's weekly note (choices only)
 
 **The question:** the order of reads, the source of each, what the record carries, and what the agenda refuses.
 
-**What Brandon supplies in the session:** the order (the candidate in cons. 5: leading indicators; the week's captures and process updates; goal state changes; the interface between service periods once two are open; overdue feedback items; load readings; decisions and escalations; the one thing for the week's briefs), and whether recruiting's standing read (3.1) sits under load readings or as its own line; the record form (notes; action items whose owner is a lead, a domain, or a unit, never a founder by default); that the one thing is written to the team's internal home before the first brief of the week; and that lagging indicators are not on it. 2.2.33 wrote the agenda's operating-system content; this fixes its order and record.
+**What Brandon supplies in the session:** the order (the candidate in cons. 5: leading indicators; the week's captures and process updates; goal state changes; the interface between service periods once two are open; overdue feedback items; load readings; decisions and escalations; the one thing for the week's briefs), and whether recruiting's standing read (3.1) sits under load readings or as its own line; the record form (notes; action items whose owner is a lead, a domain, or a unit, never a founder by default); that the one thing is written to the team's internal home before the first brief of the week; and that lagging indicators are not on it. 2.3.19 wrote the agenda's operating-system content; this fixes its order and record.
 
 **Openers:**
 - The first fifteen minutes are the metrics (p. 126). Which three numbers, from where, and could a chair pull them without asking anyone?
@@ -563,6 +565,8 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 **A finished answer:** the order fixed with a source per read, the record form written, the one-thing rule stated, lagging indicators stated off, and the four-consecutive-weeks condition understood.
 
 **Needs agreement from:** both seated founders.
+
+Also covers what "Specify the leads' review agenda and the lead's weekly note" asked (from 2.2).
 
 ### 2.3.20 Write the shift brief and shift close as running checklists, per domain (repeatable deliverable)
 
@@ -580,7 +584,7 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 
 **The question:** who writes the house review, who attends, where it sits, what the reading rule is, in what order the meeting runs, who records, and whether a written reflection follows.
 
-**Why it matters now:** her QBR is the centerpiece of her cadence and Sŏn's team does not sit at desks (cons. 6); 2.2.34 specified the review's sections and its scorecard; this decides how it is written and run; the gate review (2.3.26) becomes a section of it in service.
+**Why it matters now:** her QBR is the centerpiece of her cadence and Sŏn's team does not sit at desks (cons. 6); 2.3.23 now carries the review's sections, its scorecard, and what it refuses (absorbed from 2.2); this decides how it is written and run; the gate review (2.3.26) becomes a section of it in service.
 
 **Openers:**
 - A memo per domain, integrated by the partners into one house memo. Who has the harder job, the writer or the integrator?
@@ -624,6 +628,8 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 
 **Needs agreement from:** both seated founders; the chef partner for the kitchen's memo.
 
+Also covers what "Specify the house review and the phase-gate review" asked (from 2.2).
+
 ### 2.3.25 Decide whether to hold a quarterly whole-house gathering
 
 **The question:** does the whole house ever gather in one room, and if so when, paid how, carrying what and refusing what, at what cost in closed service; if not, how does the review's outcome reach the house?
@@ -659,7 +665,7 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 
 **The question:** where does the review that opens the next period sit, does it open on the test rather than a date, may an off-cycle review be called, and are the white paper's minimum durations written as floors?
 
-**Why it matters now:** 2.2.37 decided periods open on a test and 2.2.38 defined "dinner is steady"; this places the meeting that applies them. The charter calendar (2.3.27) hangs on it.
+**Why it matters now:** 2.2.35 decided periods open on a test and 2.2.36 defined "dinner is steady"; this places the meeting that applies them. The charter calendar (2.3.27) hangs on it.
 
 **Openers:**
 - The readiness test is reported met in week nine. Who checks it, and is a review called, or does it wait for the quarter?
@@ -770,7 +776,7 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 
 **The question:** which rhythms owned by other chunks appear on the calendar with a pointer, and which conditions are handed to 2.2's readiness test?
 
-**What Brandon supplies in the session:** confirmation that the brand cadence is on it unchanged (WP p. 31) and the floor's day is on it as the day (WP p. 26); which borrowed rows appear with an owner and a pointer (the review, 5.4; the ninety-day plan, 3.3; the competency conversation, 2.2); that the payment rhythm is not placed here (5.5); that every entry states its cost and buy; and the conditions handed to 2.2.39 (the leads' review has run consecutive weeks; check-ins are on schedule; the goal pages exist on time; the reset is dated).
+**What Brandon supplies in the session:** confirmation that the brand cadence is on it unchanged (WP p. 31) and the floor's day is on it as the day (WP p. 26); which borrowed rows appear with an owner and a pointer (the review, 5.4; the ninety-day plan, 3.3; the competency conversation, 2.2); that the payment rhythm is not placed here (5.5); that every entry states its cost and buy; and the conditions handed to 2.2.38 (the leads' review has run consecutive weeks; check-ins are on schedule; the goal pages exist on time; the reset is dated).
 
 **Openers:**
 - Read the bandwidth ledger in cons. 8 aloud. Per hourly person per month, is that less than you feared or more?
@@ -788,12 +794,12 @@ Once the decisions above exist, these can be drafted or scheduled. Drafts are ma
 
 - **2.3.6 The partners' page.** From 2.3.4, 2.3.5, and its brief's choices.
 - **2.3.17 First check-ins, each partner with a lead.** A run, from 2.3.9 to 2.3.11 and 2.3.14. Repeatable: yes; kit 2.3.18.
-- **2.3.18 Check-in kit.** From the capture notes on 2.3.17. 5.1's coaching form is built beside it, not inside it.
-- **2.3.19 Leads' review agenda and record form.** From 2.3.13, 2.2.33, and its brief's choices. Must have run four consecutive weeks before dinner's gate.
+- **2.3.18 Check-in kit.** From the capture notes on 2.3.17. 5.1's coaching insert (5.1.13) goes inside it. Also covers what "Build the lead conversation kit" asked (from 5.9).
+- **2.3.19 Leads' review agenda, record form, and the lead's weekly note.** From 2.3.13, 2.2.25, 2.2.29, and its brief's choices. Repeatable: yes; each lead files the note; kit 2.3.24. Must have run four consecutive weeks before dinner's gate.
 - **2.3.20 Brief and close as running checklists, per domain.** From 2.3.7, 2.3.8, 2.2.32, and 4.1 (who runs the brief per period). Repeatable: yes; kit 2.3.21.
 - **2.3.21 Brief and close kit.** From the capture notes on 2.3.20.
-- **2.3.23 House review memo template and run guide.** From 2.3.22 and 2.2.34. Repeatable: yes; kit 2.3.24. First run is the pre-opening gate review.
-- **2.3.24 House review kit.** From the capture notes on 2.3.23.
+- **2.3.23 House review memo template and run guide.** From 2.3.22. Repeatable: yes; kit 2.3.24. First run is the pre-opening gate review.
+- **2.3.24 Review kit: the lead's weekly note and the house review memo.** From the capture notes on 2.3.19 and 2.3.23; revised after the first house review runs.
 - **2.3.27 The charter calendar.** From 2.1.15, 2.3.26, and its brief's choices.
 - **2.3.28 The goal cycle on the calendar.** From 2.2.17, 2.2.18, 2.2.27, 2.3.22, 2.3.26: the writing window, the scoring weeks on both rhythms, the confirmation point.
 - **2.3.31 The cadence calendar.** From everything above and its brief's choices; cites the entry test first.
@@ -805,9 +811,9 @@ Once the decisions above exist, these can be drafted or scheduled. Drafts are ma
 
 - **Check-in kit (2.3.18)**, under `kits/check-in/`: intake (what the person reads on their page beforehand, and that nothing else is prepared), guide (fifteen minutes on the clock: the three questions, the upward question, the one line, the read-back, the refusals, the short-window rule), template (the person page's fields and the check-in line's form). Example only if a lead consents.
 - **Brief and close kit (2.3.21)**, under `kits/brief-and-close/`: intake (the questions a domain owner answers to fill their readiness block and close checklist), guide (how the owner of the room runs the brief in order, in every roster language, and what the thirty-second version keeps), template (the spine with the domain's blanks).
-- **House review kit (2.3.24)**, under `kits/house-review/`: intake (the questions a domain lead answers to write a candid memo readable in the reading block), guide (how the partners integrate the memos and chair the review, including the reading block, the top-of-mind round, and the reflection), template. A memo as the example only if its author consents.
+- **Review kit (2.3.24)**, under `kits/review/`: intake (the questions a lead answers before writing the weekly note, and before writing a candid memo readable in the reading block), guide (lowlights without a person; how the partners integrate the memos and chair the review, including the reading block, the top-of-mind round, and the reflection; lagging figures in the appendix), templates for the note and the memo. A memo as the example only if its author consents.
 
-Note the overlap with 2.2's review kit (2.2.41), which holds the lead's weekly note and the quarterly section. When both exist, one kit folder should hold the weekly note and the quarterly memo together; decide the folder at the first build and cross-reference the other.
+The cross-chunk pass folded 2.2's separate review kit into 2.3.24, so one kit folder holds the weekly note and the quarterly memo together.
 
 Capture notes go to `notes/` during the session: the questions that drew good answers, the order that worked, where he got stuck, the inputs he needed.
 
@@ -816,7 +822,7 @@ Capture notes go to `notes/` during the session: the questions that drew good an
 Questions that will come up and belong elsewhere. Add a line to that chunk's `notes/inbox.md` when one surfaces.
 
 - **2.1:** the partners' decision rule and reserved classes (2.1.13) if the partners' review strains it; dinner's seasonal shape (2.1.15) if the closed day depends on it; who holds culinary direction before the seat is filled (2.1.10).
-- **2.2:** the mechanism set (2.2.29) if a rhythm here has no mechanism; the metrics and owners (2.2.19 to 2.2.22); the brief's and close's operating-system fields (2.2.32); "dinner is steady" (2.2.38); the readiness test's cadence rows (2.2.39); the cultural labor score's rhythm intent (2.2.20).
+- **2.2:** the mechanism set (2.2.29) if a rhythm here has no mechanism; the metrics and owners (2.2.19 to 2.2.22); the brief's and close's operating-system fields (2.2.32); "dinner is steady" (2.2.36); the readiness test's cadence rows (2.2.38); the cultural labor score's rhythm intent (2.2.20).
 - **3.1:** the hiring partner (named in 2.3.5); recruiting's standing read on the leads' review; the response window and the founder's interview stage as reset parameters.
 - **3.3:** the ninety-day plan's check-in content; a person who arrives mid-quarter starting on their plan, not the quarter.
 - **4.1:** who owns the room per period and so runs the brief; whether the check-in rotation fits the Maitre d's windows (the structural fix when it does not).

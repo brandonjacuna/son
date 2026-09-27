@@ -4,9 +4,9 @@
 
 **What this chunk covers.** The book's late-chapter material on distributed teams, going global, adding remote workers, underperforming teams, working with other teams, and managing through uncertainty (pp. 331 to 353), plus the chapter's exercises. At Sŏn the distributed team is distributed by the hour: a shift's crew is gone before the next arrives, and once the morning and late night open, crews and leads stop overlapping. The session designs for that, decides how a missed goal is handled without the brief carrying it, how the floor and the kitchen name what they owe each other, and what leadership says to the house when it has no plan yet.
 
-**Already decided upstream, so not reopened here.** The cross-domain decision and its hold (2.2.3, 4.1.35); the unblocking path between two people (4.5.10, 4.5.18); the live-risk line (4.1.31, 4.1.32); how a structure change reaches people (4.1.12); the three channels and what "reached" means (2.2.11); the transparency line (2.2.6); the brief and the close (2.3.7, 2.3.8); the check-in (2.3.9); the whole-house gathering (2.3.25); the leadership block (4.5.4). Read those `decisions.md` entries first; if any is still open, several briefs below inherit the gap.
+**Already decided upstream, so not reopened here.** The cross-domain decision and its hold (2.2.3, 4.1.34); the unblocking path between two people (4.5.10, 4.5.18); the live-risk line (4.1.30, 4.1.31); how a structure change reaches people (4.1.12); the three channels and what "reached" means (2.2.11); the transparency line (2.2.6); the brief and the close (2.3.7, 2.3.8); the check-in (2.3.9); the whole-house gathering (2.3.25); the leadership block (4.5.4). Read those `decisions.md` entries first; if any is still open, several briefs below inherit the gap.
 
-**Who else must agree.** Dominic on anything the partners do together (4.6.3, 4.6.7, 4.6.13, 4.6.15, 4.6.16) and on the working-block kit. The chef partner, once seated, on the kitchen's side of the interface list (4.6.19), the kitchen's waits (4.6.5), the after-close rule in the kitchen (4.6.8), and the kitchen's course-correction (4.6.12). Record Brandon's position and mark those pending.
+**Who else must agree.** Dominic on anything the partners do together (4.6.3, 4.6.7, 4.6.13, 4.6.15, 4.6.16) and on the working-block kit. The chef partner, once seated, on the kitchen's side of the interface list (4.6.18), the kitchen's waits (4.6.5), the after-close rule in the kitchen (4.6.8), and the kitchen's course-correction (4.6.12). Record Brandon's position and mark those pending.
 
 **Why it sits here.** It follows 4.5 (the team environment) because most of its remedies are norms and records that 4.5 and 2.2 already built; it precedes 4.7 and 4.8 because the person who is not in the room (4.6.6) is the same person 4.7 wants heard and 4.8 needs to reach.
 
@@ -15,10 +15,10 @@
 1. Working apart now: the founders' norms and the remote-seat test (4.6.3, 4.6.4).
 2. What "distributed" means here (4.6.2), then the absent owner (4.6.5) and the person not in the room (4.6.6).
 3. In-person time and social time (4.6.7, 4.6.8, 4.6.9).
-4. The floor and the kitchen: dependencies and when to stop managing one (4.6.10, 4.6.11), and the interface list's first draft (4.6.19).
+4. The floor and the kitchen: dependencies and when to stop managing one (4.6.10, 4.6.11), and the interface list's first draft (4.6.18).
 5. The missed goal: the sequence, the reset, two people, a whole unit (4.6.12 to 4.6.15).
 6. What leadership says when it has no plan (4.6.16).
-7. The career conversation (4.6.17), and what the kit needs.
+7. The career conversation: now held in 4.4 (4.4.3, 4.4.13 to 4.4.15) since the cross-chunk pass; note anything Brandon says for that session.
 8. Close: deliverables unlocked, kits seeded, parking lot.
 
 The order is a default. If Brandon wants to start with the kitchen and the floor, start there.
@@ -77,7 +77,7 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 
 **How others have handled it:** General practice, not Sŏn-specific. Distributed founding teams commonly keep one written decision log and a stated response norm; the book's own example is the norm of moving any work conversation to a place everyone can see (p. 335).
 
-**Options:** (a) the partners' page carries the norms; nothing separate. (b) a working-apart page (4.6.18) that the chef partner and any remote seat later join. Depth: cons. 2.
+**Options:** (a) the partners' page carries the norms; nothing separate. (b) a working-apart page (4.6.17) that the chef partner and any remote seat later join. Depth: cons. 2.
 
 **Watch for:** norms that describe how Brandon prefers to work rather than what the partners agree; a rule Dominic has not seen.
 
@@ -269,7 +269,7 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 
 **The question:** when the floor's goal cannot be met without the kitchen doing something, or the reverse, where is that written before the goal is final, and where is a slip raised?
 
-**Why it matters now:** the leads are parallel and neither reports to the other; a dependency nobody named becomes a missed goal both sides explain away. 4.1.38 already put an interface read line on the leads' review; this decides what feeds it.
+**Why it matters now:** the leads are parallel and neither reports to the other; a dependency nobody named becomes a missed goal both sides explain away. 4.1.37 already put an interface read line on the leads' review; this decides what feeds it.
 
 **Openers:**
 - The floor sets a pace goal for dinner. Whose fire order does it depend on? When did the kitchen hear about it?
@@ -277,7 +277,7 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 - What did "I told the kitchen" mean the last time it failed?
 
 **Narrowing questions:**
-- A dependency line on each goal page, a standing interface list, a leads' check-in, an embedded person, or a temporary working group under 4.1.30?
+- A dependency line on each goal page, a standing interface list, a leads' check-in, an embedded person, or a temporary working group under 4.1.29?
 - Named before the other domain's goal is final: always?
 - From a slip to the cross-domain hold (2.2.3): how many repeats, and who calls it?
 
@@ -299,7 +299,7 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 
 **The question:** how many times does the same dependency slip before it stops being a thing to manage and becomes a structure question?
 
-**Why it matters now:** the book's closing point is that structure sometimes removes a dependency entirely. Without a count, the leads manage the same slip forever; with one, the reset (2.3.30) or 4.1.33 hears it.
+**Why it matters now:** the book's closing point is that structure sometimes removes a dependency entirely. Without a count, the leads manage the same slip forever; with one, the reset (2.3.30) or 4.1.32 hears it.
 
 **Openers:**
 - Name a dependency you have seen every restaurant manage weekly for years that a different structure would have removed.
@@ -307,7 +307,7 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 
 **Narrowing questions:**
 - A count at the reset, any-time raising at the leads' review, or both?
-- Who decides the structural answer: 4.1.33's reexamination, the reset, the partners?
+- Who decides the structural answer: 4.1.32's reexamination, the reset, the partners?
 - The record names the structure, never a person: kept?
 
 **What the book says:** ask whether a different strategy, architecture, org structure, or set of priorities could remove the dependency (pp. 349 to 350).
@@ -451,7 +451,7 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 
 **The question:** which risks on the live-risk line reach the floor, in what order and words, and what may leadership say when it does not yet know the fix?
 
-**Why it matters now:** the line exists (4.1.31, 4.1.32). Staff will hear about a lease, a permit, a partner, or a slow month faster than any statement; the choice is whether they hear it from leadership first. This also feeds 4.8.21, the statement form.
+**Why it matters now:** the line exists (4.1.30, 4.1.31). Staff will hear about a lease, a permit, a partner, or a slow month faster than any statement; the choice is whether they hear it from leadership first. This also feeds 4.8.20, the statement form.
 
 **Openers:**
 - The landlord sends a letter. Nothing changes tonight's service. Does the floor hear, and when: now, when it changes something, never?
@@ -471,7 +471,7 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 
 **How others have handled it:** General practice, not Sŏn-specific. The book's Stripe account is the reference; operators in 2020 who told staff weekly what they knew, including "we do not know," are widely reported to have kept more of their teams, a pattern rather than a study.
 
-**Options:** (a) the old work's threshold. (b) a lower one: any risk on the line for a set number of days is named. (c) the threshold plus a standing "what leadership is working on" line in the house note (4.8.7). Depth: cons. 9.
+**Options:** (a) the old work's threshold. (b) a lower one: any risk on the line for a set number of days is named. (c) the threshold plus a standing "what leadership is working on" line in the house note (4.8.8). Depth: cons. 9.
 
 **Watch for:** a statement that promises a fix leadership does not have; a threshold set to spare leadership hard questions; anything with a figure in it.
 
@@ -479,70 +479,30 @@ The order is a default. If Brandon wants to start with the kitchen and the floor
 
 **Needs agreement from:** both seated founders.
 
-### 4.6.17 Decide whether the career conversation runs at Sŏn, who holds it, and when
-
-**The question:** does a lead ever sit with a person for an hour to hear their history and where they want to be in five years, and if so, on what terms?
-
-**Why it matters now:** the white paper makes advancement self-paced and the system the advocate; the risk is that nobody ever asks the person what they want. The book's exercise asks about childhood and family, which 4.7's counsel question may limit. It also seeds a kit.
-
-**Openers:**
-- The best manager you ever had: did they know what you wanted to be doing in five years? How did they find out?
-- Sideways: the white paper says the longest measure of the culture is how people grow beyond the building. Who in the building is supposed to know where a person is trying to grow to?
-- The book starts at childhood. Where would you start?
-
-**Narrowing questions:**
-- As the book has it, shortened (start at the first job), or not at all?
-- For whom: leads first, then everyone? Who holds it for a lead?
-- When: after the ninety-day plan closes; in the first review cycle?
-- On the clock, in the person's language, voluntary, nothing written without agreement: all four?
-- What happens to the two or three goals: 2.2.14's development goals?
-
-**What the book says:** a sixty-minute 1:1 through a person's history and choices, ending in a five-year picture without a title and two or three development goals; introduce it in advance, remind the day before, listen and ask why (pp. 364 to 367).
-
-**White-paper default:** the path is explicit and self-paced (WP p. 11); reviews focus on the path forward (WP p. 19); how people grow beyond the building is a culture measure (WP p. 23). No life history anywhere.
-
-**How others have handled it:** General practice, not Sŏn-specific. The book's exercise is widely used in technology companies; in restaurants the nearest common practice is a manager asking, at hire, whether the person wants this as a career or a job, and rarely asking again.
-
-**Options:** (a) the book's version, voluntary, leads first. (b) a shortened form from the first job onward. (c) none; the ninety-day check-ins and development goals carry it. Depth: cons. 10.
-
-**Watch for:** a question counsel would not allow; notes kept where the person cannot see them; the conversation used as a read.
-
-**A finished answer:** yes or no, the form, who holds it for whom, when, the four terms, and where the goals go.
-
-**Capture for the kit:** the questions that drew good answers when a founder held one with a lead, the order, where it stalled, and what the lead wished they had been told beforehand.
-
-**Needs agreement from:** no one beyond Brandon; the kitchen's holder is the chef partner.
-
-### 4.6.19 Write the floor and kitchen interface list, version one (input needed)
+### 4.6.18 Write the floor and kitchen interface list, version one (input needed)
 
 Brandon can draft the floor's half from experience: what the floor needs from the kitchen before the brief, by station, at fire, and at the pass, and by when. The kitchen's half is the chef partner's; draft it as questions, not answers. **Capture for the kit:** which questions produced a concrete "by when," and which produced a complaint instead.
 
-### 4.6.22 Write the career conversation guide (input needed)
-
-Only after 4.6.17. Brandon decides the opening line a lead uses to invite the conversation and what it says the conversation is not (a review, a promotion request, a record). **Capture for the kit:** see 4.6.17.
-
 ## 4. Deliverables that follow
 
-- 4.6.18 Working-apart norms page (from 4.6.3, 4.6.4). Not repeatable.
-- 4.6.19 Floor and kitchen interface list, version one (from 4.6.10). **Repeatable:** each pair of domains, each new period's leads. Kit 4.6.20.
-- 4.6.21 Course-correction guide (from 4.6.12 to 4.6.15). Not repeatable.
-- 4.6.22 Career conversation guide (from 4.6.17). **Repeatable:** every lead with each person. Kit 4.6.25, after the first conversations (4.6.23).
-- 4.6.24 Working-block kit (from the book's offsite checklist and 4.5.21).
-- 4.8.21 receives 4.6.16's threshold and script for the whole-team statement form.
+- 4.6.17 Working-apart norms page (from 4.6.3, 4.6.4). Not repeatable.
+- 4.6.18 Floor and kitchen interface list, version one (from 4.6.10). **Repeatable:** each pair of domains, each new period's leads. Kit 4.6.19.
+- 4.6.20 Course-correction guide (from 4.6.12 to 4.6.15). Not repeatable.
+- 4.6.21 Working-block kit (from the book's offsite checklist and 4.5.21).
+- 4.8.20 receives 4.6.16's threshold and script for the whole-team statement form.
 
 ## 5. Kits this session seeds
 
-- `kits/interface-list/` (4.6.20): intake per side, the two leads' conversation guide, the template.
-- `kits/career-conversation/` (4.6.25): the optional intake, the lead's guide, the goals template; never a person's answers.
-- `kits/working-block/` (4.6.24): the offsite checklist in Sŏn's terms.
+- `kits/interface-list/` (4.6.19): intake per side, the two leads' conversation guide, the template.
+- `kits/working-block/` (4.6.21): the offsite checklist in Sŏn's terms.
 
 ## 6. Parking lot
 
-- The record rule (one home per kind of message; written before spoken): 4.8.5.
-- The language list and the interpreter designation: 4.8.2, 4.8.4.
-- The whole-team statement form: 4.8.21.
+- The record rule (one home per kind of message; written before spoken): 4.8.6.
+- The language list and the interpreter designation: 4.8.2, 4.8.5.
+- The whole-team statement form: 4.8.20.
 - Every person's voice reaching someone without a room: 4.7.11.
 - Whether the house is surveyed on how it works together: 4.2.4.
-- The exit conversation: 4.8.13; the exit itself: 5.10.
+- The exit conversation: 4.8.14; the exit itself: 5.10.
 - Feedback to a person after a collaboration conversation: 5.2.
-- Who owns an event in the room (the old carryover's fourth loose end): 4.1.28.
+- Who owns an event in the room (the old carryover's fourth loose end): 4.1.27.

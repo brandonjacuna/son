@@ -9,7 +9,7 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 - Phase: Hiring and training
 - Book: pp. 282 to 283 (before diagnosing, come back to the operating system: does the mission or the goals need clarifying first)
 - Default assumption: None; this is a read of Sŏn's own prior decisions
-- Depends on: 4.1.2, 4.1.33, 4.1.36, 4.1.37, 2.2.29, 2.3.13, 2.3.22, 2.3.30
+- Depends on: 4.1.2, 2.2.29, 2.3.13
 - Done when: a short note lists what is already fixed (what a team is, when the structure is reexamined, the seat load reading, the house review's scorecard slot, the reset) and what this chunk still has to settle, so no decision below reopens a closed one
 - Replaces old items: None
 
@@ -19,7 +19,7 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 - Book: pp. 282 to 284 (start with the team as a whole; if it cannot exceed the sum of its parts, look at each member)
 - Default assumption (WP p. 14): "Before intervening at the people level, identify which failure mode is actually present." The white paper's order is structure first, person last
 - Depends on: 4.1.2, 4.2.1
-- Done when: the objects a read may name are listed (candidates: the house, a domain, a service roster, a seat, a service period, a person), the order is stated (the book's team-then-person, the white paper's mode-then-person, or a stated mix), it is written when a read may reach a named person and by what path, and what is recorded when a problem fits no mode (its own outcome routed to 4.1.34, or forced into the nearest mode); agreed by both seated founders
+- Done when: the objects a read may name are listed (candidates: the house, a domain, a service roster, a seat, a service period, a person), the order is stated (the book's team-then-person, the white paper's mode-then-person, or a stated mix), it is written when a read may reach a named person and by what path, and what is recorded when a problem fits no mode (its own outcome routed to 4.1.33, or forced into the nearest mode); agreed by both seated founders
 - Replaces old items: 86akhptkm (in part), 86akhpv70, 86akhcz6u
 
 ### 4.2.3 Decide the frame: the five failure modes, the book's five dysfunctions, or both
@@ -36,8 +36,8 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 - Phase: Hiring and training
 - Book: p. 283 (survey the team before a meeting or offsite; discuss the results with the team to build mutual awareness; a good offsite session)
 - Default assumption (WP pp. 19, 22 to 23): feedback runs both directions; the employee NPS pulse is "tracked regularly rather than annually"; a dedicated feedback channel closes its loop; engagement is measured across psychological safety and values alignment. Silent on a one-off team survey
-- Depends on: 2.3.15, 2.3.16, 2.3.25, 4.2.3
-- Done when: it is written whether a survey runs (the book's, once the house exists; questions added to the pulse; or none, the continuous channels carry it), who sends and reads it, and whether findings are discussed with the whole house, at which gathering, or only with the leads; the psychological-safety half is handed to 4.5; agreed by both seated founders
+- Depends on: 2.3.15, 2.3.16, 4.2.3
+- Done when: it is written whether a survey runs (the book's, once the house exists; questions added to the pulse; or none, the continuous channels carry it), who sends and reads it, and whether findings are discussed with the whole house, at which gathering, or only with the leads; the psychological-safety half is handed to 4.5; agreed by both seated founders; reads: if 2.3.25 holds a quarterly gathering, whether results are discussed there
 - Replaces old items: None
 
 ### 4.2.5 Decide whether the skill-will matrix is used at Sŏn, on what, and who may write a will reading
@@ -54,9 +54,9 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 - Phase: Hiring and training
 - Book: p. 283 (are deadlines met, are metrics healthy, is the team executing well); p. 284 (a survey's signals of dysfunction)
 - Default assumption (WP p. 12): leading indicators, employee NPS, cultural labor score, customer recognition rate, are "the nervous system's signal"; lagging indicators are "the X-ray after the fracture." (WP p. 14) cooling failure's evidence includes joy absent and retention suffering; (WP p. 23) retention is read over time, and exit interviews are read "for what could have been better," with no reader named
-- Depends on: 2.2.21, 2.2.25, 2.3.8, 2.3.15, 4.1.37, 4.2.3
-- Done when: for each mode, the records it is read from are listed (shift close, check-in lines, the pulse, the feedback channel, the schedule, the designation block, the readiness test, the seat load reading), the sources for the floor-management seat's load are named with 4.1.36's ruled-out fixes carried over, it is stated whether a lead's impression or one person's word is ever evidence, whether counts are used and money never is, how retention and exit interviews are read given the white paper's two treatments, and who reads exit interviews (or that 5.10 decides); agreed by both seated founders
-- Replaces old items: 86akhptub (with 4.1.36 and 4.1.37), 86akht1wu (in part)
+- Depends on: 2.3.8, 2.3.15, 4.2.3
+- Done when: for each mode, the records it is read from are listed (shift close, check-in lines, the pulse, the feedback channel, the schedule, the designation block, the readiness test, the seat load reading), the sources for the floor-management seat's load are named with 4.1.35's ruled-out fixes carried over, it is stated whether a lead's impression or one person's word is ever evidence, whether counts are used and money never is, how retention and exit interviews are read given the white paper's two treatments, and who reads exit interviews (or that 5.10 decides); agreed by both seated founders; reads: 2.2.25's register confirms each named source once written
+- Replaces old items: 86akhptub (with 4.1.35 and 4.1.36), 86akht1wu (in part)
 
 ### 4.2.7 Decide the form of the evidence line, and whether it ever names a person
 - Type: Decision
@@ -78,7 +78,7 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 
 ### 4.2.9 Decide the rhythms the diagnostic runs on, and whether it adds a meeting
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before opening
 - Book: p. 283 (survey before a meeting or offsite; a good offsite session); pp. 282 to 283 (a question you should be able to answer at any time)
 - Default assumption: None on rhythm; 2.3 already placed the leads' review, the house review, the gate review, and the mechanism reset, and 2.3.3 set the test a rhythm must pass before it enters the calendar
 - Depends on: 2.3.3, 2.3.13, 2.3.22, 2.3.26, 2.3.30, 4.2.7
@@ -87,34 +87,34 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 
 ### 4.2.10 Set the recurrence thresholds as counts, and where each repeat surfaces
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before opening
 - Book: pp. 283 to 284 (from dysfunctional to functional takes sustained attention; hold the team accountable)
 - Default assumption: None; the white paper sets no thresholds. (2.3.30) parameters marked for the reset are re-set on real data
 - Depends on: 4.2.9, 2.3.30
 - Done when: starting values are written as counts of services, reviews, or check-ins (one occurrence; the same signal on the same object across consecutive leads' reviews; the same mode on consecutive house reviews after a fix; a mode present at a gate), where each surfaces (the leads' review, the house review, the reset, the gate), that none is money, and that every value is marked for the first reset; agreed by both seated founders
-- Replaces old items: 86akhpuv6 (the design half), 17tn048qfn3
+- Replaces old items: 86akhpuv6 (the design half), 17tn048qfn3, 86akhptmp (the thresholds)
 
 ### 4.2.11 Decide how a diagnosis becomes a change, and how the change is read back
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before opening
 - Book: pp. 283 to 284 (once the team has a diagnosis and has committed to change, model the new behaviors and hold the team accountable); p. 287 (ten percent plan, ninety percent execution)
 - Default assumption (WP p. 13): the incident is captured, the lead reviews, "the process that allowed the failure gets updated." (WP p. 17) "blame the process, fix the process"
-- Depends on: 4.1.12, 4.1.34, 2.3.30, 4.2.7, 4.2.10
-- Done when: it is stated whether a change entry (4.1.34) must carry its evidence line as the reason, whether a change whose stated reason is a person is accepted, refused, or routed to Chapter 5, when the read-back happens and who writes it, and what the lead's part is between the change and its read-back (the book's modeling, or a scheduled read by the source that raised it); agreed by both seated founders
+- Depends on: 4.1.12, 4.1.33, 2.3.30, 4.2.7, 4.2.10
+- Done when: it is stated whether a change entry (4.1.33) must carry its evidence line as the reason, whether a change whose stated reason is a person is accepted, refused, or routed to Chapter 5, when the read-back happens and who writes it, and what the lead's part is between the change and its read-back (the book's modeling, or a scheduled read by the source that raised it); agreed by both seated founders
 - Replaces old items: 86akhpuxk
 
 ### 4.2.12 Decide whether the founders' own seats are read by the same diagnostic, and from what sources
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: pp. 282 to 283 (a manager should be able to answer "how is the team doing" at any time, including about themselves; Operating Principle 4)
 - Default assumption (WP pp. 5 to 6): "a company built to run without them"; (WP p. 13) CPU failure is talented people doing work beneath their capability, the example a general manager resolving scheduling conflicts. Silent on who reads a founder's load
-- Depends on: 0.3, 1.2.3, 4.1.37, 4.2.6, 2.3.4
-- Done when: it is written whether each founder's seat gets a load line at the reset, which sources are allowed and which are not (an impression, one lead's word, a feeling), which fixes are in and out of scope for a founder's overload, who writes the line (the other partner, rotating; or the integrator), and where a lead's own "what's in my way" lands when their check-in holder is a founder (5.9 is told); agreed by both seated founders
+- Depends on: 0.3, 1.2.3, 2.3.4
+- Done when: it is written whether each founder's seat gets a load line at the reset, which sources are allowed and which are not (an impression, one lead's word, a feeling), which fixes are in and out of scope for a founder's overload, who writes the line (the other partner, rotating; or the integrator), and where a lead's own "what's in my way" lands when their check-in holder is a founder (5.9 is told); agreed by both seated founders; reads: 4.2.6 confirms the sources once the evidence list exists
 - Replaces old items: 17tn048qr49, 17tn048qr4f (the reading half; the guidance-before-first-check-in rule is 1.1.5 and 3.3.24), 86akhpv5n (the founder extension)
 
 ### 4.2.13 Decide what a lead taking over a running domain reads first, and what they hold off on before their first check-ins
 - Type: Decision
-- Phase: Before opening
+- Phase: After opening
 - Book: pp. 282 to 283 (when you take over a new team, assess whether it has the structures, plan, and people to deliver)
 - Default assumption (WP p. 14): knowledge lives in the system; a new lead reads documented processes, captured preferences, and skill maps rather than starting near zero. (2.3.11) the person page is written only at the check-in
 - Depends on: 3.3.45, 3.3.47, 3.3.30, 4.2.2
@@ -128,7 +128,7 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 - Default assumption (WP p. 14): the failure mode reference in the white paper's own words is the starting text
 - Depends on: 4.2.2 to 4.2.11, 2.2.15
 - Done when: one page any lead can be tested on exists on the team home: the frame, the objects, the read order, the evidence rule, the line's form, who writes what, the four rhythms, and the thresholds; written in plain words with each coined term defined
-- Replaces old items: 86akhpu06
+- Replaces old items: 86akhpu06, 86akhpvvq
 
 ### 4.2.15 Build the evidence line and the scorecard section of the house review
 - Type: Deliverable
@@ -163,16 +163,16 @@ Vocabulary, in plain words: a **failure mode** is one of the five named conditio
 - Phase: Before opening
 - Book: pp. 283 to 284
 - Default assumption (WP p. 21): "software does the reliable, scheduled, auditable work"
-- Depends on: 4.2.10, 4.2.15, 2.2.35
+- Depends on: 4.2.10, 4.2.15, 2.2.33
 - Done when: a repeat at each threshold lands on the right agenda (leads' review, house review, reset, gate) without anyone remembering to escalate it, and a test signal has been pushed through each path
-- Replaces old items: 86akhpuv6 (the build half)
+- Replaces old items: 86akhpuv6 (the build half), 86akhptmp (the configuration)
 
 ### 4.2.19 Run the diagnostic's first pass before the opening gate, and write its record
 - Type: Action
 - Phase: Before opening
 - Book: pp. 282 to 283 (assess where you stand before you build)
-- Default assumption (WP p. 36): dinner opens first and runs alone for at least a quarter; the gate is a test, not a date (2.2.37)
-- Depends on: 2.2.39, 2.2.40, 4.2.14, 4.2.15, 3.3.50
+- Default assumption (WP p. 36): dinner opens first and runs alone for at least a quarter; the gate is a test, not a date (2.2.35)
+- Depends on: 2.2.38, 2.2.39, 4.2.14, 4.2.15, 3.3.50
 - Done when: a two-part record exists, owned by the founders: what the pass could read (the readiness test's failed rows, structural gaps, staffing-sheet gaps, the hiring pipeline, training-infrastructure lines, the date each founder-held function passed to a lead per 4.4) and what it could not yet read, with the reason (no occupied seats for tension slack, no pulse baseline, no shift-close history); it goes to the gate review as an input, and is checked against reality at the first reset
 - Replaces old items: 86akhpu8z, 86akhpv17
 

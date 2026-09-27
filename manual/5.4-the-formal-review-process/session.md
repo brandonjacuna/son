@@ -4,7 +4,7 @@
 
 This chunk decides Sŏn's formal review: what it is for, what it reads, who holds it, what it writes, and what, if anything, it feeds. The book (pp. 399 to 413) wants a written review on a rhythm, a way to compare assessments across managers, and a link from performance to pay. The white paper has already committed Sŏn to a review every three to six months that is about "development, growth, and the path forward rather than a verdict," never contains new information, and runs in both directions (WP p. 19). It says nothing about a rating, a reviewer, calibration, or a link to pay.
 
-Upstream, a lot is already fixed. The check-in and its intervals (2.3.9, 2.3.10) carry the running conversation. The person page (2.3.11) holds no rating and no pay figure. Who holds each lead's check-in and review is 2.2.5's. Every hire is read on a fixed list (3.1.5, 3.2.2). There are no levels or ladders (4.1.7), and advancement has its own three seats (4.1.11). The ninety-day plan (3.3.10) and the career conversation (4.4.3, 4.6.17) come before the first review. 5.1 decided whether a coaching hypothesis is written anywhere; 5.2 whether a hard conversation leaves a record; 5.3 where a concern about one's own lead goes.
+Upstream, a lot is already fixed. The check-in and its intervals (2.3.9, 2.3.10) carry the running conversation. The person page (2.3.11) holds no rating and no pay figure. Who holds each lead's check-in and review is 2.2.5's. Every hire is read on a fixed list (3.1.5, 3.2.2). There are no levels or ladders (4.1.7), and advancement has its own three seats (4.1.11). The ninety-day plan (3.3.10) and the career conversation (4.4.3, 4.4.3) come before the first review. 5.1 decided whether a coaching hypothesis is written anywhere; 5.2 whether a hard conversation leaves a record; 5.3 where a concern about one's own lead goes.
 
 Who else must agree: both seated founders on every policy decision; Dominic in particular on 5.4.5 (what the review feeds), since pay is his domain; the chef partner on the kitchen's holder and placement (5.4.21), once seated. Nothing here is a founder's personal document, so nothing in this chunk is Brandon's alone.
 
@@ -277,7 +277,7 @@ A default order. Start wherever he wants.
 
 **The question:** do coworkers have a voice in a person's review?
 
-**Why it matters now:** 4.8.9 and 5.3.7 gave peers a recognition mechanism that is never a review input. Adding peer input here creates a second channel that reaches the record, and 5.3.6's bounds on peer feedback would apply to it.
+**Why it matters now:** 4.8.10 and 5.3.7 gave peers a recognition mechanism that is never a review input. Adding peer input here creates a second channel that reaches the record, and 5.3.6's bounds on peer feedback would apply to it.
 
 **Openers:**
 - Someone picks three peers for their review. Who do they pick, and what does the fourth person think?
@@ -428,7 +428,7 @@ A default order. Start wherever he wants.
 
 **The question:** does anyone at Sŏn ever read a person's potential, apart from their record?
 
-**Why it matters now:** the book wants a separate talent review (p. 405). The white paper reads potential off the progression record and the pool. 3.1.40 already checks the pool before an outside leadership hire. Anything beyond that is a judgment written somewhere.
+**Why it matters now:** the book wants a separate talent review (p. 405). The white paper reads potential off the progression record and the pool. 3.1.38 already checks the pool before an outside leadership hire. Anything beyond that is a judgment written somewhere.
 
 **Openers:**
 - A leadership seat opens. Two people in the pool are furthest along. What else do you want to know, and where would you write it?
@@ -466,7 +466,7 @@ A default order. Start wherever he wants.
 **Narrowing questions:**
 - Placement, length as a parameter, pay, language, presence.
 - Movable, never cancelled: yes?
-- The interpreter designation (4.8.4) covers reviews: confirm.
+- The interpreter designation (4.8.5) covers reviews: confirm.
 
 **What the book says:** about ten minutes back and forty forward (p. 406); a two-week delivery window (p. 411).
 
@@ -486,7 +486,7 @@ A default order. Start wherever he wants.
 
 **The question:** what happens in the room, in what order?
 
-**Why it matters now:** the guide (5.4.25) and the kit (5.4.29) are written from this. The book's day-ahead delivery depends on 5.4.9 and 5.4.18.
+**Why it matters now:** the guide (5.4.24) and the kit (5.4.28) are written from this. The book's day-ahead delivery depends on 5.4.9 and 5.4.18.
 
 **Openers:**
 - Run the half hour out loud, minute by minute, as the holder.
@@ -549,7 +549,7 @@ A default order. Start wherever he wants.
 
 **The question:** for a new person, what comes when?
 
-**Why it matters now:** three scheduled moments compete in a person's first half year: the plan's close, the career conversation, and the first review. 4.4.3 and 4.6.17 placed the career conversation "before any formal review, per 5.4's timing." This closes the loop.
+**Why it matters now:** three scheduled moments compete in a person's first half year: the plan's close, the career conversation, and the first review. 4.4.3 placed the career conversation "before any formal review, per 5.4's timing." This closes the loop.
 
 **Openers:**
 - Draw the first six months on one line: first paid hour, plan close, career conversation, first review. Where does each fall?
@@ -580,7 +580,7 @@ A default order. Start wherever he wants.
 
 **The question:** what happens when the Maitre d has more reviews than pre-service windows?
 
-**Why it matters now:** 2.3.10 already reads a check-in overrun as load, not something absorbed. Reviews double the same holder's blocks. 4.1.36 decides when a leadership line is added.
+**Why it matters now:** 2.3.10 already reads a check-in overrun as load, not something absorbed. Reviews double the same holder's blocks. 4.1.35 decides when a leadership line is added.
 
 **Openers:**
 - Count the floor at dinner's first quarter. How many reviews does the Maitre d hold in a month, plus check-ins? Does it fit?
@@ -612,24 +612,23 @@ Not Brandon's decision. What to hand the chef partner: the interval, the dimensi
 
 Brandon's input needed on: the page's tone and length, whether it names holders by role only, and whether it carries the sentence from 5.4.5 in the same words as the mechanics page. Draft from the decisions; marked draft for his review.
 
-### 5.4.28 Hold the first reviews: each partner with their lead
+### 5.4.27 Hold the first reviews: each partner with their lead
 
 **Capture for the kit:** during and after the first reviews, note which prompts drew a real answer for the person's half and which drew nothing; whether the order from 5.4.17 held or the conversation wanted a different one; how long the assembled record took to read aloud; what the lead asked that the guide did not anticipate; whether the closing question felt askable; and what a holder needed in front of them (the person page, the guide, a printed assembly). These notes, in `notes/`, become the kit's guide.
 
 ## 4. Deliverables that follow
 
 - 5.4.22 the review page for the team (in every house language). Repeatable: no.
-- 5.4.23 the review record and its assembly on the person page. Repeatable: no.
-- 5.4.24 the placement trigger on the scheduling surface. Repeatable: no.
-- 5.4.25 the holder's guide, version one, marked draft until 5.4.28. Repeatable: no; it becomes the kit's guide.
-- 5.4.26 the review module, general and holder versions. Repeatable: no.
-- 5.4.27 the decision-rights entries. Repeatable: no.
-- 5.4.28 the first reviews, each partner with their lead. Repeatable: yes; every lead with each person, on the interval; each partner with their lead.
-- 5.4.29 the formal review kit. Repeatable: no; it is the kit.
+- 5.4.23 the review record and its assembly on the person page, and the review's placement trigger on the scheduling surface (merged in the cross-chunk pass). Repeatable: no.
+- 5.4.24 the holder's guide, version one, marked draft until 5.4.27. Repeatable: no; it becomes the kit's guide.
+- 5.4.25 the review module, general and holder versions. Repeatable: no.
+- 5.4.26 the decision-rights entries. Repeatable: no.
+- 5.4.27 the first reviews, each partner with their lead. Repeatable: yes; every lead with each person, on the interval; each partner with their lead.
+- 5.4.28 the formal review kit. Repeatable: no; it is the kit.
 
 ## 5. Kits this session seeds
 
-- `kits/formal-review/`: intake (the prompts for the person's own half), guide (how a holder prepares from the person page, runs the order, asks the closing question, routes anything not on a record), template (the record's fields), example only if Brandon agrees his lead's review can be redacted into one. Distinct from the house review kit (2.3.24) and the operating review kit (2.2.41). Seeded by 5.4.28.
+- `kits/formal-review/`: intake (the prompts for the person's own half), guide (how a holder prepares from the person page, runs the order, asks the closing question, routes anything not on a record), template (the record's fields), example only if Brandon agrees his lead's review can be redacted into one. Distinct from the house review kit (2.3.24) and the operating review kit (2.3.24). Seeded by 5.4.27.
 
 ## 6. Parking lot
 

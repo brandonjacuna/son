@@ -86,13 +86,6 @@ Recorded in Brandon's words, with his reasoning. Status is open, decided, pendin
 - Date:
 - Still needs:
 
-## 2.3.14 Decide which partner holds each lead's monthly conversation
-- Status: open
-- Decision:
-- Reasoning (his words):
-- Date:
-- Still needs:
-
 ## 2.3.15 Set the employee NPS pulse's rhythm
 - Status: open
 - Decision:

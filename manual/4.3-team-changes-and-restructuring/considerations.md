@@ -2,7 +2,7 @@
 
 What the white paper holds, what the earlier work found worth keeping, the options and what each commits Sŏn to, and where Sŏn may diverge from the book. Topics follow the book's order (pp. 286 to 294). "WP p. N" is the white paper; "cons. N" is a section of this file. Nothing here is a decision.
 
-Vocabulary, in plain words: a **structure change** is any change to seats, lines, domains, or reporting, recorded on the structure change entry (4.1.34). A **departure read** is what the house reads in the week someone leaves. The **ready-now pool** is the white paper's list of people who have completed the next track and are waiting for a seat (WP p. 11). A **designation** is a per-service assignment of a live function (WP p. 10). The failure modes and the evidence line are as 4.2 defines them.
+Vocabulary, in plain words: a **structure change** is any change to seats, lines, domains, or reporting, recorded on the structure change entry (4.1.33). A **departure read** is what the house reads in the week someone leaves. The **ready-now pool** is the white paper's list of people who have completed the next track and are waiting for a seat (WP p. 11). A **designation** is a per-service assignment of a live function (WP p. 10). The failure modes and the evidence line are as 4.2 defines them.
 
 ## 1. After the diagnosis: sequencing
 
@@ -23,10 +23,10 @@ Vocabulary, in plain words: a **structure change** is any change to seats, lines
 
 **White paper.** The two leads are parallel; bundling them is the load-bearing model's final failure mode (WP p. 10). Growth is outward, not upward; the web never acquires altitude (WP p. 09). Growth in practice is adding service periods, each opened on a test (WP p. 36); roughly eight leadership lines run the whole day (WP p. 22). Universal problems are design problems (WP p. 17).
 
-**From the earlier work.** There is no org chart to reorganize in the book's sense. The first trigger's real form is a service period chartered or closed (2.1.15, 2.2.38) or a leadership line added under 4.1.36. The second is a departure, handled as tension re-establishment (cons. 6) with the lead change on the change entry, not a rethink of the domain. The third is the white paper's own rule: read the mode before treating a domain's trouble as a people problem. Merging two domains under one lead was declined as a step back toward the general manager; splitting a domain happens only through 4.1.36's trigger.
+**From the earlier work.** There is no org chart to reorganize in the book's sense. The first trigger's real form is a service period chartered or closed (2.1.15, 2.2.36) or a leadership line added under 4.1.35. The second is a departure, handled as tension re-establishment (cons. 6) with the lead change on the change entry, not a rethink of the domain. The third is the white paper's own rule: read the mode before treating a domain's trouble as a people problem. Merging two domains under one lead was declined as a step back toward the general manager; splitting a domain happens only through 4.1.35's trigger.
 
 **Options.**
-- (a) Triggers in Sŏn's terms only (a period, a line under 4.1.36, a lead's departure, a repeat finding that resolves to structure); no merges; no splits outside 4.1.36. Commits Sŏn to a structure that changes rarely and at known moments (4.1.33), and to living with a mediocre domain for a cycle while its mode is read.
+- (a) Triggers in Sŏn's terms only (a period, a line under 4.1.35, a lead's departure, a repeat finding that resolves to structure); no merges; no splits outside 4.1.35. Commits Sŏn to a structure that changes rarely and at known moments (4.1.32), and to living with a mediocre domain for a cycle while its mode is read.
 - (b) The book's triggers as written, read by the founders at each reset. Commits Sŏn to the founders' judgment on "structure no longer matches strategy" without a test.
 - (c) (a) plus a stated emergency trigger (a legal, safety, or partner-level event). Commits Sŏn to defining the emergency and who calls it (2.2.7 for the service; here for the structure).
 
@@ -58,7 +58,7 @@ Vocabulary, in plain words: a **structure change** is any change to seats, lines
 **Options.**
 - (a) A hold on structure, mechanisms, and parameters for dinner's first quarter; corrections and safety changes proceed; the log opens the reset. Commits Sŏn to a quarter of living with what it built, and to a reset that arrives with a long list.
 - (b) A hold on structure only; mechanisms and parameters may change by entry. Commits Sŏn to the tempo rules of 2.3.2 doing the protecting.
-- (c) No hold; 4.1.33's occasions and the change entry are enough. Commits Sŏn to the founders' restraint.
+- (c) No hold; 4.1.32's occasions and the change entry are enough. Commits Sŏn to the founders' restraint.
 
 ## 5. Breaking the structure for one person
 
@@ -111,7 +111,7 @@ Vocabulary, in plain words: a **structure change** is any change to seats, lines
 
 **White paper.** Bandwidth, then joy, then retention, then results (WP p. 12). Austin's labor market is tight (WP p. 16). Hiring reads competency, not instinct, and speed is respect (WP p. 18).
 
-**From the earlier work.** Before an unfilled seat is called a recruiting failure: read adjacent strain; whether others are double-covering; whether the row itself describes a job the labor pool supplies (entry horizon, shift shape, physical demands). Only then a hiring-quality question, answered by 3.4.17. The held-open case: a lead holds a seat open rather than lower the bar; if adjacent strain climbs across consecutive weekly reviews, the answer under "bandwidth before hiring corners" is to cut coverage or hours elsewhere before the bar drops, a call the earlier work placed above the lead. A domain that repeats (open seats, departures) is read up a level, in order: is the seat count wrong (a charter problem); is the row wrong; is the lead's own seat overloaded. A domain producing repeated departures is read as cooling failure first, never as a read on its lead's character. A period that keeps failing its metrics is read against its charter and the interface test (4.1.2, 2.2.36) before any people question.
+**From the earlier work.** Before an unfilled seat is called a recruiting failure: read adjacent strain; whether others are double-covering; whether the row itself describes a job the labor pool supplies (entry horizon, shift shape, physical demands). Only then a hiring-quality question, answered by 3.4.17. The held-open case: a lead holds a seat open rather than lower the bar; if adjacent strain climbs across consecutive weekly reviews, the answer under "bandwidth before hiring corners" is to cut coverage or hours elsewhere before the bar drops, a call the earlier work placed above the lead. A domain that repeats (open seats, departures) is read up a level, in order: is the seat count wrong (a charter problem); is the row wrong; is the lead's own seat overloaded. A domain producing repeated departures is read as cooling failure first, never as a read on its lead's character. A period that keeps failing its metrics is read against its charter and the interface test (4.1.2, 2.2.34) before any people question.
 
 **Options for who cuts coverage.**
 - (a) The lead, on their own domain, recorded. Commits Sŏn to leads being able to reduce a service's coverage without asking.
@@ -126,7 +126,7 @@ Vocabulary, in plain words: a **structure change** is any change to seats, lines
 
 **White paper.** Designations mark accountability in the moment and are not permanent elevations (WP p. 10).
 
-**From the earlier work.** Three branches at the reset: the lead's own scheduling or hours; only one person is trained to hold it (a training gap, 3.3); the lead names the same person by preference (the rotation floor of 4.1.20 answers). Never grounds to make the designation a seat; never a performance read on the holder. Read from the brief's designation block.
+**From the earlier work.** Three branches at the reset: the lead's own scheduling or hours; only one person is trained to hold it (a training gap, 3.3); the lead names the same person by preference (the rotation floor of 4.1.19 answers). Never grounds to make the designation a seat; never a performance read on the holder. Read from the brief's designation block.
 
 **Options.** (a) the three branches at the reset as written; (b) the pattern surfaces weekly and the lead answers it at the leads' review; (c) no read, the rotation floor is enough. Each commits Sŏn to a different amount of attention on the designation block.
 

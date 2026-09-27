@@ -14,7 +14,7 @@ One vocabulary line to hold through the whole session: "the operating system" he
 
 **Already decided inside this chunk.** Brandon ruled on 2026-09-13 that the floor manager and the Maitre d are one seat (`decisions.md`). Every "owner of the room" below means the Maitre d, or the room designation named in the shift brief on a service the Maitre d does not work. Invite him to restate his reasoning in his own words at the opening so `decisions.md` carries it.
 
-**Who else must agree.** Nearly every decision here is "agreed by both seated founders": Dominic's domain holds the stack, the financial model, and every financial value inside a range or threshold. The chef partner, once seated, rewrites the kitchen's half of the register, the emergency authority, the metrics, and the goal pages; until then those parts are placeholders. 2.2.24 (the data hub of record) is Dominic's action outright, and 2.2.25, 2.2.35 cannot finish without it. Where Brandon has a position and Dominic has not yet weighed in, record the position and mark it "pending agreement from Dominic."
+**Who else must agree.** Nearly every decision here is "agreed by both seated founders": Dominic's domain holds the stack, the financial model, and every financial value inside a range or threshold. The chef partner, once seated, rewrites the kitchen's half of the register, the emergency authority, the metrics, and the goal pages; until then those parts are placeholders. 2.2.24 (the data hub of record) is Dominic's action outright, and 2.2.25, 2.2.33 cannot finish without it. Where Brandon has a position and Dominic has not yet weighed in, record the position and mark it "pending agreement from Dominic."
 
 **How to run it.** Twenty-four decisions is more than one sitting. The agenda below groups them into four sittings that follow the phases in `tasks.md`; the first sitting is the one the first interviews depend on. Take them in any order he wants, but 2.2.1 and 2.2.2 shape everything after them and are worth doing first.
 
@@ -41,9 +41,9 @@ One vocabulary line to hold through the whole session: "the operating system" he
 
 **Sitting four: mechanisms and gates (before opening).**
 - N. The mechanism set (2.2.29), the alert-actor rule (2.2.30), per-service ownership in the brief (2.2.31), the brief's and close's contents (2.2.32)
-- O. Tests not dates (2.2.37), "dinner is steady" (2.2.38), the readiness rows (2.2.39)
+- O. Tests not dates (2.2.35), "dinner is steady" (2.2.36), the readiness rows (2.2.38)
 
-Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.2.25, 2.2.27, 2.2.28, 2.2.33, 2.2.34, 2.2.35, 2.2.41) are listed in section 4, with the choices that hide inside them.
+Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.2.25, 2.2.27, 2.2.28, 2.2.33) are listed in section 4, with the choices that hide inside them.
 
 ## 3. Briefs
 
@@ -73,9 +73,9 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 - Google's OKRs, the book's own example, cascade from company to team but were always meant to be written partly bottom-up; the book credits the "set as close to the customer as possible" rule to the same source (pp. 104 to 111).
 - Toyota-style production systems put the authority to stop the line with the person at the station, and set targets at the line, which is the nearest large-scale precedent for "the edge holds the information."
 
-**Options:** (a) build on the web: four intersecting units, goals ladder up, ownership in the domain. Commits Sŏn to writing the decision-rights structure the chart would otherwise supply (2.2.2) and to testing the claim (2.2.39). (b) the book's cascade in Sŏn's vocabulary: leads as divisions, stations and sections as teams. Commits Sŏn to a manager above each person and to the parallel-leads structure existing only on paper. (c) a hybrid: cascade above the leads, web below. Commits the founders to being the integration layer, which is the memory failure the white paper names (WP p. 13). Depth: cons. 1.
+**Options:** (a) build on the web: four intersecting units, goals ladder up, ownership in the domain. Commits Sŏn to writing the decision-rights structure the chart would otherwise supply (2.2.2) and to testing the claim (2.2.38). (b) the book's cascade in Sŏn's vocabulary: leads as divisions, stations and sections as teams. Commits Sŏn to a manager above each person and to the parallel-leads structure existing only on paper. (c) a hybrid: cascade above the leads, web below. Commits the founders to being the integration layer, which is the memory failure the white paper names (WP p. 13). Depth: cons. 1.
 
-**Watch for:** choosing (a) in words and (c) in practice, which shows up later as every escalation resolving to a founder (2.2.36 will catch it); "team" used loosely for the floor crew when he means the period.
+**Watch for:** choosing (a) in words and (c) in practice, which shows up later as every escalation resolving to a founder (2.2.34 will catch it); "team" used loosely for the floor crew when he means the period.
 
 **A finished answer:** the units named, the direction stated with its exception if any, the book's division and team ruled out or adopted on purpose with the cost said aloud, and Brandon can say where a person's development goal and a cross-period goal each live.
 
@@ -237,7 +237,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** on any given service, who acts on a sudden emergency in the room and in the kitchen without asking, and who may close a period, or the building, at each scope?
 
-**Why it matters now:** the shift brief must name emergency authority every service (2.2.31); the alert register routes a weapon-detection alert to whoever holds it (2.2.35); and the readiness test checks that it was named (2.2.39). It is phased hiring and training because the leads must know it at their first training service.
+**Why it matters now:** the shift brief must name emergency authority every service (2.2.31); the alert register routes a weapon-detection alert to whoever holds it (2.2.33); and the readiness test checks that it was named (2.2.38). It is phased hiring and training because the leads must know it at their first training service.
 
 **Openers:**
 - The camera layer flags a weapon at the door at eight on a Friday. The Maitre d is on the floor; you are at home. Who moves, and what are they allowed to do before anyone calls you?
@@ -515,7 +515,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **Options:** (a) no guess; baselines first; relative targets from quarter two. Commits Sŏn to a first quarter with no rate targets anywhere. (b) the book's guess, inside the building only. Commits Sŏn to a wall between internal numbers and anything a candidate or customer sees. (c) guess on operating metrics, never on charter metrics. Commits Sŏn to two rules. Depth: cons. 5.
 
-**Watch for:** a guessed number that is really a lease or cash constraint in disguise (that is 2.2.37's question).
+**Watch for:** a guessed number that is really a lease or cash constraint in disguise (that is 2.2.35's question).
 
 **A finished answer:** in or out, the first-quarter form stated, and when and how the first rate targets appear.
 
@@ -525,7 +525,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** which three to five metrics does Sŏn hold for years as the read on whether the company is working, and which long-term goal does each serve?
 
-**Why it matters now:** the definitions register (2.2.25), the owners (2.2.22), the house review (2.2.34), and "dinner is steady" (2.2.38) all read these. The white paper's inversion, leading indicators as the long-horizon read, is the most consequential divergence from the book in the chunk (cons. 6).
+**Why it matters now:** the definitions register (2.2.25), the owners (2.2.22), the house review (2.3.23), and "dinner is steady" (2.2.36) all read these. The white paper's inversion, leading indicators as the long-horizon read, is the most consequential divergence from the book in the chunk (cons. 6).
 
 **Openers:**
 - Five years in, an investor asks how the company is doing. What number do you say first, and is it the one the white paper says to say?
@@ -591,7 +591,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** which three to five metrics per open period and per domain are read at service tempo, what counterweights each, and which outcomes have a target of zero?
 
-**Why it matters now:** the shift close's fields (2.2.32) capture these; the leads' review opens on them (2.2.33); every zero target is a committed goal under 2.2.17; the realist's test says no metric may ask a cook to watch a screen mid-service (cons. 6).
+**Why it matters now:** the shift close's fields (2.2.32) capture these; the leads' review opens on them (2.3.19); every zero target is a committed goal under 2.2.17; the realist's test says no metric may ask a cook to watch a screen mid-service (cons. 6).
 
 **Openers:**
 - The close on a Friday. What five things would you want to know by Saturday morning that the register would never tell you?
@@ -623,7 +623,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** for every charter and operating metric, who is the one owner, and where a metric sits across both leads, how is it split so each half has one?
 
-**Why it matters now:** the book's rule is one owner (p. 121) and the white paper's is stricter by construction; the alert register routes to owners (2.2.35); the escalation for an unsplittable metric is 2.2.3. It depends on 4.1's leadership-line list to confirm every named owner is a seat that exists.
+**Why it matters now:** the book's rule is one owner (p. 121) and the white paper's is stricter by construction; the alert register routes to owners (2.2.33); the escalation for an unsplittable metric is 2.2.3. It depends on 4.1's leadership-line list to confirm every named owner is a seat that exists.
 
 **Openers:**
 - Customer recognition rate falls. Is that the stack's fault or the floor's? If you cannot tell, the metric has two owners.
@@ -654,7 +654,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** is a goal that was hit while the leading indicators fell scored as a win, a loss, or a win with a note, and what does the post-mortem ask?
 
-**Why it matters now:** the house review's narrative flags exactly this (2.2.34); it is the point where 2.1.4's ruling (rule or description) has a visible consequence; without it "bandwidth first" is a slogan.
+**Why it matters now:** the house review's narrative flags exactly this (2.3.23); it is the point where 2.1.4's ruling (rule or description) has a visible consequence; without it "bandwidth first" is a slogan.
 
 **Openers:**
 - Dinner hits every goal in quarter one and two servers quit in week eleven. Green, yellow, or red?
@@ -685,7 +685,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** which risks could end the company, in what order, and which founder owns each?
 
-**Why it matters now:** the house review's "what keeps you up at night" is answered from it (2.2.34); the company and period goal pages reserve a line for a named risk (2.2.27); the book's own side note says the CEO's first priority is the risk factors (p. 102).
+**Why it matters now:** the house review's "what keeps you up at night" is answered from it (2.3.23); the company and period goal pages reserve a line for a named risk (2.2.27); the book's own side note says the CEO's first priority is the risk factors (p. 102).
 
 **Openers:**
 - Which one keeps you up: the chef dependency, the stack breaking, or the founders' own bandwidth?
@@ -717,7 +717,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** which review mechanisms exist, at which unit, with whom in the room, and what does each read first?
 
-**Why it matters now:** 2.3 places every rhythm and cannot until the set exists; the readiness test checks each mechanism ran (2.2.39); the alert-actor rule (2.2.30) depends on which mechanism reads an alert's aftermath.
+**Why it matters now:** 2.3 places every rhythm and cannot until the set exists; the readiness test checks each mechanism ran (2.2.38); the alert-actor rule (2.2.30) depends on which mechanism reads an alert's aftermath.
 
 **Openers:**
 - Name every meeting that would exist at Sŏn in month two. Now cross out the ones a lead's memory could replace.
@@ -751,7 +751,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** for every alert the stack can raise, is a non-founder named in advance to act on it, and may any class of alert route to a founder by design?
 
-**Why it matters now:** the alert register (2.2.35) is built against it; Dominic's domain enables alerts and needs the rule before it does; a dashboard that alerts Brandon is stability produced by a founder's hand (WP p. 14).
+**Why it matters now:** the alert register (2.2.33) is built against it; Dominic's domain enables alerts and needs the rule before it does; a dashboard that alerts Brandon is stability produced by a founder's hand (WP p. 14).
 
 **Openers:**
 - The walk-in temperature alarm goes at two in the morning. Whose phone, what may they do, and who hears about it by the brief?
@@ -781,7 +781,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **The question:** what must the brief name before a service begins, who reads the book and sets the flags before service, who owns the room's transition once a second period opens, and does a service refuse to begin without the list?
 
-**Why it matters now:** the brief's operating-system contents (2.2.32) and 2.3's brief spine both depend on it; the readiness test checks the brief named the designations (2.2.39); the white paper leaves three per-service owners unassigned (cons. 7).
+**Why it matters now:** the brief's operating-system contents (2.2.32) and 2.3's brief spine both depend on it; the readiness test checks the brief named the designations (2.2.38); the white paper leaves three per-service owners unassigned (cons. 7).
 
 **Openers:**
 - Walk into a brief at five fifteen. Say the sentence that names who owns what tonight. How long did it take?
@@ -808,7 +808,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **Needs agreement from:** both seated founders; the chef partner for the kitchen's designations.
 
-### 2.2.32 Specify the shift brief's and shift close's operating-system contents (choices only)
+### 2.2.32 Specify the metrics and alerts the shift brief and shift close carry (choices only)
 
 **The question:** what must the brief and the close carry for the operating system, and what does each refuse?
 
@@ -824,11 +824,11 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **Needs agreement from:** both seated founders; the chef partner for the kitchen's contents.
 
-### 2.2.37 Decide that a service period opens on a test, not a date, and that the readiness test is the operating-system half of the gate
+### 2.2.35 Decide that a service period opens on a test, not a date, and that the readiness test is the operating-system half of the gate
 
 **The question:** do periods open on a passed test or on a date, is the readiness test plus the phase-gate review the form the gate decision takes, and what happens when a lease, a stream announcement, or cash argues for a date the test has not met?
 
-**Why it matters now:** the near-term plan is a sequence of gates in the white paper (WP p. 36); "never assert the unproven" makes an announced date a commitment to customers (cons. 5); 2.2.38, 2.2.39, 2.2.40, and 2.3.26 all assume the answer.
+**Why it matters now:** the near-term plan is a sequence of gates in the white paper (WP p. 36); "never assert the unproven" makes an announced date a commitment to customers (cons. 5); 2.2.36, 2.2.38, 2.2.39, and 2.3.26 all assume the answer.
 
 **Openers:**
 - The room is ready, the crew is trained, and the readiness test fails two rows. The lease clock is running. Open or hold?
@@ -855,7 +855,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **Needs agreement from:** both seated founders.
 
-### 2.2.38 Decide what "dinner is steady" means, as the gate that opens the next service period
+### 2.2.36 Decide what "dinner is steady" means, as the gate that opens the next service period
 
 **The question:** which readiness rows and which leading indicators, in what state, mean dinner is steady enough to add the early morning?
 
@@ -886,7 +886,7 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **Needs agreement from:** both seated founders; the chef partner for the kitchen's half.
 
-### 2.2.39 Write the readiness test: "the operating system is running" (choices only)
+### 2.2.38 Write the readiness test: "the operating system is running" (choices only)
 
 **The question:** which rows are on the test, who checks each, and what does a failed row map to?
 
@@ -914,22 +914,18 @@ Once the decisions above exist, these can be drafted for Brandon's review. Draft
 - **2.2.25 Metric definitions register, version one.** From 2.2.19 to 2.2.22 and 2.2.24. Blocked until Dominic confirms the hub (2.2.24). Its entry form is its own template.
 - **2.2.27 First goal pages: the company's, dinner's, each domain's.** From 2.2.17, 2.2.18, 2.2.25, 2.2.26, and dinner's charter (2.1.15). Repeatable: yes; each period's lead and each domain owner writes theirs each quarter; kit 2.2.28. Capture for the kit: how an activity became a state in the room; the wince test in practice; how three domain owners wrote one period page; how a target stayed out before a baseline.
 - **2.2.28 Goal page kit.** From the capture notes on 2.2.27.
-- **2.2.32 Brief and close operating-system contents.** From 2.2.31 and its brief's choices; feeds 2.3.7 and 2.3.8.
-- **2.2.33 Leads' review agenda and the lead's weekly note.** From 2.2.29 and 2.2.25. Repeatable: yes; each lead files the note; kit 2.2.41. Capture for the kit: what a one-page note refused to carry; the order of reads that worked.
-- **2.2.34 House review and phase-gate review.** From 2.2.29, 2.2.26, 2.2.27. Repeatable: yes; each period's lead and domain owner writes a section each quarter; kit 2.2.41. Capture for the kit: how a section skewed to lowlights without writing about a person; how the failure-mode scorecard and the tension map were filled from the closes.
-- **2.2.35 Alert register, version one.** From 2.2.30, 2.2.24, 2.2.22; owner the Operations Lead with Dominic's domain.
-- **2.2.36 Requisite-variety test.** An action run with both leads and the chef partner once 4.1's list exists; the eight disturbance classes in cons. 4 are the input.
-- **2.2.39 Readiness test.** From its brief's choices and 2.3's cadence rows.
-- **2.2.40 Run the readiness test and the phase-gate review before dinner opens.** An action; its result feeds the first house review.
-- **2.2.41 Review kit.** After the first house review has run.
+- **2.2.32 The metrics and alerts the brief and close carry.** From 2.2.31 and its brief's choices; feeds 2.3.7 and 2.3.8.
+- **2.2.33 Alert register, version one.** From 2.2.30, 2.2.24, 2.2.22; owner the Operations Lead with Dominic's domain.
+- **2.2.34 Requisite-variety test.** An action run with both leads and the chef partner once 4.1's list exists; the eight disturbance classes in cons. 4 are the input.
+- **2.2.38 Readiness test.** From its brief's choices and 2.3's cadence rows.
+- **2.2.39 Run the readiness test and the phase-gate review before dinner opens.** An action; its result feeds the first house review.
 
-Dominic's action, not Brandon's: **2.2.24 Confirm the data hub of record.** Ask Brandon to hand it to Dominic at the close of sitting three; 2.2.25 and 2.2.35 wait on it.
+Dominic's action, not Brandon's: **2.2.24 Confirm the data hub of record.** Ask Brandon to hand it to Dominic at the close of sitting three; 2.2.25 and 2.2.33 wait on it.
 
 ## 5. Kits this session seeds
 
 - **Decision-rights entry kit (2.2.8)**, under `kits/decision-rights-entry/`: intake (the three questions per position), guide (enabling constraint not prohibition list; naming a destination; marking incomplete; what the range assumes about who is free), template. Example only if the founders agree one entry can serve.
 - **Goal page kit (2.2.28)**, under `kits/goal-page/`: intake (activity to state, the wince test, the parent question), guide (three domain owners writing one period page; holding a section for someone else; no targets before a baseline), template. Dinner's page as the example only if the founders agree.
-- **Review kit (2.2.41)**, under `kits/review/`: intake for the weekly note and the quarterly section, guide (lowlights without a person; the scorecard and tension map from the closes; lagging figures in the appendix), templates for both. Built after the first house review runs.
 
 Capture notes go to `notes/` during the session: the questions that drew good answers, the order that worked, where he got stuck, the inputs he needed.
 
@@ -941,7 +937,7 @@ Questions that will come up and belong elsewhere. Add a line to that chunk's `no
 - **2.3:** every rhythm, interval, and window: the leads' review's day, the loop-closure window, the pulse's rhythm, the reset's placement, the whole-house gathering, the brief's spine and order, the close's two demands on one window, the check-in's form and intervals.
 - **3.1:** who the hiring partner is; recruiting's standing read on the leads' review.
 - **3.3:** the ninety-day plan's check-in interval and first development goals; a range written and not delivered as an onboarding failure.
-- **4.1:** the leadership-line list (needed by 2.2.22 and 2.2.36); the labor model behind every range's assumption about who is free; who owns the room on a service the Maitre d does not work.
+- **4.1:** the leadership-line list (needed by 2.2.22 and 2.2.34); the labor model behind every range's assumption about who is free; who owns the room on a service the Maitre d does not work.
 - **4.5:** the brief's team-making content.
 - **4.8:** the house languages; whether any employee-facing document must exist in a language other than English by law (counsel).
 - **5.1:** the coaching form beside the check-in.
@@ -952,3 +948,4 @@ Questions that will come up and belong elsewhere. Add a line to that chunk's `no
 - **6.1:** the founders' floor presence on the service's tempo; "say the thing you cannot say" as a founder practice.
 - **Counsel (log, do not answer):** a founder holding a lead's check-in or working a designation as an employee for any purpose; lease, insurance, and food-safety constraints on closure authority and who must be notified.
 - **Learning and development work:** the competency paths and the platform that feeds 2.2.14.
+- New in the cross-chunk pass: 2.2.37 Decide whether the readiness test reads the company's shape as well as the building; brief to be written.

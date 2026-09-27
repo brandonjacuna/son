@@ -6,7 +6,7 @@
 
 **Already decided upstream, so not reopened here.** Who holds each lead's check-in and review (2.2.5); which partner holds the monthly conversation, in the check-in's form, at a closed hour, on the lead's page (2.3.14); the check-in's spine and refusals (2.3.9); the leads' review's placement and chair (2.3.13); whether "manager" is a word the house uses (1.3.2); what the leads receive of the founders' working-with-me documents (1.1.5); a lead's onboarding and whether a coach is engaged (3.3.22, 3.3.23); the delegation rule and the handover list (4.4.8, 4.4.9); how the delegation signs are read (4.4.11); where a lead's "what's in my way" lands (4.2.12); how a lead's inclusiveness and environment are read (4.7.12, 4.7.13); who holds a lead's review and how a domain's upward halves roll up (5.4.7, 5.4.13); the candor count (5.4.12); counsel's list of what a lead must know (0.1). If any of these is still open, this session inherits the question and should say so at the start.
 
-**Who else must agree.** Both seated founders on every decision. The chef partner on 5.9.12 and the kitchen half of 5.9.7; until the seat is filled, those are recorded as interim. The two leads, once hired, review 5.9.13 and can change it through 5.9.20.
+**Who else must agree.** Both seated founders on every decision. The chef partner on 5.9.12 and the kitchen half of 5.9.7; until the seat is filled, those are recorded as interim. The two leads, once hired, review 5.9.13 and can change it through 5.9.19.
 
 **Why it sits here.** Chapter 5 has built the instruments for everyone: coaching (5.1), hard feedback (5.2), the review (5.4), pay (5.5), and the cases (5.6 to 5.8). This chunk applies them one level up, where the person being managed manages, and where the founders' own habits are the main risk. 5.10 follows with what happens when any of it ends.
 
@@ -19,7 +19,7 @@
 5. When it is not going well (5.9.8, 5.9.9): a concern about a lead; a lead's own process.
 6. Two leads, two partners (5.9.10, 5.9.11): reading the lead you do not hold; divergence; development.
 7. The kitchen (5.9.12): what the chef partner will need to decide.
-8. Deliverables and kits (5.9.13 to 5.9.19): what the session unlocks.
+8. Deliverables and kits (5.9.13, 5.9.14 to 5.9.18): what the session unlocks.
 
 Start wherever he wants. If he has been on the floor with a lead recently, start with the stance; if a lead is being interviewed soon, start with 5.9.5, because that is what the candidate will ask.
 
@@ -63,7 +63,7 @@ Start wherever he wants. If he has been on the floor with a lead recently, start
 
 **The question:** is a lead's monthly conversation the same fifteen-minute check-in anyone gets, or something with more room, and what is in it?
 
-**Why it matters now:** 2.3.14 placed it and 2.3.9 gave it a form; this is the last chance to say what is different about it before the guide (5.9.13) and the page (5.9.15) are built. "Communication expectations" are on the candidate sheet (WP p. 18).
+**Why it matters now:** 2.3.14 placed it and 2.3.9 gave it a form; this is the last chance to say what is different about it before the guide (5.9.13) and the page (5.9.14) are built. "Communication expectations" are on the candidate sheet (WP p. 18).
 
 **Openers:**
 - Picture the Operations Lead's third monthly conversation. It is a closed hour. What is on the table?
@@ -98,7 +98,7 @@ Start wherever he wants. If he has been on the floor with a lead recently, start
 
 **The question:** what does a lead's own page carry beyond a person page, and who can see each part?
 
-**Why it matters now:** 5.9.15 builds it; 5.9.9 may put a window block on it; 4.3.10 puts a handoff block on it. The white paper's rule is that knowledge lives in the system (WP p. 8), and a lead's page that holds nothing is a memory failure waiting for the lead's departure (WP p. 13).
+**Why it matters now:** 5.9.14 builds it; 5.9.9 may put a window block on it; 4.3.10 puts a handoff block on it. The white paper's rule is that knowledge lives in the system (WP p. 8), and a lead's page that holds nothing is a memory failure waiting for the lead's departure (WP p. 13).
 
 **Openers:**
 - The Maitre d leaves after two years. What do you wish had been on their page?
@@ -190,7 +190,7 @@ Start wherever he wants. If he has been on the floor with a lead recently, start
 
 **The question:** does each founder work seats after dinner's first quarter, on what rhythm, under whose authority for the service, and what happens to what they see?
 
-**Why it matters now:** the counsel question from 2.2.5 (a founder under a designation as an employee for any purpose) has to be answered before the first such service. The card (5.9.16) is written from this.
+**Why it matters now:** the counsel question from 2.2.5 (a founder under a designation as an employee for any purpose) has to be answered before the first such service. The card (5.9.15) is written from this.
 
 **Openers:**
 - It is month five. You take a runner's seat for a Tuesday. The room designation is held by a server hired in March. They tell you to reset table twelve. What happens?
@@ -265,7 +265,7 @@ Start wherever he wants. If he has been on the floor with a lead recently, start
 **Narrowing questions:**
 - Unchanged; the senior path; or a hybrid (a window exists, its rows are the seat's outcomes)?
 - Second reader: the other partner, the other lead, counsel by rule?
-- The pauses that read the house first: the seat load reading (4.1.37), the range (4.4.8), the interval drifted, a promised system unbuilt, 4.1.36's relief order not exhausted?
+- The pauses that read the house first: the seat load reading (4.1.36), the range (4.4.8), the interval drifted, a promised system unbuilt, 4.1.35's relief order not exhausted?
 - Who judges the close, on what: the seat's outcomes (2.2.22), an assessor from outside the domain?
 - Are the two leads' windows or reviews ever compared? The earlier work said never.
 - Confirm the hand-off to 5.10 is the same closed package.
@@ -299,7 +299,7 @@ Start wherever he wants. If he has been on the floor with a lead recently, start
 - Through records only: the leads' review record, the goal page, the seat load reading, the pulse by domain?
 - A concern about the lead you do not hold: a line in the monthly domain read (2.3.4); a question at the weekly review; never a conversation with that lead about it?
 - Divergence between the leads: a calibration item on the leads' review fixed at the mechanism, never one lead correcting the other; or manager-to-manager alignment run by the partners?
-- The permanent informal room holder: confirm it is 4.3.13's and 4.1.20's, a rotation rule at the reset.
+- The permanent informal room holder: confirm it is 4.3.13's and 4.1.19's, a rotation rule at the reset.
 
 **What the book says:** the system keeps the manager involved enough to unblock and coach without doing everyone's job (pp. 449 to 450).
 
@@ -375,15 +375,15 @@ Start wherever he wants. If he has been on the floor with a lead recently, start
 
 **Needs agreement from:** the chef partner; the founders for the interim.
 
-### 5.9.13 Write the partner's guide to the lead's monthly conversation (deliverable; input needed)
+### 5.9.13 Write the partner's insert for the lead's monthly conversation in the check-in kit (deliverable; input needed)
 
 **What Brandon supplies:** the stance in his own words (5.9.2); the openers he would actually use; the sentences he never wants to hear himself say to a lead; what he does when the lead brings something he already knows the answer to.
 
 **Capture for the kit:** which openers drew a real answer in the first conversations; what order worked; where a lead got stuck; what the partner needed to have read beforehand; the moment a conversation turned into direction and how it was pulled back.
 
-**Repeatable:** yes, every partner with every lead; the chef partner with station leads if 5.9.12 adopts it; later holders. Kit: 5.9.14.
+**Repeatable:** yes, every partner with every lead; the chef partner with station leads if 5.9.12 adopts it; later holders. Kit: 2.3.18 (the insert lives in the check-in kit; the separate lead conversation kit was folded into it in the cross-chunk pass).
 
-### 5.9.17 Translate the management basics into the lead's form, and place them (deliverable; input needed)
+### 5.9.16 Translate the management basics into the lead's form, and place them (deliverable; input needed)
 
 **What Brandon supplies:** whether 0.2 kept the checklist for the leads; which rows he wants a lead to check themselves on before the monthly conversation and which belong in the review; whether counsel's legal items (0.1) sit in the lead onboarding plan or the review.
 
@@ -391,29 +391,29 @@ Start wherever he wants. If he has been on the floor with a lead recently, start
 
 ## 4. Deliverables that follow
 
-- 5.9.13 The partner's guide to the lead's monthly conversation. Repeatable: yes; kit 5.9.14.
-- 5.9.15 The lead's page in the stack. Not repeatable; built once, one per lead.
-- 5.9.16 The founder-in-a-seat card. Not repeatable.
-- 5.9.17 The management basics in the lead's form, placed. Not repeatable.
-- 5.9.18, 5.9.19 The counts on the leads' review and the reset; the register entries. Actions.
-- 5.9.20, 5.9.21 The first three conversations; the first reset read. After opening.
+- 5.9.13 The partner's insert for the lead's monthly conversation in the check-in kit. Repeatable: yes; kit 2.3.18.
+- 5.9.14 The lead's page in the stack. Not repeatable; built once, one per lead.
+- 5.9.15 The founder-in-a-seat card. Not repeatable.
+- 5.9.16 The management basics in the lead's form, placed. Not repeatable.
+- 5.9.17, 5.9.18 The counts on the leads' review and the reset; the register entries. Actions.
+- 5.9.19, 5.9.20 The first three conversations; the first reset read. After opening.
 
 ## 5. Kits this session seeds
 
-- `kits/lead-conversation/` (5.9.14): intake, guide, page template; an example only if Brandon agrees an invented case can serve. It extends the check-in kit (2.3.18) and holds no lead's answers.
+- No kit of its own: the partner's insert (5.9.13) goes into `kits/check-in/` (2.3.18), and the lead's page template is 5.9.14's. It holds no lead's answers.
 
 ## 6. Parking lot
 
 - 1.3.2: whether "manager" is a word the house uses; the white paper's two uses of it for a Sŏn seat (WP pp. 10, 26).
 - 2.2.5, 2.3.14: if the pairing or the holder is still open, it is decided there, not here.
 - 2.3.13: the leads' review's chair.
-- 3.1.26: the pre-opening substitute for the leadership dinner (86akh7qun).
+- 3.1.24: the pre-opening substitute for the leadership dinner (86akh7qun).
 - 3.3.23: the coach in a lead's first months; its cost is Dominic's to weigh.
 - 4.1.3: whether cross-training a lead into the other domain is permitted.
-- 4.1.36, 4.1.37: a lead's load and its relief.
+- 4.1.35, 4.1.36: a lead's load and its relief.
 - 4.2.12: the read on the founders' own seats; a lead's "what's in my way."
 - 4.3.10: a departing lead's handoff and the pool priority; a founder's own departure with 2.1.1 and 6.3.
-- 4.3.13, 4.1.20: the permanent informal room holder.
+- 4.3.13, 4.1.19: the permanent informal room holder.
 - 5.1.12, 6.3: who coaches the founders; the founders' own development.
 - 5.2.4, 5.8.2: counsel on whether an unwritten count or a record in the person's words defends a later separation.
 - 5.4.12: the candor count's definition; here only its use on a lead.

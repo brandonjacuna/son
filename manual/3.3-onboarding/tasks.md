@@ -1,13 +1,13 @@
 # 3.3 Onboarding: the work
 
-Every decision, action, and deliverable this section of the book calls for, in the order they would naturally be done. Reasoning and options are in `considerations.md`; the book's guidance is in `book.md`. "WP p. N" is the white paper. A few terms used throughout, in plain words: the "why session" is the first content a new person receives, the mission, principles, and behavioral standard, before any operational training (WP p. 18); the "readiness read" is the assessment that clears a person to hold a seat alone, distinct from 2.2.39's readiness test for a service period; a "training service" is a service run for the team with no paying customers; the "person page" is the record 2.3.11 defines; "tasted knowledge" means a person has tasted every dish on the menu and can say what it is and why in their own words. A deliverable marked "Repeatable" is one others will later produce for their own seat or team; building it with the founders is also how the process gets built for everyone else, and each such deliverable has a paired kit task.
+Every decision, action, and deliverable this section of the book calls for, in the order they would naturally be done. Reasoning and options are in `considerations.md`; the book's guidance is in `book.md`. "WP p. N" is the white paper. A few terms used throughout, in plain words: the "why session" is the first content a new person receives, the mission, principles, and behavioral standard, before any operational training (WP p. 18); the "readiness read" is the assessment that clears a person to hold a seat alone, distinct from 2.2.38's readiness test for a service period; a "training service" is a service run for the team with no paying customers; the "person page" is the record 2.3.11 defines; "tasted knowledge" means a person has tasted every dish on the menu and can say what it is and why in their own words. A deliverable marked "Repeatable" is one others will later produce for their own seat or team; building it with the founders is also how the process gets built for everyone else, and each such deliverable has a paired kit task.
 
 ### 3.3.1 Read what the upstream chunks already settle for onboarding, and note the gaps
 - Type: Action
 - Phase: Before the first hire
 - Book: p. 216 (a manager should know what the company and division curricula cover and decide what else the new hire needs)
 - Default assumption: None; this is a read of Sŏn's own prior decisions
-- Depends on: 2.3.9, 2.3.10, 2.3.11 (the check-in, its intervals, the person page), 3.1.38 (supervision of anyone not yet signed off), 3.2.24 (the interviewer training sequence, which the operational training sequence reuses), 3.2.34 (the hiring calendar as gates), 4.1.11 and 4.1.14 (who runs an assessment; the assessor and mentor pools on the seat inventory), 1.1.5 and 1.1.11 (who reads the founders' working-with-me documents; the kit)
+- Depends on: 2.3.9, 2.3.10, 2.3.11 (the check-in, its intervals, the person page), 3.2.23 (the interviewer training sequence, which the operational training sequence reuses), 3.2.32 (the hiring calendar as gates), 4.1.11 and 4.1.14 (who runs an assessment; the assessor and mentor pools on the seat inventory), 1.1.5 and 1.1.11 (who reads the founders' working-with-me documents; the kit)
 - Done when: a one-page note lists what each upstream decision fixes for onboarding, what it leaves open, and which tasks below inherit each gap
 - Replaces old items: None
 
@@ -34,8 +34,8 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before the first hire
 - Book: p. 216 (the why of the company, the what of the business, the how of behaviors; stories, not bullet points)
 - Default assumption (WP p. 18): "why comes before how"; orientation to the mission, values, and behavioral standard happens before operational training. The white paper is silent on the "what" (current priorities and goals) as an onboarding part.
-- Depends on: 3.3.2, 2.1.17 (the founding document), 2.2.27 (the first goal pages)
-- Done when: the three parts are named with their contents, the order is fixed, and it is stated where the "what" (this quarter's goals, the service period's charter) enters a new person's first weeks
+- Depends on: 3.3.2, 2.1.17 (the founding document)
+- Done when: the three parts are named with their contents, the order is fixed, and it is stated where the "what" (this quarter's goals, the service period's charter) enters a new person's first weeks; reads: the why session (3.3.35) reads the first goal pages once written
 - Replaces old items: 86akhb2kg (the order and contents; the writing is 3.3.35)
 
 ### 3.3.5 Decide whether the founding documents must be finished before any cohort start date, and whether the two leads are exempt
@@ -43,7 +43,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before the first hire
 - Book: p. 216 (the why session covers the mission and the story behind it, and the operating principles)
 - Default assumption (WP p. 18): the why precedes the how, which implies the why exists before the first operational training. The white paper is silent on what happens if it does not.
-- Depends on: 2.1.17, 2.1.18, 3.2.34
+- Depends on: 2.1.17, 2.1.18, 3.2.32
 - Done when: the rule is written, with its cost stated either way (start dates slide, or a cohort hears an unfinished why), and the leads' case is settled separately
 - Replaces old items: None
 
@@ -70,8 +70,8 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before the first hire
 - Book: pp. 216 to 217 (Crenn: people get thrown onto the job; training is a continuation, not a one-time event); p. 216 (function-specific programs run from week one into week two)
 - Default assumption (WP pp. 18 to 19): the industry model is "shadow someone for two shifts, catch fragments, get thrown in before ready"; Sŏn's answer is competency validation, "no one touches a table until they are actually ready." The white paper is silent on the steps between arrival and readiness.
-- Depends on: 3.3.3, 3.2.24 (the interviewer training sequence: module, live session, observed, paired, solo)
-- Done when: the steps are named in order, the rule for setting each seat's paired-service count is stated (by the domain lead per seat, not one constant), and the sequence is written into the candidate sheet's training plan (3.1.31) in a form a candidate can read at the first interview
+- Depends on: 3.3.3, 3.2.23 (the interviewer training sequence: module, live session, observed, paired, solo)
+- Done when: the steps are named in order, the rule for setting each seat's paired-service count is stated (by the domain lead per seat, not one constant), and the sequence is written into the candidate sheet's training plan (3.1.29) in a form a candidate can read at the first interview
 - Replaces old items: 86akhb2m5
 
 ### 3.3.9 Decide what "service-ready" means and how the readiness read runs
@@ -79,8 +79,8 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before the first hire
 - Book: p. 217 (onboarding should be designed so its outcomes are known); WP p. 19 (competency validation)
 - Default assumption (WP p. 11): the practical assessment schedules with the appropriate domain lead; WP p. 19: advancement is a competency conversation with the appropriate lead who signs off. The white paper is silent on who scores the read, whether the mentor may, and what a failed read produces.
-- Depends on: 3.3.8, 3.2.37 (the practical's assessor neither teaches it nor decides the hire), 4.1.11
-- Done when: "service-ready" is defined once and narrowly (one seat, one service period), the assessor's separation from the mentor and the teacher is settled, the outcome form is fixed (binary or otherwise), and the handling of a "not yet" and a second "not yet" on the same rows is written
+- Depends on: 3.3.8, 4.1.11
+- Done when: "service-ready" is defined once and narrowly (one seat, one service period), the assessor's separation from the mentor and the teacher is settled, the outcome form is fixed (binary or otherwise), and the handling of a "not yet" and a second "not yet" on the same rows is written; reads: shares its separation of duties with 3.2.35
 - Replaces old items: 86akhb2m5 (the readiness half); 17tn048qfnp (the base form; its extension to advancement reads is 4.1.11's)
 
 ### 3.3.10 Decide the ninety-day plan's form: its goal, milestones, and what it refuses
@@ -99,14 +99,14 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption (WP p. 18): regular check-ins and course correction. The white paper is silent on their contents.
 - Depends on: 3.3.10, 2.3.9, 2.3.10, 2.3.18 (the check-in kit)
 - Done when: each check-in in the plan has one stated focus, the list of what no check-in may contain is written, and the point where the plan's check-ins hand over to the standing check-in cadence is named
-- Replaces old items: 86akh67ny (the contents half); 86akhb2r1 (the six read types)
+- Replaces old items: 86akh67ny (the contents half); 86akhb2r1 (the six read types); 86akhb2n2 (the check-in contents)
 
 ### 3.3.12 Decide the plan's extension rule and where an unmet goal goes
 - Type: Decision
 - Phase: Before the first hire
 - Book: p. 224 (most hiring mistakes surface months in as a performance issue and are handled as one); p. 217 (course correction)
 - Default assumption (WP p. 17): "blame the process, fix the process": the first question is what allowed this, not who failed. The white paper is silent on extensions and on what follows an unmet plan.
-- Depends on: 3.3.10 (3.4.5, a minor recurring issue in the first weeks, builds on this rule)
+- Depends on: 3.3.10
 - Done when: the rule states whether a plan may be extended, by whom, on what grounds, how many times, and that what happens after an unmet goal belongs to 5.8 (low performers) and 5.10 (managing out), not to this plan
 - Replaces old items: None
 
@@ -133,8 +133,8 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before the first hire
 - Book: p. 219 (a new leader's onboarding depends on the commitment of everyone around them); WP p. 18 (a proven mentor for every new person)
 - Default assumption (WP p. 18): every new person has a mentor who is proven. Before opening, no one at Sŏn has proven anything in this building, so the default cannot be met literally; the white paper is silent on the first cohort.
-- Depends on: 3.3.13, 3.3.14, 3.1.20 (which leadership seats are hired first), 3.2.34 (the hiring calendar as gates)
-- Done when: the mechanism for the first cohort's mentoring is chosen (two waves, one wave mentored by leads, an interim mentor pool, or another), its headcount and calendar consequences are written into 3.2.34, and the point at which the first wave's mentors become "proven" is defined
+- Depends on: 3.3.13, 3.3.14, 3.1.18 (which leadership seats are hired first), 3.2.32 (the hiring calendar as gates)
+- Done when: the mechanism for the first cohort's mentoring is chosen (two waves, one wave mentored by leads, an interim mentor pool, or another), its headcount and calendar consequences are written into 3.2.32, and the point at which the first wave's mentors become "proven" is defined
 - Replaces old items: 86akhb2j7
 
 ### 3.3.16 Decide the conditions a start date must meet
@@ -150,7 +150,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Type: Decision
 - Phase: Before the first hire
 - Book: p. 219 (the first meeting covers how you will work together and initial priorities); p. 217 (knowledge of key processes)
-- Default assumption (WP p. 13): the server "resolves it using their authorized judgment and generosity range"; WP p. 26: staff can be generous without asking permission. The white paper states the range exists; it does not say how a person comes to hold it in speech. 3.1.38 already names a failed unprompted statement of the range as an onboarding failure.
+- Default assumption (WP p. 13): the server "resolves it using their authorized judgment and generosity range"; WP p. 26: staff can be generous without asking permission. The white paper states the range exists; it does not say how a person comes to hold it in speech. 3.1.36 already names a failed unprompted statement of the range as an onboarding failure.
 - Depends on: 2.2.2 (the decision-rights rule beneath the partner level), 2.2.4 (the register), 3.3.8, 3.3.9
 - Done when: the moments at which a person hears, repeats, practices, and is tested on their range are listed (the first at the offer), the rule for an unset threshold is stated (said to be unset, never invented), and the refusals in how range is taught are written (never as case-by-case permission; under-use never framed as safer; every escalation names a destination)
 - Replaces old items: 86akhb2qq
@@ -178,7 +178,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Hiring and training
 - Book: p. 216 (the company and division curricula exist before the hire arrives)
 - Default assumption (WP p. 19): "any qualified team member" authors; before opening there is no team. The white paper is silent on the first set.
-- Depends on: 3.3.18, 3.1.20, 2.1.10 (who holds culinary direction; kitchen content waits on it)
+- Depends on: 3.3.18, 3.1.18, 2.1.10 (who holds culinary direction; kitchen content waits on it)
 - Done when: the authors of the first set are named by domain (the leads, the kitchen's owner, the founders), the scope is bounded (what reaches the readiness read, not later development content), the approval method for a sole author is stated, and the set is marked version one with its revision trigger
 - Replaces old items: 86akhb2kw
 
@@ -189,14 +189,14 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption (WP p. 19): no one touches a table until ready. The white paper is silent on menu knowledge as a readiness item.
 - Depends on: 3.3.9, 2.3.29 (the chef partner's menu change cadence and its training window), 2.1.10
 - Done when: the definition is written (every current dish tasted, described in the person's own words, with the chef's reason), the readiness row tests only those things, the rule for a menu change is stated (a new dish adds a tasting before anyone serves it alone), and the sequencing rule is written (a menu fixed too late for tastings before opening delays opening rather than being worked around). Pending agreement from the chef partner.
-- Replaces old items: 86akh9tap; 86akhb2rz (the definition; the build is 3.3.48)
+- Replaces old items: 86akh9tap; 86akhb2rz (the definition; the build is 3.3.48); 86akhb2nt (the sequence)
 
 ### 3.3.22 Decide what a lead's onboarding adds, and which parts of the book's leader program Sŏn declines
 - Type: Decision
 - Phase: Before the first hire
 - Book: pp. 219 to 221 (the New Leader Experience: welcome, pre-reads, prescheduled 1:1s, a buddy and a guide, an assessment, a coach, first-month actions, a 90-day 360; the hardest part is knowing when to move from listening to acting); pp. 257 to 259 (the sample schedule)
 - Default assumption (WP p. 10): the two leads are co-leads of parallel systems; WP p. 19: internal succession is the goal, so an outside lead is the exception. The white paper is silent on a lead's onboarding.
-- Depends on: 3.3.2, 3.3.4, 3.1.20, 2.3.13 (the leads' review's placement and attendance), 2.3.14 (which partner holds each lead's monthly conversation)
+- Depends on: 3.3.2, 3.3.4, 3.1.18, 2.3.13 (the leads' review's placement and attendance), 2.3.14 (which partner holds each lead's monthly conversation), 2.2.5
 - Done when: each of the book's six objectives (p. 220) has Sŏn's mechanism or a stated decline, the pre-reading list is named, the quiet period (listen before deciding) has a length or a trigger, the guide for a later lead is named (the co-lead or another), and the 90-day feedback question is answered (a 360, the standing upward question, or something else)
 - Replaces old items: None
 
@@ -205,7 +205,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before the first hire
 - Book: p. 219 (a coach is part of the New Leader Experience)
 - Default assumption: None; the white paper is silent
-- Depends on: 3.3.22, 2.3.14
+- Depends on: 3.3.22, 2.3.14, 2.2.5
 - Done when: the answer is written for the two pre-opening leads and for a later outside lead, with what covers the coach's function if the answer is no. Financials are not a source for this work; the cost side is Dominic's to weigh.
 - Replaces old items: 86akhb2jc
 
@@ -243,20 +243,20 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption (WP p. 22): leading indicators are measured; WP p. 23: retention and internal promotion are tracked "with the same seriousness as cost." The white paper is silent on an onboarding metric.
 - Depends on: 3.3.10, 3.3.9, 2.2.21 (operating metrics), 2.3.4 (the monthly domain read), 2.3.30 (the mechanism reset)
 - Done when: the lines are named (time from start to readiness, first-try pass share, "not yet" counts by category, extensions and their causes, whether the house met what people said they needed), the rule of no target and no name is stated or declined, and the first run is placed
-- Replaces old items: 86akhb2qn
+- Replaces old items: 86akhb2qn, 86akhb2xh
 
 ### 3.3.28 Decide that the leads' review carries a training-infrastructure line, and what it logs
 - Type: Decision
 - Phase: Before opening
 - Book: p. 225 (closing the loop: share what onboarding missed so it is not repeated)
 - Default assumption (WP p. 17): the first question is what allowed this to happen; WP p. 13: the fix is system maintenance, not people management
-- Depends on: 3.3.12, 3.3.16, 2.2.33, 2.3.19 (the leads' review agenda)
+- Depends on: 3.3.12, 3.3.16, 2.3.19
 - Done when: the line's triggers are listed (an extension, a second "not yet," a missing mentor, a slipped start date), each entry's form is fixed (the broken link, a fix, an owner, a date, never a person as cause), and the escalation on a recurring pattern is named
 - Replaces old items: 86akhb2qh
 
 ### 3.3.29 Decide the shorter plan for a person adding a service period or changing domain
 - Type: Decision
-- Phase: After opening
+- Phase: Before opening
 - Book: pp. 217 to 218 (internal moves deserve the same attention as new hires)
 - Default assumption (WP p. 19): cross-training is career development; WP p. 11: cross-strand fluency is the real development marker, recognized in compensation. WP p. 35 to 36: the next service periods open after dinner is steady. The white paper is silent on the training path for a move.
 - Depends on: 3.3.8, 3.3.9, 4.1.10 (cross-strand and cross-period fluency defined), 4.1.11 (who signs an assessment across domains)
@@ -351,7 +351,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Hiring and training
 - Book: p. 217 (prep before the program); p. 220 (a welcome with context; pre-start reading for a leader)
 - Default assumption (WP p. 18): information delivered and expectations set before arrival
-- Depends on: 3.3.7, 3.3.16, 3.1.31 (the candidate sheet), 2.3.11, 3.3.17
+- Depends on: 3.3.7, 3.3.16, 3.1.29 (the candidate sheet), 2.3.11, 3.3.17, 5.10.17
 - Done when: the note is generated from the person page at acceptance and carries the first shift as a paid orientation block, the mentor's name and seat, the current seat description and candidate sheet, the plain-language range (3.3.40), the first two weeks' schedule with the first check-in visible, a link to the first modules without assigning them, and the line stating what, if anything, is required before the first paid hour; written in the person's chosen language
 - Replaces old items: 86akhb2qv
 
@@ -378,7 +378,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Hiring and training
 - Book: p. 217 (outcomes known); WP p. 19 (competency validation)
 - Default assumption (WP p. 19): sign-off is a competency conversation with the appropriate lead
-- Depends on: 3.3.9, 3.3.17, 3.3.21, 3.2.39 (the practical's scoring rows, which share its separation of duties), 2.1.10
+- Depends on: 3.3.9, 3.3.17, 3.3.21, 3.2.37 (the practical's scoring rows, which share its separation of duties), 2.1.10
 - Done when: the floor form exists with its procedural rows, its behavioral rows, the customer-language row, the range row (asked, not recited), and the tasted-knowledge row (held until 3.3.48), with a binary outcome and a "not yet" section naming rows to redo; the kitchen form is opened with the chef partner
 - Replaces old items: 17tn048qfnp (the base form)
 
@@ -405,8 +405,8 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before the first hire
 - Book: pp. 219 to 221 and pp. 257 to 259 (the New Leader Experience and its sample schedule, week by week from offer acceptance to the 90-day review)
 - Default assumption (WP p. 10): the leads are co-leads of parallel systems; WP p. 15: the role architecture and training system are the implementation layer
-- Depends on: 3.3.22, 3.3.23, 3.3.24, 3.3.5, 2.3.13, 2.3.14, 2.3.17 (the first check-ins: each partner with a lead)
-- Done when: each of the two leads has a plan naming their pre-reading, the why session's date, their first leadership reviews, their guide, their quiet period, their check-in holder, and their plan goal stated as a state of their domain; the later-lead version differs only where 3.3.22 says it does
+- Depends on: 3.3.22, 3.3.23, 3.3.24, 3.3.5, 2.3.13, 2.3.14, 2.2.5
+- Done when: each of the two leads has a plan naming their pre-reading, the why session's date, their first leadership reviews, their guide, their quiet period, their check-in holder, and their plan goal stated as a state of their domain; the later-lead version differs only where 3.3.22 says it does; reads: revised after the first check-ins (2.3.17)
 - Repeatable: yes. The partner who holds each new lead's check-in, for each lead hired after the first two. Kit: 3.3.46
 - Replaces old items: None
 
@@ -444,14 +444,14 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption (WP p. 7): clear domain ownership; authority lives in the domain
 - Depends on: 3.3.3, 3.3.9, 3.3.13, 3.3.18, 3.3.20, 2.2.4
 - Done when: the register names who approves a module by content type, who names a mentor, who assesses readiness, who sets a start date and who may move it, who owns the why session, and who owns the first module set, each with its range and escalation
-- Replaces old items: 86akht1hf and 17tn048qc2r (their onboarding and training entries only; the rest of those bundles belong to 2.2.4, 2.2.5, 2.3.12, 2.3.25, and 4.1.28)
+- Replaces old items: 86akht1hf and 17tn048qc2r (their onboarding and training entries only; the rest of those bundles belong to 2.2.4, 2.2.5, 2.3.12, 2.3.25, and 4.1.27)
 
 ### 3.3.50 Add the onboarding rows to the readiness test
 - Type: Deliverable
 - Phase: Before opening
 - Book: p. 217 (what a well-designed program produces)
 - Default assumption (WP p. 19): no one touches a table until ready
-- Depends on: 3.3.9, 3.3.16, 3.3.21, 2.2.39 (the readiness test: "the operating system is running")
+- Depends on: 3.3.9, 3.3.16, 3.3.21, 2.2.38 (the readiness test: "the operating system is running")
 - Done when: the test that opens dinner carries rows for: every seat on the opening roster has a passed readiness read; every floor person has tasted every dish; no one's first solo is opening night; every open plan has a named mentor and a scheduled first check-in
 - Replaces old items: None
 
@@ -460,7 +460,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: Before opening
 - Book: pp. 216 to 217 (training as a continuation; readiness before the job)
 - Default assumption (WP p. 19): no one touches a table until ready. WP p. 35: dinner opens first and runs alone for at least a quarter.
-- Depends on: 3.3.38, 3.3.42, 3.3.43, 3.3.48, 3.2.34, 4.1.27 (one training service with the stack off)
+- Depends on: 3.3.38, 3.3.42, 3.3.43, 3.3.48, 3.2.32, 4.1.26 (one training service with the stack off)
 - Done when: every seat on the opening roster has held its first solo in a training service, each readiness read has been scored by an assessor who is not the mentor, the reads are marked as reading procedure without load, and what did not hold is on the training-infrastructure line
 - Replaces old items: None
 
@@ -469,7 +469,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Phase: After opening
 - Book: pp. 217 to 218 (internal moves)
 - Default assumption (WP pp. 35 to 36): the early morning and late night follow once dinner is steady, so the first period plans are needed before the second period opens
-- Depends on: 3.3.29, 3.3.37, 2.2.38 (what "dinner is steady" means)
+- Depends on: 3.3.29, 3.3.37, 2.2.36 (what "dinner is steady" means)
 - Done when: the two templates exist in the onboarding plan kit, reuse the seat's modules and readiness rows at the receiving domain's pace, sit inside the person's existing check-in cadence, and record cross-period or cross-strand competency on a pass as 4.1.10 defines it
 - Replaces old items: 86akhb2tb
 

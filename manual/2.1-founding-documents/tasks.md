@@ -36,7 +36,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption: (WP pp. 12, 17) it is a rule: "This is mechanical, not aspirational." As a rule it decides trade-offs on a real night: bandwidth wins over results when they conflict
 - Depends on: None
 - Done when: the founders have stated which reading holds, with the operating consequences of the rule reading (reduce covers rather than thin the floor; restructure a period that consumes bandwidth before defending it on results) accepted or declined; agreed by both seated founders
-- Replaces old items: None
+- Replaces old items: 86akh3t00
 
 ### 2.1.5 Write the principles, version one
 - Type: Deliverable
@@ -45,7 +45,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption: (WP pp. 07 to 08, 11 to 14, 16 to 21, 25 to 26, 33, 36) version one is drawn from the white paper's stated tenets, listed in `considerations.md` section 4, because Sŏn has decisions and no moments. The white paper names "no hierarchy of importance" as an operating principle in its own words (WP p. 20). People and compensation commitments (labor as asset, pay for what matters, compensation built into price and shared with the kitchen, benefits from the start, WP pp. 16, 19 to 20) are stated here as commitments; every mechanism belongs to 5.5
 - Depends on: 2.1.2, 2.1.4
 - Done when: a short set exists, each item traceable to a decision in the record or one the founders make here, each marked as a principle (an observable behavior), a commitment, or an operating rule; version one marked pre-opening; the chef partner invited to add from the culinary domain once seated; the commitment list handed to 2.1.6
-- Replaces old items: 86akh2qbc, 86akh3t9p, 17tn048qck3
+- Replaces old items: 86akh2qbc, 86akh3t9p, 17tn048qck3, 86akh3tg0, 86akh674t
 
 ### 2.1.6 Dominic reviews the commitment list before 5.5 builds against it
 - Type: Action
@@ -63,7 +63,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption: None stated. Brandon owns "the operating systems" (WP p. 03), Dominic owns "the technology build" and "the data architecture" (WP p. 05), and the proprietary layer is "the OS surface and the agent layer" (WP pp. 21 to 22): three assignments land on one object. The white paper's own pattern, authority with the closest competent owner (WP p. 08), fits a split between specification and build; options in `considerations.md` section 5
 - Depends on: 2.1.1
 - Done when: the founders have ruled who owns what the surface must do and who owns how it is built and run, with a stated path for requests the specification did not anticipate, or have marked the seam open with a closer and a date; agreed by both seated founders
-- Replaces old items: None (the seam was inside 86ajgnhp7)
+- Replaces old items: 86akh3t27 (earlier note: the seam was inside 86ajgnhp7)
 
 ### 2.1.8 Write Brandon's founding seat description
 - Type: Deliverable
@@ -91,7 +91,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption: (WP pp. 03, 05, 36, 37) the seat is an equal founding partner who owns the culinary vision, with an equal vote on building or removing a service period; the business does not rest on the survival of any one person in it. WP p. 10 assigns culinary execution during service and leaves culinary direction overall open. No default on the seat's standing in joint decisions before it is filled
 - Depends on: 2.1.1, 2.1.8
 - Done when: the founders have stated who holds culinary direction overall now, with the seat empty, and once it is filled; and what standing the seat has in joint decisions before it is filled (none, consulted, or a reserved list held open); agreed by both seated founders, and by the chef partner once seated
-- Replaces old items: 86akh3tw9, 86akh2qnt
+- Replaces old items: 86akh3tw9, 86akh2qnt, 86akh2qrp, 86akh5ucu
 
 ### 2.1.11 Write the chef partner's seat description
 - Type: Deliverable
@@ -119,7 +119,7 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Default assumption: (WP p. 36) building or removing a service period is an equal decision among all three partners. Otherwise none; the white paper is silent on reserved classes, deadlock, and the two-partner interim
 - Depends on: 2.1.1, 2.1.10
 - Done when: the classes of decision reserved to all partners are listed (candidates in `considerations.md` section 6); the deadlock rule is chosen from majority, unanimity for a named class, or domain-owner-decides after consultation, with the status quo as default; the interim rule for two partners is stated; the whole defers to the operating agreement where it speaks; agreed by both seated founders
-- Replaces old items: 86akh2qt2, 86akh3ty7, 86akh5u8m
+- Replaces old items: 86akh2qt2, 86akh3ty7, 86akh5u8m, 86akh2qht, 17tn048qepp, 86akh5u77
 
 ### 2.1.14 Decide which units get a charter
 - Type: Decision

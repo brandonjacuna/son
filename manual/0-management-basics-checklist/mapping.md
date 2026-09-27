@@ -14,6 +14,14 @@ The other nine items owned by this run are mapped in 1.1, 1.3, and 1.4.
 
 **Counts by fate:** Kept 0; Rewritten 1; Merged 0; Routes to another chunk 0; Dropped 0. Total 1.
 
+### Placed in the cross-chunk pass (2026-09-27)
+
+| Old ID | Old name (short) | Fate | Goes to | Reason |
+|---|---|---|---|---|
+| 17tn048qg2j | Rows 183 to 200, the departure page, fifteen instrument extensions, the counsel questions register as a standing wiki page | Served | 5.10.20 (the departure page) and 0.4 (the counsel register) | The page is 5.10.20's; the counsel register in counsel's words only is 0.4's; the row counts, instrument extensions, and routed findings are assembly machinery and are not carried |
+| 86ajgmxnp | The workbook is free and official: both PDFs load every session | Dropped (machinery) | none | A working rule of the extraction program. CLAUDE.md's sources table now holds the workbook and how it is read |
+| 86ajgn3ep | Specifications, not instruments: no SOPs until the document methodology exists | Dropped (machinery) | none | The extraction program's gate on producing instruments. The reconsideration builds deliverables and kits directly; 1.1.11 records that the document-methodology gate is dropped |
+
 ## 2. Where the S1 page's sections went
 
 | S1 section | Where it went |

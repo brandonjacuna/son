@@ -94,7 +94,7 @@ What the white paper holds, what the old work argued that is worth keeping, the 
 
 **White paper.** The person sits at the center of their own knowledge map (WP p. 11). No career conversation is described.
 
-**From the earlier work.** The one-time career conversation (4.4.3 to 4.4.5, guide 4.4.13, kit 4.4.15) is not a coaching surface and never involves reading the person. Its record is the person's own stated path, in their words, dated and versioned, on the person page (86akhpv2v, built here as 5.1.14). Note that 4.6.17, 4.6.22, and 4.6.23 also name a career conversation guide and kit; 4.4 is the owner named for this chunk, and the duplication is parked for the controller.
+**From the earlier work.** The one-time career conversation (4.4.3 to 4.4.5, guide 4.4.13, kit 4.4.15) is not a coaching surface and never involves reading the person. Its record is the person's own stated path, in their words, dated and versioned, on the person page (86akhpv2v, built here as 5.1.14). Note that 4.4.3, 4.4.13, and 4.4.14 also name a career conversation guide and kit; 4.4 is the owner named for this chunk, and the duplication is parked for the controller.
 
 **The book** treats a report's self-named tendency as something to keep and raise later (pp. 386 to 387). Whether that is welcome or feels like a trap depends on the person knowing it may be used. 5.1.11 decides.
 

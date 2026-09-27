@@ -7,8 +7,8 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Phase: Before the first hire
 - Book: pp. 413 to 414 (philosophy, fixed and variable elements, levels, market data)
 - Default assumption: None
-- Depends on: 2.1.5, 2.1.6, 2.2.6, 3.1.30, 3.2.18, 3.2.20, 3.3.18, 4.1.8, 4.1.9, 4.1.10, 4.1.11, 4.1.20, 4.1.29, 4.8.3, 4.8.4, 5.4.5
-- Done when: a short note lists what is fixed: the compensation commitments in the principles and Dominic's review of them (2.1.5, 2.1.6), the transparency line (2.2.6), what the candidate sheet says before this chunk is done (3.1.30), the order against the leads' interviews and who holds the lead seats' pay conversation (3.2.18, 3.2.20), the three pay constraints on modules (3.3.18), what a lead enters at and the salaried test (4.1.8, 4.1.9), the fluency definitions and the advancement seats (4.1.10, 4.1.11), the designation rule (4.1.20), the cleaning crew's place (4.1.29), how translation and interpreting are done (4.8.3, 4.8.4), and what the review feeds (5.4.5); and names the gaps this chunk fills: the philosophy, the two layers, the pool's base, one pool or several, who is in it, what sets points, the day, the salaried rule, entry pay, fluency pay, unlock moves, designations, training pay, teaching pay, translation pay, the rhythm, the pay page, what is published, benefits, market data, pay questions, corrections, parity, the discretionary range, the offer order, the values, counsel, the kitchen
+- Depends on: 2.1.5, 2.1.6, 2.2.6, 3.1.28, 3.2.17, 3.2.19, 4.1.8, 4.1.9, 4.1.10, 4.1.11, 4.1.19, 4.1.28, 4.8.3, 5.4.5
+- Done when: a short note lists what is fixed: the compensation commitments in the principles and Dominic's review of them (2.1.5, 2.1.6), the transparency line (2.2.6), what the candidate sheet says before this chunk is done (3.1.28), the order against the leads' interviews and who holds the lead seats' pay conversation (3.2.17, 3.2.19), the three pay constraints on modules (3.3.18), what a lead enters at and the salaried test (4.1.8, 4.1.9), the fluency definitions and the advancement seats (4.1.10, 4.1.11), the designation rule (4.1.19), the cleaning crew's place (4.1.28), how translation and interpreting are done (4.8.3, 4.8.5), and what the review feeds (5.4.5); and names the gaps this chunk fills: the philosophy, the two layers, the pool's base, one pool or several, who is in it, what sets points, the day, the salaried rule, entry pay, fluency pay, unlock moves, designations, training pay, teaching pay, translation pay, the rhythm, the pay page, what is published, benefits, market data, pay questions, corrections, parity, the discretionary range, the offer order, the values, counsel, the kitchen
 - Replaces old items: None
 
 ### 5.5.2 Decide the compensation philosophy in plain words
@@ -51,9 +51,9 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Type: Decision
 - Phase: Before the first hire
 - Book: p. 414 (the framework needs to know who is priced at which role)
-- Default assumption (WP p. 20): "distributed to the whole team, the culinary team included." The old work's option: every working seat with a shift that day across every domain and strand; a person in training from their first paid hour; a candidate on a still-unpaid trial shift not (3.1.37's counsel question); contracted labor such as the overnight cleaning crew (4.1.29) outside by not being employed team
-- Depends on: 5.5.5, 3.1.36, 3.1.37, 4.1.29
-- Done when: the inclusion rule is written by seat class, with training, the paid practical, contracted labor, and any future seat class (events staff, 4.1.28) each placed; the founders and chef partner are left to 5.5.7; agreed by both seated founders
+- Default assumption (WP p. 20): "distributed to the whole team, the culinary team included." The old work's option: every working seat with a shift that day across every domain and strand; a person in training from their first paid hour; a candidate on a still-unpaid trial shift not (3.1.35's counsel question); contracted labor such as the overnight cleaning crew (4.1.28) outside by not being employed team
+- Depends on: 5.5.5, 3.1.34, 3.1.35, 4.1.28
+- Done when: the inclusion rule is written by seat class, with training, the paid practical, contracted labor, and any future seat class (events staff, 4.1.27) each placed; the founders and chef partner are left to 5.5.7; agreed by both seated founders
 - Replaces old items: 17tn048qepe (the inclusion half)
 
 ### 5.5.7 Decide whether the founders and the chef partner hold points in the pool
@@ -61,8 +61,8 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Phase: Before the first hire
 - Book: p. 414 (a philosophy a company can explain)
 - Default assumption (WP pp. 3, 20): the chef partner "owns culinary execution during service" and is an equal founding partner; the pool goes to "the whole team." The white paper never says whether a partner working a service draws from it. The old work left this open as a founder question gated on counsel: whether excluding partners changes the pool's legal wage character or the honesty of "the whole team"
-- Depends on: 5.5.6, 2.1.1, 2.1.10, 5.5.29
-- Done when: the answer is written for each founder and for the chef partner (in, out, or in only when working a scheduled service under a designation), with the operating agreement checked (2.1.1) and counsel's answer (5.5.29) attached; the pay system is configured to generate no points for anyone excluded; nothing about any founder's own pay is recorded in this repo; agreed by all seated partners
+- Depends on: 5.5.6, 2.1.1, 2.1.10, 5.5.30
+- Done when: the answer is written for each founder and for the chef partner (in, out, or in only when working a scheduled service under a designation), with the operating agreement checked (2.1.1) and counsel's answer (5.5.30) attached; the pay system is configured to generate no points for anyone excluded; nothing about any founder's own pay is recorded in this repo; agreed by all seated partners
 - Replaces old items: 17tn048qr4e
 
 ### 5.5.8 Decide what sets a person's points, and what never does
@@ -80,7 +80,7 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Book: p. 414 (be able to explain the mechanics)
 - Default assumption (WP pp. 19, 20): weighted by "the days each person works"; costs are not shifted to employees. The old work's option: any calendar day on which the person worked a scheduled shift of any length in any period, counted once however many periods were worked; any paid block (a check-in, a review, training, a paired service, a module hour, orientation) counts as a worked shift; a day scheduled but not worked does not count; an unexpectedly closed day is a wage question for counsel
 - Depends on: 5.5.5, 5.5.8
-- Done when: the definition is written in one sentence; the paid-block rule is accepted or changed; the closed-day case is logged for counsel (5.5.29) and its pay rule left as a row on the register; agreed by both seated founders; pending Dominic's agreement
+- Done when: the definition is written in one sentence; the paid-block rule is accepted or changed; the closed-day case is logged for counsel (5.5.30) and its pay rule left as a row on the register; agreed by both seated founders; pending Dominic's agreement
 - Replaces old items: 17tn048qepe (the day half)
 
 ### 5.5.10 Decide how a salaried seat is paid: salary plus the pool by a day rule, or salary outside the pool
@@ -89,7 +89,7 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Book: pp. 413 to 414 (salary is the fixed element; variable elements are decided separately)
 - Default assumption (WP p. 18): "leadership and salaried roles" named together and never listed; 4.1.9 sets the structural test for which seats are salaried. The old work's option: a salaried seat holds a salary plus pool points for every day the business is open in the pay period, by rule rather than counted shifts, since the seat's work spans every open day; the alternative, salary entirely outside the pool, is simpler and avoids a leader drawing from the same pool as the people whose reviews they hold, but makes a full night worth nothing extra to the seats that hold it
 - Depends on: 5.5.8, 5.5.9, 4.1.9, 4.1.14
-- Done when: the choice is written with its reason; if in the pool, the day rule and whether it counts closed days; if outside, how a salaried seat shares in a full night if at all; the kitchen's salaried seats are left to 5.5.30; the actual salaries are rows on the register, set in Dominic's domain; agreed by both seated founders; pending Dominic's agreement
+- Done when: the choice is written with its reason; if in the pool, the day rule and whether it counts closed days; if outside, how a salaried seat shares in a full night if at all; the kitchen's salaried seats are left to 5.5.31; the actual salaries are rows on the register, set in Dominic's domain; agreed by both seated founders; pending Dominic's agreement
 - Replaces old items: 86akh9tbw, 17tn048qepj (the pay-form half), 86akh9ta6 (the mechanism half), 86akhcz76 (the salaried half)
 
 ### 5.5.11 Decide what a lead enters at in pay terms
@@ -97,8 +97,8 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Phase: Before the first hire
 - Book: p. 414 (levels are the basis for pricing new-hire offers)
 - Default assumption (WP pp. 9, 11): "new people always enter at the outside edge," written without an exception for leads; 4.1.8 read this as two webs, with a lead's seat at the center of the house's web and the lead at zero on their own development map. The old work's option: a lead enters at the seat's own published salary and point weight at its entry horizon, with no added rank; future pay moves only the way anyone's does
-- Depends on: 5.5.10, 4.1.8, 3.2.20
-- Done when: it is written what a lead's offer states (the seat's published entry, nothing negotiated above it, or a stated exception with its reason), consistent with 3.2.20's answer on whether any offer term is negotiable; agreed by both seated founders; pending Dominic's agreement
+- Depends on: 5.5.10, 4.1.8, 3.2.19
+- Done when: it is written what a lead's offer states (the seat's published entry, nothing negotiated above it, or a stated exception with its reason), consistent with 3.2.19's answer on whether any offer term is negotiable; agreed by both seated founders; pending Dominic's agreement
 - Replaces old items: 17tn048qepj (the entry-pay half), 86akhcz76 (the lead-entry half)
 
 ### 5.5.12 Decide how fluency is recognized in pay: cross-strand and cross-period markers
@@ -124,8 +124,8 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Phase: Before the first hire
 - Book: p. 414
 - Default assumption (WP p. 10): designations "mark accountability in the moment, in the domain. They are not permanent elevations above anyone." The old work's option: a designation (the room, the door, a service sequence, interpreting) never carries pay, a marker, or extra day credit; a designation held every service is a staffing question (4.3.13), since paying it directly would make it a reward and recreate a permanent title by another name
-- Depends on: 5.5.8, 4.1.20, 4.3.13
-- Done when: the answer is written; if any designation carries pay, which, how, and how the rotation floor (4.1.20) keeps it from becoming a title; the interpreter designation's pay is confirmed with 5.5.17; agreed by both seated founders
+- Depends on: 5.5.8, 4.1.19
+- Done when: the answer is written; if any designation carries pay, which, how, and how the rotation floor (4.1.19) keeps it from becoming a title; the interpreter designation's pay is confirmed with 5.5.17; agreed by both seated founders; reads: a designation held every service (4.3.13) is read at the reset
 - Replaces old items: 86akht376 (the designation half)
 
 ### 5.5.15 Decide the pay for training time, and the trial shift's status
@@ -133,8 +133,8 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Phase: Before the first hire
 - Book: p. 414 (what is paid at each stage should be explainable)
 - Default assumption (WP pp. 18, 19): the candidate sheet carries "the training plan with pay dates"; the paid practical replaces the unpaid tryout; costs are not shifted to employees. The old work's option: base pay for every scheduled training hour from the first paid hour, plus the seat's entry-horizon weight in the pool from that same hour, with no reduced training weight, since a lower weight would function as an unstated probation label; the alternative (a reduced weight during training) stated, not favored; an unpaid trial shift stays a counsel-defined employment question outside the pool
-- Depends on: 5.5.8, 5.5.9, 3.1.36, 3.1.37, 3.3.8
-- Done when: training pay is stated for both layers; the practical's pay form is confirmed against 3.1.37; agreed by both seated founders; pending Dominic's agreement
+- Depends on: 5.5.8, 5.5.9, 3.1.34, 3.1.35, 3.3.8
+- Done when: training pay is stated for both layers; the practical's pay form is confirmed against 3.1.35; agreed by both seated founders; pending Dominic's agreement
 - Replaces old items: 86akhb2vy (the training-pay half)
 
 ### 5.5.16 Decide how teaching is paid: authorship, completion, and mentoring
@@ -142,17 +142,17 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Phase: Before the first hire
 - Book: p. 414
 - Default assumption (WP p. 19): "Any qualified team member can create training modules and get paid for teaching everyone else. The more modules completed, the more earned, a direct connection between personal growth and financial reward." 3.3.18 recorded three constraints 5.5 must honor: authorship paid on approval not on writing; completion paid on the platform's own record; mentoring paid as ordinary shift pay. The old work's option: authorship as a flat payment per module approved against 3.3.18's standard, paid again per approved revision, as base pay rather than a point, with no payment per completion by others; completion carried by paid module time plus the unlock that moves weight, with no separate per-module payment (a flat per-completion payment stated as the alternative for the founders to weigh against "the more modules completed, the more earned"); mentoring as shift pay plus a teaching marker for every day a mentored plan is open, never tied to the mentee's outcome, never stacked
-- Depends on: 5.5.8, 5.5.12, 3.3.13, 3.3.14, 3.3.18
-- Done when: each of the three is stated (form, trigger, layer), the white paper's completion sentence is either honored by a per-completion payment or answered by the unlock with the reasoning written, the three constraints are confirmed honored, and the amounts are rows on the register; agreed by both seated founders; pending Dominic's agreement
+- Depends on: 5.5.8, 5.5.12, 3.3.13
+- Done when: each of the three is stated (form, trigger, layer), the white paper's completion sentence is either honored by a per-completion payment or answered by the unlock with the reasoning written, the three constraints are confirmed honored, and the amounts are rows on the register; agreed by both seated founders; pending Dominic's agreement; reads: 3.3.18's module standard names who may author, and 3.3.14 what a mentor does
 - Replaces old items: 86akhb2vy (the authorship, completion, and mentoring halves)
 
 ### 5.5.17 Decide how translation and interpreting are paid
 - Type: Decision
 - Phase: Before the first hire
 - Book: p. 414
-- Default assumption (WP pp. 17, 19): a candidate may interview in their language; qualified team members are paid to teach. 4.8.3 decided how translation is done, checked, and disclosed, and that it is paid work on the clock; 4.8.4 the interpreter designation. The old work's option: translation paid like module authorship, a flat payment per approved version requiring the document's owner and a second fluent reviewer, as base pay, never a point, with a software-assisted draft paid for the human review and disclosed; live interpreting as an on-clock designation carrying only ordinary shift pay
-- Depends on: 5.5.14, 5.5.16, 4.8.3, 4.8.4
-- Done when: both are stated (form, trigger, layer), the translation record (5.5.33's companion in 4.8.15) can carry the payment trigger, and the amount is a row on the register; agreed by both seated founders
+- Default assumption (WP pp. 17, 19): a candidate may interview in their language; qualified team members are paid to teach. 4.8.3 decided how translation is done, checked, and disclosed, and that it is paid work on the clock; 4.8.5 the interpreter designation. The old work's option: translation paid like module authorship, a flat payment per approved version requiring the document's owner and a second fluent reviewer, as base pay, never a point, with a software-assisted draft paid for the human review and disclosed; live interpreting as an on-clock designation carrying only ordinary shift pay
+- Depends on: 5.5.14, 5.5.16, 4.8.3
+- Done when: both are stated (form, trigger, layer), the translation record (5.5.34's companion in 4.8.16) can carry the payment trigger, and the amount is a row on the register; agreed by both seated founders; reads: 4.8.5's interpreter designation once defined
 - Replaces old items: 17tn048qc34, 17tn048qc2c (the translation-and-interpreting half)
 
 ### 5.5.18 Decide the payment rhythm
@@ -171,15 +171,15 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Default assumption (WP pp. 11, 18): every requirement is visible to anyone; nothing withheld from a candidate; 2.2.6 left the pool's visibility to this chunk. The old work's option for the page: the day, the seat and horizon, the weight, active markers, points, the share, accrued share to the next pay date, base hours, the day's total points, and the weight-move history; visible to the person and their own holder only; written by the next morning in the person's language. Unresolved: showing the day's pool total makes the share checkable by arithmetic but lets anyone derive daily revenue from the known percentage; withholding it keeps revenue private but hides the one number that decides the payout
 - Depends on: 5.5.8, 5.5.9, 5.5.18, 2.2.6
 - Done when: the fields are listed; who can read the page; whether the pool total appears, with the reason either way; what a person can verify from the page alone; agreed by both seated founders; pending Dominic's agreement
-- Replaces old items: 17tn048qepk (the pay-page half), 17tn048qeq5 (the decision half; the build is 5.5.33)
+- Replaces old items: 17tn048qepk (the pay-page half), 17tn048qeq5 (the decision half; the build is 5.5.34)
 
 ### 5.5.20 Decide what is published to everyone: seat wages and weights, and the percentage on the candidate sheet
 - Type: Decision
 - Phase: Before the first hire
 - Book: p. 414 (be able to explain when market data is refreshed and how pay is set); pp. 417 to 418 (comparisons are redirected; another person's pay is never disclosed)
 - Default assumption (WP pp. 11, 18): every position's requirements are visible to anyone; the candidate sheet carries "compensation and benefits" and "the compensation mechanics," nothing withheld. The white paper does not say whether a candidate for one seat sees every seat's pay. The old work left open, leaning favorable: publishing every seat's base wage and point weight house-wide rather than only to that seat's candidates, and whether the percentage itself ever appears on the candidate sheet
-- Depends on: 5.5.3, 5.5.8, 2.2.6, 3.1.30
-- Done when: it is written which of these are visible to everyone in the building, to a candidate for the seat, or to the founders only: each seat's base wage, each seat's point weight at each horizon, the marker values, the percentage, the revenue classes; and 3.1.31 is told what the candidate sheet's compensation item states; agreed by both seated founders; pending Dominic's agreement
+- Depends on: 5.5.3, 5.5.8, 2.2.6, 3.1.28
+- Done when: it is written which of these are visible to everyone in the building, to a candidate for the seat, or to the founders only: each seat's base wage, each seat's point weight at each horizon, the marker values, the percentage, the revenue classes; and 3.1.29 is told what the candidate sheet's compensation item states; agreed by both seated founders; pending Dominic's agreement
 - Replaces old items: 17tn048qepk (the publication half)
 
 ### 5.5.21 Decide the benefits gate: what exists at hire as fact, and "a fast path to full benefits" as a condition
@@ -187,8 +187,8 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Phase: Before the first hire
 - Book: p. 414 (explain whether a program exists and on what schedule)
 - Default assumption (WP p. 20): "Benefits are planned from the start rather than deferred"; the payroll platform offers "access to cost-effective benefits for frontline employees and a fast path to full benefits as the business supports them"; "a restaurant at a healthy revenue level can fund basic benefits." The platform's actual features are unconfirmed here. The old work's option: which benefits exist at hire is a plain fact on the candidate sheet; "fast path" is written as a conditional gate rather than a promised date, so no surface states a benefit date the gate has not reached
-- Depends on: 5.5.3, 3.3.32
-- Done when: the benefits that exist at hire are listed as facts once Dominic confirms the platform; the gate's conditions are named in words (never as a figure here) with Dominic as owner; the candidate sheet's benefits line is drafted from both; agreed by both seated founders; pending Dominic's agreement
+- Depends on: 5.5.3
+- Done when: the benefits that exist at hire are listed as facts once Dominic confirms the platform; the gate's conditions are named in words (never as a figure here) with Dominic as owner; the candidate sheet's benefits line is drafted from both; agreed by both seated founders; pending Dominic's agreement; reads: 3.3.32 confirms the platform can show the benefits path
 - Replaces old items: 17tn048qepn, 17tn048qeu7 (the benefits-path half)
 
 ### 5.5.22 Decide how base wages and salaries are set against the market, and when they are refreshed
@@ -204,8 +204,8 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Type: Decision
 - Phase: Hiring and training
 - Book: pp. 414 to 418 (educate yourself; instill trust in the system; understand the motivators; have the conversation; redirect comparisons; handle disappointment)
-- Default assumption (WP pp. 18, 22): transparency at the first interview; the feedback channel closes the loop. 4.5.11 named a destination for a pay question "by reference to 5.5"; 4.8.10 kept pay questions out of the channel. The old work's option: there is no scheduled pay conversation because there is no discrete pay event; her chapter is replaced by a one-time explanation at the offer, a page a person checks daily, and a destination per kind of question: an arithmetic question to the pay page and the correction path (5.5.24); a question about the rule to the improvement channel; a question about what is possible next to the check-in or career conversation; a question about another person's pay to no destination. What a lead may say: explain the mechanism, state what the published sheet says, confirm a recorded unlock's date, say "I don't know, I'll find out." May not: state a figure not on the person's own page or the sheet, discuss anyone else's pay, promise or predict an amount, link any review, check-in, designation, or recognition to pay
-- Depends on: 5.5.19, 5.5.20, 4.5.11, 4.8.10, 5.4.5
+- Default assumption (WP pp. 18, 22): transparency at the first interview; the feedback channel closes the loop. 4.5.11 named a destination for a pay question "by reference to 5.5"; 4.8.11 kept pay questions out of the channel. The old work's option: there is no scheduled pay conversation because there is no discrete pay event; her chapter is replaced by a one-time explanation at the offer, a page a person checks daily, and a destination per kind of question: an arithmetic question to the pay page and the correction path (5.5.24); a question about the rule to the improvement channel; a question about what is possible next to the check-in or career conversation; a question about another person's pay to no destination. What a lead may say: explain the mechanism, state what the published sheet says, confirm a recorded unlock's date, say "I don't know, I'll find out." May not: state a figure not on the person's own page or the sheet, discuss anyone else's pay, promise or predict an amount, link any review, check-in, designation, or recognition to pay
+- Depends on: 5.5.19, 5.5.20, 4.5.11, 4.8.11, 5.4.5
 - Done when: each kind of question has a destination and a response window; the may-and-may-not list is written; it is stated whether any scheduled pay conversation exists (at the offer only, at each pay move, never), and if one does, who holds it; the book's comparison and disappointment cases each have a Sŏn answer; agreed by both seated founders
 - Replaces old items: 86ajgnhd1 (the explain-it half)
 
@@ -220,7 +220,7 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 
 ### 5.5.25 Decide the pay parity read: what it reads, on what tags, and when it can first run
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before opening
 - Book: pp. 410 to 411 (roll-ups check for bias, such as fewer women promoted in a function)
 - Default assumption (WP p. 23): retention, internal promotion, and engagement are tracked "with the same seriousness as cost." 4.7.4 decided whether anyone is asked to self-identify; 4.7.5 gets counsel's answers on identity data; 4.7.9 lists "a pay read across the point system (5.5)." The old work's option: since pay reduces to three rates (unlock rate, marker rate, days scheduled), the read applies existing anonymized tags to those rates by seat class at a periodic point, with no names, figures, targets, or individual consequence; never a performance input; marked "cannot read yet" until enough tagged data and time exist
 - Depends on: 5.5.8, 4.7.4, 4.7.5, 4.7.9
@@ -236,131 +236,140 @@ The book's point (pp. 413 to 418): a company needs at minimum a compensation phi
 - Done when: it is written that the card carries numbers (set by Dominic, never recorded here), who may change them and how a change reaches every card, the review rhythm, and that the comped-item rule in 5.5.4 protects the pool; agreed by both seated founders; pending Dominic's agreement
 - Replaces old items: 86akht376 (the range-values half), 86akhpvnf (the threshold half), 86akh5ux8 (the range-values half), 86akhcz2e (the threshold-entries half), 86akhptwy (the threshold-entries half)
 
-### 5.5.27 Decide which rows must be set before a lead's offer, and the order against the leads' interviews
-- Type: Decision
+### 5.5.27 List the parameter rows a lead's offer needs, and date them on the hiring calendar
+- Type: Action
 - Phase: Before the first hire
 - Book: p. 414 (early on, enough data to price offers correctly)
-- Default assumption (WP p. 18): the candidate sheet at the first interview carries compensation and its mechanics. 3.2.18 decided the order of this architecture against the leads' first interviews; 3.1.30 what the sheet says before this chunk is done. The old work's option: a first interview may run on the mechanism shown with values marked unset, and no offer goes out before the rows an offer needs are set: the percentage, the revenue classes, the two lead seats' salaries and weights, and the payment rhythm; everything else may be settled as a mechanism first
-- Depends on: 5.5.3 to 5.5.18, 3.1.30, 3.2.18, 3.2.34
-- Done when: the rows an offer needs are listed by name, the date they must be set is on the hiring calendar (3.2.34) ahead of the leads' offers, and 3.2.18's answer is confirmed or amended; agreed by both seated founders; pending Dominic's agreement
+- Default assumption (WP p. 18): the candidate sheet at the first interview carries compensation and its mechanics. 3.2.17 decided the order of this architecture against the leads' first interviews; 3.1.28 what the sheet says before this chunk is done. The old work's option: a first interview may run on the mechanism shown with values marked unset, and no offer goes out before the rows an offer needs are set: the percentage, the revenue classes, the two lead seats' salaries and weights, and the payment rhythm; everything else may be settled as a mechanism first
+- Depends on: 5.5.3 to 5.5.18, 3.1.28, 3.2.17, 3.2.32
+- Done when: the rows an offer needs are listed by name from the parameters register, the date each must be set is on the hiring calendar (3.2.32) ahead of the leads' offers under the order 3.2.17 decided, and Dominic has confirmed the dates
 - Replaces old items: 86akh9tb0, 86akh7qry, 86akh7r95
 
-### 5.5.28 Dominic sets every value on the parameters register, with counsel where wage law applies
+### 5.5.28 Dominic sets the values of the offer rows on the parameters register, with counsel where wage law applies
 - Type: Action
-- Phase: Before the first hire (the offer rows); before opening (the rest)
+- Phase: Before the first hire
 - Book: p. 414 (salary bands and targets set against market data; explain when they are refreshed)
 - Default assumption (WP pp. 3, 5, 22): Dominic "owns the financial model"; "the remaining open piece is the final percentage." No value appears in this repo
-- Depends on: 5.5.27, 5.5.31, 5.5.29
-- Done when: every row on the register (5.5.31) carries a value or a dated "unset," with the offer rows set before the date in 5.5.27; the values live in the register's home, never in this repo; the mechanics page (5.5.32) is told which rows are set; owner Dominic
+- Depends on: 5.5.27, 5.5.32, 5.5.30
+- Done when: every row 5.5.27 listed carries a value, set by Dominic, with counsel's answer where wage law applies, before the first lead's offer; no value is recorded in this repo
 - Replaces old items: 17tn048qepf
 
-### 5.5.29 Get counsel's answers on the pay structure's legal character
+### 5.5.29 Dominic sets every remaining value on the parameters register
+- Type: Action
+- Phase: Before opening
+- Book: p. 414 (salary bands and targets set against market data; explain when they are refreshed)
+- Default assumption (WP pp. 3, 5, 22): Dominic "owns the financial model"; "the remaining open piece is the final percentage." No value appears in this repo
+- Depends on: 5.5.28, 5.5.32, 5.5.30, 5.5.31
+- Done when: every row on the register 5.5.32 wrote carries a value or is marked unset with an owner and date, before the first training service
+- Replaces old items: None (17tn048qepf stays with 5.5.28)
+
+### 5.5.30 Get counsel's answers on the pay structure's legal character
 - Type: Action
 - Phase: Before the first hire
 - Book: p. 415 (misunderstandings about compensation can permanently damage trust; rigor is required)
 - Default assumption (WP p. 20): compensation built into menu price, "not a service charge, and it is never presented as one." The white paper does not address wage law. 0.1 gets counsel's list of the founders' responsibilities as employers. The old work's open questions: whether embedding compensation in price rather than tips creates wage-law exposure in Texas and under federal law (classification, whether a tip credit applies, how overtime's regular rate is calculated when pay is revenue-linked, disclosure); whether the daily share is legally a wage, a tip, a bonus, or something else (relevant to final pay and to paid leave); whether excluding partners from the pool affects its wage character or the honesty of "the whole team"; the pay rule for an unexpectedly closed day; and, from the founders' own list, whether a founder is an employee for any purpose, what happens to records and authorities if a founder departs or is incapacitated, and whether internal records carry retention or disclosure consequences
-- Depends on: 5.5.3, 5.5.4, 5.5.7, 0.1
-- Done when: each question above has counsel's written answer or a dated follow-up on the counsel register (5.5.31's companion); any answer that changes a decision in this chunk is routed back to it; separation-related rows (separation pay, pay during an investigatory hold) are added to the register as unset with 5.10 as their chunk; owner: the founders with counsel
+- Depends on: 5.5.3, 5.5.4, 5.5.7, 0.1, 0.4
+- Done when: each question above has counsel's written answer or a dated follow-up on the counsel register (5.5.32's companion); any answer that changes a decision in this chunk is routed back to it; separation-related rows (separation pay, pay during an investigatory hold) are added to the register as unset with 5.10 as their chunk; owner: the founders with counsel
 - Replaces old items: 86ajgnhzk, 17tn048qg2b (the counsel-register and register-rows halves; the one-sentence card is 5.10's)
 
-### 5.5.30 Chef partner sets the kitchen's seat weights and salaried seats within the mechanism
+### 5.5.31 Chef partner sets the kitchen's seat weights and salaried seats within the mechanism
 - Type: Decision
 - Phase: Before opening
 - Book: p. 414 (levels set what a role is paid)
-- Default assumption (WP pp. 11, 20): the culinary team shares in the pool; the kitchen's domain owners are Station Leads and execution is chef on the line and chef on prep, "neither a promotion from the other." 4.1.25 has the chef partner shape the kitchen below the spine
-- Depends on: 5.5.8, 5.5.10, 5.5.12, 4.1.25, 2.1.10
+- Default assumption (WP pp. 11, 20): the culinary team shares in the pool; the kitchen's domain owners are Station Leads and execution is chef on the line and chef on prep, "neither a promotion from the other." 4.1.24 has the chef partner shape the kitchen below the spine
+- Depends on: 5.5.8, 5.5.10, 5.5.12, 4.1.24, 2.1.10
 - Done when: the chef partner has placed each kitchen seat's point weight at each horizon and named which kitchen seats are salaried, inside the house's mechanism (the four sources, the day, the markers), with the values as rows Dominic sets; any divergence from the floor's rules is written with its reason; owner: the chef partner, once seated
 - Replaces old items: None
 
-### 5.5.31 Write the parameters register and the counsel questions register
+### 5.5.32 Write the parameters register
 - Type: Deliverable
 - Phase: Before the first hire
 - Book: p. 414 (a company should be able to explain how pay is set and when it changes)
 - Default assumption (WP p. 22): open decisions are named rather than hidden, "because a settled-looking answer to an open question is the tell of a deck that has not been pressure-tested"
-- Depends on: 5.5.3 to 5.5.18, 5.5.21, 5.5.22, 5.5.26, 5.5.29
-- Done when: an internal register exists, outside this repo, with one row per value the architecture needs (the percentage; the revenue classes; each seat's point weight at each horizon; each marker's value; each salaried seat's salary and its day rule; each hourly seat's base wage; the payment cycle; the authorship, revision, translation, and any completion payment; the discretionary range's two values; the benefits gate's conditions; the closed-day rule; separation-related rows), each with its owner, what it is set against, whether it is set or unset, and a version; a companion register holds every open counsel question with its date and status; this repo holds the row names only and no value
-- Replaces old items: 17tn048qept (the register half), 17tn048qeu4 (the register half), 17tn048qg2b (the register half)
+- Depends on: 5.5.3 to 5.5.18, 5.5.21, 5.5.22, 5.5.26, 5.5.30, 0.4
+- Done when: an internal register exists, outside this repo, with one row per value the architecture needs (the percentage; the revenue classes; each seat's point weight at each horizon; each marker's value; each salaried seat's salary and its day rule; each hourly seat's base wage; the payment cycle; the authorship, revision, translation, and any completion payment; the discretionary range's two values; the benefits gate's conditions; the closed-day rule; separation-related rows), each with its owner, what it is set against, whether it is set or unset, and a version; this repo holds the row names only and no value; the counsel questions this chunk raised are rows on 0.4's register
+- Replaces old items: 17tn048qept (the register half), 17tn048qeu4 (the register half)
 
-### 5.5.32 Write the compensation mechanics page, in every house language
+### 5.5.33 Write the compensation mechanics page, in every house language
 - Type: Deliverable
 - Phase: Before the first hire
 - Book: p. 415 (often the system is fine and the educational material is lacking); pp. 471 to 473 (the compensation preparation guide's links to program resources)
 - Default assumption (WP pp. 18, 20): the candidate sheet carries "the compensation mechanics"; the pool is never presented as a service charge. The old work's option: a page explaining the two layers, the day, the daily calculation in plain words, the payment rhythm, the markers, the salaried rule, training pay, teaching and translation pay, and every routed pay line; it reads every value from the register and shows "unset" where a row is unset, so it can be handed at a first interview before the values exist
-- Depends on: 5.5.2 to 5.5.18, 5.5.20, 5.5.21, 5.5.23, 5.5.31, 4.8.2
-- Done when: the page exists on the team home in every house language, states the philosophy from 5.5.2 in the same words, carries the sentence from 5.4.5 in the same words as the review page, shows values only from the register, names the destination for each kind of pay question, and is confirmed readable by someone who has never worked here; 3.1.31 and 2.1.19 point to it; 4.8.16 is told it is a candidate-facing document
+- Depends on: 5.5.2 to 5.5.18, 5.5.20, 5.5.21, 5.5.23, 5.5.32, 4.8.2
+- Done when: the page exists on the team home in every house language, states the philosophy from 5.5.2 in the same words, carries the sentence from 5.4.5 in the same words as the review page, shows values only from the register, names the destination for each kind of pay question, and is confirmed readable by someone who has never worked here; 3.1.29 and 2.1.19 point to it; 4.8.17 is told it is a candidate-facing document
 - Replaces old items: 17tn048qept (the page half), 17tn048qeu4 (the page half), 86ajgnhd1 (the page half), 86akh7t37 (the mechanics-item and benefits-line halves)
 
-### 5.5.33 Build the pay page and the daily calculation
+### 5.5.34 Build the pay page, the daily calculation, and the pay correction path
 - Type: Deliverable
 - Phase: Before opening
 - Book: p. 416 (success looks like the person understanding how the adjustment tracks their performance)
 - Default assumption (WP pp. 20, 21): "calculated daily"; deterministic software for the reliable scheduled work, AI never load-bearing; the payroll platform is named. The old work's option: at close, the day's pool is computed from the base and the percentage, every working person's points are summed, each share is proportional to their points over the total, and each page is written by the next morning in the person's language; no lead computes anyone's pay or sees anyone else's page; described as a back-office process until software support exists
-- Depends on: 5.5.19, 5.5.28, 5.5.30, 2.3.11, 3.3.32
-- Done when: the calculation runs from the register's values and the scheduling and progression records with no hand entry per person; the page shows 5.5.19's fields with 5.5.19's visibility, beside the person page; a salaried seat's day rule and every marker are applied automatically; the fallback for a day with the stack off is written; a test day run against a training service reconciles to the rule by hand
-- Replaces old items: 17tn048qeq5 (the build half), 17tn048qepx (the calculation half), 17tn048qeu7 (the pay-entry half), 17tn048qepz (the automatic-move half)
-
-### 5.5.34 Build the pay correction path
-- Type: Deliverable
-- Phase: Before opening
-- Book: pp. 417 to 418
-- Default assumption (WP p. 22): the feedback channel syncs to the execution system so people see their input lead to action
-- Depends on: 5.5.24, 5.5.33, 2.3.16, 4.5.17
-- Done when: a person can raise a correction from their own pay page, it reaches the owner 5.5.24 named with the windows running, the outcome and reason are written back to the person, a systemic cause opens a process item, and the counts flow to the leads' review; the destinations page (4.5.17) points to it
-- Replaces old items: 17tn048qeu5 (the build half), 17tn048qepx (the path half)
+- Depends on: 5.5.19, 5.5.24, 5.5.28, 5.5.31, 2.3.11, 2.3.16, 3.3.32, 4.5.17
+- Done when: the calculation runs from the register's values and the scheduling and progression records with no hand entry per person; the page shows 5.5.19's fields with 5.5.19's visibility, beside the person page; a salaried seat's day rule and every marker are applied automatically; the fallback for a day with the stack off is written; a test day run against a training service reconciles to the rule by hand; a person can raise a correction from their own pay page, it reaches the owner 5.5.24 named with the windows running, the outcome and reason are written back to the person, a systemic cause opens a process item, the counts flow to the leads' review, and the destinations page (4.5.17) points to it
+- Replaces old items: 17tn048qeq5 (the build half), 17tn048qepx (the calculation and path halves), 17tn048qeu7 (the pay-entry half), 17tn048qepz (the automatic-move half), 17tn048qeu5 (the build half)
 
 ### 5.5.35 Write the pay module: reading your own pay, and holding a pay conversation
 - Type: Deliverable
 - Phase: Hiring and training
 - Book: pp. 414 to 415 (educate yourself; much of the conversation is helping the person understand why the company pays the way it does)
 - Default assumption (WP p. 19): modules are authored to the platform's standard and paid as onboarding time. The old work's option: a general version every person completes as paid onboarding before their first pay date; a fuller version every lead and both founders complete before handing the candidate sheet to anyone and again before their first pay conversation; it teaches nothing about anyone's actual pay
-- Depends on: 5.5.32, 5.5.23, 3.3.18, 3.3.33, 5.4.26
-- Done when: two modules exist to 3.3.33's standard in every house language, the general one covering the mechanics page and the pay page, the lead one adding the may-and-may-not list, the destinations, and the comparison and disappointment cases; both refuse figures and real examples; completion is recorded; it points to 5.4.26 rather than repeating the review
+- Depends on: 5.5.33, 5.5.23, 3.3.18, 3.3.33, 5.4.25
+- Done when: two modules exist to 3.3.33's standard in every house language, the general one covering the mechanics page and the pay page, the lead one adding the may-and-may-not list, the destinations, and the comparison and disappointment cases; both refuse figures and real examples; completion is recorded; it points to 5.4.25 rather than repeating the review
 - Replaces old items: 17tn048qeu6, 17tn048qeq0 (the pay half)
 
-### 5.5.36 Hold the first pay conversations: each partner with their lead, at the offer and at the first pay move
+### 5.5.36 Hold the first pay conversations at the offer: each partner with their lead
 - Type: Action
-- Phase: Hiring and training (the offer); after opening (the first move)
+- Phase: Hiring and training
 - Book: pp. 416 to 417 (deliver the news in person, tied to what is rewarded; when there is no change, say so and why); pp. 471 to 473 (the preparation guide and discussion outline)
-- Default assumption (WP p. 18): the offer follows the transparent sheet; 3.2.20 named who holds the lead seats' pay conversation; 3.2.32 wrote the offer conversation with counsel. Whether any later pay conversation exists at all is 5.5.23's
-- Depends on: 5.5.23, 5.5.35, 3.2.20, 3.2.32
-- Done when: each partner has explained the mechanism to their lead at the offer using the mechanics page, and, if 5.5.23 kept a conversation at a pay move, held the first one from the page rather than a spoken figure; a short note in `notes/` records the questions the lead asked that the page did not answer, and the page and module are revised from it
-- Repeatable: yes. Every lead, with each person on their team, at the offer and at any moment 5.5.23 keeps. Kit: 5.5.37
+- Default assumption (WP p. 18): the offer follows the transparent sheet; 3.2.19 named who holds the lead seats' pay conversation; 3.2.30 wrote the offer conversation with counsel. Whether any later pay conversation exists at all is 5.5.23's
+- Depends on: 5.5.23, 5.5.35, 3.2.19, 3.2.30
+- Done when: each lead has heard the mechanics in 5.5.23's form at the offer, from the partner 3.2.19 named, with the written offer (3.2.30) beside it; what did not land is noted for 5.5.35
+- Repeatable: yes. Every lead, with each person on their team, at the offer and at any moment 5.5.23 keeps. Kit: 5.5.38
 - Replaces old items: None
 
-### 5.5.37 Build the pay conversation kit
+### 5.5.37 Hold the first pay conversations at the first pay move: each partner with their lead
+- Type: Action
+- Phase: After opening
+- Book: pp. 416 to 417 (deliver the news in person, tied to what is rewarded; when there is no change, say so and why); pp. 471 to 473 (the preparation guide and discussion outline)
+- Default assumption (WP p. 18): the offer follows the transparent sheet; 3.2.19 named who holds the lead seats' pay conversation; 3.2.30 wrote the offer conversation with counsel. Whether any later pay conversation exists at all is 5.5.23's
+- Depends on: 5.5.36, 5.5.35, 5.5.34
+- Done when: each lead has had the conversation at their first pay move in 5.5.23's form, and the guide is revised from both rounds
+- Replaces old items: None
+
+### 5.5.38 Build the pay conversation kit
 - Type: Deliverable
 - Phase: After opening
 - Book: pp. 471 to 473 (the compensation conversations preparation and guide)
 - Default assumption: None
-- Depends on: 5.5.36
+- Depends on: 5.5.36, 5.5.37
 - Done when: `kits/pay-conversation/` holds an intake (what a lead checks before the conversation: the person's own page, the register's published rows for the seat, any recorded unlock or marker change and its date), a guide (how to explain the mechanism, the may-and-may-not list, what to do with a comparison, a disappointment, or an arithmetic question), a template (the conversation's outline from the book's guide adapted to 5.5.23), and no example that carries anyone's pay; the kit holds process and structure, never a person's figures
 - Replaces old items: None
 
-### 5.5.38 Add the pay entries to the decision-rights register
+### 5.5.39 Add the pay entries to the decision-rights register
 - Type: Deliverable
 - Phase: Hiring and training
 - Book: p. 414
 - Default assumption: None
 - Depends on: 5.5.8, 5.5.13, 5.5.24, 5.5.26, 5.5.28, 2.2.4
-- Done when: the register carries an entry (owner, range, triggers) for setting or changing any row on the parameters register, recording an unlock's effective date, activating or lapsing a marker, approving a module or translation for payment, correcting a pay error, changing the discretionary range's values, and reading a pay page other than one's own; the kitchen entries wait on 5.5.30 and are marked incomplete; the interim leadership-approval rules the old lists named are filled or marked incomplete
+- Done when: the register carries an entry (owner, range, triggers) for setting or changing any row on the parameters register, recording an unlock's effective date, activating or lapsing a marker, approving a module or translation for payment, correcting a pay error, changing the discretionary range's values, and reading a pay page other than one's own; the kitchen entries wait on 5.5.31 and are marked incomplete; the interim leadership-approval rules the old lists named are filled or marked incomplete
 - Replaces old items: 86akhcz2e (the pay-entries half), 86akhptwy (the pay-entries half)
 
-### 5.5.39 Run the daily calculation through the training services and confirm every pay page before the first pay date
+### 5.5.40 Run the daily calculation through the training services and confirm every pay page before the first pay date
 - Type: Action
 - Phase: Before opening
 - Book: p. 415 (if the system feels underbuilt, invest in it before it damages trust)
 - Default assumption (WP pp. 18, 19): training is paid from the first paid hour with pay dates on the training plan
-- Depends on: 5.5.33, 5.5.34, 3.3.51
+- Depends on: 5.5.34, 3.3.51
 - Done when: the calculation has run for every training service day, each person's page reconciles to the rule by hand for at least one day, the founders have opened a page in each house language, at least one deliberate error has gone through the correction path end to end, and the first pay date has paid base pay and the share together as 5.5.18 decided
 - Replaces old items: None
 
-### 5.5.40 Run the first pay read at the mechanism reset
+### 5.5.41 Run the first pay read at the mechanism reset
 - Type: Action
 - Phase: After opening
 - Book: p. 414 (market data refreshed at least annually); pp. 410 to 411 (roll-ups checked for parity)
 - Default assumption (WP p. 22): the loop gets closed; leading indicators are read before the financials
-- Depends on: 5.5.24, 5.5.25, 5.5.26, 5.5.39, 2.3.30, 2.3.34
+- Depends on: 5.5.24, 5.5.25, 5.5.26, 5.5.40, 2.3.30, 2.3.34
 - Done when: at the first reset the founders have read the correction counts and their causes, how often the discretionary range was used or exceeded, whether the parity read can run yet, whether the payment rhythm held, and which register rows changed and why; 5.5.4 to 5.5.26 have been kept or changed; any change is dated on the mechanics page; no figure enters this repo from the read
 - Replaces old items: None
 
-Cross-chunk dependencies named: 0.1 (counsel's list of employer responsibilities); 2.1.1, 2.1.5, 2.1.6, 2.1.10, 2.1.19; 2.2.4, 2.2.6; 2.3.11, 2.3.16, 2.3.30, 2.3.31, 2.3.34; 3.1.13, 3.1.30, 3.1.31, 3.1.36, 3.1.37; 3.2.18, 3.2.20, 3.2.32, 3.2.34; 3.3.8, 3.3.13, 3.3.14, 3.3.17, 3.3.18, 3.3.32, 3.3.33, 3.3.40, 3.3.51; 4.1.7, 4.1.8, 4.1.9, 4.1.10, 4.1.11, 4.1.14, 4.1.20, 4.1.25, 4.1.28, 4.1.29; 4.3.13; 4.5.11, 4.5.17; 4.7.4, 4.7.5, 4.7.9; 4.8.2, 4.8.3, 4.8.4, 4.8.10, 4.8.15, 4.8.16; 5.4 (5.4.5, 5.4.22, 5.4.26); 5.10 (separation pay rows; the one-sentence card; the reduction rules from 17tn048qg1q).
+Cross-chunk dependencies named: 0.1 (counsel's list of employer responsibilities); 2.1.1, 2.1.5, 2.1.6, 2.1.10, 2.1.19; 2.2.4, 2.2.6; 2.3.11, 2.3.16, 2.3.30, 2.3.31, 2.3.34; 3.1.13, 3.1.28, 3.1.29, 3.1.34, 3.1.35; 3.2.17, 3.2.19, 3.2.30, 3.2.32; 3.3.8, 3.3.13, 3.3.14, 3.3.17, 3.3.18, 3.3.32, 3.3.33, 3.3.40, 3.3.51; 4.1.7, 4.1.8, 4.1.9, 4.1.10, 4.1.11, 4.1.14, 4.1.19, 4.1.24, 4.1.27, 4.1.28; 4.3.13; 4.5.11, 4.5.17; 4.7.4, 4.7.5, 4.7.9; 4.8.2, 4.8.3, 4.8.5, 4.8.11, 4.8.16, 4.8.17; 5.4 (5.4.5, 5.4.22, 5.4.25); 5.10 (separation pay rows; the one-sentence card; the reduction rules from 17tn048qg1q).

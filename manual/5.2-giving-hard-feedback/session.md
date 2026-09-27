@@ -96,7 +96,7 @@ If counsel has not answered 5.2.4, take 5.2.8 last and record Brandon's leaning 
 
 **The question:** what may anyone say to anyone during service, and what does it mean when the same instruction has to be given to the same person twice in one night?
 
-**Why it matters now:** the shift brief (2.3.7) and the designation cards (4.1.23) are being written; they need to say what a designation holder may say. 4.5.8 decided the meeting version; this is the floor version.
+**Why it matters now:** the shift brief (2.3.7) and the designation cards (4.1.22) are being written; they need to say what a designation holder may say. 4.5.8 decided the meeting version; this is the floor version.
 
 **Openers:**
 - "Fire the four-top." "Watch your tone with the four-top." Say both in the pass at 8:40. What is different about them, grammatically? That difference is the rule.
@@ -137,7 +137,7 @@ If counsel has not answered 5.2.4, take 5.2.8 last and record Brandon's leaning 
 **Narrowing questions:**
 - Check-in only, in person between allowed, or in person for time-bound things only?
 - The brief private heads-up: always allowed?
-- Never the floor, never a group, on the clock, in the person's language, interpreter per 4.1.23 and 4.8?
+- Never the floor, never a group, on the clock, in the person's language, interpreter per 4.1.22 and 4.8?
 
 **What the book says:** managers wait too long (p. 382); the conversation needs privacy and time (pp. 392 to 395).
 
@@ -249,7 +249,7 @@ If counsel has not answered 5.2.4, take 5.2.8 last and record Brandon's leaning 
 
 **The question:** how does a lead tell someone they are not ready, and how does a lead tell an interviewer they cannot interview again until retrained, without either becoming a verdict?
 
-**Why it matters now:** the first readiness reads run in training services before dinner opens (3.3.51); some rows will fail. The interviewer rule (3.2.14) is already set.
+**Why it matters now:** the first readiness reads run in training services before dinner opens (3.3.51); some rows will fail. The interviewer rule (3.2.13) is already set.
 
 **Openers:**
 - A row fails. You sit with the person and the form. What is your first sentence? The earlier work's answer is that you read the assessor's words and ask what happened before you say anything of your own. What would you want to add, and why?
@@ -259,7 +259,7 @@ If counsel has not answered 5.2.4, take 5.2.8 last and record Brandon's leaning 
 **Narrowing questions:**
 - Row by row, assessor's words, the lead adds nothing, ask first, the plan's next step follows?
 - Retraining as a record fact at the person's own check-in, form question first?
-- The hiring-decision contradiction stays with 3.2.10 and 3.2.41; two-person disagreements stay with 4.5.10?
+- The hiring-decision contradiction stays with 3.2.9 and 3.2.39; two-person disagreements stay with 4.5.10?
 
 **What the book says:** specific, objective, an offer of help (pp. 393 to 394).
 

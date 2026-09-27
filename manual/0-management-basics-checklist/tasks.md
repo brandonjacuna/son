@@ -29,10 +29,19 @@ Every decision, action, and deliverable this section of the book calls for, in t
 - Done when: the founders have stated whether they stand in as each other's manager for goals agreed each quarter, a standing partner conversation, and priorities shared in writing (options in `considerations.md` section 4); the rule is stated in one sentence a third partner can read on day one; the rhythm itself is handed to 2.3 to design and the goals cycle to 2.2; agreed by both seated founders
 - Replaces old items: None (the old page filed the founder cadence as a carryover to the cadence session)
 
+### 0.4 Open the counsel questions register
+- Type: Deliverable
+- Phase: Before the first hire
+- Book: pp. 23 to 24 (the legal responsibilities of an employer and a manager are the floor beneath every people system; know them before the first hire)
+- Default assumption: None; the white paper does not describe how the founders work with counsel
+- Depends on: 0.1
+- Done when: one register exists, outside this repo, holding every open question for counsel from any chunk, each with the chunk and task that asked it, the step waiting on it, its urgency tier (before the first paid shift; before the first flag read; before the first slow-season cut; before the wider opening gate), its date, and its status; only counsel writes an answer into it and it never states a legal conclusion in the house's voice; this repo holds the question list only. Every later task that asks counsel something (3.1.35, 3.4.4, 4.3.14, 4.4.6, 4.7.5, 5.2.4, 5.5.30, 5.8.2, 5.10.2, 6.3.7) adds its rows here rather than opening a register of its own
+- Replaces old items: 17tn048qg2b (the register half, received from 5.5), 17tn048qg2j (the counsel register as a standing page in counsel's words only)
+
 ## Counts
 
-By type: Decision 2 (0.2, 0.3); Action 1 (0.1); Deliverable 0. Total 3.
+By type: Decision 2 (0.2, 0.3); Action 1 (0.1); Deliverable 1 (0.4). Total 4.
 
-By phase: Before the first hire 3; Hiring and training 0; Before opening 0; After opening 0.
+By phase: Before the first hire 4 (0.1 to 0.4); Hiring and training 0; Before opening 0; After opening 0.
 
 Repeatable deliverables and their kits: none.

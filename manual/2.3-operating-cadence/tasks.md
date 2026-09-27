@@ -108,8 +108,8 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Phase: Before the first hire
 - Book: pp. 136, 142 (the cadence follows the business's own rhythm; process is not meetings)
 - Default assumption: (WP pp. 33, 36) the white paper describes a restaurant that "fights for every hour" and says nothing about a closed day, a closed week, or a season. Every review in this chunk sits at a closed hour; whether there is a closed day decides where
-- Depends on: 2.3.1, 2.1.15 (dinner's charter and its seasonal shape)
-- Done when: the founders have said whether the house closes one day a week (and whether that is fixed or seasonal), and where the leads' review, the house review, and the partners' review sit given the answer; the labor and hours consequences are named without figures; the kitchen's view is marked for the chef partner; agreed by both seated founders
+- Depends on: 2.3.1
+- Done when: the founders have said whether the house closes one day a week (and whether that is fixed or seasonal), and where the leads' review, the house review, and the partners' review sit given the answer; the labor and hours consequences are named without figures; the kitchen's view is marked for the chef partner; agreed by both seated founders; reads: dinner's charter (2.1.15) may revise the seasonal shape once written
 - Replaces old items: 86akh6739
 
 ### 2.3.13 Decide the leads' review's placement, attendance, and chair
@@ -121,14 +121,14 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Done when: the day and hour are placed for dinner running alone and for once the early morning is open, the hard stop is accepted, attendance is stated (including the kitchen's seat, marked for the chef partner), the chair rule is chosen (alternating, fixed, or the Operations Lead), and the founders' relationship to the meeting is stated; agreed by both seated founders
 - Replaces old items: 86akh675n (the placement half)
 
-### 2.3.14 Decide which partner holds each lead's monthly conversation
-- Type: Decision
+### 2.3.14 Place each lead's monthly conversation on the calendar
+- Type: Action
 - Phase: Before the first hire
 - Book: p. 136 (1:1s run up the chain too)
 - Default assumption: (WP pp. 03, 10, 18) each candidate's sheet names "their direct lead" (WP p. 18); for a lead, that is a partner. The Maitre d owns "the how of the experience" and Brandon owns the experience, so that pairing is close to stated. The Operations Lead manages "the architecture of the business," which the white paper splits between Brandon's operating systems and Dominic's financial and technology build, so that pairing is open
-- Depends on: 2.3.5, 2.3.9, 4.1 (the lead seats as written)
-- Done when: each lead has one named partner who holds their monthly conversation in the check-in's form, on the lead's own page, at a closed hour; the rule for who reads the other lead when a partner is the subject is stated; chunk 5.9 is told the pairing; agreed by both seated founders
-- Replaces old items: 86akh6742 (the pairing half)
+- Depends on: 2.2.5, 2.3.10, 2.3.12
+- Done when: each lead's monthly conversation (held by the partner 2.2.5 named, in the check-in's form, on the lead's own page) has a closed hour on the calendar at the interval 2.3.10 set; the hour is outside every service and every other standing rhythm
+- Replaces old items: None (86akh6742's pairing half moved to 2.2.5)
 
 ### 2.3.15 Set the employee NPS pulse's rhythm
 - Type: Decision
@@ -154,7 +154,7 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Repeatable: yes. Every lead holds the same conversation with every person in their domain, in the same form, from the first cohort on; the chef partner holds the kitchen's. Kit: 2.3.18
 - Book: p. 136 (1:1s)
 - Default assumption: (WP pp. 10, 18, 19) as 2.3.9 and 2.3.14; the first check-ins in the company are the partners' with the two leads, before either lead has a roster
-- Depends on: 2.3.9, 2.3.10, 2.3.11, 2.3.14
+- Depends on: 2.3.9, 2.3.10, 2.3.11, 2.3.14, 2.2.5
 - Done when: each lead has had a check-in with their partner in the chosen form, on the clock, with a line on their page read back, and the next date placed; the facilitator has captured what worked and what did not for the kit; both leads can describe the form to a new hire
 - Replaces old items: 86akh677f (the record half)
 
@@ -167,14 +167,15 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Done when: an intake form (what a person reads on their page before the check-in, and that nothing else is prepared), a facilitation guide (how a lead runs fifteen minutes on the clock: the three questions, the upward question, the one line, the read-back, the refusals, what to do when the window is short), and a template (the person page's fields and the check-in line's form) exist, with an example only if a lead consents; chunk 5.1's coaching form is built beside it, not inside it
 - Replaces old items: None
 
-### 2.3.19 Write the leads' review agenda and record form
+### 2.3.19 Write the leads' review agenda, record form, and the lead's weekly note
 - Type: Deliverable
 - Phase: Hiring and training
+- Repeatable: yes. Each lead files the note before every leads' review; the chef partner files the kitchen's. Kit: 2.3.24
 - Book: pp. 137 to 138, 158 (weekly metrics reviews; notes with action items and owners)
 - Default assumption: (WP pp. 12, 13, 22) the review opens on the leading indicators, never the X-ray (WP p. 12); it reads what the system learned from the week's captures (WP p. 13); it carries open feedback items (WP p. 22). Candidate agenda in `considerations.md` section 5: leading indicators, the week's captures and process updates, goal state changes, the interface between service periods once two are open, overdue feedback items, load readings, decisions and escalations, and the one thing for the week's briefs. A standing line is held for reads other chunks place (recruiting, 3.1)
-- Depends on: 2.3.13, 2.2 (which indicators exist and who owns each)
-- Done when: the agenda exists in fixed order with the source of each read, the record form exists (notes, action items with owners that are a lead, a domain, or a unit), the one thing is written to the team's internal home before the first brief of the week, and lagging indicators are stated as not on it; the review has run at least four consecutive weeks on the form before dinner's gate
-- Replaces old items: 86akh675n (the agenda half), 86akh6785 (the agenda third)
+- Depends on: 2.3.13, 2.2.25, 2.2.29
+- Done when: the agenda exists in fixed order with the source of each read and what it refuses (to open on a lagging figure, to run without a written record, to become the integration layer the stack should be); the record form exists (notes, action items with owners that are a lead, a domain, or a unit); the lead's weekly note has a structure and a page limit and is filed before every review; the one thing is written to the team's internal home before the first brief of the week; lagging indicators are stated as not on it; the review has run at least four consecutive weeks on the form before dinner's gate
+- Replaces old items: 86akh675n (the agenda half), 86akh6785 (the agenda third), 86akh5ume (from 2.2)
 
 ### 2.3.20 Write the shift brief and shift close as running checklists, per domain
 - Type: Deliverable
@@ -182,7 +183,7 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Repeatable: yes. Each domain owner writes their domain's readiness block and close checklist on the same form: the floor's by the Maitre d, the kitchen's by the chef partner, the beverage program's by the Head of Beverage; each later service period's lead adapts the period's goal line before it opens. Kit: 2.3.21
 - Book: pp. 136 to 137 (daily standups; predictable structures)
 - Default assumption: (WP pp. 13, 14, 20, 21, 26) as 2.3.7 and 2.3.8; the readiness block also lives on the OS surface so a person who arrives late reads what was said (WP p. 21 names the OS surface as the home where views update live)
-- Depends on: 2.3.7, 2.3.8, 4.1 (who owns the room per period, and so who runs the brief), 2.1.15 (the period's goal comes from its charter)
+- Depends on: 2.3.7, 2.3.8, 4.1 (who owns the room per period, and so who runs the brief), 2.1.15 (the period's goal comes from its charter), 2.2.32, 4.5.13
 - Done when: the brief's checklist and the close's record exist for the floor, run at every training service in the fixed order, exist on the OS surface as well as spoken, and have survived at least one compressed brief with the readiness block intact; the kitchen's and beverage's versions exist on the same form or are marked as their owners' to write before their first service
 - Replaces old items: 86akh6779 (the build half)
 
@@ -211,16 +212,16 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Book: pp. 158 to 165 (the outline)
 - Default assumption: (WP pp. 02, 12, 14, 23) as 2.3.22; the memo carries no financial figure in this manual, since financials are not a source for this work, and the Operations Lead reads the lagging indicators on their own surface
 - Depends on: 2.3.22
-- Done when: the template exists with the sections chosen in 2.3.22, the run guide covers before, during, and after in her three parts, the first house review has been run on it (pre-opening, as the gate review of 2.3.26), and the record and action items sit where 2.3.6 and 2.3.19 put theirs
-- Replaces old items: 86akh6760 (the template half), 86akh6785 (the memo third)
+- Done when: the template exists with the sections chosen in 2.3.22, the run guide covers before, during, and after in her three parts, the first house review has been run on it (pre-opening, as the gate review of 2.3.26), and the record and action items sit where 2.3.6 and 2.3.19 put theirs; the sections carry the statements that must be true after a house review, in Sŏn's terms, and what the review refuses (to review a period without a charter; to score a goal met at a bandwidth cost as a win; to exceed what the leads can prepare between services); the first instance's length is left to calibrate after it runs (from 2.2)
+- Replaces old items: 86akh6760 (the template half), 86akh6785 (the memo third), 86akh5ukw (from 2.2)
 
-### 2.3.24 Build the house review kit
+### 2.3.24 Build the review kit: the lead's weekly note and the house review memo
 - Type: Deliverable
 - Phase: Before opening
 - Book: pp. 156 to 165
 - Default assumption: None; the kit holds the process and structure from 2.3.23
-- Depends on: 2.3.23
-- Done when: an intake form (the questions a domain lead answers to write a candid memo readable in the reading block), a facilitation guide (how the partners integrate the memos and chair the review, including the reading block, the top-of-mind round, and the reflection), and a template exist, with a memo as the example only if its author consents
+- Depends on: 2.3.19, 2.3.23
+- Done when: kits/review/ holds an intake (the questions a lead answers before writing the weekly note, and before writing a candid quarterly memo readable in the reading block), a guide (how to write skewed to lowlights without writing about a person; how the partners integrate the memos and chair the review, including the reading block, the top-of-mind round, and the reflection; how to keep lagging figures in the appendix), and templates for the note and the memo; a memo as the example only if its author consents; revised after the first house review runs
 - Replaces old items: None
 
 ### 2.3.25 Decide whether to hold a quarterly whole-house gathering
@@ -230,7 +231,7 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Default assumption: (WP pp. 18, 19, 33) the team never co-occurs by design, since the house runs across the day; a gathering costs a closed service or a shared window, and the white paper does not weigh that. Orientation to the mission and values comes first for every new person (WP p. 18); the gathering is one place the mission is spoken to everyone at once. The old work recommended one per quarter, after the house review, paid as a shift, carrying the review's outcome and the quarter's goals per unit
 - Depends on: 2.3.12, 2.3.22
 - Done when: the founders have said yes or no; if yes, when it sits, that it is paid, what it carries and refuses (nothing about a person), and what its cost in closed service is (no figure); if no, that the review's outcome reaches the house by the three channels only (spoken at every brief, written on the internal home, carried by the lead); chunk 4.5 designs the team-making content; agreed by both seated founders, and by the chef partner once seated
-- Replaces old items: 86akh5uc7 (received from 2.1)
+- Replaces old items: 86akh5uc7 (received from 2.1), 86akh673u (received from 2.2)
 
 ### 2.3.26 Decide the gate review
 - Type: Decision
@@ -302,7 +303,7 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 - Default assumption: (WP pp. 11, 17) "employees open the system and see it" (WP p. 11); systems are designed for the people who use them (WP p. 17). One page, in every language on the roster (4.8 sets the list), saying what happens daily, weekly, monthly, quarterly, and yearly, who runs it, and where its record is
 - Depends on: 2.3.31, 4.8 (the language list)
 - Done when: the page exists in every roster language under one version, is findable by any employee without asking, and three people asked at a brief can say what happens this week and where to find it
-- Replaces old items: 86akh6755
+- Replaces old items: 86akh6755, 86akh681a
 
 ### 2.3.34 Run the first mechanism reset after dinner's first quarter
 - Type: Action
@@ -315,11 +316,11 @@ Plain words used throughout, each defined once: the **shift brief** is the meeti
 
 ## Counts
 
-By type: Decision 20 (2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.3.5, 2.3.7, 2.3.8, 2.3.9, 2.3.10, 2.3.11, 2.3.12, 2.3.13, 2.3.14, 2.3.15, 2.3.16, 2.3.22, 2.3.25, 2.3.26, 2.3.29, 2.3.30); Deliverable 10 (2.3.6, 2.3.17, 2.3.18, 2.3.19, 2.3.20, 2.3.21, 2.3.23, 2.3.24, 2.3.31, 2.3.33); Action 4 (2.3.27, 2.3.28, 2.3.32, 2.3.34). Total 34.
+By type: Decision 19 (2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.3.5, 2.3.7, 2.3.8, 2.3.9, 2.3.10, 2.3.11, 2.3.12, 2.3.13, 2.3.15, 2.3.16, 2.3.22, 2.3.25, 2.3.26, 2.3.29, 2.3.30); Action 5 (2.3.14, 2.3.27, 2.3.28, 2.3.32, 2.3.34); Deliverable 10 (2.3.6, 2.3.17, 2.3.18, 2.3.19, 2.3.20, 2.3.21, 2.3.23, 2.3.24, 2.3.31, 2.3.33). Total 34.
 
 By phase: Before the first hire 14 (2.3.1 to 2.3.14); Hiring and training 5 (2.3.15 to 2.3.19); Before opening 14 (2.3.20 to 2.3.33); After opening 1 (2.3.34).
 
-Repeatable deliverables and their kits: 2.3.17 (kit 2.3.18); 2.3.20 (kit 2.3.21); 2.3.23 (kit 2.3.24).
+Repeatable deliverables and their kits: 2.3.17 (kit 2.3.18; 5.1.13 and 5.9.13 are inserts to it); 2.3.19 and 2.3.23 (kit 2.3.24); 2.3.20 (kit 2.3.21).
 
 Tasks owned by someone other than Brandon: 2.3.29 (the chef partner, with the interim holder from 2.1.10); 2.3.32 (each lead); 2.3.34 (the partners with the leads).
 

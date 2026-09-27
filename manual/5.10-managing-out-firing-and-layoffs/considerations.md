@@ -6,7 +6,7 @@ What the white paper holds, what the earlier work argued, the options and what e
 
 The book's section assumes a manager who can decide a departure, an HR partner, employment counsel, a severance matrix, and a layoff run as company restructuring. The white paper has none of those as designed: HR is "removed entirely" into software (WP p. 22), no counsel is named, and every departure it describes is the person's choice or a key person leaving (WP pp. 14, 25). It says what a departure costs ("a tension re-establishment problem," WP p. 9; "bounded, temporary, calculable," WP p. 14) and what the house learns from it ("exit interviews read for what could have been better," WP p. 23). It never says how the house ends anyone's employment. That is designed here from scratch, on the white paper's principles: blame the process first (WP p. 17), no surprises (WP p. 19), nothing withheld at the first interview (WP p. 18), and "speed is respect" (WP p. 18).
 
-Upstream has already built the edges. 5.8.14 hands this chunk a closed package when a performance window is not held and no move is chosen. 5.2.2 defines the serious breach, names who is told and how fast, and permits one three-person conversation. 3.4 holds the early reversal of a hire. 4.3 holds the departure read, what the team hears, and a lead's handoff. 4.8.13 holds the exit conversation and what the house confirms outside. 5.7.7 and 5.7.13 hold whose hours are reduced and its publication. 4.1.12 says a reduction's reason is never a person and a held seat is never retired as a retirement. This chunk builds the exit itself.
+Upstream has already built the edges. 5.8.14 hands this chunk a closed package when a performance window is not held and no move is chosen. 5.2.2 defines the serious breach, names who is told and how fast, and permits one three-person conversation. 3.4 holds the early reversal of a hire. 4.3 holds the departure read, what the team hears, and a lead's handoff. 4.8.14 holds the exit conversation and what the house confirms outside. 5.7.7 and 5.7.13 hold whose hours are reduced and its publication. 4.1.12 says a reduction's reason is never a person and a held seat is never retired as a retirement. This chunk builds the exit itself.
 
 ## 1. The ways employment ends (5.10.3)
 
@@ -74,7 +74,7 @@ Upstream has already built the edges. 5.8.14 hands this chunk a closed package w
 
 **White paper.** Labor is an asset (WP p. 16); pay is daily on a point system weighted by days worked (WP p. 20). Silent on a suspension.
 
-**Earlier work.** Where the act's object is a person in the house, the subject is scheduled off from the flag read to the partners' decision, paid at base for every scheduled shift, with those days counting for the pool as if worked, written as a schedule state with no reason field. Where the act's object is not a person, the subject works. The alternative, working until the review, was set aside as worse for the other people in the room. Counsel is asked whether the hold is lawful, how unworked scheduled hours are paid, and whether counting the day as worked for the pool raises a separate wage question; 5.5.29 holds the register row.
+**Earlier work.** Where the act's object is a person in the house, the subject is scheduled off from the flag read to the partners' decision, paid at base for every scheduled shift, with those days counting for the pool as if worked, written as a schedule state with no reason field. Where the act's object is not a person, the subject works. The alternative, working until the review, was set aside as worse for the other people in the room. Counsel is asked whether the hold is lawful, how unworked scheduled hours are paid, and whether counting the day as worked for the pool raises a separate wage question; 5.5.30 holds the register row.
 
 **Options.** (a) The earlier work's hold as written. Commits Sŏn to paying for shifts not worked and to a pool rule counsel must accept. (b) The book's same-day departure for the gravest acts, and the hold for the rest. Commits Sŏn to a fast reserved decision (section 4's option b). (c) An unpaid suspension, if counsel and the founders accept it. Commits Sŏn to placing a consequence before a decision without pay, which the white paper's labor stance sits badly with.
 
@@ -134,7 +134,7 @@ Upstream has already built the edges. 5.8.14 hands this chunk a closed package w
 
 **White paper, stated outright.** "Exit interviews read for what could have been better rather than filed and forgotten" and "how people grow beyond the building" is "the longest measure of whether the environment did its job" (WP p. 23).
 
-**Upstream.** 4.8.13 decides whether the conversation is offered, who holds it, what it asks, that it is read at the house review as process, what is confirmed outside, and the yearly opt-in. 4.2.6 and 4.3 parked the reader here.
+**Upstream.** 4.8.14 decides whether the conversation is offered, who holds it, what it asks, that it is read at the house review as process, what is confirmed outside, and the yearly opt-in. 4.2.6 and 4.3 parked the reader here.
 
 **Earlier work.** Never usable in any decision about the person or anyone else by name; aggregated by theme; the yearly answers aggregate only. The one open seam: a conversation in which a departing person reports a serious breach. That is a flag report by another route and needs the person's consent stated.
 
@@ -151,39 +151,39 @@ Upstream has already built the edges. 5.8.14 hands this chunk a closed package w
 
 ## 13. Counsel
 
-Nothing in this chunk should be written on the team home before counsel has answered its tier. The questions, condensed from the earlier work and grouped by when the answer is needed. The register (5.5.31) holds them; 5.10.2 files them; only counsel writes answers.
+Nothing in this chunk should be written on the team home before counsel has answered its tier. The questions, condensed from the earlier work and grouped by when the answer is needed. The register (5.5.32) holds them; 5.10.2 files them; only counsel writes answers.
 
-**Before the first paid shift.** The default legal form of employment in Texas and whether any house document (the transparency sheet, the seat sheet, the ninety-day plan, the departure page) changes it. Whether the house may state a notice expectation, in what wording, and whether any consequence may attach. What must be paid to a departing person and by when, for each kind of departure, including the pool share earned on the last day. Whether the built-in compensation is legally a wage, a tip, a bonus, or something else for final pay (5.5.29 asks the same for other purposes). How long each employee record is kept, who lawfully holds it with no HR seat, and whether a departed person is owed copies. What the incident record may or must contain; what the house must do on a report of harassment, discrimination, or retaliation, who investigates, on what timeline, with what documentation, and what each party is told. What a lead may promise about confidentiality, and the exact sentence to say before a person continues.
+**Before the first paid shift.** The default legal form of employment in Texas and whether any house document (the transparency sheet, the seat sheet, the ninety-day plan, the departure page) changes it. Whether the house may state a notice expectation, in what wording, and whether any consequence may attach. What must be paid to a departing person and by when, for each kind of departure, including the pool share earned on the last day. Whether the built-in compensation is legally a wage, a tip, a bonus, or something else for final pay (5.5.30 asks the same for other purposes). How long each employee record is kept, who lawfully holds it with no HR seat, and whether a departed person is owed copies. What the incident record may or must contain; what the house must do on a report of harassment, discrimination, or retaliation, who investigates, on what timeline, with what documentation, and what each party is told. What a lead may promise about confidentiality, and the exact sentence to say before a person continues.
 
 **Before the first flag read.** Whether a paid hold as section 6 describes is lawful, how unworked scheduled hours are paid, and whether counting the day as worked for the pool raises a wage question. Whether the decision process (two partners and counsel on a closed record) and the delivery meet what Texas requires of an employer, including what must or must not be documented. Whether a reason must be given, in writing or aloud; whether a bare citation is lawful and sufficient; whether the person may see more of the record than their own page. Whether a standing limit on pool eligibility after a confirmed act is lawful, and for how long.
 
 **Before the first slow-season cut.** Whether weeks at zero scheduled hours while on staff is a layoff or separation of any kind, what it does to benefits and unemployment eligibility, and what the person must be told. Whether closing a period, retiring a seat, or cutting hours triggers any notice, filing, or payment duty. Whether priority reconsideration for a reopened seat may be promised, and for how long. Whether the published whose-hours formula (5.7.7) is defensible or omits something the law requires.
 
-**Before the wider opening gate.** Whether any separation pay may or must be offered, in what form, and whether a release may be asked for and what it may cover. What must be given in writing and in what language. When benefits end under each scenario and what continuation must be offered or notified. What may be said to a prospective employer and to a customer who asks (4.8.13 holds the policy). Whether the house may keep in touch with a former employee with consent, in what form, and how long the contact may be kept. Whether an anonymous reporting route is required or advisable. What the house must do when a person stops showing up, when an emergency contact may be reached, and what form a wellness check may take. Which leave the house must provide, what it may ask, and how a no-reason schedule state interacts with legally required leave. Whether an exit conversation that asks only "what could have been better" and stores the answer as described is lawful. Whether a written concern about a lead may limit what the lead is assigned, and for how long. Whether a founder holding a lead's conversation or covering a seat changes the founders' classification (2.2.5 logged it). Whether any house document may state anything about the law directly, or every legal statement must be counsel's wording.
+**Before the wider opening gate.** Whether any separation pay may or must be offered, in what form, and whether a release may be asked for and what it may cover. What must be given in writing and in what language. When benefits end under each scenario and what continuation must be offered or notified. What may be said to a prospective employer and to a customer who asks (4.8.14 holds the policy). Whether the house may keep in touch with a former employee with consent, in what form, and how long the contact may be kept. Whether an anonymous reporting route is required or advisable. What the house must do when a person stops showing up, when an emergency contact may be reached, and what form a wellness check may take. Which leave the house must provide, what it may ask, and how a no-reason schedule state interacts with legally required leave. Whether an exit conversation that asks only "what could have been better" and stores the answer as described is lawful. Whether a written concern about a lead may limit what the lead is assigned, and for how long. Whether a founder holding a lead's conversation or covering a seat changes the founders' classification (2.2.5 logged it). Whether any house document may state anything about the law directly, or every legal statement must be counsel's wording.
 
 ## 14. Cross-chunk
 
 - 0.1: counsel's list of employer responsibilities.
 - 2.1.1, 2.1.5, 2.1.10, 2.1.13, 2.1.19: the operating agreement; the principles; the chef seat; the reserved classes and deadlock; the honest description.
-- 2.2.4, 2.2.5, 2.2.7, 2.2.25, 2.2.38: the register; the holders; emergency authority; the metric register; "dinner is steady."
+- 2.2.4, 2.2.5, 2.2.7, 2.2.25, 2.2.36: the register; the holders; emergency authority; the metric register; "dinner is steady."
 - 2.3.4, 2.3.6, 2.3.7, 2.3.14, 2.3.19, 2.3.22, 2.3.30: the partners' review and page; the brief; the pairing; the leads' review; the house review; the reset.
-- 3.1.31, 3.1.40, 3.2.44, 3.2.46: the candidate sheet; the pool check; the internal loop and record.
+- 3.1.29, 3.1.38, 3.2.42, 3.2.44: the candidate sheet; the pool check; the internal loop and record.
 - 3.3.13, 3.3.18, 3.3.39, 3.3.40, 3.3.41, 3.3.51: mentors; modules; the arrival note; the range card; the person page; the first solos.
 - 3.4.2, 3.4.3, 3.4.4: the early reversal.
-- 4.1.12, 4.1.14, 4.1.34, 4.1.36, 4.1.37: the structure change and entry; the pools; load.
+- 4.1.12, 4.1.14, 4.1.33, 4.1.35, 4.1.36: the structure change and entry; the pools; load.
 - 4.2.6, 4.2.11, 4.2.12: evidence; the diagnostic never hands here; the founders' read.
 - 4.3.4, 4.3.7, 4.3.8, 4.3.9, 4.3.10, 4.3.14, 4.3.15, 4.3.17, 4.3.21: telling; moves; the departure read; what the team hears; a lead's departure; counsel's note; the change guide; the record; the first read.
 - 4.4.6: what a lead may ask about a person's background.
 - 4.5.11, 4.5.17: destinations and the page.
 - 4.6.16: what leadership says when it has no plan.
-- 4.8.2, 4.8.4, 4.8.13, 4.8.24: languages; the interpreter; the exit conversation; its guide.
+- 4.8.2, 4.8.5, 4.8.14, 4.8.22: languages; the interpreter; the exit conversation; its guide.
 - 5.1.3, 5.1.5: sources; the hypothesis form.
 - 5.2.2, 5.2.3, 5.2.4, 5.2.5, 5.2.8, 5.2.15: the breach and its policy; counsel on records; the hard conversation and its kit.
 - 5.3.11: the feedback-culture read.
 - 5.4.5: whether a review feeds a separation record.
-- 5.5.8, 5.5.9, 5.5.18, 5.5.21, 5.5.29, 5.5.31, 5.5.33: points, days, the rhythm, benefits, counsel, the registers, the pay page.
+- 5.5.8, 5.5.9, 5.5.18, 5.5.21, 5.5.30, 5.5.32, 5.5.34: points, days, the rhythm, benefits, counsel, the registers, the pay page.
 - 5.6.6, 5.6.16: the load rule; the leaving-to-grow reading.
 - 5.7.7, 5.7.13: whose hours; the published rule.
-- 5.8.2, 5.8.3, 5.8.5, 5.8.6, 5.8.7, 5.8.9, 5.8.14, 5.8.15, 5.8.16, 5.8.18, 5.8.19, 5.8.22, 5.8.24, 5.8.26: the performance process and what it hands here.
+- 5.8.2, 5.8.3, 5.8.5, 5.8.6, 5.8.7, 5.8.9, 5.8.14, 5.8.15, 5.8.16, 5.8.18, 5.8.19, 5.8.22, 5.8.23, 5.8.25: the performance process and what it hands here.
 - 5.9.9, 5.9.10: a lead's own process; the exception where a lead reads across the seam.
 - 6.3: a founder's own departure, with 2.1.1.

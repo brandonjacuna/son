@@ -4,7 +4,7 @@
 
 **What this chunk covers.** The departures the house causes, and what the house does when something bad happens to a person. Every way employment can end at Sŏn, as a closed list; who decides and what the default is; what may never be the reason; whether one act alone can end employment; the same-day review of a serious report and its record, including when a lead or a founder is the subject; the paid hold; the partners' review; the conversation; the day; separation pay; where an hours reduction becomes a departure and the guards around it; closing a service period; a person's crisis, an ongoing hardship, and a person who stops showing up; who reads exit conversations. The book gives thirteen pages (pp. 454 to 466) and a checklist (pp. 481 to 482); the white paper gives principles and no process, because it never describes the house ending anyone's employment.
 
-**Already decided upstream, so not reopened here.** The package 5.8 hands over and that the lead never decides alone (5.8.14); the record custodian and second reader (5.8.3); the serious-breach definition, who is told, how fast, and the one three-person conversation (5.2.2, 5.2.3); counsel's answers on records and what may be said after a departure (5.2.4, 5.8.2); the early reversal of a hire (3.4.2 to 3.4.4); the departure read, what the team hears, a lead's handoff, and counsel's note on what may be said (4.3.8, 4.3.9, 4.3.10, 4.3.14, 4.3.17); the exit conversation and outside confirmation (4.8.13, 4.8.24); whose hours are reduced and its publication (5.7.7, 5.7.13); the structure change entry and "a held seat is never retired" (4.1.12); the reserved classes and the two-partner interim (2.1.13); the operating agreement's provisions for a principal (2.1.1). If any is still open, say so at the start; several decisions here wait on 2.1.13 in particular.
+**Already decided upstream, so not reopened here.** The package 5.8 hands over and that the lead never decides alone (5.8.14); the record custodian and second reader (5.8.3); the serious-breach definition, who is told, how fast, and the one three-person conversation (5.2.2, 5.2.3); counsel's answers on records and what may be said after a departure (5.2.4, 5.8.2); the early reversal of a hire (3.4.2 to 3.4.4); the departure read, what the team hears, a lead's handoff, and counsel's note on what may be said (4.3.8, 4.3.9, 4.3.10, 4.3.14, 4.3.17); the exit conversation and outside confirmation (4.8.14, 4.8.22); whose hours are reduced and its publication (5.7.7, 5.7.13); the structure change entry and "a held seat is never retired" (4.1.12); the reserved classes and the two-partner interim (2.1.13); the operating agreement's provisions for a principal (2.1.1). If any is still open, say so at the start; several decisions here wait on 2.1.13 in particular.
 
 **Who else must agree.** Both seated founders on everything. Counsel has to have answered the first tier of questions before anything here is written on the team home; several briefs say "with counsel's answer in hand," and if it is not, the decision is parked with the question named. The chef partner on the kitchen's part of 5.10.4 and 5.10.15, recorded as interim until the seat is filled. Dominic sets any value on the pay register (5.10.13); no figure is discussed here.
 
@@ -19,7 +19,7 @@
 5. The reduction (5.10.14, 5.10.15): the boundary, the guards, closing a period.
 6. When something happens to a person (5.10.16, 5.10.17): crisis and hardship; the missing person.
 7. The reader (5.10.18): exit conversations and the yearly answers.
-8. Deliverables and kits (5.10.19 to 5.10.31): what the session unlocks.
+8. Deliverables and kits (5.10.19 to 5.10.29): what the session unlocks.
 
 Start with the frame unless he wants to start with the hardest case; if so, 5.10.16 and 5.10.17 are where the book is most human and the earlier work most different from it, and they open the rest.
 
@@ -27,7 +27,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 ### 5.10.2 Add the separation questions to the counsel questions register in urgency order, and get the first tier answered (action; input needed)
 
-**What Brandon supplies:** which questions in `considerations.md` section 13 he thinks are wrong or missing; who owns the relationship with counsel (him, Dominic, both); whether the first-tier answers exist already from 0.1, 5.2.4, 5.5.29, or 5.8.2; the date the first paid shift is planned for, which sets the deadline.
+**What Brandon supplies:** which questions in `considerations.md` section 13 he thinks are wrong or missing; who owns the relationship with counsel (him, Dominic, both); whether the first-tier answers exist already from 0.1, 5.2.4, 5.5.30, or 5.8.2; the date the first paid shift is planned for, which sets the deadline.
 
 **Watch for:** answering a legal question in the room. Nothing here is decided by the founders' reading of the law; the register holds the question until counsel writes the answer.
 
@@ -228,7 +228,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 **The question:** between a confirmed flag and the partners' decision, is the person scheduled off with pay, working, or gone, and how is it written?
 
-**Why it matters now:** the partners' review may be up to a week away. The book's answer is same-day departure; the earlier work's is a paid hold. Counsel is asked (5.8.2) whether a paid stand-down is lawful; 5.5.29 holds the pool row.
+**Why it matters now:** the partners' review may be up to a week away. The book's answer is same-day departure; the earlier work's is a paid hold. Counsel is asked (5.8.2) whether a paid stand-down is lawful; 5.5.30 holds the pool row.
 
 **Openers:**
 - The flag is confirmed on a Friday. The review is Tuesday. The person is on Saturday's schedule, beside the person they hurt. What does Saturday look like?
@@ -291,7 +291,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 **The question:** who tells the person, when, in what order, how much of why, and what stops the conversation?
 
-**Why it matters now:** the card (5.10.22) and the module (5.10.27) are written from this. The book's two responses and the pause words are the parts most likely to go wrong the first time.
+**Why it matters now:** the card (5.10.22) and the module (5.10.25) are written from this. The book's two responses and the pause words are the parts most likely to go wrong the first time.
 
 **Openers:**
 - You have decided. The person's next shift is Thursday. Where do you sit, who is in the room, and what is the first sentence?
@@ -301,7 +301,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 **Narrowing questions:**
 - Deliverer: the partner who decided, with the check-in holder present; the lead with a partner; never a lead alone?
-- When: the next scheduled shift or the one after; off the floor; paid; in the person's language with an interpreter (4.8.4)?
+- When: the next scheduled shift or the one after; off the floor; paid; in the person's language with an interpreter (4.8.5)?
 - Order: the decision, the last day, final pay shown, the exit conversation offered, the hand-back; or the plan summarized first?
 - Why: the citation only; or the book's plain statement?
 - The two responses: re-litigating met kindly and firmly; moving on with the person's choices inside the order.
@@ -326,7 +326,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 **The question:** from the end of the conversation to the end of the day, what happens, who does it, and what does the person walk out holding?
 
-**Why it matters now:** 4.3.17 opens the departure read, 4.3.9 sends the coverage note, 4.8.13 offers the exit conversation; this sequences them with pay, access, and belongings. How the day goes is the part the rest of the team sees.
+**Why it matters now:** 4.3.17 opens the departure read, 4.3.9 sends the coverage note, 4.8.14 offers the exit conversation; this sequences them with pay, access, and belongings. How the day goes is the part the rest of the team sees.
 
 **Openers:**
 - Walk out of the conversation with the person. What is the next thing that happens to their locker, their login, their book of regulars, and their pay page?
@@ -334,7 +334,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 - What do they leave holding, on paper?
 
 **Narrowing questions:**
-- Same day: the departure state (custodian), the departure read opens (4.3.17), the coverage note (4.3.9), the exit conversation offered (4.8.13), final pay shown with counsel's date, access ends at a stated moment, locker and uniform at the person's pace, the book of regulars as 4.3.8 decided.
+- Same day: the departure state (custodian), the departure read opens (4.3.17), the coverage note (4.3.9), the exit conversation offered (4.8.14), final pay shown with counsel's date, access ends at a stated moment, locker and uniform at the person's pace, the book of regulars as 4.3.8 decided.
 - In writing: the departure line from their own page, the pay statement, their own words if they choose, counsel's notices, nothing written by anyone else about them.
 - A lead's departure adds 4.3.10's handoff.
 - Nothing said in any other setting: confirm.
@@ -357,7 +357,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 **The question:** is anyone ever paid beyond what they earned through their last day, and if so, by what rule?
 
-**Why it matters now:** 5.5.29 left "separation pay" as an unset row for this chunk. 5.5 built a pay system with no lever to pull; whether that extends to the exit is the question. No figure is discussed; Dominic sets any value.
+**Why it matters now:** 5.5.30 left "separation pay" as an unset row for this chunk. 5.5 built a pay system with no lever to pull; whether that extends to the exit is the question. No figure is discussed; Dominic sets any value.
 
 **Openers:**
 - A lead leaves after two years, not by choice. What do they leave with beyond their last pay?
@@ -521,7 +521,7 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 **The question:** who reads what departing people said, in what form, and what may it change?
 
-**Why it matters now:** 4.8.13 decided the conversation and 4.2 and 4.3 parked the reader here. The white paper names this as a culture measure (WP p. 23); a measure no one reads is the "filed and forgotten" the white paper rejects.
+**Why it matters now:** 4.8.14 decided the conversation and 4.2 and 4.3 parked the reader here. The white paper names this as a culture measure (WP p. 23); a measure no one reads is the "filed and forgotten" the white paper rejects.
 
 **Openers:**
 - Six people have left in a year and each answered "what could have been better." Who has read all six together, and what changed?
@@ -558,25 +558,25 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 
 **What Brandon supplies:** the first sentence, in his words; what he would want in his hands walking out; the sentence he never wants to hear a deliverer say.
 
-**Capture for the kit:** in the practiced conversations (5.10.28), which sentence each response needed; where the deliverer reached for a reason not on the record; how long the pause words took to recognize; what the second person in the room actually did.
+**Capture for the kit:** in the practiced conversations (5.10.26), which sentence each response needed; where the deliverer reached for a reason not on the record; how long the pause words took to recognize; what the second person in the room actually did.
 
-**Repeatable:** yes; every deliverer; later properties' leads produce their own from the kit. Kit: 5.10.29.
+**Repeatable:** yes; every deliverer; later properties' leads produce their own from the kit. Kit: 5.10.27.
 
 ## 4. Deliverables that follow
 
 - 5.10.19 The conduct policy confirmed as the code of conduct, with counsel's additions. Action.
 - 5.10.20 The departure page for the team home. Not repeatable.
 - 5.10.21 The partners' separation checklist, decision record, and card. Not repeatable; used every time.
-- 5.10.22 The departure conversation card and the written package. Repeatable: yes; kit 5.10.29.
-- 5.10.23, 5.10.24, 5.10.25 The flag read and incident records; the hold and departure states; the exit and yearly records. Builds.
-- 5.10.26 Counsel's confidentiality sentence card. Counsel's words only.
-- 5.10.27, 5.10.28 The departure module; the founders' practiced conversation.
-- 5.10.30, 5.10.31 The register entries; the counts.
-- 5.10.32 The first separation read back at the reset. After opening.
+- 5.10.22 The departure conversation card and the written package. Repeatable: yes; kit 5.10.27.
+- 5.10.23 The separation records: the flag read and incident records; the hold and departure states; the exit and yearly records (one build since the cross-chunk pass).
+- 5.10.24 Counsel's confidentiality sentence card. Counsel's words only.
+- 5.10.25, 5.10.26 The departure module; the founders' practiced conversation.
+- 5.10.28, 5.10.29 The register entries; the counts.
+- 5.10.30 The first separation read back at the reset. After opening.
 
 ## 5. Kits this session seeds
 
-- `kits/separation/` (5.10.29): intake, guide, the card and package template, the partners' checklist and card. It holds no person's record; an example only if Brandon agrees an invented case can serve.
+- `kits/separation/` (5.10.27): intake, guide, the card and package template, the partners' checklist and card. It holds no person's record; an example only if Brandon agrees an invented case can serve.
 
 ## 6. Parking lot
 
@@ -584,12 +584,12 @@ Start with the frame unless he wants to start with the hardest case; if so, 5.10
 - 2.1.1, 4.3.10, 6.3: a founder's own departure, incapacity, or handover (17tn048qr4d); 5.10.8 holds only the flag path up to the record.
 - 2.2.5: counsel's question on a founder under a designation.
 - 3.4.2 to 3.4.4: the early reversal; here only the flag read applies to that window.
-- 4.1.36, 4.1.37, 3.1.40: load and succession (86akhcz7f).
+- 4.1.35, 4.1.36, 3.1.38: load and succession (86akhcz7f).
 - 4.2.12: the read on the founders' seats (17tn048qr4h).
 - 4.3.8, 4.3.9, 4.3.14, 4.3.17: the departure read, what the team hears, counsel's note, the record; here only referenced.
-- 4.8.13, 4.8.24: the exit conversation's questions, holder, consent, and outside confirmation; here only the reader and the build.
+- 4.8.14, 4.8.22: the exit conversation's questions, holder, consent, and outside confirmation; here only the reader and the build.
 - 5.2.3: told that the same-day review and the incident record are served here, not there.
-- 5.5.29, 5.5.31: the separation pay and hold rows; the register.
+- 5.5.30, 5.5.32: the separation pay and hold rows; the register.
 - 5.7.7, 5.7.13: whose hours, and its publication with this chunk's boundary.
 - 5.9.9, 5.9.10: a lead's own process; the cross-seam exception when a lead reads a flag.
 - The brand-canon line the earlier work cited ("no disposable people") is excluded; the tension it named is carried by the white paper's "labor as asset" (WP p. 16) and needs no other source.

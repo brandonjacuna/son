@@ -4,7 +4,7 @@
 
 This chunk covers what happens when someone's work is not holding: how the house knows, what it checks before the person is the subject, the conversation, what is written, the plan, who judges it, and the outcomes short of departure. It sits after coaching (5.1), hard feedback (5.2), and the formal review (5.4) because the book treats it as the point where those tools have not been enough, and before managing out (5.10), which receives whatever this chunk hands it. The book gives it half its performance material; the prior extraction built its largest single mechanism here and argued the steady middle (5.7) deserved the weight instead. Both are on the table.
 
-Upstream, already decided or in progress: the repeated hypothesis and what is handed here (5.1.9), what a lead may read (5.1.3), the serious-breach boundary (5.2.2, 5.2.3), counsel on the record of a hard conversation (5.2.4), whether a hard conversation leaves a record (5.2.8), the hard conversation's form (5.2.5), the failure types (5.2.9), the ninety-day plan and its extension (3.3.10, 3.3.12), a minor early issue (3.4.5), the hiring retrospective (3.4.6, 3.4.10), the skill-will matrix (4.2.5), evidence and recurrence counts (4.2.6, 4.2.10), the domain repeat (4.3.12), how a person moves (4.3.7, 3.2.44, 3.3.29), what a lead may write about a person (4.4.2), and the assessor pattern (3.2.37, 4.1.11). Compensation (5.5) decides any pay effect. 5.10 decides everything after "not held."
+Upstream, already decided or in progress: the repeated hypothesis and what is handed here (5.1.9), what a lead may read (5.1.3), the serious-breach boundary (5.2.2, 5.2.3), counsel on the record of a hard conversation (5.2.4), whether a hard conversation leaves a record (5.2.8), the hard conversation's form (5.2.5), the failure types (5.2.9), the ninety-day plan and its extension (3.3.10, 3.3.12), a minor early issue (3.4.5), the hiring retrospective (3.4.6, 3.4.10), the skill-will matrix (4.2.5), evidence and recurrence counts (4.2.6, 4.2.10), the domain repeat (4.3.12), how a person moves (4.3.7, 3.2.42, 3.3.29), what a lead may write about a person (4.4.2), and the assessor pattern (3.2.35, 4.1.11). Compensation (5.5) decides any pay effect. 5.10 decides everything after "not held."
 
 Who else must agree: both seated founders on every decision; counsel on 5.8.2's questions before 5.8.9, 5.8.11, 5.8.14, and 5.8.15 close; the chef partner on the kitchen's assessors (5.8.13). The two leads read the policy and guide before they are final.
 
@@ -120,7 +120,7 @@ If counsel's answers (5.8.2) are not in, run 1 to 8 and park 9 to 11 with the qu
 
 **Options:** (a) the record opens it. (b) the lead opens it, citing a record, and cannot without one. (c) the lead opens it on judgment, as the book has it. Depth: cons. 4.
 
-**Watch for:** a trigger the stack cannot actually read (5.8.23 has a manual fallback for a reason); a peer's account entering through the absorbed-duties trigger if 5.1.3 refused it as a source.
+**Watch for:** a trigger the stack cannot actually read (5.8.22 has a manual fallback for a reason); a peer's account entering through the absorbed-duties trigger if 5.1.3 refused it as a source.
 
 **A finished answer:** the trigger list, the opener, the parameters named, and the refused list.
 
@@ -210,7 +210,7 @@ If counsel's answers (5.8.2) are not in, run 1 to 8 and park 9 to 11 with the qu
 - Is the lead's hypothesis about the outcome ever said aloud?
 - The answer to "can I succeed."
 - Disputed facts: more examples; move to observation; gather more within a week and restart or debrief honestly.
-- Off the floor, on the clock, in the person's language, interpreter by 4.8.4.
+- Off the floor, on the clock, in the person's language, interpreter by 4.8.5.
 
 **What the book says:** hard feedback plus two additions; name the pattern and the unmet expectation against an objective source; denial and relief; the three questions; no flat no on "can I succeed" but honesty if hard; multiple sessions if needed; own a misread (pp. 439 to 444).
 
@@ -292,7 +292,7 @@ If counsel's answers (5.8.2) are not in, run 1 to 8 and park 9 to 11 with the qu
 
 **The question:** the book's signed improvement plan, a bounded window opened by the record and closed by an assessor, or a second plan in the ninety-day form?
 
-**Why it matters now:** this is the chunk's largest decision and the one counsel cares most about. The build (5.8.23) and the kit (5.8.21) follow from it.
+**Why it matters now:** this is the chunk's largest decision and the one counsel cares most about. The build (5.8.22) and the kit (5.8.21) follow from it.
 
 **Openers:**
 - Read the book's PIP template (pp. 477 to 481) as the person receiving it. Which sentence do you stop at?
@@ -358,7 +358,7 @@ If counsel's answers (5.8.2) are not in, run 1 to 8 and park 9 to 11 with the qu
 
 **Openers:**
 - The lead who has coached someone for six weeks now decides whether they passed. What could go wrong in each direction?
-- Sideways: 3.2.37 already says the person who assesses the hiring practical neither teaches it nor decides the hire. Is a plan's close different?
+- Sideways: 3.2.35 already says the person who assesses the hiring practical neither teaches it nor decides the hire. Is a plan's close different?
 - A behavioral gap, the book's third type: what would a hands-on skills check even show?
 
 **Narrowing questions:**
@@ -386,7 +386,7 @@ If counsel's answers (5.8.2) are not in, run 1 to 8 and park 9 to 11 with the qu
 
 **The question:** held, a move, a step back, or the hand-off: what does each produce, who chooses, and what exactly goes to 5.10?
 
-**Why it matters now:** 5.10 receives only what this decision hands it. 4.3.7 and 3.2.44 already say how a person moves; whether a move here is chosen or placed is the divergence from the book. The lead-never-alone rule is a policy a candidate will read.
+**Why it matters now:** 5.10 receives only what this decision hands it. 4.3.7 and 3.2.42 already say how a person moves; whether a move here is chosen or placed is the divergence from the book. The lead-never-alone rule is a policy a candidate will read.
 
 **Openers:**
 - The person passes, narrowly. Six months later the same gap. Is that a new window or the same one?
@@ -396,7 +396,7 @@ If counsel's answers (5.8.2) are not in, run 1 to 8 and park 9 to 11 with the qu
 
 **Narrowing questions:**
 - Held: what is said, what remains, and a second window in a stated period.
-- Move: seat inside the domain; period or specialization; domain. Chosen by the person from what is open through 3.2.44 and 3.3.29, or placed by the lead?
+- Move: seat inside the domain; period or specialization; domain. Chosen by the person from what is open through 3.2.42 and 3.3.29, or placed by the lead?
 - Step back: exists? Person's choice? Pay is 5.5's.
 - Not held, no move: the package (citations, plan, close in the assessor's words, person's words, nothing else) to 5.10; decided by whom 5.10 names; never the lead alone.
 
@@ -482,7 +482,7 @@ If counsel's answers (5.8.2) are not in, run 1 to 8 and park 9 to 11 with the qu
 - 5.8.18 The performance policy page, with counsel, linked from the candidate sheet. Not repeatable.
 - 5.8.19 The lead's guide and card. Not repeatable.
 - 5.8.20 The plan template and closing record. Repeatable: every lead produces one with a person when the process opens. Kit 5.8.21.
-- 5.8.22 Attendance states. 5.8.23 The window block and trigger surfacing, or the manual fallback. 5.8.24 The module, both halves. 5.8.25 Founders and leads complete it. 5.8.26 Decision-rights entries. 5.8.27 Aggregate counts.
+- 5.8.22 Attendance states, the "not currently available" state (4.5.14), the window block, and trigger surfacing, or the manual fallback (merged in the cross-chunk pass). 5.8.23 The module, both halves. 5.8.24 Founders and leads complete it. 5.8.25 Decision-rights entries. 5.8.26 Aggregate counts.
 - 5.8.17 Confirm the hiring retrospective's trigger.
 
 ## 5. Kits this session seeds

@@ -99,7 +99,7 @@
 - The upward question confirmed as the first surface, in the person's words, written only if they choose?
 - Which second destination, who reads it, what they do, how the person learns it was heard?
 - Same for a concern about a founder?
-- Interpreter rule by reference to 4.1.23 and 4.8?
+- Interpreter rule by reference to 4.1.22 and 4.8?
 
 **What the book says:** upward feedback without being asked is what companies do least well; ask on different occasions and forums (pp. 396 to 397).
 

@@ -10,14 +10,14 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 
 | Old ID | Old name (short) | Fate | Goes to | Reason |
 |---|---|---|---|---|
-| 86akhb2j7 | Cohort in two waves, together with the pre-opening hiring burst | Rewritten | 3.3.15 | The recommendation (two waves, the first mentored by the leads and the kitchen's owner, the second by the first) becomes one option beside a single wave and an outside trainer, decided with the hiring calendar (3.2.34). "Urgent" and the mentor-field blocking language are machinery |
+| 86akhb2j7 | Cohort in two waves, together with the pre-opening hiring burst | Rewritten | 3.3.15 | The recommendation (two waves, the first mentored by the leads and the kitchen's owner, the second by the first) becomes one option beside a single wave and an outside trainer, decided with the hiring calendar (3.2.32). "Urgent" and the mentor-field blocking language are machinery |
 | 86akhb2jc | Whether a coach is engaged for a lead's first months | Rewritten | 3.3.23 | The "no coach" recommendation becomes a decision with options. The cost reasoning is left to Dominic, since financials are not a source. The later comment extending the question to the founders themselves is 1.1.3 and 6.x material, noted in the session parking lot |
 | 86akhb2jj | Reconcile two conflicting uniform-garment lists before the first fitting | Rewritten | 3.3.44 | The conflict between two brand documents is dropped with the brand material. What survives on WP pp. 18 to 20 is the onboarding dependency: the uniform is ready before the start date. The garment list itself is decided outside this manual |
 | 86akhb2jr | Whether training video may use a synthesized on-screen presenter | Rewritten | 3.3.19 | The old reasoning rested on a brand principle against concealment, which is not a source. The question stands on its own (WP p. 21, AI kept off anything load-bearing) as a decision with three answers; the sunk-cost note is financial and dropped. The phone-voice extension is 17tn048qc2n, routed below |
 | 86akhb2jv | Whether a training module may explain a Korean-language term | Merged | 3.3.18 | The conflict rested on a brand rule against glossing Korean terms, which is not a source. What remains is the module standard's language rule (training in the person's chosen language), carried in 3.3.18 |
 | 86akhb2kb | Where the break room and lockers physically are | Merged | 3.3.44 | The location in the building plan is a design and build decision outside this manual. The onboarding dependency (space and lockers ready before the first start date, WP pp. 19 to 20) is 3.3.44. The "dignity as design principle" comment is the white paper's own line and is cited there |
 | 86akht1hf | Fill incomplete "who decides what" entries on the space and environment | Merged | 3.3.49, 3.3.44 | Its onboarding and training entries go to 3.3.49; the break-room location is 3.3.44's deadline. The rest of the bundle belongs to built chunks: the lead's check-in holder is 2.2.5; the closed day is 2.3.12; the all-staff gathering is 2.3.25; the interim two-partner rule is 2.1.13; the cultural labor line is 2.2.20; the register as a whole is 2.2.4. The kitchen entries wait on 2.1.10. The emotional-tone ownership question rested on brand material and is dropped |
-| 17tn048qc2r | Fill incomplete "who decides what" entries on communication and writing | Merged | 3.3.49 | Its onboarding and training entries go to 3.3.49. The rest belongs elsewhere: the lead's check-in holder is 2.2.5; the data hub of record is 2.2.24; the team's internal home is 2.2.13; the third seat's transparency is 2.2.6; a company event is 4.1.28; the reset cadence is 2.3.30; the counsel questions on self-identification and language requirements are 4.7's. The writing-register, Korean-terminology, and "brand surface" entries are dropped as brand-dependent; the phone voice is 17tn048qc2n |
+| 17tn048qc2r | Fill incomplete "who decides what" entries on communication and writing | Merged | 3.3.49 | Its onboarding and training entries go to 3.3.49. The rest belongs elsewhere: the lead's check-in holder is 2.2.5; the data hub of record is 2.2.24; the team's internal home is 2.2.13; the third seat's transparency is 2.2.6; a company event is 4.1.27; the reset cadence is 2.3.30; the counsel questions on self-identification and language requirements are 4.7's. The writing-register, Korean-terminology, and "brand surface" entries are dropped as brand-dependent; the phone voice is 17tn048qc2n |
 | 86akh7r2t | Rule the candidate- and employee-facing writing style and tone register | Dropped | | Brand-voice governance: the question exists because the brand's voice rules are silent on internal writing. Plain writing rules for internal documents, if Brandon wants them, fit 2.2.12 (the internal communications policy) without this item |
 | 17tn048qc2n | Whether a synthesized phone voice counts as concealing what it is | Routes to 4.8 | 4.8 | The same question as 3.3.19 for a customer-facing system, not onboarding. Its premise (the anti-concealment principle) is brand material; what survives is whether software may answer the phone by voice and what it must disclose. 4.8 should decide that alongside the channels it owns, or hand it to a stack decision if 4.8's scope excludes customer channels; 2.2 has no task for it. Until decided, a person answers the phone |
 
@@ -69,6 +69,16 @@ The "machinery" flag on these items is the gate on the old documentation-methodo
 
 **Counts by fate:** Kept 6; Rewritten 12; Merged 10; Routes to another chunk 10; Dropped 1. Total 39 (plus 86akh9tay, mapped in 3.1).
 
+### Placed in the cross-chunk pass (2026-09-27)
+
+| Old ID | Old name (short) | Fate | Goes to | Reason |
+|---|---|---|---|---|
+| 86akhb2xh | The onboarding read's elements into the measure set, and rows 75 to 92 into the assembled test | Served | 3.3.27 | The five elements with no target are what the onboarding read measures; 2.2.25's register receives what 3.3.27 keeps; the readiness rows are 3.3.50's and the instrument list is machinery |
+
+Received: 86akhb2n2 (the ninety-day plan carried by its six check-ins), routed from 2.3, lands in 3.3.11 (the check-in contents).
+
+Received: 86akhb2nt (the dish-knowledge sequence against the chef chain), routed from 3.2, lands in 3.3.21 (the sequence).
+
 ## 2. Where the S7 page's sections went
 
 | S7 section | Where it went |
@@ -76,7 +86,7 @@ The "machinery" flag on these items is the gate on the old documentation-methodo
 | 1. Her ask, and what Sŏn already holds | `book.md`, and 3.3.1 (the read of upstream decisions). "How much is decided, and where she is refused" becomes considerations section 15, divergences stated as options |
 | 2. What onboarding is for, may conclude, refuses to conclude | 3.3.2 and considerations section 1. The four-part entry test is program machinery and dropped; its questions survive as the finished-answer test in `session.md` |
 | 2.4 Who runs it, and the departure from her manager | 3.3.3 and considerations section 2; the five runners are one option |
-| 3. Pre-opening cohort versus steady state | Spread across the tasks with a pre-opening case: 3.3.5, 3.3.15, 3.3.20, 3.3.51, 3.3.53; the training-service count is 3.2.34's |
+| 3. Pre-opening cohort versus steady state | Spread across the tasks with a pre-opening case: 3.3.5, 3.3.15, 3.3.20, 3.3.51, 3.3.53; the training-service count is 3.2.32's |
 | 4. Before the first shift | 3.3.7, 3.3.16, 3.3.39, 3.3.44, and considerations section 4. The person page's fields are 2.3.11's; the ten-entry list is dropped as machinery |
 | 5. Why before how, and the blocking dependency | 3.3.4, 3.3.5, 3.3.6, 3.3.35, and considerations section 3. "The charter" becomes the founding documents (2.1.17) |
 | 6. The first shift, week, and ninety days | 3.3.8, 3.3.9, 3.3.42, 3.3.51, and considerations section 5. The kitchen seat waits on 2.1.10. The lead variant is 3.3.22 and 3.3.45 |

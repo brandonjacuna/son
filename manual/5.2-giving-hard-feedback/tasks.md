@@ -26,7 +26,7 @@ The book's hard conversation (pp. 391 to 395): be an explorer, not a lecturer; o
 - Book: p. 395
 - Default assumption: None
 - Depends on: 5.2.2, 0.1
-- Done when: the definition and the process from 5.2.2 sit in the conduct policy counsel places (0.1), in the house's languages, are on the candidate's single sheet or the honest description (2.1.19, 3.1.31) where counsel says a candidate must see them, and 5.10 is told the boundary is fixed
+- Done when: the definition and the process from 5.2.2 sit in the conduct policy counsel places (0.1), in the house's languages, are on the candidate's single sheet or the honest description (2.1.19, 3.1.29) where counsel says a candidate must see them, and 5.10 is told the boundary is fixed
 - Replaces old items: None
 
 ### 5.2.4 Close with counsel what a record of a hard conversation must hold for a later separation to stand, and how long it is kept
@@ -34,7 +34,7 @@ The book's hard conversation (pp. 391 to 395): be an explorer, not a lecturer; o
 - Phase: Before the first hire
 - Book: workbook pp. 113 to 116 (the recap letter and three follow-on letters, structured as situation, behavior, impact)
 - Default assumption: None; financials and legal advice are not sources for this work, and the white paper is silent
-- Depends on: 0.1, 4.3.14
+- Depends on: 0.1, 4.3.14, 0.4
 - Done when: counsel has answered in writing: whether Texas practice requires or favors a manager-authored record of a performance conversation to defend a later separation or a claim, whether a record in the person's own words serves the same purpose, how long any such record is kept, whether a lead's private note is a personnel record, and what may be said and retained after a departure; the answers are filed in `notes/` and handed to 5.2.8, 5.8, and 5.10
 - Replaces old items: 17tn048qg27 (the retention question; the departure card is 5.10's)
 
@@ -52,7 +52,7 @@ The book's hard conversation (pp. 391 to 395): be an explorer, not a lecturer; o
 - Phase: Hiring and training
 - Book: p. 396 (praise publicly, criticize privately); pp. 393 to 394 (specific and objective, not emotional and generic)
 - Default assumption (WP pp. 10, 17, 26): designations mark accountability in the moment (WP p. 10); management absorbs blame from staff and post-mortems are private (WP p. 17); the customer should never feel at fault (WP p. 26). Silent on what may be said to staff during service
-- Depends on: 2.3.7, 4.1.20, 4.5.8
+- Depends on: 2.3.7, 4.1.19, 4.5.8
 - Done when: the distinction is written in the house's terms: an operating instruction has the work as its subject and a present action as its verb and is complete when the act happens; feedback about a person has the person as its subject and a pattern as its predicate; the first is native to service and any designation holder may give one within their task; the second is never said in front of staff or customers during service; and the rule for an instruction repeated to the same person on the same task in one service is stated (candidate: read as a process or readiness problem, logged at the close, never a correction in the moment); the kitchen's version pending agreement from the chef partner
 - Replaces old items: 17tn048qcjc (the speech half), 86akht34y (the in-the-moment half)
 
@@ -62,16 +62,16 @@ The book's hard conversation (pp. 391 to 395): be an explorer, not a lecturer; o
 - Book: p. 382 (managers wait too long); pp. 392 to 395 (the conversation needs time and privacy)
 - Default assumption (WP p. 17): post-mortems are private and process-focused. Silent on timing
 - Depends on: 5.1.8, 5.2.6, 4.5.8
-- Done when: the founders have resolved the conflict the earlier work left open: whether a hard observation may be said in person between check-ins (privately, off the floor) and written nowhere until the next check-in, or whether every hard observation waits for the check-in, early-placed if 5.1.8 allows; what a lead may say between check-ins in either case (candidate: a brief private heads-up that a conversation is coming, with nothing written); where the conversation is held (never the floor, never a group setting), in which language (the person's, with the interpreter rule from 4.1.23 and 4.8), and that it is on the clock; agreed by both seated founders
+- Done when: the founders have resolved the conflict the earlier work left open: whether a hard observation may be said in person between check-ins (privately, off the floor) and written nowhere until the next check-in, or whether every hard observation waits for the check-in, early-placed if 5.1.8 allows; what a lead may say between check-ins in either case (candidate: a brief private heads-up that a conversation is coming, with nothing written); where the conversation is held (never the floor, never a group setting), in which language (the person's, with the interpreter rule from 4.1.22 and 4.8), and that it is on the clock; agreed by both seated founders
 - Replaces old items: 17tn048qcjc (the timing conflict), 86akht34y (the between-check-ins half), 86akh67y5 (the between-check-ins half), 17tn048qc2b (the interpreter and no-group halves)
 
 ### 5.2.8 Decide whether a hard conversation leaves a written record, and whose words it holds
 - Type: Decision
-- Phase: Hiring and training
+- Phase: Before the first hire
 - Book: workbook pp. 113 to 116 (a recap letter after the conversation: situation, observable behaviors, impact; then progress, back-on-track, and insufficient-progress letters)
 - Default assumption (WP p. 19): no surprises; (2.3.11) the person page holds one line in the person's words per check-in, read back. Silent on a record of a hard conversation
-- Depends on: 4.4.2, 2.3.11, 5.1.6, 5.2.4, 5.2.5
-- Done when: with counsel's answer from 5.2.4 in hand, the founders have said whether a hard conversation produces any record beyond the person's own check-in line, and if so what (candidates: none; the person's line, as long as they choose; the workbook's recap written by the lead and read back; a recap written jointly; a record only on a second raising, handed to 5.8), who may read it, and how long it is kept; and whether the workbook's three follow-on letters exist at Sŏn or are 5.8's; agreed by both seated founders
+- Depends on: 4.4.2, 2.3.11, 5.2.4
+- Done when: with counsel's answer from 5.2.4 in hand, the founders have said whether a hard conversation produces any record beyond the person's own check-in line, and if so what (candidates: none; the person's line, as long as they choose; the workbook's recap written by the lead and read back; a recap written jointly; a record only on a second raising, handed to 5.8), who may read it, and how long it is kept; and whether the workbook's three follow-on letters exist at Sŏn or are 5.8's; agreed by both seated founders; reads: 5.2.5 sets the conversation's form; 5.1.6 says where a hypothesis lives before it is tested
 - Replaces old items: 17tn048qcjd (the record half), 86akht2k9 (no group setting reads a person)
 
 ### 5.2.9 Decide the failure types and the response to each, including a judgment call inside someone's range that went wrong
@@ -97,9 +97,9 @@ The book's hard conversation (pp. 391 to 395): be an explorer, not a lecturer; o
 - Phase: Hiring and training
 - Book: pp. 393 to 394 (specific, objective observation; offer help)
 - Default assumption (WP p. 19): no one touches a table until they are ready; competency validation is a system fact, not a manager's opinion
-- Depends on: 3.3.9, 3.3.42, 3.2.14, 5.2.5
-- Done when: the form is written for the two cases: a failed readiness row is read with the person from the assessor's own words, row by row, the lead adds nothing to the row, asks what happened before saying anything, and the plan's own next step (retraining, the next assessment date) follows; and a retraining requirement for an interviewer whose scorecard came back without a read (3.2.14) is delivered at their own check-in as a record-based fact, framed first as a question about the form; it is stated that a hiring decision contradicting earlier stages is never delivered to any person and lives in 3.2.10 and 3.2.41; and that a disagreement between two people is 4.5.10's path, never a three-way conversation held here
-- Replaces old items: 86akhb2x5, 86akh7r6z (the delivery halves; the calibration half is 3.2.41's), 17tn048qck1 (the readiness, retraining, hiring, and disagreement scenarios), 17tn048qckd
+- Depends on: 3.3.9, 3.3.42, 3.2.13, 5.2.5
+- Done when: the form is written for the two cases: a failed readiness row is read with the person from the assessor's own words, row by row, the lead adds nothing to the row, asks what happened before saying anything, and the plan's own next step (retraining, the next assessment date) follows; and a retraining requirement for an interviewer whose scorecard came back without a read (3.2.13) is delivered at their own check-in as a record-based fact, framed first as a question about the form; it is stated that a hiring decision contradicting earlier stages is never delivered to any person and lives in 3.2.9 and 3.2.39; and that a disagreement between two people is 4.5.10's path, never a three-way conversation held here
+- Replaces old items: 86akhb2x5, 86akh7r6z (the delivery halves; the calibration half is 3.2.39's), 17tn048qck1 (the readiness, retraining, hiring, and disagreement scenarios), 17tn048qckd
 
 ### 5.2.12 Write the hard conversation guide, version one
 - Type: Deliverable

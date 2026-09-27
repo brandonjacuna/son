@@ -15,7 +15,7 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 | 17tn048qcjf | Decide the response by failure type and how blame absorption works | Rewritten | 5.2.9, 5.2.10 | The three failure types and the response to each is 5.2.9; blame absorption as a mechanism (who owns the fix, how a reporter is protected, what a lead says in a group) is 5.2.10. The incident review build is 5.3.15 |
 | 86akht2k9 | Fix the rule that no shared setting names or reads a person | Merged | 5.2.2, 5.2.8, 5.3.6, 5.3.9 | The rule is split across the places it bites: the one three-person conversation (a serious-breach flag with a witness) is 5.2.2; no group setting reads a person is 5.2.8; peer correction never where others can hear is 5.3.6; a group reads a record, not a person, is 5.3.9. 4.5.8 holds the related decision on correcting a person in front of others |
 | 17tn048qck1 | Decide feedback's form in six inherited situations | Merged | 5.2.11, 5.1.10, 5.3.8 | The readiness, retraining, hiring, and disagreement scenarios are 5.2.11; the duty-holder scenario is 5.1.10; the recognition decline is 5.3.8; the diagnostic hand-off is covered by 86akhpvkk in 5.1.3 |
-| 17tn048qckd | Build delivery of readiness results, retraining notices, and hiring-calibration disagreements | Merged | 5.2.11 | The delivery forms are decided in 5.2.11 and written into the guide (5.2.12). The calibration read between managers is 3.2.41's |
+| 17tn048qckd | Build delivery of readiness results, retraining notices, and hiring-calibration disagreements | Merged | 5.2.11 | The delivery forms are decided in 5.2.11 and written into the guide (5.2.12). The calibration read between managers is 3.2.39's |
 
 ### Carryovers routed to Session 12
 
@@ -23,7 +23,7 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 |---|---|---|---|---|
 | 86akht34y | Psychological safety's environment half handed to coaching | Merged | 5.2.6, 5.2.7, 5.2.9 | Only live operating instructions during service is 5.2.6; correction between check-ins and its open conflict is 5.2.7; a judgment call inside someone's range that went wrong is 5.2.9 |
 | 86akhb2x5 | Hard feedback inside the onboarding plan without a verdict | Merged | 5.2.11 | Reading a failed readiness row aloud, from the assessor's words, adding nothing, asking first, is the first case in 5.2.11 |
-| 86akh7r6z | Two hiring feedback events this chunk must design delivery for | Merged | 5.2.11 | The retraining signal delivered at the interviewer's own check-in is 5.2.11; the contradicting hiring decision is never delivered to a person and lives in 3.2.10 and 3.2.41 |
+| 86akh7r6z | Two hiring feedback events this chunk must design delivery for | Merged | 5.2.11 | The retraining signal delivered at the interviewer's own check-in is 5.2.11; the contradicting hiring decision is never delivered to a person and lives in 3.2.9 and 3.2.39 |
 
 **Counts by fate (5.2):** Kept 0; Rewritten 2; Merged 7; Routes to another chunk 0; Dropped 0. Total 9.
 
@@ -44,7 +44,7 @@ Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing 
 | 6.7 The conflict between the two older rules | 5.2.7, as an open decision; `considerations.md` section 3 |
 | 6.8 The kitchen's version | 5.2.6, pending agreement from the chef partner. Its brand-derived detail is dropped |
 | 7.1 Inside the ninety-day plan | 5.2.11 |
-| 7.3 Recruiting's two events | 5.2.11; calibration is 3.2.41 |
+| 7.3 Recruiting's two events | 5.2.11; calibration is 3.2.39 |
 | 7.5 A disagreement about a person, routed off a joint work item | 5.2.11 names 4.5.10's path; the build is 5.3.8 and 4.5.10 |
 | 7.7 Through an interpreter | 5.2.7 (the conversation) and 5.3.4 (upward) |
 | 8. The response by type of failure | 5.2.9 and 5.2.10; the review step and counts are 5.3.15; `considerations.md` section 5 |

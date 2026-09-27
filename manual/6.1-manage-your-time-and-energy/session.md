@@ -6,7 +6,7 @@ This chunk is the first of three from the book's Conclusion, and it is about the
 
 Working rules for the room: Brandon decides, the facilitator never does. Options and defaults are starting points. Nothing he says about his own energy, hours, working style, or commitments outside the house gets recorded here; the deliverables of this chunk that hold such things (6.1.13) are his and stay out of this repo and ClickUp. If he starts describing what he is like under load, that is material for his own document; note that it came up, not what it was. Brain dumps go to `notes/YYYY-MM-DD-<topic>.md` in his words before they are funneled, and a brain dump about himself is saved only if he asks.
 
-Upstream, already decided or in progress: the working-with-me document's prompts and the self-exercises (1.1.2, 1.1.3, 1.1.6, 1.1.7); the knowledge-transfer list (1.1.12); the tempos ruling and its dinner-quarter consequence (1.4.3); the partners' weekly review, domain read, and page (2.3.4, 2.3.6); the load line on a founder's seat at the reset (4.2.12); the delegation rule and the handover list (4.4.8, 4.4.18); the absence rule in the seat descriptions (2.1.8, 2.1.9); the alert-actor rule (2.2.30); emergency authority during a service (2.2.7); designations (4.1.20, 4.1.21); the two kinds of live speech (5.2.6); the founders' training gates (3.2.25, 5.1.17, 5.4.26, 5.8.25).
+Upstream, already decided or in progress: the working-with-me document's prompts and the self-exercises (1.1.2, 1.1.3, 1.1.6, 1.1.7); the knowledge-transfer list (1.1.12); the tempos ruling and its dinner-quarter consequence (1.4.3); the partners' weekly review, domain read, and page (2.3.4, 2.3.6); the load line on a founder's seat at the reset (4.2.12); the delegation rule and the handover list (4.4.8, 4.4.18); the absence rule in the seat descriptions (2.1.8, 2.1.9); the alert-actor rule (2.2.30); emergency authority during a service (2.2.7); designations (4.1.19, 4.1.20); the two kinds of live speech (5.2.6); the founders' training gates (3.2.24, 5.1.17, 5.4.25, 5.8.24).
 
 Who else must agree: both seated founders on every decision; Dominic writes his own documents (6.1.14); the chef partner's floor and kitchen rule waits on 2.1.10; counsel on the questions collected in 6.3.7.
 
@@ -64,7 +64,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 
 **The question:** between resets, does anything read whether a founder's seat is overloaded, and if so, who writes it, from what, and what may it never become?
 
-**Why it matters now:** the loads are heaviest before opening, when the founders hold every function by default (3.1.4, 3.2.6, 3.3.6, 2.3.5). 4.2.12 gives each founder's seat a load line at the reset; that is a quarter away at best. The leading indicators read the team and read the founders nowhere (WP pp. 12, 22).
+**Why it matters now:** the loads are heaviest before opening, when the founders hold every function by default (3.1.4, 3.1.3, 3.3.6, 2.3.5). 4.2.12 gives each founder's seat a load line at the reset; that is a quarter away at best. The leading indicators read the team and read the founders nowhere (WP pp. 12, 22).
 
 **Openers:**
 - The book's story: she only saw how overloaded she was when she said it aloud in a 1:1 (p. 490). You have no 1:1 above you. Where would you say it?
@@ -94,7 +94,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 
 ### 6.1.5 Decide whether the founders keep one inventory of what sits on each seat, or read the existing lists together
 
-**The question:** the house already keeps four lists that touch what a founder holds (1.1.12, 2.3.5, 4.4.18, 2.2.35). Is there a fifth, one inventory per founder seat, or are the four read together?
+**The question:** the house already keeps four lists that touch what a founder holds (1.1.12, 2.3.5, 4.4.18, 2.2.33). Is there a fifth, one inventory per founder seat, or are the four read together?
 
 **Why it matters now:** several loads the white paper places on a founder's seat are on none of the four: the content engine's cadence and streaming (WP p. 30), the founder consultation and leadership review of content (WP p. 31), the acoustic consultation with an unnamed founder (WP p. 21), the chef partner search, the raise's public-voice component. Each is a standing load with no hand-over in view, and nothing shows it.
 
@@ -138,7 +138,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 **Narrowing questions:**
 - Never, allowed as an ordinary seat, or case by case?
 - If allowed: what may the seat never hold (decisions, check-ins, a lead's people, the record)?
-- Does the seat have to pass the requisite-variety test (2.2.36) like any other?
+- Does the seat have to pass the requisite-variety test (2.2.34) like any other?
 - Is a contractor or a bought service (the stack's own vendors) a carrier under the same rule?
 
 **What the book says:** delegate (p. 487); the delegation section at p. 284 covers the how.
@@ -191,7 +191,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 
 **The question:** what may a founder do on the floor while a service runs?
 
-**Why it matters now:** the room's designations (4.1.20, 4.1.21) and the two kinds of live speech (5.2.6) are built for leads and the team. A founder in the room during dinner's first quarter is the one person likely to see a mistake and able to fix it faster than the designated holder. Whether they may is the whole question, and the team learns the answer on the first night.
+**Why it matters now:** the room's designations (4.1.19, 4.1.20) and the two kinds of live speech (5.2.6) are built for leads and the team. A founder in the room during dinner's first quarter is the one person likely to see a mistake and able to fix it faster than the designated holder. Whether they may is the whole question, and the team learns the answer on the first night.
 
 **Openers:**
 - You ran opening service at a top room (WP p. 04). On the first night at Sŏn, a runner is about to drop a course at the wrong table and the room designation is across the floor. What do you do?
@@ -210,7 +210,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 
 **White-paper default:** the Maitre d holds the floor and the team (WP p. 10); the server resolves in their range and the close carries it (WP p. 13); dinner runs alone for a quarter so the heart is solid (WP p. 36). 1.4.3 ruled whether a founder in the room runs on the room's tempo.
 
-**How others have handled it:** General practice, not Sŏn-specific. Chef-owners commonly work the pass and floor-owners commonly work the door for years; both are the load-bearing model the white paper diagnoses (WP pp. 07 to 08). Rooms that have moved the owner off the floor usually did it by naming who holds the room in their absence, which is what 4.1.21 has done.
+**How others have handled it:** General practice, not Sŏn-specific. Chef-owners commonly work the pass and floor-owners commonly work the door for years; both are the load-bearing model the white paper diagnoses (WP pp. 07 to 08). Rooms that have moved the owner off the floor usually did it by naming who holds the room in their absence, which is what 4.1.20 has done.
 
 **Options:** (a) no range unless named, corrects no one, carries observations to the check-in holder; (b) a standing range through the first quarter, ending at the first reset; (c) off the floor except as a customer or under a designation. Depth: cons. 7.
 
@@ -224,7 +224,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 
 **The question:** the house needs to schedule around each founder's presence. What does it know, in what form, and what does it refuse to know?
 
-**Why it matters now:** the why session (3.3.6), the founder interview stage (3.2.6), and any founder-attended block have to be scheduled before the first cohort. The scheduling surface (3.3.32) needs a fact to read. And this is the one place the manual comes nearest to a founder's life outside the house, so the refusal has to be explicit.
+**Why it matters now:** the why session (3.3.6), the founder interview stage (3.1.3), and any founder-attended block have to be scheduled before the first cohort. The scheduling surface (3.3.32) needs a fact to read. And this is the one place the manual comes nearest to a founder's life outside the house, so the refusal has to be explicit.
 
 **Openers:**
 - The book's guideline came from her evenings (p. 486); she names the shape and not the reason. What is the shape the house needs from you, and nothing more?
@@ -256,7 +256,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 
 **The question:** 1.4.3 handed the founders' own learning tempo here. Is it set by the acts the house gates (the training modules), by a list each founder keeps, or by someone outside the house?
 
-**Why it matters now:** the founders' first gated act is the first lead's first interview (3.2.25), which is weeks away from the first posting. The white paper answers the first-time-team objection with architecture, not years (WP p. 05); this is where the founders' own learning either has a shape or does not.
+**Why it matters now:** the founders' first gated act is the first lead's first interview (3.2.24), which is weeks away from the first posting. The white paper answers the first-time-team objection with architecture, not years (WP p. 05); this is where the founders' own learning either has a shape or does not.
 
 **Openers:**
 - The book's two piles: tasks you are unsure how to do belong with help sought early (pp. 486 to 487). Which pile does "run a formal review" fall into for you today, and what is the plan?
@@ -271,7 +271,7 @@ If time is short: 6.1.2, 6.1.8, and 6.1.9 are the three with consequences for ot
 
 **What the book says:** sort the stalled tasks; ask for help early; practice faster than is comfortable (pp. 486 to 487, 490; pp. 17 to 19).
 
-**White-paper default:** self-paced learning for the team (WP pp. 11, 19); trained interviewers (WP p. 18); the founders' training already dated by the acts it gates (3.2.25, 5.1.17, 5.4.26, 5.8.25).
+**White-paper default:** self-paced learning for the team (WP pp. 11, 19); trained interviewers (WP p. 18); the founders' training already dated by the acts it gates (3.2.24, 5.1.17, 5.4.25, 5.8.24).
 
 **How others have handled it:** General practice, not Sŏn-specific. First-time operators commonly learn management on the job with no plan; the ones who do it deliberately usually use a coach or a peer operator rather than a written agenda.
 
@@ -356,7 +356,7 @@ This is the book's exercise (p. 486) and it is Brandon's alone. In the session: 
 
 This is a deliverable Brandon writes alone, as a private appendix to his working-with-me document. In the session: agree the structure (four tiers, or one he prefers: what protects the seat's bandwidth itself; what only the seat can do and that gates a date; what only the seat can do and can wait for a closed hour; what the seat hands over or refuses, with dates from 4.4.18); agree that only the presence fact leaves the document, in 6.1.9's form; agree where it is stored (with the partners, never the team). Do not draft a line of it in the room.
 
-What to bring to the table, briefly: the second tier can be started from records the house already holds (the chef partner search, 3.1.21; the founding document's completion before the first cohort, 3.3.5; the parameters register's offer-gating rows, 5.5.27; the two leads' hiring, 3.1.20; counsel's questions before the first paid hire, 0.1). The raise sits in Dominic's domain; only its public-voice component is Brandon's seat's, and its dates are not this program's.
+What to bring to the table, briefly: the second tier can be started from records the house already holds (the chef partner search, 3.1.19; the founding document's completion before the first cohort, 3.3.5; the parameters register's offer-gating rows, 5.5.27; the two leads' hiring, 3.1.18; counsel's questions before the first paid hire, 0.1). The raise sits in Dominic's domain; only its public-voice component is Brandon's seat's, and its dates are not this program's.
 
 **Capture for the kit:** the order of the tiers that worked; where he got stuck; which house records he reached for to fill each tier; the questions that turned a vague load into a dated row. Never the rows.
 
@@ -372,7 +372,7 @@ What to bring to the table, briefly: the second tier can be started from records
 | 6.1.16 The page on what the house never depends on a founder for | 6.1.2, 6.1.8, 6.1.9, 6.1.11 | The partners' half (every upstream protection checked for a founder by name) and the team-home half (mechanisms only) | No |
 | 6.1.17 The founder seat inventory | 6.1.5 (if adopted), 6.1.6, 6.1.7 | One row per load per seat: what, by design or default, until when, to whom, the record that shows it moved | No |
 | 6.1.18 The presence entry on the scheduling surface | 6.1.9 (if adopted) | Presence by period and week, versioned, no nature field, no path to pay | No |
-| 6.1.19 The absence test | 6.1.16, 6.1.17, 2.2.39, 4.1.27 | A full service period, then a full week of the cadence, both founders unreachable; every stall to the readiness test | No |
+| 6.1.19 The absence test | 6.1.16, 6.1.17, 2.2.38, 4.1.26 | A full service period, then a full week of the cadence, both founders unreachable; every stall to the readiness test | No |
 | 6.1.20 The first founder load read at the reset | 6.1.4, 6.1.5, 4.2.12 | Every by-default load past its date handed over, re-dated with a reason, or closed; the line read against the founder's own account, no verdict | No |
 
 Offer to draft 6.1.16 and the structure of 6.1.17 from the session; both are marked draft for his review. 6.1.13 is never drafted by anyone but Brandon.

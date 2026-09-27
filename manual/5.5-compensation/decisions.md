@@ -177,14 +177,7 @@ Recorded in Brandon's words, with his reasoning. Status is open, decided, pendin
 - Date:
 - Still needs:
 
-## 5.5.27 Decide which rows must be set before a lead's offer, and the order against the leads' interviews
-- Status: open
-- Decision:
-- Reasoning (his words):
-- Date:
-- Still needs:
-
-## 5.5.30 Chef partner sets the kitchen's seat weights and salaried seats within the mechanism
+## 5.5.31 Chef partner sets the kitchen's seat weights and salaried seats within the mechanism
 - Status: open
 - Decision:
 - Reasoning (his words):

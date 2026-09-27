@@ -9,14 +9,14 @@ Topics follow the book's order (pp. 331 to 353, exercises pp. 364 to 377). "WP" 
 **From the digest.** The old work's framing holds up: the trigger for a deliberate coordination design is non-co-presence by shift-hour, not headcount. The book's Table 9 has no row for this. The closest row is "a team split across two or three offices," where coordination dominates (Book pp. 336 to 337). Two other rows also apply: the two leads once more than one period is open behave like "a whole team that is remote but reports to one manager without being a real team," a cohesion problem; and a kitchen person during a floor brief, or a person who does not share the brief's language, is the book's "few remote people on an otherwise centralized team," a participation problem.
 
 **Options for 4.6.2.**
-- (a) Treat every team shape as a coordination problem and solve it once, with the written record (2.2.11, 4.8.5). Commits Sŏn to one design and accepts that cohesion and participation get less attention.
+- (a) Treat every team shape as a coordination problem and solve it once, with the written record (2.2.11, 4.8.6). Commits Sŏn to one design and accepts that cohesion and participation get less attention.
 - (b) Name the dominant problem per shape, as Table 9 does, and design against each. Commits Sŏn to three small designs (4.6.5 for coordination, 4.6.7 for cohesion, 4.6.6 for participation) and to a read of each at the reset.
 
 **Where Sŏn may diverge.** The book's distributed team is a set of people who all persist week to week. A shift crew forms at the brief and dissolves at close. The book's remedies that assume persistence (a team Slack channel, recorded meetings) translate only partly; the ones that assume a record (strong notes, a norm that decisions move to writing) translate whole.
 
 ## 2. The founders and any seat away from the building
 
-**What the white paper holds.** Brandon owns the concept, the operating systems, and the experience; Dominic owns the capital, the financial architecture, and the technology build; the chef partner is a founding seat (WP p. 03). The Operations Lead "oversees those systems and is accountable to their outputs, not their manual production" (WP p. 10), work that can be done away from the floor. Nothing in the white paper places anyone remotely, and nothing describes a chef search that runs in another city (3.1.21 decides how the chef partner is found).
+**What the white paper holds.** Brandon owns the concept, the operating systems, and the experience; Dominic owns the capital, the financial architecture, and the technology build; the chef partner is a founding seat (WP p. 03). The Operations Lead "oversees those systems and is accountable to their outputs, not their manual production" (WP p. 10), work that can be done away from the floor. Nothing in the white paper places anyone remotely, and nothing describes a chef search that runs in another city (3.1.19 decides how the chef partner is found).
 
 **From the digest.** The one genuinely distributed relationship before opening is the founders themselves, with a chef partner possibly found elsewhere. The book's advice to "document communication norms in more detail than you think you need to" (Book p. 338) applies most directly to them.
 
@@ -33,13 +33,13 @@ Topics follow the book's order (pp. 331 to 353, exercises pp. 364 to 377). "WP" 
 
 **What the white paper holds.** The server "resolves it using their authorized judgment and generosity range, the system captures the incident in the shift close, the appropriate lead reviews, the process that allowed the failure gets updated, and the next server inherits a system that has already learned from it" (WP p. 13). Every server carries a bottle to gift and managers carry a spirit (WP p. 26). The ranges themselves are 2.2.2's and 2.2.4's. The white paper does not list what a shift waits on when its owner is off.
 
-**From the digest.** The Dublin engineer lost three days, twice, waiting for a US-hours approval to the wrong access group; the lesson is a self-service interface rather than an approval queue (Book pp. 333 to 334). The book's rule that the moment a side conversation becomes a work decision it moves to a format everyone can see (Book p. 335), and its caution that chat tools have retention limits so a permanent record lives elsewhere (Book p. 336), both carry forward. 4.8.5 holds the record rule; 4.6.5 holds what a shift may decide.
+**From the digest.** The Dublin engineer lost three days, twice, waiting for a US-hours approval to the wrong access group; the lesson is a self-service interface rather than an approval queue (Book pp. 333 to 334). The book's rule that the moment a side conversation becomes a work decision it moves to a format everyone can see (Book p. 335), and its caution that chat tools have retention limits so a permanent record lives elsewhere (Book p. 336), both carry forward. 4.8.6 holds the record rule; 4.6.5 holds what a shift may decide.
 
 **Considerations.** The restaurant version of the Dublin case is concrete: a lead is off, and a server needs a comp beyond the range, a swap on tomorrow's schedule, a supply order before a delivery cutoff, a reservation exception, or a login that has stopped working. Each either has an on-shift decider, a self-service range, or a wait. A wait that lasts past the next service is the book's failure. The white paper's decision-rights logic (authority lives in the domain, WP p. 07) points toward ranges; the operating question is which waits are worth the risk of a range and which are not.
 
 **Options for 4.6.5.**
 - (a) Every wait on the list gets a range or an on-shift decider; nothing waits past the service. Commits Sŏn to writing ranges for things it may prefer to hold (purchases, schedule), and to trusting the record to catch misuse.
-- (b) Customer-facing waits get ranges; back-of-house waits (orders, schedule, access) get a named on-shift decider, usually the room's designation holder. Commits Sŏn to the designation holder carrying decisions outside their domain and to 4.1.20's rotation floor meaning something.
+- (b) Customer-facing waits get ranges; back-of-house waits (orders, schedule, access) get a named on-shift decider, usually the room's designation holder. Commits Sŏn to the designation holder carrying decisions outside their domain and to 4.1.19's rotation floor meaning something.
 - (c) Some waits are allowed to wait, listed explicitly, with the next brief as the deadline. Commits Sŏn to saying which, so a person is never left guessing.
 
 ## 4. The person who is not in the room
@@ -51,7 +51,7 @@ Topics follow the book's order (pp. 331 to 353, exercises pp. 364 to 377). "WP" 
 **Options for 4.6.6.**
 - (a) Design for the exception: the person who missed the brief is caught up by the lead or a peer. Commits Sŏn to a verbal handoff, the failure the white paper names (WP p. 13).
 - (b) Design for everyone: the brief is written before it is spoken, everyone reads it, and the spoken brief is the reading aloud. The person who missed it reads the same thing. Commits Sŏn to a lead writing before every service and to the record being readable on a phone in every listed language (4.8.2).
-- (c) Both, with a log: the written brief for everyone plus a marked catch-up for anyone who arrived late, logged so the reach review (4.8.14) can see who is repeatedly missing it. Commits Sŏn to the log and to reading it as a process signal, never as a mark on a person.
+- (c) Both, with a log: the written brief for everyone plus a marked catch-up for anyone who arrived late, logged so the reach review (4.8.15) can see who is repeatedly missing it. Commits Sŏn to the log and to reading it as a process signal, never as a mark on a person.
 
 ## 5. In-person time and cohesion
 
@@ -105,7 +105,7 @@ Topics follow the book's order (pp. 331 to 353, exercises pp. 364 to 377). "WP" 
 
 ## 8. Working with other teams
 
-**What the white paper holds.** The Operations Lead and the Maitre d "are parallel. Neither reports to the other" (WP p. 10). The kitchen is the chef partner's during service (WP p. 10). The outward and inward strands serve one table and "the customer never feels [the inward] strand, they feel that everything arrived right" (WP p. 11). Bus failure is information not moving between domains (WP p. 13). The white paper does not say how a dependency is named or recorded. 2.2.3 holds the cross-domain decision and hold; 4.1.35 holds the joint half-page; 4.1.38 puts an interface read line on the leads' review.
+**What the white paper holds.** The Operations Lead and the Maitre d "are parallel. Neither reports to the other" (WP p. 10). The kitchen is the chef partner's during service (WP p. 10). The outward and inward strands serve one table and "the customer never feels [the inward] strand, they feel that everything arrived right" (WP p. 11). Bus failure is information not moving between domains (WP p. 13). The white paper does not say how a dependency is named or recorded. 2.2.3 holds the cross-domain decision and hold; 4.1.34 holds the joint half-page; 4.1.37 puts an interface read line on the leads' review.
 
 **From the digest.** The book's guide: identify dependencies during planning (what from whom by when), align before the other team's plan is final, a semi-regular check-in that starts as an email, embed a representative each way, a temporary working group with a DRI when the dependency is substantial, escalate constructively to the shared decision-maker (Book pp. 348 to 349). Its closing point: sometimes a different structure removes the dependency rather than managing it forever (Book pp. 349 to 350). The digest's two options carry forward below.
 
@@ -117,11 +117,11 @@ Topics follow the book's order (pp. 331 to 353, exercises pp. 364 to 377). "WP" 
 - (c) A lightweight recurring check-in between the two leads, in addition to or instead of the written form. Commits Sŏn to another meeting, or to the leads' review carrying it.
 - (d) An embedded person: a floor lead at the kitchen's brief and the reverse. Commits Sŏn to two people spending part of every service in the other domain's room, which the white paper's lean leadership count (WP p. 22) may not afford.
 
-**Options for 4.6.11.** (a) A count of repeats at the reset turns a dependency into a structure question under 4.1.33. (b) Either lead may raise it any time at the leads' review. (c) Both. Each commits Sŏn to the record naming the structure, not a person.
+**Options for 4.6.11.** (a) A count of repeats at the reset turns a dependency into a structure question under 4.1.32. (b) Either lead may raise it any time at the leads' review. (c) Both. Each commits Sŏn to the record naming the structure, not a person.
 
 ## 9. Managing through uncertainty
 
-**What the white paper holds.** For the brand and the table: "the response is honesty about what happened, the real impact, and the fix. That is not damage control, it is relationship maintenance" (WP p. 31). The stack is deterministic and nothing load-bearing rides on AI (WP p. 21). Open items are named rather than hidden, because "a settled-looking answer to an open question is the tell of a deck that has not been pressure-tested" (WP p. 22). The white paper does not say what staff are told about a business risk, or when. 4.1.31 decided how a live risk is run (a founder owner, a closing condition, a daily state, no special powers) and left how the wider team hears of it to 2.2.11; 4.1.32 wrote the line's form; 2.2.12's policy carries the crisis rule; 1.2.2 decided what the team hears before and after a decision.
+**What the white paper holds.** For the brand and the table: "the response is honesty about what happened, the real impact, and the fix. That is not damage control, it is relationship maintenance" (WP p. 31). The stack is deterministic and nothing load-bearing rides on AI (WP p. 21). Open items are named rather than hidden, because "a settled-looking answer to an open question is the tell of a deck that has not been pressure-tested" (WP p. 22). The white paper does not say what staff are told about a business risk, or when. 4.1.30 decided how a live risk is run (a founder owner, a closing condition, a daily state, no special powers) and left how the wider team hears of it to 2.2.11; 4.1.31 wrote the line's form; 2.2.12's policy carries the crisis rule; 1.2.2 decided what the team hears before and after a decision.
 
 **From the digest.** The book's three moves: be transparent to a point, reiterate the vision, move forward (Book pp. 350 to 351). Its allowed script, in substance: there is no detailed plan yet, it may take a while, and it is being worked on (Book p. 351). Stripe communicated each Covid decision methodically and kept a daily resource page (Book p. 352). The Hoffman sidebar: name the threat, run a bounded test, get a written answer before reacting further; "we needed to acknowledge that we didn't have all the answers, and we needed to have a plan to start getting them" (Book pp. 352 to 354). The old work's rule for what reaches the floor: a brief line only if it changes what staff do that night, or a written statement to everyone if it affects everyone, in the what-happened, real-impact, fix form; otherwise it stays with leadership, and nothing is said before it is written.
 
@@ -132,17 +132,17 @@ Topics follow the book's order (pp. 331 to 353, exercises pp. 364 to 377). "WP" 
 **Options for 4.6.16.**
 - (a) The old work's threshold: the floor hears a risk only if it changes what someone does on a service, or affects everyone's hours, pay timing, or safety. Commits Sŏn to most risks staying on the live-risk line.
 - (b) A lower threshold: any risk on the line for more than a set number of days is named to the house, in the allowed script, whether or not it changes a service. Commits Sŏn to more statements and to leads fielding questions they cannot answer.
-- (c) The threshold plus a standing line in the house note (4.8.7), "what leadership is working on," so the house is never surprised that risks exist. Commits Sŏn to writing that line honestly every issue.
+- (c) The threshold plus a standing line in the house note (4.8.8), "what leadership is working on," so the house is never surprised that risks exist. Commits Sŏn to writing that line honestly every issue.
 
 ## 10. The chapter's exercises
 
-**Career conversations (Book pp. 364 to 367).** The white paper makes the path explicit and self-paced and calls the system the advocate (WP p. 11); reviews focus on the path forward (WP p. 19); "how people grow beyond the building" is the longest culture measure (WP p. 23). It never puts a person's life history in any conversation, and the check-in (2.3.9) refuses a verdict and a pay conversation but says nothing about a career conversation. The book's version asks about childhood, schooling, and family choices; a general policy against asking about origins or family (a counsel question named in 4.7) cuts against parts of it. Options for 4.6.17: (a) run it as the book has it, voluntary, for leads first; (b) a shortened form that starts at the person's first job, not childhood; (c) not at all, with the ninety-day plan's check-ins (3.3.11) and development goals (2.2.14) carrying the forward-looking half. Each commits Sŏn to the conversation being the person's, nothing written without their agreement.
+**Career conversations (Book pp. 364 to 367).** The white paper makes the path explicit and self-paced and calls the system the advocate (WP p. 11); reviews focus on the path forward (WP p. 19); "how people grow beyond the building" is the longest culture measure (WP p. 23). It never puts a person's life history in any conversation, and the check-in (2.3.9) refuses a verdict and a pay conversation but says nothing about a career conversation. The book's version asks about childhood, schooling, and family choices; a general policy against asking about origins or family (a counsel question named in 4.7) cuts against parts of it. Options for 4.4.3: (a) run it as the book has it, voluntary, for leads first; (b) a shortened form that starts at the person's first job, not childhood; (c) not at all, with the ninety-day plan's check-ins (3.3.11) and development goals (2.2.14) carrying the forward-looking half. Each commits Sŏn to the conversation being the person's, nothing written without their agreement.
 
-**Offsite planning (Book pp. 367 to 370).** Served by 4.5.4 and 4.5.21 for the leadership block; this chunk turns the checklist into a kit (4.6.24).
+**Offsite planning (Book pp. 367 to 370).** Served by 4.5.4 and 4.5.21 for the leadership block; this chunk turns the checklist into a kit (4.6.21).
 
-**Leadership snippets (Book pp. 370 to 372).** The lead's weekly note (2.2.33) is Sŏn's version for leads; whether every person writes a weekly line is 4.8.7's.
+**Leadership snippets (Book pp. 370 to 372).** The lead's weekly note (2.3.19) is Sŏn's version for leads; whether every person writes a weekly line is 4.8.8's.
 
-**The unblocking process (Book pp. 372 to 377).** Served by 2.2.3, 4.1.35, 4.5.10, and 4.5.18. Nothing remains here except 4.6.14's distinction between a disagreement about a decision and two people who cannot work a service together.
+**The unblocking process (Book pp. 372 to 377).** Served by 2.2.3, 4.1.34, 4.5.10, and 4.5.18. Nothing remains here except 4.6.14's distinction between a disagreement about a decision and two people who cannot work a service together.
 
 ## 11. Where Sŏn diverges from the book, in one place
 

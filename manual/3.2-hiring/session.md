@@ -6,9 +6,9 @@ How to run the session on this chunk. The decisions are in `tasks.md`; the reaso
 
 **What this chunk covers.** Everything between a candidate applying and a person accepting an offer: what an interview reads, the stages by seat class, who interviews and how they are trained, what a scorecard holds, who decides and how fast, the paid practical, references, the offer, the two lead seats and the chef seat, hiring from inside, and the read that keeps interviewers consistent. It does not cover the pipeline, the seat description, or the applicant system (3.1), onboarding and the ninety-day plan (3.3), or what happens when a hire does not work out (3.4).
 
-**What is already decided upstream.** Read before the session: 2.1 `decisions.md` (the principles, if version one exists; the chef seat's standing, 2.1.10; the partners' deadlock rule, 2.1.13), 2.2 `decisions.md` (the decision-rights rule beneath the partners, 2.2.2; the readiness test, 2.2.37 to 2.2.39), 2.3 `decisions.md` (the leads' review, the check-in, the person page), 4.1 `decisions.md` (the leadership-line list, levels, what a lead enters at, the salaried test, who scores an advancement assessment, the seat inventory), and 3.1's task list for what the seat description and applicant system settle. Where those are not yet decided, the brief says so; the decision here can still be made and marked as depending on them.
+**What is already decided upstream.** Read before the session: 2.1 `decisions.md` (the principles, if version one exists; the chef seat's standing, 2.1.10; the partners' deadlock rule, 2.1.13), 2.2 `decisions.md` (the decision-rights rule beneath the partners, 2.2.2; the readiness test, 2.2.35 to 2.2.38), 2.3 `decisions.md` (the leads' review, the check-in, the person page), 4.1 `decisions.md` (the leadership-line list, levels, what a lead enters at, the salaried test, who scores an advancement assessment, the seat inventory), and 3.1's task list for what the seat description and applicant system settle. Where those are not yet decided, the brief says so; the decision here can still be made and marked as depending on them.
 
-**Who else must agree.** Dominic on anything that binds both founders: how they decide a lead hire when they split (3.2.11), the compensation order (3.2.18), negotiation for the lead seats (3.2.20), the chef seat's process (3.2.33). The chef partner, once seated, on the kitchen's kit, rows, and stages; until then the kitchen entries are marked waiting. Counsel on the paid practical's status, the decline wording, reference questions, and the written offer (0.1).
+**Who else must agree.** Dominic on anything that binds both founders: how they decide a lead hire when they split (3.2.10), the compensation order (3.2.17), negotiation for the lead seats (3.2.19), the chef seat's process (3.2.31). The chef partner, once seated, on the kitchen's kit, rows, and stages; until then the kitchen entries are marked waiting. Counsel on the paid practical's status, the decline wording, reference questions, and the written offer (0.1).
 
 **Why it sits here.** The book puts hiring after recruiting and before onboarding. At Sŏn the first hires are the two leads, and everything a lead candidate meets (the reads, the stages, the sheet, the offer rule) has to exist before their first interview, which is why most of this chunk is phased before the first hire even though the cohort's practicals come later.
 
@@ -16,24 +16,24 @@ How to run the session on this chunk. The decisions are in `tasks.md`; the reaso
 
 A default order; start wherever he wants.
 
-1. **What an interview reads, and what it may not** (3.2.2, 3.2.3, 3.2.12). The spine everything else hangs on.
-2. **The loop by seat class** (3.2.4, 3.2.5, 3.2.6). Who a candidate meets, the dinner, the founders' place.
-3. **The decision** (3.2.7, 3.2.8, 3.2.9, 3.2.10, 3.2.22). Who decides on what, the veto, the scorecard, dissent, the decline.
-4. **Interviewer training** (3.2.13, 3.2.14, 3.2.15). How two untrained people become trained, and the language gap.
-5. **The paid practical** (3.2.36, 3.2.37, 3.2.38).
-6. **References** (3.2.16, 3.2.17).
-7. **The offer** (3.2.18, 3.2.19, 3.2.20, 3.2.21). Includes the compensation-order decision, which belongs to both founders.
-8. **The lead seats and the chef seat** (3.2.11, 3.2.23, 3.2.33).
-9. **Inside hires and the calibration read** (3.2.44, 3.2.45, 3.2.41, 3.2.42).
-10. **Close**: deliverables unlocked, kits seeded, the calendar (3.2.34), parking lot.
+1. **What an interview reads, and what it may not** (3.2.2, 3.2.3, 3.2.11). The spine everything else hangs on.
+2. **The loop by seat class** (3.2.4, 3.2.5). Who a candidate meets, the dinner. The founders' place is 3.1.3's since the cross-chunk pass.
+3. **The decision** (3.2.6, 3.2.7, 3.2.8, 3.2.9, 3.2.21). Who decides on what, the veto, the scorecard, dissent, the decline.
+4. **Interviewer training** (3.2.12, 3.2.13, 3.2.14). How two untrained people become trained, and the language gap.
+5. **The paid practical** (3.2.34, 3.2.35, 3.2.36).
+6. **References** (3.2.15, 3.2.16).
+7. **The offer** (3.2.17, 3.2.18, 3.2.19, 3.2.20). Includes the compensation-order decision, which belongs to both founders.
+8. **The lead seats and the chef seat** (3.2.10, 3.2.22, 3.2.31).
+9. **Inside hires and the calibration read** (3.2.42, 3.2.43, 3.2.39, 3.2.40).
+10. **Close**: deliverables unlocked, kits seeded, the calendar (3.2.32), parking lot.
 
 ## 3. Briefs
 
-### 3.2.2 Decide what every interview reads
+### 3.2.2 Confirm the reads list as the interview's rubric, and mark which are scored on the candidate and which recorded about the building
 
 **The question:** what are the named things an interview at Sŏn is trying to learn about a person, and is "what the building must supply for this person" one of them?
 
-**Why it matters now:** every scorecard field (3.2.9), every question in the kit (3.2.27), the practical's rows (3.2.39), and the review process in 5.4 inherit this list. The white paper already names three reads and a fourth question; if the list changes later, every instrument changes with it.
+**Why it matters now:** every scorecard field (3.2.8), every question in the kit (3.2.26), the practical's rows (3.2.37), and the review process in 5.4 inherit this list. The white paper already names three reads and a fourth question; if the list changes later, every instrument changes with it.
 
 **Openers:**
 - A server candidate has just left the room after a first interview. You have five minutes to write down what you learned. What are the headings on that page, before you know what they said?
@@ -61,11 +61,13 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else; Dominic should see it since 5.4 will inherit it.
 
+Narrowed in the cross-chunk pass to an action: what every hire is read on is 3.1.5's decision; this task confirms or amends that list as the interview's rubric and marks which reads are scored on the candidate and which are recorded about the building.
+
 ### 3.2.3 Decide how a candidate's outside experience counts
 
 **The question:** may a seat description ask for years or credentials, and may an interviewer count experience for or against a candidate?
 
-**Why it matters now:** the anchors (3.2.27) are written differently if experience is evidence than if it is neutral, and the seat descriptions in 3.1 need the rule before the first posting.
+**Why it matters now:** the anchors (3.2.26) are written differently if experience is evidence than if it is neutral, and the seat descriptions in 3.1 need the rule before the first posting.
 
 **Openers:**
 - Two candidates for the same floor seat: one has three years in a fine-dining room, one has run a busy family shop and never worked a restaurant. What do you want the interviewer to be able to conclude from that fact alone?
@@ -95,7 +97,7 @@ A default order; start wherever he wants.
 
 **The question:** who does a candidate for each kind of seat meet, in what order, for how long, and what is the smallest packet a decision may rest on?
 
-**Why it matters now:** the stage notes (3.2.30), the scorecard set (3.2.28), the calendar (3.2.34), and the founders' hours all follow from this table. The lead candidates go through it first.
+**Why it matters now:** the stage notes (3.2.26), the scorecard set (3.2.27), the calendar (3.2.32), and the founders' hours all follow from this table. The lead candidates go through it first.
 
 **Openers:**
 - Walk a line cook candidate from application to answer, out loud, naming each person they meet by seat. Now do a Maitre d candidate. Where do the two paths part?
@@ -126,7 +128,7 @@ A default order; start wherever he wants.
 
 **The question:** is the dinner an evaluation with a scorecard, a recruitment conversation, or both, and what does an evaluation of a person eating dinner actually read?
 
-**Why it matters now:** the two lead candidates will sit this dinner before Sŏn has a room; what it is for has to be told to them beforehand (3.2.30), and if it is scored it needs a form (3.2.28).
+**Why it matters now:** the two lead candidates will sit this dinner before Sŏn has a room; what it is for has to be told to them beforehand (3.2.26), and if it is scored it needs a form (3.2.27).
 
 **Openers:**
 - Picture the dinner with the Maitre d candidate. Halfway through, what have you noticed that you could not have learned in the interview? Say it out loud. Is it something you would write on a scorecard?
@@ -152,42 +154,11 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic, since he sits at it.
 
-### 3.2.6 Decide the founders' place in every hiring loop before opening, and when it ends
-
-**The question:** does a founder meet every candidate before opening, what does that stage read, and what condition ends it for entry-level seats?
-
-**Why it matters now:** it is hours on the founders' calendar for the whole cohort, and it is the only outside-domain check on an entry-level packet until 3.2.42 answers what replaces it.
-
-**Openers:**
-- It is the cohort hiring month. There are forty candidates past the first interview. How many of them do you personally want to meet, and what would you be looking for in fifteen minutes that the domain lead missed in sixty?
-- Sideways: the white paper's proudest line about the founders is that the company is built to run without them (WP p. 6). What is the first hire you want the leads to make without you in the room, and why that one?
-- The book says a founder's job is to model the hard "no" on a candidate who is just fine (p. 171). Can you say no to a candidate without naming a read? Should you be allowed to?
-
-**Narrowing questions:**
-- Every candidate, every finalist, or none? Which seat classes?
-- A full interview or a narrow check (the conduct standard and the building-side question only)?
-- Must a founder's "no" name a read, like everyone else's?
-- What ends it: a date, a headcount, a number of clean calibration reads, dinner's gate, never?
-
-**What the book says:** below roughly 100 employees per founder, founders should interview every finalist and be transparent about their no-hire calls so the behavior can be taught (p. 171); Stripe's executives met every candidate until the process was codified, then stepped back (pp. 198 to 199).
-
-**White-paper default:** a company built to run without the founders (WP p. 6). Silent on the founder's place in hiring.
-
-**How others have handled it:** General practice, not Sŏn-specific. Founder interviews of every hire are common in companies under a hundred people and are usually dropped by headcount rather than by any test of the process; the book's Google example is founders reviewing every packet, then delegating (pp. 198 to 199).
-
-**Options:** cons. 4: (a) a short founder stage on every candidate reading only the conduct standard and the building-side question, with a named end condition; (b) the book's full finalist interview until a headcount; (c) no founder stage from the first cohort.
-
-**Watch for:** a founder stage that becomes the real decision, with the lead's packet as advice; an end condition that is really "when I feel like it."
-
-**A finished answer:** which candidates, what the stage reads, whether a founder's no must name a read, and the end condition, in two sentences.
-
-**Needs agreement from:** Dominic, since it is his hours too.
-
-### 3.2.7 Decide who makes the hire decision, on what, and how fast
+### 3.2.6 Decide who makes the hire decision, on what, and how fast
 
 **The question:** for each seat class, who says yes or no, what do they say it on, and by when?
 
-**Why it matters now:** the book's first rule of hiring at any scale is to settle this before interviewing (p. 198). The applicant system (3.1) has to be configured to it, and the decision-rights register (3.2.35) records it.
+**Why it matters now:** the book's first rule of hiring at any scale is to settle this before interviewing (p. 198). The applicant system (3.1) has to be configured to it, and the decision-rights register (3.2.33) records it.
 
 **Openers:**
 - The packet for a server candidate completes at 4 p.m. on a Tuesday. Who opens it, what do they see first, and when does the candidate hear? Say the whole chain.
@@ -198,7 +169,7 @@ A default order; start wherever he wants.
 - The domain lead alone, the lead plus a named second reader, or a small group?
 - On what: a complete packet of independently submitted scorecards, or a discussion?
 - What is the deadline from packet completion to decision, and from decision to the candidate's answer? Is "same day" a rule or an aim?
-- Is there any approval above the decider? If not, what stops a hire made against every scorecard (3.2.41)?
+- Is there any approval above the decider? If not, what stops a hire made against every scorecard (3.2.39)?
 - What is a packet "incomplete by content" (a stage that marked every read not assessed), and is the remedy a re-run or a send-back?
 
 **What the book says:** a consultative process, run consistently, with the hiring manager as primary decider because they are accountable for the team's results, plus checks and balances such as a committee or executive review (p. 198); a hiring committee or candidate review to finalize; anyone on a committee may veto (pp. 203 to 204); the steward guards the candidate experience, listens to interviewers, brings the organization along, and decides for the company (pp. 204 to 205).
@@ -215,11 +186,11 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic for the lead and chef seats.
 
-### 3.2.8 Decide who may end a candidacy outright, and on what grounds
+### 3.2.7 Decide who may end a candidacy outright, and on what grounds
 
 **The question:** what finding ends a candidacy regardless of everything else, who may raise it, and can anyone override it?
 
-**Why it matters now:** the scorecard needs the flag (3.2.9), the training has to teach it (3.2.24), and the answer to "can anyone stop a hire the lead wants" shapes trust in the whole loop.
+**Why it matters now:** the scorecard needs the flag (3.2.8), the training has to teach it (3.2.23), and the answer to "can anyone stop a hire the lead wants" shapes trust in the whole loop.
 
 **Openers:**
 - An assessor watching a practical sees the candidate speak to the steward in a way that would be a conduct problem on day one. The rest of the practical was excellent. What happens next, and who decides?
@@ -231,7 +202,7 @@ A default order; start wherever he wants.
 - Who may raise it: any interviewer with evidence, the decider, a founder?
 - What evidence must it carry (who, when, the act)?
 - Can a founder override it? Can the candidate answer it?
-- Is competence disagreement ever a veto, or always dissent (3.2.10)?
+- Is competence disagreement ever a veto, or always dissent (3.2.9)?
 
 **What the book says:** anyone on a hiring committee can veto, extremely rare but important (pp. 203 to 204); a bar raiser can single-handedly veto (pp. 197 to 198).
 
@@ -247,7 +218,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic, since it binds the founders too.
 
-### 3.2.9 Decide what a scorecard holds and what it refuses
+### 3.2.8 Decide what a scorecard holds and what it refuses
 
 **The question:** what fields does an interviewer fill in, what values may each hold, what is refused, and does an interviewer ever see another's card before submitting?
 
@@ -280,7 +251,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else; Dominic should see it since the tool is his domain.
 
-### 3.2.10 Decide how a disagreement between an interviewer and the decider is carried
+### 3.2.9 Decide how a disagreement between an interviewer and the decider is carried
 
 **The question:** when the decider goes against a submitted scorecard, what is written, who is told, and can it be appealed?
 
@@ -295,7 +266,7 @@ A default order; start wherever he wants.
 - A written dissent line (the read, the interviewer's evidence, the evidence read as outweighing it)? A conversation? A second decider?
 - Is the overridden interviewer told the same day? By the system or in person?
 - Is there an appeal? If not, is the preserved scorecard the appeal?
-- Are repeated overrides of one interviewer, or by one decider, read anywhere (3.2.41), and in what order (anchors first, interviewer second, decider third)?
+- Are repeated overrides of one interviewer, or by one decider, read anywhere (3.2.39), and in what order (anchors first, interviewer second, decider third)?
 
 **What the book says:** when a leader and the organization disagree, do more homework, then decide, explain, and ask for commitment; where a committee gets it wrong it usually had inexperienced participants (pp. 215 to 216).
 
@@ -311,7 +282,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.11 Decide how the two founders decide a lead-seat hire when they disagree
+### 3.2.10 Decide how the two founders decide a lead-seat hire when they disagree
 
 **The question:** when Brandon's and Dominic's scorecards on a lead candidate disagree, who decides, and how?
 
@@ -341,11 +312,11 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic.
 
-### 3.2.12 Decide whether the interview questions are public, and how far an interviewer may depart from them
+### 3.2.11 Decide whether the interview questions are public, and how far an interviewer may depart from them
 
 **The question:** can a candidate see the questions before the interview, and what may an interviewer add, skip, or reword?
 
-**Why it matters now:** the seat description (3.1) either carries the questions or does not, and the training (3.2.24) teaches whichever rule is chosen.
+**Why it matters now:** the seat description (3.1) either carries the questions or does not, and the training (3.2.23) teaches whichever rule is chosen.
 
 **Openers:**
 - A candidate arrives having rehearsed answers to every published question. Is that a problem, or exactly the person who read the seat description?
@@ -372,11 +343,11 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.13 Decide how the founders become trained interviewers before a training platform exists
+### 3.2.12 Decide how the founders become trained interviewers before a training platform exists
 
 **The question:** the white paper requires trained interviewers and a platform that does not exist yet; how do the first two interviewers get trained, and what is the record of it?
 
-**Why it matters now:** the lead candidates' first interviews cannot honestly run under the white paper's own rule until this is answered, and the readiness test (3.2.47) will check for a dated record.
+**Why it matters now:** the lead candidates' first interviews cannot honestly run under the white paper's own rule until this is answered, and the readiness test (3.2.45) will check for a dated record.
 
 **Openers:**
 - Say the first three things you would want a new interviewer at Sŏn to unlearn from how the industry interviews. Now: who teaches you those?
@@ -403,11 +374,13 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic.
 
-### 3.2.14 Decide what makes an interviewer trained, what sends them back, and whether Sŏn has a selected interviewer class
+Also covers what "Decide how the founders become trained interviewers before the learning platform exists" asked (from 3.1).
+
+### 3.2.13 Decide what makes an interviewer trained, what sends them back, and whether Sŏn has a selected interviewer class
 
 **The question:** what sequence certifies an interviewer, what triggers re-training, and does every trained person interview or a chosen few?
 
-**Why it matters now:** the module set (3.2.24) is written to the sequence, the readiness test checks the record, and the class question decides whether Sŏn builds the book's Bar Raiser.
+**Why it matters now:** the module set (3.2.23) is written to the sequence, the readiness test checks the record, and the class question decides whether Sŏn builds the book's Bar Raiser.
 
 **Openers:**
 - A trained server has run four first interviews. Their last scorecard came back with "would fit in" and no read named on the decline. What happens, and does it feel like a punishment to them?
@@ -434,7 +407,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.15 Decide how an interview is run in a language neither founder speaks
+### 3.2.14 Decide how an interview is run in a language neither founder speaks
 
 **The question:** the white paper promises a candidate can interview in their language; what happens before a trained speaker of it exists?
 
@@ -464,7 +437,9 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.16 Decide which seats get reference calls and who makes them
+Also covers what "Decide how the interview-language promise is kept before anyone at Sŏn speaks the candidate's language" asked (from 3.1).
+
+### 3.2.15 Decide which seats get reference calls and who makes them
 
 **The question:** does Sŏn call references, for which seats, how many, by whom, and with what consent?
 
@@ -495,11 +470,11 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic for the lead seats' calls.
 
-### 3.2.17 Decide how a reference is weighed, and whether a decline may rest on one
+### 3.2.16 Decide how a reference is weighed, and whether a decline may rest on one
 
 **The question:** does a lukewarm reference end a candidacy, and can a candidate be declined on something they never experienced?
 
-**Why it matters now:** the reference note's form (3.2.29) and the decline wording (3.2.22) follow from it.
+**Why it matters now:** the reference note's form (3.2.28) and the decline wording (3.2.21) follow from it.
 
 **Openers:**
 - The Operations Lead candidate's current employer, reached with consent, is polite and says little. What do you now know?
@@ -525,7 +500,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.18 Decide the order of the compensation architecture against the leads' first interviews
+### 3.2.17 Decide the order of the compensation architecture against the leads' first interviews
 
 **The question:** the transparency sheet with pay mechanics is handed at the first interview, and 5.5 has not run; which gives?
 
@@ -539,7 +514,7 @@ A default order; start wherever he wants.
 **Narrowing questions:**
 - 5.5 first, before any lead interview? Interviews against a "being finalized" line with no offer until filled? An interim answer for the two lead seats that 5.5 later generalizes?
 - What does "salaried" mean for a lead (4.1.9), and does the answer need it?
-- What does each option do to the calendar (3.2.34)?
+- What does each option do to the calendar (3.2.32)?
 
 **What the book says:** put a basic level structure in place early, even before it is cemented, because compensation follows from it (p. 198); nothing in the written offer should be a surprise (p. 208); discuss compensation expectations early in the conversation (pp. 208 to 209).
 
@@ -555,7 +530,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic.
 
-### 3.2.19 Decide who extends the offer
+### 3.2.18 Decide who extends the offer
 
 **The question:** who says the offer out loud to a candidate, for each seat class?
 
@@ -584,7 +559,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.20 Decide whether any offer term is negotiable, and who holds the lead seats' pay conversation
+### 3.2.19 Decide whether any offer term is negotiable, and who holds the lead seats' pay conversation
 
 **The question:** may pay within a seat move for one person, may anything else, and is the rule the same for the two lead seats?
 
@@ -614,7 +589,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic.
 
-### 3.2.21 Decide the offer window, and the answer to a candidate who cleared the bar after the seat filled
+### 3.2.20 Decide the offer window, and the answer to a candidate who cleared the bar after the seat filled
 
 **The question:** how long does an offer stand, does it extend, and what does the house say to someone who met the bar for a seat that filled?
 
@@ -644,11 +619,11 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.22 Decide what a declined candidate is told, and by whom
+### 3.2.21 Decide what a declined candidate is told, and by whom
 
 **The question:** does a decline name the read the candidate did not meet, how specific is it, and who sends it?
 
-**Why it matters now:** the white paper promises a clear answer including the no; the scorecard (3.2.9) is written to make that answer possible or not; counsel has a view.
+**Why it matters now:** the white paper promises a clear answer including the no; the scorecard (3.2.8) is written to make that answer possible or not; counsel has a view.
 
 **Openers:**
 - Write the decline for a server candidate who was declined on the competency read, out loud, in two sentences. Would you send it?
@@ -675,7 +650,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** counsel on wording.
 
-### 3.2.23 Decide what of the book's leadership loop Sŏn runs for the two lead seats
+### 3.2.22 Decide what of the book's leadership loop Sŏn runs for the two lead seats
 
 **The question:** the book's leadership loop assumes an organization to bring along; before opening there is none. What does Sŏn run for the Maitre d and the Operations Lead?
 
@@ -690,7 +665,7 @@ A default order; start wherever he wants.
 - Both founders interview every lead candidate; the first-hired lead sits on the second's loop; the dinner is the final stage?
 - What stands in for stakeholders: no one, an outside adviser, the other lead?
 - Confidentiality against the public build: what may be shown, and when? How and with whose consent is a filled seat announced?
-- Which of the book's five steps are dropped, and which return for later lead hires after opening (3.2.45)?
+- Which of the book's five steps are dropped, and which return for later lead hires after opening (3.2.43)?
 - The experience trap: applied in full to these candidates?
 
 **What the book says:** leadership hiring differs in transparency and decision-making; run it as change management: two people excited first, stakeholders identified, a briefed loop, a feedback-collection forum, an announcement that explains the fit; candidate confidentiality strictly honored (pp. 209 to 213); experienced candidates are practiced interviewees (p. 215).
@@ -707,7 +682,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic.
 
-### 3.2.27 Write the interview kit and anchors (deliverable needing Brandon's input)
+### 3.2.26 Write the interview kit and anchors, with the candidate stage notes and interviewer prep notes: the lead seats first, then each seat class before its first posting (deliverable needing Brandon's input)
 
 **What Brandon supplies:** the lead-seat block's questions in his words (holding a domain with no one above or below; reading a problem as a systems question first; what they would refuse to do), the first anchor for each read at the "meets" level, and the presence-language lexicon the scan looks for. The founders write the lead seats' kit themselves; every later kit follows the process.
 
@@ -715,19 +690,21 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** the chef partner for the kitchen's kit, later.
 
-### 3.2.33 Write the chef seat's process for whichever branch 2.1.10 lands (action needing both founders)
+Also covers what "Write the candidate stage notes and interviewer prep notes" asked (from 3.2).
 
-**What Brandon supplies:** under either branch, how the founders will judge depth of culinary knowledge (the module in 3.2.24 has to exist before a conversation), what confidentiality the search is owed against the public build, and, under the hire branch, the rows a cooking practical is scored on. If 2.1.10 has not landed, record what each branch would need and mark the task waiting.
+### 3.2.31 Write the chef seat's process for whichever branch 2.1.10 lands (action needing both founders)
+
+**What Brandon supplies:** under either branch, how the founders will judge depth of culinary knowledge (the module in 3.2.23 has to exist before a conversation), what confidentiality the search is owed against the public build, and, under the hire branch, the rows a cooking practical is scored on. If 2.1.10 has not landed, record what each branch would need and mark the task waiting.
 
 **Needs agreement from:** Dominic; under the partnership branch, the process is a negotiation and the candidate is a party to it.
 
-### 3.2.34 Build the hiring calendar as gates (deliverable needing Brandon's input)
+### 3.2.32 Build the hiring calendar as gates (deliverable needing Brandon's input)
 
-**What Brandon supplies:** the order of the gates, the founders' interview hours as blocked time, and which gates currently read "not yet." The calendar is built from 3.2.18, 2.1.10, and 2.3.13; the session should end with the chain written out even if every date is blank.
+**What Brandon supplies:** the order of the gates, the founders' interview hours as blocked time, and which gates currently read "not yet." The calendar is built from 3.2.17, 2.1.10, and 2.3.13; the session should end with the chain written out even if every date is blank.
 
 **Needs agreement from:** Dominic on the compensation gate; the chef partner's seat is the first link.
 
-### 3.2.36 Decide the paid practical's shape, and what it may never conclude
+### 3.2.34 Decide the paid practical's shape, and what it may never conclude
 
 **The question:** is the practical a scored block or a shift, what does it read, and what is the candidate owed?
 
@@ -759,7 +736,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** the chef partner for the kitchen's version; counsel on status.
 
-### 3.2.37 Decide who assesses the practical, and that they neither teach it nor decide the hire
+### 3.2.35 Decide who assesses the practical, and that they neither teach it nor decide the hire
 
 **The question:** who holds the scoring form during a practical, and are they the same person teaching, or deciding?
 
@@ -790,7 +767,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** the chef partner for the kitchen.
 
-### 3.2.38 Decide whether a practical may run with an outside observer present
+### 3.2.36 Decide whether a practical may run with an outside observer present
 
 **The question:** creators get a seat at training days (WP p. 31); may a candidate's practical run while one is there?
 
@@ -818,7 +795,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.39 Write the practical's scoring rows and candidate note (deliverable needing Brandon's input)
+### 3.2.37 Write the practical's scoring rows and candidate note (deliverable needing Brandon's input)
 
 **What Brandon supplies:** the floor's entry-level procedures per seat (from the seat descriptions in 3.1), the wording of the two universal rows and the conduct rows, and the debrief question. The kitchen's rows wait on the chef seat.
 
@@ -826,7 +803,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** the chef partner for the kitchen.
 
-### 3.2.41 Decide the calibration read: whether it runs, who runs it, what it reads, and what it may produce
+### 3.2.39 Decide the calibration read: whether it runs, who runs it, what it reads, and what it may produce
 
 **The question:** is there a standing read of completed packets that keeps interviewers consistent, and what may it do?
 
@@ -841,7 +818,7 @@ A default order; start wherever he wants.
 - Monthly, or per N packets? One named owner, or read at the leads' review?
 - What it scans for: presence language, unasked questions, misfiled evidence, off-description decline reasons, per-interviewer leniency or strictness as a pattern, hires against a "does not meet," declines contradicting every scorecard, whether any stage or source declines one kind of candidate at a different rate?
 - What it produces: an anonymized record and a per-interviewer note? What it refuses: a candidate's name, a reopened decision, a numeric target, a verdict on an interviewer?
-- How many consecutive periods must it have run on real packets before dinner's gate (3.2.47)?
+- How many consecutive periods must it have run on real packets before dinner's gate (3.2.45)?
 - The outcome-side read (a hire against their packet at ninety days, and on any first-year departure) goes to 3.4; does this read's record exist in a form 3.4 can use?
 
 **What the book says:** Elevate selected interviewers by reading their history against outcomes (p. 197); candidate review's mission is a consistent, efficient, transparent framework that controls for bias, with scorecards verified and feedback looped to interviewers (pp. 204 to 207, 250 to 252).
@@ -858,7 +835,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else.
 
-### 3.2.42 Decide the outside-domain check on entry-level packets after the founder stage ends
+### 3.2.40 Decide the outside-domain check on entry-level packets after the founder stage ends
 
 **The question:** once a founder no longer meets every candidate, what read from outside the domain, if any, sits on an entry-level packet?
 
@@ -887,7 +864,9 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** Dominic if a founder stays in.
 
-### 3.2.44 Decide how an internal candidate is hired, and what those not chosen are owed
+Also covers what "Decide what replaces the founders' read on frontline hires once it retires" asked (from 3.1).
+
+### 3.2.42 Decide how an internal candidate is hired, and what those not chosen are owed
 
 **The question:** when a seat opens and the ready-now pool holds someone, what do they run, is the seat also posted outside, and what do those not chosen receive?
 
@@ -919,7 +898,7 @@ A default order; start wherever he wants.
 
 **Needs agreement from:** no one else; depends on 4.1.11.
 
-### 3.2.45 Decide whether a domain's own team members ever interview for their lead's seat
+### 3.2.43 Decide whether a domain's own team members ever interview for their lead's seat
 
 **The question:** after opening, when a lead seat is filled, does anyone from that lead's own domain sit as an interviewer?
 
@@ -951,24 +930,23 @@ A default order; start wherever he wants.
 
 Once the decisions above are made, these can be drafted from what Brandon said. Drafts are marked draft for his review.
 
-- **Interviewer training modules and interim record (3.2.24).** Not repeatable as such; migrates to the learning platform in 3.3.
-- **Interview kit and anchors (3.2.27).** Repeatable: each domain lead writes their seats' kit; the chef partner writes the kitchen's. Paired kit task 3.2.31.
-- **Scorecard set and packet (3.2.28).** Configured in the applicant system; Dominic's domain to build, Brandon's to specify.
-- **Reference note and question set (3.2.29).** Counsel reads before use.
-- **Candidate stage notes and interviewer prep notes (3.2.30).** Repeatable: each lead adapts for their stages. Paired kit task 3.2.31.
-- **Offer conversation and written offer (3.2.32).** Counsel sets the legal terms; waits on 5.5 for the pay line.
-- **Chef seat's process (3.2.33).** Waits on 2.1.10; both branches drafted.
-- **Hiring calendar as gates (3.2.34).** Built the same session if possible, dates blank.
-- **Decision-rights entries (3.2.35).** Filled from the decisions above, incomplete entries marked incomplete.
-- **Practical rows and candidate note (3.2.39).** Repeatable: each lead writes their seats' rows. Paired kit task 3.2.40.
-- **Calibration record, interviewer note, dissent line (3.2.43).**
-- **Internal-loop record (3.2.46).**
-- **Readiness rows (3.2.47).** Added to 2.2.39.
+- **Interviewer training modules and interim record (3.2.23).** Not repeatable as such; migrates to the learning platform in 3.3.
+- **Interview kit and anchors, with the candidate stage notes and interviewer prep notes (3.2.26).** Repeatable: each domain lead writes their seats' kit and notes; the chef partner writes the kitchen's. Paired kit task 3.2.29.
+- **Scorecard set and packet (3.2.27).** Configured in the applicant system; Dominic's domain to build, Brandon's to specify.
+- **Reference note and question set (3.2.28).** Counsel reads before use.
+- **Offer conversation and written offer (3.2.30).** Counsel sets the legal terms; waits on 5.5 for the pay line.
+- **Chef seat's process (3.2.31).** Waits on 2.1.10; both branches drafted.
+- **Hiring calendar as gates (3.2.32).** Built the same session if possible, dates blank.
+- **Decision-rights entries (3.2.33).** Filled from the decisions above, incomplete entries marked incomplete.
+- **Practical rows and candidate note (3.2.37).** Repeatable: each lead writes their seats' rows. Paired kit task 3.2.38.
+- **Calibration record, interviewer note, dissent line (3.2.41).**
+- **Internal-loop record (3.2.44).**
+- **Readiness rows (3.2.45).** Added to 2.2.38.
 
 ## 5. Kits this session seeds
 
-- **Interview kit (`kits/interview-kit/`, task 3.2.31).** Built from writing the lead seats' kit with the founders. Intake: what a lead answers about a seat before drafting (the reads, the entry bar, what the seat hands off and receives, the stage table for its class). Guide: drafting questions per read, writing three-level anchors for capacity rather than experience, the presence-language scan, scripting probes, writing the stage and prep notes, versioning. Template: the kit's structure including the stage note and prep note. Example only if the founders agree a lead-seat kit can serve. Capture during the session: which questions drew real answers in practice runs, the order that worked, where an anchor resisted being written without a presence word.
-- **Paid practical kit (`kits/paid-practical/`, task 3.2.40).** Built from writing the floor's first rows. Intake: the seat's entry procedures, the service it can run in, who teaches and who assesses. Guide: deriving rows from the seat description, briefing the assessor and teacher, staffing the block, running the debrief, reading a result aloud row by row. Template: rows, candidate note, assessor form. Example only with agreement. Capture: the staffing needed for one block, the briefing that worked, what the debrief question drew.
+- **Interview kit (`kits/interview-kit/`, task 3.2.29).** Built from writing the lead seats' kit with the founders. Intake: what a lead answers about a seat before drafting (the reads, the entry bar, what the seat hands off and receives, the stage table for its class). Guide: drafting questions per read, writing three-level anchors for capacity rather than experience, the presence-language scan, scripting probes, writing the stage and prep notes, versioning. Template: the kit's structure including the stage note and prep note. Example only if the founders agree a lead-seat kit can serve. Capture during the session: which questions drew real answers in practice runs, the order that worked, where an anchor resisted being written without a presence word.
+- **Paid practical kit (`kits/paid-practical/`, task 3.2.38).** Built from writing the floor's first rows. Intake: the seat's entry procedures, the service it can run in, who teaches and who assesses. Guide: deriving rows from the seat description, briefing the assessor and teacher, staffing the block, running the debrief, reading a result aloud row by row. Template: rows, candidate note, assessor form. Example only with agreement. Capture: the staffing needed for one block, the briefing that worked, what the debrief question drew.
 
 Kits hold process and structure, never a person's answers, and never a real seat's anchors.
 
@@ -976,7 +954,7 @@ Kits hold process and structure, never a person's answers, and never a real seat
 
 Questions that belong to other chunks, by number. Add a line to that chunk's `notes/inbox.md` when raised.
 
-- **3.1:** whether the phone screen exists and what it may read; the seat description's fields, including whether it carries the interview questions (3.2.12) and an experience line (3.2.3); the applicant system's choice and what it can refuse; referrals (a referrer never runs a stage for the person they referred).
+- **3.1:** whether the phone screen exists and what it may read; the seat description's fields, including whether it carries the interview questions (3.2.11) and an experience line (3.2.3); the applicant system's choice and what it can refuse; referrals (a referrer never runs a stage for the person they referred).
 - **3.3:** the first-solo readiness form reusing the practical's rows and the four-week load read (old item 86akhb2rd); the training-before-service sequence for dish knowledge once the menu exists (old item 86akhb2nt, with 2.3.29); the mentor named in the offer; migrating the interviewer modules to the platform.
 - **3.4:** the ninety-day read of a hire against their packet and the re-read on any first-year departure or seat change (old items 17tn048qfne, 17tn048qfnu); what a hire that does not work out feeds back into the kit and the calibration record.
 - **4.1:** levels (4.1.7), what a lead enters at (4.1.8), the salaried test (4.1.9), who scores an advancement assessment including across domains (4.1.11; old item 86akhb2ja), the assessor and mentor pools on the inventory (4.1.14); whether the runner and host seats have a domain-lead owner placed.
@@ -987,5 +965,5 @@ Questions that belong to other chunks, by number. Add a line to that chunk's `no
 - **5.5:** the entry pay rule; what "salaried" means for the lead seats; whether a seat carries its pay; the pay line on the transparency sheet.
 - **5.7 and 5.8:** the rule that no record sorts a person into a performance situation (old item 17tn048qfnz).
 - **0:** counsel's view on the paid practical's status, decline wording, reference questions, and the written offer.
-- **2.1.5:** principles version one, which unlocks the values-based questions (3.2.26).
+- **2.1.5:** principles version one, which unlocks the values-based questions (3.2.25).
 - **2.1.10:** the chef seat's standing, which gates the kitchen's kit, rows, stages, and every kitchen entry in the register.
