@@ -6,7 +6,7 @@ Working rules for the room: Brandon decides, the facilitator never does. Options
 
 ## 1. Orientation
 
-**What this chunk covers.** The book's checklist of management basics (pp. 30 to 32): the things she assumes are in place before the book starts. At Sŏn most of the rows are built by later chunks. This chunk holds three things nothing else does: the legal list from counsel, the decision about how the checklist itself is used, and the decision about whether the two partners hold the basics for each other, since they have no manager above them.
+**What this chunk covers.** The book's checklist of management basics (pp. 30 to 32): the things she assumes are in place before the book starts. At Sŏn most of the rows are built by later chunks. This chunk holds four things nothing else does: the legal list from counsel, the decision about how the checklist itself is used, the decision about whether the two partners hold the basics for each other, since they have no manager above them, and the counsel questions register that every later chunk writes its questions into.
 
 **What it depends on upstream.** Nothing. This is the first chunk, and it is short by design. Half an hour is enough.
 
@@ -23,7 +23,7 @@ Working rules for the room: Brandon decides, the facilitator never does. Options
 | 1 | The frame: what does not transfer | None; a five-minute read of cons. 1 | Every chunk |
 | 2 | The checklist as a gap list | 0.2 (how it is used; confirm the routing table) | 2.2, 2.3 readiness definition; the routed chunks |
 | 3 | The partners as each other's manager | 0.3 | 2.3 (the founder rhythm), 2.2 (the goals cycle), 2.1.13 (joint decisions) |
-| 4 | Counsel | 0.1 (confirm who asks and when) | 3.3, 5.5, 5.9 |
+| 4 | Counsel | 0.1 (confirm who asks and when); 0.4 (open the register: home, owner, tiers) | 3.3, 5.5, 5.9; every chunk that asks counsel something |
 
 ## 3. Briefs
 
@@ -118,9 +118,25 @@ Working rules for the room: Brandon decides, the facilitator never does. Options
 
 **Needs agreement from:** both seated founders.
 
+### 0.4 Open the counsel questions register (deliverable needing Brandon's input)
+
+Every later chunk asks counsel something: the practical's employment form (3.1.35), withdrawal and early separation (3.4.4), what may be said about a departure (4.3.14), what a lead may ask about a person's background (4.4.6), identity data and language requirements (4.7.5), the record of a hard conversation (5.2.4), the pay structure's legal character (5.5.30), the performance process (5.8.2), the separation questions (5.10.2), and the founders' own standing (6.3.7). Since the cross-chunk pass, all of them add rows to one register opened here rather than each opening its own; the register began inside the pay chunk and moved here so that no one chunk owns the others' questions. The register lives outside this repo; the repo holds the question list only. The book's line is that the legal responsibilities of an employer and a manager are the floor beneath every people system, known before the first hire (pp. 23 to 24). The white paper does not describe how the founders work with counsel, so there is no default.
+
+**What Brandon supplies:** where the register lives (a page counsel can write into, or a document the owner carries to each meeting); who owns it, Brandon, Dominic, or the one 0.1 named as counsel's contact; whether the four urgency tiers hold as written (before the first paid shift; before the first flag read; before the first slow-season cut; before the wider opening gate) or he wants them tied to the hiring calendar's gates (3.2.32) instead; and his yes to the two rules the register runs on: only counsel writes an answer into it, and it never states a legal conclusion in the house's voice. The first rows are 0.1's own asks and anything counsel-shaped that surfaces in this session.
+
+**Openers:**
+- The first paid shift is a date on a calendar. Which question, if counsel had not answered it by then, would you not run the shift? That question is tier one.
+- Sideways: a row where the founders have already decided what they hope the answer is. Does the register record the hope, or only the question? What happens to the row if counsel says no?
+
+**Watch for:** a row answered by anyone but counsel; an answer rewritten into the house's voice on a policy page, so the register and the page disagree; a tier that is really "whenever counsel gets to it"; a chunk opening a second register because this one was not handed to it.
+
+**A finished answer:** the register exists, its owner and home are named, the tiers are fixed, the two rules are on it, 0.1's rows are on it, and every chunk that asks counsel something knows to add its rows here.
+
+**Needs agreement from:** both seated founders on the owner; counsel on the home, if it is theirs.
+
 ## 4. Deliverables that follow
 
-None in this chunk. 0.1 produces counsel's list, which is counsel's document; 0.2 and 0.3 produce decisions that 2.2, 2.3, 3.3, 5.5, and 5.9 build from.
+0.4 the counsel questions register, outside this repo, with the question list mirrored here. Not repeatable; every later chunk adds rows to it. 0.1 produces counsel's list, which is counsel's document; 0.2 and 0.3 produce decisions that 2.2, 2.3, 3.3, 5.5, and 5.9 build from.
 
 ## 5. Kits this session seeds
 
@@ -140,4 +156,3 @@ None.
 | The founders' own pace, learning tempo, and reflection practice | 1.4 (the house's tempos), 6.1 (the founder's own) |
 | Any financial figure | Financials are not a source for this work; say so and move on |
 
-- New in the cross-chunk pass: 0.4 Open the counsel questions register; brief to be written.

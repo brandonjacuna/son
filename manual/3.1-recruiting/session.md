@@ -50,18 +50,21 @@ Break.
 
 **The question:** in every hire made before opening, what does a founder do, can it overturn the hiring manager, and what event ends it?
 
-**Why it matters now:** the leads are the first hires and the founders are their hiring managers regardless. The question bites on the first frontline cohort: whether every line cook and server meets a founder, and what that meeting decides. It shapes the decision-rights entries (3.1.32), the mutual commitments (3.1.31), and the after-opening question of what replaces it (3.2.40).
+**Why it matters now:** the leads are the first hires and the founders are their hiring managers regardless. The question bites on the first frontline cohort: whether every line cook and server meets a founder, and what that meeting decides. It is hours on both founders' calendars for the whole cohort, and until 3.2.40 answers what replaces it, it is the only outside-domain check on an entry-level packet. It shapes the decision-rights entries (3.1.32), the mutual commitments (3.1.31), and the after-opening question of what replaces it (3.2.40). This brief also carries the question 3.2 once asked separately, whether a founder's "no" must name a read and what event ends the stage; the two were merged in the cross-chunk pass.
 
 **Openers:**
 - A lead you hired brings you a server candidate they want. You meet her for twenty minutes and something is off you cannot name. What happens next, and who decides?
+- It is the cohort hiring month and forty candidates are past the first interview. How many of them do you personally want to meet, and what would you be looking for in fifteen minutes that the domain lead missed in sixty?
 - Sideways: the book's Stripe story is founders meeting every finalist until the company was hundreds of people (p. 171). Picture yourself in week three of hiring the dinner cohort. How many of those meetings are you actually going to hold well?
+- Sideways: the white paper's proudest line about the founders is that the company is built to run without them (WP p. 6). What is the first hire you want the leads to make without you in the room, and why that one?
 - If your stage cannot overturn the lead, what is it for? If it can, what is the lead for?
+- The book says a founder's job is to model the hard "no" on a candidate who is just fine (p. 171). Can you say no to a candidate without naming a read? Should you be allowed to?
 
 **Narrowing questions:**
 - Is the founder's read a finalist interview, a narrow read of two things (conduct, and whether the building can support this person), or nothing?
 - Does it apply to every seat class or only to leadership and salaried seats?
-- What ends it for frontline seats: a date, a quarter of dinner, a number of hires, or a mechanism reset (2.3.34)? Does it ever end for leadership seats?
-- When you say no on a "just fine" candidate, where is that reasoning written so it can be taught (p. 171)?
+- Must a founder's "no" name a read, like everyone else's? If not, where is the reasoning written so it can be taught (p. 171)?
+- What ends it for frontline seats: a date, a headcount, a number of consecutive clean calibration reads, a quarter of dinner, a mechanism reset (2.3.34), or never? Does it ever end for leadership seats?
 
 **What the book says:** below roughly 100 employees per founder, founders interview every finalist; they model the high bar and the hard no; the no should be explained and, over time, built into process (p. 171).
 
@@ -69,15 +72,13 @@ Break.
 
 **How others have handled it:** General practice, not Sŏn-specific. Stripe's founders met every finalist until senior leaders could proxy the values (p. 171). Amazon's "bar raiser" is a trained interviewer from outside the hiring team with a defined vote, which is the form the book's "build the no into process" usually takes.
 
-**Options:** (a) the book's finalist interview with a founder no. Commits both founders to a slot in every hire and puts the last word above the lead. (b) A narrow stage with two scored reads that cannot overturn the lead on competency. Commits Sŏn to defining those reads and to living with hires a founder would not have made. (c) No founder stage below leadership. Commits Sŏn to trusting leads before they have hired here. Depth: cons. 1.
+**Options:** (a) the book's finalist interview with a founder no, until a headcount. Commits both founders to a slot in every hire and puts the last word above the lead. (b) A narrow stage with two scored reads (the conduct standard and the building-side question) that cannot overturn the lead on competency, with a named end condition. Commits Sŏn to defining those reads and to living with hires a founder would not have made. (c) No founder stage below leadership, from the first cohort. Commits Sŏn to trusting leads before they have hired here. Depth: cons. 1.
 
-**Watch for:** a "narrow" stage that is a veto in practice; an end date that is really "when I feel ready"; a stage nobody has time to hold in a hiring week.
+**Watch for:** a "narrow" stage that is a veto in practice; a founder stage that becomes the real decision, with the lead's packet as advice; an end date that is really "when I feel ready"; a stage nobody has time to hold in a hiring week.
 
-**A finished answer:** the stage named, its power over the lead stated, the seat classes it applies to, and the event that ends it for frontline and for leadership seats.
+**A finished answer:** the stage named, its power over the lead stated, whether a founder's no must name a read, the seat classes it applies to, and the event that ends it for frontline and for leadership seats, in two sentences.
 
-**Needs agreement from:** Dominic.
-
-Also covers what "Decide the founders' place in every hiring loop before opening, and when it ends" asked (from 3.2).
+**Needs agreement from:** Dominic, since it is his hours too.
 
 ### 3.1.4 Decide who is the hiring manager for each seat, before and after the leads exist
 

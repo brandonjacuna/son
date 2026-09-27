@@ -438,39 +438,23 @@ Deliverables and actions that follow once the decisions exist (2.3.17, 2.3.18, 2
 
 **Needs agreement from:** both seated founders.
 
-### 2.3.14 Place each lead's monthly conversation on the calendar
+### 2.3.14 Place each lead's monthly conversation on the calendar (action needing Brandon's input)
 
-**The question:** which partner holds the monthly conversation with each lead, in the check-in's form, on the lead's own page, and who reads the other lead when a partner is the subject?
+An action since the cross-chunk pass: who holds each lead's check-in and review is 2.2.5's decision, and how a partner reads the lead they do not hold, including who hears a concern about a partner, is 5.9.10's. Read 2.2's `decisions.md` entry for 2.2.5 before this item and do not reopen the pairing here. If 2.2.5 is still open, park this item and bring the pairing questions to that conversation: which partner holds the Maitre d and which the Operations Lead, and the rule for who reads the other lead when a partner is the subject. 5.9 needs the pairing for its second-reader rule.
 
-**Why it matters now:** 2.2.5 decided who holds each lead's check-in and review; this places the monthly conversation and confirms the pairing on the calendar. If 2.2.5 is decided, this is a confirmation and a placement; if not, this is where it gets decided. 5.9 needs the pairing for the second-reader rule.
+**What Brandon supplies:** for each lead, a closed hour on the calendar for the monthly conversation, held by the partner 2.2.5 named, in the check-in's form (2.3.9), on the lead's own page; at the interval 2.3.10 set; outside every service and every other standing rhythm, and on the closed day if 2.3.12 kept one; and what moves when a service, a hire week, or a gate collides with it (the hour moves; it is never skipped).
 
 **Openers:**
-- If 2.2.5 is decided: read it back. Does the monthly conversation follow it exactly, or does the month change anything?
-- Sideways: the Maitre d wants to raise something about Brandon. Whom do they raise it with, and does the pairing make that possible?
-- Would you rather hold one lead's conversation well or both leads' conversations at all?
-
-**Narrowing questions:**
-- The Maitre d with Brandon's seat (WP pp. 03, 10): confirm.
-- The Operations Lead: Dominic (each partner holds one; the center is read from both sides) or Brandon (the operating systems are his)?
-- The form: the check-in's, on the clock, at a closed hour, on the lead's page. Confirm.
-- The rule for who reads the other lead when a partner is the subject.
-- 5.9 told the pairing.
+- Put the two hours on next month's calendar now, against the services you already know. Which one is going to get eaten first, and by what?
+- Sideways: would you rather hold one lead's conversation well or both leads' conversations at all? The answer says something about how far apart the two hours should sit.
 
 **What the book says:** 1:1s run up the chain too (p. 136).
 
-**White-paper default:** every candidate's sheet names their direct lead (WP p. 18); the Maitre d owns the how of the experience and Brandon the experience; the Operations Lead's architecture splits across both founders (WP pp. 03, 10).
+**Watch for:** an hour that sits inside the pre-service window; the two leads' hours back to back on the same day, which makes the second one short; a placement that quietly contradicts 2.2.5's pairing.
 
-**How others have handled it:** General practice, not Sŏn-specific. See 2.2.5's note: co-equal function heads usually each report to a different principal; a standing rule for "who hears a concern about my principal" is the part most companies forget until they need it.
+**A finished answer:** two hours on the calendar, each with its partner named from 2.2.5, the interval from 2.3.10, the collision rule stated, and 5.9 told.
 
-**Options:** (a) the Maitre d with Brandon, the Operations Lead with Dominic, the other partner as second reader. Commits each partner to one lead monthly. (b) both with Brandon, Dominic as second reader for both. Commits Brandon's seat to both conversations. (c) the pairing rotates yearly. Commits the leads to a new listener each year. Depth: cons. 5.
-
-**Watch for:** contradicting 2.2.5; a pairing with no second-reader rule.
-
-**A finished answer:** each lead with one named partner, the form confirmed, the second-reader rule stated, 5.9 told.
-
-**Needs agreement from:** both seated founders.
-
-Narrowed in the cross-chunk pass to an action: who holds each lead's conversation, and the second-reader rule, are decided in 2.2.5 (and 5.9.10); this task places the conversation on the calendar. Bring the pairing questions above to the 2.2.5 conversation.
+**Needs agreement from:** both seated founders, since each hour is on one of their calendars.
 
 ### 2.3.15 Set the employee NPS pulse's rhythm
 
@@ -554,19 +538,24 @@ Narrowed in the cross-chunk pass to an action: who holds each lead's conversatio
 
 **The question:** the order of reads, the source of each, what the record carries, and what the agenda refuses.
 
-**What Brandon supplies in the session:** the order (the candidate in cons. 5: leading indicators; the week's captures and process updates; goal state changes; the interface between service periods once two are open; overdue feedback items; load readings; decisions and escalations; the one thing for the week's briefs), and whether recruiting's standing read (3.1) sits under load readings or as its own line; the record form (notes; action items whose owner is a lead, a domain, or a unit, never a founder by default); that the one thing is written to the team's internal home before the first brief of the week; and that lagging indicators are not on it. 2.3.19 wrote the agenda's operating-system content; this fixes its order and record.
+**What Brandon supplies in the session:** the order (the candidate in cons. 5: leading indicators; the week's captures and process updates; goal state changes; the interface between service periods once two are open; overdue feedback items; load readings; decisions and escalations; the one thing for the week's briefs), and whether recruiting's standing read (3.1) sits under load readings or as its own line; the record form (notes; action items whose owner is a lead, a domain, or a unit, never a founder by default); that the one thing is written to the team's internal home before the first brief of the week; and that lagging indicators are not on it. 2.2 once specified the agenda's operating-system content as a separate deliverable; the cross-chunk pass folded it in here, so this task holds both the content and its order.
+
+Three refusals came with it, and each needs his yes or a reason: the review never opens on a lagging figure; it never runs without a written record; and it never becomes the integration layer the stack should be (the white paper's whole point about the operator holding the numbers in one head, WP p. 21). 2.2's starting shape for the agenda, offered as an option: the leading indicators at service tempo first; then the week's closes across every open period, open feedback items by age, goal-page status, incidents awaiting a process owner, cross-domain items under 2.2.3; lagging figures last, if at all (WP pp. 12, 22).
+
+The lead's weekly note also came from 2.2. What Brandon supplies for it: whether 2.2's four parts hold (priorities for the coming week; open items with owners; anything needing another domain's consultation; the lead's read of their domain's health), the page limit (2.2 said one page), and that it is filed before the review, never written in it. The book's case: snippets derive the meeting's agenda, and the metrics review opens it (pp. 123, 125 to 126).
 
 **Openers:**
 - The first fifteen minutes are the metrics (p. 126). Which three numbers, from where, and could a chair pull them without asking anyone?
 - Sideways: which item would you move to the front if you were the Maitre d, and which if you were the Operations Lead? That tension is the agenda.
+- Sideways: a lead's note arrives at two pages with nothing to cut. What was the one page refusing to carry, and does that belong on the agenda or somewhere else?
 
-**Watch for:** a read whose source is a person's memory; an action item owned by a founder; a lagging figure on the agenda "just for context."
+**Watch for:** a read whose source is a person's memory; an action item owned by a founder; a lagging figure on the agenda "just for context"; a note that reports the week instead of setting the next one.
 
-**A finished answer:** the order fixed with a source per read, the record form written, the one-thing rule stated, lagging indicators stated off, and the four-consecutive-weeks condition understood.
+**Capture for the kit (2.3.24):** what a one-page note refused to carry; the order of reads that worked; what a lead needed to have open to write the note in ten minutes.
+
+**A finished answer:** the order fixed with a source per read, the three refusals stated, the record form written, the note's parts and page limit fixed, the one-thing rule stated, lagging indicators stated off, and the four-consecutive-weeks condition understood.
 
 **Needs agreement from:** both seated founders.
-
-Also covers what "Specify the leads' review agenda and the lead's weekly note" asked (from 2.2).
 
 ### 2.3.20 Write the shift brief and shift close as running checklists, per domain (repeatable deliverable)
 
@@ -622,13 +611,16 @@ Also covers what "Specify the leads' review agenda and the lead's weekly note" a
 
 **What Brandon supplies:** confirmation of the sections and the reading block; the first run is pre-opening, as the gate review of 2.3.26.
 
-**Repeatable: yes.** Each domain lead writes their domain's memo every quarter on the template; the chef partner writes the kitchen's; the partners integrate. **Capture for the kit (2.3.24):** the questions that produced a candid section rather than a report of successes; how the failure-mode scorecard was filled from the quarter's closes; how long the integration took and what the integrator needed from each writer; what the reading block's length turned out to be; what the reflection changed for next time.
+2.2 once specified the house review and the phase-gate review as a separate deliverable; the cross-chunk pass folded it in here. Two things from it need his input. First, the statements that must be true after a house review, in Sŏn's terms rather than the book's (workbook pp. 30 to 41 gives the book's), and the three refusals: never review a period without a charter; never score a goal met at a bandwidth cost as a win (2.2.23's ruling applied here); never exceed what the leads can prepare between services. Second, whether 2.2's translation of the book's outline is the template's starting shape (cons. 8 in 2.2's considerations): the leading indicators as the spine; the feedback channel's top asks as the book's "user feedback"; the five failure modes as the standing scorecard; a tension map in place of a headcount table; the risk register behind "what keeps you up at night"; lagging figures as an appendix owned by Dominic's domain (WP pp. 14, 17, 22, 23). The phase-gate review applies the same form to the readiness test (2.2.38) and the "steady" condition (2.2.36); the first instance's length is left to calibrate after it runs.
 
-**A finished answer:** the template exists with the sections, the run guide covers her three parts, the first review has run on it, and the record and action items sit where 2.3.6 and 2.3.19 put theirs.
+**Openers:**
+- Sideways: the book's memo asks for a narrative skewed to lowlights (p. 124). Which lowlight would a lead at Sŏn leave out to protect a person, and what does the template do so they can write it anyway?
+
+**Repeatable: yes.** Each domain lead writes their domain's memo every quarter on the template; the chef partner writes the kitchen's; the partners integrate. **Capture for the kit (2.3.24):** the questions that produced a candid section rather than a report of successes; how a section skewed to lowlights without writing about a person; how the failure-mode scorecard and the tension map were filled from the quarter's closes; how long the integration took and what the integrator needed from each writer; what the reading block's length turned out to be; what the reflection changed for next time. 2.3.24 is the single review kit, for the weekly note and the memo; a person's formal review keeps its own kit in 5.4.
+
+**A finished answer:** the template exists with the sections, the after-statements and refusals are in Sŏn's words, the run guide covers her three parts, the first review has run on it, and the record and action items sit where 2.3.6 and 2.3.19 put theirs.
 
 **Needs agreement from:** both seated founders; the chef partner for the kitchen's memo.
-
-Also covers what "Specify the house review and the phase-gate review" asked (from 2.2).
 
 ### 2.3.25 Decide whether to hold a quarterly whole-house gathering
 
@@ -794,7 +786,7 @@ Once the decisions above exist, these can be drafted or scheduled. Drafts are ma
 
 - **2.3.6 The partners' page.** From 2.3.4, 2.3.5, and its brief's choices.
 - **2.3.17 First check-ins, each partner with a lead.** A run, from 2.3.9 to 2.3.11 and 2.3.14. Repeatable: yes; kit 2.3.18.
-- **2.3.18 Check-in kit.** From the capture notes on 2.3.17. 5.1's coaching insert (5.1.13) goes inside it. Also covers what "Build the lead conversation kit" asked (from 5.9).
+- **2.3.18 Check-in kit.** From the capture notes on 2.3.17. 5.1's coaching insert (5.1.13) goes inside it, and so does 5.9's partner's insert for the lead's monthly conversation (5.9.13): the lead's monthly conversation is the lead's check-in, so there is one kit, not a separate lead conversation kit (merged in the cross-chunk pass). The lead's side of the intake comes with it: what the lead brings and proposes before the conversation, and what the partner reads on the lead's page (5.9.14) and nowhere else. An example only if a lead consents, or if Brandon agrees an invented case can serve. It holds no one's answers.
 - **2.3.19 Leads' review agenda, record form, and the lead's weekly note.** From 2.3.13, 2.2.25, 2.2.29, and its brief's choices. Repeatable: yes; each lead files the note; kit 2.3.24. Must have run four consecutive weeks before dinner's gate.
 - **2.3.20 Brief and close as running checklists, per domain.** From 2.3.7, 2.3.8, 2.2.32, and 4.1 (who runs the brief per period). Repeatable: yes; kit 2.3.21.
 - **2.3.21 Brief and close kit.** From the capture notes on 2.3.20.

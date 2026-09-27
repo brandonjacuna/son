@@ -16,7 +16,7 @@ One vocabulary line to hold through the whole session: "the operating system" he
 
 **Who else must agree.** Nearly every decision here is "agreed by both seated founders": Dominic's domain holds the stack, the financial model, and every financial value inside a range or threshold. The chef partner, once seated, rewrites the kitchen's half of the register, the emergency authority, the metrics, and the goal pages; until then those parts are placeholders. 2.2.24 (the data hub of record) is Dominic's action outright, and 2.2.25, 2.2.33 cannot finish without it. Where Brandon has a position and Dominic has not yet weighed in, record the position and mark it "pending agreement from Dominic."
 
-**How to run it.** Twenty-four decisions is more than one sitting. The agenda below groups them into four sittings that follow the phases in `tasks.md`; the first sitting is the one the first interviews depend on. Take them in any order he wants, but 2.2.1 and 2.2.2 shape everything after them and are worth doing first.
+**How to run it.** Twenty-five decisions is more than one sitting. The agenda below groups them into four sittings that follow the phases in `tasks.md`; the first sitting is the one the first interviews depend on. Take them in any order he wants, but 2.2.1 and 2.2.2 shape everything after them and are worth doing first.
 
 ## 2. Agenda
 
@@ -41,7 +41,7 @@ One vocabulary line to hold through the whole session: "the operating system" he
 
 **Sitting four: mechanisms and gates (before opening).**
 - N. The mechanism set (2.2.29), the alert-actor rule (2.2.30), per-service ownership in the brief (2.2.31), the brief's and close's contents (2.2.32)
-- O. Tests not dates (2.2.35), "dinner is steady" (2.2.36), the readiness rows (2.2.38)
+- O. Tests not dates (2.2.35), "dinner is steady" (2.2.36), whether the test reads the company's shape as well as the building (2.2.37), the readiness rows (2.2.38)
 
 Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.2.25, 2.2.27, 2.2.28, 2.2.33) are listed in section 4, with the choices that hide inside them.
 
@@ -886,6 +886,38 @@ Deliverables that only need drafting once the decisions exist (2.2.8, 2.2.15, 2.
 
 **Needs agreement from:** both seated founders; the chef partner for the kitchen's half.
 
+### 2.2.37 Decide whether the readiness test reads the company's shape as well as the building
+
+**The question:** when the readiness test says the operating system is running, does it also read whether the partners are deciding what only the partners can decide, or does it read the building alone and leave the company to the partners' page?
+
+**Why it matters now:** the test (2.2.38) is the operating-system half of the gate (2.2.35), and every row on it so far reads the building: ownership, decision rights, goals and metrics, mechanisms, the system, the founders' absence, the house. The reserved-class decisions (a service period built or removed, a principle changed, a version, a principal admitted or removed, a pay parameter set) sit with the partners under 2.1.13 and are read at the partners' weekly review (2.3.4). Nothing yet says what happens when one of them stands open for months while the building passes every row. The book's test of an operating system is whether it shows when the company, not only the day's work, is stuck (pp. 104 to 106). New in the cross-chunk pass; it came out of an old item about the operating system reading the founders' own layer.
+
+**Openers:**
+- Dinner passes the test. Every row is yes. The percentage has been open on the partners' page for four months. Is the operating system running?
+- Sideways: the white paper says the mark of these founders is a company built to run without them (WP p. 6). Which reserved-class decision, left open, would make that sentence untrue first?
+- If a row read the partners' page, who would check it, given that the founders are the ones being read?
+
+**Narrowing questions:**
+- A row on the test, or a statement beside it that the test reads the building and the partners' page reads the company?
+- If a row: what it reads (any reserved-class decision open past a stated count of partners' reviews), read from the partners' page with no person named, and the count as a reset parameter (2.3.30)?
+- Who checks that row? A lead reading the partners' page, or the count produced by the page itself?
+- If a statement: what on the partners' page does the reading instead, and does the phase-gate review (2.2.39) see it?
+- Does the count differ by class: a pay parameter open for two reviews is one thing, a principle change open for two is another?
+
+**What the book says:** the operating system exists so that the company can see itself; a review that only reads the work and never the decisions above the work hides the place a company most often stalls (pp. 104 to 106); the CEO's first job is the risk factors, and an open decision at the top is one (p. 102).
+
+**White-paper default:** none on this. "A company built to run without them" is said of the operating system (WP p. 6); the white paper does not describe the decisions only the partners can take, nor how long one may stand open.
+
+**How others have handled it:** General practice, not Sŏn-specific. Boards read this with a standing "open decisions" item and an age on each; two-founder companies rarely write it down, and the open decision usually surfaces as a lead's frustration rather than a row anyone reads.
+
+**Options:** (a) a row on the test: any reserved-class decision open past N partners' reviews reads as a failed row, from the page, no name, N a reset parameter. Commits the partners to being read by their own test and to a page that carries dates. (b) A statement beside the test that it reads the building only and the partners' page reads the company, with the aged open items on the phase-gate review's agenda. Commits the partners to the page doing the work and to the gate review being the only place it is read. (c) Nothing written; the partners' weekly review is assumed to catch it. Commits Sŏn to the failure the book names. Depth: cons. 10.
+
+**Watch for:** a row that names a founder rather than a class; a count set so high the row can never fail; the row read by the founders about themselves with no one else able to see it; the row used by one partner against the other.
+
+**A finished answer:** row or statement, in one sentence; if a row, what it reads, from where, the count as a parameter, and the checker; if a statement, where the aged open items are read instead.
+
+**Needs agreement from:** both seated founders; it reads them.
+
 ### 2.2.38 Write the readiness test: "the operating system is running" (choices only)
 
 **The question:** which rows are on the test, who checks each, and what does a failed row map to?
@@ -948,4 +980,3 @@ Questions that will come up and belong elsewhere. Add a line to that chunk's `no
 - **6.1:** the founders' floor presence on the service's tempo; "say the thing you cannot say" as a founder practice.
 - **Counsel (log, do not answer):** a founder holding a lead's check-in or working a designation as an employee for any purpose; lease, insurance, and food-safety constraints on closure authority and who must be notified.
 - **Learning and development work:** the competency paths and the platform that feeds 2.2.14.
-- New in the cross-chunk pass: 2.2.37 Decide whether the readiness test reads the company's shape as well as the building; brief to be written.

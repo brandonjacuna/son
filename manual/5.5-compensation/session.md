@@ -23,7 +23,7 @@ A default order. Start wherever he wants.
 5. The routed lines (5.5.15, 5.5.16, 5.5.17): training; teaching; translation.
 6. Rhythm, page, publication, benefits, market (5.5.18 to 5.5.22).
 7. Questions and corrections (5.5.23, 5.5.24); parity (5.5.25); the range (5.5.26).
-8. The offer order (5.5.27), the register and counsel (5.5.28, 5.5.30, 5.5.32; the counsel register itself is 0.4), the kitchen (5.5.31).
+8. The offer order (5.5.27), the register and counsel (5.5.28, 5.5.30, 5.5.32; the counsel register itself is 0.4), the remaining values (5.5.29, Dominic's), the kitchen (5.5.31).
 9. Deliverables and the kit (sections 4 and 5).
 
 ## 3. Briefs
@@ -784,36 +784,35 @@ A default order. Start wherever he wants.
 
 **Needs agreement from:** both seated founders; pending Dominic.
 
-### 5.5.27 List the parameter rows a lead's offer needs, and date them on the hiring calendar
+### 5.5.27 List the parameter rows a lead's offer needs, and date them on the hiring calendar (action needing Brandon's input)
 
-**The question:** what must exist before the first offer goes out?
+An action since the cross-chunk pass: the order of the compensation architecture against the leads' first interviews is 3.2.17's decision, and what the candidate sheet says before this chunk is complete is 3.1.28's. Read both `decisions.md` entries first and do not reopen them here. This task names the rows and puts dates on the calendar.
 
-**Why it matters now:** the leads are hired months before this chunk runs in full, and the candidate sheet promises the mechanics at the first interview (WP p. 18). 3.2.17 and 3.1.28 decided the order in principle; this names the rows and puts the date on the hiring calendar.
+**What Brandon supplies:** the rows an offer needs, by name from the parameters register (5.5.32), and nothing about their values; the earlier work named four, and he says whether four is right or something is missing (a lead's entry pay under 5.5.11, the salaried rule under 5.5.10, the payment rhythm under 5.5.18, and the benefits gate's facts under 5.5.21 are the likely candidates); the date each must be set, on the hiring calendar (3.2.32) ahead of the leads' offers under 3.2.17's order; and the hand-off to Dominic to confirm the dates and set the values (5.5.28). The candidate sheet promises compensation and benefits and the compensation mechanics at the first interview (WP p. 18), so any row still unset on that day shows on the sheet as unset.
 
 **Openers:**
 - Walk the Maitre d candidate's first interview. They read the sheet. Which lines say "unset"? Are you comfortable handing that?
-- Sideways: the earlier work named four things an offer needs. Say them. Is anything missing?
-
-**Narrowing questions:**
-- The offer rows by name.
-- The date on the hiring calendar (3.2.32).
-- 3.2.17 confirmed or amended.
+- Sideways: the earlier work named four things an offer needs. Say them without looking. Is anything missing?
 
 **What the book says:** early on, enough data to price offers correctly (p. 414).
 
-**White-paper default:** the sheet at the first interview (WP p. 18).
+**Watch for:** the hiring calendar sliding to wait for this chunk; a value spoken into the record while naming a row; a row that is really a policy decision from earlier in this chunk still open.
 
-**How others have handled it:** General practice, not Sŏn-specific. Offers routinely go out before the rest of a compensation program is complete; the difference here is a written promise of the mechanics.
+**A finished answer:** the rows listed by name, each with its date on the hiring calendar, and Dominic's confirmation of the dates.
 
-**Options:** the four rows; more; a full architecture before any first interview.
+**Needs agreement from:** Dominic on the dates; nothing here is a value.
 
-**Watch for:** the hiring calendar sliding to wait for this chunk.
+### 5.5.29 Dominic sets every remaining value on the parameters register (Dominic's action)
 
-**A finished answer:** the rows, the date, the confirmation.
+Not Brandon's decision, and no value is spoken in the session. 5.5.28 set the offer rows before the first lead's offer; this sets everything else on the register 5.5.32 wrote, before the first training service, so the calculation run (5.5.40) has a complete register to run on. Dominic owns the financial model (WP p. 3), and the white paper names the percentage as the one open piece of the compensation question (WP p. 22). The book's ask is bands and targets set against market data, with a stated refresh (p. 414); 5.5.22 decided the market rule and the refresh, and Dominic sets against it.
 
-**Needs agreement from:** both seated founders; pending Dominic.
+**What Brandon supplies:** the hand-off and the date. He confirms that every row on the register has an owner and a "set against" before it reaches Dominic (a row with neither is a policy still open in this chunk, not a value to set), names any row where the two founders must sit together rather than Dominic alone (the discretionary range's two values under 5.5.26 is the likely one), and agrees that a row Dominic cannot set by the date is marked unset with his name and a date rather than left blank.
 
-Narrowed in the cross-chunk pass to an action: the order of the compensation architecture against the leads' interviews is 3.2.17's decision; this task lists the rows an offer needs and dates them on the hiring calendar.
+**Watch for:** a row set in the session by anyone; a row marked "set" whose "set against" is a guess; the kitchen's rows (5.5.31) blocking the rest when the chef seat is still open; this repo holding a value.
+
+**A finished answer:** every row on the register carries a value or is marked unset with an owner and a date, before the first training service, and nothing of it is in this repo.
+
+**Needs agreement from:** Dominic; counsel already answered on the rows wage law touches (5.5.28, 5.5.30).
 
 ### 5.5.31 Chef partner sets the kitchen's seat weights and salaried seats within the mechanism
 
@@ -826,6 +825,20 @@ Brandon's input needed on: the page's voice (it is the one document a candidate 
 ### 5.5.36 Hold the first pay conversations at the offer: each partner with their lead
 
 **Capture for the kit:** at the offer, note which parts of the mechanics page the lead asked about, where the explanation ran long, and what they asked that no page answered. At the first pay move, if 5.5.23 kept a moment, note whether the page carried it or the partner had to say something the page did not, and whether the may-and-may-not list held. These notes, in `notes/`, become the kit's guide. Never record a figure or the lead's actual pay.
+
+### 5.5.37 Hold the first pay conversations at the first pay move: each partner with their lead (action needing Brandon's input)
+
+Only if 5.5.23 kept a scheduled conversation at a pay move; if it chose the offer only or none, this task closes with a note. 5.5.36 held the conversation at the offer; this is the second round, at each lead's first pay move (an unlock under 5.5.13, a marker under 5.5.12, or a market refresh under 5.5.22), held by the partner who holds that lead's check-in. The book's rule is that the news is delivered in person and tied to what is rewarded, and that when there is no change, that is said too and why (pp. 416 to 417); its preparation guide and outline (pp. 471 to 473) are the template 5.5.38 adapts. The white paper's own line is that advancement is a direct line between learning and earning (WP p. 19), so the pay move and the unlock that caused it are one conversation.
+
+**What Brandon supplies:** whether the conversation is held on the pay move's date or at the next monthly conversation (2.3.14); whether the lead's own page shows the move before the conversation or after it, which 5.5.19 may already have settled; and the two things he will say when a lead's first pay move is smaller than the lead expected, one for the comparison case and one for the disappointment case, in his words, for the kit.
+
+**Capture for the kit (5.5.38):** whether the mechanics page carried the explanation or the partner had to say something no page says; whether the may-and-may-not list held under a direct question; what the lead asked that the offer conversation had not surfaced. Revise the guide from both rounds. Never record a figure or the lead's actual pay.
+
+**Watch for:** the conversation becoming a review (5.4.5 decided what the review feeds; this reads the mechanism, not the person); a partner explaining a value they did not set by reasoning about it; the round skipped because the move was "just the mechanism."
+
+**A finished answer:** each lead has had the conversation at their first pay move in 5.5.23's form, the capture notes are in `notes/`, and the guide is revised from both rounds.
+
+**Needs agreement from:** both seated founders, since each holds one.
 
 ## 4. Deliverables that follow
 
@@ -853,5 +866,3 @@ Brandon's input needed on: the page's voice (it is the one document a candidate 
 - 2.3.31: the pay date and the market refresh as rhythms.
 - 0.1 and counsel: the whole of 5.5.30, before any offer.
 - The learning and development work: module approval and completion records as payment triggers.
-- New in the cross-chunk pass: 5.5.29 Dominic sets every remaining value on the parameters register; brief to be written.
-- New in the cross-chunk pass: 5.5.37 Hold the first pay conversations at the first pay move: each partner with their lead; brief to be written.

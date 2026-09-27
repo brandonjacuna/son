@@ -359,9 +359,11 @@ Items 1 to 6 are the before-the-first-hire work; if the session is short, stop a
 
 ### 4.1.18 Write the structure narrative and the structural content the web rendering carries (input needed)
 
-**What Brandon supplies:** how he would tell a line cook why there is no general manager, what a designation is, and how she advances. **Capture:** his exact sentences; they are the draft. **Watch for:** the investor's vocabulary (tensegrity, code-bearing) reaching the team page undefined.
+**What Brandon supplies:** how he would tell a line cook why there is no general manager, what a designation is, and how she advances. **Capture:** his exact sentences; they are the draft.
 
-Also covers what "Write the structural content the web rendering must carry" asked (from 4.1).
+The structural content the web rendering must carry was a separate deliverable until the cross-chunk pass merged it here; it is the second page of this task. For it Brandon supplies what must be on the rendering and what must not: the old work's content list as a starting point (the center, two parallel leads, the domains, the strands, the edge seats, and designations as marks rather than nodes), and the refusals (no boxes, no arrows, no top). The white paper says the structure maps as a web with a center and an edge and no top (WP p. 9), the designed rendering is an open item (WP p. 15), and the candidate sheet carries "the org chart" (WP p. 18); until the designed one exists the candidate sheet gets an interim rendering, and a list will do. The book's version is the structure on one sheet, without names (p. 281).
+
+**Watch for:** the investor's vocabulary (tensegrity, code-bearing) reaching the team page undefined; designing the visual in the session, since the design and its owner are outside this manual; a content list that a designer could only render by inventing structure.
 
 ### 4.1.19 Decide what a per-service designation is, what it may hold, and the rotation floor
 

@@ -56,36 +56,42 @@ A default order; start where he wants.
 
 **The question:** is there a dedicated, scheduled conversation about what a person wants next, and if so, when in their first year and with whom?
 
-**Why it matters now:** the two leads arrive months before opening; their window (a few months in, before the first formal review) will fall before the doors open. The general rule has to exist by then, and 5.4's review timing depends on it.
+**Why it matters now:** the two leads arrive months before opening; their window (a few months in, before the first formal review) will fall before the doors open. The general rule has to exist by then, and 5.4's review timing depends on it. The book asks the question twice, once in this chapter's section on rebuilding (pp. 294 to 296) and once as a chapter exercise, a sixty-minute walk through a person's history ending in a five-year picture (pp. 364 to 367); 4.6 carried the exercise's version and the cross-chunk pass merged it here. Its terms (voluntary, in the person's language, possibly leads only) are in the narrowing questions as things to decide, not as answers. It also seeds a kit (4.4.15).
 
 **Openers:**
 - The Operations Lead is four months in. The partner who holds their monthly conversation sits down and says: this one is different, it is about you. What do they ask first?
+- The best manager you ever had: did they know what you wanted to be doing in five years? How did they find out?
 - Sideways: nobody in a restaurant ever asked you where you wanted to be. If someone had, at Alinea, what would have changed?
+- Sideways: the white paper says the longest measure of the culture is how people grow beyond the building (WP p. 23). Who in the building is supposed to know where a person is trying to grow to?
 - The white paper says the path is visible without asking (WP p. 11). If that is true, what is this conversation for?
+- The book's exercise starts at childhood. Where would you start?
 - Once, or every year?
 
 **Narrowing questions:**
-- Held at all?
+- Held at all? If so, in which form: the book's exercise as written, shortened to start at the first job, or the section's lighter version?
 - Window: after the ninety-day plan closes and before the first formal review (5.4)?
-- Holder: the direct lead; a partner for each lead (2.3.14)?
-- Paid working time; length as a parameter?
+- For whom: every person, or leads first and then everyone?
+- Holder: the direct lead; a partner for each lead (2.3.14); the chef partner in the kitchen?
+- Paid working time; length as a parameter; held in the person's language?
+- Voluntary, or part of everyone's first year?
 - Once, or repeated at an interval?
+- Where the two or three goals go is 4.4.5's question; note it and carry it there.
 
-**What the book says:** a scheduled conversation with each person, after a few months and before any formal review; not an interview; three purposes: show you care, understand the arc, begin a direction to return to (pp. 294 to 296).
+**What the book says:** a scheduled conversation with each person, after a few months and before any formal review; not an interview; three purposes: show you care, understand the arc, begin a direction to return to (pp. 294 to 296). The exercise version: introduce it in advance, remind the day before, listen and ask why, end in a five-year picture without a title and two or three development goals (pp. 364 to 367).
 
 **White-paper default:** reviews every three to six months focus on the path forward (WP p. 19); advancement requires preparation, not permission (WP p. 14); the candidate sheet shows the advancement path (WP p. 18). Silent on the conversation itself.
 
 **How others have handled it:** General practice, not Sŏn-specific. Russ Laraway's three-conversation version (life story, dreams, an eighteen-month plan) is widely used in technology companies; restaurants rarely hold anything like it.
 
-**Options:** (a) the book's, once per person in the window; (b) the narrowed version; (c) a mix; (d) none, the check-in and review carry it. Depth: cons. 2.
+**Options:** (a) the book's section version, once per person in the window. Commits every lead to one hour per person in their first year. (b) The book's exercise version, voluntary, leads first, then everyone. Commits Sŏn to a question list counsel has cleared (4.4.6) and to a conversation some people will decline. (c) A shortened form from the first job onward. Commits Sŏn to writing its own version of the exercise. (d) None; the check-in and review carry it. Commits Sŏn to the path being visible without anyone asking. Depth: cons. 2.
 
-**Watch for:** a conversation the leads have no time to hold for forty people; a window that collides with the first review; "the path is visible" used to skip the one conversation about the person.
+**Watch for:** a conversation the leads have no time to hold for forty people; a window that collides with the first review; "the path is visible" used to skip the one conversation about the person; a question counsel would not allow; the conversation used as a read on the person.
 
-**A finished answer:** yes or no; the window, the holder, the pay and length, once or repeated.
+**Capture for the kit (4.4.15):** when a partner holds the first one with a lead, the questions that drew good answers, the order, where it stalled, and what the lead wished they had been told beforehand.
 
-**Needs agreement from:** both seated founders.
+**A finished answer:** yes or no; the form, the window, for whom, the holder, the pay and length, the language, voluntary or not, once or repeated.
 
-Also covers what "Decide whether the career conversation runs at Sŏn, who holds it, and when" asked (from 4.6).
+**Needs agreement from:** both seated founders; the chef partner holds the kitchen's, once seated.
 
 ### 4.4.4 Decide what the career conversation asks, and what it never asks
 
@@ -133,8 +139,9 @@ Also covers what "Decide whether the career conversation runs at Sŏn, who holds
 **Narrowing questions:**
 - Outputs: a statement in the person's words of what they want next; one named track; what the house must supply (a 3.3.28 line if unmet); the book's two or three goals?
 - Whose words?
-- On the person page beside the plan's goals?
+- On the person page beside the plan's goals? Is anything from it ever written anywhere the person has not agreed to (a rule 4.6 carried and the cross-chunk pass moved here)?
 - May inform an assignment or placement, or never?
+- What the house does with the two or three goals: 2.2.14's development goals, or a separate thing?
 - The former mentor: nothing beyond what the person asks (3.3.14), or a stated role?
 
 **What the book says:** recap, share notes, write two or three development goals to track together; a reference point for later choices about projects, delegation, and roles (pp. 296, 367).
@@ -145,7 +152,7 @@ Also covers what "Decide whether the career conversation runs at Sŏn, who holds
 
 **Options:** (a) the person's statement, one track, the house's obligation, on the page, usable for assignments; (b) the same, never used for assignments; (c) the book's goals in the lead's words. Depth: cons. 2 and 7.
 
-**Watch for:** a "track named" that is a promise of a seat; a house obligation nobody logs; outputs on the page that the review (5.4) then grades.
+**Watch for:** a "track named" that is a promise of a seat; a house obligation nobody logs; outputs on the page that the review (5.4) then grades; notes kept where the person cannot see them.
 
 **A finished answer:** the outputs, the author, the location, the use rule, and the mentor answer.
 
@@ -338,8 +345,8 @@ Also covers what "Decide whether the career conversation runs at Sŏn, who holds
 
 ## 4. Deliverables that follow
 
-- 4.4.13 the career conversation guide, version one. Repeatable: every lead with each person in their domain; each partner with their lead; the chef partner in the kitchen. Also covers what "Write the career conversation guide" asked (from 4.6).
-- 4.4.14 the first career conversations, each partner with their lead, then the guide revised. Also covers what "Hold the first career conversations: each founder with a lead" asked (from 4.6).
+- 4.4.13 the career conversation guide, version one, in every house language. Repeatable: every lead with each person in their domain; each partner with their lead; the chef partner in the kitchen. Kit: 4.4.15, the only career conversation kit. 4.6's guide task was merged into it in the cross-chunk pass, and its input is Brandon's: the opening line a lead uses to invite the conversation, and what the invitation says the conversation is not (a review, a promotion request, a record); the book's advance notice to the team and its day-before reminder, in Sŏn's words (pp. 364 to 367).
+- 4.4.14 the first career conversations, each partner with the lead whose check-in they hold (2.2.5), in the window 4.4.3 set, then the guide revised before any lead holds one with their own people. 4.6's version of this action was merged here. The lead agrees to what is written before it goes on their page. Capture for the kit, in this chunk's `notes/`: what drew good answers, where it stalled, what the lead wished they had been told beforehand.
 - 4.4.16 the assignment note. Repeatable: every lead per assignment; the founders per handed-over function.
 - 4.4.18 the founders' handover list per lead, with weeks; the chef partner's marked pending.
 - 4.4.19 the ownership and trapdoor entries in the register.

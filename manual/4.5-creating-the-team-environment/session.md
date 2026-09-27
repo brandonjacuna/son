@@ -20,10 +20,11 @@ A default order. Start wherever he wants.
 2. Inside the room: roles (4.5.5), rounds (4.5.6), naming the decision (4.5.7), correcting people (4.5.8), and the norms page that collects them (4.5.9).
 3. Where things go: the unblocking path (4.5.10) and the destination for every kind of speech (4.5.11).
 4. The pre-service window: the staff meal (4.5.12) and the brief's team slot (4.5.13).
-5. The first quarter and after: the freeze (4.5.22), what the house marks (4.5.23), the gathering's team half (4.5.24).
-6. Reading it: psychological safety (4.5.25), the decision log (4.5.26), reconfiguration (4.5.29).
-7. People after opening: community for later hires (4.5.27), the mentor after the pairing (4.5.28), a wider leadership forum (4.5.36).
-8. Close: the environment checklist (4.5.30) as the read-back of the whole session.
+5. What a person may declare: the "not currently available" state (4.5.14).
+6. The first quarter and after: the freeze (4.5.22), what the house marks (4.5.23), the gathering's team half (4.5.24).
+7. Reading it: psychological safety (4.5.25), the decision log (4.5.26), reconfiguration (4.5.29).
+8. People after opening: community for later hires (4.5.27), the mentor after the pairing (4.5.28), a wider leadership forum (4.5.36).
+9. Close: the environment checklist (4.5.30) as the read-back of the whole session.
 
 ## 3. Briefs
 
@@ -403,6 +404,39 @@ A default order. Start wherever he wants.
 
 **Needs agreement from:** the chef partner for the kitchen's brief.
 
+### 4.5.14 Decide the "not currently available" state: what a person may declare, what it protects, and what never reads it
+
+**The question:** may a person at Sŏn say "not this shift, not this designation, not this stretch of the schedule" without giving a reason, and if so, who sees it, what does it protect them from losing, and what is never allowed to read it?
+
+**Why it matters now:** the schedule is built before the first training service and the attendance states (5.8.6) are written into it; if this state is not decided alongside them, the only way a person can step back is by missing a shift, which is then counted. The rotation floor (4.1.19) and the ready-now pool both read who is available. New in the cross-chunk pass; 3.3 and 5.8 both pointed here because it is a promise about the environment, not a performance state. The build rides with 5.8.22.
+
+**Openers:**
+- A server tells the Maitre d on Tuesday: I cannot take the room designation this month. No reason offered. What does the Maitre d say, what gets written, and what does the server lose?
+- Sideways: the white paper says bandwidth comes before results and that people are not a disposable input (WP pp. 12, 16). Where in the schedule can a person actually act on that sentence today, without asking anyone?
+- Who at Sŏn would you not want to be able to see that someone has declared this? Start there.
+
+**Narrowing questions:**
+- What may be declared: a shift, a designation, a stretch of the schedule, all three? For how long at a time, and how does it end (a date the person set; the person clearing it; never by anyone else)?
+- Who sees the state: the person, the scheduler, the person's lead? Who does not: the other lead, the partners except through a count, the check-in unless the person raises it?
+- What it protects: rotation standing under 4.1.19, the pool, the review, pay's days-worked count? Which of those it cannot protect, and does the person see that before declaring?
+- Distinct from the attendance states (5.8.6), from the paid hold between a flag read and the partners' decision (5.10.9), and from a departure state (5.10.12): does the person page show them differently, and can one ever convert into another?
+- The line that performance, attendance, or rating data never sets or reads it: can a lead ever suggest a person declare it?
+- The scheduling tool's capabilities (3.3.32): can it hold a state with no reason field, or is this manual until it can?
+
+**What the book says:** the environment a person can count on includes being able to say no without explaining, and a team that only allows a no with a justification is one where people stop saying it (pp. 296 to 298).
+
+**White-paper default:** none on the state itself. Bandwidth, then joy, then retention, then results is the sequence (WP p. 12); labor is an asset, not a cost, and the team is not disposable (WP p. 16); designations mark accountability in the moment and are not permanent elevations (WP p. 10), which is what makes declining one possible.
+
+**How others have handled it:** General practice, not Sŏn-specific. Scheduling tools carry an "unavailable" flag that is usually a request a manager approves, which is the opposite of a declaration; a few hospitality employers let people block days without a reason up to a cap and treat a block as neutral in scheduling.
+
+**Options:** (a) a declaration: shift, designation, or stretch, no reason, set only by the person, seen by the scheduler and the lead, protecting rotation standing, the pool, and the review, with pay following the days actually worked, ended by the person or a date. Commits Sŏn to a schedule that can carry an unexplained gap and to a tool or a manual fallback that refuses a reason field. (b) A request: the same states, approved by the lead, with the reason optional. Commits Sŏn to a lead deciding whether a person may step back. (c) None; a person arranges cover or asks their lead, as in any restaurant. Commits Sŏn to the attendance count being the only record of a person stepping back.
+
+**Watch for:** a reason field that arrives with the tool's defaults; a state visible to a lead who can then read it as a pattern; "protects the pool" that quietly resets the person's assessment date; the state used to park someone by a lead rather than declared by the person; a cap on how often it may be used that turns a declaration back into a request.
+
+**A finished answer:** what may be declared and for how long; who sees it and who cannot; what it protects and what it cannot; how it ends; the three states it is not; the sentence that nothing about performance sets or reads it; and whether the tool can hold it or 5.8.22 builds the manual form.
+
+**Needs agreement from:** both seated founders; the chef partner for the kitchen's designations; Dominic for the tool.
+
 ### 4.5.22 Decide whether the house's rules are frozen through dinner's first quarter, and what may change sooner
 
 **The question:** between opening night and the first reset, what may change, and what waits?
@@ -708,4 +742,3 @@ A default order. Start wherever he wants.
 - Whether a lead's "the way I want it tonight" line in a check-in is aggregated as a friction signal: 4.2.
 - The learning platform's first modules, which the visible path waits on: 3.3.38.
 - Team communication beyond meetings (channels, written updates, the team home's voice): 4.8.
-- New in the cross-chunk pass: 4.5.14 Decide the "not currently available" state: what a person may declare, what it protects, and what never reads it; brief to be written.

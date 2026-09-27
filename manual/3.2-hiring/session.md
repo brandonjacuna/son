@@ -29,39 +29,21 @@ A default order; start wherever he wants.
 
 ## 3. Briefs
 
-### 3.2.2 Confirm the reads list as the interview's rubric, and mark which are scored on the candidate and which recorded about the building
+### 3.2.2 Confirm the reads list as the interview's rubric, and mark which are scored on the candidate and which recorded about the building (action needing Brandon's input)
 
-**The question:** what are the named things an interview at Sŏn is trying to learn about a person, and is "what the building must supply for this person" one of them?
+An action since the cross-chunk pass: what every hire is read on, and what is never read, is 3.1.5's decision. Read 3.1's `decisions.md` entry for 3.1.5 first and do not reopen it here. This task confirms that list as the rubric every stage draws from and allocates each read.
 
-**Why it matters now:** every scorecard field (3.2.8), every question in the kit (3.2.26), the practical's rows (3.2.37), and the review process in 5.4 inherit this list. The white paper already names three reads and a fourth question; if the list changes later, every instrument changes with it.
+**What Brandon supplies:** for each read on 3.1.5's list, its one-line definition as an interviewer would use it; whether the list holds as the interview's rubric or needs an amendment, which goes back to 3.1.5 rather than being made here; which reads are scored on the candidate and which, if any, are recorded about the building (the white paper's fourth question, whether the building is equipped to create the environment this person needs, WP p. 18); and which reads every stage must carry and which a stage may skip. The white paper names three reads outright (specific competencies, cultural alignment, growth potential, WP p. 18).
 
 **Openers:**
-- A server candidate has just left the room after a first interview. You have five minutes to write down what you learned. What are the headings on that page, before you know what they said?
-- The white paper says the goal is not only whether this is the right person but whether the building is equipped to create the environment they need (WP p. 18). Is that a read on the candidate, a read on the house, or a note that goes somewhere else?
-- Sideways: think of the best hire you ever watched someone else make and the worst. Were they read against the same list? What was on the list for the good one that was missing for the bad one?
-- "Cultural alignment" is the phrase in the white paper. Say what it means at Sŏn in one sentence that does not contain the word culture.
+- A server candidate has just left the room after a first interview. You have five minutes to write down what you learned. Say the headings on that page from 3.1.5's list, without looking. Any you cannot say need a shorter definition.
+- Sideways: the building-side question. Is it a read on the candidate, a read on the house, or a note in the candidate's words that goes to onboarding? Where it goes decides whether it is ever scored.
 
-**Narrowing questions:**
-- Three reads or four? If the building-side question is a read, is it scored on the candidate at all, or recorded in their words and carried to onboarding?
-- Is growth potential read as trajectory, as self-directed learning, or as willingness to be told? Pick the one the anchors can be written for.
-- Does the alignment read include comfort with distributed authority (the server resolving the table without asking, WP p. 13), or is that a competency?
-- Which reads must every stage carry, and which may a stage skip?
+**Watch for:** re-deciding 3.1.5 under the name of confirming it; a read defined in a way the anchors (3.2.26) cannot be written for; the building-side note landing on a scorecard as a mark against the person.
 
-**What the book says:** interview for the capabilities the role actually needs, not likability; the best interviews test how someone works with others, gets quality work done, motivates and develops themselves, has or can develop expertise, and shows leadership and resilience (pp. 194 to 195).
-
-**White-paper default:** specific competencies, cultural alignment, growth potential, and whether the building is equipped to create the environment this person needs (WP p. 18, stated outright). Every position has documented competency requirements (WP p. 11).
-
-**How others have handled it:** General practice, not Sŏn-specific. Structured-interview programs name a small fixed set of attributes per role and score every candidate against the same set; the book's worked example uses seven competencies for one role (pp. 229 to 245). Union Square Hospitality Group has long said it hires for emotional skills first, an example of naming the read and holding to it.
-
-**Options:** (a) four reads: competency for the strand, self-directed growth, alignment defined as conduct plus comfort with distributed authority and the customer as customer, and the building-side question recorded but not scored. Commits Sŏn to one list at hiring and review. (b) The white paper's three, with the building-side question asked in onboarding instead. Commits Sŏn to hearing what a person needs only after they are hired. (c) A different list per strand. Commits Sŏn to several rubrics and a harder calibration. Depth: cons. 2.
-
-**Watch for:** a read that is really "would I enjoy working with them"; a read the house is supposed to teach (tempo, procedures) placed at the interview; a fifth read for leadership when for a lead seat it is the competency read.
-
-**A finished answer:** the reads named in plain words, one line each, with a note on which are scored and which are recorded, and Brandon can say which read a given question in the kit would belong to.
+**A finished answer:** the list confirmed or an amendment sent to 3.1.5, each read with its one line, the scored and recorded reads marked, and the note that the scorecard (3.2.8), the kit (3.2.26), and the review process in 5.4 all use this one list.
 
 **Needs agreement from:** no one else; Dominic should see it since 5.4 will inherit it.
-
-Narrowed in the cross-chunk pass to an action: what every hire is read on is 3.1.5's decision; this task confirms or amends that list as the interview's rubric and marks which reads are scored on the candidate and which are recorded about the building.
 
 ### 3.2.3 Decide how a candidate's outside experience counts
 
@@ -347,17 +329,20 @@ Narrowed in the cross-chunk pass to an action: what every hire is read on is 3.1
 
 **The question:** the white paper requires trained interviewers and a platform that does not exist yet; how do the first two interviewers get trained, and what is the record of it?
 
-**Why it matters now:** the lead candidates' first interviews cannot honestly run under the white paper's own rule until this is answered, and the readiness test (3.2.45) will check for a dated record.
+**Why it matters now:** the lead candidates' first interviews cannot honestly run under the white paper's own rule until this is answered, and the readiness test (3.2.45) will check for a dated record. The first leads inherit the same gap: the platform that would train them is built by the team they have not hired. 3.1 asked this question separately and it was merged here in the cross-chunk pass; 3.1's framing of the minimum is in the narrowing questions below.
 
 **Openers:**
 - Say the first three things you would want a new interviewer at Sŏn to unlearn from how the industry interviews. Now: who teaches you those?
+- Name the last interview you ran that you would be embarrassed to have recorded. What would training have changed?
 - Sideways: you were trained directly by Scott Rao and later trained others (WP p. 3). What did the training you received have that a manual would not? Can two people give each other that?
+- Sideways: the book's Stripe recruiters were themselves interviewed on a rubric for structured thinking (pp. 229 to 245). Would you pass your own first stage?
 - If you bought an interviewing course tomorrow, what would it teach that you would have to undo?
 
 **Narrowing questions:**
-- Documents first and the founders train each other; an outside trainer; the first lead brings the skill?
-- What are the practice runs on (consenting people who are not candidates)? How many?
-- What does the interim record hold, and where does it live until the platform exists?
+- Documents first and the founders train each other; an outside trainer who signs off both founders; the first lead brings the skill?
+- The minimum a founder completes before running any stage: the reads (3.1.5), the stage's questions, the rubric, and a practice interview scored by the other founder? Anything less, anything more?
+- What are the practice runs on (consenting people who are not candidates)? How many? Who scores them: Dominic, an adviser, someone who has hired for these seats?
+- What does the interim record hold, and where does it live until the platform exists (the team home, 2.2.15)? Does the same record cover the first leads before they interview anyone?
 - What is the first real two-person calibration: the practice scorecards read together, or the first lead candidate's?
 
 **What the book says:** train interviewers; interviewing is a skill that improves with practice inside a set process (pp. 193 to 194).
@@ -366,15 +351,13 @@ Narrowed in the cross-chunk pass to an action: what every hire is read on is 3.1
 
 **How others have handled it:** General practice, not Sŏn-specific. Early-stage companies mostly train interviewers by shadowing and a short written guide; formal programs come later. The book's own advice for a young company is a set process, well explained, before any tooling (p. 193).
 
-**Options:** cons. 3: (a) documents first, founders train each other, interim record by hand; (b) an outside trainer; (c) the first lead brings the skill.
+**Options:** cons. 3: (a) documents first, founders train each other, a scored practice interview each, interim record by hand on an interim page, checked by the other founder, and required of the first leads too. Commits both founders to doing it before the first candidate. (b) An outside adviser trains and signs off both founders. Commits Sŏn to finding one in time. (c) The first lead brings the skill. Commits Sŏn to the founders interviewing that lead untrained. (d) Founders interview untrained and the leads are trained on the platform later. Commits Sŏn to breaking WP p. 18 on its first hires.
 
-**Watch for:** "we've both hired plenty of people" standing in for training; a practice run on a real applicant.
+**Watch for:** "we've both hired plenty of people" standing in for training; a practice run on a real applicant; training that is a document read once; a record nobody can find later.
 
-**A finished answer:** the method, the number and subject of practice runs, the record's contents and home, and the first calibration, and both founders have agreed to do it before the first lead stage.
+**A finished answer:** the method, the number and subject of practice runs, the record's contents and home, who checks it, the rule that the first leads complete the same before interviewing, and the first calibration, and both founders have agreed to do it before the first lead stage.
 
 **Needs agreement from:** Dominic.
-
-Also covers what "Decide how the founders become trained interviewers before the learning platform exists" asked (from 3.1).
 
 ### 3.2.13 Decide what makes an interviewer trained, what sends them back, and whether Sŏn has a selected interviewer class
 
@@ -411,15 +394,17 @@ Also covers what "Decide how the founders become trained interviewers before the
 
 **The question:** the white paper promises a candidate can interview in their language; what happens before a trained speaker of it exists?
 
-**Why it matters now:** the cohort will include candidates whose first language is not English, and the promise is on the seat description from the first posting.
+**Why it matters now:** the cohort will include candidates whose first language is not English, and the promise is on the seat description from the first posting. Kitchens in this city run in more than one language, and onboarding (3.3) has to deliver in whatever languages hiring offers. 3.1 asked this question separately; it was merged here in the cross-chunk pass, and its concern with the match to onboarding is carried below.
 
 **Openers:**
 - A strong applicant for a kitchen seat chooses Spanish. Neither of you can run the stage. What does the applicant system tell them, today?
 - Sideways: the white paper says language choice protects dignity (WP p. 17). Which protects it more: an interpreter, or an honest "not yet"?
+- Sideways: which is worse, offering a language you cannot deliver a check-in in, or not offering it and losing the candidate?
 - Which languages does the house commit to first, and how do you know?
 
 **Narrowing questions:**
-- An interpreter in the room with the trained interviewer; the stage waits for a trained speaker; the promise stated as "where we can" until then?
+- An interpreter in the room with the trained interviewer, with the rubric in that language; a bilingual interviewer hired early for the kitchen; the stage waits for a trained speaker; the promise stated as "where we can" until then?
+- Which languages at launch, and are they matched to what onboarding can deliver (3.3)? Do the founders' and first leads' own languages decide the list?
 - Does the first lead hire's or an early cohort hire's language change the plan?
 - What does the seat description say in the meantime?
 
@@ -429,15 +414,13 @@ Also covers what "Decide how the founders become trained interviewers before the
 
 **How others have handled it:** General practice, not Sŏn-specific. Restaurants with multilingual kitchens commonly interview through a bilingual lead or cook; a paid interpreter for hiring is unusual but not unheard of in larger hospitality employers.
 
-**Options:** cons. 3.
+**Options:** cons. 3: (a) offer what a trained bilingual interviewer can run, and sequence that hire early for the kitchen. Commits Sŏn to sequencing that hire. (b) A paid interpreter for any language, rubric translated. Commits Sŏn to interpreters who understand the reads and never score. (c) English only at launch, stated in the posting. Commits Sŏn to a smaller kitchen pool and a promise deferred.
 
-**Watch for:** the interpreter becoming the interviewer; a promise on the posting the house cannot keep on the day.
+**Watch for:** the interpreter becoming the interviewer, or scoring; a promise on the posting the house cannot keep on the day; a language offered in hiring and absent in onboarding.
 
-**A finished answer:** the interim handling, the first languages committed to, and the posting's wording.
+**A finished answer:** the interim handling, the first languages committed to, the mechanism for each, the match to 3.3 stated, and the posting's wording.
 
-**Needs agreement from:** no one else.
-
-Also covers what "Decide how the interview-language promise is kept before anyone at Sŏn speaks the candidate's language" asked (from 3.1).
+**Needs agreement from:** the chef partner for the kitchen's languages, once seated.
 
 ### 3.2.15 Decide which seats get reference calls and who makes them
 
@@ -686,11 +669,11 @@ Also covers what "Decide how the interview-language promise is kept before anyon
 
 **What Brandon supplies:** the lead-seat block's questions in his words (holding a domain with no one above or below; reading a problem as a systems question first; what they would refuse to do), the first anchor for each read at the "meets" level, and the presence-language lexicon the scan looks for. The founders write the lead seats' kit themselves; every later kit follows the process.
 
-**Capture for the kit:** which questions drew a real answer in the practice runs; the order that worked; where an anchor could not be written without a presence word; what inputs a lead needs before drafting (the seat description, the reads, what the seat hands off and receives).
+The candidate stage notes and interviewer prep notes were a separate deliverable until the cross-chunk pass merged them here. For those, Brandon supplies: the sentence that tells a candidate what a stage does and does not read; what the two lead candidates are told beforehand about the dinner in the room (WP p. 18), since it is evaluation and recruitment at once; and whether an interviewer's prep note shows any prior interviewer's read, per 3.2.9. The rest of each note follows the task's list (for the candidate: purpose, length, who is present by seat, format and language confirmed, what to wear, when and how they will hear; for the interviewer: the seat description, the stage's kit and anchors, the reads, the candidate's chosen language and format, what the candidate was already told, their own training currency). The book's case for the candidate note is goodwill (pp. 193 to 194); the white paper's is that the system tells candidates exactly what to expect at each step (WP p. 17).
+
+**Capture for the kit (3.2.29):** which questions drew a real answer in the practice runs; the order that worked; where an anchor could not be written without a presence word; what inputs a lead needs before drafting (the seat description, the reads, what the seat hands off and receives); which line of the candidate note a candidate asked about anyway.
 
 **Needs agreement from:** the chef partner for the kitchen's kit, later.
-
-Also covers what "Write the candidate stage notes and interviewer prep notes" asked (from 3.2).
 
 ### 3.2.31 Write the chef seat's process for whichever branch 2.1.10 lands (action needing both founders)
 
@@ -839,16 +822,20 @@ Also covers what "Write the candidate stage notes and interviewer prep notes" as
 
 **The question:** once a founder no longer meets every candidate, what read from outside the domain, if any, sits on an entry-level packet?
 
-**Why it matters now:** it is the gap the earlier work named and did not close: the book's bar raiser, committee, and executive review all put someone outside the team on every hire; if Sŏn has none of them, the outside check is monthly and after the fact.
+**Why it matters now:** it is the gap the earlier work named and did not close: the book's bar raiser, committee, and executive review all put someone outside the team on every hire; if Sŏn has none of them, the outside check is monthly and after the fact. 3.1 asked the same question with a different timing, decided at the first mechanism reset (2.3.34) with the pipeline report (3.1.37) in hand; the two were merged here in the cross-chunk pass, and the timing is now one of the things to choose.
 
 **Openers:**
 - A year in, a floor lead hires four servers in a month. Who outside the floor has read any of those packets before the offers went out?
+- If you learned in month four that the floor's hires were all the same shape, what would you want to have been recording since month one?
 - Sideways: the white paper says the center is where the most connections intersect, not a rank (WP p. 9). Is an outside read on a packet a rank thing or a connections thing?
+- Sideways: Amazon's bar raiser exists because a hiring manager under pressure to fill a seat lowers the bar without meaning to. Who at Sŏn feels that pressure most?
 - What does it cost, in a trained person's hours per hire, to put a second domain on every packet?
 
 **Narrowing questions:**
 - None per packet, relying on the assessor's separation, the scored practical, the calibration read, and a hire-against-a-flag trigger? The founder stage kept indefinitely? The other lead or an adjacent-domain interviewer on every packet?
 - Does the answer differ by seat class?
+- When is it decided: now, before the first frontline packets, and reread at the reset; or held open until the reset, with the data 3.1.37 must hold for it named today (declines by stage and source, hires against a flag)?
+- Either way, the decision-rights entry in 3.1.32 is updated when the answer lands.
 
 **What the book says:** a bar raiser from outside the hiring team on every panel preserves the standard once leadership can no longer meet every candidate (pp. 197 to 198); Google's founders reviewed every packet, then delegated (pp. 198 to 199).
 
@@ -856,15 +843,13 @@ Also covers what "Write the candidate stage notes and interviewer prep notes" as
 
 **How others have handled it:** General practice, not Sŏn-specific. Amazon's answer is the bar raiser; most small companies' honest answer is that no one outside the team reads the packet, and they rely on the manager.
 
-**Options:** cons. 11.
+**Options:** cons. 11 on the check itself. On timing: (a) decide now and reread at the reset. Commits Sŏn to an answer before any data, revisable. (b) Hold until the reset. Commits Sŏn to naming today what 3.1.37 records, and to the founder stage or nothing standing in until then.
 
-**Watch for:** keeping the founder stage "for now" with no end condition, which is (b) unadmitted.
+**Watch for:** keeping the founder stage "for now" with no end condition, which is (b) unadmitted; deciding now without data while calling it final; keeping the founders' stage by default because nobody raised it at the reset.
 
-**A finished answer:** one sentence, the cost in hours, and whether it differs by seat class.
+**A finished answer:** one sentence, the cost in hours, whether it differs by seat class, and when it is decided; if held to the reset, the data 3.1.37 must hold for it and the reset date it is on.
 
 **Needs agreement from:** Dominic if a founder stays in.
-
-Also covers what "Decide what replaces the founders' read on frontline hires once it retires" asked (from 3.1).
 
 ### 3.2.42 Decide how an internal candidate is hired, and what those not chosen are owed
 

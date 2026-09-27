@@ -4,15 +4,15 @@
 
 **What this chunk covers.** The book's closing note on the chapter (pp. 360 to 362): share the same information with everyone, pass information down with framing, keep a snippets document, decide each day what to tell people. The book's team sits at desks. Sŏn's is reached on a phone before and after shifts, in more than one language, by people who may never share a service. The channels, the transparency line, the destinations page, and the writing card already exist upstream; this session decides the language list and how translation is paid, the interpreter's reach, the record rule, the pass-down, whether there is a house note or a chat tool, the rules for recognition and the feedback channel, the phone, the exit conversation, and how the house checks that anything reached anyone.
 
-**Already decided upstream, so not reopened here.** The transparency line (2.2.6); the three channels and "reached" (2.2.11); the communications policy (2.2.12); the team home (2.2.13, 2.2.15); the brief and close (2.3.7, 2.3.8); the check-in (2.3.9); the pulse and the channel's windows and closing states (2.3.15, 2.3.16); the destinations page (4.5.11, 4.5.17); the writing card (4.5.19); how a structure change reaches people (4.1.12); the interpreter card (4.1.22); the live-risk line (4.1.30, 4.1.31); what the team hears when someone leaves (4.3.9); the languages hiring offers (3.2.14, 3.2.14); training media's voice rule (3.3.19). Read those `decisions.md` entries first.
+**Already decided upstream, so not reopened here.** The transparency line (2.2.6); the three channels and "reached" (2.2.11); the communications policy (2.2.12); the team home (2.2.13, 2.2.15); the brief and close (2.3.7, 2.3.8); the check-in (2.3.9); the pulse and the channel's windows and closing states (2.3.15, 2.3.16); the destinations page (4.5.11, 4.5.17); the writing card (4.5.19); how a structure change reaches people (4.1.12); the interpreter card (4.1.22); the live-risk line (4.1.30, 4.1.31); what the team hears when someone leaves (4.3.9); the languages hiring offers (3.2.14); training media's voice rule (3.3.19). Read those `decisions.md` entries first.
 
-**Who else must agree.** Dominic on the language list and translation (4.8.2, 4.8.3), the record rule (4.8.6), the house note (4.8.8), the chat tool (4.8.9), recognition and the channel (4.8.10, 4.8.11), the phone (4.8.12), the exit conversation (4.8.14), the reach review (4.8.15), and every build (4.8.19 to 4.8.19). Counsel on the off-shift rule (4.8.9), the phone's disclosure (4.8.12), and the outreach consent (4.8.14, 4.8.22). The chef partner on the kitchen's interpreter case (4.8.5).
+**Who else must agree.** Dominic on the language list and translation (4.8.2, 4.8.3), the own-words rule (4.8.4), the record rule (4.8.6), the house note (4.8.8), the chat tool (4.8.9), recognition and the channel (4.8.10, 4.8.11), the phone (4.8.12), the exit conversation (4.8.14), the reach review (4.8.15), and the communication tools specification (4.8.19). Counsel on the off-shift rule (4.8.9), the phone's disclosure (4.8.12), and the outreach consent (4.8.14, 4.8.22). The chef partner on the kitchen's interpreter case (4.8.5).
 
 **Why it sits here.** Last in Chapter 4 because it is where the chapter's remedies become concrete for a house that is never all in one room; it depends on 4.6's threshold for the whole-team statement and on 4.7's counsel questions for the language and background matters.
 
 ## 2. Agenda
 
-1. The language list and translation (4.8.2, 4.8.3), then the interpreter's reach (4.8.5).
+1. The language list and translation (4.8.2, 4.8.3), the own-words rule (4.8.4), then the interpreter's reach (4.8.5).
 2. The record rule and the pass-down (4.8.6, 4.8.7).
 3. The house note, the weekly line, and a chat tool (4.8.8, 4.8.9).
 4. Recognition and the feedback channel (4.8.10, 4.8.11).
@@ -87,6 +87,38 @@ A long agenda for a three-page section. If time is short, do 1, 2, and 4 first; 
 **A finished answer:** who, the check, the pay rule, the machine rule and its disclosure, the version rule.
 
 **Needs agreement from:** both seated founders.
+
+### 4.8.4 Decide the own-words rule: whether the house ever rewrites, summarizes, or translates what a person wrote in their own words
+
+**The question:** when a person has written something about themselves in their own words, may anyone at Sŏn rewrite it, shorten it, or put it into another language, and if a translation exists, which one is the record?
+
+**Why it matters now:** the person page (2.3.11) is built on the person's own lines; the check-in's one line, a review's self-assessment, a feedback item, a recognition, an exit conversation, and a candidate's scorecard note are all written by someone about themselves or in their own voice; and the house runs in more than one language (4.8.2), with a translation rule (4.8.3) that so far covers the house's documents, not a person's. The writing card (4.5.19) already says a person's words on the person page are never rewritten; this decides whether that rule is the whole answer and what translation does to it. New in the cross-chunk pass; it came out of 5.3's feedback work and sits here because translation is where it bites hardest.
+
+**Openers:**
+- A line cook writes their check-in line in Spanish. The partner who reads the leads' review aggregate does not read Spanish. What happens to that line between the cook and the partner, and who touched it?
+- Sideways: the white paper says employees are the users (WP p. 17). A user's own record that someone else can edit is not theirs. Say where at Sŏn that would be tolerable, if anywhere.
+- A recognition arrives with a spelling mistake in it. Does anyone fix it? Now the same question for a self-assessment that is two pages long.
+
+**Narrowing questions:**
+- Rewrite or summarize: never; only the person; a lead with the person's sign-off, shown as edited? Does it differ by kind (a scorecard note about a candidate is not the candidate's; a recognition is the giver's)?
+- Translate: never, the original always stands and any translation is marked as one; translated only at the person's request; translated by default for the reader?
+- What a translation of a personal record carries: the original beside it, the translator's name, the date, and a mark that it is not the record?
+- What a reader does with words they cannot read: ask the person, use an interpreter under 4.8.5's rule, read the marked translation, or accept that some lines are not for them?
+- Where the rule is stated: the internal writing reference card (4.5.19) and the language page (4.8.16), and does the tool enforce it or the rule alone?
+
+**What the book says:** written communication carries the writer's meaning only if no one edits it on the way; the manager's job is to pass information down with framing, not to rewrite what came up (pp. 330 to 332, 360 to 361).
+
+**White-paper default:** "employees are the users" and systems are designed for the people who use them (WP p. 17); the white paper does not address who may edit a person's own record, and it never puts a translator between a person and their page.
+
+**How others have handled it:** General practice, not Sŏn-specific. Human-resources systems almost always let a manager edit a self-assessment's presentation and rarely mark it; multilingual workplaces that take this seriously keep the original as the record and treat any translation as a courtesy copy with the translator named.
+
+**Options:** (a) never rewritten or summarized by anyone but the person; translated only at the person's request, the original always the record, the translation marked with translator and date; a reader who cannot read a line asks the person or uses the interpreter. Commits Sŏn to some lines that a partner cannot read, and to the aggregate at the leads' review being built from counts and themes rather than from the lines. (b) The same, with translation by default for the reader, marked, the original still the record. Commits Sŏn to paying for translation of personal records under 4.8.3 and to a translator reading every page. (c) A lead may summarize with the person's sign-off, shown as edited. Commits Sŏn to a sign-off step on every edit and to the person page carrying two versions. Depth: 4.8's considerations on translation.
+
+**Watch for:** a tool that autocorrects or auto-translates a field and calls it the same record; "summarized for the review" as the way a lead's reading becomes the person's words; a translation that becomes the record because it is the one the reader can see; the candidate scorecard note treated as the candidate's words when it is the interviewer's.
+
+**A finished answer:** for each kind of record, the rewrite rule and the translation rule in one line; what a translation carries; what a reader does with a line they cannot read; and the two pages the rule is stated on.
+
+**Needs agreement from:** Dominic, since the person page and the tools carry it; counsel only if a translated personal record must serve as the record in a dispute, which goes on 0.4's register as a question.
 
 ### 4.8.5 Decide the interpreter designation's rule and its reach
 
@@ -443,7 +475,7 @@ Brandon drafts the first issue's sections out loud: what changed and why since t
 - 4.8.16 The language list and translation rule page (from 4.8.2, 4.8.3). Not repeatable.
 - 4.8.17 The founding and candidate-facing set translated before the first cohort (from 4.8.2, 4.8.3).
 - 4.8.18 The communication page for the team home (from 4.8.6 to 4.8.11).
-- 4.8.19 The communication tools specification: recognition, the feedback channel, phone handling, and the change-reach record, each with its manual fallback (from 4.8.10, 4.8.11, 4.8.12, 4.8.13, 4.8.15, 2.2.11). Dominic's build. Also covers what the separate feedback channel, phone handling, and change-reach specifications asked (from 4.8).
+- 4.8.19 The communication tools specification: recognition, the feedback channel, phone handling, and the change-reach record, each with its manual fallback (from 4.8.10, 4.8.11, 4.8.12, 4.8.13, 4.8.15, 2.2.11). Dominic's build. Four specifications until the cross-chunk pass merged them into one, in sections. What each section must state: for recognition, what the tool must allow (a peer's words, a specific action, one service), what must be off, and how a decline is handled; for the feedback channel, the item's fields, the three closing states and their windows (2.3.16), the anonymity option and its behaviour, who sees what, the sync to the execution system (WP p. 22), and the languages; for phone handling, who or what answers, the disclosure sentence if any, the languages, the three record destinations and the no-relay rule, the routing of staff-directed calls on and off shift, and the gap flag for a message not in the record; for the change-reach record, that the stack produces from existing data, never by hand, whether each versioned change appeared in every open period's brief, exists in every listed language, and dates before each affected person's check-in, showing the process step that missed and never a name, read at the leads' review (2.3.19). Each section carries a paper or form fallback if the tool cannot be configured as specified. 4.8.23 walks every section on a phone in each listed language before the first training service. Brandon's input is only the refusals in each section; the fields are Dominic's.
 - 4.8.20 The whole-team statement form (from 4.6.16).
 - 4.8.21 The house note template and first issue (from 4.8.8), if adopted.
 - 4.8.22 The exit conversation guide and outreach note (from 4.8.14), with counsel.
@@ -462,5 +494,4 @@ None. The exit conversation guide is a house guide with one owner, not a documen
 - The pay question's page and the point system's visibility: 5.5.
 - The stack's data hub and the tools' bindings: 2.2.24; every build here is Dominic's domain.
 - Training modules in every language: 3.3.38 under 4.8.2's rule.
-- The interview-language promise before a speaker exists: 3.2.14, 3.2.14.
-- New in the cross-chunk pass: 4.8.4 Decide the own-words rule: whether the house ever rewrites, summarizes, or translates what a person wrote in their own words; brief to be written.
+- The interview-language promise before a speaker exists: 3.2.14.
