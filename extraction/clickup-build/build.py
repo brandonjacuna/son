@@ -117,7 +117,18 @@ def main():
         k = f'{a}<{b}'
         if k in done:
             continue
-        cu.req('POST', f'task/{ids[a]}/dependency', {'depends_on': ids[b]})
+        for attempt in range(6):
+            try:
+                cu.req('POST', f'task/{ids[a]}/dependency', {'depends_on': ids[b]})
+                break
+            except RuntimeError as e:
+                if 'already' in str(e).lower() or 'exist' in str(e).lower():
+                    break
+                raise
+            except Exception:
+                time.sleep(20)
+        else:
+            raise RuntimeError(f'gave up on {k}')
         done.add(k)
         if len(done) % 50 == 0:
             ids['_deps'] = sorted(done); save(ids)
