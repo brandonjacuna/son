@@ -1,5 +1,8 @@
 <!-- Phase 2 working output, 2026-09-28. Module discovery for the back-of-house discipline under D30. Raw agent return, not reviewed line by line. Not a decision; nothing here lands until Brandon and the executive chef decide it. -->
 
+
+> **Clarified by Brandon after this sweep (2026-09-28):** prep cooks are commis, and chef de cuisine keeps its usual meaning, so the flag on it below is resolved. The chef partner and the executive chef are one seat. No back-of-house standard is fixed before the chef is hired.
+
 # Back of house: a draft discipline for redevelopment with the executive chef
 
 **Date:** 2026-09-28

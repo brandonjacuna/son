@@ -444,6 +444,7 @@ Each decision records the question, the options on the table, the call, the reas
 - Brandon's experience enters as Brandon's own account, given directly (interviews or his writing), never reconstructed by research from what is public about the houses he worked in. Practices of Coqodaq, Alinea, and Gracious are still flagged, never written as fact.
 - Station specifics, recipes, and menu execution stay `chef.*` bindings. The draft carries the structure, the standards, and the durable craft; the chef redevelops it and signs it off before any back-of-house module parks.
 - The executive chef's view takes priority over the draft (intake group 1).
+- Clarified by Brandon (2026-09-28): prep cooks are commis, and chef de cuisine keeps its usual meaning. The chef partner and the executive chef are one seat. No back-of-house standard is fixed before the chef is hired.
 
 ### D31. No sharing function; celebration happens in person
 
