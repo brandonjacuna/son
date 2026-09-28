@@ -1,15 +1,17 @@
 # Pointers
 
-IDs only. Pull the content live through the connector every time. If an ID here disagrees with the Master Pointer Index, the Master Pointer Index wins; update this file.
+IDs only. Read the content through the connector every time. If an ID here disagrees with the Master Pointer Index, the Master Pointer Index wins; update this file.
+
+**Source rule (Brandon, 2026-09-28).** Internal sources are read from Box, never from ClickUp documents. ClickUp is for tracking: tasks, lists, and the catalog mirror. The ClickUp documents below are listed for reference only and are not read as sources. The Sŏn Operating System is an active project that has not begun and is not considered.
 
 ## ClickUp
 
 | Resource | ID | Use |
 |---|---|---|
 | Master Pointer Index | doc `2ky45bmy-16833` | Full resource map. Profile Replacement Queue is page `2ky45bmy-27093`. |
-| Brand Guidelines (canon) | doc `2ky45bmy-15773` | Brand facts, service choreography, verbal identity. |
-| Business Strategies Notebook V7 | doc `2ky45bmy-11873` | Part II, The Organization That Compounds, page `2ky45bmy-30273`, holds the training commitments. Part I, page `2ky45bmy-30233`. |
-| Sŏn Operating System | doc `2ky45bmy-17253` | The company operating system built by the Scaling People program. |
+| Brand Guidelines | doc `2ky45bmy-15773` | Reference only; read the Box copy (see Box). |
+| Business Strategies Notebook V7 | doc `2ky45bmy-11873` | Reference only; not read as a source. Strategy is read from the white paper in Box. |
+| Sŏn Operating System | doc `2ky45bmy-17253` | Active project, not begun. Not considered. |
 | Research Capture (profile methodology) | doc `2ky45bmy-16853` | Seven-stage synthesis procedure, page `2ky45bmy-27213`. |
 | L&D / People & Culture build tracker | doc `2ky45bmy-17273` | Cited by the L&D profiles. Not reachable through the connector on 2026-09-26; confirm the ID or sharing. |
 | People space | `90136734650` | Holds the training tracker. |
@@ -22,6 +24,9 @@ IDs only. Pull the content live through the connector every time. If an ID here 
 
 | Resource | ID |
 |---|---|
+| Brand and Experiential Guidelines (brand source) | file `2281626080747`, `10. AI Projects / Design`. Markdown copy `2356731001214` (`Design / v2.1-2026-07-19-defect-fix / uploads`) if the PDF does not extract. |
+| Sŏn Investor White Paper Sept 2026 (strategy source) | file `2466517057642`, `00. Pitch Materials / White Paper`. Investor-facing; carries figures, never carry a value. |
+| Box structure guide | file `2480417968712`, `00. Start Here / Start Here.md` |
 | Profiles folder | `393577233571` |
 | Learning & Development cluster | folder `400224498698` |
 | People & Culture cluster | folder `400281721352` |

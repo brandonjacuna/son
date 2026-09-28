@@ -23,9 +23,11 @@ A module whose durable content is complete and whose only gaps are declared bind
 | Frozen releases | Box folder `421837487417` | Approved module packages exported as snapshots. |
 | Published modules | Trainual (current plan) | Rendered from source by an adapter. Never edited in Trainual first. |
 | Financial figures | Airtable | Never generated, estimated, or recalled. Query or leave a `fact.*` binding. |
-| Brand facts | ClickUp Brand Guidelines `2ky45bmy-15773` | Pulled live. Never hard-coded here. |
-| Strategy (V7) | ClickUp Business Strategies Notebook `2ky45bmy-11873` | Part II holds the training commitments. Pulled live. |
+| Brand facts | Box, Brand and Experiential Guidelines (PDF), file `2281626080747` | Read from Box. Never hard-coded here. |
+| Strategy | Box, Sŏn Investor White Paper Sept 2026, file `2466517057642` | Read from Box. Carries figures; never carry a value. |
 | Full resource map | ClickUp Master Pointer Index `2ky45bmy-16833` | Open it when you need an ID not listed in `canon/pointers.md`. |
+
+Internal sources are read from Box, never from ClickUp documents. ClickUp holds tracking only: tasks, lists, and the module catalog mirror. The Sŏn Operating System is an active project that has not begun; do not consider it. (Brandon, 2026-09-28.)
 
 ## Lifecycle
 
