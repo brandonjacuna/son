@@ -252,3 +252,67 @@ Each decision records the question, the options on the table, the call, the reas
 - Volatility tags derived at `drafted` from binding namespaces: `tool.*` and `fact.*` high, `workflow.*` and `chef.*` medium, durable content low.
 - When a tool, workflow, or figure changes, every dependent module is flagged through the bindings registry.
 - Learner flags: a form on each module's closing page creates a review task (`tool.forms.content_flag`, `workflow.flag_to_review_task`). Trainual's native flag is not a reliable automation trigger.
+
+### D17. Outside compliance content (question 15)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Trainual's add-on course library for what it covers. (b) An outside provider by link, with the certificate uploaded and verified. (c) A provider's SCORM package where Sŏn holds the rights.
+
+**Call.** All three, each where it fits.
+
+**Reasoning.** Sŏn does not write its own versions of certified or compliance content (intake group 1; standing rules, "Scope"). The add-on library covers topics such as harassment prevention and workplace safety; no food handler or alcohol-service course was confirmed in it, so those come from outside providers.
+
+**What it changes.**
+- Compliance items are catalog rows of type `linked`, with no durable content.
+- Each required certification is mapped to its source: add-on, provider link (certificate uploaded, an Admin verifies), or provider SCORM where rights allow.
+- Costs are `fact.*` bindings. Tracked in ClickUp under the external certifications review.
+
+### D18. Lifecycle and review panels (question 16)
+
+**Decided 2026-09-28: moderate changes.** The file edits are proposed separately and wait for Brandon's yes.
+
+**Options on the table.** (A) Minimal: new catalog types only. (B) Moderate: (A) plus new exit criteria and panel rules. (C) (B) plus a `calibrated` checkpoint before any assessor release.
+
+**Call.** (B).
+
+**Reasoning.** The gate, measurement, and upkeep decisions above only hold if the lifecycle checks for them. A `calibrated` checkpoint is premature before any lead exists; D5 already requires calibration and audits before a lead signs alone.
+
+**What it changes (once the edits are approved).**
+- New catalog row types: `linked` (compliance, skips design and drafting), `library` (reading and listening tracks, finished by a proven conversation, light panel), `gate-spec` (per-skill gate criteria).
+- `designed`: any module that feeds a gate carries a gate spec, signed by the Assessment & Competency Designer.
+- `drafted`: volatility tags (D16) and a recall schedule (D15) present.
+- `reviewed`: a novice-attempt test for every critical-path module, once receiving-end learners exist (elicitation-gated).
+- Between `published` and `measured`: the post-launch review window (D14).
+- Panels: TBRI on every module with team feedback or role-play; the Organizational Systems Architect only on modules that change the tree, unlock rules, or role definitions; any scenario module keeps separate practice, gate, and measurement item banks.
+- The authoring template's instructional soundness becomes a deliverable owned by the Instructional Designer.
+
+### D19. The opening bootstrap (question 17)
+
+**Decided 2026-09-28.** Pre-opening itself stays deferred; this names how the first cohorts are assessed.
+
+**Options on the table.** (a) Founders and managers run every practical for the first cohorts, capped. (b) Certify assessors before opening. (c) Hire experienced leads and calibrate them.
+
+**Call.** A combination. Founders and managers assess the first cohorts. Assessors are identified and trained soon after opening, with at least one or two trained within the first few months.
+
+**Reasoning.** No calibrated lead exists at opening, and by Brandon's own rule (intake group 4) every practical needs a manager present until one does. Training assessors on a live floor is faster and more real than mock services before opening.
+
+**What it changes.**
+- The first cohorts' practicals and gate shifts are run by founders and managers, with a cap on live gates per service (`workflow.live_gate_limit`) so green crews are not overloaded (Hospitality Operations Realist).
+- The teaching and assessing track (LEA) is on the early build list, so assessors can be trained soon after opening. The timeline is `workflow.first_assessor_timeline`.
+- The first cohort's struggle points are logged: the sequence is a hypothesis until then (Curriculum & Program Architect).
+
+### D20. Who holds the door (question 18)
+
+**Decided 2026-09-28.**
+
+**The conflict.** The white paper gives the door to the Lead Host and frees the Maître d' from it. The brand guidelines have no host stand and the Maître d' receiving each customer at the top of the steps.
+
+**Call.** Responsibility and presence are split. The Maître d' holds responsibility for everything, the door included. During service the Maître d' delegates the door, and some tasks, to the host team, and they fall to the lead host. In physical presence through service, the lead host holds the door and the Maître d' holds the room. The lead host sits a step below the Maître d'.
+
+**Reasoning.** Brandon's ruling, reconciling the two sources: ownership stays with the Maître d'; the door is delegated work.
+
+**What it changes.**
+- Host-branch modules (door, arrival, pacing the room from the book) are the lead host's and host team's craft, taught as delegated work inside the Maître d''s responsibility.
+- Maître d' modules cover owning the room and delegating the door, including when to step in.
+- The Brand and Experiential Guidelines' arrival choreography describes the Maître d' at the threshold. Aligning that canon text to this decision is Brandon's edit to make, not the studio's; until then, modules cite this decision and bind specifics with `brand.*`.
