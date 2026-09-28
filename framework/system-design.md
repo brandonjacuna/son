@@ -34,7 +34,7 @@ Each decision records the question, the options on the table, the call, the reas
 **What it changes.**
 - Each module declares its unlock rule at design: time, mastery, or both.
 - Any time period is a `fact.*` or `workflow.*` binding, never written as fact.
-- Proposed edit to `framework/module-spec.md` (awaiting Brandon's yes): add an `unlock` field to the `program` block.
+- `framework/module-spec.md` carries an `unlock` field in the `program` block (approved 2026-09-28).
 
 ### D3. Trunk and branches (question 3)
 
@@ -64,3 +64,20 @@ Each decision records the question, the options on the table, the call, the reas
 **What it changes.**
 - AI presenters are allowed in internal training, modeled on the founders and on templates (intake group 5). Likeness consent for anyone else goes through HR. An AI presenter models; it never replaces rehearsal with feedback.
 - Question 22 (teaching the Korean terms): this ruling points to option (a), training may explain the terms in full. To be confirmed with Brandon when question 22 comes up.
+
+### D5. Leads, and whether a lead signs alone (question 4)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Leads co-rate; a manager holds every decision. (b) Leads sign alone after calibration and co-rated audits, inside scheduled paid time, with no authority over discipline or pay. (c) A separate paid certified-trainer position.
+
+**Call.** (b).
+
+**Reasoning.** It is the peer-led practical Brandon described (intake group 4), with the same bootstrap: a peer plus a manager until leads have completed their teaching and assessing training, then leads alone. Co-rated audits are what keep a lead's release trustworthy (Assessment & Competency Designer). Read with D3, a lead is a paid branch of their own role, not a rung above it, which reconciles the intake's promotable position with the white paper's "not permanent elevations."
+
+**What it changes.**
+- Leads are paid, promotable positions that can sign a practical alone once calibrated and audited.
+- Calibration and audit sit in the teaching and assessing track (LEA modules).
+- Assessing happens in scheduled paid time, outside service windows (Hospitality Operations Realist).
+- Leads hold no authority over discipline or pay, and titles never imply it (Organizational Systems Architect).
+- Open, not a training call: whether rating a practical counts as managing for an hourly employee. Routed to the HR seats before any lead signs alone.

@@ -45,6 +45,7 @@ learners:
 program:
   slot: introduce             # introduce | reinforce | master
   prerequisites: [ORI-001]
+  unlock: mastery             # time | mastery | both (framework/system-design.md D2). Any time period is a binding.
   gate: false                 # true if this module is or feeds a readiness gate
 transfer_goal: >
   On their own, a server can ...
