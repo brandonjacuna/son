@@ -428,3 +428,4 @@ Each decision records the question, the options on the table, the call, the reas
 - The program is organized by discipline (areas of knowledge and craft), each with depth levels from a trunk foundation to mastery, open to anyone by interest.
 - A role is what it requires: a set of disciplines at stated depths, plus its gates. Job descriptions render from a role's required set.
 - The trunk-and-branches picture was Brandon's sketch, not a spec. The module discovery research proposes better structures and visuals, and Brandon picks one.
+- Brandon's preferred visual: a constellation or skill web, not a tree. Game skill-tree design (his reference) is researched to shape it (`research/phase2-working/11-game-skill-trees.md`).
