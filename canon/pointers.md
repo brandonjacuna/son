@@ -24,7 +24,7 @@ IDs only. Read the content through the connector every time. If an ID here disag
 
 | Resource | ID |
 |---|---|
-| Brand and Experiential Guidelines (brand source) | file `2281626080747`, `10. AI Projects / Design`. Markdown copy `2356731001214` (`Design / v2.1-2026-07-19-defect-fix / uploads`) if the PDF does not extract. |
+| Brand and Experiential Guidelines (brand source) | file `2281626080747`, `10. AI Projects / Design`. Canonical (system-design D26). Markdown copy `2356731001214` (`Design / v2.1-2026-07-19-defect-fix / uploads`) is a text-extraction supplement only; where they differ, the PDF wins. |
 | Sŏn Investor White Paper Sept 2026 (strategy source) | file `2466517057642`, `00. Pitch Materials / White Paper`. Investor-facing; carries figures, never carry a value. |
 | Box structure guide | file `2480417968712`, `00. Start Here / Start Here.md` |
 | Profiles folder | `393577233571` |

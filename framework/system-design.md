@@ -361,3 +361,43 @@ Each decision records the question, the options on the table, the call, the reas
 **What it changes.**
 - Until the glossary exists, modules cite the term and bind its explanation: `founder.glossary.<term>`.
 - The glossary is internal canon. Where it lives is Brandon's call (Box, per the source rule). Tracked in ClickUp.
+
+### D24. Daypart scope (question 23)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Dinner and late night first, later dayparts as new branches. (b) All dayparts now. (c) Dinner only first.
+
+**Call.** (b). Training covers every daypart's register from the start.
+
+**Reasoning.** Brandon's call. The brand guidelines describe one behavioral logic across all dayparts with distinct registers, and the program is built as ongoing training, not only for the opening menu of services.
+
+**What it changes.**
+- Service and beverage branches carry each daypart's register, including the pyeong-sang protocol and late night, where canon defines them.
+- Daypart names on any surface follow the standing rule: no internal daypart code names, and Sŏn is never a daypart name. Modules use plain descriptors.
+- Which dayparts actually run at opening, and when, stays a `workflow.*` binding; content for a daypart not yet running is built and parked.
+- Whether each daypart is its own team or one team (Organizational Systems Architect) is not decided here.
+
+### D25. Service recovery (question 24)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Bounded: a known range and named escalation triggers, set before service. (b) Bounded by role: a wider range for the Maître d', a narrower one for the floor. (c) Open: whatever it takes, reviewed after.
+
+**Call.** (b).
+
+**Reasoning.** Pre-authorized discretion inside known limits (Brand and Experiential Guidelines, floor authority) lets people act without asking, and matching the range to the role keeps the generous end with the person who holds the room.
+
+**What it changes.**
+- Recovery modules teach each role its range and its escalation triggers. Every range and threshold is a `fact.*` binding from Airtable; who holds each range is `people.*`.
+- The durable craft is how to recover (match the make-good to the kind of loss, how the person is treated, closing the loop), not the amounts (Hospitality Craft Educator).
+- A pre-authorized gesture needs a named owner and the slack to carry it out on a full night (`workflow.recovery_owner`); the module teaches what to do when no one is free (Hospitality Operations Realist).
+- The food side of any recovery is chef-gated.
+
+### D26. Canonical brand guidelines copy (question 25)
+
+**Decided 2026-09-28.**
+
+**Call.** The June v3.0 PDF in Box (file `2281626080747`) is canonical. The July markdown copy (`2356731001214`) is a supplement for text extraction only; where the two differ, the PDF wins.
+
+**What it changes.** Nothing in the pointers: `canon/pointers.md` and CLAUDE.md already name the PDF. Brandon's source rule (internal sources from Box, never ClickUp documents) stands.
