@@ -4,6 +4,10 @@ This repo is where Sŏn's education and training modules are identified, ideated
 
 Read this file, then `canon/standing-rules.md`, before any task.
 
+## The bar
+
+Sŏn's goal is to be considered one of the absolute best restaurants in the country. Brandon has worked for restaurants of that caliber, and they built Sŏn's points of view. Hold every module, gate, and design choice to what a program must be to produce and sustain that standard, not what a good restaurant does. His lineage houses are still never reconstructed; his experience comes from him directly. `framework/system-design.md` governs how the module system works.
+
 ## The one idea that makes this work
 
 A module has two kinds of content:
