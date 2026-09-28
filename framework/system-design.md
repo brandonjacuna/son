@@ -429,3 +429,22 @@ Each decision records the question, the options on the table, the call, the reas
 - A role is what it requires: a set of disciplines at stated depths, plus its gates. Job descriptions render from a role's required set.
 - The trunk-and-branches picture was Brandon's sketch, not a spec. The module discovery research proposes better structures and visuals, and Brandon picks one.
 - Brandon's preferred visual: a constellation or skill web, not a tree. Game skill-tree design (his reference) is researched to shape it (`research/phase2-working/11-game-skill-trees.md`).
+
+### D29. Discipline names and order: a soft starting point
+
+**Decided 2026-09-28.** The names and their order around the trunk are soft-locked as a starting point and revisited after the module discovery research: service craft and movement; the room and time; flavor and perception; liquid craft; teaching and leading; decisions; back of house. They appear as working names on the skill web concepts.
+
+### D30. Back of house is built now, in draft
+
+**Decided 2026-09-28.** Supersedes the "shell only" treatment of back of house in the research.
+
+**Call.** Build the back-of-house discipline now, as a draft that is redeveloped with the executive chef once hired. The framing for back-of-house standards is Sŏn's positioning (the white paper and the Brand and Experiential Guidelines in Box) and Brandon's own experience in some of the country's best restaurants.
+
+**How the standing rules hold.**
+- Brandon's experience enters as Brandon's own account, given directly (interviews or his writing), never reconstructed by research from what is public about the houses he worked in. Practices of Coqodaq, Alinea, and Gracious are still flagged, never written as fact.
+- Station specifics, recipes, and menu execution stay `chef.*` bindings. The draft carries the structure, the standards, and the durable craft; the chef redevelops it and signs it off before any back-of-house module parks.
+- The executive chef's view takes priority over the draft (intake group 1).
+
+### D31. No sharing function; celebration happens in person
+
+**Decided 2026-09-28.** The skill web has no function for sharing a personal map. Releases and newly lit skills are celebrated through team communications and at pre-shift. Each person's position on the web stays private (D12).
