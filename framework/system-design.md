@@ -413,4 +413,5 @@ Each decision records the question, the options on the table, the call, the reas
 **What it changes.**
 - Barista Hustle stays a candidate, not a source, until it confirms a way to deliver and track inside Trainual (SCORM, an LMS integration, or written permission to host). Tracked in ClickUp as a question to put to Barista Hustle.
 - Until then, the beverage branch is built in Sŏn's own content, in Barista Hustle's spirit where useful (measurable drills, a named movement vocabulary, scoresheets that open with the learner stating their plan).
+- In-house Barista Hustle coach (the head of beverage accredited to run Barista Hustle's practical certification): Brandon is interested, but it is not the default plan. Sŏn's own practicals and assessors (D5, D8) are the default; a coach seat is an option to revisit once the head of beverage is hired.
 - The same test applies to any outside course library: usable and tracked inside Trainual, or not used. Linked certifications (D17) are the exception only where a legal certificate must come from an outside provider; the certificate is still uploaded and tracked in Trainual.
