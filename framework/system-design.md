@@ -51,6 +51,8 @@ Each decision records the question, the options on the table, the call, the reas
 - A person's position on the map stays private (Learner Advocate).
 - Leads (question 4) are read as a branch of their own role, not a top rung, unless decided otherwise.
 
+**Refined by D28:** branches are disciplines, not roles.
+
 ### D4. Brand-surface rules and internal training (questions 21 and 22)
 
 **Decided 2026-09-28, in part.**
@@ -415,3 +417,14 @@ Each decision records the question, the options on the table, the call, the reas
 - Until then, the beverage branch is built in Sŏn's own content, in Barista Hustle's spirit where useful (measurable drills, a named movement vocabulary, scoresheets that open with the learner stating their plan).
 - In-house Barista Hustle coach (the head of beverage accredited to run Barista Hustle's practical certification): Brandon is interested, but it is not the default plan. Sŏn's own practicals and assessors (D5, D8) are the default; a coach seat is an option to revisit once the head of beverage is hired.
 - The same test applies to any outside course library: usable and tracked inside Trainual, or not used. Linked certifications (D17) are the exception only where a legal certificate must come from an outside provider; the certificate is still uploaded and tracked in Trainual.
+
+### D28. Branches are disciplines, not roles (refines D3)
+
+**Decided 2026-09-28.**
+
+**Call.** Branches are not organized purely by role. Role-first branches turn each role into its own pocket of expertise. Knowledge areas cut across roles: gastrophysics, for example, is something every position benefits from mastering. A foundation of it belongs in the trunk, and going all the way into it as a student fits no role branch.
+
+**What it changes.**
+- The program is organized by discipline (areas of knowledge and craft), each with depth levels from a trunk foundation to mastery, open to anyone by interest.
+- A role is what it requires: a set of disciplines at stated depths, plus its gates. Job descriptions render from a role's required set.
+- The trunk-and-branches picture was Brandon's sketch, not a spec. The module discovery research proposes better structures and visuals, and Brandon picks one.
