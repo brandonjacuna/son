@@ -63,7 +63,7 @@ Each decision records the question, the options on the table, the call, the reas
 
 **What it changes.**
 - AI presenters are allowed in internal training, modeled on the founders and on templates (intake group 5). Likeness consent for anyone else goes through HR. An AI presenter models; it never replaces rehearsal with feedback.
-- Question 22 (teaching the Korean terms): this ruling points to option (a), training may explain the terms in full. To be confirmed with Brandon when question 22 comes up.
+- Question 22 (teaching the Korean terms) was decided separately: see D23.
 
 ### D5. Leads, and whether a lead signs alone (question 4)
 
@@ -270,7 +270,7 @@ Each decision records the question, the options on the table, the call, the reas
 
 ### D18. Lifecycle and review panels (question 16)
 
-**Decided 2026-09-28: moderate changes.** The file edits are proposed separately and wait for Brandon's yes.
+**Decided 2026-09-28: moderate changes.** Edits to `framework/lifecycle.md` and `framework/review-panels.md` approved and made the same day.
 
 **Options on the table.** (A) Minimal: new catalog types only. (B) Moderate: (A) plus new exit criteria and panel rules. (C) (B) plus a `calibrated` checkpoint before any assessor release.
 
@@ -278,7 +278,7 @@ Each decision records the question, the options on the table, the call, the reas
 
 **Reasoning.** The gate, measurement, and upkeep decisions above only hold if the lifecycle checks for them. A `calibrated` checkpoint is premature before any lead exists; D5 already requires calibration and audits before a lead signs alone.
 
-**What it changes (once the edits are approved).**
+**What it changes.**
 - New catalog row types: `linked` (compliance, skips design and drafting), `library` (reading and listening tracks, finished by a proven conversation, light panel), `gate-spec` (per-skill gate criteria).
 - `designed`: any module that feeds a gate carries a gate spec, signed by the Assessment & Competency Designer.
 - `drafted`: volatility tags (D16) and a recall schedule (D15) present.
@@ -316,3 +316,48 @@ Each decision records the question, the options on the table, the call, the reas
 - Host-branch modules (door, arrival, pacing the room from the book) are the lead host's and host team's craft, taught as delegated work inside the Maître d''s responsibility.
 - Maître d' modules cover owning the room and delegating the door, including when to step in.
 - The Brand and Experiential Guidelines' arrival choreography describes the Maître d' at the threshold. Aligning that canon text to this decision is Brandon's edit to make, not the studio's; until then, modules cite this decision and bind specifics with `brand.*`.
+
+### D21. Mentor and angel-shift trainer (question 19)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) One person: the angel-shift trainer is the mentor. (b) Two people: an assessor runs the angel shift, a separate cultural-steward mentor holds the relationship. (c) (b), with the mentor also the named contact on reserve shifts.
+
+**Call.** (a). One person.
+
+**Reasoning.** One relationship per new hire, and one person who knows how they are progressing. Simpler to staff in a small house.
+
+**What it changes.**
+- The angel-shift trainer is the new hire's mentor through their path. The white paper's mentor role (WP Part II, onboarding) is carried by this person.
+- The known tension, named so it is designed for: the same person both advocates for the learner and judges readiness. The release decision rests on the gate record and its audits (D8, D10), not on the mentor alone, and a second rater joins any gate the mentor rates.
+- The trailing this person runs is specified: what they say aloud, how they model then coach, when support fades (Hospitality Craft Educator).
+- What makes someone a good mentor (the white paper's cultural steward) is Brandon's to set: `founder.mentor_criteria`.
+
+### D22. Critique rituals and pre-shift teaching (question 20)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Two rituals: private, process-focused incident review and open, task-focused everyday feedback. (b) One open ritual for both. (c) (a), plus pre-shift teaching rotated to any rank.
+
+**Call.** (c).
+
+**Reasoning.** The white paper's private, process-focused review (WP Part II) and Brandon's open, cross-level critique (intake group 4) do different jobs. Feedback aimed at the person rather than the task reduces performance, and speaking up does not cost everyone the same, so both need a taught protocol. Rotating who teaches at pre-shift spreads teaching as a transmission method (Hospitality Craft Educator).
+
+**What it changes.**
+- Two rituals, designed so neither is mistaken for the other: private incident review (LEA module) and open everyday feedback (culture module in the trunk).
+- Cross-level critique is practiced at low stakes before it is aimed at anyone on a gate shift (Learner Advocate). TBRI and the Culture seats review both.
+- Pre-shift stays led by the Maître d', the operations manager, or the lead host (intake group 5); the teaching slot inside it rotates to any rank. Rotation never counts toward progression, as Brandon set (intake group 5).
+
+### D23. Teaching the Korean terms (question 22)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Training explains the terms in full. (b) Training teaches through cases without a gloss. (c) A founder-written internal glossary that is itself canon.
+
+**Call.** (c). Brandon writes an internal glossary of the Korean terms and persona labels, and training uses it.
+
+**Reasoning.** Brand surfaces keep the no-gloss rule (Brand and Experiential Guidelines, Hangul deployment). Inside, the team needs the meaning, and the meaning is Brandon's to set, not the studio's to infer.
+
+**What it changes.**
+- Until the glossary exists, modules cite the term and bind its explanation: `founder.glossary.<term>`.
+- The glossary is internal canon. Where it lives is Brandon's call (Box, per the source rule). Tracked in ClickUp.

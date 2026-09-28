@@ -30,10 +30,17 @@
 | If the module | Add |
 |---|---|
 | is or feeds a readiness gate | Assessment & Competency Designer |
-| includes correction, feedback, or role-play | TBRI |
+| includes correction, feedback, role-play, or team feedback | TBRI |
 | uses plan-do-review or active participatory practice | HighScope |
 | has a scenario, role-play, simulation, perception drill, or video component | Practice and Simulation Designer |
-| touches the advancement ladder or a role definition | Organizational Systems Architect |
+| changes the tree's structure, an unlock rule, or a role definition | Organizational Systems Architect (only then) |
 | sits in the program sequence in a new place | Curriculum & Program Architect |
 
 Seats marked `to-build` in `profiles/manifest.yaml` are skipped with a logged note until they exist in Box.
+
+## Rules added by the system design
+
+- Any module that feeds a gate: the Assessment & Competency Designer signs its gate spec at `designed` (D18).
+- `library` rows: core panel only, plus the Hospitality Craft Educator where the track touches the craft.
+- `linked` rows: no panel. The HR Implementer confirms the source meets the requirement.
+- The authoring template's instructional soundness is a deliverable owned by the Instructional Designer.
