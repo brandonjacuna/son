@@ -401,3 +401,16 @@ Each decision records the question, the options on the table, the call, the reas
 **Call.** The June v3.0 PDF in Box (file `2281626080747`) is canonical. The July markdown copy (`2356731001214`) is a supplement for text extraction only; where the two differ, the PDF wins.
 
 **What it changes.** Nothing in the pointers: `canon/pointers.md` and CLAUDE.md already name the PDF. Brandon's source rule (internal sources from Box, never ClickUp documents) stands.
+
+### D27. Outside course libraries must live inside Trainual (Barista Hustle)
+
+**Decided 2026-09-28.**
+
+**Context.** Barista Hustle is the leading coffee training source and a candidate for linked beverage content (`research/phase2-working/10-barista-hustle.md`). As researched, its courses run on its own site, courses cannot be assigned per person, progress stays with the individual, no SCORM or LMS connection was found, and its terms forbid re-hosting content without written permission.
+
+**Call.** Sŏn uses an outside library's modules only if they can be used and tracked inside Trainual. No external teaching tool. A Barista Hustle certificate may count as prior learning toward a Sŏn skill (open, not required); it never replaces Sŏn's own practical. No preference yet on adapting its scoresheets.
+
+**What it changes.**
+- Barista Hustle stays a candidate, not a source, until it confirms a way to deliver and track inside Trainual (SCORM, an LMS integration, or written permission to host). Tracked in ClickUp as a question to put to Barista Hustle.
+- Until then, the beverage branch is built in Sŏn's own content, in Barista Hustle's spirit where useful (measurable drills, a named movement vocabulary, scoresheets that open with the learner stating their plan).
+- The same test applies to any outside course library: usable and tracked inside Trainual, or not used. Linked certifications (D17) are the exception only where a legal certificate must come from an outside provider; the certificate is still uploaded and tracked in Trainual.
