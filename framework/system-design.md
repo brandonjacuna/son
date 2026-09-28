@@ -4,6 +4,10 @@ The governing document for how Sŏn's module system works. Every decision here w
 
 Each decision records the question, the options on the table, the call, the reasoning, and what it changes. Question numbers refer to section 4 of the research.
 
+## The bar
+
+Sŏn's goal is to be considered one of the absolute best restaurants in the country. Brandon has worked for restaurants of that caliber, and they built Sŏn's points of view. Every module, gate, and design choice in this system is held to that bar: what a program must be to produce and sustain a best-in-the-country standard, not what a good restaurant does. His lineage houses are still never reconstructed; his experience comes from him directly. (Brandon, 2026-09-28.)
+
 ## Decisions
 
 ### D1. Who owns people and training (question 1)
