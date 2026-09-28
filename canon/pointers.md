@@ -14,6 +14,7 @@ IDs only. Pull the content live through the connector every time. If an ID here 
 | L&D / People & Culture build tracker | doc `2ky45bmy-17273` | Cited by the L&D profiles. Not reachable through the connector on 2026-09-26; confirm the ID or sharing. |
 | People space | `90136734650` | Holds the training tracker. |
 | Module Catalog list | `1400400000001424` | The studio's status tracker, in People > People Documents > Education/Training Modules (folder `901317650530`). Mirrored from `catalog/catalog.yaml` by `/status`. |
+| L&D buildout tracker | task `17tn048r1dk` | Sŏn Learning and Development Buildout, parent task in the Founding Punch List (`901323485125`, Founding Sŏn space `90138396180`). Subtasks and sub-subtasks track program design, role map and job descriptions, the module catalog buildout, and deferred work. |
 | Hospitality space | `90136733933` | |
 | Operations space | `90136733940` | |
 
