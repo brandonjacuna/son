@@ -126,7 +126,7 @@ Each decision records the question, the options on the table, the call, the reas
 - The gate record lives in a form tool: `tool.forms.gate_record`, bound until the tool is chosen.
 - Automation is required, not optional: the Admin step is automated away (Organizational Systems Architect).
 - Records and map updates happen at close, never on a device during service (Hospitality Operations Realist).
-- `adapters/trainual.md` carries a wrong line saying e-signature can record an assessor's sign-off. Correction proposed, awaiting Brandon's yes.
+- `adapters/trainual.md` corrected (approved 2026-09-28): e-signature records only the signer's own acknowledgement, and option 4 is marked as the decided gate record.
 
 ### D9. The prove-it shift (question 7)
 
@@ -142,3 +142,51 @@ Each decision records the question, the options on the table, the call, the reas
 - The panel's concern stands as a design requirement, not a veto: this shift only works if the everyday critique culture already exists and is safe. The culture modules (open critique, how to give and take feedback across levels) sit in the trunk, ahead of any gate shift.
 - The gate decision itself still rests on the gate record (D8), not on a team vote.
 - TBRI reviews how this shift is introduced to the learner.
+
+### D10. Release evidence (question 8)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) One angel shift and one eyes-off shift. (b) The angel shift, then a window of eyes-off shifts until one more would not change the call. (c) (b), plus the condition that a skill counts for coverage only once its live gates ran on a real, full night, with periodic rechecks.
+
+**Call.** (c).
+
+**Reasoning.** One observed shift is under-sampled; trust decisions draw on several occasions (Assessment & Competency Designer, Learner Advocate, program-structures research). A skill proven only on a quiet night has not been proven at tempo (Hospitality Operations Realist).
+
+**What it changes.**
+- Release follows a window of eyes-off shifts, not a single shift. The window closes when another shift would not change the call, recorded on the gate form (D8).
+- A released skill counts toward coverage and the on deck reserve only after a real, full night. What counts as full is a `workflow.*` binding.
+- Rechecks run on `workflow.recheck_cadence`.
+- Released reads "released, reads still maturing" for the hospitality layer, which keeps growing with volume (Hospitality Craft Educator).
+
+### D11. Fail limit and retries (question 9)
+
+**Decided 2026-09-28, shape only.** The numbers are team-gated.
+
+**Options on the table.** (a) A fixed number of attempts, then coaching. (b) No attempt count: a required interval between attempts and a changed practice plan; repeated misses trigger a conversation about fit. (c) Leave the shape to the team.
+
+**Call.** (b).
+
+**Reasoning.** Spacing research favors an interval between attempts, and a check framed as a verdict on ability raises threat for little gain. Brandon's "there will certainly be a fail limit" (intake group 4) is met by the fit conversation that repeated misses trigger.
+
+**What it changes.**
+- No attempt counter. Each miss sets a required interval and a changed practice plan.
+- Repeated misses trigger an unblock conversation about fit, auto-scheduled like any other (question 11).
+- Safety elements pass in every attempt. Movement drills may be banked; the integrated practical may not (Assessment & Competency Designer).
+- The interval, what counts as repeated, and each gate's cut score are set with the hired leaders: `workflow.*` and `fact.*` bindings, team-gated.
+
+### D12. Showing the skill tree (question 10)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) An external live page reading Trainual progress through the API. (b) A static map in Trainual plus a printed wall map. (c) A SCORM map inside Trainual.
+
+**Call.** (a) with (b): a live personal page, plus a static map in Trainual and on the back-of-house wall that shows the structure only.
+
+**Reasoning.** Trainual shows lists and locks content only in a straight line, so the trunk and branches must be presented outside it to be "presented as much as possible" (intake group 2). Individual position stays private (Learner Advocate); visible rankings can backfire.
+
+**What it changes.**
+- The live page needs Trainual API access, which may need a higher plan: `tool.lms.api_access`, a founder call at bind time.
+- The wall map and the Trainual map show the tree, never anyone's place on it.
+- Streaks and leaderboards stay off unless Brandon turns them on (`tool.lms.gamification_setting`).
+- Map updates happen at close (Hospitality Operations Realist).

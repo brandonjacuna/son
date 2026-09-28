@@ -35,7 +35,7 @@ Researched 2026-09-26 from Trainual's help center, pricing page, and product upd
 | In-app video recorder and Loom integration | Record a real team member modeling a skill | Behavior modeling, worked example | | 2026-09-26 |
 | Video upload and hosting, auto transcripts, required-watch option | Host real footage; force full viewing where it matters | Behavior modeling | Pro and above | 2026-09-26 |
 | Audio upload | Pronunciation of Korean terms and dish names | Flashcards, vocabulary | | 2026-09-26 |
-| E-signatures | Acknowledgement records | Policy acknowledgement; can record an assessor's sign-off (see below) | Pro lists 300 per year | 2026-09-26 |
+| E-signatures | Acknowledgement records | Policy acknowledgement. Records only the signer's own acknowledgement, not an assessor's sign-off (corrected 2026-09-28) | Pro lists 300 per year | 2026-09-26 |
 | Content feedback icon | Learners flag confusing or wrong content | Feeds the Learner Advocate review loop | | 2026-09-26 |
 | Verification reminders, completion nudges | Owners re-verify content on a schedule; learners get reminders | Keeps bound content current | | 2026-09-26 |
 | Translate content (smart tools) | Second-language support | Learners working in a second language | Confirm quality per module | 2026-09-26 |
@@ -53,12 +53,12 @@ Publishing is a guided manual step today. `/render MOD-ID trainual` produces an 
 
 The readiness gate ("no one touches a table until demonstrably ready") is a live, observed performance. Trainual has no native observer checklist. Options, for the Assessment & Competency Designer to choose from:
 
-1. **Assessor e-signature:** the scoring rubric lives as a page; the assessor signs an acknowledgement that the learner met criterion. Record exists, rubric detail does not.
+1. **E-signature (ruled out):** an e-signature is the assignee's own acknowledgement, so it cannot record an assessor's sign-off.
 2. **Video response plus rubric:** learner submits a recorded demonstration as a video-response test question; the assessor grades it against the rubric. Good for skills that can be filmed; poor for tempo.
 3. **Performance suite review question:** the demonstration outcome becomes a question in a review cycle. Evaluate once the suite is on the account.
 4. **Outside Trainual:** a form (embedded) or the scheduling or HR system holds the observation record, and Trainual holds the learning. Decide at bind time.
 
-This is a founder-gated decision. It is recorded as `founder.gate_record_system` in any gated module.
+**Decided 2026-09-28 (`framework/system-design.md` D8): option 4.** An external form records the gate, the rater, and the rubric; automation marks the Trainual subject complete and assigns the next one. The form tool is `tool.forms.gate_record`, bound until chosen. `founder.gate_record_system` resolves to this decision.
 
 ## Exercise plan: seeing every option before committing
 
