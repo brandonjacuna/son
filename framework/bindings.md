@@ -17,7 +17,7 @@ Flag the allergy on the ticket using {{bind:tool.pos.allergen_flag}}.
 | `tool.` | A specific software or hardware step. POS, reservations, KDS, scheduling, the LMS. | Whoever owns the tool decision | When the tool is chosen and configured |
 | `workflow.` | A sequence not yet set: the opening order, the handoff at the pass, who calls what. | Operations Lead, Maitre d, or chef, per domain | When the SOP is set |
 | `fact.` | A figure or a changing fact: a price, a count, a time standard. | Pulled from Airtable or the owning doc | At bind time, never before |
-| `brand.` | A brand element: a phrase, a name, a service step defined in canon. | Pulled from Brand Guidelines `2ky45bmy-15773` | At bind time |
+| `brand.` | A brand element: a phrase, a name, a service step defined in canon. | Read from the Brand and Experiential Guidelines in Box, file `2281626080747` | At bind time |
 | `chef.` | Back-of-house specifics: station layout, recipe, plating, the allergen matrix. | The chef | When the menu and stations are set |
 | `people.` | A role title, a named contact, a reporting line. | Brandon | When roles are staffed |
 | `founder.` | A decision only Brandon can make. | Brandon | When decided |

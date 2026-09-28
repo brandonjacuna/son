@@ -27,7 +27,7 @@ A module whose durable content is complete and whose only gaps are declared bind
 | Strategy | Box, Sŏn Investor White Paper Sept 2026, file `2466517057642` | Read from Box. Carries figures; never carry a value. |
 | Full resource map | ClickUp Master Pointer Index `2ky45bmy-16833` | Open it when you need an ID not listed in `canon/pointers.md`. |
 
-Internal sources are read from Box, never from ClickUp documents. ClickUp holds tracking only: tasks, lists, and the module catalog mirror. The Sŏn Operating System is an active project that has not begun; do not consider it. (Brandon, 2026-09-28.)
+Internal sources are read from Box, never from ClickUp documents. ClickUp holds tracking only: tasks, lists, and the module catalog mirror. The Sŏn Operating System is an active project that has not begun; do not consider it. One exception: `/sync-profiles` still reads the Profile Replacement Queue page in ClickUp until Brandon phases it out. (Brandon, 2026-09-28.)
 
 ## Lifecycle
 

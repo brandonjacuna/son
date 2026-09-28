@@ -2,7 +2,7 @@
 
 IDs only. Read the content through the connector every time. If an ID here disagrees with the Master Pointer Index, the Master Pointer Index wins; update this file.
 
-**Source rule (Brandon, 2026-09-28).** Internal sources are read from Box, never from ClickUp documents. ClickUp is for tracking: tasks, lists, and the catalog mirror. The ClickUp documents below are listed for reference only and are not read as sources. The Sŏn Operating System is an active project that has not begun and is not considered.
+**Source rule (Brandon, 2026-09-28).** Internal sources are read from Box, never from ClickUp documents. ClickUp is for tracking: tasks, lists, and the catalog mirror. The ClickUp documents below are listed for reference only and are not read as sources. The Sŏn Operating System is an active project that has not begun and is not considered. Exception: the Profile Replacement Queue page (below) is still read by `/sync-profiles` until Brandon phases it out.
 
 ## ClickUp
 
