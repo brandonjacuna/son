@@ -190,3 +190,65 @@ Each decision records the question, the options on the table, the call, the reas
 - The wall map and the Trainual map show the tree, never anyone's place on it.
 - Streaks and leaderboards stay off unless Brandon turns them on (`tool.lms.gamification_setting`).
 - Map updates happen at close (Hospitality Operations Realist).
+
+### D13. Self-scheduling practicals and unblock conversations (question 11)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) The learner gets a booking link when a module is finished. (b) Nobody books: automation books the first open talent-block slot. (c) Trainual's "Request" access.
+
+**Call.** (a). Finishing a module sends the learner a single-use link to book a slot on a leader's talent block.
+
+**Reasoning.** The learner never has to ask anyone for a practical or a conversation; the link simply arrives (intake group 2). A booking link is simpler to build and run than fully automatic booking.
+
+**What it changes.**
+- Completion triggers the link; the talent blocks are the only bookable slots. `workflow.gate_autoschedule`, `workflow.talent_block`, `tool.scheduling.platform`, all bound.
+- The Organizational Systems Architect's caution stands as a known tradeoff: any step that waits on a person's action is where advancement can stall. An unbooked link resurfaces as a reminder rather than expiring silently (`workflow.unbooked_link_reminder`). Moving to automatic booking later is a change to the automation, not to the design.
+- Every conversation ends in one of four recorded outcomes (LEA-006).
+
+### D14. Measuring decision alignment and complacency (question 12)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Agreement with a reference panel on judgment scenarios. (b) Behavior-level evidence: floor observation and success-case interviews. (c) A watchlist of positive and complacency signals.
+
+**Call.** All three.
+
+**Reasoning.** Brandon's measure is people making the decisions he would make (intake group 7). Scenario agreement tracks alignment, floor evidence is what the `measured` stage requires, and the watchlist catches the complacency and mere participation he distrusts.
+
+**What it changes.**
+- Scenario agreement: Brandon anchors a reference panel built per judgment, with minority views kept (Hospitality Craft Educator). It is a learning and alignment measure and never gates advancement until calibrated leads join the panel (Assessment & Competency Designer). The measurement item bank is separate from the practice bank (Practice and Simulation Designer). Source content comes from the founder decision-making interviews.
+- Floor evidence runs in the weekly-meeting window after each launch (intake group 7; `workflow.post_launch_review_window`).
+- Watchlist signals are prompts to look, never targets or marks against a person. "The same few voices" prompts a look for concealment, not a judgment of the quiet (Learner Advocate).
+
+### D15. Module length (question 13)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) One objective and one learning job per critical-path unit, no time target. (b) Time caps per unit. (c) (a) plus a required spaced-recall schedule tied to the learner's next shifts.
+
+**Call.** (c).
+
+**Reasoning.** Efficacy drives length (intake group 3). The gains credited to short modules come from spacing, retrieval, and learner-paced segmenting, not shortness itself, and a time cap would be a figure.
+
+**What it changes.**
+- Each critical-path unit teaches one objective with one learning job, and carries a recall schedule anchored to the learner's next shifts (cap the longest gap rather than chase an interval).
+- Off-path long-form (masterclass recordings, reading tracks) is unrestricted.
+- Interleave near-miss visual discriminations; keep menu facts, specs, and scripts blocked (Instructional Designer, Practice and Simulation Designer).
+- Pre-shift format and timing, where much retrieval lives, stay team-gated.
+
+### D16. Keeping modules current (question 14)
+
+**Decided 2026-09-28.**
+
+**Options on the table.** (a) Date-based reminders only. (b) Volatility tags from bindings, with change events triggering review. (c) Both.
+
+**Call.** (c).
+
+**Reasoning.** Brandon asked for date reminders, pre-launch tags on what could change, and learner flags (intake group 6). Dates alone are blind to what actually changed; the bindings already mark volatile content.
+
+**What it changes.**
+- ClickUp review reminders by creation date.
+- Volatility tags derived at `drafted` from binding namespaces: `tool.*` and `fact.*` high, `workflow.*` and `chef.*` medium, durable content low.
+- When a tool, workflow, or figure changes, every dependent module is flagged through the bindings registry.
+- Learner flags: a form on each module's closing page creates a review task (`tool.forms.content_flag`, `workflow.flag_to_review_task`). Trainual's native flag is not a reliable automation trigger.
