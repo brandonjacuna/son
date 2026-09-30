@@ -14,7 +14,7 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 2. Knowledge can be learned at a screen. Understanding is proven by talking, and practicals by doing at a table. Nobody is released by clicking through.
 3. Physical movements are drilled apart from decisions, at many tempos, until automatic, so attention goes to the decision.
 4. A shared trunk, then endless branches by discipline, not role. Interest unlocks depth; a short conversation unblocks a move; cross-training is designed in.
-5. Learning is paid. Take-home practice is optional, invited, unpaid, and gates nothing (D7).
+5. Learning is paid. Every drill happens on site, on the clock (D41).
 6. Efficacy decides length: one objective per critical-path unit with spaced recall; long-form off-path content is unrestricted.
 7. Everyone critiques everyone, across levels. Private incident review and open everyday feedback stay separate. Complacency and mere participation are the failure modes.
 8. Outsiders' views are applied to Sŏn through their own lens; the material that teaches a point need not come from hospitality.
@@ -117,6 +117,8 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 - A holistic pay review comes once enough of the system is built. Tracked in ClickUp.
 
 ### D7. Take-home practice (question 5, take-home)
+
+**Superseded by D41 (2026-09-30):** take-home kits are dropped; all drills are on site and paid.
 
 **Decided 2026-09-28.**
 
@@ -524,3 +526,15 @@ The lean set before customer contact is not decided here: Brandon will decide it
 - The eyes-off window must include the hardest kind of night, not only a full one.
 - Everyone released has a standing recheck run-through on a regular cycle (`workflow.recheck_cadence`).
 - Every menu change triggers a re-proof of the affected knowledge.
+
+### D41. Take-home practice replaced: all drills on site and paid (review topic 8; amends D7)
+
+**Decided 2026-09-30.** Supersedes D7. Take-home kits are dropped. Every drill happens on site, on the clock, and paid. Reason: wage-and-hour rules treat training as unpaid only when it is outside hours, voluntary, and not directly related to the current job (29 CFR 785.27 and 785.29), and drills for a person's own role are directly related. Brandon's water-pitcher pour drill stays, run on site.
+
+### D42. Critique of founders and managers (review topic 10)
+
+**Decided 2026-09-30.** Anyone may critique a founder or manager in the open; it is invited, never required. No module requires a person to critique a leader live. The person giving it chooses.
+
+### D43. Pre-shift teaching pay (review topic 11)
+
+**Decided 2026-09-30.** Teaching a lesson at pre-shift is part of the paid shift, with no separate teaching pay. It stays voluntary and never counts toward progression (intake group 5).
