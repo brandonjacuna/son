@@ -506,3 +506,21 @@ Roles require depths; roles never define them. No one is Deep in anything by tit
 | The practical, and the rechecks, where a skill is proven | run-through |
 | The daily warm-up at every rank | warm-up |
 | The Student-level proof before a panel | recital |
+
+### D38. Module IDs (review topic 5)
+
+**Decided 2026-09-30.** Domain prefixes stay (ORI, SVC, BEV, KIT, SAF, SYS, LEA, CUL, LIB, plus FLV for flavor and perception and MNU for the menu), and every module carries `discipline` and `depth` as fields, so a module can move without being renamed. Existing IDs are kept. The `framework/module-spec.md` change goes to the Organizational Systems Architect (D18) and is proposed for Brandon's yes when drafted.
+
+### D39. The challenge route (review topic 6)
+
+**Decided 2026-09-30.** An experienced hire can challenge any Working-level drill or knowledge unit at entry, by a spoken check or a banked run-through, instead of sitting through the instruction. Safety elements are never challenged away and pass in every attempt (D11). Experienced hires still take the contrast-and-unlearn step against the house standard. A challenge proves the unit; it does not skip the gates of the whole skill.
+
+The lean set before customer contact is not decided here: Brandon will decide it after reviewing the modules.
+
+### D40. Gate raises (review topic 7)
+
+**Decided 2026-09-30.** All four raises from the best-in-the-country red team are adopted. Each amends D10 or D11 and goes to the Assessment & Competency Designer for the gate specs.
+- The spoken knowledge check covers the full current menu and pairings at depth.
+- The eyes-off window must include the hardest kind of night, not only a full one.
+- Everyone released has a standing recheck run-through on a regular cycle (`workflow.recheck_cadence`).
+- Every menu change triggers a re-proof of the affected knowledge.
