@@ -497,4 +497,12 @@ Roles require depths; roles never define them. No one is Deep in anything by tit
 
 ### D37. Vocabulary (review topic 4)
 
-**Decided 2026-09-30, direction only.** Job descriptions, gate specs, and pre-shift use conservatory terms, modernized and less pretentious. The map itself uses plain labels. The word set is chosen in the review.
+**Decided 2026-09-30.** Job descriptions, gate specs, and pre-shift use conservatory terms, modernized and less pretentious. The map itself uses plain labels.
+
+| Thing | Word |
+|---|---|
+| Short, repeated drills for physical movement | reps |
+| What a person is cleared to perform alone on a shift | repertoire |
+| The practical, and the rechecks, where a skill is proven | run-through |
+| The daily warm-up at every rank | warm-up |
+| The Student-level proof before a panel | recital |
