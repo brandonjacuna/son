@@ -486,3 +486,15 @@ Roles require depths; roles never define them. No one is Deep in anything by tit
 **Decided 2026-09-30.**
 - Every positional lead has proven Deep in the craft they lead, not only trained to supervise (adds to D5).
 - The skill web shows capabilities as stars, not modules. Many modules feed one star, and a star lights only from a recorded gate or proven conversation (D8).
+
+### D35. The visual: one sky (review topic 4)
+
+**Decided 2026-09-30.** The skill web is the one sky as `framework/skill-web-design-language.md` draws it: disciplines as color-batched constellations drawn as figures, depth as distance from the trunk, the default view a lit next step. The Design Translating Team produces the real concepts from the design language. The dark ground of the personal view is Plum Ink.
+
+### D36. Discipline colors outside the closed palette (review topic 4)
+
+**Decided 2026-09-30.** The skill web may use seven discipline colors outside the brand's closed palette, internal to training only (D4), anchored to brand colors where possible, as the design language proposes (`brand.skyweb.discipline_hues`). Exact values are refined when real concepts are made. State never relies on color alone.
+
+### D37. Vocabulary (review topic 4)
+
+**Decided 2026-09-30, direction only.** Job descriptions, gate specs, and pre-shift use conservatory terms, modernized and less pretentious. The map itself uses plain labels. The word set is chosen in the review.
