@@ -545,3 +545,19 @@ The lean set before customer contact is not decided here: Brandon will decide it
 **Decided 2026-09-30.**
 - The warm-up is a short drill segment built into pre-shift, at every rank. Pre-shift stays one gathering.
 - The warm-up and the standing recheck for everyone signed off are house rules for every rank, founders included.
+
+### D45. Brandon's decision interviews start now (review topic 12)
+
+**Decided 2026-09-30.** The incident-based interviews (Critical Decision Method) start now, a few incidents per session over several weeks, beginning with allergy routing (SAF-001) and how decisions get made here (ORI-003). They feed the decisions discipline, reading the table and hosting, and the back-of-house interview guide (`research/phase2-working/12-back-of-house.md`). Transcripts go to Box; non-negotiables become `founder.*` bindings.
+
+### D46. The standards book: the floor half now (review topic 13)
+
+**Decided 2026-09-30.** One written standard for the fixed layer (glass, silver, linen, the place setting, the smallest unseen task). Brandon and the studio draft the front-of-house half now; the executive chef writes the kitchen half. The precision modules (SVC-071, SVC-072) are drafted after it.
+
+### D47. Wine service and pairing (review topic 14)
+
+**Decided 2026-09-30.** Front servers own wine service and pairing at the table, trained by the beverage team. There is no separate sommelier seat. The wine modules (for example BEV-042) teach front servers; the head of beverage owns the content.
+
+### D48. Founder service conventions (review topic 15)
+
+**Decided 2026-09-30.** House conventions (serving and clearing side, the clearing rule, synchronized set-down, order capture, chair and coat handling) are decided with the Maître d' and operations manager once hired. Each is stated as Sŏn's own choice, never reconstructed from Brandon's past houses. Until then they are `workflow.*` bindings and the modules that depend on them (SVC-023, SVC-025, SVC-032) park.
