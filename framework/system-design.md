@@ -8,6 +8,19 @@ Each decision records the question, the options on the table, the call, the reas
 
 Sŏn's goal is to be considered one of the absolute best restaurants in the country. Brandon has worked for restaurants of that caliber, and they built Sŏn's points of view. Every module, gate, and design choice in this system is held to that bar: what a program must be to produce and sustain a best-in-the-country standard, not what a good restaurant does. His lineage houses are still never reconstructed; his experience comes from him directly. (Brandon, 2026-09-28.)
 
+## Teaching style (confirmed 2026-09-30)
+
+1. Training aligns people with the principles Brandon decides by, on top of skill, so the business runs without him in the room and people can in time decide better than he does.
+2. Knowledge can be learned at a screen. Understanding is proven by talking, and practicals by doing at a table. Nobody is released by clicking through.
+3. Physical movements are drilled apart from decisions, at many tempos, until automatic, so attention goes to the decision.
+4. A shared trunk, then endless branches by discipline, not role. Interest unlocks depth; a short conversation unblocks a move; cross-training is designed in.
+5. Learning is paid. Take-home practice is optional, invited, unpaid, and gates nothing (D7).
+6. Efficacy decides length: one objective per critical-path unit with spaced recall; long-form off-path content is unrestricted.
+7. Everyone critiques everyone, across levels. Private incident review and open everyday feedback stay separate. Complacency and mere participation are the failure modes.
+8. Outsiders' views are applied to Sŏn through their own lens; the material that teaches a point need not come from hospitality.
+9. Sŏn is a hyper-informed late entrant aiming at the top of the field, measured against the country's best.
+10. Safety and the why come before any customer contact. Testing happens before impact, never after.
+
 ## Decisions
 
 ### D1. Who owns people and training (question 1)
