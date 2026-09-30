@@ -466,3 +466,23 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 ### D31. No sharing function; celebration happens in person
 
 **Decided 2026-09-28.** The skill web has no function for sharing a personal map. Releases and newly lit skills are celebrated through team communications and at pre-shift. Each person's position on the web stays private (D12).
+
+### D32. The seven disciplines, and where cuisine lives (review topic 2)
+
+**Decided 2026-09-30.** The seven disciplines stand: service craft and movement; the room and time; flavor and perception; liquid craft; teaching and leading; decisions; food and the kitchen. Back of house is renamed **food and the kitchen**. Cuisine (every dish to its roots, producers, the Korean table) lives inside it as one of its constellations, under the chef's signature, beside the kitchen draft (D30). Seven disciplines keep seven colors (design language).
+
+### D33. Depth is defined by capability (review topic 3)
+
+**Decided 2026-09-30.** Four depths, defined by what a person can do, never by which role requires it:
+- **Foundation:** explains the why and recognizes the moment. Everyone takes every discipline's foundation.
+- **Working:** performs unaided, at tempo, on a real full night.
+- **Deep:** adapts when conditions break, diagnoses others' misses, coaches.
+- **Student:** extends what the house knows and teaches it, proven before a panel.
+
+Roles require depths; roles never define them. No one is Deep in anything by title.
+
+### D34. Leads are Deep in their own craft; stars are capabilities (review topic 3)
+
+**Decided 2026-09-30.**
+- Every positional lead has proven Deep in the craft they lead, not only trained to supervise (adds to D5).
+- The skill web shows capabilities as stars, not modules. Many modules feed one star, and a star lights only from a recorded gate or proven conversation (D8).
