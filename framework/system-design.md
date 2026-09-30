@@ -561,3 +561,15 @@ The lean set before customer contact is not decided here: Brandon will decide it
 ### D48. Founder service conventions (review topic 15)
 
 **Decided 2026-09-30.** House conventions (serving and clearing side, the clearing rule, synchronized set-down, order capture, chair and coat handling) are decided with the Maître d' and operations manager once hired. Each is stated as Sŏn's own choice, never reconstructed from Brandon's past houses. Until then they are `workflow.*` bindings and the modules that depend on them (SVC-023, SVC-025, SVC-032) park.
+
+### D49. House experiments and customers (review topic 16)
+
+**Decided 2026-09-30.** Experiments (for example how sound or plateware changes taste) involve customers only with Brandon's approval, case by case. Otherwise they stay among the team.
+
+### D50. Policies before modules (review topic 17)
+
+**Decided 2026-09-30.** Modules that depend on a house policy that does not yet exist stay identified and park until the policy exists. Each policy is a tracked task for Brandon: inspection from the customer's seat, studying peer restaurants, outside panels for presentations, recognition from critics and inspectors, responsible alcohol service, customers who cross a line, customer data, AI practice partners.
+
+### D51. Canon edits (review topic 18)
+
+**Decided 2026-09-30.** The studio drafts exact proposed wording for each brand guideline line that conflicts with a decision (the door, D20; the uniform line; the "no preset table" arrival line). Brandon decides and makes the edits. Until then, modules cite the decision.
