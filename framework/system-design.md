@@ -497,17 +497,18 @@ Roles require depths; roles never define them. No one is Deep in anything by tit
 
 **Decided 2026-09-30.** The skill web may use seven discipline colors outside the brand's closed palette, internal to training only (D4), anchored to brand colors where possible, as the design language proposes (`brand.skyweb.discipline_hues`). Exact values are refined when real concepts are made. State never relies on color alone.
 
-### D37. Vocabulary (review topic 4)
+### D37. Vocabulary (review topics 4 and 9)
 
-**Decided 2026-09-30.** Job descriptions, gate specs, and pre-shift use conservatory terms, modernized and less pretentious. The map itself uses plain labels.
+**Decided 2026-09-30, revised the same day.** Brandon first chose modernized conservatory terms, then reverted to standard industry and plain English: "I want to revert jargon to standard industry or plain English terms." Job descriptions, gate specs, pre-shift, and the map all use plain words. Where research documents use conservatory words (études, repertoire, juries, recital, company class), this table governs.
 
 | Thing | Word |
 |---|---|
-| Short, repeated drills for physical movement | reps |
-| What a person is cleared to perform alone on a shift | repertoire |
-| The practical, and the rechecks, where a skill is proven | run-through |
-| The daily warm-up at every rank | warm-up |
-| The Student-level proof before a panel | recital |
+| Short, repeated practice of a physical movement | drills |
+| What a person is cleared to do alone on a shift | signed off |
+| Proving a skill | practical |
+| A later check that a skill still holds | recheck |
+| The Student-level proof before a panel | presentation |
+| The daily skills block before service | warm-up, inside pre-shift (D44) |
 
 ### D38. Module IDs (review topic 5)
 
@@ -538,3 +539,9 @@ The lean set before customer contact is not decided here: Brandon will decide it
 ### D43. Pre-shift teaching pay (review topic 11)
 
 **Decided 2026-09-30.** Teaching a lesson at pre-shift is part of the paid shift, with no separate teaching pay. It stays voluntary and never counts toward progression (intake group 5).
+
+### D44. The warm-up and the recheck are house rules (review topic 9)
+
+**Decided 2026-09-30.**
+- The warm-up is a short drill segment built into pre-shift, at every rank. Pre-shift stays one gathering.
+- The warm-up and the standing recheck for everyone signed off are house rules for every rank, founders included.
