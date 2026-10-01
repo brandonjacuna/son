@@ -475,6 +475,8 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 
 ### D33. Depth is defined by capability (review topic 3)
 
+**Parked by D52 (2026-10-01):** content comes first; this is fitted to the content later.
+
 **Decided 2026-09-30.** Four depths, defined by what a person can do, never by which role requires it:
 - **Foundation:** explains the why and recognizes the moment. Everyone takes every discipline's foundation.
 - **Working:** performs unaided, at tempo, on a real full night.
@@ -491,9 +493,13 @@ Roles require depths; roles never define them. No one is Deep in anything by tit
 
 ### D35. The visual: one sky (review topic 4)
 
+**Parked by D52 (2026-10-01):** content comes first; this is fitted to the content later.
+
 **Decided 2026-09-30.** The skill web is the one sky as `framework/skill-web-design-language.md` draws it: disciplines as color-batched constellations drawn as figures, depth as distance from the trunk, the default view a lit next step. The Design Translating Team produces the real concepts from the design language. The dark ground of the personal view is Plum Ink.
 
 ### D36. Discipline colors outside the closed palette (review topic 4)
+
+**Parked by D52 (2026-10-01):** content comes first; this is fitted to the content later.
 
 **Decided 2026-09-30.** The skill web may use seven discipline colors outside the brand's closed palette, internal to training only (D4), anchored to brand colors where possible, as the design language proposes (`brand.skyweb.discipline_hues`). Exact values are refined when real concepts are made. State never relies on color alone.
 
@@ -573,3 +579,47 @@ The lean set before customer contact is not decided here: Brandon will decide it
 ### D51. Canon edits (review topic 18)
 
 **Decided 2026-09-30.** The studio drafts exact proposed wording for each brand guideline line that conflicts with a decision (the door, D20; the uniform line; the "no preset table" arrival line). Brandon decides and makes the edits. Until then, modules cite the decision.
+
+## The content-first reset (2026-10-01)
+
+Brandon's review of the discovery inventory found the modules too loose: topics, not teaching. The system had put form ahead of content. The decisions below govern from here; the reasoning and his words are in `research/review-2026-09.md`.
+
+### D52. Content first; form is parked
+
+**Decided 2026-10-01.** What people need to know, do, and decide comes first; modules are built from it, and the structure and visual are fitted to the content later. Parked, not reversed: the one sky and design language (D35, D36, `framework/skill-web-design-language.md`), the depth labels and their definitions as a display scheme (D33), and the constellation and ring vocabulary. The intended function stands: areas of focus, modules and lessons within them, depth that can grow, and paths that people can follow. Working documents use plain, professional names, elegant where natural and never esoteric. The vocabulary in D37 stays (drills, signed off, practical, recheck, presentation).
+
+### D53. Areas of focus
+
+**Decided 2026-10-01, as a starting list.** The house; service; beverage (wine, coffee, tea, cocktails, spirits, beer, non-alcoholic); food and menu (what the floor knows about the food); culinary (the kitchen, chef-led); leadership and teaching; administration (managers' office work and running the business); systems and technology (the tools everyone uses); compliance. Supersedes the seven disciplines of D29 and D32 as working areas.
+
+### D54. Beverage specialties and the stacked knowledge tracks
+
+**Decided 2026-10-01.**
+- Wine sits inside beverage. Wine knowledge stacks by position (food runner, back waiter, front server) and can gate promotion. Front servers reach Sommelier 1-level knowledge.
+- Other beverage specialties work the same way, with promotion gated less hard: coffee to a very high level, likely through Barista Hustle rather than the Q Grader, so someone could own a coffee program; beer and spirits to recognized certification levels. Any outside course is used only if delivered and tracked inside Trainual (D27).
+- Every knowledge track builds customer advocacy as well as business advocacy: knowing what a customer is looking for and would enjoy, and being trusted to give feedback on products, which feeds the user-focused, collaborative house Brandon wants.
+- Research: the cost, time, curriculum, and pass rates of the Court of Master Sommeliers introductory level, and the evidence on whether an internal program can reach the same knowledge while teaching people to explain wine plainly to the customer. Brandon's critique of certification culture (exclusionary language, flexing over communicating) is a design principle to test, not assume.
+
+### D55. The readiness window and ongoing education
+
+**Decided 2026-10-01.**
+- For each position, the training a person must complete before working solo to the standard fits in two to three weeks, two preferred.
+- A training week is a full 40 hours, part of it remote and paid, used to keep people motivated, engaged, and successful. No overtime.
+- Everything else is ongoing education, which can run well beyond that window. Deep knowledge tracks (for example wine to Sommelier 1 level) are ongoing education, not readiness training.
+- Consequence accepted: new front servers either arrive with deep wine knowledge or come from internal promotion. Front servers are likely not hired externally.
+
+### D56. Test-outs
+
+**Decided 2026-10-01.** For introductory positions where experience could be enough to skip training, test-outs are considered, designed, and implemented wherever feasible and effective. Extends the challenge route (D39). Safety never tests out.
+
+### D57. Compliance is called compliance
+
+**Decided 2026-10-01. Standing rule.** Compliance training is named compliance training and is never dressed up as culture; culture is never presented as compliance.
+
+### D58. Physical tasks are placeholders until the space exists
+
+**Decided 2026-10-01.** Opening, closing, side work, and service tasks tied to the physical space are known to exist and are declared as placeholders (`workflow.*` bindings) until the space exists.
+
+### D59. The discovery modules are kept as raw material and placed
+
+**Decided 2026-10-01.** The 274 discovery modules are not thrown away and not confirmed as written. Each is placed in the journey (which position, before or after working solo, readiness or ongoing education) with what it would teach stated specifically, as far as the studio can go before Brandon's interviews. Modules that cannot be made specific are merged or dropped with a reason. Brandon's interviews then flesh out every module.
