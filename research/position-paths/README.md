@@ -127,6 +127,8 @@ What the writers declined, with reasons recorded in their files: no prove-first 
 
 ## 8. Open calls for Brandon
 
+Answered 2026-10-02 (`framework/system-design.md` D62 to D65): call 1 is a moving target and duration never filters efficacy; call 3 has no hours cap, ongoing education is either ungated and voluntary or gated and approved ahead of each program; call 4 sets managers on the floor opening and closing within three weeks and solo after at least five; calls 5 and 6 wait until Brandon has reviewed the plans.
+
 1. **Two weeks or 2.2.** Report the green runner, host and barback windows at about 2.2 weeks with the certificate lever, or cut about 9 hours of readiness from each (the candidates: the SevenRooms basics to the first month for barbacks and kitchen, the Korean food culture reading to the first month, a shorter watched service).
 2. **Certificate timing.** Food handler and alcohol seller-server before solo, or inside their legal windows. One decision, 4.5 hours in three windows.
 3. **Ongoing-education hours.** How many paid hours a week per position. At 4 a week a back waiter reaches front server in about 27 weeks; at 2 the wine gates alone take about a year.

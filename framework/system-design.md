@@ -633,3 +633,23 @@ Brandon's review of the discovery inventory found the modules too loose: topics,
 ### D61. Front server follow-up emails
 
 **Decided 2026-10-01.** Front servers send emails to the customers they served. They are trained on the etiquette of those emails, fast workflows for writing and sending them, and finding the customer's information and history in SevenRooms to make each one specific. The device and the sending software are not chosen: `tool.email.device`, `tool.email.platform`, and whether sending runs through SevenRooms' own messaging are bindings. To be added to the service modules after the content-first rebuild completes, and linked to the SevenRooms track.
+
+## Open calls from the position paths (2026-10-02)
+
+Brandon's answers to the first open calls in `research/position-paths/README.md` section 8.
+
+### D62. Duration is a moving target and never filters efficacy
+
+**Decided 2026-10-02.** The two-to-three-week readiness window (D55) stays as a target, not a filter. Brandon: "i dont want to over focus right now on the duration of time each training program takes. we can refine and adjust later. i don't want that constraint to over filter efficacy." No module is cut or shortened to fit an hour count while modules are not final. The "two weeks or 2.2" call (open call 1) is not made now: "we don't have final modules, so it would be silly to make calls on that now, when we dont even know how long these will be. we are just starting." Hour estimates in the position paths are working figures for planning, shown as a detail, never as a gate on design.
+
+### D63. Ongoing education is not capped by hours
+
+**Decided 2026-10-02.** No weekly cap on ongoing-education hours (open call 3). Ongoing education runs one of two ways, never a middle ground: fully ungated and voluntary, or gated and approved ahead of starting each training program or module. Brandon: "slower, but might have to be what we start at." The starting assumption is gated and approved ahead of each program or module; the approver and the approval step are `workflow.*` bindings. All of it remains paid and on the clock with no overtime (D41, D55).
+
+### D64. Manager readiness
+
+**Decided 2026-10-02.** Managers (the Maître d' and the operations manager) must be able to be on the floor opening and closing the restaurant within three weeks, and are not fully live and solo for at least five weeks. This sets the manager window apart from D55's two to three weeks (open call 4). What fills weeks one to three and three to five is designed from the module content, not fitted to the window.
+
+### D65. Hiring routes and prove-first are deferred
+
+**Decided 2026-10-02.** Hiring routes (open call 6) are "too early to make these calls right now." Prove-first program-wide (open call 5) waits until Brandon has reviewed the plans: "haven't reviewed the plans yet, can't make this call." Both return after the Module Review page pass.
