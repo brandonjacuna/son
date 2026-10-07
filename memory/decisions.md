@@ -40,3 +40,5 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-07 | brand | Jaeyeonmi, Ma, Mahk, Jeong and Nunchi stay as guiding influences that inform decisions, not rules with veto power | Brandon
 - 2026-10-07 | brand | Korean terminology in canon is limited to dish and ingredient names; the no-gloss rule and the philosophy and craft terms leave canon | Brandon
 - 2026-10-07 | brand | Reference only, not canon: Brand Guidelines pages 06 Spatial, 07 Multi-Sensory, 08 Service Choreography, the Ma Surface and Zone Baseline page, the mandarin duck mark, baekja pattern and iconography rules, the four ceramic traditions. The Onggi color keeps its name | Brandon
+- 2026-10-07 | skills | Vendor only skill-scanner (Sentry, Apache). The Anthropic document skills (license forbids copies) and skill-creator (already loads from the account) are registered in .claude/skills/REGISTRY.md as account-provided, not vendored | Brandon
+- 2026-10-07 | session basics | No Stop hook reminding to close for now; the CLAUDE.md line naming session-close as the only way to end a session is enough. Revisit if a session ends with state.md stale | Brandon
