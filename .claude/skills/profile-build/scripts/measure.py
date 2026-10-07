@@ -14,7 +14,7 @@ import datetime
 import sys
 from pathlib import Path
 
-CARD_CAP, CARDS_CAP = 3 * 1024, 40 * 1024
+CARD_CAP, CARDS_CAP, EXAMPLES_CAP = 3 * 1024, 40 * 1024, 8 * 1024
 CORE_CAP = 12 * 1024
 
 
@@ -40,9 +40,11 @@ def main():
     over = []
     cards = sorted((build / "extract").glob("*.md"))
     for c in cards:
-        if size(c) > CARD_CAP:
-            over.append(f"card {c.name} {kb(size(c))} over {kb(CARD_CAP)}")
-    cards_total = sum(size(c) for c in cards)
+        cap = EXAMPLES_CAP if c.name.endswith("-examples.md") else CARD_CAP
+        if size(c) > cap:
+            over.append(f"card {c.name} {size(c)} B over {cap} B")
+    # Verbatim examples cards have their own cap and sit outside the cards total.
+    cards_total = sum(size(c) for c in cards if not c.name.endswith("-examples.md"))
     if cards_total > CARDS_CAP:
         over.append(f"cards total {kb(cards_total)} over {kb(CARDS_CAP)}")
     stage_total = size(build)
