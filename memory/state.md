@@ -1,26 +1,29 @@
 # State (in flight)
 
-Rewrite freely. One line per item: what | owner | next step.
+Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
-## Rebuild (started 2026-10-07)
-- P1 Scaffold: pushed to github.com/brandonjacuna/son on 2026-10-07 | Claude | done
-  - Imported with history: learning-studio (from unmerged cloud branch claude/blissful-einstein, not stale main), operations (son-operational-buildout main), nerve (from unmerged PR #1 branch claude/bold-goldberg; main only had BRIEF.md), design-system (Mac), local profile builds (Mac, in `imports/profile-builds-local/`)
-  - Imported without history (no git): clickup-system, science/espresso-chiller
-  - After push: archive the four old repos on GitHub (son-learning-studio, son-operational-buildout, son-nerve, agenticproject) once Brandon confirms
-- P2 Construction handoff imported on branch `import/build-out` (PR open, not merged) | Brandon | review and merge; then run `company/workstreams/build-out/KICKOFF.md` in a new session
-- Live automation outside the repo: ClickUp Meetings Agent v3 (Super Agent) runs roll-forward Mondays 7 AM, day-before reminders, close-out; checkpoints Oct 8 standup, Oct 12 roll-forward, Oct 13 meeting (see `company/workstreams/clickup-system/STATE.md`)
-- P3 Cleanup: Jun, Josephine, Pullman-derived content, experiential, Airtable, stale paths across Box, ClickUp, profiles | Claude (agents) | every deletion shown to Brandon first
-- P3 Account memory cleanup | Brandon | done 2026-10-07
-- P3 Project instructions replaced | Brandon | done 2026-10-07
-- P4 Profile system redesign (efficacy review, lean agents, token-lean build pipeline) | Claude on Fable | after P1 and P2
-- P5 Operating skills: red-team, thread-log, session-close, task-tree, kb-refresh | Claude | after P1
-- P6 ClickUp layer: verify what the GitHub integration exposes to Brain; Super Agent design within 10k credits | Claude | research first
+## Now
+- Next phase: 1 Cleanup | next Code session (Opus) | start with `memory/briefs/1-cleanup.md`, session A (repo sweep)
+- Merge pull request #1 (`import/build-out`) | Brandon | merge on GitHub, or ask the first Code session to merge it
+- Cloud environment for `son` | Brandon | paste `scripts/setup_cloud.sh` into the environment setup; check ClickUp and Box connectors
+- Box Profiles zip to the Mac Desktop | Brandon | before phase 3
+- Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
+- Archive the old GitHub repos (son-learning-studio, son-operational-buildout, son-nerve; make agenticproject private and archive) | Brandon to confirm | everything from them is in `son`
+- Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
+
+## Done 2026-10-07
+- Rebuild intake; repo `son` created and pushed with history from every source (learning-studio from unmerged branch claude/blissful-einstein; nerve from unmerged PR branch claude/bold-goldberg; operations; design-system; local profile builds; ClickUp system; Espresso Chiller; Claude Science matcha and cryo espresso; construction workspace on PR #1)
+- Build-out migration decisions M1, M2, M4 applied on PR #1
+- Founder-only manual chunks and the old OA brief moved to `founders/`; Home Base facts ported to `founders/context.md` and `memory/context.md`
+- Account memory cleaned and Project instructions replaced (Brandon)
+- Workstream readiness audit: `memory/audits/2026-10-07-readiness.md`
+
+## Live automation outside the repo
+- Wednesday restaurant tech digest (scheduled task trig_01EUH167wrsReHWDvt5Sv7vG; prompt in `prompts/scheduled/weekly-tech-digest.md`)
+- ClickUp Meetings Agent v3: Monday 7 AM roll-forward, day-before reminders, close-out; checkpoints Oct 8, 12, 13 (`company/workstreams/clickup-system/STATE.md`)
 
 ## Open questions for Brandon
-- Build-out migration, still open (M1, M2, M4 decided 2026-10-07, see decisions.md; from build-out HANDOFF section 7; build-out's own open items are in `company/workstreams/build-out/decisions/open.md`):
-  - Follow-up: merge `clickup-system/kb/from-build-out-2026-09-28.md` into the main ClickUp knowledge base (P5)
-  - M3 Profile creation: `profile-forge` vs the P4 profile pipeline (handoff suggests P4 is master and profile-forge feeds it)
-  - M5 Command and skill names: `/deep`, `/gate`, `/capture`, `/sandbox`, `/promote`, `/lease-signed` vs P5 skills (no collisions today; revisit when P5 is built)
-  - M6 Build-out kb location: keep at `company/workstreams/build-out/kb/` (current skill paths work) or move under `kb/`
-- Where the line falls between Korean cultural tie-ins (remove) and the design deck (keep): godwit, water deer letterform, Mandarin duck palette, persimmon-sumac-elderberry. Show the extraction first.
-- Monday Industry Digest has no scheduled task yet: create one?
+- Brand canon line: which Korean cultural tie-ins go (phase 1, shown section by section first)
+- Is the V7 Business Strategies Notebook (ClickUp 2ky45bmy-11873) still canon? (phase 1)
+- Raw exports with out-of-scope content: delete, or move all raw exports to an archive folder? (phase 1)
+- Build-out migration still open: M3 profile pipeline (phase 3), M5 command names (phase 4), M6 build-out kb location (phase 5)
