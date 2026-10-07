@@ -31,7 +31,9 @@ Some profiles are seats (subagent), some are modes of the main conversation (ski
 
 The red-team skill is designed alongside, because the builder's validation stage uses it: three intensities, light (concept ideation, constructive push back), standard (default), harsh (legal, compliance, anything touching employees: multiple blind agents with assigned bias-hunting lenses and a check for feedback loops in the session). Output `.claude/skills/red-team/`.
 
-## Step 2: Bring the profiles into the repo
+## Step 2: Bring the profiles into the repo (DONE 2026-10-07)
+Done: see `profiles/_source/README.md` and `manifest.csv`. 52 profiles plus 7 investment working files (the earlier count of 64 was wrong). Original instructions kept below for reference.
+
 Brandon downloads Sŏn / 10. AI Projects / Profiles from Box as a zip to the Mac Desktop. Unzip into `profiles/_source/<cluster>/`, untouched, with `profiles/_source/manifest.csv` (name, Box ID, cluster, size, modified date). Box stays master until step 6. (Today only 8 profiles are in the repo, copied earlier by the operations workstream, plus the 2 learning studio builds.)
 
 ## Step 3: Seat inventory
