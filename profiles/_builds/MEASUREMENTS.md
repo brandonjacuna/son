@@ -16,3 +16,16 @@ Build folder about 75 KB or less (frame 6, sources 6, cards 40, flags 4, tests a
 ## Builds
 | Date | Seat | Build folder | Cards | Per-call load | Reference | Worker tokens (usage) | Orchestrator context | Tests |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | practice-simulation-designer (rebuild, test build) | 93.8 KB (56 KB of it test outputs) | 22.2 KB (+4.7 KB examples) | 11.7 KB (~3,000 tok) | 5.8 KB | 2.21M across 36 workers (frame 157k, extract 520k, draft 90k, red team 545k, test 894k) | not measured; never opened a source or card; session also carried session A | 5/5 on Sonnet (one after a fix); Haiku failed T3 |
+
+## Result of the test build (Practice and Simulation Designer, 2026-10-07)
+| Measure | Old builder | New builder | Change |
+|---|---|---|---|
+| Per-call load (every use of the seat) | 53.0 KB, ~13,260 tok | 11.7 KB, ~3,000 tok | -78% |
+| Stage files written | 199 KB, profile written 3 times | 94 KB, profile drafted once (38 KB without test outputs) | -53% |
+| Orchestrator context | maxed out | sources and cards never opened; reads were frame, source list, core, flags, verdict tables | the stated pain point removed |
+| Worker tokens | not recorded (one context) | 2.21M across 36 subagents | new cost, now visible |
+| Validation | stages 6 and 7 skipped | 5 blind critics, Fable judge (15 flags accepted, incl. 3 critical on employee records and consent), 5 tests vs baseline | lever restored |
+| Grounding re-checked | none | 4 sources re-read; 2 old citations corrected; 2 overclaims cut | |
+
+Worker cost driver: each subagent carries about 50k tokens of fixed overhead (system prompt, CLAUDE.md, tools), so 36 agents is most of the 2.21M. Batching small jobs (finding F7 in the build's BUILD.md) should cut it by roughly a third without losing blindness where it matters.

@@ -39,6 +39,7 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 | 5 | with T4 rerun | sonnet | 57,572 | tests/T4-with.md 2.7 KB (run 1 kept as T4-with-run1.md) |
 | 5 | haiku T3 (model line) | haiku | 67,260 | tests/T3-with-haiku.md 2,952 B; runner glimpsed 5 lines of T1-base while listing (not used) |
 | 5 | haiku T1 (model line) | haiku | 80,546 | tests/T1-with-haiku.md 2,964 B; found and reviewed the example module EX-001 |
+| 5 | grader (T4 rerun, haiku) | sonnet | 60,297 | T4 pass; T1-haiku pass; T3-haiku fail (drill named, not built) |
 ## Builder findings (for the approval read-out)
 - F1. The 3 KB card cap is too tight for an old-profile section: card 02 dropped 4 rules (one on the practice-vs-gate line), card 03 merged seams. Re-briefed 02 to write 02b. Proposed fix: old-profile section cards 5 KB cap.
 - F2. Frame ran 6.8 KB against a 6 KB cap after the orchestrator added the Sŏn rules the seat carries (from the plumbing check). Proposed fix: 8 KB cap for rebuild frames, or carry seat rules in a separate short section counted outside the cap.
@@ -49,3 +50,10 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 - F6. Two test catches (T4, T5) predated frame updates (page 08 reference only; seams). Orchestrator aligned them before any run. Proposed fix: stage 0 writes tests after the frame's last edit, or stage 3 step 2 re-checks tests against the final frame.
 - F7. Every subagent costs about 50k tokens of fixed overhead (system prompt, CLAUDE.md, tool definitions): baseline runners used ~53k each to write 2.5 KB. Worker cost scales with agent count, not content. Proposed fix: batch small jobs (one runner for 2 to 3 tests, one critic for two light lenses, one extractor for an old profile's sections), keep separate agents only where blindness or parallel speed earns it.
 - F8. profile_lint.py accepted only lowercase letters, spaces, and parentheses in a provenance tag cell, so mixed tags ("sourced, inferred") failed. Fixed in session to allow , ; + /.
+
+## Closing
+- Mode rebuild; container agent; model sonnet (Haiku failed T3: named the classification drill but built a role-play). Models: frame and judge Fable; drafter Opus; extractors, critics, merger, runners, grader Sonnet; orchestrator Opus.
+- Red team: 2 critical, 12 major, 4 minor merged; judge accepted 15 (whole or part), rejected 3, none to Brandon. Criticals fixed: no per-person practice records or use in review or sign-off; camera consent refusal costs nothing and practice is not recorded by default; practice observations walled off from sign-off.
+- Tests: 5/5 pass on Sonnet; T4 passed after an R12 edit (prebrief check). Baselines missed or partly caught every test.
+- For other seats (from 04-flags.md): owners for facilitator training, gate scenario authoring, and the definition of "trained" sit with instructional-designer, assessment-competency-designer, and operations seats.
+- Open: next-session smoke test (stage 6 step 7) through the real agent; Brandon's approval of the seat and of the builder; findings F1 to F8 to fold into the builder.
