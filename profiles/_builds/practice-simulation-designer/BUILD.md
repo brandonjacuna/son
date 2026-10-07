@@ -23,3 +23,4 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 - F3. Six of nine cards landed 0 to 280 B over the 3,072 B card cap. Not re-briefed (cost over benefit). Proposed fix: card cap 3.5 KB for external sources, 5 KB for old-profile sections (F1).
 - F4. measure.py held the examples card to the 3 KB cap; fixed in session to use the 8 KB examples cap and exclude it from the cards total.
 - F5. Publisher paywalls (SAGE 403, Wiley 403) limit re-verification to abstracts or secondary full text. Extractors recorded this honestly in `read:`; the critics' grounding lens should treat abstract-level rows as partly verified.
+| 3 | drafter | opus | 90,421 | agent.md 11,152 B; reference/examples.md 3,457 B; reference/models.md 2,538 B; provenance.md 8,615 B (59 rows: 28 sourced, 19 sourced old, 2 inferred, 10 project) |
