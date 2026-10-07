@@ -1,0 +1,25 @@
+test,planning_assumption,beta_risk,n_nominal_assessments,reps_per_assessor,n_inflated_assessments,assessors_required
+tetrad,true d'=0 (Phase 0 expectation),0.05,68,2,82,41
+tetrad,true d'=0 (Phase 0 expectation),0.05,68,4,109,28
+tetrad,true d'=0 (Phase 0 expectation),0.1,49,2,59,30
+tetrad,true d'=0 (Phase 0 expectation),0.1,49,4,79,20
+tetrad,true d'=0 (Phase 0 expectation),0.2,35,2,42,21
+tetrad,true d'=0 (Phase 0 expectation),0.2,35,4,56,14
+tetrad,true d'=0.5 (conservative),0.05,123,2,148,74
+tetrad,true d'=0.5 (conservative),0.05,123,4,197,50
+tetrad,true d'=0.5 (conservative),0.1,93,2,112,56
+tetrad,true d'=0.5 (conservative),0.1,93,4,149,38
+tetrad,true d'=0.5 (conservative),0.2,63,2,76,38
+tetrad,true d'=0.5 (conservative),0.2,63,4,101,26
+triangle,true d'=0 (Phase 0 expectation),0.05,222,2,267,134
+triangle,true d'=0 (Phase 0 expectation),0.05,222,4,356,89
+triangle,true d'=0 (Phase 0 expectation),0.1,165,2,198,99
+triangle,true d'=0 (Phase 0 expectation),0.1,165,4,264,66
+triangle,true d'=0 (Phase 0 expectation),0.2,108,2,130,65
+triangle,true d'=0 (Phase 0 expectation),0.2,108,4,173,44
+triangle,true d'=0.5 (conservative),0.05,402,2,483,242
+triangle,true d'=0.5 (conservative),0.05,402,4,644,161
+triangle,true d'=0.5 (conservative),0.1,301,2,362,181
+triangle,true d'=0.5 (conservative),0.1,301,4,482,121
+triangle,true d'=0.5 (conservative),0.2,195,2,234,117
+triangle,true d'=0.5 (conservative),0.2,195,4,312,78

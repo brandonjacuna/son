@@ -1,0 +1,801 @@
+set_id,assessor,matrix,position,arm_code,blind_code
+1,C001,neat espresso,1,CRYO,817
+1,C001,neat espresso,2,PHE,555
+1,C001,neat espresso,3,PHE,988
+1,C001,neat espresso,4,CRYO,553
+2,C002,6 oz flat white,1,CRYO,658
+2,C002,6 oz flat white,2,CRYO,350
+2,C002,6 oz flat white,3,PHE,422
+2,C002,6 oz flat white,4,PHE,115
+3,C003,iced americano,1,PHE,891
+3,C003,iced americano,2,PHE,528
+3,C003,iced americano,3,CRYO,324
+3,C003,iced americano,4,CRYO,164
+4,C004,neat espresso,1,CRYO,370
+4,C004,neat espresso,2,PHE,885
+4,C004,neat espresso,3,PHE,451
+4,C004,neat espresso,4,CRYO,852
+5,C005,6 oz flat white,1,CRYO,710
+5,C005,6 oz flat white,2,CRYO,532
+5,C005,6 oz flat white,3,PHE,884
+5,C005,6 oz flat white,4,PHE,120
+6,C006,iced americano,1,CRYO,611
+6,C006,iced americano,2,PHE,205
+6,C006,iced americano,3,PHE,525
+6,C006,iced americano,4,CRYO,977
+7,C007,neat espresso,1,PHE,751
+7,C007,neat espresso,2,PHE,211
+7,C007,neat espresso,3,CRYO,979
+7,C007,neat espresso,4,CRYO,332
+8,C008,6 oz flat white,1,PHE,561
+8,C008,6 oz flat white,2,CRYO,321
+8,C008,6 oz flat white,3,PHE,606
+8,C008,6 oz flat white,4,CRYO,189
+9,C009,iced americano,1,PHE,687
+9,C009,iced americano,2,CRYO,225
+9,C009,iced americano,3,PHE,262
+9,C009,iced americano,4,CRYO,948
+10,C010,neat espresso,1,PHE,263
+10,C010,neat espresso,2,CRYO,733
+10,C010,neat espresso,3,PHE,939
+10,C010,neat espresso,4,CRYO,877
+11,C011,6 oz flat white,1,CRYO,182
+11,C011,6 oz flat white,2,CRYO,688
+11,C011,6 oz flat white,3,PHE,208
+11,C011,6 oz flat white,4,PHE,467
+12,C012,iced americano,1,PHE,228
+12,C012,iced americano,2,PHE,478
+12,C012,iced americano,3,CRYO,361
+12,C012,iced americano,4,CRYO,270
+13,C013,neat espresso,1,PHE,481
+13,C013,neat espresso,2,PHE,644
+13,C013,neat espresso,3,CRYO,813
+13,C013,neat espresso,4,CRYO,872
+14,C014,6 oz flat white,1,PHE,855
+14,C014,6 oz flat white,2,CRYO,749
+14,C014,6 oz flat white,3,CRYO,715
+14,C014,6 oz flat white,4,PHE,145
+15,C015,iced americano,1,CRYO,674
+15,C015,iced americano,2,PHE,117
+15,C015,iced americano,3,CRYO,448
+15,C015,iced americano,4,PHE,391
+16,C016,neat espresso,1,PHE,820
+16,C016,neat espresso,2,CRYO,458
+16,C016,neat espresso,3,PHE,338
+16,C016,neat espresso,4,CRYO,676
+17,C017,6 oz flat white,1,CRYO,740
+17,C017,6 oz flat white,2,PHE,851
+17,C017,6 oz flat white,3,CRYO,363
+17,C017,6 oz flat white,4,PHE,441
+18,C018,iced americano,1,CRYO,113
+18,C018,iced americano,2,PHE,281
+18,C018,iced americano,3,CRYO,937
+18,C018,iced americano,4,PHE,617
+19,C019,neat espresso,1,PHE,172
+19,C019,neat espresso,2,CRYO,517
+19,C019,neat espresso,3,PHE,339
+19,C019,neat espresso,4,CRYO,138
+20,C020,6 oz flat white,1,PHE,815
+20,C020,6 oz flat white,2,CRYO,972
+20,C020,6 oz flat white,3,PHE,268
+20,C020,6 oz flat white,4,CRYO,694
+21,C021,iced americano,1,PHE,949
+21,C021,iced americano,2,PHE,512
+21,C021,iced americano,3,CRYO,309
+21,C021,iced americano,4,CRYO,899
+22,C022,neat espresso,1,PHE,320
+22,C022,neat espresso,2,PHE,365
+22,C022,neat espresso,3,CRYO,725
+22,C022,neat espresso,4,CRYO,522
+23,C023,6 oz flat white,1,CRYO,897
+23,C023,6 oz flat white,2,PHE,360
+23,C023,6 oz flat white,3,CRYO,253
+23,C023,6 oz flat white,4,PHE,248
+24,C024,iced americano,1,PHE,756
+24,C024,iced americano,2,CRYO,384
+24,C024,iced americano,3,PHE,640
+24,C024,iced americano,4,CRYO,133
+25,C025,neat espresso,1,PHE,639
+25,C025,neat espresso,2,CRYO,935
+25,C025,neat espresso,3,PHE,390
+25,C025,neat espresso,4,CRYO,745
+26,C026,6 oz flat white,1,PHE,377
+26,C026,6 oz flat white,2,PHE,265
+26,C026,6 oz flat white,3,CRYO,415
+26,C026,6 oz flat white,4,CRYO,572
+27,C027,iced americano,1,CRYO,970
+27,C027,iced americano,2,PHE,564
+27,C027,iced americano,3,CRYO,918
+27,C027,iced americano,4,PHE,708
+28,C028,neat espresso,1,PHE,865
+28,C028,neat espresso,2,PHE,705
+28,C028,neat espresso,3,CRYO,206
+28,C028,neat espresso,4,CRYO,973
+29,C029,6 oz flat white,1,PHE,748
+29,C029,6 oz flat white,2,CRYO,429
+29,C029,6 oz flat white,3,CRYO,497
+29,C029,6 oz flat white,4,PHE,579
+30,C030,iced americano,1,PHE,642
+30,C030,iced americano,2,CRYO,772
+30,C030,iced americano,3,PHE,771
+30,C030,iced americano,4,CRYO,269
+31,C031,neat espresso,1,CRYO,421
+31,C031,neat espresso,2,CRYO,971
+31,C031,neat espresso,3,PHE,890
+31,C031,neat espresso,4,PHE,559
+32,C032,6 oz flat white,1,PHE,124
+32,C032,6 oz flat white,2,PHE,696
+32,C032,6 oz flat white,3,CRYO,827
+32,C032,6 oz flat white,4,CRYO,661
+33,C033,iced americano,1,CRYO,376
+33,C033,iced americano,2,PHE,927
+33,C033,iced americano,3,PHE,160
+33,C033,iced americano,4,CRYO,825
+34,C034,neat espresso,1,CRYO,420
+34,C034,neat espresso,2,PHE,737
+34,C034,neat espresso,3,PHE,835
+34,C034,neat espresso,4,CRYO,869
+35,C035,6 oz flat white,1,PHE,812
+35,C035,6 oz flat white,2,CRYO,626
+35,C035,6 oz flat white,3,PHE,480
+35,C035,6 oz flat white,4,CRYO,355
+36,C036,iced americano,1,PHE,573
+36,C036,iced americano,2,CRYO,858
+36,C036,iced americano,3,CRYO,146
+36,C036,iced americano,4,PHE,212
+37,C037,neat espresso,1,PHE,284
+37,C037,neat espresso,2,PHE,202
+37,C037,neat espresso,3,CRYO,423
+37,C037,neat espresso,4,CRYO,432
+38,C038,6 oz flat white,1,PHE,352
+38,C038,6 oz flat white,2,CRYO,824
+38,C038,6 oz flat white,3,CRYO,311
+38,C038,6 oz flat white,4,PHE,247
+39,C039,iced americano,1,PHE,614
+39,C039,iced americano,2,CRYO,720
+39,C039,iced americano,3,PHE,314
+39,C039,iced americano,4,CRYO,242
+40,C040,neat espresso,1,CRYO,153
+40,C040,neat espresso,2,PHE,779
+40,C040,neat espresso,3,CRYO,941
+40,C040,neat espresso,4,PHE,684
+41,C041,6 oz flat white,1,PHE,295
+41,C041,6 oz flat white,2,CRYO,362
+41,C041,6 oz flat white,3,CRYO,612
+41,C041,6 oz flat white,4,PHE,965
+42,C042,iced americano,1,PHE,548
+42,C042,iced americano,2,CRYO,393
+42,C042,iced americano,3,PHE,494
+42,C042,iced americano,4,CRYO,871
+43,C043,neat espresso,1,PHE,722
+43,C043,neat espresso,2,PHE,299
+43,C043,neat espresso,3,CRYO,192
+43,C043,neat espresso,4,CRYO,707
+44,C044,6 oz flat white,1,PHE,699
+44,C044,6 oz flat white,2,PHE,627
+44,C044,6 oz flat white,3,CRYO,701
+44,C044,6 oz flat white,4,CRYO,734
+45,C045,iced americano,1,PHE,445
+45,C045,iced americano,2,PHE,925
+45,C045,iced americano,3,CRYO,243
+45,C045,iced americano,4,CRYO,625
+46,C046,neat espresso,1,CRYO,563
+46,C046,neat espresso,2,PHE,446
+46,C046,neat espresso,3,CRYO,282
+46,C046,neat espresso,4,PHE,562
+47,C047,6 oz flat white,1,CRYO,976
+47,C047,6 oz flat white,2,PHE,839
+47,C047,6 oz flat white,3,CRYO,347
+47,C047,6 oz flat white,4,PHE,323
+48,C048,iced americano,1,CRYO,293
+48,C048,iced americano,2,PHE,433
+48,C048,iced americano,3,CRYO,190
+48,C048,iced americano,4,PHE,508
+49,C049,neat espresso,1,PHE,602
+49,C049,neat espresso,2,PHE,844
+49,C049,neat espresso,3,CRYO,978
+49,C049,neat espresso,4,CRYO,127
+50,C050,6 oz flat white,1,CRYO,888
+50,C050,6 oz flat white,2,PHE,752
+50,C050,6 oz flat white,3,PHE,880
+50,C050,6 oz flat white,4,CRYO,731
+51,C051,iced americano,1,CRYO,586
+51,C051,iced americano,2,PHE,895
+51,C051,iced americano,3,CRYO,186
+51,C051,iced americano,4,PHE,758
+52,C052,neat espresso,1,CRYO,207
+52,C052,neat espresso,2,PHE,254
+52,C052,neat espresso,3,PHE,673
+52,C052,neat espresso,4,CRYO,689
+53,C053,6 oz flat white,1,PHE,730
+53,C053,6 oz flat white,2,PHE,544
+53,C053,6 oz flat white,3,CRYO,567
+53,C053,6 oz flat white,4,CRYO,489
+54,C054,iced americano,1,PHE,530
+54,C054,iced americano,2,PHE,992
+54,C054,iced americano,3,CRYO,736
+54,C054,iced americano,4,CRYO,741
+55,C055,neat espresso,1,PHE,942
+55,C055,neat espresso,2,PHE,552
+55,C055,neat espresso,3,CRYO,777
+55,C055,neat espresso,4,CRYO,266
+56,C056,6 oz flat white,1,CRYO,219
+56,C056,6 oz flat white,2,CRYO,210
+56,C056,6 oz flat white,3,PHE,479
+56,C056,6 oz flat white,4,PHE,317
+57,C057,iced americano,1,CRYO,794
+57,C057,iced americano,2,CRYO,985
+57,C057,iced americano,3,PHE,834
+57,C057,iced americano,4,PHE,653
+58,C058,neat espresso,1,PHE,818
+58,C058,neat espresso,2,CRYO,147
+58,C058,neat espresso,3,PHE,926
+58,C058,neat espresso,4,CRYO,106
+59,C059,6 oz flat white,1,CRYO,130
+59,C059,6 oz flat white,2,PHE,924
+59,C059,6 oz flat white,3,CRYO,378
+59,C059,6 oz flat white,4,PHE,521
+60,C060,iced americano,1,PHE,221
+60,C060,iced americano,2,PHE,950
+60,C060,iced americano,3,CRYO,271
+60,C060,iced americano,4,CRYO,704
+61,C061,neat espresso,1,CRYO,101
+61,C061,neat espresso,2,CRYO,807
+61,C061,neat espresso,3,PHE,111
+61,C061,neat espresso,4,PHE,959
+62,C062,6 oz flat white,1,PHE,870
+62,C062,6 oz flat white,2,CRYO,568
+62,C062,6 oz flat white,3,CRYO,601
+62,C062,6 oz flat white,4,PHE,356
+63,C063,iced americano,1,CRYO,811
+63,C063,iced americano,2,CRYO,651
+63,C063,iced americano,3,PHE,879
+63,C063,iced americano,4,PHE,908
+64,C064,neat espresso,1,CRYO,351
+64,C064,neat espresso,2,PHE,912
+64,C064,neat espresso,3,CRYO,793
+64,C064,neat espresso,4,PHE,166
+65,C065,6 oz flat white,1,CRYO,822
+65,C065,6 oz flat white,2,PHE,831
+65,C065,6 oz flat white,3,PHE,953
+65,C065,6 oz flat white,4,CRYO,450
+66,C066,iced americano,1,PHE,766
+66,C066,iced americano,2,PHE,969
+66,C066,iced americano,3,CRYO,982
+66,C066,iced americano,4,CRYO,816
+67,C067,neat espresso,1,PHE,500
+67,C067,neat espresso,2,PHE,155
+67,C067,neat espresso,3,CRYO,194
+67,C067,neat espresso,4,CRYO,238
+68,C068,6 oz flat white,1,PHE,767
+68,C068,6 oz flat white,2,CRYO,329
+68,C068,6 oz flat white,3,PHE,832
+68,C068,6 oz flat white,4,CRYO,991
+69,C069,iced americano,1,CRYO,386
+69,C069,iced americano,2,PHE,277
+69,C069,iced americano,3,CRYO,565
+69,C069,iced americano,4,PHE,442
+70,C070,neat espresso,1,CRYO,139
+70,C070,neat espresso,2,PHE,910
+70,C070,neat espresso,3,CRYO,666
+70,C070,neat espresso,4,PHE,412
+71,C071,6 oz flat white,1,PHE,874
+71,C071,6 oz flat white,2,CRYO,476
+71,C071,6 oz flat white,3,PHE,703
+71,C071,6 oz flat white,4,CRYO,197
+72,C072,iced americano,1,CRYO,678
+72,C072,iced americano,2,PHE,997
+72,C072,iced americano,3,PHE,571
+72,C072,iced americano,4,CRYO,288
+73,C073,neat espresso,1,PHE,105
+73,C073,neat espresso,2,CRYO,755
+73,C073,neat espresso,3,PHE,938
+73,C073,neat espresso,4,CRYO,738
+74,C074,6 oz flat white,1,PHE,474
+74,C074,6 oz flat white,2,CRYO,419
+74,C074,6 oz flat white,3,CRYO,302
+74,C074,6 oz flat white,4,PHE,161
+75,C075,iced americano,1,CRYO,292
+75,C075,iced americano,2,PHE,150
+75,C075,iced americano,3,CRYO,936
+75,C075,iced americano,4,PHE,692
+76,C076,neat espresso,1,CRYO,397
+76,C076,neat espresso,2,PHE,795
+76,C076,neat espresso,3,PHE,810
+76,C076,neat espresso,4,CRYO,647
+77,C077,6 oz flat white,1,PHE,914
+77,C077,6 oz flat white,2,CRYO,425
+77,C077,6 oz flat white,3,CRYO,237
+77,C077,6 oz flat white,4,PHE,962
+78,C078,iced americano,1,CRYO,823
+78,C078,iced americano,2,CRYO,746
+78,C078,iced americano,3,PHE,691
+78,C078,iced americano,4,PHE,244
+79,C079,neat espresso,1,CRYO,191
+79,C079,neat espresso,2,PHE,516
+79,C079,neat espresso,3,PHE,503
+79,C079,neat espresso,4,CRYO,781
+80,C080,6 oz flat white,1,PHE,620
+80,C080,6 oz flat white,2,CRYO,984
+80,C080,6 oz flat white,3,CRYO,723
+80,C080,6 oz flat white,4,PHE,340
+81,C081,iced americano,1,PHE,566
+81,C081,iced americano,2,CRYO,454
+81,C081,iced americano,3,PHE,680
+81,C081,iced americano,4,CRYO,760
+82,C082,neat espresso,1,PHE,633
+82,C082,neat espresso,2,CRYO,196
+82,C082,neat espresso,3,CRYO,367
+82,C082,neat espresso,4,PHE,514
+83,C083,6 oz flat white,1,PHE,624
+83,C083,6 oz flat white,2,CRYO,983
+83,C083,6 oz flat white,3,PHE,859
+83,C083,6 oz flat white,4,CRYO,294
+84,C084,iced americano,1,CRYO,887
+84,C084,iced americano,2,CRYO,236
+84,C084,iced americano,3,PHE,637
+84,C084,iced americano,4,PHE,249
+85,C085,neat espresso,1,CRYO,255
+85,C085,neat espresso,2,CRYO,787
+85,C085,neat espresso,3,PHE,901
+85,C085,neat espresso,4,PHE,850
+86,C086,6 oz flat white,1,CRYO,246
+86,C086,6 oz flat white,2,PHE,785
+86,C086,6 oz flat white,3,PHE,229
+86,C086,6 oz flat white,4,CRYO,333
+87,C087,iced americano,1,CRYO,604
+87,C087,iced americano,2,PHE,957
+87,C087,iced americano,3,PHE,180
+87,C087,iced americano,4,CRYO,826
+88,C088,neat espresso,1,CRYO,482
+88,C088,neat espresso,2,PHE,659
+88,C088,neat espresso,3,CRYO,754
+88,C088,neat espresso,4,PHE,381
+89,C089,6 oz flat white,1,CRYO,509
+89,C089,6 oz flat white,2,PHE,958
+89,C089,6 oz flat white,3,PHE,545
+89,C089,6 oz flat white,4,CRYO,152
+90,C090,iced americano,1,CRYO,276
+90,C090,iced americano,2,PHE,800
+90,C090,iced americano,3,CRYO,945
+90,C090,iced americano,4,PHE,471
+91,C091,neat espresso,1,CRYO,424
+91,C091,neat espresso,2,PHE,762
+91,C091,neat espresso,3,PHE,920
+91,C091,neat espresso,4,CRYO,923
+92,C092,6 oz flat white,1,CRYO,702
+92,C092,6 oz flat white,2,PHE,218
+92,C092,6 oz flat white,3,CRYO,682
+92,C092,6 oz flat white,4,PHE,589
+93,C093,iced americano,1,CRYO,963
+93,C093,iced americano,2,CRYO,868
+93,C093,iced americano,3,PHE,260
+93,C093,iced americano,4,PHE,501
+94,C094,neat espresso,1,CRYO,648
+94,C094,neat espresso,2,PHE,385
+94,C094,neat espresso,3,CRYO,590
+94,C094,neat espresso,4,PHE,183
+95,C095,6 oz flat white,1,PHE,348
+95,C095,6 oz flat white,2,CRYO,654
+95,C095,6 oz flat white,3,CRYO,327
+95,C095,6 oz flat white,4,PHE,681
+96,C096,iced americano,1,CRYO,995
+96,C096,iced americano,2,CRYO,178
+96,C096,iced americano,3,PHE,306
+96,C096,iced americano,4,PHE,814
+97,C097,neat espresso,1,PHE,596
+97,C097,neat espresso,2,CRYO,116
+97,C097,neat espresso,3,PHE,313
+97,C097,neat espresso,4,CRYO,664
+98,C098,6 oz flat white,1,CRYO,149
+98,C098,6 oz flat white,2,PHE,527
+98,C098,6 oz flat white,3,CRYO,861
+98,C098,6 oz flat white,4,PHE,728
+99,C099,iced americano,1,PHE,158
+99,C099,iced americano,2,CRYO,392
+99,C099,iced americano,3,CRYO,569
+99,C099,iced americano,4,PHE,426
+100,C100,neat espresso,1,PHE,757
+100,C100,neat espresso,2,CRYO,151
+100,C100,neat espresso,3,PHE,967
+100,C100,neat espresso,4,CRYO,439
+101,C101,6 oz flat white,1,CRYO,523
+101,C101,6 oz flat white,2,CRYO,753
+101,C101,6 oz flat white,3,PHE,485
+101,C101,6 oz flat white,4,PHE,259
+102,C102,iced americano,1,CRYO,902
+102,C102,iced americano,2,PHE,364
+102,C102,iced americano,3,CRYO,862
+102,C102,iced americano,4,PHE,233
+103,C103,neat espresso,1,PHE,999
+103,C103,neat espresso,2,PHE,546
+103,C103,neat espresso,3,CRYO,216
+103,C103,neat espresso,4,CRYO,717
+104,C104,6 oz flat white,1,PHE,129
+104,C104,6 oz flat white,2,PHE,873
+104,C104,6 oz flat white,3,CRYO,695
+104,C104,6 oz flat white,4,CRYO,595
+105,C105,iced americano,1,PHE,231
+105,C105,iced americano,2,PHE,828
+105,C105,iced americano,3,CRYO,280
+105,C105,iced americano,4,CRYO,921
+106,C106,neat espresso,1,PHE,181
+106,C106,neat espresso,2,CRYO,947
+106,C106,neat espresso,3,PHE,557
+106,C106,neat espresso,4,CRYO,308
+107,C107,6 oz flat white,1,CRYO,447
+107,C107,6 oz flat white,2,CRYO,894
+107,C107,6 oz flat white,3,PHE,369
+107,C107,6 oz flat white,4,PHE,796
+108,C108,iced americano,1,CRYO,492
+108,C108,iced americano,2,PHE,224
+108,C108,iced americano,3,PHE,496
+108,C108,iced americano,4,CRYO,436
+109,C109,neat espresso,1,PHE,304
+109,C109,neat espresso,2,CRYO,677
+109,C109,neat espresso,3,PHE,173
+109,C109,neat espresso,4,CRYO,428
+110,C110,6 oz flat white,1,PHE,353
+110,C110,6 oz flat white,2,CRYO,159
+110,C110,6 oz flat white,3,CRYO,524
+110,C110,6 oz flat white,4,PHE,209
+111,C111,iced americano,1,PHE,840
+111,C111,iced americano,2,CRYO,668
+111,C111,iced americano,3,PHE,184
+111,C111,iced americano,4,CRYO,683
+112,C112,neat espresso,1,CRYO,403
+112,C112,neat espresso,2,CRYO,934
+112,C112,neat espresso,3,PHE,610
+112,C112,neat espresso,4,PHE,437
+113,C113,6 oz flat white,1,PHE,968
+113,C113,6 oz flat white,2,CRYO,898
+113,C113,6 oz flat white,3,PHE,148
+113,C113,6 oz flat white,4,CRYO,298
+114,C114,iced americano,1,CRYO,251
+114,C114,iced americano,2,PHE,296
+114,C114,iced americano,3,PHE,864
+114,C114,iced americano,4,CRYO,783
+115,C115,neat espresso,1,PHE,388
+115,C115,neat espresso,2,CRYO,322
+115,C115,neat espresso,3,CRYO,919
+115,C115,neat espresso,4,PHE,389
+116,C116,6 oz flat white,1,CRYO,465
+116,C116,6 oz flat white,2,CRYO,719
+116,C116,6 oz flat white,3,PHE,220
+116,C116,6 oz flat white,4,PHE,226
+117,C117,iced americano,1,CRYO,174
+117,C117,iced americano,2,PHE,345
+117,C117,iced americano,3,CRYO,187
+117,C117,iced americano,4,PHE,629
+118,C118,neat espresso,1,CRYO,907
+118,C118,neat espresso,2,PHE,300
+118,C118,neat espresso,3,PHE,375
+118,C118,neat espresso,4,CRYO,761
+119,C119,6 oz flat white,1,CRYO,588
+119,C119,6 oz flat white,2,PHE,946
+119,C119,6 oz flat white,3,PHE,100
+119,C119,6 oz flat white,4,CRYO,542
+120,C120,iced americano,1,CRYO,700
+120,C120,iced americano,2,PHE,830
+120,C120,iced americano,3,PHE,427
+120,C120,iced americano,4,CRYO,881
+121,C121,neat espresso,1,CRYO,915
+121,C121,neat espresso,2,CRYO,227
+121,C121,neat espresso,3,PHE,886
+121,C121,neat espresso,4,PHE,468
+122,C122,6 oz flat white,1,CRYO,343
+122,C122,6 oz flat white,2,CRYO,128
+122,C122,6 oz flat white,3,PHE,518
+122,C122,6 oz flat white,4,PHE,144
+123,C123,iced americano,1,CRYO,774
+123,C123,iced americano,2,CRYO,297
+123,C123,iced americano,3,PHE,312
+123,C123,iced americano,4,PHE,165
+124,C124,neat espresso,1,PHE,195
+124,C124,neat espresso,2,CRYO,125
+124,C124,neat espresso,3,CRYO,410
+124,C124,neat espresso,4,PHE,706
+125,C125,6 oz flat white,1,PHE,307
+125,C125,6 oz flat white,2,PHE,215
+125,C125,6 oz flat white,3,CRYO,213
+125,C125,6 oz flat white,4,CRYO,401
+126,C126,iced americano,1,CRYO,742
+126,C126,iced americano,2,PHE,440
+126,C126,iced americano,3,PHE,932
+126,C126,iced americano,4,CRYO,951
+127,C127,neat espresso,1,PHE,142
+127,C127,neat espresso,2,PHE,808
+127,C127,neat espresso,3,CRYO,383
+127,C127,neat espresso,4,CRYO,538
+128,C128,6 oz flat white,1,CRYO,649
+128,C128,6 oz flat white,2,PHE,693
+128,C128,6 oz flat white,3,PHE,316
+128,C128,6 oz flat white,4,CRYO,797
+129,C129,iced americano,1,PHE,770
+129,C129,iced americano,2,PHE,900
+129,C129,iced americano,3,CRYO,841
+129,C129,iced americano,4,CRYO,257
+130,C130,neat espresso,1,PHE,457
+130,C130,neat espresso,2,CRYO,399
+130,C130,neat espresso,3,PHE,114
+130,C130,neat espresso,4,CRYO,505
+131,C131,6 oz flat white,1,CRYO,609
+131,C131,6 oz flat white,2,PHE,837
+131,C131,6 oz flat white,3,CRYO,413
+131,C131,6 oz flat white,4,PHE,788
+132,C132,iced americano,1,PHE,990
+132,C132,iced americano,2,PHE,909
+132,C132,iced americano,3,CRYO,630
+132,C132,iced americano,4,CRYO,143
+133,C133,neat espresso,1,CRYO,819
+133,C133,neat espresso,2,PHE,955
+133,C133,neat espresso,3,PHE,856
+133,C133,neat espresso,4,CRYO,846
+134,C134,6 oz flat white,1,CRYO,167
+134,C134,6 oz flat white,2,PHE,652
+134,C134,6 oz flat white,3,PHE,141
+134,C134,6 oz flat white,4,CRYO,735
+135,C135,iced americano,1,CRYO,574
+135,C135,iced americano,2,PHE,279
+135,C135,iced americano,3,CRYO,200
+135,C135,iced americano,4,PHE,882
+136,C136,neat espresso,1,CRYO,616
+136,C136,neat espresso,2,CRYO,713
+136,C136,neat espresso,3,PHE,821
+136,C136,neat espresso,4,PHE,310
+137,C137,6 oz flat white,1,CRYO,408
+137,C137,6 oz flat white,2,CRYO,291
+137,C137,6 oz flat white,3,PHE,726
+137,C137,6 oz flat white,4,PHE,112
+138,C138,iced americano,1,CRYO,875
+138,C138,iced americano,2,PHE,776
+138,C138,iced americano,3,CRYO,541
+138,C138,iced americano,4,PHE,140
+139,C139,neat espresso,1,PHE,987
+139,C139,neat espresso,2,PHE,853
+139,C139,neat espresso,3,CRYO,131
+139,C139,neat espresso,4,CRYO,759
+140,C140,6 oz flat white,1,PHE,289
+140,C140,6 oz flat white,2,CRYO,594
+140,C140,6 oz flat white,3,CRYO,319
+140,C140,6 oz flat white,4,PHE,488
+141,C141,iced americano,1,CRYO,711
+141,C141,iced americano,2,PHE,575
+141,C141,iced americano,3,CRYO,675
+141,C141,iced americano,4,PHE,274
+142,C142,neat espresso,1,PHE,435
+142,C142,neat espresso,2,PHE,928
+142,C142,neat espresso,3,CRYO,499
+142,C142,neat espresso,4,CRYO,126
+143,C143,6 oz flat white,1,PHE,335
+143,C143,6 oz flat white,2,CRYO,580
+143,C143,6 oz flat white,3,CRYO,727
+143,C143,6 oz flat white,4,PHE,204
+144,C144,iced americano,1,PHE,732
+144,C144,iced americano,2,PHE,354
+144,C144,iced americano,3,CRYO,461
+144,C144,iced americano,4,CRYO,414
+145,C145,neat espresso,1,CRYO,996
+145,C145,neat espresso,2,PHE,325
+145,C145,neat espresso,3,CRYO,619
+145,C145,neat espresso,4,PHE,605
+146,C146,6 oz flat white,1,CRYO,804
+146,C146,6 oz flat white,2,PHE,904
+146,C146,6 oz flat white,3,PHE,892
+146,C146,6 oz flat white,4,CRYO,411
+147,C147,iced americano,1,PHE,665
+147,C147,iced americano,2,CRYO,330
+147,C147,iced americano,3,CRYO,502
+147,C147,iced americano,4,PHE,379
+148,C148,neat espresso,1,CRYO,989
+148,C148,neat espresso,2,CRYO,487
+148,C148,neat espresso,3,PHE,444
+148,C148,neat espresso,4,PHE,952
+149,C149,6 oz flat white,1,PHE,712
+149,C149,6 oz flat white,2,PHE,171
+149,C149,6 oz flat white,3,CRYO,876
+149,C149,6 oz flat white,4,CRYO,214
+150,C150,iced americano,1,CRYO,597
+150,C150,iced americano,2,PHE,848
+150,C150,iced americano,3,PHE,175
+150,C150,iced americano,4,CRYO,315
+151,C151,neat espresso,1,PHE,245
+151,C151,neat espresso,2,CRYO,585
+151,C151,neat espresso,3,CRYO,406
+151,C151,neat espresso,4,PHE,287
+152,C152,6 oz flat white,1,CRYO,241
+152,C152,6 oz flat white,2,PHE,993
+152,C152,6 oz flat white,3,CRYO,645
+152,C152,6 oz flat white,4,PHE,670
+153,C153,iced americano,1,PHE,533
+153,C153,iced americano,2,PHE,847
+153,C153,iced americano,3,CRYO,833
+153,C153,iced americano,4,CRYO,581
+154,C154,neat espresso,1,CRYO,373
+154,C154,neat espresso,2,CRYO,342
+154,C154,neat espresso,3,PHE,646
+154,C154,neat espresso,4,PHE,177
+155,C155,6 oz flat white,1,PHE,395
+155,C155,6 oz flat white,2,CRYO,578
+155,C155,6 oz flat white,3,CRYO,483
+155,C155,6 oz flat white,4,PHE,301
+156,C156,iced americano,1,CRYO,998
+156,C156,iced americano,2,PHE,510
+156,C156,iced americano,3,PHE,829
+156,C156,iced americano,4,CRYO,199
+157,C157,neat espresso,1,PHE,867
+157,C157,neat espresso,2,CRYO,154
+157,C157,neat espresso,3,CRYO,404
+157,C157,neat espresso,4,PHE,123
+158,C158,6 oz flat white,1,PHE,256
+158,C158,6 oz flat white,2,PHE,258
+158,C158,6 oz flat white,3,CRYO,558
+158,C158,6 oz flat white,4,CRYO,504
+159,C159,iced americano,1,CRYO,453
+159,C159,iced americano,2,PHE,709
+159,C159,iced americano,3,CRYO,357
+159,C159,iced americano,4,PHE,944
+160,C160,neat espresso,1,CRYO,417
+160,C160,neat espresso,2,PHE,462
+160,C160,neat espresso,3,CRYO,418
+160,C160,neat espresso,4,PHE,556
+161,C161,6 oz flat white,1,PHE,721
+161,C161,6 oz flat white,2,CRYO,598
+161,C161,6 oz flat white,3,CRYO,331
+161,C161,6 oz flat white,4,PHE,405
+162,C162,iced americano,1,CRYO,543
+162,C162,iced americano,2,PHE,318
+162,C162,iced americano,3,CRYO,643
+162,C162,iced americano,4,PHE,750
+163,C163,neat espresso,1,CRYO,930
+163,C163,neat espresso,2,PHE,334
+163,C163,neat espresso,3,PHE,232
+163,C163,neat espresso,4,CRYO,621
+164,C164,6 oz flat white,1,PHE,592
+164,C164,6 oz flat white,2,CRYO,838
+164,C164,6 oz flat white,3,CRYO,286
+164,C164,6 oz flat white,4,PHE,540
+165,C165,iced americano,1,CRYO,459
+165,C165,iced americano,2,CRYO,464
+165,C165,iced americano,3,PHE,857
+165,C165,iced americano,4,PHE,600
+166,C166,neat espresso,1,CRYO,267
+166,C166,neat espresso,2,CRYO,765
+166,C166,neat espresso,3,PHE,778
+166,C166,neat espresso,4,PHE,261
+167,C167,6 oz flat white,1,PHE,576
+167,C167,6 oz flat white,2,CRYO,690
+167,C167,6 oz flat white,3,CRYO,264
+167,C167,6 oz flat white,4,PHE,498
+168,C168,iced americano,1,PHE,747
+168,C168,iced americano,2,CRYO,587
+168,C168,iced americano,3,PHE,460
+168,C168,iced americano,4,CRYO,782
+169,C169,neat espresso,1,CRYO,535
+169,C169,neat espresso,2,PHE,842
+169,C169,neat espresso,3,PHE,860
+169,C169,neat espresso,4,CRYO,603
+170,C170,6 oz flat white,1,PHE,387
+170,C170,6 oz flat white,2,CRYO,843
+170,C170,6 oz flat white,3,CRYO,663
+170,C170,6 oz flat white,4,PHE,896
+171,C171,iced americano,1,CRYO,239
+171,C171,iced americano,2,CRYO,443
+171,C171,iced americano,3,PHE,911
+171,C171,iced americano,4,PHE,230
+172,C172,neat espresso,1,PHE,551
+172,C172,neat espresso,2,CRYO,346
+172,C172,neat espresso,3,CRYO,943
+172,C172,neat espresso,4,PHE,655
+173,C173,6 oz flat white,1,CRYO,577
+173,C173,6 oz flat white,2,PHE,980
+173,C173,6 oz flat white,3,CRYO,176
+173,C173,6 oz flat white,4,PHE,698
+174,C174,iced americano,1,CRYO,634
+174,C174,iced americano,2,CRYO,337
+174,C174,iced americano,3,PHE,889
+174,C174,iced americano,4,PHE,380
+175,C175,neat espresso,1,CRYO,940
+175,C175,neat espresso,2,PHE,805
+175,C175,neat espresso,3,CRYO,786
+175,C175,neat espresso,4,PHE,554
+176,C176,6 oz flat white,1,PHE,531
+176,C176,6 oz flat white,2,PHE,169
+176,C176,6 oz flat white,3,CRYO,981
+176,C176,6 oz flat white,4,CRYO,641
+177,C177,iced americano,1,PHE,669
+177,C177,iced americano,2,CRYO,336
+177,C177,iced americano,3,PHE,931
+177,C177,iced americano,4,CRYO,201
+178,C178,neat espresso,1,PHE,768
+178,C178,neat espresso,2,PHE,743
+178,C178,neat espresso,3,CRYO,119
+178,C178,neat espresso,4,CRYO,431
+179,C179,6 oz flat white,1,PHE,802
+179,C179,6 oz flat white,2,PHE,806
+179,C179,6 oz flat white,3,CRYO,235
+179,C179,6 oz flat white,4,CRYO,570
+180,C180,iced americano,1,PHE,278
+180,C180,iced americano,2,PHE,217
+180,C180,iced americano,3,CRYO,519
+180,C180,iced americano,4,CRYO,371
+181,C181,neat espresso,1,PHE,729
+181,C181,neat espresso,2,PHE,628
+181,C181,neat espresso,3,CRYO,341
+181,C181,neat espresso,4,CRYO,477
+182,C182,6 oz flat white,1,PHE,466
+182,C182,6 oz flat white,2,CRYO,135
+182,C182,6 oz flat white,3,PHE,549
+182,C182,6 oz flat white,4,CRYO,493
+183,C183,iced americano,1,PHE,744
+183,C183,iced americano,2,CRYO,240
+183,C183,iced americano,3,PHE,285
+183,C183,iced americano,4,CRYO,974
+184,C184,neat espresso,1,CRYO,916
+184,C184,neat espresso,2,CRYO,773
+184,C184,neat espresso,3,PHE,539
+184,C184,neat espresso,4,PHE,400
+185,C185,6 oz flat white,1,CRYO,344
+185,C185,6 oz flat white,2,PHE,718
+185,C185,6 oz flat white,3,PHE,933
+185,C185,6 oz flat white,4,CRYO,515
+186,C186,iced americano,1,CRYO,883
+186,C186,iced americano,2,PHE,622
+186,C186,iced americano,3,PHE,283
+186,C186,iced americano,4,CRYO,893
+187,C187,neat espresso,1,CRYO,801
+187,C187,neat espresso,2,PHE,583
+187,C187,neat espresso,3,PHE,849
+187,C187,neat espresso,4,CRYO,560
+188,C188,6 oz flat white,1,CRYO,547
+188,C188,6 oz flat white,2,CRYO,526
+188,C188,6 oz flat white,3,PHE,396
+188,C188,6 oz flat white,4,PHE,854
+189,C189,iced americano,1,PHE,863
+189,C189,iced americano,2,CRYO,103
+189,C189,iced americano,3,CRYO,656
+189,C189,iced americano,4,PHE,511
+190,C190,neat espresso,1,CRYO,188
+190,C190,neat espresso,2,PHE,632
+190,C190,neat espresso,3,CRYO,326
+190,C190,neat espresso,4,PHE,714
+191,C191,6 oz flat white,1,CRYO,223
+191,C191,6 oz flat white,2,CRYO,866
+191,C191,6 oz flat white,3,PHE,506
+191,C191,6 oz flat white,4,PHE,394
+192,C192,iced americano,1,CRYO,845
+192,C192,iced americano,2,CRYO,252
+192,C192,iced americano,3,PHE,193
+192,C192,iced americano,4,PHE,156
+193,C193,neat espresso,1,CRYO,409
+193,C193,neat espresso,2,CRYO,599
+193,C193,neat espresso,3,PHE,132
+193,C193,neat espresso,4,PHE,764
+194,C194,6 oz flat white,1,PHE,615
+194,C194,6 oz flat white,2,PHE,366
+194,C194,6 oz flat white,3,CRYO,798
+194,C194,6 oz flat white,4,CRYO,836
+195,C195,iced americano,1,CRYO,799
+195,C195,iced americano,2,CRYO,961
+195,C195,iced americano,3,PHE,593
+195,C195,iced americano,4,PHE,954
+196,C196,neat espresso,1,PHE,660
+196,C196,neat espresso,2,CRYO,359
+196,C196,neat espresso,3,PHE,470
+196,C196,neat espresso,4,CRYO,455
+197,C197,6 oz flat white,1,PHE,495
+197,C197,6 oz flat white,2,CRYO,790
+197,C197,6 oz flat white,3,CRYO,121
+197,C197,6 oz flat white,4,PHE,513
+198,C198,iced americano,1,PHE,449
+198,C198,iced americano,2,PHE,170
+198,C198,iced americano,3,CRYO,168
+198,C198,iced americano,4,CRYO,697
+199,C199,neat espresso,1,PHE,134
+199,C199,neat espresso,2,CRYO,534
+199,C199,neat espresso,3,CRYO,118
+199,C199,neat espresso,4,PHE,638
+200,C200,6 oz flat white,1,CRYO,475
+200,C200,6 oz flat white,2,CRYO,631
+200,C200,6 oz flat white,3,PHE,791
+200,C200,6 oz flat white,4,PHE,679

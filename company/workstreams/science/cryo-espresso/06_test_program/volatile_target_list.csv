@@ -1,0 +1,29 @@
+analyte,class,RI_DBWAX,quant_ion_mz,qualifier_ions_mz,SIM_window,role_in_study
+Acetaldehyde,aldehyde,700,44,"43,29",1,Fresh/pungent top note; CO2/volatile loss proxy
+Methanethiol,thiol,705,48,"47,45",1,KEY thiol; 25% stripping worst case; disulfide-ratio numerator
+Dimethyl sulfide,sulfide,750,62,"47,45",1,Sulfide baseline
+2-Methylpropanal,aldehyde,810,72,"43,41",1,"Strecker aldehyde, malty"
+3-Methylbutanal,aldehyde,915,58,"44,71",1,"Strecker aldehyde, malty"
+"2,3-Butanedione (diacetyl)",diketone,980,86,43,1,Buttery; roast marker
+Ethyl 2-methylbutanoate,ester,1050,102,"57,85",2,Fruity ester
+"2,3-Pentanedione",diketone,1055,100,"43,57",1,Buttery; pairs with diacetyl
+Dimethyl disulfide (DMDS),disulfide,1075,94,"79,45",2,KEY oxidation product of methanethiol
+Hexanal,aldehyde,1085,56,"72,82",2,Lipid oxidation marker (also see PV/TBARS)
+2-Methylpyrazine,pyrazine,1265,94,"95,67",2,Roast/nutty; stable reference odorant
+2-Methyl-3-furanthiol,thiol,1315,114,"85,55",3,"Meaty thiol, secondary"
+"2,5-Dimethylpyrazine",pyrazine,1320,108,"107,42",2,Roast/nutty
+2-Furfurylthiol (FFT),thiol,1435,81,"114,53",3,KEY thiol; +40pp with inert flush at 24h; primary endpoint
+"2-Ethyl-3,5-dimethylpyrazine",pyrazine,1445,135,"136,108",3,"Earthy-roasty, high OAV"
+Acetic acid,acid,1450,60,"43,45",3,Sour; ties to titratable acidity
+Furfural,furan,1465,96,"95,39",3,Sugar-degradation; <0.2% strip; matrix-stable anchor
+"2,3-Diethyl-5-methylpyrazine",pyrazine,1490,149,"150,122",3,"Earthy-roasty, high OAV"
+3-Mercapto-3-methylbutyl formate,thiol,1520,71,"43,55",3,"Catty/roasty thiol, secondary"
+Furfuryl acetate,ester,1545,81,"98,43",3,Marker of FFT precursor pool / acetylation
+Linalool,terpene,1550,71,"93,121",4,Floral; sweet aroma
+5-Methylfurfural,furan,1580,110,"109,53",3,Sugar-degradation
+beta-Damascenone,norisoprenoid,1830,69,"121,190",4,Very high OAV fruity/honey
+Guaiacol,phenol,1860,124,"109,81",4,Smoky/phenolic; <0.2% strip; matrix anchor
+4-Ethylguaiacol,phenol,2030,137,"152,122",4,Spicy/phenolic
+4-Vinylguaiacol,phenol,2200,150,"135,107",5,Clove; CGA-lactone-linked
+Difurfuryl disulfide (DFDS),disulfide,2210,81,"162,53",5,KEY oxidation product of FFT; denominator of ratio
+Sotolon,lactone,2210,128,"83,55",5,Seasoning/maple; ageing marker

@@ -1,0 +1,19 @@
+quantity,value,unit
+film thickness (78 C),0.15430140077893278,mm
+film thickness (0 C),0.261536168878856,mm
+specific interfacial area a=1/delta,5147.462098251468,1/m
+residence time on 150 mm plate,1.6,s
+N2 boil-off volumetric rate at peak,0.8383627236633944,L/s
+sweep velocity over plate,0.05589084824422629,m/s
+LN2 per shot (sensible chill only),58.01005025125628,g
+max sweep-gas saturation (any odorant),0.06092867593465726,% of equilibrium
+CO2 remaining after 2 s transit,25.158568024757454,%
+CO2 supersaturation ratio at 78 C,2.8159567609025284,-
+"frost, baseline cafe",3.248957854612108,g/h
+frost dilution per shot,0.1351902325388954,% TDS
+frost thermal penalty at 2 h,14.8,% reduction in air-side heat leak
+"LOX condensation, uninsulated block (heat-limited)",792.6839758313579,g/h
+"LOX condensation, uninsulated block (diffusion-limited)",1026.5017948311754,g/h
+fraction of monolithic body below 90.2 K,100.0,%
+min plate temp to avoid wall ice (Al),-6.7,C
+min plate temp to avoid wall ice (Cu),-3.9,C

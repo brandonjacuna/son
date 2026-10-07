@@ -1,0 +1,40 @@
+timepoint_h,arm,vessels,note
+0,A_CRYO_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+2,A_CRYO_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+6,A_CRYO_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+12,A_CRYO_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+24,A_CRYO_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+48,A_CRYO_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+0,B_CRYO_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+2,B_CRYO_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+6,B_CRYO_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+12,B_CRYO_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+24,B_CRYO_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+48,B_CRYO_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+0,C_PHE_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+2,C_PHE_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+6,C_PHE_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+12,C_PHE_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+24,C_PHE_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+48,C_PHE_INERT,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+0,D_PHE_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+2,D_PHE_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+6,D_PHE_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+12,D_PHE_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+24,D_PHE_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+48,D_PHE_AIR,3,1 vessel per batch replicate; opened once at this timepoint; atmosphere destroyed; all destructive assays drawn from this single opening
+72,A_CRYO_INERT,3,CONDITIONAL - only if a variance waives the 48 h reduced-oxygen-packaging ceiling
+72,B_CRYO_AIR,3,CONDITIONAL - only if a variance waives the 48 h reduced-oxygen-packaging ceiling
+72,C_PHE_INERT,3,CONDITIONAL - only if a variance waives the 48 h reduced-oxygen-packaging ceiling
+72,D_PHE_AIR,3,CONDITIONAL - only if a variance waives the 48 h reduced-oxygen-packaging ceiling
+0,FRESH_REF,3,"Unchilled, unpackaged espresso, analysed within 90 s of extraction - the t=0 anchor for all retention percentages"
+-1,QC_POOL,3,"Pooled QC reservoir, aliquoted and frozen at -80 degC, injected every 10th run"
+-1,BLANK,3,Hot water through each device path - carryover and phthalate/septum blank
+0,A_CRYO_INERT,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference
+0,B_CRYO_AIR,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference
+0,C_PHE_INERT,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference
+0,D_PHE_AIR,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference
+48,A_CRYO_INERT,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference
+48,B_CRYO_AIR,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference
+48,C_PHE_INERT,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference
+48,D_PHE_AIR,3,CONDITIONAL peroxide-value (P8) dedicated vessel; 1 per batch replicate; runs only if P7 hexanal shows a >2x between-arm difference

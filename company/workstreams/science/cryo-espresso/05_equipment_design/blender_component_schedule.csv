@@ -1,0 +1,26 @@
+part,group,L_mm,W_mm,H_mm,dia_mm,material,provenance,notes
+Counter top,room,2000.0,650.0,40.0,,stone_honed,SET,"900 mm finished height, 40 mm slab."
+Counter carcass,room,2000.0,620.0,860.0,,laminate_dark,SET,Under-counter void 820 mm clear.
+Back wall,room,2000.0,20.0,1400.0,,tile_gloss_white,SET,Subway tile behind the run.
+"Espresso machine, 2 group",on_counter,800.0,560.0,520.0,,steel_polished,VERIFY,"Representative traditional 2-group envelope, not a specific model."
+Portafilter spout underside,on_counter,,,1005.0,,,SET,Absolute Z. Sets the gravity head: only 645 mm to the keg post.
+Grinder,on_counter,230.0,400.0,620.0,,steel_matte_black,VERIFY,Representative on-demand espresso grinder.
+Glycol bath vessel,on_counter,160.0,130.0,200.0,,steel_brushed,DERIVED,Exact. 4 L working volume.
+Bath insulation jacket,on_counter,210.0,180.0,250.0,,foam_closed_cell,DERIVED,25 mm closed-cell all faces.
+Chiller coil (x2),coil_detail,,,139.5,80.0,steel_316L_bright,DERIVED,"9 turns, 15.5 mm pitch, 4.4 OD / 3.0 bore, 2266 mm developed, 16.0 mL."
+Coil inspection section,coil_detail,50.0,,,4.4,glass_clear,DERIVED,"Test rig only. Clear PFA or borosilicate, 3 mm bore."
+Mini corny keg,blanket_detail,,,279.0,229.0,steel_304_brushed,PUBLISHED,"1.6 gal / 6 L. 11 in high, 9 in dia, 304 stainless, 80 psi."
+"Keg lid, oval + pull-ring PRV",blanket_detail,115.0,80.0,,,steel_304_brushed,PUBLISHED,Pull-ring relief valve on the lid.
+"Ball-lock post, gas",blanket_detail,,,28.0,19.0,steel_304,SET,"Notched collar. VENT during fill, pressurise after."
+"Ball-lock post, liquid",blanket_detail,,,28.0,19.0,steel_304,SET,Plain collar. The FILL path - coffee in through the dip tube.
+Liquid dip tube,blanket_detail,,,274.0,7.9,steel_304,DERIVED,"To 5 mm off the floor. Coffee enters below the surface, never falls through gas."
+Gas tube (short),blanket_detail,,,25.0,7.9,steel_304,SET,Terminates in the headspace. Must never reach the liquid or it sparges out the CO2.
+Sight-glass boss + O2 spot,blanket_detail,,,,25.0,glass_clear,DESIGN_NOTE,"Optical O2 spots read THROUGH a transparent wall; stainless is opaque, so the instrumented keg needs a window."
+Purge / vent manifold,blanket_detail,180.0,90.0,110.0,,steel_316,CUSTOM,"THE custom part. Gas in, vent out through a one-way bubbler, pressurise after seal."
+Vent bubbler,blanket_detail,60.0,60.0,180.0,,glass_clear,CUSTOM,"Water-filled one-way vent. Lets displaced gas out, stops air diffusing back in."
+"Regulator, dual gauge",blanket_detail,120.0,90.0,160.0,,brass_chrome,SET,CGA580. 0-3000 psi cylinder / 0-60 psi delivery. Set 11-12 psig AFTER fill.
+"Gas cylinder, 20 cu ft mix",under_counter,,,457.0,133.0,steel_painted_grey,PUBLISHED,"5.25 in dia x 18 in with valve, CGA580, 2015 psi. ~19 batches per fill."
+Cylinder restraint,under_counter,,,,,steel_chain,SET,Chain or bracket to the carcass. Non-optional.
+Refrigerated fill well,under_counter,400.0,500.0,820.0,,steel_brushed,VERIFY,Holds ONE keg at <=4 degC through the fill and until it leaves. Front-opening.
+Bench scale under keg,under_counter,300.0,300.0,90.0,,steel_brushed,SET,Reads batch mass live: 4.04 kg = 100 shots. Confirms per-shot yield during the run.
+Glycol power pack,under_counter,400.0,400.0,500.0,,steel_painted,VERIFY,"UBC G-30 class, 2600 BTU/h. Envelope approximate."

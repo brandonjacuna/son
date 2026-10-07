@@ -1,0 +1,21 @@
+modality,attribute,definition,scale_anchors,reference_standard,scale_type,note
+Appearance,Crema volume,Depth of foam layer immediately after pour,0 = none (bare liquid surface); 5 = 2 mm even layer; 10 = 4+ mm doming,Fresh ristretto (10); water (0),0-10 line scale,Batched arms have NO native crema; regenerated only
+Appearance,Crema persistence,"Time-to-break, scored at 60 s after pour","0 = fully broken by 60 s; 10 = intact, no lacing",Fresh shot at 60 s (7-8),0-10 line scale,Key discriminator that must be blinded out
+Appearance,Sediment visibility,Visible fines/silt in cup base after 60 s stand,0 = clear; 10 = heavy visible silt layer,0.5 g/L cellulose suspension = 6,0-10 line scale,Phase 0: fines >20 um settle within ~1.2 h
+Appearance,Colour depth,Darkness of the liquid column,0 = pale tan; 10 = opaque near-black,Neutral density chips,0-10 line scale,Assessed only in clear-vessel unblinded session
+Aroma,Sulfury / roasty top note,"Struck-match, coffee-thiol impact on first sniff",0 = absent; 10 = intense,2-furfurylthiol 0.5 ug/L in water = 5,0-10 line scale,Phase 0: the compound most protected by inert flush
+Aroma,Oxidised / cardboard / stale,"Wet paper, cardboard, stale-nut",0 = absent; 10 = dominant,Hexanal 20 ug/L = 4; damp cardboard headspace = 6,0-10 line scale,PRIMARY marker for the oxygen contrast
+Aroma,Smoky / phenolic,"Guaiacol, clove, burnt-wood",0 = absent; 10 = intense,Guaiacol 30 ug/L = 5,0-10 line scale,"Phase 0: <0.2 % stripping loss, expect null"
+Aroma,Caramel / sweet-baked,"Furfural, malt, toffee",0 = absent; 10 = intense,Furfural 200 ug/L = 5,0-10 line scale,
+Aroma,"Aroma intensity, total",Overall orthonasal impact,0 = odourless; 10 = very intense,Fresh shot = 8,0-10 line scale,
+Taste,Bitterness,Bitter taste sensation,0 = none; 10 = intense,"Caffeine 0.05 % (2), 0.08 % (5), 0.15 % (9) in water",0-10 line scale,JAR-scaled in consumer test
+Taste,Sourness / acidity,"Sour taste, brightness",0 = none; 10 = intense,"Citric acid 0.02 % (2), 0.05 % (5), 0.10 % (9)",0-10 line scale,JAR-scaled in consumer test
+Taste,Sweetness,Perceived sweetness,0 = none; 10 = intense,"Sucrose 1 % (2), 2 % (5), 5 % (9)",0-10 line scale,
+Taste,Salty / savoury,"Brothy, saline",0 = none; 10 = clear,NaCl 0.1 % = 4,0-10 line scale,Often rises with staling
+Mouthfeel,CO2 prickle / carbonation bite,"Tingling, effervescent sting on the tongue",0 = flat; 10 = sharp prickle,Sparkling water 2 g/L CO2 = 7; degassed water = 0,0-10 line scale,Phase 0: only ~25 % of CO2 survives and will NOT re-effervesce. Expect a large batched-vs-fresh gap here.
+Mouthfeel,Body / viscosity,Weight and thickness in the mouth,0 = watery; 10 = syrupy,Water (0); 0.1 % xanthan (7),0-10 line scale,
+Mouthfeel,Astringency,"Drying, puckering, rough surface feel",0 = none; 10 = strongly drying,Alum 0.05 % = 5,0-10 line scale,Rate 15 s after expectoration; enforce 60 s inter-sip
+Mouthfeel,Metallic,"Metallic, coin-like",0 = none; 10 = clear,FeSO4 10 mg/L = 5,0-10 line scale,Oxidation marker; also a stainless-contact check
+Aftertaste,Aftertaste length,Time to return to baseline after swallow/expectorate,0 = <5 s; 10 = >90 s,Fresh shot = 7,0-10 line scale,TDS/TI session covers this dynamically
+Aftertaste,"Aftertaste quality, stale finish",Cardboard/oxidised character in the finish only,0 = clean; 10 = strongly stale,Same as oxidised reference,0-10 line scale,Staling shows in the finish before the attack
+Aftertaste,Lingering bitterness,Bitterness persisting past 30 s,0 = none; 10 = strong,Caffeine 0.08 % held 30 s = 5,0-10 line scale,

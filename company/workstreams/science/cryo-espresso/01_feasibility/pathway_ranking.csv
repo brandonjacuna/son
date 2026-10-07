@@ -1,0 +1,9 @@
+rank,marker,marker_label,control,half_life_25C_air_h,Ea_kJmol,O2_fraction,retention_24h_cryo_air,retention_24h_cryo_inert,gain_from_inert_pp,gain_from_cryo_vs_plateHX_pp,span_cold_hold,span_full_space
+1,FFT_2_furfurylthiol,2-furfurylthiol (roasty),OXYGEN-limited (and fast),1.21,60,0.75,0.11,0.51,40.0,0.173,0.879,0.782
+2,Strecker_aldehydes,Strecker aldehydes,MIXED temperature/time,64.18,60,0.45,0.955,0.964,0.9,0.016,0.266,0.981
+3,Butanedione_23,"2,3-butanedione (buttery)",MIXED temperature/time,96.27,65,0.3,0.977,0.984,0.7,0.035,0.138,0.993
+4,Lipid_integrity,Lipid integrity (anti-rancid),OXYGEN-limited,641.8,50,0.95,0.994,0.999,0.6,0.0,0.019,0.103
+5,CGA_lactones,Chlorogenic acid lactones (bitter),TIME-limited (irrelevant <72 h),3929.41,80,0.1,1.0,1.0,0.0,0.002,0.003,0.397
+6,Melanoidin_colour,Colour stability (no further browning),TEMPERATURE-limited,6418.03,110,0.15,1.0,1.0,0.0,0.005,0.013,0.831
+7,Titratable_acidity,pH stability (no acid drift),TEMPERATURE-limited,7405.42,90,0.25,1.0,1.0,0.0,0.001,0.003,0.363
+8,CQA_5_isomer,5-CQA (isomer purity),TEMPERATURE-limited,19254.09,85,0.2,1.0,1.0,0.0,0.0,0.001,0.124

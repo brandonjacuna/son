@@ -1,0 +1,193 @@
+frame,marker,factor,share
+Full design space,FFT_2_furfurylthiol,tau_label,0.0013923992731061192
+Full design space,FFT_2_furfurylthiol,Thold_label,0.6489596417053742
+Full design space,FFT_2_furfurylthiol,atmosphere,0.02692994242822324
+Full design space,FFT_2_furfurylthiol,hold_h,0.12401404406453297
+Full design space,FFT_2_furfurylthiol,parameter_uncertainty,0.1275618452471075
+Full design space,FFT_2_furfurylthiol,interactions,0.07114212728165598
+Full design space,Strecker_aldehydes,tau_label,2.0253217334052265e-05
+Full design space,Strecker_aldehydes,Thold_label,0.39509773446047197
+Full design space,Strecker_aldehydes,atmosphere,0.06394651298654297
+Full design space,Strecker_aldehydes,hold_h,0.054120709850237356
+Full design space,Strecker_aldehydes,parameter_uncertainty,0.30988529072556353
+Full design space,Strecker_aldehydes,interactions,0.17692949875985015
+Full design space,Lipid_integrity,tau_label,2.5733782463203164e-05
+Full design space,Lipid_integrity,Thold_label,0.10561095578431323
+Full design space,Lipid_integrity,atmosphere,0.06218680349630796
+Full design space,Lipid_integrity,hold_h,0.05051444555246494
+Full design space,Lipid_integrity,parameter_uncertainty,0.6595891122908493
+Full design space,Lipid_integrity,interactions,0.12207294909360145
+Full design space,Butanedione_23,tau_label,2.694099142995503e-05
+Full design space,Butanedione_23,Thold_label,0.2544523128794228
+Full design space,Butanedione_23,atmosphere,0.00041728545643751234
+Full design space,Butanedione_23,hold_h,0.10228119362236224
+Full design space,Butanedione_23,parameter_uncertainty,0.4657213221816008
+Full design space,Butanedione_23,interactions,0.17710094486874672
+Full design space,CGA_lactones,tau_label,2.2460840714918264e-05
+Full design space,CGA_lactones,Thold_label,0.17217164037262658
+Full design space,CGA_lactones,atmosphere,2.8468196886771043e-05
+Full design space,CGA_lactones,hold_h,0.07460458833173657
+Full design space,CGA_lactones,parameter_uncertainty,0.6115777023403095
+Full design space,CGA_lactones,interactions,0.14159513991772565
+Full design space,Titratable_acidity,tau_label,1.9196399325387987e-05
+Full design space,Titratable_acidity,Thold_label,0.09816442758410884
+Full design space,Titratable_acidity,atmosphere,8.116050221474004e-05
+Full design space,Titratable_acidity,hold_h,0.04044364507143546
+Full design space,Titratable_acidity,parameter_uncertainty,0.7821139694559048
+Full design space,Titratable_acidity,interactions,0.07917760098701077
+Full design space,Melanoidin_colour,tau_label,4.6385081187555916e-05
+Full design space,Melanoidin_colour,Thold_label,0.17548489506649173
+Full design space,Melanoidin_colour,atmosphere,6.750532679627575e-05
+Full design space,Melanoidin_colour,hold_h,0.07153490195797038
+Full design space,Melanoidin_colour,parameter_uncertainty,0.6107698221920241
+Full design space,Melanoidin_colour,interactions,0.14209649037552996
+Full design space,CQA_5_isomer,tau_label,9.196233245376407e-06
+Full design space,CQA_5_isomer,Thold_label,0.049400389926910426
+Full design space,CQA_5_isomer,atmosphere,2.768299881264063e-05
+Full design space,CQA_5_isomer,hold_h,0.020610322080381088
+Full design space,CQA_5_isomer,parameter_uncertainty,0.8898993977810056
+Full design space,CQA_5_isomer,interactions,0.040053010979644865
+Cold hold only (4 °C),FFT_2_furfurylthiol,tau_label,0.0333893789463254
+Cold hold only (4 °C),FFT_2_furfurylthiol,Thold_label,0.0
+Cold hold only (4 °C),FFT_2_furfurylthiol,atmosphere,0.14634778309965182
+Cold hold only (4 °C),FFT_2_furfurylthiol,hold_h,0.27489654260270263
+Cold hold only (4 °C),FFT_2_furfurylthiol,parameter_uncertainty,0.4527249829648394
+Cold hold only (4 °C),FFT_2_furfurylthiol,interactions,0.09264131238648071
+Cold hold only (4 °C),Strecker_aldehydes,tau_label,0.0189845929569646
+Cold hold only (4 °C),Strecker_aldehydes,Thold_label,0.0
+Cold hold only (4 °C),Strecker_aldehydes,atmosphere,0.4150495607195253
+Cold hold only (4 °C),Strecker_aldehydes,hold_h,0.12181221184988436
+Cold hold only (4 °C),Strecker_aldehydes,parameter_uncertainty,0.4358173388721896
+Cold hold only (4 °C),Strecker_aldehydes,interactions,0.008336295601436172
+Cold hold only (4 °C),Lipid_integrity,tau_label,0.0013655807938539872
+Cold hold only (4 °C),Lipid_integrity,Thold_label,0.0
+Cold hold only (4 °C),Lipid_integrity,atmosphere,0.21612268781043015
+Cold hold only (4 °C),Lipid_integrity,hold_h,0.1276539043990224
+Cold hold only (4 °C),Lipid_integrity,parameter_uncertainty,0.5013567811368366
+Cold hold only (4 °C),Lipid_integrity,interactions,0.1535010458598569
+Cold hold only (4 °C),Butanedione_23,tau_label,0.06707554288698792
+Cold hold only (4 °C),Butanedione_23,Thold_label,0.0
+Cold hold only (4 °C),Butanedione_23,atmosphere,0.008899525401579438
+Cold hold only (4 °C),Butanedione_23,hold_h,0.28023841444980474
+Cold hold only (4 °C),Butanedione_23,parameter_uncertainty,0.6367694404028895
+Cold hold only (4 °C),Butanedione_23,interactions,0.007017076858738425
+Cold hold only (4 °C),CGA_lactones,tau_label,0.28549113985256847
+Cold hold only (4 °C),CGA_lactones,Thold_label,0.0
+Cold hold only (4 °C),CGA_lactones,atmosphere,0.0007632782056541591
+Cold hold only (4 °C),CGA_lactones,hold_h,0.09350144803519438
+Cold hold only (4 °C),CGA_lactones,parameter_uncertainty,0.6197838763192057
+Cold hold only (4 °C),CGA_lactones,interactions,0.0004602575873772219
+Cold hold only (4 °C),Titratable_acidity,tau_label,0.15137212228436778
+Cold hold only (4 °C),Titratable_acidity,Thold_label,0.0
+Cold hold only (4 °C),Titratable_acidity,atmosphere,0.0008639302119344258
+Cold hold only (4 °C),Titratable_acidity,hold_h,0.005164335884620764
+Cold hold only (4 °C),Titratable_acidity,parameter_uncertainty,0.8417999652293543
+Cold hold only (4 °C),Titratable_acidity,interactions,0.0007996463897227413
+Cold hold only (4 °C),Melanoidin_colour,tau_label,0.2986245822757317
+Cold hold only (4 °C),Melanoidin_colour,Thold_label,0.0
+Cold hold only (4 °C),Melanoidin_colour,atmosphere,0.00048804503397058854
+Cold hold only (4 °C),Melanoidin_colour,hold_h,0.0003787312910560161
+Cold hold only (4 °C),Melanoidin_colour,parameter_uncertainty,0.6997924997936553
+Cold hold only (4 °C),Melanoidin_colour,interactions,0.0007161416055863068
+Cold hold only (4 °C),CQA_5_isomer,tau_label,0.07065871153507432
+Cold hold only (4 °C),CQA_5_isomer,Thold_label,0.0
+Cold hold only (4 °C),CQA_5_isomer,atmosphere,0.00032850700322737135
+Cold hold only (4 °C),CQA_5_isomer,hold_h,0.004749616905779925
+Cold hold only (4 °C),CQA_5_isomer,parameter_uncertainty,0.923998973898579
+Cold hold only (4 °C),CQA_5_isomer,interactions,0.0002641906573394026
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",FFT_2_furfurylthiol,tau_label,2.844039801463417e-06
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",FFT_2_furfurylthiol,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",FFT_2_furfurylthiol,atmosphere,0.1177253860215896
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",FFT_2_furfurylthiol,hold_h,0.3110621729014652
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",FFT_2_furfurylthiol,parameter_uncertainty,0.47275703796290286
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",FFT_2_furfurylthiol,interactions,0.09845255907424083
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Strecker_aldehydes,tau_label,1.6718551211069864e-06
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Strecker_aldehydes,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Strecker_aldehydes,atmosphere,0.49572949710207237
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Strecker_aldehydes,hold_h,0.14246786791909002
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Strecker_aldehydes,parameter_uncertainty,0.35273231148280426
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Strecker_aldehydes,interactions,0.009068651640912195
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Lipid_integrity,tau_label,1.0680992341616493e-07
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Lipid_integrity,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Lipid_integrity,atmosphere,0.19668511763402
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Lipid_integrity,hold_h,0.13219874373702156
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Lipid_integrity,parameter_uncertainty,0.5133258981212433
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Lipid_integrity,interactions,0.1577901336977917
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Butanedione_23,tau_label,6.163316200146137e-06
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Butanedione_23,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Butanedione_23,atmosphere,0.007040374094047799
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Butanedione_23,hold_h,0.3419712091503316
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Butanedione_23,parameter_uncertainty,0.6434749166286529
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Butanedione_23,interactions,0.007507336810767651
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CGA_lactones,tau_label,0.00011918344216108764
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CGA_lactones,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CGA_lactones,atmosphere,0.0012047407682632095
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CGA_lactones,hold_h,0.5186574335848154
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CGA_lactones,parameter_uncertainty,0.4790552789051146
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CGA_lactones,interactions,0.000963363299645692
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Titratable_acidity,tau_label,0.0008853569829679696
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Titratable_acidity,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Titratable_acidity,atmosphere,0.005850007257162775
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Titratable_acidity,hold_h,0.40167957432838103
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Titratable_acidity,parameter_uncertainty,0.5871230981175937
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Titratable_acidity,interactions,0.004461963313894479
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Melanoidin_colour,tau_label,0.019654834433752842
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Melanoidin_colour,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Melanoidin_colour,atmosphere,0.0027481052158752524
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Melanoidin_colour,hold_h,0.3316677665011551
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Melanoidin_colour,parameter_uncertainty,0.6443552106835604
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",Melanoidin_colour,interactions,0.001574083165656437
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CQA_5_isomer,tau_label,0.00059079134852748
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CQA_5_isomer,Thold_label,0.0
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CQA_5_isomer,atmosphere,0.004806137944488225
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CQA_5_isomer,hold_h,0.5280391611346548
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CQA_5_isomer,parameter_uncertainty,0.46282491211091265
+"Cold hold, fast chill only
+(τ = 1.5 s vs 10 s)",CQA_5_isomer,interactions,0.003738997461416871

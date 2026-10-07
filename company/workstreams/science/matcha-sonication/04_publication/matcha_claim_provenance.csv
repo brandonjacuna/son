@@ -1,0 +1,26 @@
+claim,section,evidence,publishable_as,needed_to_upgrade
+Matcha (5-10 um) equilibrates with water in ~0.07 s; leaf tea (0.5-1 mm) needs ~25 min,Extraction limit,lit+model,Core result (Fig 1),PSD of the actual powders; TDS vs sonication time
+Therefore ultrasound gives no meaningful extraction uplift for matcha; no dose reduction,Extraction limit,lit+model,Core result (Fig 1) - negative,"TDS at equal powder, >=3 grades, n>=3"
+"Agglomerate cohesive strength (Rumpf, vdW) median ~64 Pa, 5-95th pct 23-174 Pa",Mechanism,model,Core result (Fig 2),Cannot measure directly; validate via PSD outcome
+"Chasen ~22 Pa, blender ~36 Pa, rotor-stator ~1080 Pa, sonication ~2.9e4 Pa (far field)",Mechanism,model,Core result (Fig 2),Acoustic pressure mapping (hydrophone) would ground it
+"=> 96% of clumps survive whisking, 83% blending, ~0% sonication or rotor-stator",Mechanism,model,Core result (Fig 2),"Laser diffraction PSD, D90 by method - THE key experiment"
+Cavitation driving pressure 1.9x higher at 4 C than 80 C,Cold advantage,lit+model,Core result (Fig 4),Calorimetric or sonochemiluminescence yield vs T
+Countertop blender +17 K per 1 L batch; immersion +2.2 K; sonication +0.14 K,Cold advantage,model,Core result (Fig 4),Thermocouple log - trivial to measure
+Hot+fridge-chill route carries ~9.4x the volatile-loss exposure of cold sonication,Cold advantage,model,Supporting (Fig 4),Headspace GC-MS or trained aroma panel
+Ice bath closes most of the volatile gap (1.7x vs 1.0x),Cold advantage,model,Supporting - self-limiting caveat,Same GC-MS three-arm comparison
+"Oversize (>25 um) solids per drink: whisk 54 mg, blender 20 mg, sonication 0.4 mg",Texture,model,Core result (Fig 3),PSD + gravimetric sieve fraction
+Grit survives dilution because detection is size- not concentration-thresholded,Texture,lit+model,Core result (Fig 3),Sensory panel across dilution matrices
+Surviving agglomerates settle in the served glass in 1.4-4.7 min -> chalky last third,Texture,model,MOST ARRESTING - Fig 3 or Fig 1,Photograph time series + bottom/top TDS. Cheap.
+Well-dispersed 7 um material stays suspended ~11 h at 4 C (200 mm column),Hold stability,model,Core result (Fig 5),Turbidity decay over 8 h
+No method escapes gravity over a service day; ~10% suspended at 8 h unagitated,Hold stability,model,Core result (Fig 5) - bounds the claim,Same turbidity series
+"Casein moderates polyphenol astringency, offsetting increased surface area",Astringency,lit,Discussion,"Astringency panel, water vs milk matrix"
+"Viscosity: usucha only +5% over water; below the ~20-30% JND, so 'body' is not rheological",Texture,lit+model,Discussion / Fig 3 inset,"Rheometry, trivial"
+Continuous stirring at G~46/s risks re-flocculation in ~1.3 min at alpha=0.01,Flocculation,model,Supporting,Stirred vs still D90 at 8 h - decisive
+"Pulsed stirring (5 s / 15 min) cuts time-averaged shear ~190x, pushing flocculation past a service day",Flocculation,model,Supporting,Same experiment
+Collision efficiency alpha is unmeasured and spans 0.001-1.0,Flocculation,assumed,Stated limitation,Direct: PSD growth under known shear
+Dosing line holds ~1.2 doses that stratify in ~20 min,Workflow,model,"Operations piece, not the paper",First-draw vs steady-state TDS
+"Warm concentrate over-pours: +9.4% at 13 C, +16.4% at 20 C (viscosity-sensitive spout)",Workflow,model,Operations piece,Weigh 30 pours at each of 3 temperatures
+Pour method beats shake compliance ~22 points vs ~7,Workflow,assumed,Operations piece - inputs are estimates,Weigh 30 pours per method
+Labor 28 min vs 80 min per 144 drinks; chilling+washing = 40% of the hot route,Workflow,assumed,Operations piece,Stopwatch a real build-out
+"Drink-to-drink CV 0.041 (bottled, measured spout) vs ~0.18 made-to-order under load",Workflow,assumed,Operations piece - all CVs assumed,"Service-floor logging, 2 weeks"
+Probe tip erosion into an abrasive suspension,Safety,lit,MUST be in any paper as a limitation,Tip mass loss + ICP-MS for Ti/Al/V

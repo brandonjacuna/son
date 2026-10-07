@@ -1,0 +1,82 @@
+zone,zone_volume_m3,nominal_ACH,local_vent_effectiveness,effective_ACH,LN2_L_per_h,N2_gas_m3_per_h,O2_steady_state_pct,O2_at_15min_pct,O2_at_60min_pct,time_constant_min,t_to_19p5_min,t_to_18_min,t_to_16_min,breaches_19p5,breaches_18,breaches_16
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,1,0.702,20.42,20.84,20.71,117.3,,,,False,False,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,2,1.405,19.97,20.79,20.52,114.6,,,,False,False,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,3,2.107,19.53,20.73,20.33,112.1,,,,False,False,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,4,2.81,19.11,20.67,20.15,109.7,167.3,,,True,False,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,5,3.512,18.71,20.61,19.96,107.4,109.5,,,True,False,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,6,4.214,18.33,20.56,19.78,105.2,82.6,,,True,False,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,8,5.619,17.6,20.45,19.42,101.1,55.9,213.9,,True,True,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,10,7.024,16.93,20.33,19.07,97.2,42.3,127.8,,True,True,False
+behind-bar zone (60 m3),60.0,0.5,1.0,0.5,12,8.429,16.32,20.22,18.73,93.7,34.1,93.8,,True,True,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,1,0.702,20.78,20.85,20.79,29.8,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,2,1.405,20.66,20.8,20.69,29.7,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,3,2.107,20.54,20.76,20.59,29.5,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,4,2.81,20.42,20.71,20.48,29.3,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,5,3.512,20.31,20.66,20.38,29.1,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,6,4.214,20.19,20.61,20.28,29.0,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,8,5.619,19.97,20.52,20.08,28.7,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,10,7.024,19.74,20.43,19.88,28.3,,,,False,False,False
+behind-bar zone (60 m3),60.0,2.0,1.0,2.0,12,8.429,19.53,20.33,19.69,28.0,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,1,0.702,20.86,20.87,20.86,10.0,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,2,1.405,20.82,20.84,20.82,10.0,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,3,2.107,20.78,20.81,20.78,9.9,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,4,2.81,20.74,20.77,20.74,9.9,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,5,3.512,20.7,20.74,20.7,9.9,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,6,4.214,20.66,20.71,20.66,9.9,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,8,5.619,20.58,20.65,20.58,9.8,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,10,7.024,20.5,20.59,20.5,9.8,,,,False,False,False
+behind-bar zone (60 m3),60.0,6.0,1.0,6.0,12,8.429,20.42,20.52,20.42,9.8,,,,False,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,1,0.702,20.71,20.88,20.82,118.9,,,,False,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,2,1.405,20.52,20.85,20.75,117.8,,,,False,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,3,2.107,20.33,20.83,20.67,116.7,,,,False,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,4,2.81,20.15,20.81,20.59,115.7,,,,False,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,5,3.512,19.97,20.79,20.52,114.6,,,,False,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,6,4.214,19.79,20.76,20.44,113.6,,,,False,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,8,5.619,19.44,20.72,20.29,111.6,362.3,,,True,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,10,7.024,19.11,20.67,20.15,109.7,167.3,,,True,False,False
+whole cafe room (150 m3),150.0,0.5,1.0,0.5,12,8.429,18.79,20.63,20.0,107.9,117.3,,,True,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,1,0.702,20.85,20.88,20.86,29.9,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,2,1.405,20.8,20.86,20.82,29.9,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,3,2.107,20.75,20.84,20.77,29.8,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,4,2.81,20.71,20.82,20.73,29.7,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,5,3.512,20.66,20.8,20.69,29.7,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,6,4.214,20.61,20.78,20.65,29.6,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,8,5.619,20.52,20.75,20.57,29.4,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,10,7.024,20.42,20.71,20.48,29.3,,,,False,False,False
+whole cafe room (150 m3),150.0,2.0,1.0,2.0,12,8.429,20.33,20.67,20.4,29.2,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,1,0.702,20.88,20.89,20.88,10.0,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,2,1.405,20.87,20.87,20.87,10.0,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,3,2.107,20.85,20.86,20.85,10.0,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,4,2.81,20.83,20.85,20.84,10.0,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,5,3.512,20.82,20.84,20.82,10.0,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,6,4.214,20.8,20.82,20.8,10.0,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,8,5.619,20.77,20.8,20.77,9.9,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,10,7.024,20.74,20.77,20.74,9.9,,,,False,False,False
+whole cafe room (150 m3),150.0,6.0,1.0,6.0,12,8.429,20.71,20.75,20.71,9.9,,,,False,False,False
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,1,0.702,13.18,20.6,19.77,378.5,75.8,178.4,381.4,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,2,1.405,9.63,20.3,18.7,276.4,36.7,82.2,157.7,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,3,2.107,7.58,20.01,17.69,217.7,24.2,53.5,99.9,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,4,2.81,6.25,19.73,16.74,179.6,18.0,39.6,73.1,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,5,3.512,5.32,19.44,15.84,152.8,14.4,31.5,57.7,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,6,4.214,4.63,19.16,14.99,133.0,12.0,26.1,47.7,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,8,5.619,3.68,18.62,13.43,105.6,9.0,19.5,35.3,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,10,7.024,3.05,18.09,12.04,87.5,7.2,15.5,28.1,True,True,True
+floor/footwell layer (12 m3),12.0,0.5,0.2,0.1,12,8.429,2.6,17.57,10.81,74.8,6.0,12.9,23.3,True,True,True
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,1,0.702,18.23,20.61,19.92,130.9,97.3,,,True,False,False
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,2,1.405,16.17,20.33,18.99,116.0,40.7,110.1,,True,True,False
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,3,2.107,14.52,20.05,18.11,104.2,25.8,63.2,152.5,True,True,True
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,4,2.81,13.18,19.77,17.28,94.6,18.9,44.6,95.4,True,True,True
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,5,3.512,12.07,19.5,16.49,86.6,15.0,34.5,70.1,True,True,True
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,6,4.214,11.13,19.23,15.74,79.9,12.4,28.1,55.6,True,True,True
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,8,5.619,9.63,18.7,14.36,69.1,9.2,20.6,39.4,True,True,True
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,10,7.024,8.48,18.19,13.12,60.9,7.3,16.2,30.6,True,True,True
+floor/footwell layer (12 m3),12.0,2.0,0.2,0.4,12,8.429,7.58,17.69,12.01,54.4,6.0,13.4,25.0,True,True,True
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,1,0.702,19.93,20.64,20.2,47.7,,,,False,False,False
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,2,1.405,19.04,20.38,19.54,45.6,63.8,,,True,False,False
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,3,2.107,18.23,20.12,18.91,43.6,32.4,,,True,False,False
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,4,2.81,17.49,19.87,18.3,41.8,22.1,79.3,,True,True,False
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,5,3.512,16.8,19.62,17.72,40.2,16.8,49.4,,True,True,False
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,6,4.214,16.17,19.38,17.17,38.7,13.6,36.7,,True,True,False
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,8,5.619,15.03,18.9,16.14,36.0,9.8,24.5,64.9,True,True,True
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,10,7.024,14.05,18.43,15.2,33.6,7.7,18.5,42.2,True,True,True
+floor/footwell layer (12 m3),12.0,6.0,0.2,1.2,12,8.429,13.18,17.98,14.33,31.5,6.3,14.9,31.8,True,True,True

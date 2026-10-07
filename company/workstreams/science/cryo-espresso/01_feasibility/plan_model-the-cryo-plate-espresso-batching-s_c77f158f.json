@@ -1,0 +1,181 @@
+{
+  "version": 3,
+  "created_at": "2026-08-07T16:33:25.149Z",
+  "task_summary": "Model the cryo-plate espresso batching system and design its efficacy trial",
+  "agents": [],
+  "phases": [
+    {
+      "name": "Physical feasibility and failure modes",
+      "delegations": [
+        {
+          "name": "Thermal",
+          "steps": [
+            {
+              "title": "Model LN2-side heat extraction limit",
+              "description": "Compute pool-boiling regimes for LN2 against the submerged base: nucleate vs film boiling, Leidenfrost transition, critical heat flux, and the resulting heat-transfer coefficient at the large wall superheats this design implies. Establish the maximum sustainable heat flux per unit of bath-wetted area."
+            },
+            {
+              "title": "Integrate cryogenic heat capacity of the block",
+              "description": "Cryogenic Cp of aluminium and copper falls steeply below 150 K, so naive room-temperature thermal-mass estimates overstate stored cooling capacity. Numerically integrate enthalpy from 77 K upward for candidate block materials and masses to get the true shot-to-shot cold buffer."
+            },
+            {
+              "title": "Solve falling-film cooling trajectory",
+              "description": "Use Nusselt falling-film theory to get film thickness, velocity and residence time for a 1.5-2 g/s shot over a sloped plate. Solve the transient conduction problem across the film to get the liquid temperature history from contact to collection, and the Biot/Fourier numbers that govern it."
+            },
+            {
+              "title": "Determine freezing onset and ice-crust growth",
+              "description": "Estimate the freezing point of espresso from its dissolved-solids load, then determine whether a plate at or near 77 K produces instantaneous wall freezing. Model Stefan-problem crust growth, the insulating effect of the crust, and the risk of cryo-concentration where partially frozen ice strips water and alters the composition of the run-off."
+            },
+            {
+              "title": "Size a thermal choke for setpoint control",
+              "description": "If uncontrolled contact freezes the shot, design the fix: a conduction-limiting neck between bath and top plate sized so the surface sits at a target temperature under the expected duty cycle. Solve for neck cross-section and length across candidate setpoints and shot rates."
+            },
+            {
+              "title": "Compute LN2 consumption and duty cycle",
+              "description": "Sum useful cooling load plus parasitic heat leak into an exposed cold mass in a warm cafe, convert to litres of LN2 per hour and per service day, and compute plate recovery time between shots at realistic bar throughput."
+            }
+          ]
+        },
+        {
+          "name": "Mass transfer",
+          "steps": [
+            {
+              "title": "Build volatile inventory for fresh espresso",
+              "description": "Assemble the key odorants with their approximate concentrations, odour thresholds and Henry's law constants: methanethiol, acetaldehyde, methylpropanal, 2- and 3-methylbutanal, 2,3-butanedione, 2,3-pentanedione, 2-furfurylthiol, 3-mercapto-3-methylbutyl formate, guaiacol, 4-vinylguaiacol, furfural, pyrazines. Ground values in the literature via PubMed where available."
+            },
+            {
+              "title": "Model aroma stripping from the open film",
+              "description": "A thin hot film with an extreme surface-to-volume ratio under a nitrogen boil-off sweep is a stripping column. Apply penetration-theory mass transfer with temperature-dependent Henry coefficients along the cooling trajectory from the thermal track to estimate fractional loss of each odorant, and identify which are lost preferentially."
+            },
+            {
+              "title": "Model CO2 degassing and crema fate",
+              "description": "Espresso leaves the basket supersaturated with CO2. Estimate degassing over the plate transit and the consequences for perceived brightness and for crema, which is a CO2 foam that cannot survive the process. Quantify how much dissolved CO2 remains at collection."
+            },
+            {
+              "title": "Quantify frost accretion and dilution",
+              "description": "Compute water-vapour mass flux from humid cafe air onto a sub-zero plate at realistic temperature and relative humidity. Convert accreted frost to added water per shot, its dilution effect on strength, and the insulating penalty of the frost layer between shots."
+            },
+            {
+              "title": "Check air liquefaction threshold",
+              "description": "Any surface below the boiling point of oxygen condenses liquid oxygen from air. Determine whether exposed parts of the structure fall below that threshold, and flag oxygen enrichment in contact with coffee oils and sugars as a specific hazard for the safety track."
+            }
+          ]
+        },
+        {
+          "name": "Storage chemistry",
+          "steps": [
+            {
+              "title": "Map the staling pathways that matter",
+              "description": "Identify the reactions that change batched espresso during hold: thiol oxidation to disulfides, chlorogenic acid lactone hydrolysis, acid formation and pH drift, Strecker aldehyde loss, lipid oxidation, and physical loss of volatiles to headspace. Search PubMed for measured rate constants or activation energies for each in coffee or a close proxy."
+            },
+            {
+              "title": "Build an Arrhenius degradation model",
+              "description": "Assemble a kinetic model with explicit uncertainty bands over the activation energies, driven by an actual temperature history rather than a nominal setpoint, so that chilling rate and hold temperature enter separately."
+            },
+            {
+              "title": "Simulate the comparator matrix",
+              "description": "Run chilling method (hot hold, ambient, ice bath, plate heat exchanger, cryo-plate) crossed with atmosphere (air, vacuum, inert gas) crossed with hold time from 0 to 72 hours. Report predicted retention of each marker and identify which factor dominates."
+            },
+            {
+              "title": "Model emulsion and colloid stability",
+              "description": "Coffee lipids crystallize on cooling and the espresso emulsion plus fine suspension will destabilize during cold storage. Estimate sedimentation and creaming timescales and flag whether the product needs resuspension before service, and whether freezing breaks the emulsion irreversibly."
+            }
+          ]
+        },
+        {
+          "name": "Safety and regulatory",
+          "steps": [
+            {
+              "title": "Assess reduced-oxygen packaging risk",
+              "description": "Espresso sits above pH 4.6 with high water activity, so vacuum or inert packaging at chill temperature falls into the reduced-oxygen-packaging risk category for non-proteolytic Clostridium botulinum, which grows below normal refrigeration. Set out the applicable control options and the shelf-life ceilings each implies."
+            },
+            {
+              "title": "Compute nitrogen asphyxiation ventilation requirement",
+              "description": "Convert the LN2 consumption from the thermal track into gaseous nitrogen released per hour, and compute the resulting oxygen depletion for a typical cafe volume at typical air-change rates. Determine the ventilation and oxygen-monitoring needed to stay above safe oxygen concentration."
+            },
+            {
+              "title": "Compile handling and sanitation constraints",
+              "description": "Cover cold-burn and cryogenic-splash exposure at a customer-facing bar, the liquid-oxygen enrichment hazard flagged by the mass-transfer track, and the cleaning regime for an open food-contact surface that is frosted and cannot be washed while cold."
+            }
+          ]
+        }
+      ],
+      "id": "phase-0"
+    },
+    {
+      "name": "Efficacy trial design",
+      "delegations": [
+        {
+          "name": "Sensory",
+          "steps": [
+            {
+              "title": "Define the comparator set and hypotheses",
+              "description": "The meaningful null is not cryo-chill versus hot holding, which is trivially won, but cryo-chill versus a cheap plate heat exchanger plus refrigeration plus inert flush. Define treatments, controls, and the specific hypotheses that would justify the capital and hazard of the cryogenic system."
+            },
+            {
+              "title": "Run discrimination-test power analysis",
+              "description": "Compute sample sizes for triangle and tetrad tests across a range of effect sizes, comparing the two protocols' power at matched panel size, and produce a table giving the assessors needed to detect or to demonstrate similarity at defined thresholds."
+            },
+            {
+              "title": "Specify descriptive and consumer testing",
+              "description": "Design the trained-panel descriptive analysis: attribute lexicon for batched espresso, replicate structure, and the mixed model with assessor and session as random effects. Add consumer acceptance and time-intensity for aftertaste, with the analysis plan for each."
+            },
+            {
+              "title": "Write the serving and blinding protocol",
+              "description": "Batching is used mostly for milk and iced drinks, so specify serving in each relevant matrix as well as neat, with temperature matched across treatments, dilution matched, three-digit blind codes, and balanced presentation order. Generate the randomized serving design as a file."
+            }
+          ]
+        },
+        {
+          "name": "Analytical",
+          "steps": [
+            {
+              "title": "Specify the volatile analysis method",
+              "description": "Define headspace SPME-GC-MS conditions and the target odorant list, with internal standards and a quantitation approach. Include the thiol to disulfide ratio as a direct process-impact metric, since it responds to oxygen exposure specifically rather than to time in general."
+            },
+            {
+              "title": "Specify non-volatile and physical assays",
+              "description": "Cover chlorogenic acid and lactone profile by HPLC, dissolved solids and extraction yield, pH and titratable acidity, dissolved oxygen to validate the packaging claim, dissolved CO2, turbidity and particle size for colloid stability, and colour."
+            },
+            {
+              "title": "Build the sampling schedule and QC plan",
+              "description": "Define timepoints, replicate structure, which assays run on which sample, blinding of analysts, and the process controls that let a failed batch be distinguished from a failed treatment."
+            }
+          ]
+        }
+      ],
+      "id": "phase-1"
+    },
+    {
+      "name": "Synthesis",
+      "delegations": [
+        {
+          "name": "Synthesis",
+          "steps": [
+            {
+              "title": "Produce the figure set",
+              "description": "Assemble the deliverable figures: cooling trajectory with freezing onset, LN2 consumption and duty cycle, predicted odorant retention across the comparator matrix, and the sensory power curves."
+            },
+            {
+              "title": "Write the integrated report",
+              "description": "Combine the feasibility verdict, the corrected design specification, the trial protocol and the safety constraints into a single report with a clear recommendation on whether and in what form the cryogenic approach is worth testing."
+            }
+          ]
+        }
+      ],
+      "id": "phase-2"
+    }
+  ],
+  "desired_outputs": [
+    "Engineering feasibility report on the cryo-plate design with failure modes and a corrected design spec",
+    "Thermal and mass-transfer model figures (cooling trajectory, freezing onset, LN2 duty cycle, aroma stripping losses)",
+    "Predicted storage-degradation comparison across chilling method x atmosphere x hold time",
+    "Powered sensory trial protocol with sample-size tables and randomized serving design",
+    "Analytical assay panel and sampling schedule",
+    "Safety and regulatory constraint memo (ROP/C. botulinum, LN2 asphyxiation, LOX condensation)"
+  ],
+  "feasibility": {
+    "confidence": "medium",
+    "rationale": "The thermal, fluid, and mass-transfer physics are well-posed and I can compute them directly, but espresso-specific degradation rate constants are sparse in the literature, so storage-kinetics predictions will be order-of-magnitude with explicit uncertainty. Sensory outcomes can only be designed for, not predicted — the deliverable there is a powered protocol, not a result."
+  }
+}

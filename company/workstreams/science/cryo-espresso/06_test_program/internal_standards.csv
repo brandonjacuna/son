@@ -1,0 +1,7 @@
+internal_standard,type,corrects,monitor_ion_mz,rationale
+2-Furfurylthiol-d2 (ring-d2),isotopologue,"FFT, 2-methyl-3-furanthiol, MFT-type thiols",83 (d2 shift from 81),Co-elutes with FFT; corrects SPME competition + oxidation losses
+Dimethyl disulfide-d6,isotopologue,"MeSH, DMDS",100 (d6 of 94),Corrects sulfur recovery in the light-volatile window
+Ethyl butanoate-d5 / 2-methyl-3-heptanone,non-native,"esters, ketones, general mid-polar",116 / 128,Cheap general recovery standard; non-native to coffee
+Furfural-d4,isotopologue,furans,100,Anchors the furan window
+"Guaiacol-d3 / 2,6-dimethylphenol",isotopologue/non-native,phenols,127 / 122,Late-window recovery
+beta-Damascenone-d4,isotopologue,"norisoprenoids, terpenes",194,"High-cost, use only if damascenone is a formal endpoint"
