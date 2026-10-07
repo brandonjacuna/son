@@ -8,3 +8,10 @@ Each batch notes Brandon's approval. Inventories: `memory/audits/session-b/`.
 - Batch 3: `_tmp_repr_part1_copy.md` (2421148304456) approved for deletion; the Box connector has no delete tool, so Brandon deletes it by hand. Byte-identical to 2421087690801.
 - Batch 4: moved the five St_Elmo_* files (2421061537634, 2421037947695, 2421062202959, 2421087690801, 2421093539322) and "Son Investor Materials - Internal Review.md" (2448024798796) from Profiles/Investment to `02. Capital Raise / 00. Pitch Materials / Investment` (420133510941).
 - Fix: `00. Start Here / Start Here.md` (2480417968712) new version: figures from the Investor Review workbook (Airtable retired), repo as working home, Reference (not canon) folder, status updated to 2026-10-07, dead "!! DELETE" folder reference removed, em dashes removed.
+
+## ClickUp, 2026-10-07 (approved by Brandon in session B)
+- Archived items stay archived; no deletion needed (Brandon: archived items are hidden from views and ClickUp Brain).
+- Jun removed (Claude), rest of each page unchanged: Sŏn Home Base doc 2ky45bmy-16873 pages 27753 (Korean Hospitality and Culture Consultant), 28073 (Hospitality Service Consultant), 28013 (Industrial Designer), 27633 (Outdoor BBQ Pit guide); Website Build Out 2ky45bmy-14453 page 20213 (Team: Jun card removed, "Two Founders").
+- Not edited, by Brandon's call (Pullman rule relaxed): Capital Raise Briefing, Chris Null CRM task, Project Instructions (27453).
+- Master Pointer Index 2ky45bmy-16833: Box and ClickUp ids copied to `kb/tools/box-registry-from-pointer-index.md` (86 entries); Brandon deletes the doc.
+- Brandon deletes by hand: White Paper Lynd Version (doc containing page 2ky45bmy-5333), Beverage "Risk Scaling Path" page 2ky45bmy-26893, Master Pointer Index 2ky45bmy-16833.
