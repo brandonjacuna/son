@@ -31,3 +31,11 @@ Build folder about 75 KB or less (frame 6, sources 6, cards 40, flags 4, tests a
 Worker cost driver: each subagent carries about 50k tokens of fixed overhead (system prompt, CLAUDE.md, tools), so 36 agents is most of the 2.21M. Batching small jobs (finding F7 in the build's BUILD.md) should cut it by roughly a third without losing blindness where it matters.
 
 Smoke test, same day: the shipped agent, called by its slug, ran T1 for 16,063 tokens against 53k to 62k for general-purpose runners. The fixed overhead is mostly the general-purpose agent type; custom worker agents with minimal tools are the larger saving (finding F9).
+
+## F9 measured (custom worker agents, 2026-10-07)
+| Worker | General-purpose agent reading a worker file | Custom agent (`.claude/agents/`, minimal tools) | Change |
+|---|---|---|---|
+| Runner, T1 baseline | 53,032 tok | 11,513 tok | -78% |
+| Grader | 60,297 to 66,117 tok (3 to 5 rows) | 12,110 tok (1 row) | about -80% |
+
+Projection for the next build of PSD's size: about 20 workers after batching (F7), most of them custom, at roughly 12k to 25k each plus the Opus drafter and two Fable calls: about 0.5M to 0.7M worker tokens, against 2.21M in the test build. A projection, not a measurement; the next real build checks it.

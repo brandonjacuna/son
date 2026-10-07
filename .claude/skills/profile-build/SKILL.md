@@ -35,7 +35,7 @@ Read each stage file only when you reach that stage. Budgets are hard caps; a wo
 | 5 | Test | two Sonnet runners (all with-runs, all baselines) and a Sonnet grader | `tests.md` + the master | results into `tests.md` | 3 to 5 scenarios |
 | 6 | Ship | orchestrator + scripts | lint and measure output | generated copies, rows, commit | orchestrator total under 60k tokens |
 
-Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Worker prompts: `workers/`. Templates: `templates/`. Pass workers the PATH of their prompt file and their parameters; do not paste the prompt into the brief.
+Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Templates: `templates/`. Workers are custom agents with minimal tools: `profile-extractor`, `profile-critic`, `profile-runner`, `profile-grader` in `.claude/agents/` (about a quarter of a general-purpose agent's overhead, measured 2026-10-07). The scout and drafter stay prompt files in `workers/`; pass their PATH and parameters, never paste the prompt. A brief to a custom worker carries only its parameters.
 
 ## Rules that hold in every stage
 - Fewest agents. Every subagent costs about 50k tokens of fixed overhead before it reads anything (measured 2026-10-07). Batch small jobs into one agent; spawn a separate agent only where blindness, a different model, or parallel speed earns it.
