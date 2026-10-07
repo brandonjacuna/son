@@ -14,7 +14,6 @@ Verdict: do not put it in as written. It is a recall item with one visible answe
 8. "What would you do?" asks for a preference. An end-of-module check should ask for the best action given stated facts.
 9. The scenario lacks facts the decision depends on: ticket status, whether the server has already checked in, the 25-minute standard for this restaurant, and who has comp authority. Without them, several answers are defensible.
 10. Nothing is Sŏn-specific. It reads as a generic restaurant item, so it does not verify this module or this room. "Customer" is correctly used in the framing, but the item has no Sŏn standard behind it.
-11. Single-choice, single-moment format gives no consequence. The learner never sees what the customer does next.
 
 ## Fix direction
 
