@@ -23,6 +23,7 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 | 4 | critic employee-harm | sonnet | 66,559 | 04-critic-employee-harm.md: 2 critical, 6 major, 1 minor |
 | 4 | critic seams | sonnet | 84,289 | 04-critic-seams.md: 1 critical, 7 major, 2 minor |
 | 4 | merger | sonnet | 59,333 | 04-flags.md 4,096 B: 2 critical, 12 major, 4 minor; 3 for other seats |
+| 4 | judge | fable | 68,130 | decisions: 15 accepted (whole or part), 3 rejected, 0 to Brandon; orchestrator applied core edits (11,924 B) |
 | 5 | baseline T1 | sonnet | 53,032 | tests/T1-base.md 2.6 KB |
 | 5 | baseline T2 | sonnet | 53,595 | tests/T2-base.md |
 | 5 | baseline T3 | sonnet | 52,889 | tests/T3-base.md 2.5 KB |
