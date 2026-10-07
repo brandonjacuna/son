@@ -37,6 +37,8 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 | 5 | with T5 | sonnet | 61,445 | tests/T5-with.md 2,978 B |
 | 5 | grader | sonnet | 66,117 | verdicts: 5/5 pass by grader; T4 with-run partial (no prebrief check), so orchestrator edited R12 and reruns T4 |
 | 5 | with T4 rerun | sonnet | 57,572 | tests/T4-with.md 2.7 KB (run 1 kept as T4-with-run1.md) |
+| 5 | haiku T3 (model line) | haiku | 67,260 | tests/T3-with-haiku.md 2,952 B; runner glimpsed 5 lines of T1-base while listing (not used) |
+| 5 | haiku T1 (model line) | haiku | 80,546 | tests/T1-with-haiku.md 2,964 B; found and reviewed the example module EX-001 |
 ## Builder findings (for the approval read-out)
 - F1. The 3 KB card cap is too tight for an old-profile section: card 02 dropped 4 rules (one on the practice-vs-gate line), card 03 merged seams. Re-briefed 02 to write 02b. Proposed fix: old-profile section cards 5 KB cap.
 - F2. Frame ran 6.8 KB against a 6 KB cap after the orchestrator added the Sŏn rules the seat carries (from the plumbing check). Proposed fix: 8 KB cap for rebuild frames, or carry seat rules in a separate short section counted outside the cap.
