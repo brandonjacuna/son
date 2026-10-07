@@ -1,0 +1,1570 @@
+# Book pages for session 3
+
+Verbatim text from `sources/scaling-people-book.pdf` via PyMuPDF. Page markers `[p.N]` are PDF page numbers (zero offset).
+
+[p.84]
+start, they can figure out whom to contact, and how, if their work
+requires cross-team support. See the chapter appendix on page 114
+for a team charter template with some example text.
+The operating system
+If the founding documents are like a house’s support structure, then
+the operating system is like a house’s mechanical system. Like a
+mechanical system, the operating system contains various
+substructures that work together to make up the whole: the wiring
+and plumbing of your house.
+An operating system is a set of norms and actions that are shared
+with everyone in the company. These shared systems and
+parameters are essential to growth and success. Keystones like an
+annual plan, quarterly goals, and regular communications allow
+everyone at the company to track progress and common priorities at
+the highest level. These systems can then replicate down through
+divisions and teams to help clarify priorities and resolve
+dependencies. At every level, a good operating system makes clear
+the desired results, how and when to communicate progress, and
+how to measure achievement.
+Above all, a well-articulated operating system establishes a clear
+foundation of trust. People grow uncomfortable when they’re
+unsure what is expected of them. This is especially true in the
+workplace. Folks need to know how they’re expected to work
+together, what they’re working on, and why, or they may feel like the
+ground is too shaky to take a single step. I remember an all-company
+meeting at Google where the CEO articulated this point: “Every day,
+you all choose where to put your time. My goal is to give you the
+information to make the best decision.”
+
+[p.85]
+The operating system also represents a stable, consistent frame
+of reference. It serves as a touchstone when external forces
+inevitably affect your priorities, and it helps gird the company amid
+the chaos of rapid growth. Replicating the structures of the
+operating system at the company, division, and team levels creates a
+conceptual throughline, allowing people from across the company
+to speak the same language and removing friction from execution.
+Google’s use of objectives and key results (OKRs) is a famous
+example of a replicable structure.21 Because they were taken
+seriously at the leadership level and flowed down to teams and
+individuals, they formed an extremely effective operating system,
+providing transparency around what was most important to the
+company and forcing the resolution of dependencies across teams.
+In some quarters, OKRs were delayed because Google’s executive
+team was locked in a room hashing out the priorities. It felt a little
+like the papal convention, with all of us outside the room waiting for
+the white smoke. But I liked the delay. It meant that the company
+OKRs were serious and real, and that those decisions were hard. I
+took my team’s OKRs just as seriously.
+You might have encountered a company or team with a bad
+operating system. In these environments, there’s often a lot of
+confusion about who is doing what, and about which goals a team is
+accountable for and which stakeholders they’re accountable to. This
+anxiety is assuaged only when leaders make ownership and
+accountability clear and teams understand their purpose within the
+company. (This is also why having a team charter is so important. It
+can’t override a bad operating system, but it does provide the basis
+for a good one.) Every organization, division, and team will have
+periods dedicated to forming their identity—I’ll talk more about this
+in Chapter 4—but it’s best to get a simple, company-wide operating
+
+[p.86]
+system in place quickly, then continue iterating on it to refine its
+internal structures. Remember my sports analogy from the
+introduction? Don’t send players onto the field with lots of
+equipment and no rules. People will get hurt!
+The manager’s role in all of this is to understand and participate
+in these structures at the right level. Start with the company’s
+mission, long-term goals, and principles. Think about how you can
+reflect those in your own structures—your team’s wiring and
+plumbing—especially in your team mission and how you align your
+team operations with the relevant operating structures. (See Table 1
+on the next page for an overview.) Your job is to reinforce these
+elements of the company—and, if you disagree with some element,
+to help improve it in partnership with your own manager.
+When to articulate your operating structures
+Once a company can no longer fit into a single meeting room, it’s
+time to start writing down your operating system and its component
+structures. Before this point—when you’re still trying to find
+product-market fit, for example—it’s too early. There’s no point
+articulating why you exist if you’re still trying to figure out whether
+you should exist at all! But once your organization gets to that
+inflection point, you should nail down your mission and founding
+documents, followed by your operating system. This is the time to
+start thinking not just about why you exist but also about who and
+what you need to realize that vision. How do we make decisions and
+prioritize? How will we know when we’re successful? Considering
+these questions will help you build a solid foundation for both the
+company and teams to operate from.
+We’ve discussed the founding documents and team charters.
+Now let’s look at the remaining components of an operating system
+one by one, then cover each in more detail.
+
+[p.87]
+Strategic and financial planning
+In 2006, I had been at Google for two years. At the time, the
+company was still obsessed with its search index—every site Google
+indexed to produce its search results—and was watching Yahoo’s
+competing search index with concern. That same year, a Yahoo SVP
+named Brad Garlinghouse published the internal memo that came to
+be known as “The Peanut Butter Manifesto,” exhorting the company
+to focus.22 It was leaked externally and became required reading for
+just about everyone I knew in tech. The upshot is best captured in
+this quote: “I’ve heard our strategy described as spreading peanut
+butter across the myriad opportunities that continue to evolve in the
+online world. The result: a thin layer of investment spread across
+everything we do, and thus we focus on nothing in particular.”
+OPERATING
+STRUCTURES
+LEADER AND MANAGER ROLES
+Mission
+Long-term
+goals
+Principles or
+values
+Articulate the vision (the why), the long-term
+objectives (the what), and the underlying
+principles for action and behavior (the how).
+Strategic and
+financial
+planning
+Team charters
+Goals
+Metrics that
+matter
+Decide on the company strategy and, from that, the
+top priorities.
+Set the financial plan and P & L targets for a
+given time period.
+Determine the org structure that will best support
+the strategy.
+Assign teams to the work that needs to be done.
+Set objectives for each team.
+Be clear about what you will measure and how you
+will report on progress.
+Ownership
+Establish work and role assignments.
+
+[p.88]
+Make a plan to hire or fill roles for unassigned
+work.
+Be clear on who is accountable for what objectives
+and metrics.
+Develop employee skills and capabilities to
+accomplish the work.
+Accountability
+mechanisms
+Establish measurement and reporting approaches.
+Review progress and course-correct when goals are
+not being met.
+Give feedback on the work and track employee
+development goals.
+Offer rewards and recognition to reinforce positive
+outcomes.
+Internal
+communications
+Establish a consistent set of communication
+practices and regularly share the information that
+all employees and teams need to know.
+Provide context for company processes and
+structures, and set an example by following all
+processes yourself.
+Operating
+cadence
+Align the planning cadence by which strategic
+priorities and financial targets are set, goals and
+metrics are established, and work assignments and
+progress are articulated, reviewed, and
+communicated with the company.
+Table 1. Operating structures and leader and manager roles.
+What Garlinghouse was looking for was a strategy. Even in a
+moment of dramatic growth, a company must make choices, either
+about what new features to add to the core product and in what
+order, or about what to build to augment and extend beyond the
+existing growth engine. I’m fond of saying “A strategy should hurt.”
+The trade-offs—where you invest time and resources, and where
+you don’t—should be painful and disappointing, either internally or
+
+[p.89]
+to your customers. There’s no such thing as a strong strategy that
+prioritizes everything at once.
+Alongside your strategy, you should conduct long-term planning,
+which is essentially your company strategy realized as a multiyear
+set of financials. At its core, this annual planning exercise entails
+establishing the desired outcome for company financials at the end
+of the year, then allocating money and people toward initiatives and
+teams that will focus on hitting those goals. You must also allocate
+energy to the actions intended to achieve the longer-term strategic
+and financial outcomes, keeping the mission and long-term goals top
+of mind.
+
+[p.90]
+Figure 4. McKinsey’s three growth horizons.
+A lot of young companies get obsessed, rightly, with product-
+market fit. So at first, the strategy is simple: Keep pouring gas on the
+fire. Then it gets less simple, and you might find yourself in a
+“peanut-butter” situation. McKinsey has a famous framework of
+three growth horizons:23
+Horizon 1: Current source of growth
+Horizon 2: Next source of growth (one that’s still nascent but
+looks promising)
+Horizon 3: Investment in a yet-to-be-determined third source of
+growth
+
+[p.91]
+In tech, you often need to start working on Horizons 2 and 3 very
+early on.
+Young companies tend to resist concepts like strategy and
+planning, and they come by that resistance honestly—there’s so
+much work to do, who has time for such ivory tower–like activities?
+If you’re pre-product or pre-market fit, you need a process that
+allows you to adapt quickly as you’re figuring out what works. Your
+plans might focus more on the short term: “Here are some
+milestones we need to achieve in order to start testing and proving
+that people want to buy our product.” But once you have product-
+market fit, it’s time to start thinking longer-term.
+A mature company is likely to have a clear picture of its intended
+strategy and financials over a multi-year span, as well as a good
+sense of which activities will allow them to reach those numbers.
+They can thus outline goals and plans that enable various
+component teams to achieve those goals.
+A mid-stage company is, appropriately, somewhere in between.
+The trick is to find the right balance: enough structure to speed
+progress, but not so much that you end up overburdening teams and
+products that are just being established. One of my favorite
+learnings from Colin Bryar and Bill Carr’s book Working Backwards
+was that it took Amazon quite a lot of iteration and painful company
+processes—the new product introduction, or NPI, seemed to be the
+least popular—to get to its OP1 and OP2 approaches.24 (“OP” stands
+for “operating plan.”) The same has been true for Stripe. Start as
+simply as you can, then adapt.
+To strike that balance between short-term and long-term focus, I
+recommend developing two artifacts:
+A financial model of the next three or so years, plus a list of
+what needs to be true to achieve those numbers. Producing that
+
+[p.92]
+list will require a set of strategic conversations and decisions.
+This longer-term projection may not end up being accurate, but
+you can revisit and revise it each year. Depending on how
+accurate your initial projection is, it may only require minimal
+revisions, or it may need a more comprehensive course
+correction. More mature companies do this work on a five-to-
+ten-year time horizon and tend to spend more time working to
+determine new areas for growth—McKinsey’s Horizon 3—and
+less time iterating on the near-term plan.
+A shorter-term plan that answers the questions “What are we
+trying to get done in the next 6 months, and in the next 12?” and
+“What does the P & L look like by December of this year?” Teams
+and companies will use different systems for doing this, but the
+plan should be a way for a team to say, “This is where we’re going
+long-term”—linking out to the long-term strategic themes and
+rough financial objectives—“and, on a quarterly basis, this is
+where we’re focusing to move our most important metrics.” Keep
+in mind that the financial outcomes are not the plan itself, nor are
+they the reason you exist as a company. But they are a critical
+means to create discipline and a measurement system for the
+company’s actual work.
+In order to achieve their mission, and if they’re following the
+three-horizon structure, most companies will have a mix of more
+mature parts of the business—which should have clear metrics
+they’re trying to move and short-term goals they’re trying to hit—
+and emerging businesses or products, for which the goal may be as
+simple as “Launch the product and test product-market fit.” Be sure
+to distinguish between these varying maturity levels and to plan
+differently for the different business stages within the company.
+
+[p.93]
+Resource allocation
+The other part of planning is resource allocation. In simple terms,
+your primary resources are people and money. The art of planning is
+to allocate enough funds and employees to earlier-stage efforts to
+give them a chance to demonstrate success, while simultaneously
+streamlining the more mature parts of the business so that they
+realize 
+operational 
+efficiencies 
+and 
+demonstrate 
+increasing
+profitability as early as possible, without undermining their growth.
+It’s somewhat easier, mathematically speaking, to track resource
+needs for sales and operational teams that have measurable
+outcomes, like new customer leads and support cases closed. I’m
+not going to pretend I know of a standard and trusted way to
+measure the ROI of engineering resources. One tactic to allocate
+headcount is to look at the ratio of functions—for example, 10
+engineers to 1 product manager, or 1 human resource business
+partner to 250 employees. The downside of a ratio-based approach,
+however, is that other companies’ benchmarks don’t reflect your
+own company and business model. They also don’t account for
+potential efficiency gains in ratios over time, nor for the fact that you
+generally want to award more resources based on impact, not on
+how many people are on the team. Still, you should keep ratios in
+mind as a gut check on where you land.
+Once you allocate headcount, your gut check should also include
+making sure you’re not starving the current cash cow, as it were. As
+tempting as Horizons 2 and 3 can be to pursue, your current
+business’s most critical area—Horizon 1—invariably requires more
+people and money to maintain growth.
+Headcount allocation comes up frequently in the conversations I
+have with founders. The sentiment is essentially this: “We’re adding
+more people, but I feel like the velocity of product development and
+
+[p.94]
+progress is slowing down. Am I being unreasonable?” With an eye
+toward cash burn rate, founders want to be careful about adding
+more people. And when they do, they want to hold those people
+accountable for an output commensurate with the additional people
+power. The slowdowns founders often observe reflect the harsh side
+of scale: increasing coordination and interface complexity.
+Figure 5. Interface complexity. The more people there are on a team, the more possible
+interfaces there are, increasing communication and coordination challenges.
+In my advice to these founders, I describe the phases of scale I’ve
+observed that relate specifically to engineering productivity, but that
+ultimately represent company scale, too:
+Phase I: Small, scrappy developer teams work in a shared
+codebase, moving quickly but often taking on technical debt to
+ship new features or products.
+Phase II: Teams attempt to decouple elements of the shared
+codebase and build better tooling for developer productivity. This
+
+[p.95]
+includes hiring more experienced engineers, engineering
+managers, and leaders.
+Phase III: Teams undergo a painful, complete redo of the
+underlying infrastructure, building a true platform or shared
+services architecture—and realize that the entire company, not
+just engineering, needs to be composed of separate units led by
+very experienced people. These units are more loosely coupled
+with respect to dependencies but tightly aligned via planning and
+goal setting.
+It’s validating for founders to hear that these phenomena are
+common—and even a potential sign of success. But addressing these
+challenges is no easy feat. You must constantly evaluate whether
+you’ve made the right investments in infrastructure, developed an
+optimal organizational structure, and hired the appropriate leaders,
+and you need to attack the root causes of slowing productivity on
+multiple fronts.25
+SIDEBAR
+—
+Investing in developer productivity
+On developer productivity, Stripe’s CTO, David Singleton, wrote a
+compelling internal post in which he explained:
+There is certainly no singular metric that works to track output
+comparably across engineers, environments, or projects. The way
+we compose our changes is relatively arbitrary. Exactly the same
+value for our users could be achieved in one big pull request or 20
+small ones. The number of commits that someone chooses to make
+on the way to creating a finished PR is a matter of personal taste.
+Some measures that have been used historically in the industry
+
+[p.96]
+actively encourage bad practices. For instance, trying to measure
+per-engineer output in terms of lines of code per day encourages
+complicated and verbose solutions when we all would strongly
+prefer simpler, more concise solutions that are easier to understand,
+easier to maintain, and much less likely to present reliability
+problems.
+Still, to achieve great developer productivity, it’s important that
+we measure our productivity to know whether we are getting better
+or worse over time and to target improvements in the right places.
+We measure both objectively, by instrumenting as much of our
+developer tooling as we possibly can and paying attention to the
+metrics generated, and subjectively, by asking engineers periodically
+how they feel about the productivity of our tools and our codebase.
+It’s also important that we invest in developer productivity—
+being willing to:
+Spend significant sums of money on infrastructure that makes
+engineering more productive
+Have a large, dedicated group of people working every day to
+make other engineers’ lives easier
+When I arrived at Stripe in 2018, I was quite struck by how
+coupled all of our development was. We had derived huge
+productivity benefits through working (largely) in a shared
+codebase, but many of our most critical pieces of product
+infrastructure were entangled in a ball of mud, which was hard to
+change. We mixed up reusable infrastructure with product
+intricacies in many places. Very few people understood enough of
+the codebase to make simplifying changes, and we mostly evolved
+these absolutely critical flows by hanging more and more logical
+branches and gates off of what was already there.
+
+[p.97]
+We’ve invested, since then, in various efforts that have reduced
+coupling in some of our core models, but we are mid­stream in
+pulling off a paradigm shift in how we build our product
+infrastructure and how we need to operate in building our products
+on top of that product infrastructure in the future. Note that this
+does not mean we aren’t continuing to prioritize developer
+productivity in existing environments as we make the transition, but
+it makes prioritization even more important. Each service has a
+well-defined Stripe-facing API, which fully abstracts its internal
+implementation (meaning we can change it radically over time!) and
+underlying data. These are loosely coupled but present strong
+contracts in terms of the availability, latency, and throughput that
+other services can depend on them for.
+Figure 6. A product infrastructure framework that prioritizes developer productivity.
+How does this relate to developer productivity?
+This is how we maintain developer productivity as we scale. The
+vast majority of engineering teams have full agency over the
+internals of the services they build and operate without needing
+to consult with any others, so long as they maintain the interface
+they’ve already committed to.
+
+[p.98]
+Once we have services in place for core abstractions, engineers
+can start to reason about how they can compose the interface
+that, for example, the customer service exposes to get their
+features working, rather than all the internal details of the
+implementation of the customer service that they might have to
+change.
+This is just an excerpt from David’s post. The post also discusses how to
+maintain a focus on security and reliability, describes our code-owner
+and set-piece review processes, and reflects on how to invest in efforts to
+improve developer workflows. David also describes Stripe’s principles
+and behaviors for stronger development practices, and touches on
+benchmarks for the target percentage of engineers to devote exclusively
+to developer productivity (5–8 percent of all engineers), and on our own
+decision to exceed the benchmark in the interest of velocity.
+—
+Early on, it felt like Google had its own peanut-butter problem.
+We would submit goals and plans for team headcount, then our
+financial planning team would seemingly ignore those plans and add
+a number of people to each organization based on how many
+employees the organization already had. What was basically a ratio-
+based approach felt a little absurd, but I now understand the
+rationale better: The business was still unpredictable and it was hard
+to measure the ROI of an incremental resource, so the team simply
+worked off of the previous year’s plan. The bigger reason to submit
+plans was that it made teams take a step back and think about
+longer-term goals and the resources needed to achieve them in the
+coming year. It was about building the planning-ahead muscle,
+reorienting around delivering on the company objectives, and
+measuring performance against a plan.
+
+[p.99]
+It’s vital for companies to start building that planning muscle,
+and for leaders to start using objective assessment measures, so that
+they don’t get trapped in a situation where the person most adept at
+arguing their case gets the most resources. Headcount planning is
+fraught, and leaders will tend to read into the allocations and lobby
+for more. Objective measures—such as revenue per head or year-
+over-year revenue growth for a given product or sales effort—are
+one tactic to lessen pressure. Another is to allocate resources on six-
+month cycles or to hold some headcount in a company reserve. Both
+tactics provide some optionality for shifting hiring toward emerging
+priorities and make the entire enterprise feel less like a win-lose
+situation once a year. They can cause challenges for recruiting,
+however, because the team will have a less accurate forecast against
+which to build a talent pipeline. Use whichever tactic will best help
+your company avoid being reactive only to short-term needs or
+internal lobbying. The overall goal is to develop a more disciplined
+approach to planning and resource allocation, however you achieve
+that.
+It’s also worth noting that getting more resources will be
+perceived as recognition or a reward. Leadership should publicly
+celebrate managers who are actively improving their operational
+efficiency, for example by coming in under budget at the end of the
+fiscal year or “giving back” headcount allocation.
+SIDEBAR
+—
+Setting expectations around resource
+allocation
+I recently met with a founder who lamented his leadership team’s
+internal dynamics when it came time for resource allocation. A
+
+[p.100]
+normally collaborative group would break down, and individuals
+would only look out for their own teams. The founder was left
+feeling like the sole decision-maker, and often like the “bad guy.” We
+talked about setting more objective metrics for resource allocation,
+but for a company growing as quickly as his was, it was hard to set
+forecasts and track against benchmarks.
+I suggested that he ground the conversation with his team in
+leadership expectations. Just as it’s effective to remind people about
+inherent biases before making a hiring or promotion decision, it’s
+helpful to remind people of what you expect from them as you face
+big decisions. In this case, I advised the founder to tell the
+leadership team that he expected them all to keep the big picture in
+mind—what was best for the company, not for their individual
+teams—and to collaborate to reach a final decision, work
+constructively across teams to find opportunities for efficiency, and,
+more generally, to show up as a team in order to lead the company. I
+emphasized that it wouldn’t hurt to make those level-setting
+remarks every time the group faced contentious decisions.
+—
+After Gmail launched and Google acquired Keyhole, which
+became Google Earth, there was a moment of internal tension
+around company priorities. There was a lot of investment to be
+made in existing products and in international expansion for the
+core search and advertising business. Various teams felt like the
+company was becoming distracted by new projects before the main
+source of revenue and growth was mature enough. Then-CEO Eric
+Schmidt shared a simple but extremely effective framework to
+resolve these tensions: 70-20-10. Google would devote 70 percent of
+its resources to the core business, 20 percent to emerging products,
+and 10 percent to research and development for future products.
+
+[p.101]
+Once he presented this framework to the company, these
+discussions quieted down. It was his own version of McKinsey’s
+growth horizons, strengthened by detailed percentages and his own
+complement of communication tools, including straightforward
+emails and remarks at our all-company meeting, TGIF. It set the
+context for continuing to invest in new areas despite the early stage
+of Google’s core business.
+At Stripe, similar tensions emerged as we started to build new
+products. After many, many long meetings, we eventually landed on
+a tight one-page prioritization framework that amounted to:
+existential risks > core product (including which countries to invest
+in further) > new products. This was followed by a section about
+reserving resources for foundational company work (internal
+tooling, people development). It wasn’t perfect, but it helped
+everyone calibrate their planning.
+A side note related to existential risks: A key role of your
+leadership team should be to invest in critical work that no one else
+will naturally step up to prioritize. It’s rare that a company’s plans,
+incentives, and metrics structures are built to mitigate risk or stop
+and redo work. If you need to invest in security, pay down technical
+debt, or make a hard call on halting a project, you’ll need a
+leadership voice to provide top-down instruction to do so. As a
+manager, be aware that there will be top-down asks from leadership
+and from other teams with high-priority work that you’ll have to
+integrate into your workflow. Keep the strategy and big picture in
+mind, and make sure to reserve space within your own team goals
+for top-down company priorities and work that other teams might
+require to act on those priorities—even when your own resourcing
+plan is, sadly, getting whipsawed.
+
+[p.102]
+“One of my favorite books is by former Intel CEO Andy
+Grove, Only the Paranoid Survive.26 We are very paranoid.
+We always think about ‘What if you have 10 times more
+capacity or 10 times [more] usage? Can you survive? Do
+you have any security or reliability or performance holes?’
+My number one priority as a CEO is to think about what
+kinds of risk factors we need to focus on. When I realized
+that, I told our team transparently that I had made a
+mistake: ‘I used to only be focused on the culture, value,
+product. But now I think that’s not right. My number one
+priority is to think about the risk factors.’”
+—Eric Yuan, founder and CEO, Zoom
+Annual and quarterly goals
+Unlike the long-term goals I covered earlier in this chapter, annual
+and quarterly goals are more tactical and measurable, representing a
+company’s output on a discrete time horizon. They serve as a
+contract between the accountable team and the rest of the division
+about the work that will be completed. For example, the Microsoft
+team that developed the first GUI for Microsoft Windows probably
+had to do so in time for a public demo in November 1983. Being
+ready for that demo was the goal. Progress toward goals is measured
+using specific metrics, which show an achieved result and the data
+to prove it.
+Just as it’s hard to set goals without clearly defined company and
+team missions, it’s going to be hard to set good metrics (coming up
+next!) to measure progress if you don’t have clear goals.
+There are two kinds of goals: binary tasks (for example, “pilot a
+low-code local payment method for our checkout product”) and
+ongoing metrics (“grow share of non-card pay-in volume by 20
+
+[p.103]
+percent”). And, as with your mission, it’s ideal for company goals to
+replicate down from the division to the team to the individual. Here
+are some examples from Stripe, which represent both binary and
+ongoing goals:
+Company goal: Security work. Every team should remain at up
+to 80 percent on the security posture dashboard, which will often
+require adopting new tooling and infrastructure. More broadly,
+we’ll remain secure only if every team continues to apply
+rigorous paranoia to their own domain.
+Division goal (engineering): Maintain our security baseline and
+make progress on the migrations to support the top three
+technology priority programs so that the security projects deliver
+the planned new invariants that we—and, by extension, our users
+—can rely on.
+Binary goal: No S0 security incidents.
+Ongoing improvement: Every team achieves up to 80
+percent on the security posture dashboard by the end of the
+quarter, which requires adopting the new infrastructure.
+Team goal (admin platform):
+Binary goal: 100 percent of access to Level 2 data requires an
+automated business justification or a two-person confirmed
+justification.
+There are now many schools of thought on how to write goals.
+OKRs and SMART (specific, measurable, achievable, results-
+oriented, targeted) goals are two popular examples, and they’re not
+mutually exclusive. Both strategies help you accomplish the same
+
+[p.104]
+desired outcome: a clear, measurable objective to which you can
+hold people accountable.
+SIDEBAR
+—
+Good goals
+This write-up on setting good goals, which we continue to consult
+internally, is adapted from a public post by Michael Siliski, a former
+product leader at Stripe.
+Having led goal-setting processes with teams of 1–500 people at all
+stages of product maturity, I find I get more or less the same
+questions and the same pushback every time. This is my answer to
+those questions. While you can easily find lots of tactical advice
+online about goal-setting processes, here I want to focus on the
+spirit of what we’re actually trying to achieve and how to know if
+we’ve done it well. To that end, this post covers:
+Why we set goals
+What good goals look like
+Heuristics for testing your goals
+Frequently asked questions
+Why we set goals
+These are the goals of the goals, if you will.
+Define success: Goals are statements about successful end
+states. What are you trying to do, and how would you know if
+you did it? Plans are sets of activities. Executing on a plan may
+help you achieve a goal, but it’s not the goal itself. To maximize
+your odds of achieving a successful outcome, start with the end
+
+[p.105]
+in mind and work backward to the activities most likely to get
+you there.
+Focus: There are always far more things we could be doing than
+we have capacity for. Productive teams clearly distinguish the
+most important things from all of the other good ideas, and they
+relentlessly focus on those top priorities. This also helps ensure
+that all of the different parts of the team are operating in concert
+rather than independently working on related things.
+Allow for autonomy: Aligning around and committing to a
+shared definition of success creates accountability. Doing so
+without mandating specific activities allows accountability to
+coexist with autonomy and creativity.
+What good goals look like
+Remember: FOCUS(S)! Good goals are focused, concise, and
+comprehensible. Everyone on the team should be able to easily
+memorize the team’s goals. This is important because the progress
+you make in a quarter or year is the result of thousands of
+independent decisions. Too many goals or too many details interfere
+with this. People can remember about three to five things.
+Focus on the most important things: Your goals should help
+you identify and avoid the distractions. Use plain English that is
+easily understandable to anyone with a passing familiarity with
+your team’s strategy. This helps with strategic clarity,
+memorability, and communicability. Jargon often masks strategic
+gaps.
+Objectively assessable: Everyone on the team should have the
+same understanding of what success looks like and what it
+doesn’t. Goals don’t need to be quantitative, but they cannot be
+subjective.
+
+[p.106]
+Challenging but possible: Your goals need to be credible. If
+people consider the outcome unimaginable, they’ll simply ignore
+it and give up. Your goals should also stretch the team, inspiring
+and challenging people. If you ask your team to stretch, you’ll
+often discover that they find ways to deliver more than you
+expect. A good rule of thumb is to shoot for about a 70 percent
+success rate.
+User-oriented: Never organize team goals by function
+(engineering, design, etc.). Success depends on all team functions
+coming together to deliver a great product, and a single set of
+goals helps force an alignment of efforts. Even if some goals
+depend more on one function than another, allow the team to
+flexibly organize their capabilities and creatively solve problems.
+Don’t organize goals around the features you’re delivering—
+thinking about your expected activities and working forward is
+likely to leave a large gap. Instead, focus on the customer problem
+you’re solving and set your goals as close to the customer as
+possible.
+States, not activities: If you detail specific activities to pursue,
+you’re removing the opportunity for teams to solve problems
+autonomously, creatively, and iteratively. Instead, focus on the
+outcome you want. How would you describe the state of the
+world in a success case? Define these outcomes as precisely as
+possible.
+Sensitivity and specificity: Your goals should allow for the
+outcomes that you would consider successful, and should rule
+out unsuccessful outcomes.
+ORIGINAL GOAL
+NEW GOAL
+Refactor backend
+Backend supports 5+ teams that are concurrently
+
+[p.107]
+adding features
+Launch v2 product
+Double conversion rate via new payment
+integrations
+Add infinite scrolling
+to search
+X percent of search queries receive result
+clicks
+Table 2. Refocusing your goals.
+Heuristics for testing your goals
+Assess your goals using these guidelines:
+Does your goal start with a verb (“launch,” “build,” “refactor,”
+etc.)? Then you probably have an action, so reframe it to describe
+the outcome you want. Often, this takes the form of translating
+“X so that Y” into “Y via X” (and consider if you need X in there
+at all). A helpful trick to figure out the proper framing is to read
+the goal out, ask yourself why, answer that question, then do that
+a couple of times until the true goal comes into focus. (See Table
+2 for an example.)
+Do you have “engineering goals” and “business goals,” or
+something similar? Stop it.
+Are your goals more than one page, more than three to five
+objectives, or more than three to five KRs per objective? No one
+will read them—let alone remember them.
+When you (or your team) look at your goals, do you wince and
+think, “What about X? I was really hoping to get to that this
+quarter”? If not, you probably haven’t focused enough, and your
+goals are not adding value.
+Could one team member think a goal is achieved and another one
+completely disagree? Then your goal isn’t specific enough. (By
+
+[p.108]
+contrast, if everyone feels it’s mostly successful but the
+assessments range from 60–80 percent done, who cares?)
+Can you imagine a scenario where the goal is achieved but you’re
+still dissatisfied with where you ended up? Then your goal isn’t
+specific enough, or an aspect is missing.
+Could you be successful without achieving the goal? Then your
+goal is overly specific, and you should rethink how to define
+success.
+FAQs
+How do you manage against the goals?
+If you set good goals and have real buy-in, then the whole team
+should have a set of shared goals you can use as a foundation. As
+you talk about team performance, meetings, sprint planning, and
+progress, frame those conversations against the goals you set.
+Organize your activities around the goals, talk about them
+constantly, and frame the day-to-day in terms of how they will help
+achieve your goals. Keep them top of mind for everyone, all the time.
+How do you score goals?
+I usually do a lightweight mid-quarter and end-quarter review that
+uses green, yellow, and red color-coded scoring (representing
+success, mixed results, or failure). The mid-quarter review is a
+helpful checkpoint to refocus everyone on goals we may have gotten
+distracted from. The end-quarter review is mostly to help us
+recalibrate how aggressive we were and highlight areas where we are
+regularly failing to make progress. If the reviews require a lot of
+effort or feel like they need to be done more often, then your team
+probably hasn’t fully internalized the goals and isn’t using them to
+guide day-to-day activities.
+
+[p.109]
+What do you do if the goal changes before the time period ends?
+Sometimes strategies change or we learn things that change our
+priorities. That’s fine. Start working on the new goal immediately.
+Add a zero with an asterisk or something when you go to score the
+old one. Who cares? But if this happens to you all the time, you may
+be setting goals that are too specific or incorporating activity
+planning into the goal-setting process.
+What about quantifiable measurability?
+Goals generally benefit from clearly defined, measurable metrics. For
+example, “Median latency is under 200 milliseconds” is obviously a
+much better definition of success than “Latency is reduced.”
+However, sometimes people get hung up on enforcing
+quantifiability and can lose track of what really matters. It’s fine for
+some goals to have no numbers, as long as it’s clear what success
+looks like and it’s not a subjective question. A goal like “MVP is up
+and running on production hardware, and multiple external
+companies have tested it and provided early feedback” has no
+numbers, but it’s very concrete. The important thing is that the
+whole team assesses success and failure the same way. As Andy
+Grove said about goal assessment, the important thing is that “at the
+end, you can look without any argument and say, ‘Did I do that, or
+did I not do that?’ Yes. No. Simple.”
+What if I can’t measure the thing I want to optimize?
+Generally, I say use the metric in your goal anyway and try to assess
+it by proxy. Better than setting the wrong goal entirely. As John
+Tukey said, “Far better an approximate answer to the right question,
+which is often vague, than an exact answer to the wrong question,
+which can always be made precise.” Plus, nothing motivates
+
+[p.110]
+development of the right metric like using them to actually measure
+success across the team!
+What if I have a metric but I don’t know what the right target is?
+Quite often, you’ll agree on a good way to measure success, but you
+won’t know exactly what a reasonable target is since you don’t yet
+have a baseline. Generally, I say who cares? Take a guess at a
+reasonable number, be honest that it’s a stab in the dark, work
+toward it, and update your target along the way as you learn more.
+Better to set the goal in the right direction and not be sure exactly
+how far you should get than to risk going in the wrong direction.
+What if you can’t agree on what the goals should be?
+There are any number of reasons this could be the case. Let’s
+assume you’re dealing with a reasonable set of people working
+together in good faith and trying to do what’s best for the team. (If
+you aren’t, it’s not a goal-setting problem.) The first step is to stop
+arguing and try to diagnose why you’re stuck. If you can figure that
+out, you can almost always find a good resolution.
+Here are some common issues people get hung up on—work
+from the top down to determine where you’re falling out of
+alignment, then work through that question while holding
+everything else to the side before continuing down the list:
+Different assumptions about vision or strategy: If we aren’t
+aligned on what we’re trying to do as a team, there’s no effective
+way to figure out the milestones along the way.
+Different assumptions about priorities: If you think that we
+should do A first, then B, and I think we should do B first, then A,
+we can’t align on goals.
+
+[p.111]
+Different interpretations: Tease this out by talking through
+concrete scenarios and seeing if you agree on what success is and
+what it isn’t.
+Incomplete success statements: If your goals don’t capture
+something important for success, you may see people trying to
+pull things up a level into very broad statements. Try adding
+additional, very specific statements to narrow down the range of
+good outcomes until you’re on the same page, then simplify as
+appropriate.
+Different assumptions about feasibility: If someone feels the
+goal is fundamentally not possible or cost-prohibitive, it’s good to
+name this explicitly and dig into it.
+Different assumptions about capacity: Try expanding the time
+frame a bit and see if you all agree on the overall plan and are
+simply disagreeing about how far you should get in a specific
+time period.
+Why “goals” and not “OKRs”?
+OKRs are just goals with a particular structure. They separate the
+thing we’re trying to do (the objective) from the concrete definition
+of success (the key results). I like that structural distinction—I find
+it helps enforce a clear definition of success—so I tend to use the
+OKR framework myself. As Andy Grove, the forefather of “managing
+by objective,” framed it in High Output Management, OKRs separate
+out two key questions:27
+Where do I want to go? This answer provides the objective.
+How will I pace myself to see if I’m getting there? This answer
+provides the milestones, or key results.
+—
+
+[p.112]
+Here are a few other thoughts on how to effectively set and use
+goals:
+Say what percentage of goals you expect people to hit up front
+Some companies and leaders like their goals to be as realistic as
+possible, so it’s expected that 100 percent of the goals will be
+achieved. Other companies prefer their goals to be more
+aspirational, so it’s expected that some of the goals—around 20–30
+percent—will not be met. You can do both, but take care to specify
+which goals are aspirational (hit 70 percent) versus committed (hit
+100 percent). Either way, always consider the dependencies required
+to achieve those goals.
+Committed goals are a good idea if:
+There’s an existential company threat, for example if a
+competitor has developed a better version of one of your top
+product features.
+Another team working on a top-priority project is blocked.
+A customer has been told a product or project will be delivered
+on a particular timeline.
+The argument for biasing toward more aspirational goals is a
+simple one: Human and team behavior often lead us to anchor on
+and solve for a defined outcome. A more challenging goal might lead
+us to think differently about how to accomplish it, and thus generate
+fresh ideas and energy. A team might also unconsciously take the
+pressure off of their efforts once they hit an “achievable” goal,
+forestalling the possibility of carrying the work further and
+exceeding expectations, which might motivate the team to have
+more confidence in their abilities in the coming quarters. The key
+with more aspirational goals is to set expectations: Teams should
+know that hitting 70–80 percent of the goal counts as success, but
+
+[p.113]
+that there will be great recognition and reward for exceeding those
+expectations. (See the chapter appendix on page 125 for guidance on
+helping the team write good OKRs.)
+An individual’s goals should include one or two personal goals
+As a manager, remember that the work of the individual is both
+company-focused (what they’ll do to contribute to the division) and
+individual-focused (how their work will contribute to their broader
+career narrative and development). Goals should reflect this. Every
+quarter, an individual should have at least one or two personal
+development goals in addition to the work output they expect to
+complete. That way, the team member is doing the work that’s
+needed today but also developing abilities that allow them to grow
+their impact, contribute to the work the team might need to deliver
+tomorrow, and advance their career.
+Say someone on your team can only do basic analysis, but your
+data is growing increasingly complex. It’ll be important for that
+person to develop more advanced analytics skills, including how to
+write SQL queries to access the data from your internal systems.
+They might have a goal to conduct up to 30 basic analyses that
+quarter, as well as a goal to take a SQL class and demonstrate that
+they can conduct a complex analytical project by the end of the
+quarter. As people become more experienced, their goals might
+become less skill-focused and more about capabilities. Instead of
+“Write a detailed project plan,” for example, their goal might be
+“Lead a complex project from plan to completion with measurable
+positive results.”
+As a manager, it’s tempting to have your team focus only on what
+they need to get done in the quarter rather than working on more
+developmental goals. But just as a company can’t rely on one
+product for revenue growth indefinitely and must invest in more
+
+[p.114]
+speculative work on future products or revenue streams, so must
+teams and individuals invest in their future development. This is
+especially true in high-growth environments. The skills and efforts
+that got your work done in Q1 are not going to be the same ones
+required 6 or 12 months later. You must build for future scale and
+challenges, both in your team practices and among the individuals
+on your team. What’s more, if part of your role is to coach and
+develop your people, how will you demonstrate your commitment to
+that aspect of your job if you don’t keep people focused on their
+developmental goals? It’s easy for a manager to say, “I’m here to
+coach you,” but it’s your actions that matter, not your words.
+(There’s more on coaching in Chapter 5.)
+The “how” is just as important as the “what”
+When looking back at a particular project, quarter, or year, don’t
+limit your review to the goals someone accomplished. Pay attention
+to how the person or team approached the work. Even if the team is
+hitting their goals, they might have gotten there in a more painful or
+less efficient way than they could have. Maybe someone needs to
+focus on communication and collaboration with fellow team
+members instead of on the quality of their output, or on how to
+scope a problem instead of on the technical work of solving it. Make
+sure you ascertain the “how” alongside the “what” and provide
+feedback to individuals accordingly.
+You may be familiar with the concept of a Pyrrhic victory: a
+victory won at such a great cost that it was not worth the battle. All
+too often, I see the work equivalent of Pyrrhic victories. Yes, the
+product launched on time, but the team and the relationships
+therein barely survived, and people are unable to contribute quality
+work in the month afterward because they’re exhausted and
+communication is brittle. One early reader of this book told me,
+
+[p.115]
+“Performance = results × behaviors. It’s multiplicative. Hitting
+targets while fomenting unrest and backstabbing should get you a 0,
+not a 95 percent [on your targets].” Your role as a manager is to
+make sure your team is defining goals and accomplishing them, but
+not at the expense of their future ability to do so. When a company
+is growing, it needs to have a consistent ability to get work done—
+sustainably—or else growth will stall.
+This is very much a moment that calls for balancing management
+with leadership. Soliciting feedback about how the work was
+accomplished, recognizing folks who helped the process, and
+sharing feedback with individuals who hindered it will help the team
+fix interpersonal or procedural issues, or might prevent them from
+occurring or worsening. Remember to say the thing you think you
+cannot say: Provide direct feedback to individuals or to the team and
+acknowledge that a certain project was accomplished at too high a
+cost. That includes acknowledging your own role in that reality.
+Being honest and demonstrating an ability to reflect and improve
+will encourage mutual self-awareness, and it will help you
+demonstrate that leadership is not perfect, nor is it comfortable. If
+your team is able to stop and learn in these situations, they will be
+better prepared when you turn up the heat and set aspirational
+objectives instead of regressing to the mean or becoming
+dysfunctional.
+Metrics that matter
+Your core company metrics are another structure that can—and
+should—replicate down from the company level to divisions, teams,
+and sometimes even to individuals. Like goals, metrics can be set on
+both long-term and short-term horizons.
+In my experience, long-term metrics tend to be lagging
+indicators. They represent the output of a ton of operational, short-
+
+[p.116]
+term “input” metrics. At Stripe, we start each year with what we call
+company targets. These are the metrics for the year that best reflect
+our company priorities. Some are financial outcome metrics that
+reflect the work we’ll do in the coming year, while others are
+strategic input metrics, like the number of monthly active businesses
+using our products. For example, we might track daily or weekly
+user adoption for a set of newly launched products. These are inputs
+to metrics that ultimately measure revenue and margin in our P & L.
+We also have “zero targets,” meaning a measure for which the
+desired outcome is no incidence of the issue occurring, such as
+outages.
+For a public company, what you report to investors is likely a
+version of your top metrics that matter. It should be clear which
+leaders, divisions, and teams are accountable for the inputs that
+drive those outcomes each quarter.
+Some teams have less measurable outcomes, but they should still
+have metrics
+For some teams, like benefits, human resources, or finance, it can be
+difficult to come up with metrics that capture the team’s full added
+value to the division. It’s obvious that you need an HR team, but it’s
+not as obvious how to concretely measure their work. Still, it makes
+sense to set goals and metrics for the team. Although these might be
+less frequent measures of impact, using data to monitor their
+general progress is a good practice for team health.
+For internal teams, the employee engagement survey is often the
+best way to measure progress, even if it’s only done once or twice a
+year. For example, you can ask about satisfaction with the work
+environment and whether the benefits feel fair. For teams like legal
+and finance, you can work to measure inputs (usually units of time)
+and outputs (units of work) to calculate a return on those
+
+[p.117]
+investments. Sometimes these teams resist measuring the time
+they’re spending on specific tasks. But it’s instructive to know, for
+example, that your litigation team spent 800 hours handling
+potential legal issues in Q3 and that the result was no negative
+action or settlement against the company when it might have been,
+say, findings that cost the company $10 million. That’s about
+$12,500 in costs avoided per hour—which seems like a healthy ROI.
+This is just to illustrate that it’s worth pushing your teams to
+quantify their work and impact. At the company level, this will help
+with resourcing decisions. At the team level, knowing the
+quantifiable contribution of their work also helps with team morale.
+SIDEBAR
+—
+Metrics write-up
+This resource is adapted from a piece about metrics and goals written
+by Stripe’s data science team.
+Introduction
+It isn’t always clear how to develop and use metrics, so we’ve created
+this playbook to help you and your team(s) develop great metrics.
+
+[p.118]
+Figure 7. How to use objectives and metrics.
+Metrics framework
+Using the following metrics framework—see Figure 7 above—can
+help you manage your team effectively:
+Objectives
+Objectives are broad statements of prioritization, strategy, and
+intent. An objective should answer the question “Where do I want to
+go?”
+Creating metrics
+Metrics allow you to measure whether you’re achieving your
+objectives. They answer the question “How will I know I’m getting
+there?” One objective can have one or many metrics.
+Long-term metrics: mission and vision
+Long-term metrics help define success against your team’s
+mission and three-year vision. Mission metrics tend to be
+lagging, so they’re not necessarily the metrics you monitor
+regularly to know if you’re on track. While mission metrics move
+
+[p.119]
+slowly over longer time horizons, you should always set
+milestones for long-term metrics in your annual plans.
+Ideally, a team uses the same metrics for a long period of time,
+e.g., two to five years. Examples include payment volume,
+revenue, total losses, and API reliability. A team should aim for
+three to five charter metrics.
+Short-term metrics: operating or input metrics
+Short-term metrics are real-time or leading indicators that
+measure activities or intermediate outcomes. While they might
+not determine the success of your mission or three-year vision,
+they do inform whether you are on track for your desired
+outcomes. Operating metrics are often linked directly to team
+goals. A team should aim for three to five operating metrics.
+Other metrics
+Measure other results the team wants to achieve in the half.
+Ideally, these are continuous metrics. If you have a binary metric
+(e.g., ship product X), that can be a useful starting point to think
+of a continuous measure for that product (e.g., ship product X to
+50 new users).
+Once you’ve set your metrics, make sure you have a
+dashboard to review your metrics regularly.
+Using metrics
+Metrics can’t help you if you don’t use and review them regularly.
+Only then can they help you answer the question “Am I making
+progress? Why or why not?”
+Metrics are imperfect, and only by reviewing them regularly do
+you learn how they can be improved or changed to be even more
+useful. Some ideas for when to review metrics:
+
+[p.120]
+Have a weekly or biweekly metrics meeting.
+Discuss your metrics in a Monday morning standup or biweekly
+sprint planning.
+Share your metrics in biweekly email updates as a forcing
+function to review them.
+Hold monthly business review meetings.
+—
+Whatever your approach to setting metrics that matter, track
+your goals and define the accompanying metrics consistently across
+your division so that you’re using the same underlying data and
+language to articulate what you’re trying to achieve. Having shared
+definitions of core concepts is more critical than you might think.
+For example, what is a customer? Is it someone who has used your
+product once, or is it someone who is actively using your product?
+What if your product has seasonality—maybe people use it more in
+Q4, for example, because of the demand for holiday gifts—and about
+20 percent of your customers only show up in Q4? On many
+consulting projects, and at both Google and Stripe, I struggled to
+define churn (loss of users) because some of our users churned
+intermittently. Ultimately, you need to agree on a company-wide
+definition of a term like “churn” and settle for the fact that it will
+never be perfect.
+Hearkening back to the concept of a team’s goals laddering up to
+the division’s goals and mission—which, in turn, ladder up to the
+company’s goals and mission—think about a company where every
+rung in that ladder has a different definition of a metric. There
+would be a lack of accountability, and potentially a great deal of
+friction between teams—an org leader’s and a manager’s worst
+nightmare. 
+As 
+you 
+establish 
+your 
+operating 
+systems, 
+the
+measurement piece is often the most difficult and critical part.
+
+[p.121]
+Getting it right may require you to work both across divisions and
+up and down the division to agree on core metrics and definitions.
+The effort is worth it—the result is that you and your team can
+measure success knowing that you’re using the exact same measure
+as the rest of the company. This will build collective trust and,
+ideally, collective accomplishment.
+Ownership
+Goals and metrics should have owners who are ultimately
+responsible for completing the work. Assigning ownership is an
+important aspect of management because it requires determining
+whose remit, experience, capabilities, and preferences are best
+suited to a particular task or project. Ownership ranges from the
+small tasks—who’s going to complete the action items from our
+meeting?—to who is ultimately responsible for the outcomes of a
+team, group, or division. In fact, each company target should have
+an owner or owners, who will most likely be members of the
+executive 
+team. 
+Even 
+though 
+a 
+given 
+target 
+might 
+have
+dependencies, it’s important to make someone responsible for
+tracking progress and escalating or unblocking if progress stalls.
+I remember a meeting at Stripe where we were stuck on
+assigning ownership for the revenue in our financial plan. The issue
+was that the revenue projections were dependent on new products
+launching, and the sales team understandably didn’t want to sign up
+for owning a target that was so dependent on the product and
+engineering teams. In the end, we decided that the head of sales
+would be responsible for “what’s on the truck” revenue—meaning
+revenue from currently launched products—and that we would
+break out a new product revenue line in our plan and hold the
+product team responsible for that number. It’s worth surfacing and
+teasing these things apart, especially at the top levels of the
+
+[p.122]
+company. That focus on clear ownership will set a model that filters
+down into improved execution at all levels of your division.
+If you don’t define ownership early in a project, division and
+team culture will suffer. It’s easy to spot teams that don’t clearly
+assign ownership. They’re the ones that point fingers and protest
+with statements like “I thought the sales dev reps were delivering
+the leads—that’s why the account execs are behind on the revenue
+pipeline.” Or “Security is blocking us—they didn’t build a ring-
+fenced data store for the HR data, and we can’t develop people data
+dashboards without it.” Worse still, teams that lack clear
+accountability risk becoming political, with folks constantly
+jockeying to demonstrate that they own the most important work
+and pointing fingers at others when work doesn’t get accomplished.
+It’s easier to define ownership on teams that have measurable
+outcomes. For example, I can say that the head of North America
+sales is responsible for hitting the North America revenue target. For
+teams that must collaborate to achieve an outcome, like product and
+engineering, you might find yourself assigning ownership to a pair of
+people—risky, but possible—or being more granular about the tasks.
+For example: “Eve is going to write the product requirements
+document by the end of this week, and Tim is going to build the
+prototype by the end of the month.”
+One of the worst management mistakes you can make is to put a
+task out to your team—say, “We’ve got to build a demo for the user
+event by next week”—and, using what I call the “wing and a prayer”
+method, hope someone will step up and volunteer. Even worse is to
+just leave it out there, hoping someone does the work without
+explicitly saying so. (I go into more detail on assigning ownership in
+Chapter 4.)
+Accountability mechanisms
+
+[p.123]
+Accountability mechanisms are tools that both leaders and
+managers should use to review progress toward their goals and
+missions. They apply at every level—company, team, and individual.
+(We’ll look at all three in this section.) These mechanisms include
+elements like meetings to review plans and action items, metrics
+dashboards, and written project snippets.
+The first step in implementing accountability mechanisms is to
+identify who is going to participate in the mechanism and the
+cadence. If the mechanism in question is a dashboard, who should
+be reviewing it? If it’s snippets, how often are they submitted, and
+who reads them? If it’s a meeting, who will attend? Decide what
+your mechanisms are and how often you will use them to check in
+on a division’s or team’s progress. As an example, each Sunday night
+ahead of our standing Monday meeting, the Stripe leadership team
+shares snippets of key information from the past week, priorities for
+the upcoming week, and progress on action items. Much of the
+Monday meeting agenda is derived from those snippets.
+When I meet COOs from other early-stage companies, we often
+end up talking about quarterly business reviews (QBRs) and annual
+planning. Neither mechanism is easy to get right, and both need to
+evolve with your company. It’s always a relief to commiserate with
+other leaders about the ongoing work of iterating on core
+operational foundations—but we do so while also recognizing that
+although these mechanisms are never perfect, the effort involved in
+setting them up and keeping them current is worthwhile.
+QBRs 
+are 
+a 
+common accountability 
+mechanism 
+among
+companies that have reached a certain level of complexity, for
+example more than 200 employees and many products and teams.
+They are both backward-looking assessments of how the team or
+business unit performed that quarter, including a review of key
+
+[p.124]
+metrics, and forward-looking discussions of what the unit aims to
+accomplish over the next few quarters. These reviews are usually an
+hour to an hour and a half long. At Stripe, the division being
+reviewed typically shares a (roughly) five-page document or
+presentation for participants to review before the meeting or during
+a reading period at the start of the meeting.
+The benefits of a quarterly review, which is more of a step back
+from the day-to-day, are that it:
+Keeps key stakeholders and leaders on the same page about the
+division’s or team’s focus areas and progress
+Provides an opportunity to problem-solve any persistent issues
+in the metrics or in accomplishing key goals
+Aligns leadership on upcoming priorities and how progress will
+be measured—and, if alignment is lacking, surfaces work to reset
+the strategy and vision
+Serves as an accountability mechanism for the unit’s leader and
+management team
+In my experience, not every division participates in QBRs or gets
+mentioned at a company all-hands meeting. For example, your
+finance team might be a key partner that supports the work that
+goes into the QBRs or reporting on company metrics, but it’s rare
+that finance itself is reviewed or mentioned every quarter. That’s not
+to say that their work isn’t important! In order to keep track of
+progress on these types of teams, the division could create a version
+of the QBR mechanism at the organizational level, such as a meeting
+in which the finance leadership team reviews the quarterly progress
+of teams within the finance organization. (For more on QBRs, see
+the QBR guidelines and template in the chapter appendix on page
+129.)
+
+[p.125]
+Another common company-level mechanism is a simple one:
+Showcase metrics and goals and report on progress at the company
+all-hands, whether weekly, monthly, or quarterly. Beyond a few
+summary emails and the all-hands meeting where you review
+progress toward company targets, I would argue that it’s not useful
+to have too many company-wide review mechanisms. Maintain just
+a few consistently, and let divisions and teams determine the best
+approach for their function or area of the business.
+Constantly tweaking your company mechanisms can be
+counterproductive, but taking stock at least once a year can help you
+evolve as you scale. At Stripe, we usually reset some of our meetings
+and accountability mechanisms in January. As we return to work,
+we think about what went well and what didn’t in terms of how we
+ran and organized the company in the year prior. Then we seek
+feedback from others around the company so that by the end of
+January we can evolve our approaches for the coming year.
+Team-level accountability mechanisms are likely set on annual,
+quarterly, monthly, and weekly cycles that reflect the company-wide
+cadence. Teams might not participate in or use every mechanism,
+and some might devise their own, but it’s powerful for a company to
+have a few core mechanisms that are widely adopted at all levels.
+Having a standard set of mechanisms that are replicated throughout
+the company means a lower cognitive load and more aligned
+execution across teams.
+I recommend at least these two forms of accountability
+mechanisms for every team:
+Weekly team meeting: This might be more of an update
+meeting, or you might use it as a forum for discussion and
+decision-making. Having at least one standing team meeting is
+critical to maintain team norms and keep everyone on the same
+
+[p.126]
+page about priorities, progress, and action items, as well as who
+owns those action items. (We’ll talk more about meetings in
+Chapter 4.)
+Weekly team metrics review: Use the first 15 minutes of your
+team meeting to review your metrics. Some managers prefer to
+review metrics in a report rather than in a meeting, but I think
+there’s a great benefit to setting aside time to discuss metrics as a
+team. Doing so ensures that everyone is focused on the same
+numbers at the same time, allows you to discuss insights and
+trends, and signals that everyone has a stake and should be
+invested in measurement and hitting the numbers.
+For managers, the frequency of the accountability mechanisms
+should correlate with how quickly your team can impact the metrics
+in question. That way, you can focus on actions you may need to
+take to make progress. For example, it makes sense to discuss
+support response times at a weekly team meeting: If you find that
+the team is missing the target, you can realistically implement
+changes like adding more staff, making a quick product update, or
+changing how much time is dedicated to responding to customers,
+which could affect the numbers over a seven-day period. Reviewing
+the metrics more often could feel demoralizing, as your decisions
+will take a few days to make an impact, but reviewing them less
+often might prevent you from identifying important trends or issues
+that need to be addressed.
+Accountability mechanisms are not the same thing as
+monitoring. You’ll also want to have an automated dashboard that
+tracks whether something out of the ordinary has happened, such as
+a sudden increase in support response times. Ideally, that dashboard
+will take measurements in real time; it might even have built-in
+alerts that trigger when the numbers cross certain thresholds. Many
+
+[p.127]
+engineering teams work hard to have observability in the form of
+real-time dashboards and alerting to issues in the system. There, the
+accountability mechanism you need to put in place is to determine
+ahead of time who is responsible for acting on a sudden change in
+the dashboard and how that person should communicate the root
+cause and the solution to the relevant stakeholders.
+Internal communications
+Imagine your organization doubles in size every 12 months. That
+means that roughly half of today’s employees were not at your
+company one year ago. In another year, at least three out of every
+four employees will not have been privy to discussions and
+decisions made just 24 months earlier. You need to decide how
+you’re going to commit important information to company memory
+so that new members can get up to speed on important context
+quickly. But you also need to have a clear communications policy so
+that you don’t create a culture divided between those who have
+company context and those who don’t. Internal communications
+can become either an equalizing or a discriminating force,
+depending on how you approach it.
+At its best, internal communication is another mechanism for
+building trust. It’s a function that scales with your company to keep
+critical information accessible and useful. But at its worst, it
+generates internal propaganda. It should go without saying that if
+you need a team dedicated to convincing your employees that you
+have a great plan and everything is sunshine, you have a big
+problem. Trust is inversely proportional to hypocrisy. Good
+communication is about providing timely and honest information,
+including being willing to acknowledge mistakes. People forgive
+mistakes, but they lose trust when information is hidden, false, or
+
+[p.128]
+misleading, or when leadership says something but doesn’t follow
+through.
+Part of your role as a leader and a manager is to focus on good
+internal communications. Your division needs to know what
+information will be communicated, when, and where. If team
+members know that every meeting will include recorded notes with
+decisions and next steps, they’ll have much more confidence in the
+commitments made during the meeting. And if at a later point
+there’s a discrepancy between how different parties remembered a
+discussion, you can always reference the meeting notes. Similarly,
+employees must feel able to access the information they need to do
+their jobs well, and must feel confident that accessing this
+knowledge doesn’t depend on who you happen to know in the
+organization or how long you’ve been at the company.
+When should you start investing in internal communications?
+Dunbar’s number—the suggested cognitive limit to the number of
+people someone can maintain a social relationship with—is a
+helpful framework for developing an internal communications
+strategy.28 At around 150 people, it becomes harder to remember
+everyone’s name, what team they’re on, and what they’re responsible
+for. 
+Hopefully 
+you’ve 
+been 
+documenting 
+your 
+internal
+communications practices already, but by the time your company
+hits 150 people, you should have an internal company website, clear
+communication guidelines, and policies for what information gets
+stored, through what channels it’s communicated, and what
+information teams are responsible for maintaining. You should also
+formalize a means to deprecate out-of-date content.
+Company-wide communications are one of the best ways to
+weave your operating principles into the company fabric. If every
+team is following their own playbook for certain types of
+
+[p.129]
+communications—for example, if some organizations communicate
+divisional changes widely, while others do not—you’re going to end
+up with subcultures that don’t resonate with the broader company
+operating principles. One invaluable bulwark at Stripe is our culture
+of longform writing. Although many would argue that there’s a bit
+too much longform content circulating within Stripe, that mode of
+clear documentation has, on balance, been critical to our ability to
+scale ideas, work, and culture quickly.
+SIDEBAR
+—
+Stripe’s writing culture
+There 
+are 
+many 
+internal 
+Stripe 
+documents 
+describing 
+our
+communication principles. This summary of why we invest in a writing
+culture was written by Eeke de Milliano, an early Stripe employee who
+led the business operations team, and later a number of product teams.
+At Stripe, writing is a key part of our internal communications
+strategy. Discussions are written down and sent out as notes.
+Important company reviews require a pre-read. And “presentations”
+are often delivered as written memos. These documents are then
+stored on the company wiki so that anyone can discover them.
+We’ve invested heavily in writing for three reasons:
+First, writing is an equalizer. Great documentation provides
+context for the people who were not in the room: another team, a
+colleague in a different office, or someone who has yet to join the
+company. The latter is particularly important for high-growth
+businesses. If a company doubles in headcount every year, by
+year three 90 percent of your team members will not have been
+privy to discussions from year zero. A strong writing culture
+
+[p.130]
+levels the playing field between employees independent of
+location, seniority, or tenure because everyone has access to the
+same stories, thinking, and decisions.
+Second, at Stripe we believe longform writing leads to
+higher-quality thought. For the writer, it’s much easier to spot
+gaps in logic when you need to string sentences together into a
+coherent narrative. For the reader, it’s harder to skim a write-up
+than, say, a visual presentation. In most cases we think that’s a
+feature, not a bug. Longform writing forces attention to detail.
+Finally, writing is efficient. People who are great written
+communicators are, perhaps, also somewhat lazy
+communicators: They don’t want to have to repeat themselves.
+When the context already exists in a document, you can spend
+less time getting on the same page about what happened and
+more time on how to move forward.
+The cost of a strong writing culture is that you end up with a lot
+of documents. It means you have to be diligent about content
+management across the company. You need to differentiate between
+evergreen documents, work-in-progress documents, and one-time
+documents. You need to have a strong information discovery tool
+and a clear information hierarchy so that information access doesn’t
+become information overload.
+You also have to be strict about writing guidelines. Set
+expectations with teams regarding when they need to send out notes
+from a meeting and what information the notes should include.
+Don’t just invest in writing down the big, important decisions.
+Document your quirks (a lexicon of company terms that explains
+why your company-wide meeting is called ATH, or “all the hands”)
+and your stories (why is the llama the unofficial company mascot?).
+
+[p.131]
+Be clear about what “good writing” means for your company.
+Provide team members with a style guide and examples of great
+writing. Help employees become better writers by giving them
+feedback on their writing and by hosting writing classes.
+This all takes work from leadership, teams, and individuals. And
+if you care about having a great writing culture, perhaps the first
+step is to write that down.
+—
+Building and assessing an internal communications program
+When you’re building and assessing your internal communications
+policy—whether for your team, the division, or the whole company
+—check if it meets these criteria:
+Is it complete? Is the information you’re making accessible the
+information people need to do their jobs?
+Is it accessible? Can everyone who needs the information get
+access? Think about all of the different segments of your division
+and company, such as tenure, geography, and language.
+Is it reliable? Is the content accurate? Do your company-wide
+meetings start on time, and can people expect the same level of
+quality each time? Do you send weekly updates to the team
+consistently and at a predictable cadence?
+Is it transparent? Transparency doesn’t mean sharing
+everything. It means that everyone has clarity about what will be
+shared, when, and with whom. For example, everyone
+understands that HR matters will not be shared broadly with the
+company. Still, it’s important that employees know exactly what
+HR information—like salary and seniority levels, for example—is
+shared with which teams and individuals.
+
+[p.132]
+Plan to communicate important information at least three times
+using different mediums or channels. People tend to get desensitized
+to communication forums. Employees are like consumers in this
+way: They have different preferences around how they process
+information. If you want to make sure that your team is aware of the
+most important company metrics, for instance, you might share
+them at a company-wide biweekly meeting, on a company
+dashboard that they can access at any time, and in a company
+newsletter with commentary on trends.
+Here are some other things to keep in mind with regard to
+internal communications:
+Communicate more in crisis and times of change
+In a crisis, the rate of company communication tends to taper off.
+Don’t make the mistake of thinking you need all the answers before
+you communicate with your employees, because that will result in
+less communication at precisely the moment when people need to
+hear from you more. As I’ll discuss in the section on managing
+through uncertainty in Chapter 4, aim to interface more with your
+employees during a crisis than you think you reasonably should,
+even if what you’re sharing isn’t a decision or an update. Something
+like a personal message or an email that shares your overall
+reflections can go a long way toward providing assurance that the
+company is taking the threat or issue seriously.
+Any moment of uncertainty or change also requires more
+communication than you might expect, even (or especially) when
+you don’t have all the answers. When Google bought YouTube, I was
+the operations leader for Google Video. You can imagine the
+questions and confusion that arose on my team when news of the
+acquisition broke. Although I didn’t have a lot of insight into the
+future strategy, I wrote a short note to my team explaining that I
+
+[p.133]
+thought it was a smart acquisition and one that would ultimately
+make us stronger. It also helped that I could say I was part of the
+YouTube integration team and would be able to keep everyone
+informed as plans for the two properties became clearer. My email
+showed empathy and transparency, which bought me time and trust
+with the team as we solidified our plans for the acquisition.
+If the precipitating event or crisis is not widely known but is
+affecting the company—for example, the loss of a large customer—
+think carefully about when and how you will share the situation. In
+these cases, you’ll usually find yourself in a Goldilocks scenario:
+Communicating too soon creates uncertainty and anxiety, but
+communicating too late stokes anger and resentment. Take the time
+to consult your peers and company leaders to strike an effective
+balance, and keep the golden rule in mind: If you were an employee
+who didn’t have context about the event, what would you want to
+know and when? As a manager, take your cues from leadership and
+work hard to support the message.
+Make company-wide meetings count
+Company-wide meetings should be scheduled sparingly. When your
+organization is small, these meetings can be more frequent and can
+serve as your primary information-sharing mechanism. But as you
+scale, they become much less effective and probably need to happen
+less often. Instead, use other communication channels, like your
+intranet site or email. Reserve company meetings for a chance to
+hear from and emotionally connect with leaders and highlight
+critical business results and achievements. (Make sure you model
+what should be celebrated!) If these meetings are of poor quality,
+attendance and efficacy will suffer. Either invest in making these
+company-wide meetings great, or only hold them when you can
+invest the time to make them better.
+
+[p.134]
+Speaking of intranet sites, we call Stripe’s internal site Stripe
+Home. It’s designed to connect individuals across the company. The
+internal tools team, which is responsible for the tools that enable
+employee productivity, invested heavily in building it (among other
+mechanisms) to help employees better discover information. These
+internal mechanisms are small but critical investments in your
+future scale—they should not be seen as luxury items to prioritize
+only once you’ve finished working on product features.
+SIDEBAR
+—
+Stripe Home
+This description of Stripe Home is excerpted from a blog post written by
+Michael Schade, the head of Stripe’s internal tools team at the time.29
+Not only is Home a central place that makes it easier for employees to
+collaborate and find information, it’s also beautifully designed and
+engineered. Brian Krausz, a longtime Stripe engineer, and Bill Labus,
+one of Stripe’s top designers, worked on it personally, and their
+commitment signaled the importance of internal collaboration and
+communication.
+At Stripe, we’ve always been intentional about how we
+communicate, share information, and stay connected. Back when
+Stripe was smaller, it was easy for this to happen automatically. But
+by the time we hit around 150 people, it became hard to know
+everyone’s name. So at a company hackathon, a few Stripes created
+People, a directory to help Stripes meet and get to really know each
+other.
+We’ve since turned People into a full-fledged product called
+Home, weaving both how we know one another and how we share
+information beyond email into the same product. Used by 99

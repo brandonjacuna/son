@@ -1,0 +1,230 @@
+{
+ "id": "17tn048qckm",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Instrument: Build the check-in's coaching form (gated on `86ajgn2z5`)",
+ "text_content": "I2, extending Session 4's person page and check-in record (86akh677f) and Session 7's plan block and six reads (86akhb2r1). One card readable on a phone in the lead's languages: the pre-read list and that nothing is written; the sources table and the refused sources; the shape of a hypothesis and what it may never be; where the hypothesis enters, after the person's answer to the second or third question; the two openings in her form with the house's examples; one hypothesis per check-in; the fourth question's phrasing and the no-explaining rule; the line's ownership and the read-back; the plan's six reads by reference. It is the content the coaching module teaches and feeds row 142. Refuses a field for the lead's observation, a checklist of traits, a script for the person's answers, and a place to record a hypothesis's outcome; the check-in record itself is the person page and gains no field. Lives on the team home beside the check-in record, a document under the methodology; owned by the Maitre d for the floor and the chef seat for the kitchen; revised at the reset. Gated on 86ajgn2z5, 86akh677f, 86akhb2r1, and the chef ruling for the kitchen. High.\n\nFiled by Session 12 of the Scaling People translation program. Session task 86ajgmjba. Reasoning lives on the S12 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "I2, extending Session 4's person page and check-in record (86akh677f) and Session 7's plan block and six reads (86akhb2r1). One card readable on a phone in the lead's languages: the pre-read list and that nothing is written; the sources table and the refused sources; the shape of a hypothesis and what it may never be; where the hypothesis enters, after the person's answer to the second or third question; the two openings in her form with the house's examples; one hypothesis per check-in; the fourth question's phrasing and the no-explaining rule; the line's ownership and the read-back; the plan's six reads by reference. It is the content the coaching module teaches and feeds row 142. Refuses a field for the lead's observation, a checklist of traits, a script for the person's answers, and a place to record a hypothesis's outcome; the check-in record itself is the person page and gains no field. Lives on the team home beside the check-in record, a document under the methodology; owned by the Maitre d for the floor and the chef seat for the kitchen; revised at the reset. Gated on 86ajgn2z5, 86akh677f, 86akhb2r1, and the chef ruling for the kitchen. High.\n\nFiled by Session 12 of the Scaling People translation program. Session task 86ajgmjba. Reasoning lives on the S12 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "I2, extending Session 4's person page and check-in record (`86akh677f`) and Session 7's plan block and six reads (`86akhb2r1`). One card readable on a phone in the lead's languages: the pre-read list and that nothing is written; the sources table and the refused sources; the shape of a hypothesis and what it may never be; where the hypothesis enters, after the person's answer to the second or third question; the two openings in her form with the house's examples; one hypothesis per check-in; the fourth question's phrasing and the no-explaining rule; the line's ownership and the read-back; the plan's six reads by reference. It is the content the coaching module teaches and feeds row 142. Refuses a field for the lead's observation, a checklist of traits, a script for the person's answers, and a place to record a hypothesis's outcome; the check-in record itself is the person page and gains no field. Lives on the team home beside the check-in record, a document under the methodology; owned by the Maitre d for the floor and the chef seat for the kitchen; revised at the reset. Gated on `86ajgn2z5`, `86akh677f`, `86akhb2r1`, and the chef ruling for the kitchen. High.\n\nFiled by Session 12 of the Scaling People translation program. Session task `86ajgmjba`. Reasoning lives on the S12 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001790278799.91790000000000000000000000000000",
+ "date_created": "1790278799913",
+ "date_updated": "1790283874538",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f8ae00",
+  "id": "2",
+  "orderindex": "2",
+  "priority": "high"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/17tn048qckm",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000020240",
+   "comment": [
+    {
+     "text": "Session 13 adds a second recurring block on the scheduling surface, the review's placement on the person's own clock (work item A19), and a second card beside the coaching form, the lead's review card (work item A20), each with the same refusals of a lead's request, a reason field, and a field for the lead's view. The placed check-in is the destination of anything a lead holds that is not on a record at a review. S13 page, sections 4.3 and 18; I2, I3."
+    }
+   ],
+   "comment_text": "Session 13 adds a second recurring block on the scheduling surface, the review's placement on the person's own clock (work item A19), and a second card beside the coaching form, the lead's review card (work item A20), each with the same refusals of a lead's request, a reason field, and a field for the lead's view. The placed check-in is the destination of anything a lead holds that is not on a record at a review. S13 page, sections 4.3 and 18; I2, I3.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283874538",
+   "reply_count": 0
+  }
+ ]
+}

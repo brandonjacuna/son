@@ -1,0 +1,114 @@
+## ✅ Program live. Read this protocol before every session.
+
+The team is built. The three profiles that run this program are on disk in `profiles/`. The program is ready to run from Session 1. This block is the operating protocol, and it is the only thing a session needs to read to start. Everything below it is reference.
+
+**Reconciled 2026-09-11 against** **`CLAUDE.md`****\*\*\*\*, which is the governing document for this program.** The source allowlist changed: Sŏn's record is now the Robert Lerma white paper and the brand canon files, all held locally, and the V7 notebook, the archived ClickUp canon doc, Airtable, and Box are excluded outright. If this protocol ever disagrees with `CLAUDE.md`, `CLAUDE.md` wins.
+
+## The frame, in one line
+
+**Her ask → what Sŏn already holds (from the white paper and brand canon) → the gap → the team's recommended position → the decision for Brandon to ratify.**
+
+The book is upstream of Sŏn, not foreign to it. It shaped eighteen months of Brandon's thinking, and Sŏn's own record already contains Sŏn's versions of much of what she teaches. Every concept she raises gets a Sŏn answer. Sometimes that answer is "we deliberately do not do this." That is still a decision. The three profiles already carry this frame; they will not re-derive what the record holds.
+
+## How this program is driven: controller and sessions
+
+Two kinds of chat, opposite jobs. Do not mix them.
+
+**The controller.** A single chat whose only job is orchestration: hold the map, update this tracker, triage carryovers, spawn session prompts, decide sequencing, handle cleanup. It never runs a chapter. It never loads a book chapter or three profiles, so it stays light and coherent. It is the chat you plan from.
+
+**A session.** A fresh chat that runs exactly one chapter's work, dense with that chapter's material, then is discarded. Everything a session decides persists in the Operating System doc, the carryovers, and the ledger, never in the chat.
+
+The controller is a role, not one permanent conversation. Like a session, a controller chat degrades if it runs too long. Its durability lives in this tracker, not in the chat. When a controller chat gets heavy, start a fresh one and it reconstitutes itself in one step by reading this protocol block and the context ledger. **The controller is where you think and route. The tracker and ledger are where state persists.** The chat is always disposable; the record is the memory. This is true for both kinds of chat.
+
+## The team that runs a session
+
+Three profiles, on disk in `profiles/`. A session loads the ones its chapter needs. It does not load all three by default; it loads by ownership.
+
+| Profile | File | Owns | Load for |
+| ---| ---| ---| --- |
+| Organizational Systems Architect | `profiles/organizational-systems-architect.md` | Her Ch1, Ch2; the progression structure | S1 to S4, S8, S9 |
+| People Systems Designer | `profiles/people-systems-designer.md` | Her Ch3, Ch4, Ch5; psych safety as org theory | S5 to S16 |
+| Hospitality Operations Realist | `profiles/hospitality-operations-realist.md` | Cross-cutting tempo test | Any session with a floor-execution surface. Most of them |
+
+The Realist is cross-cutting by design. Load it whenever a decision has to survive a real service, which is most sessions from S4 on. The two owners are chapter-bound: the Architect for structure and the operating system, the Designer for people systems.
+
+Two optional profiles exist for depth gaps, most likely at S8 or S12 to S14: Performance and Feedback Systems Designer, and HR Systems Designer. They live in the People & Culture cluster and are **not** loaded by default. A session that hits a depth gap prompts Brandon and loads one only on explicit approval.
+
+Downstream clusters exist and are not loaded here. The Learning & Development cluster and the People & Culture cluster build the instruments and the employee-facing material later. This program produces the recommended positions and specifications they will consume. It does not build instruments. See "What a session produces."
+
+## Cold-start protocol (a session)
+
+New chat. Paste exactly:
+
+> Sŏn. Scaling People, session \[N\]. ClickUp task \[ID\]. Begin.
+
+The session then runs this sequence, in order, before any work:
+
+1. **Fetch the session task** and read the brief.
+2. **Fetch the carryover items linked to that task.** Mandatory reads. They are how a decision made three sessions ago reaches the session it affects.
+3. **Read the context ledger below** (the running state of the program). The single most important anti-drift step. Short by design.
+4. **Read the profiles the session's chapter needs** from `profiles/`, per the table above. By range, not in full, unless the session requires the complete profile.
+5. **Read Sŏn's own record broadly for the relevant domain.** The white paper sections and brand guidelines sections that bear on this chapter's topics. See "Reading Sŏn's record" below; this is a correctness step, not a place to economize.
+6. **Extract the stated page ranges** from the book and workbook on disk.
+7. Work the session.
+
+All sources are local files. Nothing is fetched from Box, and no connector returns whole-file text into context, which is what defeats the page-range discipline.
+
+## Reading Sŏn's record: read broadly, never skim
+
+This is the one place the program cannot be allowed to economize, and it is the opposite of how the book is read. State it plainly so no session gets it wrong.
+
+**The white paper and the brand guidelines are the record of what Sŏn has already decided. They are load-bearing for correctness.** The entire point of this program is that a session does not re-derive or contradict a decision Sŏn already made. That only works if the session actually read the decision. A session that guesses which section is relevant and pulls a narrow range will miss decisions that live in an unexpected paragraph, and it will produce confident, wrong work. That is the exact failure this program exists to prevent.
+
+So the rule is: **read the white paper sections and canon sections that bear on the chapter's topics, in full, top to bottom.** These files are not long. Reading broadly costs little and is the cheapest insurance in the program. If a session is unsure whether a second section is also relevant, it reads that one too. When in doubt, read more of the record, not less. Never skim Sŏn's own record to save tokens.
+
+The book and the workbook are the raw material being processed, not the record of decisions, so those are read by exact page range from the verified chapter map. The savings come from the book PDFs and from not re-reading chats. They never come from the record.
+
+## What a session produces
+
+Three things, and not a fourth.
+
+1. **Recommended positions.** Sŏn's version of each concept, with reasoning. Written as prose into the Sŏn Operating System doc (`2ky45bmy-17253`), one page per session. Declarative, standalone, wiki-ready. Marked **recommended**, **chef-gated**, **founder-gated**, or **team-filled**. Nothing is marked final. Everything is recommended until Brandon ratifies it.
+2. **Specifications.** For each instrument she recommends: do we use it, what it must contain, what it must do, what it must refuse to do. Captured exhaustively. This is what the downstream clusters consume when they build the actual instruments later.
+3. **Post-extraction work items.** Typed subtasks under the post-extraction parent task (`86akh1hdg`, Founding Punch List `901323485125`). Each carries exactly one type: **founder decision**, **document**, **process**, **instrument**, or **structure**.
+
+Not a fourth: **no instruments.** No SOPs, worksheets, fillable templates, training modules, or finished rubrics. That is downstream, gated on the document methodology (`86ajgn2z5`). The reason is unchanged: building instruments before the methodology exists yields good thinking in inconsistent formats.
+
+## Who supplies what
+
+Claude never generates Brandon's interiority (values, work style, strengths, failure modes) or Sŏn's intent (mission, principles, what good looks like). Claude may propose. Claude may not record a proposal as a recommended position without Brandon's confirmation. Founder-gated work is developed to the ceiling one founder can reach, argued, staked, then marked for what Dominic, the chef, or the team must close. The rule: **never present as landed what only the group can land.** The three profiles enforce this on themselves.
+
+## Anti-drift: the context ledger
+
+Across 17 sessions the risk is not any single session going wrong. It is slow incoherence: session 9 quietly contradicting a decision from session 3, or re-opening something already closed. The defense is a single short running-state section, the **context ledger**, kept at the top of the decisions log below. It holds only:
+
+*   The last session completed, and the one-line state it left.
+*   Any decision that binds a future session, with the session it binds.
+*   Any open question a future session must close.
+
+Every session reads it at step 3 of cold-start, and updates it before closing. It is deliberately short, a page at most, so reading it costs almost nothing and it never becomes the thing nobody reads. The full decisions log below it is the archive; the ledger is the working memory. A session that finds itself about to contradict the ledger stops and surfaces the conflict rather than quietly overwriting it.
+
+## Tangent protocol (the non-linear lane)
+
+Brandon thinks in lanes, and a session will surface an idea that belongs elsewhere or opens a new thread. That is a feature, not a derailment, but it has to be caught cleanly or it costs mental clarity and muddies the chat. When it happens, the session does not silently follow the tangent and it does not silently drop it. It stops and offers a routed choice:
+
+**First, name what the tangent is:**
+*   **A decision that affects another session** → it becomes a carryover item, filed and routed to that session's task, and the current session continues. Zero clarity lost. This is the default and the cheapest.
+*   **A thread worth pulling now, in this chat** → the session first parks the current state in the context ledger (so the main line is recoverable), then follows the thread, then returns and un-parks. The park is what protects clarity.
+*   **A question needing research or a source Sŏn does not have** → the session offers two timings: _do it now_ (a bounded search, then back to the session) or _come back to it later_ (filed as a carryover with a research flag). It recommends which, based on whether the answer blocks the current decision.
+
+**The session always states its recommendation** ("this is a carryover, keep going" / "this is worth ten minutes now, let me park us first" / "this needs a source, and it can wait"), and Brandon decides. The point is that the non-linear move is always caught, always routed, and never held loose in a chat where it degrades.
+
+## Pause and resume (weeks, not one sitting)
+
+This program runs over weeks, not in one sitting. Stopping is a first-class action, not an interruption. At any point Brandon can say **"pausing here"** and the session will, before ending:
+
+1. Write the current state to the context ledger, including exactly what was mid-flight.
+2. File any loose thought as a carryover so nothing lives only in the chat.
+3. Confirm what the next action is, so resuming is a single clean prompt.
+
+Resuming never requires re-reading the chat. It requires reading the ledger. That is the whole point of the ledger: the chat is disposable, the ledger is the memory. A session can be abandoned mid-stream and picked up a week later from the ledger with nothing lost.
+
+## Token discipline
+
+The context window is a resource, and this protocol spends it well without changing models. The discipline applies to disposable material, never to Sŏn's record.

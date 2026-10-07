@@ -1,0 +1,274 @@
+{
+ "id": "86akhcz2y",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Process: Name the designations at the brief: the room, the door, the sequence, and the pass",
+ "text_content": "P22, P24, P25, and 18.9. The record's device for accountability in the moment is the functional designation (WP p.10), and the S8 page gives the floor three: the room (A1), the door (the record's Lead Host, on a host seat), and the sequence (a runner seat owning the floor's side of the pass for that service and the first answer to a kitchen-side timing disturbance), with the kitchen's pass owner chef-gated. The Maitre d names the floor's at the brief, the Head of Beverage beverage's, the chef seat the kitchen's; on the Maitre d's absent services the room designation is named the day before and the rest at the brief. A designation is named only onto a seat whose inventory row carries the mark and onto a person with a complete readiness form and range card and no non-negotiable line; never the same person on the room and the door; never persisted without re-naming; a designation held by one person every service for a quarter goes to the mechanism reset as a question about whether it is a seat. Runs from the first training service. Blocks every brief and rows 95 and 106. High.\n\nFiled by Session 8 of the Scaling People translation program. Session task 86ajgmhxx. Reasoning lives on the S8 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "P22, P24, P25, and 18.9. The record's device for accountability in the moment is the functional designation (WP p.10), and the S8 page gives the floor three: the room (A1), the door (the record's Lead Host, on a host seat), and the sequence (a runner seat owning the floor's side of the pass for that service and the first answer to a kitchen-side timing disturbance), with the kitchen's pass owner chef-gated. The Maitre d names the floor's at the brief, the Head of Beverage beverage's, the chef seat the kitchen's; on the Maitre d's absent services the room designation is named the day before and the rest at the brief. A designation is named only onto a seat whose inventory row carries the mark and onto a person with a complete readiness form and range card and no non-negotiable line; never the same person on the room and the door; never persisted without re-naming; a designation held by one person every service for a quarter goes to the mechanism reset as a question about whether it is a seat. Runs from the first training service. Blocks every brief and rows 95 and 106. High.\n\nFiled by Session 8 of the Scaling People translation program. Session task 86ajgmhxx. Reasoning lives on the S8 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "P22, P24, P25, and 18.9. The record's device for accountability in the moment is the functional designation (WP p.10), and the S8 page gives the floor three: the room (A1), the door (the record's Lead Host, on a host seat), and the sequence (a runner seat owning the floor's side of the pass for that service and the first answer to a kitchen-side timing disturbance), with the kitchen's pass owner chef-gated. The Maitre d names the floor's at the brief, the Head of Beverage beverage's, the chef seat the kitchen's; on the Maitre d's absent services the room designation is named the day before and the rest at the brief. A designation is named only onto a seat whose inventory row carries the mark and onto a person with a complete readiness form and range card and no non-negotiable line; never the same person on the room and the door; never persisted without re-naming; a designation held by one person every service for a quarter goes to the mechanism reset as a question about whether it is a seat. Runs from the first training service. Blocks every brief and rows 95 and 106. High.\n\nFiled by Session 8 of the Scaling People translation program. Session task `86ajgmhxx`. Reasoning lives on the S8 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789320126.11707300000000000000000000000000",
+ "date_created": "1789320126114",
+ "date_updated": "1790275881958",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f8ae00",
+  "id": "2",
+  "orderindex": "2",
+  "priority": "high"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akhcz2y",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000019315",
+   "comment": [
+    {
+     "text": "Session 11 adds a fifth designation to the set on any service whose roster holds a language the room's owner does not: the interpreter designation, named in the block beside the room, the door, the sequence, and the pass, from eligible holders of both languages, under the rotation floor, speaking the readiness block, the change line, and a recognition in that language, writing nothing, never customer-facing. Filed as process A15 and instrument A18. S11 page, section 8.3; P18.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 11 adds a fifth designation to the set on any service whose roster holds a language the room's owner does not: the interpreter designation, named in the block beside the room, the door, the sequence, and the pass, from eligible holders of both languages, under the rotation floor, speaking the readiness block, the change line, and a recognition in that language, writing nothing, never customer-facing. Filed as process A15 and instrument A18. S11 page, section 8.3; P18.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790275881958",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320553743",
+   "comment": [
+    {
+     "text": "Extended. The designations' one line each is the slot's first item and the only place a roster hears its own shape in its holders' voices; the room designation runs the brief and holds the slot with the same list and refusals on services the Maitre d does not work, so the card gains the slot's list. Each designation's rule gains a rotation floor (A7, A18). S10 page, sections 9.1 and 14.3. Filed by Session 10 of the Scaling People translation program. Session task ",
+     "attributes": {}
+    },
+    {
+     "text": "86ajgmj2u",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Reasoning lives on the S10 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Extended. The designations' one line each is the slot's first item and the only place a roster hears its own shape in its holders' voices; the room designation runs the brief and holds the slot with the same list and refusals on services the Maitre d does not work, so the card gains the slot's list. Each designation's rule gains a rotation floor (A7, A18). S10 page, sections 9.1 and 14.3. Filed by Session 10 of the Scaling People translation program. Session task 86ajgmj2u. Reasoning lives on the S10 page of the S\u014fn Operating System doc 2ky45bmy-17253.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789408603057",
+   "reply_count": 0
+  }
+ ]
+}

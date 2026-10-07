@@ -1,0 +1,274 @@
+{
+ "id": "86akhcz3c",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Process: Design how a structure change is made and reaches the team",
+ "text_content": "P49 and I5. A structure change (creating or retiring a seat, changing a line, adding a period's seats or designations, changing a designation rule or an inventory mark) is a versioned entry on the inventory on the partners' page with its reason written first in the record's terms, proposed by the domain lead through the leads' review and versioned by the partners' review. It reaches the team by four channels in order: the affected person's check-in on the clock, the seat sheet's new version, the shift brief spoken as a change since the last brief, and the team home; never by announcement, all-hands, or an acknowledgement document. Her narrative-first and names-off-the-sketch survive as the reason line and the inventory's row form. Internal communications depth is Session 11's. Blocks row 102. Normal.\n\nFiled by Session 8 of the Scaling People translation program. Session task 86ajgmhxx. Reasoning lives on the S8 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "P49 and I5. A structure change (creating or retiring a seat, changing a line, adding a period's seats or designations, changing a designation rule or an inventory mark) is a versioned entry on the inventory on the partners' page with its reason written first in the record's terms, proposed by the domain lead through the leads' review and versioned by the partners' review. It reaches the team by four channels in order: the affected person's check-in on the clock, the seat sheet's new version, the shift brief spoken as a change since the last brief, and the team home; never by announcement, all-hands, or an acknowledgement document. Her narrative-first and names-off-the-sketch survive as the reason line and the inventory's row form. Internal communications depth is Session 11's. Blocks row 102. Normal.\n\nFiled by Session 8 of the Scaling People translation program. Session task 86ajgmhxx. Reasoning lives on the S8 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "P49 and I5. A structure change (creating or retiring a seat, changing a line, adding a period's seats or designations, changing a designation rule or an inventory mark) is a versioned entry on the inventory on the partners' page with its reason written first in the record's terms, proposed by the domain lead through the leads' review and versioned by the partners' review. It reaches the team by four channels in order: the affected person's check-in on the clock, the seat sheet's new version, the shift brief spoken as a change since the last brief, and the team home; never by announcement, all-hands, or an acknowledgement document. Her narrative-first and names-off-the-sketch survive as the reason line and the inventory's row form. Internal communications depth is Session 11's. Blocks row 102. Normal.\n\nFiled by Session 8 of the Scaling People translation program. Session task `86ajgmhxx`. Reasoning lives on the S8 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789320133.98793200000000000000000000000000",
+ "date_created": "1789320133985",
+ "date_updated": "1790275864924",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#6fddff",
+  "id": "3",
+  "orderindex": "3",
+  "priority": "normal"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akhcz3c",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000019308",
+   "comment": [
+    {
+     "text": "Session 11 supplies the practice behind the four channels: the stack places the affected person's check-in before the version publishes and the entry waits for it; the person hears the reason as the evidence line's words and writes their own line; the sheet publishes in every house language and every open candidate is re-read; every open period's brief speaks one sentence under the change line; the team home shows it; a range card's version reaches its holder at the same check-in; and a change-reach record proves each step and is read weekly as counts. S11 page, sections 7 and 10.1; P15, P16, P25.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 11 supplies the practice behind the four channels: the stack places the affected person's check-in before the version publishes and the entry waits for it; the person hears the reason as the evidence line's words and writes their own line; the sheet publishes in every house language and every open candidate is re-read; every open period's brief speaks one sentence under the change line; the team home shows it; a range card's version reaches its holder at the same check-in; and a change-reach record proves each step and is read weekly as counts. S11 page, sections 7 and 10.1; P15, P16, P25.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790275864924",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320493315",
+   "comment": [
+    {
+     "text": "Extended. Session 9 closes the coupling between diagnosis and the change: the evidence line is the entry's reason field verbatim, an entry with no line or with a person as its reason is refused, every entry carries the mode and object it is made to clear, and the next scorecard reads it back as cleared, not cleared, or cannot read (section 7, A11). The four channels' order is also a diagnostic read: a change the floor heard first at the brief is sequence corruption on the entry.\n\nFiled by Session 9 of the Scaling People translation program. Session task ",
+     "attributes": {}
+    },
+    {
+     "text": "86ajgmj07",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Reasoning lives on the S9 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Extended. Session 9 closes the coupling between diagnosis and the change: the evidence line is the entry's reason field verbatim, an entry with no line or with a person as its reason is refused, every entry carries the mode and object it is made to clear, and the next scorecard reads it back as cleared, not cleared, or cannot read (section 7, A11). The four channels' order is also a diagnostic read: a change the floor heard first at the brief is sequence corruption on the entry.\n\nFiled by Session 9 of the Scaling People translation program. Session task 86ajgmj07. Reasoning lives on the S9 page of the S\u014fn Operating System doc 2ky45bmy-17253.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789403588376",
+   "reply_count": 0
+  }
+ ]
+}

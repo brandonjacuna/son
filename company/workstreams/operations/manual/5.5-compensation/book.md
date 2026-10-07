@@ -1,0 +1,35 @@
+# 5.5 Compensation: what the book says
+
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 413 to 418, with the chapter's appendix guide at pp. 471 to 473 and workbook pages. Full text: `extraction/build/s13/book.md`, exercises at `extraction/build/s13/exercises.md`. This file is a quick reference; nothing here is about Sŏn. No financial figures appear here; where the book describes compensation mechanics, this file describes them in words.
+
+## A minimum compensation philosophy
+
+She notes an entire book could be written on compensation strategy alone, but at minimum a company needs a core compensation philosophy and a few basic supporting elements (p. 413). Her example of a simple philosophy: compensation should be market-competitive, to attract and retain talent, with higher reward for higher performance. Put more simply: pay for performance (pp. 413 to 414).
+
+Once the philosophy is set, a company decides which elements of pay are fixed and which are variable. Salaries are generally fixed; a bonus program, where one exists, is variable. Many technology companies also offer additional equity beyond the new-hire grant, awarded in varying amounts tied to performance (pp. 413 to 414).
+
+To build a compensation framework, a company first needs job levels (she points to the job ladder table at p. 179). From there, a company can work with an outside compensation consultant or a market-data source to set salary bands and equity targets for new hires at each role and level. Early on, only enough data to price job offers correctly is needed. She recommends being able to explain to employees when market data is refreshed, at minimum annually, and whether a bonus or equity refresh program exists (p. 414).
+
+## Compensation conversations
+
+Of all manager conversations, she calls compensation the most fraught. People usually want to know two things: am I being treated fairly, and am I being recognized for my performance (p. 414). Her guidelines for planning these conversations:
+
+**Educate yourself.** Understand the compensation system: what it rewards, how often reviews happen, how the company's pay compares to market. Much of the conversation is helping the person understand why the company pays the way it does. For an employee who raises compensation often, sharing how the system works and its cadence gives a way to redirect requests that fall outside the established timeline (pp. 414 to 415).
+
+**Instill trust in the system.** Especially at an early stage, the compensation philosophy and system will evolve; tell employees this directly and commit to keeping them informed of changes. If the underlying system feels underbuilt, that is a signal to invest in it with leadership and HR; often the system is fine but the educational materials about it are lacking. Misunderstandings about compensation and equity can permanently damage trust, which is why she urges rigor here (p. 415).
+
+**Understand the motivators.** Most people she has managed are motivated by having an impact and treat financial reward mainly as an indicator of that impact; for them, compensation reinforces motivation rather than defining it. She advises framing rewards as a positive signal of how the company views someone's contribution, not as an outcome unto itself. She notes sales managers have an easier version of this conversation, since results link to pay more directly than in functions like engineering or people operations. For the rarer employee primarily motivated by money, she suggests helping them see the reward as a consequence of great work rather than a goal the company owes them (pp. 415 to 416).
+
+**Have the conversation.** Compensation conversations follow naturally from performance reviews, and a company should have a known schedule for when compensation changes happen. When someone receives a raise or bonus, deliver the news in person, tied explicitly to what is being rewarded and to areas for continued growth. Success looks like the person understanding how the adjustment tracks their performance, and the manager learning how the person feels about their pay: fair, unfair, satisfied, or considering leaving (p. 416).
+
+When there is no compensation change, the conversation still matters. Remind the person the review took place, note there was no change, and explain why; where relevant, use the moment to reinforce development areas. She acknowledges this can feel uncomfortable to foreground, but argues it builds trust in the existence of a review system and in the manager's willingness to own the outcome (pp. 416 to 417).
+
+**Comparisons.** When an employee compares their pay to a peer's, she recommends redirecting: acknowledge that many factors (geography, tenure, when market data was last refreshed) can create differences, and keep the conversation on the employee's own performance. If they persist, offer to have HR look into the concern, then follow up with HR and reinforce the outcome, without disclosing another person's compensation details (pp. 417 to 418).
+
+**Managing disappointment.** Disappointment about a raise usually comes from one of two places: someone who has not absorbed prior performance feedback, or a high performer with high expectations. For the former, use the moment for a frank conversation about fit and performance, and to reinforce that the compensation system will not add reward where contribution has not met the bar; if the employee is being managed out or given significant critical feedback, the compensation conversation can make that situation concrete (pp. 417 to 418). For a genuinely strong performer who is still disappointed, help them see their outcome in context, for example relative to the average increase across the function or company, and reframe toward what would close the gap between their pay and their sense of impact over time. If the underlying wish is for promotion, shift the conversation to what promotion would take (p. 418).
+
+## Exercises and templates
+
+**Compensation conversations preparation and guide (pp. 471 to 473).** A worksheet for preparing a compensation conversation: note the company timeline and links to compensation program resources; confirm you can explain the philosophy; prepare at the individual level by considering each person's career stage, date of last uplevel, and size of their last increase, and by anticipating whether the outcome will meet, exceed, or fall short of their expectations; and prepare to own the message, whether celebrating a promotion or increase (without setting an expectation of the same increase every cycle) or handling a misalignment of expectations with empathy, without apologizing for or promising a specific future outcome. The outline for the discussion itself: check the person's understanding of the philosophy and answer questions; describe the outcome, affirming base salary and, if applicable, target bonus, with context tied to performance either way; then open the floor for questions and reinforce the person's contributions.
+
+For the full text, see `extraction/build/s13/book.md`.

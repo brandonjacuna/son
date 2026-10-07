@@ -1,0 +1,330 @@
+{
+ "id": "86akht1m9",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Document: Write the destinations page for the team home",
+ "text_content": "I3 and row 123. One page stating where each speech act goes: a question (the mentor, the check-in, the channel); a friction (the check-in, the channel); a dissent (the hold's joint half-page; the upward question); a failure (the capture); a non-negotiable (both leads, that day); a concern about a lead (the holder ruled under 86akhb2jg, and until then the entry reads \"held\"); the loop-closure windows; and the rule that a topic with no destination is reported as one. Delivered in the why block's sequence, readable in the team's languages between services subject to the transparency line (86akh5uby), revised by versioned entry when a destination changes, and written under canon's voice rules. It refuses \"escalate\" as a destination, a person's name beyond a seat, and any prompt asking how a person feels. Extends 86akh5umr by reference. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task 86ajgmj2u. Reasoning lives on the S10 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "I3 and row 123. One page stating where each speech act goes: a question (the mentor, the check-in, the channel); a friction (the check-in, the channel); a dissent (the hold's joint half-page; the upward question); a failure (the capture); a non-negotiable (both leads, that day); a concern about a lead (the holder ruled under 86akhb2jg, and until then the entry reads \"held\"); the loop-closure windows; and the rule that a topic with no destination is reported as one. Delivered in the why block's sequence, readable in the team's languages between services subject to the transparency line (86akh5uby), revised by versioned entry when a destination changes, and written under canon's voice rules. It refuses \"escalate\" as a destination, a person's name beyond a seat, and any prompt asking how a person feels. Extends 86akh5umr by reference. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task 86ajgmj2u. Reasoning lives on the S10 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "I3 and row 123. One page stating where each speech act goes: a question (the mentor, the check-in, the channel); a friction (the check-in, the channel); a dissent (the hold's joint half-page; the upward question); a failure (the capture); a non-negotiable (both leads, that day); a concern about a lead (the holder ruled under `86akhb2jg`, and until then the entry reads \"held\"); the loop-closure windows; and the rule that a topic with no destination is reported as one. Delivered in the why block's sequence, readable in the team's languages between services subject to the transparency line (`86akh5uby`), revised by versioned entry when a destination changes, and written under canon's voice rules. It refuses \"escalate\" as a destination, a person's name beyond a seat, and any prompt asking how a person feels. Extends `86akh5umr` by reference. High.\n\nFiled by Session 10 of the Scaling People translation program. Session task `86ajgmj2u`. Reasoning lives on the S10 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789408358.91473700000000000000000000000000",
+ "date_created": "1789408358912",
+ "date_updated": "1790368824966",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#f8ae00",
+  "id": "2",
+  "orderindex": "2",
+  "priority": "high"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akht1m9",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000024516",
+   "comment": [
+    {
+     "text": "Extended by Session 16. The destinations page carries the flag path with a founder as subject in the same words as anyone, and the team-facing protections the center's page states: no founder is a destination in service, a founder on the floor holds no range unless named at the brief for a designation, a founder's impression is never a source, and a concern about a founder goes to the flag or to the lead's read on the center (S16 I7, row 209).\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 16. The destinations page carries the flag path with a founder as subject in the same words as anyone, and the team-facing protections the center's page states: no founder is a destination in service, a founder on the floor holds no range unless named at the brief for a designation, a founder's impression is never a source, and a concern about a founder goes to the flag or to the lead's read on the center (S16 I7, row 209).\n\nFiled by Session 16 of the Scaling People translation program. Session task 86ajgmjz6. Reasoning lives on the S16 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790368824966",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020494",
+   "comment": [
+    {
+     "text": "Extended by Session 15. A concern about a lead has its destination under the team's reading, the lead's check-in holder by the upward question or the channel, and reads held until 86akhb2jg closes; a schedule need, a benefits question, a leave question, and a report of harassment or discrimination each have a named destination (the stack's 'not available' state, the register's rows, the flag with counsel's sentence), so that no person's crisis waits for a lead to notice (S15 P7, P35).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253."
+    }
+   ],
+   "comment_text": "Extended by Session 15. A concern about a lead has its destination under the team's reading, the lead's check-in holder by the upward question or the channel, and reads held until 86akhb2jg closes; a schedule need, a benefits question, a leave question, and a report of harassment or discrimination each have a named destination (the stack's 'not available' state, the register's rows, the flag with counsel's sentence), so that no person's crisis waits for a lead to notice (S15 P7, P35).\n\nFiled by Session 15 of the Scaling People translation program. Session task 86ajgmjpw. Reasoning lives on the S15 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790289894459",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020218",
+   "comment": [
+    {
+     "text": "Session 13 adds every pay question's destination: the pay page for the arithmetic of one's own share; the pay correction path to the Operations Lead's domain with the channel's window for an error; the mechanics page and then the channel for a question about the rule; the check-in's third question or the career conversation for what one could earn, answered from the sheet with no figure spoken; and no destination for another person's pay, because the rule is the answer. The check-in's refusal of pay is read exactly as a refusal of a negotiation, a promise, and a figure spoken by the lead, and not of the path. S13 page, section 14.4; P42; readiness row 167."
+    }
+   ],
+   "comment_text": "Session 13 adds every pay question's destination: the pay page for the arithmetic of one's own share; the pay correction path to the Operations Lead's domain with the channel's window for an error; the mechanics page and then the channel for a question about the rule; the check-in's third question or the career conversation for what one could earn, answered from the sheet with no figure spoken; and no destination for another person's pay, because the rule is the answer. The check-in's refusal of pay is read exactly as a refusal of a negotiation, a promise, and a figure spoken by the lead, and not of the path. S13 page, section 14.4; P42; readiness row 167.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283824862",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019727",
+   "comment": [
+    {
+     "text": "Session 12 specifies the feedback culture page (I1, work item A9) as the destinations page's coaching and feedback half, beside it and the communication architecture page: each direction's surface, record, and what it may never become; the two kinds of live speech; the placed check-in and the placed line; the rule that the hypothesis has no page; the flag's one sentence; and \"held\" where a concern about a lead has no destination. It exists in every house language before the first cohort's why block. S12 page, section 17; instrument I1; readiness row 152.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 12 specifies the feedback culture page (I1, work item A9) as the destinations page's coaching and feedback half, beside it and the communication architecture page: each direction's surface, record, and what it may never become; the two kinds of live speech; the placed check-in and the placed line; the rule that the hypothesis has no page; the flag's one sentence; and \"held\" where a concern about a lead has no destination. It exists in every house language before the first cohort's why block. S12 page, section 17; instrument I1; readiness row 152.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790278913176",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000019325",
+   "comment": [
+    {
+     "text": "Session 11 adds the destinations page's language rule: it exists in every house language before the first cohort's why block, because it is delivered there and a person who cannot read where their question goes has no destination; its parent is the architecture page (S11 I1); its entry for a concern about a lead reads \"held\" until ",
+     "attributes": {}
+    },
+    {
+     "text": "86akhb2jg",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": " closes and is visible as such to every team member. S11 page, section 6.12; P12.\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Session 11 adds the destinations page's language rule: it exists in every house language before the first cohort's why block, because it is delivered there and a person who cannot read where their question goes has no destination; its parent is the architecture page (S11 I1); its entry for a concern about a lead reads \"held\" until 86akhb2jg closes and is visible as such to every team member. S11 page, section 6.12; P12.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790275906047",
+   "reply_count": 0
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+# Brand and experiential material: excluded from this program (2026-09-26)
+sources/brand-guidelines.md
+sources/brand-guidelines-deck.pdf
+extraction/s02/deck.md
+extraction/s05/brand-deck.txt
+
+# System and local
+.DS_Store
+__pycache__/
+*.pyc
+.clickup_token
+
+# Personalized white paper copy (same content as the Sept 2026 generic version)
+archive/robert-lerma-white-paper.pdf
+
+# Brand canon appendix split out of the white paper extraction (excluded)
+extraction/s01/record-brand-appendix.md
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Partial, unverified Box copy (2026-09-26); verify before tracking
+profiles/people-and-culture/
+profiles/founder-development/
+.claude/scheduled_tasks.lock

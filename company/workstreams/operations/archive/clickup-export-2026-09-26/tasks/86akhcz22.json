@@ -1,0 +1,295 @@
+{
+ "id": "86akhcz22",
+ "custom_id": null,
+ "custom_item_id": 0,
+ "name": "Founder decision: Rule which of the record's two advancement accounts stands in wording",
+ "text_content": "P37 and P38, founder-gated. One account has the system schedule a practical with the domain lead and no advancement waiting on judgment (WP p.11); the other has the person schedule a competency conversation and a lead sign off (WP p.19); hiring separates assessor from decider and both accounts fuse them (S6 finding 18.2). The structure runs on three seats: the stack schedules on the sheet's unlock period; an assessor from the pool scores, never the mentor, never the decider; the domain lead records the form at the check-in and may not override it in either direction. The record's \"competency conversation\" is that check-in. The founders ratify which wording stands with this reading; Session 13 takes the review's relation to the sign-off. Adjacent to 86akhb2ja, which this reading extends for the cross-domain signer (P39). Blocks the first unlock's wording on the sheet; the structure runs on P37 until then. Normal.\n\nFiled by Session 8 of the Scaling People translation program. Session task 86ajgmhxx. Reasoning lives on the S8 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "description": "P37 and P38, founder-gated. One account has the system schedule a practical with the domain lead and no advancement waiting on judgment (WP p.11); the other has the person schedule a competency conversation and a lead sign off (WP p.19); hiring separates assessor from decider and both accounts fuse them (S6 finding 18.2). The structure runs on three seats: the stack schedules on the sheet's unlock period; an assessor from the pool scores, never the mentor, never the decider; the domain lead records the form at the check-in and may not override it in either direction. The record's \"competency conversation\" is that check-in. The founders ratify which wording stands with this reading; Session 13 takes the review's relation to the sign-off. Adjacent to 86akhb2ja, which this reading extends for the cross-domain signer (P39). Blocks the first unlock's wording on the sheet; the structure runs on P37 until then. Normal.\n\nFiled by Session 8 of the Scaling People translation program. Session task 86ajgmhxx. Reasoning lives on the S8 page of the S\u014fn Operating System doc 2ky45bmy-17253.",
+ "markdown_description": "P37 and P38, founder-gated. One account has the system schedule a practical with the domain lead and no advancement waiting on judgment (WP p.11); the other has the person schedule a competency conversation and a lead sign off (WP p.19); hiring separates assessor from decider and both accounts fuse them (S6 finding 18.2). The structure runs on three seats: the stack schedules on the sheet's unlock period; an assessor from the pool scores, never the mentor, never the decider; the domain lead records the form at the check-in and may not override it in either direction. The record's \"competency conversation\" is that check-in. The founders ratify which wording stands with this reading; Session 13 takes the review's relation to the sign-off. Adjacent to `86akhb2ja`, which this reading extends for the cross-domain signer (P39). Blocks the first unlock's wording on the sheet; the structure runs on P37 until then. Normal.\n\nFiled by Session 8 of the Scaling People translation program. Session task `86ajgmhxx`. Reasoning lives on the S8 page of the S\u014fn Operating System doc `2ky45bmy-17253`.",
+ "status": {
+  "id": "sc901323485125_tzC3kr6z",
+  "status": "inbox",
+  "color": "#87909e",
+  "orderindex": 0,
+  "type": "open"
+ },
+ "orderindex": "10001789320103.73167900000000000000000000000000",
+ "date_created": "1789320103729",
+ "date_updated": "1790286407383",
+ "date_closed": null,
+ "date_done": null,
+ "archived": false,
+ "creator": {
+  "id": 144179365,
+  "username": "Brandon John Acu\u00f1a-Cardona",
+  "color": "#a18072",
+  "email": "brandon@son.restaurant",
+  "profilePicture": null
+ },
+ "assignees": [],
+ "group_assignees": [],
+ "watchers": [],
+ "checklists": [],
+ "tags": [],
+ "parent": "86akh1hdg",
+ "top_level_parent": "86akh1hdg",
+ "priority": {
+  "color": "#6fddff",
+  "id": "3",
+  "orderindex": "3",
+  "priority": "normal"
+ },
+ "due_date": null,
+ "start_date": null,
+ "points": null,
+ "time_estimate": null,
+ "time_spent": 0,
+ "custom_fields": [
+  {
+   "id": "4424847f-975e-462a-b4f0-5b8233110fc0",
+   "name": "Add to Agenda",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "b62bd164-a97d-4524-8a41-45a42dc8827c",
+      "name": "Founders Meeting",
+      "color": "#fff",
+      "orderindex": 0
+     }
+    ]
+   },
+   "date_created": "1789999563773",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "93feb864-31a3-46db-8314-0e8be567e323",
+   "name": "Classification",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "ae47eec6-3d22-4458-98bc-1ef500cfa079",
+      "label": "Admin",
+      "color": "#8d8d8d",
+      "orderindex": 0
+     },
+     {
+      "id": "868ad1b0-74a9-4bf5-9ed7-bc306fdb9b27",
+      "label": "Brand/Design",
+      "color": "#3e63dd",
+      "orderindex": 1
+     },
+     {
+      "id": "2f4ec3db-2922-445b-8bd8-ac2c48a0a914",
+      "label": "Build/Setup",
+      "color": "#b6b6ff",
+      "orderindex": 2
+     },
+     {
+      "id": "dd29b900-1fb8-418b-9977-3ddc82b612c7",
+      "label": "Capital/Budget",
+      "color": "#6647f0",
+      "orderindex": 3
+     },
+     {
+      "id": "6382773d-a3cb-4143-aaa3-007391506b9e",
+      "label": "Governance",
+      "color": "#aec0f5",
+      "orderindex": 4
+     },
+     {
+      "id": "9302eea7-fa6c-4320-96b8-434fccff4e00",
+      "label": "Legal/Compliance",
+      "color": "#96c7f2",
+      "orderindex": 5
+     },
+     {
+      "id": "fc09f873-760b-48a3-bcb1-0a0f529d7022",
+      "label": "R&D",
+      "color": "#646464",
+      "orderindex": 6
+     },
+     {
+      "id": "411fc668-9256-4731-8bcf-f95dbdcde8ec",
+      "label": "Recurring/Operating",
+      "color": "#cecece",
+      "orderindex": 7
+     },
+     {
+      "id": "d420b274-f003-4557-8fcb-70ee264a826b",
+      "label": "Vendor/Procurement",
+      "color": "#92ceac",
+      "orderindex": 8
+     }
+    ]
+   },
+   "date_created": "1789585067527",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "09c0ecf0-d462-4d61-8074-aa3e50d14604",
+   "name": "Created By Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1790020405808",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "74889162-64c6-44bc-81b9-660f02bcdd35",
+   "name": "Discussed in",
+   "type": "list_relationship",
+   "type_config": {
+    "fields": [],
+    "subcategory_id": "901329089997",
+    "linked_subcategory_access": true,
+    "subcategory_inverted_name": "Meetings"
+   },
+   "date_created": "1789999543291",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ],
+ "dependencies": [],
+ "linked_tasks": [],
+ "locations": [],
+ "team_id": "90131574430",
+ "url": "https://app.clickup.com/t/86akhcz22",
+ "sharing": {
+  "public": false,
+  "public_share_expires_on": null,
+  "public_fields": [
+   "assignees",
+   "priority",
+   "due_date",
+   "content",
+   "comments",
+   "activity",
+   "attachments",
+   "customFields",
+   "subtasks",
+   "tags",
+   "checklists",
+   "coverimage"
+  ],
+  "token": null,
+  "seo_optimized": false
+ },
+ "permission_level": "create",
+ "list": {
+  "id": "901323485125",
+  "name": "Founding Punch List",
+  "access": true
+ },
+ "project": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "folder": {
+  "id": "901318761527",
+  "name": "hidden",
+  "hidden": true,
+  "access": true
+ },
+ "space": {
+  "id": "90138396180"
+ },
+ "attachments": [],
+ "_comments": [
+  {
+   "id": "1400400000020357",
+   "comment": [
+    {
+     "text": "Session 14 found a conflict that bears on the wording: the record reads time in a seat as nothing for progression (\"a person who has been in the system longer does not move toward the center\") and Session 13 refused tenure as a pay input on the record's terms, while canon's two service philosophies, Jeong and Nunchi, accumulate with time, repetition, and mastery in a seat, so the house's most valuable service capacity is the one its advancement system cannot see (S14 finding 19.4). The team reads the customer recognition rate as the steady middle's measure and does not add tenure to advancement or pay; the founders with canon's owner should read the conflict beside this wording. S14 page, sections 2.4, 2.5, and 15; P5, P7."
+    }
+   ],
+   "comment_text": "Session 14 found a conflict that bears on the wording: the record reads time in a seat as nothing for progression (\"a person who has been in the system longer does not move toward the center\") and Session 13 refused tenure as a pay input on the record's terms, while canon's two service philosophies, Jeong and Nunchi, accumulate with time, repetition, and mastery in a seat, so the house's most valuable service capacity is the one its advancement system cannot see (S14 finding 19.4). The team reads the customer recognition rate as the steady middle's measure and does not add tenure to advancement or pay; the founders with canon's owner should read the conflict beside this wording. S14 page, sections 2.4, 2.5, and 15; P5, P7.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790286407383",
+   "reply_count": 0
+  },
+  {
+   "id": "1400400000020211",
+   "comment": [
+    {
+     "text": "Session 13 adds the pay half of the wording: the record's \"a direct line between learning and earning\" is read as running through the person's own seat's horizons (a weight moves on the date the lead records the form) and the markers, and not through every competency validated anywhere, so that a cross-domain competency for a seat not held adds a connection and, where Session 8's definition is met, a marker, and moves no weight until the seat is held. The review reads the recorded state and signs nothing. The founders ratify the reading with the wording. S13 page, section 10.4; P29, P31; finding 19.9."
+    }
+   ],
+   "comment_text": "Session 13 adds the pay half of the wording: the record's \"a direct line between learning and earning\" is read as running through the person's own seat's horizons (a weight moves on the date the lead records the form) and the markers, and not through every competency validated anywhere, so that a cross-domain competency for a seat not held adds a connection and, where Session 8's definition is met, a marker, and moves no weight until the seat is held. The review reads the recorded state and signs nothing. The founders ratify the reading with the wording. S13 page, section 10.4; P29, P31; finding 19.9.",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1790283817291",
+   "reply_count": 0
+  },
+  {
+   "id": "90130320493839",
+   "comment": [
+    {
+     "text": "Extended by finding 19.12: the record names the invisible advocate as a function of the Maitre d's seat (WP p.10) and as the system itself (WP p.11), and who writes the skill-invisibility line turns on it; the team's reading has the Maitre d write the floor's line from the stack's records.\n\nFiled by Session 9 of the Scaling People translation program. Session task ",
+     "attributes": {}
+    },
+    {
+     "text": "86ajgmj07",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ". Reasoning lives on the S9 page of the S\u014fn Operating System doc ",
+     "attributes": {}
+    },
+    {
+     "text": "2ky45bmy-17253",
+     "attributes": {
+      "code": true
+     }
+    },
+    {
+     "text": ".\n",
+     "attributes": {}
+    }
+   ],
+   "comment_text": "Extended by finding 19.12: the record names the invisible advocate as a function of the Maitre d's seat (WP p.10) and as the system itself (WP p.11), and who writes the skill-invisibility line turns on it; the team's reading has the Maitre d write the floor's line from the stack's records.\n\nFiled by Session 9 of the Scaling People translation program. Session task 86ajgmj07. Reasoning lives on the S9 page of the S\u014fn Operating System doc 2ky45bmy-17253.\n",
+   "user": {
+    "id": 144179365,
+    "username": "Brandon John Acu\u00f1a-Cardona",
+    "email": "brandon@son.restaurant",
+    "color": "#a18072",
+    "initials": "BA",
+    "profilePicture": null
+   },
+   "assignee": null,
+   "group_assignee": null,
+   "reactions": [],
+   "date": "1789403638305",
+   "reply_count": 0
+  }
+ ]
+}

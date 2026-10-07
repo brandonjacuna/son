@@ -1,0 +1,57 @@
+# 3.1 Recruiting: what the book says
+
+Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 167 to 192, with the chapter's exercise appendix at pp. 228 onward. Full text: `extraction/build/s05/book.md`. This file is a quick reference; nothing here is about Sŏn.
+
+## Why hiring is everything
+
+If talent is everything, the hiring process has to be everything too: the goal is to find people who will thrive and have the most positive impact at every level, then acclimate them so they carry the mission and culture forward (p. 168). A company's talent is its destiny; early hires become future leaders. Leadership hiring can be more customized, but its fundamentals and cultural weight should match employee hiring, or leaders who seem to waltz in will lack credibility (p. 168).
+
+The chapter's throughline is a single operational demand: quality and speed together. That means nearly everyone at the company has to be involved in hiring and hold to the same standards (pp. 168 to 169).
+
+**The hiring conversion funnel (Figure 9).** Talent acquisition is really growth marketing: build the talent brand, generate leads (job page views, applicants), assess lead quality, and optimize conversion through the process. The funnel does not end at acceptance; it ends when the new hire is onboarded and connected to their manager and the company (p. 169).
+
+**The hiring pyramid (Figure 10, p. 170).** Different levels need different processes. At the base, high-volume hiring runs on a fairly set process, with people who already do the role as interviewers and a single manager decision at the end. In the middle of the pyramid, a standing hiring committee with consistent interviewers builds pattern recognition across candidates. At the top, the hiring team is bespoke, built mostly from current executives. A first hire into a brand-new role (the first in-house lawyer) is always more tailored than hiring more of a role you already know how to fill.
+
+**Sidebar: the founder's role in hiring (p. 171).** Below roughly 100 employees per founder or trusted senior leader, founders should interview every finalist. Founders are best positioned to model a rigorous interview and a high bar, especially the hardest call: saying no to a candidate who is "just fine" but raises an unnamed concern. Be transparent about those no-hire calls and explain the reasoning, so the behavior can be taught. At Stripe, founders and executives met every finalist until the company was hundreds of people, stepping back only once senior leaders could proxy the process and the values.
+
+The chapter's three steps are recruiting, hiring (decision-making, onsite to offer), and onboarding; each is covered for both employee and leadership hiring, closing with how to close the loop to improve it over time (p. 171).
+
+## Recruiting: building the pipeline
+
+Building awareness of your company among potential talent is its own hard problem. Mining founders' and early employees' personal networks works at first but does not scale and can narrow diversity, since networks tend to resemble the people in them (pp. 171 to 172).
+
+**Sidebar: Stripe's Capture the Flag (pp. 172 to 174).** A programming contest run three times from 2012, born from an engineer's side project and grown into a company-wide effort. It drew thousands of participants, produced direct hires, and built Stripe's reputation with developers, its core audience. The lesson generalizes: creative, values-expressive content aimed at your specific candidate audience builds a talent brand better than generic postings, and it doubles as a study in how a self-organized team builds something well.
+
+**The careers page and job descriptions.** Once you're driving traffic, you need a page that explains the company and lists open roles. Write descriptions that are clear about the work and expectations without being overly verbose, prescriptive, or rosy: open the aperture enough to attract the right applicants without disappointing people who project their own hopes onto a vague posting. If a role isn't fully defined yet, say so; ambiguity that makes a candidate uncomfortable is useful self-selection. Watch for biased language (tools like Textio or Grammarly can help). Early job and company descriptions are the start of the talent brand and deserve the same care as first product releases (pp. 174 to 175).
+
+**Hiring is everyone's job.** Johnson warns against letting recruiting become a silo as the company scales; when it does, people lose the habit of representing the culture and feeling responsible for their colleagues' selection (p. 175). A recruiter or coordinator typically becomes necessary once a company passes about 10 to 20 people and is hiring consistently; a recruiting team with an experienced leader comes once you're hiring multiple people a week. A recruiter should never substitute for the hiring manager, who stays accountable for the new hire's work (p. 175).
+
+**Sidebar: recruiting commitments (pp. 175 to 178).** Stripe's internal document spelling out mutual commitments. Employees commit to: keeping calendars accurate, knowing the role and interview, following the interview routine, knowing the candidate before the interview, submitting feedback on time, participating actively and specifically in hiring meetings ("tropes"), following up with candidates promptly, and always be recruiting. Recruiting commits to: respecting calendars, valuing referrals, setting candidates up for success with clear job descriptions and transparent process, running hiring meetings well, handling sensitive information carefully, and optimizing for the company's long-term interest above any single hire.
+
+**Build insight on talent needs before opening a role.** Ask what kinds of people you've hired before, who's doing well, who's scaling at the company's pace and why, and where you're missing perspectives or capabilities (p. 178). Johnson's Venn diagram (Figure 11): good at the work, high impact on the company, loves the work; the ideal hire sits in all three. Study the people who fit and mine what they have in common for interview questions (pp. 178 to 179). Role profiles shift as the company and the role evolve, illustrated with Stripe's country managers, some of whom scaled into bigger roles and some of whom did not because the role itself changed (pp. 179 to 180).
+
+**Referrals.** A strong source once you know what success looks like, but not a sufficient one: referral pipelines are hard to scale and can undermine diversity efforts. Treat referrals well regardless; they double as a signal of employee engagement (pp. 180 to 181).
+
+**Screening.** Résumé review (human or algorithmic) checks fit against outlined qualifications; some companies add a coding assessment or short written project to test commitment and gather more signal, but extra hurdles carry a cost while you're still building a pipeline. A phone screen follows, then onsite interviews, sometimes with a second screen in between (p. 181).
+
+## New leader recruiting
+
+Leadership hiring often needs to happen before the organization asks for it; people rarely tell you they need a leader. Johnson calls fast growth "riding the dragon": you need the leaders in place before the growth arrives (pp. 181 to 182). Founders are often too close to their own work to see how many jobs they are personally doing. A useful exercise: list the jobs you've done in the last three weeks, sort out which only the founder or CEO can do, and for the rest ask whether someone already holds that work and is over-relied on, or whether it is going undone (p. 182).
+
+The goal, especially for founders, is to work yourself out of a job: give away your Legos, in Molly Graham's phrase, roughly every six months, even though it is emotionally hard to do (pp. 182 to 183). This pairs with staying vigilant about capability gaps, both personal and organizational, looking three to five years out, without hubris (p. 183).
+
+**Determine what kind of leader you need.** Get clear on three things: what is the work to be done, what does "great" look like, and how will you assess people against that. Do not use your live interview process to calibrate your own understanding of the role; it burns candidates and reputation. Talk to advisers, board members, and people who have done or hired for the role elsewhere to build a rubric (pp. 183 to 184, 187 to 189).
+
+**Sidebar: my COO story (pp. 185 to 187), and "do you need a COO?" (pp. 186 to 187).** Johnson's own hiring into the COO role at Stripe, arrived at through iterative conversations rather than a fixed job description. Her caution to founders: a COO is an extra layer of management that may not be necessary once a leadership team is more developed, and early-stage companies may not yet be able to attract someone who can scale in the role for more than a year. She suggests building a business operations ("biz ops") team and a head of business operations first, to proxy some COO responsibilities and clarify what is actually needed.
+
+**Promote from within or hire from outside.** Outside hiring for senior roles is slow (six-plus months) and only 25 to 50 percent successful, so start with talent you know when possible. For early-stage, fast-growing companies, Johnson's rough split: at least one-third of promotions from within (fewer signals under-investment in developing people), about one-third from outside (an early company rarely has the internal bench to avoid this), and the final third depends on context. Watch for the "experience trap": more experienced candidates interview better, and some become "playbook thinkers" stuck on one way of working. Test for curiosity and learning aptitude, not just credentials. Search firms can help for senior roles, especially classic functions like CFO, but need heavy investment to represent you well; personal networks and board and adviser referrals often outperform them (pp. 189 to 191). A closing frame: "don't assume the folks who got you here will get you there," weighed against not discarding loyalty and gratitude (pp. 191 to 192).
+
+## Exercises and templates
+
+The chapter appendix (pp. 228 onward; workbook has matching worksheets) is shared across all of Chapter 3's sections. The pieces most relevant to recruiting itself:
+
+- **Interview framework and rubric: recruiting for recruiters (pp. 229 to 245).** A fully worked example: competencies assessed (collaboration, conscientiousness, willingness to be wrong, intrinsic motivation, structured thinking, resilience, accountability), the interview sequence (recruiter screen, team screen and written project in tandem, onsite loop), sample talk tracks, and poor/good/strong rubric language for each competency, including a structured-thinking roleplay that walks a candidate through scoping a new recruiting problem end to end. It doubles as a model for building an interview framework for any role.
+- **Sample interview questions, written exercise example, and candidate review: decision-making framework** (pp. 245 onward) serve the next chapter section on hiring and onsite decision-making more directly than recruiting itself.
+- **Manager transitions guide, working with Claire, working with me template, and new leader experience** (later in the appendix) serve onboarding and leadership sections further into the chapter.
+
+For the full text of the pages and appendix used in this session, see `extraction/build/s05/book.md`.
