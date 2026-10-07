@@ -7,7 +7,7 @@
 
 **Date:** 2026-09-28
 **What this is:** module discovery for the back-of-house discipline (D29 working name "back of house"), built now as a draft under D30 and organized by discipline with depth levels under D28. The executive chef's view outranks everything here (intake group 1; D30). Nothing parks until the chef redevelops and signs it.
-**Inputs:** `research/intake-2026-09.md` (group 1 kitchen structure; groups 2 to 5 for teaching style and gates); `framework/system-design.md` (D2, D5, D7, D8, D10, D11, D14, D15, D18, D22, D25, D28, D29, D30); `research/starting-structure-2026-09.md` sections 1 and 2 (format, gates G1 to G4, supervision levels L1 to L4); `research/phase2-working/11-game-skill-trees.md` (depth rings); Box: white paper `2466517057642` (WP) and Brand and Experiential Guidelines v3.0 PDF `2281626080747` (BG), both read this session; external research below.
+**Inputs:** `research/intake-2026-09.md` (group 1 kitchen structure; groups 2 to 5 for teaching style and gates); `framework/system-design.md` (D2, D5, D7, D8, D10, D11, D14, D15, D18, D22, D25, D28, D29, D30); `research/starting-structure-2026-09.md` sections 1 and 2 (format, gates G1 to G4, supervision levels L1 to L4); `research/phase2-working/11-game-skill-trees.md` (depth rings); Box: white paper `2466517057642` (WP) and Brand Guidelines (canon line pending phase 1 session B) v3.0 PDF `2281626080747` (BG), both read this session; external research below.
 **Status labels:** verified-primary (read at the source), verified-secondary (read in independent coverage or a publisher or catalog record), lead-only (seen in a search result or snippet, not opened), unverified (not found or inferred).
 **Standing flags.**
 - Every role title is a `people.*` binding (WP Part I, "Open items", p.15). Kitchen naming is conflict INT C17 (WP: Steward, Station Lead, Chef on the line, Chef on prep; intake: porter, chef de cuisine, chef de partie, chef de tournant). This file uses the intake's words as working names and resolves nothing.
@@ -363,7 +363,7 @@ KIT-001, KIT-002, KIT-003, SAF-003, CUL-005, KIT-004 (D0 above). Placement in th
 **Ground rules (read aloud at the start).**
 - We are asking what you saw, did and would hold Sŏn to, not what any house does. You never need to name a house. If one comes up, we record your account as your standard, not as that house's practice, and flag it.
 - Much of your time in top rooms was on the floor and in operations. Answer from where you stood. "What I saw from the pass" is exactly the right altitude.
-- No figures. If a number comes up, we note that one exists and pull it from Airtable later.
+- No figures. If a number comes up, we note that one exists and leave it unbound until a source is chosen (Airtable retired).
 - Recording: consent for the recording and where it is stored (Box) is confirmed first (`workflow.recording_consent`).
 - One incident at a time, specific nights, not general principles. Principles come out of the incidents.
 
@@ -460,7 +460,7 @@ KIT-001, KIT-002, KIT-003, SAF-003, CUL-005, KIT-004 (D0 above). Placement in th
 | Source | Location | Supports | Status |
 |---|---|---|---|
 | Sŏn Investor White Paper Sept 2026 | Box `2466517057642`: Part I pp.2, 4, 7, 8, 10, 11, 13; Part II pp.16 to 17, 17, 18, 19, 20, 21, 22; Part V pp.33 to 34, 37 | Kitchen structure, steward, porter, cross-training, pay inclusion, tech stack, dependency on one chef | verified-primary (read this session; figures noted by location only; lineage passages flagged, nothing carried) |
-| Brand and Experiential Guidelines v3.0 PDF | Box `2281626080747`: 01, 02, 03, 05, 07, 11, 13, 15, 17 | Non-negotiables, culinary identity, Mahk, personas, threshold acoustics, held items | verified-primary (read in full this session) |
+| Brand Guidelines (canon line pending phase 1 session B) v3.0 PDF | Box `2281626080747`: 01, 02, 03, 05, 07, 11, 13, 15, 17 | Non-negotiables, culinary identity, Mahk, personas, threshold acoustics, held items | verified-primary (read in full this session) |
 
 ### External
 

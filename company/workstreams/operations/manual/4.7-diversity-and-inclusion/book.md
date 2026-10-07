@@ -1,6 +1,6 @@
 # 4.7 Diversity and inclusion: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 354 to 360. Full text: `extraction/build/s11/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 354 to 360. Full text: `sources/extraction/build/s11/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Why this is a manager's job
 
@@ -50,4 +50,4 @@ Her instruction to managers: adopt these, build a shared vision the whole team b
 
 ## Exercises and templates
 
-This section has no dedicated exercise; her chapter-level exercises (career conversations, offsite planning, leadership snippets, the unblocking process) are cataloged under 4.6. Full text in `extraction/build/s11/exercises.md`.
+This section has no dedicated exercise; her chapter-level exercises (career conversations, offsite planning, leadership snippets, the unblocking process) are cataloged under 4.6. Full text in `sources/extraction/build/s11/exercises.md`.

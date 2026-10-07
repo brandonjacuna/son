@@ -74,7 +74,7 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 
 **Decided 2026-09-28, in part.**
 
-**The conflict.** The Brand and Experiential Guidelines prohibit AI-generated imagery at one level of their authority hierarchy, and forbid glossing Korean terms on brand surfaces.
+**The conflict.** The Brand Guidelines (canon line pending phase 1 session B) prohibit AI-generated imagery at one level of their authority hierarchy, and forbid glossing Korean terms on brand surfaces.
 
 **Call.** Those rules govern brand surfaces. They do not concern internal documents and training.
 
@@ -336,7 +336,7 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 **What it changes.**
 - Host-branch modules (door, arrival, pacing the room from the book) are the lead host's and host team's craft, taught as delegated work inside the Maître d''s responsibility.
 - Maître d' modules cover owning the room and delegating the door, including when to step in.
-- The Brand and Experiential Guidelines' arrival choreography describes the Maître d' at the threshold. Aligning that canon text to this decision is Brandon's edit to make, not the studio's; until then, modules cite this decision and bind specifics with `brand.*`.
+- The arrival choreography in the Brand Guidelines (canon line pending phase 1 session B) describes the Maître d' at the threshold. Aligning that canon text to this decision is Brandon's edit to make, not the studio's; until then, modules cite this decision and bind specifics with `brand.*`.
 
 ### D21. Mentor and angel-shift trainer (question 19)
 
@@ -377,7 +377,7 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 
 **Call.** (c). Brandon writes an internal glossary of the Korean terms and persona labels, and training uses it.
 
-**Reasoning.** Brand surfaces keep the no-gloss rule (Brand and Experiential Guidelines, Hangul deployment). Inside, the team needs the meaning, and the meaning is Brandon's to set, not the studio's to infer.
+**Reasoning.** Brand surfaces keep the no-gloss rule (Brand Guidelines (canon line pending phase 1 session B), Hangul deployment). Inside, the team needs the meaning, and the meaning is Brandon's to set, not the studio's to infer.
 
 **What it changes.**
 - Until the glossary exists, modules cite the term and bind its explanation: `founder.glossary.<term>`.
@@ -407,10 +407,10 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 
 **Call.** (b).
 
-**Reasoning.** Pre-authorized discretion inside known limits (Brand and Experiential Guidelines, floor authority) lets people act without asking, and matching the range to the role keeps the generous end with the person who holds the room.
+**Reasoning.** Pre-authorized discretion inside known limits (Brand Guidelines (canon line pending phase 1 session B), floor authority) lets people act without asking, and matching the range to the role keeps the generous end with the person who holds the room.
 
 **What it changes.**
-- Recovery modules teach each role its range and its escalation triggers. Every range and threshold is a `fact.*` binding from Airtable; who holds each range is `people.*`.
+- Recovery modules teach each role its range and its escalation triggers. Every range and threshold is a `fact.*` binding (unbound until a source is chosen (Airtable retired)); who holds each range is `people.*`.
 - The durable craft is how to recover (match the make-good to the kind of loss, how the person is treated, closing the loop), not the amounts (Hospitality Craft Educator).
 - A pre-authorized gesture needs a named owner and the slack to carry it out on a full night (`workflow.recovery_owner`); the module teaches what to do when no one is free (Hospitality Operations Realist).
 - The food side of any recovery is chef-gated.
@@ -422,6 +422,8 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 **Call.** The June v3.0 PDF in Box (file `2281626080747`) is canonical. The July markdown copy (`2356731001214`) is a supplement for text extraction only; where the two differ, the PDF wins.
 
 **What it changes.** Nothing in the pointers: `canon/pointers.md` and CLAUDE.md already name the PDF. Brandon's source rule (internal sources from Box, never ClickUp documents) stands.
+
+Amended 2026-10-07 (Brandon): the experiential guidelines are stripped from canon and kept only as a Box reference file. The Brand Guidelines design deck stays. Where the brand canon line falls is set in phase 1 session B.
 
 ### D27. Outside course libraries must live inside Trainual (Barista Hustle)
 
@@ -457,7 +459,7 @@ Sŏn's goal is to be considered one of the absolute best restaurants in the coun
 
 **Decided 2026-09-28.** Supersedes the "shell only" treatment of back of house in the research.
 
-**Call.** Build the back-of-house discipline now, as a draft that is redeveloped with the executive chef once hired. The framing for back-of-house standards is Sŏn's positioning (the white paper and the Brand and Experiential Guidelines in Box) and Brandon's own experience in some of the country's best restaurants.
+**Call.** Build the back-of-house discipline now, as a draft that is redeveloped with the executive chef once hired. The framing for back-of-house standards is Sŏn's positioning (the white paper and the Brand Guidelines (canon line pending phase 1 session B) in Box) and Brandon's own experience in some of the country's best restaurants.
 
 **How the standing rules hold.**
 - Brandon's experience enters as Brandon's own account, given directly (interviews or his writing), never reconstructed by research from what is public about the houses he worked in. Practices of Coqodaq, Alinea, and Gracious are still flagged, never written as fact.

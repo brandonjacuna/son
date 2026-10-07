@@ -24,4 +24,4 @@ Also done: 32 comments on existing items (the 11 carryovers routed here and 21 e
 
 ## Next session
 
-Session 16, task `86ajgmjz6`: the Conclusion and "You", book pages 484 to 503, owned by the Designer. The handoff is at `extraction/s16/HANDOFF-from-s15.md` and the S15 page index at `extraction/s16/s15-page-index.md`.
+Session 16, task `86ajgmjz6`: the Conclusion and "You", book pages 484 to 503, owned by the Designer. The handoff is at `sources/extraction/s16/HANDOFF-from-s15.md` and the S15 page index at `sources/extraction/s16/s15-page-index.md`.

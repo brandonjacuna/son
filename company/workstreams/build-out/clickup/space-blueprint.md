@@ -2,7 +2,7 @@
 
 Status: DRAFT. Location in ClickUp is an open decision (see decisions/open.md #1).
 Built only by `/lease-signed`, as a preview file first, then created and read back.
-Follow `knowledge-base.md`: statuses, task types, automations, and rollups are UI-only;
+Follow `company/workstreams/clickup-system/kb/clickup-knowledge-base.md`: statuses, task types, automations, and rollups are UI-only;
 the API can create spaces, folders, lists, custom fields, tasks, views, and docs.
 
 ## Structure (proposal)

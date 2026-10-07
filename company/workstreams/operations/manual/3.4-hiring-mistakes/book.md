@@ -1,6 +1,6 @@
 # 3.4 Hiring mistakes: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 224 to 227, with related exercises at pp. 229 to 252. Full text: `extraction/build/s07/book.md`, `extraction/build/s07/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 224 to 227, with related exercises at pp. 229 to 252. Full text: `sources/extraction/build/s07/book.md`, `sources/extraction/build/s07/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## When you realize you made the wrong call
 
@@ -70,4 +70,4 @@ These sit earlier in the chapter's appendix but support building and correcting 
 - **Written exercise example (pp. 248 to 250).** A product manager writing prompt with a scored rubric (written communication, data analysis, customer sense, product sense) and a points-to-decision table.
 - **Candidate review: decision-making framework (pp. 250 to 252).** A five-step hiring-committee process: candidate submission, scorecard and rationale review, scorecard verification, discussion and decision, and outcome submission with a feedback loop back to interviewers.
 
-For the full text of these pages, see `extraction/build/s07/book.md` and `extraction/build/s07/exercises.md`.
+For the full text of these pages, see `sources/extraction/build/s07/book.md` and `sources/extraction/build/s07/exercises.md`.

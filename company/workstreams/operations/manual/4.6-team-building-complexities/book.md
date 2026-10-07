@@ -1,6 +1,6 @@
 # 4.6 Team-building complexities: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 331 to 353. Full text: `extraction/build/s11/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 331 to 353. Full text: `sources/extraction/build/s11/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Managing distributed and remote teams
 
@@ -81,7 +81,7 @@ A sidebar (pp. 352 to 354) carries a Reid Hoffman account of steering LinkedIn t
 
 ## Exercises and templates
 
-See `extraction/build/s11/exercises.md` for full text.
+See `sources/extraction/build/s11/exercises.md` for full text.
 
 **Career conversations (pp. 364 to 367).** A 60-minute 1:1 (30 to 45 minutes for a recent graduate) that walks a report's life and career history: childhood and schooling, choices right after school, favorite and least favorite jobs and why, and a forward-looking projection of the kind of work and life they want in five years, without pinning it to a title. Comes with a pre-conversation script for introducing the exercise, a reminder script sent the day before, guidance to actively listen and keep asking why, and a wrap-up that recaps and sets two or three development goals.
 

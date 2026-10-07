@@ -1,6 +1,6 @@
 # 1.4 Come back to your operating system: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 1, principle 4, pp. 60 to 62, with the Introduction's passages on core frameworks (pp. 20 to 21) and the metronome (pp. 17 to 19), which this chunk also houses. Full text: `extraction/build/s01/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 1, principle 4, pp. 60 to 62, with the Introduction's passages on core frameworks (pp. 20 to 21) and the metronome (pp. 17 to 19), which this chunk also houses. Full text: `sources/extraction/build/s01/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The principle
 

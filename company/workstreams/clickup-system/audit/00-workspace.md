@@ -56,7 +56,6 @@ No workspace- or space-level custom fields exist anywhere sampled; all custom fi
 | Sŏn | CHANNEL | PUBLIC | Brandon |
 | Founding Punch List | CHANNEL | PUBLIC | Dominic |
 | Sprint 0 (7/27–7/29) Redcar Response | CHANNEL | PUBLIC | Dominic |
-| Josephine Pitch PunchList | CHANNEL | PUBLIC | Dominic |
 | Programming Ideation | CHANNEL | PUBLIC | Brandon |
 | Programming Pitch | CHANNEL | PUBLIC | Dominic |
 | Event Team Personas | CHANNEL | PUBLIC | Dominic |
@@ -68,7 +67,6 @@ No workspace- or space-level custom fields exist anywhere sampled; all custom fi
 | Events Capture | CHANNEL | PUBLIC | Brandon |
 | Hospitality Capture | CHANNEL | PUBLIC | Brandon |
 | Finance Capture | CHANNEL | PUBLIC | Brandon |
-| The Josephine | CHANNEL | PUBLIC | Brandon |
 | DM (unnamed) | DM | PRIVATE | user -87977709 ("Founders Meeting Assistant") |
 | DM (unnamed) | DM | PRIVATE | Dominic |
 | ASK_AI (unnamed) | ASK_AI | PRIVATE | Brandon |
@@ -76,7 +74,7 @@ No workspace- or space-level custom fields exist anywhere sampled; all custom fi
 Purpose inference from names and a light sample of messages:
 - The **"Capture" channels** (one per space: People, Operations, Promotion, Events, Hospitality, Finance, Technology) mirror the "Capture" lists seen in the hierarchy — likely auto-notification/inbox channels tied to each space's capture list, not conversational channels.
 - **"Sŏn"** and **"Founding Punch List"** are checked with a message sample: Founding Punch List channel returned 0 messages; the "Founders Meeting Assistant" DM contains one message, "A SyncUp Happened" (2026-09) — consistent with a meeting/notetaker bot posting a status ping.
-- **"Josephine Pitch PunchList" / "The Josephine" / "Programming Ideation" / "Programming Pitch" / "Event Team Personas" / "Sprint 0 Redcar Response"** are named for specific initiatives/projects (deal or project code names) rather than general team chat.
+- **"Programming Ideation" / "Programming Pitch" / "Event Team Personas" / "Sprint 0 Redcar Response"** are named for specific initiatives/projects (deal or project code names) rather than general team chat.
 - The **ASK_AI** channel is ClickUp's built-in AI chat surface, private to Brandon.
 - No channel messages beyond the samples above were read (per audit scope: names/purpose only).
 

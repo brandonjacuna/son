@@ -1,6 +1,6 @@
 # 1.3 Distinguish between management and leadership: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 1, principle 3, pp. 56 to 59. Full text: `extraction/build/s01/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 1, principle 3, pp. 56 to 59. Full text: `sources/extraction/build/s01/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The distinction
 

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | White paper, "Sŏn Investor White Paper Sept 2026.pdf" | `2466517057642` | `Sŏn / 00. Pitch Materials / White Paper` (folder `382453064958`; Pitch Materials folder `388972799337`) | Modified 2026-09-14. The title page reads "A founding architecture, in full." It has five parts. Cited below as **WP**. |
 | Other white paper copies, "03. Sŏn Investor Diligence White Paper .pdf" | `2468611192111`, `2468627027608` | Investor Room Template (`418384888111`); Adam Biechlin folder (`418386765208`) | Dated 2026-09-15. Not compared against the Pitch Materials copy. Need to confirm which one is current. |
-| Brand and Experiential Guidelines PDF, "Living document, version 3.0" | `2281626080747` | `Sŏn / 10. AI Projects / Design` (`388972616815`) | Modified 2026-06-12. Cited below as **BG**, by section number and label. |
+| Brand Guidelines (canon line pending phase 1 session B) PDF, "Living document, version 3.0" | `2281626080747` | `Sŏn / 10. AI Projects / Design` (`388972616815`) | Modified 2026-06-12. Cited below as **BG**, by section number and label. |
 | Brand Guidelines markdown files, uploaded to the design system | `2281555280952` (v1.0), `2356714319901` (v2), `2356731001214` (v2.1, 2026-07-19) | Design system version folders | Dated later than the PDF, but the filename says "v1". How they relate to BG v3.0 is unclear. Flag for Brandon. |
 | `05. Brand and Creative` | folder `420132086334` | `Sŏn /` | Contains only `Identity and Design Assets` (`420132746170`). Not searched further. |
 

@@ -1,6 +1,6 @@
 # 3.3 Onboarding: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 216 to 223, with the chapter's exercises at pp. 246 to 259 and workbook pages on working-with-me documents. Full text: `extraction/build/s07/book.md`, `extraction/build/s07/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 216 to 223, with the chapter's exercises at pp. 246 to 259 and workbook pages on working-with-me documents. Full text: `sources/extraction/build/s07/book.md`, `sources/extraction/build/s07/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Why onboarding matters
 
@@ -99,4 +99,4 @@ A sidebar from former Stripe employee Jorge Ortiz, who onboarded many leaders, o
 - **Working with Me template (p. 257).** Four sections to fill in: my role, about me, operating approach, management style, and supporting you and your team.
 - **New Leader Experience (pp. 257 to 259).** What the NLE is, what makes it succeed, and a week-by-week sample schedule from offer acceptance through the 90-day review, naming who owns each step (recruiter, onboarding point person, hiring manager, people partner, coach).
 
-For the full text of these pages, see `extraction/build/s07/book.md` and `extraction/build/s07/exercises.md`.
+For the full text of these pages, see `sources/extraction/build/s07/book.md` and `sources/extraction/build/s07/exercises.md`.

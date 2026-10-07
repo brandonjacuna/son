@@ -1,6 +1,6 @@
 # 1.2 Say the thing you think you cannot say: working-session guide
 
-For the facilitator. Reference depth is in `considerations.md` (sections cited as "cons. N") and `book.md`; the task list is `tasks.md`; the record goes in `decisions.md`. "WP p. N" is the white paper (`extraction/s01/record.md`).
+For the facilitator. Reference depth is in `considerations.md` (sections cited as "cons. N") and `book.md`; the task list is `tasks.md`; the record goes in `decisions.md`. "WP p. N" is the white paper (`sources/extraction/s01/record.md`).
 
 Working rules for the room: Brandon decides, the facilitator never does. Options and defaults are starting points. This chunk will draw out things about how Brandon and Dominic argue; what he says about himself goes to his own document (1.1) and to `notes/`, not to the record. What he says about Dominic is not recorded anywhere except as a question for Dominic. Brain dumps go to `notes/YYYY-MM-DD-<topic>.md` in his words before they are funneled.
 

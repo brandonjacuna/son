@@ -1,6 +1,6 @@
 # 6.2 Foster relationships: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Conclusion, pp. 491 to 497. Full text: `extraction/build/s16/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Conclusion, pp. 491 to 497. Full text: `sources/extraction/build/s16/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Why relationships matter
 
@@ -39,4 +39,4 @@ Three principles for that work (pp. 495 to 498):
 - **Build the Camry, not the Escalade.** When a change is worth pushing even if the founders aren't sold, ask for the lightest version, and grow from there. Her own Stripe example: proposing an LMS and a CMS to Patrick Collison, who didn't know the acronyms and, more importantly, wanted to know why. Her mistakes were using acronyms instead of explaining the actual need (one place for training content, one place for company content), and proposing new tools instead of starting with what the team already used. They piloted with an existing document editor first and only adopted dedicated tools later, once the need for something more robust was clear. General rule: propose changes as a pilot, with what's changing, how success will be assessed, and when permanence will be decided.
 - **Understand what matters.** Work to understand founders' values the way you would a report's, including the trade-offs they're willing to make for something they value, for instance whether a commitment to polish is worth a delayed launch or a lost customer. If founders haven't written their values down, asking them to could be the start of the founding documents work in Chapter 2. Offsites and 1:1s both work for this.
 
-For the full text of this section, see `extraction/build/s16/book.md`.
+For the full text of this section, see `sources/extraction/build/s16/book.md`.

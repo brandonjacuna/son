@@ -21,4 +21,4 @@ Also done: 37 comments posted on 37 existing items (the ten carryovers routed he
 
 ## Next session
 
-Session 13, task `86ajgmjey`, Chapter 5, the formal review process and compensation, book pages 399 to 418. Designer and Realist. S12 page index at `extraction/s13/s12-page-index.md`.
+Session 13, task `86ajgmjey`, Chapter 5, the formal review process and compensation, book pages 399 to 418. Designer and Realist. S12 page index at `sources/extraction/s13/s12-page-index.md`.

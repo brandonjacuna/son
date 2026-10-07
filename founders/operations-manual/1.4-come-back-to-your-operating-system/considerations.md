@@ -1,6 +1,6 @@
 # 1.4 Come back to your operating system: considerations
 
-What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order, with the Introduction's two passages (core frameworks, the metronome) at the end. "WP p. N" is the white paper (`extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to.
+What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order, with the Introduction's two passages (core frameworks, the metronome) at the end. "WP p. N" is the white paper (`sources/extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to.
 
 ## 1. Two things called an operating system
 

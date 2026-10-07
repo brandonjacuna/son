@@ -7,7 +7,7 @@ All six definition-of-done conditions are met and were verified by the controlle
 | 1 | Deliverable is a page in the Operating System doc, marked | Page `2ky45bmy-31833`. Live page fetched and diffed against `output/s09/operating-system-page.md`: 28,360 words each, zero differences after normalizing ClickUp's markdown; 20 sections, P1 to P51 each once, rows 107 to 118, I1 to I18, findings 19.1 to 19.13 |
 | 2 | Recommended positions logged with reasoning | 51 positions: 44 recommended, 2 founder-gated, 2 chef-gated, 3 team-filled |
 | 3 | New carryovers filed and routed | 8 filed, `86akhpvhj` to `86akhpvvq`, one each to S10 to S17, each re-read with its link confirmed; local register updated |
-| 4 | Context ledger updated | Tracker page `2ky45bmy-30353`, 76,843 to 83,739 bytes live; diffed against `extraction/s09/tracker-after.md`, one difference (ClickUp's re-serialization of the bold on line 5, whose escape run is now gone). First action block now points to Session 10 |
+| 4 | Context ledger updated | Tracker page `2ky45bmy-30353`, 76,843 to 83,739 bytes live; diffed against `sources/extraction/s09/tracker-after.md`, one difference (ClickUp's re-serialization of the bold on line 5, whose escape run is now gone). First action block now points to Session 10 |
 | 5 | Session task marked complete | `86ajgmj07` status `complete`, confirmed by fetch |
 | 6 | Post-extraction work items created | 24 typed subtasks under `86akh1hdg`, 190 to 214, no duplicate names, every title, priority, and status re-read |
 
@@ -23,4 +23,4 @@ Also done: 23 Session 9 comments posted on existing items (the five carryovers r
 
 ## Next session
 
-Session 10, task `86ajgmj2u`, Chapter 4, creating the team environment, book pages 304 to 330. Designer plus Realist. Handoff at `extraction/s10/HANDOFF-from-s09.md`, S9 page index at `extraction/s10/s09-page-index.md`. Seven carryovers linked.
+Session 10, task `86ajgmj2u`, Chapter 4, creating the team environment, book pages 304 to 330. Designer plus Realist. Handoff at `sources/extraction/s10/HANDOFF-from-s09.md`, S9 page index at `sources/extraction/s10/s09-page-index.md`. Seven carryovers linked.

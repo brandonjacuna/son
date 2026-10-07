@@ -15,9 +15,9 @@ Also done: 56 comments on 56 existing items (the 22 carryovers routed here and 3
 
 ## Controller notes
 
-- ClickUp's MCP connector has a daily cap of 1,000 calls per workspace, and the close-out hit it partway through. The rest ran on ClickUp's REST API using Brandon's personal token in `~/.clickup_token` (mode 600). The REST API has no daily cap. The helper is `extraction/s13/cu.py`. Items created over REST show Brandon as their author.
-- The session task description and carryovers `86ajgmmkd` and `86ajgnhd1` state a revenue-share percentage and point to Airtable. The page used neither, and those descriptions are unchanged pending Brandon's call.
+- ClickUp's MCP connector has a daily cap of 1,000 calls per workspace, and the close-out hit it partway through. The rest ran on ClickUp's REST API using Brandon's personal token (CLICKUP_API_TOKEN in cloud sessions). The REST API has no daily cap. The helper is `sources/extraction/s13/cu.py`. Items created over REST show Brandon as their author.
+- The session task description and carryovers `86ajgmmkd` and `86ajgnhd1` state a revenue-share percentage and point to a retired data tool. The page used neither, and those descriptions are unchanged pending Brandon's call.
 
 ## Next session
 
-Session 14, task `86ajgmjk1`, Chapter 5, high, middle, and low performers. Book pages 419 to 448; the top of p.419 is Session 13's. Designer and Realist. Handoff at `extraction/s14/HANDOFF-from-s13.md`; S13 page index at `extraction/s14/s13-page-index.md`.
+Session 14, task `86ajgmjk1`, Chapter 5, high, middle, and low performers. Book pages 419 to 448; the top of p.419 is Session 13's. Designer and Realist. Handoff at `sources/extraction/s14/HANDOFF-from-s13.md`; S13 page index at `sources/extraction/s14/s13-page-index.md`.

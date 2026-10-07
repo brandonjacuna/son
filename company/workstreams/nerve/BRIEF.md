@@ -1,4 +1,4 @@
-# son-nerve: Build Brief for the Weekly Industry Digest
+# Nerve: Build Brief for the Weekly Industry Digest
 
 This brief carries every decision made in planning. Read it fully before writing code. Turn the standing rules and IDs into this repo's CLAUDE.md in the first session.
 
@@ -11,7 +11,7 @@ Sŏn is a Korean fine dining restaurant in build-out at 207 E St. Elmo Rd, Austi
 ## 2. Standing rules
 
 - **Free data only.** Paid services (Placer.ai, Advan, Second Measure, Black Box, Yelp paid tiers, CoStar, etc.) may be mentioned in an appendix but nothing depends on them.
-- **No Airtable.** We have moved off it.
+- **Figures.** Financial figures come only from the current Investor Review workbook in Box (Sŏn / 02. Capital Raise).
 - **Storage:** analytical store in this repo (DuckDB / Parquet), dated archives in Box, human layer in ClickUp.
 - **Out of scope:** the "Weekly Restaurant Tech Intelligence Digest" in ClickUp is a separate project. Do not read, modify, merge with, or plan around it.
 - **Legitimate access only.** Official APIs, open data portals, RSS, and official Claude connectors (Resy, Tripadvisor) at human scale. No scraping of Google, Yelp, OpenTable, or Resy. No community OpenTable MCP servers. Never store Google ratings or review counts as a time series (Google terms); store only place IDs.

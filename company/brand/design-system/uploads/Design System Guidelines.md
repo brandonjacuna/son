@@ -4,7 +4,7 @@
 # 207 E St. Elmo Rd, Austin, Texas 78745
 # Brand Guidelines v1.0 (updated) + Section 14 Deck Governing Principles
 # Version: 3.0
-# This file governs all AI-assisted design for the Sŏn brand and experiential guidelines deck.
+# This file governs all AI-assisted design for the Sŏn brand guidelines deck.
 
 brand:
   name: "Sŏn"

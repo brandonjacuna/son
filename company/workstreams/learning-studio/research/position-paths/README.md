@@ -1,6 +1,6 @@
 # Position paths: the overview (working draft, 2026-10-01)
 
-Status: the first thing to read in this folder. Nothing here is decided until Brandon signs the spine. Every hour is a design estimate (40 paid hours a week, no overtime). Every tool step is a `tool.*` binding, every figure a `fact.*` binding, every house convention not yet set a `workflow.*` binding. Box canon is cited by label (WP = white paper, file `2466517057642`; BG = Brand and Experiential Guidelines, file `2281626080747`) and never restated. No ClickUp document was read.
+Status: the first thing to read in this folder. Nothing here is decided until Brandon signs the spine. Every hour is a design estimate (40 paid hours a week, no overtime). Every tool step is a `tool.*` binding, every figure a `fact.*` binding, every house convention not yet set a `workflow.*` binding. Box canon is cited by label (WP = white paper, file `2466517057642`; BG = Brand Guidelines (canon line pending phase 1 session B), file `2281626080747`) and never restated. No ClickUp document was read.
 
 ## 1. What this is and how to read the folder
 

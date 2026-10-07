@@ -1,6 +1,6 @@
 # 2.3 Operating cadence: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 2, pp. 135 to 143, with the chapter's quarterly business review guidelines and outline at pp. 156 to 165. Full text: `extraction/build/s04/book.md` and `extraction/build/s04/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 2, pp. 135 to 143, with the chapter's quarterly business review guidelines and outline at pp. 156 to 165. Full text: `sources/extraction/build/s04/book.md` and `sources/extraction/build/s04/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Where this section sits
 

@@ -95,5 +95,5 @@ All on corrected tokens, all with `.d.ts` contract + `.prompt.md` + `@dsCard` sh
 
 1. **Menu voice** — the flagged readme decision (keep preparation-as-decision vs. the plainer live-site register).
 2. **Sandoll Myeongjo** — upload the web files when licensed; the stack and sidebar banner are ready for them.
-3. **Stale `2,310 SF`** — removed everywhere; true figures stay in Airtable/the briefing.
+3. **Stale `2,310 SF`** — removed everywhere; true figures stay in the Investor Review workbook in Box (Sŏn / 02. Capital Raise).
 4. The compiler suggests converting the two ui-kit `@startingPoint` screens into `templates/` — say the word and I'll convert them.

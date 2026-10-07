@@ -1,6 +1,6 @@
 # 5.5 Compensation: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 413 to 418, with the chapter's appendix guide at pp. 471 to 473 and workbook pages. Full text: `extraction/build/s13/book.md`, exercises at `extraction/build/s13/exercises.md`. This file is a quick reference; nothing here is about Sŏn. No financial figures appear here; where the book describes compensation mechanics, this file describes them in words.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 413 to 418, with the chapter's appendix guide at pp. 471 to 473 and workbook pages. Full text: `sources/extraction/build/s13/book.md`, exercises at `sources/extraction/build/s13/exercises.md`. This file is a quick reference; nothing here is about Sŏn. No financial figures appear here; where the book describes compensation mechanics, this file describes them in words.
 
 ## A minimum compensation philosophy
 
@@ -32,4 +32,4 @@ When there is no compensation change, the conversation still matters. Remind the
 
 **Compensation conversations preparation and guide (pp. 471 to 473).** A worksheet for preparing a compensation conversation: note the company timeline and links to compensation program resources; confirm you can explain the philosophy; prepare at the individual level by considering each person's career stage, date of last uplevel, and size of their last increase, and by anticipating whether the outcome will meet, exceed, or fall short of their expectations; and prepare to own the message, whether celebrating a promotion or increase (without setting an expectation of the same increase every cycle) or handling a misalignment of expectations with empathy, without apologizing for or promising a specific future outcome. The outline for the discussion itself: check the person's understanding of the philosophy and answer questions; describe the outcome, affirming base salary and, if applicable, target bonus, with context tied to performance either way; then open the floor for questions and reinforce the person's contributions.
 
-For the full text, see `extraction/build/s13/book.md`.
+For the full text, see `sources/extraction/build/s13/book.md`.

@@ -816,7 +816,9 @@ Sessions 1 and 2 each found conflicts in the record by reading it in full. This 
 
 The record: "Five layers. The stack is roughly four dozen bought tools across ten categories... The data layer is Airtable as the hub for everything that is not CRM, with SevenRooms as the customer identity spine underneath and Hang as the loyalty and customer-data engine on top of it. The mesh is the connections between tools, some native, some built. The AI layer is Claude reading across the hub, producing the custom read on top of the data, the pattern nobody asked it to find. The OS surface is the home where the software agents live, each view sourced from several systems plus camera AI, updating live" (WP p.21).
 
-This program's source boundary states that Airtable is "no longer in use for any purpose." The profile for this seat, written before the current boundary, instructs it to pull every count "from Airtable, never from memory."
+(Airtable is retired; financial figures come only from the Investor Review workbook.)
+
+This program's source boundary states that the hub tool is no longer in use. The profile for this seat, written before the current boundary, instructs it to pull every count from that tool, never from memory.
 
 The discrepancy: the record names a specific tool as the hub for everything that is not customer data, and the program's own boundary says the tool is out of use. The hub is load-bearing for this page. The metric layer (section 8) runs on data the hub holds; the shift close, the feedback channel's sync to "the execution system," the alert register, and the readiness test's row 15 all assume a hub exists and is running. If the hub has changed, the record's stack description is stale at its center, and the AI layer's description ("reading across the hub") is stale with it. If the hub has not changed, the program's boundary is wrong about the business. Either is possible from where this page sits. The page names the discrepancy and does not resolve it, because the stack is Dominic's domain outright.
 

@@ -1,4 +1,4 @@
-Paste everything below the line into the first Claude Code session that has the build-out files in place (cloud is fine). Paths are relative to the build-out root: the repo root for a standalone son-build repo, `company/workstreams/build-out/` in the unified son repo.
+Paste everything below the line into the first Claude Code session that has the build-out files in place (cloud is fine). Paths are relative to the build-out root, `company/workstreams/build-out/`.
 
 ---
 
@@ -18,7 +18,7 @@ Do these in order. Stop and ask me (one AskUserQuestion at a time, each with eno
    - 2ky45bmy-27613 electrical, low-voltage, tunable lighting, audio
    - 2ky45bmy-27633 outdoor BBQ pit compliance and operations
    - 2ky45bmy-27653 bar millwork, masonry, budget
-   Never read or import the "Event Co" section of that doc (parent page 2ky45bmy-28253) or the profile pages.
+   Import only the pages listed above. Read no other page of that doc.
    For each page: save a paraphrased note to `research/raw/YYYY-MM-DD-<slug>.md` with a source line (doc and page ID). Use neutral file names and titles with no cuisine or cultural descriptors. Keep code and technical facts; drop cultural framing. Do not carry any dollar figures: replace them with "[figure removed: budget numbers come only from the current Investor Review workbook]". Then run the `consolidate` skill to create the first `kb/` files. Flag anything that conflicts with `codes/register.yaml` (Austin uses UPC/UMC, not IPC/IMC; Austin adopted the 2024 codes effective July 10, 2025, so older guides may cite superseded editions).
 5. **Box folder.** Using the Box connector, check `Sŏn / 04. Property and Build-Out` (folder 420132927884). Propose the subfolder structure from `decisions/open.md` #2 and ask me before creating anything.
 6. **First real work.** Start a sandbox with `/sandbox bar-concept`. Read `kb/bar/tobin-ellis/` first. Then run the `interview` skill to capture my bar equipment list and how I want the front bar and back bar laid out. After the interview, create `equipment/*.yaml` records for each item using the `equipment-record` skill, starting with the ones I mark as locked in. Score the concept against `kb/bar/tobin-ellis/son-bar-review-checklist.md`.

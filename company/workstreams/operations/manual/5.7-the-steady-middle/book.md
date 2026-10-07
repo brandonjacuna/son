@@ -1,6 +1,6 @@
 # 5.7 The steady middle: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, p. 431. This file is a quick reference; nothing here is about Sŏn. Full text: `extraction/build/s14/book.md`.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, p. 431. This file is a quick reference; nothing here is about Sŏn. Full text: `sources/extraction/build/s14/book.md`.
 
 ## Medium performers are a real category, not a phase
 

@@ -7,7 +7,7 @@ Governs: D52 to D61, carrying D5, D8, D10, D11, D20, D25, D39 to D41, D44, D46 t
 How to read it:
 - Hours are design estimates (40 paid hours a week, no overtime). They match the spine; where a module's hours differ from the spine, the difference is named.
 - "Remote" means remote and paid. "On site" means on the clock (D41). Every drill is on site.
-- Canon is cited by label (WP = white paper, Box `2466517057642`; BG = Brand and Experiential Guidelines, Box `2281626080747`) from the 2026-09-28 full read, never restated. Re-read the cited section in Box before a lesson is drafted.
+- Canon is cited by label (WP = white paper, Box `2466517057642`; BG = Brand Guidelines (canon line pending phase 1 session B), Box `2281626080747`) from the 2026-09-28 full read, never restated. Re-read the cited section in Box before a lesson is drafted.
 - Every tool step is `tool.*`, every house convention not yet set is `workflow.*` (D48), every range or figure is `fact.*`, every holder is `people.*`, every chef call is `chef.*`, every founder call is `founder.*`.
 - External claims carry a mark: verified-primary, verified-secondary, lead-only or unverified. Marks carried from the discovery inventory or the spine are marked "carried".
 - Positions: H host, LH lead host, FR food runner, BW back waiter, FS front server, LFR lead food runner, LS lead server, MD Maître d', OM operations manager; BB barback, BA barista, BT bartender, LB lead bartender, HB head of beverage; K kitchen. CF = customer-facing.
@@ -291,7 +291,7 @@ How to read it:
 - What the person can do afterward: in four scenarios at their level, choose a make-good that fits the loss, stay inside range, and close the loop.
 - How it is proven: a spoken check of four scenarios, then a recovery case inside the position's practical. Test-out: prove-first; an experienced hire reads the ranges and triggers and takes the four scenarios cold (for an external FS, banked inside the FS mock service, see SVC-078). The safety-miss scenario (an allergen reached the table) is in every attempt and never tests out.
 - Time and place: FR 0.5 h, BW 0.5 h, FS 2 h, LS 1 h, MD 1.5 h; on site.
-- Waits on: `fact.recovery_range.*` (Airtable); `people.*` holders; `workflow.recovery_owner`; Brandon interview (how he chooses a recovery).
+- Waits on: `fact.recovery_range.*` (unbound until a source is chosen (Airtable retired)); `people.*` holders; `workflow.recovery_owner`; Brandon interview (how he chooses a recovery).
 - Absorbs: SVC-002, SVC-048.
 
 ---

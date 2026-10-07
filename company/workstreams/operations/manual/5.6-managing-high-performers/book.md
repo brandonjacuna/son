@@ -1,6 +1,6 @@
 # 5.6 Managing high performers: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 419 to 430. This file is a quick reference; nothing here is about Sŏn. Full text: `extraction/build/s14/book.md`.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 419 to 430. This file is a quick reference; nothing here is about Sŏn. Full text: `sources/extraction/build/s14/book.md`.
 
 ## Why high performers take more energy
 

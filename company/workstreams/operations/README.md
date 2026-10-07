@@ -106,8 +106,8 @@ Any chunk can be opened at any time. This default follows the dependencies: each
 |---|---|
 | `sources/` | The book and workbook PDFs, and the Sŏn investor white paper (September 2026), the only Sŏn context. Brand material is excluded and gitignored. |
 | `profiles/` | Reasoning lenses (people and culture, learning and development, founder development). Never authorities. |
-| `extraction/` | The prior extraction program's output and the build pipeline that turned it into the manual (`extraction/build/`, including the handoff and the cross-chunk pass). |
-| `archive/` | A verbatim export of the old ClickUp material, and the extraction program's original instructions. |
+| `sources/extraction/` | The prior extraction program's output and the build pipeline that turned it into the manual (`sources/extraction/build/`, including the handoff and the cross-chunk pass). |
+| `archive/` | Removed 2026-10-07; in git history (`git show 644c585:company/workstreams/operations/archive/<path>`). Cited extraction files are in `sources/extraction/`. |
 
 ## Writing rules
 

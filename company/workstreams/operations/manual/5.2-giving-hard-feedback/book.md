@@ -1,6 +1,6 @@
 # 5.2 Giving hard feedback: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 391 to 394. Full text: `extraction/build/s12/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 391 to 394. Full text: `sources/extraction/build/s12/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Where this sits
 
@@ -36,6 +36,6 @@ If the person isn't self-aware and more data doesn't close that gap, a change ma
 
 ## Exercises
 
-No standalone exercise or template in the book's Chapter 5 appendix (pp. 467 to 482) is specific to this conversation technique; the appendix's templates (performance review, compensation conversations, performance improvement documentation, PIP, managing-out checklist) serve the more formal, documented stages of performance management that follow when informal feedback like this doesn't resolve the issue. Full text of that appendix: `extraction/build/s12/exercises.md`.
+No standalone exercise or template in the book's Chapter 5 appendix (pp. 467 to 482) is specific to this conversation technique; the appendix's templates (performance review, compensation conversations, performance improvement documentation, PIP, managing-out checklist) serve the more formal, documented stages of performance management that follow when informal feedback like this doesn't resolve the issue. Full text of that appendix: `sources/extraction/build/s12/exercises.md`.
 
-For the complete source text, see `extraction/build/s12/book.md`.
+For the complete source text, see `sources/extraction/build/s12/book.md`.

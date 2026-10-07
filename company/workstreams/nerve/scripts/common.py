@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 CONFIG_DIR = ROOT / "config"
 
-USER_AGENT = "son-nerve/0.1 (Austin hospitality research; human-scale use)"
+USER_AGENT = "son-digest/0.1 (Austin hospitality research; human-scale use)"
 TIMEOUT = 60
 
 load_dotenv(ROOT / ".env")

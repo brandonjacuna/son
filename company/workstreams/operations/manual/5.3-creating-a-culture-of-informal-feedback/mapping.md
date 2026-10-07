@@ -1,6 +1,6 @@
 # 5.3 Creating a culture of informal feedback: the fate of every old item
 
-Source: `extraction/build/s12/old-items.md` (27 items owned by run s12 across 5.1, 5.2, and 5.3, plus 1 routed in from 2.1) and the S12 page at `extraction/build/s12/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Items the run owns appear in exactly one of the three mappings; this file holds the ones whose main home is 5.3. The items routed to later chunks are in 5.1's mapping.
+Source: `sources/extraction/build/s12/old-items.md` (27 items owned by run s12 across 5.1, 5.2, and 5.3, plus 1 routed in from 2.1) and the S12 page at `sources/extraction/build/s12/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Items the run owns appear in exactly one of the three mappings; this file holds the ones whose main home is 5.3. The items routed to later chunks are in 5.1's mapping.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

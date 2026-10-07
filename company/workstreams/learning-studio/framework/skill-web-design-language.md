@@ -1,5 +1,7 @@
 # Skill web design language and constraints
 
+Sources: the values below were cited to the Brand and Experiential Guidelines PDF, which is now a reference file only. They stand until phase 1 session B sets the brand canon line, then get re-sourced.
+
 The visual system and structure of Sŏn's training program map: the one sky that every surface of the skill web is drawn from. It is written so the live personal page, the phone view, the back-of-house wall map, print, and any brief to an AI design tool can be generated consistently from it, and so a new module can be placed on the map without a redesign.
 
 **Status.** Proposed, 2026-09-28. Written from `framework/system-design.md` (D3, D10, D12, D28 to D31), `research/phase2-working/11-game-skill-trees.md`, intake group 2, Brandon's feedback on the first generated concept, the Brand and Experiential Guidelines v3.0 (Box `2281626080747`, the canonical PDF per D26), and the judgment of the Design Director, Web and UI Specialist, Brand Identity Specialist, Editorial and Layout Specialist, and Design Brief Translator seats. Every value marked **proposed** waits on Brandon (section 12). Where this file and `system-design.md` disagree, `system-design.md` wins.

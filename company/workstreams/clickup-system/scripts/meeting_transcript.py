@@ -7,9 +7,8 @@ Left channel = TX1 = Brandon, right channel = TX2 = Dominic (override with --spe
     python3 scripts/meeting_transcript.py recording.m4a --task 86akk2ebn
     python3 scripts/meeting_transcript.py recording.m4a --dry-run
 
-Tokens come from the macOS Keychain and are never printed:
-    security add-generic-password -a son -s assemblyai-api-token -U -w
-    security add-generic-password -a son -s clickup-api-token -U -w
+Tokens come from the CLICKUP_API_TOKEN and ASSEMBLYAI_API_KEY environment variables (or the
+local secret store on a Mac) and are never printed.
 """
 import argparse, datetime, json, os, subprocess, sys, time, urllib.request, urllib.error
 
@@ -24,6 +23,9 @@ AAI = "https://api.assemblyai.com/v2"
 
 
 def key(service):
+    env = os.environ.get("ASSEMBLYAI_API_KEY", "").strip()
+    if env:
+        return env
     return subprocess.run(["security", "find-generic-password", "-s", service, "-w"],
                           capture_output=True, text=True, check=True).stdout.strip()
 

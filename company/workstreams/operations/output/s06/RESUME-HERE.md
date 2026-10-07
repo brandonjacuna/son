@@ -59,4 +59,4 @@ The four scorecard dimensions in P33, section 6.2, are Session 13's inheritance 
 
 Session 7, task `86ajgmhrz`, Chapter 3 Onboarding plus the Chapter 3 exercises, book pages 216 to 260. Inbound carryovers include `86akh9tap` (canon's felt-knowledge requirement against the menu's timing) and S5's working-with-me item `86ajgnj8t`.
 
-**Cost note for S7.** S6's Fable spend was 509k tokens, roughly five sixths of it the read-in rather than the writing. Sŏn's record must still be read broadly; the prior session's page need not be. Hand S7 `extraction/s05/positions-index.md`-style index plus the S6 sections it runs into, rather than all 298 KB.
+**Cost note for S7.** S6's Fable spend was 509k tokens, roughly five sixths of it the read-in rather than the writing. Sŏn's record must still be read broadly; the prior session's page need not be. Hand S7 `sources/extraction/s05/positions-index.md`-style index plus the S6 sections it runs into, rather than all 298 KB.

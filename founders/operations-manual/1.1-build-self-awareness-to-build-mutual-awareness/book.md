@@ -1,6 +1,6 @@
 # 1.1 Build self-awareness to build mutual awareness: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 1, pp. 35 to 51, with related self-awareness exercises at pp. 63 to 68 (workbook). Full text: `extraction/build/s01/book.md`, `extraction/build/s01/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 1, pp. 35 to 51, with related self-awareness exercises at pp. 63 to 68 (workbook). Full text: `sources/extraction/build/s01/book.md`, `sources/extraction/build/s01/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Where this sits
 
@@ -91,4 +91,4 @@ If any of these apply, she points to two other exercises in the book that build 
 
 **Identify your strengths (pp. 67 to 68).** List your strengths, then classify each as an innate or acquired skill, and an innate or acquired capability, following her "communication" worked example.
 
-For the full text of this chunk's pages, see `extraction/build/s01/book.md` and `extraction/build/s01/exercises.md`.
+For the full text of this chunk's pages, see `sources/extraction/build/s01/book.md` and `sources/extraction/build/s01/exercises.md`.

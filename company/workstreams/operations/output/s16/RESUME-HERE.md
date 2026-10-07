@@ -34,4 +34,4 @@ ClickUp renders a markdown ordered list starting at 26 as 1 to 6. The counsel qu
 
 ## Next session
 
-Session 17, task `86ajgmk27`: assembly and the company wiki. **It is gated on the document methodology (`86ajgn2z5`).** The handoff is at `extraction/s17/HANDOFF-from-s16.md` and the S16 page index is at `extraction/s17/s16-page-index.md`.
+Session 17, task `86ajgmk27`: assembly and the company wiki. **It is gated on the document methodology (`86ajgn2z5`).** The handoff is at `sources/extraction/s17/HANDOFF-from-s16.md` and the S16 page index is at `sources/extraction/s17/s16-page-index.md`.

@@ -91,7 +91,7 @@
 - **#11:** attorney review items have no Owner; the reviewer goes in Owner Notes. No guest invite.
 - **#12:** delete the stray "Solution" field (copy any value into the description first).
 - **#13:** Brandon confirms the function-area groupings once the export exists. The sign-off-before-removal gate still applies from the earlier lossless decision. Duplicate merges happen AFTER the Doc replaces the tasks (not selected; safest default, flagged to Brandon).
-- **#14:** Brandon doesn't recognize the Claude-folder loose items (Josephine, "(Temporary)", "Investment Thesis Architect"). Leave them untouched and list them as unfiled; they're likely to be removed later. Brandon decides.
+- **#14:** Brandon doesn't recognize the Claude-folder loose items ("(Temporary)", "Investment Thesis Architect", and one out-of-scope page). Leave them untouched and list them as unfiled; they're likely to be removed later. Brandon decides.
 - **#16:** delete "Notes from BJAC" only after the SaaS export sign-off (values migrate to Owner Notes first).
 - **#17:** delete old fields (Project, Category + Notes on Capture lists, Department Crossover) after a zero-value check. Report any field that has data before deleting it.
 - **#19:** Location is read-only from Google Calendar. Lock the field if ClickUp allows it; otherwise it's a convention.

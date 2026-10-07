@@ -1,6 +1,6 @@
 # 4.2 Diagnosing team state: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 282 to 285. Full text: `extraction/build/s09/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 282 to 285. Full text: `sources/extraction/build/s09/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Start with the starting point
 
@@ -33,4 +33,4 @@ High skill and high will is what a manager wants: the goal is to get people ther
 
 ## Full text
 
-See `extraction/build/s09/book.md` for the verbatim source pages.
+See `sources/extraction/build/s09/book.md` for the verbatim source pages.

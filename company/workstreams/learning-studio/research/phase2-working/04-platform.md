@@ -7,7 +7,7 @@ Researched 2026-09-28. Status key: **VP** is verified-primary (Trainual's own he
 ## Sŏn canon located in Box (for citation only, not read or restated here)
 
 - **White paper, in 00. Pitch Materials** (folder `388972799337`), subfolder White Paper (`382453064958`). It holds one file: **"Sŏn Investor White Paper Sept 2026.pdf", file `2466517057642`** (modified 2026-09-14). A separate "03. Sŏn Investor Diligence White Paper .pdf" also exists as `2468627027608` and `2468611194511`, both outside Pitch Materials. Brandon should confirm which one is canonical.
-- **Brand Guidelines:** "Brand and Experiential Guidelines PDF", **file `2281626080747`**, in `Sŏn / 10. AI Projects / Design` (folder `388972616815`, modified 2026-06-12). Markdown copies named "Son Brand Guidelines v1 (1).md" sit in design-system version folders (`2281555280952` v1.0, `2356714319901` v2, `2356731001214` v2.1). Folder `05. Brand and Creative` (`420132086334`) holds only "Identity and Design Assets".
+- **Brand Guidelines:** "Brand Guidelines (canon line pending phase 1 session B) PDF", **file `2281626080747`**, in `Sŏn / 10. AI Projects / Design` (folder `388972616815`, modified 2026-06-12). Markdown copies named "Son Brand Guidelines v1 (1).md" sit in design-system version folders (`2281555280952` v1.0, `2356714319901` v2, `2356731001214` v2.1). Folder `05. Brand and Creative` (`420132086334`) holds only "Identity and Design Assets".
 - **Conflict to resolve:** CLAUDE.md and `canon/pointers.md` name the ClickUp doc `2ky45bmy-15773` as canonical Brand Guidelines. This task allows Box only. `canon/pointers.md` needs Box rows for both files once Brandon names the canonical versions.
 - Nothing below restates canon. This question does not need it.
 

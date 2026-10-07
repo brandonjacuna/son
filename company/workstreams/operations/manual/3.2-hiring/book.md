@@ -1,6 +1,6 @@
 # 3.2 Hiring: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 193 to 215, with the chapter's exercises and templates at pp. 228 to 259. Full text: `extraction/build/s06/book.md`, exercises at `extraction/build/s06/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 193 to 215, with the chapter's exercises and templates at pp. 228 to 259. Full text: `sources/extraction/build/s06/book.md`, exercises at `sources/extraction/build/s06/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## A set process, well explained
 
@@ -95,7 +95,7 @@ Higher stakes, more time, and trickier references, since a leadership candidate 
 
 ## Exercises and templates (pp. 228 to 259)
 
-Full text at `extraction/build/s06/exercises.md`. All are Stripe-specific worked examples meant to be adapted, not copied.
+Full text at `sources/extraction/build/s06/exercises.md`. All are Stripe-specific worked examples meant to be adapted, not copied.
 
 - **Interview framework and rubric, recruiting-for-recruiters example (pp. 229 to 245).** A full worked interview loop for an L2+ recruiter role: competencies assessed (collaboration, conscientiousness, willingness to be wrong, intrinsic motivation, structured thinking, resilience, accountability), a recruiter screen, a team screen paired with a written project, and four onsite interviews, each with sample questions, follow-up probes, and a poor/good/strong (or poor/weak/good/strong) rubric.
 - **Sample interview questions (pp. 246 to 248).** Organized by working with others, getting work done, personal motivation, and leadership, each with what the answer is meant to reveal.
@@ -105,4 +105,4 @@ Full text at `extraction/build/s06/exercises.md`. All are Stripe-specific worked
 - **Working with Claire, an example, and the Working with Me template (pp. 253 to 257).** Her own worked example covering operating approach, management style, communication norms, and a blank template with the same headings: my role, about me, operating approach, management style, supporting you and your team.
 - **New Leader Experience, NLE (pp. 257 to 259).** Stripe's structured leadership onboarding program: welcome emails, prescheduled meetings, a leadership assessment (Hogan Personality Inventory), six months of coaching, first-month actions, and a 90-day 360 review. A week-by-week table names who (recruiter, onboarding point person, hiring manager, people partner, coach) does what, from offer acceptance through the three-month mark.
 
-For the full text of every page and exercise, see `extraction/build/s06/book.md` and `extraction/build/s06/exercises.md`.
+For the full text of every page and exercise, see `sources/extraction/build/s06/book.md` and `sources/extraction/build/s06/exercises.md`.

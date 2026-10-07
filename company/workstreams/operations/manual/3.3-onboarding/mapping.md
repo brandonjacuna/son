@@ -1,6 +1,6 @@
 # 3.3 Onboarding: the fate of every old item
 
-Source: `extraction/build/s07/old-items.md` and digest Part 2 (39 items owned by this run, plus 86akh9tay, which was received from 2.1 and is already mapped in 3.1's mapping; it is not repeated here). The S7 page is `extraction/build/s07/old-page.md`. The originals remain verbatim in `archive/clickup-export-2026-09-26/`. New task numbers refer to `tasks.md` in this folder unless another chunk is named. Chunk 3.4 owns no old items; every item from the S7 run is in this file.
+Source: `sources/extraction/build/s07/old-items.md` and digest Part 2 (39 items owned by this run, plus 86akh9tay, which was received from 2.1 and is already mapped in 3.1's mapping; it is not repeated here). The S7 page is `sources/extraction/build/s07/old-page.md`. The originals remain verbatim in `archive/clickup-export-2026-09-26/`. New task numbers refer to `tasks.md` in this folder unless another chunk is named. Chunk 3.4 owns no old items; every item from the S7 run is in this file.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

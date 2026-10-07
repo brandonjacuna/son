@@ -98,8 +98,8 @@ Some deliverables get produced again by other people: personal documents such as
 |---|---|
 | `sources/scaling-people-book.pdf` | The manual. Read by page range. Use PyMuPDF (fitz), not pypdf: pypdf silently corrupts ligatures in this file. |
 | `sources/scaling-people-workbook.pdf` | The book's exercises and templates. |
-| `sources/son-investor-white-paper-sept-2026.pdf`, the Sŏn investor white paper, September 2026, from Box `00. Pitch Materials / White Paper` (full text in `extraction/s01/record.md`, identical apart from the cover line) | **The only Sŏn context.** Source of default assumptions. Read broadly for any chunk; don't guess which paragraph matters. |
-| `extraction/` and `archive/clickup-export-2026-09-26/` | The prior extraction and synthesis. Treat it as seriously as the book: keep what serves the build, rewrite verdicts as options, drop what's brand-dependent or program machinery. |
+| `sources/son-investor-white-paper-sept-2026.pdf`, the Sŏn investor white paper, September 2026, from Box `00. Pitch Materials / White Paper` (full text in `sources/extraction/s01/record.md`, identical apart from the cover line) | **The only Sŏn context.** Source of default assumptions. Read broadly for any chunk; don't guess which paragraph matters. |
+| `sources/extraction/` and `archive/clickup-export-2026-09-26/` (the archive is in git history only; see History) | The prior extraction and synthesis. Treat it as seriously as the book: keep what serves the build, rewrite verdicts as options, drop what's brand-dependent or program machinery. |
 | `profiles/` | Reasoning lenses for considerations. Never authorities. |
 
 ### Profiles
@@ -120,10 +120,9 @@ After they're copied, work from the repo copies. Once in the repo, the Founder D
 
 ### Excluded (hard boundary)
 
-- `sources/brand-guidelines.md` and `sources/brand-guidelines-deck.pdf`, and their copies in `extraction/s02/deck.md` and `extraction/s05/brand-deck.txt`. These are startup-phase pre-work; there is no property yet. They are gitignored.
+- `sources/brand-guidelines.md` and `sources/brand-guidelines-deck.pdf`, and their copies in `sources/extraction/s02/deck.md` and `sources/extraction/s05/brand-deck.txt`. These are startup-phase pre-work; there is no property yet. They are gitignored.
 - Business Strategies Notebook (ClickUp `2ky45bmy-11873`), all versions.
 - ClickUp Brand Guidelines doc (`2ky45bmy-15773`) and Research Capture doc (`2ky45bmy-16853`).
-- Airtable.
 - Any other white paper version.
 - Box, except the three profile folders above and the white paper named above: in particular Voice, Design Translating Team, Narrative and Structure, and Investment.
 - Financial figures of any kind. If one is needed, say financials aren't a source for this work.
@@ -161,7 +160,7 @@ Fable is for synthesis and thinking only. Everything else goes to Opus, Sonnet, 
 
 ### Per chunk
 
-1. Gather the chunk's inputs into `extraction/chunk-<section>/`: book pages, workbook pages, the old session page section(s), and the old ClickUp items that touch it, from the archive export.
+1. Gather the chunk's inputs into `sources/extraction/chunk-<section>/`: book pages, workbook pages, the old session page section(s), and the old ClickUp items that touch it, from the archive export.
 2. Write a brief and run Fable. It writes `book.md`, `considerations.md`, `tasks.md`, `mapping.md`, and `session.md`, and seeds an empty `decisions.md`.
 3. Verify: every old item appears in `mapping.md`, and no brand material or retired marks remain.
 4. Commit and push. The chunk is now ready for its working session (see "Working sessions").
@@ -171,18 +170,18 @@ The pilot is `2.1 Founding documents`. Its reviewed output sets the pattern for 
 
 ### ClickUp mechanics
 
-- Use REST through `extraction/s13/cu.py` (token in `~/.clickup_token`) for bulk work. The MCP connector caps at 1,000 calls a day.
-- A page replace can return a 500 error yet still apply, truncating the page. After any error, re-read the page before retrying. `extraction/s17/restore.py` is the pattern.
+- Use REST through `sources/extraction/s13/cu.py` (token in the CLICKUP_API_TOKEN environment variable; cloud sessions can also use the ClickUp connector) for bulk work. The MCP connector caps at 1,000 calls a day.
+- A page replace can return a 500 error yet still apply, truncating the page. After any error, re-read the page before retrying. `sources/extraction/s17/restore.py` is the pattern.
 - Never retype long content into ClickUp. Pass files and verify.
 - Old ClickUp items are deleted or archived only after their fate is mapped and Brandon approves.
 
 ### Working from anywhere
 
-The repo is the whole context. Claude's memory files live only on Brandon's Mac, so any rule a session needs is in this file. In a cloud session:
-- ClickUp goes through the ClickUp connector, not the REST token (which exists only on the Mac). Working sessions need only a few calls: a comment and a status change per decision.
+The repo is the whole context, so any rule a session needs is in this file or the root CLAUDE.md. In a cloud session:
+- ClickUp goes through the ClickUp connector, or the REST script with CLICKUP_API_TOKEN for bulk work. Working sessions need only a few calls: a comment and a status change per decision.
 - The ClickUp status for finished work is `done`. A "clickup needs auth" notice may refer to an unused server; the ClickUp connector itself works.
 - Box isn't needed. Profiles and the white paper are in the repo.
-- Commit and push at the close of every session, so the next device picks up where this one left off.
+- Close every session with the root CLAUDE.md session-close procedure (merge the session branch into main), so the next session picks up where this one left off.
 
 ### Retiring the extraction machinery
 
@@ -195,10 +194,10 @@ The context ledger is retired. State lives in the repo: `RECONSIDERATION-PLAN.md
 
 ### Git
 
-- Repo: `brandonjacuna/son-operational-buildout` (private).
-- Commit and push after each meaningful step, so work continues from any device.
+- Repo: `son` (private). This workstream lives at `company/workstreams/operations`.
+- Commit after each meaningful step. At session close, follow the root CLAUDE.md session-close procedure (merge the session branch into main and push).
 - Never commit the excluded brand files or any token.
 
 ## History
 
-The extraction program's original instructions are preserved at `archive/CLAUDE-extraction-program.md`. They describe how the prior work was produced, not how this project runs.
+On 2026-10-07 (phase 1 cleanup) `archive/` and the uncited parts of `extraction/` were removed from the working tree; the cited extraction files moved to `sources/extraction/`. Any `archive/...` path cited in this workstream is recoverable with `git show 644c585:company/workstreams/operations/<path>`. The extraction program's original instructions were at `archive/CLAUDE-extraction-program.md`. They describe how the prior work was produced, not how this project runs.

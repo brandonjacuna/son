@@ -4,7 +4,7 @@ This is the build-out workspace of Brandon John Acuña-Cardona, operator and PM 
 
 Brandon is not a licensed design professional. Everything produced here is **design intent**. Stamped permit drawings come from a licensed architect and MEP engineer.
 
-Paths in this file are relative to the build-out root: the repo root in the standalone son-build repo, `company/workstreams/build-out/` in the unified son repo. `.claude/` always sits at the repo root.
+Paths in this file are relative to the build-out root, `company/workstreams/build-out/` in the son repo. `.claude/` sits at the repo root.
 
 ## 1. Phase rule (read PHASE.yaml first, every session)
 - The current phase lives in `PHASE.yaml`. Hooks enforce it; do not try to work around them.

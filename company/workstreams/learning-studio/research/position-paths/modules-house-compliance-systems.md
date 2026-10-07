@@ -1,6 +1,6 @@
 # Modules: the house, systems and technology, compliance (working draft, 2026-10-01)
 
-Writer 1's areas of the spine (`research/position-paths/spine.md`, sections 5.1, 5.8 and 5.9). Nothing here is decided until Brandon signs the spine. Position abbreviations, groups (All, CF, Floor, Bar, K) and the R/O marks follow the spine. Hours are design estimates inside 40-hour paid weeks with no overtime. Every tool name is a candidate and every tool step is a `tool.*` binding; every figure is a `fact.*` binding. Box canon is cited by label: the white paper (WP, file `2466517057642`) and the Brand and Experiential Guidelines (BG, file `2281626080747`), as the 2026-10-01 position drafts read them; re-read each cited page in Box before drafting a lesson. No ClickUp document was read.
+Writer 1's areas of the spine (`research/position-paths/spine.md`, sections 5.1, 5.8 and 5.9). Nothing here is decided until Brandon signs the spine. Position abbreviations, groups (All, CF, Floor, Bar, K) and the R/O marks follow the spine. Hours are design estimates inside 40-hour paid weeks with no overtime. Every tool name is a candidate and every tool step is a `tool.*` binding; every figure is a `fact.*` binding. Box canon is cited by label: the white paper (WP, file `2466517057642`) and the Brand Guidelines (canon line pending phase 1 session B) (BG, file `2281626080747`), as the 2026-10-01 position drafts read them; re-read each cited page in Box before drafting a lesson. No ClickUp document was read.
 
 ---
 
@@ -667,13 +667,13 @@ Every tool name is a candidate from Sŏn's archived SaaS catalog (lead-only), ex
 - What it teaches:
   - The reports: reservation search by date and tag; arrivals per interval against pacing (did the pacing hold?); no-shows, late cancellations and walk-ins over time; first visits against returning visits; feedback and surveys; spend from the POS (one-way with Toast, verified-secondary).
   - Customer recognition rate as a leading indicator: how often a returning customer is recognized and served as known on a return visit, counted from the book (WP Part II, cited; definition wording to confirm in Box, see ORI-023).
-  - Every figure pulled live or from Airtable, never typed from memory (`fact.*`).
+  - Every figure pulled live or from its bound source, never typed from memory (`fact.*`).
   - Turning a read into one decision: a pacing change, a policy change, a staffing change through scheduling (SYS-134), or a coaching point for pre-shift.
   - The book as forecast for the schedule and the kitchen's prep.
 - What the person can do afterward: present a weekly read of the book with one decision and its reason.
 - How it is proven: a presentation to Brandon from real data (training data before opening); recheck at the quarterly close.
 - Time and place: 5 h (2 remote and paid, 3 on site), then the weekly read inside scheduled hours.
-- Waits on: which reports Sŏn's plan includes; the POS integration; Airtable.
+- Waits on: which reports Sŏn's plan includes; the POS integration; a source for operational figures (unbound until a source is chosen (Airtable retired)).
 - Absorbs: none (feeds LEA-046).
 
 ### SYS-122 Building your regulars and your product feedback from the book
@@ -808,11 +808,11 @@ Every tool name is a candidate from Sŏn's archived SaaS catalog (lead-only), ex
   - Approving invoices and coding them to the chart of accounts (`tool.accounting.chart_of_accounts`); paying on terms.
   - The period close checklist.
   - Reconciling the POS, payroll and bank to the books.
-  - What Airtable reads from the books (`workflow.airtable_feed`).
+  - What the figures source reads from the books (`workflow.airtable_feed`; source unbound until a source is chosen (Airtable retired)).
 - What the person can do afterward: close a period on time with every invoice coded and every account reconciled.
 - How it is proven: a practical close on training data with planted errors, reviewed by the outside accountant if one is engaged (`people.accountant`).
 - Time and place: 4 h on site.
-- Waits on: the accounting tool; the accountant; the Airtable structure.
+- Waits on: the accounting tool; the accountant; the structure of the figures source (unbound until a source is chosen (Airtable retired)).
 - Absorbs: none.
 
 ### SYS-138 Sales tax filing

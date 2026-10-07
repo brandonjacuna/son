@@ -1,6 +1,6 @@
 # 4.5 Creating the team environment: the fate of every old item
 
-Source: `extraction/build/s10/old-items.md` (14 items) and the S10 page at `archive/clickup-export-2026-09-26/operating-system-doc/11-2ky45bmy-31853.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md` unless another chunk is named.
+Source: `sources/extraction/build/s10/old-items.md` (14 items) and the S10 page at `archive/clickup-export-2026-09-26/operating-system-doc/11-2ky45bmy-31853.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md` unless another chunk is named.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

@@ -1,6 +1,6 @@
 # 1.2 Say the thing you think you cannot say: the fate of every old item
 
-Source: `extraction/build/s01/old-items.md` (no items assigned to this chunk) and the S1 page at `extraction/build/s01/old-page.md`, section 1 (Principles 3 and 4) and the working-with-me spine's prompt E. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
+Source: `sources/extraction/build/s01/old-items.md` (no items assigned to this chunk) and the S1 page at `sources/extraction/build/s01/old-page.md`, section 1 (Principles 3 and 4) and the working-with-me spine's prompt E. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

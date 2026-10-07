@@ -1,6 +1,6 @@
 # 5.4 The formal review process: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 399 to 412, with the chapter's appendix templates at pp. 468 to 471 and workbook pages. Full text: `extraction/build/s13/book.md`, exercises at `extraction/build/s13/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 399 to 412, with the chapter's appendix templates at pp. 468 to 471 and workbook pages. Full text: `sources/extraction/build/s13/book.md`, exercises at `sources/extraction/build/s13/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Why a formal, written process
 
@@ -79,4 +79,4 @@ She is specific that a division leader, not someone from HR, should run the cali
 
 **Managing disappointment and comparisons**, covered in the compensation pages that follow this section, are cross-referenced in `manual/5.5-compensation/book.md` since the book places them under Compensation conversations (pp. 414 to 418).
 
-For the full text, see `extraction/build/s13/book.md`.
+For the full text, see `sources/extraction/build/s13/book.md`.

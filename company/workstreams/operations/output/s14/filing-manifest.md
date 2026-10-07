@@ -1,6 +1,6 @@
 # S14 filing manifest (exact titles)
 
-Filed 2026-09-24 from `output/s14/work-items-and-carryovers.md` by the session controller over ClickUp's REST API (Brandon's token, helper `extraction/s13/cu.py`, scripts `extraction/s14/build-plan.py` and `extraction/s14/file.py`), in the form of Sessions 8 to 13. Every item shows Brandon as author. One create call (A1) returned a 500 but had created the task; the script was made duplicate-safe and A1 was recorded, not re-filed. All 31 descriptions were fetched back (`extraction/s14/verify/`) and compared by script: 31 of 31 identical in name, priority, parent or link, and description, each with exactly one provenance line. B1 to B3 differ only by ClickUp's escaped asterisks around the code span in the bold "Routed to" line, the known artifact.
+Filed 2026-09-24 from `output/s14/work-items-and-carryovers.md` by the session controller over ClickUp's REST API (Brandon's token, helper `sources/extraction/s13/cu.py`, scripts `sources/extraction/s14/build-plan.py` and `sources/extraction/s14/file.py`), in the form of Sessions 8 to 13. Every item shows Brandon as author. One create call (A1) returned a 500 but had created the task; the script was made duplicate-safe and A1 was recorded, not re-filed. All 31 descriptions were fetched back (`sources/extraction/s14/verify/`) and compared by script: 31 of 31 identical in name, priority, parent or link, and description, each with exactly one provenance line. B1 to B3 differ only by ClickUp's escaped asterisks around the code span in the bold "Routed to" line, the known artifact.
 
 Subtasks under `86akh1hdg`: **309 before, 337 after** (28 added). Carryover Register list `901327884538`: **140 before, 143 after** (3 added), each linked to its target session task.
 
@@ -47,7 +47,7 @@ Subtasks under `86akh1hdg`: **309 before, 337 after** (28 added). Carryover Regi
 
 ## Comments on existing items
 
-25 comments, each confirmed present exactly once by fetch-back (`extraction/s14/comments-log.tsv`): the 13 carryovers routed to S14 and 12 extended items. Backticks stripped to match the connector's rendering. Carryovers answered by the page stay open for founder ratification.
+25 comments, each confirmed present exactly once by fetch-back (`sources/extraction/s14/comments-log.tsv`): the 13 carryovers routed to S14 and 12 extended items. Backticks stripped to match the connector's rendering. Carryovers answered by the page stay open for founder ratification.
 
 - `86ajgmmpg`: posted-confirmed
 - `86akh5uw3`: posted-confirmed

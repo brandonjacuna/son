@@ -95,10 +95,10 @@ On 2026-09-11 the tracker protocol (`2ky45bmy-17233`, page `2ky45bmy-30353`) was
 | Sŏn's record | V7 notebook (`2ky45bmy-11873`) and ClickUp canon (`2ky45bmy-15773`), read live | Both excluded. The record is `sources/robert-lerma-white-paper.pdf`, `sources/brand-guidelines.md`, `sources/brand-guidelines-deck.pdf` |
 | Profiles | Box folder `400727361228`, fetched by file ID | Local `profiles/`, read from disk by range |
 | Marks | landed, founder-gated, team-filled, chef-gated | recommended, chef-gated, founder-gated, team-filled. Nothing is ever marked final |
-| Financials | "from Airtable (`appKHeje63inr1fLG`) or absent" | Airtable excluded. Financials are not a context source for this program. State the gap and flag it |
+| Financials | a stale profile instruction naming a retired data tool | Financials come only from the current Investor Review workbook in Box (Sŏn / 02. Capital Raise). Not a context source for this program. State the gap and flag it |
 | Session output | Two things: decisions and specifications | Three things. Typed post-extraction work items are the third |
 | Definition of done, item 6 | Hand Brandon the next session prompt | Post-extraction work items created as typed subtasks under `86akh1hdg` |
 
 The tracker's session sequence, task IDs, page ranges, carryover routing, tangent protocol, pause and resume, and archive were accurate and were left as written.
 
-A session that encounters an instruction to read V7, the archived ClickUp canon doc, Airtable, or a Box profile has hit a stale source. It does not follow it. It surfaces the conflict.
+A session that encounters an instruction to read V7, the archived ClickUp canon doc, or a Box profile has hit a stale source. It does not follow it. It surfaces the conflict.

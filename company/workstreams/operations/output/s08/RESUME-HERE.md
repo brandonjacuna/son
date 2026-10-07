@@ -7,7 +7,7 @@ All six definition-of-done conditions are met and were verified by the controlle
 | 1 | Deliverable is a page in the Operating System doc, marked | Page `2ky45bmy-31793`. Live page fetched and counted: sections 1 to 22 each once, P1 to P56 each once, rows 93 to 106 each once, I1 to I21 each once; every difference is ClickUp's markdown re-serialization |
 | 2 | Recommended positions logged with reasoning | 56 positions: 44 recommended, 7 founder-gated, 4 chef-gated, 1 team-filled. Brandon's ruling recorded unmarked in section 2.1 |
 | 3 | New carryovers filed and routed | 9 filed, `86akhcz6u` to `86akhcz7t`, one each to S9 to S17, links checked; local register updated |
-| 4 | Context ledger updated | Tracker page `2ky45bmy-30353`, 69,901 to 76,834 bytes; live page matches `extraction/s08/tracker-after.md` line for line except a pre-existing escape run on line 5 |
+| 4 | Context ledger updated | Tracker page `2ky45bmy-30353`, 69,901 to 76,834 bytes; live page matches `sources/extraction/s08/tracker-after.md` line for line except a pre-existing escape run on line 5 |
 | 5 | Session task marked complete | `86ajgmhxx` status `complete`, confirmed by fetch |
 | 6 | Post-extraction work items created | 25 typed subtasks under `86akh1hdg`, 165 to 190, no duplicate names |
 
@@ -24,4 +24,4 @@ Also done: Brandon's ruling closed founder decision `86akh5u9g` (status complete
 
 ## Next session
 
-Session 9, task `86ajgmj07`, Chapter 4 diagnosing, changes, rebuilding, book pages 282 to 303. Architect plus Designer. Handoff at `extraction/s09/HANDOFF-from-s08.md`, S8 page index at `extraction/s09/s08-page-index.md`. Five carryovers linked.
+Session 9, task `86ajgmj07`, Chapter 4 diagnosing, changes, rebuilding, book pages 282 to 303. Architect plus Designer. Handoff at `sources/extraction/s09/HANDOFF-from-s08.md`, S8 page index at `sources/extraction/s09/s08-page-index.md`. Five carryovers linked.

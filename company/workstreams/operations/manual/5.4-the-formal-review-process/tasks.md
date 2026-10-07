@@ -204,7 +204,7 @@ The book's point (pp. 399 to 413): continuous feedback does not replace a writte
 - Type: Deliverable
 - Phase: Hiring and training
 - Book: p. 411 (the output is recorded in the HR tool, then made visible to the employee)
-- Default assumption (WP p. 21): "heavily deterministic software over a thin layer of AI," with AI never load-bearing; (WP p. 21) Airtable is the hub for everything that is not CRM
+- Default assumption (WP p. 21): "heavily deterministic software over a thin layer of AI," with AI never load-bearing; (WP p. 21) a single data-layer hub holds everything that is not CRM; the tool the white paper names is no longer in use
 - Depends on: 5.4.6, 5.4.8, 5.4.16, 5.4.18, 5.4.19, 2.3.11, 3.3.32
 - Done when: the record sits on the person page beside the check-in and plan records; the assembly pulls only from 5.4.8's source list and has no free-text field for the holder unless 5.4.11 allowed one; every entry carries the citation to the dated line it draws from; the record refuses a rating field and a pay field unless 5.4.4 or 5.4.5 kept one; visibility matches 5.4.18; a manual fallback (a printed assembly) exists for a review held with the stack off (4.1.25); the scheduling surface places each person's review on their clock (or on the season, if 5.4.6 chose one) in a window that meets 5.4.16, offers the holder a move but not a cancel, records held, moved, and extended, and reports the counts to the leads' review (5.4.20); the first cohort's reviews and the leads' reviews are on it before the first is due
 - Replaces old items: 17tn048qeq2 (the build half), 17tn048qeu9 (the configuration half), 17tn048qeq3, 17tn048qepw (the placement half)
