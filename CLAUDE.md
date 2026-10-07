@@ -3,7 +3,7 @@
 One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. Elmo Rd, Austin). Founders: Brandon John Acuña-Cardona (CEO; legal documents use Brandon John Acuña) and Dominic Thomas (CFO).
 
 ## Start of every session
-1. Read `memory/state.md` (what is in flight) and the last ~20 lines of `memory/decisions.md`.
+1. Read `memory/state.md` (what is in flight), `memory/plan.md` (phase order and briefs), and the last ~20 lines of `memory/decisions.md`. Stable facts: `memory/context.md` (company) and `founders/context.md` (founders only).
 2. If the work is inside a workstream, its own CLAUDE.md loads when you work there. Read it.
 3. Never assume a fact from an earlier session is still true if it can be checked live (ClickUp, Box, workbook).
 
@@ -14,7 +14,8 @@ One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. 
 - `kb/`: knowledge about tools (`kb/tools/`) and domains (`kb/domains/`). Every file has frontmatter `review_every` and `last_verified`.
 - `prompts/scheduled/`: the exact prompt of every scheduled task. Edit here, then sync the task.
 - `memory/`: the repo's memory (see below).
-- `imports/`: raw material waiting to be sorted. Nothing in it is canon.
+- `imports/`: raw material waiting to be sorted. Nothing in it is canon. Old chats arrive through `prompts/chat-handoff.md`.
+- Sandboxes: experiments, including changes to this system itself, go on `sandbox/<name>` branches and merge only when Brandon says so.
 
 ## Memory protocol
 - `memory/state.md`: current in-flight work, one line each, with owner and next step. Rewrite freely.
