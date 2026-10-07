@@ -1,6 +1,6 @@
 ---
 name: book-ingest
-description: Turn Brandon's reading of a reference book (first use: Tobin Ellis, Bar Design Essentials) into structured, paraphrased notes in a kb sub-folder. Use when he says he read a chapter or topic, pastes highlights, or sends photos of a diagram.
+description: "Turn Brandon's reading of a reference book (first use: Tobin Ellis, Bar Design Essentials) into structured, paraphrased notes in a kb sub-folder. Use when he says he read a chapter or topic, pastes highlights, or sends photos of a diagram."
 ---
 # Book ingest
 

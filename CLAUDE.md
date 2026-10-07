@@ -14,8 +14,8 @@ One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. 
 - `kb/`: knowledge about tools (`kb/tools/`) and domains (`kb/domains/`). Every file has frontmatter `review_every` and `last_verified`.
 - `prompts/scheduled/`: the exact prompt of every scheduled task. Edit here, then sync the task.
 - `memory/`: the repo's memory (see below).
-- `imports/`: raw material waiting to be sorted. Nothing in it is canon. Old chats arrive through `prompts/chat-handoff.md`.
-- Sandboxes: experiments, including changes to this system itself, go on `sandbox/<name>` branches and merge only when Brandon says so.
+- `imports/`: raw material waiting to be sorted. Nothing in it is canon. Old chats arrive through `prompts/chat-handoff.md` and are sorted by the `chat-handoff` skill.
+- Sandboxes: experiments, including changes to this system itself, go on `sandbox/<name>` branches cut from `main`, and reach `main` only when Brandon says so. `session-close` lists every open sandbox in `memory/state.md`. (`/sandbox` and `/promote` are the build-out design versions of this.)
 - Build-out work lives in `company/workstreams/build-out/`. Its skills and commands use paths relative to that folder. Its phase lock (P0 concept until the lease is signed) is enforced by the root hooks in `.claude/hooks/`.
 
 ## Memory protocol
@@ -23,7 +23,9 @@ One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. 
 - `memory/decisions.md`: append-only, dated. A decision is recorded only when Brandon (or Brandon and Dominic) agreed to it. Never record your own recommendation as a decision.
 - `memory/threads.md`: parked threads (see Threads).
 - `memory/pending/`: ideas being considered but not agreed. They can sit for weeks. Nothing in `pending/` is canon or may be applied elsewhere.
-- Before ending any session that changed something, run the `session-close` procedure: update state, append decisions, park threads, commit.
+- `session-close` (`.claude/skills/session-close/`) is the only way to end a session that changed anything: it verifies the repo, rewrites state, reads decisions back to Brandon, parks threads, commits, and lands the branch.
+- Tangents: the `thread` skill. Packages from old chats in `imports/`: the `chat-handoff` skill.
+- Skills: one owner per trigger, listed in `.claude/skills/REGISTRY.md`. External skills enter only through its vetting gate.
 - Landing work on `main`: cloud sessions work on a side branch. Work left on a side branch is invisible to every later session (this is how the learning studio and nerve builds got stranded). At session close, merge the session's branch into `main` and push, unless the session changed the system itself (`.claude/`, hooks, settings, CLAUDE.md rules) or ran on a `sandbox/` branch: then open a pull request and tell Brandon in one line what it changes. Never leave work unmerged without saying so.
 
 ## Routing
@@ -42,7 +44,7 @@ Sŏn only. The Josephine, Sanctuary, and former partners are out of scope: never
 - Decisions go to him as pop-up questions (AskUserQuestion), each carrying the full context he needs to answer cold, since he moves between projects. He often answers on walks.
 - He often reasons from what he does NOT want. Elicit both: what do you want, what do you not want.
 - Define legal, entity, and finance jargon in one sentence when it comes up.
-- Threads: when he branches into a tangent, log it in `memory/threads.md` immediately, then offer: follow it now, or park it and return to the core work. Do not kill the tangent; do not let it silently replace the core work.
+- Threads: when he branches into a tangent, run the `thread` skill: log it in `memory/threads.md` immediately, then offer: follow it now, or park it and return to the core work. Do not kill the tangent; do not let it silently replace the core work.
 - Red team everything he puts in place, scaled to stakes (see the `red-team` skill): light for concept ideation, standard by default, harsh for legal, compliance, and anything touching employees.
 
 ## Model policy
