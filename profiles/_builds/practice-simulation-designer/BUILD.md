@@ -5,3 +5,4 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 0 | plumbing gap check | sonnet | 71,223 | none (12 gaps returned; memory/pending/2026-10-07-ld-plumbing-gaps.md) |
