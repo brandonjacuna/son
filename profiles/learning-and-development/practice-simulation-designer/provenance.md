@@ -9,47 +9,45 @@ Build: `profiles/_builds/practice-simulation-designer/` (2026-10-07). Cards 01 t
 | C1 | sourced (old) | 01.1, 03.2; old cites Lievens; not re-verified |
 | C2 | sourced (old) | 01.2; 06.1 gives a basis for the skill-kind split but not for forms (card 06 tension) |
 | C3 | sourced | 05.1 ("compared with learning in a 'no-intervention' control group"), 05.3, 06.6; also 01.3 |
-| C4 | sourced | 07.1 ("Why aren't they doing this now?"); also 01.4 |
+| C4 | sourced | 07.1 ("Why aren't they doing this now?"); also 01.4; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | C5 | sourced (old) | 01.5 (old: Haladyna, partly inferred); card 07 reached no page on length or kindness tells |
-| C6 | sourced | 07.3, 07.4 ("add details to the stem that replicate the issues"), 07.5; also 01.6; elicitation seam 03.9 |
+| C6 | sourced | 07.3, 07.4 ("add details to the stem that replicate the issues"), 07.5; also 01.6; elicitation seam 03.9; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | C7 | sourced (old) | 01.7, 03.4 (old: McDaniel); not re-verified, card 07 silent |
 | C8 | sourced | 06.2, 07.8 ("Show the consequence of the choice by continuing the story."), 07.9; also 01.8, 03.3 |
 | C9 | sourced (old) | 01.9, 02.5 (old: Klein and Borders) |
 | C10 | sourced (old) | 01.10, 02.3 (old: Kellman, Brunmair) |
-| C11 | sourced | 06.5 ("when mixed (both positive and negative) models were provided"); also 01.11 |
+| C11 | sourced | 06.5 ("when mixed (both positive and negative) models were provided"); also 01.11; partly supported (poor-model clause carried from old profile); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | C12 | sourced (old) | 01.12 (old: Xiao and Fu) |
-| C13 | sourced | 08.1, 08.2 ("entertainment, interaction novelty, and usability, beyond the quality of learning"), 08.6 |
-| C14 | sourced (old) | 01.14 (old: Rudolph et al.) |
+| C13 | sourced | 08.1, 08.2 ("entertainment, interaction novelty, and usability, beyond the quality of learning"), 08.6; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | C15 | inferred | from 01.18, 02.11, 03.7; old rule R22 was itself inferred; frame research gap 1 (no source) |
 | C16 | sourced | 07.7 ("the core problem might not be poor decisions, and the solution might not be a scenario."), 07.2 |
-| R1 | project | Brandon's answer 2026-10-07 (must NOT let practice become a pass or fail check); frame decision 1 and seam table; supported by 02.9, 03.11 (sourced (old)) |
-| R2 | sourced | 06.2 ("error management training yielded greater transfer outcomes"), 06.4; closed-procedure drill from 02.2 (old, inferred D1); split by kind inferred beyond 06.1 |
+| R1 | project | Brandon's answer 2026-10-07 (must NOT let practice become a pass or fail check); frame decision 1 and seam table; supported by 02.9, 03.11 (sourced (old)); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
+| R2 | sourced (error-management transfer clause); sourced (old) (closed-procedure drill clause); inferred (split by kind) | 06.2 ("error management training yielded greater transfer outcomes"), 06.4; closed-procedure drill from 02.2 (old, inferred D1); split by kind inferred beyond 06.1 |
 | R3 | sourced (old) | 02.3, 02b.1, 04 example 4 (surface varied, state held, new cases) |
-| R4 | sourced (old) | 02.5, 04 example 3; founder-gated reference read: project (frame Sŏn rules) |
+| R4 | sourced (old) | 02.5, 04 example 3; founder-gated reference read: project (frame Sŏn rules); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | R5 | sourced | 05.3 ("no significant advantage of HFS over LFS"), 05.7, 06.6; also 02.1 |
-| R6 | sourced | 07.1, 07.2, 07.4; felt-risk example inferred from 07.1 and 07.4 (card 07 tension) and 04 example 1 |
-| R7 | sourced | 07.3, 07.5 ("common mistakes, cleverly disguised as reasonable choices"); option count from 02.7, 03.8 (old, inferred T1) |
+| R6 | sourced | 07.1, 07.2, 07.4; felt-risk example inferred from 07.1 and 07.4 (card 07 tension) and 04 example 1; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
+| R7 | sourced (distractor-realism clause); inferred (option count clause, old, T1) | 07.3, 07.5 ("common mistakes, cleverly disguised as reasonable choices"); option count from 02.7, 03.8 (old, inferred T1) |
 | R8 | sourced | 07.8, 07.9, 07.10 ("let me choose an option that will bring me to a better path.") |
-| R9 | sourced | 07.11 ("Test your plot on subject matter experts and some future learners") |
-| R10 | sourced (old) | 01.14, 02.10 (old: Rudolph et al.) |
-| R11 | sourced (old) | 02.10, 02b.2, 01.15, 01.16, 01.17, 03.5 (old: Rudolph, Eppich and Cheng, Tannenbaum, Ellis) |
-| R12 | inferred | from 02.11, 03.7; no source addresses freezing (frame gap 1); tbri seam from frame |
+| R10 | sourced (old) | 01.14, 02.10 (old: Rudolph et al.); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
+| R11 | sourced (old) | 02.10, 02b.2, 01.15, 01.16, 01.17, 03.5 (old: Rudolph, Eppich and Cheng, Tannenbaum, Ellis); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
+| R12 | inferred | from 02.11, 03.7; no source addresses freezing (frame gap 1); tbri seam from frame; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | R13 | project | frame Sŏn rules (`founder.ai_presenter_policy` founder-gated); Brandon's answer 2026-09-26 (no form ruled out; seat holds a position, Brandon decides); supported by 02.13 (old), 08.3, 08.4 ("no significant impact of system interactivity on learning outcomes"), 08.7 |
-| R14 | sourced | 06.8 ("supervisor support emerged as one of the strongest predictors of transfer"), 06.9, 06.10; also 02.14 |
+| R14 | sourced | 06.8 ("supervisor support emerged as one of the strongest predictors of transfer"), 06.9, 06.10; also 02.14; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | R15 | project | frame Sŏn rules (no floor cue as fact before Craft Educator elicitation; reference read founder-gated); 03.6, 03.9 |
 | R16 | project | frame Sŏn rules; decision 2026-10-07 (page 08 reference only, not canon) |
 | R17 | project | frame Sŏn rules (tools or devices are `tool.*` bindings) |
-| R18 | project | Brandon's answer 2026-09-26 (any trained member may run live practice; HR consent before filming); frame Sŏn rules (likeness); 04 example 5 |
+| R18 | project | Brandon's answer 2026-09-26 (any trained member may run live practice; HR consent before filming); frame Sŏn rules (likeness); 04 example 5; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | R19 | sourced (old) | 02b.3, 02b.4 (old: project marking), 02.15 |
 | A1 | project | Brandon's answer 2026-10-07 (must NOT recommend high-production or AI-video simulation where a cheaper form trains the same decisions); supported by 05.3, 05.4, 06.6 |
 | A2 | project | Brandon's answer 2026-10-07 (must NOT write required phrases or scripted emotion for staff to perform) |
-| A3 | project | Brandon's answer 2026-10-07 (must NOT let a practice exercise become a pass or fail readiness check); seam table |
+| A3 | project | Brandon's answer 2026-10-07 (must NOT let a practice exercise become a pass or fail readiness check); seam table; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | A4 | sourced (old) | 03.2 ("One item bank for practice and the gate."), 01.1 |
 | A5 | sourced | 05.4, 05.5; also 03.1 ("looks like the floor but does not demand its decisions") |
 | A6 | sourced | 07.9 ("How much can you learn when a beaver does your thinking for you?"); also 03.5 |
 | A7 | project | frame Sŏn rules (no floor cue as fact before elicitation); 03.6 (old: project) |
-| A8 | sourced | 08.2, 08.7 ("including a study condition with human trainers would be ideal") |
-| E1 | sourced (old) | 04 example 1; seat-specific bindings per R17 (project) |
+| A8 | sourced | 08.2, 08.7 ("including a study condition with human trainers would be ideal"); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
+| E1 | sourced (old) | 04 example 1; seat-specific bindings per R17 (project); gated: allergen specifics are chef.* and tool.* bindings |
 | E2 | sourced (old) | 04 example 2; recovery authority rewritten per R16 (project): old text cited canon page 08 |
 | E3 | sourced (old) | 04 example 3 |
 | E4 | sourced (old) | 04 example 5; neighbor seat names outside the frame seam table removed |
