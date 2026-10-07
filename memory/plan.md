@@ -30,7 +30,7 @@ Build-out has its own phases (P0 concept to P4 closeout, in `company/workstreams
 2. Opening prompt: `Read CLAUDE.md, memory/state.md, memory/plan.md. Tell me in five lines where we are. Then start the next step of phase N from memory/briefs/.`
 3. Subagents do reading and extraction; the session model coordinates; Fable only where the brief says.
 4. Decisions go to Brandon as pop-ups with full context.
-5. End with session-close (until phase 2 builds the skill: update `memory/state.md`, append agreed decisions to `memory/decisions.md`, park threads in `memory/threads.md`, commit, push).
+5. End with the `session-close` skill.
 6. Experiments and changes to the system itself happen on a `sandbox/<name>` branch and merge only when Brandon says so.
 
 ## Reviving an old chat
