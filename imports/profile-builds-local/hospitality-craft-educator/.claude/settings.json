@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Workflow",
+      "Read",
+      "Edit(profile-builds/**)",
+      "Write(profile-builds/**)",
+      "Bash(python scripts/lint.py:*)",
+      "Bash(python3 scripts/lint.py:*)"
+    ]
+  }
+}
