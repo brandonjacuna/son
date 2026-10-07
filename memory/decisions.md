@@ -44,3 +44,7 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-07 | session basics | No Stop hook reminding to close for now; the CLAUDE.md line naming session-close as the only way to end a session is enough. Revisit if a session ends with state.md stale | Brandon
 - 2026-10-07 | profiles | Session B test-rebuilds the Practice and Simulation Designer with the new profile-build skill and measures it against the baseline; final approval of the builder comes after the result | Brandon
 - 2026-10-07 | build-out M3 | profile-forge is retired and deleted; profile-build is the one owner for building, rebuilding, revising, and merging profiles | Brandon
+- 2026-10-07 | profiles | profile-build is approved after the Practice and Simulation Designer test rebuild, with the test findings folded in (fewest agents, larger card caps, tests re-checked after the frame) | Brandon
+- 2026-10-07 | profiles | The rebuilt Practice and Simulation Designer is approved; it replaces the Box version when the repo becomes master | Brandon
+- 2026-10-07 | profiles | The Practice and Simulation Designer must not recommend high-production video where a cheaper form trains the same decisions, script feelings or required phrases, or turn practice into a pass or fail check | Brandon
+- 2026-10-07 | learning-studio | Shared studio rules from the old profiles' shared blocks (target learner, why before how, readiness gate, peer authors, review cadence) live in the learning-studio CLAUDE.md | Brandon

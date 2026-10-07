@@ -1,6 +1,6 @@
 # Learning & Development rules held only in old profiles' shared blocks
 
-Found 2026-10-07 by the profile-build stage 0 plumbing check (first build of the cluster). The rebuilt seats drop project_block and interaction_guide, so these rules disappear unless a seat or the learning-studio CLAUDE.md carries them. Not canon until Brandon decides where each goes.
+Found 2026-10-07 by the profile-build stage 0 plumbing check (first build of the cluster). The rebuilt seats drop project_block and interaction_guide, so these rules disappear unless a seat or the learning-studio CLAUDE.md carries them. Brandon 2026-10-07: the rows marked learning-studio CLAUDE.md are applied there (section "Studio rules every seat works under"). The rest stay here until each seat is rebuilt; the PSD rows are carried in its rebuilt seat.
 
 | Rule | Old profiles carrying it | Candidate home |
 |---|---|---|
