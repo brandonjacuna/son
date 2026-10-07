@@ -1,0 +1,7 @@
+glycol_C,length_for_4C_m,wall_min_C,margin_to_freeze_K,outlet_at_fixed_2p17m_C,verdict
+0.0,1.99,2.32,2.72,3.04,safe
+0.5,2.07,2.53,2.93,3.52,safe
+1.0,2.17,2.74,3.14,4.01,safe
+1.5,2.29,2.95,3.35,4.49,safe
+2.0,2.44,3.16,3.56,4.97,safe
+3.0,2.89,3.58,3.98,5.93,safe

@@ -1,0 +1,370 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="da" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/>
+    </marker>
+    <marker id="dao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+    </marker>
+    <marker id="dab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f3a4d"/>
+    </marker>
+  </defs>
+  <style>
+    .out { stroke:#1f3a4d; stroke-width:1.8; fill:#ffffff }
+    .outlt { stroke:#1f3a4d; stroke-width:1.3; fill:#f2f7f9 }
+    .dim { stroke:#7a7a7a; stroke-width:1; fill:none }
+    .dimo { stroke:#b45309; stroke-width:1; fill:none }
+    .cl { stroke:#7a7a7a; stroke-width:1; stroke-dasharray:10 3 3 3; fill:none }
+    .hid { stroke:#7a7a7a; stroke-width:1.2; stroke-dasharray:6 4; fill:none }
+    .cut { stroke:#1f3a4d; stroke-width:2; stroke-dasharray:14 4 4 4; fill:none }
+    .gas { stroke:#7a7a7a; stroke-width:2; fill:none }
+    .gasd { stroke:#7a7a7a; stroke-width:1.4; fill:none; stroke-dasharray:7 4 }
+    .ldr { stroke:#7a7a7a; stroke-width:1; fill:none }
+    .t { fill:#1f3a4d; font-size:12.5px }
+    .ts { fill:#1f3a4d; font-size:11.5px }
+    .tb { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .h1 { fill:#1f3a4d; font-size:17px; font-weight:bold }
+    .h2 { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .sym { stroke:#1f3a4d; stroke-width:1.6; fill:#ffffff }
+    .dimt { fill:#b45309; font-size:12px }
+    .dimtb { fill:#b45309; font-size:12px; font-weight:bold }
+    .steel { fill:#dde4e9 }
+    .int { stroke:#1f3a4d; stroke-width:1.3; fill:#ffffff }
+  </style>
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+  <rect x="8" y="8" width="1164" height="804" fill="none" stroke="#1f3a4d" stroke-width="1.5"/>
+  <text x="24" y="38" class="h1">D6 — DUAL-SPOUT CATCH FUNNEL (QTY 2)</text>
+  <text x="24" y="58" class="ts">Fixed N2-blanketed catch under each Enigma brew-module outlet head → 3-way diverter (BATCH / WASTE) → 3/16 in silicone drop line to the chilling coil · package §8 / §2.6 · gas per DWG D4 leg A</text>
+
+  <!-- ================= PLAN VIEW (top-left) ================= -->
+  <text x="40" y="96" class="h2">PLAN — LID (gallery &amp; neck hidden)</text>
+
+  <!-- hidden rear neck below lid -->
+  <line x1="219.6" y1="187" x2="219.6" y2="150" class="hid"/>
+  <line x1="240.4" y1="187" x2="240.4" y2="150" class="hid"/>
+  <rect x="206" y="122" width="48" height="28" class="hid" fill="none"/>
+  <text x="262" y="130" class="ts">rear neck &amp; boss below —</text>
+  <text x="262" y="144" class="ts">see SECTION B-B</text>
+
+  <!-- centerlines -->
+  <line x1="98" y1="265" x2="362" y2="265" class="cl"/>
+  <line x1="230" y1="248" x2="230" y2="350" class="cl"/>
+  <line x1="282" y1="248" x2="282" y2="292" class="cl"/>
+
+  <!-- lid outline (oval, = bowl outside 95 x 60) -->
+  <ellipse cx="230" cy="265" rx="123.5" ry="78" class="out"/>
+  <!-- gallery groove hidden -->
+  <ellipse cx="230" cy="265" rx="110.5" ry="65" class="hid"/>
+  <ellipse cx="230" cy="265" rx="102.7" ry="57.2" class="hid"/>
+  <!-- spout openings, dia 14 on pitch P -->
+  <circle cx="178" cy="265" r="18.2" class="out"/>
+  <circle cx="282" cy="265" r="18.2" class="out"/>
+  <!-- jets x6 on groove centerline -->
+  <circle cx="322.3" cy="234.5" r="2.2" fill="#7a7a7a"/>
+  <circle cx="230" cy="203.9" r="2.2" fill="#7a7a7a"/>
+  <circle cx="137.7" cy="234.5" r="2.2" fill="#7a7a7a"/>
+  <circle cx="137.7" cy="295.5" r="2.2" fill="#7a7a7a"/>
+  <circle cx="230" cy="326.1" r="2.2" fill="#7a7a7a"/>
+  <circle cx="322.3" cy="295.5" r="2.2" fill="#7a7a7a"/>
+
+  <!-- section cut B-B through left spout centerline -->
+  <line x1="178" y1="165" x2="178" y2="372" class="cut"/>
+  <line x1="178" y1="170" x2="158" y2="170" stroke="#1f3a4d" stroke-width="2" marker-end="url(#dab)"/>
+  <line x1="178" y1="368" x2="158" y2="368" stroke="#1f3a4d" stroke-width="2" marker-end="url(#dab)"/>
+  <text x="140" y="175" class="tb">B</text>
+  <text x="140" y="373" class="tb">B</text>
+
+  <!-- 10-32 port on gallery, rear (on cut plane) -->
+  <circle cx="178" cy="211.7" r="7" class="sym"/>
+  <circle cx="178" cy="211.7" r="2.4" fill="none" stroke="#1f3a4d" stroke-width="1"/>
+
+  <!-- labels, left stack -->
+  <text x="44" y="150" class="ts">10-32 N2 port</text>
+  <text x="44" y="164" class="ts">(boss on lid)</text>
+  <line x1="123" y1="154" x2="170" y2="209" class="ldr"/>
+  <text x="44" y="192" class="ts">gallery groove 3 × 3</text>
+  <text x="44" y="206" class="ts">hidden (DETAIL C)</text>
+  <line x1="150" y1="210" x2="129" y2="239" class="ldr"/>
+  <text x="185" y="242" class="ts">2 × <tspan class="dimtb">ØS</tspan> thru (<tspan class="dimt">Ø14 nom.</tspan>)</text>
+
+  <!-- P pitch dim (parametric) -->
+  <line x1="282" y1="242" x2="282" y2="216" class="dimo"/>
+  <line x1="178" y1="222" x2="282" y2="222" class="dimo" marker-start="url(#dao)" marker-end="url(#dao)"/>
+  <text x="196" y="216" class="dimtb">P</text>
+  <text x="210" y="216" class="dimt">(40 nom.)</text>
+
+  <!-- jets label -->
+  <text x="210" y="364" class="ts">6 × Ø0.5 jets, eq. spaced</text>
+  <line x1="318" y1="300" x2="306" y2="352" class="ldr"/>
+
+  <!-- 95 dim below -->
+  <line x1="106.5" y1="272" x2="106.5" y2="406" class="dim"/>
+  <line x1="353.5" y1="272" x2="353.5" y2="406" class="dim"/>
+  <line x1="106.5" y1="400" x2="353.5" y2="400" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="222" y="395" class="t">95</text>
+
+  <!-- 60 dim right -->
+  <line x1="237" y1="187" x2="400" y2="187" class="dim"/>
+  <line x1="237" y1="343" x2="400" y2="343" class="dim"/>
+  <line x1="394" y1="187" x2="394" y2="343" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="399" y="269" class="t">60</text>
+
+  <!-- ================= SECTION B-B (top-right) ================= -->
+  <text x="460" y="96" class="h2">SECTION B-B — THROUGH SPOUT ℄ (front at left)</text>
+
+  <!-- 60 dim over lid -->
+  <line x1="490" y1="194" x2="490" y2="118" class="dim"/>
+  <line x1="700" y1="194" x2="700" y2="118" class="dim"/>
+  <line x1="490" y1="124" x2="700" y2="124" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="585" y="119" class="t">60</text>
+
+  <!-- spout tip (dashed, machine side) -->
+  <path d="M 585 132 L 605 132 L 601 163 L 589 163 Z" class="hid"/>
+
+  <!-- body silhouette: bowl walls + floor + base + rear neck -->
+  <path d="M490,210 L490,343 L700,343 L700,334 L830,363.4 L830,338.6 L700,298 L700,210 Z" class="steel" stroke="#1f3a4d" stroke-width="1.8"/>
+  <!-- interior cavity + neck bore (single white poly, no seams) -->
+  <path d="M495,210 L695,210 L695,302 L830,342.6 L830,359.4 L695,330 L495,295 Z" fill="#ffffff" stroke="#1f3a4d" stroke-width="1.3"/>
+  <!-- overflow relief in front wall -->
+  <rect x="489" y="226" width="7" height="12" class="int"/>
+
+  <!-- NPT boss + bore -->
+  <rect x="830" y="323" width="42" height="56" class="steel" stroke="#1f3a4d" stroke-width="1.8"/>
+  <rect x="831" y="338" width="40" height="26" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+  <line x1="834" y1="334" x2="840" y2="338" class="dim"/>
+  <line x1="844" y1="334" x2="850" y2="338" class="dim"/>
+  <line x1="854" y1="334" x2="860" y2="338" class="dim"/>
+  <line x1="834" y1="368" x2="840" y2="364" class="dim"/>
+  <line x1="844" y1="368" x2="850" y2="364" class="dim"/>
+  <line x1="854" y1="368" x2="860" y2="364" class="dim"/>
+
+  <!-- diverter valve (purchased) -->
+  <rect x="872" y="333" width="56" height="36" class="outlt"/>
+  <line x1="900" y1="333" x2="900" y2="318" stroke="#1f3a4d" stroke-width="1.6"/>
+  <circle cx="900" cy="314" r="4" class="sym"/>
+  <!-- WASTE leg (short stub) + BATCH leg (drop line) -->
+  <line x1="884" y1="369" x2="884" y2="402" class="gas" marker-end="url(#da)"/>
+  <line x1="916" y1="369" x2="916" y2="436" class="gas" marker-end="url(#da)"/>
+  <text x="878" y="394" class="ts" text-anchor="end">WASTE</text>
+  <text x="924" y="430" class="ts">BATCH</text>
+
+  <!-- lid in section (disc with spout opening at cut) -->
+  <rect x="490" y="199" width="80.5" height="11" class="steel" stroke="#1f3a4d" stroke-width="1.8"/>
+  <rect x="619.5" y="199" width="80.5" height="11" class="steel" stroke="#1f3a4d" stroke-width="1.8"/>
+  <rect x="496" y="210" width="16" height="7" class="steel" stroke="#1f3a4d" stroke-width="1"/>
+  <rect x="678" y="210" width="16" height="7" class="steel" stroke="#1f3a4d" stroke-width="1"/>
+  <!-- gallery groove squares -->
+  <rect x="494" y="202" width="10.5" height="10.5" fill="#ffffff" stroke="#7a7a7a" stroke-width="1"/>
+  <rect x="685.5" y="202" width="10.5" height="10.5" fill="#ffffff" stroke="#7a7a7a" stroke-width="1"/>
+  <!-- jets -->
+  <line x1="503" y1="212" x2="521" y2="225" class="gasd"/>
+  <line x1="687" y1="212" x2="669" y2="225" class="gasd"/>
+  <!-- N2 port boss on rear rim -->
+  <rect x="674" y="189" width="26" height="10" class="steel" stroke="#1f3a4d" stroke-width="1.3"/>
+  <rect x="682" y="189" width="10" height="14" fill="#ffffff" stroke="#7a7a7a" stroke-width="1"/>
+
+  <!-- dia S opening dim -->
+  <line x1="570.5" y1="199" x2="570.5" y2="188" class="dimo"/>
+  <line x1="619.5" y1="199" x2="619.5" y2="188" class="dimo"/>
+  <line x1="570.5" y1="192" x2="619.5" y2="192" class="dimo" marker-start="url(#dao)" marker-end="url(#dao)"/>
+  <text x="566" y="185" class="dimt" text-anchor="end">Ø14 (ØS)</text>
+
+  <!-- 20-40 slide height dim -->
+  <line x1="601" y1="163" x2="656" y2="163" class="dim"/>
+  <line x1="619.5" y1="185" x2="656" y2="185" class="dim"/>
+  <line x1="650" y1="163" x2="650" y2="185" class="dimo" marker-start="url(#dao)" marker-end="url(#dao)"/>
+  <text x="646" y="178" class="dimt" text-anchor="end">20–40 (set)</text>
+
+  <!-- lid label -->
+  <text x="486" y="156" class="ts" text-anchor="end">LID — 316 or PTFE disc, 3 thk,</text>
+  <text x="486" y="170" class="ts" text-anchor="end">drop-in, 2 lip (DETAIL C)</text>
+  <line x1="488" y1="174" x2="505" y2="199" class="ldr"/>
+
+  <!-- right-top stack -->
+  <text x="712" y="128" class="ts">spout tip (1 of 2) — head on manual slide,</text>
+  <text x="712" y="142" class="ts">set 20–40 above lid at commissioning (<tspan class="dimt">VERIFY #2</tspan>)</text>
+  <text x="712" y="160" class="ts">N2 in — 10-32 port (D4 leg A,</text>
+  <text x="712" y="174" class="ts">≈ 0.5 L/min per funnel)</text>
+  <line x1="736" y1="180" x2="694" y2="190" class="ldr"/>
+
+  <!-- wall + detail bubble -->
+  <text x="720" y="230" class="ts">wall 1.5</text>
+  <line x1="718" y1="234" x2="699" y2="250" class="ldr"/>
+  <circle cx="690" cy="206" r="19" class="hid"/>
+  <text x="660" y="242" class="tb">C</text>
+
+  <!-- cavity annotations -->
+  <text x="516" y="258" class="ts">interior polished Ra ≤ 0.8</text>
+  <text x="516" y="274" class="ts">≈ 30 mL to overflow relief</text>
+  <text x="598" y="308" class="ts">≥ 10°</text>
+
+  <!-- overflow label -->
+  <text x="444" y="229" class="ts" text-anchor="end">overflow relief —</text>
+  <text x="444" y="243" class="ts" text-anchor="end">faces the tray</text>
+  <line x1="446" y1="233" x2="488" y2="231" class="ldr"/>
+
+  <!-- 38 dim left -->
+  <line x1="484" y1="210" x2="452" y2="210" class="dim"/>
+  <line x1="484" y1="343" x2="452" y2="343" class="dim"/>
+  <line x1="458" y1="210" x2="458" y2="343" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="430" y="281" class="t">38</text>
+
+  <!-- neck labels + angle -->
+  <text x="712" y="262" class="ts">neck: bore Ø8 → Ø4.76 (3/16 in) taper,</text>
+  <text x="712" y="276" class="ts">falling ≥ 15° — continuously downhill</text>
+  <line x1="700" y1="316" x2="786" y2="316" class="gasd"/>
+  <line x1="700" y1="316" x2="830" y2="351" class="cl"/>
+  <path d="M 760 316 A 60 60 0 0 1 758 331.5" class="dim"/>
+  <text x="750" y="312" class="ts">≥ 15°</text>
+
+  <!-- boss + valve labels -->
+  <text x="798" y="300" class="ts">1/4 in NPT F boss</text>
+  <line x1="842" y1="304" x2="848" y2="322" class="ldr"/>
+  <text x="940" y="310" class="tb">3-WAY DIVERTER (BOM)</text>
+  <text x="940" y="326" class="ts">purchased mini valve, 1/4 in NPT,</text>
+  <text x="940" y="340" class="ts">food-safe PTFE tape on threads;</text>
+  <text x="940" y="354" class="ts">detented — WASTE resting (§2.6)</text>
+  <text x="940" y="368" class="ts">WASTE: short down-stub over tray</text>
+  <text x="940" y="382" class="ts">BATCH: 3/16 in ID silicone drop</text>
+  <text x="940" y="396" class="ts">line → chilling coil (DWG D1)</text>
+
+  <!-- tray + lip -->
+  <line x1="445" y1="343" x2="489" y2="343" stroke="#1f3a4d" stroke-width="1.4"/>
+  <line x1="701" y1="343" x2="745" y2="343" stroke="#1f3a4d" stroke-width="1.4"/>
+  <line x1="450" y1="343" x2="445" y2="351" class="dim"/>
+  <line x1="462" y1="343" x2="457" y2="351" class="dim"/>
+  <line x1="474" y1="343" x2="469" y2="351" class="dim"/>
+  <line x1="486" y1="343" x2="481" y2="351" class="dim"/>
+  <path d="M 704 343 L 704 339 L 718 339 L 718 343" class="hid"/>
+  <text x="876" y="412" class="ts" text-anchor="end">tray rear lip — height unpublished: MEASURE</text>
+  <text x="876" y="426" class="ts" text-anchor="end">(<tspan class="dimt">VERIFY #9</tspan>); keep ≥ 15° neck fall over the lip</text>
+  <line x1="712" y1="342" x2="758" y2="400" class="ldr"/>
+
+  <!-- pins (rotated into view) -->
+  <rect x="543" y="343" width="14" height="21" class="hid"/>
+  <rect x="633" y="343" width="14" height="21" class="hid"/>
+  <text x="448" y="368" class="ts">Enigma drip tray — funnel base sits on tray / grid</text>
+  <text x="448" y="384" class="ts">2 × Ø4 locating pins (shown rotated in): positions</text>
+  <text x="448" y="398" class="ts">site-fit — drill tray at commissioning (<tspan class="dimt">VERIFY #9</tspan>)</text>
+
+
+  <!-- ================= DETAIL C (bottom-left) ================= -->
+  <text x="40" y="462" class="h2">DETAIL C — N2 GALLERY AT RIM (enlarged)</text>
+
+  <!-- N2 in arrow -->
+  <line x1="199" y1="470" x2="199" y2="487" class="gas" marker-end="url(#da)"/>
+  <text x="250" y="478" class="ts">N2 in — 10-32 UNF port</text>
+  <text x="250" y="492" class="ts">(DWG D4 leg A)</text>
+
+  <!-- port boss -->
+  <rect x="155" y="490" width="88" height="60" class="steel" stroke="#1f3a4d" stroke-width="1.6"/>
+  <rect x="170" y="490" width="58" height="67" fill="#ffffff" stroke="#7a7a7a" stroke-width="1"/>
+  <line x1="170" y1="498" x2="176" y2="504" class="dim"/>
+  <line x1="170" y1="510" x2="176" y2="516" class="dim"/>
+  <line x1="170" y1="522" x2="176" y2="528" class="dim"/>
+  <line x1="170" y1="534" x2="176" y2="540" class="dim"/>
+  <line x1="228" y1="498" x2="222" y2="504" class="dim"/>
+  <line x1="228" y1="510" x2="222" y2="516" class="dim"/>
+  <line x1="228" y1="522" x2="222" y2="528" class="dim"/>
+  <line x1="228" y1="534" x2="222" y2="540" class="dim"/>
+
+  <!-- lid + lip (integral) -->
+  <path d="M60,550 L250,550 L250,586 L229,586 L229,610 L169,610 L169,586 L60,586 Z" class="steel" stroke="#1f3a4d" stroke-width="1.8"/>
+  <!-- cover ring -->
+  <rect x="181" y="550" width="36" height="7" fill="#c8d2da" stroke="#1f3a4d" stroke-width="1"/>
+  <!-- groove void -->
+  <rect x="181" y="557" width="36" height="29" fill="#ffffff" stroke="#7a7a7a" stroke-width="1"/>
+  <!-- bowl wall -->
+  <rect x="232" y="586" width="18" height="169" class="steel" stroke="#1f3a4d" stroke-width="1.8"/>
+  <!-- jet channel -->
+  <path d="M 193 586 L 199 586 L 185 610 L 179 610 Z" fill="#ffffff" stroke="#1f3a4d" stroke-width="1.1"/>
+  <line x1="182" y1="610" x2="160" y2="648" class="gasd" marker-end="url(#da)"/>
+  <!-- 30 deg ref -->
+  <line x1="196" y1="586" x2="196" y2="632" class="cl"/>
+  <path d="M 196 616 A 30 30 0 0 1 181 612" class="dim"/>
+  <text x="202" y="622" class="ts">30°</text>
+
+  <!-- detail dims -->
+  <line x1="60" y1="550" x2="46" y2="550" class="dim"/>
+  <line x1="60" y1="586" x2="46" y2="586" class="dim"/>
+  <line x1="52" y1="550" x2="52" y2="586" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="40" y="573" class="t">3</text>
+  <line x1="181" y1="586" x2="140" y2="586" class="dim"/>
+  <line x1="169" y1="610" x2="140" y2="610" class="dim"/>
+  <line x1="146" y1="586" x2="146" y2="610" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="132" y="602" class="t" text-anchor="end">2 (lip / land)</text>
+  <line x1="232" y1="755" x2="232" y2="771" class="dim"/>
+  <line x1="250" y1="755" x2="250" y2="771" class="dim"/>
+  <line x1="232" y1="765" x2="250" y2="765" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="226" y="783" class="t">1.5</text>
+
+  <!-- detail labels -->
+  <text x="258" y="530" class="ts">cover ring 0.5, flush,</text>
+  <text x="258" y="544" class="ts">tack/bond; runs ≈ mbar</text>
+  <text x="258" y="558" class="ts">(weep-tight OK)</text>
+  <line x1="255" y1="548" x2="218" y2="554" class="ldr"/>
+  <text x="258" y="578" class="ts">groove 3 × 3</text>
+  <line x1="255" y1="574" x2="217" y2="572" class="ldr"/>
+  <text x="40" y="666" class="ts">6 × Ø0.5 jets, eq. spaced,</text>
+  <text x="40" y="680" class="ts">30° inward-down at the</text>
+  <text x="40" y="694" class="ts">liquid surface</text>
+  <line x1="122" y1="662" x2="178" y2="614" class="ldr"/>
+  <text x="100" y="730" class="ts">bowl interior</text>
+  <text x="256" y="730" class="ts">outside</text>
+  <text x="258" y="614" class="ts">drop-in fit,</text>
+  <text x="258" y="628" class="ts">0.25 clearance</text>
+  <line x1="255" y1="620" x2="231" y2="598" class="ldr"/>
+
+  <!-- ================= NOTES (bottom-center) ================= -->
+  <rect x="405" y="445" width="355" height="345" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+  <text x="417" y="467" class="tb">NOTES</text>
+  <text x="417" y="486" class="ts">1. Machined 316 bowl (from solid), wall 1.5; lid 316 or</text>
+  <text x="417" y="500" class="ts">    PTFE disc 3 thk, drop-in, 2 lip. Food-contact build;</text>
+  <text x="417" y="514" class="ts">    passivate ASTM A967; interior polished Ra ≤ 0.8 µm.</text>
+  <text x="417" y="528" class="ts">2. Funnel = the system surge buffer: ≈ 30 mL to the</text>
+  <text x="417" y="542" class="ts">    overflow relief, which faces the DRIP TRAY — a</text>
+  <text x="417" y="556" class="ts">    blocked coil overflows benignly to the tray (§11).</text>
+  <text x="417" y="570" class="ts">3. No pockets: floor falls ≥ 10° to the rear neck; neck</text>
+  <text x="417" y="584" class="ts">    falls ≥ 15° continuously through the 1/4 NPT boss.</text>
+  <text x="417" y="598" class="ts">4. Spout head slides manually (≤ 200 mm cup clearance);</text>
+  <text x="417" y="612" class="ts">    set 20–40 mm above lid at commissioning (<tspan class="dimt">VERIFY #2</tspan>).</text>
+  <text x="417" y="626" class="ts">    Fixed catch — nothing swings through the openings.</text>
+  <text x="417" y="640" class="ts">5. N2 ≈ 0.5 L/min per funnel (DWG D4 leg A); 0.5 mm jets</text>
+  <text x="417" y="654" class="ts">    balance the two funnels; excess gas exits UP through</text>
+  <text x="417" y="668" class="ts">    the spout openings — room air never enters.</text>
+  <text x="417" y="682" class="ts">6. Diverter = purchased mini 3-way valve (BOM), 1/4 NPT,</text>
+  <text x="417" y="696" class="ts">    food-safe PTFE tape on threads. Detented; WASTE =</text>
+  <text x="417" y="710" class="ts">    resting state; BATCH once per session (§2.6). Valve</text>
+  <text x="417" y="724" class="ts">    passage is in the CIP path — flick both ways in rinse.</text>
+  <text x="417" y="738" class="ts">7. Purge: lid lifts off; tapered purge stopper (D4 leg C)</text>
+  <text x="417" y="752" class="ts">    seats in the funnel mouth.</text>
+  <text x="417" y="766" class="ts">8. QTY 2 — one per brew module; parts identical.</text>
+
+  <!-- ================= PARAMETERS (right) ================= -->
+  <rect x="770" y="445" width="370" height="160" fill="none" stroke="#b45309" stroke-width="1.2"/>
+  <text x="782" y="467" class="tb">PARAMETERS <tspan class="dimt">(orange = site-measured)</tspan></text>
+  <text x="782" y="490" class="ts"><tspan class="dimtb">P</tspan> — spout-to-spout pitch within a head; unpublished —</text>
+  <text x="782" y="504" class="ts">    MEASURE at the Eversys demo (<tspan class="dimt">VERIFY #1</tspan>). Placeholder 40.</text>
+  <text x="782" y="522" class="ts"><tspan class="dimtb">ØS</tspan> — spout openings = measured spout-tip Ø + 3 clearance;</text>
+  <text x="782" y="536" class="ts">    Ø14 placeholder shown.</text>
+  <text x="782" y="554" class="ts"><tspan class="dimtb">PINS</tspan> — Ø4 locating-pin positions site-fit to the Enigma</text>
+  <text x="782" y="568" class="ts">    tray; drill at commissioning (<tspan class="dimt">VERIFY #9</tspan>).</text>
+  <text x="782" y="590" class="ts">Working height 20–40 above lid — set at slide (<tspan class="dimt">VERIFY #2</tspan>).</text>
+
+  <!-- ================= TITLE BLOCK (bottom-right) ================= -->
+  <g>
+    <rect x="770" y="628" width="370" height="162" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+    <text x="782" y="652" class="tb">ESPRESSO CHILLER — ENIGMA E4s</text>
+    <text x="782" y="670" class="ts">D6 — DUAL-SPOUT CATCH FUNNEL (QTY 2)</text>
+    <line x1="770" y1="680" x2="1140" y2="680" stroke="#1f3a4d" stroke-width="1"/>
+    <text x="782" y="700" class="tb">DWG D6 · REV C</text>
+    <line x1="990" y1="680" x2="990" y2="708" stroke="#1f3a4d" stroke-width="1"/>
+    <text x="1002" y="700" class="tb">2026-08-07</text>
+    <line x1="770" y1="708" x2="1140" y2="708" stroke="#1f3a4d" stroke-width="1"/>
+    <text x="782" y="728" class="ts">mm; tol ±0.5 machined unless noted</text>
+    <text x="782" y="746" class="ts">Refs: package §8 · §2.6 · DWG D4 (N2) · DWG D1 (coil) · BOM</text>
+    <text x="782" y="764" class="ts">Material: 316 (lid opt. PTFE) · food contact · Ra ≤ 0.8 int.</text>
+    <text x="782" y="782" class="ts">Scale: views not to a common scale · sheet 1 / 1</text>
+  </g>
+</svg>

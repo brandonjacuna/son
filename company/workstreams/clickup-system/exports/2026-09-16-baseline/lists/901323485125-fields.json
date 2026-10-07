@@ -1,0 +1,59 @@
+{
+ "fields": [
+  {
+   "id": "315aa6ba-98ae-4b47-b6b5-05e38d7cf925",
+   "name": "Next Action",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1773787420866",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "52c7d5a1-da8c-4eae-b82e-cb56f34dbcbd",
+   "name": "Notes from BJAC",
+   "type": "short_text",
+   "type_config": {},
+   "date_created": "1752506094287",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "ad6e8c19-d9d8-4e55-8fb2-7a96ef45de0d",
+   "name": "Project",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "options": [
+     {
+      "id": "5c4c6625-d73a-42ff-9841-67eef8b2d907",
+      "name": "Financials",
+      "color": "#FF4081",
+      "orderindex": 0
+     },
+     {
+      "id": "cf944020-b078-4470-a5bf-227e27e24f92",
+      "name": "White Paper",
+      "color": "#7C4DFF",
+      "orderindex": 1
+     },
+     {
+      "id": "6b36d500-226d-4bef-87ab-9f26ee8afb63",
+      "name": "Pitch Deck",
+      "color": "#3397dd",
+      "orderindex": 2
+     },
+     {
+      "id": "a07193d1-f8f4-4318-a31f-fe66da148168",
+      "name": "Research",
+      "color": "#02BCD4",
+      "orderindex": 3
+     }
+    ]
+   },
+   "date_created": "1765822518815",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ]
+}

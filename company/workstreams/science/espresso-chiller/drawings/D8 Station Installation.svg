@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="da8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+    </marker>
+    <marker id="fa8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#155e75"/>
+    </marker>
+    <marker id="ga8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/>
+    </marker>
+  </defs>
+  <style>
+    .out { stroke:#1f3a4d; stroke-width:1.8; fill:#ffffff }
+    .outlt { stroke:#1f3a4d; stroke-width:1.3; fill:#f2f7f9 }
+    .prod { stroke:#155e75; stroke-width:1.8; fill:none }
+    .prodd { stroke:#155e75; stroke-width:1.4; fill:none; stroke-dasharray:6 4 }
+    .dim { stroke:#b45309; stroke-width:1; fill:none }
+    .dimt { fill:#b45309; font-size:12px }
+    .t { fill:#1f3a4d; font-size:12.5px }
+    .ts { fill:#1f3a4d; font-size:11.5px }
+    .tb { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .h1 { fill:#1f3a4d; font-size:17px; font-weight:bold }
+    .h2 { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .lvl { stroke:#8899a6; stroke-width:0.8; stroke-dasharray:8 4; fill:none }
+    .hid { stroke:#7a7a7a; stroke-width:1.2; fill:none; stroke-dasharray:6 4 }
+    .sym { stroke:#1f3a4d; stroke-width:1.4; fill:#ffffff }
+    .steel { fill:#dde4e9; stroke:#1f3a4d; stroke-width:1.3 }
+    .glyc { fill:#e8f2ee }
+    .gr { stroke:#7a7a7a; stroke-width:1.4; fill:none }
+  </style>
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+  <rect x="8" y="8" width="1164" height="804" fill="none" stroke="#1f3a4d" stroke-width="1.5"/>
+  <text x="24" y="38" class="h1">D8 — STATION FRAME &amp; UNDER-BENCH INSTALLATION</text>
+  <text x="24" y="58" class="ts">Rev C back-of-kitchen batch station · welded tube frame, bench 1400 × 700 at 1000 mm · elevations agree with D3 · under-bench zone dims reference the FRAME</text>
+
+  <!-- ============ FRONT ELEVATION ============ -->
+  <text x="40" y="96" class="h2">FRONT ELEVATION — frame · bench · under-bench arrangement</text>
+  <text x="40" y="112" class="ts">dimensions govern; the two views are not to a common scale</text>
+
+  <!-- floor -->
+  <line x1="56" y1="640" x2="508" y2="640" stroke="#1f3a4d" stroke-width="3"/>
+  <g stroke="#8899a6" stroke-width="1">
+    <line x1="80" y1="640" x2="68" y2="652"/><line x1="160" y1="640" x2="148" y2="652"/><line x1="240" y1="640" x2="228" y2="652"/><line x1="320" y1="640" x2="308" y2="652"/><line x1="400" y1="640" x2="388" y2="652"/><line x1="480" y1="640" x2="468" y2="652"/>
+  </g>
+
+  <!-- frame: top rail, 3 visible legs, feet -->
+  <rect x="115" y="397.5" width="360" height="10" class="outlt"/>
+  <rect x="120" y="407.5" width="10" height="224.5" class="outlt"/>
+  <rect x="290" y="407.5" width="10" height="224.5" class="outlt"/>
+  <rect x="460" y="407.5" width="10" height="224.5" class="outlt"/>
+  <rect x="117" y="632" width="16" height="8" class="steel"/>
+  <rect x="287" y="632" width="16" height="8" class="steel"/>
+  <rect x="457" y="632" width="16" height="8" class="steel"/>
+
+  <!-- bench slab (30 build-up) with hatch gap and two O25 holes -->
+  <rect x="120" y="390" width="34.5" height="7.5" class="steel"/>
+  <rect x="259.5" y="390" width="62.5" height="7.5" class="steel"/>
+  <rect x="328" y="390" width="64" height="7.5" class="steel"/>
+  <rect x="398" y="390" width="72" height="7.5" class="steel"/>
+  <!-- hatch cover, lifted 2 px, finger holes -->
+  <rect x="157" y="386" width="100" height="7.5" class="out"/>
+  <circle cx="185" cy="389.8" r="2.6" class="sym"/>
+  <circle cx="229" cy="389.8" r="2.6" class="sym"/>
+  <text x="120" y="358" class="ts">ACCESS HATCH ≥420 × 420</text>
+  <text x="120" y="372" class="ts">lift-out cover · finger holes</text>
+  <line x1="252" y1="374" x2="228" y2="386" class="gr"/>
+  <!-- O25 holes label -->
+  <text x="120" y="318" class="dimt">Ø25 grommeted holes ×2</text>
+  <text x="120" y="332" class="dimt">spacing per VERIFY #1</text>
+  <line x1="238" y1="336" x2="320" y2="388" class="dim" marker-end="url(#da8)"/>
+
+  <!-- machine -->
+  <rect x="290" y="204" width="140" height="186" class="outlt"/>
+  <text x="360" y="240" class="tb" text-anchor="middle">ENIGMA E'4s</text>
+  <text x="360" y="257" class="ts" text-anchor="middle">560 W × 743 H × 600 D</text>
+  <text x="360" y="272" class="ts" text-anchor="middle">90 kg</text>
+  <text x="360" y="287" class="ts" text-anchor="middle">208 V / 30 A · 4.6 kW</text>
+  <!-- catch funnels over the two holes -->
+  <path d="M 315 356 L 335 356 L 328 374 L 322 374 Z" class="out"/>
+  <line x1="325" y1="374" x2="325" y2="388" class="prod"/>
+  <path d="M 385 356 L 405 356 L 398 374 L 392 374 Z" class="out"/>
+  <line x1="395" y1="374" x2="395" y2="388" class="prod"/>
+  <!-- hopper refill clearance -->
+  <line x1="290" y1="142" x2="486" y2="142" class="lvl"/>
+  <line x1="430" y1="204" x2="486" y2="204" class="lvl"/>
+  <line x1="478" y1="142" x2="478" y2="204" class="dim" marker-start="url(#da8)" marker-end="url(#da8)"/>
+  <text x="370" y="168" class="dimt">≥250 hopper refill</text>
+  <text x="370" y="183" class="ts">total ≈ 2.0 m AFF</text>
+
+  <!-- drop lines through hatch zone to cassette stubs -->
+  <path d="M 325 398 L 242 429" class="prodd" marker-end="url(#fa8)"/>
+  <path d="M 395 398 L 254 429" class="prodd" marker-end="url(#fa8)"/>
+
+  <!-- chiller under hatch -->
+  <rect x="150" y="443" width="114" height="197" class="out"/>
+  <rect x="153" y="451" width="108" height="67" class="glyc" stroke="#8fb5a5" stroke-width="1"/>
+  <path d="M 205 458 q -13 6 0 12 q -13 6 0 12 q -13 6 0 12 q -13 6 0 12" stroke="#155e75" stroke-width="1.4" fill="none"/>
+  <rect x="146" y="436" width="122" height="7" class="outlt"/>
+  <rect x="238" y="429" width="8" height="7" class="out"/>
+  <rect x="250" y="429" width="8" height="7" class="out"/>
+  <text x="156" y="412" class="ts">cassette (lifts out)</text>
+  <text x="154" y="560" class="tb">PENGUIN 2/3 HP</text>
+  <text x="154" y="576" class="tb">STAINLESS XL</text>
+  <text x="154" y="592" class="ts">457 × 457 × 787</text>
+  <text x="154" y="607" class="ts">75 lb · on floor</text>
+  <text x="154" y="622" class="ts">110–120 V · 3.9 A</text>
+  <!-- louver airflow -->
+  <text x="44" y="458" class="ts">louvered face</text>
+  <text x="44" y="476" class="dimt">≥100 clear</text>
+  <line x1="130" y1="470" x2="148" y2="470" class="gr" marker-end="url(#ga8)"/>
+  <line x1="130" y1="500" x2="148" y2="500" class="gr" marker-end="url(#ga8)"/>
+
+  <!-- product fall from cassette to bung -->
+  <path d="M 258 436 C 300 446 332 462 332 504" class="prod" marker-end="url(#fa8)"/>
+
+  <!-- airpot on floor -->
+  <rect x="304" y="526" width="56" height="114" rx="8" class="out"/>
+  <rect x="318" y="514" width="28" height="12" class="outlt"/>
+  <rect x="322" y="506" width="6" height="8" class="sym"/>
+  <rect x="336" y="506" width="6" height="8" class="sym"/>
+  <line x1="306" y1="532.5" x2="358" y2="532.5" stroke="#155e75" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="332" y="565" class="ts" text-anchor="middle">FETCO</text>
+  <text x="332" y="580" class="ts" text-anchor="middle">D041</text>
+  <text x="332" y="595" class="ts" text-anchor="middle">3.0 L</text>
+  <text x="332" y="610" class="ts" text-anchor="middle">H 457</text>
+
+  <!-- N2 cylinder chained to right leg + regulator/manifold plate -->
+  <rect x="424" y="490" width="35" height="150" rx="10" class="outlt"/>
+  <rect x="436" y="478" width="11" height="12" class="out"/>
+  <text x="441" y="600" class="ts" text-anchor="middle" transform="rotate(-90 441 600)">N2 40 cu ft</text>
+  <line x1="459" y1="530" x2="464" y2="534" class="gr"/>
+  <line x1="459" y1="540" x2="464" y2="544" class="gr"/>
+  <rect x="430" y="436" width="34" height="38" class="sym"/>
+  <line x1="532" y1="478" x2="466" y2="460" class="gr" marker-end="url(#ga8)"/>
+  <text x="534" y="482" class="ts">reg + manifold plate</text>
+  <text x="534" y="496" class="ts">on the leg — see D4</text>
+
+  <!-- elevation dim chain -->
+  <line x1="520" y1="140" x2="520" y2="640" class="dim"/>
+  <g class="dim">
+    <line x1="512" y1="142" x2="528" y2="142"/>
+    <line x1="512" y1="204" x2="528" y2="204"/>
+    <line x1="512" y1="390" x2="528" y2="390"/>
+    <line x1="512" y1="440" x2="528" y2="440"/>
+    <line x1="512" y1="443" x2="528" y2="443"/>
+    <line x1="512" y1="451" x2="528" y2="451"/>
+    <line x1="512" y1="522.5" x2="528" y2="522.5"/>
+    <line x1="512" y1="532.5" x2="528" y2="532.5"/>
+    <line x1="512" y1="640" x2="528" y2="640"/>
+  </g>
+  <text x="532" y="146" class="dimt">1993 clearance top</text>
+  <text x="532" y="208" class="dimt">1743 machine top</text>
+  <text x="532" y="394" class="dimt">1000 bench top</text>
+  <text x="532" y="436" class="dimt">800 U-crest</text>
+  <text x="532" y="449" class="dimt">787 tank rim</text>
+  <text x="532" y="462" class="dimt">757 glycol</text>
+  <text x="532" y="521" class="dimt">470 bung</text>
+  <text x="532" y="538" class="dimt">430 full level</text>
+  <text x="532" y="644" class="dimt">0 floor</text>
+
+  <!-- bench width dim + feet note -->
+  <line x1="120" y1="660" x2="120" y2="676" class="dim"/>
+  <line x1="470" y1="660" x2="470" y2="676" class="dim"/>
+  <line x1="120" y1="668" x2="470" y2="668" class="dim" marker-start="url(#da8)" marker-end="url(#da8)"/>
+  <text x="295" y="684" class="dimt" text-anchor="middle">bench 1400 W × 700 D — frame outer</text>
+  <text x="42" y="690" class="ts">leveling feet ±15 (×6)</text>
+
+  <!-- ============ PLAN AT FLOOR LEVEL ============ -->
+  <text x="676" y="96" class="h2">PLAN AT FLOOR LEVEL — under-bench zone map</text>
+  <text x="676" y="112" class="ts">dims referenced to the FRAME (not the wall) · dashed items sit above floor level</text>
+
+  <!-- width dim + REAR -->
+  <line x1="700" y1="130" x2="700" y2="146" class="dim"/>
+  <line x1="1120" y1="130" x2="1120" y2="146" class="dim"/>
+  <line x1="700" y1="138" x2="1120" y2="138" class="dim" marker-start="url(#da8)" marker-end="url(#da8)"/>
+  <text x="910" y="133" class="dimt" text-anchor="middle">1400</text>
+  <text x="910" y="151" class="ts" text-anchor="middle">REAR (wall side)</text>
+
+  <!-- frame outline + legs -->
+  <rect x="700" y="155" width="420" height="210" class="out"/>
+  <rect x="712" y="167" width="396" height="186" fill="none" stroke="#1f3a4d" stroke-width="0.9"/>
+  <rect x="700" y="155" width="12" height="12" class="steel"/>
+  <rect x="1108" y="155" width="12" height="12" class="steel"/>
+  <rect x="700" y="353" width="12" height="12" class="steel"/>
+  <rect x="1108" y="353" width="12" height="12" class="steel"/>
+  <rect x="904" y="155" width="12" height="12" class="steel"/>
+  <rect x="904" y="353" width="12" height="12" class="steel"/>
+
+  <!-- depth dim -->
+  <line x1="668" y1="155" x2="684" y2="155" class="dim"/>
+  <line x1="668" y1="365" x2="684" y2="365" class="dim"/>
+  <line x1="676" y1="155" x2="676" y2="365" class="dim" marker-start="url(#da8)" marker-end="url(#da8)"/>
+  <text x="670" y="260" class="dimt" text-anchor="middle" transform="rotate(-90 670 260)">700</text>
+
+  <!-- ZONE A chiller + hatch above -->
+  <rect x="742" y="197" width="137" height="137" class="outlt"/>
+  <rect x="747.5" y="202.5" width="126" height="126" fill="none" stroke="#8899a6" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="810" y="254" class="tb" text-anchor="middle">A — CHILLER</text>
+  <text x="810" y="270" class="ts" text-anchor="middle">457 × 457</text>
+  <text x="810" y="285" class="ts" text-anchor="middle">hatch above (dashed)</text>
+  <line x1="716" y1="240" x2="738" y2="240" class="gr" marker-end="url(#ga8)"/>
+  <line x1="716" y1="300" x2="738" y2="300" class="gr" marker-end="url(#ga8)"/>
+  <line x1="800" y1="171" x2="800" y2="193" class="gr" marker-end="url(#ga8)"/>
+  <line x1="845" y1="171" x2="845" y2="193" class="gr" marker-end="url(#ga8)"/>
+  <line x1="714" y1="320" x2="740" y2="320" class="dim" marker-start="url(#da8)" marker-end="url(#da8)"/>
+  <text x="727" y="314" class="dimt" text-anchor="middle">100</text>
+  <line x1="763" y1="169" x2="763" y2="195" class="dim" marker-start="url(#da8)" marker-end="url(#da8)"/>
+  <text x="770" y="186" class="dimt">100</text>
+
+  <!-- floor siphon + drain hoses -->
+  <circle cx="940" cy="190" r="9" class="out"/>
+  <circle cx="940" cy="190" r="4" class="gr"/>
+  <text x="886" y="228" class="ts">siphon ≥ Ø56</text>
+  <path d="M 879 215 L 933 193" class="hid" marker-end="url(#ga8)"/>
+  <path d="M 1005 268 L 966 232 L 947 198" class="hid" marker-end="url(#ga8)"/>
+
+  <!-- ZONE B airpot bay + slide-out -->
+  <rect x="890" y="250" width="75" height="75" fill="#ffffff" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="5 3"/>
+  <circle cx="927" cy="266" r="6" class="sym"/>
+  <line x1="922.8" y1="261.8" x2="931.2" y2="270.2" stroke="#1f3a4d" stroke-width="1.2"/>
+  <line x1="931.2" y1="261.8" x2="922.8" y2="270.2" stroke="#1f3a4d" stroke-width="1.2"/>
+  <text x="927" y="292" class="tb" text-anchor="middle">B</text>
+  <text x="927" y="306" class="ts" text-anchor="middle">airpot bay</text>
+  <text x="927" y="319" class="ts" text-anchor="middle">250 × 250</text>
+  <line x1="890" y1="325" x2="890" y2="365" class="hid"/>
+  <line x1="965" y1="325" x2="965" y2="365" class="hid"/>
+  <line x1="927" y1="328" x2="927" y2="397" class="prod" marker-end="url(#fa8)"/>
+  <text x="927" y="411" class="ts" text-anchor="middle">slide-out — keep clear</text>
+  <text x="910" y="426" class="ts" text-anchor="middle">FRONT (operator side)</text>
+
+  <!-- ZONE C N2 at rear-right leg -->
+  <circle cx="1078" cy="198" r="21" class="outlt"/>
+  <text x="1078" y="202" class="ts" text-anchor="middle">N2</text>
+  <line x1="1092" y1="182" x2="1102" y2="172" class="hid"/>
+  <rect x="1096" y="157" width="24" height="24" fill="none" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="5 3"/>
+  <text x="1128" y="196" class="tb">C</text>
+
+  <!-- ZONE D CIP shelf (mid-height) -->
+  <rect x="1000" y="260" width="90" height="90" fill="none" stroke="#7a7a7a" stroke-width="1.2" stroke-dasharray="5 3"/>
+  <text x="1045" y="300" class="tb" text-anchor="middle">D — CIP</text>
+  <text x="1045" y="315" class="ts" text-anchor="middle">300 × 300</text>
+  <text x="1045" y="329" class="ts" text-anchor="middle">(mid-height)</text>
+
+  <!-- ZONE E water treatment (rear, at supply entry) -->
+  <rect x="975" y="170" width="75" height="60" class="outlt"/>
+  <text x="1012" y="192" class="tb" text-anchor="middle">E</text>
+  <text x="1012" y="207" class="ts" text-anchor="middle">water treat</text>
+  <text x="1012" y="221" class="ts" text-anchor="middle">(VERIFY #12)</text>
+  <line x1="1012" y1="142" x2="1012" y2="166" class="gr" marker-end="url(#ga8)"/>
+
+  <!-- zone key -->
+  <text x="690" y="444" class="tb">ZONES (floor level unless noted)</text>
+  <text x="690" y="460" class="ts">A — chiller under hatch (dashed); ≥100 clear at louvers + rear (arrows = airflow)</text>
+  <text x="690" y="474" class="ts">B — airpot bay under the bung drop ⊗ — slide-out path to the FRONT stays clear</text>
+  <text x="690" y="488" class="ts">C — N2 cylinder Ø≈140 chained to rear leg; reg/manifold plate (dashed) — D4</text>
+  <text x="690" y="502" class="ts">D — CIP shelf mid-height (dashed): pump · detergent · TC adapters · waste jug</text>
+  <text x="690" y="516" class="ts">E — water treatment (VERIFY #12) at the supply entry (arrow at rear rail)</text>
+  <text x="690" y="530" class="ts">◎ — floor siphon ≥ Ø56 at rear; drain hoses (dashed) fall continuously, no traps</text>
+
+  <!-- utilities table -->
+  <g>
+    <rect x="690" y="548" width="466" height="128" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+    <line x1="690" y1="570" x2="1156" y2="570" stroke="#1f3a4d" stroke-width="0.9"/>
+    <line x1="808" y1="570" x2="808" y2="676" stroke="#1f3a4d" stroke-width="0.6"/>
+    <line x1="690" y1="591" x2="1156" y2="591" stroke="#8899a6" stroke-width="0.6"/>
+    <line x1="690" y1="612" x2="1156" y2="612" stroke="#8899a6" stroke-width="0.6"/>
+    <line x1="690" y1="633" x2="1156" y2="633" stroke="#8899a6" stroke-width="0.6"/>
+    <line x1="690" y1="654" x2="1156" y2="654" stroke="#8899a6" stroke-width="0.6"/>
+    <text x="700" y="564" class="tb">UTILITIES</text>
+    <text x="700" y="585" class="ts">POWER — machine</text>
+    <text x="816" y="585" class="ts">208 V / 30 A dedicated (6-30/L6-30 class — verify plug) · 4.6 kW</text>
+    <text x="700" y="606" class="ts">POWER — bench</text>
+    <text x="816" y="606" class="ts">duplex 120 V: chiller 3.9 A · logger laptop · CIP 12 V</text>
+    <text x="700" y="627" class="ts">WATER</text>
+    <text x="816" y="627" class="ts">G3/8 · 2.5–4.0 bar · ≥200 L/h → treatment (E) → machine</text>
+    <text x="700" y="648" class="ts">DRAIN</text>
+    <text x="816" y="648" class="ts">tray + rinse → floor siphon ≥ Ø56 · continuous fall</text>
+    <text x="700" y="669" class="ts">GAS</text>
+    <text x="816" y="669" class="ts">N2 40 cu ft beverage grade → 10 psi reg → D4 train</text>
+  </g>
+
+  <!-- notes -->
+  <g>
+    <rect x="24" y="700" width="652" height="96" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+    <text x="36" y="718" class="tb">NOTES</text>
+    <text x="36" y="734" class="ts">1. Hatch lift path must clear the cassette — both coils rise ~350 mm before tilting; keep the space above the hatch clear.</text>
+    <text x="36" y="748" class="ts">2. Bung swaps happen from the FRONT at Zone B: close QD jumpers, slide the pot out — no reaching into the chiller zone.</text>
+    <text x="36" y="762" class="ts">3. All product runs ≤ 40 cm and continuously falling (see D3). Zone dimensions reference the FRAME, not the wall.</text>
+    <text x="36" y="776" class="ts">4. Bench top 30 mm build-up: 304 sheet over sealed ply or HDPE. Frame 40 × 40 × 3 stainless (or powder steel) tube.</text>
+    <text x="36" y="790" class="ts">5. Drill Ø25 holes only after VERIFY #1 head-spacing. Floor anchors optional — level the feet, re-check D3 elevations.</text>
+  </g>
+
+  <!-- title block -->
+  <g>
+    <rect x="744" y="712" width="412" height="80" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+    <line x1="744" y1="738" x2="1156" y2="738" stroke="#1f3a4d" stroke-width="0.8"/>
+    <line x1="744" y1="765" x2="1156" y2="765" stroke="#1f3a4d" stroke-width="0.8"/>
+    <line x1="964" y1="712" x2="964" y2="792" stroke="#1f3a4d" stroke-width="0.8"/>
+    <text x="754" y="730" class="ts">ESPRESSO CHILLER — ENIGMA E4s</text>
+    <text x="974" y="730" class="ts">DWG D8 · REV C</text>
+    <text x="754" y="757" class="ts">STATION FRAME &amp; INSTALLATION</text>
+    <text x="974" y="757" class="ts">companion: D3 · D4</text>
+    <text x="754" y="784" class="ts">mm; tol ±2 fabricated unless noted</text>
+    <text x="974" y="784" class="ts">2026-08-07</text>
+  </g>
+</svg>

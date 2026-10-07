@@ -1,0 +1,75 @@
+{
+ "id": "901313738581",
+ "name": "Design Capture",
+ "deleted": false,
+ "orderindex": 0,
+ "content": "",
+ "status": {
+  "status": "yellow",
+  "color": "#f8ae00",
+  "hide_label": true
+ },
+ "priority": null,
+ "assignee": null,
+ "task_count": 11,
+ "due_date": null,
+ "start_date": null,
+ "folder": {
+  "id": "90138505921",
+  "name": "hidden",
+  "hidden": true,
+  "archived": false,
+  "access": true
+ },
+ "space": {
+  "id": "90136725596",
+  "name": "Design & Visuals",
+  "archived": false,
+  "access": true
+ },
+ "archived": false,
+ "override_statuses": true,
+ "statuses": [
+  {
+   "id": "sc901313738581_lEwF3V1c",
+   "status": "revist",
+   "orderindex": 0,
+   "color": "#87909e",
+   "type": "open",
+   "status_group": "subcat_901313738581"
+  },
+  {
+   "id": "sc901313738581_QHwc42my",
+   "status": "planning",
+   "orderindex": 1,
+   "color": "#87909e",
+   "type": "custom",
+   "status_group": "subcat_901313738581"
+  },
+  {
+   "id": "sc901313738581_w6DJiw0o",
+   "status": "in progress",
+   "orderindex": 2,
+   "color": "#5f55ee",
+   "type": "custom",
+   "status_group": "subcat_901313738581"
+  },
+  {
+   "id": "sc901313738581_MlvwINar",
+   "status": "complete",
+   "orderindex": 3,
+   "color": "#0f9d9f",
+   "type": "done",
+   "status_group": "subcat_901313738581"
+  },
+  {
+   "id": "sc901313738581_TFtF2CEI",
+   "status": "cancelled",
+   "orderindex": 4,
+   "color": "#008844",
+   "type": "closed",
+   "status_group": "subcat_901313738581"
+  }
+ ],
+ "permission_level": "create"
+}

@@ -1,0 +1,2878 @@
+[
+ {
+  "space": {
+   "id": "90138396180",
+   "name": "Founding Sŏn",
+   "color": "#30a46c",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90138396180_Itee3eXk",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90138396180_Kx9s39io",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90138396180_C01M6OY2",
+     "status": "complete",
+     "type": "closed",
+     "orderindex": 2,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901318673993",
+    "name": "Capital Raise Documents",
+    "orderindex": 4,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90138396180",
+     "name": "Founding Sŏn"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "parent_folder": "901318538697",
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901323485125",
+    "name": "Founding Punch List",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "green",
+     "color": "#008844",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 26,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318761527",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90138396180",
+     "name": "Founding Sŏn",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136734098",
+   "name": "Business Intelligence",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136734098_530uFdZS",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136734098_m6ceUKeM",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136734098_RaFFQP5z",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136734098_c5fnlPvn",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136734098_GHJcYexf",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136734098_0ZMdjBxX",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136734098_kPyAW5tW",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136734098_Ef4WcmA5",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [],
+  "folderless_lists": [
+   {
+    "id": "901313752244",
+    "name": "B.I. Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "90138515492",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136734098",
+     "name": "Business Intelligence",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136725596",
+   "name": "Design & Visuals",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136725596_PyI80cEd",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136725596_25hch5fB",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136725596_hqQpZqM2",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136725596_jQigVVjl",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136725596_QR7zfxdY",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136725596_cfQHfVHh",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136725596_WKr8sbBj",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136725596_oRAmGkfu",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901318761389",
+    "name": "Design Documents",
+    "orderindex": 0,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136725596",
+     "name": "Design & Visuals"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901313738581",
+    "name": "Design Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 11,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "90138505921",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136725596",
+     "name": "Design & Visuals",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136733952",
+   "name": "Events",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136733952_aZTuxWuD",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733952_KIrFOtTZ",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733952_lKVa1xtb",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136733952_BHCACVGj",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136733952_q1Rj4mV3",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136733952_qb7rH9Bd",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136733952_PLjQOarN",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136733952_pRbL1r8c",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [],
+  "folderless_lists": [
+   {
+    "id": "901313751988",
+    "name": "Events Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 1,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "90138515330",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136733952",
+     "name": "Events",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136733856",
+   "name": "Finance",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136733856_h0u9sJCH",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733856_y4LpaupP",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136733856_JDtqqFJ2",
+     "status": "complete",
+     "type": "closed",
+     "orderindex": 2,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901318761394",
+    "name": "Finance Documents",
+    "orderindex": 0,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136733856",
+     "name": "Finance"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901313751831",
+    "name": "Finance Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "90138515228",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136733856",
+     "name": "Finance",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136733933",
+   "name": "Hospitality",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136733933_hFS9rpbB",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733933_Gr2dLqYj",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733933_Da1CRtZ9",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136733933_yDhtk90e",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136733933_CSSmnc2j",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136733933_HcjYrkri",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136733933_2kfUjkVu",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136733933_cPj8Nl5x",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [],
+  "folderless_lists": [
+   {
+    "id": "901313751954",
+    "name": "Hospitality Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 2,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "90138515309",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136733933",
+     "name": "Hospitality",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136733940",
+   "name": "Operations",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136733940_mms9Bhcz",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733940_lIB7u39U",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733940_wPNdWpA5",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136733940_6UKs448U",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136733940_c10PXuzA",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136733940_FsxyMnXX",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136733940_PNMQZl4D",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136733940_687utaFH",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901317169288",
+    "name": "Operations Documents",
+    "orderindex": 1,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136733940",
+     "name": "Operations"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901327291225",
+    "name": "Operations Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 9,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318280261",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136733940",
+     "name": "Operations",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   },
+   {
+    "id": "901327884538",
+    "name": "Carryover Register",
+    "orderindex": 0,
+    "content": "Capture surface for the Scaling People program. Not a work list. Anything that surfaces out of sequence lands here, from any chat, at any time. Routed items link to a target session task and are read before that session opens. This is where the tangent protocol and pause-and-resume write.",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 125,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318761489",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136733940",
+     "name": "Operations",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136734650",
+   "name": "People",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136734650_QKTFWpGl",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136734650_nJ7PjinG",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136734650_ZEsVAGuu",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136734650_wlFkJpAG",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136734650_rC5w41eA",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136734650_IdTZZr2J",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136734650_4cWmlcy5",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136734650_tXdv9WqL",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901317650530",
+    "name": "Education/Training Modules",
+    "orderindex": 0,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136734650",
+     "name": "People"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   },
+   {
+    "id": "901318280274",
+    "name": "People Notebooks",
+    "orderindex": 1,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136734650",
+     "name": "People"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901327291241",
+    "name": "People Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 3,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318280270",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136734650",
+     "name": "People",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136688132",
+   "name": "Promotion",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136688132_bu9yjroX",
+     "status": "backlog",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136688132_IOFceSzI",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136688132_UE5gl0X0",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136688132_Hj6g2kFn",
+     "status": "ready for review",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#b660e0"
+    },
+    {
+     "id": "p90136688132_iSx3zr1h",
+     "status": "approved",
+     "type": "done",
+     "orderindex": 4,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136688132_silKdGhT",
+     "status": "rejected",
+     "type": "done",
+     "orderindex": 5,
+     "color": "#d33d44"
+    },
+    {
+     "id": "p90136688132_VpOyQlK4",
+     "status": "on hold",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136688132_ce3KC4VZ",
+     "status": "done",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901318761442",
+    "name": "Promotion Documents",
+    "orderindex": 0,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136688132",
+     "name": "Promotion"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901327291261",
+    "name": "Promotion Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318280282",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136688132",
+     "name": "Promotion",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "901312138543",
+   "name": "Product",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p901312138543_sCnVeLlJ",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p901312138543_UXIxQQBz",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p901312138543_v3NAbmx5",
+     "status": "complete",
+     "type": "closed",
+     "orderindex": 2,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": false,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901315418169",
+    "name": "Beverage",
+    "orderindex": 1,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "901312138543",
+     "name": "Product"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   },
+   {
+    "id": "901315418173",
+    "name": "Culinary",
+    "orderindex": 2,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "901312138543",
+     "name": "Product"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901327291274",
+    "name": "Product Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 1,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318280288",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "901312138543",
+     "name": "Product",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136733959",
+   "name": "Property",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136733959_uMmWyMWP",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733959_NfftHoPb",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733959_QIYCi1iG",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136733959_kN0Zyl4E",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136733959_JZO0re3J",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136733959_UP027d2J",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136733959_e9EwOheo",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136733959_dsdGr1B7",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [],
+  "folderless_lists": [
+   {
+    "id": "901327291277",
+    "name": "Property Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318280291",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136733959",
+     "name": "Property",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "90136733924",
+   "name": "Technology",
+   "color": "#3e63dd",
+   "private": false,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p90136733924_ekbCdJTT",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733924_osD1EkbX",
+     "status": "planning",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#87909e"
+    },
+    {
+     "id": "p90136733924_MXWQrZkE",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 2,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p90136733924_upFJNQMo",
+     "status": "at risk",
+     "type": "custom",
+     "orderindex": 3,
+     "color": "#e16b16"
+    },
+    {
+     "id": "p90136733924_SiuIW3SZ",
+     "status": "update required",
+     "type": "custom",
+     "orderindex": 4,
+     "color": "#f8ae00"
+    },
+    {
+     "id": "p90136733924_y0WijB8M",
+     "status": "on hold",
+     "type": "custom",
+     "orderindex": 5,
+     "color": "#aa8d80"
+    },
+    {
+     "id": "p90136733924_8RtnfCy9",
+     "status": "complete",
+     "type": "done",
+     "orderindex": 6,
+     "color": "#0f9d9f"
+    },
+    {
+     "id": "p90136733924_vEM9NFLx",
+     "status": "cancelled",
+     "type": "closed",
+     "orderindex": 7,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": true,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": true
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": true
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false
+  },
+  "folders": [
+   {
+    "id": "901318761463",
+    "name": "Tech Documents",
+    "orderindex": 8,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136733924",
+     "name": "Technology"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   },
+   {
+    "id": "901318509389",
+    "name": "Claude",
+    "orderindex": 9,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136733924",
+     "name": "Technology"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "parent_folder": "901318761463",
+    "permission_level": "create"
+   },
+   {
+    "id": "901315929256",
+    "name": "Technology Build Out",
+    "orderindex": 10,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "90136733924",
+     "name": "Technology"
+    },
+    "task_count": "286",
+    "archived": false,
+    "statuses": [],
+    "lists": [
+     {
+      "id": "901323733488",
+      "name": "Function → SaaS Map",
+      "orderindex": 2,
+      "content": "100 business functions mapped to confirmed SaaS solutions. Each task contains use cases, strategic alignment, solution owner, integration type, AI opportunity, and launch phase. Primary working document for the Dominic tech review session. Filter by Solution to see any tool's full footprint. Filter by AI Opportunity = Yes for automation conversation list. Filter by Integration Type = TBD for the 7 open decisions.",
+      "status": null,
+      "priority": null,
+      "assignee": null,
+      "task_count": 240,
+      "due_date": null,
+      "start_date": null,
+      "space": {
+       "id": "90136733924",
+       "name": "Technology",
+       "archived": false,
+       "access": true
+      },
+      "archived": false,
+      "override_statuses": true,
+      "statuses": [
+       {
+        "id": "sc901323733488_coEGnxCo",
+        "status": "not assigned",
+        "orderindex": 0,
+        "color": "#87909e",
+        "type": "open",
+        "status_group": "subcat_901323733488"
+       },
+       {
+        "id": "sc901323733488_SZF78C5m",
+        "status": "assigned",
+        "orderindex": 1,
+        "color": "#f76808",
+        "type": "custom",
+        "status_group": "subcat_901323733488"
+       },
+       {
+        "id": "sc901323733488_zdM06PGW",
+        "status": "locked in",
+        "orderindex": 2,
+        "color": "#008844",
+        "type": "closed",
+        "status_group": "subcat_901323733488"
+       }
+      ],
+      "permission_level": "create"
+     },
+     {
+      "id": "901327544218",
+      "name": "SaaS Catalog",
+      "orderindex": 3,
+      "content": "One task per confirmed or evaluated tool. Each task contains: category, primary function, functions handled (cross-referenced to Function → SaaS Map), native integrations, AI native capability, contract status, and launch phase. Use alongside Function → SaaS Map for the full picture.",
+      "status": null,
+      "priority": null,
+      "assignee": null,
+      "task_count": 46,
+      "due_date": null,
+      "start_date": null,
+      "space": {
+       "id": "90136733924",
+       "name": "Technology",
+       "archived": false,
+       "access": true
+      },
+      "archived": false,
+      "override_statuses": false,
+      "statuses": [
+       {
+        "id": "p90136733924_ekbCdJTT",
+        "status": "to do",
+        "orderindex": 0,
+        "color": "#87909e",
+        "type": "open",
+        "status_group": "proj_90136733924"
+       },
+       {
+        "id": "p90136733924_osD1EkbX",
+        "status": "planning",
+        "orderindex": 1,
+        "color": "#87909e",
+        "type": "custom",
+        "status_group": "proj_90136733924"
+       },
+       {
+        "id": "p90136733924_MXWQrZkE",
+        "status": "in progress",
+        "orderindex": 2,
+        "color": "#5f55ee",
+        "type": "custom",
+        "status_group": "proj_90136733924"
+       },
+       {
+        "id": "p90136733924_upFJNQMo",
+        "status": "at risk",
+        "orderindex": 3,
+        "color": "#e16b16",
+        "type": "custom",
+        "status_group": "proj_90136733924"
+       },
+       {
+        "id": "p90136733924_SiuIW3SZ",
+        "status": "update required",
+        "orderindex": 4,
+        "color": "#f8ae00",
+        "type": "custom",
+        "status_group": "proj_90136733924"
+       },
+       {
+        "id": "p90136733924_y0WijB8M",
+        "status": "on hold",
+        "orderindex": 5,
+        "color": "#aa8d80",
+        "type": "custom",
+        "status_group": "proj_90136733924"
+       },
+       {
+        "id": "p90136733924_8RtnfCy9",
+        "status": "complete",
+        "orderindex": 6,
+        "color": "#0f9d9f",
+        "type": "done",
+        "status_group": "proj_90136733924"
+       },
+       {
+        "id": "p90136733924_vEM9NFLx",
+        "status": "cancelled",
+        "orderindex": 7,
+        "color": "#008844",
+        "type": "closed",
+        "status_group": "proj_90136733924"
+       }
+      ],
+      "permission_level": "create"
+     }
+    ],
+    "parent_folder": "901318761463",
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901327291281",
+    "name": "Technology Capture",
+    "orderindex": 0,
+    "content": "",
+    "status": {
+     "status": "yellow",
+     "color": "#f8ae00",
+     "hide_label": true
+    },
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318280295",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "90136733924",
+     "name": "Technology",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": true,
+    "permission_level": "create"
+   }
+  ]
+ },
+ {
+  "space": {
+   "id": "901313974752",
+   "name": "Personal",
+   "color": "#000",
+   "private": true,
+   "avatar": null,
+   "admin_can_manage": false,
+   "statuses": [
+    {
+     "id": "p901313974752_XI2EzVFw",
+     "status": "to do",
+     "type": "open",
+     "orderindex": 0,
+     "color": "#87909e"
+    },
+    {
+     "id": "p901313974752_DKly2c6U",
+     "status": "in progress",
+     "type": "custom",
+     "orderindex": 1,
+     "color": "#5f55ee"
+    },
+    {
+     "id": "p901313974752_TiWAGne6",
+     "status": "complete",
+     "type": "closed",
+     "orderindex": 2,
+     "color": "#008844"
+    }
+   ],
+   "multiple_assignees": true,
+   "features": {
+    "due_dates": {
+     "enabled": true,
+     "start_date": true,
+     "remap_due_dates": false,
+     "remap_closed_due_date": false
+    },
+    "sprints": {
+     "enabled": false
+    },
+    "time_tracking": {
+     "enabled": true,
+     "harvest": false,
+     "rollup": true,
+     "default_to_billable": 2
+    },
+    "points": {
+     "enabled": false
+    },
+    "custom_items": {
+     "enabled": false
+    },
+    "priorities": {
+     "enabled": true,
+     "priorities": [
+      {
+       "color": "#f50000",
+       "id": "1",
+       "orderindex": "1",
+       "priority": "urgent"
+      },
+      {
+       "color": "#f8ae00",
+       "id": "2",
+       "orderindex": "2",
+       "priority": "high"
+      },
+      {
+       "color": "#6fddff",
+       "id": "3",
+       "orderindex": "3",
+       "priority": "normal"
+      },
+      {
+       "color": "#d8d8d8",
+       "id": "4",
+       "orderindex": "4",
+       "priority": "low"
+      }
+     ]
+    },
+    "tags": {
+     "enabled": true
+    },
+    "time_estimates": {
+     "enabled": true,
+     "rollup": true,
+     "per_assignee": false
+    },
+    "check_unresolved": {
+     "enabled": true,
+     "subtasks": null,
+     "checklists": null,
+     "comments": null
+    },
+    "milestones": {
+     "enabled": true
+    },
+    "custom_fields": {
+     "enabled": true
+    },
+    "remap_dependencies": {
+     "enabled": true
+    },
+    "dependency_warning": {
+     "enabled": true
+    },
+    "status_pies": {
+     "enabled": true
+    },
+    "multiple_assignees": {
+     "enabled": true
+    },
+    "emails": {
+     "enabled": true
+    },
+    "scheduler_enabled": false,
+    "dependency_type_enabled": false,
+    "remap_dependency_settings": {
+     "enabled": true,
+     "enforcement_mode": 2,
+     "reschedule_closed_dependencies": true
+    },
+    "reschedule_closed_dependencies": {
+     "enabled": true
+    }
+   },
+   "archived": false,
+   "members": [
+    {
+     "user": {
+      "id": 144179365,
+      "username": "Brandon John Acuña-Cardona",
+      "color": "#a18072",
+      "profilePicture": null,
+      "initials": "BA"
+     }
+    }
+   ]
+  },
+  "folders": [
+   {
+    "id": "901318674002",
+    "name": "Parked",
+    "orderindex": 1,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+     "id": "901313974752",
+     "name": "Personal"
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [],
+    "lists": [],
+    "permission_level": "create"
+   }
+  ],
+  "folderless_lists": [
+   {
+    "id": "901328175544",
+    "name": "List",
+    "orderindex": 0,
+    "content": "",
+    "status": null,
+    "priority": null,
+    "assignee": null,
+    "task_count": 0,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+     "id": "901318761530",
+     "name": "hidden",
+     "hidden": true,
+     "archived": false,
+     "access": true
+    },
+    "space": {
+     "id": "901313974752",
+     "name": "Personal",
+     "archived": false,
+     "access": true
+    },
+    "archived": false,
+    "override_statuses": false,
+    "permission_level": "create"
+   }
+  ]
+ }
+]

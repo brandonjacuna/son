@@ -1,0 +1,6 @@
+recipe,flow_g_s,outlet_C,NTU,within_spec
+ristretto 18->28 g/22 s,1.27,2.91,3.7,yes
+standard 18->40 g/27 s,1.48,4.01,3.24,yes
+lungo 18->60 g/32 s,1.88,6.5,2.64,no - needs its own coil
+double-fast 18->40 g/20 s,2.0,7.35,2.49,no - needs its own coil
+"two groups, one coil",2.96,14.12,1.77,no - needs its own coil

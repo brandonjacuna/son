@@ -1,0 +1,20 @@
+[
+ {
+  "id": "86ahmdrnj",
+  "name": "ClubHouse Ceramics for Coffee",
+  "status": {
+   "status": "revist",
+   "id": "sc901327291274_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": null,
+  "date_created": "1779379275899",
+  "date_updated": "1779379275899",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 1019,
+  "url": "https://app.clickup.com/t/86ahmdrnj"
+ }
+]

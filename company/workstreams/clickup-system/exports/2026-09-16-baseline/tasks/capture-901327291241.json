@@ -1,0 +1,56 @@
+[
+ {
+  "id": "86ak3pdy9",
+  "name": "AI Tool Certifications ",
+  "status": {
+   "status": "revist",
+   "id": "sc901327291241_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": null,
+  "date_created": "1787239399801",
+  "date_updated": "1787239399801",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ak3pdy9"
+ },
+ {
+  "id": "86aj93unr",
+  "name": "Build employee skills tree and cross-training system",
+  "status": {
+   "status": "revist",
+   "id": "sc901327291241_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": null,
+  "date_created": "1782676457295",
+  "date_updated": "1782684324267",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86aj93unr"
+ },
+ {
+  "id": "86ahwe95b",
+  "name": "Training on jargon, hand signs, service steps",
+  "status": {
+   "status": "revist",
+   "id": "sc901327291241_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": null,
+  "date_created": "1780519092637",
+  "date_updated": "1780519092637",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahwe95b"
+ }
+]

@@ -1,0 +1,75 @@
+{
+ "id": "901313752244",
+ "name": "B.I. Capture",
+ "deleted": false,
+ "orderindex": 0,
+ "content": "",
+ "status": {
+  "status": "yellow",
+  "color": "#f8ae00",
+  "hide_label": true
+ },
+ "priority": null,
+ "assignee": null,
+ "task_count": 0,
+ "due_date": null,
+ "start_date": null,
+ "folder": {
+  "id": "90138515492",
+  "name": "hidden",
+  "hidden": true,
+  "archived": false,
+  "access": true
+ },
+ "space": {
+  "id": "90136734098",
+  "name": "Business Intelligence",
+  "archived": false,
+  "access": true
+ },
+ "archived": false,
+ "override_statuses": true,
+ "statuses": [
+  {
+   "id": "sc901313752244_fKjsUH4i",
+   "status": "revist",
+   "orderindex": 0,
+   "color": "#87909e",
+   "type": "open",
+   "status_group": "subcat_901313752244"
+  },
+  {
+   "id": "sc901313752244_n7dno3vL",
+   "status": "planning",
+   "orderindex": 1,
+   "color": "#87909e",
+   "type": "custom",
+   "status_group": "subcat_901313752244"
+  },
+  {
+   "id": "sc901313752244_GLfxLp5D",
+   "status": "in progress",
+   "orderindex": 2,
+   "color": "#5f55ee",
+   "type": "custom",
+   "status_group": "subcat_901313752244"
+  },
+  {
+   "id": "sc901313752244_908H8yCm",
+   "status": "complete",
+   "orderindex": 3,
+   "color": "#0f9d9f",
+   "type": "done",
+   "status_group": "subcat_901313752244"
+  },
+  {
+   "id": "sc901313752244_PeeuP0lW",
+   "status": "cancelled",
+   "orderindex": 4,
+   "color": "#008844",
+   "type": "closed",
+   "status_group": "subcat_901313752244"
+  }
+ ],
+ "permission_level": "create"
+}

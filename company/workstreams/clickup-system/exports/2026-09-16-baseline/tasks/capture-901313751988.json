@@ -1,0 +1,362 @@
+[
+ {
+  "id": "86ahxu4vy",
+  "name": "Beer via Lindsay",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857626455",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4vy"
+ },
+ {
+  "id": "86ahxu4tv",
+  "name": "Spirits via Tyler Mallams",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857592267",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4tv"
+ },
+ {
+  "id": "86ahxu4tt",
+  "name": "Wine via Kayla McAndrew",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857587856",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4tt"
+ },
+ {
+  "id": "86ahxu4re",
+  "name": "US Foods via Jason",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857565081",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4re"
+ },
+ {
+  "id": "86ahxu4pg",
+  "name": "Pullman Market",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857523521",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4pg"
+ },
+ {
+  "id": "86ahxu4pe",
+  "name": "DoorDash",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857520991",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4pe"
+ },
+ {
+  "id": "86ahxu4mv",
+  "name": "7R",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857512973",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4mv"
+ },
+ {
+  "id": "86ahxu4mn",
+  "name": "Kettl Tea",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857505328",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4mn"
+ },
+ {
+  "id": "86ahxu4kh",
+  "name": "Spirit Tea",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857480773",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4kh"
+ },
+ {
+  "id": "86ahxu4kg",
+  "name": "GFN Coffee",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857479114",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4kg"
+ },
+ {
+  "id": "86ahxu4k4",
+  "name": "Douglas Kuehn III",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857471650",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4k4"
+ },
+ {
+  "id": "86ahxu4hc",
+  "name": "Ben E Keith",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857433899",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4hc"
+ },
+ {
+  "id": "86ahxu4h4",
+  "name": "SpotOn",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4h2",
+  "date_created": "1780857431146",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4h4"
+ },
+ {
+  "id": "86ahxu4h2",
+  "name": "Sponsors",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4fp",
+  "date_created": "1780857428695",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4h2"
+ },
+ {
+  "id": "86ahxu4gt",
+  "name": "Ummas Juice",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4g5",
+  "date_created": "1780857422240",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4gt"
+ },
+ {
+  "id": "86ahxu4gh",
+  "name": "Fineweld",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4g5",
+  "date_created": "1780857417017",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4gh"
+ },
+ {
+  "id": "86ahxu4g5",
+  "name": "Collabs",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4fp",
+  "date_created": "1780857412212",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4g5"
+ },
+ {
+  "id": "86ahxu4g2",
+  "name": "E&R Restaurants",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4fp",
+  "date_created": "1780857409798",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4g2"
+ },
+ {
+  "id": "86ahxu4fw",
+  "name": "the Meteor",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahxu4fp",
+  "date_created": "1780857400271",
+  "date_updated": "1786627504112",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4fw"
+ },
+ {
+  "id": "86ahxu4fp",
+  "name": "Design Pop Up Concepts",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751988_WC3YrroS",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": null,
+  "date_created": "1780857395695",
+  "date_updated": "1787073559016",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahxu4fp"
+ }
+]

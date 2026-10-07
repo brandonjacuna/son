@@ -1,0 +1,13 @@
+section,bath_L,heat_capacity_kJ_K,excursion_3simul_K,recovery_2K_idle_s,recovery_2K_at_90shots_h_s,shots_per_h,mean_shot_load_W,heat_leak_W,required_extraction_at_bath_W,required_rated_at_20C_W,recommended_rated_W,capacity_at_bath_W,margin_pct
+bath_sweep,4.0,15.32,2.252,67.0,178.0,,,,,,,,
+bath_sweep,5.0,19.15,1.802,83.0,222.0,,,,,,,,
+bath_sweep,6.0,22.98,1.502,100.0,266.0,,,,,,,,
+bath_sweep,7.0,26.81,1.287,117.0,311.0,,,,,,,,
+bath_sweep,8.0,30.64,1.126,133.0,355.0,,,,,,,,
+bath_sweep,9.0,34.47,1.001,150.0,400.0,,,,,,,,
+bath_sweep,10.0,38.3,0.901,166.0,444.0,,,,,,,,
+bath_sweep,11.0,42.12,0.819,183.0,488.0,,,,,,,,
+bath_sweep,12.0,45.95,0.751,200.0,533.0,,,,,,,,
+duty,,,,,,60,191.7,40.0,231.7,463.0,1000.0,500.0,116.0
+duty,,,,,,90,287.5,40.0,327.5,655.0,1000.0,500.0,53.0
+duty,,,,,,120,383.3,40.0,423.3,847.0,1000.0,500.0,18.0

@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ar7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <style>
+    .out  { stroke:#1f3a4d; stroke-width:1.8; fill:#ffffff }
+    .outlt{ stroke:#1f3a4d; stroke-width:1.3; fill:#f2f7f9 }
+    .steel{ stroke:#1f3a4d; stroke-width:1.3; fill:#dde4e9 }
+    .ph   { stroke:#7a8a94; stroke-width:1.2; fill:none; stroke-dasharray:12 3 3 3 }
+    .dim  { stroke:#6b7280; stroke-width:1; fill:none }
+    .cl   { stroke:#9aa7b0; stroke-width:0.9; fill:none; stroke-dasharray:14 4 3 4 }
+    .capd { stroke:#1f3a4d; stroke-width:1.2; fill:none; stroke-dasharray:4 3 }
+    .ts   { fill:#1f3a4d; font-size:11.5px }
+    .tb   { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .h1   { fill:#1f3a4d; font-size:17px; font-weight:bold }
+    .h2   { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .dimt { fill:#b45309; font-size:12px }
+    .dimb { fill:#b45309; font-size:13px; font-weight:bold }
+  </style>
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+  <rect x="8" y="8" width="1164" height="804" fill="none" stroke="#1f3a4d" stroke-width="1.5"/>
+  <rect x="14" y="14" width="1152" height="792" fill="none" stroke="#1f3a4d" stroke-width="0.6"/>
+
+  <text x="26" y="40" class="h1">D7 — AIRPOT BUNG, FETCO D041 (QTY 2)</text>
+  <text x="26" y="59" class="ts">Food-grade POM-C stepped plug — seals the bare D041 neck during chiller fill · 2 × 3/16 in dip tubes + swept gas port · hand-swapped for the SSM stopper at service (package §7)</text>
+
+  <!-- ================= SECTION C-C ================= -->
+  <text x="40" y="94" class="h2">SECTION C-C — PLUG SEATED IN POT NECK</text>
+
+  <!-- pot phantom: neck, shoulder, body (broken), floor -->
+  <path class="ph" d="M254,324 V396 L183,438 V462"/>
+  <path class="ph" d="M183,478 V586 Q183,590 190,590 L470,590 Q477,590 477,586 V478"/>
+  <path class="ph" d="M477,462 V438 L406,396 V324"/>
+  <!-- break jogs on pot walls -->
+  <path class="ph" d="M177,462 l10,5 l-10,6 l10,5" stroke-dasharray="none"/>
+  <path class="ph" d="M471,462 l10,5 l-10,6 l10,5" stroke-dasharray="none"/>
+
+  <!-- centerline -->
+  <line x1="330" y1="128" x2="330" y2="246" class="cl"/>
+  <line x1="330" y1="264" x2="330" y2="406" class="cl"/>
+  <line x1="330" y1="474" x2="330" y2="600" class="cl"/>
+
+  <!-- plug body: flange + pilot with chamfered lead-in -->
+  <path class="outlt" d="M242,308 H418 V324 H400 V363 L394,368 H266 L260,363 V324 H242 Z"/>
+
+  <!-- O-ring grooves + O-rings -->
+  <rect x="260" y="331" width="6" height="11" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+  <rect x="260" y="349" width="6" height="11" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+  <rect x="394" y="331" width="6" height="11" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+  <rect x="394" y="349" width="6" height="11" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+  <circle cx="257" cy="336.5" r="4" fill="#f4d9c8" stroke="#1f3a4d" stroke-width="1.1"/>
+  <circle cx="257" cy="354.5" r="4" fill="#f4d9c8" stroke="#1f3a4d" stroke-width="1.1"/>
+  <circle cx="403" cy="336.5" r="4" fill="#f4d9c8" stroke="#1f3a4d" stroke-width="1.1"/>
+  <circle cx="403" cy="354.5" r="4" fill="#f4d9c8" stroke="#1f3a4d" stroke-width="1.1"/>
+
+  <!-- gas passage through plug + flow arrow -->
+  <rect x="377" y="308" width="10" height="60" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+  <line x1="382" y1="372" x2="382" y2="392" class="dim" marker-end="url(#ar7)"/>
+
+  <!-- dip tubes (316, OD 4.76): upper run, break, lower run with 45° tips -->
+  <rect x="305" y="248" width="10" height="214" class="steel"/>
+  <rect x="345" y="248" width="10" height="214" class="steel"/>
+  <path class="steel" d="M305,478 H315 V558 L305,568 Z"/>
+  <path class="steel" d="M345,478 H355 V568 L345,558 Z"/>
+  <path class="dim" d="M303,462 l7,5 l-7,6 l7,5 M317,462 l-7,5 l7,6 l-7,5"/>
+  <path class="dim" d="M343,462 l7,5 l-7,6 l7,5 M357,462 l-7,5 l7,6 l-7,5"/>
+
+  <!-- compression glands on flange top -->
+  <rect x="301" y="290" width="18" height="18" class="steel"/>
+  <rect x="299" y="278" width="22" height="12" class="steel"/>
+  <rect x="341" y="290" width="18" height="18" class="steel"/>
+  <rect x="339" y="278" width="22" height="12" class="steel"/>
+
+  <!-- handle bridge, cut at crest (runs in Y, offset chord) -->
+  <rect x="276" y="252" width="20" height="6" class="steel"/>
+
+  <!-- gas tee block + barb + vent branch -->
+  <rect x="366" y="274" width="32" height="34" class="steel"/>
+  <rect x="398" y="283" width="32" height="10" class="steel"/>
+  <path d="M412,283 L408,293 M422,283 L418,293" stroke="#1f3a4d" stroke-width="1" fill="none"/>
+  <rect x="377" y="258" width="10" height="16" class="steel"/>
+  <rect x="368" y="244" width="28" height="14" rx="4" class="out"/>
+  <path d="M375,254 Q382,246 389,254 M382,254 L382,257" stroke="#1f3a4d" stroke-width="1.1" fill="none"/>
+  <rect x="364" y="232" width="36" height="10" class="capd"/>
+  <line x1="398" y1="251" x2="416" y2="251" class="dim" marker-end="url(#ar7)"/>
+
+  <!-- ===== dimensions ===== -->
+  <!-- 25 finger clearance under handle -->
+  <line x1="286" y1="258" x2="286" y2="308" class="dim" marker-start="url(#ar7)" marker-end="url(#ar7)"/>
+  <text x="263" y="288" class="ts">25</text>
+
+  <!-- dip-tube pitch 20 -->
+  <line x1="310" y1="415" x2="310" y2="445" class="cl"/>
+  <line x1="350" y1="415" x2="350" y2="445" class="cl"/>
+  <line x1="284" y1="430" x2="310" y2="430" class="dim" marker-end="url(#ar7)"/>
+  <line x1="376" y1="430" x2="350" y2="430" class="dim" marker-end="url(#ar7)"/>
+  <text x="322" y="426" class="ts">20</text>
+
+  <!-- N across neck -->
+  <line x1="254" y1="398" x2="254" y2="466" class="dim"/>
+  <line x1="406" y1="398" x2="406" y2="466" class="dim"/>
+  <line x1="254" y1="460" x2="303" y2="460" class="dim" marker-start="url(#ar7)"/>
+  <line x1="317" y1="460" x2="343" y2="460" class="dim"/>
+  <line x1="357" y1="460" x2="406" y2="460" class="dim" marker-end="url(#ar7)"/>
+  <text x="325" y="452" class="dimb">N</text>
+  <text x="416" y="464" class="ts">= neck ID — MEASURE (VERIFY #4)</text>
+
+  <!-- L dip tube length -->
+  <line x1="241" y1="324" x2="204" y2="324" class="dim"/>
+  <line x1="303" y1="568" x2="204" y2="568" class="dim"/>
+  <line x1="210" y1="324" x2="210" y2="446" class="dim" marker-start="url(#ar7)"/>
+  <line x1="210" y1="472" x2="210" y2="568" class="dim" marker-end="url(#ar7)"/>
+  <text x="210" y="463" class="dimb" text-anchor="middle">L (380)</text>
+
+  <!-- 10 off pot floor -->
+  <line x1="357" y1="568" x2="376" y2="568" class="dim"/>
+  <line x1="368" y1="568" x2="368" y2="588" class="dim" marker-start="url(#ar7)" marker-end="url(#ar7)"/>
+  <text x="374" y="583" class="ts">10</text>
+
+  <!-- 45° tip note -->
+  <text x="408" y="548" class="ts">tips cut 45°</text>
+  <line x1="404" y1="550" x2="352" y2="562" class="dim" marker-end="url(#ar7)"/>
+
+  <!-- ===== left callout column ===== -->
+  <text x="60" y="136" class="ts">to push-fit silicone jumpers</text>
+  <text x="60" y="150" class="ts">from cassette outlets —</text>
+  <text x="60" y="164" class="ts">unplug by hand (§7)</text>
+  <path class="dim" d="M178,156 L240,160 L306,246" marker-end="url(#ar7)"/>
+
+  <text x="60" y="198" class="ts">2 × Ø4.9 bores on 20 pitch;</text>
+  <text x="60" y="212" class="ts">mini 316 compression glands</text>
+  <text x="60" y="226" class="ts">hold the 3/16 in dip tubes</text>
+  <line x1="222" y1="230" x2="300" y2="292" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="60" y="262" class="ts">flange <tspan class="dimt">Ø(N+18)</tspan> × 8 thk,</text>
+  <text x="60" y="276" class="ts">POM-C acetal, food grade</text>
+  <line x1="200" y1="278" x2="242" y2="310" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="60" y="316" class="ts">2 × O-ring grooves:</text>
+  <text x="60" y="330" class="ts">cord Ø3.5 food-grade</text>
+  <text x="60" y="344" class="ts">silicone 70A; AS-568</text>
+  <text x="60" y="358" class="ts">size + groove W × D</text>
+  <text x="60" y="372" class="ts">set by measured N</text>
+  <line x1="182" y1="334" x2="253" y2="337" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="60" y="398" class="ts">pilot <tspan class="dimt">Ø(N−0.5)</tspan> × 22 deep</text>
+  <text x="60" y="412" class="ts">into bare neck; lead-in chamfer</text>
+  <line x1="200" y1="404" x2="262" y2="366" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="60" y="500" class="ts">Fetco D041 neck,</text>
+  <text x="60" y="514" class="ts">shoulder &amp; body —</text>
+  <text x="60" y="528" class="ts">PHANTOM (H 457)</text>
+  <line x1="163" y1="502" x2="180" y2="484" class="dim" marker-end="url(#ar7)"/>
+
+  <!-- ===== right callout column ===== -->
+  <text x="466" y="152" class="ts">handle bridge — 316 strip 12 × 3,</text>
+  <text x="466" y="166" class="ts">25 finger clearance; feet on flange</text>
+  <path class="dim" d="M462,156 L340,215 L286,249" marker-end="url(#ar7)"/>
+
+  <text x="468" y="204" class="ts">snap cap (storage, dashed) over</text>
+  <text x="468" y="218" class="ts">one-way umbrella vent — ref DWG D4</text>
+  <line x1="464" y1="209" x2="402" y2="238" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="468" y="262" class="ts">gas tee block:</text>
+  <text x="468" y="276" class="ts">run = 1/4 in barb ← N2 leg B (QD)</text>
+  <text x="468" y="290" class="ts">branch = vent above</text>
+
+  <text x="452" y="332" class="ts">Ø5 gas passage (headspace sweep)</text>
+  <line x1="448" y1="335" x2="389" y2="344" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="268" y="616" class="tb">SECTION C-C</text>
+  <text x="268" y="632" class="ts">pot height compressed at break; drawn at N = 70 placeholder</text>
+
+  <!-- ================= PLAN ================= -->
+  <circle cx="880" cy="235" r="75" class="outlt"/>
+  <circle cx="880" cy="235" r="59" fill="none" stroke="#7a8a94" stroke-width="1.1" stroke-dasharray="6 4"/>
+
+  <!-- handle bridge strip + feet (offset chord) -->
+  <rect x="835" y="189" width="16" height="92" class="steel"/>
+  <rect x="833" y="178" width="22" height="11" class="steel"/>
+  <rect x="833" y="281" width="22" height="11" class="steel"/>
+  <circle cx="844" cy="183.5" r="2" fill="#1f3a4d"/>
+  <circle cx="844" cy="286.5" r="2" fill="#1f3a4d"/>
+
+  <!-- dip-tube glands -->
+  <path class="steel" d="M863,226.5 l7.4,4.25 v8.5 l-7.4,4.25 l-7.4,-4.25 v-8.5 Z"/>
+  <circle cx="863" cy="235" r="4.5" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+  <path class="steel" d="M897,226.5 l7.4,4.25 v8.5 l-7.4,4.25 l-7.4,-4.25 v-8.5 Z"/>
+  <circle cx="897" cy="235" r="4.5" fill="#ffffff" stroke="#1f3a4d" stroke-width="1"/>
+
+  <!-- gas tee: block, barb (run), vent circle (branch up) -->
+  <rect x="912" y="225" width="24" height="20" class="steel"/>
+  <rect x="936" y="231" width="22" height="8" class="steel"/>
+  <circle cx="924" cy="235" r="7" class="out"/>
+  <circle cx="924" cy="235" r="3" fill="none" stroke="#1f3a4d" stroke-width="1"/>
+
+  <!-- cutting plane C-C -->
+  <line x1="782" y1="235" x2="985" y2="235" stroke="#1f3a4d" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+  <text x="766" y="241" class="tb">C</text>
+  <text x="990" y="241" class="tb">C</text>
+
+  <!-- plan labels -->
+  <text x="640" y="132" class="ts">flange <tspan class="dimt">Ø(N+18)</tspan> — drawn Ø88</text>
+  <line x1="778" y1="140" x2="814" y2="196" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="672" y="204" class="ts">handle bridge — 316 strip,</text>
+  <text x="672" y="218" class="ts">feet screwed to flange rim</text>
+  <line x1="810" y1="212" x2="836" y2="224" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="968" y="166" class="ts">neck ID <tspan class="dimt">N</tspan> (dashed)</text>
+  <text x="968" y="180" class="ts">measure — VERIFY #4</text>
+  <line x1="964" y1="170" x2="923" y2="193" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="966" y="262" class="ts">gas tee:</text>
+  <text x="966" y="276" class="ts">run = barb (N2 leg B)</text>
+  <text x="966" y="290" class="ts">branch = vent (up)</text>
+  <line x1="962" y1="266" x2="940" y2="247" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="952" y="308" class="ts">2 × dip-tube glands,</text>
+  <text x="952" y="322" class="ts">20 pitch</text>
+  <line x1="948" y1="304" x2="901" y2="243" class="dim" marker-end="url(#ar7)"/>
+
+  <text x="846" y="342" class="tb">PLAN — TOP</text>
+
+  <!-- ================= PARAMETERS ================= -->
+  <rect x="620" y="478" width="520" height="152" class="outlt"/>
+  <text x="632" y="500" class="tb">PARAMETERS — measure before machining (orange = placeholder)</text>
+  <text x="632" y="521" class="ts"><tspan class="dimb">N</tspan> = neck ID — published nowhere; MEASURE a pot in hand (VERIFY #4);</text>
+  <text x="632" y="536" class="ts">      drawn throughout at placeholder 70</text>
+  <text x="632" y="556" class="ts"><tspan class="dimb">L</tspan> = dip tube length = pot internal depth − 10; placeholder 380 — trim at fit-up</text>
+  <text x="632" y="576" class="ts">O-rings: 2 × cord Ø3.5 food-grade silicone 70A — pick AS-568 dash size and</text>
+  <text x="632" y="591" class="ts">      machine groove W × D only after N is measured (never to the 70)</text>
+  <text x="632" y="612" class="ts">Derived: flange Ø = N + 18 · pilot Ø = N − 0.5 × 22 deep</text>
+
+  <!-- ================= NOTES ================= -->
+  <rect x="40" y="648" width="770" height="144" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+  <text x="52" y="668" class="tb">NOTES</text>
+  <text x="52" y="686" class="ts">1. All wetted parts food grade: POM-C acetal plug, 316 SS dip tubes / glands / handle, platinum-cured silicone O-rings &amp; jumpers.</text>
+  <text x="52" y="702" class="ts">2. Machine only AFTER measuring N on the physical pot (VERIFY #4); O-ring grooves per AS-568 at measured N — never to the 70 placeholder.</text>
+  <text x="52" y="718" class="ts">3. Fill-time seal only — at Freepour docking the SSM stopper replaces this bung (package §7, §2.2): unplug 2 jumpers, lift by handle, swap.</text>
+  <text x="52" y="734" class="ts">4. Gas (ref DWG D4, leg B): N2 trickle 0.5–1 L/min during fill via check valve; umbrella vent OPEN whenever gas flows; snap cap for storage.</text>
+  <text x="52" y="750" class="ts">5. Never pressurize the airpot — vacuum flask: ≤ 0.5 psi at the vessel; vent is low-crack, outflow only (D4 rules).</text>
+  <text x="52" y="766" class="ts">6. Sanitation: bung + dip tubes soak daily in the SSM-approved cleaner (regimen per VERIFY #5); no fitting opened for cleaning.</text>
+  <text x="52" y="782" class="ts">7. Confirm the pot still docks in the Freepour frame with this bung removed and the SSM stopper fitted, before workflow freeze.</text>
+
+  <!-- ================= TITLE BLOCK ================= -->
+  <rect x="830" y="676" width="310" height="116" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+  <line x1="830" y1="744" x2="1140" y2="744" stroke="#1f3a4d" stroke-width="0.8"/>
+  <text x="842" y="700" class="tb">ESPRESSO CHILLER — ENIGMA E4s</text>
+  <text x="842" y="720" class="ts">D7 — AIRPOT BUNG, FETCO D041</text>
+  <text x="842" y="736" class="ts">QTY 2 · POM-C / 316 / silicone</text>
+  <text x="842" y="764" class="tb">DWG D7 · REV C · 2026-08-07</text>
+  <text x="842" y="782" class="ts">mm; tol ±0.5 machined unless noted</text>
+</svg>

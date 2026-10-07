@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 800" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+    </marker>
+    <marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#155e75"/>
+    </marker>
+  </defs>
+  <style>
+    .out { stroke:#1f3a4d; stroke-width:2; fill:none }
+    .tube { stroke:#1f3a4d; stroke-width:1.4; fill:none }
+    .dim { stroke:#b45309; stroke-width:1; fill:none }
+    .dimt { fill:#b45309; font-size:13px }
+    .lbl { fill:#155e75; font-size:13px }
+    .ldr { stroke:#155e75; stroke-width:1; fill:none }
+    .note { fill:#1f3a4d; font-size:12.5px }
+    .h1 { fill:#1f3a4d; font-size:17px; font-weight:bold }
+    .h2 { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .cl { stroke:#8899a6; stroke-width:0.8; stroke-dasharray:10 4 2 4; fill:none }
+  </style>
+  <rect x="0" y="0" width="1120" height="800" fill="#ffffff"/>
+  <rect x="8" y="8" width="1104" height="784" fill="none" stroke="#1f3a4d" stroke-width="1.5"/>
+
+  <text x="24" y="38" class="h1">D1 — CHILLING COIL, FABRICATION (QTY 2 + spare stock)</text>
+  <text x="24" y="58" class="note">316L seamless 3/16 in OD × 0.035 in wall (Ø4.76 × 0.89 mm, bore Ø2.98 mm), ASTM A213 annealed · developed ≈ 2.48 m per coil — CUT 2.6 m</text>
+
+  <!-- ======== FRONT ELEVATION (scale 1.5 px/mm) ======== -->
+  <!-- coil centerline dia 80mm=120px; tube OD 4.76mm~7px; pitch 9mm=13.5px; 9 turns -->
+  <!-- coil left edge x=250-60-3.5=186.5, right edge 313.5; center x=250 -->
+  <text x="120" y="108" class="h2">FRONT ELEVATION</text>
+  <line x1="250" y1="120" x2="250" y2="560" class="cl"/>
+
+  <!-- inlet leg: from top-rear of top turn, rising. Draw at x=310 (tangential, comes toward viewer) -->
+  <line x1="306.5" y1="150" x2="306.5" y2="278" class="tube"/>
+  <line x1="313.5" y1="150" x2="313.5" y2="278" class="tube"/>
+  <text x="330" y="163" class="lbl">INLET (from catch funnel)</text>
+  <path d="M 326 168 L 316 172" class="ldr"/>
+  <!-- flow arrow -->
+  <line x1="310" y1="185" x2="310" y2="225" stroke="#155e75" stroke-width="1.2" marker-end="url(#arrS)"/>
+  <text x="318" y="212" class="lbl">flow DOWN</text>
+
+  <!-- 9 turns: each turn = ellipse front arc; draw as stacked full ellipses (side of helix) -->
+  <!-- turn i center y = 285 + i*13.5, i=0..8 ; ellipse rx=60, ry=10 (foreshortened) ; tube thickness via two ellipses -->
+  <g class="tube">
+    <ellipse cx="250" cy="285" rx="60" ry="10"/>
+    <ellipse cx="250" cy="298.5" rx="60" ry="10"/>
+    <ellipse cx="250" cy="312" rx="60" ry="10"/>
+    <ellipse cx="250" cy="325.5" rx="60" ry="10"/>
+    <ellipse cx="250" cy="339" rx="60" ry="10"/>
+    <ellipse cx="250" cy="352.5" rx="60" ry="10"/>
+    <ellipse cx="250" cy="366" rx="60" ry="10"/>
+    <ellipse cx="250" cy="379.5" rx="60" ry="10"/>
+    <ellipse cx="250" cy="393" rx="60" ry="10"/>
+  </g>
+  <!-- outlet leg: from bottom turn, horizontal to the right -->
+  <line x1="310" y1="399.5" x2="435" y2="399.5" class="tube"/>
+  <line x1="310" y1="406.5" x2="435" y2="406.5" class="tube"/>
+  <line x1="380" y1="403" x2="425" y2="403" stroke="#155e75" stroke-width="1.2" marker-end="url(#arrS)"/>
+  <text x="352" y="425" class="lbl">OUTLET (rises to cassette inverted-U → airpot)</text>
+
+  <!-- dim: coil centerline dia -->
+  <line x1="190" y1="285" x2="190" y2="255" class="dim"/>
+  <line x1="310" y1="285" x2="310" y2="255" class="dim"/>
+  <line x1="190" y1="260" x2="310" y2="260" class="dim" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="60" y="252" class="dimt">Ø80 ±5 CL (75–90 OK)</text>
+
+  <!-- dim: stack height : turns span 285-10 to 393+10 => 275..403 = 128px = 85mm; label pitch-->
+  <line x1="176" y1="275" x2="146" y2="275" class="dim"/>
+  <line x1="176" y1="403" x2="146" y2="403" class="dim"/>
+  <line x1="151" y1="275" x2="151" y2="403" class="dim" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="143" y="345" class="dimt" transform="rotate(-90 143 345)" text-anchor="middle">stack ≤100</text>
+
+  <!-- dim: pitch between adjacent turns -->
+  <line x1="310" y1="312" x2="345" y2="312" class="dim"/>
+  <line x1="310" y1="325.5" x2="345" y2="325.5" class="dim"/>
+  <line x1="340" y1="312" x2="340" y2="325.5" class="dim" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="350" y="323" class="dimt">pitch 8–10 (open)</text>
+
+  <!-- dim: inlet leg length -->
+  <line x1="313.5" y1="150" x2="348" y2="150" class="dim"/>
+  <line x1="313.5" y1="270" x2="348" y2="270" class="dim"/>
+  <line x1="343" y1="150" x2="343" y2="270" class="dim" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="352" y="262" class="dimt">150 straight</text>
+
+  <!-- dim: outlet leg length -->
+  <line x1="310" y1="406.5" x2="310" y2="445" class="dim"/>
+  <line x1="435" y1="406.5" x2="435" y2="445" class="dim"/>
+  <line x1="310" y1="440" x2="435" y2="440" class="dim" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="337" y="455" class="dimt">100–150 straight</text>
+
+  <!-- turns count label -->
+  <path d="M 195 355 L 165 430" class="ldr"/>
+  <text x="80" y="445" class="lbl">8¾–9 turns (2.20 m coiled)</text>
+
+  <!-- ======== TOP VIEW ======== -->
+  <text x="580" y="108" class="h2">TOP VIEW</text>
+  <!-- center 660,300; centerline circle r=60 -->
+  <line x1="660" y1="215" x2="660" y2="385" class="cl"/>
+  <line x1="575" y1="300" x2="745" y2="300" class="cl"/>
+  <g class="tube">
+    <circle cx="660" cy="300" r="63.5"/>
+    <circle cx="660" cy="300" r="56.5"/>
+  </g>
+  <!-- inlet leg comes off tangent at right (x=716.5..723.5) going up? in top view inlet is vertical => shows as tube end circle -->
+  <circle cx="720" cy="300" r="3.5" class="tube"/>
+  <path d="M 723 297 L 760 275" class="ldr"/>
+  <text x="765" y="272" class="lbl">inlet leg (vertical, this end up)</text>
+  <!-- outlet leg tangential -->
+  <line x1="660" y1="360" x2="800" y2="360" class="tube"/>
+  <line x1="660" y1="367" x2="800" y2="367" class="tube"/>
+  <text x="806" y="368" class="lbl">outlet leg, tangential</text>
+  <!-- dim tube OD -->
+  <line x1="720" y1="356" x2="720" y2="330" class="dim"/>
+  <line x1="720" y1="371" x2="720" y2="390" class="dim"/>
+  <text x="710" y="404" class="dimt">Ø4.76 tube</text>
+  <line x1="717" y1="360" x2="712" y2="356" class="dim"/>
+
+  <!-- ======== TUBE SECTION DETAIL ======== -->
+  <text x="905" y="108" class="h2">TUBE SECTION (10:1)</text>
+  <circle cx="960" cy="200" r="47.6" fill="none" stroke="#1f3a4d" stroke-width="2"/>
+  <circle cx="960" cy="200" r="29.8" fill="none" stroke="#1f3a4d" stroke-width="2"/>
+  <line x1="960" y1="152.4" x2="960" y2="120" class="dim"/>
+  <line x1="1035" y1="200" x2="1007.6" y2="200" class="dim" marker-end="url(#arr)"/>
+  <text x="1040" y="204" class="dimt">OD 4.76</text>
+  <line x1="930.2" y1="200" x2="880" y2="240" class="dim"/>
+  <text x="836" y="254" class="dimt">bore 2.98</text>
+  <path d="M 960 170.2 L 995 140" class="dim"/>
+  <text x="998" y="136" class="dimt">wall 0.89</text>
+
+  <!-- ======== NOTES ======== -->
+  <text x="24" y="512" class="h2">NOTES</text>
+  <text x="24" y="534" class="note">1. WIND on Ø72–75 mm mandrel (3 in Sch 40 pipe stub); springback yields the Ø80 ±5 centerline. Bend radius ≈ 8.4× OD:</text>
+  <text x="40" y="551" class="note">annealed tube winds WITHOUT filler. If tube arrives hard: sand-fill, both ends sealed. Wind both coils from one mandrel setup.</text>
+  <text x="24" y="572" class="note">2. BORE RETENTION ≥ 95 % through all bends. REJECT any kink, flat, or wrinkle — a kinked coil invalidates the laminar design.</text>
+  <text x="24" y="593" class="note">3. ORIENTATION IN SERVICE: coil axis vertical, inlet leg UP, flow downward. Legs exit tangentially — do not kink at the transition;</text>
+  <text x="40" y="610" class="note">minimum leg bend radius 15 mm.</text>
+  <text x="24" y="631" class="note">4. ENDS square-cut, deburred inside and out, protected until fitting. Fittings: Swagelok 3/16 in 316 compression (SS-300 series).</text>
+  <text x="24" y="652" class="note">5. AFTER WINDING: degrease, citric passivate per ASTM A967, rinse to neutral, dry with filtered air. Food-contact part.</text>
+  <text x="24" y="673" class="note">6. Developed length ≈ 2.48 m = 2.20 m coiled (≈8¾ turns × π·80 mm) + 0.15 m inlet leg + 0.10–0.15 m outlet leg. CUT 2.6 m, trim at fit-up.</text>
+  <text x="24" y="694" class="note">7. Duty (reference): 78 → 4 °C espresso at 1.48 g/s, glycol bath +1 °C. Holdup 15.3 mL. Working pressure &lt; 10 kPa; leak-test at 300 kPa.</text>
+  <text x="24" y="715" class="note">8. Helix hand RH or LH. Leg clocking + final leg lengths set at FIT-UP in the bath — form legs last.</text>
+
+  <!-- title block -->
+  <g>
+    <rect x="700" y="712" width="412" height="80" fill="none" stroke="#1f3a4d" stroke-width="1.2"/>
+    <line x1="700" y1="738" x2="1112" y2="738" stroke="#1f3a4d" stroke-width="0.8"/>
+    <line x1="700" y1="765" x2="1112" y2="765" stroke="#1f3a4d" stroke-width="0.8"/>
+    <line x1="920" y1="712" x2="920" y2="792" stroke="#1f3a4d" stroke-width="0.8"/>
+    <text x="710" y="730" class="note">ESPRESSO CHILLER — ENIGMA E4s</text>
+    <text x="930" y="730" class="note">DWG D1 · REV A</text>
+    <text x="710" y="757" class="note">CHILLING COIL 316L — FAB</text>
+    <text x="930" y="757" class="note">QTY 2 · SCALE noted</text>
+    <text x="710" y="784" class="note">mm; tol ±2 (coil form per ranges)</text>
+    <text x="930" y="784" class="note">2026-08-07</text>
+  </g>
+</svg>

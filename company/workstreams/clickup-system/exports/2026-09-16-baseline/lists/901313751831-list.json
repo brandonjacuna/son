@@ -1,0 +1,75 @@
+{
+ "id": "901313751831",
+ "name": "Finance Capture",
+ "deleted": false,
+ "orderindex": 0,
+ "content": "",
+ "status": {
+  "status": "yellow",
+  "color": "#f8ae00",
+  "hide_label": true
+ },
+ "priority": null,
+ "assignee": null,
+ "task_count": 0,
+ "due_date": null,
+ "start_date": null,
+ "folder": {
+  "id": "90138515228",
+  "name": "hidden",
+  "hidden": true,
+  "archived": false,
+  "access": true
+ },
+ "space": {
+  "id": "90136733856",
+  "name": "Finance",
+  "archived": false,
+  "access": true
+ },
+ "archived": false,
+ "override_statuses": true,
+ "statuses": [
+  {
+   "id": "sc901313751831_ngaf3uDd",
+   "status": "revist",
+   "orderindex": 0,
+   "color": "#87909e",
+   "type": "open",
+   "status_group": "subcat_901313751831"
+  },
+  {
+   "id": "sc901313751831_5J4QMJD0",
+   "status": "planning",
+   "orderindex": 1,
+   "color": "#87909e",
+   "type": "custom",
+   "status_group": "subcat_901313751831"
+  },
+  {
+   "id": "sc901313751831_xx3lxJS7",
+   "status": "in progress",
+   "orderindex": 2,
+   "color": "#5f55ee",
+   "type": "custom",
+   "status_group": "subcat_901313751831"
+  },
+  {
+   "id": "sc901313751831_1RbkaWQc",
+   "status": "complete",
+   "orderindex": 3,
+   "color": "#0f9d9f",
+   "type": "done",
+   "status_group": "subcat_901313751831"
+  },
+  {
+   "id": "sc901313751831_6dQNm8vn",
+   "status": "cancelled",
+   "orderindex": 4,
+   "color": "#008844",
+   "type": "closed",
+   "status_group": "subcat_901313751831"
+  }
+ ],
+ "permission_level": "create"
+}

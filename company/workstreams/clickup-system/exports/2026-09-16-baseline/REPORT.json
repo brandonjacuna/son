@@ -1,0 +1,90 @@
+{
+ "founding-punch-list": {
+  "tasks": 491,
+  "home_list": 491,
+  "subtasks": 418
+ },
+ "carryover-register": {
+  "tasks": 125,
+  "home_list": 125,
+  "subtasks": 0
+ },
+ "saas-map": {
+  "tasks": 241,
+  "home_list": 241,
+  "subtasks": 1
+ },
+ "saas-catalog": {
+  "tasks": 46,
+  "home_list": 46,
+  "subtasks": 0
+ },
+ "capture: Business Intelligence / B.I. Capture": {
+  "tasks": 0
+ },
+ "capture: Design & Visuals / Design Capture": {
+  "tasks": 19
+ },
+ "capture: Events / Events Capture": {
+  "tasks": 20
+ },
+ "capture: Finance / Finance Capture": {
+  "tasks": 0
+ },
+ "capture: Hospitality / Hospitality Capture": {
+  "tasks": 4
+ },
+ "capture: Operations / Operations Capture": {
+  "tasks": 9
+ },
+ "capture: People / People Capture": {
+  "tasks": 3
+ },
+ "capture: Promotion / Promotion Capture": {
+  "tasks": 0
+ },
+ "capture: Product / Product Capture": {
+  "tasks": 1
+ },
+ "capture: Property / Property Capture": {
+  "tasks": 0
+ },
+ "capture: Technology / Technology Capture": {
+  "tasks": 0
+ },
+ "docs_total_in_workspace": 174,
+ "docs": {
+  "Sŏn Operating System": [
+   "Sŏn Operating System"
+  ],
+  "Sŏn Operating System :: chars": 1770468,
+  "Scaling People: Translation Program": [
+   "Scaling People: Translation Program"
+  ],
+  "Scaling People: Translation Program :: chars": 91309,
+  "Operating Agreement": [
+   "Operating Agreement — Founder Pre-Counsel Brief"
+  ],
+  "Operating Agreement :: chars": 36176,
+  "Finance and Technology Seat": [
+   "The Finance and Technology Seat: Operating Manual"
+  ],
+  "Finance and Technology Seat :: chars": 101659,
+  "FDN.01": [
+   "SON-HSP-MdHistory-FDN.01 — Before the Restaurant"
+  ],
+  "FDN.01 :: chars": 32589,
+  "Claude Project Review": [
+   "Claude Project Review"
+  ],
+  "Claude Project Review :: chars": 1429038,
+  "Master Pointer Index": [
+   "Sŏn — Master Pointer Index & Inventory"
+  ],
+  "Master Pointer Index :: chars": 28664,
+  "Technology OS": [
+   "Technology OS — Build Hub"
+  ],
+  "Technology OS :: chars": 93076
+ }
+}

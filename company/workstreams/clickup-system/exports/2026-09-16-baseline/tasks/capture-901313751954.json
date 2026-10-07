@@ -1,0 +1,74 @@
+[
+ {
+  "id": "86ahmf5mf",
+  "name": "Toilet Paper",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751954_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahmf56w",
+  "date_created": "1779382363110",
+  "date_updated": "1779382363110",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahmf5mf"
+ },
+ {
+  "id": "86ahmf5dx",
+  "name": "Soaps",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751954_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": "86ahmf56w",
+  "date_created": "1779382357194",
+  "date_updated": "1779382357194",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahmf5dx"
+ },
+ {
+  "id": "86ahmf56w",
+  "name": "Customer Amenities ",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751954_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": null,
+  "date_created": "1779382348441",
+  "date_updated": "1779382348441",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86ahmf56w"
+ },
+ {
+  "id": "86adrrfr7",
+  "name": "First timer gift",
+  "status": {
+   "status": "revist",
+   "id": "sc901313751954_Ys9jHCV2",
+   "color": "#87909e",
+   "type": "open",
+   "orderindex": 0
+  },
+  "parent": null,
+  "date_created": "1765060433396",
+  "date_updated": "1779310609156",
+  "tags": [],
+  "assignees": [],
+  "custom_item_id": 0,
+  "url": "https://app.clickup.com/t/86adrrfr7"
+ }
+]

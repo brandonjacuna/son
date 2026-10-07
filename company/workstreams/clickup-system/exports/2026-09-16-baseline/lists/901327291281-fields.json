@@ -1,0 +1,59 @@
+{
+ "fields": [
+  {
+   "id": "52c7d5a1-da8c-4eae-b82e-cb56f34dbcbd",
+   "name": "Notes from BJAC",
+   "type": "short_text",
+   "type_config": {},
+   "date_created": "1752506094287",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "81251b2b-5c77-4b19-b23e-7933b1436a27",
+   "name": "Notes",
+   "type": "text",
+   "type_config": {},
+   "date_created": "1749402302283",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "f557af9d-1520-4692-8974-4ea2fcc8f088",
+   "name": "Category",
+   "type": "labels",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "8dd2a959-e81c-4b15-beeb-5c3fb96ed19c",
+      "label": "Asset, Digital",
+      "color": "#f3aeaf",
+      "orderindex": 0
+     },
+     {
+      "id": "254307ce-c966-4677-a710-230cd138053b",
+      "label": "Asset, Physical",
+      "color": "#e5484d",
+      "orderindex": 1
+     },
+     {
+      "id": "1ee4c48c-60ac-4305-9adf-e26d00168c8f",
+      "label": "Function",
+      "color": "#ffc53d",
+      "orderindex": 2
+     },
+     {
+      "id": "6c4106fb-7065-493b-bb16-2acd1c485d3d",
+      "label": "Idea",
+      "color": "#6647f0",
+      "orderindex": 3
+     }
+    ]
+   },
+   "date_created": "1786626904849",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ]
+}

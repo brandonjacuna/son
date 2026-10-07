@@ -1,0 +1,474 @@
+{
+ "fields": [
+  {
+   "id": "42cb8f78-aa4b-4562-bd79-86e024d437fe",
+   "name": "Solution",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "name_asc",
+    "new_drop_down": true,
+    "options": [
+     {
+      "id": "41adcb00-e582-49d0-9556-01a2739cf429",
+      "name": "AirTable",
+      "color": "#06AFE1",
+      "orderindex": 0
+     },
+     {
+      "id": "0ece1ea8-ce60-40b0-9371-8fe77a490897",
+      "name": "APG Solutions - Smart Till",
+      "color": "#D50EF7",
+      "orderindex": 1
+     },
+     {
+      "id": "0dfdc265-ba88-4893-81b8-86c2db1aa015",
+      "name": "Bloom Intelligence",
+      "color": "#7D01B8",
+      "orderindex": 2
+     },
+     {
+      "id": "e1fe1c8a-9ab9-45a5-b69a-f2b3172cb307",
+      "name": "Box",
+      "color": "#4DA17F",
+      "orderindex": 3
+     },
+     {
+      "id": "d1ddb947-9438-4711-bc01-9cf1be5d14fc",
+      "name": "Canny",
+      "color": "#8dcec3",
+      "orderindex": 4
+     },
+     {
+      "id": "cf0ab23f-0e69-43a5-82af-c0fc7778f7fa",
+      "name": "Canva",
+      "color": "#3E2299",
+      "orderindex": 5
+     },
+     {
+      "id": "4f55bb74-e841-4d5e-bd9f-076c87226a6c",
+      "name": "ClickUp",
+      "color": "#ffc53d",
+      "orderindex": 6
+     },
+     {
+      "id": "bdd51eea-dd96-444a-920a-01e83a0e4d2a",
+      "name": "ConnectedFresh",
+      "color": "#61A45A",
+      "orderindex": 7
+     },
+     {
+      "id": "672d5557-8e0d-41eb-b955-6bc614c2199d",
+      "name": "Davo",
+      "color": "#ff7800",
+      "orderindex": 8
+     },
+     {
+      "id": "79ee5fff-4f6f-4281-9165-bdf8262436dd",
+      "name": "Deputy",
+      "color": "#02BCD4",
+      "orderindex": 9
+     },
+     {
+      "id": "b3cbe6bf-de2f-452d-839e-dea73fa65a26",
+      "name": "Dropbox",
+      "color": "#81B1FF",
+      "orderindex": 10
+     },
+     {
+      "id": "cc01d936-d38f-4817-9ab8-d44f8d329516",
+      "name": "Ecobee",
+      "color": "#30a46c",
+      "orderindex": 11
+     },
+     {
+      "id": "e39fb4e2-0241-4b73-bf9a-29a78c455425",
+      "name": "ElevenLabs",
+      "color": "#96c7f2",
+      "orderindex": 12
+     },
+     {
+      "id": "1db66a7d-fee6-4244-a3e1-a3d2a362e328",
+      "name": "EveryAngle",
+      "color": "#8BE759",
+      "orderindex": 13
+     },
+     {
+      "id": "f438c00c-de97-4d0e-a5ff-82d3d97d5ae5",
+      "name": "Fellow.AI",
+      "color": "#9b59b6",
+      "orderindex": 14
+     },
+     {
+      "id": "4906d122-ca8e-4fe9-a65b-d4090887122c",
+      "name": "Fireflies",
+      "color": "#0231E8",
+      "orderindex": 15
+     },
+     {
+      "id": "64320556-1cf8-4376-9c13-a8f10a3ac631",
+      "name": "FoodDocs",
+      "color": "#aec0f5",
+      "orderindex": 16
+     },
+     {
+      "id": "123e90bc-5192-4c71-84a6-35956186d4a4",
+      "name": "Framer",
+      "color": "#A8EDC5",
+      "orderindex": 17
+     },
+     {
+      "id": "2006b6aa-7bd0-4a59-86a8-45b398fd5003",
+      "name": "Gmail",
+      "color": "#f3aeaf",
+      "orderindex": 18
+     },
+     {
+      "id": "4c9aaaaf-f99a-42ad-895b-d76d3ba0069d",
+      "name": "Google Fiber",
+      "color": "#3e63dd",
+      "orderindex": 19
+     },
+     {
+      "id": "569abd81-14e3-44c0-98be-71e4fbd4fc3a",
+      "name": "Google Workspace",
+      "color": "#edadc8",
+      "orderindex": 20
+     },
+     {
+      "id": "f885749c-0812-4d99-847f-08b61c9c0d29",
+      "name": "Greenhouse",
+      "color": "#92ceac",
+      "orderindex": 21
+     },
+     {
+      "id": "58c1f64e-4a87-4672-8bf4-f337b053db13",
+      "name": "Hang",
+      "color": "#fff",
+      "orderindex": 22
+     },
+     {
+      "id": "490f9a8c-4ae8-45b1-94db-9f6bd4acf52b",
+      "name": "HubSpot",
+      "color": "#3397dd",
+      "orderindex": 23
+     },
+     {
+      "id": "386ceb6e-9dfb-48cf-ba4b-10a0544bab3a",
+      "name": "Josh.ai",
+      "color": "#f76808",
+      "orderindex": 24
+     },
+     {
+      "id": "bdd1b70f-f571-48af-939a-780642dfd54f",
+      "name": "Kisi",
+      "color": "#b6b6ff",
+      "orderindex": 25
+     },
+     {
+      "id": "f4b8af86-85fe-4fd2-ba07-6d1d1444daec",
+      "name": "Loom",
+      "color": "#F5F66C",
+      "orderindex": 26
+     },
+     {
+      "id": "00484ec1-99fa-4d71-b31e-fb0dce4f32e3",
+      "name": "Lutron",
+      "color": "#12a594",
+      "orderindex": 27
+     },
+     {
+      "id": "fef0a25b-6db5-4df7-a3f9-c10c5f318842",
+      "name": "Nectar",
+      "color": "#e5484d",
+      "orderindex": 28
+     },
+     {
+      "id": "58f5be74-1b7c-4560-8a38-9d0987f53548",
+      "name": "Okta",
+      "color": "#fff",
+      "orderindex": 29
+     },
+     {
+      "id": "67149495-c77d-43d7-8a5f-16b2445b2343",
+      "name": "OLO",
+      "color": "#EA80FC",
+      "orderindex": 30
+     },
+     {
+      "id": "3018f15f-ce05-40ba-8d17-6004910418eb",
+      "name": "OmniAlert",
+      "color": "#E4B8FD",
+      "orderindex": 31
+     },
+     {
+      "id": "07a46e68-5c7e-49fd-8a27-8b9806e92134",
+      "name": "Parcel",
+      "color": "#B12056",
+      "orderindex": 32
+     },
+     {
+      "id": "e34900be-19a6-4db7-85da-4077678a02ff",
+      "name": "PrepWizard",
+      "color": "#73590D",
+      "orderindex": 33
+     },
+     {
+      "id": "2dcb84a0-9c01-4d78-ace7-c2f0e41a723b",
+      "name": "QuickBooks",
+      "color": "#e9c162",
+      "orderindex": 34
+     },
+     {
+      "id": "24aa3f88-0070-4f8e-9f1e-3361906ae5ad",
+      "name": "Ramp",
+      "color": "#fff",
+      "orderindex": 35
+     },
+     {
+      "id": "c93e0874-e5e3-4552-88f2-14c461be2511",
+      "name": "ResQ",
+      "color": "#bf55ec",
+      "orderindex": 36
+     },
+     {
+      "id": "02e0a96d-1f8a-4301-ae10-e398b6a258ab",
+      "name": "Restaurant 365",
+      "color": "#e5484d",
+      "orderindex": 37
+     },
+     {
+      "id": "5ccc7e01-f0f1-43ff-b5ff-733a263f86de",
+      "name": "Rhombus",
+      "color": "#e50000",
+      "orderindex": 38
+     },
+     {
+      "id": "054b24c0-62c9-4255-bf35-6042bada44f6",
+      "name": "RingCentral",
+      "color": "#ffaa7d",
+      "orderindex": 39
+     },
+     {
+      "id": "187d8582-2144-4b80-a7be-746fea9ea4ea",
+      "name": "Rippling",
+      "color": "#ffc53d",
+      "orderindex": 40
+     },
+     {
+      "id": "27c291ad-ebcc-4172-b6cd-d0bb0000247f",
+      "name": "SevenRooms",
+      "color": "#cecece",
+      "orderindex": 41
+     },
+     {
+      "id": "ccba02d2-ba37-4782-adb7-bff76b23a406",
+      "name": "Shogo",
+      "color": "#f9d900",
+      "orderindex": 42
+     },
+     {
+      "id": "a64821ad-3cb8-4834-805d-11ebced4e354",
+      "name": "Slang AI",
+      "color": "#4A03BE",
+      "orderindex": 43
+     },
+     {
+      "id": "b05708af-de7a-4c19-b6fd-51fc369eaec1",
+      "name": "Soundtrack",
+      "color": "#0091ff",
+      "orderindex": 44
+     },
+     {
+      "id": "6e2739ea-1ea8-4691-844e-2b9ab5a6323f",
+      "name": "Sprout Social",
+      "color": "#92ceac",
+      "orderindex": 45
+     },
+     {
+      "id": "43f502f0-1ddc-411b-b82b-6419b3aa9e7c",
+      "name": "Squarespace",
+      "color": "#D7FE4E",
+      "orderindex": 46
+     },
+     {
+      "id": "bae3212c-5377-4074-b92c-f4de6e970026",
+      "name": "Stripe",
+      "color": "#fff",
+      "orderindex": 47
+     },
+     {
+      "id": "1613f817-710a-4880-b3ef-651726fba196",
+      "name": "SuperHuman",
+      "color": "#81B1FF",
+      "orderindex": 48
+     },
+     {
+      "id": "2416cbb1-9552-40af-95cb-3d86b2279da6",
+      "name": "TipHaus",
+      "color": "#E24CCF",
+      "orderindex": 49
+     },
+     {
+      "id": "2614b0b2-3bbd-4e63-a826-6e47ad34130e",
+      "name": "Toast",
+      "color": "#7C4DFF",
+      "orderindex": 50
+     },
+     {
+      "id": "edc6d5c8-338d-4d5f-b474-044c95ea6d8a",
+      "name": "Trainual",
+      "color": "#7C4DFF",
+      "orderindex": 51
+     },
+     {
+      "id": "0d710a68-f0b3-4eb7-915d-ed8f97475d2a",
+      "name": "TripleSeat",
+      "color": "#8d8d8d",
+      "orderindex": 52
+     },
+     {
+      "id": "d4852d76-0be9-4452-80a5-21d8619bac4d",
+      "name": "Unnamed RFID Cabinet Company",
+      "color": "#6647f0",
+      "orderindex": 53
+     },
+     {
+      "id": "da32acd2-ffa1-41a8-b980-ef0b6e0005a9",
+      "name": "Winnow",
+      "color": "#813AD2",
+      "orderindex": 54
+     },
+     {
+      "id": "3b33702a-0477-4522-be6f-78bb42e5443f",
+      "name": "YellowBox",
+      "color": "#CD0FBF",
+      "orderindex": 55
+     },
+     {
+      "id": "8f832cd9-3ad0-4cb4-b50e-53c543c001cf",
+      "name": "Zoom",
+      "color": "#0231E8",
+      "orderindex": 56
+     }
+    ]
+   },
+   "date_created": "1766791103396",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "52c7d5a1-da8c-4eae-b82e-cb56f34dbcbd",
+   "name": "Notes from BJAC",
+   "type": "short_text",
+   "type_config": {},
+   "date_created": "1752506094287",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "6274b519-cd2b-4e8f-936a-8ce6d980dfbc",
+   "name": "AI Opportunity",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "name_asc",
+    "options": [
+     {
+      "id": "cbacf3a4-24c9-46d2-bbc1-18f158552106",
+      "name": "No",
+      "color": "#e5484d",
+      "orderindex": 0
+     },
+     {
+      "id": "c5890b20-ae86-49f6-bdcf-e9bb4b3a2986",
+      "name": "Possible",
+      "color": "#ffaa7d",
+      "orderindex": 1
+     },
+     {
+      "id": "4ea9a9a6-971e-4238-a9f0-6b045fa0ef35",
+      "name": "Yes",
+      "color": "#92ceac",
+      "orderindex": 2
+     }
+    ]
+   },
+   "date_created": "1781287063595",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "9c08101b-90a3-4942-b73f-c9aee7a1ec34",
+   "name": "Launch Phase",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "options": [
+     {
+      "id": "43f866bc-c74f-4336-ac1c-698bc73b70df",
+      "name": "Phase 1",
+      "color": "#b6b6ff",
+      "orderindex": 0
+     },
+     {
+      "id": "271c9c3d-e4b7-4b1e-b30b-34d51f433853",
+      "name": "Phase 2",
+      "color": "#edadc8",
+      "orderindex": 1
+     },
+     {
+      "id": "a16e4c87-4322-4755-9fa2-4a7f79e3d012",
+      "name": "Phase 3",
+      "color": "#aec0f5",
+      "orderindex": 2
+     },
+     {
+      "id": "74b235ad-f763-4428-9316-6a327d645ce5",
+      "name": "Pre-Open",
+      "color": "#96c7f2",
+      "orderindex": 3
+     }
+    ]
+   },
+   "date_created": "1781287084399",
+   "hide_from_guests": false,
+   "required": false
+  },
+  {
+   "id": "d6ad4019-4da6-4bd3-9c4d-7c57f47f55fe",
+   "name": "Integration Type",
+   "type": "drop_down",
+   "type_config": {
+    "sorting": "manual",
+    "options": [
+     {
+      "id": "a518551f-d108-4076-a0a5-6bb0927cb371",
+      "name": "Native",
+      "color": "#b6b6ff",
+      "orderindex": 0
+     },
+     {
+      "id": "cae6dd30-8990-4213-8740-6fbe8aeb1599",
+      "name": "API",
+      "color": "#edadc8",
+      "orderindex": 1
+     },
+     {
+      "id": "739d604d-2727-4692-887f-39209a588199",
+      "name": "Manual",
+      "color": "#aec0f5",
+      "orderindex": 2
+     },
+     {
+      "id": "4149b6bb-edaa-4ba6-bb34-1ef65f3176fc",
+      "name": "TBD",
+      "color": "#96c7f2",
+      "orderindex": 3
+     }
+    ]
+   },
+   "date_created": "1781287029563",
+   "hide_from_guests": false,
+   "required": false
+  }
+ ]
+}

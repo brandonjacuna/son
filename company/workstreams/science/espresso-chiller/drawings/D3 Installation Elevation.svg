@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="da" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/>
+    </marker>
+    <marker id="fa2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#155e75"/>
+    </marker>
+  </defs>
+  <style>
+    .out { stroke:#1f3a4d; stroke-width:1.8; fill:#ffffff }
+    .outlt { stroke:#1f3a4d; stroke-width:1.3; fill:#f2f7f9 }
+    .prod { stroke:#155e75; stroke-width:2.2; fill:none }
+    .dim { stroke:#b45309; stroke-width:1; fill:none }
+    .dimt { fill:#b45309; font-size:12.5px }
+    .t { fill:#1f3a4d; font-size:12.5px }
+    .ts { fill:#1f3a4d; font-size:11.5px }
+    .tb { fill:#1f3a4d; font-size:13.5px; font-weight:bold }
+    .h1 { fill:#1f3a4d; font-size:17px; font-weight:bold }
+    .lvl { stroke:#8899a6; stroke-width:0.8; stroke-dasharray:8 4; fill:none }
+    .glyc { fill:#e8f2ee }
+  </style>
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+  <rect x="8" y="8" width="1164" height="804" fill="none" stroke="#1f3a4d" stroke-width="1.5"/>
+  <text x="24" y="38" class="h1">D3 — STATION ELEVATION, REV C (Enigma E'4s) (side view) · elevations in mm above floor · custom bench at 1000 mm</text>
+  <text x="24" y="58" class="ts">Back-of-kitchen batch station. The bench height is a design parameter: 1000 mm clears the fast-double head worst case outright; 950 mm is acceptable with fills capped at 2.6 L on fast recipes.</text>
+
+  <!-- floor -->
+  <line x1="40" y1="700" x2="900" y2="700" stroke="#1f3a4d" stroke-width="3"/>
+  <g stroke="#8899a6" stroke-width="1"><line x1="70" y1="700" x2="58" y2="712"/><line x1="150" y1="700" x2="138" y2="712"/><line x1="230" y1="700" x2="218" y2="712"/><line x1="310" y1="700" x2="298" y2="712"/><line x1="390" y1="700" x2="378" y2="712"/><line x1="470" y1="700" x2="458" y2="712"/><line x1="550" y1="700" x2="538" y2="712"/><line x1="630" y1="700" x2="618" y2="712"/><line x1="710" y1="700" x2="698" y2="712"/><line x1="790" y1="700" x2="778" y2="712"/><line x1="860" y1="700" x2="848" y2="712"/></g>
+  <text x="852" y="695" class="ts">floor 0</text>
+
+  <!-- bench slab with hatch gap x 260-430 -->
+  <rect x="80" y="280" width="180" height="18" fill="#d9e2e8" stroke="#1f3a4d" stroke-width="1.5"/>
+  <rect x="430" y="280" width="370" height="18" fill="#d9e2e8" stroke="#1f3a4d" stroke-width="1.5"/>
+  <text x="90" y="274" class="ts">bench top 1000</text>
+  <text x="284" y="274" class="ts" fill="#5a6b78">access hatch ≥ 420 × 420</text>
+
+  <!-- machine on bench -->
+  <rect x="440" y="102" width="235" height="178" class="outlt"/>
+  <text x="560" y="132" class="tb">ENIGMA E'4s</text>
+  <text x="560" y="150" class="ts">2 modules · H 743</text>
+  <text x="560" y="165" class="ts">W 560 · D 600 · 90 kg</text>
+  <rect x="452" y="196" width="48" height="36" class="out"/>
+  <text x="456" y="212" class="ts">outlet</text>
+  <rect x="462" y="232" width="28" height="6" class="out"/>
+  <line x1="477" y1="240" x2="477" y2="247" class="prod" marker-end="url(#fa2)"/>
+  <rect x="444" y="266" width="86" height="14" class="out"/>
+  <text x="415" y="262" class="ts" text-anchor="end">drip tray · spout slides (≤200 mm)</text>
+  <path d="M 462 247 L 490 247 L 481 260 L 481 266 L 471 266 L 471 260 Z" class="out"/>
+  <text x="498" y="252" class="ts">dual-spout catch funnel (N2) ×2</text>
+  <line x1="200" y1="240" x2="462" y2="240" class="lvl"/>
+  <text x="60" y="236" class="ts">funnel surface ≈ 1100–1180 (spout slide sets it — measure at demo)</text>
+
+  <!-- drop line: funnel through bench hole at 470, then angled to cassette stub -->
+  <path d="M 476 266 L 476 300 L 366 352" class="prod" marker-end="url(#fa2)"/>
+  <text x="520" y="322" class="ts">Ø25 bench holes ×2 (measured head spacing);</text>
+  <text x="520" y="337" class="ts">runs ≤ 40 cm, always downhill</text>
+
+  <!-- Penguin XL under hatch -->
+  <rect x="250" y="369.5" width="192" height="330.5" class="out"/>
+  <rect x="256" y="382" width="180" height="140" class="glyc" stroke="#8fb5a5" stroke-width="1"/>
+  <rect x="244" y="362" width="204" height="10" class="outlt"/>
+  <text x="252" y="358" class="ts" fill="#5a6b78">CNC coil cassette (lifts out through hatch)</text>
+  <text x="262" y="560" class="tb">PENGUIN 2/3 HP</text>
+  <text x="262" y="578" class="tb">STAINLESS XL</text>
+  <text x="262" y="596" class="ts">457×457×787, 75 lb</text>
+  <text x="262" y="611" class="ts">7 gal 304 tank</text>
+  <text x="262" y="626" class="ts">879 W at −2 °C</text>
+  <text x="262" y="641" class="ts">110 V · louvers clear ≥100</text>
+  <!-- coil inside -->
+  <g stroke="#155e75" stroke-width="1.6" fill="none">
+    <path d="M 350 393 q -15 7 0 14 q -15 7 0 14 q -15 7 0 14"/>
+  </g>
+  <text x="368" y="420" class="ts">coil ×2</text>
+  <!-- inverted U and product run to airpot -->
+  <!-- product run drawn later (after airpot) so it stays on top -->
+  <text x="60" y="396" class="ts">U-crest 800 (40 above level) —</text>
+  <text x="60" y="410" class="ts">N2 purge clears it;</text>
+  <text x="60" y="424" class="ts">falls continuously after crest</text>
+
+  <!-- airpot -->
+  <rect x="622" y="508" width="76" height="192" rx="10" class="out"/>
+  <rect x="642" y="496" width="36" height="14" class="outlt"/>
+  <path d="M 350 393 L 338 393 L 338 364 L 330 364" class="prod"/>
+  <path d="M 330 364 L 330 366 L 660 366 L 660 496" class="prod"/>
+  <path d="M 660 496 L 660 660" class="prod" marker-end="url(#fa2)"/>
+  <text x="712" y="502" class="ts">bung ~470 + jumpers (QD)</text>
+  <line x1="626" y1="519.4" x2="694" y2="519.4" stroke="#155e75" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="712" y="523" class="ts">full level ~430 (3.0 L)</text>
+  <text x="712" y="545" class="tb">FETCO D041 3.0 L</text>
+  <text x="712" y="561" class="ts">H 457 · 75 shots · slides out</text>
+
+  <!-- N2 -->
+  <rect x="180" y="610" width="22" height="90" rx="6" class="out"/>
+  <text x="182" y="602" class="ts">N2</text>
+
+  <!-- LM pump note -->
+  <rect x="760" y="590" width="180" height="110" class="outlt" stroke-dasharray="6 4"/>
+  <text x="772" y="612" class="ts">also under bench:</text>
+  <text x="772" y="628" class="ts">· water treatment</text>
+  <text x="784" y="643" class="ts">(Eversys spec, VERIFY #12)</text>
+  <text x="772" y="659" class="ts">· drain to siphon</text>
+  <text x="772" y="675" class="ts">· CIP shelf</text>
+  <text x="772" y="691" class="ts">(Freepour is front-of-bar)</text>
+
+  <!-- dimension chain -->
+  <line x1="960" y1="700" x2="960" y2="240" class="dim"/>
+  <g class="dim">
+    <line x1="952" y1="700" x2="968" y2="700"/>
+    <line x1="952" y1="519.4" x2="968" y2="519.4"/>
+    <line x1="952" y1="502.6" x2="968" y2="502.6"/>
+    <line x1="952" y1="382" x2="968" y2="382"/>
+    <line x1="952" y1="369.5" x2="968" y2="369.5"/>
+    <line x1="952" y1="364" x2="968" y2="364"/>
+    <line x1="952" y1="280" x2="968" y2="280"/>
+    <line x1="952" y1="240" x2="968" y2="240"/>
+  </g>
+  <text x="976" y="704" class="dimt">0 floor</text>
+  <text x="976" y="524" class="dimt">430 full level (Fetco)</text>
+  <text x="976" y="506" class="dimt">470 bung</text>
+  <text x="976" y="386" class="dimt">757 glycol level</text>
+  <text x="976" y="371" class="dimt">787 tank rim</text>
+  <text x="976" y="356" class="dimt">800 U-crest</text>
+  <text x="976" y="284" class="dimt">1000 bench</text>
+  <text x="976" y="244" class="dimt">~1100+ funnel surface</text>
+  <!-- head arrow -->
+  <line x1="1120" y1="240" x2="1120" y2="519.4" class="dim" marker-start="url(#da)" marker-end="url(#da)"/>
+  <text x="1114" y="380" class="dimt" transform="rotate(-90 1114 380)" text-anchor="middle">head ≈ 66 cm</text>
+
+  <!-- head budget table -->
+  <rect x="24" y="726" width="1132" height="66" class="outlt"/>
+  <text x="36" y="746" class="tb">HEAD BUDGET (gravity drive = funnel surface − airpot surface; worst case is end-of-fill, Fetco full at ~430):</text>
+  <text x="36" y="766" class="t">needs 47 cm @ 1.48 g/s · 62 cm @ 2.0 g/s (cold-viscosity worst) — 1000 mm bench gives ≈ 66 cm ✓ both · 950 mm bench ≈ 61 cm: cap fast-recipe fills at 2.6 L or accept brief funnel pooling</text>
+  <text x="36" y="784" class="t">siphon stays primed between shots (outlet submerged); priming (~25 cm funnel-to-crest drive) occurs on the first shot into an empty pot · model/outputs/layout_head.csv</text>
+</svg>

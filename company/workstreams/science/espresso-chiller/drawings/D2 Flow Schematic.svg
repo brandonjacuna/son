@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="fa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#155e75"/>
+    </marker>
+    <marker id="na" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7a7a7a"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill:#ffffff; stroke:#1f3a4d; stroke-width:1.8 }
+    .boxlt { fill:#f2f7f9; stroke:#1f3a4d; stroke-width:1.3 }
+    .prod { stroke:#155e75; stroke-width:2.4; fill:none }
+    .gas { stroke:#7a7a7a; stroke-width:1.6; fill:none; stroke-dasharray:7 4 }
+    .cip { stroke:#b45309; stroke-width:1.6; fill:none; stroke-dasharray:2 4 }
+    .t { fill:#1f3a4d; font-size:13px }
+    .ts { fill:#1f3a4d; font-size:11.5px }
+    .tb { fill:#1f3a4d; font-size:14px; font-weight:bold }
+    .h1 { fill:#1f3a4d; font-size:17px; font-weight:bold }
+    .inst { fill:#ffffff; stroke:#8a2846; stroke-width:1.6 }
+    .instt { fill:#8a2846; font-size:11.5px; font-weight:bold }
+    .glyc { fill:#e8f2ee }
+  </style>
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+  <rect x="8" y="8" width="1164" height="804" fill="none" stroke="#1f3a4d" stroke-width="1.5"/>
+  <text x="24" y="38" class="h1">D2 — SYSTEM FLOW SCHEMATIC, REV C · ENIGMA (one of two identical product paths shown in full)</text>
+
+  <!-- ===== Strada X groups ===== -->
+  <rect x="60" y="70" width="380" height="90" class="box"/>
+  <text x="75" y="92" class="tb">EVERSYS ENIGMA E'4s — 2 BREW MODULES</text>
+  <text x="75" y="112" class="ts">recipe-native; ETC grind feedback; 24 g chambers;</text>
+  <text x="75" y="127" class="ts">recipe rule: ≤ 1.7 g/s per module (pkg §2.1)</text>
+  <rect x="90" y="135" width="70" height="22" class="boxlt"/><text x="97" y="151" class="ts">MOD 1</text>
+  <rect x="210" y="135" width="70" height="22" class="boxlt"/><text x="217" y="151" class="ts">MOD 2</text>
+  
+
+  <!-- funnels -->
+  <path d="M 100 190 L 140 190 L 126 215 L 126 232 L 114 232 L 114 215 Z" class="box"/>
+  <path d="M 220 190 L 260 190 L 246 215 L 246 232 L 234 232 L 234 215 Z" class="boxlt"/>
+  
+  <line x1="120" y1="157" x2="120" y2="188" class="prod" marker-end="url(#fa)"/>
+  <line x1="240" y1="157" x2="240" y2="188" class="prod"/>
+  
+  <text x="150" y="205" class="ts">CNC dual-spout catch funnel ×2, N2-blanketed (~30 mL surge,</text>
+  <text x="150" y="220" class="ts">rear-exit downsloping neck) — spans both spouts of one head</text>
+
+  <!-- bench line with hatch -->
+  <line x1="40" y1="258" x2="470" y2="258" stroke="#8899a6" stroke-width="4"/>
+  <line x1="560" y1="258" x2="700" y2="258" stroke="#8899a6" stroke-width="4"/>
+  <text x="44" y="252" class="ts" fill="#5a6b78">BENCH 1000 mm (Ø25 holes ×2 per measured head spacing)</text>
+  <text x="476" y="252" class="ts" fill="#5a6b78">access hatch</text>
+
+  <!-- drop lines into cassette -->
+  <line x1="120" y1="232" x2="120" y2="290" class="prod"/>
+  <line x1="240" y1="232" x2="240" y2="290" class="prod"/>
+  
+  <path d="M 120 290 L 120 330" class="prod" marker-end="url(#fa)"/>
+  <line x1="240" y1="290" x2="240" y2="330" class="prod"/>
+  
+  <text x="128" y="300" class="ts">3-way diverter per funnel: BATCH/WASTE — set ONCE per session (WASTE resting; rinses → tray)</text>
+  <text x="128" y="315" class="ts">then 3/16 silicone push-fit → cassette stubs; runs ≤ 40 cm, always downhill</text>
+
+  <!-- ===== Penguin XL with cassette ===== -->
+  <rect x="70" y="330" width="380" height="230" class="box"/>
+  <rect x="70" y="330" width="380" height="16" fill="#dde8ee" stroke="#1f3a4d" stroke-width="1.3"/>
+  <text x="85" y="366" class="tb">PENGUIN 2/3 HP STAINLESS XL</text>
+  <text x="85" y="384" class="ts">7 gal (26.5 L) open 304 tank · 879 W rated AT −2 °C</text>
+  <text x="85" y="399" class="ts">35 % PG at +1 °C · own thermostat · $1,999.99, stock unit</text>
+  <text x="458" y="342" class="ts" fill="#5a6b78">← CNC COIL CASSETTE (replaces rear lid)</text>
+  <!-- glycol fill -->
+  <rect x="82" y="408" width="356" height="140" class="glyc" stroke="#8fb5a5" stroke-width="1"/>
+  <!-- coils inside -->
+  <g stroke="#155e75" stroke-width="1.8" fill="none">
+    <path d="M 120 418 q -14 6 0 12 q -14 6 0 12 q -14 6 0 12 q -14 6 0 12 q -14 6 0 12"/>
+    <path d="M 240 418 q -14 6 0 12 q -14 6 0 12 q -14 6 0 12 q -14 6 0 12 q -14 6 0 12"/>
+    
+  </g>
+  <text x="130" y="500" class="ts">COIL 1–2 (DWG D1), vertical, flow down;</text>
+  <text x="130" y="514" class="ts">outlet rises to an inverted-U at the lid</text>
+  <!-- outlet up-legs and inverted U -->
+  <path d="M 120 478 L 108 478 L 108 336 L 56 336" class="prod"/>
+  <path d="M 240 478 L 228 478 L 228 336" class="prod"/>
+  
+  <text x="458" y="326" class="ts" fill="#155e75">U-crest ~40 mm above level — N2 purge clears it</text>
+  <!-- circulator -->
+  <circle cx="420" cy="520" r="12" class="box"/>
+  <text x="414" y="524" class="ts">P</text>
+  <text x="380" y="545" class="ts">circulator 8 L/min</text>
+  <!-- RTDs -->
+  <circle cx="104" cy="332" r="11" class="inst"/><text x="96" y="336" class="instt">T1</text>
+  <circle cx="224" cy="332" r="11" class="inst"/><text x="216" y="336" class="instt">T2</text>
+  
+  <circle cx="425" cy="420" r="11" class="inst"/><text x="417" y="424" class="instt">T4</text>
+  <text x="85" y="556" class="ts">T1–T2 outlets · T4 bath (−4 °C alarm) → PT-104 log</text>
+
+  <!-- product from U down to airpot (routed outside the cabinet) -->
+  <path d="M 56 336 L 56 590 L 560 590" class="prod"/>
+  <text x="110" y="583" class="ts">falls after crest — jumpers (QD) = service + CIP disconnect</text>
+
+  <!-- ===== airpot ===== -->
+  <rect x="560" y="430" width="180" height="240" rx="14" class="box"/>
+  <text x="575" y="456" class="tb">FETCO D041 3.0 L</text>
+  <rect x="596" y="402" width="108" height="28" class="boxlt"/>
+  <text x="596" y="396" class="ts">bung (measured neck)</text>
+  <line x1="614" y1="590" x2="614" y2="650" class="prod" marker-end="url(#fa)"/>
+  <line x1="630" y1="410" x2="630" y2="650" class="prod"/>
+    <line x1="560" y1="590" x2="614" y2="590" class="prod"/>
+  <line x1="565" y1="520" x2="735" y2="520" stroke="#155e75" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="660" y="514" class="ts" fill="#155e75">level</text>
+  <text x="600" y="686" class="ts">2 dip tubes, tips 10 mm off bottom — discharge below liquid level · 75 shots/pot</text>
+  <!-- gas port -->
+  <line x1="690" y1="402" x2="690" y2="370" class="gas"/>
+  <line x1="690" y1="370" x2="900" y2="370" class="gas"/>
+  <text x="700" y="364" class="ts" fill="#7a7a7a">gas port: N2 trickle + vent (tee)</text>
+
+  <!-- handoff to freepour -->
+  <rect x="800" y="430" width="330" height="190" class="boxlt" stroke-dasharray="6 4"/>
+  <text x="815" y="454" class="tb">AFTER BATCH → FREEPOUR BATCH</text>
+  <text x="815" y="476" class="ts">1. N2 off, vent capped (storage blanket)</text>
+  <text x="815" y="493" class="ts">2. unplug jumpers; lift bung; seat SSM stopper</text>
+  <text x="815" y="510" class="ts">3. carry to front bar; dock in Airpot Frame —</text>
+  <text x="828" y="526" class="ts">magnets connect the SSM dip tube</text>
+  <text x="815" y="548" class="ts">SSM pump dispenses timed doses at the tap</text>
+  <text x="815" y="570" class="ts">SSM stopper backfills room air in service</text>
+  <text x="815" y="586" class="ts">(accepted); custom gas stopper = future option</text>
+  <text x="815" y="608" class="ts" fill="#8a2846">VERIFY with SSM: fines + cleaning regimen</text>
+  <line x1="740" y1="530" x2="798" y2="530" class="prod" stroke-dasharray="6 4" marker-end="url(#fa)"/>
+
+  <!-- ===== N2 system ===== -->
+  <rect x="900" y="70" width="230" height="180" class="box"/>
+  <text x="915" y="92" class="tb">N2 PURGE SYSTEM</text>
+  <text x="915" y="112" class="ts">40 cu ft cylinder + regulator (DWG D4)</text>
+  <text x="915" y="130" class="ts">manifold, 3 needle-valve legs:</text>
+  <text x="925" y="150" class="ts">a. funnel blankets ×2 (session on)</text>
+  <text x="925" y="167" class="ts">b. airpot bung trickle 0.5–1 L/min (fill)</text>
+  <text x="925" y="184" class="ts">c. coil purge — 3 volumes ≈ 46 mL/coil</text>
+  <text x="932" y="200" class="ts">(before first shot; before CIP; clears U)</text>
+  <text x="915" y="228" class="ts" fill="#7a7a7a">— — gas lines dashed grey</text>
+  <line x1="900" y1="370" x2="900" y2="250" class="gas" marker-start="url(#na)"/>
+  <line x1="700" y1="120" x2="898" y2="120" class="gas"/>
+  <line x1="700" y1="120" x2="700" y2="168" class="gas"/>
+  <line x1="700" y1="168" x2="400" y2="168" class="gas"/>
+  <line x1="400" y1="168" x2="392" y2="188" class="gas" marker-end="url(#na)"/>
+
+  <!-- ===== CIP ===== -->
+  <rect x="790" y="660" width="340" height="120" class="box"/>
+  <text x="805" y="682" class="tb">CIP (daily, after service)</text>
+  <text x="805" y="702" class="ts">Kamoer peristaltic 500 mL/min → Re ≈ 3500 in coil</text>
+  <text x="805" y="719" class="ts">detergent → funnel stub → coil → waste at the bung</text>
+  <text x="805" y="734" class="ts">jumper QD (no fittings opened; coils sequential)</text>
+  <text x="805" y="751" class="ts">weekly acid descale · lift cassette = both coils out</text>
+  <text x="805" y="770" class="ts" fill="#b45309">· · · CIP path dotted orange</text>
+  <path d="M 790 700 L 500 700 L 500 560" class="cip" marker-end="url(#na)"/>
+
+  <!-- legend -->
+  <rect x="24" y="700" width="500" height="92" class="boxlt"/>
+  <line x1="40" y1="722" x2="90" y2="722" class="prod"/><text x="100" y="726" class="ts">product (espresso), gravity siphon</text>
+  <rect x="40" y="738" width="50" height="12" class="glyc" stroke="#8fb5a5"/><text x="100" y="748" class="ts">glycol bath +1 °C (inside the stock chiller)</text>
+  <line x1="40" y1="764" x2="90" y2="764" class="gas"/><text x="100" y="768" class="ts">N2 gas</text>
+  <line x1="280" y1="764" x2="330" y2="764" class="cip"/><text x="340" y="768" class="ts">CIP (after service)</text>
+  <circle cx="300" cy="726" r="9" class="inst"/><text x="294" y="730" class="instt">T</text><text x="318" y="730" class="ts">PT100 → PT-104 logger</text>
+</svg>
