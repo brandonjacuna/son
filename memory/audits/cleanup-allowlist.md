@@ -6,7 +6,7 @@ Every hit of the phase 1 cleanup terms that stays in the repo, and why. A sweep 
 - memory/decisions.md, memory/briefs/**, memory/audits/**, memory/plan.md, memory/state.md, memory/threads.md | all terms | they record the cleanup rules and open questions
 - CLAUDE.md (root) | Pullman, experiential | scope rule itself
 - nerve/data/** | Josephine House, Jun | public Austin inspection data and month names (Josephine House is an unrelated Clarksville restaurant; Brandon 2026-10-07)
-- .claude/hooks/guard.py:5, .github/workflows/build-out-validate.yml, .github/workflows/build-out-watch.yml | son-build | comment text; fixed by the system pull request from this session, remove these entries once it merges
+- .claude/hooks/guard.py:5 | son-build | docstring comment; the file is protected and changes only after Brandon's unlock phrase
 
 
 ### Part: Allowlist part: clickup-build-nerve-brand-other

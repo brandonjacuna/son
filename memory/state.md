@@ -4,7 +4,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 
 ## Now
 - Phase 1 Cleanup, session B | next Code session (Opus) | `memory/briefs/1-cleanup.md` steps 4 to 6 and 8: Box batches, ClickUp delete list, brand canon extraction as pop-ups, V7 question. Session A is done (reports: `memory/audits/cleanup-sweep/`; allowlist: `memory/audits/cleanup-allowlist.md`)
-- System pull request: old `son-build` repo name in comments of the root guard script and both build-out workflows | Brandon to merge | then drop those 3 allowlist entries
+- Old `son-build` name in the root guard script docstring (line 5) | Brandon | needs the unlock phrase; one-word comment fix, then drop its allowlist entry
 - Cloud environment for `son` | Brandon | paste `scripts/setup_cloud.sh` into the environment setup; check ClickUp and Box connectors
 - Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
 - Archive the old GitHub repos (son-learning-studio, son-operational-buildout, son-nerve; make agenticproject private and archive) | Brandon to confirm | everything from them is in `son`
