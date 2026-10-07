@@ -4,7 +4,7 @@ on:
     paths: ["company/workstreams/build-out/**"]
   pull_request:
     paths: ["company/workstreams/build-out/**"]
-# Working directory of the build-out files: "." in the standalone son-build repo,
+# Working directory of the build-out files: "." in a standalone layout,
 # "company/workstreams/build-out" in the unified son repo.
 defaults:
   run:
