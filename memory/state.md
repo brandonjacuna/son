@@ -5,7 +5,6 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 ## Now
 - Phase 1 Cleanup, session B | next Code session (Opus) | `memory/briefs/1-cleanup.md` steps 4 to 6 and 8: Box batches, ClickUp delete list, brand canon extraction as pop-ups, V7 question. Session A is done (reports: `memory/audits/cleanup-sweep/`; allowlist: `memory/audits/cleanup-allowlist.md`)
 - System pull request: old `son-build` repo name in comments of the root guard script and both build-out workflows | Brandon to merge | then drop those 3 allowlist entries
-- Weekly tech digest live prompt: the repo copy now says Airtable is watched as a vendor only (stack watch line) | next session that touches scheduled tasks | sync live task trig_01EUH167wrsReHWDvt5Sv7vG from `prompts/scheduled/weekly-tech-digest.md`
 - Cloud environment for `son` | Brandon | paste `scripts/setup_cloud.sh` into the environment setup; check ClickUp and Box connectors
 - Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
 - Archive the old GitHub repos (son-learning-studio, son-operational-buildout, son-nerve; make agenticproject private and archive) | Brandon to confirm | everything from them is in `son`

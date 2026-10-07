@@ -6,6 +6,7 @@ model: claude-opus-4-8
 connectors: [Box, ClickUp, Claude_Code_Remote]
 delivers_to: ClickUp doc 2ky45bmy-18133 (parent page 2ky45bmy-31893); ping in Technology Capture channel 6-901327291281-8
 copied_from_live: 2026-10-07
+synced_to_live: 2026-10-07 (stack watch line: Airtable watched as a vendor only)
 notes: |
   Review items before next sync: (1) model is claude-opus-4-8; consider a current model. (2) Cron is UTC, so the run drifts to 6 AM Central when DST ends Nov 1.
 ---
