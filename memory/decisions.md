@@ -13,3 +13,4 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-07 | github | `agenticproject` (public) is an old experiment: make private, archive, do not import | Brandon
 - 2026-10-07 | identity | Public/professional name Brandon John Acuña-Cardona; legal Brandon John Acuña | Brandon
 - 2026-10-07 | scope | Erase Jun / June Shim, The Josephine, Sanctuary from working context | Brandon
+- 2026-10-07 | governance | The local operating agreement project is excluded from the repo (one-sided, no forward value); the signed operating agreement will simply exist as a final document in Box | Brandon
