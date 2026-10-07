@@ -1,6 +1,6 @@
 # 3.1 Recruiting: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 167 to 192, with the chapter's exercise appendix at pp. 228 onward. Full text: `extraction/build/s05/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 3, pp. 167 to 192, with the chapter's exercise appendix at pp. 228 onward. Full text: `sources/extraction/build/s05/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Why hiring is everything
 
@@ -54,4 +54,4 @@ The chapter appendix (pp. 228 onward; workbook has matching worksheets) is share
 - **Sample interview questions, written exercise example, and candidate review: decision-making framework** (pp. 245 onward) serve the next chapter section on hiring and onsite decision-making more directly than recruiting itself.
 - **Manager transitions guide, working with Claire, working with me template, and new leader experience** (later in the appendix) serve onboarding and leadership sections further into the chapter.
 
-For the full text of the pages and appendix used in this session, see `extraction/build/s05/book.md`.
+For the full text of the pages and appendix used in this session, see `sources/extraction/build/s05/book.md`.

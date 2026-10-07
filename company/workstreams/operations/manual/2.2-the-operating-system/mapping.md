@@ -1,6 +1,6 @@
 # 2.2 The operating system: the fate of every old item
 
-Source: `extraction/build/s03/old-items.md` (41 items owned by this run, plus 3 routed in from 2.1) and the S3 page at `extraction/build/s03/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
+Source: `sources/extraction/build/s03/old-items.md` (41 items owned by this run, plus 3 routed in from 2.1) and the S3 page at `sources/extraction/build/s03/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate); **Received from 2.1** (already mapped in 2.1 as routed here; built here).
 

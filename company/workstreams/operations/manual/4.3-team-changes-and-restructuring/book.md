@@ -1,6 +1,6 @@
 # 4.3 Team changes and restructuring: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 286 to 293. Full text: `extraction/build/s09/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 286 to 293. Full text: `sources/extraction/build/s09/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## After the diagnosis
 
@@ -43,4 +43,4 @@ Reorganizations are not inherently bad; needing one is often a sign of a growing
 
 ## Full text
 
-See `extraction/build/s09/book.md` for the verbatim source pages.
+See `sources/extraction/build/s09/book.md` for the verbatim source pages.

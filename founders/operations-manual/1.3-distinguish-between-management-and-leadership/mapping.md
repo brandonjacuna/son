@@ -1,6 +1,6 @@
 # 1.3 Distinguish between management and leadership: the fate of every old item
 
-Source: `extraction/build/s01/old-items.md` (one item assigned to this chunk) and the S1 page at `extraction/build/s01/old-page.md`, section 3 and the routing summary. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
+Source: `sources/extraction/build/s01/old-items.md` (one item assigned to this chunk) and the S1 page at `sources/extraction/build/s01/old-page.md`, section 3 and the routing summary. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

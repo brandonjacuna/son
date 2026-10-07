@@ -152,4 +152,4 @@ Updated 2026-09-26. Working sessions start only after the whole build below is c
 | Archive Carryover Register and old docs; repo README | Done 2026-09-27 |
 | Box profile copies (blocked in this session; run in a fresh one) | Queued |
 
-Build inputs live in `extraction/build/<run>/`; the shared brief is `extraction/build/BUILD-BRIEF.md`. Old-item ownership by session is in `extraction/item-sessions.json`.
+Build inputs live in `sources/extraction/build/<run>/`; the shared brief is `sources/extraction/build/BUILD-BRIEF.md`. Old-item ownership by session is in `sources/extraction/item-sessions.json`.

@@ -1,6 +1,6 @@
 # 5.3 Creating a culture of informal feedback: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 395 to 398. Full text: `extraction/build/s12/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 395 to 398. Full text: `sources/extraction/build/s12/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The gap companies leave
 
@@ -34,6 +34,6 @@ She quotes an unnamed executive practice: soliciting feedback from the team in f
 
 ## Exercises
 
-No standalone exercise or template in the book's Chapter 5 appendix (pp. 467 to 482) is specific to informal feedback culture; the appendix's templates (performance review, compensation conversations, performance improvement documentation, PIP, managing-out checklist) serve the formal side of performance management this chunk is meant to make less destabilizing. Full text of that appendix: `extraction/build/s12/exercises.md`.
+No standalone exercise or template in the book's Chapter 5 appendix (pp. 467 to 482) is specific to informal feedback culture; the appendix's templates (performance review, compensation conversations, performance improvement documentation, PIP, managing-out checklist) serve the formal side of performance management this chunk is meant to make less destabilizing. Full text of that appendix: `sources/extraction/build/s12/exercises.md`.
 
-For the complete source text, see `extraction/build/s12/book.md`.
+For the complete source text, see `sources/extraction/build/s12/book.md`.

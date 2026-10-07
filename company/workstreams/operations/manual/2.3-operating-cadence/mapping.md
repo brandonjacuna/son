@@ -1,6 +1,6 @@
 # 2.3 Operating cadence: the fate of every old item
 
-Source: `extraction/build/s04/old-items.md` (47 items owned, plus 3 routed in from 2.1) and the S4 page at `extraction/build/s04/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
+Source: `sources/extraction/build/s04/old-items.md` (47 items owned, plus 3 routed in from 2.1) and the S4 page at `sources/extraction/build/s04/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate); **Received from 2.1** (already mapped in 2.1 as routed here).
 

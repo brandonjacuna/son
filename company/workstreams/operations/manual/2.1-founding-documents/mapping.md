@@ -1,6 +1,6 @@
 # 2.1 Founding documents: the fate of every old item
 
-Source: `extraction/pilot-2.1/old-items.md` (44 items) and the S2 page at `archive/clickup-export-2026-09-26/operating-system-doc/03-2ky45bmy-31673.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
+Source: `sources/extraction/pilot-2.1/old-items.md` (44 items) and the S2 page at `archive/clickup-export-2026-09-26/operating-system-doc/03-2ky45bmy-31673.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

@@ -1,6 +1,6 @@
 # 1.3 Distinguish between management and leadership: working-session guide
 
-For the facilitator. Reference depth is in `considerations.md` (sections cited as "cons. N") and `book.md`; the task list is `tasks.md`; the record goes in `decisions.md`. "WP p. N" is the white paper (`extraction/s01/record.md`).
+For the facilitator. Reference depth is in `considerations.md` (sections cited as "cons. N") and `book.md`; the task list is `tasks.md`; the record goes in `decisions.md`. "WP p. N" is the white paper (`sources/extraction/s01/record.md`).
 
 Working rules for the room: Brandon decides, the facilitator never does. Options and defaults are starting points. Nothing he says about whether he himself is more a manager or a leader gets recorded here; that is his own document (1.1) and 6.x. Brain dumps go to `notes/YYYY-MM-DD-<topic>.md` in his words before they are funneled.
 

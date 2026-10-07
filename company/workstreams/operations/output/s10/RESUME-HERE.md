@@ -29,4 +29,4 @@ Also done: 25 Session 10 comments posted on existing items (the seven carryovers
 
 ## Next session
 
-Session 11, task `86ajgmj7c`, Chapter 4, team-building complexities, inclusion, communication, and the Chapter 4 exercises, book pages 331 to 380. Designer. Handoff at `extraction/s11/HANDOFF-from-s10.md`, S10 page index at `extraction/s11/s10-page-index.md`. Nine carryovers linked.
+Session 11, task `86ajgmj7c`, Chapter 4, team-building complexities, inclusion, communication, and the Chapter 4 exercises, book pages 331 to 380. Designer. Handoff at `sources/extraction/s11/HANDOFF-from-s10.md`, S10 page index at `sources/extraction/s11/s10-page-index.md`. Nine carryovers linked.

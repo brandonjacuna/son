@@ -1,6 +1,6 @@
 # 4.5 Creating the team environment: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 304 to 330, with the chapter's exercises at pp. 367 to 377 and workbook templates. Full text: `extraction/build/s10/book.md`, `extraction/build/s10/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 304 to 330, with the chapter's exercises at pp. 367 to 377 and workbook templates. Full text: `sources/extraction/build/s10/book.md`, `sources/extraction/build/s10/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The frame
 

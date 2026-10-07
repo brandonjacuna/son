@@ -1,6 +1,6 @@
 # 0 Management basics checklist: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Introduction, with the Management Prerequisites Checklist at pp. 30 to 32. Full text: `extraction/build/s01/book.md` (pp. 9 to 32) and `extraction/build/s01/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Introduction, with the Management Prerequisites Checklist at pp. 30 to 32. Full text: `sources/extraction/build/s01/book.md` (pp. 9 to 32) and `sources/extraction/build/s01/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Where the checklist sits
 

@@ -1,6 +1,6 @@
 # 2.3 Operating cadence: considerations
 
-What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order. "WP p. N" is the white paper (`extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to. Plain terms are defined at the top of `tasks.md`.
+What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order. "WP p. N" is the white paper (`sources/extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to. Plain terms are defined at the top of `tasks.md`.
 
 ## 1. The cadence as a whole
 

@@ -1,6 +1,6 @@
 # 1.3 Distinguish between management and leadership: considerations
 
-What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order. "WP p. N" is the white paper (`extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to.
+What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order. "WP p. N" is the white paper (`sources/extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to.
 
 ## 1. Her cut and Sŏn's cut
 

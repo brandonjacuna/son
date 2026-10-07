@@ -1,6 +1,6 @@
 # 3.2 Hiring: the fate of every old item
 
-Source: `extraction/build/s06/old-items.md` (34 items owned, plus one received from 2.1) and the S6 page in `extraction/build/s06/old-page.md`. The originals remain verbatim in `archive/clickup-export-2026-09-26/`. New task numbers refer to `tasks.md` in this folder unless another chunk is named.
+Source: `sources/extraction/build/s06/old-items.md` (34 items owned, plus one received from 2.1) and the S6 page in `sources/extraction/build/s06/old-page.md`. The originals remain verbatim in `archive/clickup-export-2026-09-26/`. New task numbers refer to `tasks.md` in this folder unless another chunk is named.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

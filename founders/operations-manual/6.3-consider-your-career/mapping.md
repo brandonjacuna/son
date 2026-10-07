@@ -1,6 +1,6 @@
 # 6.3 Consider your career: the fate of every old item
 
-Source: `extraction/build/s16/old-items.md` and `digest.md` Part 2 (41 items for run s16, which covers 6.1, 6.2, and 6.3) and the S16 page at `extraction/build/s16/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Each item the run owns appears in exactly one of the three chunk tables; an item split across chunks sits in the table of the chunk that holds most of its work, and "Goes to" names every task that absorbs a part. Of the 41, 10 are in this table, 24 in 6.1's, and 7 in 6.2's.
+Source: `sources/extraction/build/s16/old-items.md` and `digest.md` Part 2 (41 items for run s16, which covers 6.1, 6.2, and 6.3) and the S16 page at `sources/extraction/build/s16/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Each item the run owns appears in exactly one of the three chunk tables; an item split across chunks sits in the table of the chunk that holds most of its work, and "Goes to" names every task that absorbs a part. Of the 41, 10 are in this table, 24 in 6.1's, and 7 in 6.2's.
 
 Nothing in this file, or in the tasks it maps to, records where any founder's path leads, a founder's pay, draw, or equity, or anything about a founder as a person. A founder's pay is the operating agreement's; financials are not a source for this work.
 

@@ -1,6 +1,6 @@
 # 3.1 Recruiting: the fate of every old item
 
-Source: `extraction/build/s05/digest.md` Part 2 (18 items) and the S5 page in `extraction/build/s05/old-page.md`. The originals remain verbatim in `archive/clickup-export-2026-09-26/`. New task numbers refer to `tasks.md` unless another chunk is named.
+Source: `sources/extraction/build/s05/digest.md` Part 2 (18 items) and the S5 page in `sources/extraction/build/s05/old-page.md`. The originals remain verbatim in `archive/clickup-export-2026-09-26/`. New task numbers refer to `tasks.md` unless another chunk is named.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict or "ratify" framing becomes a decision with options); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Received from 2.1** (routed here by 2.1's mapping and placed in this chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

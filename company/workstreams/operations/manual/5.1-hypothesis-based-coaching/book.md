@@ -1,6 +1,6 @@
 # 5.1 Hypothesis-based coaching: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 382 to 390. Full text: `extraction/build/s12/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 382 to 390. Full text: `sources/extraction/build/s12/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Where coaching sits
 
@@ -50,6 +50,6 @@ Her closing example: a talented person who was not promoted because a self-aware
 
 ## Exercises
 
-No standalone exercise or template in the book's Chapter 5 appendix (pp. 467 to 482) is specific to hypothesis-based coaching; the chapter's templates (performance review, compensation conversations, performance improvement documentation, PIP, managing-out checklist) serve later, more formal parts of the performance chapter. Full text of that appendix: `extraction/build/s12/exercises.md`.
+No standalone exercise or template in the book's Chapter 5 appendix (pp. 467 to 482) is specific to hypothesis-based coaching; the chapter's templates (performance review, compensation conversations, performance improvement documentation, PIP, managing-out checklist) serve later, more formal parts of the performance chapter. Full text of that appendix: `sources/extraction/build/s12/exercises.md`.
 
-For the complete source text, see `extraction/build/s12/book.md`.
+For the complete source text, see `sources/extraction/build/s12/book.md`.

@@ -1,6 +1,6 @@
 # 4.1 Team structures: the fate of every old item
 
-Source: `extraction/build/s08/old-items.md` (45 items, digested in `extraction/build/s08/digest.md` Part 2) and the S8 page at `extraction/build/s08/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md` in this chunk unless prefixed 2.2 or 2.3.
+Source: `sources/extraction/build/s08/old-items.md` (45 items, digested in `sources/extraction/build/s08/digest.md` Part 2) and the S8 page at `sources/extraction/build/s08/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md` in this chunk unless prefixed 2.2 or 2.3.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict or resolved position becomes a decision with options); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate with nothing left).
 

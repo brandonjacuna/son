@@ -1,6 +1,6 @@
 # 5.9 Managing managers: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 449 to 453. Full text: `extraction/build/s15/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 449 to 453. Full text: `sources/extraction/build/s15/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The shift managing managers requires
 
@@ -46,4 +46,4 @@ Finally, spend time on the ground. Even without having worked the front line bef
 
 ## Full text
 
-See `extraction/build/s15/book.md` for the complete verbatim pages.
+See `sources/extraction/build/s15/book.md` for the complete verbatim pages.

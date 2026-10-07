@@ -1,6 +1,6 @@
 # 4.4 (Re)building the team: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 294 to 303, with the career conversations exercise at pp. 364 to 367. Full text: `extraction/build/s09/book.md`, `extraction/build/s09/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 294 to 303, with the career conversations exercise at pp. 364 to 367. Full text: `sources/extraction/build/s09/book.md`, `sources/extraction/build/s09/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The bedrock is the people
 
@@ -56,4 +56,4 @@ Her steps for a delegation conversation, which can double as a shared document f
 
 ## Full text
 
-See `extraction/build/s09/book.md` and `extraction/build/s09/exercises.md` for the verbatim source pages.
+See `sources/extraction/build/s09/book.md` and `sources/extraction/build/s09/exercises.md` for the verbatim source pages.

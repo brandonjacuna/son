@@ -1,6 +1,6 @@
 # 4.4 (Re)building the team: the fate of every old item
 
-Source: `extraction/build/s09/old-items.md` (29 items across chunks 4.2, 4.3, and 4.4, digested in `extraction/build/s09/digest.md` Part 2) and the S9 page at `extraction/build/s09/old-page.md` (archived at `archive/clickup-export-2026-09-26/operating-system-doc/10-2ky45bmy-31833.md`). The originals remain verbatim in the archive. New task numbers refer to `tasks.md` in this chunk unless prefixed with another section.
+Source: `sources/extraction/build/s09/old-items.md` (29 items across chunks 4.2, 4.3, and 4.4, digested in `sources/extraction/build/s09/digest.md` Part 2) and the S9 page at `sources/extraction/build/s09/old-page.md` (archived at `archive/clickup-export-2026-09-26/operating-system-doc/10-2ky45bmy-31833.md`). The originals remain verbatim in the archive. New task numbers refer to `tasks.md` in this chunk unless prefixed with another section.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

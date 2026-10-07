@@ -1,6 +1,6 @@
 # 2.2 The operating system: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 2, pp. 84 to 134, with the chapter's templates at pp. 150 to 155 (organizational foundations, objectives and metrics checklist, writing good OKRs) and the QBR guidelines in the workbook (pp. 23 to 41). Full text: `extraction/build/s03/book.md` and `extraction/build/s03/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 2, pp. 84 to 134, with the chapter's templates at pp. 150 to 155 (organizational foundations, objectives and metrics checklist, writing good OKRs) and the QBR guidelines in the workbook (pp. 23 to 41). Full text: `sources/extraction/build/s03/book.md` and `sources/extraction/build/s03/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Where this section sits
 

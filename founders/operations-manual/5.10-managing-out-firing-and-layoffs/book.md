@@ -1,6 +1,6 @@
 # 5.10 Managing out, firing, and layoffs: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 454 to 466, with the Managing Out Checklist at pp. 481 to 482. Full text: `extraction/build/s15/book.md`, `extraction/build/s15/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 5, pp. 454 to 466, with the Managing Out Checklist at pp. 481 to 482. Full text: `sources/extraction/build/s15/book.md`, `sources/extraction/build/s15/exercises.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Where this picks up
 
@@ -84,4 +84,4 @@ The chapter's other exercise templates (Performance Review Template, Compensatio
 
 ## Full text
 
-See `extraction/build/s15/book.md` and `extraction/build/s15/exercises.md` for the complete verbatim pages.
+See `sources/extraction/build/s15/book.md` and `sources/extraction/build/s15/exercises.md` for the complete verbatim pages.

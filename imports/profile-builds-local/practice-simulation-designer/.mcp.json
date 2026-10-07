@@ -1,7 +1,0 @@
-{
-  "mcpServers": {
-    "box": { "type": "http", "url": "https://mcp.box.com" },
-    "clickup": { "type": "http", "url": "https://mcp.clickup.com/mcp" },
-    "airtable": { "type": "http", "url": "https://mcp.airtable.com/mcp" }
-  }
-}

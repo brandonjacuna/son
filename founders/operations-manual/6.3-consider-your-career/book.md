@@ -1,6 +1,6 @@
 # 6.3 Consider your career: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Conclusion, pp. 498 to 503. Full text: `extraction/build/s16/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Conclusion, pp. 498 to 503. Full text: `sources/extraction/build/s16/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## You are your own career coach
 
@@ -46,4 +46,4 @@ Quoted: Dongping Zhao, president of Anker Innovations, on the three levels of ca
 
 The book closes by naming its intent as a return to fundamentals: not innovative, often tactical, requiring the work, in hope of building confidence, self-awareness, the ability to say the hard thing, and eventually a reader's own operating system (pp. 502 to 503).
 
-For the full text of this section, see `extraction/build/s16/book.md`.
+For the full text of this section, see `sources/extraction/build/s16/book.md`.

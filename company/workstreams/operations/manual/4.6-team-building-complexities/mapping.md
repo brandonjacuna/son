@@ -1,6 +1,6 @@
 # 4.6 Team-building complexities: the fate of every old item
 
-Source: `extraction/build/s11/old-items.md` (32 items for the run covering 4.6, 4.7, and 4.8) and the S11 page at `archive/clickup-export-2026-09-26/operating-system-doc/12-2ky45bmy-33193.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md` unless another chunk is named.
+Source: `sources/extraction/build/s11/old-items.md` (32 items for the run covering 4.6, 4.7, and 4.8) and the S11 page at `archive/clickup-export-2026-09-26/operating-system-doc/12-2ky45bmy-33193.md`. The originals remain verbatim in the archive. New task numbers refer to `tasks.md` unless another chunk is named.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

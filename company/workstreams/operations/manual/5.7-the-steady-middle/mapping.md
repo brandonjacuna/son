@@ -1,6 +1,6 @@
 # 5.7 The steady middle: the fate of every old item
 
-Source: `extraction/build/s14/old-items.md` (32 items owned by run s14 across 5.6, 5.7, and 5.8, plus 1 received from 2.1) and the S14 page at `extraction/build/s14/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Items the run owns appear in exactly one of the three mappings; this file holds the ones whose main home is 5.7.
+Source: `sources/extraction/build/s14/old-items.md` (32 items owned by run s14 across 5.6, 5.7, and 5.8, plus 1 received from 2.1) and the S14 page at `sources/extraction/build/s14/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Items the run owns appear in exactly one of the three mappings; this file holds the ones whose main home is 5.7.
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

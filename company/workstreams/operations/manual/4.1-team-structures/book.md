@@ -1,6 +1,6 @@
 # 4.1 Team structures: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 261 to 281. Full text: `extraction/build/s08/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 261 to 281. Full text: `sources/extraction/build/s08/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Why this chapter exists
 
@@ -63,6 +63,6 @@ Adding a layer of management under yourself is a common, uncomfortable necessity
 
 ## Exercises
 
-The chapter's worksheets (career conversations, offsite planning, leadership team snippets, and Stripe's unblocking process) serve later sections of Chapter 4 rather than team structures specifically; none are reproduced here. Full text: `extraction/build/s08/exercises.md`.
+The chapter's worksheets (career conversations, offsite planning, leadership team snippets, and Stripe's unblocking process) serve later sections of Chapter 4 rather than team structures specifically; none are reproduced here. Full text: `sources/extraction/build/s08/exercises.md`.
 
-For the full text of both, see `extraction/build/s08/book.md` and `extraction/build/s08/exercises.md`.
+For the full text of both, see `sources/extraction/build/s08/book.md` and `sources/extraction/build/s08/exercises.md`.

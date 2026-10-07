@@ -1,6 +1,6 @@
 # S15 filing manifest (exact titles)
 
-Filed 2026-09-24 from `output/s15/work-items-and-carryovers.md` by the session controller over ClickUp's REST API (Brandon's token, helper `extraction/s13/cu.py`, scripts `extraction/s15/build-plan.py`, `file.py`, `comment.py`, `verify-filed.py`). Every item shows Brandon as author. All 32 descriptions were fetched back (`extraction/s15/verify/`) and compared by script: 32 of 32 identical in name, priority, parent or link, and description, each with exactly one provenance line.
+Filed 2026-09-24 from `output/s15/work-items-and-carryovers.md` by the session controller over ClickUp's REST API (Brandon's token, helper `sources/extraction/s13/cu.py`, scripts `sources/extraction/s15/build-plan.py`, `file.py`, `comment.py`, `verify-filed.py`). Every item shows Brandon as author. All 32 descriptions were fetched back (`sources/extraction/s15/verify/`) and compared by script: 32 of 32 identical in name, priority, parent or link, and description, each with exactly one provenance line.
 
 Subtasks under `86akh1hdg`: **337 before, 367 after** (30 added). Carryover Register list `901327884538`: **143 before, 145 after** (2 added), each linked to its target session task.
 
@@ -48,6 +48,6 @@ Subtasks under `86akh1hdg`: **337 before, 367 after** (30 added). Carryover Regi
 
 ## Comments
 
-32 comments, each confirmed present exactly once by fetch-back (`extraction/s15/comments-log.tsv`): the 11 carryovers routed to S15 and 21 extended items. Backticks stripped to match the connector's rendering. Carryovers answered by the page stay open for founder ratification.
+32 comments, each confirmed present exactly once by fetch-back (`sources/extraction/s15/comments-log.tsv`): the 11 carryovers routed to S15 and 21 extended items. Backticks stripped to match the connector's rendering. Carryovers answered by the page stay open for founder ratification.
 
 `86akh5uy1`, `86akh680c`, `86akh7ref`, `86akhb2wg`, `86akhcz7f`, `86akhpvtf`, `86akht3bw`, `17tn048qc2g`, `17tn048qcjx`, `17tn048qepa`, `17tn048qfp2`, `86akhb2jg`, `86akh6742`, `86akh5u8m`, `86akh5u77`, `17tn048qfn4`, `17tn048qfn9`, `17tn048qfnr`, `86akhpudu`, `86akhpv3p`, `86akh5ufu`, `86akh675n`, `86akhpv5n`, `17tn048qeu4`, `86akht1m9`, `17tn048qfp1`, `86akh67a1`, `86akh6739`, `86akh3rx4`, `86akh3tjb`, `86akh7r2t`, `86ajgnhzk`

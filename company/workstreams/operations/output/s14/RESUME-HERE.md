@@ -28,4 +28,4 @@ Also done: 25 comments on existing items (the 13 carryovers routed here and 12 e
 
 ## Next session
 
-Session 15, task `86ajgmjpw`, Chapter 5, managing managers and managing out. Book pages 449 to 483; the top of p.449 is Session 14's. Designer. Handoff at `extraction/s15/HANDOFF-from-s14.md`; S14 page index at `extraction/s15/s14-page-index.md`.
+Session 15, task `86ajgmjpw`, Chapter 5, managing managers and managing out. Book pages 449 to 483; the top of p.449 is Session 14's. Designer. Handoff at `sources/extraction/s15/HANDOFF-from-s14.md`; S14 page index at `sources/extraction/s15/s14-page-index.md`.

@@ -1,6 +1,6 @@
 # 1.1 Build self-awareness to build mutual awareness: the fate of every old item
 
-Source: `extraction/build/s01/old-items.md` (seven of the run's ten items are assigned here) and the S1 page at `extraction/build/s01/old-page.md`, sections 1, 6, 7, and 8.1 to 8.3 and 8.5. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`. The run's other three items are mapped in 0 (86ajgnh8n), 1.3 (86akh2qfk), and 1.4 (86akh2qdd).
+Source: `sources/extraction/build/s01/old-items.md` (seven of the run's ten items are assigned here) and the S1 page at `sources/extraction/build/s01/old-page.md`, sections 1, 6, 7, and 8.1 to 8.3 and 8.5. The originals remain verbatim in the archive. New task numbers refer to `tasks.md`. The run's other three items are mapped in 0 (86ajgnh8n), 1.3 (86akh2qfk), and 1.4 (86akh2qdd).
 
 Fates: **Kept** (same work, maps to a new task); **Rewritten** (verdict framing becomes a decision or option); **Merged** (folded into a new task with others); **Routes to X.Y** (belongs in another chunk); **Dropped** (brand-dependent, program machinery, or duplicate).
 

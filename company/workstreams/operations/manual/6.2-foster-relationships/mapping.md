@@ -1,6 +1,6 @@
 # 6.2 Foster relationships: the fate of every old item
 
-Source: `extraction/build/s16/old-items.md` and `digest.md` Part 2 (41 items for run s16, which covers 6.1, 6.2, and 6.3) and the S16 page at `extraction/build/s16/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Each item the run owns appears in exactly one of the three chunk tables; an item split across chunks sits in the table of the chunk that holds most of its work, and "Goes to" names every task that absorbs a part. Of the 41, 7 are in this table, 24 in 6.1's, and 10 in 6.3's.
+Source: `sources/extraction/build/s16/old-items.md` and `digest.md` Part 2 (41 items for run s16, which covers 6.1, 6.2, and 6.3) and the S16 page at `sources/extraction/build/s16/old-page.md`. The originals remain verbatim in the archive. New task numbers refer to each chunk's `tasks.md`. Each item the run owns appears in exactly one of the three chunk tables; an item split across chunks sits in the table of the chunk that holds most of its work, and "Goes to" names every task that absorbs a part. Of the 41, 7 are in this table, 24 in 6.1's, and 10 in 6.3's.
 
 Nothing in this file, or in the tasks it maps to, describes how any founder relates to anyone as a person, or records a founder's values, working style, or feedback style. The relationships become what the house can build; the rest belongs to the people in them.
 

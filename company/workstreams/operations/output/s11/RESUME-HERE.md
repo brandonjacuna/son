@@ -21,4 +21,4 @@ Also done: 43 comments posted on 43 existing items (the nine carryovers routed h
 
 ## Next session
 
-Session 12, task `86ajgmjba`, Chapter 5, coaching, hard feedback, and a culture of informal feedback, book pages 381 to 398. Designer. Handoff at `extraction/s12/HANDOFF-from-s11.md`, S11 page index at `extraction/s12/s11-page-index.md`. Seven carryovers linked.
+Session 12, task `86ajgmjba`, Chapter 5, coaching, hard feedback, and a culture of informal feedback, book pages 381 to 398. Designer. Handoff at `sources/extraction/s12/HANDOFF-from-s11.md`, S11 page index at `sources/extraction/s12/s11-page-index.md`. Seven carryovers linked.

@@ -1,6 +1,6 @@
 # 2.1 Founding documents: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 2, pp. 71 to 83, with the chapter's exercises at pp. 145 to 150 and workbook pp. 11 to 22. Full text: `extraction/s02/book.md`, `extraction/pilot-2.1/book-exercises-145-150.md`, `extraction/s02/workbook.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 2, pp. 71 to 83, with the chapter's exercises at pp. 145 to 150 and workbook pp. 11 to 22. Full text: `sources/extraction/s02/book.md`, `sources/extraction/pilot-2.1/book-exercises-145-150.md`, `sources/extraction/s02/workbook.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The frame: a house with three parts
 

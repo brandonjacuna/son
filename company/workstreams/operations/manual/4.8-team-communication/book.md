@@ -1,6 +1,6 @@
 # 4.8 Team communication: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 360 to 362. Full text: `extraction/build/s11/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Chapter 4, pp. 360 to 362. Full text: `sources/extraction/build/s11/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## The chapter's closing note
 
@@ -25,4 +25,4 @@ Judgment is still required on what to share and how to frame it. Her Google exam
 
 ## Exercises and templates
 
-This section has no dedicated exercise; her chapter-level exercises (career conversations, offsite planning, leadership snippets, the unblocking process) are cataloged under 4.6, and the leadership snippets template in particular is the closest structural match for the team-snippets practice described here. Full text in `extraction/build/s11/exercises.md`.
+This section has no dedicated exercise; her chapter-level exercises (career conversations, offsite planning, leadership snippets, the unblocking process) are cataloged under 4.6, and the leadership snippets template in particular is the closest structural match for the team-snippets practice described here. Full text in `sources/extraction/build/s11/exercises.md`.

@@ -1,6 +1,6 @@
 # 2.2 The operating system: considerations
 
-What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order, with one addition up front (decision rights) that the book assumes and never states. "WP p. N" is the white paper (`extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to.
+What is worth knowing before doing the work in `tasks.md`. Topics follow the book's order, with one addition up front (decision rights) that the book assumes and never states. "WP p. N" is the white paper (`sources/extraction/s01/record.md`). Nothing here is a decision; where the old synthesis argued a position it appears as an option with its reasoning and what it commits Sŏn to.
 
 One vocabulary line, because the white paper uses the same words for two things. In this chunk "the operating system" means the human system the book describes: strategy, goals, metrics, ownership, accountability, and communication. The software is "the stack" (WP p. 21) or "the OS surface" (WP p. 22). The stack is what the human system's signals travel on; it is not the system.
 

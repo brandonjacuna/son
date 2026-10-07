@@ -1,6 +1,6 @@
 # 6.1 Manage your time and energy: what the book says
 
-Claire Hughes Johnson, *Scaling People*, Conclusion, pp. 485 to 490. Full text: `extraction/build/s16/book.md`. This file is a quick reference; nothing here is about Sŏn.
+Claire Hughes Johnson, *Scaling People*, Conclusion, pp. 485 to 490. Full text: `sources/extraction/build/s16/book.md`. This file is a quick reference; nothing here is about Sŏn.
 
 ## Why this closes the book
 
@@ -38,4 +38,4 @@ Once you know what energizes and demotivates you, a set of tactics (pp. 487 to 4
 
 Dan Weiss, president and CEO of the Metropolitan Museum of Art, on self-awareness as a precondition for leadership: learning from mistakes, evolving from feedback, and being a good listener (pp. 490 to 491).
 
-For the full text of this section, see `extraction/build/s16/book.md`.
+For the full text of this section, see `sources/extraction/build/s16/book.md`.
