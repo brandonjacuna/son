@@ -1,0 +1,475 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — investor site
+   Pass 1: structure and type. Seven slots in the locked order, each element
+   on its assigned type step from tokens/typography.css. Grounds and color
+   (pass 2), the 선 system and the band (pass 3), motion (pass 4), the live
+   form (pass 5), and the accessibility pass (pass 6) land on top of this.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* ── Carried from the retired immersive register ──
+   tokens/motion-immersive.css was retired 2026-07-22 (superseded by
+   tokens/motion-track.css, which carries the track's R1 model). This
+   frozen fallback consumed exactly two things from it, both carried here
+   so the v3 surface renders unchanged: the ease value, and the
+   reduced-motion DELAY kill. The global kill rule in tokens/spacing.css
+   zeroes durations only; without the delay kill the staggered reveals and
+   the band's stripe delays play out as a staged sequence under reduced
+   motion, and the designed path is the band complete, everything
+   instant. */
+[data-surface="immersive"] {
+  --son-imm-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-surface="immersive"],
+  [data-surface="immersive"] *,
+  [data-surface="immersive"] *::before,
+  [data-surface="immersive"] *::after {
+    transition-delay: 0ms !important;
+  }
+}
+
+/* ── Type steps ──
+   Class-per-step, mapped 1:1 onto the token scale. The eyebrow step is
+   .son-eyebrow from tokens/base.css; the wordmark step is the .lockup and
+   .wordmark components below. */
+.t-display {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-display);
+  line-height: var(--son-leading-display);
+  letter-spacing: var(--son-tracking-display);
+}
+.t-headline {
+  font-family: var(--son-font-display);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-headline);
+  line-height: var(--son-leading-headline);
+  letter-spacing: var(--son-tracking-headline);
+  max-width: 24ch;
+}
+.t-subhead {
+  font-family: var(--son-font-serif);
+  font-weight: var(--son-weight-regular);
+  font-size: var(--son-text-subhead);
+  line-height: var(--son-leading-subhead);
+  letter-spacing: var(--son-tracking-normal);
+}
+.t-lead {
+  font-family: var(--son-font-body);
+  font-weight: var(--son-weight-light);
+  font-size: var(--son-text-lead);
+  line-height: var(--son-leading-lead);
+  max-width: var(--son-measure);
+}
+.t-descriptor {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-menu);
+  line-height: var(--son-leading-caption);
+}
+.t-fine {
+  font-family: var(--son-font-fine);
+  font-weight: var(--son-weight-light);
+  font-size: var(--son-text-fine);
+  line-height: var(--son-leading-fine);
+}
+
+/* ── Wordmark and lock-up ──
+   The wordmark face carries the Latin; 선 sits centered below at the Korean
+   optical up-scale, intact, never cropped. */
+.wordmark {
+  font-family: var(--son-font-wordmark);
+  font-weight: var(--son-weight-book);
+  font-size: var(--son-text-subhead);
+  line-height: 1;
+}
+.lockup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--son-font-wordmark);
+  font-weight: var(--son-weight-book);
+  line-height: 1.05;
+}
+/* The drawn 선. One path (#seon-path), sized so its ink height matches what
+   the Korean face rendered at the optical up-scale, so the approved lock-up
+   optics carry over unchanged. */
+.svg-defs { position: absolute; }
+.seon-mark {
+  display: block;
+  fill: currentColor;
+  aspect-ratio: 847 / 930.26;
+}
+.lockup-glyph {
+  height: 1.02em;
+  width: auto;
+  margin-top: 0.16em;
+}
+
+/* ── Chrome ──
+   Transparent over the hero, where it is always present. Past the hero it
+   hides on scroll-down and returns on scroll-up as a summoned object, and
+   a summoned object is solid: the revealed state carries the Plum Ink
+   ground (reconsidered-and-admitted, see docs/build-scratch.md). The
+   ground swap is a hard cut, never a fade. Feedback register: state
+   change, no meaning. */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: none;
+  color: var(--son-text-primary);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--son-space-3);
+  padding: var(--son-space-3) var(--son-margin-page);
+}
+.site-header.is-away { background: var(--son-surface-primary); }
+.site-header.is-hidden { transform: translateY(-100%); }
+.site-header-right {
+  display: flex;
+  align-items: baseline;
+  gap: var(--son-space-4);
+}
+/* A1 is the one small interactive element in the chrome: pad its hit area
+   to the 44px target and pull the padding back out of the layout so the
+   optics hold. */
+.header-cta {
+  display: inline-block;
+  padding: 13px var(--son-space-1);
+  margin: -13px calc(-1 * var(--son-space-1));
+}
+
+/* ── Slots ──
+   10% page margin throughout (Ma). Block spacing is differential, answering
+   to content weight: the moat and the ask carry the most air. */
+.slot {
+  padding-inline: var(--son-margin-page);
+  background: var(--son-surface-primary);
+  color: var(--son-text-primary);
+}
+.slot > .son-eyebrow { margin-bottom: var(--son-space-6); }
+
+/* 1 · Hero: display block upper-left, lock-up low-right, the low-left held
+   open as active Ma. Top horizon is the chrome; the composition descends. */
+.slot-hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--son-space-16);
+  padding-bottom: var(--son-space-6);
+}
+.hero-orient { max-width: 16ch; }
+.hero-loop {
+  margin-top: var(--son-space-4);
+  max-width: 20ch;
+}
+.lockup-hero {
+  margin-top: auto;
+  align-self: flex-end;
+  font-size: var(--son-text-headline);
+}
+
+/* 2 · Moat: the one long section. Body at measure; the pull-line isolated
+   at Display; the blockquote centered one step below. The atmosphere 선 is
+   the section's one 선 event: background depth, low opacity, still, fully
+   contained on the horizontal axis (nothing crops left or right). */
+.slot-moat {
+  position: relative;
+  padding-block: var(--son-space-16);
+}
+.moat-atmo {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(72vh, 88vw);
+  height: auto;
+  opacity: 0.08;
+  pointer-events: none;
+}
+.slot-moat > :not(.moat-atmo) {
+  position: relative;
+  z-index: 1;
+}
+.moat-body p + p { margin-top: var(--son-space-4); }
+.pull-line {
+  max-width: 16ch;
+  margin-block: var(--son-space-10);
+}
+.moat-quote {
+  margin: var(--son-space-10) auto;
+  text-align: center;
+}
+.moat-quote .t-headline { margin-inline: auto; }
+
+/* 3 · Opportunity: the accent split. Text column left; the peacock field
+   right, the section's one 선 event, a single semantic instance planted at
+   the intersection the headline names. Peacock on Bone is the sanctioned
+   daylight chroma. */
+.slot-opportunity {
+  padding-block: var(--son-space-12);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 34%);
+  gap: var(--son-space-8);
+  align-items: stretch;
+}
+.opportunity-text > .son-eyebrow { margin-bottom: var(--son-space-6); }
+.slot-opportunity .t-lead { margin-top: var(--son-space-6); }
+.opportunity-body { margin-top: var(--son-space-4); }
+.opportunity-field {
+  background: var(--son-color-peacock);
+  color: var(--son-color-bone);
+  display: grid;
+  place-items: center;
+  min-height: 420px;
+}
+.seon-accent { width: 56%; height: auto; }
+
+/* 4 · Team: two founders, read as two people. Portrait slots reserved;
+   founder headshots are the only photography the site is allowed. */
+.slot-team { padding-block: var(--son-space-12); }
+.founders {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--son-space-8);
+}
+.founder-role { margin-top: var(--son-space-1); }
+.founder-bio { margin-top: var(--son-space-3); }
+.headshot {
+  margin: var(--son-space-4) 0 0;
+  aspect-ratio: 3 / 4;
+  max-width: 320px;
+  border: var(--son-border-hairline) solid var(--son-border-default);
+}
+
+/* 5 · Model: headline first, then the band, then the body. The band is the
+   site's one saturated rupture and the only place Jade appears: four equal
+   stripes, the day sweeping one footprint, spanning from First light to
+   Last call. Labels are the sanctioned eyebrow uppercase, vertical on
+   desktop. Type yields to the band here, once, on purpose. */
+.slot-model { padding-block: var(--son-space-12); }
+.slot-model .t-headline { margin-bottom: var(--son-space-8); }
+.daypart-band {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--son-space-2);
+  align-items: stretch;
+  height: clamp(240px, 36vh, 340px);
+  margin-block: var(--son-space-8);
+}
+.band-end { writing-mode: vertical-lr; }
+.band-stripes {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.stripe {
+  writing-mode: vertical-lr;
+  padding: var(--son-space-2);
+  position: relative;
+}
+/* Stripe color rides ::before so the wipe can scale the field without
+   distorting the label. Static, no-JS, and reduced-motion states all render
+   the band complete. */
+.stripe::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--stripe-color);
+  transform-origin: left center;
+}
+.stripe-label { position: relative; }
+.stripe-coffee { --stripe-color: var(--son-color-jade); color: var(--son-color-plum-ink); }
+.stripe-lunch { --stripe-color: var(--son-color-onggi); color: var(--son-color-bone); }
+.stripe-dinner { --stripe-color: var(--son-color-plum-ink); color: var(--son-color-bone); }
+.stripe-late { --stripe-color: var(--son-color-aubergine); color: var(--son-color-bone); }
+.band-stripes li:nth-child(1) { --stripe-i: 0; }
+.band-stripes li:nth-child(2) { --stripe-i: 1; }
+.band-stripes li:nth-child(3) { --stripe-i: 2; }
+.band-stripes li:nth-child(4) { --stripe-i: 3; }
+.model-body p + p { margin-top: var(--son-space-3); }
+
+/* 6 · Ask: Aubergine ground, the warm second dark. The form sits on a Bone
+   card, the one daylight object in the commit; the card re-resolves the
+   semantic tokens to the base editorial register because it is a light
+   ground inside a dark section. Hard edge, no shadow, no border: the
+   bone-on-aubergine cut is the separation. */
+.slot-ask {
+  padding-block: var(--son-space-16);
+  background: var(--son-surface-secondary);
+}
+.ask-headline {
+  text-align: center;
+  margin-inline: auto;
+  margin-bottom: var(--son-space-8);
+}
+.ask-card {
+  --son-text-primary: var(--son-color-plum-ink);
+  --son-border-default: color-mix(in srgb, var(--son-color-plum-ink) 22%, transparent);
+  --son-border-strong: var(--son-color-plum-ink);
+  --son-focus-ring: var(--son-color-peacock);
+  --son-accent: var(--son-color-peacock);
+  background: var(--son-color-bone);
+  color: var(--son-text-primary);
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: var(--son-space-6);
+}
+.ask-form {
+  display: grid;
+  gap: var(--son-space-4);
+}
+/* The hidden attribute must win over the grid display above. */
+.ask-form[hidden],
+.disclaimer[hidden] { display: none; }
+.field .son-field-error { margin-top: var(--son-space-1); }
+.field-label {
+  display: block;
+  margin-bottom: var(--son-space-1);
+}
+.field-input {
+  width: 100%;
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-body);
+  line-height: var(--son-leading-body);
+  color: inherit;
+  background: none;
+  border: var(--son-border-hairline) solid var(--son-border-default);
+  border-radius: var(--son-radius-none);
+  padding: var(--son-space-1) var(--son-space-2);
+  min-height: 44px;
+}
+textarea.field-input { resize: vertical; }
+.ask-submit {
+  font-family: var(--son-font-body);
+  font-size: var(--son-text-menu);
+  letter-spacing: var(--son-tracking-open);
+  color: inherit;
+  background: none;
+  border: var(--son-border-hairline) solid var(--son-border-strong);
+  border-radius: var(--son-radius-none);
+  min-height: 44px;
+  min-width: 44px;
+  padding: var(--son-space-1) var(--son-space-4);
+  justify-self: start;
+  cursor: pointer;
+}
+.disclaimer { margin-top: var(--son-space-6); }
+
+/* The confirmation: the one separate surface, reached by a functional
+   200ms cross-fade on the feedback register. No celebration. */
+html.js .ask-form,
+html.js .disclaimer {
+  transition: opacity var(--son-motion-standard) var(--son-ease-standard);
+}
+.ask-form.is-leaving,
+.disclaimer.is-leaving { opacity: 0; }
+.ask-confirmation {
+  opacity: 0;
+  transition: opacity var(--son-motion-standard) var(--son-ease-standard);
+}
+.ask-confirmation.is-in { opacity: 1; }
+
+/* 7 · Footer: the lock-up, the location line, the bare closing glyph. */
+.slot-footer {
+  padding-block: var(--son-space-10);
+  display: grid;
+  justify-items: center;
+  gap: var(--son-space-4);
+  text-align: center;
+}
+.lockup-footer { font-size: var(--son-text-subhead); }
+.closing-mark { font-size: var(--son-text-fine); }
+.closing-mark .seon-mark {
+  height: 0.91em;
+  width: auto;
+  margin-inline: auto;
+}
+
+/* ── Motion: the timed reveal (pass 4) ──
+   One narrative gesture, the settle: rise and fade up to rest, ease-out,
+   once, at roughly 85% viewport height, never re-firing. Durations keyed to
+   element size. Hidden states are gated on html.js so the page is complete
+   without JavaScript, and the immersive reduced-motion kill collapses every
+   transition to nothing. The atmosphere 선, the peacock field, and the
+   grounds never move. */
+html.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(var(--rise, 16px));
+  transition:
+    opacity var(--dur, 600ms) var(--son-imm-ease),
+    transform var(--dur, 600ms) var(--son-imm-ease);
+}
+html.js [data-reveal="sm"] { --rise: 12px; --dur: 450ms; }
+html.js [data-reveal="md"] { --rise: 16px; --dur: 600ms; }
+html.js [data-reveal="lg"] { --rise: 20px; --dur: 700ms; }
+html.js [data-reveal="hero"] { --rise: 16px; --dur: 550ms; }
+html.js [data-reveal="fade"] { transform: none; }
+html.js [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+/* The chrome's hide and reveal ride the feedback register (~300ms per the
+   motion spec), independent of the load fade. */
+html.js .site-header {
+  transition:
+    opacity var(--dur, 600ms) var(--son-imm-ease),
+    transform 300ms var(--son-ease-standard);
+}
+/* Reduced motion, the designed path: hidden states are opacity-only, so
+   arrivals never translate, and the immersive kill rule makes them
+   instant. What communicates stays; what moves goes. */
+@media (prefers-reduced-motion: reduce) {
+  html.js [data-reveal] { transform: none; }
+}
+
+/* The band wipe: the one noticeable motion. Each stripe scales in from
+   first light's side, 260ms per stripe, staggered to roughly one second,
+   labels landing per stripe. Triggered once on enter, never scrubbed. */
+html.js .stripe::before {
+  transition: transform 260ms var(--son-imm-ease);
+  transition-delay: calc(var(--beat-delay, 0ms) + var(--stripe-i, 0) * 245ms);
+}
+html.js .stripe-label {
+  transition: opacity 300ms var(--son-imm-ease);
+  transition-delay: calc(var(--beat-delay, 0ms) + var(--stripe-i, 0) * 245ms + 130ms);
+}
+html.js [data-reveal-band]:not(.is-in) .stripe::before { transform: scaleX(0); }
+html.js [data-reveal-band]:not(.is-in) .stripe-label { opacity: 0; }
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .access-note { display: none; }
+  .founders { grid-template-columns: 1fr; }
+  .slot-opportunity { grid-template-columns: 1fr; }
+  .opportunity-field { min-height: 320px; }
+  .daypart-band {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: var(--son-space-1);
+  }
+  .band-end { writing-mode: horizontal-tb; }
+  .band-stripes { grid-template-columns: 1fr; gap: 0; }
+  .stripe {
+    writing-mode: horizontal-tb;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+  }
+  /* The band stacks, so the wipe runs top to bottom: the day passing,
+     pulling the eye down. Rises reduce per the mobile motion spec. */
+  .stripe::before { transform-origin: center top; }
+  html.js [data-reveal-band]:not(.is-in) .stripe::before { transform: scaleY(0); }
+  html.js [data-reveal="sm"], html.js [data-reveal="md"] { --rise: 8px; }
+  html.js [data-reveal="lg"], html.js [data-reveal="hero"] { --rise: 10px; }
+  .slot-moat, .slot-ask { padding-block: var(--son-space-12); }
+  .slot-opportunity, .slot-team, .slot-model { padding-block: var(--son-space-10); }
+  .slot-hero { padding-top: var(--son-space-12); }
+  .ask-card { padding: var(--son-space-4); }
+}

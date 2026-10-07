@@ -1,0 +1,332 @@
+{
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "react/forbid-elements": [
+      "warn",
+      {
+        "forbid": []
+      }
+    ],
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [
+          {
+            "group": [
+              "components/brand/**",
+              "components/core/**",
+              "components/forms/**",
+              "components/navigation/**",
+              "guidelines-deck/**",
+              "slides/**",
+              "ui_kits/good-energy/**",
+              "ui_kits/son-website/**"
+            ],
+            "message": "Import design-system components from 'index.js', not component internals."
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "Literal[value=/#[0-9a-fA-F]{3,8}\\b/]",
+        "message": "Raw hex color — use a design-system color token via var()."
+      },
+      {
+        "selector": "Literal[value=/\\b\\d+px\\b/]",
+        "message": "Raw px value — use a design-system spacing token via var()."
+      },
+      {
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:GT Sectra Book|GT Sectra|GT Sectra Display|GT Alpina|Nanum Myeongjo))/i]",
+        "message": "Font not provided by the design system. Available: GT Sectra Book, GT Sectra, GT Sectra Display, GT Alpina, Nanum Myeongjo."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Badge'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|children|key|ref|className|style|children)$/]",
+        "message": "<Badge> doesn't accept that prop. Declared props: variant, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Badge'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:outline|accent|solid)$/]",
+        "message": "<Badge> variant must be one of 'outline' | 'accent' | 'solid'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|size|fullWidth|children|key|ref|className|style|children)$/]",
+        "message": "<Button> doesn't accept that prop. Declared props: variant, size, fullWidth, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:primary|secondary|ghost)$/]",
+        "message": "<Button> variant must be one of 'primary' | 'secondary' | 'ghost'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='size'] > Literal[value!=/^(?:sm|md|lg)$/]",
+        "message": "<Button> size must be one of 'sm' | 'md' | 'lg'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Card'] > JSXAttribute > JSXIdentifier[name!=/^(?:as|surface|padding|children|key|ref|className|style|children)$/]",
+        "message": "<Card> doesn't accept that prop. Declared props: as, surface, padding, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Card'] > JSXAttribute[name.name='surface'] > Literal[value!=/^(?:primary|secondary)$/]",
+        "message": "<Card> surface must be one of 'primary' | 'secondary'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Card'] > JSXAttribute[name.name='padding'] > Literal[value!=/^(?:none|sm|md|lg)$/]",
+        "message": "<Card> padding must be one of 'none' | 'sm' | 'md' | 'lg'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Checkbox'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|key|ref|className|style|children)$/]",
+        "message": "<Checkbox> doesn't accept that prop. Declared props: label."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Divider'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|spacing|key|ref|className|style|children)$/]",
+        "message": "<Divider> doesn't accept that prop. Declared props: label, spacing."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Divider'] > JSXAttribute[name.name='spacing'] > Literal[value!=/^(?:sm|md|lg)$/]",
+        "message": "<Divider> spacing must be one of 'sm' | 'md' | 'lg'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Input'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|error|hint|key|ref|className|style|children)$/]",
+        "message": "<Input> doesn't accept that prop. Declared props: label, error, hint."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Select'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|children|key|ref|className|style|children)$/]",
+        "message": "<Select> doesn't accept that prop. Declared props: label, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Switch'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|key|ref|className|style|children)$/]",
+        "message": "<Switch> doesn't accept that prop. Declared props: label."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='TabItem'] > JSXAttribute > JSXIdentifier[name!=/^(?:id|label|key|ref|className|style|children)$/]",
+        "message": "<TabItem> doesn't accept that prop. Declared props: id, label."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Wordmark'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|size|color|glyphColor|align|className|style|key|ref|className|style|children)$/]",
+        "message": "<Wordmark> doesn't accept that prop. Declared props: variant, size, color, glyphColor, align, className, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Wordmark'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:lockup|latin|glyph)$/]",
+        "message": "<Wordmark> variant must be one of 'lockup' | 'latin' | 'glyph'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Wordmark'] > JSXAttribute[name.name='align'] > Literal[value!=/^(?:left|center|right)$/]",
+        "message": "<Wordmark> align must be one of 'left' | 'center' | 'right'."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/index.js"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ],
+  "x-omelette": {
+    "components": {
+      "Badge": {
+        "replaces": []
+      },
+      "Button": {
+        "replaces": []
+      },
+      "Card": {
+        "replaces": []
+      },
+      "Checkbox": {
+        "replaces": []
+      },
+      "Divider": {
+        "replaces": []
+      },
+      "Input": {
+        "replaces": []
+      },
+      "Select": {
+        "replaces": []
+      },
+      "Switch": {
+        "replaces": []
+      },
+      "TabItem": {
+        "replaces": []
+      },
+      "Wordmark": {
+        "replaces": []
+      }
+    },
+    "tokens": [
+      "--son-accent",
+      "--son-border-default",
+      "--son-border-hairline",
+      "--son-border-strong",
+      "--son-color-aubergine",
+      "--son-color-bone",
+      "--son-color-gold-foil",
+      "--son-color-jade",
+      "--son-color-onggi",
+      "--son-color-pale-jade",
+      "--son-color-parchment",
+      "--son-color-peacock",
+      "--son-color-plum-ink",
+      "--son-color-white",
+      "--son-ease-enter",
+      "--son-ease-exit",
+      "--son-ease-standard",
+      "--son-focus-ring",
+      "--son-font-body",
+      "--son-font-display",
+      "--son-font-korean",
+      "--son-font-serif",
+      "--son-font-wordmark",
+      "--son-glyph",
+      "--son-icon-default",
+      "--son-korean-scale",
+      "--son-leading-body",
+      "--son-leading-display",
+      "--son-leading-loose",
+      "--son-leading-snug",
+      "--son-leading-tight",
+      "--son-margin-page",
+      "--son-measure",
+      "--son-measure-narrow",
+      "--son-motion-fast",
+      "--son-motion-slow",
+      "--son-motion-standard",
+      "--son-radius-none",
+      "--son-radius-pill",
+      "--son-radius-sm",
+      "--son-radius-xs",
+      "--son-shadow-hairline",
+      "--son-shadow-none",
+      "--son-space-0",
+      "--son-space-1",
+      "--son-space-10",
+      "--son-space-12",
+      "--son-space-16",
+      "--son-space-2",
+      "--son-space-3",
+      "--son-space-4",
+      "--son-space-5",
+      "--son-space-6",
+      "--son-space-8",
+      "--son-surface-inverse",
+      "--son-surface-primary",
+      "--son-surface-secondary",
+      "--son-text-body",
+      "--son-text-display",
+      "--son-text-eyebrow",
+      "--son-text-fine",
+      "--son-text-headline",
+      "--son-text-lead",
+      "--son-text-menu",
+      "--son-text-on-dark",
+      "--son-text-on-dark-secondary",
+      "--son-text-primary",
+      "--son-text-secondary",
+      "--son-text-section",
+      "--son-text-subhead",
+      "--son-tracking-display",
+      "--son-tracking-eyebrow",
+      "--son-tracking-normal",
+      "--son-tracking-open",
+      "--son-weight-book",
+      "--son-weight-light",
+      "--son-weight-medium",
+      "--son-weight-regular"
+    ],
+    "tokenKinds": {
+      "--son-color-parchment": "color",
+      "--son-color-bone": "color",
+      "--son-color-plum-ink": "color",
+      "--son-color-aubergine": "color",
+      "--son-color-jade": "color",
+      "--son-color-peacock": "color",
+      "--son-color-onggi": "color",
+      "--son-color-pale-jade": "color",
+      "--son-color-gold-foil": "color",
+      "--son-color-white": "color",
+      "--son-surface-primary": "color",
+      "--son-surface-secondary": "color",
+      "--son-surface-inverse": "color",
+      "--son-text-primary": "font",
+      "--son-text-secondary": "font",
+      "--son-text-on-dark": "font",
+      "--son-text-on-dark-secondary": "font",
+      "--son-border-default": "color",
+      "--son-border-strong": "color",
+      "--son-icon-default": "color",
+      "--son-accent": "color",
+      "--son-glyph": "color",
+      "--son-focus-ring": "color",
+      "--son-font-wordmark": "font",
+      "--son-font-display": "font",
+      "--son-font-serif": "font",
+      "--son-font-body": "font",
+      "--son-font-korean": "font",
+      "--son-text-display": "font",
+      "--son-text-headline": "font",
+      "--son-text-section": "font",
+      "--son-text-subhead": "font",
+      "--son-text-lead": "font",
+      "--son-text-body": "font",
+      "--son-text-menu": "font",
+      "--son-text-eyebrow": "font",
+      "--son-text-fine": "font",
+      "--son-weight-light": "font",
+      "--son-weight-book": "font",
+      "--son-weight-regular": "font",
+      "--son-weight-medium": "font",
+      "--son-leading-display": "font",
+      "--son-leading-tight": "font",
+      "--son-leading-snug": "font",
+      "--son-leading-body": "font",
+      "--son-leading-loose": "font",
+      "--son-tracking-eyebrow": "font",
+      "--son-tracking-display": "font",
+      "--son-tracking-normal": "font",
+      "--son-tracking-open": "font",
+      "--son-measure": "spacing",
+      "--son-measure-narrow": "spacing",
+      "--son-korean-scale": "other",
+      "--son-space-0": "spacing",
+      "--son-space-1": "spacing",
+      "--son-space-2": "spacing",
+      "--son-space-3": "spacing",
+      "--son-space-4": "spacing",
+      "--son-space-5": "spacing",
+      "--son-space-6": "spacing",
+      "--son-space-8": "spacing",
+      "--son-space-10": "spacing",
+      "--son-space-12": "spacing",
+      "--son-space-16": "spacing",
+      "--son-margin-page": "spacing",
+      "--son-border-hairline": "spacing",
+      "--son-radius-none": "radius",
+      "--son-radius-xs": "radius",
+      "--son-radius-sm": "radius",
+      "--son-radius-pill": "radius",
+      "--son-shadow-none": "shadow",
+      "--son-shadow-hairline": "shadow",
+      "--son-motion-fast": "other",
+      "--son-motion-standard": "other",
+      "--son-motion-slow": "other",
+      "--son-ease-standard": "other",
+      "--son-ease-enter": "other",
+      "--son-ease-exit": "other"
+    },
+    "fontFamilies": [
+      "GT Alpina",
+      "GT Sectra",
+      "GT Sectra Book",
+      "GT Sectra Display",
+      "Nanum Myeongjo"
+    ]
+  }
+}

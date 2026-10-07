@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+
+# Reference material: keep the directories, ignore their dropped-in contents.
+refs/clips/*
+!refs/clips/.gitkeep
+refs/frames/*
+!refs/frames/.gitkeep

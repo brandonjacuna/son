@@ -1,0 +1,236 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Typography
+   Two Latin families, one Korean companion, used across their full optical
+   ranges. Not a size-only single-weight ramp; the families carry the work.
+   · GT Sectra   — felt, and led. Fine (wordmark), Display (headline/section),
+                   Standard (subhead/eyebrow). Optical size does the shouting
+                   so the letterforms never have to.
+   · GT Alpina   — read, and followed. Fine (lead/body), Standard (fine detail).
+   · Sandoll Myeongjo (선 / Hangul) — Nanum Myeongjo is the flagged web substitute.
+
+   Type decision, 2026-07-20 (docs/type-decision.md, governing; ratified by
+   Brandon, all seven decisions). The prior 104 display ceiling and the ~112
+   "spectacle line" are retired: page 04 never set a ceiling, and under the
+   panel structure display lines are locked choreography strophes, so every
+   display size is a fit equation against the 10% Ma margin
+   (--son-margin-page, tokens/spacing.css). Reading display is capped by
+   strophe-fit x panel height, per instance, measured on the real binaries:
+   the hero came DOWN (its binding line fits 82.7px max at 1440) and the
+   viewport-isolated pull-line earned a NEW step (fits 148.4px max at 1440).
+   The fluid slopes below ARE the fit formulas (Display 5.7vw, Solo 10vw), so
+   contains-never-crops holds at every width by construction; strophe bands
+   switch where the floors engage (hero ~800px, Solo ~580px). Under user text
+   zoom the rem floors grow and a locked strophe may re-wrap: designed
+   degradation, reading intact.
+
+   Responsive stance: compress by strophe, hold by crop. Reading steps keep
+   their legibility sizes (the Body step holds 16px at every width; amended
+   2026-07-23, build-spec §7 amendment 7: that sentence survives per step,
+   and the scale gains the admission-termed story-register reading size,
+   the body-story block below); display steps
+   scale on their fit slopes and re-break their strophes per band (each
+   strophe set is an approved choreography unit). The display-to-body ratio
+   compresses on the phone (9:1 at cap to 3.6:1 at 375) because the no-crop
+   reading rule caps the phone at strophe-fit; the ratio is genuinely held
+   only by the non-reading 선 layers (tokens/seon.css), which keep size and
+   crop. Adjacent steps stay >= 1.2x at every width (Solo/Display 1.26 at
+   375, Display/Headline 1.21 — the Headline floor moved 40 -> 38 to keep
+   the guarantee on the shared hero panel).
+
+   Fit rule, two parts. Reading display (the sentences, pull-lines,
+   headlines) fits and wraps on every axis and never overflows: a cropped
+   word loses the argument. Non-reading display (a hero wordmark or a
+   signature word) may crop on the BOTTOM edge only, never left or right,
+   and never the 선 mark silhouette. Scoped 2026-07-20 (Decision 1): the
+   horizontal-overflow exclusion binds the reading ramp and Latin display;
+   the architectural 선 layers are exempt — crop is their mobile stance
+   (tokens/seon.css). The 선 exclusion here remains the drawn-mark balance
+   spec (page 04), which binds the lock-up.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Families ──
+     All Latin cuts, including the four Fine faces, are on disk and render.
+     The Korean web substitute is self-hosted but its binaries are pending a
+     hand-copy from Box (see tokens/fonts.css); until they land the Korean
+     stack resolves to a local Myeongjo, never a sans. */
+  /* Wordmark: GT Sectra Fine Book, with 선 delivered as a drawn path. The
+     path derives from a Myeongjo letterform and is treated as artwork, not
+     type. Korean text on internal surfaces continues to use the Korean font
+     stack. */
+  --son-font-wordmark: "GT Sectra Fine", "GT Sectra Book", "GT Sectra Book Fallback", Georgia, serif;
+  --son-font-display:  "GT Sectra Display", "GT Sectra", "Cormorant Garamond", Georgia, serif;
+  --son-font-serif:    "GT Sectra", "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
+  --son-font-body:     "GT Alpina Fine", "GT Alpina", "Source Serif 4", Georgia, serif;
+  /* Fine detail (<= 12px): the standard optical, not Fine. High-contrast
+     hairlines fail at 12px on low-DPI, and page 12 targets WCAG AAA where
+     achievable. This is a reasoned exception, not an inherited default. */
+  --son-font-fine:     "GT Alpina", "Source Serif 4", Georgia, serif;
+  /* Korean: Sandoll Myeongjo in production, Nanum Myeongjo the web substitute.
+     Every fallback is a Korean serif (Myeongjo/Batang) or generic serif, never
+     a sans, never a Latin face. Noto Serif KR is brand-prohibited (see readme). */
+  --son-font-korean:   "Sandoll Myeongjo", "Nanum Myeongjo", "Apple Myungjo", "Batang", serif;
+
+  /* ── Type scale ──
+     Named steps mapped onto the existing token names so downstream consumers
+     do not churn. Display steps ride their fit slopes (see header); reading
+     steps are fixed. Sizes at 375 / 1280 / cap:
+
+       Solo      GT Sectra Display  Regular 400   58 / 128 / 144   NEW — viewport-isolated reading display only
+       Display   GT Sectra Display  Regular 400   46 /  73 /  82
+       Headline  GT Sectra Display  Regular 400   38 /  57 /  60
+       Section   GT Sectra Display  Medium  500   30 /  42 /  44
+       Subhead   GT Sectra          Regular 400   21 /  25 /  26
+       Lead      GT Alpina Fine     Light   300   18  (fixed)
+       Body      GT Alpina Fine     Regular 400   16  (fixed)
+       Body, story register         Regular 400   20  (fixed)  — admission-termed, moat story panels only; ruled on device 2026-07-23 (the story-register block below)
+       Menu      GT Alpina Fine     Regular 400   14  (fixed)  [descriptor / caption]
+       Eyebrow   GT Sectra          Regular 400   12  (fixed)  UPPERCASE, tracked
+       Fine      GT Alpina          Light   300   12  (fixed)
+
+     Solo admission terms (Decision 2): display text as the only reading
+     content on a full panel (today exactly P5, the moat pull-line),
+     strophe-locked per band, contains-wraps-never-crops. The largest
+     reading voice sits at the thesis, not the door: the belief takes the
+     top voice at its install point. */
+  --son-text-solo:     clamp(3.625rem, 10vw, 9rem);        /* 58 -> 128@1280 -> 144 */ /* @kind other */
+  --son-text-display:  clamp(2.875rem, 5.7vw, 5.125rem);   /* 46 -> 73@1280  -> 82  */ /* @kind other */
+  --son-text-headline: clamp(2.375rem, 1.883rem + 2.1vw, 3.75rem); /* 38 -> 57@1280 -> 60 */ /* @kind other */
+  --son-text-section:  clamp(1.875rem,  1.57rem + 1.32vw, 2.75rem);  /* 30 -> 42@1280 -> 44  */ /* @kind other */
+  --son-text-subhead:  clamp(1.3125rem, 1.20rem + 0.47vw, 1.625rem); /* 21 -> 25@1280 -> 26  */ /* @kind other */
+  --son-text-lead:     1.125rem;  /* 18px */
+  --son-text-body:     1rem;      /* 16px */
+  --son-text-menu:     0.875rem;  /* 14px menu descriptor / caption */
+  --son-text-eyebrow:  0.75rem;   /* 12px eyebrow (uppercase only) */
+  --son-text-fine:     0.75rem;   /* 12px fine detail (held at 12 for the AAA target, not 11) */
+
+  /* ── Weights ──
+     Canon inversion held at every scale including Solo (canon and the
+     reference concur: the biggest type is Regular 400, size does the work;
+     big-and-light reads as quiet confidence, smaller-and-medium as
+     structure). */
+  --son-weight-light:   300;
+  --son-weight-book:    400;
+  --son-weight-regular: 400;
+  --son-weight-medium:  500;
+  --son-weight-body:    400;  /* themeable: dinner deliberate, morning lighter (below) */
+
+  /* ── Leading ──
+     Per step. Two tight display registers, measured on the real face:
+     GT Sectra Display caps at 0.700em and descends 0.242em, so sentence-case
+     tight leading floors at 0.942 (the reference's 0.8 is an uppercase-only
+     face; excluded on geometry). Solo 0.98 leaves 0.038em clearance; Display
+     1.00 leaves 0.058em. Tight leading REQUIRES the clip-rise geometry
+     below — unpadded clips cut descenders at any leading under ~1.22. */
+  --son-leading-solo:     0.98;
+  --son-leading-display:  1.00;
+  --son-leading-headline: 1.08;
+  --son-leading-section:  1.12;
+  --son-leading-tight:    1.12;  /* retained: generic heading default */
+  --son-leading-subhead:  1.25;
+  --son-leading-snug:     1.3;   /* Korean setting */
+  --son-leading-lead:     1.5;
+  --son-leading-body:     1.55;
+  --son-leading-caption:  1.45;
+  --son-leading-fine:     1.4;
+  --son-leading-loose:    1.72;
+
+  /* ── Tracking ──
+     Negative and size-graded on the display steps (Sectra opens up at size,
+     so it is closed as it grows), wide only on the eyebrow. Serif body needs
+     none. Solo shares the display tracking (its fit maxima were measured at
+     -0.02em; set tracking on the element that carries the font-size — an
+     em tracking inherited from a smaller ancestor computes near zero). */
+  --son-tracking-display:  -0.02em;
+  --son-tracking-headline: -0.015em;
+  --son-tracking-section:  -0.01em;
+  --son-tracking-eyebrow:   0.2em;
+  --son-tracking-normal:    0;
+  --son-tracking-open:      0.01em;
+
+  /* ── Clip-rise geometry (Decision 6) ──
+     Leading is a motion variable: display lines rise out of per-line clips
+     (R1 motion model), and the clip must render the glyph whole at rest.
+     Measured on GT Sectra Display Regular: glyphs span 0.956em (asc 0.714 +
+     desc 0.242) against a 1.24em font box, so an unpadded overflow:hidden
+     line clip cuts descenders at any leading below ~1.22 — including the
+     old 1.03. Every line clip therefore carries these pads with equal
+     negative margins so visual leading is unchanged while glyphs render
+     whole. LOAD-BEARING: the strophe stack MUST be a flex column (or grid);
+     in normal block flow the negative margins collapse and inflate the
+     visual leading by the top pad per line. Pads live on the clip; the
+     rising inner element is unpadded; the rise origin (120%) is a
+     translateY percentage and resolves against the MOVER'S OWN LINE BOX,
+     not the padded clip box (doc fix executed at G3 per track-scratch
+     3c, ruled 2026-07-22): pixel probes confirm zero ink above the clip
+     pre-rise at every step, with a few pixels of clearance at display
+     scale rather than the padded-box margin the earlier letter implied.
+     Revisit the value only if a face or leading retune ever eats the
+     clearance. Reduced motion:
+     clip-rises become opacity-only; the pads are static CSS and the rest
+     state is identical on both paths. */
+  --son-clip-pad-top:    0.12em;
+  --son-clip-pad-bottom: 0.26em;
+  --son-rise-from:       120%;   /* @kind other */
+
+  /* ── Measure — body capped at ~62ch, never above 75ch ── */
+  --son-measure: 62ch;
+  --son-measure-narrow: 46ch;
+
+  /* ── The story register (build-spec §7, amendments 2, 4, 7) ──
+     Admission-termed, the same shape as Solo's admission: story paragraphs
+     as the sole reading content of full dark viewports (today exactly the
+     moat story panels P2, P3, P4; ratified per instance as an editorial
+     reading, never a mechanical rule). Body's face and weight at Lead's
+     size territory, taken on dark-ground rendering grounds; no new band is
+     minted (the size sits inside canon's Lead band, 16 to 20). The Body
+     step itself is untouched: P6, chapters II and III, and the ask consume
+     16 unchanged. The register is a PANEL attribute, never a theme
+     override: sizes stay invariant across dayparts (below), and the
+     register axis is orthogonal to theme.
+     The size and its compensated measure are ONE PAIR and move together
+     (amendment 4: constancy narrows to {left edge, rendered width}, scoped
+     to the moat column, where co-visibility makes it a guarantee).
+     Measured on the real face, three engines: 62ch at 16 renders
+     565.44px; 49.6ch at 20 matches it exactly by arithmetic (62x16 =
+     49.6x20 = 992 font-units); every engine renders both registers
+     within 0.5px of the constant and of each other (Chromium/WebKit
+     0.00 to 0.13px; Firefox up to 0.47px from its own per-size ch
+     quantization) — sub-pixel, invisible at paint. On the phone the
+     10% margins cap both registers to identical width by container.
+     RULED 2026-07-23 at the device pass (build-spec §7 amendment 8):
+     the story size is 20. 18 lost in the hand, and duplicated Lead's
+     size besides; 22 was measured and refused before being built — the
+     P3 couplet breaks to three lines on every engine at both phone
+     widths, and dangles on desktop where 18 and 20 held (evidence:
+     refs/notes/pass-10-story-22.txt). The strip apparatus is removed;
+     no candidate mechanism remains and no query parameter renders
+     anything but this ruled state. */
+  --son-text-body-story:    1.25rem;  /* 20px, ruled on device */
+  --son-measure-body-story: 49.6ch;   /* pairs with 20; renders the Body measure's 565.44px constant */
+
+  /* Korean optical compensation: runs 10 to 15% larger than paired Sectra */
+  --son-korean-scale: 1.12; /* @kind other */
+}
+
+
+/* ── Theme-aware weight and leading (page 12) ──
+   Sizes are invariant across dayparts; only weight and leading vary. Dinner and
+   luxe run the dark editorial register (tighter, deliberate); morning opens up
+   and lightens; dosi sits near the base. Grounds resolve in colors.css. */
+[data-theme="dinner"],
+[data-theme="luxe"] {
+  --son-weight-body:    400;
+  --son-leading-body:   1.5;
+  --son-leading-lead:   1.45;
+}
+[data-theme="morning"] {
+  --son-weight-body:    300;
+  --son-leading-body:   1.62;
+  --son-leading-lead:   1.58;
+}
+[data-theme="dosi"] {
+  --son-weight-body:    400;
+  --son-leading-body:   1.55;
+  --son-leading-lead:   1.5;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "son-design-system",
+  "version": "2.2.0",
+  "private": true,
+  "description": "Sŏn — design system (선 · Future Nostalgia Hospitality Group). Tokens, components, specimen cards, slides, deck template, and UI kits with adherence enforcement.",
+  "main": "_ds_bundle.js",
+  "scripts": {
+    "lint": "npm run lint:css && npm run lint:copy && npm run lint:track && npm run lint:jsx",
+    "lint:css": "stylelint \"**/*.css\" \"**/*.html\"",
+    "lint:copy": "node adherence/check-copy.mjs",
+    "lint:track": "node adherence/check-track.mjs",
+    "lint:jsx": "eslint",
+    "frames": "node scripts/frames.mjs",
+    "scrollframes": "node scripts/scrollframes.mjs",
+    "shoot": "node scripts/shoot.mjs",
+    "timeframes": "node scripts/timeframes.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^10.7.0",
+    "lenis": "1.3.8",
+    "playwright": "^1.61.1",
+    "postcss-html": "^1.8.1",
+    "stylelint": "^17.14.0"
+  }
+}

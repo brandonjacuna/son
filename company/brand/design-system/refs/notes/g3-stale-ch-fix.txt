@@ -1,0 +1,19 @@
+firefox run 1: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 2: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 3: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 4: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 5: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 6: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 7: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 8: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 9: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 10: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 11: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+firefox run 12: p2 565.43px, p6 565.23px — within 0.5px of the constant, no harness flush
+chromium run 1: p2 565.44px, p6 565.44px — within 0.5px of the constant, no harness flush
+webkit run 1: p2 565.44px, p6 565.44px — within 0.5px of the constant, no harness flush
+chromium 390: couplet holds two lines after the page's own invalidation
+webkit 390: couplet holds two lines after the page's own invalidation
+firefox 390: couplet holds two lines after the page's own invalidation
+
+Stale-ch fix verified: the page corrects itself on every load.

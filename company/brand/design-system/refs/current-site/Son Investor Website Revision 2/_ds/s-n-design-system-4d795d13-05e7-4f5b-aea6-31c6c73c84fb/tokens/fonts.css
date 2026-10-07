@@ -1,0 +1,111 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Webfont declarations
+   GT Sectra (display / wordmark) + GT Alpina (body), Grilli Type.
+   Korean companion Sandoll Myeongjo is NOT licensed for web here; the
+   documented substitute is Nanum Myeongjo (a true Myeongjo serif). FLAGGED.
+   Noto Serif KR is brand-prohibited and intentionally not used.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* Korean substitute for Sandoll Myeongjo — see readme "Font substitutions" */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+/* ── GT Sectra — wordmark / serif (Book is the wordmark weight) ── */
+@font-face {
+  font-family: "GT Sectra Book";
+  src: url("../assets/fonts/GT-Sectra-Book.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Book";
+  src: url("../assets/fonts/GT-Sectra-Book-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Book.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Book-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Regular.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Regular-Italic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Black.ttf") format("truetype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+
+/* ── GT Sectra Display — headlines / section headers ── */
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Light-Italic.ttf") format("truetype");
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Regular-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Medium-Italic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+
+/* ── GT Alpina — body ── */
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Light-Italic.ttf") format("truetype");
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Regular-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Medium-Italic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}

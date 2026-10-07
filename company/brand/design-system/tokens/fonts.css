@@ -1,0 +1,201 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Webfont declarations
+   GT Sectra + GT Alpina (Grilli Type), used across their full optical ranges.
+   Korean companion Sandoll Myeongjo is not licensed for web here; the
+   documented substitute is Nanum Myeongjo (a true Myeongjo serif). Noto Serif
+   KR is brand-prohibited and intentionally absent.
+
+   The four Fine cuts (Sectra Fine Book, Sectra Display Regular, Alpina Fine
+   Light, Alpina Fine Regular) are on disk and load; the Latin system renders
+   on its real faces.
+
+   KOREAN DELIVERY. The external site renders exactly one Hangul glyph, 선
+   (U+C120), and it ships as a drawn inline SVG path in the site markup, not
+   as a font. All site uses are graphic (the lock-ups, the atmosphere layer,
+   the accent, the closing mark), and a drawn path keeps the mark invariant
+   where a webfont exposes it to a system Myeongjo during load or failure.
+   Provenance is commented at the path definition in site/index.html.
+   Korean TEXT on internal surfaces continues to use the Korean font stack;
+   Korean text on any external surface reopens font delivery.
+
+   OPTIONAL FULL BINARIES (owned, Box 388972713490, not on disk). Whether the
+   full weights ever land on disk is an open call recorded in
+   docs/build-scratch.md; the declarations below fail silently until then:
+     · NanumMyeongjo-Regular.ttf    (Box 2277115631241, sha1 e1dc4bfc607b5e8460413376b492cfc124b9edd4)
+     · NanumMyeongjo-Bold.ttf       (Box 2277097679211, sha1 50d34c27f68affe1904ad5535aeb90198b213f98)
+     · NanumMyeongjo-ExtraBold.ttf  (Box 2277096779789, sha1 97209d9a47b4e4db496f9b170666eefa6872f030)
+   No third-party font CDN: fonts are self-hosted, ownership included.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* ── Nanum Myeongjo — the documented full-face substitute, self-hosted.
+   OPTIONAL binaries, see the header note. ── */
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../assets/fonts/NanumMyeongjo-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../assets/fonts/NanumMyeongjo-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nanum Myeongjo";
+  src: url("../assets/fonts/NanumMyeongjo-ExtraBold.ttf") format("truetype");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+
+/* Sandoll Myeongjo (산돌명조) — the mandated Korean companion. SUBSTITUTE,
+   pending: web files not yet supplied (replace this local() placeholder with
+   url() faces when licensed). Until then it resolves only where installed
+   locally; everywhere else the stack falls through to Nanum Myeongjo. Do not
+   substitute a different family. */
+@font-face {
+  font-family: "Sandoll Myeongjo";
+  src: local("Sandoll Myeongjo"), local("SandollMyeongjo"), local("Sandoll GothicNeo Myeongjo");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+
+/* ── GT Sectra Fine — wordmark (Fine Book only, per canon 04) ──
+   font-display: block so the mark never flashes a divergent letterform;
+   the metric-matched fallback below holds its box meanwhile. */
+@font-face {
+  font-family: "GT Sectra Fine";
+  src: url("../assets/fonts/GT-Sectra-Fine-Book.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+
+/* ── GT Sectra Book — the present wordmark fallback, and inline Book serif ── */
+@font-face {
+  font-family: "GT Sectra Book";
+  src: url("../assets/fonts/GT-Sectra-Book.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "GT Sectra Book";
+  src: url("../assets/fonts/GT-Sectra-Book-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: block;
+}
+/* Metric-matched fallback for the wordmark, built on Georgia. Overrides are
+   measured against GT-Sectra-Book.ttf (upm 1000, hhea ascent 980 / descent
+   -260, avg lowercase advance 0.5041em vs Georgia 0.5019em) so a slow font
+   load holds the mark's metrics instead of reflowing. */
+@font-face {
+  font-family: "GT Sectra Book Fallback";
+  src: local("Georgia");
+  size-adjust: 100.44%;
+  ascent-override: 97.57%;
+  descent-override: 25.89%;
+  line-gap-override: 0%;
+}
+
+/* ── GT Sectra (Standard optical) — subhead, eyebrow, inline serif ── */
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Book.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Book-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Regular.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Regular-Italic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra";
+  src: url("../assets/fonts/GT-Sectra-Black.ttf") format("truetype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+
+/* ── GT Sectra Display — headline (Regular 400) and section (Medium 500) ──
+   The upright Regular is the canon headline face; its binary is PENDING, so
+   until it lands the display stack falls through to GT Sectra (Standard). */
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Light-Italic.ttf") format("truetype");
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face { /* the upright headline face */
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Regular-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra Display";
+  src: url("../assets/fonts/GT-Sectra-Display-Medium-Italic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+
+/* ── GT Alpina Fine — the reading face (lead, body) per canon 04 ── */
+@font-face {
+  font-family: "GT Alpina Fine";
+  src: url("../assets/fonts/GT-Alpina-Fine-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina Fine";
+  src: url("../assets/fonts/GT-Alpina-Fine-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+
+/* ── GT Alpina (Standard optical) — reading fallback, small-size fine detail,
+   and the italic emphasis Alpina Fine does not ship ── */
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Light-Italic.ttf") format("truetype");
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Regular-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "GT Alpina";
+  src: url("../assets/fonts/GT-Alpina-Medium-Italic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}

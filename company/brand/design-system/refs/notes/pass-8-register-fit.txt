@@ -1,0 +1,146 @@
+chromium 1440x900 story=20 p2 [story]: 20px/30px, para 565.44px @x144.00, 7 line(s), block 255px = 28.4% of frame, seat holds
+chromium 1440x900 story=20 p3 [story]: 20px/30px, para 565.44px @x144.00, 1 line(s), block 30px = 3.3% of frame, seat holds
+chromium 1440x900 story=20 p4 [story]: 20px/30px, para 565.44px @x144.00, 4 line(s), block 120px = 13.3% of frame, seat holds
+chromium 1440x900 story=20 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+chromium 1440x900 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+chromium 1440x900 story=20 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+chromium 390x844 story=20 p2 [story]: 20px/30px, para 312.00px @x39.00, 13 line(s), block 435px = 51.6% of frame, seat holds
+chromium 390x844 story=20 p3 [story]: 20px/30px, para 312.00px @x39.00, 2 line(s), block 60px = 7.1% of frame, seat holds
+chromium 390x844 story=20 p4 [story]: 20px/30px, para 312.00px @x39.00, 7 line(s), block 210px = 24.9% of frame, seat holds
+chromium 390x844 story=20 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+chromium 390x844 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+chromium 390x844 story=20 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (311px, 212px; shortest 68% of measure)
+chromium 375x667 story=20 p2 [story]: 20px/30px, para 300.00px @x37.50, 14 line(s), block 465px = 69.8% of frame, seat holds
+chromium 375x667 story=20 p3 [story]: 20px/30px, para 300.00px @x37.50, 2 line(s), block 60px = 9.0% of frame, seat holds
+chromium 375x667 story=20 p4 [story]: 20px/30px, para 300.00px @x37.50, 8 line(s), block 240px = 36.0% of frame, seat holds
+chromium 375x667 story=20 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+chromium 375x667 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+chromium 375x667 story=20 P3 couplet: "One day she leaves. There's always" / "a better offer across town." (297px, 226px; shortest 75% of measure)
+chromium 1440x900 story=18 p2 [story]: 18px/27px, para 565.31px @x144.00, 6 line(s), block 207px = 23.0% of frame, seat holds
+chromium 1440x900 story=18 p3 [story]: 18px/27px, para 565.31px @x144.00, 1 line(s), block 27px = 3.0% of frame, seat holds
+chromium 1440x900 story=18 p4 [story]: 18px/27px, para 565.31px @x144.00, 4 line(s), block 108px = 12.0% of frame, seat holds
+chromium 1440x900 story=18 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+chromium 1440x900 story=18 constancy: width spread 0.13px, left-edge spread 0.00px (ch basis 9.120)
+chromium 1440x900 story=18 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+chromium 390x844 story=18 p2 [story]: 18px/27px, para 312.00px @x39.00, 12 line(s), block 369px = 43.8% of frame, seat holds
+chromium 390x844 story=18 p3 [story]: 18px/27px, para 312.00px @x39.00, 2 line(s), block 54px = 6.4% of frame, seat holds
+chromium 390x844 story=18 p4 [story]: 18px/27px, para 312.00px @x39.00, 7 line(s), block 189px = 22.4% of frame, seat holds
+chromium 390x844 story=18 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+chromium 390x844 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+chromium 390x844 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 61% of measure)
+chromium 375x667 story=18 p2 [story]: 18px/27px, para 300.00px @x37.50, 12 line(s), block 369px = 55.4% of frame, seat holds
+chromium 375x667 story=18 p3 [story]: 18px/27px, para 300.00px @x37.50, 2 line(s), block 54px = 8.1% of frame, seat holds
+chromium 375x667 story=18 p4 [story]: 18px/27px, para 300.00px @x37.50, 7 line(s), block 189px = 28.3% of frame, seat holds
+chromium 375x667 story=18 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+chromium 375x667 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+chromium 375x667 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 64% of measure)
+webkit 1440x900 story=20 p2 [story]: 20px/30px, para 565.44px @x144.00, 7 line(s), block 255px = 28.4% of frame, seat holds
+webkit 1440x900 story=20 p3 [story]: 20px/30px, para 565.44px @x144.00, 1 line(s), block 30px = 3.3% of frame, seat holds
+webkit 1440x900 story=20 p4 [story]: 20px/30px, para 565.44px @x144.00, 4 line(s), block 120px = 13.3% of frame, seat holds
+webkit 1440x900 story=20 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+webkit 1440x900 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+webkit 1440x900 story=20 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+webkit 390x844 story=20 p2 [story]: 20px/30px, para 312.00px @x39.00, 14 line(s), block 465px = 55.1% of frame, seat holds
+webkit 390x844 story=20 p3 [story]: 20px/30px, para 312.00px @x39.00, 2 line(s), block 60px = 7.1% of frame, seat holds
+webkit 390x844 story=20 p4 [story]: 20px/30px, para 312.00px @x39.00, 7 line(s), block 210px = 24.9% of frame, seat holds
+webkit 390x844 story=20 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+webkit 390x844 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+webkit 390x844 story=20 P3 couplet: "One day she leaves. There's" / "always a better offer across town." (234px, 288px; shortest 75% of measure)
+webkit 375x667 story=20 p2 [story]: 20px/30px, para 300.00px @x37.50, 14 line(s), block 465px = 69.8% of frame, seat holds
+webkit 375x667 story=20 p3 [story]: 20px/30px, para 300.00px @x37.50, 2 line(s), block 60px = 9.0% of frame, seat holds
+webkit 375x667 story=20 p4 [story]: 20px/30px, para 300.00px @x37.50, 8 line(s), block 240px = 36.0% of frame, seat holds
+webkit 375x667 story=20 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+webkit 375x667 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+webkit 375x667 story=20 P3 couplet: "One day she leaves. There's" / "always a better offer across town." (234px, 288px; shortest 78% of measure)
+webkit 1440x900 story=18 p2 [story]: 18px/27px, para 565.31px @x144.00, 6 line(s), block 207px = 23.0% of frame, seat holds
+webkit 1440x900 story=18 p3 [story]: 18px/27px, para 565.31px @x144.00, 1 line(s), block 27px = 3.0% of frame, seat holds
+webkit 1440x900 story=18 p4 [story]: 18px/27px, para 565.31px @x144.00, 4 line(s), block 108px = 12.0% of frame, seat holds
+webkit 1440x900 story=18 p6 [case]: 16px/24px, para 565.44px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+webkit 1440x900 story=18 constancy: width spread 0.13px, left-edge spread 0.00px (ch basis 9.120)
+webkit 1440x900 story=18 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+webkit 390x844 story=18 p2 [story]: 18px/27px, para 312.00px @x39.00, 12 line(s), block 369px = 43.8% of frame, seat holds
+webkit 390x844 story=18 p3 [story]: 18px/27px, para 312.00px @x39.00, 2 line(s), block 54px = 6.4% of frame, seat holds
+webkit 390x844 story=18 p4 [story]: 18px/27px, para 312.00px @x39.00, 7 line(s), block 189px = 22.4% of frame, seat holds
+webkit 390x844 story=18 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+webkit 390x844 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+webkit 390x844 story=18 P3 couplet: "One day she leaves. There's always" / "a better offer across town." (267px, 203px; shortest 65% of measure)
+webkit 375x667 story=18 p2 [story]: 18px/27px, para 300.00px @x37.50, 13 line(s), block 396px = 59.4% of frame, seat holds
+webkit 375x667 story=18 p3 [story]: 18px/27px, para 300.00px @x37.50, 2 line(s), block 54px = 8.1% of frame, seat holds
+webkit 375x667 story=18 p4 [story]: 18px/27px, para 300.00px @x37.50, 7 line(s), block 189px = 28.3% of frame, seat holds
+webkit 375x667 story=18 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+webkit 375x667 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.120)
+webkit 375x667 story=18 P3 couplet: "One day she leaves. There's" / "always a better offer across town." (211px, 259px; shortest 70% of measure)
+firefox 1440x900 story=20 p2 [story]: 20px/30px, para 565.43px @x144.00, 7 line(s), block 255px = 28.4% of frame, seat holds
+firefox 1440x900 story=20 p3 [story]: 20px/30px, para 565.43px @x144.00, 1 line(s), block 30px = 3.3% of frame, seat holds
+firefox 1440x900 story=20 p4 [story]: 20px/30px, para 565.43px @x144.00, 4 line(s), block 120px = 13.3% of frame, seat holds
+firefox 1440x900 story=20 p6 [case]: 16px/24px, para 565.23px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+firefox 1440x900 story=20 constancy: width spread 0.20px, left-edge spread 0.00px (ch basis 9.117)
+firefox 1440x900 story=20 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+firefox 390x844 story=20 p2 [story]: 20px/30px, para 312.00px @x39.00, 13 line(s), block 435px = 51.6% of frame, seat holds
+firefox 390x844 story=20 p3 [story]: 20px/30px, para 312.00px @x39.00, 2 line(s), block 60px = 7.1% of frame, seat holds
+firefox 390x844 story=20 p4 [story]: 20px/30px, para 312.00px @x39.00, 7 line(s), block 210px = 24.9% of frame, seat holds
+firefox 390x844 story=20 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+firefox 390x844 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117)
+firefox 390x844 story=20 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (311px, 212px; shortest 68% of measure)
+firefox 375x667 story=20 p2 [story]: 20px/30px, para 300.00px @x37.50, 14 line(s), block 465px = 69.8% of frame, seat holds
+firefox 375x667 story=20 p3 [story]: 20px/30px, para 300.00px @x37.50, 2 line(s), block 60px = 9.0% of frame, seat holds
+firefox 375x667 story=20 p4 [story]: 20px/30px, para 300.00px @x37.50, 8 line(s), block 240px = 36.0% of frame, seat holds
+firefox 375x667 story=20 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+firefox 375x667 story=20 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117)
+firefox 375x667 story=20 P3 couplet: "One day she leaves. There's always" / "a better offer across town." (297px, 226px; shortest 75% of measure)
+firefox 1440x900 story=18 p2 [story]: 18px/27px, para 565.70px @x144.00, 6 line(s), block 207px = 23.0% of frame, seat holds
+firefox 1440x900 story=18 p3 [story]: 18px/27px, para 565.70px @x144.00, 1 line(s), block 27px = 3.0% of frame, seat holds
+firefox 1440x900 story=18 p4 [story]: 18px/27px, para 565.70px @x144.00, 4 line(s), block 108px = 12.0% of frame, seat holds
+firefox 1440x900 story=18 p6 [case]: 16px/24px, para 565.23px @x144.00, 6 line(s), block 265px = 29.4% of frame, seat holds
+firefox 1440x900 story=18 constancy: width spread 0.47px, left-edge spread 0.00px (ch basis 9.117)
+firefox 1440x900 story=18 P3 desktop: 1 line(s): "One day she leaves. There's always a better offer across town."
+firefox 390x844 story=18 p2 [story]: 18px/27px, para 312.00px @x39.00, 12 line(s), block 369px = 43.8% of frame, seat holds
+firefox 390x844 story=18 p3 [story]: 18px/27px, para 312.00px @x39.00, 2 line(s), block 54px = 6.4% of frame, seat holds
+firefox 390x844 story=18 p4 [story]: 18px/27px, para 312.00px @x39.00, 7 line(s), block 189px = 22.4% of frame, seat holds
+firefox 390x844 story=18 p6 [case]: 16px/24px, para 312.00px @x39.00, 11 line(s), block 444px = 52.6% of frame, seat holds
+firefox 390x844 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117)
+firefox 390x844 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 61% of measure)
+firefox 375x667 story=18 p2 [story]: 18px/27px, para 300.00px @x37.50, 12 line(s), block 369px = 55.4% of frame, seat holds
+firefox 375x667 story=18 p3 [story]: 18px/27px, para 300.00px @x37.50, 2 line(s), block 54px = 8.1% of frame, seat holds
+firefox 375x667 story=18 p4 [story]: 18px/27px, para 300.00px @x37.50, 7 line(s), block 189px = 28.3% of frame, seat holds
+firefox 375x667 story=18 p6 [case]: 16px/24px, para 300.00px @x37.50, 11 line(s), block 443px = 66.4% of frame, seat holds
+firefox 375x667 story=18 constancy: width spread 0.00px, left-edge spread 0.00px (ch basis 9.117)
+firefox 375x667 story=18 P3 couplet: "One day she leaves. There's always a" / "better offer across town." (280px, 191px; shortest 64% of measure)
+
+chromium 1440x900 story=20 MOTION-PATH: rest geometry identical to the reduced path (width, left edge, size, every line break) across P2/P3/P4/P6
+chromium 1440x900 story=18 MOTION-PATH: rest geometry identical to the reduced path (width, left edge, size, every line break) across P2/P3/P4/P6
+
+All checks passed (every line above carries an assertion; NOTE lines record detected-then-corrected stale states).
+
+Engine findings, recorded (pass 8 probe, 2026-07-23), both PRE-EXISTING
+and neither introduced by the register split:
+1. Firefox first-layout stale ch: Firefox sometimes resolves ch-based
+   max-width against the fallback face at first layout and does not
+   re-resolve it when GT Alpina Fine arrives (fonts.ready reflows
+   glyphs, not the stale unit). Reproduced ~2 of 10 runs at 1440,
+   INCLUDING with no story query on the shipped 62ch Body measure
+   (608.6px vs 565.2px true); any style flush corrects it. The probe
+   now gates the rendered face by ch ruler and flushes before
+   measuring, so stale geometry can no longer be archived; when the
+   race fires it is logged as a NOTE line. FIELD RISK REMAINS: a real
+   Firefox reader on a slow connection can read the whole column ~43px
+   wide of ruled until something invalidates style. The register
+   constancy guarantee is unaffected by construction (the pairs are
+   ratio-matched at 992/991.8/992 font-units, so all registers move
+   together on any face basis, spread <= 0.22px even when stale).
+   WebKit (the device pass) and Chromium never exhibit it; phone widths
+   are container-capped. Candidate fix if ever wanted: a one-time style
+   invalidation of ch-measured elements after document.fonts.ready
+   (track.js already re-measures there; reading geometry does not
+   re-resolve the unit). Brandon's call; not built.
+2. Firefox per-size ch quantization: on the true face Firefox renders
+   the 18 pair at 565.70px against its own 565.23px case measure
+   (0.47px spread); Chromium and WebKit hold 0.00 to 0.13px. The ch
+   advance is rounded per font size, so exact cross-size equality is
+   not expressible in ch units on that engine. Sub-half-pixel,
+   invisible at paint; the gate is the 0.5px visibility bound and every
+   engine passes it.
+
+Addendum, G3 (2026-07-23): engine finding 1 was RULED fix-before-ship
+and fixed — the batched invalidation after document.fonts.ready lives
+in track.js; verification is refs/notes/g3-stale-ch-fix.txt.

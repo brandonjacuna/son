@@ -1,0 +1,56 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Typography
+   Two Latin typefaces. One Korean companion. The ceiling is absolute.
+   · GT Sectra        — display / wordmark / serif headlines (felt, led)
+   · GT Alpina        — body (read, followed)
+   · Nanum Myeongjo   — SUBSTITUTE for Sandoll Myeongjo (Hangul). FLAGGED.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Families ── */
+  --son-font-wordmark: "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
+  --son-font-display:  "GT Sectra Display", "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
+  --son-font-serif:    "GT Sectra", "GT Sectra Book", "Cormorant Garamond", Georgia, serif;
+  --son-font-body:     "GT Alpina", "Source Serif 4", Georgia, serif;
+  /* Korean: Sandoll Myeongjo in production. Web substitute = Nanum Myeongjo. */
+  --son-font-korean:   "Nanum Myeongjo", "GT Sectra Book", "Apple SD Gothic Neo", serif;
+
+  /* ── Type scale (digital px) ──
+     Hierarchy mirrors the brand spec. Min body 18px in deck conditions. */
+  --son-text-display:  clamp(3.5rem, 6vw, 6rem);   /* 56–96px headline */
+  --son-text-headline: 4.5rem;    /* 72px */
+  --son-text-section:  2.5rem;    /* 40px section header */
+  --son-text-subhead:  1.625rem;  /* 26px */
+  --son-text-lead:     1.25rem;   /* 20px */
+  --son-text-body:     1rem;      /* 16px */
+  --son-text-menu:     0.9375rem; /* 15px menu descriptor */
+  --son-text-eyebrow:  0.75rem;   /* 12px eyebrow (uppercase only) */
+  --son-text-fine:     0.6875rem; /* 11px fine detail */
+
+  /* ── Weights ── */
+  --son-weight-light:   300;
+  --son-weight-book:    400;
+  --son-weight-regular: 400;
+  --son-weight-medium:  500;
+
+  /* ── Leading ── */
+  --son-leading-display: 1.06;
+  --son-leading-tight:   1.12;
+  --son-leading-snug:    1.3;
+  --son-leading-body:    1.55;
+  --son-leading-loose:   1.72;
+
+  /* ── Tracking ──
+     Eyebrows ride wide. Display rides slightly tight. Body opens at distance. */
+  --son-tracking-eyebrow: 0.2em;
+  --son-tracking-display: -0.015em;
+  --son-tracking-normal:  0;
+  --son-tracking-open:    0.01em;
+
+  /* ── Measure — body capped at ~65ch, never above 75ch ── */
+  --son-measure: 62ch;
+  --son-measure-narrow: 46ch;
+
+  /* Korean optical compensation: runs 10–15% larger than paired Sectra */
+  --son-korean-scale: 1.12; /* @kind other */
+}

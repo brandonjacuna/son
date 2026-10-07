@@ -1,0 +1,13 @@
+Gate 5 cross-engine fit, captured 2026-07-23 (probe re-run at commit time):
+chromium 1440x900: fonts true, wraps 0, column 144, noHscroll true
+chromium 1280x800: fonts true, wraps 0, column 128, noHscroll true
+chromium 390x844: fonts true, wraps 0, column 39, noHscroll true
+chromium 375x812: fonts true, wraps 0, column 37.5, noHscroll true
+webkit 1440x900: fonts true, wraps 0, column 144, noHscroll true
+webkit 1280x800: fonts true, wraps 0, column 128, noHscroll true
+webkit 390x844: fonts true, wraps 0, column 39, noHscroll true
+webkit 375x812: fonts true, wraps 0, column 37.5, noHscroll true
+firefox 1440x900: fonts true, wraps 0, column 144, noHscroll true
+firefox 1280x800: fonts true, wraps 0, column 128, noHscroll true
+firefox 390x844: fonts true, wraps 0, column 39, noHscroll true
+firefox 375x812: fonts true, wraps 0, column 37.5, noHscroll true

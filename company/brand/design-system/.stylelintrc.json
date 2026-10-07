@@ -1,0 +1,38 @@
+{
+  "$comment": "Sŏn adherence — CSS/HTML pass. GT Sectra Fine Arrival is the inlined S/o-breve/n wordmark subset, a delivery name, not a third Latin face (ruled 2026-07-22); the watched door: the violation is not the name, it is the name ever gaining a glyph beyond S, o-breve, and n, or being used on any element that is not a mark. Canon-critical rules run at error severity: a violation blocks. Pairs with adherence/check-copy.mjs (copy rules: em dashes, forbidden lexicon, removed tokens) and _adherence.oxlintrc.json (JSX). Requires postcss-html for the .html overrides.",
+  "rules": {
+    "color-no-hex": [true, {
+      "severity": "error",
+      "message": "Raw hex color — use a design-system color token via var(--son-*). The only hex lives in tokens/colors.css primitives, the gold-foil stripe in guidelines/colors-special.html, and the self-contained guidelines-deck/ rendered exports (tokens unavailable there)."
+    }],
+    "color-named": ["never", {
+      "severity": "error",
+      "message": "Named CSS color — use a design-system color token via var(--son-*)."
+    }],
+    "function-disallowed-list": [["rgb", "rgba", "hsl", "hsla", "oklch", "lab", "lch"], {
+      "severity": "error",
+      "message": "Raw color function — the palette is closed; use var(--son-*) (color-mix over tokens is the sanctioned alpha mechanism)."
+    }],
+    "declaration-property-value-allowed-list": [{
+      "/^font-family$/": ["/^(var\\(--son-font-[a-z-]+\\)|\"?(GT Sectra Book Fallback|GT Sectra Fine Arrival|GT Sectra Fine|GT Sectra Book|GT Sectra Display|GT Sectra|GT Alpina Fine|GT Alpina|Sandoll Myeongjo|Nanum Myeongjo|Apple Myungjo|Batang|Georgia)\"?|inherit|serif)([,].*)?$/"]
+    }, {
+      "severity": "error",
+      "message": "Font not provided by the design system. Use var(--son-font-*) or: GT Sectra Fine Arrival, GT Sectra Book, GT Sectra, GT Sectra Display, GT Alpina, Sandoll/Nanum Myeongjo (+ sanctioned serif fallbacks)."
+    }]
+  },
+  "overrides": [
+    { "files": ["**/*.html"], "customSyntax": "postcss-html" },
+    { "files": ["tokens/colors.css"], "rules": { "color-no-hex": null } },
+    { "files": ["guidelines/colors-special.html"], "rules": { "color-no-hex": null } },
+    { "files": ["guidelines-deck/*.html"], "rules": { "color-no-hex": null } }
+  ],
+  "ignoreFiles": [
+    "refs/**",
+    "uploads/**",
+    "_ds_bundle.js",
+    "**/deck-stage.js",
+    "**/image-slot.js",
+    "**/ds-base.js",
+    "node_modules/**"
+  ]
+}

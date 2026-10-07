@@ -1,0 +1,191 @@
+<!-- @template name="Sŏn Editorial Deck" description="Investor / partnership deck in the brand's editorial register. Bone ground, controlled dark dividers, GT Sectra headlines." -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sŏn · Editorial Deck</title>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="./ds-base.js"></script>
+<script src="../../slides/image-slot.js"></script>
+<style>
+  deck-stage:not(:defined) { visibility: hidden; }
+  html, body { margin: 0; background: var(--son-color-plum-ink); }
+
+  /* Slide base: fills the 1280×720 canvas; deck-stage positions each section */
+  .s { width: 100%; height: 100%; box-sizing: border-box; padding: 96px 128px;
+       font-family: var(--son-font-body); position: relative; overflow: hidden;
+       display: flex; flex-direction: column; }
+  .bone { background: var(--son-color-bone); color: var(--son-color-plum-ink); }
+  .parchment { background: var(--son-color-parchment); color: var(--son-color-plum-ink); }
+  .ink { background: var(--son-color-plum-ink); color: var(--son-color-bone); }
+  .aubergine { background: var(--son-color-aubergine); color: var(--son-color-bone); }
+
+  .eyebrow { font-family: var(--son-font-serif); font-size: 13px; text-transform: uppercase;
+             letter-spacing: 0.2em; color: var(--son-color-peacock); }
+  .ink .eyebrow, .aubergine .eyebrow, .parchment .eyebrow { color: var(--son-color-parchment); }
+  .parchment .eyebrow { color: var(--son-color-onggi); }
+
+  h1,h2,h3 { font-family: var(--son-font-display); font-weight: 400; letter-spacing: -0.015em;
+             line-height: 1.06; margin: 0; }
+
+  .glyph-kr { font-family: var(--son-font-korean); }
+
+  /* Opening */
+  .open { justify-content: space-between; }
+  .open .mark { display: flex; flex-direction: column; gap: 14px; }
+  .open .latin { font-family: var(--son-font-wordmark); font-size: 64px; line-height: 1; }
+  .open .glyph-kr { font-size: 27px; line-height: 1; }
+  .open h1 { font-size: 52px; line-height: 1.1; max-width: 18ch; text-wrap: balance; }
+  .open .foot { display: flex; justify-content: space-between; align-items: flex-end; }
+  .open .addr { font-family: var(--son-font-body); font-size: 14px; color: var(--son-color-peacock); }
+
+  /* Section divider */
+  .section { justify-content: flex-end; }
+  .section .num { position: absolute; top: 96px; left: 128px; font-family: var(--son-font-serif);
+                  font-size: 13px; text-transform: uppercase; letter-spacing: 0.22em; color: var(--son-color-parchment); }
+  .section .glyph-kr { position: absolute; top: 88px; right: 128px; font-size: 30px; color: var(--son-color-bone); }
+  .section h2 { font-size: 70px; max-width: 16ch; }
+
+  /* Statement */
+  .statement { justify-content: center; }
+  .statement .eyebrow { margin-bottom: 40px; }
+  .statement h2 { font-size: 58px; line-height: 1.08; max-width: 19ch; }
+  .statement em { font-style: italic; }
+
+  /* Content (asymmetric) */
+  .content { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 80px; align-items: start;
+             padding-top: 112px; }
+  .content h3 { font-size: 42px; line-height: 1.1; max-width: 14ch; }
+  .content .eyebrow { margin-bottom: 26px; }
+  .content .list { list-style: none; padding: 0; margin: 26px 0 0; }
+  .content .list li { font-family: var(--son-font-body); font-size: 17px; line-height: 1.5;
+                      padding: 12px 0; border-top: 1px solid var(--son-border-default); }
+  .content .col { padding-top: 10px; border-top: 1px solid var(--son-border-default); }
+  .content .col p { font-family: var(--son-font-body); font-size: 19px; line-height: 1.6;
+                    max-width: 40ch; margin: 0 0 18px; }
+
+  /* Callout */
+  .callout { justify-content: center; }
+  .callout .fig { font-family: var(--son-font-display); font-size: 104px; line-height: 1.02; letter-spacing: -0.02em; max-width: 14ch; text-wrap: balance; }
+  .callout .cap { font-family: var(--son-font-body); font-weight: 300; font-size: 24px; line-height: 1.5;
+                  max-width: 26ch; margin-top: 32px; color: var(--son-color-parchment); }
+
+  /* Photo */
+  .photo { padding: 0; }
+  .photo image-slot { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .photo .overlay { position: absolute; left:0; right:0; bottom:0; height: 55%; pointer-events: none;
+                    background: linear-gradient(to top, color-mix(in srgb, var(--son-color-plum-ink) 78%, transparent), transparent); }
+  .photo .cap { position: absolute; left: 64px; bottom: 56px; font-family: var(--son-font-body);
+                font-weight: 300; font-size: 16px; color: var(--son-color-parchment); }
+  .photo .glyph-kr { position: absolute; right: 64px; bottom: 52px; font-size: 26px; color: var(--son-color-bone); }
+
+  /* Menu */
+  .menu-slide { padding-top: 104px; }
+  .menu-slide .eyebrow { margin-bottom: 44px; }
+  .menu-slide .item { padding: 22px 0; border-top: 1px solid var(--son-border-default); max-width: 60ch; }
+  .menu-slide .item:last-child { border-bottom: 1px solid var(--son-border-default); }
+  .menu-slide .name { font-family: var(--son-font-display); font-size: 34px; line-height: 1.1; }
+  .menu-slide .desc { font-family: var(--son-font-body); font-size: 17px; line-height: 1.5; margin-top: 8px;
+                      color: color-mix(in srgb, var(--son-color-plum-ink) 78%, transparent); max-width: 44ch; }
+
+  /* Closing */
+  .closing { justify-content: center; }
+  .closing h2 { font-size: 56px; max-width: 18ch; }
+  .closing .line { font-family: var(--son-font-body); font-size: 18px; margin-top: 28px; color: var(--son-color-peacock); }
+</style>
+</head>
+<body>
+  <deck-stage width="1280" height="720">
+
+    <!-- 01 · Opening -->
+    <section data-label="Opening">
+      <div class="s bone open">
+        <div class="mark"><span class="latin">Sŏn</span><span class="glyph-kr">선</span></div>
+        <h1>A room pointed at the relationship.</h1>
+        <div class="foot">
+          <span class="eyebrow">Partnership brief · 2026</span>
+          <span class="addr">Austin, Texas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · Section divider -->
+    <section data-label="Section: The space">
+      <div class="s ink section">
+        <span class="num">02 · The space</span>
+        <span class="glyph-kr">선</span>
+        <h2>The room recedes. The table comes forward.</h2>
+      </div>
+    </section>
+
+    <!-- 03 · Statement -->
+    <section data-label="Positioning">
+      <div class="s bone statement">
+        <div class="eyebrow">Positioning</div>
+        <h2>Korean restraint. Texas warmth. <em>Polished but playful.</em></h2>
+      </div>
+    </section>
+
+    <!-- 04 · Content -->
+    <section data-label="Service">
+      <div class="s bone content">
+        <div>
+          <div class="eyebrow">Service philosophy</div>
+          <h3>Attention is the warmth, not the adjective.</h3>
+          <ul class="list">
+            <li>Jeong, the bond built through shared time</li>
+            <li>Nunchi, reading need before it is asked</li>
+            <li>The server owns the table</li>
+            <li>The floor manager owns the room</li>
+          </ul>
+        </div>
+        <div class="col">
+          <p>The server works from a step back, near enough to read the table, far enough to leave it alone.</p>
+          <p>The next approach comes from attention, not a timer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 · Callout -->
+    <section data-label="Property">
+      <div class="s aubergine callout">
+        <div class="fig">One room, first light to last call.</div>
+        <p class="cap">A converted residential bungalow. The facade does not announce itself as a restaurant.</p>
+      </div>
+    </section>
+
+    <!-- 06 · Photograph -->
+    <section data-label="The Room">
+      <div class="s ink photo">
+        <image-slot id="deck-tpl-photo" shape="rect" fit="cover"
+          placeholder="Drop a photograph. Context A: the room, inhabited"></image-slot>
+        <div class="overlay"></div>
+        <div class="cap">The fireplace, the center of the room.</div>
+        <div class="glyph-kr">선</div>
+      </div>
+    </section>
+
+    <!-- 07 · Menu -->
+    <section data-label="Menu">
+      <div class="s parchment menu-slide">
+        <div class="eyebrow">Sŏn · dinner</div>
+        <div class="item"><div class="name">Galbi</div></div>
+        <div class="item"><div class="name">Doenjang</div></div>
+      </div>
+    </section>
+
+    <!-- 08 · Closing -->
+    <section data-label="Closing">
+      <div class="s bone closing">
+        <div class="eyebrow">The ask</div>
+        <h2>Build the relationship. The plate earns the right to have one.</h2>
+        <div class="line">선 · Austin, Texas</div>
+      </div>
+    </section>
+
+  </deck-stage>
+  <script src="./deck-stage.js"></script>
+</body>
+</html>

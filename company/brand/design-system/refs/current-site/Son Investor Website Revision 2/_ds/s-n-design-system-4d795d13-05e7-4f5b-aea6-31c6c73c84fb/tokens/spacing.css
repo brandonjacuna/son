@@ -1,0 +1,52 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Sŏn — Spacing, Borders, Radius, Shadow, Motion
+   8pt grid. 1px hairline borders. Restraint over decoration.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Spacing — 8pt grid ── */
+  --son-space-0: 0;
+  --son-space-1: 8px;
+  --son-space-2: 16px;
+  --son-space-3: 24px;
+  --son-space-4: 32px;
+  --son-space-5: 40px;
+  --son-space-6: 48px;
+  --son-space-8: 64px;
+  --son-space-10: 80px;
+  --son-space-12: 96px;
+  --son-space-16: 128px;
+
+  /* Slide / page margin — Ma: never less than 10% of the frame */
+  --son-margin-page: 10%;
+
+  /* ── Borders ── */
+  --son-border-hairline: 1px;
+  /* No 2px borders. No double rules. No colored left-border accents. */
+
+  /* ── Radius — restraint; near-square corners read as considered ── */
+  --son-radius-none: 0;
+  --son-radius-xs: 1px;
+  --son-radius-sm: 2px;
+  --son-radius-pill: 999px; /* reserved — used sparingly for small controls */
+
+  /* ── Shadow — the system avoids drop shadows. Hairline separation only. ── */
+  --son-shadow-none: none;
+  --son-shadow-hairline: 0 0 0 1px var(--son-border-default);
+
+  /* ── Motion — marks state change, never importance ── */
+  --son-motion-fast: 100ms;     /* @kind other */
+  --son-motion-standard: 200ms; /* @kind other */
+  --son-motion-slow: 400ms;     /* @kind other */
+  --son-ease-standard: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --son-ease-enter:    cubic-bezier(0, 0, 0.2, 1);   /* @kind other */
+  --son-ease-exit:     cubic-bezier(0.4, 0, 1, 1);   /* @kind other */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --son-motion-fast: 0ms;     /* @kind other */
+    --son-motion-standard: 0ms; /* @kind other */
+    --son-motion-slow: 0ms;     /* @kind other */
+  }
+}
