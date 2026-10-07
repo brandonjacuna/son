@@ -6,4 +6,5 @@
 4. Write `BUILD.md`'s closing block: mode, models per stage, flags accepted and rejected, test verdicts, model line and why, open items.
 5. If the skill is a mode, add its row to `.claude/skills/REGISTRY.md` (one owner per trigger; resolve overlaps first).
 6. Commit: `PROFILE <slug> <mode>: built, <n>/<n> tests pass`. The build folder stays until Brandon approves the seat; then delete everything in it except `BUILD.md`, `00-frame.md`, and `01-sources.md` (move those three into the master as `build/`).
-7. Review routing: the master goes to Brandon for approval. Box mirror and Replacement Queue retirement belong to phase 3 step 6, not here.
+7. Next session (the agent is callable only after a restart): run T1 through the real agent by its slug and check it applies one CLAUDE.md standing rule unprompted. Log the result in `BUILD.md`. A failure here means seats do not inherit CLAUDE.md; stop and tell Brandon.
+8. Review routing: the master goes to Brandon for approval. Box mirror and Replacement Queue retirement belong to phase 3 step 6, not here.

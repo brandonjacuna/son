@@ -11,7 +11,8 @@ from pathlib import Path
 CORE_TARGET, CORE_CAP = 10 * 1024, 12 * 1024
 REF_CAP = 30 * 1024
 DESC_WARN = 300
-MODELS = {"haiku", "sonnet", "opus", "fable", "inherit"}
+# Seats never run on Fable (model policy: Fable only for strategy, design, orchestration).
+MODELS = {"haiku", "sonnet", "opus", "inherit"}
 CORE_HEADINGS = ["Scope", "Cues", "Decision rules", "Rejects", "When to distrust my read", "Seams", "Output"]
 
 TEXT_ERRORS = [
@@ -123,7 +124,9 @@ def lint(master, rep):
         fm = frontmatter(skill.read_text(encoding="utf-8"))
         if fm is None or not fm.get("description"):
             rep.err(skill, "frontmatter with a description must start on line 1")
-        scan_text(skill, rep, ids)
+        elif fm.get("name") and fm["name"] != slug:
+            rep.err(skill, f"skill name '{fm['name']}' does not match folder '{slug}'")
+        scan_text(skill, rep, None)  # the skill cites agent rows by id; it defines none
     if ref.is_dir():
         total = 0
         for f in sorted(ref.rglob("*.md")):

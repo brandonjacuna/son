@@ -2,9 +2,10 @@
 
 1. Create `profiles/_builds/<slug>/` with an empty `BUILD.md` (header: slug, mode, date, orchestrator model) and `extract/`.
 2. Spawn one Fable subagent (`model: fable`) with this brief, filled in:
-   - "Read `.claude/skills/profile-build/templates/frame.md` and `.claude/skills/profile-build/stages/0-frame.md` (the container rubric below). Write `profiles/_builds/<slug>/00-frame.md` for <seat>, mode <mode>. Inputs: <the brief or Brandon's words>; old material: <paths> (read only headings and the scope, decision_rules, and interfaces sections, not whole files); neighbors: the `description:` lines of `.claude/agents/*.md` and <named old profiles' scope sections>. 6 KB maximum. Return the path and the open questions only."
+   - "Read `.claude/skills/profile-build/templates/frame.md` and `.claude/skills/profile-build/stages/0-frame.md` (the container rubric below). Read `.claude/skills/profile-build/templates/tests.md` too. Write `profiles/_builds/<slug>/00-frame.md` and `00-tests.md` (3 to 5 tests) for <seat>, mode <mode>. Inputs: <the brief or Brandon's words>; old material: <paths> (read only headings, the scope, decision_rules, and interfaces sections, and up to 10 KB of worked examples for test candidates; never whole files); neighbors: the `description:` lines of `.claude/agents/*.md` and <named old profiles' scope sections>. 6 KB maximum. Return the path and the open questions only."
 3. Ask Brandon each open question as a pop-up, plus one fixed question: "What do you NOT want this seat to do?" Record answers under "Brandon's answers" with the date.
 4. Stop if an open question that changes scope is unanswered.
+5. First build of a cluster only: spawn one Sonnet worker to compare the old profiles' project_block and interaction_guide against root CLAUDE.md and return any rule CLAUDE.md does not carry (1 KB). Log each gap with the `thread` skill for Brandon; never add it to CLAUDE.md yourself.
 
 ## Container rubric (the core design call)
 | The seat... | Container |

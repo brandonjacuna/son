@@ -27,12 +27,12 @@ Read each stage file only when you reach that stage. Budgets are hard caps; a wo
 
 | # | Stage | Runs on | Reads | Writes | Cap |
 |---|---|---|---|---|---|
-| 0 | Frame | Fable subagent, then Brandon by pop-up | brief, old profile headings, neighbor agent descriptions | `00-frame.md` | 6 KB file |
+| 0 | Frame | Fable subagent, then Brandon by pop-up | brief, old profile headings, neighbor agent descriptions | `00-frame.md`, `00-tests.md` | 6 KB file |
 | 1 | Sources | Sonnet scouts, one per research target, parallel | one target each | `01-sources.md` | 1.5 KB per scout return; 6 KB file |
 | 2 | Extract | Sonnet extractors, one per source, parallel | one source each | `extract/NN-*.md` | 3 KB per card; 40 KB total |
 | 3 | Draft | Opus drafter, one pass | frame + cards only | the master: `agent.md`, `reference/`, `provenance.md`, `skill/` if any | agent core 10 KB target, 12 KB cap; reference 30 KB |
 | 4 | Red team | `red-team` skill, then a Fable judge | core + provenance + cards (blind to the draft's history) | `04-flags.md`; fixes as edits | 4 KB flags |
-| 5 | Test | Sonnet runners and a Haiku grader | `tests.md` + the master | results into `tests.md` | 3 to 5 scenarios |
+| 5 | Test | Sonnet runners and a Sonnet grader | `tests.md` + the master | results into `tests.md` | 3 to 5 scenarios |
 | 6 | Ship | orchestrator + scripts | lint and measure output | generated copies, rows, commit | orchestrator total under 60k tokens |
 
 Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Worker prompts: `workers/`. Templates: `templates/`. Pass workers the PATH of their prompt file and their parameters; do not paste the prompt into the brief.

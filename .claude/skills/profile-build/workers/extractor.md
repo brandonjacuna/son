@@ -34,6 +34,6 @@ source: <full citation or path> | read: <what you actually read: chapter, pages,
 - 3 KB maximum per card. 8 to 20 rows. Judgment over survey: a row must change what a practitioner notices or decides. Definitions, history, and statistics without a decision attached go under "Not usable".
 - Quote, do not paraphrase into a stronger claim. If you cannot find a quote, leave the cell empty and the row stays a candidate the drafter must mark inferred.
 - Encode what the expert does, not who they are. No credentials, no biography.
-- Rebuild mode (the source is an existing Sŏn profile): extract its cue rows, decision rules, anti-patterns, and seams as rows, keeping each row's old tag in the locator cell (`old: sourced, row 3`). Mark rows whose wording names retired tools (Airtable), other ventures, or out-of-scope material under "Not usable".
+- Rebuild mode (the source is an existing Sŏn profile): extract its cue rows, decision rules, anti-patterns, and seams as rows, keeping each row's old tag in the locator cell (`old: sourced, row 3`). If your card is an examples card (`NN-examples.md`), copy the worked examples verbatim, minus inline tags, 8 KB cap, no rows table. Mark rows whose wording names retired tools (Airtable), other ventures, or out-of-scope material under "Not usable".
 - Standing rules apply to your own wording: "customer," never "guest"; no em dashes.
 - Return to the orchestrator ONLY: the card path, the row count, and one line on what the source grounds. Never return the card text.

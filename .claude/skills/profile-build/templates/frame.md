@@ -22,10 +22,8 @@ Model guess for the agent: haiku | sonnet | opus (stage 5 confirms the cheapest 
 | file | size | keep as source? | known problems (stale tools, scope, survey) |
 |---|---|---|---|
 
-## Behavioral tests (written now, before any drafting)
-| # | task, as Brandon or a workstream would ask it | the catch it must produce | the failure a generalist shows |
-|---|---|---|---|
-| T1 | | | |
+## Behavioral tests
+Written now, before any drafting, in `00-tests.md` (not here: the drafter reads this file and must never see the tests).
 
 ## Open questions for Brandon
 - <only questions that change scope; each answerable cold>

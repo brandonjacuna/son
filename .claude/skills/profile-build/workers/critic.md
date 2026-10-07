@@ -11,7 +11,7 @@ Read only: the master's `agent.md`, `skill/SKILL.md` if present, `provenance.md`
 - `rules`: CLAUDE.md standing rules, scope exclusions (Sŏn only), lineage practices reconstructed as fact, retired tools, figures written as fact.
 - `employee-harm` (harsh only): could any rule, when applied, reach an employee as an unfair gate, a discipline trigger, a privacy breach, or a legal exposure?
 
-## Return (2 KB maximum, as your final message; write no file)
+## Write `04-critic-<lens>.md` in the build folder (2 KB maximum), then return only its path and the flag count
 ```
 lens: <lens>
 | row id | severity | flag | evidence (quote the row, 20 words max) | proposed edit |
