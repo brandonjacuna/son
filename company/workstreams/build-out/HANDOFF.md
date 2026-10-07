@@ -129,7 +129,7 @@ Alignment with Brandon's standing rule (Fable for high-level thinking, strategy,
 ### Migration (new)
 - **M1. ClickUp ask rule scope.** In the unified repo the guard asks before every non-capture ClickUp write, everywhere, including review drafts that rebuild plan decision 3 sends to ClickUp. Options: keep it repo-wide (safer, more prompts), or limit the ask to build-out work and keep delete/merge blocked repo-wide.
 - **M2. Shared ClickUp tooling.** Keep `clickup/cu.py` and `knowledge-base.md` inside build-out, or promote them to a repo-level `tools/clickup/` for all areas.
-- **M3. Profile creation.** `profile-forge` (four stages, token budgets) vs the P4 profile system pipeline. Recommendation: P4 is the master; feed profile-forge's stage design into P4 and retire the duplicate.
+- **M3. Profile creation.** `profile-forge` (four stages, token budgets) vs the P4 profile system pipeline. Recommendation: P4 is the master; feed profile-forge's stage design into P4 and retire the duplicate. **Resolved 2026-10-07 (Brandon):** profile-forge retired; its ideas live in the root `profile-build` skill.
 - **M4. Settings protection.** The guard blocks edits to `.claude/settings.json` repo-wide without an unlock phrase. Keep, or scope to the hooks block.
 - **M5. Command and skill names.** Resolve any collision between `/deep`, `/gate`, `/capture`, `/sandbox`, `/promote`, `/lease-signed` and the P5 operating skills (red-team, thread-log, session-close, task-tree, kb-refresh).
 - **M6. Build-out kb location.** Keep at `company/workstreams/build-out/kb/` (works with current skill paths) or move to `company/kb/build-out/` (needs path edits in 3 skills and 2 commands).

@@ -3,8 +3,9 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Merge the phase 2 pull request (session-close, thread, chat-handoff, REGISTRY, skill-scanner, CLAUDE.md lines) | Brandon | review and merge; until then the skills are not on `main`
-- Next phase: 3 Profiles | next Code session (Fable designs, Opus executes) | after the phase 2 PR merges, start with `memory/briefs/3-profiles.md`
+- Phase 3 session B: test rebuild of the Practice and Simulation Designer with the new builder | next Code session (Opus orchestrator) | merge the profile-build PR, restart the session, then `/profile-build practice-simulation-designer rebuild`; record results in `profiles/_builds/MEASUREMENTS.md`; Brandon gives final builder approval after seeing them
+- Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
+- Merge the profile-build pull request (system change: new skill, profile-forge deleted, registry) | Brandon | until merged, the builder is not on `main`
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
 - Account-synced skills cost about 3,300 tokens a turn of listing; unused ones (browser, computer-use, morning, google-workspace, import-memory, mcp-builder) can be turned off on claude.ai | Brandon, optional | see `memory/audits/2026-10-07-skill-doctor-baseline.md`
 - Old `son-build` name in the root guard script docstring (line 5) | Brandon | needs the unlock phrase; one-word comment fix, then drop its allowlist entry
@@ -14,6 +15,8 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-07
+- Phase 3 session A: `profile-build` skill designed (7 stages, Sonnet workers hand back paths, draft once then edit, provenance outside the loaded text, agent core 12 KB cap, interim blind red team plus Fable judge, lint/ship/measure scripts); blind Fable review approved it for a test rebuild after fixes; baseline in `profiles/_builds/MEASUREMENTS.md`; `profile-forge` retired (M3)
+- Phase 2 pull request merged (#4)
 - Phase 2 Session basics built (PR open): skills `session-close` (with verify-first, refused rationalizations, context-rot cue), `thread`, `chat-handoff` (dry-run tested, nine gaps fixed); `.claude/skills/REGISTRY.md` with the vetting gate; skill-scanner vendored; `/skill-doctor` and scanner baseline; CLAUDE.md names session-close as the only way to end a session; close-reminder hook parked
 - Phase 1 Cleanup complete. Brand canon line applied: ClickUp Brand Guidelines doc 2ky45bmy-15773 (13 pages, log `memory/audits/session-b/brand-applied-clickup.md`) and the design system (log `memory/audits/session-b/brand-applied-repo.md`)
 - Brandon deleted the four by-hand items (task 17tn048wdwr closed)
@@ -40,4 +43,6 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Resolved 2026-10-07 (Brandon): V7 Business Strategies Notebook (ClickUp 2ky45bmy-11873) is kept as background only, not canon; the white paper is canon.
 - Operational figures (pars, labor targets, pay, schedules, counts) have no source since Airtable retired; learning-studio marks them unbound (phase 5)
 - build-out/HANDOFF.md: delete now that the migration is done? (phase 5)
-- Build-out migration still open: M3 profile pipeline (phase 3), M5 command names (phase 4), M6 build-out kb location (phase 5)
+- Build-out migration still open: M5 command names (phase 4), M6 build-out kb location (phase 5). M3 resolved 2026-10-07
+- Founder-only seats: where their agents live once built (root `.claude/agents/` or a founders-only location for the repo split); `ship.py` refuses founder seats until decided (phase 3 step 5)
+- Red-team lens source "notmanas questioning-frameworks" was not found on GitHub; Brandon to supply the URL if it matters (session C)
