@@ -3,7 +3,7 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Decide finding F9: turn profile-build's workers into custom agents with minimal tools (smoke test: 16k tokens vs 53k to 62k per general-purpose worker) | Brandon | yes means a small system change on a sandbox or PR before the next build batch
+- F9: make profile-build's workers (extractor, critic, runner, grader) custom agents in `.claude/agents/` with minimal tools and fixed models; rerun one cheap stage to measure the saving | next Code session (start here), on a PR | details in `profiles/_builds/practice-simulation-designer/BUILD.md` (F9)
 - Phase 3 step 3 seat inventory and step 4 review (session D), then builder batches (E on) | next Code sessions | builder approved 2026-10-07; batch with the fewest-agents rule
 - Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`

@@ -48,3 +48,4 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-07 | profiles | The rebuilt Practice and Simulation Designer is approved; it replaces the Box version when the repo becomes master | Brandon
 - 2026-10-07 | profiles | The Practice and Simulation Designer must not recommend high-production video where a cheaper form trains the same decisions, script feelings or required phrases, or turn practice into a pass or fail check | Brandon
 - 2026-10-07 | learning-studio | Shared studio rules from the old profiles' shared blocks (target learner, why before how, readiness gate, peer authors, review cadence) live in the learning-studio CLAUDE.md | Brandon
+- 2026-10-07 | profiles | profile-build's workers become small custom agents with minimal tools (finding F9), built in the next session on a pull request | Brandon
