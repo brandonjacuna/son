@@ -8,7 +8,7 @@ One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. 
 3. Never assume a fact from an earlier session is still true if it can be checked live (ClickUp, Box, workbook).
 
 ## Layout
-- `company/`: anything a future manager could eventually see. Workstreams: `learning-studio`, `operations` (Scaling People build-out), `nerve` (external digests), `build-out` (construction), `science` (matcha sonication, espresso/nitro).
+- `company/`: anything a future manager could eventually see. Workstreams: `learning-studio`, `operations` (Scaling People build-out), `nerve` (external digests), `clickup-system` (ClickUp knowledge base, runbooks, Meetings Agent), `build-out` (construction), `science` (`espresso-chiller`, `matcha-sonication`). `company/brand/design-system` is the Sŏn design system (code).
 - `founders/`: governance, operating agreement, comp, capital raise, founder development. Founders only. This boundary is where the repo splits later; never put founder-only material under `company/`.
 - `profiles/`: master copy of every specialist profile. `.claude/agents/` holds lean agent versions generated from them. Box (Sŏn / 10. AI Projects / Profiles) is a read-only mirror.
 - `kb/`: knowledge about tools (`kb/tools/`) and domains (`kb/domains/`). Every file has frontmatter `review_every` and `last_verified`.
