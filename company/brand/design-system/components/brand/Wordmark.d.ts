@@ -1,8 +1,8 @@
 import * as React from "react";
 
 /**
- * The Sŏn wordmark lock-up. Typographic, never drawn. 선 is mandatory on every
- * surface; on this mark it is centered below the Latin word at a constant ratio.
+ * The Sŏn wordmark lock-up. Typographic, never drawn. 선 is part of the logo;
+ * on this mark it is centered below the Latin word at a constant ratio.
  *
  * @startingPoint section="Brand" subtitle="Wordmark lock-up — vertical, latin, glyph" viewport="700x260"
  */

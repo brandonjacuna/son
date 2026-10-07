@@ -12,7 +12,7 @@ If the user invokes this skill without any other guidance, ask them what they wa
 
 ## Orientation
 
-- **`readme.md`** is the design guide: the three Tier-1 cultural frameworks, content/voice rules, visual foundations, iconography, and the file manifest. Read it first.
+- **`readme.md`** is the design guide: the guiding cultural influences (they inform decisions, they do not veto them), content/voice rules, visual foundations, iconography, and the file manifest. Read it first.
 - **`styles.css`** is the single global entry point — link it and you get every token, font-face, and base style. Components read tokens from it.
 - **Tokens** live in `tokens/`. Daypart themes switch via `data-theme="morning|dosi|dinner|luxe"` on any ancestor; the unscoped default is the warm editorial register (Bone/Parchment).
 - **Components** (`components/`) are React, exported under `window.SNDesignSystem_4d795d` once `_ds_bundle.js` is loaded. Each has a `.d.ts` and `.prompt.md`.
@@ -23,7 +23,7 @@ If the user invokes this skill without any other guidance, ask them what they wa
 
 - Eight colors, closed. No tints, shades, gradients, blue accents, or purple anything.
 - Jade never appears in the dinner register. Never pair Jade with Aubergine/Plum Ink as the two dominant colors.
-- Type: GT Sectra + GT Alpina only; Sandoll Myeongjo (or the flagged Nanum Myeongjo substitute) for Hangul. The 선 glyph is on every surface, never in Jade.
+- Type: GT Sectra + GT Alpina only; Sandoll Myeongjo (or the flagged Nanum Myeongjo substitute) for the 선 glyph and Hangul dish names only. The 선 glyph is part of the logo and travels with it; it is not required on every surface. Never in Jade.
 - Sentence case; UPPERCASE for eyebrows only. "Customer," never "guest." No em dashes, exclamation points, or emoji. Apply the six binary voice tests.
 - 1px hairline borders, near-square corners, no drop shadows. Restraint over decoration.
 - No AI-generated or stock imagery, ever. Real Section-10 photography only; otherwise stay type-forward or use a drop-in slot.

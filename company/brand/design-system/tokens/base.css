@@ -53,7 +53,7 @@ a { color: inherit; text-underline-offset: 0.18em; text-decoration-thickness: 1p
   line-height: var(--son-leading-snug);
 }
 
-/* 선 glyph — the sole mandatory structural constant. Color resolves per theme. */
+/* 선 glyph: part of the logo, not mandated on every surface. Color resolves per theme. */
 .son-glyph {
   font-family: var(--son-font-korean);
   color: var(--son-glyph);

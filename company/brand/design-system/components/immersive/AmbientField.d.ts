@@ -4,7 +4,7 @@ import * as React from "react";
  * A slow-moving flat-color ground within the palette that keeps a section
  * subtly alive. No gradient, no texture overlay, ever. Optional module: the
  * 선 glyph at large scale in slow motion, gated behind --son-glyph-motion
- * (deliberate canon override; off = module absent). Static under reduced
+ * (off = module absent). Static under reduced
  * motion. Immersive surfaces only.
  */
 export interface AmbientFieldProps extends React.HTMLAttributes<HTMLDivElement> {

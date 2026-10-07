@@ -56,8 +56,8 @@ version of this paragraph drifted into calling them public daypart expressions;
 they are never consumer-facing at this location. The late-night daypart is part
 of the Sŏn core; its former name **Luxx is retired entirely** (not
 internal-only), and the former membership concept is now the unnamed private
-membership layer. The 선 glyph appears on every daypart surface at a constant
-scale ratio — it is the sole mandatory structural constant.
+membership layer. The 선 glyph is part of the Sŏn logo and appears where the
+logo appears. It is not required on every surface (canon line, 2026-10-07).
 
 Positioning is three equal, unordered values: **Korean restraint · Texas warmth ·
 polished but playful.** Texas warmth lives in the service, space, and voice — not
@@ -65,8 +65,8 @@ the letterforms.
 
 > This design system encodes the brand's closed visual language as tokens,
 > components, specimen cards, sample slides, a deck template, and two product UI
-> kits. It is governed top-down by three Tier-1 cultural frameworks (below) that
-> have veto power over every downstream decision.
+> kits. It is informed by a set of guiding cultural influences (below). They
+> shape decisions; they do not hold veto power over them (2026-10-07).
 
 ---
 
@@ -92,7 +92,12 @@ Grilli Type. A stray `Display.ttf` (an unrelated face named "Gems") was ignored.
 
 ---
 
-## The three Tier-1 frameworks (always govern)
+## Guiding influences (inform, do not govern)
+
+Jaeyeonmi, Ma, Mahk, Jeong, and Nunchi are guiding influences. They inform
+design, service, and copy decisions. They are not Tier-1 rules and hold no veto
+power; a decision is tested against them and weighed alongside cost, aesthetics,
+and evidence (2026-10-07).
 
 1. **Jaeyeonmi (자연미) — Beauty of the Natural.** Nothing conceals what it is,
    where it came from, or how long it has been here. *In digital:* no faux
@@ -104,6 +109,8 @@ Grilli Type. A stray `Display.ttf` (an unrelated face named "Gems") was ignored.
 3. **Mahk (맛) — Taste as Memory.** Specificity is the mechanism of memory. A
    surface that could belong to any restaurant has failed. Name the one thing no
    other sentence could name.
+4. **Jeong (정) and Nunchi (눈치): service.** Jeong is accumulated relationship,
+   not performed welcome. Nunchi is reading what someone needs before they ask.
 
 ---
 
@@ -141,9 +148,11 @@ unforgettable, beautiful, stunning — and "barbecue" as a genre descriptor.
 and in-space copy; reassurance adjectives (crispy, tender, rich, bold) when they
 function as quality signals.
 
-**Preferred terms** stand without translation: Jeong, Nunchi, Jaeyeonmi, Ma, Mahk,
-Galbi, Dosirak, Banchan, Buncheong, Baekja, Pyeong-sang, Ganjang, Doenjang,
-Gochujang, 선. Preparation is stated as decision, factually: scored, aged, braised,
+**Korean terms in brand copy** are limited to dish and ingredient names: Galbi,
+Dosirak, Banchan, Ganjang, Doenjang, Gochujang, and 선. Philosophy and craft terms
+(Jeong, Nunchi, Jaeyeonmi, Ma, Mahk, Buncheong, Baekja, Pyeong-sang) are internal
+influences, not brand vocabulary. There is no no-gloss rule: a dish or ingredient
+may carry a short description where the customer needs one (2026-10-07). Preparation is stated as decision, factually: scored, aged, braised,
 pressed, set, rendered, reduced. Specific over categorical: "thirty days" not
 "long-aged"; "white oak" not "hardwood."
 
@@ -196,8 +205,8 @@ or Plum Ink as the two dominant colors is a named failure mode anywhere.
 **Type.** Two Latin faces, one Korean companion, and the ceiling is absolute.
 *GT Sectra* (Fine Book is the wordmark weight; Display for headlines/section
 headers) leads and is felt. *GT Alpina* (Fine Standard) follows and is read.
-*Sandoll Myeongjo* governs all Hangul in production — see **Font substitutions**
-below for the web stand-in. Body copy caps at ~65 characters, never above 75.
+*Sandoll Myeongjo* is the Korean companion, limited to the 선 glyph and Hangul
+dish names. See **Font substitutions** below for the web stand-in. Body copy caps at ~65 characters, never above 75.
 
 **Spacing & structure.** 8pt grid. **1px hairline** borders only — no double
 rules, no colored left-border accent boxes. Exactly two 2px exceptions are
@@ -211,7 +220,7 @@ decoration: silence is more luxurious than noise.
 **Backgrounds.** Flat color surfaces from the palette. **No gradients of any kind.**
 The editorial register (decks, most digital) lives on Bone/Parchment; the dinner
 register lives on Plum Ink/Aubergine. No repeating patterns as ground fill — the
-pattern system is edge/accent scale only (see Iconography). No textures applied in
+pattern system (reference only, not canon) is edge/accent scale only (see Iconography). No textures applied in
 post; texture is a material decision, not a design overlay.
 
 **Shadows.** Effectively none. The system separates surfaces with hairline borders,
@@ -267,18 +276,20 @@ wordmark legibility). It is not a UI icon set.
 - **No icon library.** Lucide/Heroicons/Material and the like are an explicit
   anti-pattern ("Lucide icons decorating every content block"). This system links
   no icon font and copies none in — there were none in the source to copy.
-- **The 선 glyph is the primary mark**, set in the Korean companion face — a drawn
-  logotype element, not an iconographic mark. It is rendered with type, never as
+- **The 선 glyph is part of the logo**, set in the Korean companion face: a drawn
+  logotype element, not an iconographic mark. It travels with the logo and is not
+  mandated on every surface (2026-10-07). It is rendered with type, never as
   an SVG illustration. Its color resolves from `--son-glyph` per theme.
-- **Future marks** (the confirmed 원앙 / mandarin-duck bird mark is deferred) are
+- **Future marks: reference only, not canon (2026-10-07).** The 원앙 /
+  mandarin-duck bird mark is deferred; these notes are kept for reference. Future marks are
   silhouette-first, single closed path, legible at 18mm, built on the wordmark grid,
   always subordinate to the wordmark. None are executed yet — do not invent them.
 - **Functional UI affordances** (the select chevron, the checkbox tick, the tab
   rule) are drawn as the simplest possible hairline/unicode marks, never as
   decorative icons.
 - **Emoji and decorative unicode are prohibited** in brand voice and on surfaces.
-- **The pattern system** (Joseon-era baekja lineage; geometry derived from the
-  wordmark's own curve radii) is edge/accent scale only — never ground fill, never
+- **The pattern system: reference only, not canon (2026-10-07).** The pattern
+  (Joseon-era baekja lineage; geometry derived from the wordmark's own curve radii) is edge/accent scale only: never ground fill, never
   tiled letterforms. It is **deferred** here rather than fabricated, because any
   execution whose wordmark origin is untraceable is a prohibited result.
 
@@ -290,7 +301,7 @@ wordmark legibility). It is not a UI icon set.
   supplied** and is not web-licensed here. The substitute in this system is
   **Nanum Myeongjo** (Google Fonts), a true Myeongjo serif chosen for construction
   affinity. **Noto Serif KR is brand-prohibited and intentionally not used.** The
-  선 glyph and all Hangul currently render in the substitute. *Please supply
+  선 glyph and Hangul dish names currently render in the substitute. *Please supply
   Sandoll Myeongjo web files to replace it before any production use.*
 - GT Sectra "Fine" subfamily: the supplied files are labeled GT Sectra Book /
   Regular / Display. The wordmark uses **GT Sectra Book** as the "Fine Book"

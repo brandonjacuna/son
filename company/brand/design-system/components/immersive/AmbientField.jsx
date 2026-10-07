@@ -5,8 +5,7 @@ import React from "react";
  * No gradient, no texture overlay, ever: one flat panel of the theme's
  * secondary surface drifts over the primary surface. Optional module: the
  * 선 glyph at large scale in slow motion, gated behind --son-glyph-motion
- * (a deliberate canon override — the readme sets the glyph at constant
- * scale; switch the flag off and the module disappears without touching
+ * (switch the flag off and the module disappears without touching
  * anything else). Static under reduced motion.
  */
 export function AmbientField({
