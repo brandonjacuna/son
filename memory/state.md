@@ -7,7 +7,7 @@ Rewrite freely. One line per item: what | owner | next step.
   - Imported with history: learning-studio (from unmerged cloud branch claude/blissful-einstein, not stale main), operations (son-operational-buildout main), nerve (from unmerged PR #1 branch claude/bold-goldberg; main only had BRIEF.md), design-system (Mac), local profile builds (Mac, in `imports/profile-builds-local/`)
   - Imported without history (no git): clickup-system, science/espresso-chiller
   - After push: archive the four old repos on GitHub (son-learning-studio, son-operational-buildout, son-nerve, agenticproject) once Brandon confirms
-- P2 Still to import: matcha-sonication (Claude Science, compiling), construction (handoff package from the "Claude construction project management environment" chat), operating agreement project (location unknown; Founders Agreement task cites `log/decisions.md`, `kb/law/...`)
+- P2 Still to import: construction (handoff package from the "Claude construction project management environment" chat), operating agreement project (location unknown; Founders Agreement task cites `log/decisions.md`, `kb/law/...`)
 - Live automation outside the repo: ClickUp Meetings Agent v3 (Super Agent) runs roll-forward Mondays 7 AM, day-before reminders, close-out; checkpoints Oct 8 standup, Oct 12 roll-forward, Oct 13 meeting (see `company/workstreams/clickup-system/STATE.md`)
 - P3 Cleanup: Jun, Josephine, Pullman-derived content, experiential, Airtable, stale paths across Box, ClickUp, profiles | Claude (agents) | every deletion shown to Brandon first
 - P3 Account memory cleanup: paste-ready message given to Brandon for a non-Project chat | Brandon | confirm done
