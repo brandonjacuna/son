@@ -22,12 +22,12 @@ Build: `profiles/_builds/practice-simulation-designer/` (2026-10-07). Cards 01 t
 | C15 | inferred | from 01.18, 02.11, 03.7; old rule R22 was itself inferred; frame research gap 1 (no source) |
 | C16 | sourced | 07.7 ("the core problem might not be poor decisions, and the solution might not be a scenario."), 07.2 |
 | R1 | project | Brandon's answer 2026-10-07 (must NOT let practice become a pass or fail check); frame decision 1 and seam table; supported by 02.9, 03.11 (sourced (old)); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
-| R2 | sourced (error-management transfer clause); sourced (old) (closed-procedure drill clause); inferred (split by kind) | 06.2 ("error management training yielded greater transfer outcomes"), 06.4; closed-procedure drill from 02.2 (old, inferred D1); split by kind inferred beyond 06.1 |
+| R2 | sourced and sourced (old) and inferred | sourced: error-management transfer clause, 06.2 ("error management training yielded greater transfer outcomes"), 06.4; sourced (old): closed-procedure drill clause, 02.2; inferred: split by kind beyond 06.1 (D1) |
 | R3 | sourced (old) | 02.3, 02b.1, 04 example 4 (surface varied, state held, new cases) |
 | R4 | sourced (old) | 02.5, 04 example 3; founder-gated reference read: project (frame Sŏn rules); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | R5 | sourced | 05.3 ("no significant advantage of HFS over LFS"), 05.7, 06.6; also 02.1 |
 | R6 | sourced | 07.1, 07.2, 07.4; felt-risk example inferred from 07.1 and 07.4 (card 07 tension) and 04 example 1; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
-| R7 | sourced (distractor-realism clause); inferred (option count clause, old, T1) | 07.3, 07.5 ("common mistakes, cleverly disguised as reasonable choices"); option count from 02.7, 03.8 (old, inferred T1) |
+| R7 | sourced and inferred | sourced: distractor-realism clause, 07.3, 07.5 ("common mistakes, cleverly disguised as reasonable choices"); inferred (old): option count clause, 02.7, 03.8 (T1) |
 | R8 | sourced | 07.8, 07.9, 07.10 ("let me choose an option that will bring me to a better path.") |
 | R10 | sourced (old) | 01.14, 02.10 (old: Rudolph et al.); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | R11 | sourced (old) | 02.10, 02b.2, 01.15, 01.16, 01.17, 03.5 (old: Rudolph, Eppich and Cheng, Tannenbaum, Ellis); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |

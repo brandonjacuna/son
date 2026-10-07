@@ -24,11 +24,15 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 | 4 | critic seams | sonnet | 84,289 | 04-critic-seams.md: 1 critical, 7 major, 2 minor |
 | 4 | merger | sonnet | 59,333 | 04-flags.md 4,096 B: 2 critical, 12 major, 4 minor; 3 for other seats |
 | 4 | judge | fable | 68,130 | decisions: 15 accepted (whole or part), 3 rejected, 0 to Brandon; orchestrator applied core edits (11,924 B) |
+| 4 | provenance and reference edits | sonnet | 58,309 | provenance.md 10,722 B; models.md 2,498 B |
 | 5 | baseline T1 | sonnet | 53,032 | tests/T1-base.md 2.6 KB |
 | 5 | baseline T2 | sonnet | 53,595 | tests/T2-base.md |
 | 5 | baseline T3 | sonnet | 52,889 | tests/T3-base.md 2.5 KB |
 | 5 | baseline T4 | sonnet | 52,784 | tests/T4-base.md 2.5 KB |
 | 5 | baseline T5 | sonnet | 52,817 | tests/T5-base.md 2.4 KB |
+| 5 | with T2 | sonnet | 57,943 | tests/T2-with.md |
+| 5 | with T3 | sonnet | 57,582 | tests/T3-with.md 2.9 KB |
+| 5 | with T4 | sonnet | 57,581 | tests/T4-with.md 2.9 KB |
 ## Builder findings (for the approval read-out)
 - F1. The 3 KB card cap is too tight for an old-profile section: card 02 dropped 4 rules (one on the practice-vs-gate line), card 03 merged seams. Re-briefed 02 to write 02b. Proposed fix: old-profile section cards 5 KB cap.
 - F2. Frame ran 6.8 KB against a 6 KB cap after the orchestrator added the Sŏn rules the seat carries (from the plumbing check). Proposed fix: 8 KB cap for rebuild frames, or carry seat rules in a separate short section counted outside the cap.
@@ -38,3 +42,4 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 | 3 | drafter | opus | 90,421 | agent.md 11,152 B; reference/examples.md 3,457 B; reference/models.md 2,538 B; provenance.md 8,615 B (59 rows: 28 sourced, 19 sourced old, 2 inferred, 10 project) |
 - F6. Two test catches (T4, T5) predated frame updates (page 08 reference only; seams). Orchestrator aligned them before any run. Proposed fix: stage 0 writes tests after the frame's last edit, or stage 3 step 2 re-checks tests against the final frame.
 - F7. Every subagent costs about 50k tokens of fixed overhead (system prompt, CLAUDE.md, tool definitions): baseline runners used ~53k each to write 2.5 KB. Worker cost scales with agent count, not content. Proposed fix: batch small jobs (one runner for 2 to 3 tests, one critic for two light lenses, one extractor for an old profile's sections), keep separate agents only where blindness or parallel speed earns it.
+- F8. profile_lint.py accepted only lowercase letters, spaces, and parentheses in a provenance tag cell, so mixed tags ("sourced, inferred") failed. Fixed in session to allow , ; + /.
