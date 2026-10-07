@@ -1,11 +1,11 @@
-# son-nerve
+# Nerve
 
 Weekly digest on the state of Austin's hospitality and F&B industry, by concept type and by area, built for Sŏn (Korean fine dining, in build-out at 207 E St. Elmo Rd, Austin, TX; no operating data yet). `BRIEF.md` is the full build brief; read it before starting new work.
 
 ## Standing rules
 
 - **Free data only.** Paid services (Placer.ai, Advan, Second Measure, Black Box, Yelp paid tiers, CoStar, etc.) may be mentioned in an appendix, but nothing depends on them.
-- **No Airtable.** We have moved off it.
+- **Figures.** Financial figures come only from the current Investor Review workbook in Box (Sŏn / 02. Capital Raise).
 - **Storage:** analytical store in this repo (DuckDB / Parquet), dated archives in Box, human layer in ClickUp.
 - **Out of scope:** the "Weekly Restaurant Tech Intelligence Digest" in ClickUp is a separate project. Do not read, modify, merge with, or plan around it.
 - **Legitimate access only.** Official APIs, open data portals, RSS, and official Claude connectors (Resy, Tripadvisor) at human scale.

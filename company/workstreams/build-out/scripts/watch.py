@@ -15,7 +15,7 @@ for group, items in cfg.items():
     outdir.mkdir(parents=True, exist_ok=True)
     for it in items:
         try:
-            req = urllib.request.Request(it["url"], headers={"User-Agent": "Mozilla/5.0 (son-build watcher)"})
+            req = urllib.request.Request(it["url"], headers={"User-Agent": "Mozilla/5.0 (son watcher)"})
             raw = urllib.request.urlopen(req, timeout=45).read().decode("utf-8", "ignore")
         except Exception as e:
             print(f"WARN {it['id']}: {e}", file=sys.stderr); continue

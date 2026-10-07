@@ -23,15 +23,15 @@ A module whose durable content is complete and whose only gaps are declared bind
 |---|---|---|
 | Module source packages | this repo, `modules/` | Source of truth for module content. Versioned by git. |
 | Module catalog and status | this repo, `catalog/catalog.yaml` | One row per module. Mirrored by `/status` to the ClickUp list Module Catalog `1400400000001424`. |
-| Profiles (the specialist seats) | Box, canonical | Pulled into `profiles/cache/` by `/sync-profiles`. Never edited here. Never committed. |
+| Profiles (the specialist seats) | repo `profiles/` (phase 3 rebuilds the profile system) | Never edited here. Never committed. |
 | Frozen releases | Box folder `421837487417` | Approved module packages exported as snapshots. |
 | Published modules | Trainual (current plan) | Rendered from source by an adapter. Never edited in Trainual first. |
-| Financial figures | Airtable | Never generated, estimated, or recalled. Query or leave a `fact.*` binding. |
-| Brand facts | Box, Brand and Experiential Guidelines (PDF), file `2281626080747` | Read from Box. Never hard-coded here. |
+| Financial figures | Investor Review workbook, Box (Sŏn / 02. Capital Raise) | Never generated, estimated, or recalled. Read the current workbook or leave a `fact.*` binding. Operational figures (pars, labor targets, pay, schedules, counts) are unbound until a source is chosen (Airtable retired). |
+| Brand facts | Brand Guidelines (canon line pending phase 1 session B), Box file `2281626080747` | Read from Box. Never hard-coded here. Anything not confirmed by Brandon stays a `brand.*` binding. |
 | Strategy | Box, Sŏn Investor White Paper Sept 2026, file `2466517057642` | Read from Box. Carries figures; never carry a value. |
-| Full resource map | ClickUp Master Pointer Index `2ky45bmy-16833` | Open it when you need an ID not listed in `canon/pointers.md`. |
+| Full resource map | `canon/pointers.md` | Lists the IDs this studio uses. |
 
-Internal sources are read from Box, never from ClickUp documents. ClickUp holds tracking only: tasks, lists, and the module catalog mirror. The Sŏn Operating System is an active project that has not begun; do not consider it. One exception: `/sync-profiles` still reads the Profile Replacement Queue page in ClickUp until Brandon phases it out. (Brandon, 2026-09-28.)
+Internal sources are read from Box, never from ClickUp documents. ClickUp holds tracking only: tasks, lists, and the module catalog mirror. The Sŏn Operating System is an active project that has not begun; do not consider it. (Brandon, 2026-09-28.)
 
 ## Lifecycle
 
@@ -52,9 +52,11 @@ A profile that says a call is founder-gated, chef-gated, or team-gated means exa
 
 ## Commands
 
+These slash commands no longer exist in this folder. The tooling is salvaged and inert until phase 5: see `_salvage/README.md`.
+
 | Command | Does |
 |---|---|
-| `/sync-profiles` | Pull current profiles from Box into `profiles/cache/`, checking the Profile Replacement Queue. Run at the start of any session that uses profiles. |
+| `/sync-profiles` | Profiles: repo `profiles/` (phase 3 rebuilds the profile system). |
 | `/identify` | Intake a training need, run the front-end check, add it to the catalog. |
 | `/ideate` | Turn an identified need into a concept brief with a program slot. |
 | `/design-module` | Produce the module design: objectives, structure, practice, assessment, medium plan, bindings. |
@@ -76,17 +78,17 @@ Text plus video plus multiple choice teaches recognition, not performance. Every
 
 - Standing rules in `canon/standing-rules.md` apply to every file in `modules/`. Run `python scripts/lint.py` before any commit. The GitHub Action runs it too.
 - Never write a tool-specific or workflow-specific step as fact. Bind it.
-- Never write a figure (price, wage, cost, cover count, percentage of revenue). Pull it from Airtable at bind time or leave a `fact.*` binding.
+- Never write a figure (price, wage, cost, cover count, percentage of revenue). Read financial figures from the current Investor Review workbook at bind time; operational figures stay unbound until a source is chosen (Airtable retired). Otherwise leave a `fact.*` binding.
 - Never assert a brand fact that is not in the Brand Guidelines. Where a module needs one, cite the canon page or bind it with `brand.*`.
 - Never reconstruct a practice from Brandon's lineage (Coqodaq, Alinea, Gracious) as fact. Flag it for Brandon.
 - Back-of-house station specifics, recipes, and menu execution are chef-gated. Bind them with `chef.*`.
-- Never edit a profile here. Profile changes follow the Replacement Queue protocol in the Master Pointer Index.
+- Never edit a profile here. Profiles: repo `profiles/` (phase 3 rebuilds the profile system).
 - Never paste profile text into a module or commit it anywhere in this repo.
 - Training content is written in the library voice held by the Educational Materials Author and Editor, against the Brand Guidelines Verbal Identity page. The House voice system is for investor- and audience-facing persuasion, not training.
 
 ## Connector hygiene
 
-Enable only the MCP servers a session needs (usually Box plus ClickUp; Airtable only at bind time). `.mcp.json` lists all three. Disable what the session does not use.
+Enable only the connectors a session needs (usually Box plus ClickUp). Disable what the session does not use. The studio's `.mcp.json`, settings and slash commands are salvaged and inert until phase 5: see `_salvage/README.md`.
 
 ## Commit conventions
 

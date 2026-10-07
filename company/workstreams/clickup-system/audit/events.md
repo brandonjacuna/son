@@ -1,7 +1,7 @@
 # Events Space Audit (90136733952)
 
 ## Summary
-Events is the most populated of the four audited spaces, but almost all of its volume comes from one deeply nested outline rather than distinct tasks. The space has one list, **Events Capture** (901313751988), no folders, holding **20 tasks total** — but the real count of independent ideas is closer to 6-7. A parent task "Design Pop Up Concepts" has 4 subtasks (the Meteor, E&R Restaurants, Collabs, Sponsors), and "Sponsors" itself has **13 sub-subtasks**, all vendor/supplier names (Beer via Lindsay, Wine via Kayla McAndrew, Spirits via Tyler Mallams, US Foods via Jason, DoorDash, SpotOn, Ben E Keith, 7R, Kettl Tea, Spirit Tea, GFN Coffee, Pullman Market, Douglas Kuehn III). Every task, at every level, sits in status "revist" with no assignee, no due date, no priority, no tags, and no description — this is a 3-level mind-map of pop-up/collab sponsor leads, not a tracked project plan.
+Events is the most populated of the four audited spaces, but almost all of its volume comes from one deeply nested outline rather than distinct tasks. The space has one list, **Events Capture** (901313751988), no folders, holding **20 tasks total** — but the real count of independent ideas is closer to 6-7. A parent task "Design Pop Up Concepts" has 4 subtasks (the Meteor, E&R Restaurants, Collabs, Sponsors), and "Sponsors" itself has **12 sub-subtasks**, all vendor/supplier names (Beer via Lindsay, Wine via Kayla McAndrew, Spirits via Tyler Mallams, US Foods via Jason, DoorDash, SpotOn, Ben E Keith, 7R, Kettl Tea, Spirit Tea, GFN Coffee, Douglas Kuehn III). Every task, at every level, sits in status "revist" with no assignee, no due date, no priority, no tags, and no description — this is a 3-level mind-map of pop-up/collab sponsor leads, not a tracked project plan.
 
 ## Details
 
@@ -22,7 +22,7 @@ All default "Task" type in the sample — no custom item types observed.
 - 20 tasks total (open + closed, subtasks included), but structurally:
   - 6 flat top-level ideas outside the pop-up thread (Design Pop Up Concepts itself is one of these top-level tasks)
   - Under "Design Pop Up Concepts": 4 subtasks (the Meteor, E&R Restaurants, Collabs, Sponsors)
-  - Under "Sponsors" (one of those 4): 13 sub-subtasks, all beverage/food vendor contacts
+  - Under "Sponsors" (one of those 4): 12 sub-subtasks, all beverage/food vendor contacts
 - No checklists anywhere; the checklist mechanism isn't used — nesting via subtasks is doing that job instead.
 
 ### Assignee / due date / priority / tag usage

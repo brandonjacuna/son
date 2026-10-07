@@ -32,7 +32,7 @@ The workspace is a 13-space, ~960-task shell built for a 20-person company and o
 | **Custom fields exist only at list level; zero workspace/space fields** | `00-workspace.md` §4 | Owner/Classification must be created at workspace ("Everything") scope from scratch. |
 | **Field bleed-through**: Hospitality task "First timer gift" carries the 57-option vendor `Solution` dropdown and `Notes from BJAC` from another list | `hospitality.md` | Evidence of tasks moved between lists without field hygiene; shows why fields should be defined once at workspace scope. |
 | **Technology data quality**: 241 rows vs "100 functions" claimed; ~10 duplicate pairs (POS/Point of Sale, HRIS/HR Information System…); vendor names spelled differently between SaaS Catalog and the Solution dropdown; SaaS Catalog description promises 7 fields that don't exist | `technology.md` | Cross-list filtering by vendor silently fails; the Dominic tech review will run on dirty data. |
-| **Docs loosely filed**: "Heejae" at People root; Claude folder mixes 25+ AI persona profiles with HVAC/grease-trap compliance pages and a second business ("Event Co – The Josephine"); a page still titled "(Temporary)"; a profile "staging for Box" | `people.md`, `technology.md` | Brain search will return persona prompts alongside restaurant compliance answers. |
+| **Docs loosely filed**: "Heejae" at People root; Claude folder mixes 25+ AI persona profiles with HVAC/grease-trap compliance pages and a page tree unrelated to Sŏn; a page still titled "(Temporary)"; a profile "staging for Box" | `people.md`, `technology.md` | Brain search will return persona prompts alongside restaurant compliance answers. |
 | **Events**: 13 vendor leads as third-level subtasks under Design Pop Up Concepts → Sponsors | `events.md` | Invisible in list/board views; overlaps the empty Product › Beverage/Culinary folders. |
 | **Legal draft in a shared Docs folder** — Operating Agreement Pre-Counsel Brief with open "Dominic Review Required"/"Attorney Review Required" sections lives in Operations Documents | `operations.md` | Sensitivity and follow-through both untracked; nothing links it to a dated task. |
 
@@ -111,7 +111,7 @@ Column notes: "Native" = ClickUp can do it with UI/API/native AI. "Claude" = a C
 
 **H8 — Teams: one `Founders` Team now**, `Leadership` later; no Team per meeting type. Routine expands Team membership to emails for invites.
 
-**H9 — Retire the per-space Capture channels;** one `Inbox` channel plus per-initiative channels (Josephine, Programming) that already have identity.
+**H9 — Retire the per-space Capture channels;** one `Inbox` channel plus per-initiative channels (Programming) that already have identity.
 
 **H10 — Punch List views (scriptable):** My Work · By Owner · By Classification · Investors · Meetings (type = Meeting) · Backlog/Reference (hidden by default).
 
@@ -148,7 +148,7 @@ Column notes: "Native" = ClickUp can do it with UI/API/native AI. "Claude" = a C
 ### D. Technology, Finance, BI
 19. Finance and Technology: one seat, one space? Does BI have a purpose yet, or fold it into Finance & Tech?
 20. Function → SaaS Map: merge the ~10 duplicate pairs and normalize vendor names before the Dominic review? Build the 7 promised SaaS Catalog fields or trim the description?
-21. Claude folder: split personas from compliance references? Is "Event Co – The Josephine" a separate business that needs its own space/workspace? Can "(Temporary)" and "staging for Box" close out?
+21. Claude folder: split personas from compliance references? Can "(Temporary)" and "staging for Box" close out?
 
 ### E. Guest Experience (Product, Hospitality, Events)
 22. Should Product/Hospitality/Events collapse into one Guest Experience space, with vendor leads (13 Sponsors subtasks) as a flat Vendors list shared with Beverage/Culinary?

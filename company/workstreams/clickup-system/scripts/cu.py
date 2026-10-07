@@ -2,7 +2,7 @@
 
 Token source, in order:
   1. CLICKUP_API_TOKEN environment variable (cloud sessions, injected at runtime)
-  2. macOS Keychain item "clickup-api-token" (Brandon's Mac)
+  2. Fallback for a local Mac session: the macOS Keychain item "clickup-api-token"
 The token is read on first use, so importing this file never fails.
 """
 import json, os, subprocess, urllib.request, urllib.error, time

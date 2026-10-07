@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only ClickUp baseline export. Token is read from macOS Keychain, never printed."""
+"""Read-only ClickUp baseline export. Token comes from CLICKUP_API_TOKEN (or the local secret store on a Mac), never printed."""
 import json, os, subprocess, sys, time, urllib.request, urllib.error, urllib.parse, re
 
 WID = "90131574430"
@@ -11,10 +11,11 @@ FULL_LISTS = {  # full fidelity: custom fields + markdown descriptions
     "901327544218": "saas-catalog",
 }
 DOCS = ["Sŏn Operating System", "Scaling People: Translation Program", "Operating Agreement",
-        "Finance and Technology Seat", "FDN.01", "Claude Project Review", "Master Pointer Index",
+        "Finance and Technology Seat", "FDN.01", "Claude Project Review",
         "Technology OS"]
-TOKEN = subprocess.run(["security", "find-generic-password", "-s", "clickup-api-token", "-w"],
-                       capture_output=True, text=True, check=True).stdout.strip()
+TOKEN = os.environ.get("CLICKUP_API_TOKEN", "").strip() or subprocess.run(
+    ["security", "find-generic-password", "-s", "clickup-api-token", "-w"],
+    capture_output=True, text=True, check=True).stdout.strip()
 
 def get(url, params=None):
     if params: url += "?" + urllib.parse.urlencode(params, doseq=True)

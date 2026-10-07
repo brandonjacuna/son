@@ -6,13 +6,15 @@ It builds module **source packages** that stay independent of any operational to
 
 ## Setup (once)
 
-1. Create a **private** GitHub repo named `son-learning-studio` and push this folder to it. Keep it private: modules describe internal operations.
+1. Work in `company/workstreams/learning-studio/` inside the private `son` repo. Keep the repo private: modules describe internal operations.
 2. Install Python 3.10 or newer, then `pip install -r requirements.txt`.
-3. Open the folder in Claude Code. The project `.mcp.json` registers Box, ClickUp, and Airtable. Run `/mcp` and sign in to each. Disable any you are not using that session.
-4. Run `/sync-profiles`. This pulls the current profiles from Box into `profiles/cache/` (ignored by git).
-5. Run `/status` to see the catalog.
+3. Open the folder in Claude Code. Use the Box and ClickUp connectors (cloud sessions) and sign in to each. Disable any you are not using that session. The studio's `.mcp.json` and slash commands are not in this folder: tooling is salvaged and inert until phase 5 (`_salvage/README.md`).
+4. Profiles: repo `profiles/` (phase 3 rebuilds the profile system).
+5. `/status` is salvaged tooling (inert until phase 5, `_salvage/README.md`). Read `catalog/catalog.yaml` for the catalog.
 
 ## Daily use
+
+The slash commands below are salvaged tooling, inert until phase 5 (`_salvage/README.md`).
 
 - New training need: `/identify`
 - Work a module forward: `/ideate`, `/design-module`, `/draft-module`, `/review-module`, `/park-module`
@@ -30,7 +32,7 @@ Run the capability tour in `adapters/trainual.md`: one sandbox subject that uses
 CLAUDE.md               Instructions Claude Code reads every session
 canon/                  Standing rules and live pointers (IDs only, no copied content)
 profiles/manifest.yaml  Which Box profiles this studio uses, and for which stage
-profiles/cache/         Pulled profile copies (git-ignored, refreshed by /sync-profiles)
+profiles/cache/         Pulled profile copies (git-ignored); profiles: repo `profiles/` (phase 3 rebuilds the profile system)
 framework/              Lifecycle, module spec, bindings, review panels, modality library
 templates/              Intake, concept brief, and the module package template
 catalog/catalog.yaml    Every module and its status

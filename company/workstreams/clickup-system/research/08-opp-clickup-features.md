@@ -114,7 +114,7 @@ ClickUp ships a **Vendor Application Form Template** ([clickup.com/templates/for
 
 **What it is:** Native messaging — channels, DMs, threaded replies, audio/video SyncUps — already provisioned per space (19 channels exist workspace-wide per the Phase 1 audit) but empty. AI in Chat can summarize a channel and has a "Catch Me Up" unread-summary feature. CONFIRMED — [ClickUp Chat review 2026](https://work-management.org/productivity-tools/clickup-chat-review/); Phase 1 audit (`00-workspace.md` §5) confirms 19 channels exist with no messages.
 
-**Sŏn use case:** DECISIONS.md already calls for retiring the per-space Capture channels in favor of one `Inbox` channel plus per-initiative channels (Josephine, Programming) — this sweep confirms that's the right call rather than trying to revive 13 dead channels. The "Catch Me Up" AI summary feature is worth keeping in mind for the Inbox channel once it's actually used, so a founder returning from a few days off site can catch up in one query instead of scrolling.
+**Sŏn use case:** DECISIONS.md already calls for retiring the per-space Capture channels in favor of one `Inbox` channel plus per-initiative channels (Programming) — this sweep confirms that's the right call rather than trying to revive 13 dead channels. The "Catch Me Up" AI summary feature is worth keeping in mind for the Inbox channel once it's actually used, so a founder returning from a few days off site can catch up in one query instead of scrolling.
 
 **Effort:** Low — channel consolidation is a UI cleanup task, already decided.
 

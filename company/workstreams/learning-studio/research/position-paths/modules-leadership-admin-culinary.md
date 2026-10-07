@@ -5,8 +5,8 @@ Writer 4's areas of the spine (`research/position-paths/spine.md`, sections 5.5,
 How to read it:
 - **Culinary is a draft for the executive chef** (D30). None of it is a Sŏn kitchen standard until the chef sets one. Kitchen titles are `people.*` bindings (naming conflict INT C17: the white paper's Steward, Station Lead, Chef on the line and Chef on prep against the intake's porter, commis, chef de partie, chef de tournant). Station specifics, recipes, plating, menu execution, the allergen matrix and every kitchen standard are `chef.*` bindings. Where the chef must supply the content, the module still states its structure and the known content, and names exactly what is needed under "Waits on".
 - **Leaders' modules** never give a lead authority over discipline or pay (D5). Whether rating a practical counts as managing for an hourly employee is open with the HR seats; every module where a lead rates carries that dependency.
-- **Every figure** (labor targets, costs, pars, pay, fees) is a `fact.*` binding, pulled from Airtable or the tool at bind time. Every tool step is a `tool.*` binding; every tool name is a candidate (D60, lead-only).
-- **Sources.** Box canon is cited by label as the 2026-10-01 position drafts read it: the white paper (WP, file `2466517057642`) and the Brand and Experiential Guidelines (BG, file `2281626080747`). Re-read each cited page in Box before a lesson is drafted. Kitchen evidence is carried from `research/phase2-working/12-back-of-house.md` with that file's marks. No ClickUp document was read. The Sŏn Operating System is out of scope. Brandon's lineage houses were not researched; his experience enters only through his interviews (D45).
+- **Every figure** (labor targets, costs, pars, pay, fees) is a `fact.*` binding, pulled from the tool at bind time, or unbound until a source is chosen (Airtable retired). Every tool step is a `tool.*` binding; every tool name is a candidate (D60, lead-only).
+- **Sources.** Box canon is cited by label as the 2026-10-01 position drafts read it: the white paper (WP, file `2466517057642`) and the Brand Guidelines (canon line pending phase 1 session B) (BG, file `2281626080747`). Re-read each cited page in Box before a lesson is drafted. Kitchen evidence is carried from `research/phase2-working/12-back-of-house.md` with that file's marks. No ClickUp document was read. The Sŏn Operating System is out of scope. Brandon's lineage houses were not researched; his experience enters only through his interviews (D45).
 - **Plain terms and program rules** (revised 2026-10-01 after the red team). The angel shift is Brandon's name for the gate shift where a trainer, the mentor, oversees the person the whole night (term pending his confirmation, `founder.term.angel_shift`). After sign-off come unsupervised shifts: support is on hand but nobody is watching (D9, D10). Booked check slots (`workflow.check_slots`) are the leader's protected times in which practicals, spoken checks and unblock conversations are booked (D13). Supervised services count at shift length (`workflow.shift_length.<position>`, about 6 h as the design assumption), with pre-shift, opening, closing and side work inside them; at least one is a full night (`workflow.full_night`), and a person is released only for the dayparts they were supervised in (D10). Prove-first (ORI-015): every non-safety module lets an experienced hire attempt the proof cold after reading the material; a failed cold attempt routes the person into the instruction and is not a recorded miss (D11). Safety elements never test out and pass on every attempt.
 - **Interview topics** for Brandon are named as they appear in the back-of-house guide (section 8 of `12-back-of-house.md`): best night, broken night, the pass, the dish station, tasting, teaching a new cook, a correction that worked and one that did not, the seam, an unwritten standard, what you will not carry. Chef questions are numbered as in that file.
 
@@ -302,7 +302,7 @@ How to read it:
   - Yield and what moves it: cut, trim, cooking loss, portioning.
   - A full-use plan for each product: where trim goes (`chef.yield_reference`).
   - Waste categories and logging every discard (SYS-140).
-  - Why waste data is read, not guessed. Costs are Airtable figures (`fact.*`), never estimated.
+  - Why waste data is read, not guessed. Costs are `fact.*` figures (unbound until a source is chosen (Airtable retired)), never estimated.
 - What the person can do afterward: plan a product's full use and log its waste correctly.
 - How it is proven: a practical breakdown of one product; a spoken check. Test-out: the spoken check plus one observed breakdown.
 - Time and place: 4 h on site, paid.
@@ -981,11 +981,11 @@ How to read it:
     - Cultural labor score: the white paper's measure of whether the team's working conditions are holding up; the questions or counts it combines are read from WP Part II before drafting; read by the founders and the OM.
     - Who is going under on a full night (LEA-024).
   - The sign the team has no capacity left (WP Part I, cited: "bandwidth is at zero"): fix the design, not the hours. The fix removes friction (a step, a handoff, a tool fault), never adds hours.
-  - Every target and threshold is a `fact.*` binding from Airtable. No number is recalled or estimated.
+  - Every target and threshold is a `fact.*` binding (unbound until a source is chosen (Airtable retired)). No number is recalled or estimated.
 - What the person can do afterward: read a week's labor report aloud and name the one action it calls for, if any; say which part of a gap is demand, scheduling or execution; refuse a cut that removes learning time or the trainee's extra seat.
 - How it is proven: a spoken check on three anonymized reports built from the bound targets (practice and check banks kept apart); recheck when the targets change. Test-out: the spoken check, for a manager with prior labor ownership.
 - Time and place: 4 h (3 remote and paid, 1 on site).
-- Waits on: `fact.labor_targets.*`; `tool.data.labor_dashboard` (Airtable); `compliance.break_rule`; `founder.open_book_scope`.
+- Waits on: `fact.labor_targets.*`; `tool.data.labor_dashboard` (source unbound until a source is chosen (Airtable retired)); `compliance.break_rule`; `founder.open_book_scope`.
 - Absorbs: none (ORI-023 is the version for everyone).
 
 ### ADM-103 Reading cost, sales and the business
@@ -1249,7 +1249,7 @@ How to read it:
 - What the person can do afterward: present one beverage decision (keep, change, drop) with the inputs behind it.
 - How it is proven: a presentation to Brandon and the OM. Prove-first: the presentation without the sessions.
 - Time and place: 4 h (2 remote and paid, 2 on site).
-- Waits on: `fact.*` from Airtable; `founder.gifted_pour_range`; the inventory tool (SYS-136).
+- Waits on: `fact.*` (unbound until a source is chosen (Airtable retired)); `founder.gifted_pour_range`; the inventory tool (SYS-136).
 - Absorbs: BEV-032 (the inventory tool side went to SYS-136; reconciliation sits in ADM-105).
 
 ### KIT-041 Kitchen production and operations
@@ -1261,7 +1261,7 @@ How to read it:
   - Labor inside policy and with no overtime (`policy.overtime`); building the kitchen schedule (ADM-104, SYS-134).
   - Maintenance and equipment records (ADM-112).
   - Waste and yield review (KIT-033, SYS-140).
-  - Every figure comes from Airtable or the tool (`fact.*`) and none is estimated. Why the role exists: "The Executive Chef is placing linen orders" (WP p.13, cited).
+  - Every figure comes from the tool (`fact.*`; unbound until a source is chosen (Airtable retired)) and none is estimated. Why the role exists: "The Executive Chef is placing linen orders" (WP p.13, cited).
 - What the person can do afterward: run a full production cycle (forecast, order, receive, prep, count, review) without the executive chef doing clerical work.
 - How it is proven: an observed production cycle and a conversation on the decisions made. Test-out: an experienced sous chef runs one cycle in the house tools.
 - Time and place: 4 h (2 remote and paid, 2 on site); then live cycles.
@@ -1328,5 +1328,5 @@ From the 2026-10-01 red team, for the spine (sections 2, 3, 5.5 to 5.7, 5.10) an
 - **Brandon's interviews** (D45): what the pair must never hand to software (ADM-101); which numbers the pair act on without asking (ADM-103); how he reads a team's load (LEA-024); the MD's step-in cues (LEA-029); the decision order (LEA-027); per-position interview guides (LEA-032); "teaching a new cook" (LEA-001, LEA-105); "a correction that worked, and one that did not" and "what you will not carry" (KIT-102, LEA-104); the four unblock outcomes (LEA-006); the watchlist as he confirms it (LEA-023); the EC split (LEA-106).
 - **Policies** (D50): incident policy (LEA-021, ADM-110); regulars and customer data (LEA-041, ADM-109); vendor gifts (ADM-111); public replies (ADM-114); inspection (LEA-045); mentor criteria (LEA-015); the fail-limit shape (LEA-016, LEA-017); transparency sheet (ADM-106, LEA-032); gifted-pour range (BEV-032); events (ADM-118); recommitment format (LEA-006); ongoing-education hours per position (ADM-104, LEA-102, LEA-103).
 - **People decisions:** schedule owner, swap approver, close roles, ordering roles, timecard approvers (ADM-104, ADM-105, ADM-113, SYS-133); the pair's remaining split (ADM-101, LEA-028); the HR ruling on hourly leads rating practicals (D5), which gates LEA-002, LEA-014, LEA-018 and ADM-117's scope; whether D55 applies to the manager pair.
-- **Figures:** every labor, cost, par, pay, tolerance and event term is `fact.*` from Airtable.
+- **Figures:** every labor, cost, par, pay, tolerance and event term is `fact.*` (unbound until a source is chosen (Airtable retired)).
 - **Definitions to confirm in Box:** employee NPS, cultural labor score and customer recognition rate (WP Part II), worded here as working definitions shared with ORI-023.

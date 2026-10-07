@@ -4,7 +4,7 @@
 
 - **White paper:** Box folder `00. Pitch Materials` (`388972799337`), then `White Paper` (`382453064958`), then file **`2466517057642`**, "Sŏn Investor White Paper Sept 2026.pdf", modified 2026-09-14. The sections relevant here are cited by label below. Nothing from the paper is restated. **Lineage flag for Brandon:** the paper's opening narrative (pp. 1-2) names Gracious, Coqodaq and Cote. This research uses none of it.
 - **Brand Guidelines:** Box has more than one version, and none is marked canonical:
-  - `2281626080747`, "Brand and Experiential Guidelines PDF", in `Sŏn / 10. AI Projects / Design`, dated 2026-06-12.
+  - `2281626080747`, "Brand Guidelines (canon line pending phase 1 session B) PDF", in `Sŏn / 10. AI Projects / Design`, dated 2026-06-12.
   - `2356731001214`, "Son Brand Guidelines v1 (1).md", in `Design / v2.1-2026-07-19-defect-fix / uploads`. This is the latest.
   - Older copies: `2356714319901` (v2) and `2281555280952` (v1.0).
   - The folder `05. Brand and Creative / Identity and Design Assets` (`420132746170`) is empty.

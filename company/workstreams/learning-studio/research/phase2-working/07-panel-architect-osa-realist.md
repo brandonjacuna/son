@@ -78,14 +78,14 @@
 - **1.5 on deck reserve and INT Q4 (ranking for succession):** a ranking with hidden criteria rebuilds positional hierarchy. Any ranking must have visible, evidence-based criteria, or there should be no ranking.
 - **4.11 Option B:** keep the OSA seat on modules that change node structure, unlock rules, or role definitions. Do not add it to every module that only attaches content to an existing node. That would be a review step that never changes the outcome.
 - **4.7(c):** endorses "errors raised in pre-shift" and cross-role critique as leading edge signals, never targets. The system that produces candor (G4 feedback, CUL-002) goes to the People Systems Designer. This seat reads whether the structure carries the signal; it does not design the system.
-- **4.4:** whether management bandwidth is a bottleneck is a requisite-variety test. It needs the leadership line count and load from Airtable. The seat gives no verdict without them.
+- **4.4:** whether management bandwidth is a bottleneck is a requisite-variety test. It needs the leadership line count and load (unbound until a source is chosen (Airtable retired)). The seat gives no verdict without them.
 
 **Gated marks**
 - Founder-gated:
   - INT C1 (people ownership)
   - INT C3 (strands or ladder)
   - INT C4 (promotable leads or per-shift designations)
-  - INT C8 (pay for modules completed; the compensation philosophy is an open gap, flagged, figures stay in Airtable)
+  - INT C8 (pay for modules completed; the compensation philosophy is an open gap, flagged, figures are unbound until a source is chosen (Airtable retired))
   - INT Q4 (reserve ranking)
   - INT C12 (daypart scope: whether each daypart is its own team or one team)
   - a cross-domain call rule for the two management roles
@@ -133,7 +133,7 @@
   - `founder.recovery_range` and its owner
   - the rule for a live failure that spans both management domains
   - door ownership, host or Maître d' (INT C6), which decides how much of SVC-010 and SVC-011 is content and how much is binding
-  - whether the labor model funds angel-shift slack (figures from Airtable; comp design is the People Systems Designer's)
+  - whether the labor model funds angel-shift slack (figures unbound until a source is chosen (Airtable retired); comp design is the People Systems Designer's)
 - Chef-gated:
   - pass ownership and the pass workflow behind SVC-005
   - the allergen matrix
@@ -163,4 +163,4 @@
 - **Shared founder-gated set:** INT C1, C2, C3, C4, C6, C8, C12, Q4, plus the rule for live failures spanning both management domains.
 - **Canon grounding:** the OSA and Realist profiles are grounded in V7 through ClickUp. Their "landed" claims need re-anchoring to WP Box `2466517057642` before they count as canon (INT Q20). This read did not open the white paper or the Brand Guidelines in Box; the proposal's citations of WP and BG are taken as given.
 
-No files were written. Profiles read: `/home/user/son-learning-studio/profiles/cache/curriculum-program-architect.md`, `/home/user/son-learning-studio/profiles/cache/organizational-systems-architect.md`, `/home/user/son-learning-studio/profiles/cache/hospitality-operations-realist.md`. Intake read: `/home/user/son-learning-studio/research/intake-2026-09.md`.
+No files were written. Profiles read: `company/workstreams/learning-studio/profiles/cache/curriculum-program-architect.md`, `company/workstreams/learning-studio/profiles/cache/organizational-systems-architect.md`, `company/workstreams/learning-studio/profiles/cache/hospitality-operations-realist.md`. Intake read: `company/workstreams/learning-studio/research/intake-2026-09.md`.

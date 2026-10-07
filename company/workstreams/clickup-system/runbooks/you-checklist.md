@@ -8,7 +8,7 @@ _Only the UI steps. Numbers match `blueprint/05-build-plan.md`; decision numbers
 
 ## Stage 0 — Baseline and proof test (~1 h) — ✅ ALL DONE 2026-09-16
 
-- [x] **0.0 Personal API token (#3, approved).** Done — token stored locally in **macOS Keychain** (service name `clickup-api-token`); unblocked Claude building fields/views via REST for the rest of the build.
+- [x] **0.0 Personal API token (#3, approved).** Done — token stored outside the repo (CLICKUP_API_TOKEN in cloud sessions); unblocked Claude building fields/views via REST for the rest of the build.
 - [x] **0.2 Export key Docs.** Done — all 8 pulled via REST, saved under `exports/2026-09-16-baseline/`.
 - [x] **0.3a Task-type screenshot.** Done — informed the reconciliation in 1.1 (Action Item, Investor, Real Estate created without duplicating existing types).
 - [x] **0.3b AI tier.** Done (informational only — not a gate, decision #2).
@@ -54,7 +54,7 @@ _(1.13 API token moved to Stage 0, step 0.0 — already done by this point.)_
 - [ ] **3.6 Delete the `investor` tag definition** — after Claude reports every tagged task has migrated: hover Founding Sŏn space → `⋯` → **Settings → Tags** → `investor` → Delete (only if usage shows 0).
 - [ ] **Before 3.8:** #5 is already resolved (Classification is 9 labels, see 00 §5) — nothing to answer. **#10 (leftover admin tasks) is entirely your own step in ClickUp** — rename each task and set Assignee/Classification yourself directly (02 §8); there's no mapping to send Claude, since Claude takes no action on these tasks.
 - [ ] **3.9 Operating Agreement passages (#11).** Docs Hub → Operations Documents → Operating Agreement — Founder Pre-Counsel Brief → read each section; copy every "Dominic Review Required" / "Attorney Review Required" passage with its section title into a note for Claude. Do not edit the Doc.
-- [ ] **3.10 Claude folder page moves (#14).** Docs Hub → Tech Documents → Claude → Claude Project Review → for each persona page: page `•••` → **Move** → "Claude - AI Persona Library"; for each compliance page → Move → "Technology - Compliance References". Decide Event Co – The Josephine / "(Temporary)" / "staging for Box".
+- [ ] **3.10 Claude folder page moves (#14).** Docs Hub → Tech Documents → Claude → Claude Project Review → for each persona page: page `•••` → **Move** → "Claude - AI Persona Library"; for each compliance page → Move → "Technology - Compliance References". Decide "(Temporary)" / "staging for Box".
 - [ ] **3.11 SaaS Map sign-off (#13).** Open "Technology - Function → SaaS Map" and "Technology - SaaS Catalog" Docs beside the CSV export Claude produced; check the five verification items in 04 §6 Step 3 are green; write the sign-off line into `DECISIONS.md`. **No list is removed today.**
 - [ ] **3.12 Field deletions (#17)** — only after Claude confirms zero populated values: column header `⋯` → **Delete field** for Project (Founding Punch List) · Category and Notes (each Capture list — if the field is shared, one delete removes it everywhere; check the warning text) · Department Crossover (Events, Finance — superseded by native Tasks in Multiple Lists). No "Notes from BJAC" deletion — it was renamed in place to Created By Notes, not migrated-then-deleted.
 

@@ -36,7 +36,7 @@ ERRORS = [
 WARNINGS = [
     (re.compile(r"(?=.*\bstag(e|es|ing)\b)(?=.*\b(kitchen|chef|cook|trial|tryout|line)\b)", re.I),
      "'stage' in the kitchen-trial sense is written 'paid practical'"),
-    (re.compile(r"\$\s?\d|\b\d+(\.\d+)?\s?%"), "figure detected; figures come from Airtable via a fact.* binding"),
+    (re.compile(r"\$\s?\d|\b\d+(\.\d+)?\s?%"), "figure detected; financial figures come from the Investor Review workbook via a fact.* binding"),
     (re.compile(r"\b(coqodaq|alinea|gracious)\b", re.I), "lineage practice; flag for Brandon, do not reconstruct"),
 ]
 

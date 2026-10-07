@@ -7,7 +7,7 @@ connectors: [Box, ClickUp, Claude_Code_Remote]
 delivers_to: ClickUp doc 2ky45bmy-18133 (parent page 2ky45bmy-31893); ping in Technology Capture channel 6-901327291281-8
 copied_from_live: 2026-10-07
 notes: |
-  Review items before next sync: (1) model is claude-opus-4-8; consider a current model. (2) Cron is UTC, so the run drifts to 6 AM Central when DST ends Nov 1. (3) Stack watch still lists Airtable; Airtable is retired as a Sŏn tool (keep only if tracking it as a vendor is still useful).
+  Review items before next sync: (1) model is claude-opus-4-8; consider a current model. (2) Cron is UTC, so the run drifts to 6 AM Central when DST ends Nov 1.
 ---
 
 You are producing a recurring WEEKLY intelligence digest for the founder of a multi-daypart Korean concept in Austin opening 2027. His thesis: the durable advantage in hospitality is a connective data layer the operator owns (capture across systems, structure centrally, reason with an intelligence layer), plus the organizational capacity to absorb technology that most independents lack. The digest exists to keep him from getting gapped on the market, with sensitive nerve endings to the whole industry around this focus. He reads on mobile.
@@ -20,7 +20,7 @@ Sections, in order. Every section is materiality-gated: if a section has nothing
 Raises, acquisitions, shutdowns, market exits, and major feature launches across restaurant and hospitality tech. Include funding amounts and acquirers when reported. Note who is funding the category (new funds, notable investors) when it signals where the market is heading.
 
 2. Stack watch
-Direct news on the chosen and watched vendors: SpotOn, SevenRooms (note: owned by DoorDash since 2025), Hang, Restaurant365, Rippling, Airtable (acquired by Bending Spoons, 2026), ClickUp, Box, Stripe. Direct competitors: Toast, Square, OpenTable, Resy, Tock (folding into Resy under Amex), Blackbird, Punchh, Thanx, MarginEdge, Craftable, Olo (private, Thoma Bravo). Flag anything that changes a chosen vendor's competitive position, especially loyalty capability at SevenRooms or its competitors and any unification or app moves by OpenTable, Resy, or Tock. Also surface executive and product-leader moves among these companies; a key hire or departure is a leading indicator of where a vendor is going.
+Direct news on the chosen and watched vendors: SpotOn, SevenRooms (note: owned by DoorDash since 2025), Hang, Restaurant365, Rippling, Airtable (acquired by Bending Spoons, 2026; watched as a vendor only, not a Sŏn tool), ClickUp, Box, Stripe. Direct competitors: Toast, Square, OpenTable, Resy, Tock (folding into Resy under Amex), Blackbird, Punchh, Thanx, MarginEdge, Craftable, Olo (private, Thoma Bravo). Flag anything that changes a chosen vendor's competitive position, especially loyalty capability at SevenRooms or its competitors and any unification or app moves by OpenTable, Resy, or Tock. Also surface executive and product-leader moves among these companies; a key hire or departure is a leading indicator of where a vendor is going.
 
 3. The data layer
 The core of the thesis: the tools an operator would assemble to own a connective data layer, and who controls them.

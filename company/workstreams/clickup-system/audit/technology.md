@@ -17,8 +17,8 @@ Technology is dominated by one enormous working document: the **Function → Saa
 
 ### Claude (sub-folder, id 901318509389)
 - No lists — pure document library. 4 docs found (likely more pages not fully paginated):
-  - **"Claude Project Review"** — the biggest doc by far. Under a page hierarchy split into "Sŏn Home Base" and "Event Co - The Josephine" (a second, unrelated Claude Project for an event company?), it catalogs 25+ AI persona/role profiles (Brand Designer, Lighting Designer, Sound/Audio Designer, Interior Architect, Typographer, Fashion Designer, Olfactory Designer, Acoustic Engineer, etc.) — but also has restaurant compliance knowledge-base pages mixed into the same tree (HVAC/Walk-In Cooler/Acoustics compliance, Plumbing/Grease Interceptor compliance, Solid Fuel Exhaust Ventilation, Outdoor BBQ Pit compliance, Flooring compliance). Personas and compliance references are commingled under one doc/page tree with no apparent separation.
-  - **"Sŏn — Master Pointer Index & Inventory"** — pages: "How This Works," "Consolidated Project — Custom Instructions (paste into project)," "Profile Replacement Queue," and a page literally named **"Migration & Review Tracker (Temporary)"** that's still live.
+  - **"Claude Project Review"** — the biggest doc by far. Under a page hierarchy split into "Sŏn Home Base" and a second page tree unrelated to Sŏn (out of scope, not catalogued here), it catalogs 25+ AI persona/role profiles (Brand Designer, Lighting Designer, Sound/Audio Designer, Interior Architect, Typographer, Fashion Designer, Olfactory Designer, Acoustic Engineer, etc.) — but also has restaurant compliance knowledge-base pages mixed into the same tree (HVAC/Walk-In Cooler/Acoustics compliance, Plumbing/Grease Interceptor compliance, Solid Fuel Exhaust Ventilation, Outdoor BBQ Pit compliance, Flooring compliance). Personas and compliance references are commingled under one doc/page tree with no apparent separation.
+  - **"Sŏn Master Pointer Index & Inventory"** (retired pointer doc, superseded by the repo `profiles/` master copies) — pages: "How This Works," "Consolidated Project — Custom Instructions (paste into project)," and a page literally named **"Migration & Review Tracker (Temporary)"** that's still live.
   - **"Sŏn — Claude System & Profile Methodology (Research Capture)"** — e.g. "Leg 1 — Thin Pointer-Based Project Architecture (full report)."
   - **"Investment Thesis Architect — Profile (staging for Box)"** — name signals it's meant to move to Box but hasn't.
 
@@ -52,6 +52,5 @@ Technology is dominated by one enormous working document: the **Function → Saa
 
 1. Is the 241-row Function → SaaS Map count intentional (expanded scope) or should the ~10 duplicate pairs be merged?
 2. Should the SaaS Catalog custom fields (category, integrations, AI capability, contract status) actually be built, or should the list description be trimmed to match what exists today?
-3. Is "Event Co - The Josephine" a second, active Claude Project unrelated to Sŏn that happens to live inside the same "Claude Project Review" doc — should it be split out?
-4. Is the Technology Capture list meant to be used going forward, or is Technology Build Out effectively replacing it?
-5. Can "Investment Thesis Architect — Profile" move to Box now, and can the "(Temporary)" migration tracker be closed out?
+3. Is the Technology Capture list meant to be used going forward, or is Technology Build Out effectively replacing it?
+4. Can "Investment Thesis Architect — Profile" move to Box now, and can the "(Temporary)" migration tracker be closed out?

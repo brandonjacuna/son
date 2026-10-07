@@ -1,14 +1,13 @@
 # Pointers
 
-IDs only. Read the content through the connector every time. If an ID here disagrees with the Master Pointer Index, the Master Pointer Index wins; update this file.
+IDs only. Read the content through the connector every time. If an ID here is wrong, update this file. Profiles: repo `profiles/` (phase 3 rebuilds the profile system).
 
-**Source rule (Brandon, 2026-09-28).** Internal sources are read from Box, never from ClickUp documents. ClickUp is for tracking: tasks, lists, and the catalog mirror. The ClickUp documents below are listed for reference only and are not read as sources. The Sŏn Operating System is an active project that has not begun and is not considered. Exception: the Profile Replacement Queue page (below) is still read by `/sync-profiles` until Brandon phases it out.
+**Source rule (Brandon, 2026-09-28).** Internal sources are read from Box, never from ClickUp documents. ClickUp is for tracking: tasks, lists, and the catalog mirror. The ClickUp documents below are listed for reference only and are not read as sources. The Sŏn Operating System is an active project that has not begun and is not considered.
 
 ## ClickUp
 
 | Resource | ID | Use |
 |---|---|---|
-| Master Pointer Index | doc `2ky45bmy-16833` | Full resource map. Profile Replacement Queue is page `2ky45bmy-27093`. |
 | Brand Guidelines | doc `2ky45bmy-15773` | Reference only; read the Box copy (see Box). |
 | Business Strategies Notebook V7 | doc `2ky45bmy-11873` | Reference only; not read as a source. Strategy is read from the white paper in Box. |
 | Sŏn Operating System | doc `2ky45bmy-17253` | Active project, not begun. Not considered. |
@@ -24,7 +23,7 @@ IDs only. Read the content through the connector every time. If an ID here disag
 
 | Resource | ID |
 |---|---|
-| Brand and Experiential Guidelines (brand source) | file `2281626080747`, `10. AI Projects / Design`. Canonical (system-design D26). Markdown copy `2356731001214` (`Design / v2.1-2026-07-19-defect-fix / uploads`) is a text-extraction supplement only; where they differ, the PDF wins. |
+| Brand Guidelines (canon line pending phase 1 session B) | file `2281626080747`, `10. AI Projects / Design`. Reference only until Brandon sets the canon line. Markdown copy `2356731001214` (`Design / v2.1-2026-07-19-defect-fix / uploads`) is a text-extraction supplement only; where they differ, the PDF wins. |
 | Sŏn Investor White Paper Sept 2026 (strategy source) | file `2466517057642`, `00. Pitch Materials / White Paper`. Investor-facing; carries figures, never carry a value. |
 | Box structure guide | file `2480417968712`, `00. Start Here / Start Here.md` |
 | Profiles folder | `393577233571` |
@@ -36,11 +35,4 @@ IDs only. Read the content through the connector every time. If an ID here disag
 | Frozen module releases | folder `421837487417` (`Learning Studio / Releases`) |
 | Capability Tour | folder `421832819408` (`Learning Studio / Capability Tour`), for the Trainual tour log |
 
-## Airtable
-
-| Resource | Base |
-|---|---|
-| St. Elmo Dashboard V2 (primary) | `appKHeje63inr1fLG` |
-| Investor Dashboard | `appHj181Vju7No7GH` |
-
-Training modules rarely need figures. When one does, query at bind time. Never at draft time.
+Training modules rarely need figures. When one does, read financial figures from the current Investor Review workbook (Box, Sŏn / 02. Capital Raise) at bind time. Never at draft time. Operational figures stay unbound until a source is chosen (Airtable retired).

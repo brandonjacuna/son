@@ -7,7 +7,7 @@
 | Tag | Box file id | File name | Box location | Box modified | Read |
 |---|---|---|---|---|---|
 | **WP** | 2466517057642 | Sŏn Investor White Paper Sept 2026.pdf | Sŏn > 02. Capital Raise > 00. Pitch Materials > White Paper | 2026-09-14 | Full (all printed pages; cited by page footer) |
-| **BG** | 2281626080747 | Brand and Experiential Guidelines PDF (self-labeled "Living document, Version 3.0") | Sŏn > 10. AI Projects > Design | 2026-06-12 | Full; text extracted cleanly. Cited by section number (01 to 18). |
+| **BG** | 2281626080747 | Brand Guidelines (canon line pending phase 1 session B) PDF (self-labeled "Living document, Version 3.0") | Sŏn > 10. AI Projects > Design | 2026-06-12 | Full; text extracted cleanly. Cited by section number (01 to 18). |
 | **BG-md** | 2356731001214 | Son Brand Guidelines v1 (1).md (self-labeled "Version 1.0") | Sŏn > 10. AI Projects > Design > v2.1-2026-07-19-defect-fix > uploads | 2026-07-19 | Used only as a supplement. I read these sections in full: 01 (Foundation, Playground, Service Philosophy, Personas, Daypart Tone), 06 (Spatial), 07 (sonic governance), 08 (Service Model), 09 (Verbal Identity), 10 (Photography, philosophy only) and What Remains. I skimmed 02 to 05, 12 and 14 by heading only. |
 
 **Lag and version caveats**
@@ -82,7 +82,7 @@
 ### Pay in principle (WP p.20, "How the team is paid"; WP p.22, "Open decisions")
 - Team compensation is built into the menu price on the backend. It is not a service charge and not a tip.
 - It is distributed to the whole team, the culinary team included, on a point system weighted by days worked. It is calculated daily and paid on "a reasonable rhythm".
-- The percentage is still being finalized. It is a figure, lives in Airtable, and is never carried here.
+- The percentage is still being finalized. It is a figure, lives in the current Investor Review workbook (Box), and is never carried here.
 - Benefits are planned from the start. The WP names Rippling; for modules, treat it as a `tool.*` binding.
 - BG 15, "Arrival choreography", adds: no tipping screen.
 
@@ -234,7 +234,7 @@ Cite these by label. Do not restate their content in a module.
 - p.18: the length of the new-hire plan (a duration).
 - p.18: the industry shadowing norm (a shift count).
 - p.19: the performance review cadence (a range of months).
-- p.20: the compensation percentage (pending, Airtable).
+- p.20: the compensation percentage (pending, the current Investor Review workbook (Box)).
 - p.20: an illustrative cover-count contrast.
 - p.21: the tool and category counts in the stack.
 - p.22: leadership-line counts (Coqodaq vs Sŏn) and kitchen title-tier counts. This is a lineage touch.

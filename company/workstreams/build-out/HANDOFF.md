@@ -1,6 +1,6 @@
-# HANDOFF: son-build into the unified son repo
+# HANDOFF: build-out workspace into the son repo
 
-Prepared 2026-10-07 for Brandon John Acuña-Cardona. Source: the son-build construction-mode workspace, built in the Sŏn Home Base project 2026-09-28 (foundation) and extended the same day (Tobin Ellis bar knowledge base).
+Prepared 2026-10-07 for Brandon John Acuña-Cardona. Source: the construction-mode workspace, built 2026-09-28 (foundation) and extended the same day (Tobin Ellis bar knowledge base).
 Destination: `company/workstreams/build-out/` in the unified `son` repo, per the rebuild plan decision 1 (company/ vs founders/ boundary).
 
 ---
@@ -38,7 +38,7 @@ Destination: `company/workstreams/build-out/` in the unified `son` repo, per the
 2. **Workflows** carry a `defaults.run.working-directory` line set to `.`; change it to `company/workstreams/build-out` in the unified repo.
 3. **Name.** Brandon John Acuña-Cardona added to CLAUDE.md and README, with the rule that legal documents such as leases and contracts use Brandon John Acuña, and permit or license applications get asked.
 4. **Canon.** The cuisine descriptor was removed from the build-out CLAUDE.md, and one monitoring tag was made neutral, per rebuild plan decision 5. The Seoul Food trade show and Korea as an equipment-import market stay, since they are sourcing facts, not brand canon.
-5. **Exclusion scrub.** Every file was searched for the out-of-scope names in the Sŏn project scope rules (former partner, former projects, retired tools). None were present before or after. One new risk was found and fenced: the ClickUp "Claude Project Review" doc also holds an out-of-scope "Event Co" section. KICKOFF step 4 now imports only nine named Sŏn pages and forbids that section.
+5. **Exclusion scrub.** Every file was searched for the out-of-scope names in the Sŏn scope rules. None were present before or after. KICKOFF step 4 imports only nine named Sŏn pages.
 6. **Restored and added files:** `research/raw/2026-09-28-construction-mode-blueprint.md` (existed only as a chat report), `tests/guard_selftest.py`, `.gitkeep` files for `models/src/` and `tests/profiles/`, decisions/open.md items 8 and 9.
 7. **KICKOFF.md** rewritten: paths relative to the build-out root, the full nine-page ClickUp seed list with exclusions, a rule to drop dollar figures from imported guides (figures come only from the Investor Review workbook), and a bar checklist step.
 
@@ -46,7 +46,7 @@ Destination: `company/workstreams/build-out/` in the unified `son` repo, per the
 
 ## 3. Landing map
 
-| son-build path | Unified son repo path | Action |
+| Old workspace path | son repo path | Action |
 |---|---|---|
 | `CLAUDE.md` | `company/workstreams/build-out/CLAUDE.md` | Move. Loads when Claude works in that folder. |
 | `PHASE.yaml`, `phases/`, `models/`, `equipment/`, `library/`, `intake/`, `research/`, `kb/`, `codes/`, `monitoring/`, `decisions/`, `clickup/`, `scripts/`, `tests/`, `README.md`, `KICKOFF.md`, `HANDOFF.md` | `company/workstreams/build-out/...` | Move as is. Skills and commands use paths relative to this root. |
@@ -63,7 +63,7 @@ Destination: `company/workstreams/build-out/` in the unified `son` repo, per the
 
 Add one line to the unified root CLAUDE.md: "Build-out work lives in `company/workstreams/build-out/`. Its skills and commands use paths relative to that folder. Its phase lock is enforced by root hooks."
 
-If son-build was ever pushed as its own GitHub repo, import with history (for example `git subtree add --prefix=company/workstreams/build-out <url> main`), then move `.claude/` and `.github/` up. Otherwise unzip and commit.
+If the workspace exists as its own GitHub repo, import with history (for example `git subtree add --prefix=company/workstreams/build-out <url> main`), then move `.claude/` and `.github/` up. Otherwise unzip and commit.
 
 ---
 
@@ -177,7 +177,7 @@ Scaled to stakes: light on concept tooling, harsh on compliance and the phase lo
 ## 10. Import prompt (paste into a Claude Code session on the son repo)
 
 ```
-Import the son-build construction workspace into this repo. The zip contents are in <path>.
+Import the construction workspace into this repo. The zip contents are in <path>.
 Read <path>/HANDOFF.md first and follow its landing map (section 3) exactly.
 
 1. Move build-out files to company/workstreams/build-out/. Move .claude/hooks, agents, skills, commands to the root .claude/, merging, never overwriting. List any name collision and ask me (one pop-up per collision) before resolving it.

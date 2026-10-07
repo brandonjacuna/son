@@ -7,7 +7,7 @@
   - **Part I, "Open items"** (p. 15).
   - **Part II, "The organization that compounds":** the hiring passage on the paid practical in place of the stage (pp. 17 to 18), plus "Onboarding," "Training infrastructure" and "Performance management" (pp. 18 to 19).
   - **Lineage flag for Brandon:** the opening pages name Gracious Hospitality Management and Brandon's opening-service role. Nothing below reconstructs any practice from there.
-- **Brand Guidelines:** Box file `2281626080747`, the Brand and Experiential Guidelines PDF in `Sŏn / 10. AI Projects / Design` (folder `388972616815`), modified 2026-06-12. There are also later Markdown versions:
+- **Brand Guidelines:** Box file `2281626080747`, the Brand Guidelines (canon line pending phase 1 session B) PDF in `Sŏn / 10. AI Projects / Design` (folder `388972616815`), modified 2026-06-12. There are also later Markdown versions:
   - `2356731001214`, in `v2.1-2026-07-19-defect-fix/uploads`
   - `2356714319901`, in `v2-2026-07-18-post-corrections/uploads`
   - **Open for Brandon:** which file is canonical. The v2.1 Markdown is the newest. `canon/pointers.md` still points Brand Guidelines at ClickUp. Nothing in this pass needed a brand fact, so no Brand Guidelines content was read.

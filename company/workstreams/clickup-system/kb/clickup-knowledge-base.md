@@ -9,10 +9,7 @@ Legend: **[V]** verified in this workspace · **[D]** documented by ClickUp · *
 ## 1. Access
 
 - **Personal API token**: ClickUp → avatar → Settings → Apps → Generate. Send it as the raw `Authorization` header, with no "Bearer" prefix. **[V]**
-- **Store it outside the repo.** macOS Keychain works well:
-  - save: `security add-generic-password -a <account> -s clickup-api-token -U -w`
-  - read: `security find-generic-password -s clickup-api-token -w`
-  - Code reads it at call time, so the token never lands in a file, a log, or a transcript. **[V]**
+- **Store it outside the repo.** Cloud sessions: the ClickUp connector, or CLICKUP_API_TOKEN injected at runtime. On a Mac: any local secret store. Code reads the token at call time, so it never lands in a file, a log, or a transcript. **[V]**
 - **Base URLs**: `https://api.clickup.com/api/v2/` for most objects, `/api/v3/` for Docs and Chat. **[V]**
 - **Rate limit**: 100 requests/minute on Business. Watch `X-RateLimit-Remaining`, retry 429s after ~15s. **[V]**
 
@@ -152,11 +149,10 @@ Generate a preview file (one row per task with the proposed value), get sign-off
 ## 9. Minimal client
 
 ```python
-"""cu.py — tiny ClickUp REST helper; token from Keychain, never printed."""
-import json, subprocess, urllib.request, urllib.error, time
+"""cu.py — tiny ClickUp REST helper; token from CLICKUP_API_TOKEN, never printed."""
+import json, os, urllib.request, urllib.error, time
 WID = "<workspace id>"
-_T = subprocess.run(["security","find-generic-password","-s","clickup-api-token","-w"],
-                    capture_output=True, text=True, check=True).stdout.strip()
+_T = os.environ["CLICKUP_API_TOKEN"].strip()
 
 def req(method, path, body=None, v=2):
     base = f"https://api.clickup.com/api/v{v}/"

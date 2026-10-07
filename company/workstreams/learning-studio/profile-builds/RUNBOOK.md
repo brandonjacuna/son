@@ -23,7 +23,7 @@ Ultracode as a session setting (`--effort ultracode`) is allowed but not recomme
 ## Before the first session
 
 1. Update Claude Code: `claude update`. Fable 5.1 needs v2.1.257 or later; ultracode needs v2.1.203 or later; usage-limit pausing in workflows needs v2.1.271 or later.
-2. Unzip the repo, `cd son-learning-studio`, `pip install -r requirements.txt`.
+2. Open `company/workstreams/learning-studio/` in the `son` repo, `pip install -r requirements.txt`.
 3. Start Claude Code once: `claude`. Run `/mcp` and sign in to Box and ClickUp. Airtable is not needed for profile builds; disable it.
 4. On a Pro plan only: run `/config` and turn on Dynamic workflows.
 5. Run `/model`, look at the Fable row. If it says "Requires usage credits," Fable on your plan bills to usage credits. Decide before starting; the build is long.

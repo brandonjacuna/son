@@ -18,8 +18,8 @@ These apply to every employee-facing surface this studio produces. They mirror t
 
 | Rule | Checked by lint |
 |---|---|
-| Figures (prices, wages, costs, covers, percentages) come from Airtable only. Write a `fact.*` binding instead of a number. | Warning on any currency amount or percentage outside a binding |
-| Brand facts (positioning, naming, service philosophy, lexicon) defer to the Brand and Experiential Guidelines in Box, file `2281626080747`. Cite the section or bind with `brand.*`. | Reviewer |
+| Figures (prices, wages, costs, covers, percentages) come only from the current Investor Review workbook in Box (financial) or stay unbound until a source is chosen (operational; Airtable retired). Write a `fact.*` binding instead of a number. | Warning on any currency amount or percentage outside a binding |
+| Brand facts (positioning, naming, service philosophy, lexicon) are confirmed by Brandon. The Brand Guidelines (canon line pending phase 1 session B) in Box (file `2281626080747`) is a reference until then. Cite the section or bind with `brand.*`. | Reviewer |
 | Tool and workflow specifics are bindings until the tool or workflow is set. | Reviewer, plus `/park-module` check |
 | Back-of-house station specifics, recipes, and menu execution are chef-gated. Bind with `chef.*`. | Reviewer |
 | Practices from Brandon's lineage (Coqodaq, Alinea, Gracious) are never reconstructed. Flag for Brandon. | Warning when those names appear in `modules/` |

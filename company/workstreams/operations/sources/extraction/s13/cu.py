@@ -1,6 +1,6 @@
 import json, os, time, urllib.request, urllib.error
 WS='90131574430'
-TOK=open(os.path.expanduser('~/.clickup_token')).read().strip()
+TOK=os.environ.get('CLICKUP_API_TOKEN') or open(os.path.expanduser('~/.clickup_token')).read().strip()
 def req(method, path, body=None, v='v2', params=''):
     url=f'https://api.clickup.com/api/{v}/{path}{params}'
     data=json.dumps(body).encode() if body is not None else None

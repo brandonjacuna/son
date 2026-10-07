@@ -13,7 +13,7 @@ Status: a proposal for Brandon to decide on. Nothing here is decided. Titles, ID
 
 **Canon, cited and not restated.**
 - White paper: Box `2466517057642` (WP).
-- Brand and Experiential Guidelines: Box `2281626080747` (BG, v3.0 PDF).
+- Brand Guidelines (canon line pending phase 1 session B): Box `2281626080747` (BG, v3.0 PDF).
 - Newer Markdown copy of the guidelines: `2356731001214` (BG-md). Which Box copy is canonical is open (see 4.13).
 
 **Standing flags.**
@@ -442,7 +442,7 @@ Each question lists options and tradeoffs. Gate marks: F = founder-gated, T = te
 - **What you will do:** the L4 transfer goals of the role's nodes.
 - **How you get there:** the gates and the training plan, with pay dates bound as `fact.*` or `workflow.*`.
 - **Where it leads:** adjacent unlocks, the on deck reserve, the lead path.
-- **Pay and benefits:** `fact.*` from Airtable only.
+- **Pay and benefits:** `fact.*`, unbound until a source is chosen (Airtable retired).
 
 **Why this works.**
 - Every responsibility in a job description traces to a transfer goal someone can be assessed on. A job description cannot promise what the program does not teach, and a module added to a node updates the job description on the next render.

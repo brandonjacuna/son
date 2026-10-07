@@ -56,23 +56,22 @@ This convention itself should be **written down as the first page of Sŏn Docs H
 ## 3. Technology > Claude folder: separate personas from compliance references
 
 ### Current state (audit fact, `technology.md` §Claude sub-folder)
-One doc, **"Claude Project Review,"** carries 25+ AI persona/role profiles (Brand Designer, Lighting Designer, Sound/Audio Designer, Interior Architect, Typographer, Fashion Designer, Olfactory Designer, Acoustic Engineer, etc.) **commingled in the same page tree** as restaurant compliance knowledge-base pages (HVAC/Walk-In Cooler/Acoustics, Plumbing/Grease Interceptor, Solid Fuel Exhaust Ventilation, Outdoor BBQ Pit, Flooring compliance) — plus a second, unrelated business ("Event Co – The Josephine") nested under the same tree, a page named literally **"(Temporary)"** still live, and **"Investment Thesis Architect — Profile (staging for Box)"** signaling an unfinished migration. This is the exact case `research/11` §A3 warns about: Brain search returns whatever is in scope for a query with no separation, so an HVAC compliance question and a persona prompt can surface side by side.
+One doc, **"Claude Project Review,"** carries 25+ AI persona/role profiles (Brand Designer, Lighting Designer, Sound/Audio Designer, Interior Architect, Typographer, Fashion Designer, Olfactory Designer, Acoustic Engineer, etc.) **commingled in the same page tree** as restaurant compliance knowledge-base pages (HVAC/Walk-In Cooler/Acoustics, Plumbing/Grease Interceptor, Solid Fuel Exhaust Ventilation, Outdoor BBQ Pit, Flooring compliance) — plus a page tree unrelated to Sŏn (out of scope), a page named literally **"(Temporary)"** still live, and **"Investment Thesis Architect — Profile (staging for Box)"** signaling an unfinished migration. This is the exact case `research/11` §A3 warns about: Brain search returns whatever is in scope for a query with no separation, so an HVAC compliance question and a persona prompt can surface side by side.
 
 ### Design
 Split the **Claude** sub-folder into two Docs (not two folders full of loose pages — ClickUp Docs support nested sub-pages, so each becomes one Doc with its own page tree):
 
-1. **"Claude - AI Persona Library"** — every persona/role profile page, the Master Pointer Index & Inventory, the Profile Replacement Queue, the Claude System & Profile Methodology research.
+1. **"Claude - AI Persona Library"** — every persona/role profile page and the Claude System & Profile Methodology research (repo `profiles/` holds the master copies).
 2. **"Technology - Compliance References"** — every HVAC/Walk-In Cooler, Plumbing/Grease Interceptor, Solid Fuel Exhaust Ventilation, Outdoor BBQ Pit, and Flooring compliance page, filed as Technology/Property-facing reference material, not AI tooling.
 
 (Names follow the `[Space/Topic] - [Doc purpose]` convention in §2.)
 
-"Event Co – The Josephine" stays where Brandon decides (a separate initiative, not part of Sŏn's build — flagged, not moved, without his call) but must not remain nested inside either new Doc.
 
 ### Build steps
 1. **[You]** Open "Claude Project Review" in the Docs editor and confirm the full page tree (the audit's hierarchy call doesn't expand doc-internal pages — `00-workspace.md` §6 — so a human pass is needed to see every page before moving anything).
 2. **[Claude]** `clickup_create_document` ×2 — "Claude - AI Persona Library" and "Technology - Compliance References," both parented under Tech Documents.
 3. **[You]** Move each existing page into the matching new Doc (no MCP move-page tool exists — confirmed gap, same class of limitation as `research/12` N6's "[You] moves Docs"). Click-path: open the source page → `•••` → "Move page" → pick destination Doc.
-4. **[You]** Decide and act on: "(Temporary)" migration tracker (close out or keep), "Investment Thesis Architect — Profile (staging for Box)" (move to Box or leave), "Event Co – The Josephine" (its own space, or stays parked here) — three open questions the Technology audit already raised (`technology.md` §Questions) that this split forces a decision on.
+4. **[You]** Decide and act on: "(Temporary)" migration tracker (close out or keep), "Investment Thesis Architect — Profile (staging for Box)" (move to Box or leave) — two open questions the Technology audit already raised (`technology.md` §Questions) that this split forces a decision on.
 5. **[Claude]** Add both new Docs to the Sŏn Docs Home index (§1) under Technology.
 
 ---
@@ -201,6 +200,5 @@ DECISIONS.md and STATE.md are explicit: **export → verify nothing lost → Bra
 
 1. Function-area grouping for the SaaS Map Doc's per-page split — confirm the Build-Hub dump-batch categories are the right axis, or propose different groupings once the full 241-row export is in hand.
 2. Whether to merge the ~10 duplicate pairs and reconcile vendor-name spelling **before** or **after** the Doc replaces the tasks (this plan defaults to after, in the Doc, per the lossless principle — confirm).
-3. "Event Co – The Josephine" inside the Claude folder split (§3) — separate space, stays parked, or something else; not decided here.
-4. Whether "(Temporary)" migration tracker and "staging for Box" profile (§3) can close out now or need to wait on something.
-5. Whether any of the 5 doc-less shells (BI, Events, Hospitality, Product, Property) should get their Documents folder created now (as part of N8's build) or wait until the shell has real content to justify it.
+3. Whether "(Temporary)" migration tracker and "staging for Box" profile (§3) can close out now or need to wait on something.
+4. Whether any of the 5 doc-less shells (BI, Events, Hospitality, Product, Property) should get their Documents folder created now (as part of N8's build) or wait until the shell has real content to justify it.
