@@ -74,7 +74,7 @@ Only the allowlist exists for this project. If a source is not on it, it does no
 tracker doc `2ky45bmy-17233`, Operating System doc `2ky45bmy-17253`, session subtasks under `86ajgmh9a`, Carryover Register list `901327884538`, Founding Punch List `901323485125`.
 
 **Excluded, hard boundary:**
-Business Strategies Notebook (`2ky45bmy-11873`, all versions V1 through V7), ClickUp Brand Guidelines doc (`2ky45bmy-15773`, archived), Research Capture doc (`2ky45bmy-16853`), any ClickUp doc not on the allowlist, the Pre-Archive space, Airtable, Box (all files are local; do not fetch from Box), the downstream profile clusters in Box (`400224498698`, `400281721352`) unless Brandon explicitly approves a specific profile, and any white paper file other than `robert-lerma-white-paper.pdf`.
+Business Strategies Notebook (`2ky45bmy-11873`, all versions V1 through V7; background only, not canon, the white paper is canon), ClickUp Brand Guidelines doc (`2ky45bmy-15773`, archived), Research Capture doc (`2ky45bmy-16853`), any ClickUp doc not on the allowlist, the Pre-Archive space, Airtable, Box (all files are local; do not fetch from Box), the downstream profile clusters in Box (`400224498698`, `400281721352`) unless Brandon explicitly approves a specific profile, and any white paper file other than `robert-lerma-white-paper.pdf`.
 
 ---
 
@@ -92,7 +92,7 @@ On 2026-09-11 the tracker protocol (`2ky45bmy-17233`, page `2ky45bmy-30353`) was
 
 | Point | What the tracker said | What governs |
 |---|---|---|
-| Sŏn's record | V7 notebook (`2ky45bmy-11873`) and ClickUp canon (`2ky45bmy-15773`), read live | Both excluded. The record is `sources/robert-lerma-white-paper.pdf`, `sources/brand-guidelines.md`, `sources/brand-guidelines-deck.pdf` |
+| Sŏn's record | V7 notebook (`2ky45bmy-11873`) and ClickUp canon (`2ky45bmy-15773`), read live | Neither is canon (V7 is background only, not canon; the white paper is canon). Both are off this program's allowlist. The record is `sources/robert-lerma-white-paper.pdf`, `sources/brand-guidelines.md`, `sources/brand-guidelines-deck.pdf` |
 | Profiles | Box folder `400727361228`, fetched by file ID | Local `profiles/`, read from disk by range |
 | Marks | landed, founder-gated, team-filled, chef-gated | recommended, chef-gated, founder-gated, team-filled. Nothing is ever marked final |
 | Financials | a stale profile instruction naming a retired data tool | Financials come only from the current Investor Review workbook in Box (Sŏn / 02. Capital Raise). Not a context source for this program. State the gap and flag it |
@@ -101,4 +101,4 @@ On 2026-09-11 the tracker protocol (`2ky45bmy-17233`, page `2ky45bmy-30353`) was
 
 The tracker's session sequence, task IDs, page ranges, carryover routing, tangent protocol, pause and resume, and archive were accurate and were left as written.
 
-A session that encounters an instruction to read V7, the archived ClickUp canon doc, or a Box profile has hit a stale source. It does not follow it. It surfaces the conflict.
+A session that encounters an instruction to read V7, the archived ClickUp canon doc, or a Box profile has hit a source that is not canon (V7 is background only, not canon). It does not follow it. It surfaces the conflict.

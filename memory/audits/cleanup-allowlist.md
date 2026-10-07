@@ -48,9 +48,9 @@ Format: path | term | reason
 
 None.
 
-### HOLD-V7
+### KEEP-V7
 
-- memory/state.md:28 | Business Strategies Notebook, 2ky45bmy-11873 | open owner question: is the V7 notebook still canon
+- memory/state.md:6,30 | Business Strategies Notebook, 2ky45bmy-11873 | KEEP: V7 referenced as background, not canon (Brandon 2026-10-07)
 
 ### HOLD-BRAND
 
@@ -82,10 +82,13 @@ Date 2026-10-07. Path: company/workstreams/learning-studio. Format: `path | term
 - company/workstreams/learning-studio/profiles/README.md | sync-profiles, 2ky45bmy-16833, Master Pointer Index, Replacement Queue | profile mechanics, phase 3
 - company/workstreams/learning-studio/profiles/manifest.yaml | sync-profiles | profile mechanics, phase 3
 
-### HOLD-V7
+### KEEP-V7
 
-- company/workstreams/learning-studio/canon/pointers.md:12 | Business Strategies Notebook, 2ky45bmy-11873 | V7 canon status is an open owner question
-- company/workstreams/learning-studio/profile-builds/hospitality-craft-educator/01-corpus.md, 04-draft.md, 05-tagged.md, 06-revised.md | Business Strategies Notebook, 2ky45bmy-11873 | V7 pointer inside profile files
+- company/workstreams/learning-studio/canon/pointers.md:12, catalog/catalog.yaml, _salvage/skills/identify/SKILL.md, research/ (phase2-working/01, 06, 07; intake-2026-09.md; starting-structure-2026-09.md) | V7, Business Strategies Notebook, 2ky45bmy-11873 | KEEP: V7 referenced as background, not canon (Brandon 2026-10-07)
+
+### HOLD-PROFILE (V7)
+
+- company/workstreams/learning-studio/profile-builds/hospitality-craft-educator/01-corpus.md, 04-draft.md, 05-tagged.md, 06-revised.md | Business Strategies Notebook, 2ky45bmy-11873 | HOLD-PROFILE: V7 pointer inside profile files, phase 3 rewrites
 
 ### HOLD-BRAND
 
@@ -111,11 +114,10 @@ Paths relative to `company/workstreams/operations/` unless noted. Grep scope: co
 - profiles/hospitality-operations-realist.md, profiles/organizational-systems-architect.md, profiles/people-systems-designer.md | Airtable, Business Strategies Notebook, 2ky45bmy-11873 | profile content, no edits
 - profiles/learning-and-development/{educational-materials-author-and-editor,highscope,instructional-designer,learner-advocate,tbri}.md | Airtable, Business Strategies Notebook, 2ky45bmy-11873, experiential (generic pedagogy in highscope and instructional-designer) | profile content, no edits
 
-### HOLD-V7
-- CLAUDE.md:109 | Business Strategies Notebook, Airtable | ignore-instruction about V7 and retired tool; notebook canon status open
-- CLAUDE.md:124 | Business Strategies Notebook, 2ky45bmy-11873 | Excluded list entry
-- reference/standing-rules.md:77 | Business Strategies Notebook, 2ky45bmy-11873, Airtable | exclusion list; delete "Airtable," once V7 is ruled on
-- reference/standing-rules.md:95 | 2ky45bmy-11873 | V7 notebook row
+### KEEP-V7
+- company/workstreams/operations/CLAUDE.md:109,124 | Business Strategies Notebook, 2ky45bmy-11873, Airtable | KEEP: V7 referenced as background, not canon (Brandon 2026-10-07); Airtable is the retired-tool note
+- company/workstreams/operations/reference/standing-rules.md:77,95,104 | Business Strategies Notebook, 2ky45bmy-11873, Airtable | KEEP: V7 referenced as background, not canon (Brandon 2026-10-07); delete "Airtable," in a later pass
+- company/workstreams/operations/output/s01/work-items.md:91 | V7 | KEEP: V7 referenced as background, not canon (Brandon 2026-10-07)
 
 ### HOLD-BRAND
 (none)

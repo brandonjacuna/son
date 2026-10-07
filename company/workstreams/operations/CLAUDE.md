@@ -106,7 +106,7 @@ Some deliverables get produced again by other people: personal documents such as
 
 Profiles sharpen what a chunk's considerations cover. Load only those that serve the chunk at hand.
 
-The profiles were written for the extraction program. In every profile, **ignore**: instructions to mark, stake, or "land" positions; references to the V7 Business Strategies Notebook, the brand guidelines, or Airtable as authorities; and any rule this file supersedes. Use their discipline expertise: mental models, cue tables, failure modes, and sources.
+The profiles were written for the extraction program. In every profile, **ignore**: instructions to mark, stake, or "land" positions; references to the V7 Business Strategies Notebook (background only, not canon; the white paper is canon), the brand guidelines, or Airtable as authorities; and any rule this file supersedes. Use their discipline expertise: mental models, cue tables, failure modes, and sources.
 
 Brandon approved (2026-09-26) copying these Box profile folders into `profiles/`, verbatim:
 
@@ -121,7 +121,7 @@ After they're copied, work from the repo copies. Once in the repo, the Founder D
 ### Excluded (hard boundary)
 
 - `sources/brand-guidelines.md` and `sources/brand-guidelines-deck.pdf`, and their copies in `sources/extraction/s02/deck.md` and `sources/extraction/s05/brand-deck.txt`. These are startup-phase pre-work; there is no property yet. They are gitignored.
-- Business Strategies Notebook (ClickUp `2ky45bmy-11873`), all versions.
+- Business Strategies Notebook (ClickUp `2ky45bmy-11873`), all versions: background only, not canon; the white paper is canon. Not on this program's source allowlist.
 - ClickUp Brand Guidelines doc (`2ky45bmy-15773`) and Research Capture doc (`2ky45bmy-16853`).
 - Any other white paper version.
 - Box, except the three profile folders above and the white paper named above: in particular Voice, Design Translating Team, Narrative and Structure, and Investment.

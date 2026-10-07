@@ -1,5 +1,6 @@
 # Module catalog. One row per module. Status must match the module's module.md.
-# Seeds below are drawn from commitments already on record in V7 Part II and the
+# Seeds below are drawn from commitments already on record in the white paper (canon; V7 Part II is
+# background only, not canon) and the
 # brand canon, as cited by the Learning & Development and Scaling People profiles.
 # They are unconfirmed until Brandon confirms them in an /identify session.
 
@@ -13,7 +14,7 @@ modules:
     need: >
       Orientation to mission, values, and the standard comes before operational
       training. Every new member needs the reason before the mechanics.
-    source: V7 Part II onboarding commitment, as cited in the Instructional Designer profile
+    source: white paper onboarding commitment (V7 Part II background only, not canon), as cited in the Instructional Designer profile
 
   - id: LEA-001
     title: Teaching at Sŏn
@@ -24,7 +25,7 @@ modules:
       Qualified members can author and teach modules and are paid to teach.
       Peer authors need to learn the template and how to teach a module, or the
       library fragments.
-    source: V7 Part II peer-authoring commitment, as cited in the Curriculum & Program Architect and Instructional Designer profiles
+    source: white paper peer-authoring commitment (V7 Part II background only, not canon), as cited in the Curriculum & Program Architect and Instructional Designer profiles
 
   - id: SVC-001
     title: Getting to table-ready
@@ -34,7 +35,7 @@ modules:
     need: >
       No one touches a table until demonstrably ready. Learners need a clear path
       to that gate and to know what ready looks like.
-    source: V7 Part II readiness-gate commitment, as cited in the Curriculum & Program Architect profile
+    source: white paper readiness-gate commitment (V7 Part II background only, not canon), as cited in the Curriculum & Program Architect profile
 
   - id: SVC-002
     title: Recovering a mistake well
@@ -44,7 +45,7 @@ modules:
     need: >
       Recovery is a designed capability, including pre-authorized customer gestures
       decided as system calls, not floor improvisation.
-    source: Hospitality Operations Realist profile, citing Brand Guidelines (pre-authorized gestures) and V7
+    source: Hospitality Operations Realist profile, citing Brand Guidelines (pre-authorized gestures) and V7 (background only, not canon)
 
   - id: SAF-001
     title: Taking an allergy at the table

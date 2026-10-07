@@ -95,7 +95,7 @@
 **Disagreements visible**
 - With Brandon's intake: the intake describes a linear service progression (runner, then back waiter, then front server) and promotable leads. The seat's grounding holds strands and adjacency, not levels. That is INT C3 and C4, marked, not landed.
 - With the intake on the management split: the intake (group 1) reads Operations as people-focused and the Maître d' as everything else. The seat's grounding assigns systems to one domain and team and floor to the other. The proposal's 1.4 follows neither cleanly. That is INT C1.
-- Grounding caveat: the seat's "landed" structural decisions cite V7 in ClickUp, which was not read here, per the rules. Until they are re-anchored to WP Box `2466517057642`, treat them as unconfirmed in this pass (INT Q20).
+- Grounding caveat: the seat's "landed" structural decisions cite V7 in ClickUp (background only, not canon; not read here, per the rules). Until they are re-anchored to WP Box `2466517057642`, treat them as unconfirmed in this pass (INT Q20).
 - With the Realist on reserve readiness: see below. The seat states that its structural read and the Realist's tempo read disagreeing is data, not a contest.
 - External anchors held by the profile (Freeman, Ashby, Dignan, Laloux, Edmondson) are unverified: I did not read them in this pass.
 
@@ -151,7 +151,7 @@
 - With the OSA: automatic reserve membership on L4 is structurally sound, but on the floor it only counts with a tempo component. The profiles call this disagreement data.
 - With 4.5(b): take-home kits are fine for isolated movements. Tray and stemware carry "at tempo" still needs on-site sessions under load.
 - Grounding caveats:
-  - The profile's project facts cite V7 through ClickUp, which was not read here, and carry figures that are not repeated in this read.
+  - The profile's project facts cite V7 through ClickUp (background only, not canon; not read here) and carry figures that are not repeated in this read.
   - Its anchors (Keller, Bourdain, Guidara, Meyer, Sorgule) are elite fine-dining or memoir sources. The profile holds them as reasoned, not proven. I did not read them in this pass (unverified).
   - The seat calls its tempo reads based on the floor, not laws. "Untested" is not the same as "won't survive."
 
@@ -161,6 +161,6 @@
 - **Ownership collision in 1.2 and 1.5:** sequence belongs to the CPA; the node structure, levels, and reserve belong to the OSA; tempo readiness belongs to the Realist. The proposal should tag each column's owner.
 - **All three flag an opening-time gap:** there are no L5 leads, trainers, or talent blocks at launch. The CPA and OSA see a missing program endpoint and bootstrap. The Realist sees gate load on green shifts.
 - **Shared founder-gated set:** INT C1, C2, C3, C4, C6, C8, C12, Q4, plus the rule for live failures spanning both management domains.
-- **Canon grounding:** the OSA and Realist profiles are grounded in V7 through ClickUp. Their "landed" claims need re-anchoring to WP Box `2466517057642` before they count as canon (INT Q20). This read did not open the white paper or the Brand Guidelines in Box; the proposal's citations of WP and BG are taken as given.
+- **Canon grounding:** the OSA and Realist profiles are grounded in V7 through ClickUp (background only, not canon; the white paper is canon). Their "landed" claims need re-anchoring to WP Box `2466517057642` before they count as canon (INT Q20). This read did not open the white paper or the Brand Guidelines in Box; the proposal's citations of WP and BG are taken as given.
 
 No files were written. Profiles read: `company/workstreams/learning-studio/profiles/cache/curriculum-program-architect.md`, `company/workstreams/learning-studio/profiles/cache/organizational-systems-architect.md`, `company/workstreams/learning-studio/profiles/cache/hospitality-operations-realist.md`. Intake read: `company/workstreams/learning-studio/research/intake-2026-09.md`.

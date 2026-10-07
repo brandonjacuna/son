@@ -9,7 +9,7 @@ IDs only. Read the content through the connector every time. If an ID here is wr
 | Resource | ID | Use |
 |---|---|---|
 | Brand Guidelines | doc `2ky45bmy-15773` | Reference only; read the Box copy (see Box). |
-| Business Strategies Notebook V7 | doc `2ky45bmy-11873` | Reference only; not read as a source. Strategy is read from the white paper in Box. |
+| Business Strategies Notebook V7 | doc `2ky45bmy-11873` | Background only, not canon (Brandon 2026-10-07). The white paper in Box is canon for strategy. |
 | Sŏn Operating System | doc `2ky45bmy-17253` | Active project, not begun. Not considered. |
 | Research Capture (profile methodology) | doc `2ky45bmy-16853` | Seven-stage synthesis procedure, page `2ky45bmy-27213`. |
 | L&D / People & Culture build tracker | doc `2ky45bmy-17273` | Cited by the L&D profiles. Not reachable through the connector on 2026-09-26; confirm the ID or sharing. |

@@ -3,7 +3,9 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Phase 1 Cleanup, session B | next Code session (Opus) | `memory/briefs/1-cleanup.md` steps 4 to 6 and 8: Box batches, ClickUp delete list, brand canon extraction as pop-ups, V7 question. Session A is done (reports: `memory/audits/cleanup-sweep/`; allowlist: `memory/audits/cleanup-allowlist.md`)
+- Apply the brand canon line (decisions 2026-10-07, `brand`) | next Code session (Opus) | edit ClickUp Brand Guidelines doc 2ky45bmy-15773 (page 02 hierarchy: frameworks become guiding influences, glyph mandate dropped; pages 06, 07, 08 and the Ma baseline page marked reference only; terminology list to dish names) and the design system (readme, deck, SKILL.md, copy linter, glyph mandate in components); extraction with locations: `memory/audits/session-b/brand-canon-extraction.md`. Then phase 1 is done; next is phase 2
+- Delete by hand | Brandon | ClickUp: White Paper Lynd Version, the Josephine "Risk Scaling Path" Beverage page (2ky45bmy-26893), Master Pointer Index (2ky45bmy-16833, registry copied to `kb/tools/box-registry-from-pointer-index.md`); Box: `_tmp_repr_part1_copy.md` (2421148304456). Log in `memory/audits/cleanup-log.md`
+- Pull request: CLAUDE.md scope line for Pullman (relaxed) and Korean concept (decided) | Brandon to merge
 - Old `son-build` name in the root guard script docstring (line 5) | Brandon | needs the unlock phrase; one-word comment fix, then drop its allowlist entry
 - Cloud environment for `son` | Brandon | paste `scripts/setup_cloud.sh` into the environment setup; check ClickUp and Box connectors
 - Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
@@ -11,6 +13,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-07
+- Phase 1 session B: Box batches applied (experiential PDF to Reference (not canon), exhibit files to Pitch Materials / Investment, Start Here.md fixed); ClickUp inventory (`memory/audits/session-b/`); Jun removal from Home Base pages and website Team copy (in progress at commit time; see cleanup-log); V7 citations rewritten as background; brand canon line marked
 - Phase 1 session A: repo sweep (5 Sonnet agents, about 200 rewrites); raw exports deleted (clickup-system/exports, operations/archive, uncited extraction); cited extraction kept in operations/sources/extraction; old learning-studio clones deleted after salvaging their tooling to learning-studio/_salvage (inert); stale routing rewritten in operations, learning-studio, nerve, build-out, clickup-system; raise working files marked superseded; allowlist built
 - Pull request #1 merged (Brandon): build-out workspace, phase lock hooks, skills, commands, and workflows are live on `main`; guard self-test 22/22
 - Profile baseline imported from Box zip: 52 profiles in `profiles/_source/` and `founders/profiles/_source/`, 7 investment working files in `founders/capital-raise/working-files/` (phase 3 step 2 done)
@@ -26,8 +29,8 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - ClickUp Meetings Agent v3: Monday 7 AM roll-forward, day-before reminders, close-out; checkpoints Oct 8, 12, 13 (`company/workstreams/clickup-system/STATE.md`)
 
 ## Open questions for Brandon
-- Brand canon line: which Korean cultural tie-ins go (phase 1, shown section by section first)
-- Is the V7 Business Strategies Notebook (ClickUp 2ky45bmy-11873) still canon? (phase 1)
+- Resolved 2026-10-07 (Brandon): brand canon line marked; see `memory/decisions.md` (`brand`)
+- Resolved 2026-10-07 (Brandon): V7 Business Strategies Notebook (ClickUp 2ky45bmy-11873) is kept as background only, not canon; the white paper is canon.
 - Operational figures (pars, labor targets, pay, schedules, counts) have no source since Airtable retired; learning-studio marks them unbound (phase 5)
 - build-out/HANDOFF.md: delete now that the migration is done? (phase 5)
 - Build-out migration still open: M3 profile pipeline (phase 3), M5 command names (phase 4), M6 build-out kb location (phase 5)
