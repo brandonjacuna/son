@@ -14,7 +14,7 @@ Setup lives in the root CLAUDE.md. Cloud sessions use the ClickUp and Box connec
 | `/promote` | Moves a sandbox design to canonical through a pull request |
 | `/capture <idea>` | Files an idea to a ClickUp capture list |
 | `/consolidate` | Merges research notes into `kb/` |
-| `/profile-forge` | Builds a new specialist profile |
+| `/profile-build` (root skill) | Builds, rebuilds, or revises a specialist profile; replaced `profile-forge` 2026-10-07 (M3) |
 | `/deep <problem>` | Sends one hard problem to Fable |
 | `/lease-signed` | Moves from concept to design phase (you only) |
 | `/gate <phase>` | Later phase gates (you only) |

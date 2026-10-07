@@ -10,8 +10,7 @@ One owner per trigger. Before adding a skill or command, check its triggers agai
 | `chat-handoff` | a package from an old chat in `imports/` | Every session | Not for build-out photos or spec sheets (`intake`) |
 | `interview` | any decision or clarification as pop-ups | Every session | |
 | `skill-scanner` | scan, audit, or vet a skill before adoption | Every session | Vendored, see its `SOURCE.md` |
-| `profile-build` | build, rebuild, revise, slim, or merge a specialist profile (`/profile-build <slug> [mode]`) | Profiles | User-invoked. Replaces learning-studio `build-profile` and `validate-profile` (salvaged, inert) and `profile-forge`; pending Brandon's approval after the test rebuild |
-| `profile-forge` | (superseded by `profile-build`) | Build-out | Kept until Brandon closes build-out decision M3, then deleted |
+| `profile-build` | build, rebuild, revise, slim, or merge a specialist profile (`/profile-build <slug> [mode]`) | Profiles | User-invoked. Replaces learning-studio `build-profile` and `validate-profile` (salvaged, inert) and `profile-forge` (retired 2026-10-07, M3); final approval after the session B test rebuild |
 | `intake` | build-out photo, sketch, markup, spec sheet, contract, design idea | Build-out | |
 | `equipment-record` | equipment YAML from a spec sheet or model number | Build-out | |
 | `book-ingest` | reading notes from a reference book | Build-out kb | |
