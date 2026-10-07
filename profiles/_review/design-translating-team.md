@@ -1,6 +1,6 @@
 # Review: design-translating-team (10 profiles, 273 KB)
 
-Need source: roster-needs.md (learning-studio render stage for 01 to 09; brand decision pending; 10 a retirement candidate). Em dash and "guest" checks: clean in all ten.
+Need source: roster-needs.md (learning-studio render stage for 01 to 09; brand decision pending; 10 a retirement candidate).
 
 Stale in every file: brand facts deferred to "Brand Guidelines (ClickUp 2ky45bmy-15773)" and "knowledge lives in ClickUp, profiles in Box" (brand canon now lives in `company/brand/design-system`; Box is a read-only mirror); Claude Design framed as the anchor generation tool; "Investment team / Investor Design Director / investor website chain" references (02-order pipeline not in the repo).
 
