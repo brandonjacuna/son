@@ -1,0 +1,168 @@
+{
+  "_status": "DRAFT pending Brandon's approval",
+  "_how": "Every venue gets one format (the scorecard rows, template section 5) and zero or more cuisine tags. Format comes from the first rule that matches, in order: manual override, then peer list, then TABC license type, then Comptroller NAICS code. Free public data cannot see price point, so fine dining and upscale casual come only from the peer list and manual overrides; everything else full service reads as casual full service.",
+  "_counts_note": "Active sales tax outlets in Travis, Williamson, Hays on 2026-09-26: 722511 full service 2,903; 722513 limited service 2,341; 722330 mobile food 2,170; 722515 snack and coffee 922; 722410 drinking places 686; 722320 caterers 435; 722310 food service contractors 414; 311811 retail bakeries 141; 722514 cafeterias and buffets 91; 312130 wineries 79; 312140 distilleries 52; 312120 breweries 51.",
+  "formats": [
+    {
+      "id": "fine_dining",
+      "label": "Fine dining / tasting menu",
+      "rule": "Manual list only: Michelin-starred peers, tasting-menu peers, and overrides.",
+      "naics": [],
+      "tabc": []
+    },
+    {
+      "id": "upscale_casual",
+      "label": "Chef-driven upscale casual",
+      "rule": "Manual list only: acclaim-list peers that are not fine dining, and overrides.",
+      "naics": [],
+      "tabc": []
+    },
+    {
+      "id": "casual_full_service",
+      "label": "Casual full service",
+      "rule": "NAICS 722511 full-service restaurants not on a manual list.",
+      "naics": [
+        "722511",
+        "722514"
+      ],
+      "tabc": []
+    },
+    {
+      "id": "fast_casual",
+      "label": "Fast casual / limited service",
+      "rule": "NAICS 722513 limited-service restaurants.",
+      "naics": [
+        "722513"
+      ],
+      "tabc": []
+    },
+    {
+      "id": "bar",
+      "label": "Bars, cocktail and wine bars, nightlife",
+      "rule": "NAICS 722410, or a mixed beverage permit with liquor over 60% of receipts and no restaurant NAICS.",
+      "naics": [
+        "722410"
+      ],
+      "tabc": [
+        "MB"
+      ]
+    },
+    {
+      "id": "brewery_winery_distillery",
+      "label": "Breweries, wineries, distilleries (on-site sales)",
+      "rule": "NAICS 312120, 312130, 312140, or a TABC brewpub or manufacturer license with a retail outlet.",
+      "naics": [
+        "312120",
+        "312130",
+        "312140"
+      ],
+      "tabc": [
+        "BP",
+        "B",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "id": "cafe_bakery",
+      "label": "Cafes, coffee, bakeries",
+      "rule": "NAICS 722515 snack and nonalcoholic beverage bars, 311811 retail bakeries.",
+      "naics": [
+        "722515",
+        "311811"
+      ],
+      "tabc": []
+    },
+    {
+      "id": "food_truck",
+      "label": "Food trucks and trailers",
+      "rule": "NAICS 722330 mobile food services, or Austin inspection records marked mobile.",
+      "naics": [
+        "722330"
+      ],
+      "tabc": []
+    },
+    {
+      "id": "catering_contract",
+      "label": "Caterers and contract food service",
+      "rule": "NAICS 722320, 722310. Tracked, excluded from the restaurant scorecard totals.",
+      "naics": [
+        "722320",
+        "722310"
+      ],
+      "tabc": [
+        "FC"
+      ]
+    },
+    {
+      "id": "unclassified",
+      "label": "Unclassified",
+      "rule": "No NAICS, license, or manual match. Reported in Data Health, never guessed.",
+      "naics": [],
+      "tabc": []
+    }
+  ],
+  "cuisine_tags": [
+    {
+      "id": "korean",
+      "label": "Korean",
+      "rule": "Korean sweep strong match or config/korean_watch.json."
+    },
+    {
+      "id": "asian_chef_driven",
+      "label": "Asian chef-driven",
+      "rule": "Manual: peers such as Craft Omakase, Tsuke Edomae, Kemuri Tatsu-ya, Siti, Lao'd Bar, P Thai's. BRIEF section 8 adjacent tier."
+    },
+    {
+      "id": "bbq",
+      "label": "Barbecue",
+      "rule": "Name contains BBQ, BAR-B-Q, BARBECUE, SMOKEHOUSE, or manual."
+    },
+    {
+      "id": "mexican",
+      "label": "Mexican and Tex-Mex",
+      "rule": "Name contains TAQUERIA, TACO, COCINA, MEXICAN, TEX-MEX, or manual."
+    },
+    {
+      "id": "italian",
+      "label": "Italian and pizza",
+      "rule": "Name contains PIZZA, PIZZERIA, TRATTORIA, OSTERIA, PASTA, or manual."
+    },
+    {
+      "id": "other",
+      "label": "Other or unknown",
+      "rule": "Default."
+    }
+  ],
+  "overrides": {
+    "_note": "Manual format overrides by venue name, for anything the rules misread. Peers carry their format in config/peers_draft.csv.",
+    "fine_dining": [
+      "Barley Swine",
+      "Craft Omakase",
+      "Hestia",
+      "Tsuke Edomae",
+      "Lenoir",
+      "Jeffrey's"
+    ],
+    "upscale_casual": [
+      "Emmer & Rye",
+      "Dai Due",
+      "Le Calamar",
+      "Odd Duck",
+      "Siti",
+      "Canje",
+      "Ezov",
+      "Oseyo",
+      "VanHorn's",
+      "Fish Shop",
+      "Rocco's Neighborhood Joint",
+      "Veracruz Fonda & Bar",
+      "Lao'd Bar",
+      "Kemuri Tatsu-ya"
+    ],
+    "bar": [
+      "Kalimotxo",
+      "Hestia Bar"
+    ]
+  }
+}

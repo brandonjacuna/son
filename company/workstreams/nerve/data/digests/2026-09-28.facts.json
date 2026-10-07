@@ -1,0 +1,256 @@
+{
+  "delivery": "2026-09-28",
+  "title": "DRAFT 2026-09-28 | Week of Sep 21 to Sep 28",
+  "window": {
+    "daily": [
+      "2026-09-21",
+      "2026-09-26"
+    ],
+    "receipts_cur": [
+      "2026-06",
+      "2026-07",
+      "2026-08"
+    ],
+    "receipts_prev": [
+      "2025-06",
+      "2025-07",
+      "2025-08"
+    ]
+  },
+  "metro": {
+    "cur": 350589949.0,
+    "prev": 337716753.0,
+    "venues": 2094.0,
+    "same_venues": 1808.0,
+    "breadth": 41.0,
+    "same_yoy": -0.1,
+    "yoy": 3.8
+  },
+  "home_items": [
+    {
+      "source": "New sales tax outlet",
+      "kind": "opening_signal",
+      "name": "ANTOYITOS Y MAS DYNA",
+      "address": "600 E WILLIAM CANNON DR",
+      "city": "AUSTIN",
+      "zip": "78745",
+      "date": "2026-09-21",
+      "detail": "Food trucks and trailers (NAICS 722330)",
+      "area_id": "off_east_congress_sweetbriar_west_congress",
+      "hub": NaN,
+      "subsection": NaN,
+      "cluster": "East Congress / Sweetbriar / West Congress",
+      "hub_tier": "off_hub",
+      "method": "polygon",
+      "distance_mi": 1.8,
+      "home_1mi": false,
+      "home_2mi": true,
+      "area": "Off-hub: East Congress / Sweetbriar / West Congress"
+    },
+    {
+      "source": "New sales tax outlet",
+      "kind": "opening_signal",
+      "name": "ORAGON ATX",
+      "address": "2712 PARKER LN UNIT B",
+      "city": "AUSTIN",
+      "zip": "78741",
+      "date": "2026-09-25",
+      "detail": "Food trucks and trailers (NAICS 722330)",
+      "area_id": "off_east_riverside_oltorf",
+      "hub": NaN,
+      "subsection": NaN,
+      "cluster": "East Riverside/Oltorf",
+      "hub_tier": "off_hub",
+      "method": "polygon",
+      "distance_mi": 1.68,
+      "home_1mi": false,
+      "home_2mi": true,
+      "area": "Off-hub: East Riverside/Oltorf"
+    }
+  ],
+  "weekly_counts": {
+    "Austin building permit": 3,
+    "New sales tax outlet": 45,
+    "TABC license issued": 7,
+    "TABC pending application": 11,
+    "TABC status change": 7
+  },
+  "macro": [
+    {
+      "series": "bls:SMU48124200000000001",
+      "label": "Austin MSA total nonfarm jobs (NSA, thousands)",
+      "period": "Aug 2026",
+      "value": 1415.9,
+      "change": "+1.2% YoY",
+      "source": "BLS SMU48124200000000001",
+      "released": null,
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "bls:SMU48124207000000001",
+      "label": "Austin MSA leisure and hospitality jobs (NSA, thousands)",
+      "period": "Aug 2026",
+      "value": 156.0,
+      "change": "+2.4% YoY",
+      "source": "BLS SMU48124207000000001",
+      "released": null,
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "bls:LAUMT481242000000003",
+      "label": "Austin MSA unemployment rate (NSA, %)",
+      "period": "Jul 2026",
+      "value": 4.0,
+      "change": "+0.4 pts YoY",
+      "source": "BLS LAUMT481242000000003",
+      "released": null,
+      "vintage": "2026-09-26",
+      "days_old": 59
+    },
+    {
+      "series": "alloc:austin",
+      "label": "Sales tax allocation, Austin ($, month paid)",
+      "period": "Sep 2026",
+      "value": 31488717.01,
+      "change": "+5.1% YoY",
+      "source": "Comptroller vfba-b57j",
+      "released": null,
+      "vintage": "2026-09-26",
+      "days_old": 0
+    },
+    {
+      "series": "tssos:rev",
+      "label": "Texas service sector: revenue (SA diffusion index)",
+      "period": "Aug 2026",
+      "value": 6.6,
+      "change": "-1.7 pts YoY",
+      "source": "Dallas Fed TSSOS",
+      "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "tssos:bact",
+      "label": "Texas service sector: general business activity (SA diffusion index)",
+      "period": "Aug 2026",
+      "value": 4.2,
+      "change": "-0.9 pts YoY",
+      "source": "Dallas Fed TSSOS",
+      "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "tssos:sell",
+      "label": "Texas service sector: selling prices (SA diffusion index)",
+      "period": "Aug 2026",
+      "value": 8.9,
+      "change": "+6.3 pts YoY",
+      "source": "Dallas Fed TSSOS",
+      "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "tssos:wgs",
+      "label": "Texas service sector: wages and benefits (SA diffusion index)",
+      "period": "Aug 2026",
+      "value": 18.8,
+      "change": "+3.1 pts YoY",
+      "source": "Dallas Fed TSSOS",
+      "released": "Mon, 31 Aug 2026 14:49:06 GMT",
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "bls:CUUR0300SEFV",
+      "label": "CPI food away from home, South urban (NSA)",
+      "period": "Aug 2026",
+      "value": 390.71,
+      "change": "+2.9% YoY",
+      "source": "BLS CUUR0300SEFV",
+      "released": null,
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "bls:CUUR0000SEFV",
+      "label": "CPI food away from home, US city average (NSA)",
+      "period": "Aug 2026",
+      "value": 397.868,
+      "change": "+3.4% YoY",
+      "source": "BLS CUUR0000SEFV",
+      "released": null,
+      "vintage": "2026-09-26",
+      "days_old": 28
+    },
+    {
+      "series": "fred:GASREGW",
+      "label": "US regular gasoline price (weekly, $/gal)",
+      "period": "Sep 21, 2026",
+      "value": 4.478,
+      "change": "+41.4% YoY",
+      "source": "FRED GASREGW",
+      "released": "2026-09-22 14:57:10-05",
+      "vintage": "2026-09-26",
+      "days_old": 0
+    },
+    {
+      "series": "fred:UMCSENT",
+      "label": "University of Michigan consumer sentiment",
+      "period": "Aug 2026",
+      "value": 51.7,
+      "change": "-6.5 pts YoY",
+      "source": "FRED UMCSENT",
+      "released": "2026-09-25 10:02:24-05",
+      "vintage": "2026-09-26",
+      "days_old": 28
+    }
+  ],
+  "upcoming_events": [
+    {
+      "name": "ACL Music Festival 2026 Weekend 1",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-04",
+      "scope": "south",
+      "expected_impact": "high"
+    },
+    {
+      "name": "ACL Music Festival 2026 Weekend 2",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-11",
+      "scope": "south",
+      "expected_impact": "high"
+    },
+    {
+      "name": "UT Football vs Florida",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-17",
+      "scope": "downtown",
+      "expected_impact": "medium"
+    },
+    {
+      "name": "Formula 1 United States Grand Prix 2026",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-25",
+      "scope": "downtown",
+      "expected_impact": "high"
+    },
+    {
+      "name": "UT Football vs Ole Miss",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-24",
+      "scope": "downtown",
+      "expected_impact": "high"
+    },
+    {
+      "name": "UT Football vs Mississippi State",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "scope": "downtown",
+      "expected_impact": "medium"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "job": "korean_sweep",
+  "run_at": "2026-09-26T16:12:42+00:00",
+  "sources_ok": 6,
+  "sources_total": 6,
+  "success": true,
+  "results": [
+    {
+      "key": "tabc_pending",
+      "name": "Korean sweep: tabc_pending",
+      "status": "ok",
+      "row_count": 0,
+      "fields": [],
+      "freshness": {},
+      "notes": []
+    },
+    {
+      "key": "tabc_licenses",
+      "name": "Korean sweep: tabc_licenses",
+      "status": "ok",
+      "row_count": 83,
+      "fields": [],
+      "freshness": {},
+      "notes": []
+    },
+    {
+      "key": "sales_tax_permits",
+      "name": "Korean sweep: sales_tax_permits",
+      "status": "ok",
+      "row_count": 250,
+      "fields": [],
+      "freshness": {},
+      "notes": []
+    },
+    {
+      "key": "mixed_bev",
+      "name": "Korean sweep: mixed_bev",
+      "status": "ok",
+      "row_count": 35,
+      "fields": [],
+      "freshness": {},
+      "notes": []
+    },
+    {
+      "key": "atx_inspections",
+      "name": "Korean sweep: atx_inspections",
+      "status": "ok",
+      "row_count": 45,
+      "fields": [],
+      "freshness": {},
+      "notes": []
+    },
+    {
+      "key": "korean_sweep",
+      "name": "Korean sweep candidates",
+      "status": "ok",
+      "row_count": 66,
+      "fields": [
+        "tier",
+        "strength",
+        "name",
+        "other_names",
+        "owner",
+        "address",
+        "city",
+        "zip",
+        "terms",
+        "sources",
+        "n_sources",
+        "statuses",
+        "activity",
+        "latest_date",
+        "pending_application",
+        "receipts_recent",
+        "receipts_window",
+        "food_naics",
+        "hub",
+        "subsection",
+        "cluster",
+        "area_method",
+        "located_by",
+        "distance_mi",
+        "home_2mi",
+        "lat",
+        "lon",
+        "addr_key"
+      ],
+      "freshness": {
+        "run_at": "2026-09-26T16:12:42+00:00"
+      },
+      "notes": [
+        "62 strong, 4 weak; all unconfirmed"
+      ]
+    }
+  ]
+}

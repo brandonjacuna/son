@@ -1,0 +1,64 @@
+{
+  "job": "ingest_daily",
+  "run_at": "2026-09-26T17:19:12+00:00",
+  "sources_ok": 5,
+  "sources_total": 5,
+  "success": true,
+  "results": [
+    {
+      "key": "tabc_pending",
+      "name": "tabc_pending",
+      "status": "ok",
+      "row_count": 76,
+      "fields": [],
+      "freshness": {
+        "changes": {}
+      },
+      "notes": []
+    },
+    {
+      "key": "tabc_licenses",
+      "name": "tabc_licenses",
+      "status": "ok",
+      "row_count": 9528,
+      "fields": [],
+      "freshness": {
+        "changes": {}
+      },
+      "notes": []
+    },
+    {
+      "key": "sales_tax_permits",
+      "name": "sales_tax_permits",
+      "status": "ok",
+      "row_count": 10306,
+      "fields": [],
+      "freshness": {
+        "changes": {}
+      },
+      "notes": []
+    },
+    {
+      "key": "atx_inspections",
+      "name": "atx_inspections",
+      "status": "ok",
+      "row_count": 20602,
+      "fields": [],
+      "freshness": {
+        "changes": {}
+      },
+      "notes": []
+    },
+    {
+      "key": "atx_permits",
+      "name": "atx_permits",
+      "status": "ok",
+      "row_count": 487,
+      "fields": [],
+      "freshness": {
+        "changes": {}
+      },
+      "notes": []
+    }
+  ]
+}
