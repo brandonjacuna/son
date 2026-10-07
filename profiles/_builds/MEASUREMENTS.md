@@ -29,3 +29,5 @@ Build folder about 75 KB or less (frame 6, sources 6, cards 40, flags 4, tests a
 | Grounding re-checked | none | 4 sources re-read; 2 old citations corrected; 2 overclaims cut | |
 
 Worker cost driver: each subagent carries about 50k tokens of fixed overhead (system prompt, CLAUDE.md, tools), so 36 agents is most of the 2.21M. Batching small jobs (finding F7 in the build's BUILD.md) should cut it by roughly a third without losing blindness where it matters.
+
+Smoke test, same day: the shipped agent, called by its slug, ran T1 for 16,063 tokens against 53k to 62k for general-purpose runners. The fixed overhead is mostly the general-purpose agent type; custom worker agents with minimal tools are the larger saving (finding F9).

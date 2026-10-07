@@ -3,7 +3,7 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Smoke test the first rebuilt seat through the real agent | next session (fresh, so `.claude/agents/practice-simulation-designer.md` loads) | stage 6 step 7 of profile-build: run T1 by its slug, check it applies a CLAUDE.md standing rule unprompted, log in `profiles/_builds/practice-simulation-designer/BUILD.md`
+- Decide finding F9: turn profile-build's workers into custom agents with minimal tools (smoke test: 16k tokens vs 53k to 62k per general-purpose worker) | Brandon | yes means a small system change on a sandbox or PR before the next build batch
 - Phase 3 step 3 seat inventory and step 4 review (session D), then builder batches (E on) | next Code sessions | builder approved 2026-10-07; batch with the fewest-agents rule
 - Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
@@ -15,6 +15,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-07
+- Smoke test of the shipped Practice and Simulation Designer agent passed (16k tokens); PR #6 merged
 - Phase 3 session B: Practice and Simulation Designer rebuilt with profile-build (per-call load 53 KB to 11.7 KB, 5/5 tests on Sonnet, 3 critical employee-protection fixes, 2.21M worker tokens across 36 agents); builder approved with fixes, fixes folded in (fewest agents, card caps, tests re-checked after the frame); shared studio rules moved to the learning-studio CLAUDE.md
 - Phase 3 session A: `profile-build` skill designed (7 stages, Sonnet workers hand back paths, draft once then edit, provenance outside the loaded text, agent core 12 KB cap, interim blind red team plus Fable judge, lint/ship/measure scripts); blind Fable review approved it for a test rebuild after fixes; baseline in `profiles/_builds/MEASUREMENTS.md`; `profile-forge` retired (M3)
 - Phase 2 pull request merged (#4); profile-build pull request merged (#5); session B pull request merged (#6)
