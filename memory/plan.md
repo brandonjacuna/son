@@ -8,7 +8,7 @@ Agreed with Brandon 2026-10-07. The repo is the home for all Sŏn work; the clau
 |---|---|---|---|---|
 | 1 | Cleanup | Strip out-of-scope material (Jun, Josephine, Pullman-derived, experiential, Airtable) and stale pointers before anything is built on top of it | Opus coordinating, Sonnet agents | `briefs/1-cleanup.md` |
 | 2 | Session basics | Every later session needs session-close and the thread log to keep memory clean | Opus | `briefs/2-session-basics.md` |
-| 3 | Profiles | Workstreams are built around specialist seats, so the profile system comes first. Starts from what each workstream needs. The red-team skill is designed here, since profile validation is red teaming | Fable designs, Opus and Sonnet execute | `briefs/3-profiles.md` |
+| 3 | Profiles | Workstreams are built around specialist seats, so the profile system comes first. Step one rebuilds Brandon's profile builder for token use first, efficacy second; only then are profiles revised or generated with it. The red-team skill is designed alongside, since the builder's validation is red teaming | Fable designs, Opus and Sonnet execute | `briefs/3-profiles.md` |
 | 4 | Operating skills | Task tree, knowledge refresh, walk-mode decisions, scheduled prompt sync | Opus | `briefs/4-operating-skills.md` |
 | 5 | Workstream builds | Take every workstream to work-ready (or sandbox-ready) against the finished profile and skill system | Opus, Fable only where a brief says so | `briefs/5-workstreams.md` |
 | 6 | ClickUp manager layer | Brain and Super Agents for managers; before the first manager hire | Fable designs, Opus builds | `briefs/6-clickup-layer.md` |

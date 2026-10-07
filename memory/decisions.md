@@ -19,3 +19,4 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-07 | nerve | Switch nerve on as an early workstream item (phase 5), not before handoff | Brandon
 - 2026-10-07 | workflow | Finish intake in the Home Base session; all further work runs in fresh Code sessions on the son repo; the Home Base Project becomes a pointer only | Brandon
 - 2026-10-07 | profiles | Profiles move to the repo: baseline copy in phase 3 from a Box zip, Box master until the end of phase 3, then repo master with a Box read-only mirror | Brandon
+- 2026-10-07 | profiles | Phase 3 starts by rebuilding Brandon's own profile builder, with reducing token use as the priority and efficacy second; only then does the new builder revise, improve, or generate profiles | Brandon
