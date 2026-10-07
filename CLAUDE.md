@@ -24,6 +24,7 @@ One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. 
 - `memory/threads.md`: parked threads (see Threads).
 - `memory/pending/`: ideas being considered but not agreed. They can sit for weeks. Nothing in `pending/` is canon or may be applied elsewhere.
 - Before ending any session that changed something, run the `session-close` procedure: update state, append decisions, park threads, commit.
+- Landing work on `main`: cloud sessions work on a side branch. Work left on a side branch is invisible to every later session (this is how the learning studio and nerve builds got stranded). At session close, merge the session's branch into `main` and push, unless the session changed the system itself (`.claude/`, hooks, settings, CLAUDE.md rules) or ran on a `sandbox/` branch: then open a pull request and tell Brandon in one line what it changes. Never leave work unmerged without saying so.
 
 ## Routing
 - Financial figures: only from the current Investor Review workbook in Box (Sŏn / 02. Capital Raise). Never from memory, decks, or Airtable (retired). If it is not reachable, say so.

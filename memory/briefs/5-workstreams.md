@@ -14,6 +14,9 @@ Evidence and step lists for each: `memory/audits/2026-10-07-readiness.md`.
 6. **Learning studio: mid-build.** Restore its 13 skills, lint workflow, and a trimmed `.mcp.json` (no Airtable) from `imports/profile-builds-local/`; bind it to the phase 3 agents; export the Module Review decisions from the artifact into the repo; reconcile the catalog with the position-path modules; then delete `imports/profile-builds-local/`.
 7. **Build-out: ready to build.** Run its KICKOFF.md: live hook test, capture list IDs, import the nine ClickUp build-out guides without figures, Box subfolders (ask first), bar sandbox interview; build bar-designer and the first specialists from phase 3; resolve open decision M6 (knowledge base location).
 
+## Approved external skills to use here
+See `memory/skills-plan.md`: build123d-mcp (build-out), id-skills-for-claude and education rubrics (learning studio), cowork-sop-writer and knowledge-ops (operations), Anthropic Operations, HR, Legal, Design tested ad hoc. Vet each before install.
+
 ## Done when
 Each workstream passes its own done line above, and `memory/state.md` lists each as work-ready or sandbox-ready.
 
