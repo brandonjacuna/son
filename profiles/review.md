@@ -112,3 +112,13 @@ Counts (42 rows): keep and slim 11, revise 13, merge 7, rebuild 1, retire 4, mov
 - Batch 4, design in code (5): 01 skill (+02, +08), 05 (+10), 09 skill, 04, 07. Retire 03 and 10.
 - Batch 5, build-out trades (4 to 6): kitchen-layout, ventilation-hvac, codes-permitting, clash-reviewer, then deferred seats as Brandon orders.
 - Voice and narrative profiles leave with founders batch 1.
+
+## Brandon's answers (2026-10-07)
+- Company recommendations approved.
+- Pay built into the menu price is the goal of a project not yet begun (some pre-work exists). Seats treat it as a target under that project, never as a rule, and route pay structure to counsel.
+- Rippling is under evaluation: seats may name it as the candidate HR and payroll system, never as fact.
+- Design Brief Translator auto-trigger stays, scoped to new surfaces, reference images, and multi-artifact requests, slimmed to about 8 KB.
+- TBRI stays its own seat (adult application, reconstructed, no clinical use).
+- Merges confirmed: Emerging Leader Advocate into Frontline Advocate; Culture Signal Designer into Values and Belonging Designer.
+- No chef-side reviewer until a chef is hired; kitchen specifics stay chef-gated bindings.
+- Build-out order confirmed: bar-designer and Environmental Signage (moved to build-out) first, then kitchen-layout, ventilation-hvac, codes-permitting, clash-reviewer. Agent definitions only; design work follows the phase lock.

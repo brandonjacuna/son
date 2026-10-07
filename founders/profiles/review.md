@@ -73,3 +73,13 @@ The eight in `profiles/review.md`, plus: raise figures leave prose and cite the 
 - Batch 2 (4 to 6): Targeting, Pitch Deck, Market Analyst, investor relations (new), plus Plan and Website if kept.
 - Batch 3 (6): founder-development skills 01 to 06 with the shared constitution.
 - Batch 4: new seats Brandon approves (vetting, comp, managing out, pair rhythm).
+
+## Brandon's answers (2026-10-07)
+- Founder recommendations approved.
+- No SBA, bank, or formal business-plan request expected: Business Plan Architect retires.
+- No investor website: Website Architect retires; data-room tiering moves to the Financial Exhibit Architect.
+- Founder-development profiles become six skills plus one founders-only constitution file.
+- Dominic development skills and an investor-vetting skill: neither for now.
+- Founder compensation and managing out: wait until the raise closes.
+- Founder pair rhythm stays off the system; profiles stop deferring to it.
+- House Voice obeys the standing rules with no exception; the Vee register keeps its energy, not performed conviction.

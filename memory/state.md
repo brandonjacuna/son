@@ -3,7 +3,7 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Phase 3 step 3 seat inventory and step 4 review (session D), then builder batches (E on) | next Code sessions | builder approved 2026-10-07; batch with the fewest-agents rule
+- Phase 3 step 5: builder batches in the order set in `profiles/review.md` and `founders/profiles/review.md` (company batch 1 first) | next Code sessions | `/profile-build <slug> <mode>`; apply the cross-cutting fixes listed in each review
 - Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
 - Account-synced skills cost about 3,300 tokens a turn of listing; unused ones (browser, computer-use, morning, google-workspace, import-memory, mcp-builder) can be turned off on claude.ai | Brandon, optional | see `memory/audits/2026-10-07-skill-doctor-baseline.md`
@@ -14,6 +14,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-07
+- Phase 3 steps 3 and 4: seat inventory (`profiles/roster-needs.md`, `founders/profiles/roster-needs.md`) and review (`profiles/review.md`, `founders/profiles/review.md`) done; Brandon approved both and answered 15 questions
 - F9 built and measured: custom worker agents cost 11.5k to 12k tokens against 53k to 66k for general-purpose workers (-78% to -80%)
 - Smoke test of the shipped Practice and Simulation Designer agent passed (16k tokens); PR #6 merged
 - Phase 3 session B: Practice and Simulation Designer rebuilt with profile-build (per-call load 53 KB to 11.7 KB, 5/5 tests on Sonnet, 3 critical employee-protection fixes, 2.21M worker tokens across 36 agents); builder approved with fixes, fixes folded in (fewest agents, card caps, tests re-checked after the frame); shared studio rules moved to the learning-studio CLAUDE.md

@@ -7,7 +7,7 @@ One profile system for all of Sŏn: profiles live in the repo as master, run as 
 
 ## Step 1: Rebuild the profile builder (first, before touching any profile)
 
-**Status 2026-10-07:** session A done. Builder at `.claude/skills/profile-build/` (design record in its `SOURCE.md`), baseline in `profiles/_builds/MEASUREMENTS.md`, profile-forge retired (M3). Session B done the same day: test rebuild measured (`profiles/_builds/MEASUREMENTS.md`), builder approved with fixes (applied). Next: smoke test, then steps 3 and 4.
+**Status 2026-10-07:** session A done. Builder at `.claude/skills/profile-build/` (design record in its `SOURCE.md`), baseline in `profiles/_builds/MEASUREMENTS.md`, profile-forge retired (M3). Session B done the same day: test rebuild measured (`profiles/_builds/MEASUREMENTS.md`), builder approved with fixes (applied). Smoke test passed; F9 worker agents merged; steps 3 and 4 done and approved the same day. Next: step 5 batches.
 
 **The builder to start from** is the one Brandon developed: the learning studio's `build-profile` and `validate-profile` skills (only copies: `imports/profile-builds-local/hospitality-craft-educator/.claude/skills/`), its runbook `company/workstreams/learning-studio/profile-builds/RUNBOOK.md`, and the seven-stage synthesis it implements (ClickUp Research Capture doc 2ky45bmy-16853, Actionable Distillation page). Also read build-out's `profile-forge` skill (`.claude/skills/profile-forge/`, four stages with token budgets, never run) and treat it as a source of ideas, not a competitor (build-out open decision M3).
 
