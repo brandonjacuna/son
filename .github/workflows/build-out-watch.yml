@@ -1,0 +1,40 @@
+name: build-out watch
+on:
+  schedule:
+    - cron: "17 11 * * *"   # daily, 6:17 am Austin (CDT)
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+# Working directory of the build-out files: "." in the standalone son-build repo,
+# "company/workstreams/build-out" in the unified son repo.
+defaults:
+  run:
+    working-directory: company/workstreams/build-out
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - id: run
+        run: |
+          python3 scripts/watch.py > changed.txt
+          echo "count=$(grep -c . changed.txt || true)" >> "$GITHUB_OUTPUT"
+      - name: Commit snapshots
+        run: |
+          git config user.name "son-watch"; git config user.email "actions@github.com"
+          git add codes/snapshots monitoring/snapshots
+          git diff --cached --quiet || git commit -m "watch: snapshot update $(date -u +%F)" && git push
+      - name: Open issue on change
+        if: steps.run.outputs.count != '0'
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: |
+          gh issue create --title "Watched page changed $(date -u +%F)" \
+            --label watch --body "Changed pages:
+          $(cat changed.txt)
+
+          Classify each as cosmetic or substantive, update codes/register.yaml or kb/ in a PR." || \
+          gh issue create --title "Watched page changed $(date -u +%F)" --body "$(cat changed.txt)"

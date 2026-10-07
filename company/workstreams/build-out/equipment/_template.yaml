@@ -1,0 +1,20 @@
+id: manufacturer-model-slug
+name: ""
+manufacturer: ""
+model: ""
+category: ""            # e.g. undercounter refrigerator, ice bin, glass washer, grill
+area: underbar          # see schema.json for allowed values
+status: candidate
+phase: P0-concept
+quantity: 1
+dimensions: {w_in: null, d_in: null, h_in: null, weight_lb: null, status: estimated}
+clearances_in: {}       # e.g. {back: 2, sides: 0, top: 6}
+electrical: {volts: null, phase: null, amps: null, hz: 60, plug: null, hardwired: null, dedicated_circuit: null}
+plumbing: {water_in: null, water_psi: null, filtration: null, drain: null, drain_size: null}
+gas: null
+ventilation: null       # e.g. {hood_required: true, type: "Type I"}
+refrigeration: null     # e.g. {condensing: self-contained, heat_rejection_btuh: null}
+certifications: {ul_or_etl: null, nsf: null, notes: null}
+sources:
+  - {type: spec-sheet, url: null, retrieved: "YYYY-MM-DD", box_file_id: null, sha1: null}
+notes: null

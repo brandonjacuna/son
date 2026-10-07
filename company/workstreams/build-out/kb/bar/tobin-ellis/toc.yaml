@@ -1,0 +1,80 @@
+# Bar Design Essentials: topics, Sŏn priority, and status
+# priority A = shapes pre-lease bar concepts now; B = read before design phase; C = context
+# status: needs-book | public-partial | done  (done = book note exists in book-notes/)
+# Source: published table of contents, barmagic.com/book (2026-09-28). Check against your edition.
+
+principles:
+  - {topic: "Who Should Design Your Bar?", priority: B, status: public-partial}
+  - {topic: "Theatrical Factories", priority: B, status: public-partial}
+  - {topic: "The Empty Square", priority: B, status: public-partial}
+  - {topic: "Zero-Step", priority: A, status: public-partial}
+  - {topic: "Neutral Spine & Neutral Reach", priority: A, status: needs-book}
+  - {topic: "Flow State", priority: B, status: needs-book}
+  - {topic: "Peak Volume", priority: A, status: public-partial}
+  - {topic: "Design Foundation", priority: B, status: needs-book}
+  - {topic: "Optimizing the UX", priority: B, status: needs-book}
+  - {topic: "Inside-Out 360º Design", priority: A, status: public-partial}
+  - {topic: "Shared Equipment", priority: A, status: needs-book}
+  - {topic: "Equipment Adjacencies", priority: A, status: needs-book}
+  - {topic: "Zone vs. Brigade Design", priority: A, status: needs-book}
+
+practices:
+  - {topic: "Identical Cockpits", priority: A, status: needs-book}
+  - {topic: "Repeat Don't Mirror", priority: A, status: public-partial}
+  - {topic: "How Many Stations?", priority: A, status: needs-book}
+  - {topic: "Ergonomic Alignment", priority: A, status: needs-book}
+  - {topic: "The Pickup and The Well", priority: A, status: needs-book}
+  - {topic: "The Point and The Well", priority: A, status: needs-book}
+  - {topic: "B.O.H. Service Bars", priority: B, status: needs-book}
+  - {topic: "Stadium Design By P.O.S.", priority: C, status: needs-book}
+  - {topic: "Death to Double Speedrails", priority: A, status: public-partial}
+  - {topic: "Engine Parts", priority: A, status: needs-book}
+  - {topic: "Bar Geometry", priority: A, status: needs-book}
+  - {topic: "Standard Design-Build Process", priority: B, status: needs-book}
+  - {topic: "Design Requirements", priority: B, status: needs-book}
+  - {topic: "Space Planning", priority: A, status: needs-book}
+  - {topic: "Die Walls & Counters", priority: A, status: needs-book}
+  - {topic: "Floor Sinks", priority: A, status: needs-book}
+  - {topic: "Stick-Built vs. ModBar", priority: A, status: needs-book}
+  - {topic: "A.D.A. Bar Counters", priority: A, status: needs-book}
+  - {topic: "Scuppers", priority: A, status: public-partial}
+  - {topic: "Back Bar Designs", priority: A, status: needs-book}
+  - {topic: "Draft Dispensing", priority: B, status: needs-book}
+  - {topic: "Wine Storage & Service", priority: B, status: needs-book}
+  - {topic: "Health Code Compliance", priority: A, status: public-partial}
+  - {topic: "Installation", priority: B, status: needs-book}
+
+dimensions:
+  - {topic: "Essential Design Dimensions", priority: A, status: needs-book}
+  - {topic: "Early Cockpit Sketches", priority: A, status: needs-book}
+  - {topic: "Ergonomic Dimensions", priority: A, status: needs-book}
+  - {topic: "Global Design Evolution", priority: C, status: needs-book}
+
+projects:
+  - {topic: "Central Park Boathouse | Manhattan", priority: C, status: needs-book}
+  - {topic: "Delphi Hotel Rooftop | Los Angeles", priority: C, status: needs-book}
+  - {topic: "Esther's Kitchen | Las Vegas", priority: C, status: needs-book}
+  - {topic: "Ivory Peacock | Manhattan", priority: C, status: needs-book}
+  - {topic: "Ploume | Manhattan", priority: C, status: needs-book}
+  - {topic: "Cowboy Star | Colorado Springs", priority: C, status: needs-book}
+  - {topic: "Echo & Rig | Las Vegas", priority: C, status: needs-book}
+  - {topic: "Buffalo Bills Stadium | Orchard Park", priority: C, status: needs-book}
+  - {topic: "High Bar | Detroit", priority: C, status: needs-book}
+
+aesthetics:
+  - {topic: "Form's True Function", priority: C, status: needs-book}
+  - {topic: "Lighting Design", priority: B, status: needs-book}
+  - {topic: "Acoustic Design", priority: B, status: needs-book}
+  - {topic: "Climate Design", priority: B, status: needs-book}
+  - {topic: "Finishing Materials", priority: B, status: needs-book}
+  - {topic: "Experiential Nightlife Design", priority: C, status: needs-book}
+  - {topic: "The Forgotten", priority: B, status: needs-book}
+  - {topic: "Trendspotting", priority: C, status: needs-book}
+  - {topic: "Road to Collaboration", priority: C, status: needs-book}
+  - {topic: "ArchViz vs. B.I.M.", priority: C, status: needs-book}
+  - {topic: "Drawing by Hand", priority: C, status: needs-book}
+  - {topic: "Artificial Intelligence", priority: C, status: needs-book}
+  - {topic: "An Ideal Design Process", priority: B, status: needs-book}
+  - {topic: "A Realistic Design Process", priority: B, status: needs-book}
+  - {topic: "10 Truths About Bar Design", priority: B, status: needs-book}
+  - {topic: "Some Closing Thoughts", priority: C, status: needs-book}

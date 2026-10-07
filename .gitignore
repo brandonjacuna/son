@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+.claude/state/*
+!.claude/state/.gitkeep
+.claude/settings.local.json

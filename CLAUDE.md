@@ -16,6 +16,7 @@ One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. 
 - `memory/`: the repo's memory (see below).
 - `imports/`: raw material waiting to be sorted. Nothing in it is canon. Old chats arrive through `prompts/chat-handoff.md`.
 - Sandboxes: experiments, including changes to this system itself, go on `sandbox/<name>` branches and merge only when Brandon says so.
+- Build-out work lives in `company/workstreams/build-out/`. Its skills and commands use paths relative to that folder. Its phase lock (P0 concept until the lease is signed) is enforced by the root hooks in `.claude/hooks/`.
 
 ## Memory protocol
 - `memory/state.md`: current in-flight work, one line each, with owner and next step. Rewrite freely.
