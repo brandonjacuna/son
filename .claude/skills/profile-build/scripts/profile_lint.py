@@ -139,7 +139,7 @@ def lint(master, rep):
         return
     prov_ids = {}
     for n, line in enumerate(prov.read_text(encoding="utf-8").splitlines(), 1):
-        m = re.match(r"^\|\s*([A-Z]{1,2}\d{1,3})\s*\|\s*([a-z ()]+?)\s*\|", line)
+        m = re.match(r"^\|\s*([A-Z]{1,2}\d{1,3})\s*\|\s*([a-z ()+,;/]+?)\s*\|", line)
         if m:
             prov_ids[m.group(1)] = m.group(2)
     for rid, where in ids.items():

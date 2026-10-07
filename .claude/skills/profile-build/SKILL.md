@@ -27,17 +27,18 @@ Read each stage file only when you reach that stage. Budgets are hard caps; a wo
 
 | # | Stage | Runs on | Reads | Writes | Cap |
 |---|---|---|---|---|---|
-| 0 | Frame | Fable subagent, then Brandon by pop-up | brief, old profile headings, neighbor agent descriptions | `00-frame.md`, `00-tests.md` | 6 KB file |
+| 0 | Frame | Fable subagent, then Brandon by pop-up | brief, old profile headings, neighbor agent descriptions | `00-frame.md`, `00-tests.md` | 6 KB file (8 KB rebuild or merge) |
 | 1 | Sources | Sonnet scouts, one per research target, parallel | one target each | `01-sources.md` | 1.5 KB per scout return; 6 KB file |
-| 2 | Extract | Sonnet extractors, one per source, parallel | one source each | `extract/NN-*.md` | 3 KB per card; 40 KB total |
+| 2 | Extract | Sonnet extractors: one per external source, one for all of an old profile | one source each | `extract/NN-*.md` | 3.5 KB per external card; 5 KB per old-profile section card; 40 KB total |
 | 3 | Draft | Opus drafter, one pass | frame + cards only | the master: `agent.md`, `reference/`, `provenance.md`, `skill/` if any | agent core 10 KB target, 12 KB cap; reference 30 KB |
 | 4 | Red team | `red-team` skill, then a Fable judge | core + provenance + cards (blind to the draft's history) | `04-flags.md`; fixes as edits | 4 KB flags |
-| 5 | Test | Sonnet runners and a Sonnet grader | `tests.md` + the master | results into `tests.md` | 3 to 5 scenarios |
+| 5 | Test | two Sonnet runners (all with-runs, all baselines) and a Sonnet grader | `tests.md` + the master | results into `tests.md` | 3 to 5 scenarios |
 | 6 | Ship | orchestrator + scripts | lint and measure output | generated copies, rows, commit | orchestrator total under 60k tokens |
 
 Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Worker prompts: `workers/`. Templates: `templates/`. Pass workers the PATH of their prompt file and their parameters; do not paste the prompt into the brief.
 
 ## Rules that hold in every stage
+- Fewest agents. Every subagent costs about 50k tokens of fixed overhead before it reads anything (measured 2026-10-07). Batch small jobs into one agent; spawn a separate agent only where blindness, a different model, or parallel speed earns it.
 - Write once, edit after. The master is drafted once in stage 3. Every later change is an Edit to a named row, never a full rewrite. Tags never go inline: provenance lives in `provenance.md`, keyed by row id (C1, R3, A2).
 - Context isolation. The drafter reads only the frame and the extraction cards. Red-team critics read only the master, provenance, and cards, never the drafter's notes or your conversation. The orchestrator never opens a card or a source.
 - Judgment over survey. A row that would not change what the seat notices or decides is cut or moved to `reference/`.

@@ -74,6 +74,14 @@ These slash commands no longer exist in this folder. The tooling is salvaged and
 
 Text plus video plus multiple choice teaches recognition, not performance. Every design considers at least three modalities per practice component from `framework/modality-library.md`, organized by the learning job (know, see, decide, do, hold, find, teach). Then check what the delivery platform can actually record in `adapters/trainual.md`. The governing fact: in Trainual only native tests and SCORM packages report completion or score; embedded interactions teach but leave no record. `python scripts/build_scorm.py` turns a module's scenarios into a tracked SCORM package with no extra tools.
 
+## Studio rules every seat works under
+Carried from the old profiles' shared blocks when the seats were rebuilt (Brandon, 2026-10-07). Seat-specific rules live in each seat.
+- The target learner is about 22, six months in, often working in a second language, under service pressure. Every module passes a novice test against that learner.
+- Why before how: onboarding and modules teach the reason before the procedure.
+- Readiness gate: no one touches a table until demonstrably ready; sign-off is a competency conversation. Gate validity belongs to the Assessment and Competency Designer; sequencing to the Curriculum and Program Architect.
+- Peer-authored modules: team members are paid to teach. Quality, voice, pedagogy, and assessment validity live in the template and style guide, not in the author; the studio keeps central coherence.
+- Reviews run every 3 to 6 months: no surprises, feedback both ways.
+
 ## Hard rules
 
 - Standing rules in `canon/standing-rules.md` apply to every file in `modules/`. Run `python scripts/lint.py` before any commit. The GitHub Action runs it too.
