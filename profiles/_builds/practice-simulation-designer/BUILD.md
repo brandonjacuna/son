@@ -19,6 +19,7 @@ cluster: learning-and-development | old profile: profiles/_source/learning-and-d
 
 | 4 | critic rules | sonnet | 65,287 | 04-critic-rules.md: 1 minor |
 | 4 | critic specificity | sonnet | 64,773 | 04-critic-specificity.md: 2 major, 6 minor |
+| 4 | critic grounding | sonnet | 77,946 | 04-critic-grounding.md: 2 major, 6 minor; all sourced (old) rows match their cards |
 | 5 | baseline T1 | sonnet | 53,032 | tests/T1-base.md 2.6 KB |
 | 5 | baseline T2 | sonnet | 53,595 | tests/T2-base.md |
 | 5 | baseline T3 | sonnet | 52,889 | tests/T3-base.md 2.5 KB |
