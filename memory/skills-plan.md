@@ -1,4 +1,21 @@
-# External skills and plugins: tier list (pending, not agreed)
+# External skills and plugins: plan
+
+Approved by Brandon 2026-10-07 (see `memory/decisions.md`). Approved: all S tier; all A tier; Anthropic Operations, Human Resources, Legal, Design (test ad hoc); ClickUp official MCP; knowledge-ops, education rubrics, model tiering. Everything else below stays unapproved until Brandon says otherwise.
+
+## How approved items get in (cloud sessions cannot run `/plugin`)
+- **Skills:** vendor a copy into `.claude/skills/<name>/` after vetting, with `SOURCE.md` (repo URL, commit or version, date, scanner verdict, local edits). Editable, versioned, visible to cloud sessions. Rare workflows set to user-invoked only.
+- **MCP servers:** add to the repo's `.mcp.json` (or the workstream's), version pinned, never `@latest`.
+- **Mined items:** no install; the idea is written into our own skill, with the source credited in that skill's `SOURCE.md`.
+- **Registry:** `.claude/skills/REGISTRY.md` maps trigger phrases to one owning skill. A new skill whose triggers overlap an existing row is merged or rejected.
+- **Vetting gate:** read SKILL.md and references in full, run skill-scanner, list hooks, MCP servers, and scripts, reject anything that writes outside its folder or touches `memory/`, CLAUDE.md, or settings, test on a `sandbox/` branch, check `/skill-doctor` before merging.
+
+## Install schedule
+| Phase | Approved items |
+|---|---|
+| 2 Session basics | `/skill-doctor`, skill-scanner, skill-creator, document skills, handoff patterns (into session-close), the registry and vetting gate |
+| 3 Profiles | Context Engineering patterns, writing-for-agents, writing-skills test method, model tiering, red-team lenses (into the red-team skill) |
+| 5 Workstream builds | build123d-mcp (build-out, after lease work needs it), id-skills-for-claude and education rubrics (learning studio), cowork-sop-writer and knowledge-ops (operations); Anthropic Operations, HR, Legal, Design tested ad hoc as tasks call for them |
+| 6 ClickUp layer | ClickUp official MCP (first check whether it is the same server as the existing ClickUp connector; design around daily call limits) |
 
 Sources: Brandon's claude.ai plugin directory and the community research report (2026-10-07). Install = install a pinned, project-scoped copy after vetting. Mine = copy the idea into our own skill; do not install.
 

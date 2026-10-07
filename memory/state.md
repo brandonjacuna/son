@@ -12,7 +12,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 
 ## Done 2026-10-07
 - Profile baseline imported from Box zip: 52 profiles in `profiles/_source/` and `founders/profiles/_source/`, 7 investment working files in `founders/capital-raise/working-files/` (phase 3 step 2 done)
-- Community skills research done; tiered shortlist in `memory/pending/external-skills-shortlist.md`
+- Community skills research done; approved list and install schedule in `memory/skills-plan.md`
 - Rebuild intake; repo `son` created and pushed with history from every source (learning-studio from unmerged branch claude/blissful-einstein; nerve from unmerged PR branch claude/bold-goldberg; operations; design-system; local profile builds; ClickUp system; Espresso Chiller; Claude Science matcha and cryo espresso; construction workspace on PR #1)
 - Build-out migration decisions M1, M2, M4 applied on PR #1
 - Founder-only manual chunks and the old OA brief moved to `founders/`; Home Base facts ported to `founders/context.md` and `memory/context.md`

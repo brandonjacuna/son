@@ -31,6 +31,8 @@ Some profiles are seats (subagent), some are modes of the main conversation (ski
 
 The red-team skill is designed alongside, because the builder's validation stage uses it: three intensities, light (concept ideation, constructive push back), standard (default), harsh (legal, compliance, anything touching employees: multiple blind agents with assigned bias-hunting lenses and a check for feedback loops in the session). Output `.claude/skills/red-team/`.
 
+**Approved inputs for the builder (see `memory/skills-plan.md`):** Context Engineering patterns (filesystem context, compression, evaluation), writing-for-agents (for the agent and skill split), the superpowers writing-skills test method (for behavioral tests), model tiering conventions (per-agent model and tool limits), and the red-team lenses (questioning frameworks, stakes calibration, three-concerns output). Note: a skill preloaded into a subagent loads in full, so keep agent cores short and let agents read reference files on demand.
+
 ## Step 2: Bring the profiles into the repo (DONE 2026-10-07)
 Done: see `profiles/_source/README.md` and `manifest.csv`. 52 profiles plus 7 investment working files (the earlier count of 64 was wrong). Original instructions kept below for reference.
 
