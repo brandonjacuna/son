@@ -4,7 +4,6 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 
 ## Now
 - Apply the brand canon line (decisions 2026-10-07, `brand`) | next Code session (Opus) | edit ClickUp Brand Guidelines doc 2ky45bmy-15773 (page 02 hierarchy: frameworks become guiding influences, glyph mandate dropped; pages 06, 07, 08 and the Ma baseline page marked reference only; terminology list to dish names) and the design system (readme, deck, SKILL.md, copy linter, glyph mandate in components); extraction with locations: `memory/audits/session-b/brand-canon-extraction.md`. Then phase 1 is done; next is phase 2
-- Delete by hand (ClickUp task 17tn048wdwr) | Brandon | ClickUp: White Paper Lynd Version, the Josephine "Risk Scaling Path" Beverage page (2ky45bmy-26893), Master Pointer Index (2ky45bmy-16833, registry copied to `kb/tools/box-registry-from-pointer-index.md`); Box: `_tmp_repr_part1_copy.md` (2421148304456). Log in `memory/audits/cleanup-log.md`
 - Old `son-build` name in the root guard script docstring (line 5) | Brandon | needs the unlock phrase; one-word comment fix, then drop its allowlist entry
 - Cloud environment for `son` | Brandon | paste `scripts/setup_cloud.sh` into the environment setup; check ClickUp and Box connectors
 - Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
@@ -12,6 +11,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-07
+- Brandon deleted the four by-hand items (task 17tn048wdwr closed)
 - Phase 1 session B: Box batches applied (experiential PDF to Reference (not canon), exhibit files to Pitch Materials / Investment, Start Here.md fixed); ClickUp inventory (`memory/audits/session-b/`); Jun removed from four Home Base pages and the website Team copy; Master Pointer Index registry copied to kb/tools; V7 citations rewritten as background; brand canon line marked
 - Phase 1 session A: repo sweep (5 Sonnet agents, about 200 rewrites); raw exports deleted (clickup-system/exports, operations/archive, uncited extraction); cited extraction kept in operations/sources/extraction; old learning-studio clones deleted after salvaging their tooling to learning-studio/_salvage (inert); stale routing rewritten in operations, learning-studio, nerve, build-out, clickup-system; raise working files marked superseded; allowlist built
 - Pull request #1 merged (Brandon): build-out workspace, phase lock hooks, skills, commands, and workflows are live on `main`; guard self-test 22/22

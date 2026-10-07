@@ -15,3 +15,4 @@ Each batch notes Brandon's approval. Inventories: `memory/audits/session-b/`.
 - Not edited, by Brandon's call (Pullman rule relaxed): Capital Raise Briefing, Chris Null CRM task, Project Instructions (27453).
 - Master Pointer Index 2ky45bmy-16833: Box and ClickUp ids copied to `kb/tools/box-registry-from-pointer-index.md` (86 entries); Brandon deletes the doc.
 - Brandon deletes by hand: White Paper Lynd Version (doc containing page 2ky45bmy-5333), Beverage "Risk Scaling Path" page 2ky45bmy-26893, Master Pointer Index 2ky45bmy-16833.
+- 2026-10-07: Brandon deleted all four by hand (White Paper Lynd Version, Risk Scaling Path page, Master Pointer Index, Box `_tmp_repr_part1_copy.md`); task 17tn048wdwr closed.
