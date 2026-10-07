@@ -32,7 +32,7 @@ One repo for building Sŏn (Sŏn Hospitality LLC; first restaurant at 207 E St. 
 - ClickUp task shape: parent = the outcome; second level = phases (A, B, C...); third level = every action item, numbered (A1, A2...) and prefixed by kind (FRAME, DECIDE, CONFIRM, FLAG, ACTION, GENERATE, SIGN).
 
 ## Scope and exclusions
-Sŏn only. Pullman Market, The Josephine, Sanctuary, and former partners are out of scope. Never reference, plan for, or carry material over from them. Pullman may appear only as a line in Brandon's professional bio. The Experiential Guidelines are a reference file in Box, never guidelines. Korean cultural tie-ins are not canon pending Brandon's review of the brand material.
+Sŏn only. The Josephine, Sanctuary, and former partners are out of scope: never reference, plan for, or carry material over from them. Pullman Market is Brandon's consulting work: its material never carries into Sŏn work, but a mention of Pullman (bio, investor context, relationships) is fine and is not flagged. The one exception is the Pullman LnD Import folder in Box, a reference for the learning studio build (phase 5) only. The Experiential Guidelines are a reference file in Box, never guidelines. Sŏn is a Korean restaurant; the brand canon line on Korean cultural material is in `memory/decisions.md` (2026-10-07, `brand`). The white paper (September 2026) is canon for most things; the V7 Business Strategies Notebook is background only.
 
 ## Standing rules (all written output)
 "Customer," never "guest." No em dashes. No performed conviction ("we believe," "we hope," "our goal is"). Declarative over aspirational. Profanity is spoken-only, never written.
