@@ -1,0 +1,13 @@
+# Capture lists Claude may write to in any phase (ideas only, no real tasks).
+# The guard hook allows create_task on these list IDs and asks Brandon for anything else.
+capture_lists:
+  - name: Property Capture
+    list_id: "901327291277"
+    use_for: build-out, space, construction, and site ideas
+  # Fill in the IDs below (ClickUp: open the list, copy the ID from the URL), then uncomment.
+  # - name: Product Capture
+  #   list_id: ""
+  #   use_for: bar and culinary equipment, smallwares, product ideas
+  # - name: Technology Capture
+  #   list_id: ""
+  #   use_for: POS, network, AV, software ideas

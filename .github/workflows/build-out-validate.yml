@@ -1,0 +1,26 @@
+name: build-out validate
+on:
+  push:
+    paths: ["company/workstreams/build-out/**"]
+  pull_request:
+    paths: ["company/workstreams/build-out/**"]
+# Working directory of the build-out files: "." in the standalone son-build repo,
+# "company/workstreams/build-out" in the unified son repo.
+defaults:
+  run:
+    working-directory: company/workstreams/build-out
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { lfs: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml jsonschema
+      - name: Equipment records
+        run: python3 scripts/validate_equipment.py
+      - name: No em dashes in authored text
+        run: |
+          if grep -rIl --exclude-dir=.git --exclude-dir=snapshots --exclude-dir=library --exclude=knowledge-base.md $'\u2014' . ; then
+            echo "Em dash found in the files above. Replace with a comma, colon, or restructure."; exit 1; fi

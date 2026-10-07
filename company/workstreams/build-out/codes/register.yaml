@@ -1,0 +1,20 @@
+# Austin code register. Seeded 2026-09-28 from the construction-mode research.
+# status: verified = checked against the city/state source; secondary = from a secondary source, recheck before relying.
+# Austin uses the UNIFORM codes for plumbing and mechanical (UPC, UMC), not IPC/IMC. Tag every fact with its family.
+jurisdiction: City of Austin, TX
+entries:
+  - {domain: building, basis: "2024 IBC + local amendments", ordinance: "20250410-045", effective: "2025-07-10", status: secondary}
+  - {domain: existing-building, basis: "2024 IEBC + local amendments", ordinance: "20250410-045", effective: "2025-07-10", status: secondary}
+  - {domain: plumbing, basis: "2024 UPC + local amendments", ordinance: "20250410-042", effective: "2025-07-10", status: secondary}
+  - {domain: mechanical, basis: "2024 UMC + local amendments", ordinance: "20250410-044", effective: "2025-07-10", status: secondary, note: "Section 517 solid-fuel cooking draws on NFPA 96"}
+  - {domain: fire, basis: "2024 IFC + local amendments", effective: "2025-07-10", status: secondary}
+  - {domain: energy, basis: "2024 IECC + local amendments", ordinance: "20250410-038", effective: "2025-07-10", status: secondary}
+  - {domain: electrical, basis: "NFPA 70 (NEC) 2023", ordinance: "20230831-105", effective: "2023-09-11", status: secondary, watch: "NEC 2026 adoption"}
+  - {domain: food, basis: "Texas Food Establishment Rules, 25 TAC Ch. 228 (2017 FDA Food Code)", effective: "2021-08-08", status: secondary, watch: "newer Food Code adoption"}
+  - {domain: alcohol, basis: "TABC Mixed Beverage permit + Food and Beverage Certificate via AIMS", status: secondary, note: "timelines vary widely by source; long-lead item"}
+  - {domain: accessibility, basis: "2012 TAS (TDLR) + 2010 ADA Standards", status: secondary}
+  - {domain: grease, basis: "Austin Water Industrial Waste criteria, City Code Ch. 15-10", status: secondary, note: "interceptor sized in Austin Water approval letter; do not buy before approval"}
+live_fire_notes:
+  - "Solid-fuel appliances need a separate exhaust system (NFPA 96 / UMC 517)."
+  - "Spark arresters ahead of grease filters; filters at least 4 ft above the cooking surface."
+  - "Site-built solid-fuel appliances need AHJ approval. Meet Austin Fire and the building official early."

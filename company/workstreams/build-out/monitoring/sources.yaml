@@ -1,0 +1,14 @@
+# Pages watched by .github/workflows/watch.yml (daily hash check, $0).
+# A change opens a GitHub issue; a weekly Sonnet routine classifies it.
+codes:
+  - {id: austin-technical-codes, url: "https://www.austintexas.gov/page/building-technical-codes"}
+  - {id: austin-fire-code, url: "https://www.austintexas.gov/fire/fire-building-code"}
+  - {id: austin-grease-criteria, url: "https://www.austintexas.gov/water/grease-trap-sizing-design-criteria"}
+  - {id: austin-pretreatment-faq, url: "https://www.austintexas.gov/water/pretreatment-frequently-asked-questions"}
+  - {id: aph-fixed-food, url: "https://www.austintexas.gov/health/programs/fixed-food-establishments"}
+innovation:
+  - {id: nra-show-news, url: "https://www.nationalrestaurantshow.com/home/news-insights/"}
+  - {id: nafem-2027, url: "https://nafem.org/event/the-nafem-show-2027/"}
+  - {id: hostmilano, url: "https://host.fieramilano.it/en"}
+  - {id: internorga, url: "https://www.internorga.com/en/fair/about-internorga"}
+  - {id: tales-spirited-awards, url: "https://talesofthecocktail.org/events/spirited-awards/"}

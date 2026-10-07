@@ -1,0 +1,12 @@
+# Source of truth for the project phase. Edited ONLY by scripts/advance_phase.py,
+# which runs only after Brandon types the unlock phrase (see /lease-signed).
+current_phase: P0-concept
+lease_signed: false
+site_candidate: "207 E St. Elmo Rd, Austin, TX (not leased)"
+phases:
+  - P0-concept
+  - P1-design
+  - P2-permitting
+  - P3-construction
+  - P4-closeout
+gate_log: []

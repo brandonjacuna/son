@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sŏn equipment record",
+  "type": "object",
+  "required": ["id", "name", "manufacturer", "model", "category", "area", "status", "phase", "dimensions", "sources"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "name": {"type": "string"},
+    "manufacturer": {"type": "string"},
+    "model": {"type": "string"},
+    "category": {"type": "string"},
+    "area": {"enum": ["bar-front", "bar-back", "underbar", "kitchen-line", "live-fire", "prep", "dish", "cold-storage", "dry-storage", "service", "dining", "office", "mechanical", "other"]},
+    "status": {"enum": ["candidate", "selected", "rejected", "inspiration-only"]},
+    "phase": {"enum": ["P0-concept", "P1-design", "P2-permitting", "P3-construction", "P4-closeout"]},
+    "quantity": {"type": "integer", "minimum": 1},
+    "dimensions": {
+      "type": "object",
+      "required": ["w_in", "d_in", "h_in", "status"],
+      "properties": {
+        "w_in": {"type": ["number", "null"]},
+        "d_in": {"type": ["number", "null"]},
+        "h_in": {"type": ["number", "null"]},
+        "weight_lb": {"type": ["number", "null"]},
+        "status": {"enum": ["verified", "estimated"]}
+      }
+    },
+    "clearances_in": {"type": "object"},
+    "electrical": {
+      "type": ["object", "null"],
+      "properties": {
+        "volts": {"type": ["number", "null"]}, "phase": {"type": ["integer", "null"]},
+        "amps": {"type": ["number", "null"]}, "hz": {"type": ["integer", "null"]},
+        "plug": {"type": ["string", "null"]}, "hardwired": {"type": ["boolean", "null"]},
+        "dedicated_circuit": {"type": ["boolean", "null"]}
+      }
+    },
+    "plumbing": {
+      "type": ["object", "null"],
+      "properties": {
+        "water_in": {"type": ["string", "null"]}, "water_psi": {"type": ["string", "null"]},
+        "filtration": {"type": ["string", "null"]},
+        "drain": {"enum": ["direct", "indirect", "none", null]},
+        "drain_size": {"type": ["string", "null"]}
+      }
+    },
+    "gas": {"type": ["object", "null"]},
+    "ventilation": {"type": ["object", "null"]},
+    "refrigeration": {"type": ["object", "null"]},
+    "certifications": {
+      "type": "object",
+      "properties": {
+        "ul_or_etl": {"type": ["boolean", "null"]}, "nsf": {"type": ["boolean", "null"]},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "retrieved"],
+        "properties": {
+          "type": {"enum": ["spec-sheet", "kcl", "manufacturer-page", "brandon", "other"]},
+          "url": {"type": ["string", "null"]},
+          "retrieved": {"type": "string"},
+          "box_file_id": {"type": ["string", "null"]},
+          "sha1": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "notes": {"type": ["string", "null"]}
+  }
+}
