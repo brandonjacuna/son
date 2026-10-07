@@ -8,7 +8,7 @@ The repeatable procedures Brandon relies on exist as skills, so every session do
 2. **`kb-refresh` plus a weekly scheduled task.** Scans `kb/` and workstream knowledge files for `review_every` / `last_verified` frontmatter; checks changelogs and primary sources for anything overdue; opens a pull request Brandon approves from his phone. Cadences: tools (ClickUp, Claude products, Box, Trainual) weekly; law and compliance monthly; pedagogy quarterly. Covers knowledge of Claude itself (Code, Design, Science, chat), ClickUp, Box.
 3. **`decide` (walk mode).** Standard for decision pop-ups: one decision per question, full context to answer cold, options that include what Brandon does not want, recommended option first, and a read-back before recording.
 4. **`scheduled-sync`.** Keeps `prompts/scheduled/*.md` and the live scheduled tasks identical; flags drift (model versions, UTC versus Central time shifts at daylight saving changes).
-5. **ClickUp knowledge base merge.** Merge `clickup-system/kb/from-build-out-2026-09-28.md` into `clickup-knowledge-base.md`; delete the duplicate `kb/cu.py`.
+5. **ClickUp knowledge base merge.** Done in phase 1 (2026-10-07): the build-out copy held nothing unique and was deleted; `kb/cu.py` deleted, `scripts/cu.py` kept.
 6. **Build-out open decision M5.** Resolve any command and skill name collisions.
 
 ## Done when

@@ -24,3 +24,8 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-07 | build-out M1 | ClickUp "ask first" applies only to build-out work (session touched build-out files, cwd in build-out, or a guarded build-out ID); deletes and merges stay blocked everywhere | Brandon
 - 2026-10-07 | build-out M4 | Unlock phrase needed only for changes to the hooks block of .claude/settings.json; other settings edits ask | Brandon
 - 2026-10-07 | build-out M2 | One shared ClickUp knowledge base and toolkit in company/workstreams/clickup-system; build-out keeps only its allowlist and construction-space blueprint | Brandon
+- 2026-10-07 | cleanup | Delete raw exports from the working tree: clickup-system/exports, operations/archive, and the uncited parts of operations/extraction; files the manual cites stay, moved to operations/sources/extraction (git history keeps the rest) | Brandon
+- 2026-10-07 | cleanup | Retire imports/profile-builds-local: salvage its studio skills, settings, lint workflow and mcp.json (Airtable removed) into learning-studio/_salvage as inert reference for phase 5, then delete the clones | Brandon
+- 2026-10-07 | cleanup | White paper bio line "He consulted at Pullman Market with the group behind Emmer and Rye." passes as a bio credential | Brandon
+- 2026-10-07 | cleanup | Josephine House rows in nerve's public Austin inspection data stay (unrelated restaurant) | Brandon
+- 2026-10-07 | finance | Capital-raise working files from August 2026 (Airtable-based) are marked superseded by the Investor Review workbook and kept unedited for history | Brandon

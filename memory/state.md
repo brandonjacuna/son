@@ -3,13 +3,16 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Next phase: 1 Cleanup | next Code session (Opus) | start with `memory/briefs/1-cleanup.md`, session A (repo sweep)
+- Phase 1 Cleanup, session B | next Code session (Opus) | `memory/briefs/1-cleanup.md` steps 4 to 6 and 8: Box batches, ClickUp delete list, brand canon extraction as pop-ups, V7 question. Session A is done (reports: `memory/audits/cleanup-sweep/`; allowlist: `memory/audits/cleanup-allowlist.md`)
+- System pull request: old `son-build` repo name in comments of the root guard script and both build-out workflows | Brandon to merge | then drop those 3 allowlist entries
+- Weekly tech digest live prompt: the repo copy now says Airtable is watched as a vendor only (stack watch line) | next session that touches scheduled tasks | sync live task trig_01EUH167wrsReHWDvt5Sv7vG from `prompts/scheduled/weekly-tech-digest.md`
 - Cloud environment for `son` | Brandon | paste `scripts/setup_cloud.sh` into the environment setup; check ClickUp and Box connectors
 - Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
 - Archive the old GitHub repos (son-learning-studio, son-operational-buildout, son-nerve; make agenticproject private and archive) | Brandon to confirm | everything from them is in `son`
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-07
+- Phase 1 session A: repo sweep (5 Sonnet agents, about 200 rewrites); raw exports deleted (clickup-system/exports, operations/archive, uncited extraction); cited extraction kept in operations/sources/extraction; old learning-studio clones deleted after salvaging their tooling to learning-studio/_salvage (inert); stale routing rewritten in operations, learning-studio, nerve, build-out, clickup-system; raise working files marked superseded; allowlist built
 - Pull request #1 merged (Brandon): build-out workspace, phase lock hooks, skills, commands, and workflows are live on `main`; guard self-test 22/22
 - Profile baseline imported from Box zip: 52 profiles in `profiles/_source/` and `founders/profiles/_source/`, 7 investment working files in `founders/capital-raise/working-files/` (phase 3 step 2 done)
 - Community skills research done; approved list and install schedule in `memory/skills-plan.md`
@@ -26,5 +29,6 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 ## Open questions for Brandon
 - Brand canon line: which Korean cultural tie-ins go (phase 1, shown section by section first)
 - Is the V7 Business Strategies Notebook (ClickUp 2ky45bmy-11873) still canon? (phase 1)
-- Raw exports with out-of-scope content: delete, or move all raw exports to an archive folder? (phase 1)
+- Operational figures (pars, labor targets, pay, schedules, counts) have no source since Airtable retired; learning-studio marks them unbound (phase 5)
+- build-out/HANDOFF.md: delete now that the migration is done? (phase 5)
 - Build-out migration still open: M3 profile pipeline (phase 3), M5 command names (phase 4), M6 build-out kb location (phase 5)
