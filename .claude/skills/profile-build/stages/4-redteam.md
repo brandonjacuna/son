@@ -1,7 +1,7 @@
 # Stage 4: Red team, then Fable judgment
 
 1. If `.claude/skills/red-team/` exists, run it on the master at the frame's intensity, with these lenses added. If it does not exist yet, run the interim procedure below.
-2. Interim procedure: spawn these critics in one message, all `model: sonnet`, each with the brief "Read `.claude/skills/profile-build/workers/critic.md` and follow it. Build: <folder>. Master: <path>. Lens: <lens>." Lenses 2 and 4 (specificity and rules) run in ONE critic that writes both files; the others run separately. Light intensity runs lenses 1 and 2 only.
+2. Interim procedure: spawn these critics in one message, each `subagent_type: profile-critic`, with the brief "Build: <folder>. Master: <path>. Lens: <lens>." Lenses 2 and 4 (specificity and rules) run in ONE critic that writes both files; the others run separately. Light intensity runs lenses 1 and 2 only.
    1. `grounding`: every `sourced` row in provenance is supported by the cited card row; every `inferred` row follows from what it names.
    2. `specificity`: rules and cues a generalist would give anyway; credential or identity inflation; survey material in the core.
    3. `seams`: overlaps and gaps with each neighbor named in the frame (reads the neighbors' `agent.md` or old profile scope sections only).

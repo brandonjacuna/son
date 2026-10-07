@@ -3,10 +3,10 @@
 A new agent file is not callable until the next session starts, so runners load the master by reading it.
 
 1. Spawn two runners in one message, both writing into `profiles/_builds/<slug>/tests/`:
-   - with: `model: <the frame's model guess>`. Brief: "Read `.claude/skills/profile-build/workers/runner.md`. Seat: <master path>. Tasks: <T1..Tn text>. Output: `tests/Tn-with.md`, one file per task, each task answered fresh."
+   - with: `model: <the frame's model guess>`. `subagent_type: profile-runner`. Brief: "Seat: <master path>. Tasks: <T1..Tn text>. Output: `tests/Tn-with.md`, one file per task, each task answered fresh."
    - baseline (first build of a seat, and any test that failed before): same model, "Seat: none", outputs `tests/Tn-base.md`.
    A rerun after a fix runs only the failed test, in its own runner.
-2. Spawn one grader, `model: sonnet`: "Read `.claude/skills/profile-build/workers/grader.md`. Tests: <path to tests.md>. Outputs: <build>/tests/." It returns a verdict table.
+2. Spawn one `subagent_type: profile-grader`: "Tests: <path to tests.md>. Outputs: <build>/tests/." It returns a verdict table.
 3. Pass means: the with-run produces the expected catch by its own reasoning (citing or clearly applying the cue or rule), AND the baseline misses it or catches it weaker. A test the baseline also passes cleanly proves nothing about the seat: replace it with a harder one, once.
 4. On a fail: start from the grader's quote of what is missing; read that test's with-output (3 KB cap) only if the quote is not enough; find the missing or weak row, Edit it (or add one, with a provenance row), rerun that test only. Two fails on the same test go to Brandon.
 5. Model line: if every test passes on the guess, rerun the next lower tier on the two hardest tests, in one runner. Keep the cheapest tier that passes. Record the reason in `BUILD.md`.
