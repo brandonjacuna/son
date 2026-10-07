@@ -17,11 +17,9 @@ Rewrite freely. One line per item: what | owner | next step.
 - P6 ClickUp layer: verify what the GitHub integration exposes to Brain; Super Agent design within 10k credits | Claude | research first
 
 ## Open questions for Brandon
-- Build-out migration (from build-out HANDOFF section 7; build-out's own open items are in `company/workstreams/build-out/decisions/open.md`):
-  - M1 ClickUp ask rule: the guard asks before every non-capture ClickUp write repo-wide, including review drafts sent to ClickUp. Keep repo-wide, or limit to build-out work (delete/merge stay blocked everywhere)?
-  - M2 Shared ClickUp tooling: keep `cu.py` and the ClickUp knowledge base inside build-out, or merge with `clickup-system` at repo level?
+- Build-out migration, still open (M1, M2, M4 decided 2026-10-07, see decisions.md; from build-out HANDOFF section 7; build-out's own open items are in `company/workstreams/build-out/decisions/open.md`):
+  - Follow-up: merge `clickup-system/kb/from-build-out-2026-09-28.md` into the main ClickUp knowledge base (P5)
   - M3 Profile creation: `profile-forge` vs the P4 profile pipeline (handoff suggests P4 is master and profile-forge feeds it)
-  - M4 Settings protection: the guard blocks edits to `.claude/settings.json` repo-wide without an unlock phrase. Keep, or scope to the hooks block?
   - M5 Command and skill names: `/deep`, `/gate`, `/capture`, `/sandbox`, `/promote`, `/lease-signed` vs P5 skills (no collisions today; revisit when P5 is built)
   - M6 Build-out kb location: keep at `company/workstreams/build-out/kb/` (current skill paths work) or move under `kb/`
 - Where the line falls between Korean cultural tie-ins (remove) and the design deck (keep): godwit, water deer letterform, Mandarin duck palette, persimmon-sumac-elderberry. Show the extraction first.

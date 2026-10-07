@@ -42,7 +42,7 @@ Token hygiene: delegate reading-heavy work to subagents and ask them for summari
 
 ## 5. ClickUp boundary
 - P0: create nothing except (a) ideas filed to a capture list in `clickup/allowlist.yaml`, or (b) a real, committed action Brandon confirms. A hook asks before any other ClickUp write.
-- Never delete in ClickUp. Follow `clickup/knowledge-base.md` safety rules. Verify every write by reading it back.
+- Never delete in ClickUp. Follow `company/workstreams/clickup-system/kb/clickup-knowledge-base.md` (shared ClickUp knowledge base) safety rules. Verify every write by reading it back.
 - At P1, `/lease-signed` builds the construction space from `clickup/space-blueprint.md`.
 
 ## 6. Writing rules (all output)

@@ -1,3 +1,5 @@
+> Moved from the build-out workspace on 2026-10-07 (decision M2: one shared ClickUp knowledge base). Merge its unique points into `clickup-knowledge-base.md`, then delete this file.
+
 # ClickUp knowledge base
 
 Portable reference for building in ClickUp with code plus AI. Everything here was verified against a live Business-plan workspace with the AI add-on between 2026-09-16 and 2026-09-21, either by API call or by a documented source. Re-verify before relying on a limit: ClickUp ships changes constantly.

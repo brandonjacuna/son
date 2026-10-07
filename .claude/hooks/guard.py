@@ -10,8 +10,13 @@ Rules:
 1. Blocks writes into build-out phase folders that PHASE.yaml has not unlocked.
 2. Blocks edits to PHASE.yaml, the phase script, hooks, settings, and hook state
    unless Brandon typed an unlock phrase in the last 10 minutes (see prompt_hook.py).
-3. ClickUp: allows task creation on capture lists in clickup/allowlist.yaml,
-   asks Brandon before any other ClickUp write, and denies deletes and merges outright.
+3. ClickUp: denies deletes and merges everywhere. Allows task creation on capture
+   lists in clickup/allowlist.yaml. Asks Brandon before any other ClickUp write only
+   during build-out work (decision M1, 2026-10-07): the session has read or written
+   build-out files, or its cwd is inside the build-out root, or the call names a
+   guarded build-out ID from clickup/allowlist.yaml. Elsewhere, normal permissions apply.
+4. Settings: edits to .claude/settings.json that change the hooks block need an unlock
+   phrase; other settings edits ask Brandon (decision M4, 2026-10-07).
 
 Exit code 2 = block (stderr goes back to Claude). JSON on stdout = permission decision.
 """
@@ -54,7 +59,9 @@ def decide(decision, reason):
         "permissionDecisionReason": reason}}))
     sys.exit(0)
 
-ROOT_PROTECTED = [".claude/hooks/", ".claude/state/", ".claude/settings.json"]
+ROOT_PROTECTED = [".claude/hooks/", ".claude/state/"]
+SETTINGS = ".claude/settings.json"
+STATE = ROOT / ".claude/state"
 BUILD_PROTECTED = ["PHASE.yaml", "scripts/advance_phase.py"]
 
 def rel_to(base, p):
@@ -63,10 +70,48 @@ def rel_to(base, p):
     except ValueError:
         return None
 
-def check_path(p):
+def mark_buildout(session_id):
+    if session_id:
+        try:
+            STATE.mkdir(parents=True, exist_ok=True)
+            (STATE / f"buildout_session_{re.sub(r'[^A-Za-z0-9_-]', '', session_id)}").touch()
+        except OSError:
+            pass
+
+def in_buildout_session(session_id):
+    return bool(session_id) and (STATE / f"buildout_session_{re.sub(r'[^A-Za-z0-9_-]', '', session_id)}").exists()
+
+def hooks_block(text):
+    try:
+        return json.loads(text).get("hooks")
+    except (ValueError, AttributeError):
+        return "unparseable"
+
+def check_settings(tool, ti):
+    path = ROOT / SETTINGS
+    cur = path.read_text() if path.exists() else "{}"
+    if tool == "Write":
+        new = ti.get("content", "")
+    else:
+        new = cur
+        edits = ti.get("edits") or [ti]
+        for e in edits:
+            old, rep = e.get("old_string", ""), e.get("new_string", "")
+            new = new.replace(old, rep) if e.get("replace_all") else new.replace(old, rep, 1)
+    if hooks_block(new) != hooks_block(cur) and not unlocked():
+        block("That edit changes the hooks block in .claude/settings.json, which enforces the phase lock. It needs Brandon's unlock phrase.")
+    decide("ask", "Settings change outside the hooks block. Confirm with Brandon.")
+
+def check_path(p, tool="", ti=None, session_id=""):
     rel_root = rel_to(ROOT, p)
     if rel_root is None:
         return  # outside the repo
+    if BUILD is not None and rel_to(BUILD, p) is not None:
+        mark_buildout(session_id)
+    if tool == "Read":
+        return
+    if rel_root == SETTINGS:
+        check_settings(tool, ti or {})
     if any(rel_root == x or rel_root.startswith(x) for x in ROOT_PROTECTED) and not unlocked():
         block(f"{rel_root} is protected. Hook and phase controls change only after Brandon types an unlock phrase.")
     if BUILD is None:
@@ -93,7 +138,7 @@ def check_bash(cmd):
         if f"phases/{ph}" in cmd and order.index(ph) > order.index(cur) and not readonly:
             block(f"{ph} is locked (current build-out phase {cur}).")
 
-def check_clickup(tool, tinput):
+def check_clickup(tool, tinput, session_id="", cwd=""):
     name = tool.lower()
     if not re.search(r"(create|update|delete|move|merge|add|remove|attach|send|start|stop|execute)", name):
         return  # reads are fine
@@ -102,21 +147,30 @@ def check_clickup(tool, tinput):
     allow_file = (BUILD / "clickup/allowlist.yaml") if BUILD else None
     allow = allow_file.read_text() if allow_file and allow_file.exists() else ""
     capture_ids = set(re.findall(r"list_id:\s*\"?(\d+)", allow))
+    guarded_ids = set(re.findall(r"^\s*-\s*\"?(\d+)\"?\s*(?:#.*)?$", allow.split("guarded_ids:", 1)[1], re.M)) if "guarded_ids:" in allow else set()
     list_id = str(tinput.get("list_id", ""))
     if "create_task" in name and list_id in capture_ids:
         decide("allow", "Capture list write, allowed in every phase.")
-    decide("ask", f"ClickUp write ({tool}) outside a capture list. Confirm this is a real, committed task or a review draft.")
+    blob = json.dumps(tinput)
+    buildout = (in_buildout_session(session_id)
+                or (BUILD is not None and cwd and rel_to(BUILD, cwd) is not None)
+                or any(i in blob for i in guarded_ids))
+    if buildout:
+        decide("ask", f"ClickUp write ({tool}) during build-out work, outside a capture list. Confirm this is a real, committed task.")
+    return  # not build-out work: normal permissions apply
 
 def main():
     data = json.load(sys.stdin)
     tool = data.get("tool_name", "")
     ti = data.get("tool_input", {}) or {}
-    if tool in ("Write", "Edit", "MultiEdit", "NotebookEdit"):
-        check_path(ti.get("file_path") or ti.get("notebook_path") or "")
+    sid = data.get("session_id", "")
+    cwd = data.get("cwd", "")
+    if tool in ("Read", "Write", "Edit", "MultiEdit", "NotebookEdit"):
+        check_path(ti.get("file_path") or ti.get("notebook_path") or "", tool, ti, sid)
     elif tool == "Bash":
         check_bash(ti.get("command", ""))
     elif re.search(r"click_?up", tool, re.I):
-        check_clickup(tool, ti)
+        check_clickup(tool, ti, sid, cwd)
     sys.exit(0)
 
 if __name__ == "__main__":

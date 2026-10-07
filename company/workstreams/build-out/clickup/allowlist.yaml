@@ -11,3 +11,9 @@ capture_lists:
   # - name: Technology Capture
   #   list_id: ""
   #   use_for: POS, network, AV, software ideas
+
+# ClickUp IDs that count as build-out work (decision M1, 2026-10-07). Any ClickUp write
+# naming one of these asks Brandon first, even outside a build-out session.
+# Add the construction space ID here when /lease-signed builds it.
+guarded_ids:
+  - "90136733959"   # Property space

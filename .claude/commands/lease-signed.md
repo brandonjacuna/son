@@ -15,5 +15,5 @@ Brandon says the lease is signed. Run this gate carefully. Never skip a step.
 5. Then, in order, and asking before each:
    a. Run `/gate` style review of P0: list which concept designs are ready to promote into `phases/P1-design/`, which are superseded, and what open decisions carry forward.
    b. Snapshot `kb/` into `phases/P1-design/kb-baseline/` for the architect and MEP engineer.
-   c. Propose the ClickUp construction space from `clickup/space-blueprint.md` as a preview file, get sign-off, build it using the rules in `clickup/knowledge-base.md`, then read everything back to verify.
+   c. Propose the ClickUp construction space from `clickup/space-blueprint.md` as a preview file, get sign-off, build it using the rules in `company/workstreams/clickup-system/kb/clickup-knowledge-base.md` (shared ClickUp knowledge base), then read everything back to verify.
 6. Summarize what changed in five lines or fewer.

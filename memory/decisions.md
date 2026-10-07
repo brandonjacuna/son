@@ -14,3 +14,6 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-07 | identity | Public/professional name Brandon John Acuña-Cardona; legal Brandon John Acuña | Brandon
 - 2026-10-07 | scope | Erase Jun / June Shim, The Josephine, Sanctuary from working context | Brandon
 - 2026-10-07 | governance | The local operating agreement project is excluded from the repo (one-sided, no forward value); the signed operating agreement will simply exist as a final document in Box | Brandon
+- 2026-10-07 | build-out M1 | ClickUp "ask first" applies only to build-out work (session touched build-out files, cwd in build-out, or a guarded build-out ID); deletes and merges stay blocked everywhere | Brandon
+- 2026-10-07 | build-out M4 | Unlock phrase needed only for changes to the hooks block of .claude/settings.json; other settings edits ask | Brandon
+- 2026-10-07 | build-out M2 | One shared ClickUp knowledge base and toolkit in company/workstreams/clickup-system; build-out keeps only its allowlist and construction-space blueprint | Brandon
