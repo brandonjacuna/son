@@ -1,13 +1,13 @@
-lens: seams (harsh on practice vs gate)
-| row id | sev | flag | evidence | proposed edit |
+lens: seams (harsh, practice vs gate)
+| row | sev | flag | evidence | edit |
 |---|---|---|---|---|
-| R10/R14/R18 + A3 | critical | Nothing walls practice observations off from sign-off. Path: lead facilitates, sees learner freeze, later certifies (Assessment: lead certifies); prebrief promised respect | "practice must be safe to fail" | Add rule: practice observations never enter gate evidence unless Assessment names them upfront and learner is told; flag lead-facilitator-as-certifier to Assessment |
-| R1 | major | Seat "retires" items from a gate; gate content is Assessment's. Path: practice reuses live gate item, seat silently pulls it, gate loses coverage. No ledger owner | "retired from any gate" | Seat never practices a gate item; notifies Assessment, who retires; name Assessment owner of the bank ledger |
-| (gap) | major | Assessment moves gates to shows-how (scenarios). Nobody authors a gate scenario; A3 bars this seat, Assessment lacks craft | "gate goes to assessment-competency-designer" | Seam: on request supply scenario craft to Assessment under their validity call, disjoint stems |
-| R4/C13 | major | Panel agreement can become a score; Craft Educator says it is a proxy. "Rated performance" undefined, by whom | "ask for rated performance" | Comparison is feedback, not a score; scored use goes to Assessment; C13 rating is for evaluating the practice, not individuals |
-| C2/R2 | major | Craft Educator classifies knowledge kind and hands "practice forms the craft requires"; this seat re-classifies and picks form. Two taxonomies | "classify the skill kind first" | Take Craft Educator's kind as input; seat picks form within it; add seam row |
-| R10-R12 | major | Prebrief/debrief are HighScope's plan-do-review; R12 prescribes TBRI's "restore safety". Overlap, row only on "wraps" | "stop the fiction, restore safety" | Seat owns content/probes; HighScope owns the wrap structure; R12 defers the move to tbri |
-| Seams: design-brief-translator | major | Translator writes the brief and routes via Design Director; Platform Prompt Specialist writes prompts. Row misassigns both | "this seat writes the brief only" | Seat supplies decisions-to-show; translator briefs; prompts elsewhere |
-| R14 | major | ID owns "opportunity to perform"; Ops Realist owns lead capacity. Seat assigns lead roles unchecked | "lead's floor role" | Name need; ID specifies; Ops Realist checks capacity |
-| C4/C5 | minor | "Facts go to a job aid" is ID's medium call; Author edit can reintroduce tells | "equalize length, tone" | Route to ID; recheck tells after voice review |
-| R18 | minor | "Trained" facilitator: no owner of facilitator training | "Any trained team member" | Name owner or mark open |
+| R10,R14,R18,A3 | critical | No wall between practice and sign-off. Lead facilitates, sees a freeze, later certifies; prebrief promised respect | "safe to fail" | Practice observations never enter gate evidence unless Assessment names them upfront and learner is told; flag lead-as-certifier |
+| R1 | major | Seat "retires" gate items; gate content is Assessment's. Path: practice reuses live item, gate loses coverage; no ledger owner | "retired from any gate" | Never practice a gate item; Assessment retires, owns ledger |
+| gap | major | Gates move to shows-how scenarios; no seat authors them (A3 bars this one) | "gate goes to assessment" | Seam: supply scenario craft to Assessment, disjoint stems |
+| R4,C13 | major | Panel agreement can become a score (Craft Educator: proxy); "rated performance" by whom? | "ask for rated performance" | Comparison is feedback; scored use is Assessment's |
+| C2,R2 | major | Craft Educator classifies knowledge kind and hands practice forms; seat reclassifies | "classify the skill kind first" | Take their kind as input; add seam row |
+| R10-R12 | major | Pre/debrief is HighScope's plan-do-review; R12 prescribes TBRI's "restore safety" | "restore safety" | Seat owns content; HighScope the wrap; tbri the move |
+| Seams: brief-translator | major | Translator writes briefs (via Design Director); prompts are Platform Prompt Specialist's | "writes the brief only" | Seat supplies decisions-to-show only |
+| R14 | major | ID owns opportunity to perform; Ops Realist lead capacity | "lead's floor role" | Name need; ID specifies; Ops checks |
+| C4,C5 | minor | Job aid is ID's medium call; Author edits can reintroduce tells | "facts go to a job aid" | Route to ID; recheck tells after voice review |
+| R18 | minor | No owner of facilitator training | "trained team member" | Name owner or mark open |
