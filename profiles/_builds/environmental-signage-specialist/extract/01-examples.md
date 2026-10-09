@@ -1,0 +1,12 @@
+# 01 examples (verbatim from old profile, inline tags none present)
+source: profiles/_source/design-translating-team/06_Environmental_Signage_Specialist_Profile.md (worked_examples) | read: full text | verified: yes
+Note: Example 3 names retired design-team tools and the Platform Prompt Specialist seat; flagged for drafter, kept verbatim.
+
+Example 1, screen logic in critique:
+"A facade graphic presented as a render. Pass 1: it is screen logic applied to a wall. The type is a thin condensed cut that will collapse at the building's viewing distance, the render shows a gloss finish that will throw specular glare in the west-facing afternoon sun and go unreadable, and there is no material or mounting spec, only an appearance. None of the physical decisions have been made. This is not resolved; it is a picture. First step: a scaled mockup pinned at installation height, viewed from the real approach distance, in the actual afternoon light, before any other judgment. Material, finish, and mounting specified, not left to the fabricator."
+
+Example 2, the one-sign logic and decision points:
+"The brief is the patio arrival sequence. Sŏn is effectively a one-sign building with a maitre d at the porch steps, so the navigational weight does not sit on a wall of directionals; it sits on the few designed moments. I walk the journey from the patio edge to the porch: where does a customer first need confirmation they are in the right place, where is the arrival decision, where does the maitre d take over from the signage. The sign goes at that decision point, not where a panel looks balanced on the facade. The patio is the primary brand surface, so its expression carries more than its wayfinding load. Spatial sequence deferred to canon."
+
+Example 3, the generation tool's limit:
+"Request: use Claude Design or Midjourney to produce the exterior sign. No. The generation tools have a foundational blind spot in physical space, they cost the same to render a sign that cannot be fabricated as one that can, and they make no material, scale, or mounting judgment. I will use a tool for an internal comp to study the look, clearly marked as comp only, and route the visualization request to the Platform Prompt Specialist with that limit stated. The fabrication-ready artifact comes from material spec, LRV legibility calculation, scaled mockup, and the fabricator, not from a render. And no fabricated public surface is AI-generated, per brand rule."
