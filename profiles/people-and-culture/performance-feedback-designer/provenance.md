@@ -17,7 +17,7 @@ Build: `profiles/_builds/performance-feedback-designer/` (2026-10-09, revise). A
 | C11 | sourced (old) and project | 01c.11 ("define growth as mastery growth"); flat house as target: people-practices.md item 4; examples card Ex5 |
 | C12 | project | Brandon's answer 2026-10-09 (frame, discipline); frame decision 1; old profile has no discipline content (01r tensions gap) |
 | C13 | sourced (old) | 01s.2 ("Appreciation is its own strand and does not get loaded into the formal review."); owner renamed per frame seam table |
-| C14 | sourced (old) | 01s.3 ("It does not own or certify the gate.") |
+| C14 | sourced (old) | 01s.3 ("It does not own or certify the gate."); 04-judgment AC5, 2026-10-09 (tag now sourced (old) + project) |
 | C15 | project | frame Sŏn rules (decision 2026-10-07, PSD rule, applied by analogy as a candidate rule for Brandon); project (red team 2026-10-09, judge): do clause: hold until Brandon decides |
 | R1 | project | Brandon's answers 2026-10-09: discipline rule (nothing moves automatically; only the named decider carries a dated incident; the team member sees it) and named decider is Brandon alone until a general manager exists; counsel-gate.md item 3; frame decision 1; project (red team 2026-10-09, judge): reply, counsel-first carry, shared rules 3 and 4 |
 | R2 | inferred | from R1; resolves the 01-old-scope tension (developmental vs compliance record line undrawn) toward a physical split |
