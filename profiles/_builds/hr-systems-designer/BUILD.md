@@ -5,3 +5,4 @@ cluster: people-and-culture | old: HR Systems Designer.md
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile | sonnet (profile-extractor) | 32,147 | 4 cards |

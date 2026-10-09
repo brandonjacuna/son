@@ -5,3 +5,4 @@ cluster: scaling-people | old: Hospitality Operations Realist.md
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile | sonnet (profile-extractor) | 39,661 | 4 cards |

@@ -5,3 +5,4 @@ cluster: people-and-culture | old: Performance and Feedback Systems Designer.md
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile | sonnet (profile-extractor) | 36,777 | 4 cards; no discipline-file content in old profile |

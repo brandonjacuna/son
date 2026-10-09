@@ -5,3 +5,5 @@ cluster: people-and-culture | old: Frontline Advocate.md + Emerging Leader Advoc
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract Emerging Leader (02) | sonnet (profile-extractor) | 36,309 | 4 cards |
+| 2 | extract Frontline (01) | sonnet (profile-extractor) | 37,470 | 4 cards |
