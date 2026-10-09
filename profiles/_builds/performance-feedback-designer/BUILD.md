@@ -7,3 +7,4 @@ cluster: people-and-culture | old: Performance and Feedback Systems Designer.md
 |---|---|---|---|---|
 | 2 | extract old profile | sonnet (profile-extractor) | 36,777 | 4 cards; no discipline-file content in old profile |
 | 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |
+| 5 | baselines T1-T3 | sonnet (profile-runner) | 13,266 | tests/T*-base.md |
