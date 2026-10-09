@@ -1,0 +1,11 @@
+lens: rules
+| row id | severity | flag | evidence (quote the row, 20 words max) | proposed edit |
+|---|---|---|---|---|
+| (gap) | major | Decision 2026-10-09: developmental feedback never moves into a discipline file automatically; only Brandon carries a dated incident, team member sees it. Seat owns "the HR record" and corrective action but has no rule. Path: drafter writes a discipline policy that pulls review notes into the file, an employee is disciplined on records never shown to them. | Seams: "I own the policy, the no-surprises rule as policy, the HR record" | Add rule: developmental feedback stays out of the discipline file; only Brandon carries a specific dated incident; employee sees what is carried |
+| C6, R6 | major | States a legal classification as fact. Counsel gate 4 and the distrust section say menu-price classification is inference and pay structure routes to counsel. Path: a draft asserts "it is wages" and counsel/Brandon read it as a conclusion. | "Classify as wages; flag every downstream wage-hour and tax consequence" / "it is wages whatever the payroll intent" | Reword: "treat as wages for drafting; classification is counsel's call." Keep the control-of-amount test as a flag, not a verdict |
+| C9 | minor | Legal conclusion asserted; kb has no meal-break row | "The unpaid premise is false" | "May not be unpaid; open question for counsel" |
+| R7 | minor | Omits counsel gate 2 stale case: page missing or stale means open question | "cite the item ... with its last_verified date" | Add: if the page is past review_every, write an open question |
+| Scope | minor | Decision 2026-10-09: HR seats stay neutral on workers' comp subscriber status. Not stated; C2 lists "safety" as mandated. | "A mandated topic (... safety) is absent" | Add line: neutral on workers' compensation subscriber or nonsubscriber; route to counsel |
+| Output | minor | Decision 2026-10-09 handbook routing is correct; "ClickUp while in review" matches CLAUDE.md | n/a | No edit |
+
+Checked clean: no em dashes, no "guest", no performed conviction, no Josephine/Sanctuary/partner references, no Korean cultural material, Rippling as candidate only, figures not written (C14), personnel action routed to Brandon, pay structure kept out of the handbook (C7, A4), kb and people-practices files exist.

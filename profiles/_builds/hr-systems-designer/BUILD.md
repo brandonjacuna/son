@@ -1,0 +1,23 @@
+# Build: hr-systems-designer
+mode: revise | started: 2026-10-09 | orchestrator: Opus 5.5 (batch 1; session also carried earlier phase 3 work)
+cluster: people-and-culture | old: HR Systems Designer.md
+
+## Worker log
+| stage | worker | model | tokens (usage) | files written |
+|---|---|---|---|---|
+| 2 | extract old profile | sonnet (profile-extractor) | 32,147 | 4 cards |
+| 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |
+| 5 | baselines T1-T3 | sonnet (profile-runner) | 13,192 | tests/T*-base.md |
+| 3 | drafter | opus | 83,820 | agent.md 9,392 B; reference 5.2 KB; provenance 6.8 KB (40 sourced old, 2 inferred, 5 project) |
+| 4 | critics so far: spec+rules a 24,248; spec+rules b 24,119; grounding a 35,628 | sonnet (profile-critic) | 83,995 | see 04-critic-*-a/b.md |
+| 4 | critic harm a | sonnet (profile-critic) | 20,516 | 2 critical 5 major 2 minor |
+| 4 | critics: harm b 21,757; grounding b 46,692 | sonnet (profile-critic) | 68,449 | harm b 2 critical 6 major 3 minor; grounding b 1 major 7 minor |
+| 4 | critic seams a | sonnet (profile-critic) | 53,095 | 4 major 4 minor |
+| 4 | critic seams b | sonnet (profile-critic) | 62,675 | 3 major 3 minor |
+| 4 | merger (harsh) | sonnet | 66,533 | 04-flags.md: 1 critical, 10 major, 5 minor |
+| 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |
+| 4 | apply judged edits (3 seats, one agent) | sonnet | 95,052 shared | edits applied |
+| 5 | with-runs T1-T3 | sonnet (profile-runner) | 23,999 | tests/T*-with.md |
+
+## Closing
+- Shipped to .claude/agents/hr-systems-designer.md on 2026-10-09; 3/3 tests pass on Sonnet; red team and Fable judgment applied; shared files: counsel-gate, people-practices, records-and-routes. Batch totals in profiles/_builds/MEASUREMENTS.md.

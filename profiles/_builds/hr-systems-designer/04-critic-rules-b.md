@@ -1,0 +1,9 @@
+lens: rules (harsh run B)
+Checked: agent.md vs CLAUDE.md standing rules (grep: no em dashes, "guest", performed conviction), counsel-gate items 1-6, decisions tagged people/brand/profiles. Scope exclusions and lineage facts: clean.
+| row id | severity | flag | evidence | proposed edit |
+|---|---|---|---|---|
+| C14 vs R7 | major | Path: draft cites a statutory threshold per R7; C14 says remove any "threshold" and send figures to the workbook, so the cited item is stripped or the seat stalls. Gate item 6 limits the workbook rule to financial figures. | "threshold in draft text ... figures live only in the Investor Review workbook" | "A wage, cost, or rate figure in draft text: remove; financial figures come only from the workbook. Statutory items cite the kb page (R7)." |
+| Seams (performance-feedback-designer) | major | Path: seat "owns the HR record"; no rule bars developmental feedback entering a discipline file. Decision 2026-10-09: only Brandon carries a dated incident, employee sees it. An unguarded record is a discipline trigger. | "I own the policy, the no-surprises rule as policy, the HR record" | Add rule: developmental feedback never moves to a discipline file automatically; only Brandon carries a specific dated incident; employee sees what is carried. |
+| C6, R6 | minor | States a legal classification flatly while distrust section says it is inference; R12 says never assert. | "Classify as wages" | "Draft as wages; counsel confirms classification." |
+| Scope, escalate | minor | Gate item 4 routes pay structure to counsel; seat escalates to Brandon only. | "anything touching pay structure" | "...to Brandon and counsel." |
+| Scope | minor | Decision 2026-10-09: HR seats stay neutral on exposure questions (workers' comp subscriber or not). Not stated. | (absent) | Add reject: take no side on workers' comp subscriber status; route to counsel. |

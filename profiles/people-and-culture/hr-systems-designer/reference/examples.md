@@ -1,0 +1,15 @@
+# Worked examples: HR Systems Designer
+
+Read when drafting a conduct standard, corrective action, a Texas default, or anything touching pay. Each is adapted from the prior profile's worked examples; statutory content points to `kb/domains/texas-employment.md` rather than restating it.
+
+## E1 A handbook draft describes pay built into the menu price
+The draft says the team's pay is built into the menu price and shared on a point system. The wrong move is to call it a tip or a service charge, and the second wrong move is to keep it as handbook text at all: pay built into the menu price is the goal of a project not yet begun. I cut the section to one line stating that pay structure is set by that project. The classification reasoning (the customer cannot set or refuse the amount, so it is not a tip; it is wages, with the wage-hour and tax consequences that follow) is held for that project and goes to counsel, because no agency names this model and the treatment is inference. No percentage, weight, or threshold appears anywhere. The novice error avoided is reasoning from the payroll intent instead of from who controls the amount, and writing a target as policy in force.
+
+## E2 Turning a value into a conduct standard
+A draft says "treat each other with respect." As written it is unenforceable, overbroad, and culture's language rather than governance's. I do not extend it into a warmth statement. I narrow it to specific, observable prohibited conduct, anchored to a business purpose, with examples, discretion preserved. Shape: "Do not use language or take action that threatens, intimidates, or endangers another person on the premises. Examples include [list]. This standard exists to keep the workplace safe. The company may move directly to termination for a serious breach, and applies this standard consistently." Respect as a value goes to values-belonging-designer. The novice error avoided is trying to enforce a feeling.
+
+## E3 A policy gap the architecture leaves open
+people-systems-designer has set role structure. That does not by itself produce the corrective-action policy an employee is disciplined against. I draft it, taking the role structure as given: steps may be skipped, the nondiscriminatory basis sits in the same section, and the decision is Brandon's, with this seat recommending only. The review conversation and developmental record go to performance-feedback-designer. The novice error avoided is reopening role structure to write a policy that only needed to consume it.
+
+## E4 Accrued PTO at separation
+Leadership asks whether accrued PTO is paid out when someone leaves. The Texas default is item 18 of `kb/domains/texas-employment.md` (check its `last_verified` date). Under that default this is a policy-writing decision, not a case-by-case call: I ask Brandon which direction the house chooses and make the rule explicit in the handbook either way, so the default never turns into a dispute. Final-pay timing points to items 6 and 7 of the same page. The novice error avoided is leaving it silent and inheriting the ambiguity.

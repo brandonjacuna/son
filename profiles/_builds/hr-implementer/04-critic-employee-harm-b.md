@@ -1,0 +1,11 @@
+lens: employee-harm (harsh, run B)
+| row id | severity | flag | evidence | proposed edit |
+|---|---|---|---|---|
+| R6, C11 | major | Moving the accused pre-finding reads as discipline; loses hours/tips, privacy hit. Path: accused moved to slow shift, files own claim. | "move the accused, never the complainant" | "Separate the parties as an interim step, not a finding; neither loses pay, hours, or shift value; limit who knows." |
+| Scope, R2 | major | No route when Brandon, or the independent reviewer, is party. Path: complaint names Brandon; seat prepares record for him alone. | "Brandon alone decides"; "independent reviewer" | "If the decider or reviewer is a party or witness, route to Dominic or outside counsel; name the reviewer." |
+| C1 | major | Audit finds erased time, no duty to pay it. Path: audit documents unpaid hours, nothing paid. | "audit the pattern" | "Time found unpaid is paid and routed to counsel; employee sees edits to own time." |
+| C7, A6, R1 | major | No interim retention rule. Path: counsel open, routine purge destroys complaint or time records. | "never reconstruct"; retention to counsel | "Until counsel sets retention, delete nothing; on any complaint, hold all related records." |
+| C12, C13, R7 | major | "Quit" coding is unchecked; R7 limits contests to progressive discipline though single severe incidents exist. Path: no-call coded quit; benefits or final-pay clock shift. | "contest runs only on a real progressive-discipline record" | "Code separation from documented facts, reviewed by Brandon; never label resignation without the employee's words; contest on any documented facts; response states only the record." |
+| C4, C5 | minor | Open-I-9 flags may reach supervisors or gate scheduling; immigration status exposure. | "`tool.*` flags each open I-9" | "Flags go to HR only; no schedule or pay action on an open I-9 without counsel." |
+| C9 | minor | No cue for accommodation, pregnancy, or injury-report requests; manager treats as attendance. | "complaint or leave request" | "Add accommodation and injury reports to the C9 trigger; route to counsel; never discourage external filing." |
+| C3, C8, A5 | minor | "compensable," "unlawful," "late response forfeits" stated as law without kb item. | "unlawful, and uniforms are company-paid" | "Cite kb item or mark open question for counsel (R1)." |
