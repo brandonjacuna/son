@@ -6,46 +6,48 @@ Card rows with no quote cannot ground a `sourced` tag; rows resting on them are 
 
 | id | tag | grounding |
 |---|---|---|
-| Scope: bar shape, wells, draft, reviewer | project | frame, Brandon's answers 2026-10-09 (seated bar, about 8 seats, two wells, split open, no draft, Brandon reviews layouts) |
-| Scope: does not decide / escalate | project | frame seam table; 03.10 (POS facing undecided) |
+| Scope: bar shape, wells, draft, reviewer | project | frame, Brandon's answers 2026-10-09 (seated bar, about 8 seats, two wells, split open, no draft, Brandon reviews layouts); seat count cited as intent, not a workbook figure (04-judgment B3, 2026-10-09) |
+| Scope: does not decide / escalate | project | frame seam table; 03.10 (POS facing undecided); back-bar and wall-board graphics to signage, bar top Brandon's (04-judgment B6, 2026-10-09; seam S13) |
 | C1 | sourced | 01.1 ("the bar stays an empty square"), 01.3 |
 | C2 | inferred | from 01.14 (contractors place equipment at existing drains; no quote) and 01.2 |
 | C3 | sourced | 01.5 ("non-value time"), 03.5 ("reachable without walking"; checklist, derived) |
 | C4 | inferred | from 01.8 (Perlick training, no quote) |
-| C5 | inferred | from 01.10 and 02.1 (Perlick training, no quote); "speed rail" definition: project (define jargon) |
+| C5 | inferred + project | "or a deep rail" dropped (04-judgment B9, 2026-10-09); from 01.10 and 02.1 (Perlick training, no quote); "speed rail" definition: project (define jargon) |
 | C6 | sourced | 01.11 ("a health code violation everywhere he has worked"); scupper definition from frame decision 6 |
-| C7 | inferred | from 03.8 (checklist, derived) |
+| C7 | inferred + project | from 03.8 (checklist, derived); bar-side edge and server-path fork (04-judgment B5, 2026-10-09; seam S12) |
 | C8 | inferred | from 01.12 (Perlick training), 03.4 (derived) |
 | C9 | inferred | from 01.15 (derived), 03.9 (derived) |
-| C10 | project | frame, Brandon's answers (sizing from the Investor Review workbook); CLAUDE.md routing (financial figures); with 03.3 (derived) |
+| C10 | project | workbook inputs and R3 (04-judgment lift from how-many-stations note, 2026-10-09); frame, Brandon's answers (sizing from the Investor Review workbook); CLAUDE.md routing (financial figures); with 03.3 (derived) |
 | C11 | project | frame decision 5 and Brandon's answers ("no invented specs"); 02 "Not usable" (blank book rows) |
 | C12 | inferred | from 03.14 (derived); frame decision 8 |
-| C13 | sourced | 06.7 ("away from sunlight and bright artificial light"), 06.1 ("in cool conditions (below 12°C/ 54°F)"), 06.9 |
-| C14 | inferred | from 03.11 (derived); frame seam (kitchen-layout) |
+| C13 | sourced + project | cold small-pour service in the cockpit (04-judgment B4, 2026-10-09); soju and cheongju storage unknown (04-judgment B8, 2026-10-09); 06.7 ("away from sunlight and bright artificial light"), 06.1 ("in cool conditions (below 12°C/ 54°F)"), 06.9 |
+| C14 | inferred + project | from 03.11 (derived); frame seam (kitchen-layout); path listed as a fork (04-judgment B7, 2026-10-09) |
 | C15 | inferred | from 05.12 (inferred on the card) and 05.10, 05.11 |
+| C16 | project | 04-judgment B4, 2026-10-09; Brandon's answers 2026-10-09 (cross-serve fork between wells open); frame decision 8 |
 | R1 | sourced | 01.2 ("no one will core-drill a new build"), 03.1 ("Critical before any slab or rough-in work."; derived) |
 | R2 | inferred + project | from 01.7 (Ellis public and Perlick training, no quote), 03.3 (derived); workbook sizing per Brandon 2026-10-09 (decisions.md, build-out) |
-| R3 | project | orchestrator note and frame research target 3 (station-count chapter not ingested); 01 "Not usable" (how many stations: needs-book) |
+| R3 | project | Ellis pro forma method per Brandon's choice 2026-10-09 and `kb/bar/tobin-ellis/book-notes/how-many-stations.md` (now ingested); workbook inputs per CLAUDE.md routing (04-judgment lift from how-many-stations note, 2026-10-09); supersedes orchestrator note and frame research target 3 (chapter not ingested) |
 | R4 | inferred | from 01.9 (Perlick training, no quote) |
-| R5 | sourced | 03.7 ("Only the hand sink is shared."; checklist, derived), 04.1 ("Hand sinks in all prep, dish, and service areas") |
-| R6 | inferred | from 02.6 (lighting conflict), 02 Tensions (book supersedes public); frame Sŏn rules (conflicts flagged) |
+| R5 | inferred + sourced | kb inference from Perlick training for the station contents (03.7, 02.5); 04.1 sourced for the APH check only (04-judgment B1, 2026-10-09); 03.7 ("Only the hand sink is shared."; checklist, derived), 04.1 ("Hand sinks in all prep, dish, and service areas") |
+| R6 | inferred + project | book figure cited first once ingested, conflict stays shown (04-judgment B9, 2026-10-09); from 02.6 (lighting conflict), 02 Tensions (book supersedes public); frame Sŏn rules (conflicts flagged) |
 | R7 | sourced | 02.13 ("before use in a layout") |
-| R8 | sourced | 05.1 ("Dining surfaces include ... bars"), 05.4 ("Sales counters and service counters shall comply with 904.4.1 or 904.4.2."); placing it before the footrail inferred from 05.12 |
+| R8 | sourced + project | accessible section on the customer side, bartender side unverified, logged (04-judgment B2, 2026-10-09); 05.1 ("Dining surfaces include ... bars"), 05.4 ("Sales counters and service counters shall comply with 904.4.1 or 904.4.2."); placing it before the footrail inferred from 05.12 |
 | R9 | inferred | from 01.13 (Ellis public, no quote), 03.13 (derived); frame Sŏn rules (cost ratio cited as Ellis's, never a Sŏn figure) |
-| R10 | sourced | 06.11 ("a low-temp unit requires chemical sanitation"), 04.3 ("3-compartment sink or commercial dishwasher") |
-| R11 | project | orchestrator note and frame decision 6 (every code item unverified, to `codes/register.yaml`); 04.6 ("adopts by reference the ... FDA Food Code 2017") |
+| R10 | sourced + project | APH question has no asker, goes to Unknowns (04-judgment B7, 2026-10-09); 06.11 ("a low-temp unit requires chemical sanitation"), 04.3 ("3-compartment sink or commercial dishwasher") |
+| R11 | project | 25 TAC 228 wording (04-judgment B10, 2026-10-09); orchestrator note and frame decision 6 (every code item unverified, to `codes/register.yaml`); 04.6 ("adopts by reference the ... FDA Food Code 2017") |
 | A1 | sourced | 01.3 ("you do not design a car body and hope the engine fits") |
 | A2 | sourced | 01.2 ("no one will core-drill a new build"), 01.14 |
 | A3 | inferred | from 01.7 (no quote) |
 | A4 | inferred | from 01.8, 01.10 (Perlick training, no quote) |
 | A5 | sourced | 01.11 ("a health code violation everywhere he has worked"), 03.12 (derived) |
 | A6 | project | frame Brandon's answers ("no invented specs"); 02 "Not usable" |
-| A7 | project | CLAUDE.md routing (financial figures only from the Investor Review workbook); frame Sŏn rules |
+| A7 | project | sizing-input wording and intent citation (04-judgment B3, 2026-10-09); CLAUDE.md routing (financial figures only from the Investor Review workbook); frame Sŏn rules |
 | Distrust 1 | sourced | 01 Tensions (Perlick training, not Ellis) |
 | Distrust 2 | sourced | 03 source line and Tensions (all items derived) |
-| Distrust 3 | sourced | 02 "Not usable" (15 blank book rows); 04.8, 04.9 (from memory, confirm); 06 "Not usable" (soju, cheongju) |
+| Distrust 3 | sourced + project | only the station-count chapter is ingested (04-judgment lift from how-many-stations note, 2026-10-09); 02 "Not usable" (15 blank book rows); 04.8, 04.9 (from memory, confirm); 06 "Not usable" (soju, cheongju) |
 | Distrust 4 | sourced | 01 Tensions (revenue lifts unverified) |
-| Seams | project | frame seam table |
+| Seams | project | frame seam table; signage row (04-judgment B6, 2026-10-09); hospitality-operations-realist hand-off wording and architect and MEP engineer row (04-judgment B12, 2026-10-09) |
+| Intro, Output | project | kb paraphrase caveat (04-judgment B11, 2026-10-09); jargon definitions, Unknowns forks, station-count note removed (04-judgment B10, B7, lift, 2026-10-09) |
 | M1 | inferred | from 02.1 (Perlick training, estimated, no quote) |
 | M2 | inferred | from 02.2 (Perlick training, estimated) |
 | M3 | inferred | from 02.3, 02.4 (Perlick training, estimated) |
@@ -84,7 +86,7 @@ Card rows with no quote cannot ground a `sourced` tag; rows resting on them are 
 - Ellis revenue lifts (30%, 70%, 231%) are his claims, unverified (01 Tensions). Not used as figures.
 
 ## Open items
-- Station count is blocked until Brandon ingests Ellis's "How Many Stations?" chapter through `book-ingest` (R3).
+- Station count runs on the ingested "How Many Stations?" note (R3); the other book dimensions stay blank until ingested through `book-ingest`.
 - Every code item (APH, Texas Food Establishment Rules adopting the FDA Food Code 2017, TAS) is unverified for Sŏn's site and goes to `codes/register.yaml`; card rows marked "from memory, confirm" (04.8, 04.9) stay unconfirmed.
 - No reference/examples.md: no card carries a verbatim example or a described case to adapt.
 
