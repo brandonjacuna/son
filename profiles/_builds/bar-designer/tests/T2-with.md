@@ -1,24 +1,32 @@
-**Verdict: reject as asked (C4, A4). The stations get duplicated, not mirrored. The symmetry you want can still be had at the front face.**
+CONCEPT / NOT FOR CONSTRUCTION
 
-**Why mirroring breaks the machine**
-- C4/A4: Mirrored wells put the expensive bottles in the left hand on one side. Clean-to-dirty flow also reverses on that side. Both bartenders train on one flow and the second one works against it.
-- R4: Each station runs one direction, clean to dirty, spirits on the dominant hand. Mixers, soda gun, and garnish go on the other hand, with top base spirits in the front row. Both stations get this same handing, so the layout is a copy, not a reflection. (Perlick-training guidance, medium trust. It is not from Ellis.)
-- R5: Each copy carries its own dump sink, trash, tool rinse (dipper well), and chilled garnish, juice, and vermouth.
+Verdict: not designed yet, and as stated it breaks a rule in the kb. The pickup is a server collection point (where servers take drinks from the bar). Per Ellis it sits directly across the bar counter from the service well, never offset (the-pickup-and-the-well, p. 57). "End of the bar, about six feet from the service well" is an offset pickup. Ellis calls splitting them one of the most common bar design errors: the bartender hand-carries drinks, and communication slows.
 
-**What reads symmetrical from the dining room**
-Customers see the bar-front, the back bar, and the wall. Those are finishes, and they come last. Both stations can sit under a matched bar-front, matched lighting, and a centered back bar while the work surfaces behind them stay duplicated. Check first whether any bar-front structure drops into the accessible knee zone (C15, M12; TAS is the Texas Accessibility Standards, `unverified` for the site).
+Priority: C16, C7, C1, R2; A1 not triggered.
 
-**CONCEPT / NOT FOR CONSTRUCTION**
-- Station A and Station B: identical handing, side by side along the run. One speed rail each (C5), at the 10 to 11 in hip-to-drink-rail maximum (M1, Perlick, `estimated`).
-- Shared: hand sink, pickup edge, barback restock path.
-- Every dimension: `unknown` unless tagged. Station width and aisle are blank in the kb (`needs-book`, C11).
+## What conflicts
+- Offset: six feet away (source: Brandon's request; the 6 ft is not from a kb note, tag `estimated`).
+- No footprint, no shape, and no well arrangement exist. Brandon recorded (2026-10-09) that applying the pickup rule is too early. A pickup position cannot be tested without a station layout (C1).
+- Whether a service well exists at all is open (C16): it is a fork, not my call.
 
-**Forks for Brandon (I do not pick)**
-1. Well arrangement: one well as a service well for dining room tickets, a split menu, or another arrangement. It changes whether the two stations are truly identical (C16).
-2. POS facing: toward customers or turned away.
-3. Centered back bar versus offset: this affects symmetry and ice and refrigeration homes (M2, M3 numbers `estimated`).
+## The goal is sound
+Keeping servers off the bar seats is the right aim. Ellis agrees the pickup should be isolated from customer traffic (p. 58). The fix is to place the pickup so that isolation and adjacency both hold, not to move it away from the well.
 
-**Unknown or open**
-- Floor sink, drain, and power positions follow the stations (R1) and are not set.
-- Code items for `codes/register.yaml`, `unverified`: APH hand sink per well; TAS 904.4 accessible section placement.
-- Hand off to environmental-signage-specialist for back bar graphics once the surface geometry is set.
+## Forks for Brandon (draw each with its print point and server pickup edge)
+1. True service well. Dedicated service well on the back side; pickup directly across the counter, in an isolated end of the bar; seats start beyond it. Cost: bar-front length against about 8 seats (Brandon's intent, 2026-10-09).
+2. Split menu between two wells. The pickup faces the well that serves dining tickets. The other well serves seats only.
+3. Pickup at the kitchen-door end, with the service well moved to that end so they face each other. Servers skip the seats and the pass is close. The bartender cockpit and the kitchen door swing become the checks (kitchen-layout not built: list as a fork).
+
+Option as requested (pickup at the door end, well mid-bar) is not drawn unless Brandon picks it knowing the offset cost.
+
+## Rule checks if any option is chosen
+- Pickup carries at least two POS terminals with printers, room for two to about six staff, trash and recycling, and storage for check presenters, silverware, menus, condiments, bus tubs, glassware (Ellis pp. 57 to 58). Six feet of counter does not fit this program.
+- The pickup must not cross a bartender's working zone at the bar edge (C7).
+- If any bar seat is a dining surface, the accessible section sits in the concept (R8; TAS 904.4 unverified; log to `codes/register.yaml`).
+
+## Unknowns
+- Bar footprint, shape, depth, pickup length, aisle: unknown (kb `needs-book`).
+- POS facing: Brandon.
+- Server path beyond the pickup (station, runner route): no seat owns it; fork for Brandon.
+- Crew tempo at peak: hospitality-operations-realist.
+- Code items (APH hand sink at the pickup, TAS): `unverified`, to `codes/register.yaml`.

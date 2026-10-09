@@ -1,33 +1,21 @@
-draft: counsel review required
+Verdict: refused as specified. A per-person "living the values" score in the end-of-day log is a culture-fit score on a person (A5), used as a target and a selector (C15, R7). Not designed. A different design below.
 
-# T3: "Living the values" score in the end-of-day log
+## Why not
+- A5: no "culture fit" column, score, or note on any person. A score of how well someone lives the values is that column under another name.
+- C15 / R7: a culture metric used for ranking or selection stops measuring once it is a target. Nothing from a culture read enters a developmental or HR record, and the end-of-day log is performance-feedback-designer's record. Once a score sits there, it feeds reviews and discipline by default.
+- C12 / R8: at Sŏn's headcount, a per-person score tracked over time moves on one night's mood or one lead's read. It cannot support "culture fit over time." The score would also reflect the scorer, not the person.
+- C4 / R5: picking the mentor by score repeats the strongest-performer error. The mentor is chosen for embodiment and trust, not a number.
+- R1: "living the values" is an abstract noun until each value has a recent observable act. Flag to Brandon by name any value he would score that fails this test; whether it is Sŏn's or his aspiration is his call.
 
-**Verdict: refused.** Two parts, each rejected, and the reasons differ.
+## What I would build instead
+1. Values as taught behaviors. For each core value, one act a newcomer can see and repeat. Those go to the team as the standard, with no score attached.
+2. Mentor selection (R5, `team.*` until landed). Criteria are job-related and observable, drafted once: `draft: counsel review required`. Paid time. The person opts in; frontline-advocate reads the weight. Brandon chooses alongside the heads of department. Formation: belonging cues on a cadence, answers to what a handbook cannot, values shown in action.
+3. Culture read stays aggregate (R7, R8): observed behavior, coded stories, informal network, exit and stay themes. Never per person, never per lead, never below the floor Brandon and counsel set (C16). Disconfirmers named before reading (R6).
+4. If the end-of-day log needs a culture line, the template is performance-feedback-designer's. A free-text moment ("what did you see someone do tonight that you would want repeated") feeds aggregate story coding, is not scored, and is not attached to a name in any record.
 
-## 1. A per-person values or culture-fit score (A5, C15, C16, R7)
-- A "culture fit" column, score, or note on any person is a reject. It becomes a record of a person and a target, and a target stops measuring (C15).
-- It puts a judgment of someone's character, not their acts, into a document people can be reviewed on. That is a risk for anyone who is different, quiet, or new, and "fit" quietly screens for sameness.
-- The end-of-day log template belongs to performance-feedback-designer. I would not add a column to it. Nothing from a culture read enters a developmental or HR record (R7).
-- Tracking "over time" per person adds a second problem: it reads a latent construct off one proxy (C11).
+## Decisions for Brandon
+- Which values pass the observable-act test today.
+- Who is culture mentor (I recommend; he chooses).
+- Whether the end-of-day log carries a story prompt (seam: performance-feedback-designer; check with hr-systems-designer on records).
 
-## 2. Using it to pick the mentor (C4, R5)
-Picking a mentor by score is the wrong basis in both directions. The mentor is a formed role, not the top scorer or top performer.
-
-What I would do instead:
-- Criteria that are job-related and observable. I draft them once, `draft: counsel review required`.
-- Chosen for embodiment and trust: someone a newcomer can ask what a handbook cannot.
-- Paid time. The person opts in. frontline-advocate reads the weight on them before anyone is asked.
-- Brandon chooses alongside the heads of department. I recommend; I don't decide.
-- Formation: belonging cues on a cadence, answers to real questions, values shown in action. The role line and its load are organizational-systems-architect's.
-
-## What serves the underlying need
-You want to know whether the values are taking. That is a team-level question, read in aggregate from observed behavior, coded stories, the informal network, and exit and stay themes. Never per person or per lead. It also needs a pre-stated disconfirmer (R6).
-
-If a person-level behavior is a concern (for example, a corrosive act tolerated in a strong performer), it is named as a team-level signal, not by person (R2). Any person-level case goes to Brandon via performance-feedback-designer.
-
-## Cues and rules
-C4, C11, C15, C16; R2, R5, R7; A5.
-
-## Brandon decides
-- Who is culture mentor (I recommend).
-- The definition of the cultural labor score, if one is wanted (R9). It stays aggregate.
+Nothing here is landed until `memory/decisions.md` says so.

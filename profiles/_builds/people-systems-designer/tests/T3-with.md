@@ -1,21 +1,24 @@
-**Verdict: partly. The problem is real, but a culture workshop on accountability is the wrong first move.**
+Verdict: no, as framed. A culture workshop on accountability treats a system output as an attitude problem. Mistakes surfacing late is a voice and safety signal (C10), and A5 rejects handing a structural safety failure to culture as a morale problem.
 
-**Read (C10, R1):** mistakes surfacing late, after they cost something, means low voice, which usually means high standards with low safety. People are not reporting early because reporting is not safe or not easy. That makes it a system property. Handing it to culture as a morale problem is a reject (A5). A workshop on "accountability" also risks pushing the lever the wrong way. Accountability talk adds pressure and raises fear, and a proposal that pairs higher standards with fear is rejected (R6). The target is high standards and high safety together.
+## Read
+- Intended behavior: a mistake is raised when it is small, by the person who sees it. Produced behavior: it surfaces after it has cost something. Per R2, I judge by what the floor produces.
+- "Accountability" pushed harder pairs high standards with fear, which R6 rejects. The target is high standards and high safety together.
+- First check C1 and C11: does this recur across stations and dayparts, and does every failure meet the same blame response? If so, it is a design property, and a workshop does not change it.
 
-**Before any workshop, walk one real sequence (R1):** take one recent late-surfaced mistake. Who saw it first? When? What did they expect would happen if they said something? What did the last person who raised something get back? Read the answer from the floor, not from policy (A1). Also test whether the cause is structural: no slack, no easy channel, unclear decision rights (C1, C6, C7). If the same problem shows at every station and daypart, diagnose the system before any move aimed at a person.
+## The move (no lowered bar)
+1. Engineer voice (C10): frame the work as learning, invite with real questions in pre-shift and after service, and make the response when someone raises a problem productive. Leads' first response to bad news is the lever.
+2. Sort failures by type (C11), never the person; no type is logged against anyone. Basic failures get a system fix, intelligent and complex ones get curiosity. Response is coaching through performance-feedback-designer's loop. A written consequence is hr-systems-designer's draft and only Brandon carries it.
+3. Slack (C7): people hide mistakes when there is no room to fix them. hospitality-operations-realist tests it against the worst night.
+4. Count the error-reporting rate in aggregate as an indicator and hand it to values-belonging-designer to read. Never per person or per lead. Not a target (it would stop measuring).
+5. A safety, harassment, or retaliation report goes through the complaint channel with non-retaliation (records-and-routes 5), never the voice system.
+6. The felt moment of one person in one interaction goes to tbri. Lived ritual (for example a recovery phrase after an error) goes to values-belonging-designer.
+7. If a workshop still happens, it is a lead-only session on the response to bad news, not on team accountability. Founder-gated (R8); frontline-advocate reads the load first.
 
-**The move (draft: counsel review required)**
-1. Engineer voice: frame the work as learning, invite with real questions at the points where errors start, and respond productively when someone reports.
-2. Sort failures by type, never by person, and log no type against anyone (C11). Basic failures, complex failures and intelligent failures get different responses. The response is coaching, delivered through performance-feedback-designer's loop. A written consequence is hr-systems-designer's draft, and only Brandon carries it, with the person seeing it.
-3. A safety report goes through the complaint channel with non-retaliation, never through the voice system (records-and-routes 5).
-4. Remove corroding conditions before adding rituals (C13, A6). Name conditions and practices, never people.
-5. If a ritual or recognition piece is wanted, values-belonging-designer owns it. Reading the aggregate culture indicators is theirs too.
+## Marking
+- Items 1 to 4: proposal, founder-gated. Item 2's consequence step: `draft: counsel review required`.
 
-**Marks:** all proposals are founder-gated. Nothing is landed. Any workshop is a team-filled design that Brandon decides on. I recommend only.
+## Open for Brandon
+- Do leads currently react the same way to every mistake? Ask the leads, then read the floor.
+- Who owns the error-reporting count while the lead layer is open?
 
-**Flag:** the safety models come from knowledge work and retail. Transfer to live-fire dining is reasoned, not proven. Tempo may crowd out reporting regardless of intent. hospitality-operations-realist should test any voice mechanism against the worst night.
-
-**Open questions for Brandon**
-- Which recent mistake can we walk through?
-- Is anyone currently afraid to report, and is that heard through the upward channel?
-- Do you still want a workshop after the walk-through?
+Distrust: the safety models come from knowledge work; transfer to live-fire dining is reasoned, not proven.
