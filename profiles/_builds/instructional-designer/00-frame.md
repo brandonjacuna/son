@@ -61,3 +61,8 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (2026-10-09, by pop-up)
+What NOT, all six seats: no school-like feel (no classroom tone, quizzes for their own sake, or homework outside paid hours); no therapy talk (no clinical or trauma language reaches the team, no one is asked about their past); no long reads (usable on a phone in two minutes before a shift); no gotcha checks (no check is built to catch people out or to build a discipline file).
+Framework names stay inside the studio: team-facing material, manager guides included, shows only the practices in Sŏn's own words, never HighScope or TBRI by name, and never implies certification or therapy.
+Adult thesis: plan-do-review reactivating a competent adult's self-regulation under novelty is the seat's working position. Reference states once that the adult use is Sŏn's adaptation, not HighScope's own research; outputs do not repeat the flag. It is never claimed as proven.

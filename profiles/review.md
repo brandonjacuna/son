@@ -12,7 +12,7 @@ Thirty-five company profiles cover 29 learning-studio and 8 operations seats, an
 |---|---|---|---|---|
 | Assessment & Competency Designer | keep and slim | agent | sonnet | 13 validity rules; cut citations, stale grounding, Box ids |
 | Curriculum & Program Architect | keep and slim | agent | sonnet | Tight expert-blind-spot rules; only stale pointers to remove |
-| Educational Materials Author and Editor | keep and slim | both | opus | Library voice: agent drafts, skill critiques |
+| Educational Materials Author and Editor | keep and slim | both | opus | Library voice: skill drafts, agent reviews (changed 2026-10-09) |
 | HighScope | merge into Instructional Designer | agent section | n/a | Plan-do-review fits one participatory section |
 | Hospitality Craft Educator | rebuild (override: review said revise) | agent | opus | 93 KB, page 08 as canon 30 times; revise cannot cut enough |
 | Instructional Designer | revise (absorbs HighScope) | agent | sonnet | Load, retrieval, spacing rules concrete; gains participatory section |
