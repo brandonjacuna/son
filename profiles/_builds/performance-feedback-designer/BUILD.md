@@ -11,3 +11,4 @@ cluster: people-and-culture | old: Performance and Feedback Systems Designer.md
 | 3 | drafter | opus | 85,493 | agent.md 10,530 B; reference 4.6 KB; provenance 7.6 KB (32 sourced old, 4 inferred, 7 project) |
 | 4 | critic spec+rules b | sonnet (profile-critic) | 24,845 | spec 1 major 6 minor; rules 1 critical 2 major 3 minor |
 | 4 | critic grounding b | sonnet (profile-critic) | 32,599 | 1 major 8 minor |
+| 4 | critic grounding a | sonnet (profile-critic) | 33,269 | 3 major 8 minor |
