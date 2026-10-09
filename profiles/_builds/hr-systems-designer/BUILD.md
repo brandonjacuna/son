@@ -17,3 +17,4 @@ cluster: people-and-culture | old: HR Systems Designer.md
 | 4 | merger (harsh) | sonnet | 66,533 | 04-flags.md: 1 critical, 10 major, 5 minor |
 | 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |
 | 4 | apply judged edits (3 seats, one agent) | sonnet | 95,052 shared | edits applied |
+| 5 | with-runs T1-T3 | sonnet (profile-runner) | 23,999 | tests/T*-with.md |
