@@ -15,3 +15,4 @@ cluster: people-and-culture | old: Performance and Feedback Systems Designer.md
 | 4 | critics: harm a 20,546; harm b 21,869; spec+rules a 31,610 | sonnet (profile-critic) | 74,025 | harm a 1 critical 7 major; harm b 3 critical 3 major; rules a 2 major |
 | 4 | critics: seams a (usage lost), seams b 51,656 | sonnet (profile-critic) | 51,656+ | seams b 3 major 4 minor |
 | 4 | merger (harsh) | sonnet | 71,781 | 04-flags.md: 5 critical, 6 major, 7 minor (all raised by both runs) |
+| 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |

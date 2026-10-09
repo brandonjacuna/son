@@ -13,3 +13,4 @@ cluster: people-and-culture | old: Culture Implementer.md
 | 4 | critics: harm 19,955; grounding 31,164; spec+rules 26,158 | sonnet (profile-critic) | 77,277 | harm 2 critical 3 major 3 minor; grounding 6 minor; rules 1 major 4 minor; spec 6 minor |
 | 4 | critic seams | sonnet (profile-critic) | 46,237 | 1 critical, 3 major, 5 minor |
 | 4 | merger | sonnet | 59,926 | 04-flags.md: 2 critical, 6 major, 6 minor |
+| 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |

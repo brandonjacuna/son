@@ -11,3 +11,4 @@ cluster: scaling-people | old: Hospitality Operations Realist.md
 | 3 | drafter | opus | 80,820 | agent.md 9,985 B; reference 5.5 KB; provenance 5.2 KB (36 sourced old, 3 inferred, 3 project) |
 | 4 | critics (grounding, spec+rules, seams) | sonnet (profile-critic) | 28,395 + 26,988 + 35,567 | 0 critical, 6 major, 18 minor |
 | 4 | merger | sonnet | 58,872 | 04-flags.md: 0 critical, 5 major, 12 minor |
+| 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |
