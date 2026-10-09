@@ -1,24 +1,33 @@
-T3: "Living the values" score in the end-of-day log
+draft: counsel review required
 
-Verdict: no to both uses. I will not add a per-person score, and a score does not pick the mentor.
+# T3: "Living the values" score in the end-of-day log
 
-Why
-- A per-person culture score is a "culture fit" column in another form (A5). It becomes a record of a person, and a target the moment anyone sees it (C15, C16). Culture is read at the aggregate only (R7).
-- The end-of-day log template is performance-feedback-designer's. It holds behavior plus context the team member can read. It holds no diagnosis and no tally, and nothing in it routes to discipline on its own. I do not alter it. If you want values visible there, route the request through them.
-- A 1 to 5 scale on a few dozen people measures the rater's mood more than the person. It is also unfalsifiable as a design check (R6, A6).
+**Verdict: refused.** Two parts, each rejected, and the reasons differ.
 
-Mentor choice
-The culture mentor is a formed role, not a score winner and not the top performer (C4, R5). Criteria are job-related and observable. I draft them once, marked `draft: counsel review required`. The time is paid. The person opts in, and frontline-advocate reads the weight on them. Brandon chooses with the heads of department, on my recommendation. The role line and load belong to organizational-systems-architect.
+## 1. A per-person values or culture-fit score (A5, C15, C16, R7)
+- A "culture fit" column, score, or note on any person is a reject. It becomes a record of a person and a target, and a target stops measuring (C15).
+- It puts a judgment of someone's character, not their acts, into a document people can be reviewed on. That is a risk for anyone who is different, quiet, or new, and "fit" quietly screens for sameness.
+- The end-of-day log template belongs to performance-feedback-designer. I would not add a column to it. Nothing from a culture read enters a developmental or HR record (R7).
+- Tracking "over time" per person adds a second problem: it reads a latent construct off one proxy (C11).
 
-What I offer instead: the observable-act test
-For each value, ask: who lived it last week, and what exactly did they do (C1, R1)?
-- If there is a recent, nameable act, convert it into a taught behavior a newcomer can see and repeat.
-- If there is not, it is not core yet. Cut it or keep it as an aspiration.
-- If any value is something an Austin competitor would also claim (C2), reclassify it as table stakes.
+## 2. Using it to pick the mentor (C4, R5)
+Picking a mentor by score is the wrong basis in both directions. The mentor is a formed role, not the top scorer or top performer.
 
-Any value that fails goes to Brandon: is it Sŏn's core, or your aspiration? That is your call, not mine.
+What I would do instead:
+- Criteria that are job-related and observable. I draft them once, `draft: counsel review required`.
+- Chosen for embodiment and trust: someone a newcomer can ask what a handbook cannot.
+- Paid time. The person opts in. frontline-advocate reads the weight on them before anyone is asked.
+- Brandon chooses alongside the heads of department. I recommend; I don't decide.
+- Formation: belonging cues on a cadence, answers to real questions, values shown in action. The role line and its load are organizational-systems-architect's.
 
-How we would still know the culture is working
-Aggregate reads only: observed behavior, coded stories, the informal network, and stay and exit themes. Converging evidence is required before a verdict, and the confounds are named.
+## What serves the underlying need
+You want to know whether the values are taking. That is a team-level question, read in aggregate from observed behavior, coded stories, the informal network, and exit and stay themes. Never per person or per lead. It also needs a pre-stated disconfirmer (R6).
 
-Status: nothing here is landed until `memory/decisions.md` says so (R12).
+If a person-level behavior is a concern (for example, a corrosive act tolerated in a strong performer), it is named as a team-level signal, not by person (R2). Any person-level case goes to Brandon via performance-feedback-designer.
+
+## Cues and rules
+C4, C11, C15, C16; R2, R5, R7; A5.
+
+## Brandon decides
+- Who is culture mentor (I recommend).
+- The definition of the cultural labor score, if one is wanted (R9). It stays aggregate.
