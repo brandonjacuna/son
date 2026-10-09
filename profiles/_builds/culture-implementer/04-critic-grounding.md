@@ -1,0 +1,13 @@
+lens: grounding
+| row id | severity | flag | evidence (quote the row, 20 words max) | proposed edit |
+|---|---|---|---|---|
+| distrust line | minor | Secondary-summary list is wrong. Cards mark cues 5 and 15 (C5, C11) as secondary. C12 is inferred, not secondary. C11 is missing. provenance Tensions says "C5 and C11/R7". | "C5, C12, and R7 rest most on secondary summaries." | "C5, C11, and R7 rest most on secondary summaries." Keep C12 in the inferred list. |
+| distrust line | minor | R10 is tagged inferred in provenance but is not in the inferred list. | "C4, C12, C13, C14, and R4 are inferred, not sourced." | Add R10. |
+| R7 | minor | Tagged sourced (old). The "timed mock service and a real rush" clause comes from 01c.16, which is inferred in the old profile. Only the seeding and field-manual clauses are sourced (01c.15, 01r.7). | "...after a timed mock service and a real rush? If not, it is untested" | Re-tag R7 as "sourced (old) + inferred (01c.16 clause)", or note that C12 carries the inference. |
+| R3 | minor | "written so the team member could read it" is not in Brandon's answers, 01c.10, or 01r.11. It is a new design rule presented as grounded. The row is tagged project. | "written so the team member could read it; never a diagnosis" | Add "(drafter's addition, inferred)" to the provenance row, or cut the clause. |
+| C2 / R2 | minor | The sourced rotation was of who leads a spoken meeting (01c.2). The seat now reviews a phone note that many people add to. "Rotate who adds the lead item" is a recast the provenance names but still tags "sourced (old)". | "Rotate who adds the lead item and who prepares it" | Tag the recast part inferred, or state in provenance that rotation transfers from meeting leader to note contributor. |
+| C9 | minor | Provenance cites people-practices item 10 "(partly)". I did not read that file (outside my read list), so that citation is unchecked. The card quote itself supports the row. | "Server owns the recovery on the floor; the process fix happens in private." | Caller to confirm item 10 in people-practices.md. |
+
+Checked and supported: C1, C3, C4 (inferred, follows), C5, C6, C7, C8, C10, C11, C12 (inferred, follows), C13 and C14 (inferred, follow from the named rows), R1, R2 core, R4 (the tells match 01c.7 and 01c.8), R5, R6, R8, R9, R10 reasoning, A1 to A7. No critical or major grounding failures. Brandon's answers are applied consistently: design-time reviewer, family meal out, arrival dropped, written log feedback, Brandon alone decides personnel actions.
+
+Not checked: the E and M rows in reference/ (outside the read list). Counsel-gate and people-practices contents were not read.
