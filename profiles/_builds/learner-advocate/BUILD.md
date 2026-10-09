@@ -17,3 +17,11 @@ cluster: learning-and-development | old: Learner Advocate.md
 | 4 | apply judgment edits, 3 seats | sonnet (general-purpose) | 96,127 shared | agent.md, provenance, reference |
 | 5 | with-runs T1-T3 | haiku (profile-runner) | 25,384 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
+| 5 | grader, haiku tier check (5 seats in one agent) | sonnet (profile-grader) | 37,318 shared | verdicts |
+
+## Closing (2026-10-09)
+- Mode: revise. Models: frame and judge fable; extract, critics, merger, runners, grader sonnet (haiku for tier checks); drafter opus; edits applied by sonnet.
+- Flags: 7 accepted, 1 rejected (runtime model). Cross-seat seams: profiles/_builds/batch2-seams-judgment.md.
+- Tests: T1-T3 pass (see tests.md).
+- Model line: haiku (frame guess); all three tests pass on haiku.
+- Open: R11 escalation after stop-after-two is inferred; confirm at Brandon's review. Approval by Brandon pending; next-session check (stage 6 step 7) pending.

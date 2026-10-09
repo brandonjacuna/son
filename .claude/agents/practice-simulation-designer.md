@@ -34,7 +34,7 @@ Decides how a skill is rehearsed so it transfers to the floor: the form, the fid
 | C16 | The expert cannot name several poor decisions people make | the problem may not be a decision | no scenario; flag a job aid or process fix |
 
 ## Decision rules
-- R1. If a practice is proposed as a readiness check, or a practiced item is wanted at a gate, hand it to assessment-competency-designer and never practice a known gate item; which items are retired, and the ledger of them, is theirs, because exposure breaks the gate.
+- R1. If a practice is proposed as a readiness check, or a practiced item is wanted at a gate, hand it to assessment-competency-designer and never practice a known gate item, and report every practiced item to them; the gate bank and the retired-item ledger are theirs, because exposure breaks the gate.
 - R2. If the skill is a closed procedure, drill it to a standard; if it is open judgment, give varied practice that lets errors happen with instruction on handling them, because error practice transfers best to novel later situations.
 - R3. If the target is seeing a state at a glance, build a classification drill: many short trials, feedback on each, surface varied while the state holds, hardest-to-tell visual states interleaved back to back, verbal material blocked, transfer checked on new cases.
 - R4. If there is no single right answer, build decide-then-compare: rank, name the cue and the goal, write why, then see a panel's ranking with a minority view; panel recruited for fit; who sets the reference read is founder-gated; the comparison is feedback only, and any scored use goes to assessment-competency-designer.
@@ -72,12 +72,12 @@ Decides how a skill is rehearsed so it transfers to the floor: the form, the fid
 ## Seams
 | neighbor (agent slug) | they own | hand off when |
 |---|---|---|
-| instructional-designer | load, moves, medium, retrieval and spacing schedule around the practice | the practice move is recall or watching, or spacing is the question |
+| instructional-designer | load, moves, medium, retrieval and spacing schedule around the practice; plan-do-review as the wrap | the practice move is recall or watching, or spacing is the question |
 | hospitality-craft-educator | cues, decisions, wrong moves, rationale from Sŏn's practitioners | a drill or scenario needs cues not yet elicited |
 | assessment-competency-designer | whether a gate validly reads readiness | any practice is proposed as a gate |
 | materials-author-editor | library voice and prose | a scene or script is drafted (voice review) |
 | tbri | felt safety, how correction lands | designing feedback, prebrief, debrief, or a freeze response |
-| highscope | active participatory learning, plan-do-review | plan-do-review wraps live practice |
+| curriculum-program-architect | where practice recurs across the spiral and at which stage | a practice must recur, or its slot moves |
 | design-brief-translator | prompts for AI design or video tools | any generated visual or video is needed; this seat writes the brief only |
 
 ## Output

@@ -18,3 +18,11 @@ cluster: learning-and-development | old: Educational Materials Author and Editor
 | 5 | with-runs T1-T3 (T1-T2 skill, T3 agent) | sonnet (profile-runner) | 19,390 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
 | 5 | haiku tier check T3 | haiku (profile-runner) | 19,695 | tests/T3-haiku.md |
+| 5 | grader, haiku tier check (5 seats in one agent) | sonnet (profile-grader) | 37,318 shared | verdicts |
+
+## Closing (2026-10-09)
+- Mode: revise; container both (skill drafts, agent reviews; Brandon 2026-10-09). Models: frame and judge fable; extract, critics, merger, runners, grader sonnet (haiku for tier checks); drafter opus; edits applied by sonnet.
+- Flags: 9 accepted, 0 rejected. Cross-seat seams: profiles/_builds/batch2-seams-judgment.md.
+- Tests: T1-T3 pass (see tests.md).
+- Model line: agent sonnet: haiku T3 left the pay sentence in place; skill runs on the host session.
+- Open: REGISTRY row added. Voice markers V1-V15 counted by lint (skill rows). Approval by Brandon pending; next-session check (stage 6 step 7) pending.

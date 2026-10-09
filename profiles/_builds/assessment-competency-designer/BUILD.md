@@ -23,3 +23,11 @@ cluster: learning-and-development | old: Assessment & Competency Designer.md
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 17,693 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
 | 5 | haiku tier check T2, T3 | haiku (profile-runner) | 19,754 | tests/T*-haiku.md |
+| 5 | grader, haiku tier check (5 seats in one agent) | sonnet (profile-grader) | 37,318 shared | verdicts |
+
+## Closing (2026-10-09)
+- Mode: revise, harsh (every lens twice + employee-harm). Models: frame and judge fable; extract, critics, merger, runners, grader sonnet (haiku for tier checks); drafter opus; edits applied by sonnet.
+- Flags: 15 accepted (2 critical), 0 rejected, 1 to Brandon (retry cap: none; escalate by count). Cross-seat seams: profiles/_builds/batch2-seams-judgment.md.
+- Tests: T1-T3 pass (see tests.md).
+- Model line: sonnet: haiku passed T2 and T3 but hedged on record wording; kept by stakes.
+- Open: Core 12.0 KB, near cap: 7 cues and 5 rejects moved to reference/models.md. 01-old-cues card 1% over, accepted. Approval by Brandon pending; next-session check (stage 6 step 7) pending.

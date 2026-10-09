@@ -19,3 +19,11 @@ cluster: learning-and-development | old: TBRI.md
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 17,883 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
 | 5 | haiku tier check T1, T3 | haiku (profile-runner) | 19,992 | tests/T*-haiku.md |
+| 5 | grader, haiku tier check (5 seats in one agent) | sonnet (profile-grader) | 37,318 shared | verdicts |
+
+## Closing (2026-10-09)
+- Mode: revise + employee-harm lens. Models: frame and judge fable; extract, critics, merger, runners, grader sonnet (haiku for tier checks); drafter opus; edits applied by sonnet.
+- Flags: 9 accepted (1 critical: disclosure routing without consent), 0 rejected. Cross-seat seams: profiles/_builds/batch2-seams-judgment.md.
+- Tests: T1-T3 pass (see tests.md).
+- Model line: sonnet: haiku T1 allowed a consented record of a disclosure.
+- Open: none Approval by Brandon pending; next-session check (stage 6 step 7) pending.

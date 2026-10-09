@@ -19,3 +19,11 @@ cluster: learning-and-development | old: Instructional Designer.md + HighScope.m
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 19,165 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
 | 5 | haiku tier check T1, T2 | haiku (profile-runner) | 25,015 | tests/T*-haiku.md |
+| 5 | grader, haiku tier check (5 seats in one agent) | sonnet (profile-grader) | 37,318 shared | verdicts |
+
+## Closing (2026-10-09)
+- Mode: merge (old Instructional Designer + HighScope as the participatory rows). Models: frame and judge fable; extract, critics, merger, runners, grader sonnet (haiku for tier checks); drafter opus; edits applied by sonnet.
+- Flags: 9 accepted, 0 rejected. Cross-seat seams: profiles/_builds/batch2-seams-judgment.md.
+- Tests: T1-T3 pass (see tests.md).
+- Model line: haiku: T1 and T2 hold on haiku.
+- Open: Core 11.9 KB; C13, C14 moved to reference/examples.md. R9 aligned to Brandon's peer-draft answer before red team. Approval by Brandon pending; next-session check (stage 6 step 7) pending.
