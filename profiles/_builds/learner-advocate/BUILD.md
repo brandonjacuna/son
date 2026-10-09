@@ -8,3 +8,4 @@ cluster: learning-and-development | old: Learner Advocate.md
 | 0 | frame + tests, all 6 seats (one agent) | fable | 146,414 shared (~24k per seat) | 00-frame.md, 00-tests.md |
 | 2 | extract old profile | sonnet (profile-extractor) | 32,159 | cards |
 | 5 | baselines T1-T3 | haiku (profile-runner) | 13,328 | tests/T*-base.md |
+| 3 | drafter | opus | 79,445 | agent.md 9,137 B; reference 2.7 KB; provenance 6.1 KB (24 sourced, 7 project, 1 project+inferred; R11 escalation inferred) |
