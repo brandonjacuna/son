@@ -11,6 +11,7 @@ One owner per trigger. Before adding a skill or command, check its triggers agai
 | `interview` | any decision or clarification as pop-ups | Every session | |
 | `skill-scanner` | scan, audit, or vet a skill before adoption | Every session | Vendored, see its `SOURCE.md` |
 | `profile-build` | build, rebuild, revise, slim, or merge a specialist profile (`/profile-build <slug> [mode]`) | Profiles | User-invoked. Replaces learning-studio `build-profile` and `validate-profile` (salvaged, inert) and `profile-forge` (retired 2026-10-07, M3); final approval after the session B test rebuild |
+| `materials-author-editor` | draft the module, write this in library voice, edit or redline a peer draft, update the template, style guide, or forbidden list | Learning studio | Generated from `profiles/learning-and-development/materials-author-editor/skill/`; drafts in the session, the `materials-author-editor` agent reviews cold. Not for brand, investor, or founder copy |
 | `intake` | build-out photo, sketch, markup, spec sheet, contract, design idea | Build-out | |
 | `equipment-record` | equipment YAML from a spec sheet or model number | Build-out | |
 | `book-ingest` | reading notes from a reference book | Build-out kb | |

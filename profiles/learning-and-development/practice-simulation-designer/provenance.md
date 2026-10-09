@@ -21,7 +21,7 @@ Build: `profiles/_builds/practice-simulation-designer/` (2026-10-07). Cards 01 t
 | C13 | sourced | 08.1, 08.2 ("entertainment, interaction novelty, and usability, beyond the quality of learning"), 08.6; edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
 | C15 | inferred | from 01.18, 02.11, 03.7; old rule R22 was itself inferred; frame research gap 1 (no source) |
 | C16 | sourced | 07.7 ("the core problem might not be poor decisions, and the solution might not be a scenario."), 07.2 |
-| R1 | project | Brandon's answer 2026-10-07 (must NOT let practice become a pass or fail check); frame decision 1 and seam table; supported by 02.9, 03.11 (sourced (old)); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
+| R1 | project | Brandon's answer 2026-10-07 (must NOT let practice become a pass or fail check); frame decision 1 and seam table; supported by 02.9, 03.11 (sourced (old)); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them; 04-judgment AC12, 2026-10-09 (project) |
 | R2 | sourced and sourced (old) and inferred | sourced: error-management transfer clause, 06.2 ("error management training yielded greater transfer outcomes"), 06.4; sourced (old): closed-procedure drill clause, 02.2; inferred: split by kind beyond 06.1 (D1) |
 | R3 | sourced (old) | 02.3, 02b.1, 04 example 4 (surface varied, state held, new cases) |
 | R4 | sourced (old) | 02.5, 04 example 3; founder-gated reference read: project (frame Sŏn rules); edited 2026-10-07 at stage 4 (red team, Fable judge); added clauses are `project` (Sŏn employee-protection rule) unless a card supports them |
@@ -63,6 +63,7 @@ Build: `profiles/_builds/practice-simulation-designer/` (2026-10-07). Cards 01 t
 | M10 | sourced | 08.9 (abstract-level; no quote on card) |
 | M11 | sourced | 08.10 (abstract-level; no quote on card) |
 | M12 | sourced (old) | 02.15 ("Each absence is the diagnosis."), 02.16 |
+| Seams | project | 04-judgment CP3, ID1, 2026-10-09 (highscope row replaced by curriculum-program-architect; instructional-designer row extended with plan-do-review as the wrap) |
 
 Tags: `sourced` (an extraction row with a quote), `sourced (old)` (carried from a prior profile, not re-verified), `inferred` (reasoned from named rows), `project` (a Sŏn fact or rule, with its location).
 

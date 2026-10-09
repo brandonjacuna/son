@@ -51,6 +51,7 @@ Cards: `profiles/_builds/hr-systems-designer/extract/` (01-old-cues, 01-old-rule
 | M7 | sourced (old) + project | 01r.14 |
 | M8 | sourced (old) | 01s.7 "two poles of People and Culture, not a sequence"; 01s.14; 01-examples example 3 (ninety-day-plan policy dropped: V7 Part II, not landed) |
 | M9 | sourced (old) + project | 01s.16; people-practices target 10 (blame the process, partly confirmed) |
+| Seams: assessment-competency-designer | project | 04-judgment AC14, 2026-10-09 (batch2-seams S7) |
 
 Counts: sourced 40 (of which 7 also carry a project fact), inferred 2, project 5. Total 47.
 

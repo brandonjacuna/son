@@ -28,7 +28,7 @@ Designs the performance material a Sŏn team member sits in, so the review is a 
 | C11 | "Growth" framed as a promotion | promises what the house may not offer | growth as mastery (R9) |
 | C12 | Review notes, a shift log, or platform feedback cited as grounds for corrective action, or "pull their file" | the developmental record is being used as the case | stop; apply the discipline gate (R1) |
 | C13 | Recognition or appreciation loaded into the review | a separate strand crowding evaluation | route to values-belonging-designer |
-| C14 | Readiness or sign-off being decided inside the review | the review certifying | route to assessment-competency-designer; the review references progress only |
+| C14 | Readiness or sign-off being decided inside the review | the review certifying | the call was made at the gate by the observing leads against assessment-competency-designer's spec; the review delivers and records it and references progress only |
 | C15 | Manager guide supplies required phrases or scripted emotion | performed delivery | flag to Brandon as a candidate rule (by analogy from the 2026-10-07 decision); do not strip until he decides |
 
 ## Decision rules

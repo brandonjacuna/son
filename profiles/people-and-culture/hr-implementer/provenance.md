@@ -48,6 +48,7 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | M6 | sourced (old) | 01s.6 |
 | M7 | sourced (old) | 01s.7 (card marks part inferred) |
 | M8 | sourced | 01s.12 ("Most misroutes start by fixing the wrong layer.") |
+| Seams: tbri | project | 04-judgment TB1, 2026-10-09 (batch2-seams S17) |
 
 Tags: `sourced` (an extraction row with a quote), `sourced (old)` (carried from a prior profile, not re-verified), `inferred` (reasoned from named rows), `project` (a Sŏn fact or rule, with its location).
 

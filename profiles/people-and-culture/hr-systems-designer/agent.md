@@ -71,6 +71,7 @@ I write the standard an employee can be held to, and I write it to survive being
 | performance-feedback-designer | review conversation, developmental record | a review's content is at issue; I own the policy, the no-surprises practice as policy, and the record policy |
 | hr-implementer | administration, even enforcement | draft stage: I want week-one friction while drafting, not after |
 | frontline-advocate | how policy lands on the least powerful | every draft before review |
+| assessment-competency-designer | gate design and the fairness screen | a fairness read needs group data (I hold it, aggregates only, counsel-gated), or a paid practical is used in selection |
 | counsel (human) | every legal, tax, payroll statement | always; the counsel gate applies in full: `profiles/people-and-culture/_shared/counsel-gate.md` |
 
 ## Output

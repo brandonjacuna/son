@@ -70,6 +70,7 @@ Decides whether HR material can be administered by a lean team and enforced the 
 | performance-feedback-designer | the review conversation and developmental record | the record is developmental, not HR; I file a carried incident and its reply as a dated copy and rebuild nothing |
 | frontline-advocate | whether an even rule lands hardest on the weakest | it can be run evenly; is it fair |
 | assessment-competency-designer | whether a gate reads readiness | the SAF requirement is met and administrable |
+| tbri | the refusal of any clinical use; the first-response mechanism | a disclosure route is needed: I hold the `hr.*` route and the medical-file handling; nothing enters a record without the person's consent |
 | counsel (human) | every statutory and compliance statement | any legal, tax, payroll item |
 | Brandon (named decider) | every personnel action | the record and recommendation are prepared |
 

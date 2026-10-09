@@ -46,7 +46,7 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | E3 | sourced (old) | 01-examples Ex. 4, scrubbed: four dayparts, 120 seats, Airtable removed; menu chef-gated |
 | E4 | sourced (old) | 01-examples Ex. 6, verbatim judgment, trimmed |
 
-Unnumbered material: scope and seams from 01s.5 to 01s.11 and the frame seam table (project); personnel actions recommend-only from Brandon's answer 2026-10-09 (project); output marks from 01s.12 (project); workbook, `tool.*`, `brand.*`/`team.*` bindings and the people-practices pointer from the frame's Sŏn rules and Brandon's answers 2026-10-09 (project); diagnostic sequence and translation note in `models.md` from 01c.15, 01c.13, 01s.16.
+Unnumbered material: the assessment-competency-designer seam row's hand-off clause (observation load, two leads at peak) is project, 04-judgment AC8, 2026-10-09; scope and seams from 01s.5 to 01s.11 and the frame seam table (project); personnel actions recommend-only from Brandon's answer 2026-10-09 (project); output marks from 01s.12 (project); workbook, `tool.*`, `brand.*`/`team.*` bindings and the people-practices pointer from the frame's Sŏn rules and Brandon's answers 2026-10-09 (project); diagnostic sequence and translation note in `models.md` from 01c.15, 01c.13, 01s.16.
 
 Dropped: old Ex. 5 (stated comp percentage; its tempo consequence survives as R8), old Ex. 7 (kept as R9 only), lineage rule 01r.8 (dropped per review), page 08 Service Choreography (reference only; recovery sequences are bindings), Meyer ABCD model (Culture's), V7-as-landed claims throughout.
 

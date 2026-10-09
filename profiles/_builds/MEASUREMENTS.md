@@ -57,3 +57,21 @@ Six seats: hospitality-operations-realist (revise), frontline-advocate (merge wi
 | Red team | 96 merged flags; 94 accepted whole or part, 1 rejected, 1 to Brandon (recusal) |
 | Grounding found | the old HR Implementer had 5 of 19 statutory items wrong or outdated (kb/domains/texas-employment.md) |
 | Limits hit | the 20-agent concurrency cap and one session usage limit (five workers lost and rerun or recovered) |
+| 2026-10-09 | assessment-competency-designer | 89.3 KB | 14.7 KB | 12.0 KB (~3068 tok) | 8.6 KB | | | |
+| 2026-10-09 | curriculum-program-architect | 54.2 KB | 10.9 KB | 10.8 KB (~2767 tok) | 4.8 KB | | | |
+| 2026-10-09 | materials-author-editor | 59.4 KB | 14.8 KB | 15.7 KB (~4024 tok) | 4.1 KB | | | |
+| 2026-10-09 | instructional-designer | 80.6 KB | 31.6 KB | 11.9 KB (~3050 tok) | 8.1 KB | | | |
+| 2026-10-09 | learner-advocate | 54.3 KB | 12.6 KB | 9.6 KB (~2458 tok) | 2.6 KB | | | |
+| 2026-10-09 | tbri | 64.6 KB | 12.2 KB | 11.5 KB (~2950 tok) | 5.2 KB | | | |
+
+## Batch 2 (learning-studio module seats), 2026-10-09
+Six seats: assessment-competency-designer (revise, harsh), curriculum-program-architect, materials-author-editor (skill + agent), instructional-designer (merge with HighScope), learner-advocate, tbri (+ employee-harm lens).
+| Measure | Result |
+|---|---|
+| Per-call load | 9.6 to 12.0 KB per agent (about 2,450 to 3,070 tokens). Materials: skill 5.6 KB in the session, agent 10.1 KB called separately (the 15.7 KB row adds both; they never load together) |
+| Worker tokens | about 2.42M for the batch, about 400k per seat (batch 1: about 540k). By stage: frame 146k, extract 230k, draft 482k, red team and edits 1.20M, tests 356k |
+| Savings that worked | one sonnet runner for five seats' baselines (23k); critics paired two seats per agent for standard lenses (20 critics instead of 26); one merger and one Fable judge for six seats; three Sonnet agents applied the judge's edits instead of the orchestrator |
+| Tests | 18 of 18 pass; no test the baseline also passes; three thin margins noted in tests.md |
+| Model line | instructional-designer moves to haiku (both hardest tests hold); learner-advocate holds on haiku; curriculum, materials, and tbri stay sonnet (haiku missed a recent-hire read, the pay sentence, and a disclosure-record protection); assessment stays sonnet by stakes (haiku passed but hedged on record wording) |
+| Red team | 59 merged flags (3 critical) plus 18 cross-seat seams; 57 accepted whole or part, 2 rejected (runtime model), 1 to Brandon (retry cap: none, escalate by count) |
+| Neighbor edits | five shipped seats edited to close seams: performance-feedback-designer, practice-simulation-designer, hospitality-operations-realist, hr-systems-designer, hr-implementer |
