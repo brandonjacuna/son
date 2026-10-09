@@ -3,7 +3,8 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Phase 3 step 5: builder batches in the order set in `profiles/review.md` and `founders/profiles/review.md` (company batch 1 first) | next Code sessions | `/profile-build <slug> <mode>`; apply the cross-cutting fixes listed in each review
+- Phase 3 step 5: builder batch 2 (learning-studio module seats: Curriculum, Instructional Designer with HighScope, Assessment, Materials Author, Learner Advocate, TBRI) | next Code session | batch 1 shipped 2026-10-09; reuse its savings (one Fable framer and one judge per batch, one runner per seat); watch the 20-agent cap
+- Merge the batch 1 pull request (six new agents in .claude/agents/, shared people rules, kb Texas employment page) | Brandon | then the seats are callable in every session
 - Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
 - Account-synced skills cost about 3,300 tokens a turn of listing; unused ones (browser, computer-use, morning, google-workspace, import-memory, mcp-builder) can be turned off on claude.ai | Brandon, optional | see `memory/audits/2026-10-07-skill-doctor-baseline.md`
@@ -12,6 +13,9 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
 - Archive the old GitHub repos (son-learning-studio, son-operational-buildout, son-nerve; make agenticproject private and archive) | Brandon to confirm | everything from them is in `son`
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
+
+## Done 2026-10-09
+- Phase 3 step 5 batch 1 shipped: six seats (operations realist, frontline advocate, culture implementer, HR implementer, HR systems designer, performance and feedback designer), 18/18 tests, about 540k worker tokens per seat; kb/domains/texas-employment.md verified; shared people canon checked against the white paper; nine decisions recorded
 
 ## Done 2026-10-07
 - Phase 3 steps 3 and 4: seat inventory (`profiles/roster-needs.md`, `founders/profiles/roster-needs.md`) and review (`profiles/review.md`, `founders/profiles/review.md`) done; Brandon approved both and answered 15 questions

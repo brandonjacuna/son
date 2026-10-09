@@ -18,3 +18,6 @@ cluster: people-and-culture | old: HR Systems Designer.md
 | 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |
 | 4 | apply judged edits (3 seats, one agent) | sonnet | 95,052 shared | edits applied |
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 23,999 | tests/T*-with.md |
+
+## Closing
+- Shipped to .claude/agents/hr-systems-designer.md on 2026-10-09; 3/3 tests pass on Sonnet; red team and Fable judgment applied; shared files: counsel-gate, people-practices, records-and-routes. Batch totals in profiles/_builds/MEASUREMENTS.md.
