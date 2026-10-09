@@ -60,3 +60,10 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (2026-10-09, by pop-up)
+What NOT, all six seats: no locking early (structure, roles, and processes stay open while Sŏn is in the funding phase); no invented specs (no dimension, figure, or code item without a source); no corporate HR feel (no big-company HR machinery or jargon); no reviving references (page 06, page 08, and V7 never return as canon).
+Bar: a seated bar, about 8 seats at most, with two wells. Whether one well is a true service well for the dining room, the menu is split between wells, or another arrangement is open; both bartenders handle some dining-room service alongside bar customers.
+Sizing: seat counts and volume come from the Investor Review workbook in Box (pulled by the session), never estimated from memory.
+Draft beer: unlikely at the current candidate property (no bar fridge space to give up to a kegerator; kitchen likely too small for a glycol chiller run and walk-in install). Design without draft; note where a draft system would fit if it returns.
+Practitioner review: Brandon reviews bar layouts until a Head of Beverage is hired.

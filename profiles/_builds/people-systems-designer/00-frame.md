@@ -53,3 +53,9 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (2026-10-09, by pop-up)
+What NOT, all six seats: no locking early (structure, roles, and processes stay open while Sŏn is in the funding phase); no invented specs (no dimension, figure, or code item without a source); no corporate HR feel (no big-company HR machinery or jargon); no reviving references (page 06, page 08, and V7 never return as canon).
+Paid practical and hiring decisions: Brandon decides alongside the heads of department, so they build judgment with him; he overrides when he deems it necessary. Who scores (Brandon, a head of department, or all of them with calibration) is not locked; Sŏn is in the funding phase.
+Pay built into the menu price: the seat stays out until Brandon opens the project.
+Scaling People: the book work is done and its tasks are populated; drop the chapter frame, keep the judgment.

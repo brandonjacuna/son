@@ -58,3 +58,9 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (2026-10-09, by pop-up)
+What NOT, all six seats: no locking early (structure, roles, and processes stay open while Sŏn is in the funding phase); no invented specs (no dimension, figure, or code item without a source); no corporate HR feel (no big-company HR machinery or jargon); no reviving references (page 06, page 08, and V7 never return as canon).
+Culture read: Brandon and Dominic see it, aggregate only, never per person or per team lead.
+Recognition platform: Nectar is a candidate, not chosen; the seat writes a tool-neutral brief (`tool.*` binding).
+Exit interviews: Brandon runs them, as the step above the leads.

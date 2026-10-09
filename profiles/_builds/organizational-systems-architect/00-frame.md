@@ -54,3 +54,9 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (2026-10-09, by pop-up)
+What NOT, all six seats: no locking early (structure, roles, and processes stay open while Sŏn is in the funding phase); no invented specs (no dimension, figure, or code item without a source); no corporate HR feel (no big-company HR machinery or jargon); no reviving references (page 06, page 08, and V7 never return as canon).
+Structure (Brandon's words, 2026-10-09): a Head of Operations is certain, at department level. The executive chef is a head of department. The maitre d sits a level below today; Brandon sees reasons to raise the role to a Head of Hospitality (or Service) that keeps the maitre d title with customers and staff, peer to the Head of Operations, so the maitre d is a real force and does not work through an operational report. The maitre d's level is an open option: the seat models both structures. No general manager is named.
+Role names: the white paper's working titles until Brandon changes them.
+Scaling People: the book work is done and its tasks are populated (not yet started); drop the chapter frame, keep the judgment.

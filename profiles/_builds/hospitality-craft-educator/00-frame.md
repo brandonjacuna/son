@@ -62,3 +62,9 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (2026-10-09, by pop-up)
+What NOT, all six seats: no locking early (structure, roles, and processes stay open while Sŏn is in the funding phase); no invented specs (no dimension, figure, or code item without a source); no corporate HR feel (no big-company HR machinery or jargon); no reviving references (page 06, page 08, and V7 never return as canon).
+Service standard: the seat starts the framing, then runs staged, structured interviews with Brandon that walk the customer's and the employee's experience during service across multiple scenarios; Brandon talks in depth at each stage. The standard is built from that, not from page 08.
+Container changes to both: a skill runs the elicitation with Brandon by pop-up, one stage and one scenario at a time, and writes the transcript (like book-ingest); the agent turns elicited material into teachable craft and reviews modules.
+Beverage: the structure of how beverage craft is taught stays here; product specifics hand off to the Head of Beverage (an in-person role, to be hired) as `beverage.*` bindings.

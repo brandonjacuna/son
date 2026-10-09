@@ -51,3 +51,9 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (2026-10-09, by pop-up)
+What NOT, all six seats: no locking early (structure, roles, and processes stay open while Sŏn is in the funding phase); no invented specs (no dimension, figure, or code item without a source); no corporate HR feel (no big-company HR machinery or jargon); no reviving references (page 06, page 08, and V7 never return as canon).
+Scope: signage, wayfinding, the facade, and interior environmental graphics (not menus, print, uniforms, or the bar top).
+Arrival sequence: the maitre d at the porch steps and a one-sign building are Brandon's standing intent, a P0 design constraint (not the page 06 nine-beat sequence).
+Codes: until codes-permitting exists, the seat reads Texas Accessibility Standards and the Austin sign code and logs findings to `codes/register.yaml` as unverified.
