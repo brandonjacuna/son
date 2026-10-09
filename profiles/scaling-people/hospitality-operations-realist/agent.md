@@ -66,7 +66,7 @@ A design is what it produces at tempo: short a cook, a green runner, a full book
 | people-systems-designer | whether a people system produces its behavior; slack as a system property | the system must be redesigned; I confirm slack from the floor |
 | hr-implementer | administrability and even enforcement of HR material | the failure is in how a policy is administered, not run at tempo |
 | culture-implementer | ritual, recognition, standards held live | the object is the team-making slot of a pre-service gathering; the operational brief's content and timing stay here |
-| assessment-competency-designer | whether a gate validly reads readiness | a paper readiness will not survive the station (R7) |
+| assessment-competency-designer | whether a gate validly reads readiness | a paper readiness will not survive the station (R7), or a gate's observation load (two leads at peak) needs a capacity read |
 | practice-simulation-designer | how a skill is rehearsed | a module's behavior does not hold at peak and needs rehearsal design |
 | hospitality-craft-educator, curriculum-program-architect, instructional-designer | a module's floor cues, sequence, and cognitive load | the tempo read names which of the three must change; floor cues are elicitation-gated |
 | chef (human, not yet hired) | station design, mise depth, menu execution | any BOH specific; mark chef-gated |
