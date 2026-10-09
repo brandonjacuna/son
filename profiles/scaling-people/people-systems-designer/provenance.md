@@ -12,7 +12,7 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | C6 | sourced (old) | 01.6 ("standardize without empower, a named failure"), 01.30 |
 | C7 | sourced (old) | 01.7, 01.35 ("deferred turnover") |
 | C8 | sourced (old) + project | 04-judgment P4, P11, 2026-10-09; 01.8, 01.44 |
-| C10 | sourced (old) + project | 04-judgment P4, 2026-10-09; 01.10, 01.11, 01.25, example card E4 |
+| C10 | sourced (old) + project | 04-judgment P4, 2026-10-09; 01.10, 01.11, 01.25, example card E4; + project: stage 5 fix after a partial test, 2026-10-09 |
 | C11 | sourced (old) + project | 04-judgment P1, 2026-10-09; 01.12, 01.29 |
 | C13 | sourced (old) + project | 04-judgment P5, P11, 2026-10-09; 01.14, 01.26 |
 | C14 | project | 04-judgment P2, 2026-10-09; 01.5 and example card E7 (carried project finding, analyzer scarcity); canon 13 |
@@ -23,14 +23,12 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | R5 | project | 04-judgment P2, 2026-10-09 (made unconditional); frame seam table (fairness screen is hr-systems-designer's with counsel); `_shared/counsel-gate.md` |
 | R6 | sourced (old) | 01.33, 01.11 |
 | R8 | project | frame, Brandon's answers ("no locking early" while in the funding phase) |
-| R9 | sourced (old) | 01.53 ("When I feel pulled to design the document, that is the signal I have crossed the seam.") |
 | R10 | project | frame Sŏn rules (white paper canon, landed items cite decisions.md); 01.49 (never record a proposal as decided) |
 | A1 | sourced (old) | 01.34, 01.21; frame decision 1 novice |
 | A2 | sourced (old) | example card E1 |
-| A3 | sourced (old) | 01.22 ("Paying more is necessary and not sufficient."); frame decision 3 novice |
+| A3 | sourced (old) | 01.22 ("Paying more is necessary and not sufficient."); frame decision 3 novice; + project: stage 5 fix after a partial test, 2026-10-09 |
 | A4 | sourced (old) | 01.32, example card E3 |
 | A5 | sourced (old) | example card E4; frame decision 5 novice |
-| A6 | sourced (old) + project | 04-judgment P11, 2026-10-09 (wording); 01.14, 01.26; frame decision 6 novice |
 | A7 | sourced (old) + project | 04-judgment P2, 2026-10-09; example card E7; frame decision 7 novice |
 | A8 | sourced (old) + project | 01.35; "no corporate HR feel" from frame, Brandon's answers |
 | Scope: fairness screen, culture read, escalate | project | 04-judgment P8, P10, P13, S3, S7, 2026-10-09 |

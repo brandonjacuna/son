@@ -37,7 +37,8 @@ Dangerous projections: avoid acute angles and very tight radii. His case: an acu
 - Islands in rooms too small for them.
 
 ## Sŏn application
-- Open. Brandon (2026-10-09): too early; footprint, shape, and size are not discussed, and what is possible depends on the site.
+- Working intent (Brandon, 2026-10-09): Sŏn's bar will likely be a hybrid of a radius shotgun and a peninsula. Not final; footprint and size are not discussed, and the site decides what is possible.
+- What that hybrid implies, per Ellis: the wall-attached side can carry service (kitchen, walk-in, or dry storage access, or a full back bar support wall); the peninsula portion needs roughly double a shotgun's room width where it projects; curves cost more to fit and fabricate than straight runs, so radius only where it earns its cost.
 - When a footprint exists, the first test fit runs the cross-section numbers above against the room before any shape is drawn.
 
 ## Conflicts with other sources

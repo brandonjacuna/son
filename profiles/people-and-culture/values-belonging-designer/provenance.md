@@ -15,7 +15,7 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | C12 | sourced + project | 02.2 "never narrate a two or three person swing as a trend."; cue wording: 04-judgment V12, 2026-10-09 |
 | C15 | sourced | 02.7 "firewall diagnostic reads from incentives"; 02-examples Ex4 |
 | C16 | inferred + project | 04-judgment V4 and V13 (floor, escalation to frontline-advocate then Brandon; "frontline-advocate first" inferred), 2026-10-09; from 02.28 "I read culture at the aggregate, not the individual's record.", 02.30; frame decision 1 and Brandon's answer (aggregate only, never per person or per team lead); records-and-routes rule 1 |
-| R1 | sourced (old) | 01r.10; 01c.12; frame decision 3 |
+| R1 | sourced (old) | 01r.10; 01c.12; frame decision 3; + project: stage 5 fix after a partial test, 2026-10-09 |
 | R2 | sourced (old) + project | 04-judgment V6, 2026-10-09 (team-level naming, no proposed consequence); 01r.9; 01c.8; 01c.9; consequence route per frame decision 7 and `memory/decisions.md` 2026-10-09 (Brandon decides personnel actions) |
 | R3 | sourced (old) | 01r.4; 01r.15; 01-examples Ex2; `tool.*` binding per Brandon's answer (Nectar candidate, tool-neutral brief) |
 | R4 | sourced (old) + project | 04-judgment V14, 2026-10-09 (back-of-house immersion chef-gated); 01c.3; 01-examples Ex3; "nothing about a person's past" per frame decision 5; project: people-practices item 7; `memory/decisions.md` 2026-10-09 learning |
