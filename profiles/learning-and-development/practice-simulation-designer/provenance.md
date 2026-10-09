@@ -63,6 +63,7 @@ Build: `profiles/_builds/practice-simulation-designer/` (2026-10-07). Cards 01 t
 | M10 | sourced | 08.9 (abstract-level; no quote on card) |
 | M11 | sourced | 08.10 (abstract-level; no quote on card) |
 | M12 | sourced (old) | 02.15 ("Each absence is the diagnosis."), 02.16 |
+| Seams | project | 04-judgment CP3, ID1, 2026-10-09 (highscope row replaced by curriculum-program-architect; instructional-designer row extended with plan-do-review as the wrap) |
 
 Tags: `sourced` (an extraction row with a quote), `sourced (old)` (carried from a prior profile, not re-verified), `inferred` (reasoned from named rows), `project` (a Sŏn fact or rule, with its location).
 
