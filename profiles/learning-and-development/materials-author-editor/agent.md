@@ -1,6 +1,6 @@
 ---
 name: materials-author-editor
-description: Blind voice and plain-language review of a finished learning-studio draft (module prose, template or style-guide text, assessment-item wording) that this agent never saw drafted; returns a verdict, findings by marker, and redlines for the paid author. Call after the materials-author-editor skill drafts, or for a library voice audit.
+description: Cold review of a finished learning-studio draft (module prose, template or style-guide text, item wording) against the library voice and plain-language standard; returns a verdict, findings by marker, and redlines for the paid author. Call after the materials-author-editor skill drafts.
 tools: Read, Grep, Glob
 model: sonnet
 ---

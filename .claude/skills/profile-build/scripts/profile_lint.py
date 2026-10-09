@@ -30,8 +30,8 @@ TEXT_WARNINGS = [
     (re.compile(r"\b(coqodaq|alinea|gracious)\b", re.I), "lineage name; flag for Brandon, never reconstruct"),
     (re.compile(r"\$\s?\d|\b\d+(\.\d+)?\s?%"), "figure; financial figures come only from the Investor Review workbook"),
 ]
-# A row is defined by "| C1 |", "- R1." or "## E1"; a mention elsewhere is not a definition.
-ROW_ID = re.compile(r"^\s*(?:\|\s*([A-Z]{1,2}\d{1,3})\s*\||-\s+([A-Z]{1,2}\d{1,3})\.|#+\s+([A-Z]{1,2}\d{1,3})\b)")
+# A row is defined by "| C1 |", "| V1. text |", "- R1." or "## E1"; a mention elsewhere is not a definition.
+ROW_ID = re.compile(r"^\s*(?:\|\s*([A-Z]{1,2}\d{1,3})(?:\s*\||\.\s)|-\s+([A-Z]{1,2}\d{1,3})\.|#+\s+([A-Z]{1,2}\d{1,3})\b)")
 
 
 class Report:
@@ -126,7 +126,12 @@ def lint(master, rep):
             rep.err(skill, "frontmatter with a description must start on line 1")
         elif fm.get("name") and fm["name"] != slug:
             rep.err(skill, f"skill name '{fm['name']}' does not match folder '{slug}'")
-        scan_text(skill, rep, None)  # the skill cites agent rows by id; it defines none
+        # The skill may define its own rows (voice markers) and cites agent rows by id; its ids
+        # count for provenance but never collide with the agent's.
+        skill_ids = {}
+        scan_text(skill, rep, skill_ids)
+        for rid, where in skill_ids.items():
+            ids.setdefault(rid, where)
     if ref.is_dir():
         total = 0
         for f in sorted(ref.rglob("*.md")):
