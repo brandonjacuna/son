@@ -30,5 +30,5 @@ Written 2026-10-07 (phase 3, session A). Our own skill; nothing vendored. Ideas 
 
 ## Known limits
 - Caps are design targets until session B rebuilds the Practice and Simulation Designer and measures.
-- Stage 4 runs an interim red team until `.claude/skills/red-team/` exists (session C).
+- Stage 4 ran an interim red team (its own lens text, the `profile-critic` worker) for batches 1 to 3. Since 2026-10-09 (session C) it calls the `red-team` skill; `profile-critic` is retired and its lenses live in `.claude/skills/red-team/lenses/`.
 - Orchestrator context is measured with `/context` in an interactive session; headless runs record "not measured".

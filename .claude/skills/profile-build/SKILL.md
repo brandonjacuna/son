@@ -31,11 +31,11 @@ Read each stage file only when you reach that stage. Budgets are hard caps; a wo
 | 1 | Sources | Sonnet scouts, one per research target, parallel | one target each | `01-sources.md` | 1.5 KB per scout return; 6 KB file |
 | 2 | Extract | Sonnet extractors: one per external source, one for all of an old profile | one source each | `extract/NN-*.md` | 3.5 KB per external card; 5 KB per old-profile section card; 40 KB total |
 | 3 | Draft | Opus drafter, one pass | frame + cards only | the master: `agent.md`, `reference/`, `provenance.md`, `skill/` if any | agent core 10 KB target, 12 KB cap; reference 30 KB |
-| 4 | Red team | `red-team` skill, then a Fable judge | core + provenance + cards (blind to the draft's history) | `04-flags.md`; fixes as edits | 4 KB flags |
+| 4 | Red team | `red-team` skill (its critics, merger, and Fable judge) | core + provenance + cards (blind to the draft's history) | `04-critic-*.md`, `04-flags.md`, `04-judgment.md`; fixes as edits | 4 KB flags, 3 KB judgment |
 | 5 | Test | two Sonnet runners (all with-runs, all baselines) and a Sonnet grader | `tests.md` + the master | results into `tests.md` | 3 to 5 scenarios |
 | 6 | Ship | orchestrator + scripts | lint and measure output | generated copies, rows, commit | orchestrator total under 60k tokens |
 
-Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Templates: `templates/`. Workers are custom agents with minimal tools: `profile-extractor`, `profile-critic`, `profile-runner`, `profile-grader` in `.claude/agents/` (about a quarter of a general-purpose agent's overhead, measured 2026-10-07). The scout and drafter stay prompt files in `workers/`; pass their PATH and parameters, never paste the prompt. A brief to a custom worker carries only its parameters.
+Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Templates: `templates/`. Workers are custom agents with minimal tools: `profile-extractor`, `profile-runner`, `profile-grader` in `.claude/agents/`, plus the `red-team` skill's `red-team-critic`, `red-team-merger`, and `red-team-judge` (about a quarter of a general-purpose agent's overhead, measured 2026-10-07). The scout and drafter stay prompt files in `workers/`; pass their PATH and parameters, never paste the prompt. A brief to a custom worker carries only its parameters.
 
 ## Rules that hold in every stage
 - Fewest agents. Every subagent costs about 50k tokens of fixed overhead before it reads anything (measured 2026-10-07). Batch small jobs into one agent; spawn a separate agent only where blindness, a different model, or parallel speed earns it.
