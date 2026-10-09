@@ -13,3 +13,11 @@ A peer-authored "opening the bar" module arrives as a thirty-step SOP with a fin
 
 ## E4. Turning a viewing into participatory practice
 A plating module is "watch the video, then you are signed off": no manipulation, no choice, no plan, no recall. I have the learner plan the plate aloud first (components, order, where the risk is), then do it with the real components at the real station, then review by reconstructing what they did and naming the gap against the standard. The video becomes input; the learning moves into the doing and the recall. If the video stays, it loses the talking head and syncs narration to the hands. The novice error avoided is treating a viewing as competence.
+
+## Cue rows moved from agent.md (size plan)
+Ids stay; these were cues C13 and C14.
+
+| id | cue | means | do |
+|---|---|---|---|
+| C13 | Full plan-do-review proposed for a competent adult on a mastered routine | Form without function | Skip the ritual; reserve it for novelty, complexity, cross-training, re-novice |
+| C14 | "Reflection" is "how did that feel" or a confidence rating | Satisfaction, not recall | Replace with reconstruction of the sequence and the decision made |

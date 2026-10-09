@@ -4,40 +4,38 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 
 | id | tag | grounding |
 |---|---|---|
-| C1 | sourced | 01.1 ("check the environment before rebuilding the module"), 01.15, 01.43; route target from frame seam table |
-| C2 | sourced | 01.2 ("stop guiding what they already hold") |
-| C3 | sourced | 01.3 ("cognitive overload, not a character flaw") |
+| C1 | sourced + project | 01.1 ("check the environment before rebuilding the module"), 01.15, 01.43; route target from frame seam table; 04-judgment ID4, 2026-10-09 |
+| C2 | sourced + project | 01.2 ("stop guiding what they already hold"); 04-judgment ID3, 2026-10-09 |
+| C3 | sourced + project | 01.3 ("cognitive overload, not a character flaw"); 04-judgment ID9, merged former C8, 2026-10-09 |
 | C4 | sourced | 01.4 ("a view is not competence"), 02.1 ("the video is input, not the learning") |
-| C5 | sourced | 01.5 ("distribute reps across shifts"); retention link kept directional per card tension |
+| C5 | sourced + project | 01.5 ("distribute reps across shifts"); retention link kept directional per card tension; 04-judgment ID5, 2026-10-09 |
 | C6 | sourced | 01.6 ("documentation, not instruction"); old tag inferred |
-| C7 | sourced | 01.8 ("you cannot gate on \"understand\"") |
-| C8 | sourced | 01.11 ("triple waste") |
+| C7 | sourced + project | 01.8 ("you cannot gate on \"understand\""); 04-judgment S6 seams judgment, 2026-10-09 |
 | C9 | sourced | 01.13 ("baggage, not only an asset") |
 | C10 | sourced | 02.2 ("A rep with no intention is activity, not practice."), 02.14 |
-| C11 | sourced | 02.3 ("reconstruction is where memory and metacognition are built") |
+| C11 | sourced + project | 02.3 ("reconstruction is where memory and metacognition are built"); 04-judgment ID1, 2026-10-09 |
 | C12 | sourced (old) | 02.4, 02.5, 02.16; no quote on card |
 | C13 | sourced (old) | 02.7, 02.18 (old tag: reconstructed) |
 | C14 | sourced | 02.9 ("Talking is remembering."), 01.10 |
 | C15 | sourced | 01.10 ("that is not evidence it worked"), 01.26 |
 | C16 | project | 01.7 and 01.22 ("near transfer needs shared surface features") narrowed by the frame seam: the practice move is practice-simulation-designer's |
-| R1 | sourced | 01.17 ("guidance now hurts"), 01.16, 02.31 |
-| R2 | inferred | count from 01.18 ("two clean unaided runs", count is the old profile's default) and 02.17 fade spec; principle sourced, number inferred |
+| R1 | sourced + project | 01.17 ("guidance now hurts"), 01.16, 02.31; 04-judgment ID3, 2026-10-09 |
+| R2 | inferred + project | count from 01.18 ("two clean unaided runs", count is the old profile's default) and 02.17 fade spec; principle sourced, number inferred; 04-judgment ID7, 2026-10-09 |
 | R3 | sourced (old) | 01.19 |
-| R4 | sourced | 01.20 ("recognition is not recall"), 01.21 |
-| R5 | sourced | 01.24, 01.12 ("video cannot give feedback"), 01.81 ("structured post-shift review") |
-| R6 | sourced | 01.25 ("do not atomize it"); "reading a table" from frame decision 7 |
-| R7 | sourced (old) | 02.15, 02.25 ("Talking is remembering."), 02.13 ("A demonstration is input, the learning is in the doing.") |
+| R4 | sourced + project | 01.20 ("recognition is not recall"), 01.21; 04-judgment ID2, 2026-10-09 |
+| R5 | inferred + project | 01.24, 01.12 ("video cannot give feedback"), 01.81 ("structured post-shift review"); 04-judgment ID1, ID8, 2026-10-09 |
+| R6 | sourced | 01.25 ("do not atomize it"); "reading a table" from frame decision 7; 01.73 added per 04-judgment ID8, 2026-10-09 |
+| R7 | sourced (old) | 02.15, 02.25 ("Talking is remembering."), 02.13 ("A demonstration is input, the learning is in the doing."); 02.24 added per 04-judgment ID8, 2026-10-09 |
 | R8 | inferred | from 02.36 (template carries the wrap) and 02.18 / 02.23; resolves the 02-old-cues tension |
 | R9 | sourced | 01.23 ("the next fifty authors inherit them") |
-| R10 | sourced (old) | 01.27, 02.33, 01.64, 01.82 |
+| R10 | inferred | 01.27, 02.33, 01.64, 01.82; retagged per 04-judgment ID8, 2026-10-09 |
 | R11 | project | 01.75, 02.37; studio rule "why before how" (`company/workstreams/learning-studio/CLAUDE.md`); opening type from frame seam (materials-author-editor row) |
 | R12 | project | Brandon's answers 2026-10-09 (frame: no school-like feel, no therapy talk, no long reads, no gotcha checks); frame Sŏn rules (records: `profiles/people-and-culture/_shared/records-and-routes.md`) |
 | R13 | project | frame Sŏn rules (studio CLAUDE.md hard rules; Trainual as adapter check); 01.77 ("Platform is downstream") |
 | A1 | sourced | 01.31 ("informs, it does not teach") |
 | A2 | sourced | 01.32 ("illusion of fluency") |
 | A3 | sourced | 01.35 ("Right support for the wrong stage"), 01.34, 01.40, 01.83, 01.76 |
-| A4 | sourced | 01.38 ("Reaction barely predicts behavior"), 02.9 |
-| A5 | sourced | 01.41 ("no sound basis"), 01.14 ("drop the number") |
+| A4 | inferred + project | 01.38 ("Reaction barely predicts behavior"), 02.9; 04-judgment ID7, merged former A5; ID8, 2026-10-09 |
 | A6 | sourced (old) | 02.21, 02.22, 02.6 |
 | A7 | sourced (old) | 02.20 |
 | A8 | sourced (old) | 02.8, 02.19, 01.80; child-outcome figures excluded per 02 Not usable and orchestrator note |

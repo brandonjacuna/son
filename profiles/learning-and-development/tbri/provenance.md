@@ -4,12 +4,12 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 
 | id | tag | grounding |
 |---|---|---|
-| C1 | sourced (old) | 01s.1 ("TBRI here is not treatment"); 01-examples Example 3 |
-| C2 | sourced (old) | 01c.1, 01c.8; wording rewritten to observable behavior per 01c Not usable |
+| C1 | sourced (old) + project | 01s.1 ("TBRI here is not treatment"); 01-examples Example 3; 04-judgment TB5, 2026-10-09 |
+| C2 | sourced (old) + project | 01c.1, 01c.8; wording rewritten to observable behavior per 01c Not usable; 04-judgment TB2, 2026-10-09 |
 | C3 | sourced (old) | 01c.2 ("the precedence was violated, not the person's character") |
-| C4 | sourced (old) | 01c.3 ("fix the substrate, the state and the environment, before interpreting the behavior") |
-| C5 | sourced (old) | 01c.4 ("before assigning intent"); 01r.4 |
-| C6 | sourced (old) | 01-examples Example 1; 01c.12 ("external modem for regulation") |
+| C4 | sourced (old) + project | 01c.3 ("fix the substrate, the state and the environment, before interpreting the behavior"); 04-judgment TB6 (S17), 2026-10-09 |
+| C5 | sourced (old) + project | 01c.4 ("before assigning intent"); 01r.4; 04-judgment TB8, 2026-10-09 |
+| C6 | sourced (old) + project | 01-examples Example 1; 01c.12 ("external modem for regulation"); 04-judgment TB7 (S18), 2026-10-09 |
 | C7 | sourced (old) | 01-examples Example 5; 01r.11 |
 | C8 | sourced (old) | 01c.6 ("the person will defend their worth instead of changing the behavior") |
 | C9 | sourced (old) | 01c.7, 01r.14; "flag to Brandon" dropped per Brandon's answers (2026-10-09, frame) |
@@ -17,16 +17,16 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | C11 | sourced (old) | 01s.2 ("I supply the theory and route the surface"); 01-examples Example 2 |
 | C12 | sourced (old) | 01s.5 ("the moment a correction needs a penalty to hold, it is HR's") |
 | C13 | sourced (old) | 01r.15 ("If that de-clinicalization ever starts to read as a diagnosis of staff, I have drifted") |
-| R1 | sourced (old) + project | 01s.1; HR route and assistance resource as `hr.*` bindings, none chosen (frame, Sŏn rules) |
-| R2 | sourced (old) | 01r.1 ("the threat response has to be down first"); wording de-clinicalized |
+| R1 | sourced (old) + project | 01s.1; HR route and assistance resource as `hr.*` bindings, none chosen (frame, Sŏn rules); 04-judgment TB1 (S17), 2026-10-09 |
+| R2 | sourced (old) + project | 01r.1 ("the threat response has to be down first"); wording de-clinicalized; 04-judgment TB2, 2026-10-09 |
 | R3 | sourced (old) | 01r.3, 01r.4, 01c.9 |
 | R4 | sourced (old) | 01r.2, 01r.6, 01r.8 ("level the evaluation at the behavior and never the person") |
-| R5 | sourced (old) | 01r.5, 01c.11 ("not intended as a punishment, but rather as a regulatory support"), 01r.11 |
+| R5 | sourced (old) + project | 01r.5, 01c.11 ("not intended as a punishment, but rather as a regulatory support"), 01r.11; 04-judgment TB3 (S17), 2026-10-09 |
 | R6 | sourced (old) | 01r.7; frame decision 7 |
-| R7 | sourced (old) + project | 01s.8, 01-examples Example 4; Brandon's answers 2026-10-09 (working position, never proven, flag not repeated) supersede 01s.13 and the "flag to Brandon" step |
+| R7 | sourced (old) + project | 01s.8, 01-examples Example 4; Brandon's answers 2026-10-09 (working position, never proven, flag not repeated) supersede 01s.13 and the "flag to Brandon" step; 04-judgment TB9 (S12), 2026-10-09 |
 | R8 | project | Brandon's answers 2026-10-09: framework names stay inside the studio |
-| R9 | project | Brandon's answers 2026-10-09: no therapy talk, no one asked about their past, no long reads |
-| R10 | project | `profiles/people-and-culture/_shared/records-and-routes.md` as summarized in the frame |
+| R9 | project | Brandon's answers 2026-10-09: no therapy talk, no one asked about their past, no long reads; 04-judgment TB8, 2026-10-09 |
+| R10 | project | `profiles/people-and-culture/_shared/records-and-routes.md` as summarized in the frame; 04-judgment TB4 (S18), 2026-10-09 |
 | A1 | sourced (old) | 01r.9 ("fastest way to discredit the whole import"), 01s.14 |
 | A2 | sourced (old) | 01r.10 |
 | A3 | sourced (old) | 01r.11 ("stops meaning anything and breaks the relationship it needs") |
@@ -36,12 +36,14 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | Distrust 1 | project | Brandon's answers 2026-10-09 (adult thesis); 01r.7 |
 | Distrust 2 | inferred | 01-old-scope tension: ruling role has no source; reasoned from 01s.1, 01s.2, 01s.5 |
 | Distrust 3 | sourced (old) | 01-old-scope tension ("starting context, to be tested") |
-| Seams | project | frame seam table; 01s.3 to 01s.7 (HighScope seat now instructional-designer; HR split into hr-systems-designer and hr-implementer) |
+| Seams | project | frame seam table; 01s.3 to 01s.7 (HighScope seat now instructional-designer; HR split into hr-systems-designer and hr-implementer); 04-judgment TB7 (S18), TB9 (S12), 2026-10-09 |
+| Scope | project | 04-judgment TB9 (S12), 2026-10-09 |
+| Output | project | 04-judgment TB9 (S12), 2026-10-09 |
 | Escalation | project | frame Sŏn rules: personnel actions Brandon's alone, recusal to Dominic, counsel gate (`counsel-gate.md`) |
 | models: adult use | project | Brandon's answers 2026-10-09; 01s.13 superseded |
 | M1 | sourced (old) | 01c.8 ("the difference between a child actually being safe and feeling safe"); restated for adults |
 | M2 | sourced (old) | 01c.9 ("can only be successful after establishing a foundation of empowerment and connection") |
-| M3 | sourced (old) | 01c.10 (reconstructed, no quote) |
+| M3 | reconstructed | 01c.10 (reconstructed, no quote); retagged reconstructed: 04-judgment TB9, 2026-10-09 |
 | M4 | sourced (old) | 01c.11 |
 | M5 | sourced (old) | 01c.12 |
 | M6 | sourced (old) | 01c tension; 01s.6 |
