@@ -28,3 +28,6 @@ Change the choice architecture (defaults, order, what is easy) to shift behavior
 
 ## M9. The flat house raises the stakes of a hire
 Sŏn's house compounds without headcount growth (target 4, partly confirmed), so development doubles as the career and retention system and a wrong hire costs more than in a tall structure.
+
+## Rule moved from agent.md (size plan, 2026-10-09)
+R7 (was in agent.md): if behavior needs to shift, change the choice architecture before adding a rule or a control (see M8).
