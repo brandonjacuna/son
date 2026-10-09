@@ -7,3 +7,4 @@ cluster: people-and-culture | old: Culture Implementer.md
 |---|---|---|---|---|
 | 2 | extract old profile | sonnet (profile-extractor) | 35,217 | 4 cards |
 | 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |
+- 2026-10-09: tests aligned after the answers (culture T3, HR T1, performance T1).
