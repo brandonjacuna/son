@@ -16,3 +16,4 @@ cluster: learning-and-development | old: TBRI.md
 | 4 | merger, 6 seats in one agent | sonnet (profile-critic) | 54,671 shared (~9k per seat) | 04-flags.md 3101 B |
 | 4 | Fable judge, 6 seats + seams in one agent | fable | 160,426 shared (~27k per seat) | 04-judgment.md |
 | 4 | apply judgment edits, 3 seats | sonnet (general-purpose) | 96,127 shared | agent.md, provenance, reference |
+| 5 | with-runs T1-T3 | sonnet (profile-runner) | 17,883 | tests/T*-with.md |
