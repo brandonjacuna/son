@@ -4,7 +4,6 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 
 ## Now
 - Phase 3 step 5: builder batch 4 (design in code: 01 skill (+02, +08), 05 (+10), 09 skill, 04, 07; retire 03 and 10) | next Code session | batch 3 shipped 2026-10-09; runner briefs paste task text (stage 5 rule)
-- Open asks from batch 3: who runs stay interviews (Values and Belonging, unassigned); dining-room floor layout has no owning seat (Brandon's until named) | Brandon | pop-up when convenient
 - Bar: six Ellis chapters ingested; more chapters and the station count wait until Brandon starts bar design work (setup only until then, 2026-10-09) | Brandon | decisions/open.md items 10, 11
 - Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`

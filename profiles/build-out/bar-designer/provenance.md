@@ -14,7 +14,7 @@ Card rows with no quote cannot ground a `sourced` tag; rows resting on them are 
 | C4 | inferred | from 01.8 (Perlick training, no quote) |
 | C5 | inferred + project | "or a deep rail" dropped (04-judgment B9, 2026-10-09); from 01.10 and 02.1 (Perlick training, no quote); "speed rail" definition: project (define jargon) |
 | C6 | sourced | 01.11 ("a health code violation everywhere he has worked"); scupper definition from frame decision 6 |
-| C7 | inferred + project | from 03.8 (checklist, derived); bar-side edge and server-path fork (04-judgment B5, 2026-10-09; seam S12) |
+| C7 | inferred + project | from 03.8 (checklist, derived); bar-side edge and server-path fork (04-judgment B5, 2026-10-09; seam S12); + project: dining-room floor layout owned by Brandon, 2026-10-09 |
 | C8 | inferred | from 01.12 (Perlick training), 03.4 (derived) |
 | C9 | inferred | from 01.15 (derived), 03.9 (derived) |
 | C10 | project | workbook inputs and R3 (04-judgment lift from how-many-stations note, 2026-10-09); frame, Brandon's answers (sizing from the Investor Review workbook); CLAUDE.md routing (financial figures); with 03.3 (derived) |

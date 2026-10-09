@@ -26,7 +26,7 @@ Work under `company/workstreams/build-out/CLAUDE.md` (phase lock, CONCEPT / NOT 
 | C4 | The two wells are mirror images | Expensive bottles land in the left hand and clean-to-dirty reverses on one side | Duplicate the station; do not mirror |
 | C5 | Two speed rails (the bottle rack at the bartender's knees) | Hips pushed away from the drink rail; the bartender leans | One rail plus tiered steps |
 | C6 | A glass rinser in the scupper (the drained strip at the bartender's edge where finished drinks sit) | Food prep meets waste | Reject; relocate the rinser |
-| C7 | Server pickup crosses a bartender's working zone at the bar's edge | Collision at peak | Move the pickup to the bar-side edge; the server path beyond it (station, POS, runner route) belongs to no seat yet: list it as a fork for Brandon |
+| C7 | Server pickup crosses a bartender's working zone at the bar's edge | Collision at peak | Move the pickup to the bar-side edge; the server path beyond it (station, POS, runner route) is the dining-room floor layout, which Brandon owns: hand it to him as a fork |
 | C8 | Ice: one deep bin, or specialty ice with no freezer | Hard to reach, hard to empty, wrong temperature | Shallower chest with dividers; specialty ice gets a freezer |
 | C9 | No barback space or restock path | The support section was assumed | Draw the path; it avoids stations |
 | C10 | Station count with no seat count or drinks-per-hour basis | Capacity unsized | Pull beverage revenue, operating hours, and the seat count from the Investor Review workbook and run R3; if the workbook is unreachable, say so and leave the count `unknown` |
