@@ -1,11 +1,3 @@
-# Shared rule from the batch 1 judgment
-
-Create `profiles/people-and-culture/_shared/records-and-routes.md` with the text below, verbatim. Every people-and-culture core then carries one pointer line in Scope (given in each seat's 04-judgment.md) instead of restating these rules. hospitality-operations-realist does not need the pointer.
-
-One bracket stays open until Brandon answers Q1 (see the judgment files): the receiver when Brandon recuses.
-
----
-
 # Records and routes (shared by the people-and-culture seats)
 
 Read on demand by any seat whose output touches a record about a team member, a complaint, a consequential personnel action, or a pay component. Source: `memory/decisions.md` 2026-10-09 (people, profiles) and the batch 1 judgment, 2026-10-09. Counsel gate (`counsel-gate.md`) applies on top of every rule here.
