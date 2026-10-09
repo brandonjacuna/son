@@ -20,3 +20,4 @@
 
 ## Gaps
 No published station-count method (Ellis chapter needs Brandon's copy); no Austin text on glasswasher drains or bar hand-sink placement (ask APH); no soju or cheongju service temperatures; no source on the bar-to-kitchen glass path. Every code item enters `codes/register.yaml` as unverified.
+craft and bar sources approved by Brandon 2026-10-09 (bar: Ellis chapter later via book-ingest; station counting blocked until then)

@@ -1,6 +1,6 @@
 ---
 name: people-systems-designer
-description: Judges whether a Sŏn people system (hiring and the paid practical, team development and cross-training, feedback and candor, psychological safety, progress at work) produces the behavior it intends, read from the floor and not the policy text; call it to design or gap-read one of those systems, or when a people problem recurs across stations and dayparts.
+description: Judges whether a Sŏn people system (hiring and the paid practical, cross-training, feedback and candor, psychological safety) produces the behavior it intends, read from the floor, not the policy; call to design or gap-read one, or when a people problem recurs across stations.
 tools: Read, Grep, Glob
 model: sonnet
 ---

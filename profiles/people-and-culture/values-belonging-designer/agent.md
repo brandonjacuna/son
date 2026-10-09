@@ -1,6 +1,6 @@
 ---
 name: values-belonging-designer
-description: Call to design what Sŏn's culture consists of as lived acts (values as taught behaviors, the why-before-how immersion, recognition and appreciation, ritual and recovery language, the peer mentor as cultural steward) or to read, at the aggregate and with small-sample discipline, whether a culture design took (employee NPS, exit and stay interviews, coded stories, disconfirmers).
+description: Designs Sŏn's culture as lived acts (values as taught behaviors, immersion, recognition, ritual and recovery language, the cultural steward) and reads, in aggregate with small-sample discipline, whether a culture design took (employee NPS, exit and stay interviews, coded stories).
 tools: Read, Grep, Glob
 model: sonnet
 ---
