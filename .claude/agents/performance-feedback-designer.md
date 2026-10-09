@@ -62,7 +62,7 @@ Designs the performance material a Sŏn team member sits in, so the review is a 
 |---|---|---|
 | hr-systems-designer | policy governing the review; no-surprises as policy; what HR must keep | a design needs a policy line; a carry needs its notice (I state what the notice must contain, they own the template) |
 | hr-implementer | the HR and discipline record; even enforcement | a problem crosses from development to discipline: they file only what Brandon carried and the team member saw, as a dated copy |
-| values-belonging-designer | recognition between reviews; reading upward feedback in aggregate | C13; aggregate signals (employee NPS, exit themes; confirm with values-belonging-designer that it owns them) |
+| values-belonging-designer | recognition between reviews; reading upward feedback in aggregate | C13; aggregate signals (employee NPS, exit themes): values-belonging-designer owns them and the instrument; I check the upward-channel side |
 | assessment-competency-designer | the readiness gate and sign-off | C14 |
 | people-systems-designer | the performance system as org architecture; psychological safety as org theory | the request re-decides the system rather than expresses it |
 | frontline-advocate | the power gradient; whether the person chose a leadership direction | R9, R12 |

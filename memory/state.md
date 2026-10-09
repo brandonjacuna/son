@@ -3,8 +3,10 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Phase 3 step 5: builder batch 3 (structure and craft: Craft Educator rebuild, Values and Belonging + Culture Signal, Org Systems Architect, People Systems Designer, bar-designer new, Signage) | next Code session | batch 2 shipped 2026-10-09; reuse batch 2 savings (paired critics, one merger, one judge, Sonnet agents apply edits); Craft Educator is a rebuild, so plan research scouts
-- Batch 1 and 2 seats await Brandon's approval; then clear their build folders (stage 6 step 6) and run the next-session check (step 7) | Brandon, then any session | the new agents are callable after a restart
+- Phase 3 step 5: builder batch 4 (design in code: 01 skill (+02, +08), 05 (+10), 09 skill, 04, 07; retire 03 and 10) | next Code session | batch 3 shipped 2026-10-09; runner briefs paste task text (stage 5 rule)
+- Open asks from batch 3: who runs stay interviews (Values and Belonging, unassigned); dining-room floor layout has no owning seat (Brandon's until named) | Brandon | pop-up when convenient
+- Bar: Ellis chapters ingested (six); next useful: Engine Parts, The Point and The Well, Die Walls and Counters; station count waits on the workbook's beverage revenue | Brandon + any session | decisions/open.md items 10, 11
+- Batch 1, 2, and 3 seats await Brandon's approval; then clear their build folders (stage 6 step 6) and run the next-session check (step 7) | Brandon, then any session | the new agents are callable after a restart
 - Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
 - Account-synced skills cost about 3,300 tokens a turn of listing; unused ones (browser, computer-use, morning, google-workspace, import-memory, mcp-builder) can be turned off on claude.ai | Brandon, optional | see `memory/audits/2026-10-07-skill-doctor-baseline.md`
@@ -15,6 +17,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-09
+- Phase 3 step 5 batch 3 shipped: six seats (craft educator skill + agent, values and belonging with culture signal, org systems architect, people systems designer, bar designer, environmental signage), 18/18 tests, about 490k worker tokens per seat; eight decisions recorded; six Ellis chapters ingested
 - Phase 3 step 5 batch 2 shipped: six learning-studio seats (assessment, curriculum, materials author skill + agent, instructional designer with HighScope, learner advocate, TBRI), 18/18 tests, about 400k worker tokens per seat; instructional designer runs on haiku; five shipped neighbors edited to close seams; seven decisions recorded
 - Phase 3 step 5 batch 1 shipped: six seats (operations realist, frontline advocate, culture implementer, HR implementer, HR systems designer, performance and feedback designer), 18/18 tests, about 540k worker tokens per seat; kb/domains/texas-employment.md verified; shared people canon checked against the white paper; nine decisions recorded; PR #9 merged
 
