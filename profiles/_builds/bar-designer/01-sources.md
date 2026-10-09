@@ -4,7 +4,7 @@
 |---|---|---|---|---|
 | 01 | kb: company/workstreams/build-out/kb/bar/tobin-ellis/ (principles, dimensions, checklist) | principles, anti-patterns, review cues (cards 01-03 already extracted) | repo | n/a |
 | 04 | Austin Public Health, Fixed Food Establishments page (plan review; hand sinks; 3-compartment sink or commercial dishwasher; indirect drain, 1-inch air gap) | 1 | austintexas.gov | fetched 2026-10-09 |
-| 05 | Texas Food Establishment Rules, 25 TAC Ch. 228 (DSHS consolidated copy, eff. 2021-08-08): indirect waste and sanitizing sections | 1, 5 | dshs.texas.gov PDF | exists; sections not yet read |
+| 05 | Texas Food Establishment Rules, 25 TAC Ch. 228 (eff. 2021-08-08), which adopts the FDA Food Code 2017 by reference (228.1(b)); warewashing and indirect waste live in the Food Code | 1, 5 | dshs.texas.gov PDF; FDA Food Code 2017 | adoption read 2026-10-09; Food Code sections to confirm |
 | 06 | TDLR 2012 Texas Accessibility Standards, Ch. 9: 902 dining surfaces (bars named; tops 28 to 34 in) and 904.4 sales and service counters | 2 | tdlr.texas.gov | fetched 2026-10-09 |
 | 07 | WSET, sake storage and service (store below 12 C; serve chilled, room, or warm 40 to 55 C) | 4 | wsetglobal.com | summary seen |
 | 08 | Makgeolli volatile components, pasteurized vs unpasteurized over 30 days (PMC6270448) | 4 (cold, short-hold storage) | open access | summary seen |

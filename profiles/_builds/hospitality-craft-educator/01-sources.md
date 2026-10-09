@@ -10,8 +10,8 @@
 | 06 | Legitimate peripheral participation among waiters and bartenders in an Irish pub, RAM (UFRGS repository) | 2 (newcomer access on the floor) | abstract | snippet |
 | 07 | GWU dissertation, informal learning in three non-chain US restaurants (scholarspace p2676v69j) | 2 (pre-shift, mistakes, customers as teachers) | full text likely | snippet |
 | 08 | Richardson 2014, customer-bartender service openings, Loughborough thesis (dspace 2134/14293) | 3 (embodied availability cues) | full text | snippet |
-| 09 | Findlay 2014, feedback calibration training for whisky sensory panels (Compusense) | 4 (spirits perceptual training) | summary | snippet |
-| 10 | Byeon et al. 2023, Korean cheongju vs Japanese sake, trained panel and sommeliers (PMC9816670) | 4 (Korean category; expert vs consumer split) | full text | snippet |
+| 09 | Findlay 2014, feedback calibration training for whisky sensory panels (Compusense summary; vendor-reported) | 4 (spirits perceptual training) | vendor summary | no |
+| 10 | Byeon et al., "Does sensory quality assessed by beverage experts fit consumer acceptability? A study on cheongju", J Sensory Studies (DOI 10.1111/joss.12853); corrected 2026-10-09 (PMC9816670 was a makgeolli consumer paper) | 4 (expert vs consumer split) | vendor summary only | no |
 
 ## Excluded
 - Human-AI hybrid Delphi (arXiv 2508.09349): consensus method, not elicitation.
