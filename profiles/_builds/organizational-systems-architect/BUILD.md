@@ -5,3 +5,4 @@ cluster: scaling-people | old: Organizational Systems Architect.md
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile (01) | sonnet (profile-extractor) | 31,845 | 4 cards (V7 rows marked) |
