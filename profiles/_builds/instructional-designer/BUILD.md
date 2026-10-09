@@ -13,3 +13,4 @@ cluster: learning-and-development | old: Instructional Designer.md + HighScope.m
 | 4 | critic grounding | sonnet (profile-critic) | 34,629 | 04-critic-*.md |
 | 4 | critic spec+rules (2 seats) | sonnet (profile-critic) | 35,552 shared | 04-critic-*.md |
 | 4 | critic seams (2 seats) | sonnet (profile-critic) | 57,724 shared | 04-critic-*.md |
+| 4 | merger, 6 seats in one agent | sonnet (profile-critic) | 54,671 shared (~9k per seat) | 04-flags.md 2396 B |

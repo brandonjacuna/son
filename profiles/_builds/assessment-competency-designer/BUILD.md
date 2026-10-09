@@ -17,3 +17,4 @@ cluster: learning-and-development | old: Assessment & Competency Designer.md
 | 4 | critic spec+rules b | sonnet (profile-critic) | 26,842 | 04-critic-*.md |
 | 4 | critic seams b | sonnet (profile-critic) | 52,189 | 04-critic-*.md |
 | 4 | critic seams a | sonnet (profile-critic) | 60,796 | 04-critic-*.md |
+| 4 | merger, 6 seats in one agent | sonnet (profile-critic) | 54,671 shared (~9k per seat) | 04-flags.md 4945 B |

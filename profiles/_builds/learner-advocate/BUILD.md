@@ -12,3 +12,4 @@ cluster: learning-and-development | old: Learner Advocate.md
 | 4 | critic grounding | sonnet (profile-critic) | 26,477 | 04-critic-*.md |
 | 4 | critic spec+rules (2 seats) | sonnet (profile-critic) | 30,434 shared | 04-critic-*.md |
 | 4 | critic seams (2 seats) | sonnet (profile-critic) | 65,039 shared | 04-critic-*.md |
+| 4 | merger, 6 seats in one agent | sonnet (profile-critic) | 54,671 shared (~9k per seat) | 04-flags.md 2383 B |

@@ -13,3 +13,4 @@ cluster: learning-and-development | old: TBRI.md
 | 4 | critic employee-harm | sonnet (profile-critic) | 22,875 | 04-critic-*.md |
 | 4 | critic grounding | sonnet (profile-critic) | 28,065 | 04-critic-*.md |
 | 4 | critic seams | sonnet (profile-critic) | 48,936 | 04-critic-*.md |
+| 4 | merger, 6 seats in one agent | sonnet (profile-critic) | 54,671 shared (~9k per seat) | 04-flags.md 3101 B |
