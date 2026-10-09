@@ -32,18 +32,21 @@ Model numbers, dimensions, and utilities for any of these go into `equipment/*.y
 ## Book dimensions (fill from "Essential Design Dimensions" and "Ergonomic Dimensions")
 | Dimension | Value | Page | Notes |
 |---|---|---|---|
-| Customer bar top height | | | |
+| Customer bar top height | 42 (standard counter) | 108 | [book] A.D.A. Bar Counters |
 | Bartender work surface height | | | |
-| Bar top depth (customer side) | | | |
+| Bar top depth (customer side) | counter overhang 9 to 12 on the customer side | 79 to 80 | [book] Bar Geometry |
 | Drink rail / scupper width | | | |
-| Aisle width behind bar (1 bartender / 2 passing) | | | |
+| Aisle width behind bar (1 bartender / 2 passing) | 36 back bar to underbar (Ellis: code-required; unverified) | 79 | [book] Bar Geometry; agrees with perlick-training 36 to 40 |
 | Station width (one cockpit) | about 6 to 9 ft of front-facing underbar per station, plus 6 to 9 ft of back bar; smallest catalog station about 6 ft 8 in incl. POS and trash; steakhouse closer to 8 to 9 ft | 51, 55 | [book] How Many Stations? |
 | Linear bar length per customer seat | | | |
 | Foot rail height and setback | | | |
-| Knee space / overhang | | | |
-| Back bar counter height and depth | | | |
+| Knee space / overhang | accessible section: 19 knee clearance, at most 34 high, about 3 to 5 ft long | 107 | [book] A.D.A.; TAS governs, unverified |
+| Back bar counter height and depth | back bar equipment 24 to 28 deep | 79 | [book] Bar Geometry |
 | Back bar display shelf heights | | | |
-| ADA counter section height and length | | | |
+| ADA counter section height and length | at most 34 AFF, 3 to 5 ft; 5 percent of bar seats; waterfalled preferred | 107 to 108 | [book] A.D.A.; TAS 902.3 28 to 34, unverified |
 | Neutral reach envelope (horizontal / vertical) | | | |
-| Floor sink placement relative to stations | | | |
-| Die wall thickness and construction | | | |
+| Underbar equipment depth | 24 to 28 | 79 | [book] Bar Geometry |
+| Stool space / aisle behind stools | 24 to 36 / 36 to 60 | 80 | [book] Bar Geometry |
+| Room width for the bar zone | shotgun 13 ft 2 in to 17 ft 3 in; peninsula or island 26 to 35 ft | 80 | [book] Bar Geometry |
+| Floor sink placement relative to stations | under each station's ice bin; set back at least 8 to 10 from the equipment front edge; sink about 12 x 12; drain pitch about 1/4 per ft | 101 to 102 | [book] Floor Sinks; code items unverified |
+| Die wall thickness and construction | 5 to 7 thick | 79 | [book] Bar Geometry |

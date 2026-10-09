@@ -4,6 +4,7 @@
 
 ## Process
 - [ ] The bar was designed inside-out: stations and equipment first, aesthetic wrap second.
+- [ ] The bar's footprint (shotgun, peninsula, or island) was arrived at from room width, budget, and the business, with the cross-section checked against the room; no acute angles or tight radii. `[book]` pp. 71 to 80
 - [ ] The bar drives the MEP plan: floor sinks, drains, and power are placed to serve stations, not the reverse. (Critical before any slab or rough-in work.)
 - [ ] Someone who has worked high-volume bar service has reviewed the layout.
 
@@ -31,9 +32,10 @@
 - [ ] Glass storage and glasswasher placement are planned; glasses are not sent to the kitchen dish machine.
 
 ## Compliance
+- [ ] Floor sinks sit under each station's ice bin, set back from the equipment front edge (no ankle-breakers), placed only after the equipment engine is final. `[book]` pp. 101 to 102
 - [ ] No glass rinsers in the scupper / drink rail; food prep and waste are physically separated.
 - [ ] Hand sink placement meets Austin Public Health plan review requirements.
-- [ ] ADA / TAS counter section is placed and dimensioned.
+- [ ] ADA / TAS counter section is placed and dimensioned, waterfalled or a second lower counter, with approach space, not used as the pickup, nothing on or under it. `[book]` pp. 107 to 110
 - [ ] Any custom fabrication is from an NSF-approved shop and priced against catalog equipment.
 
 ## Experience

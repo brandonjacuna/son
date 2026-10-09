@@ -75,13 +75,16 @@ Public layer, built 2026-09-28 from the sources in `sources.md` (numbers in brac
 
 ### Engine Parts and Bar Geometry
 - `[ellis-equipment]` The cockpit components are sold separately, so a small operator can buy only the pieces that fit (for example, just the sinks). [4]
-- `needs-book` "Engine Parts" and "Bar Geometry" (straight, L, U, island tradeoffs).
+- `[book]` Arrive at a shape from requirements, never by preference. Three foundational footprints: shotgun (cheapest, simplest, smallest), peninsula (hybrid; service and socialization, at a cost in flow and build), island (aesthetic and social; misses customers out of view, strands staff, 2 to 3 times the cost when radiused). Peninsula or island needs about twice a shotgun's room width. Avoid acute angles and tight radii. (pp. 71 to 80; book-notes/bar-geometry.md)
+- `needs-book` "Engine Parts".
 
 ### Construction: die walls, counters, floor sinks, stick-built vs. ModBar, ADA counters, scuppers
 - `[ellis-public]` A scupper (also called a drink rail or peanut rail) is the drained, perforated steel strip along the bartender's edge of the bar top where tins and glasses sit during building. [4]
 - `[ellis-public]` Putting glass rinsers in a scupper rail is common and, per Ellis, a health code violation everywhere he has worked: food prep and waste areas cannot combine without physical separation. [4]
 - `[perlick-training]` A modular bar (ModBar style) carries longer lead time and must be installed first, since it bolts to the subfloor. [13]
-- `needs-book` Die wall and counter construction, floor sink placement, the stick-built vs. ModBar decision, ADA counter rules, scupper details.
+- `[book]` Floor sinks are placed after the equipment engine is final, under each station's ice bin, set back 8 to 10 in from the equipment edge. (pp. 101 to 102; book-notes/floor-sinks.md)
+- `[book]` Accessible bar counter: waterfall it (lowered customer side, full-height bartender side); never use it as the pickup, never put stools or decor on it, no lift gates or flip-up counters, proper approach space. TAS governs in Texas. (pp. 107 to 110; book-notes/ada-bar-counters.md)
+- `needs-book` Die wall and counter construction, the stick-built vs. ModBar decision, scupper details.
 
 ### Back bar, draft, wine
 - `[perlick-training]` Back bar refrigerators are 24 in deep, not the 31 in kitchen depth. Leave about 1 in each side so a unit can be pulled for cleaning. [13]
