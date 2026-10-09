@@ -6,3 +6,4 @@ cluster: scaling-people | old: Hospitality Operations Realist.md
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
 | 2 | extract old profile | sonnet (profile-extractor) | 39,661 | 4 cards |
+| 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |

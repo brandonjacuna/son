@@ -8,3 +8,4 @@ cluster: people-and-culture | old: HR Implementer.md
 | 2 | extract old profile | sonnet (profile-extractor) | 37,025 | 5 cards incl. 01-old-statutory (19 items) |
 | 0 | plumbing gap check (P&C + scaling) | sonnet | 84,181 | 00-plumbing-gaps.md: 15 gaps |
 | 2 | verify statutory items at source | sonnet | 102,266 | kb/domains/texas-employment.md 7,311 B: 11 verified, 5 differ, 3 not verified |
+| 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |

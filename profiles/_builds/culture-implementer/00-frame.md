@@ -56,3 +56,13 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (batch 1, 2026-10-09)
+- 2026-10-09: the named human who decides every personnel action is Brandon alone, until a general manager exists. No seat decides or records a personnel action; it recommends only (Brandon's refusal for all six seats).
+- 2026-10-09: the 12 V7 people practices are checked against the white paper; confirmed ones live in `profiles/people-and-culture/_shared/people-practices.md` as shared canon, the rest are targets. Read that file; do not restate it.
+- 2026-10-09: feedback about team members is written and trackable (end-of-day log, HR platform, engagement and training platforms such as Nectar and Trainual, reviews). Platforms are `tool.*` bindings; Nectar and Trainual may be named as the tools in use or planned.
+- The seat is a design-time reviewer: called while the pre-shift format, the end-of-day log template, recognition programs, or SOPs are designed, to test whether they survive a busy night. It does not run anything live, generate content, or build tools.
+- Family meal is out of scope (designed in real life with a nutritionist and the culinary team).
+- Pre-shift is a live phone note that leads, the sommelier, bartenders, and founders add to, with menu changes flowing in automatically; the seat reviews its content design (what goes in, length, ownership, staying alive), never the tool.
+- Shift close is the end-of-day log where leads record feedback about team members; the seat reviews the log design so entries are useful, fair, and about behavior.
+- Arrival is dropped (nothing behind it).

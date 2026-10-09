@@ -6,3 +6,4 @@ cluster: people-and-culture | old: HR Systems Designer.md
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
 | 2 | extract old profile | sonnet (profile-extractor) | 32,147 | 4 cards |
+| 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |

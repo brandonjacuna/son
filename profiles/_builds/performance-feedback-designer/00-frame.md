@@ -56,3 +56,10 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (batch 1, 2026-10-09)
+- 2026-10-09: the named human who decides every personnel action is Brandon alone, until a general manager exists. No seat decides or records a personnel action; it recommends only (Brandon's refusal for all six seats).
+- 2026-10-09: the 12 V7 people practices are checked against the white paper; confirmed ones live in `profiles/people-and-culture/_shared/people-practices.md` as shared canon, the rest are targets. Read that file; do not restate it.
+- 2026-10-09: feedback about team members is written and trackable (end-of-day log, HR platform, engagement and training platforms such as Nectar and Trainual, reviews). Platforms are `tool.*` bindings; Nectar and Trainual may be named as the tools in use or planned.
+- Landed: reviews every 3 to 6 months, no surprises, feedback in both directions.
+- Discipline: developmental feedback never moves into a discipline file automatically. Only the named decider (Brandon) may carry a specific dated incident into it, and the team member sees what is carried.

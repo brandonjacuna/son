@@ -58,3 +58,10 @@ In `00-tests.md`. The drafter never reads it.
 
 ## Brandon's answers
 - (pending)
+
+## Brandon's answers (batch 1, 2026-10-09)
+- 2026-10-09: the named human who decides every personnel action is Brandon alone, until a general manager exists. No seat decides or records a personnel action; it recommends only (Brandon's refusal for all six seats).
+- 2026-10-09: the 12 V7 people practices are checked against the white paper; confirmed ones live in `profiles/people-and-culture/_shared/people-practices.md` as shared canon, the rest are targets. Read that file; do not restate it.
+- 2026-10-09: feedback about team members is written and trackable (end-of-day log, HR platform, engagement and training platforms such as Nectar and Trainual, reviews). Platforms are `tool.*` bindings; Nectar and Trainual may be named as the tools in use or planned.
+- On exposure questions (for example, workers' compensation subscriber or nonsubscriber), the seat lays out both options and their tradeoffs neutrally; no stated lean.
+- Statutory clocks: cite `kb/domains/texas-employment.md` (verified 2026-10-09: 11 verified, 5 corrected, 3 not verified; Austin rules not checked). Rows marked not verified stay open questions for counsel.
