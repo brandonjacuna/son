@@ -58,7 +58,7 @@ Public layer, built 2026-09-28 from the sources in `sources.md` (numbers in brac
 
 ### How many stations
 - `[perlick-training]` Perlick publishes a cocktail station calculator from seat count, drinks per hour per bartender, and ice volume. [13]
-- `needs-book` Ellis's method in "How Many Stations?"
+- `[book]` One bartender per station, no sharing except a deliberate brigade design; count complete, identical stations. Ellis ranks four ways to get the count: available space (a test fit), head-count ratios (misleading outside catering), floor plan plus concept, and, most reliable, reverse-engineering the pro forma (beverage revenue to drinks per hour to bartenders). Design to fit the business, not the drawing, and make the case early. (pp. 51 to 55; book-notes/how-many-stations.md)
 
 ### The Pickup, The Point, and The Well
 - `[ellis-public]` On construction walkthroughs Ellis asks where the pickup is, where the support section goes, and where the pass is. [3]

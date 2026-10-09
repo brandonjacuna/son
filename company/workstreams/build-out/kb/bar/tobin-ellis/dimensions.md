@@ -37,7 +37,7 @@ Model numbers, dimensions, and utilities for any of these go into `equipment/*.y
 | Bar top depth (customer side) | | | |
 | Drink rail / scupper width | | | |
 | Aisle width behind bar (1 bartender / 2 passing) | | | |
-| Station width (one cockpit) | | | |
+| Station width (one cockpit) | about 6 to 9 ft of front-facing underbar per station, plus 6 to 9 ft of back bar; smallest catalog station about 6 ft 8 in incl. POS and trash; steakhouse closer to 8 to 9 ft | 51, 55 | [book] How Many Stations? |
 | Linear bar length per customer seat | | | |
 | Foot rail height and setback | | | |
 | Knee space / overhang | | | |

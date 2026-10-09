@@ -9,3 +9,4 @@
 7. IDs for the Product Capture and Technology Capture lists (for `clickup/allowlist.yaml`).
 8. Bar task lighting color temperature: Perlick training says 6000K, the Ellis mobile bar ships 4000K. Resolve from the book's "Lighting Design" chapter (see kb/bar/tobin-ellis/dimensions.md).
 9. Which copy of the duplicated plumbing / grease interceptor guide in ClickUp is current (pages 2ky45bmy-27533 and 2ky45bmy-27553).
+10. Bar station count for Sŏn: run Ellis's pro forma method (book-notes/how-many-stations.md) once the Investor Review workbook's beverage revenue and operating hours are pulled from Box; check against about 8 bar seats and the two-well split (still open).

@@ -8,6 +8,7 @@
 - [ ] Someone who has worked high-volume bar service has reviewed the layout.
 
 ## Capacity
+- [ ] Station count comes from the pro forma method (Investor Review workbook beverage revenue to drinks per hour), checked against the seat count and the test fit; one bartender per station. `[book]` pp. 51 to 55
 - [ ] Station count is sized for peak volume with every seat full, using a stated drinks-per-hour assumption.
 - [ ] Ice capacity and ice types (cube, crushed, specialty) are sized and each has a home at the right temperature.
 
