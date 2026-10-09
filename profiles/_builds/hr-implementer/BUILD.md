@@ -12,3 +12,4 @@ cluster: people-and-culture | old: HR Implementer.md
 | 0 | white paper check (12 V7 practices) | sonnet | 99,252 | _shared/people-practices.md: 7 canon, 5 targets (item 5 moved to targets per Brandon) |
 | 5 | baselines T1-T3 | sonnet (profile-runner) | 13,489 | tests/T*-base.md |
 | 3 | drafter | opus | 90,931 | agent.md 9,561 B; reference 4.4 KB; provenance 5.2 KB (39 sourced, 3 inferred, 5 project) |
+| 4 | critics so far: spec+rules a 23,850; spec+rules b 24,757; seams a 43,357; seams b 42,186; harm a 23,800; harm b 22,135 | sonnet (profile-critic) | 180,085 | see 04-critic-*-a/b.md |
