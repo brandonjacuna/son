@@ -11,7 +11,7 @@ One profile, one build folder, seven short stages. The session you run in is the
 Usage: `/profile-build <slug> [mode]`. Modes:
 - `new`: no profile exists. Full pipeline.
 - `rebuild`: an old profile exists and needs new grounding. The old file is one source among several; research only the gaps the frame names.
-- `revise` (keep and slim): no new research. Extract the old profile, re-draft into the split, red-team light, test.
+- `revise` (keep and slim): no new research. Extract the old profile, re-draft into the split, red-team at the skill's floor (standard for a seat), test.
 - `merge`: two or more old profiles become one seat. Each old file is a source.
 
 Run the orchestrator session on Opus. Fable is used twice, as subagents: writing the frame (stage 0) and the final judgment (stage 4). Workers run on Sonnet unless a stage says otherwise.
@@ -54,5 +54,5 @@ Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Templates: `templates/`.
 | "Faster to read the cards myself and draft here." | That is the context blow-up this builder exists to prevent. Spawn the drafter. |
 | "The tags are quicker to add inline." | Inline tags were 18% of every loaded profile. Provenance file only. |
 | "The old profile is good; copy its sections across." | Copying keeps survey and plumbing. Extract rows, then draft the split. |
-| "Tests can be skipped this time." | Skipped validation is how both learning-studio seats shipped unaudited. Run at least the red team light pass and three scenarios. |
+| "Tests can be skipped this time." | Skipped validation is how both learning-studio seats shipped unaudited. Run the red team at its floor (standard for a seat) and three scenarios. |
 | "The core is 14 KB but it is all judgment." | Move worked examples and long cue detail to `reference/`. The cap holds. |
