@@ -5,3 +5,4 @@ cluster: learning-and-development | old: Instructional Designer.md + HighScope.m
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract HighScope (02) | sonnet (profile-extractor) | 30,649 | cards |

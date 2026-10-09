@@ -5,3 +5,4 @@ cluster: learning-and-development | old: Learner Advocate.md
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile | sonnet (profile-extractor) | 32,159 | cards |

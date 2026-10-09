@@ -5,3 +5,4 @@ cluster: learning-and-development | old: Curriculum & Program Architect.md
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile | sonnet (profile-extractor) | 27,374 | cards |
