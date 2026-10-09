@@ -1,0 +1,14 @@
+# 02 examples (verbatim from HighScope.md worked_examples, inline tags removed)
+source: profiles/_source/learning-and-development/HighScope.md | read: full file | verified: yes. Adult cases are reconstructed. Example 4 omitted: it is built on Perry ROI figures (see Not usable in 02-old-scope).
+
+Example 1: turning a viewing into active learning with a plan-do-review wrap.
+A plating module is "watch the video, then you are signed off." Trace it: no manipulation, no choice, no construction, no plan, no recall. The redesign has the learner plan the plate aloud first, the components and the order and where the risk is, then do it with the real components at the real station, then review by reconstructing what they did and naming the gap against the standard. The video becomes input, the learning moves into the doing and the recall. The novice error avoided is treating a viewing as competence. Boundary noted: whether the video's cognitive load is well built is the Instructional Designer's call, I own that the structure is participatory and closed by review.
+
+Example 2: the competent adult who is a station novice, which resolves the transfer objection.
+A veteran server cross-trains onto garde manger. This is the exact case where the developmental objection dissolves: the person holds service pace and standards and is a true novice on the knife and the station. The judgment: run the full plan-do-review cycle and heavy-then-fading scaffolding on the station work where they are a novice, and skip the ritual on the service context they already own. The reconstruction made concrete, an adult regressed to novice status on a bounded domain. The novice error avoided is either boring them on what they hold or abandoning them on what they do not. This meets the Instructional Designer's own cross-training case from the other side.
+
+Example 3: a floor mistake handled as learning, with the boundary kept.
+A cook plates the wrong allergen modifier and the reflex is to discipline. The redesign uses the problem-solving structure adapted to an adult: approach calmly and stop the harm, acknowledge, gather what happened, restate the problem, generate a fix together, and set follow-up. But I hand the felt-safety and relational substrate to TBRI, and the record and fairness of it to Performance & Feedback. I bring the structure, not the relationship. The novice error avoided is a seat quietly absorbing TBRI's job.
+
+Example 5: real recall versus satisfaction theater.
+A peer-authored module ends with "rate how confident you feel." That is a happy sheet. The redesign has the learner reconstruct the actual sequence of what they did, name the point where they had to decide, and say what they would change. Reconstruction builds the memory and surfaces the metacognition, which the confidence rating does not touch. The novice error avoided is mistaking a good feeling for learning.
