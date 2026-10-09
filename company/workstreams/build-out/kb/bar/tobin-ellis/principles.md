@@ -54,6 +54,7 @@ Public layer, built 2026-09-28 from the sources in `sources.md` (numbers in brac
 ### Identical Cockpits; Repeat, Don't Mirror
 - `[perlick-training]` Duplicate stations rather than mirroring them. Mirroring reverses the setup, which puts expensive bottles in the left hand and runs the flow from dirty to clean. Duplicated stations mean no one fights over the "good" station. [13]
 - `[perlick-training]` Default flow left to right, clean to dirty: clean glassware, then the well and ingredients, then trash, dump sink, and dirty glass. The spirits go to the dominant (right) hand; mixers, soda gun, and garnish go to the left. Most-used base spirits sit in the front row. [13]
+- `[book]` One cockpit design per outlet, repeated identically; fix fit problems by changing anything but the cockpit; across several bars keep one design. Reason: procedural memory, so bartenders work heads-up. (pp. 47 to 48; book-notes/identical-cockpits.md)
 - `needs-book` Ellis's exact cockpit sequence and how he handles left-handed staff.
 
 ### How many stations
@@ -62,7 +63,8 @@ Public layer, built 2026-09-28 from the sources in `sources.md` (numbers in brac
 
 ### The Pickup, The Point, and The Well
 - `[ellis-public]` On construction walkthroughs Ellis asks where the pickup is, where the support section goes, and where the pass is. [3]
-- `needs-book` "The Pickup and The Well" and "The Point and The Well" (how service-well pickups relate to the bartender's station). High priority.
+- `[book]` The server pickup sits directly across the counter from the service well, never offset; it is a full service area (at least two POS printers, trash and recycling, storage, room for two to six staff), isolated from customer traffic. (pp. 57 to 58; book-notes/the-pickup-and-the-well.md)
+- `needs-book` "The Point and The Well".
 
 ### Back-of-house service bars; stadium design by POS
 - `needs-book` Both. Relevant if Sŏn's dining room drinks come from a service bar rather than the main bar.

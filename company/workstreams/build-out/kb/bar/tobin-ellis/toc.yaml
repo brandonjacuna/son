@@ -19,11 +19,11 @@ principles:
   - {topic: "Zone vs. Brigade Design", priority: A, status: needs-book}
 
 practices:
-  - {topic: "Identical Cockpits", priority: A, status: needs-book}
+  - {topic: "Identical Cockpits", priority: A, status: done}
   - {topic: "Repeat Don't Mirror", priority: A, status: public-partial}
   - {topic: "How Many Stations?", priority: A, status: done}
   - {topic: "Ergonomic Alignment", priority: A, status: needs-book}
-  - {topic: "The Pickup and The Well", priority: A, status: needs-book}
+  - {topic: "The Pickup and The Well", priority: A, status: done}
   - {topic: "The Point and The Well", priority: A, status: needs-book}
   - {topic: "B.O.H. Service Bars", priority: B, status: needs-book}
   - {topic: "Stadium Design By P.O.S.", priority: C, status: needs-book}

@@ -15,13 +15,14 @@
 ## Station (the cockpit)
 - [ ] Zero-step: every ingredient, tool, glass, and ice type a station needs for the core menu is reachable without walking.
 - [ ] Single speed rail; hips-to-drink-rail distance within the target in `dimensions.md`.
+- [ ] Every station uses one cockpit design, repeated identically; fit problems were solved without changing the cockpit. `[book]` pp. 47 to 48
 - [ ] Stations are duplicated, not mirrored. Flow runs clean to dirty in the same direction at every station.
 - [ ] Spirits on the dominant hand; mixers and garnish on the other.
 - [ ] Each station has its own dump sink, trash, and tool rinse (dipper well). Only the hand sink is shared.
 - [ ] Refrigerated storage for garnish, juices, and vermouth is at the station.
 
 ## Service
-- [ ] The pickup (where servers collect drinks) is clearly defined and does not cross a bartender's working zone.
+- [ ] The pickup (where servers collect drinks) sits directly across the counter from the service well, is sized as a service area (at least two POS printers, trash, storage, room for two to six staff), and does not cross a bartender's working zone or customer traffic. `[book]` pp. 57 to 58
 - [ ] A support section for the barback exists, with a restock path that does not cut through stations.
 - [ ] POS placement is decided: facing customers, or turned away for a reset moment.
 
