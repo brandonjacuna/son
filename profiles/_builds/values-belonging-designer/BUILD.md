@@ -6,3 +6,4 @@ cluster: people-and-culture | old: Values and Belonging Designer.md + Culture Si
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
 | 2 | extract Values and Belonging (01) | sonnet (profile-extractor) | 32,919 | 4 cards |
+| 2 | extract Culture Signal (02) | sonnet (profile-extractor) | 39,752 | 4 cards |
