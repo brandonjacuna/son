@@ -9,3 +9,6 @@ cluster: learning-and-development | old: Educational Materials Author and Editor
 | 2 | extract old profile (incl. voice card) | sonnet (profile-extractor) | 34,146 | cards |
 | 5 | baselines T1-T3, 5 seats in one runner | sonnet (profile-runner) | 23,366 shared (~4.7k per seat) | tests/T*-base.md |
 | 3 | drafter | opus | 81,245 | agent.md 9,674 B; skill/SKILL.md 5,404 B; reference 4.2 KB; provenance 9.7 KB (56 sourced, 3 inferred, 3 project+inferred, 12 project) |
+| 4 | critic grounding | sonnet (profile-critic) | 31,097 | 04-critic-*.md |
+| 4 | critic spec+rules (2 seats) | sonnet (profile-critic) | 35,552 shared | 04-critic-*.md |
+| 4 | critic seams (2 seats) | sonnet (profile-critic) | 65,039 shared | 04-critic-*.md |

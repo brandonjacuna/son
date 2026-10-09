@@ -10,3 +10,6 @@ cluster: learning-and-development | old: Instructional Designer.md + HighScope.m
 | 2 | extract HighScope (02) | sonnet (profile-extractor) | 30,649 | cards |
 | 5 | baselines T1-T3, 5 seats in one runner | sonnet (profile-runner) | 23,366 shared (~4.7k per seat) | tests/T*-base.md |
 | 3 | drafter | opus | 91,020 | agent.md 11,505 B; reference 7.8 KB; provenance 7.1 KB (53 sourced, 3 inferred, 6 project) |
+| 4 | critic grounding | sonnet (profile-critic) | 34,629 | 04-critic-*.md |
+| 4 | critic spec+rules (2 seats) | sonnet (profile-critic) | 35,552 shared | 04-critic-*.md |
+| 4 | critic seams (2 seats) | sonnet (profile-critic) | 57,724 shared | 04-critic-*.md |
