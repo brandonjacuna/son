@@ -12,3 +12,4 @@ cluster: scaling-people | old: Hospitality Operations Realist.md
 | 4 | critics (grounding, spec+rules, seams) | sonnet (profile-critic) | 28,395 + 26,988 + 35,567 | 0 critical, 6 major, 18 minor |
 | 4 | merger | sonnet | 58,872 | 04-flags.md: 0 critical, 5 major, 12 minor |
 | 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |
+| 4 | apply judged edits (3 seats, one agent) | sonnet | 91,793 shared | edits applied |

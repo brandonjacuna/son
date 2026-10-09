@@ -17,3 +17,4 @@ cluster: people-and-culture | old: HR Implementer.md
 | 4 | critic grounding a | sonnet (profile-critic) | 39,745 | 10 minor |
 | 4 | merger (harsh) | sonnet | usage lost in rate-limit stop; file complete | 04-flags.md 5,128 B (over 4 KB cap) |
 | 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |
+| 4 | apply judged edits (3 seats, one agent) | sonnet | 95,052 shared | edits applied |

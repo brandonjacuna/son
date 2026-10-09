@@ -14,3 +14,4 @@ cluster: people-and-culture | old: Frontline Advocate.md + Emerging Leader Advoc
 | 4 | critics: spec+rules 28,435; harm 21,975; seams 54,977 | sonnet (profile-critic) | 105,387 | spec 8 minor; rules 3 minor; harm 4 major 1 minor; seams 3 major 5 minor |
 | 4 | merger | sonnet | 58,873 | 04-flags.md: 0 critical, 7 major, 8 minor |
 | 4 | judge (all six, one agent) | fable | 144,337 shared | 04-judgment.md |
+| 4 | apply judged edits (3 seats, one agent) | sonnet | 91,793 shared | edits applied |
