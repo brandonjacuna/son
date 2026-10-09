@@ -11,3 +11,4 @@ cluster: people-and-culture | old: HR Systems Designer.md
 | 3 | drafter | opus | 83,820 | agent.md 9,392 B; reference 5.2 KB; provenance 6.8 KB (40 sourced old, 2 inferred, 5 project) |
 | 4 | critics so far: spec+rules a 24,248; spec+rules b 24,119; grounding a 35,628 | sonnet (profile-critic) | 83,995 | see 04-critic-*-a/b.md |
 | 4 | critic harm a | sonnet (profile-critic) | 20,516 | 2 critical 5 major 2 minor |
+| 4 | critics: harm b 21,757; grounding b 46,692 | sonnet (profile-critic) | 68,449 | harm b 2 critical 6 major 3 minor; grounding b 1 major 7 minor |
