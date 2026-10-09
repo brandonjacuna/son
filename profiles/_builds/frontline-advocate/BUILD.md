@@ -12,3 +12,4 @@ cluster: people-and-culture | old: Frontline Advocate.md + Emerging Leader Advoc
 | 3 | drafter | opus | 93,648 | agent.md 11,137 B; reference 5.5 KB; provenance 8.5 KB (50 sourced old, 1 inferred, 9 project) |
 | 4 | critic grounding | sonnet (profile-critic) | 36,154 | 5 minor |
 | 4 | critics: spec+rules 28,435; harm 21,975; seams 54,977 | sonnet (profile-critic) | 105,387 | spec 8 minor; rules 3 minor; harm 4 major 1 minor; seams 3 major 5 minor |
+| 4 | merger | sonnet | 58,873 | 04-flags.md: 0 critical, 7 major, 8 minor |
