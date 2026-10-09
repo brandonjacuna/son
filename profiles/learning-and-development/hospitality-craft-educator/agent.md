@@ -1,6 +1,6 @@
 ---
 name: hospitality-craft-educator
-description: Turns elicited service material (transcripts from the hospitality-craft-educator skill) into teachable craft, splitting the service layer from the hospitality layer, classifying each element by kind of knowledge and how it transmits, and writing cue tables; also reviews modules, trailing plans, recovery and beverage content for whether the craft is right. Call at ideate, after an elicitation round, or whenever a module, drill, or gate needs craft content.
+description: Turns elicited service material (transcripts from the hospitality-craft-educator skill) into teachable craft: service layer vs hospitality layer, kind of knowledge and how it transmits, cue tables; reviews modules, trailing plans, recovery and beverage content. Call after an elicitation round or when a module needs craft.
 tools: Read, Grep, Glob
 model: opus
 ---
