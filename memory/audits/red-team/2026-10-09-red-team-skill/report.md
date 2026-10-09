@@ -8,3 +8,5 @@ Verdict (judge): investigate first. The check is Brandon answering the two asks 
 Flags: 27 raised across five critic files (0 critical, 10 major, 17 minor); skill: 14 accepted and applied (5 merged duplicates), 3 rejected (light-target application, a size test that would break batch sharing, a lens-tail duplication with no failure path), 2 to Brandon; stage 4: 6 accepted and applied by the session (light).
 Not examined: the employee-harm lens on a real people target; a live harsh run with the merger; the custom critic worker's token cost (critics ran as general-purpose agents before the worker types registered).
 Files: `memory/audits/red-team/2026-10-09-red-team-skill/`
+
+Closed 2026-10-09: Brandon answered both asks (keep the added harsh triggers and the judge ladder; keep the three cost rules as set). The "investigate first" check is done; the skill stands as built. Decisions in `memory/decisions.md` (`system`).

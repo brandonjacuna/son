@@ -3,7 +3,7 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Confirm session C (2026-10-09) items: Brandon answers the two red-team asks (added harsh triggers and judge ladder; what a red team must never do or cost him) and merges PR for `claude/session-c-iuf4wb` | Brandon | asks listed under Open questions; the skill runs as proposed until he answers
+- Merge PR #13 (`claude/session-c-iuf4wb`: red-team skill, profile-build stage 4, workers) | Brandon | both red-team asks answered 2026-10-09 and recorded in `memory/decisions.md` (`system`); nothing else waits on it
 - Phase 3 step 5: builder batch 4 (design in code: 01 skill (+02, +08), 05 (+10), 09 skill, 04, 07; retire 03 and 10) | next Code session | batch 3 shipped 2026-10-09; runner briefs paste task text (stage 5 rule); stage 4 now calls the `red-team` skill (first real run with its custom workers: log tokens in `.claude/skills/red-team/SOURCE.md`, and compare one seat's blind critics against a single careful review)
 - Bar: six Ellis chapters ingested; more chapters and the station count wait until Brandon starts bar design work (setup only until then, 2026-10-09) | Brandon | decisions/open.md items 10, 11
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
@@ -55,6 +55,5 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - build-out/HANDOFF.md: delete now that the migration is done? (phase 5)
 - Build-out migration still open: M5 command names (phase 4), M6 build-out kb location (phase 5). M3 resolved 2026-10-07
 - Founder-only seats: where their agents live once built (root `.claude/agents/` or a founders-only location for the repo split); `ship.py` refuses founder seats until decided (phase 3 step 5)
-- Red team (session C, 2026-10-09): the skill adds harsh triggers CLAUDE.md does not name (money, safety, external-facing, anything hard to undo), a judge ladder (session at light, Opus at standard, Fable at harsh), and a three-concern report cap. Keep all (more harsh runs), always a Fable judge (costlier), or fold the floor back to CLAUDE.md's three cases (legal, compliance, employees)?
-- Red team (session C): what should a red team never do or cost you? Pop-ups per run (now capped at three), agents per run (harsh runs 7 to 9 and announces the count first), report length (three concerns). Answers edit `.claude/skills/red-team/SKILL.md` sections 1 and 5 and `templates/report.md`.
+- Resolved 2026-10-09 (Brandon): red-team floor, judge ladder, and cost rules kept as built; see `memory/decisions.md` (`system`)
 - Red-team lens source "notmanas questioning-frameworks" was not found on GitHub or the web (searched twice, 2026-10-07 and 2026-10-09); the question set in the lenses is our own. Closed unless Brandon has the URL.
