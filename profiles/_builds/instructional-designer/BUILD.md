@@ -17,3 +17,4 @@ cluster: learning-and-development | old: Instructional Designer.md + HighScope.m
 | 4 | Fable judge, 6 seats + seams in one agent | fable | 160,426 shared (~27k per seat) | 04-judgment.md |
 | 4 | apply judgment edits, 2 seats | sonnet (general-purpose) | 86,768 shared | agent.md, provenance, reference |
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 19,165 | tests/T*-with.md |
+| 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |

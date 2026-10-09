@@ -21,3 +21,4 @@ cluster: learning-and-development | old: Assessment & Competency Designer.md
 | 4 | Fable judge, 6 seats + seams in one agent | fable | 160,426 shared (~27k per seat) | 04-judgment.md |
 | 4 | apply judgment edits + 5 neighbor masters | sonnet (general-purpose) | 106,362 | agent.md 12,274 B (7 cues, 5 rejects moved to reference) |
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 17,693 | tests/T*-with.md |
+| 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
