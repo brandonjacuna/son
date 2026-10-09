@@ -1,32 +1,42 @@
-T1: Peer recognition spec
-
 draft: counsel review required
 
-Verdict: I will not spec this as asked. Two parts fail: the public leaderboard (C5, A3) and the bonus (C15, R3). The rest is rebuilt below.
+# T1: Peer recognition feature
 
-Why it fails
-- A public feed with a most-recognized board is a comparison engine. Felt appreciation drops for most people even when volume is high. It rewards visibility, not the quiet work that carries a service.
-- A bonus on top makes the count a target. It stops measuring appreciation and starts measuring who games the feed (C15).
-- Pay is a personnel matter. Brandon alone decides it, and it goes through the counsel gate. I do not tie money to this.
+**Verdict: I will not spec this as asked.** A house-wide feed, a monthly most-recognized board, and a bonus for the top three is a comparison engine (C5, A3). It also makes a culture metric a target (C15), so it stops measuring what it was meant to. I spec the version below.
 
-Brief that replaces it (tool-neutral, `tool.recognition`)
-1. Act first. A team member tells a named colleague what that person did, in specifics, within a day or two of seeing it.
-2. Two separate streams.
-   - Recognition: for what a person did. Specific and tied to an act.
-   - Appreciation: for who the person is. Runs continuously, regardless of output, and is not tied to a shift result.
-3. Delivery is private or small-group (the pre-shift circle, a note to the person). Anything public is framed around giving ("who did you notice this week?"), never around receiving.
-4. No received-count ranking, badge tally, or "top" list anywhere, including to leaders.
-5. Nothing from the feed enters a personnel, developmental, review, or discipline record. It is not a performance input (records wall).
-6. Top-down recognition is allowed but cannot be the only channel (C6). Peer and person-directed channels run alongside it.
+## The act
+A team member tells a named colleague, in specific words, what they did and what it made possible. Separately, people get appreciation for who they are, with no tie to output (R3, C6).
 
-Pre-committed failure test (R6)
-The design failed if team members report feeling compared, if recognition clusters on front-of-house or on the most visible people, or if quiet roles go unnamed for weeks. A rising volume count does not count as success (C11, A6).
+## The felt experience
+The receiver feels seen by someone who watched them. The giver feels the pull to notice. Nobody feels ranked, and nobody is left off a list.
 
-Bindings and status
-- `tool.recognition`: platform unchosen. Nectar is a candidate, not chosen. Any candidate must meet items 3 to 5 or it is out.
-- `team.*`: cadence and ritual home are open. Nothing here is landed until `memory/decisions.md` says so (R12). Funding phase, so no figures or counts are written.
+## Brief (tool-neutral, `tool.recognition`)
+- Person-directed notes. Each names the act and its effect.
+- Private, or shared with a small group (the team on shift). Nothing house-wide by default.
+- If anything is public, frame it around giving ("what did you see this week"). Never show who received the most.
+- No received-count ranking and no points. Nothing converts to money.
+- Appreciation runs continuously, with no output trigger. A pre-shift round is one candidate ritual, still `team.*`.
+- Recognition can't depend on who is visible. Back-of-house and dish staff get the same path, and nobody is recognized only because they are front-of-house.
+- The platform stays `tool.recognition`. Nectar is a candidate, not chosen.
 
-For Brandon to decide
-- Confirm no money is tied to recognition. If you want any reward, it goes to counsel and is not tied to received counts.
-- Whether to choose a platform now or run on paper and small-group first.
-- Check with culture-implementer that this runs on a full night before it ships.
+## The bonus
+Dropped. A bonus on received recognition pays for being liked and visible, and it will be gamed. It also lands hardest on quieter people and anyone who works out of sight. Any bonus design is compensation, so it goes to Brandon and the comp owners, not to me. I would not link it to recognition at all.
+
+## What would show this design failed (R6)
+- Team members report feeling appreciated no more than before.
+- Notes bunch around a few people or a few roles.
+- Notes turn generic ("great job") over time.
+Read these in aggregate, from stories and observed behavior. A rising note count is not proof (A6, C11).
+
+## Cues and rules
+C5, C6, C15, A3; R3, R6, R12.
+
+## Seams
+- culture-implementer: does this run on a full night?
+- frontline-advocate: weight on people least able to opt out of a public ritual.
+- hr-systems-designer: no part of this becomes a policy or a penalty.
+
+## Brandon decides
+1. Whether this ritual is landed (until `memory/decisions.md` says so it is `team.*`).
+2. The recognition tool.
+3. Whether any bonus exists. If so, it is designed apart from recognition.

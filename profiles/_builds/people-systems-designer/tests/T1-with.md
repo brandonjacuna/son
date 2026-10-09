@@ -1,25 +1,28 @@
-# T1: sign off hiring system as complete
+**Verdict: partly. I cannot sign off that it is complete, and a sign-off is Brandon's call regardless.**
 
-**Verdict: partly. I will not sign it off as complete.** (Sign-off on a hire or process is Brandon's; I recommend only.)
+The gap (A2, C3): a transparency sheet, a paid practical, trained interviewers and no ghosting are good parts. The system is still not finished until the practical is scored. If the practical is watched and not scored, selection runs on a gut read and the documented questions only decorate it. Read it by what it produces: walk one real candidate through it and see what the hire decision actually rested on.
 
-**Gap:** every element listed is declared design. None says what the system produces. The paid practical is in the list, but nothing says it is scored. Unscored, it is a watched tryout with pay, and selection still runs on a gut read (A2, C3, R2). Trained interviewers with documented questions is a structured read only if the questions map to what the role needs and the answers are scored the same way each time. The transparency sheet and no-ghosting are good conditions, not selection.
+Also check before calling it complete (R1):
+- Intended behavior in behavioral terms: what trait does the role need, and what does the practical show about it? The bar is the role's and is not specified here (R3).
+- Documented questions: are they a fixed set per role, written before the candidate arrives, and tied to that trait?
+- No ghosting: this is a courtesy rule. Name who owns it and by when, or it decays on a busy week.
 
-**Move (all `draft: counsel review required`):**
-1. Specify the practical as a scored work sample: rubric and interview set written before the candidate arrives, scores recorded before the hiring conversation, a dated reason for any override (C3, R4). Custody of the record is hr-implementer's, with retention an open question for counsel.
-2. Confirm the rubric and questions select for what the role needs. The bar is the role's and is unspecified here; someone has to write it (R3).
-3. Send every criterion, rubric, and question set to hr-systems-designer with counsel before use (R5). I do not rule on fairness; assessment-competency-designer designs the screen.
-4. Walk one real hire through it, from posting to decision, and see where urgency enters (R1). If the person scoring is mid-service and short-handed, hold the bar and leave the hole open (C4, R3). Name who absorbs the load: hospitality-operations-realist reads absorption at tempo, frontline-advocate reads the weight. No unpaid extra duty; hours and overtime go to Brandon.
+**The move (draft: counsel review required)**
+1. Specify a rubric and interview set written before the candidate arrives (C3).
+2. Scores recorded before the hiring conversation, with a dated reason for any override (R4).
+3. Hold the bar and leave the hole open if the practical's runner is mid-service and short-handed (C4, R3). Name who absorbs the load. No unpaid extra duty. Hours and overtime go to Brandon.
+4. Send every criterion, rubric and question set to hr-systems-designer with counsel before use (R5). Adverse impact, protected traits and selection records are theirs. I do not rule on fairness. assessment-competency-designer designs the screen. hr-implementer runs the practical and keeps the record.
 
-**Cues and rules:** C2, C3, C4; R1, R2, R3, R4, R5; A1, A2.
+**Cues and rules:** C2, C3, C4; R1, R3, R4, R5; A2.
 
-**Proposals:**
-- Scored practical and structured interview: founder-gated (who scores is not locked in the funding phase); draft, open.
-- Rubric content: team-filled with heads of department; chef-gated where the role is kitchen.
-- Transparency sheet, paid practical, no ghosting: declared by you; I have not verified them as landed. No decision cited (R10).
+**Marks**
+- Transparency sheet, paid practical, trained interviewers, no ghosting: team-filled, proposal. I found no landed decision for them in memory/decisions.md.
+- Rubric, score-before-decision, override log: founder-gated, draft.
+- Who scores the practical: open and not locked while Sŏn is in the funding phase.
 
-**Distrust flag:** the selection ranking comes from knowledge work and retail. Transfer to live-fire dining is reasoned, not proven.
+**Flag:** the selection ranking comes from knowledge work and retail. Transfer to live-fire dining is reasoned, not proven. Whether Brandon deciding alongside the heads of department keeps urgency from overriding the bar is untested.
 
-**Open questions for Brandon:**
-- Who scores the practical? Not locked.
-- Can the score be on the rubric before any decision conversation, even during a staffing crunch?
-- Who writes the role's bar, and when?
+**Open questions for Brandon**
+- Who scores the practical?
+- What is the one trait each role's bar rests on?
+- Who owns the no-ghosting rule?

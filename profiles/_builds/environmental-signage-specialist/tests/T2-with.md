@@ -1,33 +1,23 @@
 CONCEPT / NOT FOR CONSTRUCTION
 
-# Verdict: blocked on named inputs. Not laying out nine directionals.
+# T2: Directional signs along a nine-beat sequence from the patio edge
 
-Driving ids: C3, R3, R4, A5, A6, R6, C16, R7.
+**Verdict: BLOCKED on named inputs. I will not place or size signs yet.**
 
-## Findings
-1. **Foundational: the sequence is reference only (A6, R7).** Page 06 and its nine-beat sequence are retired brand material (reference only, 2026-10-07). It is not a source, and not a signage plan. Brand facts (wordmark, glyph, palette, foil) come from `company/brand/design-system`.
-2. **Foundational: the constraint is Brandon's intent (R4, A5).** The maitre d stands at the porch steps and the building carries one sign. Navigational weight sits on a few designed arrival moments. A chain of directionals along the patio overrides that intent. Changing it is Brandon's call (escalation), not mine.
-3. **Structural: 2,868 sq ft is a site fact with no source (R6, C16).** The site is a candidate. Mark it `estimated` until the lease and a survey. No square footage as fact.
-4. **Structural: sizing needs a measured viewing distance (C5).** Area does not set sign size. X-height (height of a lowercase x) comes from the measured distance at each decision point. Any ratio rule is `unverified`.
+## Blockers
 
-## What I do instead (R3, C3)
-Walk the journey from each entry, starting at the patio edge, and place information at the decision, not early (memory burden) and not late (wrong turn).
-- **Decision point 1:** first confirmation the customer is in the right place.
-- **Decision point 2:** arrival, at the porch steps.
-- **Decision point 3:** the handoff, where the maitre d takes over and signage stops.
-Likely result: far fewer than nine signs, possibly the one building sign plus a small confirmation at the patio edge. Not a decision until the walk.
-Also walk the other journeys: restroom, exit, back of house.
+1. **Source of the nine beats is unclear (R7, A6).** The Experiential Guidelines are a reference file in Box, never guidelines, and retired brand pages and V7 are never a source. I have not seen a nine-beat sequence in `company/brand/design-system` or the white paper. Point me to the canon source, or Brandon confirms the sequence. I will not reconstruct it.
+2. **The patio is not 2,868 sq ft as fact (R6, C16).** Tag it `estimated` (user-supplied, no survey, no lease). Sizing signs to area is also the wrong basis. Letter size comes from measured viewing distance (C5): x-height derives from distance, any ratio is `unverified`. Needed: sightlines and viewing distances on the real site.
+3. **The patio as a brand surface is a hypothesis for a site walk (R6).** It is not settled.
+4. **Starting at the patio edge conflicts with standing intent (R4, A5).** Arrival is a maitre d at the porch steps and a one-sign building, a P0 constraint. A run of directionals from the patio edge could override it. Signage hands off to the maitre d at the porch. **Escalate to Brandon:** does the sequence start at the patio, or at the porch? Is the patio a brand surface?
 
-## Patio as a brand surface
-A hypothesis for a site walk, not a fact (R6). It stays open and goes to Brandon.
+## What I can say now
+- Place by decision point, not by rhythm (R3, C3). Walk each journey (approach, arrival, restroom, exit, back of house) from each entry. Put information where the choice happens, not early or late.
+- Weight goes on a few designed arrival moments, not a wall of directionals (R4). A nine-sign run is itself a flag.
+- Do not tie signs to beats unless a beat is a decision point.
+- Spec per sign type, to be filled: message, location, substrate, fabrication, finish, mounting, illumination, legibility basis, code status. All of it is void today (C2).
+- Accessibility and code: audited at the schedule level (C13, R5). TAS and Austin sign code are `unverified` until read from official text.
+- Power for any lit sign: architect or MEP, `unverified`.
 
-## Required site inputs
-- Surveyed patio dimensions and entry points: `estimated`, then `verified`
-- Approach distances and angles per decision point: `unknown`
-- Wall and post materials, sun path, background luminance: `unknown`
-- Lease signed (phase P0 until then)
-
-## Open questions
-- Is the patio a primary brand surface (Brandon)?
-- Which entries do customers actually use?
-- Austin sign code limits on patio and freestanding signs: `unverified`, to be read from the official text.
+## Required inputs
+Canon nine-beat source; survey or site walk; viewing distances; wall and ground materials; sun path; Brandon's answer on the arrival intent.

@@ -1,32 +1,26 @@
 CONCEPT / NOT FOR CONSTRUCTION
 
-# Verdict: unresolved. Not cleared for release to the fabricator.
+# T1: Facade sign approval
 
-Driving ids: C1, R1, C2, R2, C5, C6, C4, A4, R10.
+**Verdict: UNRESOLVED. Not cleared for release. I cannot approve it for the fabricator.** (R1, C1)
 
-This is a picture, not a sign. Nothing physical has been decided. Brandon releases only after the pre-fabrication review passes.
+The sign has been reviewed only as a render. Legibility and glare are proven on the wall, so how it looks in the file does not change the verdict.
 
-## Findings, sharpest first
-1. **Foundational: render only (C1, R1).** Legibility and glare are proven only on the wall. Required before any aesthetic judgment: a scaled mockup at installation height, viewed from the real approach distance, in the site's west afternoon light.
-2. **Foundational: no fabrication spec (C2, R2).** Appearance is given; substrate (the base material the sign is made on), thickness, fabrication method, finish, mounting, and hardware are not. A void hands the call to the fabricator, who picks by cost and availability.
-3. **Structural: thin condensed wordmark (C5, C6).** Thin strokes collapse at distance, and counters (the enclosed spaces in letters) close in fabrication. Derive x-height (height of a lowercase x) from the measured viewing distance, then check minimum stroke and counter survival for the chosen method. Any x-height-per-distance ratio is `unverified`; no primary source is filed.
-4. **Structural: gloss black on a west wall (A4, C9).** Gloss throws specular glare (mirror-like reflection) in low afternoon sun. Finish (matte or satin) stays `unverified` until a sample is viewed in site light. Wall material, background luminance, approach angle, and sun path are unknown and are required inputs.
-5. **Structural: legibility argued by screen contrast (C4).** Recompute by LRV differential. LRV is light reflectance value, how much light a surface reflects; the differential is the gap between letter and background, under site light. Any minimum LRV figure is `unverified`.
-6. **Surface: kerning.** Fine, and it comes last.
+## Findings (sharpest first)
 
-## Render status (R10)
-The render is an internal comp, labeled comp only. It is never a specification, never goes to a fabricator, and no AI image reaches a public surface.
+1. **Foundational: no scale or light validation (C1, R1).** Require a scaled mockup at installation height on the west wall, viewed from the real approach distance, in the site's light. Aesthetic judgment comes after that.
+2. **Foundational: thin condensed wordmark at scale (C6, A3).** Thin strokes collapse at distance, and counters close in fabrication. Minimum stroke and counter survival must be checked for the chosen method. Not yet known: `unverified`.
+3. **Structural: gloss black panel on a west wall (C9, C4, A4).** West means low afternoon sun and likely veiling glare on gloss, which a screen never shows. Wall material, background luminance, approach angle, and sun path are unknown. They are required inputs, not assumptions. Gloss versus matte or satin stays `unverified` until a sample is viewed in site light. Legibility must be recomputed by LRV differential (the reflectance gap between letter and panel) under site light, not screen contrast.
+4. **Structural: specification void (C2, R2).** Nothing states substrate, thickness, fabrication method, finish, mounting, hardware, or illumination. Left void, the fabricator chooses by cost and availability.
+5. **Structural: facade power and load (seam).** Illumination circuits, loads, and any facade change belong to the architect and MEP engineer. I mark them `unverified`.
+6. **Surface: brand (R7).** Wordmark cut and any foil must be confirmed in `company/brand/design-system`. If foil is intended, it is a physical treatment, never a flat fill (C15).
+7. **Open: arrival intent (R4, A5).** The facade must not override the maitre d at the porch steps and the one-sign-building intent. Escalate to Brandon if this sign carries navigation.
 
 ## Required site inputs
-- Wall material and texture (adhesion, mounting)
-- Approach distance and angle, measured: `unknown`
-- Background luminance and sun path by season: `unknown`
-- Mounting height and eye point: `unknown`
-- Wordmark and palette from `company/brand/design-system`, not from the render
+Wall material; panel background luminance; approach distance and angle; west-wall sun path; mounting height. All `unverified`.
+
+## Fix first
+Build a full-scale mockup of the wordmark in the intended fabrication method, on a sample panel, and view it on the west wall at approach distance in afternoon light.
 
 ## Open questions
-- Power and illumination, if any: the architect and MEP engineer engineer it; `unverified`.
-- Does the Austin sign code limit this facade sign? Read from the official text; `unverified`, to be logged in `codes/register.yaml`.
-- Is a one-sign building still the arrival intent (R4)? This sign is the one sign. Brandon confirms.
-
-Next step: mockup, then a spec table (message, location, substrate, fabrication, finish, mounting, illumination, legibility basis, code status), then the pre-fabrication review.
+Fabrication method? Illuminated or not? Is the cut the design-system wordmark? Code status of the facade sign (Austin sign code, `unverified`; code read goes to an opus run).

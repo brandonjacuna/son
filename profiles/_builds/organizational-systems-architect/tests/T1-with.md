@@ -1,25 +1,20 @@
-# T1 (with seat)
+draft: counsel review required (touches a role and possibly a person)
 
-**Verdict: unsound as a trade. Not weighed as pros and cons.** (C5, A3, R3, R9)
+**Verdict: unsound as proposed (predicted failure, not proven).** One general manager over both leads bundles the what of the room (operations domain) with the how (room/hospitality domain). The white paper sets a two-lead split (p.10 to 11). That a merged role fails is this seat's reasoned prediction. It is founder-gated, so I will not weigh it as a line item. (C5, A3)
 
-**Failure mode.** One general manager over both leads bundles the what (operations architecture) and the how (the room's standard). One regulator cannot hold both. The white paper sets the two-lead split (p.10 to 11); that a merged role fails is my reasoned prediction, not a finding. Brandon's stated reason (2026-10-09): the maitre d stops being a force for the room once the role works through an operational report. Under cost pressure the room's standard becomes an operations line item, and nothing else in the flow carries it.
+**Pros (what the merge does)**
+- One fewer salary line, and one apex below the founders. That also answers the "who calls a failure spanning two domains mid-service" question (R4) with a person instead of a rule.
+- Fewer handoffs between two leads.
 
-**Salary.** No saving estimated. The labor line lives in the Investor Review workbook (Box, 02. Capital Raise); I did not open or recompute it. A saving is not a structural argument and I will not supply one.
+**Cons (structural)**
+- Two domains collapse into one person's attention. At peak, the operations call and the room call compete, and the room usually loses or the operations side goes unwatched. Nothing holds the second domain's tension.
+- Variety test (R6): list the disturbance classes the two roles absorb now (table recovery, flow and pacing, staffing gaps, vendor or equipment failure, team conflict, escalation to founders). After the merge, several have a holder sized far too small. That is under-structuring called "lean" (C8, A6).
+- Three-event trace (R8): a problem at a table goes to one person who is also running the operation. A person who wants to advance now sees one scarce seat, which feeds jockeying. If the GM leaves, both domains' knowledge leaves with them, and neighbors compensate unseen (C3).
+- The saving is real, but the work does not leave. It redistributes to neighbors at an unpriced cost (A2).
 
-**What is open, for Brandon (R3, M7).** The maitre d's level is an open option, and no general manager is named in either structure. Both are live:
-- **A. Maitre d one level below department heads.** Test: does the room's standard reach the floor without passing through an operations decision? Predicted failure: the how becomes an operational report and the separation thins under cost pressure. This is the nearest neighbor of your merge idea and carries the same risk in slower form.
-- **B. Head of Hospitality (keeps maitre d title), peer to Head of Operations.** Test: is there a pre-agreed rule for a failure spanning both domains mid-service, and can founder attention carry three department heads with no apex? Predicted failure: negotiation at the moment the room needs a call. R4: I would draft the cross-domain call rule as a founder-gated proposal.
+**Open for Brandon (nothing here is a decision)**
+1. Is the two-lead split closed, or still open while the funding phase holds structure open? Brandon has not closed the option.
+2. If the saving is the goal, the maitre d's level is the lever to look at before a merge (R3). Two structures to model: (a) maitre d one level below today; (b) a Head of Hospitality who keeps the maitre d title, peer to the Head of Operations. Each has its own failure mode and test. I can model both.
+3. Is the real constraint the line, or the headcount at opening? A different fix may exist (phasing the second lead in as proof arrives, R10).
 
-**Proposals and status**
-- Merged GM role: not recommended. Founder-gated (Brandon). Not landed, not a decision.
-- Structure A or B: founder-gated. Funding phase holds structure, titles, and levels open (A7).
-- Two-lead split: landed in the white paper, p.10 to 11. Naming open (p.15).
-
-**Routes.** Whether either structure holds at tempo, and who holds the pass at peak: hospitality-operations-realist. Compensation architecture and role names: Brandon, after counsel. Any personnel action: Brandon's alone.
-
-**Open questions for Brandon**
-1. Which of A or B do you want modeled further?
-2. If labor pressure is real, what is the cost you cannot carry? That tells us where else to look (C9, R6) instead of the lead layer.
-3. What do you not want the maitre d role to become?
-
-V7 terms are not cited as landed anywhere above.
+Hand-offs: hospitality-operations-realist to check whether one person holds at tempo; people-systems-designer for slack and hiring. Role names, level, and compensation go to Brandon, with counsel on any personnel act.
