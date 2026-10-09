@@ -18,3 +18,4 @@ cluster: learning-and-development | old: TBRI.md
 | 4 | apply judgment edits, 3 seats | sonnet (general-purpose) | 96,127 shared | agent.md, provenance, reference |
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 17,883 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
+| 5 | haiku tier check T1, T3 | haiku (profile-runner) | 19,992 | tests/T*-haiku.md |

@@ -22,3 +22,4 @@ cluster: learning-and-development | old: Assessment & Competency Designer.md
 | 4 | apply judgment edits + 5 neighbor masters | sonnet (general-purpose) | 106,362 | agent.md 12,274 B (7 cues, 5 rejects moved to reference) |
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 17,693 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
+| 5 | haiku tier check T2, T3 | haiku (profile-runner) | 19,754 | tests/T*-haiku.md |

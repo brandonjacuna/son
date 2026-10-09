@@ -17,3 +17,4 @@ cluster: learning-and-development | old: Curriculum & Program Architect.md
 | 4 | apply judgment edits, 2 seats | sonnet (general-purpose) | 86,768 shared | agent.md, provenance, reference |
 | 5 | with-runs T1-T3 | sonnet (profile-runner) | 23,502 | tests/T*-with.md |
 | 5 | grader, 6 seats in one agent | sonnet (profile-grader) | 49,555 shared (~8k per seat) | verdicts: T1-T3 pass |
+| 5 | haiku tier check T1, T3 | haiku (profile-runner) | 25,144 | tests/T*-haiku.md |
