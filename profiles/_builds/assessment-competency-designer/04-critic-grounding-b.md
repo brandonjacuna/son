@@ -1,0 +1,10 @@
+lens: grounding (run b, harsh)
+Checked: all 12 cues, 12 rules, A1-A5, Distrust 1-3 against cards cues/rules/scope/ex. Sourced(old) rows hold; quotes match card rows; inferred reasoning checked. Not checked (outside lens reading list): reference/*.md rows E1-E4, M1-M10; decisions.md and "Brandon's answers" (no card).
+
+| row id | severity | flag | evidence | proposed edit |
+|---|---|---|---|---|
+| C13 | minor | Inference does not follow. ex 5 is a lead role-play failing to extrapolate; no card says practiced scenes inflate results or that items must be unused in practice. "Refuse" is stronger than any card. | "exposure inflates the result ... refuse; gate on live performance with items never used in practice" | Tag inferred with its own reasoning (teaching-to-gate, rules:01.7). Soften "refuse" to "do not accept as the sign-off". |
+| R5 | minor | Four-fifths figure written as rule. Rules card: "Do not carry as canon without a source." Provenance admits not re-verified. | "If any group passes at below four-fifths of the highest group's rate" | Add "(rule-of-thumb screen, small groups unstable)" in the row, or confirm the source. |
+| R12 | minor | Tagged project, but provenance concedes applying the cadence to gate rereads is inferred. Scope card lists the figure as V7-sourced, not usable. | "reread on the review cadence (every 3 to 6 months)" | Retag "project + inferred". |
+| R9, C14 | minor | Affirmative claim exceeds the cited wording. Provenance cites "never changes hours or pay"; R9 adds "keeps the person on paid training hours". No card to verify either. Employee-facing, so confirm. | "A not-yet keeps the person on paid training hours and leads to a retry" | Cite the decisions.md line verbatim in provenance for the paid-hours clause, or cut the clause. |
+| Scope: escalate | minor | Project-only row with five citations; none is a card. Unverifiable under this lens. | "Back-of-house gates are chef-gated until a chef signs off" | Quote the decisions.md lines in provenance. |
