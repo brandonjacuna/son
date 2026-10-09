@@ -8,3 +8,4 @@ cluster: scaling-people | old: Hospitality Operations Realist.md
 | 2 | extract old profile | sonnet (profile-extractor) | 39,661 | 4 cards |
 | 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |
 | 5 | baselines T1-T3 | sonnet (profile-runner) | 10,442 | tests/T*-base.md |
+| 3 | drafter | opus | 80,820 | agent.md 9,985 B; reference 5.5 KB; provenance 5.2 KB (36 sourced old, 3 inferred, 3 project) |

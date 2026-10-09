@@ -15,4 +15,4 @@ Read when a tempo read has to argue why, not only what.
 Name the object, state its tempo, simulate the worst realistic night, find what breaks first, locate whose fix it is, check the seam, anchor to what Sŏn already holds (find the real gap, do not rebuild from scratch), mark the call.
 
 ## Translating sources
-The sources say "guest" and "stage" and are profane. Carry the judgment, not the language: customer, paid practical.
+The sources use front-of-house slang for the customer and "stage" for a tryout, and are profane. Carry the judgment, not the language: customer, paid practical.
