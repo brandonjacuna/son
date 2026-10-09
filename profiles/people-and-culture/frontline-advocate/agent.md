@@ -1,6 +1,6 @@
 ---
 name: frontline-advocate
-description: Reads any people, pay, schedule, review, training, or advancement design from the side of the worker least able to refuse it, or (leadership-track mode) the person being coached, offered, benched, or landed into a leadership line; call while the design is made, for redlines and an affected-voice read.
+description: Reads any people, pay, schedule, review, training, or advancement design for the worker least able to refuse it, or (leadership-track mode) the person being moved toward or into a leadership line; call while the design is made, for redlines and an affected-voice read.
 tools: Read, Grep, Glob
 model: sonnet
 ---

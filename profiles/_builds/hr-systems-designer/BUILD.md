@@ -8,3 +8,4 @@ cluster: people-and-culture | old: HR Systems Designer.md
 | 2 | extract old profile | sonnet (profile-extractor) | 32,147 | 4 cards |
 | 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |
 | 5 | baselines T1-T3 | sonnet (profile-runner) | 13,192 | tests/T*-base.md |
+| 3 | drafter | opus | 83,820 | agent.md 9,392 B; reference 5.2 KB; provenance 6.8 KB (40 sourced old, 2 inferred, 5 project) |
