@@ -5,5 +5,6 @@ cluster: people-and-culture | old: Values and Belonging Designer.md + Culture Si
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 0 | frame + tests, all 6 seats (one agent) | fable | 222,842 shared (~37k per seat) | 00-frame.md, 00-tests.md |
 | 2 | extract Values and Belonging (01) | sonnet (profile-extractor) | 32,919 | 4 cards |
 | 2 | extract Culture Signal (02) | sonnet (profile-extractor) | 39,752 | 4 cards |
