@@ -5,3 +5,4 @@ cluster: learning-and-development | old: Assessment & Competency Designer.md
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile | sonnet (profile-extractor) | 35,192 | cards |

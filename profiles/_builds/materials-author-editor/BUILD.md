@@ -5,3 +5,4 @@ cluster: learning-and-development | old: Educational Materials Author and Editor
 ## Worker log
 | stage | worker | model | tokens (usage) | files written |
 |---|---|---|---|---|
+| 2 | extract old profile (incl. voice card) | sonnet (profile-extractor) | 34,146 | cards |
