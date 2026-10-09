@@ -94,3 +94,6 @@ Six seats: hospitality-craft-educator (rebuild; skill + agent), values-belonging
 | Model line | craft educator moves opus to sonnet (both hardest tests hold); bar designer stays sonnet (haiku missed the health-code call and the station method); signage held on haiku but stays sonnet by stakes (it reads TAS and the sign code); the three harsh people seats stay sonnet |
 | Red team | 82 merged flags (4 critical) plus 15 seams; 81 accepted, 1 rejected, 1 ask to Brandon (stay-interview runner) left open |
 | Book ingest | Ellis chapters ingested during the batch (How Many Stations?, Identical Cockpits, The Pickup and The Well, Bar Geometry, Floor Sinks, A.D.A. Bar Counters); the bar seat's station-count block lifted |
+
+## Next-session check, batches 1 to 3 (2026-10-09, after approval)
+Six real agents called by slug with their T1 task (hr-implementer, culture-implementer, instructional-designer, learner-advocate, bar-designer, values-belonging-designer; two per batch, covering haiku and the build-out cluster). All six loaded and applied CLAUDE.md standing rules unprompted ("customer," no em dashes, Brandon decides personnel, counsel first where named). 13k to 52k tokens each. Outputs were tests only; nothing was written to any workstream.
