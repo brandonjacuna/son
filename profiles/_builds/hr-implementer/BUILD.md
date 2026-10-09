@@ -15,3 +15,4 @@ cluster: people-and-culture | old: HR Implementer.md
 | 4 | critics so far: spec+rules a 23,850; spec+rules b 24,757; seams a 43,357; seams b 42,186; harm a 23,800; harm b 22,135 | sonnet (profile-critic) | 180,085 | see 04-critic-*-a/b.md |
 | 4 | critic grounding b | sonnet (profile-critic) | 34,725 | 1 major 5 minor |
 | 4 | critic grounding a | sonnet (profile-critic) | 39,745 | 10 minor |
+| 4 | merger (harsh) | sonnet | usage lost in rate-limit stop; file complete | 04-flags.md 5,128 B (over 4 KB cap) |

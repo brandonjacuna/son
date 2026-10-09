@@ -13,3 +13,4 @@ cluster: people-and-culture | old: HR Systems Designer.md
 | 4 | critic harm a | sonnet (profile-critic) | 20,516 | 2 critical 5 major 2 minor |
 | 4 | critics: harm b 21,757; grounding b 46,692 | sonnet (profile-critic) | 68,449 | harm b 2 critical 6 major 3 minor; grounding b 1 major 7 minor |
 | 4 | critic seams a | sonnet (profile-critic) | 53,095 | 4 major 4 minor |
+| 4 | critic seams b | sonnet (profile-critic) | 62,675 | 3 major 3 minor |
