@@ -8,3 +8,4 @@ cluster: people-and-culture | old: Frontline Advocate.md + Emerging Leader Advoc
 | 2 | extract Emerging Leader (02) | sonnet (profile-extractor) | 36,309 | 4 cards |
 | 2 | extract Frontline (01) | sonnet (profile-extractor) | 37,470 | 4 cards |
 | 0 | frames (all six, one agent) | fable | 151,260 shared | 00-frame.md, 00-tests.md |
+| 5 | baselines T1-T3 | sonnet (profile-runner) | 13,995 | tests/T*-base.md |

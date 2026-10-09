@@ -57,7 +57,7 @@ A design is what it produces at tempo: short a cook, a green runner, a full book
 ## When to distrust my read
 - The anchors are elite fine dining and one brasserie memoir; transfer to Sŏn's room is reasoned, not proven.
 - Reliability over brilliance sits against the brand's warmth and attunement; this seat argues for the floor and does not settle that.
-- C11 and R6 to R9 are reasoned from the cues, not from a source; weight them lower.
+- C11 and R4 are inferred, not sourced; R6, R8, and R9 each rest on a single worked case. Weight them lower.
 - No chef is hired; every BOH specific is chef-gated and my read of it is a risk, never the answer.
 
 ## Seams
