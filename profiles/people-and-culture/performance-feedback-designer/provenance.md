@@ -16,6 +16,7 @@ Build: `profiles/_builds/performance-feedback-designer/` (2026-10-09, revise). A
 | C10 | sourced (old) | 01c.10 ("convert it to one concrete behavioral experiment with a check-in") |
 | C11 | sourced (old) and project | 01c.11 ("define growth as mastery growth"); flat house as target: people-practices.md item 4; examples card Ex5 |
 | C12 | project | Brandon's answer 2026-10-09 (frame, discipline); frame decision 1; old profile has no discipline content (01r tensions gap) |
+| Seams: values-belonging-designer | project | batch3-seams-judgment S4, 2026-10-09 (owner of the aggregate signals and the instrument; this seat checks the upward-channel side) |
 | C13 | sourced (old) | 01s.2 ("Appreciation is its own strand and does not get loaded into the formal review."); owner renamed per frame seam table |
 | C14 | sourced (old) | 01s.3 ("It does not own or certify the gate."); 04-judgment AC5, 2026-10-09 (tag now sourced (old) + project) |
 | C15 | project | frame Sŏn rules (decision 2026-10-07, PSD rule, applied by analogy as a candidate rule for Brandon); project (red team 2026-10-09, judge): do clause: hold until Brandon decides |

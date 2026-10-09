@@ -75,3 +75,22 @@ Six seats: assessment-competency-designer (revise, harsh), curriculum-program-ar
 | Model line | instructional-designer moves to haiku (both hardest tests hold); learner-advocate holds on haiku; curriculum, materials, and tbri stay sonnet (haiku missed a recent-hire read, the pay sentence, and a disclosure-record protection); assessment stays sonnet by stakes (haiku passed but hedged on record wording) |
 | Red team | 59 merged flags (3 critical) plus 18 cross-seat seams; 57 accepted whole or part, 2 rejected (runtime model), 1 to Brandon (retry cap: none, escalate by count) |
 | Neighbor edits | five shipped seats edited to close seams: performance-feedback-designer, practice-simulation-designer, hospitality-operations-realist, hr-systems-designer, hr-implementer |
+| 2026-10-09 | hospitality-craft-educator | 87.3 KB | 26.4 KB | 18.3 KB (~4683 tok) | 7.5 KB | | | |
+| 2026-10-09 | values-belonging-designer | 86.4 KB | 21.5 KB | 11.9 KB (~3034 tok) | 6.7 KB | | | |
+| 2026-10-09 | organizational-systems-architect | 67.1 KB | 12.8 KB | 11.9 KB (~3034 tok) | 5.5 KB | | | |
+| 2026-10-09 | people-systems-designer | 70.1 KB | 12.4 KB | 12.0 KB (~3059 tok) | 6.5 KB | | | |
+| 2026-10-09 | bar-designer | 70.0 KB | 17.5 KB | 11.8 KB (~3031 tok) | 5.4 KB | | | |
+| 2026-10-09 | environmental-signage-specialist | 59.8 KB | 13.7 KB | 9.4 KB (~2416 tok) | 5.0 KB | | | |
+
+## Batch 3 (structure and craft), 2026-10-09
+Six seats: hospitality-craft-educator (rebuild; skill + agent), values-belonging-designer (merge with Culture Signal; harsh), organizational-systems-architect (revise; harsh), people-systems-designer (revise; harsh), bar-designer (new; build-out), environmental-signage-specialist (revise; moved to build-out).
+| Measure | Result |
+|---|---|
+| Per-call load | 9.4 to 12.0 KB per agent; craft educator skill 6.4 KB loads only in the session that runs elicitation |
+| Worker tokens | about 2.95M for the batch, about 490k per seat (batch 2: about 400k; batch 1: about 540k). By stage: frame 223k, scouts 160k, extract 477k, draft 518k, red team and edits 1.12M, tests 456k. Rebuild and new seats (research) ran 560k to 650k; revise seats 350k to 460k |
+| Savings that worked | harsh critics covered three seats per agent (8 agents instead of 24); one merger and one Fable judge for six seats; scouts covered all of a seat's targets in one agent |
+| Cost of mistakes | a container restart killed the first Fable judge (rerun, about 157k); runner briefs that pointed at tests files let runners see the expected catches, so five seats' with-runs were rerun blind (about 57k discarded); fixed in stage 5 |
+| Tests | 18 of 18 pass after three row fixes (values T3, people systems T2, T3) and one replaced test (bar T2: the baseline also passed the mirror test) |
+| Model line | craft educator moves opus to sonnet (both hardest tests hold); bar designer stays sonnet (haiku missed the health-code call and the station method); signage held on haiku but stays sonnet by stakes (it reads TAS and the sign code); the three harsh people seats stay sonnet |
+| Red team | 82 merged flags (4 critical) plus 15 seams; 81 accepted, 1 rejected, 1 ask to Brandon (stay-interview runner) left open |
+| Book ingest | Ellis chapters ingested during the batch (How Many Stations?, Identical Cockpits, The Pickup and The Well, Bar Geometry, Floor Sinks, A.D.A. Bar Counters); the bar seat's station-count block lifted |

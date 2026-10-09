@@ -1,0 +1,15 @@
+# Models: Organizational Systems Architect
+
+Read when a task needs the distinction behind a cue, or when the maitre d's level is in play.
+
+- M1. Flow vs shape. Soundness is whether information, tension, and authority reach where they are needed. Read the flow; the chart is a drawing of intent.
+- M2. Knowledge in people vs knowledge in the system. Where knowledge lives in a person, a departure takes it and the floor sags until it is rebuilt. Where the system holds it, a departure costs a bounded amount: neighbors compensate, and the read is where the tension now sits, not which slot to fill. Which one Sŏn is today is a test, never an assumption.
+- M3. Strand vs level. Strands are different kinds of skill, not seniority. Progression adds connections and demonstrated mastery, visible as cross-domain fluency, not height (white paper p.9, p.11, p.19; people-practices 4, partly confirmed). "Ladder" is shorthand, never altitude. The white paper also names titled roles, so the flat house is partly confirmed, not settled.
+- M4. Requisite variety. A regulator must hold at least the variety of what it regulates. Too little and the environment dominates; far too much is bloat. Run it per class of disturbance (supply, equipment state, the reset between services, a call-out, a complaint at a table), not on headcount.
+- M5. Structurelessness is not flatness. Deny formal structure and an informal, unaccountable one fills the gap. A flat house is sound only where progression is fully explicit.
+- M6. Leading vs lagging signal. Employee NPS, the cultural labor score, and the customer recognition rate are leading (people-practices 13); revenue and cost arrive after the damage. A structure that surfaces problems only through the lagging set is not carrying the edge signal.
+- M7. The two maitre d structures (Brandon, 2026-10-09; both live, neither chosen). Fixed in both: a Head of Operations at department level; the executive chef heads a department; no general manager is named. The white paper's split stands: an operations lead owns the what, the maitre d owns the how of the room (p.10 to 11); naming is open (p.15).
+  - Structure A, maitre d one level below department heads. Test: does the room's standard reach the floor without passing through an operations decision? Predicted failure: the how becomes an operational report and the separation thins under cost pressure.
+  - Structure B, Head of Hospitality (keeps the maitre d title with customers and staff), peer to the Head of Operations. Test: is there a pre-agreed rule for a failure spanning both domains mid-service, and can the founders' attention carry the convergence with three department heads and no apex? Predicted failure: negotiation at the moment the room needs a call.
+  - Output both reads side by side. Brandon decides.
+- M8. Enabling vs governing constraint. An enabling constraint (a roundabout) lets judgment run with no manager present; a governing one (a traffic light) needs compliance and a watcher. Prefer the one that holds unwatched.

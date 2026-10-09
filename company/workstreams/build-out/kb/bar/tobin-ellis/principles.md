@@ -54,15 +54,17 @@ Public layer, built 2026-09-28 from the sources in `sources.md` (numbers in brac
 ### Identical Cockpits; Repeat, Don't Mirror
 - `[perlick-training]` Duplicate stations rather than mirroring them. Mirroring reverses the setup, which puts expensive bottles in the left hand and runs the flow from dirty to clean. Duplicated stations mean no one fights over the "good" station. [13]
 - `[perlick-training]` Default flow left to right, clean to dirty: clean glassware, then the well and ingredients, then trash, dump sink, and dirty glass. The spirits go to the dominant (right) hand; mixers, soda gun, and garnish go to the left. Most-used base spirits sit in the front row. [13]
+- `[book]` One cockpit design per outlet, repeated identically; fix fit problems by changing anything but the cockpit; across several bars keep one design. Reason: procedural memory, so bartenders work heads-up. (pp. 47 to 48; book-notes/identical-cockpits.md)
 - `needs-book` Ellis's exact cockpit sequence and how he handles left-handed staff.
 
 ### How many stations
 - `[perlick-training]` Perlick publishes a cocktail station calculator from seat count, drinks per hour per bartender, and ice volume. [13]
-- `needs-book` Ellis's method in "How Many Stations?"
+- `[book]` One bartender per station, no sharing except a deliberate brigade design; count complete, identical stations. Ellis ranks four ways to get the count: available space (a test fit), head-count ratios (misleading outside catering), floor plan plus concept, and, most reliable, reverse-engineering the pro forma (beverage revenue to drinks per hour to bartenders). Design to fit the business, not the drawing, and make the case early. (pp. 51 to 55; book-notes/how-many-stations.md)
 
 ### The Pickup, The Point, and The Well
 - `[ellis-public]` On construction walkthroughs Ellis asks where the pickup is, where the support section goes, and where the pass is. [3]
-- `needs-book` "The Pickup and The Well" and "The Point and The Well" (how service-well pickups relate to the bartender's station). High priority.
+- `[book]` The server pickup sits directly across the counter from the service well, never offset; it is a full service area (at least two POS printers, trash and recycling, storage, room for two to six staff), isolated from customer traffic. (pp. 57 to 58; book-notes/the-pickup-and-the-well.md)
+- `needs-book` "The Point and The Well".
 
 ### Back-of-house service bars; stadium design by POS
 - `needs-book` Both. Relevant if Sŏn's dining room drinks come from a service bar rather than the main bar.
@@ -73,13 +75,16 @@ Public layer, built 2026-09-28 from the sources in `sources.md` (numbers in brac
 
 ### Engine Parts and Bar Geometry
 - `[ellis-equipment]` The cockpit components are sold separately, so a small operator can buy only the pieces that fit (for example, just the sinks). [4]
-- `needs-book` "Engine Parts" and "Bar Geometry" (straight, L, U, island tradeoffs).
+- `[book]` Arrive at a shape from requirements, never by preference. Three foundational footprints: shotgun (cheapest, simplest, smallest), peninsula (hybrid; service and socialization, at a cost in flow and build), island (aesthetic and social; misses customers out of view, strands staff, 2 to 3 times the cost when radiused). Peninsula or island needs about twice a shotgun's room width. Avoid acute angles and tight radii. (pp. 71 to 80; book-notes/bar-geometry.md)
+- `needs-book` "Engine Parts".
 
 ### Construction: die walls, counters, floor sinks, stick-built vs. ModBar, ADA counters, scuppers
 - `[ellis-public]` A scupper (also called a drink rail or peanut rail) is the drained, perforated steel strip along the bartender's edge of the bar top where tins and glasses sit during building. [4]
 - `[ellis-public]` Putting glass rinsers in a scupper rail is common and, per Ellis, a health code violation everywhere he has worked: food prep and waste areas cannot combine without physical separation. [4]
 - `[perlick-training]` A modular bar (ModBar style) carries longer lead time and must be installed first, since it bolts to the subfloor. [13]
-- `needs-book` Die wall and counter construction, floor sink placement, the stick-built vs. ModBar decision, ADA counter rules, scupper details.
+- `[book]` Floor sinks are placed after the equipment engine is final, under each station's ice bin, set back 8 to 10 in from the equipment edge. (pp. 101 to 102; book-notes/floor-sinks.md)
+- `[book]` Accessible bar counter: waterfall it (lowered customer side, full-height bartender side); never use it as the pickup, never put stools or decor on it, no lift gates or flip-up counters, proper approach space. TAS governs in Texas. (pp. 107 to 110; book-notes/ada-bar-counters.md)
+- `needs-book` Die wall and counter construction, the stick-built vs. ModBar decision, scupper details.
 
 ### Back bar, draft, wine
 - `[perlick-training]` Back bar refrigerators are 24 in deep, not the 31 in kitchen depth. Leave about 1 in each side so a unit can be pulled for cleaning. [13]

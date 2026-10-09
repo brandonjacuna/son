@@ -1,0 +1,32 @@
+# Stage 4 judgment: hospitality-craft-educator
+Read: 00-frame.md (Brandon's answers 2026-10-09), 04-flags.md, agent.md (12,040 bytes), skill/SKILL.md (5,801 bytes), batch3-seams.md, decisions 2026-10-09, `.claude/skills/interview/SKILL.md`, REGISTRY.md.
+Size rule: agent.md is at the cap. Every addition below is paired with a cut (H15, H11, H10). Target after edits: under 12,000 bytes; if the drafter lands over, move the R8 beverage sentence "Recall across shifts, interleave flights, practice the recommendation itself" to `reference/models.md`.
+
+## Flags
+| id | ruling | edit |
+|---|---|---|
+| H1 | accept | SKILL step 2, replace "Venue names of lineage houses or out-of-scope entities are written as "a prior house"; the incident is his experience, never that house's practice." with "A lineage house is written as "a prior house"; the incident is his experience, never that house's practice. An incident from an out-of-scope entity (root CLAUDE.md) is declined without recording it: offer "Different incident"." |
+| H2 | accept | SKILL, Transcript format, replace "No interpretation, labels, or tidying in the transcript. Nothing from it enters a record about a person." with "No interpretation, labels, or tidying. No person is named: a coworker is a role, a customer is "a regular" or "the table". Nothing from it enters a record about a person. If an answer turns to founder-only matter (comp, capital, partners), stop writing, note `A: (founder-only, not recorded)`, and tell Brandon it belongs in `founders/`." |
+| H3 | accept, merged with H8 | SKILL, Where it writes, replace "Any later crew voice is a role code (`floor-1`, `bar-1`), never a name." with "Crew rounds are deferred until Brandon names who runs them. When opened: voluntary, on paid hours, any probe may be skipped, never read for evaluation, minority views kept unattributed; the voice is a role code (`floor-1`, `bar-1`), never a name." |
+| H4 | accept | agent.md, Output, second bullet: after "cue source (transcript file and stage, or "probe")" insert " | expectancy | goal | wrong move seen (voice code) | expert check". Paired cut: H15. |
+| H5 | accept for R4, C13, R12; R3 stays | R4 replace with "R4. A glance read needs many varied trials with feedback; a judgment needs comparison against an expert panel (commit, write why, see the panel, write what you missed). The practice form is practice-simulation-designer's. Panel agreement is a proxy for floor performance, and I say so to the gate." C13 "do" column: "state the need: many short varied trials with feedback, or expert comparison; form to practice-simulation-designer". R12 replace "one standard at a time, discussed and role-played, linked to a value" with "one standard at a time, linked to a value". R3 is a classification of kind (recognition versus check), which frame decision 4 gives this seat; it names no form. |
+| H6 | accept | SKILL frontmatter add `allowed-tools: AskUserQuestion, Read, Write`. Pop-up rules, add first bullet: "While this skill runs it takes precedence over `interview`: no 7-question cap (a stage runs to its end), and an Other answer is written verbatim, never restated. One stage per sitting; after each stage offer next stage, next scenario, or pause." |
+| H7 | accept the trigger ruling only | SKILL description: drop "interview me about service". The REGISTRY row is the orchestrator's at ship; its triggers are the remaining five, scope Learning studio, note "elicitation only; `interview` keeps every other pop-up". |
+| H8 | accept | agent.md Scope, Escalate: replace "approval of any house service standard built from elicitation" with "the house service standard (I draft from elicitation, Brandon approves; before approval every mention of "the standard" is a proposal)". When to distrust my read, add: "A transcript older than the approved standard, or from before a scenario was reframed, is stale: say so in the verdict and ask for a round." Crew-round runner: covered by H3 edit. |
+| H9 | accept | provenance.md row C3: tag `sourced (04.1) + inferred`. |
+| H10 | accept | R9 replace with "R9. Quality and liking are separate axes; the crew judges quality and hears preference. How a preference request is served against the house's ranking is a probe for elicitation, not a rule, until Brandon's rounds answer it." provenance.md: axes `sourced (06.4)`, the move `probe`. |
+| H11 | accept | R7: delete "Food failure is the most severe;" and replace with "Severity by failure kind is a probe for elicitation;". Keep "read the failure kind first", "limits and amounts are bindings", the four observables. |
+| H12 | accept | C12 "do": "specify per R6; recommend trainers to Brandon, since not every veteran trains". R6 "named trainers" becomes "trainers recommended to Brandon". provenance.md R6: add 04.7. |
+| H13 | accept | R10 "with a crew under ten" becomes "with a small crew". provenance.md: notes on C10 (removed by H15), A7, M6 as the flag lists. |
+| H14 | reject | Frame decisions 3 and 6 give this seat kind-to-medium ("tellable, write it; bodily, drill it") and "model then coach then fade" as the trailing specification; R6 already says readiness is by criteria never tenure, and the assessment seam names who sets the criteria. |
+| H15 | accept with one change: C1 stays | Drop C10 and fold its "do" into C9: "do not stop; probe what each cue looks like, run contrast cases, and ask each voice for a specific instance". Drop R11 and fold into C1 "do": "write a checkable standard; precision is the floor, not the hospitality". C1 is the service-layer half of frame decision 2 and stays. C4, C6, R5 stay: each carries a Sŏn routing (people-systems-designer, allergen capture, selection). |
+
+Counts: accept 14 (H5, H7, H15 partial), reject 1 (H14), ask 0.
+
+## Seams touching this seat (ruled in batch3-seams-judgment.md)
+- S9: practice-simulation-designer owns the form; this seat supplies cue needs and wrong moves (H4, H5 edits). No edit on the PSD side: its C6 and R15 already read that way.
+- S10: this skill owns elicitation triggers; `interview` owns every other pop-up; precedence stated in the skill (H6, H7).
+- S11: this agent drafts the standard, Brandon approves (H8); crew rounds deferred (H3).
+
+## Does it do the frame's job?
+Yes. Skill elicits by stage and scenario with Brandon and writes the transcript; agent sorts layer, kind, transmission, and cue source and routes the rest; with H1 to H3 the transcript cannot carry out-of-scope or personal matter, and with H5 and H15 it stops specifying what its neighbors own.

@@ -1,0 +1,11 @@
+lens: specificity
+| row id | severity | flag | evidence | proposed edit |
+|---|---|---|---|---|
+| R9 | major | Generic quality-vs-liking rule from a vendor-summarized sake study, written as a house service move. It dictates server behavior with no Sŏn elicitation, which breaks R1. Path: gate or module teaches "name the quality" on the floor and no practitioner ever said that. | "serve the preference and name the quality, neither lecturing nor hiding the ranking" | Reduce to a probe: "elicit how the house handles a request for sweeter or easier"; keep the two-axes distinction in models.md only |
+| R7 | major | Survey of service-recovery lore (match resource, close the loop, four observables). A generalist writes this unaided. "Food failure is the most severe" is a house judgment stated as fact, not elicited. | "Food failure is the most severe; the kitchen action binds chef.*" | Cut to the Sŏn-specific part: read failure kind first, limits are bindings, severity ranking is a probe for Brandon's recovery incidents |
+| R11 | minor | One-line house stance (precision as floor) with no source beyond the old seat and no decision it changes. | "Teach precision as the prerequisite floor and a signal of intention, not as hospitality." | Merge into C1 or delete |
+| C1, C4, C6, C10, R6 | minor | Textbook content any generalist would produce: house-set vs read, scripts where completeness matters, shared labels hide meaning, model-coach-fade. | "Model, then coach, then fade" | Keep R6's distinctive parts only (role as binding, named trainers, off-floor never replaces trailing); drop C1 and C10 |
+| R5 | minor | Research moves named as team content ("reappraise rudeness as impersonal") are borrowed, not Sŏn's. Agent output reaches other seats and could read as therapy talk against the learning rule. | "reappraise rudeness as impersonal, take the customer's view" | Mark as extension; the named moves come from elicitation (R1) |
+| R4, R12 | minor | Both specify a practice form ("see the panel", "discussed and role-played"), a generic default rather than a craft judgment. | "role-played" | State the requirement (needs comparison feedback), leave the form to the neighbor |
+
+No identity or credential inflation found. Strongest rows: C3, C7, C8, C15, R1, R2, A1, A3, A6.

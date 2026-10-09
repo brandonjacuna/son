@@ -4,6 +4,7 @@ A new agent file is not callable until the next session starts, so runners load 
 
 1. Spawn two runners in one message, both writing into `profiles/_builds/<slug>/tests/`:
    - with: `model: <the frame's model guess>`. `subagent_type: profile-runner`. Brief: "Seat: <master path>. Tasks: <T1..Tn text>. Output: `tests/Tn-with.md`, one file per task, each task answered fresh."
+   - Paste the task text into the brief and tell the runner not to open `tests.md` or the build folder. Never point a runner at the tests file: a runner that greps a row sees the expected catch, and its run proves nothing (batch 3, 2026-10-09).
    - baseline (first build of a seat, and any test that failed before): same model, "Seat: none", outputs `tests/Tn-base.md`.
    A rerun after a fix runs only the failed test, in its own runner.
 2. Spawn one `subagent_type: profile-grader`: "Tests: <path to tests.md>. Outputs: <build>/tests/." It returns a verdict table.

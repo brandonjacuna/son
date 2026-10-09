@@ -19,24 +19,24 @@ principles:
   - {topic: "Zone vs. Brigade Design", priority: A, status: needs-book}
 
 practices:
-  - {topic: "Identical Cockpits", priority: A, status: needs-book}
+  - {topic: "Identical Cockpits", priority: A, status: done}
   - {topic: "Repeat Don't Mirror", priority: A, status: public-partial}
-  - {topic: "How Many Stations?", priority: A, status: needs-book}
+  - {topic: "How Many Stations?", priority: A, status: done}
   - {topic: "Ergonomic Alignment", priority: A, status: needs-book}
-  - {topic: "The Pickup and The Well", priority: A, status: needs-book}
+  - {topic: "The Pickup and The Well", priority: A, status: done}
   - {topic: "The Point and The Well", priority: A, status: needs-book}
   - {topic: "B.O.H. Service Bars", priority: B, status: needs-book}
   - {topic: "Stadium Design By P.O.S.", priority: C, status: needs-book}
   - {topic: "Death to Double Speedrails", priority: A, status: public-partial}
   - {topic: "Engine Parts", priority: A, status: needs-book}
-  - {topic: "Bar Geometry", priority: A, status: needs-book}
+  - {topic: "Bar Geometry", priority: A, status: done}
   - {topic: "Standard Design-Build Process", priority: B, status: needs-book}
   - {topic: "Design Requirements", priority: B, status: needs-book}
   - {topic: "Space Planning", priority: A, status: needs-book}
   - {topic: "Die Walls & Counters", priority: A, status: needs-book}
-  - {topic: "Floor Sinks", priority: A, status: needs-book}
+  - {topic: "Floor Sinks", priority: A, status: done}
   - {topic: "Stick-Built vs. ModBar", priority: A, status: needs-book}
-  - {topic: "A.D.A. Bar Counters", priority: A, status: needs-book}
+  - {topic: "A.D.A. Bar Counters", priority: A, status: done}
   - {topic: "Scuppers", priority: A, status: public-partial}
   - {topic: "Back Bar Designs", priority: A, status: needs-book}
   - {topic: "Draft Dispensing", priority: B, status: needs-book}
