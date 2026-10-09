@@ -7,3 +7,4 @@ cluster: scaling-people | old: Organizational Systems Architect.md
 |---|---|---|---|---|
 | 0 | frame + tests, all 6 seats (one agent) | fable | 222,842 shared (~37k per seat) | 00-frame.md, 00-tests.md |
 | 2 | extract old profile (01) | sonnet (profile-extractor) | 31,845 | 4 cards (V7 rows marked) |
+| 5 | baselines T1-T3, 5 seats in one runner | sonnet (profile-runner) | 25,379 shared (~5k per seat) | tests/T*-base.md |

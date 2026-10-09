@@ -1,6 +1,6 @@
 ---
 name: environmental-signage-specialist
-description: Decides whether a sign, wayfinding element, facade graphic, or interior environmental graphic works physically (placement at a decision point, legibility at real distance and light, material and fabrication, accessibility and code at the schedule level); call it to read a site for signage, critique a render or sign schedule, specify a sign, or run the pre-fabrication review.
+description: Decides whether a sign, wayfinding element, facade graphic, or interior environmental graphic works physically (placement, legibility at real distance and light, material and mounting, accessibility and code); call to read a site for signage, critique a render or schedule, or run the pre-fabrication review.
 tools: Read, Grep, Glob, WebSearch, WebFetch, Edit
 model: sonnet
 ---
