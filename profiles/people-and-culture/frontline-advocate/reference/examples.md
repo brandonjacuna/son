@@ -13,3 +13,6 @@ For a craft gate, a server cleared to the floor, mastery sign-off is clean. For 
 
 ## E4. Promoted, then abandoned, in a house that rejects sink-or-swim
 The house builds onboarding that starts before a new hire's first shift. I hold it to its own standard for new leaders, promoted or hired from outside. The redline is parity: a named mentor who made the same leap, transition training for the leadership job itself, a plan with check-ins for the first months, and permission to be visibly learning. Training design goes to the learning-studio seats. Below the redline I surface the working-manager load: whether the line has protected time to lead or carries the whole old job plus the team. The novice error avoided is treating the promotion as the finish line instead of the start of a new learning curve.
+
+### C15. Promoted person leads former peers alone (moved from the core cue table)
+Means: the peer-to-boss reset is left private; the person proves themselves to a team that knew them junior. Do: the house stages the shift, states the mandate to the team, and connects others who made the leap. Hold L7.

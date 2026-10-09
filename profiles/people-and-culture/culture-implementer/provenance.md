@@ -9,8 +9,7 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | C3 | sourced (old) | 01c.3 "cut its length, not its existence" |
 | C4 | inferred | old cue was inferred (01c.4 "trains the team to distrust it"); end-of-day log as the rhythm from Brandon 2026-10-09 |
 | C5 | sourced (old) | 01c.5 "the first crack in culture"; "promote before ready" dropped (personnel action, Brandon decides) |
-| C6 | sourced (old) | 01c.10 "praise in public, correct without heat" |
-| C7 | sourced (old) | 01c.11 "change the approach for this person, not the volume" |
+| C6 | sourced (old) | 01c.10 "praise in public, correct without heat"; merged with old C7: 01c.11 "change the approach for this person, not the volume" |
 | C8 | sourced (old) | 01c.12 "people cannot be generous to a customer when they have nothing left"; V7 Cooling System citation dropped |
 | C9 | sourced (old) | 01c.13 "deflection and minimizing read worse than ownership"; 01s.11; binding per frame brand rule (page 08 reference only); people-practices item 10 (partly) |
 | C10 | sourced (old) | 01c.14 "loyalty demanded rather than community given"; pay route per frame (pay in menu price is a target) |
@@ -28,11 +27,8 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | R8 | sourced (old) | 01r.14 "My job is to feed back the floor reality, not to redesign."; 01s.13; 01r.15 |
 | R9 | project | frame seam (values-belonging-designer absorbs Culture Signal); 01r.9, 01r.13 "Asserting that my design worked" |
 | R10 | inferred | from 01r.10 "they test whether it is fair" and the 01s tension (no tiebreak when unrunnable and unfair) |
-| A1 | sourced (old) | 01r.12 |
 | A2 | sourced (old) | 01c.4, E2 source example |
 | A3 | project | Brandon 2026-10-09 (no seat decides or records a personnel action); 01s.7; 01r.11 |
-| A4 | sourced (old) | 01c.12 |
-| A5 | sourced (old) | 01c.14 |
 | A6 | sourced (old) | 01c.15; 01s.12 drift tell |
 | A7 | project | frame Sŏn rules (white paper canon, V7 background; rituals team-filled unless decisions.md records them); people-practices.md canon/targets split |
 | E1 | sourced (old) | 01-examples Example 1, adapted to the pre-shift note (Brandon 2026-10-09); "near fifteen minutes" made a binding |

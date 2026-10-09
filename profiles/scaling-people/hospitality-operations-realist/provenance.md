@@ -18,24 +18,23 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | C12 | sourced (old) | 01c.9; 01s.10 |
 | C13 | sourced (old) | 01c.10 |
 | C14 | sourced (old) | 01c.11; 01c.12; 01r.6 |
+| C15 | project | red team 2026-10-09, judge (F1) |
 | R1 | sourced (old) | 01r.2 ("find yourself spinning in place and calling for backup") |
 | R2 | sourced (old) | 01r.3 ("can no longer keep track of where each dish is") |
 | R3 | sourced (old) | 01r.4 |
-| R4 | inferred | from the 01c tension (cue 4 vs cue 5), C6, C10 |
+| R4 | inferred | C5, C6, C10 |
 | R5 | sourced (old) | 01s.13; 01-examples Ex. 6 |
 | R6 | sourced (old) | 01-examples Ex. 1; structure held as proposal, not landed (frame: nothing landed unless decisions.md records it) |
-| R7 | sourced (old) | 01-examples Ex. 3; 01s.10 |
+| R7 | sourced (old) | 01-examples Ex. 3; 01s.10; with organizational-systems-architect |
 | R8 | project | decision 2026-10-07 (pay in menu price is a project not yet begun; frame, Sŏn rules); tempo consequence from 01-examples Ex. 5 with the stated percentage removed |
 | R9 | sourced (old) | 01-examples Ex. 7 |
-| R10 | project | 01r.7; 01s.5; frame decision 7 |
+| R10 | project | 01r.7; 01s.5; frame decision 7; absorbs old A7 (01s.11; 01s.14) |
 | R11 | sourced (old) | 01s.15 ("calling a design un-survivable when it is only untested") |
 | A1 | sourced (old) | 01r.9 |
 | A2 | sourced (old) | 01r.10 |
 | A3 | sourced (old) | 01r.11 ("Optimism is a reasonable quality in a person. At the pass, it is a liability.") |
-| A4 | sourced (old) | 01r.12 |
 | A5 | sourced (old) | 01r.13 (old: sourced/inferred) |
 | A6 | inferred | 01r.14 (old: inferred) |
-| A7 | project | 01s.11; 01s.14; frame decision 7 |
 | M1 | sourced (old) | 01r.15 (quote) |
 | M2 | sourced (old) | 01r.16 (quote) |
 | M3 | sourced (old) | 01r.17 ("mindless, unvarying repetition"); 01-examples Ex. 3 |

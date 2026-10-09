@@ -24,11 +24,10 @@ Build: `profiles/_builds/frontline-advocate/` (2026-10-09), merge mode. Cards 01
 | C7 | sourced (old) | 01.7, 01 example 4; handoff slug is project (frame seam table) |
 | C8 | sourced (old) | 01.8 ("three jobs for one wage"); target status is project (people-practices.md item 12) |
 | C9 | sourced (old) | 01.9 ("verify the hours are genuinely paid at a real rate"), 01.10, 01.12, 01.18 |
-| C10 | sourced (old) | 01.11 |
 | C11 | sourced (old) | 02c.1 ("you have been our strongest server for two years"), 02c.2 ("staying coded as waiting"), 02r.1 |
 | C12 | sourced (old) | 02c.3 ("promoted then abandoned"), 02r.2; outside hire is project (Brandon's answers 2026-10-09) |
 | C13 | sourced (old) | 02c.4 ("the pay cliff hidden"), 02 example 2; "figures stay unbound" is project (counsel-gate item 6) |
-| C14 | sourced (old) | 02c.5 ("working-manager overload"); protected-time remedy inferred in the card itself (02c.5, 02r.4) |
+| C14 | sourced (old); remedy inferred | 02c.5 ("working-manager overload"); protected-time remedy inferred in the card itself (02c.5, 02r.4) |
 | C15 | sourced (old) | 02c.6 ("peer-to-boss whiplash left as the person's private problem"), 02c.10 ("internal-hire burden"), 02s.7 |
 | C16 | sourced (old) | 02c.7, 02 example 1 |
 | R1 | sourced (old) | 01.19 ("find the quiet one who cannot speak"), 01.23; examples of the quiet worker from frame decision 1 (project) |
@@ -42,14 +41,10 @@ Build: `profiles/_builds/frontline-advocate/` (2026-10-09), merge mode. Cards 01
 | R9 | sourced (old) | 02c.9, 02s.8 ("a correction of the house's error") |
 | R10 | project | 01.44 (old: project); Brandon's answers 2026-10-09 (feedback written and trackable; Nectar and Trainual nameable; tools as `tool.*` bindings) |
 | R11 | project | 01.42, 01.43 (old: project); canon and target status from people-practices.md items 4 and 11 |
-| R12 | project | 01.21, 01.40 (old: project); frame seam table. The prior hand-off to Emerging Leader Advocate is removed: that voice is now leadership-track mode |
 | A1 | sourced (old) | 01 example 1 (novice error), 01.25 |
 | A2 | sourced (old) | 01 example 2 (novice error), 01.36 |
 | A3 | sourced (old) | 01 example 4 (novice error), 01.7 |
 | A4 | sourced (old) | 02 example 1 (novice error), 02s.3 ("Craft competence is not leadership competence.") |
-| A5 | sourced (old) | 02r.10 ("A leap with no scaffolding and no exit is a trap dressed as opportunity.") |
-| A6 | sourced (old) | 02r.12 ("treating the promotion as the finish line") |
-| A7 | project | 01.31, 01.39 (old: project); frame seam with values-belonging-designer |
 | M1 | sourced (old) | 01.23 ("Designing for the worker who can push back designs for the wrong person.") |
 | M2 | sourced (old) | 01.24, 01.26 ("The brochure and the fee are two different objects.") |
 | M3 | sourced (old) | 01.25 ("Transparency the worker can audit for themselves is the redline") |
@@ -69,6 +64,8 @@ Build: `profiles/_builds/frontline-advocate/` (2026-10-09), merge mode. Cards 01
 | E2 | sourced (old) | 01 example 4, adapted: cadence and press citation dropped |
 | E3 | sourced (old) | 02 example 1, adapted |
 | E4 | sourced (old) | 02 example 3, adapted: survey figures dropped (directional only); outside-hire clause is project (Brandon's answers 2026-10-09) |
+
+Scope escalation line: project (`memory/decisions.md` 2026-10-09, people). Seams: project (frame seam table; judgment 2026-10-09). Output: project (judgment 2026-10-09). Old A7 (overclaiming the read) moved to the distrust list, project (01.31, 01.39). Cut in judgment: C10 (restates L4), A5, A6, R12 (hand-off is the learner-advocate seam row).
 
 ## Tensions kept open
 - Redline list. Card 01-old-scope records two lists in the prior Frontline profile: five items in scope (01.34) and a "small set" in outputs that adds safe complaint. Settled into one list of nine (L1 to L9) following the frame (decision 2): "benefit not a leash" and "no employer risk dumped as flexibility" merge into L2; safe complaint and safe upward feedback stay reads (C5, C7, A3), because a channel's safety is a design the seat cannot hold as a yes or no. Brandon may promote it to a redline.
