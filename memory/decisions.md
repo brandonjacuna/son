@@ -69,3 +69,4 @@ Append-only. Format: `- YYYY-MM-DD | area | decision | who agreed`. Only record 
 - 2026-10-09 | learning | The adult use of HighScope (plan-do-review) and TBRI is the working position, stated once as Sŏn's adaptation and never claimed as proven; framework names stay inside the studio, team-facing material (manager guides included) shows only the practices | Brandon
 - 2026-10-09 | learning | Before opening, the first hired trainees (paid pre-opening training) stand in for the novice-attempt test | Brandon
 - 2026-10-09 | learning | Learning-studio seats never produce: a school-like feel or homework outside paid hours, therapy or trauma talk, long reads (phone, two minutes), or gotcha checks | Brandon
+- 2026-10-09 | learning | No retry cap on a readiness gate: a second not-yet opens an audit of the gate itself, a third brings the case to Brandon as a conversation; no seat writes a cutoff rule | Brandon
