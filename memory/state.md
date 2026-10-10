@@ -3,7 +3,9 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Phase 3 step 5: builder batch 4 (design in code: 01 skill (+02, +08), 05 (+10), 09 skill, 04, 07; retire 03 and 10) | next Code session | batch 3 shipped 2026-10-09; runner briefs paste task text (stage 5 rule); stage 4 now calls the `red-team` skill (first real run with its custom workers: log tokens in `.claude/skills/red-team/SOURCE.md`, and compare one seat's blind critics against a single careful review)
+- Approve batch 4 (five design seats: design-brief-translator and creative-director skills; web-ui-specialist, editorial-layout-specialist, image-campaign-specialist agents) and merge its PR | Brandon | report in `profiles/_builds/MEASUREMENTS.md` (Batch 4); after approval, clear each build folder to BUILD.md, 00-frame.md, 01-sources.md and move them into the master's `build/`
+- Next-session check for batch 4 (profile-build stage 6 step 7): call web-ui-specialist and image-campaign-specialist by slug with their T1 and confirm one CLAUDE.md standing rule applies unprompted | next Code session | log in each BUILD.md
+- Phase 3 step 5: builder batch 5, build-out trades (kitchen-layout, ventilation-hvac, codes-permitting, clash-reviewer) | next Code session after approval | order confirmed 2026-10-07; agent definitions only, design work follows the phase lock
 - Bar: six Ellis chapters ingested; more chapters and the station count wait until Brandon starts bar design work (setup only until then, 2026-10-09) | Brandon | decisions/open.md items 10, 11
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
 - Account-synced skills cost about 3,300 tokens a turn of listing; unused ones (browser, computer-use, morning, google-workspace, import-memory, mcp-builder) can be turned off on claude.ai | Brandon, optional | see `memory/audits/2026-10-07-skill-doctor-baseline.md`
@@ -12,6 +14,10 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Five data API keys (FRED, BLS, Socrata, Census, EIA) | Brandon | before nerve switches on in phase 5
 - Archive the old GitHub repos (son-learning-studio, son-operational-buildout, son-nerve; make agenticproject private and archive) | Brandon to confirm | everything from them is in `son`
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
+
+## Done 2026-10-10
+- Phase 3 step 5 batch 4 shipped: five design seats (two skills, three agents) in `profiles/design/`, 25/25 tests, about 580k worker tokens per seat; 03 Brand Identity and 10 Motion retired; first red team run with the custom workers (logged in `.claude/skills/red-team/SOURCE.md` with a single-review comparison); ten decisions recorded
+- PR #13 (red-team skill) and PR #14 (state) merged
 
 ## Done 2026-10-09
 - Phase 3 session C: `red-team` skill built (`.claude/skills/red-team/`: stakes floor with three intensities, eight lens files including `who-pays` and the harsh-only `loop` session check, flags and report templates, workers `red-team-critic`, `red-team-merger`, `red-team-judge`); profile-build stage 4 rewired to it and `profile-critic` retired; self-test ran (five blind critics plus the custom judge, about 490k worker tokens, 27 flags, 20 accepted and applied, 3 rejected, 2 asks to Brandon); report in `memory/audits/red-team/2026-10-09-red-team-skill/report.md`; PR #13 merged 2026-10-10
@@ -48,6 +54,12 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - ClickUp Meetings Agent v3: Monday 7 AM roll-forward, day-before reminders, close-out; checkpoints Oct 8, 12, 13 (`company/workstreams/clickup-system/STATE.md`)
 
 ## Open questions for Brandon
+- Web UI seat evidence (batch 4, F5): interim, the seat is read-only and a finding without lint or render output is 'not rated'. Keep that, allow it to run the four design-system check commands, or build a separate runner agent?
+- In-room screen placement (batch 4, F8): interim, Brandon places each screen. Keep with Brandon, or add to environmental-signage-specialist's scope?
+- Design system canon conflicts: its guide and package.json name the company 'Future Nostalgia Hospitality Group' (CLAUDE.md: Sŏn Hospitality LLC) and its tokens use daypart code names; `docs/structure-motion-decision.md` (governing, ratified 2026-07-20) governs the `track/` site, and the motion spec it replaced was written for the investor site retired 2026-10-07. Is `track/` the public site? Seats flag these and repeat neither
+- The son-design guide tells a session to act as a designer and generate HTML; it is reference only now (2026-10-10). Soften that line in a design-system session?
+- New mark or identity work has no craft seat since Brand Identity retired; a brand-copy seat does not exist either (Brandon owns copy for now). Add either to the roster?
+- Red team cost (session recommendation, not a decision): a single careful reviewer caught most of what the blind panel did at about a third of the cost; consider one reviewer plus the loop and seams lenses for standard seats, panel kept at harsh
 - Resolved 2026-10-07 (Brandon): brand canon line marked; see `memory/decisions.md` (`brand`)
 - Resolved 2026-10-07 (Brandon): V7 Business Strategies Notebook (ClickUp 2ky45bmy-11873) is kept as background only, not canon; the white paper is canon.
 - Operational figures (pars, labor targets, pay, schedules, counts) have no source since Airtable retired; learning-studio marks them unbound (phase 5)
