@@ -1,0 +1,1 @@
+No brief needed: a state change on an existing component (G2, hover on the existing reservation button, a token-role change). Go to `web-ui-specialist`; Onggi keeps its name as a color, so the change is the button's hover color pointing at the Onggi token in `company/brand/design-system/tokens/`, not a hex.

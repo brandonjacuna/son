@@ -16,3 +16,4 @@ cluster: design | old: design-translating-team 07
 | 4 | merger, both harsh seats | sonnet (red-team-merger) | 52,360 shared | 04-flags.md |
 | 4 | Fable judge, 5 seats + cross-seat seams (one agent) | fable (red-team-judge) | 107,801 shared | 04-judgment.md; batch4-seams-judgment.md |
 | 4 | apply judged edits, 5 seats + registry (one agent) | sonnet | 159,067 shared | edits to masters and REGISTRY.md; lint 0 errors |
+| 5 | with-runs T1-T5, 3 seats in one runner | sonnet (profile-runner) | 60,208 shared (~20k per seat) | tests/T*-with.md |
