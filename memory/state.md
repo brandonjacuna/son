@@ -3,9 +3,9 @@
 Rewrite freely. One line per item: what | owner | next step. Plan and phase briefs: `memory/plan.md`, `memory/briefs/`.
 
 ## Now
-- Phase 3 step 5: builder batch 4 (design in code: 01 skill (+02, +08), 05 (+10), 09 skill, 04, 07; retire 03 and 10) | next Code session | batch 3 shipped 2026-10-09; runner briefs paste task text (stage 5 rule)
+- Merge PR #13 (`claude/session-c-iuf4wb`: red-team skill, profile-build stage 4, workers) | Brandon | both red-team asks answered 2026-10-09 and recorded in `memory/decisions.md` (`system`); nothing else waits on it
+- Phase 3 step 5: builder batch 4 (design in code: 01 skill (+02, +08), 05 (+10), 09 skill, 04, 07; retire 03 and 10) | next Code session | batch 3 shipped 2026-10-09; runner briefs paste task text (stage 5 rule); stage 4 now calls the `red-team` skill (first real run with its custom workers: log tokens in `.claude/skills/red-team/SOURCE.md`, and compare one seat's blind critics against a single careful review)
 - Bar: six Ellis chapters ingested; more chapters and the station count wait until Brandon starts bar design work (setup only until then, 2026-10-09) | Brandon | decisions/open.md items 10, 11
-- Phase 3 session C: red-team skill (`.claude/skills/red-team/`, three intensities) | Fable session | until it exists, profile-build stage 4 runs its interim critics
 - Phase 2 done-when still open: real-session tests of `thread` (first tangent) and `chat-handoff` (first real package) | any session | record results in `memory/audits/2026-10-07-phase2-skill-tests.md`
 - Account-synced skills cost about 3,300 tokens a turn of listing; unused ones (browser, computer-use, morning, google-workspace, import-memory, mcp-builder) can be turned off on claude.ai | Brandon, optional | see `memory/audits/2026-10-07-skill-doctor-baseline.md`
 - Old `son-build` name in the root guard script docstring (line 5) | Brandon | needs the unlock phrase; one-word comment fix, then drop its allowlist entry
@@ -15,6 +15,7 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - Delete `~/Desktop/son-imports/_transfer` and the zips on the Desktop | Brandon, any time | originals are in the repo
 
 ## Done 2026-10-09
+- Phase 3 session C: `red-team` skill built (`.claude/skills/red-team/`: stakes floor with three intensities, eight lens files including `who-pays` and the harsh-only `loop` session check, flags and report templates, workers `red-team-critic`, `red-team-merger`, `red-team-judge`); profile-build stage 4 rewired to it and `profile-critic` retired; self-test ran (five blind critics plus the custom judge, about 490k worker tokens, 27 flags, 20 accepted and applied, 3 rejected, 2 asks to Brandon); report in `memory/audits/red-team/2026-10-09-red-team-skill/report.md`; PR open
 - Phase 3 step 5 batch 3 shipped: six seats (craft educator skill + agent, values and belonging with culture signal, org systems architect, people systems designer, bar designer, environmental signage), 18/18 tests, about 490k worker tokens per seat; eight decisions recorded; six Ellis chapters ingested
 - Phase 3 step 5 batch 2 shipped: six learning-studio seats (assessment, curriculum, materials author skill + agent, instructional designer with HighScope, learner advocate, TBRI), 18/18 tests, about 400k worker tokens per seat; instructional designer runs on haiku; five shipped neighbors edited to close seams; seven decisions recorded
 - Phase 3 step 5 batch 1 shipped: six seats (operations realist, frontline advocate, culture implementer, HR implementer, HR systems designer, performance and feedback designer), 18/18 tests, about 540k worker tokens per seat; kb/domains/texas-employment.md verified; shared people canon checked against the white paper; nine decisions recorded; PR #9 merged
@@ -54,4 +55,5 @@ Rewrite freely. One line per item: what | owner | next step. Plan and phase brie
 - build-out/HANDOFF.md: delete now that the migration is done? (phase 5)
 - Build-out migration still open: M5 command names (phase 4), M6 build-out kb location (phase 5). M3 resolved 2026-10-07
 - Founder-only seats: where their agents live once built (root `.claude/agents/` or a founders-only location for the repo split); `ship.py` refuses founder seats until decided (phase 3 step 5)
-- Red-team lens source "notmanas questioning-frameworks" was not found on GitHub; Brandon to supply the URL if it matters (session C)
+- Resolved 2026-10-09 (Brandon): red-team floor, judge ladder, and cost rules kept as built; see `memory/decisions.md` (`system`)
+- Red-team lens source "notmanas questioning-frameworks" was not found on GitHub or the web (searched twice, 2026-10-07 and 2026-10-09); the question set in the lenses is our own. Closed unless Brandon has the URL.

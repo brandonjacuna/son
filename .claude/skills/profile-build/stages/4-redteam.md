@@ -1,13 +1,12 @@
-# Stage 4: Red team, then Fable judgment
+# Stage 4: Red team, then judgment
 
-1. If `.claude/skills/red-team/` exists, run it on the master at the frame's intensity, with these lenses added. If it does not exist yet, run the interim procedure below.
-2. Interim procedure: spawn these critics in one message, each `subagent_type: profile-critic`, with the brief "Build: <folder>. Master: <path>. Lens: <lens>." Lenses 2 and 4 (specificity and rules) run in ONE critic that writes both files; the others run separately. Light intensity runs lenses 1 and 2 only.
-   1. `grounding`: every `sourced` row in provenance is supported by the cited card row; every `inferred` row follows from what it names.
-   2. `specificity`: rules and cues a generalist would give anyway; credential or identity inflation; survey material in the core.
-   3. `seams`: overlaps and gaps with each neighbor named in the frame (reads the neighbors' `agent.md` or old profile scope sections only).
-   4. `rules`: standing rules (CLAUDE.md), scope exclusions, lineage reconstruction, retired tools, figures written as fact.
-   Harsh intensity: add lens 5 `employee-harm` (anything that could reach an employee as an unfair gate, a discipline trigger, or a legal exposure) and run every lens twice, blind to each other; keep a flag only if both runs raise it or one run shows a verified failure path.
-3. Each critic writes `04-critic-<lens>.md` and returns one line. One Sonnet merger reads them and writes `04-flags.md` (4 KB cap, deduplicated): `id | severity (critical, major, minor) | lens | flag | evidence | proposed edit`. You read only `04-flags.md`.
-4. Final judgment: spawn one Fable subagent (`model: fable`) with only `00-frame.md`, `04-flags.md`, `agent.md`, and `skill/SKILL.md` if any. Brief: "For each flag: accept (with the exact edit), reject (one reason), or ask Brandon (one question). Then one line: does this seat do the frame's job? Return the decisions table only."
-5. Apply accepted edits yourself as Edits to the named rows; update provenance rows the edits touch. Ask Brandon the "ask" items by pop-up. A clean result is a normal outcome; do not invent flags.
-6. Log tokens in `BUILD.md`.
+The red team is the `red-team` skill (`.claude/skills/red-team/SKILL.md`, read it) run on the master at the frame's intensity. This file says only how a seat plugs into it.
+
+1. Intensity comes from `00-frame.md` (light, standard, harsh). The skill's floor still applies: a seat whose decisions touch employees, pay, discipline, gates, legal, or money runs harsh whatever the frame says, and the mismatch is logged in `BUILD.md`.
+2. Folder: each seat's own build folder, files prefixed `04-` (`04-critic-<lens>-<a|b|single>.md`, `04-flags.md` at harsh, `04-judgment.md`, `04-session-brief.md` at harsh). A critic covering several seats writes one file per lens per seat, each in that seat's folder; nothing is shared across folders.
+3. Target paths for every critic: `agent.md`, `skill/SKILL.md` if any, `provenance.md`. Purpose: the frame's one-sentence Seat line. Neighbors: the agent slugs in the frame's seams table (`.claude/agents/<slug>.md`); when the frame has no seams table, the old profiles' scope sections in `profiles/_source/`. The `grounding` critic also gets `extract/` (it opens only the cards provenance cites). Every lens file except `loop` carries a "for a seat" paragraph; nothing else is added to the brief.
+4. Harsh: `employee-harm` runs twice. Run a is the `frontline-advocate` seat as the lens; run b is `hr-implementer` as the lens when the seat writes policy, otherwise the `employee-harm` lens file. `loop` runs once on a `04-session-brief.md` you write (what the frame asserted, what Brandon answered in the pop-ups, what the drafter was told, which sources were chosen and why).
+5. Batches: several seats under the same lens share one critic (one file per lens per seat) at light and standard; at harsh, grounding and employee-harm never share. The merger runs at harsh only. One judge serves the whole batch, including any light seats: `red-team-judge` on opus when every seat in the batch is light or standard, with `model: fable` when any seat is harsh. The judge also rules on cross-seat seams.
+6. Judge brief adds `Frame: 00-frame.md` per seat; at harsh also `Session brief: 04-session-brief.md`. The judge's `does the job` line answers "does this seat do the frame's job?".
+7. Apply accepted edits as Edits to the named rows (one Sonnet applier for a batch); update the provenance rows the edits touch. Ask Brandon the `ask` items by pop-up. A clean result is a normal outcome; do not invent flags.
+8. Log every worker in `BUILD.md`: stage 4, model, tokens, counts. Tests (stage 5) start only after the edits are applied; tests never change here.

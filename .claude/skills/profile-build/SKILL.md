@@ -11,7 +11,7 @@ One profile, one build folder, seven short stages. The session you run in is the
 Usage: `/profile-build <slug> [mode]`. Modes:
 - `new`: no profile exists. Full pipeline.
 - `rebuild`: an old profile exists and needs new grounding. The old file is one source among several; research only the gaps the frame names.
-- `revise` (keep and slim): no new research. Extract the old profile, re-draft into the split, red-team light, test.
+- `revise` (keep and slim): no new research. Extract the old profile, re-draft into the split, red-team at the skill's floor (standard for a seat), test.
 - `merge`: two or more old profiles become one seat. Each old file is a source.
 
 Run the orchestrator session on Opus. Fable is used twice, as subagents: writing the frame (stage 0) and the final judgment (stage 4). Workers run on Sonnet unless a stage says otherwise.
@@ -31,11 +31,11 @@ Read each stage file only when you reach that stage. Budgets are hard caps; a wo
 | 1 | Sources | Sonnet scouts, one per research target, parallel | one target each | `01-sources.md` | 1.5 KB per scout return; 6 KB file |
 | 2 | Extract | Sonnet extractors: one per external source, one for all of an old profile | one source each | `extract/NN-*.md` | 3.5 KB per external card; 5 KB per old-profile section card; 40 KB total |
 | 3 | Draft | Opus drafter, one pass | frame + cards only | the master: `agent.md`, `reference/`, `provenance.md`, `skill/` if any | agent core 10 KB target, 12 KB cap; reference 30 KB |
-| 4 | Red team | `red-team` skill, then a Fable judge | core + provenance + cards (blind to the draft's history) | `04-flags.md`; fixes as edits | 4 KB flags |
+| 4 | Red team | `red-team` skill (its critics, merger, and Fable judge) | core + provenance + cards (blind to the draft's history) | `04-critic-*.md`, `04-flags.md`, `04-judgment.md`; fixes as edits | 4 KB flags, 3 KB judgment |
 | 5 | Test | two Sonnet runners (all with-runs, all baselines) and a Sonnet grader | `tests.md` + the master | results into `tests.md` | 3 to 5 scenarios |
 | 6 | Ship | orchestrator + scripts | lint and measure output | generated copies, rows, commit | orchestrator total under 60k tokens |
 
-Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Templates: `templates/`. Workers are custom agents with minimal tools: `profile-extractor`, `profile-critic`, `profile-runner`, `profile-grader` in `.claude/agents/` (about a quarter of a general-purpose agent's overhead, measured 2026-10-07). The scout and drafter stay prompt files in `workers/`; pass their PATH and parameters, never paste the prompt. A brief to a custom worker carries only its parameters.
+Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Templates: `templates/`. Workers are custom agents with minimal tools: `profile-extractor`, `profile-runner`, `profile-grader` in `.claude/agents/`, plus the `red-team` skill's `red-team-critic`, `red-team-merger`, and `red-team-judge` (about a quarter of a general-purpose agent's overhead, measured 2026-10-07). The scout and drafter stay prompt files in `workers/`; pass their PATH and parameters, never paste the prompt. A brief to a custom worker carries only its parameters.
 
 ## Rules that hold in every stage
 - Fewest agents. Every subagent costs about 50k tokens of fixed overhead before it reads anything (measured 2026-10-07). Batch small jobs into one agent; spawn a separate agent only where blindness, a different model, or parallel speed earns it.
@@ -54,5 +54,5 @@ Stage files: `stages/0-frame.md` to `stages/6-ship.md`. Templates: `templates/`.
 | "Faster to read the cards myself and draft here." | That is the context blow-up this builder exists to prevent. Spawn the drafter. |
 | "The tags are quicker to add inline." | Inline tags were 18% of every loaded profile. Provenance file only. |
 | "The old profile is good; copy its sections across." | Copying keeps survey and plumbing. Extract rows, then draft the split. |
-| "Tests can be skipped this time." | Skipped validation is how both learning-studio seats shipped unaudited. Run at least the red team light pass and three scenarios. |
+| "Tests can be skipped this time." | Skipped validation is how both learning-studio seats shipped unaudited. Run the red team at its floor (standard for a seat) and three scenarios. |
 | "The core is 14 KB but it is all judgment." | Move worked examples and long cue detail to `reference/`. The cap holds. |
