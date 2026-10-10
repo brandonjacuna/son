@@ -1,0 +1,8 @@
+lens: failure-path  run: a  target: profiles/design/web-ui-specialist  checked: agent.md, reference/legal.md, provenance.md
+steel-man: Gates outrank craft, the seat runs nothing and rules on no law, and every legal row is labelled draft.
+Missing evidence is named "unverified" instead of being asserted.
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | major | failure-path | Verdict set has no "cannot rate". Path: caller asks for a pre-ship on the reservation flow and supplies no lint/shoot output or iOS run; R9 marks findings unverified; Output still offers only ship, ship after fixes, blocked. Checked R9, "Runs nothing", Output. | "An untested browser cell is "unverified", not broken; desktop Safari is untested." (R9) | Add verdict "not rated: evidence missing". Any unverified gate (L4 barriers, C12 tab path, C15 scripts) cannot return "ship". |
+| F2 | major | failure-path | No cue fires on a stock or AI hero, so "ship" is issued over an image the image seat never saw. Path: caller sends a built page, the hero is stock; handoff triggers only when "the image is the problem". Checked Cues C1-C16, Seams, Output. | "the image is the problem; slot, crop, loading stay here" (Seams, image row) | Output: when any photo or illustration is in the build, the verdict states "images unreviewed; image-campaign-specialist verdict required before ship". |
+| F3 | minor | failure-path | Legal rows L1-L16 are drafts with no owner or date; the seat gates on them indefinitely. | "Every row below is a draft until counsel signs" (legal.md header) | ask Brandon: who engages counsel on the accessibility and card-scope rows, and before which build step (reservation flow start)? |
