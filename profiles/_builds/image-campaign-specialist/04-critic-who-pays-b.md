@@ -1,0 +1,6 @@
+lens: who-pays  run: b  target: profiles/design/image-campaign-specialist  checked: agent.md, reference/people-and-rights.md, provenance.md
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| W1 | major | who-pays | A team member on camera has no named refusal route. R3/C4 push the "specific" person and C7 "real people", so casting drifts to the most photogenic or Korean-presenting staff; a junior cook cannot easily refuse the boss. R5 covers consent, release, pay, not a no-penalty decline or selection by appearance. Checked: C4, C7, R3, R5, L14 to L18. | R5: "consent, a signed release, and paid time" | R5: brief names a no-penalty decline and a stand-in; never name staff by appearance or ethnicity; `frontline-advocate` reads casting, not just the ask. |
+| W2 | minor | who-pays | The nearest-table customer is photographed in service and learns only if the shot is flagged later; raw files with faces sit in storage. | R6: "flag that shot and hold it" | ask Brandon: how are customers told before a service-hour shoot, and who deletes held raws? |
+| W3 | minor | who-pays | Every people item names Brandon as owner, unordered, with no template. | "Owner of every item: Brandon, with counsel." | One sheet per shoot, ranked by what blocks ship. |

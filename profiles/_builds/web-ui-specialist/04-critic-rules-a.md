@@ -1,0 +1,5 @@
+lens: rules  run: a  target: profiles/design/web-ui-specialist (agent.md, reference/legal.md, provenance.md)  checked: root CLAUDE.md, decisions.md (full tail), profile-build rules; grep for guest, em dash, performed conviction, Airtable, /sync-profiles, out-of-scope names, personnel, inline tags
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | minor | rules | Inline provenance tags in the loaded reference; profile-build says tags live only in provenance.md | L5 "The third-party reading is inferred."; L9 "likely not SAQ A (inferred)" | Delete both phrases; provenance already tags L5 and L9. Keep the "Draft until counsel" header; cut the per-row repeat on L1 to L16. |
+| F2 | minor | rules | Provenance grounds rules in Brandon answers dated 2026-10-10 that decisions.md does not carry (last entry 2026-10-09) | provenance R12 "project: Brandon 2026-10-10: targets, not canon"; A6 "Brandon 2026-10-10 (writes no production code)" | At session-close, record those answers in decisions.md with Brandon's name; until then mark them "pending" in provenance. |

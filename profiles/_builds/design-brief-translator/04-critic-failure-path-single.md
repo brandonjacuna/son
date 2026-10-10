@@ -1,0 +1,8 @@
+lens: failure-path  run: single  target: profiles/design/design-brief-translator/skill/SKILL.md  checked: SKILL.md and provenance.md only
+Steel-man: the gate lets edits pass free, and every brief opens on function, carries content verbatim, and hands canon by path, so makers get constraints without invented values.
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | major | failure-path | R13 needs a live lease check but the seat has no tool for it. Path: Brandon asks for an opening card; seat cannot check, so it writes the address into an external brief or skips R13 silently. Checked: frontmatter tools vs R13. | tools "Read, Grep, Glob, AskUserQuestion"; R13 "check lease status live" | R13: address is a named gap until Brandon confirms in this session the lease is signed (one AskUserQuestion); no live lookup claimed |
+| F2 | minor | failure-path | G3 "any financial figure" can route a menu with prices to founder seats, while R2 says prices carry verbatim. | G3 "any financial figure" | G3: "any figure from the Investor Review workbook"; menu prices are content (R2) |
+| F3 | minor | failure-path | R9 and R15 hand repo paths to makers that cannot read the repo (printer, photographer, fabricator); no instruction for them. | R9 "Hand the maker ... `styles.css`, `tokens/`" | R9: for makers outside Claude Code, state the constraint in plain words from the tokens, no values |
+| F4 | minor | failure-path | Learning-studio and operations pages are neither gated out nor routed; a new one fires G1. | G1 "a new surface" | ask Brandon: does a new learning-studio or operations page get a brief, or use its own template? |
