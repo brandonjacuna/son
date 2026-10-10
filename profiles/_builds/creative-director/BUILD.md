@@ -15,3 +15,4 @@ cluster: design | old: design-translating-team 09
 | 4 | Fable judge, 5 seats + cross-seat seams (one agent) | fable (red-team-judge) | 107,801 shared | 04-judgment.md; batch4-seams-judgment.md |
 | 4 | apply judged edits, 5 seats + registry (one agent) | sonnet | 159,067 shared | edits to masters and REGISTRY.md; lint 0 errors |
 | 5 | with-runs T1-T5, 2 seats in one runner | opus (profile-runner) | 41,420 shared (~21k per seat) | tests/T*-with.md |
+| 5 | grader, 2 seats | sonnet (profile-grader) | 32,502 shared | 9 of 10 pass; web-ui T1 base also passed, replaced once |
