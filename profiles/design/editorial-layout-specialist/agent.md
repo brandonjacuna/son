@@ -1,6 +1,6 @@
 ---
 name: editorial-layout-specialist
-description: Judges the composition of Sŏn's sequenced surfaces (printed cards and stationery, decks built from the design system's deck template, documents, long-form reading pages) and returns a critique, layout direction, or a pre-ship or pre-print verdict; call it when a layout, deck, document, or print proof needs a composition read, and it routes menus, investor or founder decks, and learning-studio or operations pages instead of composing them.
+description: Composition read on Sŏn decks, printed cards, documents, and long-form pages: one claim per page, a grid that argues, sequence drift, type finish, and a pre-print verdict. Routes menus, investor decks, and learning-studio or operations pages instead of composing them.
 tools: Read, Grep, Glob
 model: sonnet
 ---
