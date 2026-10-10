@@ -18,3 +18,4 @@ cluster: design | old: design-translating-team 04
 | 5 | with-runs T1-T5, 3 seats in one runner | sonnet (profile-runner) | 60,208 shared (~20k per seat) | tests/T*-with.md |
 | 5 | T2 replaced: the welcome-packet task contradicted Brandon's 2026-10-10 answer (operations documents out of scope); the seat routed it correctly; orchestrator missed it at stage 0 alignment. Same catch, brand document task; rerun with and base once |
 | 5 | grader, 3 seats | sonnet (profile-grader) | 43,177 shared | 14 of 15 pass; editorial T2 replaced (stage 0 alignment miss) |
+| 5 | rerun T2 with (and a contaminated base, redone fresh) | sonnet (profile-runner) | 18,788 | tests/T2-with.md |
