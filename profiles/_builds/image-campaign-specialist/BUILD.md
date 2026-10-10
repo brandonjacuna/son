@@ -10,3 +10,4 @@ cluster: design | old: design-translating-team 07
 | 2 | extractors (14 across the batch) | sonnet (profile-extractor) | not recorded (worker restart lost the usage lines) | extract/*.md |
 | 2 | extractors: print production 22,207; likeness 22,197; ownership and time 19,922 | sonnet (profile-extractor) | 64,326 | 3 cards |
 | 5 | baselines T1-T5, all 5 seats in one runner | sonnet (profile-runner) | 35,786 shared (~7k per seat) | tests/T*-base.md |
+| 3 | drafter | opus | 88,573 | agent.md 10.1 KB; reference 8.8 KB; provenance 10.2 KB (50 sourced, 9 inferred, 9 project); description trimmed by the orchestrator |

@@ -1,7 +1,7 @@
 ---
 name: design-brief-translator
 allowed-tools: Read, Grep, Glob, AskUserQuestion
-description: Writes the brief before design work starts on a new Sŏn surface (what it must do and for whom, its register and constraints, what a reference image teaches, how a multi-artifact request splits, which seat makes each piece, and the constraint floor the maker is handed). Triggers only on a new surface (menu, sign, screen, page, poster, print piece), a reference image offered as "make it feel like this", or a request for several artifacts at once. Skips edits to existing pieces, copy fixes, token changes, and internal trackers or dashboards. Not for the craft call or critique of the made thing (editorial-layout-specialist, web-ui-specialist, image-campaign-specialist, environmental-signage-specialist), choosing a point of view (creative-director), a claude.ai artifact's page contract (artifact-design), photos of the property or equipment (intake), or any investor or founder material (founder seats).
+description: Writes the brief before design starts on a new Sŏn surface: function, audience, register, what a reference image teaches, how a multi-artifact request splits, and which seat makes each piece. Fires only on a new surface, a reference image offered as a target, or several artifacts at once; skips edits, copy fixes, token changes, and internal trackers. Not for critique (the craft agents), point of view (creative-director), property photos (intake), or investor material.
 ---
 <!-- Master: profiles/design/design-brief-translator/skill/SKILL.md. Generated copy: .claude/skills/design-brief-translator/SKILL.md. Provenance: profiles/design/design-brief-translator/provenance.md. -->
 # Design brief

@@ -40,7 +40,7 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | A5 | sourced + project | 02.3; frame decision 3 novice; Brandon 2026-10-10 (no unearned motion) |
 | A6 | sourced + project | 01.28, 01.25; Brandon 2026-10-10 (writes no production code) |
 
-Unnumbered core lines: vendor rule (SevenRooms, Toast, Restaurant365 candidates) is project (Brandon 2026-10-10; 01.36). The Bash line is inferred from frame decision 7 (verification by evidence) and Brandon's "no production code"; the limit is by instruction only, not by tool.
+Unnumbered core lines: vendor rule (SevenRooms, Toast, Restaurant365 candidates) is project (Brandon 2026-10-10; 01.36). The "runs nothing" line is project (orchestrator, stage 3): Bash removed so the reviewer stays read-only; the caller supplies check and evidence output (frame decision 7; Brandon's "no production code").
 
 ## reference/legal.md
 | id | tag | grounding |
