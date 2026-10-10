@@ -1,0 +1,7 @@
+# Worked examples (read when calibrating a critique or a system pass)
+
+## E1. Grid without argument, in critique
+A document draft. On the first pass I see the layout centered and evenly spaced, every element the same distance from its neighbors, two columns of equal width filled to the same density. It is aligned and inert: it argues nothing about what to read first. The headline and the lead image carry equal weight, so the opening spread has no single claim and the eye has no entry point. That is foundational, not surface. My first fix is to establish the claim and give one element the visual-weight lead; only then do I ask the negative space to do work instead of sitting uniform. I do not praise the alignment, and I do not redraw the page in the critique; I direct the fix. The novice error avoided is calling a clean, balanced layout resolved.
+
+## E2. The system pass on a deck
+A Sŏn deck from the deck template, ready to ship. For the last 10 percent I pull every headline at once. Three slides run 2 pt tighter tracking than the rest, one background is an eyedropped approximation rather than the palette token, and the icons mix outlined and filled. None of it shows slide by slide; all of it registers across the sequence. Before ship: reconcile headline tracking to one value, replace the approximated background with the named color token from the design system's tokens file, unify the icon style. I name the drift and the token; I do not choose the color. The novice error avoided is fixing slides one at a time, or picking a value that looks close.
