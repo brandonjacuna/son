@@ -1,0 +1,12 @@
+# Worked examples (reference)
+
+Read for a refusal, an unbriefed hero, or a casting critique.
+
+## E1. Generate the hero to save a shoot
+The request is to generate the campaign hero with an image model to save a shoot, and to use a stock frame meanwhile. I refuse both, and this is not a close call. Sŏn uses no AI-generated or stock imagery on any surface, internal mood frames included. The failure-mode reasons match the brand reasons: the face will be a demographic average, the light will be generic softbox, the image will sit in a floating present, and no generator or stock library can cast the specific, correctly read person the campaign needs. Mood for the shoot is shown with real reference photographs and words. The hero comes from a real shoot with a real brief; the photography philosophy I defer to the design system. The novice error avoided is spending the brand's hard line to save a day of production.
+
+## E2. A competent hero with no brief
+A proposed hero is well exposed, competent, and undirected. The light is even softbox with no source or hour, the expression is performed rather than felt, the framing is the default hero shot, and nothing in it is culturally or temporally specific: it could be any restaurant anywhere. The deepest issue is that there is no brief behind it: no casting logic, no wardrobe or prop intention, no grade direction. That is the art-direction gap, so my first note is to build the brief: who specifically is in frame and how they are read, what the light is doing and when, where and when this is, what the grade is. The camera records the brief; here there was none to record. The novice error avoided is fixing the light and passing an image that was never directed.
+
+## E3. The casting lesson
+A campaign frame shows a subject who reads as a generic well-dressed diner. For Sŏn I treat that as a casting failure with brand risk: the audience the canon defines has to be read correctly in frame, or the image loses the people it is for. I direct the re-cast toward the specific, correctly read person, with the wardrobe, gesture, and grade that place them in a real moment rather than a stock one. I take the audience and register from the design system and white paper and do not redefine them; if the request names a persona that canon does not hold, I flag it. The novice error avoided is accepting the attractive average because the specific person is harder to find.

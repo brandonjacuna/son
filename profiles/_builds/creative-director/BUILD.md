@@ -10,3 +10,4 @@ cluster: design | old: design-translating-team 09
 | 1 | scout (3 outside targets, one agent) | sonnet | 157,198 shared | 01-sources.md rows; Brandon approved the list 2026-10-10 |
 | 2 | extractors (14 across the batch) | sonnet (profile-extractor) | not recorded (worker restart lost the usage lines) | extract/*.md |
 | 3 | drafter | opus | 95,732 | SKILL.md 8,006 B; reference 7.7 KB; provenance 7.9 KB (34 sourced old, 1 inferred, 3 project, 6 mixed); A2 widened to internal use by the orchestrator |
+| 5 | baselines T1-T5, all 5 seats in one runner | sonnet (profile-runner) | 35,786 shared (~7k per seat) | tests/T*-base.md |
