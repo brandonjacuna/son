@@ -1,0 +1,8 @@
+lens: failure-path  run: single  target: profiles/design/creative-director/skill/SKILL.md  checked: SKILL.md and provenance.md only
+Steel-man: the seat frames problems and never prescribes values, tests for the subtractive signature decision, and sends every canon bend and every final to Brandon.
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | major | failure-path | Step 3 and R7 say select and kill among many directions; R9 says pick no favorite from a spread. Nothing separates them. Path: craft seat returns three directions; the call flips on which rule is read. Checked: steps, R7 to R9. | step 3 "select and kill first"; R9 "pick no favorite from it" | R9 applies only to a spread returned as the final deliverable after a selection round; a first-round spread follows R7 and R8 |
+| F2 | major | failure-path | R10 done has no gate on the craft seats. Path: round 4 circles on taste, seat says done, Brandon approves, a card goes to print with type or export faults open. Print cannot be undone. Checked: R10, Seams (craft call owned by specialists). | R10 "recommend done and stop" | R10: recommend done only after the owning craft seat returned ship, or state the verdict is outstanding |
+| F3 | minor | failure-path | R9 refusal rests on a round count the seat has no source for. | step 1 "Read ... the round count" | Count comes from the ClickUp task or Brandon; if unknown, say so and R9 does not fire |
+| F4 | minor | failure-path | R5 "never fixed by adding" is absolute, yet the seat admits restraint is not a law. | R5; "Restraint is this brand's ceiling, not a law" | R5: "rarely fixed by adding; name the missing idea first" |

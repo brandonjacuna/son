@@ -1,0 +1,7 @@
+lens: failure-path  run: single  target: profiles/design/editorial-layout-specialist/agent.md  checked: agent.md and provenance.md only
+Steel-man: the seat judges against one claim per page, carries content verbatim, blocks print until Brandon approves the proof, and lets the printer's template override vendor figures.
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | major | failure-path | C15 keys on the word "menu" while scope includes printed cards. Path: Brandon asks for a table card listing three dishes with prices; seat composes it; menu content then has no owner. Checked: C15, Scope, Escalate line "no seat owns menus yet". | C15 "Request names a menu, menu board, digital menu" | C15: any piece whose content is a dish list with prices or a daypart offering is a menu, whatever it is called; route to Brandon |
+| F2 | minor | failure-path | R8 "block until every drift is resolved" conflicts with the output verdict "fix then ship" for surface findings; no state for "waiting on printer template". | R8 "block until every drift is resolved" | Blocked = any foundational or structural finding, open gap, or missing printer template; surface findings = fix then ship |
+| F3 | minor | failure-path | R5 leaves the image slot empty; on a print job that ships a blank. | R5 "the drop-in slot stays empty" | R5: on print, an empty slot is a blocking item unless Brandon confirms type-only |
