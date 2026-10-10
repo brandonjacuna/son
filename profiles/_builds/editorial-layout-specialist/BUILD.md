@@ -21,3 +21,8 @@ cluster: design | old: design-translating-team 04
 | 5 | rerun T2 with (and a contaminated base, redone fresh) | sonnet (profile-runner) | 18,788 | tests/T2-with.md |
 | 5 | fresh T2 baseline | sonnet (profile-runner) | 11,138 | tests/T2-base.md |
 | 5 | tier check T1, T5 on haiku | haiku (profile-runner) | 21,347 | tests/T*-with-haiku.md |
+| 5 | grader, reruns and tier checks | sonnet (profile-grader) | 29,446 | web T1 pass (thin); editorial T2 pass; web holds on sonnet (T1, T2); editorial weaker on haiku (T1, T5) |
+
+## Closing (2026-10-10)
+- Shipped to `.claude/agents/editorial-layout-specialist.md`. Mode revise (04). Agent, sonnet. Red team standard: 17 flags, 16 accepted, 1 rejected. Tests 5/5 on sonnet after T2 was replaced (the welcome-packet task contradicted Brandon's answer that operations documents are out of scope; the seat routed it correctly). Model line: sonnet (haiku weaker on T1 and T5). Print card ran 15% over cap; logged, not re-extracted.
+- Approval by Brandon pending; next-session check (stage 6 step 7) pending.

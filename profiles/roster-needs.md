@@ -30,7 +30,7 @@ Only 1 company seat is rebuilt. Build-out has 2 built worker agents. profile-cri
 | Culture Signal Designer | Whether culture took; CUL | people-and-culture/Culture Signal Designer.md | profile-only |
 | Organizational Systems Architect | Advancement ladder, roles, unlock rules (only when structure changes) | scaling-people/Organizational Systems Architect.md | profile-only |
 | People Systems Designer | Whether a people system produces its intended behavior | scaling-people/People Systems Designer.md | profile-only |
-| Design Translating Team, 9 seats: Brief Translator, Platform Prompt, Brand Identity, Editorial Layout, Web UI, Environmental Signage, Image Campaign, Design Director, Creative Director | Brief, prompt, identity, layout, web, signage, image, routing, direction (render stage) | design-translating-team/01 to 09 | profile-only |
+| Design Translating Team, 9 seats: Brief Translator, Platform Prompt, Brand Identity, Editorial Layout, Web UI, Environmental Signage, Image Campaign, Design Director, Creative Director | Brief, prompt, identity, layout, web, signage, image, routing, direction (render stage) | design-translating-team/01 to 09 | built 2026-10-10 (batch 4): design-brief-translator (skill; absorbs 02 and 08), web-ui-specialist (absorbs 10's earn test), creative-director (skill), editorial-layout-specialist, image-campaign-specialist, masters in `profiles/design/`; 06 moved to build-out (batch 3); 03 and 10 retired |
 
 Chef sign-off (KIT) and founder gate are human seats.
 
@@ -91,7 +91,7 @@ Operations uses profiles as "reasoning lenses for considerations, never authorit
 - Voice/Vee_Conviction_Voice_Profile.md: same reason; conviction register also sits close to the "no performed conviction" standing rule.
 - Voice/House_Voice_Brandon_Profile.md: braids the three pole voices; needed only if a persuasion workstream (investor, white paper) is kept. Not company-facing.
 - narrative-and-structure/Narrative_Architect_Profile.md: shapes white paper, website, deck argument. No company workstream names it; investor/founder use only. Keep under `founders/` or retire.
-- design-translating-team/10_Motion_Interaction_Specialist_Profile.md: not in the learning-studio manifest and brand is built in code; 46 KB. Retire unless brand takes motion work on.
+- design-translating-team/10_Motion_Interaction_Specialist_Profile.md: not in the learning-studio manifest and brand is built in code; 46 KB. Retire unless brand takes motion work on. Retired 2026-10-10 (batch 4); its earn test lives in web-ui-specialist. 03_Brand_Identity_Specialist retired the same day; two rows moved by Brandon into design-brief-translator and creative-director.
 
 Held: Design Translating Team 01 to 09 (auto-trigger decision open).
 

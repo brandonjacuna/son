@@ -18,3 +18,7 @@ cluster: design | old: design-translating-team 07
 | 4 | apply judged edits, 5 seats + registry (one agent) | sonnet | 159,067 shared | edits to masters and REGISTRY.md; lint 0 errors |
 | 5 | with-runs T1-T5, 3 seats in one runner | sonnet (profile-runner) | 60,208 shared (~20k per seat) | tests/T*-with.md |
 | 5 | grader, 3 seats | sonnet (profile-grader) | 43,177 shared | 14 of 15 pass; editorial T2 replaced (stage 0 alignment miss) |
+
+## Closing (2026-10-10)
+- Shipped to `.claude/agents/image-campaign-specialist.md`. Mode revise (07). Agent, sonnet. Red team harsh: 3 criticals and 10 majors merged; 13 accepted, 1 rejected, 1 critical ask answered by Brandon (the frontline-advocate check runs before any staff shoot is planned). Tests 5/5 on sonnet (T3 thin: no image attached). Model line: sonnet by stakes (harsh people seat), no haiku check. Comparison single review added portfolio and AI-training terms to R7.
+- Approval by Brandon pending; next-session check (stage 6 step 7) pending.

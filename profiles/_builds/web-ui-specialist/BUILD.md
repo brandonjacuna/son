@@ -19,3 +19,8 @@ cluster: design | old: design-translating-team 05 + 10
 | 5 | grader, 2 seats | sonnet (profile-grader) | 32,502 shared | 9 of 10 pass; web-ui T1 base also passed, replaced once |
 | 5 | rerun T1 with and base (base written first, clean) | opus (profile-runner) | 20,566 | tests/T1-with.md, T1-base.md |
 | 5 | tier check T1, T2 on sonnet | sonnet (profile-runner) | 31,487 | tests/T*-with-sonnet.md |
+| 5 | grader, reruns and tier checks | sonnet (profile-grader) | 29,446 | web T1 pass (thin); editorial T2 pass; web holds on sonnet (T1, T2); editorial weaker on haiku (T1, T5) |
+
+## Closing (2026-10-10)
+- Shipped to `.claude/agents/web-ui-specialist.md`. Mode merge (05 + 10's earn test). Agent. Red team harsh: 11 majors merged; 9 accepted, 2 rejected, 2 asks to state.md (F5 evidence tooling, interim read-only; F8 in-room screen placement, interim Brandon). F11 checked: motion-spec.md superseded by structure-motion-decision.md. Tests 5/5 after T1 was replaced once (baseline also passed; old catch contradicted Brandon's data rule). Model line: opus to sonnet (T1 and T2 hold); T2 on sonnet builds the ratified timed reveal where opus says no narrative motion. Orchestrator removed Bash (read-only reviewer).
+- Approval by Brandon pending; next-session check (stage 6 step 7) pending.

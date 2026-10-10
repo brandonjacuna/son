@@ -16,3 +16,7 @@ cluster: design | old: design-translating-team 09
 | 4 | apply judged edits, 5 seats + registry (one agent) | sonnet | 159,067 shared | edits to masters and REGISTRY.md; lint 0 errors |
 | 5 | with-runs T1-T5, 2 seats in one runner | opus (profile-runner) | 41,420 shared (~21k per seat) | tests/T*-with.md |
 | 5 | grader, 2 seats | sonnet (profile-grader) | 32,502 shared | 9 of 10 pass; web-ui T1 base also passed, replaced once |
+
+## Closing (2026-10-10)
+- Shipped to `.claude/skills/creative-director/`. Mode revise (09; one row from retired 03). Skill only. Red team standard: 21 flags, 17 accepted, 3 rejected, 1 ask (via X5: Brandon owns brand copy for now). Tests 5/5 on opus (the session model for direction). Model line: none (a skill). Registry row added. Orchestrator widened A2 to internal mood frames at stage 3.
+- Approval by Brandon pending; next-session check (stage 6 step 7) pending.
