@@ -12,3 +12,4 @@ cluster: design | old: design-translating-team 05 + 10
 | 3 | drafter | opus | 100,206 | agent.md 11.4 KB; reference 9.3 KB; provenance 7.4 KB (54 sourced, 8 inferred, 4 project); orchestrator removed Bash (read-only reviewer) and trimmed the description |
 | 4 | 16 critics across the batch (3 standard shared by 3 seats; 13 harsh for web-ui and image) | sonnet (red-team-critic, custom) | 848,980 batch total (20k to 134k each; see red-team SOURCE.md) | 04-critic-*.md |
 | 4 | merger, both harsh seats | sonnet (red-team-merger) | 52,360 shared | 04-flags.md |
+| 4 | Fable judge, 5 seats + cross-seat seams (one agent) | fable (red-team-judge) | 107,801 shared | 04-judgment.md; batch4-seams-judgment.md |
