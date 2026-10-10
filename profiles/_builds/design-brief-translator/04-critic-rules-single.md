@@ -1,0 +1,5 @@
+lens: rules  run: single  target: profiles/design/design-brief-translator  checked: SKILL.md, provenance.md against root CLAUDE.md, decisions.md (full), REGISTRY, profile-build rules; grep for em dashes, "guest", performed-conviction phrases, Airtable (none found)
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | minor | rules | R6 and R11 restate canon (Korean line, no AI or stock) while R5 says canon is never restated; the lists drift when canon changes | R5 "Canon is pointed to, never restated"; R6 "pages 06 to 08, the Ma surface, the duck, baekja" | R6: "Binds every brief: the Korean canon line, `memory/decisions.md` 2026-10-07 `brand`, and the design-system readme." R11: keep only "internal mood frames included" and the named-source rule |
+| F2 | minor | rules | Rows rest on Brandon answers dated 2026-10-10 that `memory/decisions.md` does not carry (last entry 2026-10-09) | provenance R11 "Brandon 2026-10-10 (no AI imagery anywhere...)"; also G2, G3, R15 | at session close, append the 2026-10-10 answers to `memory/decisions.md` with Brandon's name, or ask Brandon to confirm each |

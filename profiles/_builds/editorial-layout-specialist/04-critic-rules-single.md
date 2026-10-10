@@ -1,0 +1,4 @@
+lens: rules  run: single  target: profiles/design/editorial-layout-specialist  checked: agent.md, provenance.md against root CLAUDE.md, decisions.md (full), profile-build rules and agent-core template (section and count limits met); grep for em dashes, "guest", performed-conviction phrases (none found)
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | minor | rules | Menus-out, learning-studio and operations-out, never-sign-the-order, and verbatim-content rules rest on 2026-10-10 answers that `memory/decisions.md` does not carry (last entry 2026-10-09) | provenance C15 "Brandon's answers 2026-10-10 (menus out; learning-studio and operations out...)"; R1, R8 | at session close, append the 2026-10-10 answers to `memory/decisions.md` with Brandon's name, or ask Brandon to confirm each |
