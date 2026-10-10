@@ -8,7 +8,7 @@ Card rows 01.x come from the old profile 07 (read at source this build; its own 
 | id | tag | grounding |
 |---|---|---|
 | C1 | sourced (old) + project | 01.1 ("AI-generated image proposed for a public surface"), scope widened to every surface and stock by frame decision 1 and Brandon's answers 2026-10-10 (no AI anywhere, mood frames included; real reference photographs and words) |
-| C2 | project + inferred | frame decision 1 (hands, text, reflections, floating present); edge artifacts, over-smoothing, inconsistent light from card 01-old-cues "Not usable" note (tells reusable on retouched real photographs); "ask the origin" inferred |
+| C2 | project + inferred | frame decision 1 (hands, text, reflections, floating present); edge artifacts, over-smoothing, inconsistent light from card 01-old-cues "Not usable" note (tells reusable on retouched real photographs); "ask the origin" inferred; "generative fill or expand counts as generated": Fable judge 2026-10-10, F9 |
 | C3 | sourced (old) | 01.5 ("Image with no art-direction brief") |
 | C4 | sourced (old) | 01.2 ("Generic face, performed expression") |
 | C5 | sourced (old) | 01.3 ("Even, diffused softbox light") |
@@ -26,12 +26,12 @@ Card rows 01.x come from the old profile 07 (read at source this build; its own 
 | R1 | sourced (old) + project | 01.15 ("an image with no brief behind it is an accident"), 01.37; reference board of real photographs and people and rights block from Brandon 2026-10-10 and frame decisions 2 and 3 |
 | R2 | sourced (old) | 01.16 ("an accident that happened to be in focus"), 01.27 |
 | R3 | sourced (old) | 01.17 ("Specificity is not a flourish"), 01.18 ("Casting for the average because the specific is harder to source.") |
-| R4 | sourced (old) + project | 01.19 ("getting it wrong is not a craft miss but a brand failure"), 01.33, 01.38; frame decision 6 |
-| R5 | project + sourced | Brandon 2026-10-10 (team members on camera: consent, signed release, paid time as unverified open items; never decided by the seat); frame decision 2 (`frontline-advocate`); 03.6 ("Work not requested but suffered or permitted..."), 03.7 ("engaged to wait"), 03.8 (travel) |
-| R6 | project + inferred | Brandon 2026-10-10 (flag every shot with customers in frame); 02.8 (paraphrase) |
-| R7 | project + sourced | frame decision 3 (terms named as open; never work for hire); 03.2 ("if the parties expressly agree in a written instrument signed by them") |
-| R8 | sourced (old) + project | 01.23 ("reviewed inside the actual live layout"), 01.24 ("require review at target output"); social surfaces from Brandon 2026-10-10 |
-| R9 | sourced (old) + inferred | 01.22 ("makes the brief look inevitable"); 01.14 is itself inferred in the old profile |
+| R4 | sourced (old) + project | 01.19 ("getting it wrong is not a craft miss but a brand failure"), 01.33, 01.38; frame decision 6; team-member casting by role and moment, trait criteria to counsel: Fable judge 2026-10-10, F7 |
+| R5 | project + sourced | Brandon 2026-10-10 (team members on camera: consent, signed release, paid time as unverified open items; never decided by the seat); frame decision 2 (`frontline-advocate`); 03.6 ("Work not requested but suffered or permitted..."), 03.7 ("engaged to wait"), 03.8 (travel); no cast, schedule, or shoot until Brandon confirms; candid of staff is a shot: Fable judge 2026-10-10, F1; private ask, free refusal: Fable judge 2026-10-10, F2; `frontline-advocate` read holds the brief, no staff shoot planned before it runs: Brandon 2026-10-10 (F3) |
+| R6 | project + inferred | Brandon 2026-10-10 (flag every shot with customers in frame); 02.8 (paraphrase); service shoot briefed customer-free unless Brandon names release and template: Fable judge 2026-10-10, F8 |
+| R7 | project + sourced | frame decision 3 (terms named as open; never work for hire); 03.2 ("if the parties expressly agree in a written instrument signed by them"); no-generative-tools warranty: Fable judge 2026-10-10, F9 |
+| R8 | sourced (old) + project | 01.23 ("reviewed inside the actual live layout"), 01.24 ("require review at target output"); social surfaces from Brandon 2026-10-10; type zone and focal point at every delivered ratio, crop spec owners: Fable judge 2026-10-10, F13 (X8) |
+| R9 | sourced (old) + inferred + project | 01.22 ("makes the brief look inevitable"); 01.14 is itself inferred in the old profile; "say so and hand to `creative-director`", "approved, not finished" dropped: Fable judge 2026-10-10, F12 |
 | R10 | project | Brandon 2026-10-10 (social imagery in scope; captions and cadence not); series consistency extended from 01.9, inferred |
 | A1 | sourced (old) + project | card 01-examples Example 1 (verbatim reasons); "no internal exception" from Brandon 2026-10-10 |
 | A2 | sourced (old) | 01.28 ("Overriding the Sŏn photography philosophy"), 01.27 ("looking good is not the test") |
@@ -40,6 +40,8 @@ Card rows 01.x come from the old profile 07 (read at source this build; its own 
 | A5 | sourced (old) | 01.26 ("Do not redirect the shoot in the critique; direct the fix.") |
 | A6 | sourced (old) | 01.29 ("Line without pressure logic") |
 | A7 | project | Brandon 2026-10-10 (not wanted: decide consent, releases, or pay; book photographers or spend money) |
+
+Scope line: captions "owner: Brandon": Brandon 2026-10-10 (X5). Seams: HR row (policy text once it exists; until then Brandon and counsel): Fable judge 2026-10-10, F11; `frontline-advocate` row (the caller runs it; its read attaches to the brief): Fable judge 2026-10-10, F11. Output: Brief block ordering shoot-blocking first: Fable judge 2026-10-10, minors; Review verdicts add "hold: rights": Fable judge 2026-10-10, F8; "cleared for: <surfaces> only": Fable judge 2026-10-10, F10; "names the frame and the direction, never rates a person": Fable judge 2026-10-10, F5.
 
 Scope, Seams, and Output lines: project (frame seat sentence, decisions, seam table, Brandon's answers), plus 01.31, 01.32 ("You direct it; the photographer, illustrator, and the real shoot make it."), 01.34, 01.35, 01.36, 01.37 ("A prioritized fix list, the single most important first.") as sourced (old). Distrust lines: inferred from card 02 header (unmaintained guide, mirror), card 03 header, C2, R4, 01.24.
 
@@ -52,19 +54,19 @@ Scope, Seams, and Output lines: project (frame seat sentence, decisions, seam ta
 | L4 | sourced | 02.4 ("the benefit cannot be purely incidental"), 02.5 |
 | L5 | inferred | 02.6 (paraphrase of DMLP consent) |
 | L6 | inferred + project | 02.8; Brandon 2026-10-10 (flag every customer shot) |
-| L7 | sourced | 02.11 ("name, voice, signature, photograph, or likeness"; read at a mirror, not the official site) |
+| L7 | sourced | 02.11 ("name, voice, signature, photograph, or likeness"; read at a mirror, not the official site); tag: statute covers the deceased; living reach inferred: Fable judge 2026-10-10, minors |
 | L8 | inferred | 02.9 (paraphrase of 26.011) |
 | L9 | inferred | 02.10 |
 | L10 | sourced | 03.1 ("a work prepared by an employee within the scope of his or her employment"), 03.2 |
 | L11 | sourced | 03.3 |
 | L12 | sourced | 03.4 ("but not including a nonexclusive license.") |
 | L13 | inferred | 03.5 (card states the statute text gives no test for "employee") |
-| L14 | sourced + project | 03.6; Brandon 2026-10-10 (pay decided by Brandon) |
+| L14 | sourced + project | 03.6; Brandon 2026-10-10 (pay decided by Brandon); tipped-staff pay on a shoot day as a flag: Fable judge 2026-10-10, minors |
 | L15 | sourced | 03.7 ("the employee was engaged to wait (which is work time)") |
 | L16 | sourced | 03.8 ("The time spent in traveling to and returning from the other city is work time") |
-| L17 | sourced + inferred | 03.9 (four conditions quoted); "a shoot for Sŏn is job related" inferred from it |
+| L17 | sourced + inferred | 03.9 (four conditions quoted); "a shoot for Sŏn is job related" inferred from it; the ask states the pay treatment and that declining is free: inferred, Fable judge 2026-10-10, F2 and minors |
 | L18 | sourced | 03.10 ("Overtime at least 1.5 times the regular rate over 40 hours in a workweek.") |
-| block | project + inferred | assembled from L3, L5, L10 to L18; frame decisions 2 and 3; counsel's release template does not exist yet (frame decision 2) |
+| block | project + inferred | assembled from L3, L5, L10 to L18; frame decisions 2 and 3; counsel's release template does not exist yet (frame decision 2); person line adds duration, use after departure, removal on request: Fable judge 2026-10-10, F4; minor in frame: Fable judge 2026-10-10, minors; preview before ship: Fable judge 2026-10-10, F5; shot ids and headcount in the maker's brief: Fable judge 2026-10-10, F6; items ordered shoot-blocking first, no-generative-tools warranty on the maker line: Fable judge 2026-10-10, minors, F9 |
 
 ## reference/models.md
 | id | tag | grounding |

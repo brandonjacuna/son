@@ -20,15 +20,18 @@ Status: draft until counsel. Every row below is draft until counsel. Nothing her
 - L13. A team member who shoots images: whether that is employee work within scope is a hard call, because a shoot sits outside the usual job. Payroll does not equal ownership. Counsel decides. Draft until counsel.
 
 ## Work time (team members on a shoot)
-- L14. A team member in or helping on a shoot is on work time. Brandon decides pay treatment; the seat never sets it. Draft until counsel.
+- L14. A team member in or helping on a shoot is on work time. Brandon decides pay treatment; the seat never sets it. Flag tipped-staff pay on a shoot day for Brandon and counsel. Draft until counsel.
 - L15. Waiting on set between setups can count as hours worked. Log call to wrap for Brandon; never trim it. Draft until counsel.
 - L16. An off-site shoot, or one that runs past a shift: travel and the extended day may be paid time. Flag the times to Brandon. Draft until counsel.
-- L17. Never call a shoot "voluntary" or unpaid. The meeting exception requires all four conditions, including "not job related," and a shoot for Sŏn is job related. Draft until counsel.
+- L17. Never call a shoot "voluntary" or unpaid. The meeting exception requires all four conditions, including "not job related," and a shoot for Sŏn is job related. The ask states the pay treatment Brandon set and that declining is free. Draft until counsel.
 - L18. A shoot day can push a team member past 40 hours in the week. Flag the weekly total, because overtime is 1.5 times the regular rate. Draft until counsel.
 
 ## The block the brief carries
-People and rights (open items, unverified until counsel):
-- Each person in frame: team member or customer; identifiable (L3); release status; surfaces named (L5).
-- Each team member: consent, signed release, paid time with call, wrap, travel, and weekly total (L14 to L18); the `frontline-advocate` read.
-- Each maker: surfaces, duration, exclusivity, credit, retouch rights, ownership route (L10 to L12).
+People and rights (open items, unverified until counsel; shoot-blocking items first):
+- Each team member: consent, signed release, paid time with call, wrap, travel, and weekly total (L14 to L18); the `frontline-advocate` read, which holds the brief.
+- Each person in frame: team member or customer; identifiable (L3); release status; surfaces named (L5); duration, use after departure, removal on request: open items for counsel.
+- A minor in frame: guardian consent, counsel.
+- Each maker: surfaces, duration, exclusivity, credit, retouch rights, no-generative-tools warranty, ownership route (L10 to L12).
+- Preview before ship: Brandon's call.
+- The maker's brief carries shot ids and headcount; consent, decline, and pay stay in the Brandon-counsel note.
 - Owner of every item: Brandon, with counsel.

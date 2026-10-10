@@ -5,18 +5,18 @@ Build-time record. Never loaded at runtime. One row per row id in `skill/SKILL.m
 | id | tag | grounding |
 |---|---|---|
 | R1 | sourced (old) | 01b.1 ("You direct; they make."), 01b.2 ("Direction expands what they can do; dictation narrows it."), 01a.3, 01c.4; frame decision 1 (novice: changes the type size and adds space) |
-| R2 | sourced (old) | 01a.13 ("hold the point of view, concede the craft"), 01b.7 ("concede on execution detail, which belongs to the specialist"); Brandon 2026-10-10 not-wanted: overrule a craft seat's call |
-| R3 | project | frame decision 2; design system readme (influences inform, never veto; reference-only list 2026-10-07; glyph travels with the logo); Brandon 2026-10-10 not-wanted: Korean influences as veto. Supported by 01b and 01c "Not usable" notes (Ma, Jaeyeonmi as standard: inform, never veto) |
-| R4 | sourced (old) | 01a.10 ("new register of the same values, or novelty abandoning them"; card marks partly inferred), 01b.5, 01b.12, 01a.14; flag target changed from Design Director (merged away) to Brandon per frame seam table |
-| R5 | sourced (old) | 01b.3 ("whether there is anything left to remove, not what can be added"), 01a.2, 01a.8; 01-examples Example 2 (the subtractive question); Brandon 2026-10-10 not-wanted: add decoration to fix a weak piece |
+| R2 | sourced (old) | 01a.13 ("hold the point of view, concede the craft"), 01b.7 ("concede on execution detail, which belongs to the specialist"); Brandon 2026-10-10 not-wanted: overrule a craft seat's call; the clause "If your read outruns the room, trade judgment for evidence" is tagged project (kept): Fable judge 2026-10-10, G1 |
+| R3 | project | frame decision 2; design system readme (influences inform, never veto; reference-only list 2026-10-07; glyph travels with the logo); Brandon 2026-10-10 not-wanted: Korean influences as veto. Supported by 01b and 01c "Not usable" notes (Ma, Jaeyeonmi as standard: inform, never veto); item list dropped, "the readme's list" only: Fable judge 2026-10-10, RU1 |
+| R4 | sourced (old) + project | 01a.10 ("new register of the same values, or novelty abandoning them"; card marks partly inferred), 01b.5, 01b.12, 01a.14; flag target changed from Design Director (merged away) to Brandon per frame seam table; "canon stands, work continues on the unbent version": Fable judge 2026-10-10, WP1 |
+| R5 | sourced (old) | 01b.3 ("whether there is anything left to remove, not what can be added"), 01a.2, 01a.8; 01-examples Example 2 (the subtractive question); Brandon 2026-10-10 not-wanted: add decoration to fix a weak piece; "<the element> is removed" question wording: Fable judge 2026-10-10, V4 (FP4 rejected: the clause stays verbatim) |
 | R6 | sourced (old) | 01a.1 ("Direction arrives competent but safe"), 01a.7, 01b.4, 01b.14 ("Pushing creative ambition for its own sake on work where the safe read is actually the right read.") |
 | R7 | sourced (old) | 01b.11 ("I select against the point of view, not against finish."), 01a.11, 01b.10; 01-examples Example 3; brief route changed to `design-brief-translator` per frame seam table |
 | R8 | sourced (old) | 01b.8 ("The most expensive thing you do is decide what dies"), 01a.5; cap of two from frame decision 5 (project) |
-| R9 | sourced (old) + project | 05.7 ("ask which is the argued solution and why"), 05.8 ("Refuse round five."), 05.9; fifth-revision-round reading from Brandon 2026-10-10 answer (00-frame.md), since 05.8 is marked inferred on that point |
-| R10 | sourced (old) | 01b.9 ("Stop when changes go circular and become taste, not function."), 01a.6, 01c.3; "recommendation, never a sign-off" from Brandon 2026-10-10 answer |
+| R9 | sourced (old) + project | 05.7 ("ask which is the argued solution and why"), 05.8 ("Refuse round five."), 05.9; fifth-revision-round reading from Brandon 2026-10-10 answer (00-frame.md), since 05.8 is marked inferred on that point; scope to a spread returned after a selection round: Fable judge 2026-10-10, FP1; Brandon may order a further round: Fable judge 2026-10-10, WP2 |
+| R10 | sourced (old) | 01b.9 ("Stop when changes go circular and become taste, not function."), 01a.6, 01c.3; "recommendation, never a sign-off" from Brandon 2026-10-10 answer; the circular test ("reverses an earlier round's, or no function can be stated"): Fable judge 2026-10-10, V2; done only after the owning craft seat returned ship: Fable judge 2026-10-10, FP2 and S5 (X8); the clause is project, frame decision 6 is its source: Fable judge 2026-10-10, G2 |
 | R11 | sourced (old) | 01a.9 ("Force the experimentation the work skipped") |
 | R12 | sourced (old) | 01c.13 ("When he names a creative instinct, refine and sharpen it rather than replace it.") |
-| A1 | sourced (old) + project | 01c.7 ("writing final copy (House voice)"); frame decision 7; design system readme, Content fundamentals |
+| A1 | sourced (old) + project | 01c.7 ("writing final copy (House voice)"); frame decision 7; design system readme, Content fundamentals; copy gaps named "owner: Brandon": Brandon 2026-10-10 (X5, S4) |
 | A2 | sourced (old) + project | 01c.9 ("No AI-generated imagery on public-facing surfaces"), 01a.15; design system SKILL.md ("No AI-generated or stock imagery, ever."); Brandon 2026-10-10: never, internal mood frames included (orchestrator edit, stage 3) |
 | A3 | sourced (old) | 01c.5 ("You direct; you do not make."), 01b.13 ("Designing or prototyping instead of directing") |
 | A4 | project | frame seam table (`red-team` row); inferred support from 01c.6 ("You push the ceiling; the Director holds the floor.") with the floor reassigned |
@@ -48,6 +48,8 @@ Build-time record. Never loaded at runtime. One row per row id in `skill/SKILL.m
 | E2 | sourced (old) | 01-examples Example 2; autoplay film and "yubaek" removed (investor surface; yubaek not carried as a rule) |
 | E3 | sourced (old) | 01-examples Example 3; "opportunity room" removed; Platform Prompt Specialist replaced by `design-brief-translator`; "six die" inferred from R8 |
 | E4 | sourced (old) + project | case described by 05.7 and 05.8; fifth-round handling from Brandon 2026-10-10 answer |
+
+Unnumbered parts of SKILL.md (all project): description triggers require a named Sŏn surface, "is it done" only when a piece is named: Fable judge 2026-10-10, S3 (X4). Scope menu line: Brandon 2026-10-10 (menus wait for a dedicated seat) and Fable judge 2026-10-10, S1 (X1). Procedure step 1 round definition and count source: Fable judge 2026-10-10, V1 (FP3 covered by it). Distrust line on R4's new-register test: Fable judge 2026-10-10, G3. The "Round five" distrust bullet was cut from SKILL.md (the Tensions section below carries it): Fable judge 2026-10-10, V5.
 
 ## Tensions kept open
 - Done: the old profile says "call work done when it is irreducible and say so plainly" (01c interaction_guide, 01b.9, 01a.6). Brandon 2026-10-10: done is a recommendation; Brandon approves finals. Held as R10: the seat recommends, never signs off.

@@ -8,13 +8,15 @@ One owner per trigger. Before adding a skill or command, check its triggers agai
 | `session-close` | close, wrap up, end the session, context-rot cue | Every session | The only way to end a session that changed anything |
 | `thread` | a tangent mid-task: "also", "side note", "what about", "remind me" | Every session | Logs to `memory/threads.md` |
 | `chat-handoff` | a package from an old chat in `imports/` | Every session | Not for build-out photos or spec sheets (`intake`) |
-| `interview` | any decision or clarification as pop-ups | Every session | |
+| `interview` | any decision or clarification as pop-ups | Every session | Not a selection among design directions on a named piece (`creative-director`) |
 | `skill-scanner` | scan, audit, or vet a skill before adoption | Every session | Vendored, see its `SOURCE.md` |
 | `red-team` | red team, poke holes, stress test, what breaks, what am I missing; before a draft goes to ClickUp for review; profile-build stage 4 | Every session | Three intensities with a stakes floor (light, standard, harsh). Workers `red-team-critic`, `red-team-merger`, `red-team-judge` in `.claude/agents/`. Replaces the profile-build interim critics (`profile-critic` retired 2026-10-09). Design record in its `SOURCE.md` |
 | `profile-build` | build, rebuild, revise, slim, or merge a specialist profile (`/profile-build <slug> [mode]`) | Profiles | User-invoked. Replaces learning-studio `build-profile` and `validate-profile` (salvaged, inert) and `profile-forge` (retired 2026-10-07, M3); final approval after the session B test rebuild |
 | `materials-author-editor` | draft the module, write this in library voice, edit or redline a peer draft, update the template, style guide, or forbidden list | Learning studio | Generated from `profiles/learning-and-development/materials-author-editor/skill/`; drafts in the session, the `materials-author-editor` agent reviews cold. Not for brand, investor, or founder copy |
 | `hospitality-craft-educator` | walk a service scenario, elicit the craft, build the service standard, next scenario, continue the elicitation | Learning studio | Generated from `profiles/learning-and-development/hospitality-craft-educator/skill/`; staged elicitation with Brandon by pop-up, transcripts to `company/workstreams/learning-studio/research/elicitation/`. Takes precedence over `interview` while a round runs; the agent of the same name turns transcripts into craft |
-| `intake` | build-out photo, sketch, markup, spec sheet, contract, design idea | Build-out | |
+| `design-brief-translator` | a new Sŏn surface, a reference image offered as a target, or several artifacts in one request, before design starts; skips edits, copy fixes, token changes, internal trackers, investor and founder material | Design | Generated from `profiles/design/design-brief-translator/skill/`; writes the brief and the route to the craft seat, never the artifact. A reference image for a brand surface goes here, not `intake`; property photos stay `intake`. Not for critique (the craft agents) or point of view (`creative-director`) |
+| `creative-director` | direct this, which direction, pick one, push this further, it feels safe, each with a named Sŏn surface; is it done, only when a piece is named | Design | Generated from `profiles/design/creative-director/skill/`; frames problems, selects, kills, recommends done, makes nothing. Takes the selection among design directions from `interview`. Not for briefs (`design-brief-translator`), failure review (`red-team`), or copy |
+| `intake` | build-out photo, sketch, markup, spec sheet, contract, design idea | Build-out | Not a reference image for a brand surface (`design-brief-translator`) |
 | `equipment-record` | equipment YAML from a spec sheet or model number | Build-out | |
 | `book-ingest` | reading notes from a reference book | Build-out kb | |
 | `consolidate` | merge raw research notes into the kb | Build-out kb | |
@@ -34,6 +36,7 @@ One owner per trigger. Before adding a skill or command, check its triggers agai
 | `anthropic-skills:docx`, `xlsx`, `pdf`, `pptx` | Word, Excel, PDF, PowerPoint files | License forbids copies outside Anthropic's services (decision 2026-10-07) |
 | `anthropic-skills:skill-creator` | create, edit, or eval a skill | Already in every session; a repo copy would be a second owner (decision 2026-10-07) |
 | `anthropic-skills:docs` | shareable documents (Claude Docs) | Review copies still go to ClickUp per CLAUDE.md routing |
+| `artifact-design` | a claude.ai artifact's page contract | Account skill. For a Sŏn surface, `design-brief-translator` decides whether an artifact is the right medium and writes its brief |
 | Others in the sync (browser, computer-use, deep-research, google-workspace, morning, mcp-builder, import-memory) | as listed by the harness | Unused by Sŏn work so far; candidates for the monthly `/skill-doctor` prune |
 
 ## Vetting gate (every external skill, before it enters the repo)

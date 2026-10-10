@@ -7,12 +7,14 @@ Read when routing, when two seats share a piece, when the maker is Claude Code, 
 
 | medium | seat | typical maker |
 |---|---|---|
-| print, menus, documents, long-form, non-investor decks | `editorial-layout-specialist` | coding session reading the design system, or a printer |
+| print, documents, long-form, non-investor decks | `editorial-layout-specialist` | coding session reading the design system, or a printer |
+| menus (printed, board face, digital page) | no seat yet: name the gap, ask Brandon through `interview` | none |
+| long-form reading pages on screen | editorial for composition, web-ui for system, states, build; route line names both | coding session reading the design system |
 | screens, web, interface, token handoff | `web-ui-specialist` | coding session reading the design system |
 | hero images, photo direction, campaign imagery | `image-campaign-specialist` | a real photographer |
-| signs and physical surfaces in the space | `environmental-signage-specialist` (brief covers function and register only; placement and material are theirs) | a fabricator |
+| signs and physical surfaces in the space | `environmental-signage-specialist` (brief covers function and register only; placement and material are theirs, including a menu board's mount and material; its face waits) | a fabricator |
 | a claude.ai artifact for a Sŏn surface | `artifact-design` owns the page contract; this seat decides whether an artifact is the right medium and writes its brief | a claude.ai artifact |
-| a learning-studio module page | `materials-author-editor` owns the prose; this seat writes the layout brief once Brandon starts that work | |
+| learning-studio and operations pages, ClickUp templates | their workstreams' own templates | no brief |
 | investor decks, exhibits, investor site | founder seats; no brief | |
 
 - M2. A new mark or identity piece has no owning craft seat since the brand identity seat retired. Say so and ask Brandon through `interview` who makes it; do not assign it.
@@ -43,6 +45,10 @@ Read when routing, when two seats share a piece, when the maker is Claude Code, 
 
 ## Other makers
 - M10. Any other generation tool is named with the maker and the constraint floor, never prompted here; its grammar lives in `kb/tools/`. No AI-generated imagery anywhere in the pipeline. Name each element that will not translate reliably to the named maker, with the workaround or a different maker.
+
+## Canon conflicts and retired parts
+- M12. A conflict between the design system and CLAUDE.md over the company name is flagged to Brandon in one line, never resolved and never repeated in a brief. Flag a daypart code name only where it would reach customer-facing text (the readme sanctions the tokens).
+- M13. Components under `components/immersive/` are retired: narrative motion points at `track/`.
 
 ## After the piece is made
 - M11. Each craft seat critiques its own piece; this seat checks only that upstream content arrived unchanged, gaps were flagged rather than filled, and the seams held. A finding names its owner and whether it blocks.

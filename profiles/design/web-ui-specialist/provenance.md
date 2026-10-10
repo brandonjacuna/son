@@ -7,7 +7,7 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 |---|---|---|
 | C1 | sourced | 01.1, 01.2, 01.16, 01.23; "first fix the hero" from 01-examples Example 1 |
 | C2 | sourced | 01.3, 01.18 |
-| C3 | sourced | 01.14, 01.17, 01.27 |
+| C3 | sourced + project | 01.14, 01.17, 01.27; long-form reading page reorder goes to editorial: Fable judge 2026-10-10, X6 |
 | C4 | sourced | 01.4, 01.5, 01.19 |
 | C5 | sourced | 01.6; pointer to `tokens/typography.css` is project (design system layout, checked by path this build) |
 | C6 | sourced | 01.10, 03.9 |
@@ -21,18 +21,20 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | C14 | sourced + inferred | cue and "zero the delay" from 03.3; "carry order in opacity" inferred from 02.9 (keep opacity) and 02.13 (keep stagger) |
 | C15 | sourced | 05.2, 05.6 (paraphrase, no quote); routing is project (frame decision 1; Brandon 2026-10-10) |
 | C16 | sourced | 03.7 |
+| C17 | project | Fable judge 2026-10-10, F6 (crew screen read at a desk; `frontline-advocate` read before ship) |
 | R1 | project + sourced | gate-first order: frame decision 1; earn failure above craft: 02-old-earn tension; ladder and critique order: 01.24, 01.26 |
 | R2 | sourced + project | 01.15, 01.29; file list and "read on demand, never restated": frame decision 2 |
-| R3 | project + sourced | scope: Brandon 2026-10-10 (design-system edits in scope); 03.6, 03.10; "a check edit names its coverage" inferred from 03.8, 03.9 |
+| R3 | project + sourced | scope: Brandon 2026-10-10 (design-system edits in scope); 03.6, 03.10; "a check edit names its coverage" inferred from 03.8, 03.9; stacking-context clause moved to `reference/models.md` M14 |
 | R4 | sourced | 02.1, 02.2, 02.5, 02.7, 03.12 |
-| R5 | sourced + project | 02.6, 03.2; frame decision 3; pointer to `structure-motion-decision.md` per 03-design-system tension |
-| R6 | sourced | 02.9, 02.10, 02.11, 02.12, 04.12 |
-| R7 | sourced | 03.1, 03.4 |
+| R5 | sourced + project | 02.6, 03.2; frame decision 3; pointer to `structure-motion-decision.md` per 03-design-system tension; "allowed only when the R4 removal test fails without it, and the finding names the control spent": Fable judge 2026-10-10, F10; both motion docs cited, conflict flagged not ruled: Fable judge 2026-10-10, F11; per-frame script sentence moved to `reference/models.md` M17 |
+| R6 | sourced + project | 02.9, 02.10, 02.11, 02.12, 04.12; `docs/motion-spec.md` named: Fable judge 2026-10-10, F11 (minors); narrative-sequence and 2.2.2 / 2.3.3 sentences moved to `reference/models.md` M15 |
+| R7 | sourced | 03.1, 03.4; stylesheet-default sentence moved to `reference/models.md` M18 |
 | R8 | sourced | 03.5 |
-| R9 | sourced | 03.8, 03.11, 01.21, 01.22 |
-| R10 | project + sourced | "never propose what Sŏn collects": Brandon 2026-10-10; hosted element: frame decision 1; redirect: 05.4 |
+| R9 | sourced | 03.8, 03.11, 01.21, 01.22; untested-cell sentence moved to `reference/models.md` M18 |
+| R10 | project + sourced | "never propose what Sŏn collects": Brandon 2026-10-10; hosted element: frame decision 1; redirect: 05.4; payment sentence moved to `reference/models.md` M16 |
 | R11 | inferred + project | 04.13 (card marks it inferred); counsel seam: frame seam table; Brandon 2026-10-10 (no legal ruling) |
 | R12 | project | Brandon 2026-10-10: targets, not canon; frame decision 8 |
+| R13 | project | Fable judge 2026-10-10, F1 (team-member data on any screen: list each field and who sees it; peer-visible readiness, feedback, leave, or health data blocks ship until Brandon rules) |
 | A1 | sourced + project | 01.10; frame decision 2 novice |
 | A2 | sourced | 01.16, 01.11, 01.27 |
 | A3 | sourced | 04.4, 01.12 |
@@ -41,6 +43,8 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | A6 | sourced + project | 01.28, 01.25; Brandon 2026-10-10 (writes no production code) |
 
 Unnumbered core lines: vendor rule (SevenRooms, Toast, Restaurant365 candidates) is project (Brandon 2026-10-10; 01.36). The "runs nothing" line is project (orchestrator, stage 3): Bash removed so the reviewer stays read-only; the caller supplies check and evidence output (frame decision 7; Brandon's "no production code").
+
+Unnumbered agent.md parts (all project): Escalate additions (team-member data on any screen; one batched flag per review, counsel for L7 items only): Fable judge 2026-10-10, F1 and minors. "Runs nothing" line, evidence missing is "not rated" (interim option (a); F5 open in `memory/state.md`): Fable judge 2026-10-10, F3, F5 (orchestrator interim). Output verdicts add "not rated: evidence missing", "ship" barred while any R1 gate is unverified, evidence the caller supplies with an owner: Fable judge 2026-10-10, F3; photo in the build, "images unreviewed": Fable judge 2026-10-10, F4. Seams: translator row: Fable judge 2026-10-10, F9 (X3); editorial row: Fable judge 2026-10-10, X6; `frontline-advocate` row: Fable judge 2026-10-10, F6; signage row, interim Brandon places each in-room screen (F8 open in `memory/state.md`): Fable judge 2026-10-10, F8 (orchestrator interim). Distrust section: motion-authority line shortened and pointed at M13: Fable judge 2026-10-10, F11.
 
 ## reference/legal.md
 | id | tag | grounding |
@@ -55,12 +59,13 @@ Unnumbered core lines: vendor rule (SevenRooms, Toast, Restaurant365 candidates)
 | L8 | sourced | 05.1 |
 | L9 | sourced + inferred | 05.2 (SAQ A exclusion inferred per card) |
 | L10 | sourced | 05.3 |
-| L11 | sourced | 05.4 |
+| L11 | inferred | 05.4; tag changed from sourced to inferred: Fable judge 2026-10-10, minors |
 | L12 | sourced | 05.5 |
 | L13 | inferred | 05.6 (paraphrase, no quote) |
 | L14 | sourced | 05.7 |
 | L15 | sourced | 05.8 |
 | L16 | inferred | 05-pci tension; from 05.3 and 05.9 |
+| L17 | project | Fable judge 2026-10-10, F2 (team-member screens are an accommodation matter for Brandon and counsel, not Title III) |
 
 ## reference/models.md
 | id | tag | grounding |
@@ -77,6 +82,12 @@ Unnumbered core lines: vendor rule (SevenRooms, Toast, Restaurant365 candidates)
 | M10 | sourced | 03.8 |
 | M11 | sourced | 03.11 |
 | M12 | sourced + project | 01.26, 01.25; frame decision 1 (gates foundational); 02-old-earn tension (earn failure foundational) |
+| M13 | project | moved from agent.md "When to distrust my read" for the size cap; orchestrator check 2026-10-10 (F11: `docs/motion-spec.md` superseded 2026-07-20, `docs/structure-motion-decision.md` governs, track/ public-site question open for Brandon); Fable judge 2026-10-10, F11 |
+| M14 | sourced | moved from R3 tail for the size cap; 03.6, 03.10 |
+| M15 | sourced | moved from R6 tail for the size cap; 02.9 to 02.12, 04.12 |
+| M16 | project + sourced | moved from R10 tail for the size cap; hosted element: frame decision 1; redirect: 05.4 |
+| M17 | sourced | moved from R5 and R4 tails for the size cap; 02.6, 03.2, 02.5 |
+| M18 | sourced | moved from R7 and R9 tails for the size cap; 03.1, 03.4, 03.11 |
 
 ## reference/examples.md
 | id | tag | grounding |

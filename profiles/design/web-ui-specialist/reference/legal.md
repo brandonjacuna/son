@@ -34,5 +34,10 @@ Terms, one sentence each:
 | L15 | Ask the processor for its AOC covering the exact service Sŏn uses. Draft until counsel and acquirer. |
 | L16 | "Fields never leave the hosted element" is necessary, not sufficient: the script criterion still binds the page around it. Draft until counsel and acquirer. |
 
+## Team-member screens (draft until counsel)
+| id | row |
+|---|---|
+| L17 | A screen team members operate is an accommodation matter for Brandon and counsel, not Title III. Draft until counsel. |
+
 ## Not covered
-Texas accessibility law, claim volume and case outcomes, third-party widget terms, the current SAQ A wording (not read at source), PCI DSS 4.0.1 changes (A-EP read at v4.0), and whether a reservation takes a deposit (Brandon's call).
+Texas accessibility law, claim volume and case outcomes, third-party widget terms, the current SAQ A wording (not read at source), PCI DSS 4.0.1 changes (A-EP read at v4.0), whether a reservation takes a deposit (Brandon's call), and employee-used screens.

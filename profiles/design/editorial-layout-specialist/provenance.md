@@ -7,26 +7,26 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 |---|---|---|
 | C1 | sourced (old) | 01c.1 ("A slide with two claims has none."); 01r.2 |
 | C2 | sourced (old) | 01c.2 ("technically aligned but editorially inert"); 01r.1 |
-| C3 | sourced (old) | 01c.3 ("a production artifact, not a design choice") |
+| C3 | sourced (old) + project | 01c.3 ("a production artifact, not a design choice"); tier structural: Fable judge 2026-10-10, V1 |
 | C4 | sourced (old) | 01c.4 ("not drifted 0.5 to 2mm") |
 | C5 | sourced (old) | 01c.5 ("cover the content and examine only the shape of the white space") |
-| C6 | sourced (old) | 01c.6 ("should carry the reader toward the text, not away") |
-| C7 | sourced (old) | 01c.7 (caption proximity to a constant); the 6 to 9 pt figure left out of the core |
-| C8 | sourced (old) | 01c.8 ("Squint test from arm's length") |
-| C9 | sourced (old) | 01c.9, 01c.10 ("an eyedropped approximation rather than the palette value"); 01s.6; "token by name and file" from frame decision 4 (project) |
-| C10 | sourced (old) | 01c.11; leading figure dropped per the 01c tension, deferred to the type system |
-| C11 | sourced (old) | 01c.12 ("type over imagery checked at the weakest point") |
-| C12 | sourced (old) | 01c.13 ("export parity (PDF font substitution, RGB-to-CMYK shifts, compression)") |
-| C13 | sourced (old) + project | 01c.14 ("Flag back to the upstream team; never invent a figure"); Korean gloss clause: frame decision 1 and the brand canon line in `memory/decisions.md` (2026-10-07, `brand`) named in CLAUDE.md |
-| C14 | project | frame decision 8; 02 not-usable row (daypart names conflict with CLAUDE.md) |
-| C15 | project | Brandon's answers 2026-10-10 (menus out; learning-studio and operations out; no investor or founder decks); frame decision 7; CLAUDE.md founders boundary |
+| C6 | sourced (old) + project | 01c.6 ("should carry the reader toward the text, not away"); tier structural: Fable judge 2026-10-10, V1 |
+| C7 | sourced (old) + project | 01c.7 (caption proximity to a constant); the 6 to 9 pt figure left out of the core; tier surface: Fable judge 2026-10-10, V1 |
+| C8 | sourced (old) + project | 01c.8 ("Squint test from arm's length"); tier surface: Fable judge 2026-10-10, V1 |
+| C9 | sourced (old) | 01c.9, 01c.10 ("an eyedropped approximation rather than the palette value"); 01s.6; "token by name and file" from frame decision 4 (project); tier structural: Fable judge 2026-10-10, V1 |
+| C10 | sourced (old) | 01c.11; leading figure dropped per the 01c tension, deferred to the type system; tier surface: Fable judge 2026-10-10, V1 |
+| C11 | sourced (old) + project | 01c.12 ("type over imagery checked at the weakest point"); tier structural: Fable judge 2026-10-10, V1 |
+| C12 | sourced (old) + project | 01c.13 ("export parity (PDF font substitution, RGB-to-CMYK shifts, compression)"); tier foundational: Fable judge 2026-10-10, V1 |
+| C13 | sourced (old) + project | 01c.14 ("Flag back to the upstream team; never invent a figure"); Korean gloss clause: frame decision 1 and the brand canon line in `memory/decisions.md` (2026-10-07, `brand`) named in CLAUDE.md; cue reworded to proverb, philosophy, or craft term, with a short description beside a dish or ingredient name passing: Fable judge 2026-10-10, G2; tier gap that blocks (A4): Fable judge 2026-10-10, V1; brand copy owner Brandon: Brandon 2026-10-10 (X5) |
+| C14 | project | frame decision 8; 02 not-usable row (daypart names conflict with CLAUDE.md); cue cites the readme and operations/CLAUDE.md, not root CLAUDE.md: Fable judge 2026-10-10, G3; escalation tier: Fable judge 2026-10-10, V1 |
+| C15 | project | Brandon's answers 2026-10-10 (menus out; learning-studio and operations out; no investor or founder decks); frame decision 7; CLAUDE.md founders boundary; any piece whose content is a dish list with prices or a daypart offering: Fable judge 2026-10-10, FP1; escalation tier: Fable judge 2026-10-10, V1 |
 | R1 | sourced (old) + project | 01r.8, 01s.3 ("you compose it, you do not write or invent it"); verbatim names, prices, dates and "flag copy problems to their owner": Brandon 2026-10-10 |
-| R2 | sourced (old) | 01s.7 ("Confirm the single claim each page or slide must make"); 01r.2 |
+| R2 | sourced (old) + project | 01s.7 ("Confirm the single claim each page or slide must make"); 01r.2; missing claim is a content gap flagged to its owner: Fable judge 2026-10-10, S2 (X2) |
 | R3 | sourced (old) | 01r.3 ("every off-grid element has a demonstrable visual reason") |
 | R4 | sourced (old) | 01r.4 ("That visual neutrality reads as indifference.") |
-| R5 | sourced (old) + inferred + project | 01r.5 ("what the crop reveals or withholds"); 01r.9 ("Sŏn uses real imagery on public surfaces."); drop-in slot: frame decision 5 (project); the "because" clause is inferred from 01r.9 |
+| R5 | sourced (old) + inferred + project | 01r.5 ("what the crop reveals or withholds"); 01r.9 ("Sŏn uses real imagery on public surfaces."); drop-in slot: frame decision 5 (project); the "because" clause is inferred from 01r.9; empty slot blocks a print job until Brandon confirms type-only: Fable judge 2026-10-10, FP3 |
 | R6 | sourced (old) | 01r.6 ("the densest page on the most information-critical content"); 01c.9 |
-| R7 | sourced (old) + project | 01r.7 ("controlled measure, leading per block, manual kerning on display"); sentence case, uppercase eyebrows, Hangul in the Korean face only for dish names: frame decision 6 |
+| R7 | sourced (old) + project | 01r.7 ("controlled measure, leading per block, manual kerning on display"); sentence case, uppercase eyebrows, Hangul in the Korean face only for dish names: frame decision 6; measure and leading from type tokens or deck template, cite file and line: Fable judge 2026-10-10, V2; Hangul for dish and ingredient names and the 선 glyph, substitute-font reason: Fable judge 2026-10-10, G1 |
 | R8 | sourced + project | 03.14 ("order free paper samples or a proof"); 01r.12; output-size verification, block until Brandon approves the proof: frame decision 2; never sign the order or pick the vendor: Brandon 2026-10-10 |
 | R9 | inferred | from 02.1 (no print values in the design system), 02.8 (deck PDF is RGB, not a press path), 03.3 (printer's template over any article) |
 | R10 | sourced (old) | 01r.12 ("name the dependency rather than asserting") |
@@ -39,6 +39,8 @@ Build-time record. Never loaded at runtime. One row per row id in `agent.md` and
 | A5 | sourced | 02.5 ("faux letterpress, faux deboss, faux foil"); 02.3 (foil only, never flat fill) |
 | A6 | sourced + project | 03.14; frame decision 2 ("Novice: approves on screen") |
 | A7 | sourced (old) | 01r.10 ("Do not recompose in the critique; direct the fix."); 01s.11 ("the designer must walk away knowing exactly what to fix") |
+
+Unnumbered parts of agent.md (all project): line 10 "Judges and directs": Fable judge 2026-10-10, WP1. Output: blocked/fix-then-ship definitions and tier pointer: Fable judge 2026-10-10, V1; fix list addressed to the maker named in the brief: Fable judge 2026-10-10, WP1; closing "Needs Brandon" block: Fable judge 2026-10-10, WP2. Distrust section: leading-figure sentence cut: Fable judge 2026-10-10, V3. Seams: translator row (new surface with no brief): Fable judge 2026-10-10, S2 (X2); web-ui row (composition here; system and states theirs): Fable judge 2026-10-10, S3 (X6); image row (print crop stays here): Fable judge 2026-10-10, S4 (X8).
 
 ## reference/print-production.md
 | id | tag | grounding |

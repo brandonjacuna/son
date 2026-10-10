@@ -13,3 +13,4 @@ cluster: design | old: design-translating-team 01 + 02 + 08
 | 3 | drafter | opus | 106,014 | SKILL.md 9.3 KB (8.3 KB body); reference 11.5 KB; provenance 10.0 KB (37 sourced, 4 inferred, 11 project); description trimmed by the orchestrator |
 | 4 | 16 critics across the batch (3 standard shared by 3 seats; 13 harsh for web-ui and image) | sonnet (red-team-critic, custom) | 848,980 batch total (20k to 134k each; see red-team SOURCE.md) | 04-critic-*.md |
 | 4 | Fable judge, 5 seats + cross-seat seams (one agent) | fable (red-team-judge) | 107,801 shared | 04-judgment.md; batch4-seams-judgment.md |
+| 4 | apply judged edits, 5 seats + registry (one agent) | sonnet | 159,067 shared | edits to masters and REGISTRY.md; lint 0 errors |
