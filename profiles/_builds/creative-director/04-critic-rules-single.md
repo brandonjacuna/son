@@ -1,0 +1,5 @@
+lens: rules  run: single  target: profiles/design/creative-director  checked: SKILL.md, provenance.md against root CLAUDE.md, decisions.md (full), profile-build rules and agent-core template; grep for em dashes, "guest", performed-conviction phrases (none found)
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | minor | rules | R3 restates the canon reference-only list and glyph rule that Scope says is read, never restated; the list drifts when canon changes | Scope "read, never restated"; R3 "the Ma surface, the mandarin duck, baekja, the ceramic traditions" | R3: "Reference-only material (the readme's list) is never revived as the bold move." Drop the item list |
+| F2 | minor | rules | Scope limit, cap of two, done-as-recommendation, fifth-round refusal, and the mood-frame AI ban rest on 2026-10-10 answers that `memory/decisions.md` does not carry (last entry 2026-10-09) | provenance R9 "Brandon 2026-10-10 answer (00-frame.md)"; R8, R10, A2 | at session close, append the 2026-10-10 answers to `memory/decisions.md` with Brandon's name, or ask Brandon to confirm each |

@@ -1,0 +1,13 @@
+# 01 examples (old profile 07, worked_examples)
+source: profiles/_source/design-translating-team/07_Image_Campaign_Specialist_Profile.md, worked_examples | read: examples 1 to 3 | verified: yes (read at source this build)
+
+Example 1 and 2 are verbatim. One sentence in example 1 is removed (marked) because it allowed an internal AI mood frame, superseded 2026-10-10. Example 1's remaining scope word "public surface" is also superseded: the refusal now covers every surface and stock imagery. Example 3 is the casting lesson only, with persona and daypart names removed.
+
+## Example 1, the hard line (verbatim, one sentence removed)
+"Request: generate the campaign hero in Midjourney to save a shoot. No, and this is not a close call. Sŏn uses no AI imagery on any public surface, and the failure-mode reasons are the same as the brand reasons: the face will be a demographic average, the light will be generic softbox, the image will sit in a floating present, and it cannot cast the specific, correctly-read person the campaign needs. [sentence removed: internal AI mood frame routed to a prompt specialist; not permitted]. The hero comes from a real shoot with a real brief. Photography philosophy deferred to canon."
+
+## Example 2, the art-direction gap in critique (verbatim)
+"A proposed hero image. Pass 1: it is well-exposed and competent and it was not directed. The light is even softbox with no source or time of day, the subject's expression is performed rather than felt, the framing is the default hero shot, and there is no cultural or temporal specificity, it could be any restaurant anywhere. The deepest issue is that there is no brief behind it: no casting logic, no wardrobe or prop intention, no grade direction. That is the art-direction gap. Before anything else: build the brief. Who specifically is in frame and how are they read, what is the light doing and when, where and when is this, what is the grade. The camera records the brief; right now there is no brief to record."
+
+## Example 3, the casting lesson (edited from the original, names removed)
+A campaign frame shows a subject who reads as a generic well-dressed diner. For Sŏn that is a casting failure with brand risk: the audience the canon defines must be read correctly in frame, or the image loses the exact audience it is for. Direct the re-cast toward the specific, correctly-read person, with the wardrobe, the gesture, and the grade that locate them in a real, specific moment rather than a stock one. Audience and register are deferred to canon; the seat directs the specificity and does not redefine the audience.

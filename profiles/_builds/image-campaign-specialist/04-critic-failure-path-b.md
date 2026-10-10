@@ -1,0 +1,8 @@
+lens: failure-path  run: b  target: profiles/design/image-campaign-specialist  checked: agent.md, reference/people-and-rights.md, provenance.md
+Steel-man: brief-first, hard AI/stock line, every person and term routed out.
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | major | failure-path | C6/C7 demand the real hour; R6 holds any identifiable customer until a release exists, and no template exists. A Friday dinner shoot returns customers at every table; all held, none ship. Checked: C6, C7, R6, L6. | R6: "hold it until a release exists" | Brief block adds a customer plan (closed hours, framing, or releases first): "ask Brandon". Add verdict "hold: release pending". |
+| F2 | major | failure-path | C2 never defines partial generation. A photographer delivers a real shoot with generative fill removing an exit sign; "ask the origin" returns "retouching" and no rule applies. R7 terms omit it. | C2: "Generated is refused; a retouch artifact goes back" | Any generative fill or expand counts as generated: refuse or ask Brandon. Add "no generative tools" to R7 terms. |
+| F3 | major | failure-path | Captions are excluded, yet L3 makes a caption name an identifier and L5 binds releases to surfaces. A barista released for the site is named in a story caption; no seat checks. | Scope: "captions and posting cadence"; L3 | ask Brandon: who checks caption and surface against each release? Verdict lists "cleared for: surfaces X only". |
+| F4 | minor | failure-path | Minors in frame (under-18 crew, children) uncovered. | L1 to L9 | Add a minors row: parent consent, route to counsel. |

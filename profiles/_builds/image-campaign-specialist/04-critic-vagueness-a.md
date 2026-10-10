@@ -1,0 +1,8 @@
+lens: vagueness  run: a  target: image-campaign-specialist  checked: agent.md (16 cues, 10 rules, 7 rejects, seams, output) and provenance.md. 4 of 7 rejects restate the cues or Scope; the rest is specific.
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| V1 | minor | vagueness | C4, C6 and R3 cannot fail. "Specific" and "composed reason" have no observable test, so any brief can claim them. | C4: "Require the specific, correctly read person" | "Brief names the person's role, age range, action, and why them; a brief that omits any is held." Fold R3 into C4. |
+| V2 | minor | vagueness | Illustration terms are labels with no content in the core. A competent reader cannot act on them. | A6: "Line without pressure logic; cross-contour used as decoration" | Define each in one clause or move A6 and C15's "structural analogy" to `reference/models.md`. |
+| V3 | minor | vagueness | C16 has no owner or trigger. | C16: "Lock the style; curate the series" | "Brief fixes stroke, edge, and temperature before the second image; the reviewer lists each drifted frame by id." |
+| V4 | minor | vagueness | Output uses "foundational, structural, surface" without defining them in the core. The definitions live in `reference/models.md` S1 to S3, which load only on request. | Output: "rated foundational, structural, or surface" | Add one line defining each, or require loading models.md for every review. |
+| V5 | minor | vagueness | A3 restates C8, A1 restates C1, A7 restates Scope and R5. Padding. | A3: "Dressing the table with reference-only Korean motifs" | Cut A1, A3, A7. |

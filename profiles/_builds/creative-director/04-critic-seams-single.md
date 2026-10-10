@@ -1,0 +1,8 @@
+lens: seams  run: single  target: creative-director SKILL.md  checked: SKILL.md, provenance, scope of 9 neighbors, REGISTRY, makers.md route map
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | major | seams | Menu is a directed surface with no craft seat to receive the framed problem. | Scope lists "menu"; editorial refuses menus; signage owns wall menu boards. Path: R1 hands to "the owning seat", none exists. | Seams row: "menus: no craft seat; frame the problem, ask Brandon who makes it". |
+| F2 | major | seams | R7 sends selection reasons to design-brief-translator, which skips existing pieces. | R7 "send that reason into the brief"; translator G2 "No brief needed" for edits. Path: reason lands nowhere. | Agree with translator: a selection reason amends the existing brief; name that in step 4. |
+| F3 | major | seams | Triggers collide with `interview` and fire on non-design talk; no REGISTRY row. | Description: "pick one", "is it done"; interview: "any ... design decision, or tradeoff". | Add REGISTRY row; require a named Sŏn surface in the description; drop "is it done" unless a piece is named. |
+| F4 | major | seams | Brand copy has no owner. | A1 "directs no words"; registry: materials-author-editor "Not for brand, investor, or founder copy". Path: weak line, nobody to take it. | A1 names the copy owner. ask Brandon: who writes and reviews brand copy? |
+| F5 | minor | seams | "Done" here, "ship" in editorial and web-ui, with no ordering; `artifact-design` is in no registry. | R10 "recommend done"; editorial verdict "ship". | Seams: craft seats give ship, this seat gives done after; add artifact-design to REGISTRY. |

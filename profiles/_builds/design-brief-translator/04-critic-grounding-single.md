@@ -1,0 +1,7 @@
+lens: grounding  run: single  target: profiles/design/design-brief-translator  checked: SKILL.md, provenance.md (all 52 ids, counts re-tallied), cards 01-*, 02, 03, 04, 05; design-system readme and paths; kb/tools; decisions.md
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | minor | grounding | R5 treats daypart token names as a canon conflict; the readme calls them sanctioned | R5 "(company name, daypart code names)"; readme l.196 "sanctioned internal design tokens per canon" | R5: flag the company name only; flag a daypart code name only if it would reach consumer-facing text |
+| F2 | minor | grounding | R5 says the system holds every brand fact, then flags the system's company name as conflicting | R5 "holds every brand fact"; 04.1 "rules and vocabulary, never one page's body" | R5: "holds the brand's rules, tokens, and vocabulary; other brand facts come from the white paper" |
+| F3 | minor | grounding | R13 extends a dated rule written for the investor site to every external surface | 04.12 "no external surface names the address"; card tension: "dated, investor site" | ask Brandon: Does the pre-lease no-address rule cover every external surface, or only the investor site (retired 2026-10-07)? |
+| F4 | minor | grounding | R15 says tool grammar lives in kb/tools/; that folder holds one unrelated Box note | R15 "its grammar lives in `kb/tools/`" | R15: "its grammar belongs in `kb/tools/` (not yet written); list it as a gap" |

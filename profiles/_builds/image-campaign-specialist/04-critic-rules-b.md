@@ -1,0 +1,5 @@
+lens: rules  run: b  target: profiles/design/image-campaign-specialist (agent.md, reference/people-and-rights.md, provenance.md)  checked: standing rules by grep (no em dashes, "guest", performed conviction, Airtable), scope, decisions.md in full, personnel and setup-only rules, profile-build rules, seam slugs
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | minor | rules | Rules written as house rules rest on Brandon's 2026-10-10 answers; decisions.md has no entry after 2026-10-09 | prov C1 "Brandon's answers 2026-10-10 (no AI anywhere, mood frames included)"; prov A7 "Brandon 2026-10-10" | ask Brandon: record as decisions? "No AI or stock imagery on any surface, internal mood frames included; seat never decides consent, pay, or usage terms." |
+| F2 | minor | rules | L17 reaches a pay conclusion, against L14 "the seat never sets it" and Scope "Legal questions ... never answered here" | L17 "Never call a shoot 'voluntary' or unpaid ... a shoot for Sŏn is job related" | L17: "If a shoot is described as voluntary or unpaid, flag it to Brandon and counsel; the four-condition meeting test is theirs to apply." |

@@ -35,6 +35,24 @@ Written 2026-10-09 (phase 3, session C, Fable). Our own skill; nothing vendored.
 | source mining (Sonnet, before the build) | general-purpose | 63,849 |
 Total about 493k worker tokens. Flags: skill 3 critic files plus loop raised 0 critical, 8 major (before merging duplicates), 13 minor; judge: 14 accept, 3 reject, 2 ask; verdict "investigate first" pending Brandon's answers. Light on stage 4: 0 critical, 2 major, 4 minor, all six accepted by the session. The custom critic and merger were not exercised (the critics ran before the agent types registered); batch 4 of profile-build measures them.
 
+### Batch 4 of profile-build (2026-10-10): first run with the custom workers
+Five design seats: three at standard (one critic per lens pair shared by all three seats), two at harsh (13 critics), one merger, one Fable judge.
+| Worker | Count | Tokens each | Total |
+|---|---|---|---|
+| `red-team-critic`, single seat, one lens (employee harm, loop) | 5 | 20k to 26k | 111k |
+| `red-team-critic`, two lenses, two seats | 6 | 42k to 70k | 341k |
+| `red-team-critic`, grounding and rules, one seat (opens cards) | 4 | 55k to 70k | 242k |
+| `red-team-critic`, two lenses, three seats (standard) | 3 | 50k to 134k | 269k (the grounding critic alone 134k) |
+| `red-team-merger`, two seats | 1 | 52k | 52k |
+| `red-team-judge` on fable, five seats plus cross-seat seams | 1 | 108k | 108k |
+Red team total about 1.12M for five seats (about 225k per seat), against 1.12M to 1.20M for six seats in batches 2 and 3 with general-purpose critics. The custom critic's fixed cost is about 20k, against 66k to 100k for a general-purpose critic in the self-test; the variable cost is what the critic opens (grounding opens cards).
+
+Comparison (state.md asked for it): one Opus general-purpose agent did a single careful review of the image seat's pre-red-team draft, all lenses at once, 82k tokens. Against the harsh panel's merged flags for the same draft:
+- Both caught: team members flagged but not held; no penalty-free refusal and no takedown on departure; casting by look or ethnicity; no hold verdict; generative fill passing as retouch; captions unowned; the likeness statute misapplied to living people; HR seats that do not own likeness. The single review rated the casting risk critical where the panel rated it major.
+- Only the panel caught: the advocate gate was the drafter's rule and Brandon never saw it (the loop lens; the single review had no session brief); per-person release status readable by coworkers in the brief; the person's right to preview and strike their frame; type-zone and crop ownership across three seats; the signature call duplicating the creative director.
+- Only the single review caught: maker terms silent on portfolio use and AI-training use of a person's likeness (applied to R7 after the judge). One single-review flag was an artifact of the comparison setup (reference files not exported).
+- Reading: one careful reviewer finds most of the content at about a third of the per-seat cost; the blind panel's margin is the session check, neighbor seams, and second-order privacy items. Keep the panel at harsh; consider one careful reviewer plus the loop and seams lenses for standard seats (Brandon's call; not changed here).
+
 ## Known limits
 - Worker agents created this session became callable in the same session once their files existed, with no restart. The self-test's critics had already run as general-purpose agents (about 66k to 100k each, against about 12k to 25k measured for custom workers). Log batch 4's custom-worker tokens here.
 - Blind subagent critics have not been compared against one careful single review on the same target. Batches 1 to 3 of profile-build (96, 59, and 82 merged flags, nearly all accepted) are the evidence so far; a comparison on one batch 4 seat would settle it.

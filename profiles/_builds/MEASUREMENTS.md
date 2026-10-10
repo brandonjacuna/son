@@ -97,3 +97,20 @@ Six seats: hospitality-craft-educator (rebuild; skill + agent), values-belonging
 
 ## Next-session check, batches 1 to 3 (2026-10-09, after approval)
 Six real agents called by slug with their T1 task (hr-implementer, culture-implementer, instructional-designer, learner-advocate, bar-designer, values-belonging-designer; two per batch, covering haiku and the build-out cluster). All six loaded and applied CLAUDE.md standing rules unprompted ("customer," no em dashes, Brandon decides personnel, counsel first where named). 13k to 52k tokens each. Outputs were tests only; nothing was written to any workstream.
+| 2026-10-10 | design-brief-translator | 77.5 KB | 30.5 KB | 9.7 KB (~2474 tok) | 11.9 KB | | | |
+| 2026-10-10 | web-ui-specialist | 111.6 KB | 23.4 KB | 11.9 KB (~3052 tok) | 10.7 KB | | | |
+| 2026-10-10 | creative-director | 55.8 KB | 12.7 KB | 8.5 KB (~2170 tok) | 7.5 KB | | | |
+| 2026-10-10 | editorial-layout-specialist | 72.6 KB | 18.4 KB | 11.2 KB (~2875 tok) | 7.3 KB | | | |
+| 2026-10-10 | image-campaign-specialist | 89.1 KB | 19.5 KB | 10.7 KB (~2745 tok) | 9.0 KB | | | |
+
+## Batch 4 (design in code), 2026-10-10
+Five seats: design-brief-translator (merge, skill), web-ui-specialist (merge, harsh), creative-director (revise, skill), editorial-layout-specialist (revise), image-campaign-specialist (revise, harsh). Retired: 03 Brand Identity, 10 Motion and Interaction.
+| Measure | Result |
+|---|---|
+| Per-call load | agents 10.7 to 11.9 KB; skills 8.5 and 9.7 KB, loaded only on trigger |
+| Worker tokens | about 2.9M for the batch, about 580k per seat (batch 3: about 490k). Recorded by stage: frame 180k, scout and plumbing check 218k, extract 64k recorded plus 14 extractors lost to a worker restart (about 350k estimated), draft 475k, red team 1.17M (16 critics 849k, merger 52k, fable judge 108k, applier 159k), tests 346k. Plus an 82k comparison review for the red-team skill |
+| Savings that worked | custom red-team workers (20k fixed cost against 66k to 100k general-purpose); one critic per lens pair shared by the three standard seats; one Fable framer and one Fable judge for the batch |
+| Cost of mistakes | two tests contradicted Brandon's stage 0 answers and were caught only at grading (stage 0 alignment must check every test row against every answer); one runner wrote a baseline after reading the seat (rerun fresh) |
+| Tests | 25 of 25 pass after two replacements (editorial T2, web-ui T1); two thin passes for want of attachments (editorial T3, image T3) |
+| Model line | web-ui opus to sonnet (both hardest tests hold); editorial stays sonnet (haiku weaker); image sonnet by stakes; the two skills run on the session model |
+| Red team | standard seats 61 flags, 53 accepted; harsh seats 24 merged flags (3 critical), 22 accepted; 8 cross-seat seams, 7 accepted, 1 ask; 5 asks total, 3 answered by Brandon, 2 parked in state.md |

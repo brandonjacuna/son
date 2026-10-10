@@ -1,0 +1,1 @@
+No brief needed (G3): the investor deck refresh and the Investor Review workbook figures are investor material. Route to the founder seats (pitch deck architect, investor design director, financial exhibit architect). Figures come only from the workbook in Box (Sŏn / 02. Capital Raise); this seat writes none.

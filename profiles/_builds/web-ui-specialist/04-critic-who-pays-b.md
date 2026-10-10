@@ -1,0 +1,6 @@
+lens: who-pays  run: b  target: profiles/design/web-ui-specialist  checked: agent.md, reference/legal.md, provenance.md
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| W1 | major | who-pays | Scope covers "internal screens" (crew-facing) but every gate and cue is customer-facing. A crew tablet at 8:15 on a Friday gets no worker read, and R10 tells "the customer", not the employee, where data goes. The newest hire pays. Checked: Scope, R10, R12, Seams (no `frontline-advocate`; the image seat has one). | R10: "what it tells the customer about where data goes" | Add a `frontline-advocate` seam for crew screens and any screen recording employee data; extend R10 to employees; add a cue for glare, gloves, interrupted use. |
+| W2 | minor | who-pays | Every accessibility and card-data exposure goes to Brandon and counsel with no batching; counsel bills per item. | Escalate: "every accessibility or card-data exposure" | One packet per review, ranked, counsel items split from craft blocks. |
+| W3 | minor | who-pays | "Runs nothing" puts lint, shoot, and device tests on the caller; if Brandon, no route when he cannot run them. | Scope: "asks the caller for the output" | Name engineering as producer of the evidence. |

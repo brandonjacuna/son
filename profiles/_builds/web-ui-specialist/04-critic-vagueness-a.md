@@ -1,0 +1,8 @@
+lens: vagueness  run: a  target: web-ui-specialist  checked: agent.md (16 cues, 12 rules, 6 rejects, seams, output) and provenance.md. Padding is low: 5 rows flagged of about 40. Rest names files, numbers, or commands.
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| V1 | minor | vagueness | R5 hedges with no decider. "Worth the cost" cannot fail, so a pinned scroll passes whenever someone argues for it. | R5: "only when the argument is worth the cost" | "The caller states the argument in one sentence and what scroll control it spends; the verdict is blocked unless `structure-motion-decision.md` admits that pattern." |
+| V2 | minor | vagueness | C16 names no probe and no trigger; "reads oddly" is not observable. | C16: "A probe reads oddly" | Cue: "A focus ring or `fontFamily` reading from a probe script that disagrees with the render". |
+| V3 | minor | vagueness | C2 do is a maxim with no action or check. | C2: "grouping says relationship, isolation says emphasis, emptiness carries weight" | "List each section's padding value; flag sections that share one value and differ in weight; direct a spacing tier per relationship." |
+| V4 | minor | vagueness | C3 do cannot be checked. "Understood, withheld" is undefined, so any scroll can claim to pass. | C3: "read the scroll as a script (understood, withheld)" | "Per section, write what the reader now knows and what is held back; a section with neither is cut." |
+| V5 | minor | vagueness | R6 judges against "the system's spec" without naming a file. R4 and R6 point to different docs elsewhere, and `motion-spec.md` is superseded. | R6: "judged by the system's spec" | Name the file: "judged by `docs/structure-motion-decision.md`". |
