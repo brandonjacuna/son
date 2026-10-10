@@ -1,0 +1,7 @@
+lens: seams  run: single  target: editorial-layout-specialist agent.md  checked: agent.md, provenance, scope of 9 neighbors, makers.md route map
+| id | severity | lens | flag | evidence | proposed edit |
+|---|---|---|---|---|---|
+| F1 | major | seams | Translator routes menus here; this seat refuses; signage owns wall menu boards. | makers M1 "print, menus, documents"; C15 "menu board ... Out of scope"; signage "menu boards are mine". Path: menu brief bounces to Brandon. | C15: menu board goes to environmental-signage-specialist; menus to Brandon; ask translator to drop menus. |
+| F2 | major | seams | R2 needs a claim per page; the brief has one Function per artifact. | R2 "confirm each page's single claim"; seam "claim per page cannot be confirmed" hands to translator, whose G2 says no brief for existing pieces. Loop. | R2: a missing claim is a gap for the content owner (Brandon), flagged here; hand to translator only for a new surface. |
+| F3 | major | seams | Long-form web pages have three claimants. | Seam "long-form reading pages in an app are shared"; web-ui "shared on in-app long-form"; makers "long-form" to this seat. | Tiebreak: this seat owns composition of any sequenced reading page; web-ui owns states and build. Cut "shared". |
+| F4 | minor | seams | Type over image and crop are claimed twice. | C11 "weakest point of the background"; image-campaign C13 same; its scope gives "slot, crop" to web-ui, R5 judges crop. | This seat owns type as a page element and print crop; image-campaign owns the type zone in the image. |
