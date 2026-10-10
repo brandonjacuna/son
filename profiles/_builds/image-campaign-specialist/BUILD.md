@@ -12,3 +12,5 @@ cluster: design | old: design-translating-team 07
 | 5 | baselines T1-T5, all 5 seats in one runner | sonnet (profile-runner) | 35,786 shared (~7k per seat) | tests/T*-base.md |
 | 3 | drafter | opus | 88,573 | agent.md 10.1 KB; reference 8.8 KB; provenance 10.2 KB (50 sourced, 9 inferred, 9 project); description trimmed by the orchestrator |
 | 4 | note | | | harsh seams/vagueness critic b read part of 00-frame.md while grepping; cited nothing from it (logged as a minor blindness breach) |
+| 4 | 16 critics across the batch (3 standard shared by 3 seats; 13 harsh for web-ui and image) | sonnet (red-team-critic, custom) | 848,980 batch total (20k to 134k each; see red-team SOURCE.md) | 04-critic-*.md |
+| 4 | merger, both harsh seats | sonnet (red-team-merger) | 52,360 shared | 04-flags.md |

@@ -11,3 +11,4 @@ cluster: design | old: design-translating-team 01 + 02 + 08
 | 2 | extractors (14 across the batch) | sonnet (profile-extractor) | not recorded (worker restart lost the usage lines) | extract/*.md |
 | 5 | baselines T1-T5, all 5 seats in one runner | sonnet (profile-runner) | 35,786 shared (~7k per seat) | tests/T*-base.md |
 | 3 | drafter | opus | 106,014 | SKILL.md 9.3 KB (8.3 KB body); reference 11.5 KB; provenance 10.0 KB (37 sourced, 4 inferred, 11 project); description trimmed by the orchestrator |
+| 4 | 16 critics across the batch (3 standard shared by 3 seats; 13 harsh for web-ui and image) | sonnet (red-team-critic, custom) | 848,980 batch total (20k to 134k each; see red-team SOURCE.md) | 04-critic-*.md |
