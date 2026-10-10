@@ -20,3 +20,4 @@ cluster: design | old: design-translating-team 04
 | 5 | grader, 3 seats | sonnet (profile-grader) | 43,177 shared | 14 of 15 pass; editorial T2 replaced (stage 0 alignment miss) |
 | 5 | rerun T2 with (and a contaminated base, redone fresh) | sonnet (profile-runner) | 18,788 | tests/T2-with.md |
 | 5 | fresh T2 baseline | sonnet (profile-runner) | 11,138 | tests/T2-base.md |
+| 5 | tier check T1, T5 on haiku | haiku (profile-runner) | 21,347 | tests/T*-with-haiku.md |

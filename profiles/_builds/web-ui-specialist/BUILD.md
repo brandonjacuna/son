@@ -18,3 +18,4 @@ cluster: design | old: design-translating-team 05 + 10
 | 5 | T1 replaced once: the baseline also passed, and the old catch ('drop birthday') contradicted Brandon's 2026-10-10 answer (the seat flags fields, never decides collection). New T1: third-party scripts on a hosted-field payment page, focus obscured, error by color only |
 | 5 | grader, 2 seats | sonnet (profile-grader) | 32,502 shared | 9 of 10 pass; web-ui T1 base also passed, replaced once |
 | 5 | rerun T1 with and base (base written first, clean) | opus (profile-runner) | 20,566 | tests/T1-with.md, T1-base.md |
+| 5 | tier check T1, T2 on sonnet | sonnet (profile-runner) | 31,487 | tests/T*-with-sonnet.md |
